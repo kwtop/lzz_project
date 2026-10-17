@@ -1,0 +1,52 @@
+/* One parent destination, a separate disclosure control and matching children. */
+body.brand-site .site-header.navigation-polished #main-nav>.nav-item {display:flex;align-items:center;position:relative;gap:0}
+body.brand-site .site-header.navigation-polished #main-nav .nav-root {display:flex;align-items:center;min-height:44px;padding:8px 2px;font-size:15px;font-weight:500;white-space:nowrap;text-decoration:none;color:inherit}
+body.brand-site .site-header.navigation-polished #main-nav .nav-root[aria-current] {text-decoration:underline;text-underline-offset:7px}
+body.brand-site .site-header.navigation-polished #main-nav .nav-item>.nav-group {position:static}
+body.brand-site .site-header.navigation-polished #main-nav .nav-group>summary {width:24px;min-height:44px;padding:0!important;justify-content:center;box-shadow:none!important;border:0}
+body.brand-site .site-header.navigation-polished #main-nav .nav-group>summary::after {margin:0 0 4px;flex-shrink:0}
+.nav-trigger-label {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+body.brand-site .site-header.navigation-polished #main-nav .nav-item:nth-last-child(-n+2) .nav-panel {left:auto;right:0}
+body.brand-site .site-header.navigation-polished #main-nav .nav-item:first-child {position:static}
+body.brand-site .site-header.navigation-polished #main-nav .nav-item:first-child .nav-panel {left:0;right:auto;top:100%}
+body.brand-site .site-header.navigation-polished #main-nav .nav-panel>.nav-overview {margin-top:12px;padding-top:14px;border-top:1px solid #e6e8e9;border-bottom:0;font-size:14px}
+body.brand-site .site-header.navigation-polished #main-nav .nav-root:focus-visible {outline:2px solid var(--red);outline-offset:4px}
+@media(max-width:1100px){
+ body.brand-site .site-header.navigation-polished .menu-toggle {display:block}
+ body.brand-site .site-header.navigation-polished .header-quote {margin-left:auto}
+ body.brand-site .site-header.navigation-polished #main-nav {display:none;position:absolute;top:100%;left:0;right:0;margin:0;padding:14px 24px 24px;background:#fff;color:#282c2f;max-height:calc(100dvh - 82px);overflow:auto;border-bottom:1px solid #dfe2e4;box-shadow:0 12px 28px #18212a14}
+ body.brand-site .site-header.navigation-polished.menu-open #main-nav {display:block}
+ body.brand-site .site-header.navigation-polished #main-nav>.nav-item {display:grid;grid-template-columns:1fr 44px;border-bottom:1px solid #e6e8e9;position:relative}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-root {padding-block:14px;font-size:16px!important;align-self:start;min-height:52px}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-group {display:contents}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-group>summary {width:44px;min-height:52px;grid-column:2;grid-row:1}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-group>.nav-panel {position:static;grid-column:1/-1;grid-row:2;width:auto;max-height:none;padding:6px 0 18px 12px;margin:0;border:0;box-shadow:none;animation:none}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-group:not([open])>.nav-panel {display:none}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-columns {grid-template-columns:1fr;gap:20px;display:grid}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-columns>div+div {border:0;padding:0}
+ body.brand-site .site-header.navigation-polished #main-nav .nav-panel a {padding:10px 12px}
+ body.brand-site .site-header.navigation-polished.menu-open {background:#fff;color:#282c2f}
+ body.brand-site.home-refined .site-header.navigation-polished.menu-open .brand-logo {filter:none}
+ body.brand-site.home-refined .site-header.navigation-polished.menu-open .menu-toggle span {background:#282c2f}
+}
+@media(min-width:1101px){body.brand-site .site-header.navigation-polished .menu-toggle {display:none}}
+@media(min-width:1101px) and (max-width:1200px){body.brand-site .site-header.navigation-polished #main-nav {gap:18px}}
+body.brand-site main#main .site-breadcrumb {display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 12px;width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2));margin:0 auto;padding-block:26px 0;font-family:var(--font-text);font-size:15px;line-height:1.55;color:#666f74}
+body.brand-site main#main .site-breadcrumb :is(a,span) {font-size:inherit;line-height:inherit;color:inherit;text-decoration:none;overflow-wrap:anywhere}
+body.brand-site main#main .site-breadcrumb a:hover {text-decoration:underline;text-underline-offset:4px}
+.section-hub {width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2));margin-inline:auto;padding-bottom:40px}
+.section-hub-intro {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;padding-block:42px 52px}
+.section-hub-intro h1 {margin:0 0 22px}.section-hub-intro p {max-width:55ch;font-size:18px;line-height:1.65;color:var(--muted);margin:0}
+.section-hub-intro figure {margin:0;max-width:520px;justify-self:end}.section-hub-intro figcaption {font-size:13px;color:var(--muted);margin-top:12px;line-height:1.55}
+.section-hub-pages {border-top:1px solid var(--border);padding-block:38px 20px}
+.section-hub-pages>header {display:flex;gap:24px;justify-content:space-between;align-items:baseline;margin-bottom:30px}
+.section-hub-pages>header h2 {font-size:30px;margin:0}.section-hub-pages>header p {color:var(--muted);font-size:14px;margin:0}
+.section-hub-pages>div {display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+.section-hub-pages article {border-top:1px solid var(--border);padding-block:26px}
+.section-hub-pages h3 {font-size:23px;margin:0 0 12px}.section-hub-pages h3 a {display:inline-flex;align-items:center;min-height:44px;color:inherit;text-decoration:none;border-bottom:1px solid #899297}
+.section-hub-pages p {font-size:16px;line-height:1.7;color:var(--muted);margin:0;max-width:52ch}
+@media(max-width:760px){
+ .section-hub-intro {grid-template-columns:1fr;gap:24px;padding-block:30px 36px}.section-hub-intro figure {justify-self:start;width:100%}.section-hub-intro p {font-size:16px}
+ .section-hub-pages>header {display:block}.section-hub-pages>header p {margin-top:12px}.section-hub-pages>div {grid-template-columns:1fr}
+ body.brand-site main#main .site-breadcrumb {font-size:14px;padding-top:22px}.section-hub-pages {padding-top:30px}
+}

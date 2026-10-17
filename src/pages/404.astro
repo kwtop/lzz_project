@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/utility-approved.css';
+---
+<Layout title="Page not found" description="The requested LZZ page could not be found. Explore machining capabilities or browse original part examples." noindex={true} cta={false} designPath="/404.html">
+ <section class="ut-error ut-recovery ut-recovery-visual rd-wrap rd-page">
+  <header data-core-section="Error and home recovery">
+   <p class="ut-error-code">404</p>
+   <h1>Page not found</h1>
+   <p>The link may be incorrect or the page may have moved. Return home or choose a topic.</p>
+   <a class="ut-home-link rd-button" href="/">Back to home</a>
+  </header>
+  <nav aria-label="Find another page" data-core-section="Choose a useful topic">
+   <a href="/machined-parts/gallery/" data-image-origin="original-photo">
+    <img src="/media/product-sources-20261015/p02-800.webp" width="800" height="800" alt="Machined impeller reference for browsing similar part forms"/>
+    <div><strong>Browse parts gallery</strong><span>Find a component with related geometry.</span></div>
+   </a>
+   <a href="/capabilities/" data-image-origin="original-photo-crop">
+    <img src="/media/products-real-details-20261015/milling-enclosure-operation.webp" width="736" height="564" alt="Original photograph showing the milling tool, workpiece and vise"/>
+    <div><strong>Machining capabilities</strong><span>Explore processes, materials and order stages.</span></div>
+   </a>
+   <a href="/resources/" data-image-origin="AI-generated">
+    <img src="/media/image-led-20261015/definition-800.webp" width="800" height="533" alt="AI illustration of a model, drawing and sample for engineering guide navigation"/>
+    <div><strong>Ordering &amp; machining guides</strong><span>Prepare drawing requirements, comparisons and approvals.</span><small>AI illustration</small></div>
+   </a>
+  </nav>
+ </section>
+</Layout>

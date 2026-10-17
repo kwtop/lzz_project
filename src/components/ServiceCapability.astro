@@ -1,0 +1,80 @@
+---
+import RfqPanel from './RfqPanel.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import catalog from '../data/catalog.json';
+import {productImage,productSrcset} from '../data/productImages';
+import {productTitle,productImageAlt} from '../data/presentation';
+import {capabilityContent} from '../data/capabilityContent';
+import {capabilityOverview} from '../data/capabilityOverview';
+import {capabilityReview,capabilityExamples,exampleComparison} from '../data/capabilityEditorial';
+import {capabilityReferences} from '../data/capabilityReferences';
+import {caseForCapability} from '../data/cases';
+import {serviceReading} from '../data/serviceReading';
+import {photo} from '../data/evidence';
+import '../styles/turning-capability.css';
+import '../styles/service-reading.css';
+interface Props {slug:string;quoteHref:string}
+const {slug,quoteHref}=Astro.props;
+const plan=serviceReading[slug];
+const isSample=slug==='starting-with-a-sample';
+const content=capabilityContent[slug];
+const overview=capabilityOverview[slug];
+const review=capabilityReview[slug];
+const intro=isSample?'Start a custom machining project from an existing part. Review the sample, reconstruct its geometry and approve drawings, material and acceptance requirements before production.':content.description;
+const workholding=isSample?'Provide overall dimensions, close photographs, mating parts and available drawings. Discuss the physical sample and how inaccessible features will be measured.':overview.workholding;
+const productSlugs=isSample?['oem-precision-cnc-machined-casting-housings']:capabilityExamples[slug];
+const products=productSlugs.map(key=>catalog.products.find(p=>p.slug===key)!);
+const hero=products[0];
+const shaftSlug='custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier';
+const imageFor=(p:typeof hero)=>p.slug===shaftSlug?'/media/turning-reading-20261014/shaft-retouched-1200.webp':productImage(p);
+const srcsetFor=(p:typeof hero)=>p.slug===shaftSlug?[480,800,1200].map(w=>`/media/turning-reading-20261014/shaft-retouched-${w}.webp ${w}w`).join(', '):productSrcset(p);
+const altFor=(p:typeof hero)=>p.slug===shaftSlug?'Turned shaft with flange, shoulders and thread; AI-retouched source photograph':productImageAlt(p);
+const imageNote=hero.slug===shaftSlug?'AI-retouched source photograph.':undefined;
+const photoSteps=plan.steps.filter(step=>step.photo);
+const cases=caseForCapability(slug);
+const reference=capabilityReferences[slug]?.filter(r=>r.label!=='Production, from 1 piece')||[];
+const materialIntro=isSample?'Record what is known and identify the gaps. The approved drawing establishes the material and finish for the new part.':'Select material, stock condition and finish together. These are options to discuss; availability and suitability are confirmed for your drawing.';
+const leadTime=isSample?'Production takes 7–14 business days after drawing and order confirmation, including finishing. Shipping is additional. Agree reconstruction and drawing-approval timing separately.':'Production takes 7–14 business days after drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.';
+const questions=[...plan.questions,{question:isSample?'How is the schedule agreed?':'How long does production take?',answer:leadTime}];
+const inquiryInputs=isSample?['Sample photographs, dimensions and mating parts','Known material, finish and current drawings','Wear, damage and intended changes','Model and drawing deliverables required','First-part quantity and acceptance checks','Repeat demand, destination and requested date']:[...(review?.inputs||[]),'Quantity, delivery destination and requested date','Current drawing, model and revision'];
+---
+<article class="tc-page service-reading" data-service={slug}>
+ <DisclosureAnchors/>
+ <div class="tc-wrap">
+  
+  <section class="tc-hero" aria-labelledby="service-title">
+   <header class="tc-intro"><h1 id="service-title">{plan.title}</h1><p>{intro}</p></header>
+   <figure class="tc-hero-image"><img src={imageFor(hero)} srcset={srcsetFor(hero)} sizes="(max-width:760px) calc(100vw - 44px), 48vw" width="1200" height="1200" alt={altFor(hero)} fetchpriority="high"/>{imageNote&&<figcaption>{imageNote}</figcaption>}</figure>
+   <div class="tc-order"><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7–14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional.{isSample&&' Reconstruction and approval timing are agreed separately.'}</p><a class="tc-primary" href={quoteHref}>Prepare RFQ email</a></div>
+  </section>
+  <section class="tc-section" id="part-examples" aria-labelledby="service-parts-title">
+   <header class="tc-section-head"><h2 id="service-parts-title">{plan.exampleHeading}</h2><p>{plan.exampleIntro}</p></header>
+   <div class:list={['tc-parts',{'service-single-example':products.length===1}]}>{products.map(p=><article><a class="tc-part-image" href={'/machined-parts/gallery/'+p.slug+'/'} aria-label={'View '+productTitle(p)}><img src={imageFor(p)} srcset={srcsetFor(p)} sizes="(max-width:760px) calc(100vw - 44px), 30vw" width="1200" height="1200" loading="lazy" alt={altFor(p)}/></a><div><h3>{productTitle(p)}</h3><p>{exampleComparison[p.slug]||'A housing example with machined interfaces. Define the replacement geometry and acceptance requirements from the approved drawing.'}</p>{p.slug===shaftSlug&&<p class="tc-image-note">AI-retouched source photograph.</p>}<a class="tc-secondary" href={'/machined-parts/gallery/'+p.slug+'/'}>View part requirements</a></div></article>)}</div>
+  </section>
+  <section class="tc-section" id="materials-finishes" aria-labelledby="service-material-title">
+   <header class="tc-section-head"><h2 id="service-material-title">{plan.materialHeading||'Materials & finishes'}</h2><p>{materialIntro}</p></header>
+   <table class="tc-materials"><thead><tr><th scope="col">{isSample?'Information':'Material / scope'}</th><th scope="col">Specification</th><th scope="col">Finish / treatment</th><th scope="col">Drawing considerations</th></tr></thead><tbody>{plan.materials.map(r=><tr><th scope="row">{r.name}</th><td data-label="Specification">{r.grades}</td><td data-label="Finish / treatment">{r.finish}</td><td data-label="Drawing considerations">{r.review}</td></tr>)}</tbody></table>
+   {plan.materialNote&&<p class="service-note">{plan.materialNote}</p>}
+   <div class="tc-section-links"><a class="tc-secondary" href="/resources/technical-guides/material-and-finish-checklist/">Material & finish checklist</a></div>
+  </section>
+  <section class="tc-section" id="engineering-fit" aria-labelledby="service-inspection-title">
+   <header class="tc-section-head"><h2 id="service-inspection-title">{isSample?'Drawing approval & first-part checks':'Dimensions, tolerances & inspection'}</h2><p>{isSample?'Approve the requirements before manufacture. The sample and its condition inform the model; the drawing defines acceptance.':content.scope}</p></header>
+   <div class="tc-geometry"><figure><img src={plan.geometry.stem?plan.geometry.stem+'-1200.webp':plan.geometry.src} srcset={plan.geometry.stem?[480,800,1200,1536].map(w=>`${plan.geometry.stem}-${w}.webp ${w}w`).join(', '):undefined} sizes="(max-width:760px) calc(100vw - 44px), 52vw" width="1536" height="1024" loading="lazy" alt={plan.geometry.alt}/><figcaption>{plan.geometry.caption}</figcaption></figure><div><h3>{plan.geometry.title}</h3><p>{plan.geometry.text}</p><h3 id="size-and-setup-review">{isSample?'Sample information to review':'Size & workholding review'}</h3><p>{workholding}</p>{slug==='5-axis-cnc-machining'&&<p class="service-note">Provide finished and blank dimensions and weight. Machine and fixture limits are assessed per drawing.</p>}</div></div>
+   <div id="capability-scope"><h3 class="tc-table-title" id="inspection">{isSample?'Requirements to approve before manufacture':'From drawing requirements to acceptance checks'}</h3><table class="tc-checks"><thead><tr><th scope="col">Feature / decision</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{plan.checks.map(r=><tr><th scope="row">{r.feature}</th><td data-label="Specify on the drawing">{r.drawing}</td><td data-label="Agree before production">{r.inspection}</td></tr>)}</tbody></table></div>
+   {reference.length>0&&<div id="reference-figures" class="service-note">{reference.map(r=><p><strong>{r.label}: {r.value}.</strong> {r.text}</p>)}</div>}
+   <div class="tc-quality" id={isSample?'sample-approval':undefined}><figure><EvidenceImage id="cmm-detail" sizes="(max-width:760px) 140px, 160px"/><figcaption>LZZ coordinate measuring machine.</figcaption></figure><div><h3>{isSample?'Agree the first-part review':'Inspection follows the requirement'}</h3><p>{isSample?'Define the measurement method, acceptance limits and records. Agree fit or functional evaluation and who approves the first part before repeat production.':overview.inspection}</p><a class="tc-secondary" href="/factory/#quality">Quality control & inspection</a></div></div>
+  </section>
+  <section class="tc-section" id="machining-studies" aria-labelledby="service-process-title">
+   <header class="tc-section-head"><h2 id="service-process-title">{plan.workflowTitle}</h2><p>{plan.workflowIntro}</p></header>
+   <div class="tc-process service-steps" id={isSample?'sample-review':undefined}>{plan.steps.map((step,i)=><article><h3><span class="tc-number" aria-hidden="true">0{i+1}</span>{step.title}</h3><p>{step.text}</p></article>)}</div>
+   {photoSteps.length>0&&<div class="service-evidence" style={`--evidence-columns:${photoSteps.length}`}>{photoSteps.map(step=><figure style={`--photo-ratio:${photo(step.photo!).width}/${photo(step.photo!).height}`}><div class="tc-process-image"><EvidenceImage id={step.photo!} sizes="(max-width:760px) calc(100vw - 44px), 30vw"/></div><figcaption>{step.caption||photo(step.photo!).caption}</figcaption></figure>)}</div>}
+   {cases.length>0&&<div class="service-study-links" aria-label="Related machining examples">{cases.map(c=><a class="tc-secondary" href={'/machined-parts/machining-examples/'+c.slug+'/'}>{c.title}</a>)}</div>}
+   {slug==='casting-machining'&&<div class="service-note" id="sample-to-part"><p>Have a sample instead of a complete drawing? Agree reconstruction, hidden-feature measurements and approval before machining.</p><a class="tc-secondary" href="/capabilities/starting-with-a-sample/">Sample-to-part process</a></div>}
+   {slug==='plastic-machined-parts'&&<div class="service-video"><WorkshopVideo id="peek-parts" title="PEEK machined parts: a closer look" description="PEEK components with perimeter holes and parallel slots." compact/></div>}
+  </section>
+  <section class="tc-section tc-faq" aria-labelledby="service-faq-title"><h2 id="service-faq-title">Questions before ordering</h2><div>{questions.map(q=><section><h3>{q.question}</h3><p>{q.answer}</p></section>)}</div></section>
+  <RfqPanel id="enquiry" title={plan.rfqTitle} description={isSample?'Describe the sample, its mating parts and the changes you need.':'Send your drawing, material and quantity.'} href={quoteHref} contained><div slot="details" id={isSample?'sample-inputs':undefined}><h3>Include with your inquiry</h3><ul class="tc-rfq-checklist">{inquiryInputs.map(item=><li>{item}</li>)}</ul>{!isSample&&<div class="service-rfq-notes">{content.rfq.map(p=><p>{p}</p>)}</div>}</div></RfqPanel>
+ </div>
+</article>

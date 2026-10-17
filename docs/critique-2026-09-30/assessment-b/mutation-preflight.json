@@ -1,0 +1,9 @@
+{
+  "nativeAttempt": "cua.createBrowserTab chrome",
+  "nativeError": "nodeRepl.fetch request failed",
+  "fallback": "Playwright Chromium channel chrome, new headless context and page",
+  "titleMutation": true,
+  "scriptAppended": true,
+  "scriptExecuted": true,
+  "url": "http://127.0.0.1:4323/"
+}

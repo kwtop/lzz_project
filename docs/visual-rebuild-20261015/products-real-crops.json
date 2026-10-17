@@ -1,0 +1,100 @@
+[
+  {
+    "id": "p33",
+    "source": "public/media/product-sources-20261015/p33-1200.webp",
+    "output": "public/media/products-real-details-20261015/p33.webp",
+    "crop": {
+      "left": 70,
+      "top": 320,
+      "width": 390,
+      "height": 370
+    },
+    "width": 390,
+    "height": 370,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  },
+  {
+    "id": "five-axis-operation",
+    "source": "public/media/evidence/five-axis-operation-1600.webp",
+    "output": "public/media/products-real-details-20261015/five-axis-operation.webp",
+    "crop": {
+      "left": 480,
+      "top": 312,
+      "width": 688,
+      "height": 576
+    },
+    "width": 688,
+    "height": 576,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  },
+  {
+    "id": "turn-mill-operation",
+    "source": "public/media/evidence/turn-mill-operation-1600.webp",
+    "output": "public/media/products-real-details-20261015/turn-mill-operation.webp",
+    "crop": {
+      "left": 448,
+      "top": 300,
+      "width": 736,
+      "height": 516
+    },
+    "width": 736,
+    "height": 516,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  },
+  {
+    "id": "two-stage-first",
+    "source": "public/media/evidence/two-stage-first-1600.webp",
+    "output": "public/media/products-real-details-20261015/two-stage-first.webp",
+    "crop": {
+      "left": 432,
+      "top": 300,
+      "width": 752,
+      "height": 540
+    },
+    "width": 752,
+    "height": 540,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  },
+  {
+    "id": "two-stage-second",
+    "source": "public/media/evidence/two-stage-second-1600.webp",
+    "output": "public/media/products-real-details-20261015/two-stage-second.webp",
+    "crop": {
+      "left": 432,
+      "top": 300,
+      "width": 752,
+      "height": 540
+    },
+    "width": 752,
+    "height": 540,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  },
+  {
+    "id": "milling-enclosure-operation",
+    "source": "public/media/evidence/milling-enclosure-operation-1600.webp",
+    "output": "public/media/products-real-details-20261015/milling-enclosure-operation.webp",
+    "crop": {
+      "left": 480,
+      "top": 372,
+      "width": 736,
+      "height": 564
+    },
+    "width": 736,
+    "height": 564,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  },
+  {
+    "id": "multi-feature-milling-operation",
+    "source": "public/media/evidence/multi-feature-milling-operation-1600.webp",
+    "output": "public/media/products-real-details-20261015/multi-feature-milling-operation.webp",
+    "crop": {
+      "left": 384,
+      "top": 324,
+      "width": 816,
+      "height": 576
+    },
+    "width": 816,
+    "height": 576,
+    "operation": "Real pixel crop only; no enlargement, reconstruction or background replacement."
+  }
+]

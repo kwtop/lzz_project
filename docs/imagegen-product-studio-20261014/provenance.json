@@ -1,0 +1,2003 @@
+[
+  {
+    "id": 0,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-00-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete machined aluminum annular circular component from the reference, with concentric bores, small bolt holes and larger surrounding pockets. Photograph it slightly tilted so its thickness and front-face features are both clear. Preserve the round mechanical geometry and brushed aluminum finish.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-0658be4f-dd4e-4a31-9daa-e8a1ea5e55fa.png",
+    "slug": "custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm",
+    "title": "Multi-bore circular milled component",
+    "oldDisplay": "/media/responsive/catalog-00-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-00-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5888
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8732
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 11940
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15096
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 22582
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 30860
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 38862
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 53048
+      },
+      {
+        "src": "/media/product-studio/catalog-00-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 75084
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "c50a291033275fd6b04e168e7d37682149a99c4a69029bf9be76da4a67a17390"
+  },
+  {
+    "id": 1,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-01-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: TWO representative silver milled parts from the reference collage: the block with a large circular bore, and a compact angular mounting bracket. Compose them on one shared studio surface with clear separation and consistent perspective. Do not reproduce the nine-item catalogue collage or introduce other products.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-86a6c8fb-7898-4ca1-9936-b17e5474677f.png",
+    "slug": "custom-oem-high-precision-cnc-milling-manufacturer",
+    "title": "Milled instrument blocks & brackets",
+    "oldDisplay": "/media/responsive/catalog-01-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-01-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4122
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6162
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 8310
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 10674
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 16220
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 22346
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 29674
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 42094
+      },
+      {
+        "src": "/media/product-studio/catalog-01-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 66620
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "a959846f4db414d865f17b6b217eb15b8473291c9f1d216f9dcbec0724541b49"
+  },
+  {
+    "id": 3,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-03-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete silver tapered cylindrical threaded component as shown in the reference: a hollow threaded upper neck on a broad conical machined body. Preserve its geometry and thread type. Give the bore a readable soft shadow, natural concentric machining marks and a refined satin finish.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-a968547a-b0bf-4dc0-b7fc-d9cb649fbbc6.png",
+    "slug": "global-oem-precision-machining-solutions",
+    "title": "Ring housings & angled components",
+    "oldDisplay": "/media/responsive/catalog-03-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-03-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2800
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 4316
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 6234
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8158
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 13466
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 20890
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 30530
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 46400
+      },
+      {
+        "src": "/media/product-studio/catalog-03-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 71524
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "531c34865112553cb699d9a179204a3308c8badb70c1b2fb6e2e1c236f90156c"
+  },
+  {
+    "id": 4,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-04-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: Show ONE complete cobalt blue anodized circular multi-sided machined component from the supplied reference: raised stepped central bore, ring channels, perimeter mounting holes and radial port faces. Three-quarter overhead view with the radial holes readable. Preserve its blue anodized material and mechanical identity; replace the flat jagged cutout with rich, realistic studio lighting. The component must remain entirely within the frame.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-4cdf64ac-c15d-41f6-af6d-41dfb7f5cf46.png",
+    "slug": "global-manufacturer-of-multi-sided-precision-machined-components",
+    "title": "Multi-sided machined components",
+    "oldDisplay": "/media/responsive/catalog-04-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-04-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 8118
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 12266
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 17690
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23108
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 35342
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 49406
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 65130
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 93484
+      },
+      {
+        "src": "/media/product-studio/catalog-04-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 131994
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "e61ac4a6ae1be01bb140e8d50bf8abf5a96e7c9894eb6c894e9e4f51c6701568"
+  },
+  {
+    "id": 5,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-05-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: THREE representative CNC-turned silver components from the reference: the substantial cylindrical body with holes and a top flange, a smaller stepped sleeve, and a machined ring. A coherent sculptural group at one camera angle, clear silhouettes and breathing room. Not a crowded pile.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-d17bde82-4044-48f2-948c-2ed6651e1acf.png",
+    "slug": "custom-oem-cnc-turning-manufacturer",
+    "title": "Custom CNC-turned components",
+    "oldDisplay": "/media/responsive/catalog-05-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-05-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4698
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6960
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9632
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12414
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 18830
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 25928
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 33924
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 46998
+      },
+      {
+        "src": "/media/product-studio/catalog-05-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 69042
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "7306ea6197693d28a6f2862adb447b89567f323af2621cc5b8eb246981a7759e"
+  },
+  {
+    "id": 6,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-06-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: THREE representative rotary components from the reference: one golden brass annular flange, one stainless stepped hollow cylinder and one aluminum round housing. Place naturally on a common white surface with matched perspective; no collage, no rainbow of extra products.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-cadb93b1-2026-4d7d-9e1f-a4d849490b32.png",
+    "slug": "custom-rotary-cylindrical-components",
+    "title": "Rotary & cylindrical components",
+    "oldDisplay": "/media/responsive/catalog-06-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-06-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5490
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8040
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 11244
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 14508
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 21776
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 30302
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 39482
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 54926
+      },
+      {
+        "src": "/media/product-studio/catalog-06-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 80206
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "cb1d964f02fe6ab232be7e8fe564b464e12661afe8993dacea8a01dad3228f00"
+  },
+  {
+    "id": 8,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-08-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: TWO complete dark anodized machined parts from the reference: an angular mounting bracket and the circular flanged housing. Preserve the deep black finish but use edge lighting to reveal machining features. Generous spacing on one studio plane; not a grid of tiny objects.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-f77c147b-baec-418b-aacd-c0183d5bc0df.png",
+    "slug": "full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing",
+    "title": "Milled metal brackets & finished housings",
+    "oldDisplay": "/media/responsive/catalog-08-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-08-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4284
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6374
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 8886
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 11344
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 16080
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 21628
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 27952
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 36552
+      },
+      {
+        "src": "/media/product-studio/catalog-08-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 51718
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "f2148f313e58a5c57bdc070da6cccc7ffe0cae495f79cfa5b1cbc9e8cc040e1a"
+  },
+  {
+    "id": 9,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-09-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: TWO complete aluminum structural components drawn from the reference, one amber anodized flanged mount and one blue anodized small housing. Preserve the source's machined openings and attachment faces. A balanced compact pair, refined metal texture, readable color, no dense rainbow assortment.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-805f8bf9-5fa3-4178-b6b9-eee9eb2f6a63.png",
+    "slug": "custom-high-precision-machining-for-structural-aesthetic-components-oem",
+    "title": "Structural & aesthetic components",
+    "oldDisplay": "/media/responsive/catalog-09-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-09-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 6606
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 9816
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 13446
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16986
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 24952
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 33818
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 43392
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 58902
+      },
+      {
+        "src": "/media/product-studio/catalog-09-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 82486
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "4e176cfb72de0a567ce42917f02a44932efc689969eb09e3f35538331305d27b"
+  },
+  {
+    "id": 10,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-10-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: THREE silver turned parts selected from the reference's collection: a long stepped shaft placed diagonally, a short threaded hollow fitting, and a bored collar. Keep source-family mechanical features, rich stainless texture and clear individually readable silhouettes. No array of dozens of parts.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-2be1a608-c32b-42dd-bd5c-30cb4c7ab42f.png",
+    "slug": "high-volume-cnc-turning-for-complex-internal-external-features",
+    "title": "Complex internal & external turned features",
+    "oldDisplay": "/media/responsive/catalog-10-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-10-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4376
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6608
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9440
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12256
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 19202
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 26888
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 36562
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 54036
+      },
+      {
+        "src": "/media/product-studio/catalog-10-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 82960
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "27feb9df759b08a1b67648e911aa927ea1ec76cc38c49f7b954210227cb50288"
+  },
+  {
+    "id": 11,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-11-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete silver machined turbine impeller from the supplied reference, with curved blades and a central bore. A three-quarter overhead view, all blades fully within frame, correct connected radial geometry and continuous metal surfaces. Preserve the reference's handedness and general blade architecture; no floating or merged blades.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-01b812bc-322f-4739-8b69-57f772c85034.png",
+    "slug": "high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem",
+    "title": "Turbine & fluid-system components",
+    "oldDisplay": "/media/responsive/catalog-11-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-11-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 6212
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 9450
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 13018
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16620
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 24868
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 35208
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 47330
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 68518
+      },
+      {
+        "src": "/media/product-studio/catalog-11-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 102112
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "d1905ec97b7ede3a00a9856aa5f9f1b461891a6d20004be0e2a13600a3ed579b"
+  },
+  {
+    "id": 12,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-12-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete finned aluminum intercooler prototype from the reference: upright elongated cooler core with slim parallel fins and the distinctive curved end profile. Three-quarter view at a sensible angle showing core depth and metal edge transitions. Preserve the part rather than replacing it with a generic radiator.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-b94d312f-7550-4d20-b20e-0b830dba1b6a.png",
+    "slug": "custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier",
+    "title": "Aluminum intercooler prototypes",
+    "oldDisplay": "/media/responsive/catalog-12-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-12-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5522
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8952
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 13296
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17664
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 28196
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 41614
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 57334
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 83982
+      },
+      {
+        "src": "/media/product-studio/catalog-12-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 126518
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "3dfff2021a343ee4a0a39d204a88dde3ac7ba4e80771a51a13e9244bfc264441"
+  },
+  {
+    "id": 13,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-13-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete billet aluminum engine cover from the reference, a long curved rounded rectangular cover with fine continuous parallel CNC tool-path ridges. Use a slightly overhead three-quarter view showing the domed contour and slim edge. Preserve the characteristic cover profile and surface lines; no new mounting pattern.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-c2a67eb3-e465-4ebd-8e39-eba102174f32.png",
+    "slug": "custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier",
+    "title": "Billet aluminum engine covers",
+    "oldDisplay": "/media/responsive/catalog-13-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-13-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 3560
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6324
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 10442
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15226
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 27206
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 41878
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 59540
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 88368
+      },
+      {
+        "src": "/media/product-studio/catalog-13-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 132750
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "01cbd3a9146e00ae622fb77ceb257dc9c759a22d32f589e04fe0d2456b5934ec"
+  },
+  {
+    "id": 14,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-14-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: The input shows an engine CAD visualization for context. Isolate ONLY the silver intake-manifold and runner/plenum assembly on the RIGHT SIDE of that engine reference and present it as one complete detached component on the studio surface: the long tapered silver plenum, matching runner assembly and round air inlet. Use that exact visible assembly as the geometry reference. Do not show the black engine, turbocharger, belts or purple turbine. Do not create another engine or a different generic intake design. This remains an illustrative rendering of source CAD-family geometry.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-13e67cff-61f3-4190-be60-c9d2b1b8c707.png",
+    "slug": "custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier",
+    "title": "Runner & flange intake manifolds",
+    "oldDisplay": "/media/responsive/catalog-14-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-14-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4970
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 7534
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 10602
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13858
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 20786
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 29492
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 39718
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 58834
+      },
+      {
+        "src": "/media/product-studio/catalog-14-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 91578
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "cb27cfb9ff818646776af1e7748a2797a10c7123af0dfd68347cd5f4452adba8"
+  },
+  {
+    "id": 15,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-15-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete machined aluminum electronic throttle-body assembly with its black actuator housing from the reference. Clearly show the cylindrical air passage and butterfly opening, silver machined mounting features and black molded actuator without fake labels. High-end studio photography, connected believable geometry.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-a0efdf71-5bae-4d2a-bc09-5c8f250ac394.png",
+    "slug": "custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier",
+    "title": "CNC-machined electronic throttle bodies",
+    "oldDisplay": "/media/responsive/catalog-15-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-15-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5706
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8750
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 12412
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16338
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 25774
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 37862
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 52628
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 79438
+      },
+      {
+        "src": "/media/product-studio/catalog-15-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 126440
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "067b71676cf471226ee89b0e9f2be9cb493054ce002c873494b19c22480abbf1"
+  },
+  {
+    "id": 16,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-16-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete silver aluminum intake manifold with its fuel rail and curved tubular runners from the reference. Preserve the visible number and shape of runners and the long lower flange. One coherent component with readable mounting faces, realistic metal detail, no vehicle or workshop.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-fa105394-5504-4c09-bc6b-8f15a7afde18.png",
+    "slug": "custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier",
+    "title": "Injector & fuel-rail intake manifolds",
+    "oldDisplay": "/media/responsive/catalog-16-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-16-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5580
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8312
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 11402
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 14908
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 22422
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 30816
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 40060
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 56000
+      },
+      {
+        "src": "/media/product-studio/catalog-16-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 80246
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "cf14a125bd52b5f19aa6e7a0ffc376b3c8a9ba3d95123b867b9466b4f3d8e1b2"
+  },
+  {
+    "id": 17,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-17-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete billet aluminum intake plenum with curved runners, rectangular base flange and tubular side air inlet as shown in the reference. Preserve the component architecture and mechanical connections. Three-quarter photography, balanced highlights, entire base and inlet in frame.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-379ddeb6-9fed-4c8c-809e-523fe073d324.png",
+    "slug": "custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier",
+    "title": "Billet aluminum intake plenums",
+    "oldDisplay": "/media/responsive/catalog-17-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-17-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 6496
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 10316
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 15256
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21222
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 35748
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 53584
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 74156
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 107916
+      },
+      {
+        "src": "/media/product-studio/catalog-17-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 156754
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "76f30d14dad2f26257b8174d4392ca025f3475b19e12cc2d6c7125fc574628a4"
+  },
+  {
+    "id": 18,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-18-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete cast-and-machined aluminum transmission housing / pump-body component from the reference: circular bearing opening, reinforcing ribs and flange-mounted exterior. Preserve its cast grain away from machined surfaces and the actual reference silhouette; no disconnected assembly or redesign.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-8cc0118f-3e4b-4336-bd65-9ff55e6df060.png",
+    "slug": "custom-cnc-machined-castings-transmission-housings-pump-bodies",
+    "title": "Transmission housings & pump bodies",
+    "oldDisplay": "/media/responsive/catalog-18-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-18-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5444
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8332
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 12072
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16244
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 26946
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 40566
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 57148
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 84622
+      },
+      {
+        "src": "/media/product-studio/catalog-18-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 126972
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "0286e0a759900fb6cb5980c0468ed2510746abab24455b70484ba424edeed2dd"
+  },
+  {
+    "id": 19,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-19-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: TWO stainless ring-shaped turned components from the reference: the flanged annular locating part and the circular mating face part. Remove incidental engraved words and loose screw clutter from the presentation; preserve the reference parts' bores, flange form and brushed finish. A calm separated pair on one surface, no invented long shaft.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-4c932f6f-6910-4aab-86ce-d52dc12cf2b0.png",
+    "slug": "custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier",
+    "title": "Stainless steel turned shafts",
+    "oldDisplay": "/media/responsive/catalog-19-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-19-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4648
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 7062
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9918
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12964
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 20256
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 29848
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 42550
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 63122
+      },
+      {
+        "src": "/media/product-studio/catalog-19-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 98692
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "2cbe6c062c282bb6eebce6fb6e82a1691f55ebcd0134ec57982724759d1a1907"
+  },
+  {
+    "id": 20,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-20-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete warm ivory machined insulating polymer component from the reference: round form with radial slots, drilled holes and central protruding hub. Preserve its actual shape, softly satin non-metallic surface and pale material color. No fantasy gears or sharp metallic shine.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-8c2ce634-5f4d-457f-b867-210d96e4ae08.png",
+    "slug": "custom-oem-cnc-machined-non-metallic-components-insulating-parts",
+    "title": "Non-metallic & insulating components",
+    "oldDisplay": "/media/responsive/catalog-20-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-20-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 3406
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 4770
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 6478
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 7916
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 11148
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 14460
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 18064
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 24204
+      },
+      {
+        "src": "/media/product-studio/catalog-20-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 34346
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "2648bd3f62dde637f3e3382ac566edb9537fd0be02efdb146c96994308c1a0f3"
+  },
+  {
+    "id": 21,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-21-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: THREE representative machined polymer components from the reference: an amber-orange pocketed rectangular block, a thin yellow drilled panel and an orange flanged mounting plate. Calm studio arrangement with individually clear mechanical features and consistent scale, natural matte polymer, not a flat scrapbook of many squares.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-22321602-304b-4baa-9180-3badf9b425df.png",
+    "slug": "custom-oem-cnc-machined-plastic-parts-manufacturer",
+    "title": "Custom machined plastic parts",
+    "oldDisplay": "/media/responsive/catalog-21-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-21-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5830
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8554
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 11468
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 14404
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 20700
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 27766
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 35856
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 49566
+      },
+      {
+        "src": "/media/product-studio/catalog-21-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 72152
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "09c893d470b45b2e9493c5660ce815e465c85e8e4d100a8c4061984d5174005f"
+  },
+  {
+    "id": 23,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-23-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete cast aluminum flanged flow housing from the reference: rounded central body with a cylindrical opening at both ends, bolt circle and cast texture. Show it in a diagonal three-quarter pose, preserving the visible geometry rather than inventing a pump assembly.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-4dfa5654-ef41-4223-91b0-c9690e4f9173.png",
+    "slug": "oem-precision-cnc-machined-casting-housings",
+    "title": "CNC-machined casting housings",
+    "oldDisplay": "/media/responsive/catalog-23-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-23-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4056
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6272
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9192
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12922
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 21946
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 34298
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 51308
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 81528
+      },
+      {
+        "src": "/media/product-studio/catalog-23-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 137928
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "7ced40194dfb4cd80deb33735a85520146db6146fe9b09942c78f4d32d26e1e0"
+  },
+  {
+    "id": 24,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-24-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete silver cast housing with a large circular main bore, smaller machined openings, bolted face and tubular side extension from the reference. High-end three-quarter studio photograph, realistic cast grain and machined highlights, complete object safely in frame.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-97b92afb-e1e6-465f-8f64-d705de975115.png",
+    "slug": "precision-cnc-machined-castings-custom-oem-housings",
+    "title": "Machined castings & OEM housings",
+    "oldDisplay": "/media/responsive/catalog-24-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-24-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4742
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6972
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9516
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12548
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 19180
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 27424
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 37152
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 56560
+      },
+      {
+        "src": "/media/product-studio/catalog-24-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 90472
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "c8b8239a59d5929bf80f26b2aa553fb5344f8890a191a4e2908b82a2d7ebce9a"
+  },
+  {
+    "id": 25,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-25-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete ribbed cast aluminum housing from the reference, showing its open irregular cavity, central circular machined hole, inner reinforcing ribs and outer flange. Preserve source shape. Gentle three-quarter view to reveal depth, clear edges and natural metal surfaces.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-eed47fbd-89b3-4b4c-965f-9774e87822b2.png",
+    "slug": "precision-cnc-machined-castings-manufacturer",
+    "title": "Precision-machined castings",
+    "oldDisplay": "/media/responsive/catalog-25-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-25-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 6024
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 9142
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 12582
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16458
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 25974
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 39764
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 57824
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 91768
+      },
+      {
+        "src": "/media/product-studio/catalog-25-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 149390
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "4a4c2d0c4f8a02e67eb984ac2f683e8f3d70f02d6409033db5166f66c7d173a1"
+  },
+  {
+    "id": 28,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-28-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: Show TWO complete aluminum components selected from the supplied reference: one pocketed rectangular housing with rounded inside corners and a bolted flange in front, plus one matching U-shaped milled mating component gently behind it. Make both individual silhouettes clear, spaced without overlap hiding features, at a consistent three-quarter camera angle. Preserve the referenced shape family. No wall of duplicated components.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-f36acf43-398f-4fb5-8b4c-622908306e6f.png",
+    "slug": "precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier",
+    "title": "Pilot-batch housings & mating parts",
+    "oldDisplay": "/media/responsive/catalog-28-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-28-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4544
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6830
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9700
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12380
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 18668
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 26142
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 35032
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 49560
+      },
+      {
+        "src": "/media/product-studio/catalog-28-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 71008
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "451bba21f40ddfca324d592412f5fc69e4df75f44f1752c449b4452b7585b187"
+  },
+  {
+    "id": 29,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-29-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete green polymer machined circular component from the reference with the central stepped bore and the distinctive rounded scalloped outer cutouts. Keep the bright green source material, substantial thickness, small fastening holes and smooth machined polymer surface. Three-quarter view, no alternative gear teeth design.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-b37ba421-a74d-42d8-99e7-218d0e214826.png",
+    "slug": "precision-machining-for-functional-plastic-blocks-structural-components",
+    "title": "Functional plastic blocks & structures",
+    "oldDisplay": "/media/responsive/catalog-29-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-29-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 3478
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 5036
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 6686
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8580
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 12540
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 18192
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 24564
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 38662
+      },
+      {
+        "src": "/media/product-studio/catalog-29-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 67906
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "f5f1775e14ba1d72a4606a829f7fc20f663859542760d8ffba3fedc8f8c3b187"
+  },
+  {
+    "id": 30,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-30-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: TWO complete angled aluminum enclosures selected from the source group: one with its rounded rectangular pocket and paired inner bores facing forward, the second turned slightly to reveal its angled side and mounting lugs. Clear separation on one common surface, not twelve repeated tiny boxes.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-22728773-668a-45de-8acb-fa7f27c7f01e.png",
+    "slug": "precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures",
+    "title": "Angled aluminum enclosures",
+    "oldDisplay": "/media/responsive/catalog-30-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-30-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 5136
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 7598
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 10580
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13412
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 19906
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 26892
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 34458
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 48028
+      },
+      {
+        "src": "/media/product-studio/catalog-30-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 71262
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "7eaa84121920b7bc235a13532a423487d877f8de347c74c37dadf41b1912f24c"
+  },
+  {
+    "id": 31,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-31-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: ONE complete stainless cylindrical rotary locking component and its matching separate annular flange from the reference. Preserve the cylindrical body, wing-shaped rotary handle, side pin and countersunk ring. Remove incidental ON/OFF lettering in the illustration. Refined stainless material, no loose bolts or extra products.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-b6310f69-00d2-43fb-9ec3-c542975f6400.png",
+    "slug": "precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier",
+    "title": "Stainless steel turned parts",
+    "oldDisplay": "/media/responsive/catalog-31-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-31-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 3796
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 5608
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 7590
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 10118
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 15382
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 22788
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 31804
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 47946
+      },
+      {
+        "src": "/media/product-studio/catalog-31-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 74444
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "1efae46a5ad16f8dc562b666c2362a46a5f7f794808e9563a6f447aceb35420d"
+  },
+  {
+    "id": 33,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-33-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: Show ONE complete rectangular machined aluminum housing, taken from the reference family: deep rounded rectangular cavity, substantial bolted top rim with a gasket-seat channel, milled side windows and threaded bores. Three-quarter view from above, slightly towards the front, showing the interior and one external side. Refine the photographic lighting and surface detail. Do not repeat the messy group, do not crop any flange. No invented lid, fixtures or assembly.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-239b3721-6e16-405e-a887-1e52c65a4dc5.png",
+    "slug": "small-batch-cnc-machining-manufacturer-complex-aluminum-housings",
+    "title": "Lid & gasket aluminum housings",
+    "oldDisplay": "/media/responsive/catalog-33-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-33-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4610
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6876
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 9524
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12380
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 17924
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 24458
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 31812
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 43914
+      },
+      {
+        "src": "/media/product-studio/catalog-33-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 65258
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "2a19b079e8ec82cfdbdc2e9f2f82a17f575a412519a71b404a333f342b189534"
+  },
+  {
+    "id": 34,
+    "input": "D:/lzz/lzz/_react/public/media/responsive/catalog-34-cutout-v1-1200.webp",
+    "prompt": "Use case: product-mockup. Asset type: refined CNC part example for an English industrial manufacturing website. Generate a new premium studio product photograph guided by the supplied image as an object-family reference, not a design for a web page. Landscape 3:2 composition. Seamless clean white studio background, soft grounded contact shadow, neutral metal highlights with realistic fine machining marks, controlled large softbox light, no glare, no plastic-looking CGI. Give the entire subject a comfortable 12% margin; strong readable silhouette occupying about 70% of the canvas width and 65% height. Keep the recognizable part geometry, functional openings, material and finish represented by the reference. A calm considered arrangement, no dense batches or tile collages. No text, annotations, brands, logos, watermark, drawings, tools, hands or workshop scene. This is a regenerated product illustration, not customer order or inspection evidence.\nSubject: THREE matching silver stepped cylindrical turned components drawn from the reference batch. One primary shaft angled in front, two behind with airy staggered spacing, identical mechanical family. Readable shoulders, flange thickness, fine threaded sections and realistic stainless surface. No grid of dozens of duplicated parts.",
+    "output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-b07c6838-19b8-489c-b9ec-692642dfa37b.png",
+    "slug": "small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv",
+    "title": "Mixed-material pilot-run components",
+    "oldDisplay": "/media/responsive/catalog-34-cutout-v1-1200.webp",
+    "master": "D:\\lzz\\product-image-regeneration-20261014\\generated\\catalog-34-studio-v2.png",
+    "variants": [
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-240.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 4748
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 7292
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-400.webp",
+        "width": 400,
+        "height": 267,
+        "bytes": 10276
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13168
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 20092
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 27326
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 35714
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 49796
+      },
+      {
+        "src": "/media/product-studio/catalog-34-studio-v2-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 73772
+      }
+    ],
+    "method": "built-in imagegen",
+    "evidenceRole": "Regenerated part illustration guided by original source family; no claim of dimensional identity or delivered order.",
+    "sha256": "3e4bd7043986ab3f5501895d144a249ce7a5ca84e9d23e83c52755468df08c02"
+  }
+]

@@ -1,0 +1,17 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {capabilityReferences} from '../data/capabilityReferences';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import CapabilityApplications from './CapabilityApplications.astro';
+import {capabilityReadingPolish} from '../data/readingPolish';
+interface Props {page:RevisedCapability;title?:string;fit?:boolean}
+const {page,title,fit=false}=Astro.props;
+const reading=capabilityReadingPolish.has(page.slug);
+---
+<section class="rd-section cx-acceptance" id="engineering-fit"><div class="cx-verification-intro"><header><h2>{title||(fit?'Define the critical features':'Accept the finished part')}</h2><p>{page.content.scope}</p><a class="rd-link" href="/factory/#quality">Inspection methods, stages and records</a></header><CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Range, calibration and measurement capability require current records." class="cx-verification-photo"/></div>
+ <table class="rd-table rd-stacked" id="capability-scope"><thead><tr><th scope="col">Feature / decision</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{page.acceptanceChecks.map(row=><tr><th scope="row">{row.feature}</th><td data-label={reading?'Drawing':'Specify on the drawing'}>{row.drawing}</td><td data-label={reading?'Before production':'Agree before production'}>{row.inspection}</td></tr>)}</tbody></table>
+ {capabilityReferences[page.slug]?.filter(item=>item.label!=='Production, from 1 piece').map(item=><aside class="cx-callout"><strong>{item.label}: {item.value}.</strong> {item.text}</aside>)}
+ <slot/>
+ {page.scopeQuestions.length>0&&<div class="cx-scope-notes">{page.scopeQuestions.map(item=><div><h3>{item.question}</h3><p>{item.answer}</p></div>)}</div>}
+ <CapabilityApplications slug={page.slug}/>
+</section>

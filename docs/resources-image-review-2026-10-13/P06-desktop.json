@@ -1,0 +1,242 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Custom CNC machining FAQ",
+      "y": 188
+    },
+    {
+      "id": "ordering-title",
+      "tag": "H2",
+      "text": "Essential answers",
+      "y": 303
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "What is the minimum order quantity?",
+      "y": 390
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "What is the production lead time?",
+      "y": 390
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "What should I send for a quotation?",
+      "y": 680
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Does the website send my inquiry or upload my drawing?",
+      "y": 680
+    },
+    {
+      "id": "commercial-title",
+      "tag": "H2",
+      "text": "Quotes, payment, samples & after-sales",
+      "y": 978
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Which payment terms should I confirm?",
+      "y": 1068
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "How are samples charged?",
+      "y": 1264
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Which after-sales terms apply to my parts?",
+      "y": 1433
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "How do I report a nonconforming part?",
+      "y": 1630
+    },
+    {
+      "id": "engineering-title",
+      "tag": "H2",
+      "text": "Processes & specifications",
+      "y": 1864
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Which machining services can I discuss with LZZ?",
+      "y": 1954
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "How should I specify the material and finish?",
+      "y": 2178
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Can every feature hold ±0.01 mm?",
+      "y": 2403
+    },
+    {
+      "id": "quality-delivery-title",
+      "tag": "H2",
+      "text": "Inspection & delivery",
+      "y": 2637
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Which inspection documents should I request?",
+      "y": 2727
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Is LZZ ISO 9001 certified?",
+      "y": 2980
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "How are packing and international shipping agreed?",
+      "y": 3233
+    },
+    {
+      "id": "case-title",
+      "tag": "H2",
+      "text": "Machining studies",
+      "y": 3495
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "What do the machining studies show?",
+      "y": 3585
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote",
+      "y": 3956
+    }
+  ],
+  "images": [],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Planning prototypes and repeat batches"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How to order"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Drawing and RFQ checklist"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare an inquiry"
+    },
+    {
+      "href": "/resources/how-we-work/#commercial-terms",
+      "text": "Payment and order terms"
+    },
+    {
+      "href": "/resources/how-we-work/#commercial-terms",
+      "text": "Sample charges to confirm"
+    },
+    {
+      "href": "/resources/how-we-work/#section-2",
+      "text": "After-sales terms to confirm"
+    },
+    {
+      "href": "/resources/how-we-work/#section-2",
+      "text": "Nonconforming-part review"
+    },
+    {
+      "href": "/capabilities/",
+      "text": "Explore the five machining services"
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": "Material and finish guide"
+    },
+    {
+      "href": "/quality/",
+      "text": "Tolerance review and quality control"
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": "Inspection and delivery documents"
+    },
+    {
+      "href": "/quality/#quality-management",
+      "text": "Request supplier qualification documents"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Shipment planning checklist"
+    },
+    {
+      "href": "/cases/",
+      "text": "Browse machining studies"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/?part=Custom+CNC+machining+FAQ+follow-up",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nFrequently asked questions\nCustom CNC machining FAQ\nEssential answers\nWhat is the minimum order quantity?\n\nOrders start at 1 piece. Include the first-order quantity and expected repeat demand so we can quote prototype work and later batches separately.\n\nPlanning prototypes and repeat batches\nWhat is the production lead time?\n\nProduction takes 7-14 business days after drawing and order confirmation, including surface finishing. Shipping time is additional. Record the confirmed production schedule and delivery arrangements in your quotation and order.\n\nHow to order\nWhat should I send for a quotation?\n\nSend the drawing revision, units, material grade, finish, quantity and delivery destination. Include a STEP model where available and a dimensioned 2D drawing identifying critical tolerances, threads and acceptance requirements.\n\nDrawing and RFQ checklist\nDoes the website send my inquiry or upload my drawing?\n\nThe form creates an email draft without uploading files or sending a request. Open the draft in your email app, attach the drawings and send it to LZZ. You can also copy the draft or save it as a text file.\n\nPrepare an inquiry\nQuotes, payment, samples & after-sales\nWhich payment terms should I confirm?\n\nBefore accepting a quote or placing an order, ask LZZ to confirm the payment method and currency. Agree the payment stages and the amount due at each stage for that order.\n\nPayment and order terms\nHow are samples charged?\n\nAsk for the sample machining and setup charges before approving the work. Confirm the sample freight cost and whether any sample fee can be credited to a later order.\n\nSample charges to confirm\nWhich after-sales terms apply to my parts?\n\nAgree the terms for the quoted part before ordering. Confirm any warranty period and start date, exclusions and the procedure for reporting a problem. Ask who covers rework or replacement, return freight and any agreed refund.\n\nAfter-sales terms to confirm\nHow do I report a nonconforming part?\n\nSend the drawing revision and part or batch reference, then include the affected quantity, photographs and measurement details. LZZ reviews the discrepancy against the agreed acceptance criteria and agrees corrective action with you.\n\nNonconforming-part review\nProcesses & specifications\nWhich machining services can I discuss with LZZ?\n\nWe offer CNC milling and turning, with five-axis machining for suitable geometry. Plastic machining and finish machining of castings are also available. Send the complete drawing so we can plan the setup and finish; for castings, identify who supplies and accepts the blank.\n\nExplore the five machining services\nHow should I specify the material and finish?\n\nSpecify the exact material grade and condition. A broad label such as aluminum, steel or plastic leaves the grade undefined. Identify cosmetic faces and surface treatment requirements, then mark masked areas and dimensions to check after finishing. Record the agreed specification in the quotation.\n\nMaterial and finish guide\nCan every feature hold ±0.01 mm?\n\nNo. ±0.01 mm is a conditional reference for selected critical features. The achievable limit depends on material and geometry, together with the setup and measurement method. Mark each critical tolerance on the drawing for confirmation.\n\nTolerance review and quality control\nInspection & delivery\nWhich inspection documents should I request?\n\nSpecify the dimensional results and first-article records you need before ordering. Include material traceability and finishing documents where required. Agree the features and sampling plan, then confirm the report format. The quotation records the included document package and any additional cost; request current calibration evidence separately where needed.\n\nInspection and delivery documents\nIs LZZ ISO 9001 certified?\n\nLZZ is ISO 9001 certified. For supplier qualification, request the current certificate for Hangzhou Lizhizao Precision Machinery Co., Ltd., including its number, issuer, validity, scope and verification details. Company awards are separate from the ISO certificate, and quality-system certification does not replace part-specific acceptance or industry approval.\n\nRequest supplier qualification documents\nHow are packing and international shipping agreed?\n\nProvide the destination, receiving requirements and any vulnerable or cosmetic surfaces that need protection. Confirm the packing method, transport method, trade term and named place in the quotation. Agree the packing list, commercial invoice and other required documents. Transit time is separate from production time.\n\nShipment planning checklist\nMachining studies\nWhat do the machining studies show?\n\nThe studies use workshop photographs to explain part features and machining setups. They outline drawing requirements for a similar part, without publishing customer inspection or performance results.\n\nBrowse machining studies\nAll resources\nRFQ checklist\nHow we work\nQuality control\nRequest a quote\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 4735,
+  "title": "CNC machining FAQ | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/faq/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 1425,
+    "height": 900,
+    "width": 1440
+  },
+  "pageId": "P06",
+  "mode": "desktop",
+  "screenshot": "screenshots/P06-desktop.jpg"
+}

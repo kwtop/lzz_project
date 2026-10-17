@@ -1,0 +1,9 @@
+# Candidate 4 intent
+
+Candidate 3 was rejected after two screenshot-only reviews (6.8 and 6.7, against the corrected-fixture BEST reviews 7.2 and 7.0). The full code/media checkpoint was restored. This is the fourth and final grouped attempt, starting again from BEST Candidate 2.
+
+1. **Mobile first visit:** The real CNC hero photo is mostly an indistinct dark strip at 390 px and pushes the first machined parts below the first screen. Shorten only the mobile hero, adjust the existing real photo crop/overlay, preserve high-contrast heading and direct RFQ. Judge by mobile top screenshot, first part visibility, image identification, no overlap, keyboard navigation.
+2. **Part catalogue:** The desktop default displays nine selected parts while mobile displays only six, omitting plastics from both initial selections; the mobile two-column cards make titles and differences small. Curate the same six representative forms on both, including a non-metallic part, and render a mobile list with legible image/title/context. Full 35-product search/filter remains intact. Judge by desktop/mobile catalogue screenshots and search/filter behavior.
+3. **Knowledge hub length:** The main guides index appends all company news stories after buyer decision guides, creating a long mobile page. Show one latest news entry and an explicit link to the existing complete news route. Preserve full article routes, internal links and sitemap. Judge by knowledge screenshots and link/SEO checks.
+
+Image review: all three areas have source-aligned usable imagery. The hero is a real LZZ process photo and must remain so; replacing it with imagegen would turn it into an illustration and reduce evidence credibility. Several product cutouts have extraction artifacts, but no new source geometry has been verified for a faithful replacement in this final attempt. The prior accepted article illustration was regenerated with imagegen and remains clearly disclosed.

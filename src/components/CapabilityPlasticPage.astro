@@ -1,0 +1,26 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {capabilityArtwork} from '../data/capabilityDesign';
+import CapabilityIntro from './CapabilityIntro.astro';
+import CapabilityMaterialTable from './CapabilityMaterialTable.astro';
+import CapabilityExamples from './CapabilityExamples.astro';
+import CapabilityConcept from './CapabilityConcept.astro';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import CapabilityInspectionReview from './CapabilityInspectionReview.astro';
+import CapabilityInquiry from './CapabilityInquiry.astro';
+import additionalMedia from '../data/additionalMedia.generated.json';
+import '../styles/plastic-machining.css';
+interface Props {page:RevisedCapability;quoteHref:string}
+const {page,quoteHref}=Astro.props;
+const video=additionalMedia.videos['peek-parts'];
+const acceptanceQuestions=page.scopeQuestions.filter(q=>q.question!=='Is PTFE the same as a Teflon coating?');
+---
+<div class="polymer-page">
+ <div data-core-section="service"><CapabilityIntro page={page} material quoteHref={quoteHref}/></div>
+ <div class="polymer-section polymer-materials" data-core-section="polymer-selection"><CapabilityMaterialTable page={page} title="Choose the polymer and measurement conditions" intro="Specify the exact grade, fillers and stock condition. If the grade is unknown, send the operating conditions for review. Suitability, availability and required documents are confirmed for the order."/></div>
+ <CapabilityExamples page={page} skipHero singleEntry coreSection="part-forms"/>
+ <section class="polymer-section polymer-support" id="geometry-review" data-core-section="support-and-access"><header><h2>Support the working features</h2></header><div class="polymer-support-grid"><CapabilityConcept art={capabilityArtwork.plastic}/><div><p>{page.overview.workholding} Review thin sections, press fits, inserts, deep pockets and assembly loads together.</p><p>For a new design, distinguish blind and through-hole depths and define insert interfaces with the surrounding wall sections. Review stresses from inserts, mating components and assembly loads when planning the workholding.</p><p>Agree temperature, moisture and conditioning before dimensional acceptance. Electrical, food-contact and medical requirements need separate documents or tests.</p></div></div></section>
+ <section class="polymer-section polymer-archive" id="machining-studies" data-core-section="source-collection"><header class="polymer-heading"><h2>Polymer forms from the source collection</h2><p>Intermediate forms, stepped parts and an original PEEK clip. Material names follow the collection; appearance and video do not establish material properties or performance.</p></header><div class="polymer-archive-grid"><CapabilityEvidence id="plastic-ptfe-intermediate" caption="Original intermediate forms, identified as semi-finished PTFE parts in the collection." sizes="(max-width:767px) 230px, 250px"/><CapabilityEvidence id="plastic-ptfe-shafts" caption="Original stepped parts, identified as PTFE in the collection. Long forms shown in full." sizes="(max-width:767px) 230px, 250px"/><figure class="polymer-clip"><video controls playsinline muted preload="none" poster={video.poster} width={video.width} height={video.height} aria-label="Original clip of components identified as PEEK in the source collection"><source src={video.src} type="video/mp4"/></video><figcaption>Original 3-second clip: components identified as PEEK, with perimeter holes and parallel slots. It does not verify material performance.</figcaption></figure></div>{page.study&&<a class="rd-link" href={page.study.href}>{page.study.title}</a>}</section>
+ <CapabilityInspectionReview page={page} title="Accept the part in its agreed condition" questions={acceptanceQuestions}/>
+ <CapabilityInquiry page={page} quoteHref={quoteHref} orderFirst coreSection="quotation"/>
+</div>

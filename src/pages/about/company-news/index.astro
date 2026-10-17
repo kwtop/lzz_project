@@ -1,0 +1,6 @@
+---
+import AboutNewsIndex from '../../../components/AboutNewsIndex.astro';
+import AboutNewsIndexRedesign from '../../../components/AboutNewsIndexRedesign.astro';
+import {isRedesigned} from '../../../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<AboutNewsIndexRedesign/>:<AboutNewsIndex/>}

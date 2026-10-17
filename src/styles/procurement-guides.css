@@ -1,0 +1,36 @@
+/* Procurement content uses the existing editorial typography and spacing. */
+body.brand-site main#main .content-editorial .ce-guide-table {max-width:100%;overflow-x:auto;margin-top:24px;border-block:1px solid var(--border);}
+body.brand-site main#main .content-editorial .ce-guide-table table {width:100%;border-collapse:collapse;text-align:left;min-width:580px;table-layout:fixed;}
+body.brand-site main#main .content-editorial .ce-guide-table th,
+body.brand-site main#main .content-editorial .ce-guide-table td {vertical-align:top;padding:20px 22px 20px 0;border-bottom:1px solid var(--border);font-size:16px!important;line-height:1.65!important;overflow-wrap:break-word;}
+body.brand-site main#main .content-editorial .ce-guide-table th:first-child {width:23%;}
+body.brand-site main#main .content-editorial .ce-guide-table thead th {font-weight:600;background:#f5f5f3;padding-left:12px;}
+body.brand-site main#main .content-editorial .ce-guide-table tbody th {font-weight:600;}
+body.brand-site main#main .content-editorial .ce-guide-table tbody tr:last-child>* {border-bottom:0;}
+body.brand-site main#main .content-editorial .ce-guide-table+p {margin-top:24px;}
+body.brand-site main#main .content-editorial .ce-request-brief {white-space:pre-wrap;overflow-wrap:anywhere;padding:28px;background:#f2f3f3;border-left:3px solid var(--red);font-family:var(--font-text);font-size:16px;line-height:2;margin:24px 0 0;}
+body.brand-site main#main .content-editorial .ce-breadcrumb {flex-wrap:wrap;}
+body.brand-site main#main .content-editorial .ce-topic-articles {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 56px;}
+body.brand-site main#main .content-editorial .ce-topic-articles article {padding-top:24px;border-top:1px solid var(--border);min-width:0;}
+body.brand-site main#main .content-editorial .ce-topic-articles h2 {font-size:26px!important;}
+body.brand-site main#main .content-editorial .ce-topic-articles p {margin-top:16px;}
+@media(max-width:760px){
+ body.brand-site main#main .content-editorial .ce-topic-articles {grid-template-columns:1fr;gap:28px;}
+ body.brand-site main#main .content-editorial .ce-request-brief {padding:20px;font-size:15px;}
+ body.brand-site main#main .content-editorial .ce-guide-table {margin-top:16px;}
+ body.brand-site main#main .content-editorial .ce-guide-table th,
+ body.brand-site main#main .content-editorial .ce-guide-table td {padding:16px;font-size:15px!important;}
+}
+
+@media(max-width:760px){
+ body.brand-site main#main .content-editorial .ce-guide-table table {min-width:0;display:block;}
+ body.brand-site main#main .content-editorial .ce-guide-table thead {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+ body.brand-site main#main .content-editorial .ce-guide-table tbody,
+ body.brand-site main#main .content-editorial .ce-guide-table tr {display:block;}
+ body.brand-site main#main .content-editorial .ce-guide-table tbody tr {padding:20px 0;border-bottom:1px solid var(--border);}
+ body.brand-site main#main .content-editorial .ce-guide-table tbody tr:last-child {border-bottom:0;}
+ body.brand-site main#main .content-editorial .ce-guide-table tbody th,
+ body.brand-site main#main .content-editorial .ce-guide-table tbody td {display:block;width:100%!important;padding:0;border:0;}
+ body.brand-site main#main .content-editorial .ce-guide-table tbody td {margin-top:14px;}
+ body.brand-site main#main .content-editorial .ce-guide-table tbody td:before {content:attr(data-label);display:block;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:3px;}
+}

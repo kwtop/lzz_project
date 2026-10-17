@@ -1,0 +1,25 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {capabilityConcepts} from '../data/capabilityRebuild';
+import CapabilityIntro from './CapabilityIntro.astro';
+import CapabilityMaterialTable from './CapabilityMaterialTable.astro';
+import CapabilityExamples from './CapabilityExamples.astro';
+import CapabilityConcept from './CapabilityConcept.astro';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import CapabilityInspectionReview from './CapabilityInspectionReview.astro';
+import CapabilityInquiry from './CapabilityInquiry.astro';
+import '../styles/aluminum-machining.css';
+interface Props {page:RevisedCapability;quoteHref:string}
+const {page,quoteHref}=Astro.props;
+const [stockQuestion,originalTestQuestion]=page.scopeQuestions;
+const testQuestion={...originalTestQuestion,answer:'Pressure, leak, assembly and vehicle-performance tests are separate requirements. Agree procedures, acceptance limits and responsibility. For fabricated or welded components, identify supplied items and joint requirements.'};
+const checks=page.acceptanceChecks.map(row=>row.feature==='Surface treatment'?{...row,drawing:'Finish and treatment standard, material compatibility, masked fits, cosmetic faces and dimensions that apply after treatment.'}:row.feature==='Bores & sealing interfaces'?{...row,inspection:'Agree dimensional checks and required records for the mating interfaces.'}:row);
+---
+<div class="aluminum-page">
+ <div data-core-section="service"><CapabilityIntro page={page} material quoteHref={quoteHref}/></div>
+ <div class="aluminum-section aluminum-materials" data-core-section="alloy-and-finish"><CapabilityMaterialTable page={page} title="Choose the alloy and final finish" intro="Choose the exact grade, condition and finish for the drawing. If the grade is unknown, send the application conditions for review. Suitability, availability and required documents are confirmed for the order."><div slot="examples" class="aluminum-finish-choice"><CapabilityConcept art={capabilityConcepts.finish}/><aside class="aluminum-stock"><h3>{stockQuestion.question}</h3><p>{stockQuestion.answer}</p></aside></div></CapabilityMaterialTable></div>
+ <CapabilityExamples page={page} skipHero singleEntry coreSection="part-forms"/>
+ <section class="aluminum-section aluminum-support" id="machining-studies" data-core-section="thin-section-support"><header class="aluminum-heading"><h2>Support the thin sections</h2><p>{page.overview.workholding} Review stock removal and tool access around the final walls, pockets, bores and mounting datums.</p></header><div class="aluminum-photo-essay"><CapabilityEvidence id="milling-enclosure-operation" caption="Original workshop photograph: a cutter reaches the enclosure held in a vise." sizes="(max-width:767px) calc(100vw - 40px), 800px"/><CapabilityEvidence id="milling-enclosure-parts" caption="Original photograph of recessed enclosure forms; not a dimensional inspection record." sizes="(max-width:767px) 230px, 270px"/></div>{page.study&&<a class="rd-link" href={page.study.href}>{page.study.title}</a>}</section>
+ <CapabilityInspectionReview page={page} title="Define the part after finishing" questions={[testQuestion]} checks={checks}/>
+ <CapabilityInquiry page={page} quoteHref={quoteHref} orderFirst coreSection="quotation"/>
+</div>

@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-10-10T08:11:35.367Z",
+  "scope": "local production build only; no live host or browser verification",
+  "html": 94,
+  "indexable": 81,
+  "excluded": [
+    {
+      "route": "/404.html",
+      "robots": "noindex, follow",
+      "refresh": ""
+    },
+    {
+      "route": "/about/company-documents/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/#documents"
+    },
+    {
+      "route": "/design-comparison-20261010/direction-a.html",
+      "robots": "noindex,nofollow",
+      "refresh": ""
+    },
+    {
+      "route": "/design-comparison-20261010/direction-b.html",
+      "robots": "noindex,nofollow",
+      "refresh": ""
+    },
+    {
+      "route": "/design-comparison-20261010/direction-c.html",
+      "robots": "noindex,nofollow",
+      "refresh": ""
+    },
+    {
+      "route": "/design-comparison-20261010/style-explorer.html",
+      "robots": "noindex,nofollow",
+      "refresh": ""
+    },
+    {
+      "route": "/preview/home-editorial/",
+      "robots": "noindex, follow",
+      "refresh": ""
+    },
+    {
+      "route": "/resources/australian-customer-workshop-visit-january-2025/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/company-news/australian-customer-workshop-visit-january-2025/"
+    },
+    {
+      "route": "/resources/china-africa-west-lake-summit-2025/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/company-news/china-africa-west-lake-summit-2025/"
+    },
+    {
+      "route": "/resources/company-news/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/company-news/"
+    },
+    {
+      "route": "/resources/lzz-team-outing-2024/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/company-news/lzz-team-outing-2024/"
+    },
+    {
+      "route": "/resources/may-2025-lzz-team-outing/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/company-news/may-2025-lzz-team-outing/"
+    },
+    {
+      "route": "/resources/november-2025-hangzhou-lizhizao-group-activity/",
+      "robots": "noindex",
+      "refresh": "0;url=/about/company-news/november-2025-hangzhou-lizhizao-group-activity/"
+    }
+  ],
+  "sitemap": 81,
+  "counts": {
+    "products": 35,
+    "capabilities": 10,
+    "cases": 8,
+    "resources": 12,
+    "companyNews": 5
+  },
+  "h1Problems": [],
+  "emptyMain": [],
+  "titleDuplicates": [],
+  "descriptionDuplicates": [],
+  "canonicalProblems": [],
+  "schemaErrors": [],
+  "schemaTypes": [
+    "Organization",
+    "WebSite",
+    "WebPage",
+    "BreadcrumbList",
+    "Article",
+    "Service",
+    "Product"
+  ],
+  "noInbound": [
+    "/resources/drawings-and-ordering/"
+  ],
+  "broken": [],
+  "brokenHashes": [],
+  "redirectLinks": [],
+  "mainWordRange": {
+    "min": 106,
+    "max": 897
+  },
+  "longTitles": [],
+  "descriptionLengths": [
+    {
+      "route": "/resources/custom-cnc-parts-shipping-checklist/",
+      "description": "Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.",
+      "length": 195
+    }
+  ],
+  "schemaEntityCounts": {
+    "Product": 19,
+    "Service": 26,
+    "Article": 20,
+    "BreadcrumbList": 80,
+    "Organization": 81,
+    "WebPage": 81
+  }
+}

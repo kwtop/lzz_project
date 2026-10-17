@@ -1,0 +1,121 @@
+/* LZZ typography: the authoritative type layer over legacy page styling.
+ * !important is restricted to typography so scoped historical rules cannot
+ * silently override role metrics. Layout, color and motion remain local.
+ * Explicit data-type roles take precedence over the component mappings below.
+ */
+:root {
+ --font-text:'Inter Variable',Arial,sans-serif;
+ --font-data:'Inter Variable',Arial,sans-serif;
+ --type-display-size:clamp(2.5rem,1.75rem + 3.5vw,4.5rem);
+ --type-h1-size:clamp(2.125rem,1.6rem + 2.3vw,3.5rem);
+ --type-h2-size:clamp(1.75rem,1.4rem + 1.5vw,2.5rem);
+ --type-h3-size:clamp(1.375rem,1.2rem + .6vw,1.625rem);
+ --type-h4-size:1.125rem;
+ --type-body-large-size:clamp(1.125rem,1.05rem + .35vw,1.25rem);
+ --type-body-size:1rem;
+ --type-small-size:.875rem;
+ --type-caption-size:.875rem;
+ --type-navigation-size:.9375rem;
+ --type-button-size:.9375rem;
+ --type-label-size:.875rem;
+ --type-data-size:clamp(1.5rem,1.3rem + .7vw,1.875rem);
+ --type-specification-size:1rem;
+}
+body.brand-site.finesse-redesigned {
+ font-family:var(--font-text);font-size:var(--type-body-size);
+ font-weight:400;line-height:1.65;letter-spacing:0;font-optical-sizing:auto;
+}
+/* Defaults also remove inherited negative tracking from copy and controls. */
+body.brand-site.finesse-redesigned :is(p,li,dd,dt,td,th,small,figcaption,label,input,select,textarea,a,button,summary){letter-spacing:0!important}
+body.brand-site.finesse-redesigned :is(p,li){
+ font-family:var(--font-text)!important;font-size:var(--type-body-size)!important;
+ font-weight:400!important;line-height:1.65!important;max-width:68ch!important;
+}
+body.brand-site.finesse-redesigned :is(h1,h2,h3,h4){
+ font-family:var(--font-text)!important;font-weight:600!important;
+ text-wrap:balance;overflow-wrap:normal;word-break:normal;
+}
+body.brand-site.finesse-redesigned h1{font-size:var(--type-h1-size)!important;line-height:1.16!important;letter-spacing:-.018em!important;max-width:26ch!important}
+body.brand-site.finesse-redesigned h2{font-size:var(--type-h2-size)!important;line-height:1.22!important;letter-spacing:-.012em!important;max-width:32ch!important}
+body.brand-site.finesse-redesigned h3{font-size:var(--type-h3-size)!important;line-height:1.3!important;letter-spacing:-.005em!important;max-width:38ch!important}
+body.brand-site.finesse-redesigned h4{font-size:var(--type-h4-size)!important;line-height:1.4!important;letter-spacing:0!important;max-width:44ch!important}
+/* Display is reserved for the homepage promise, not every section heading. */
+body.brand-site.finesse-redesigned .precision-message h1{
+ font-size:var(--type-display-size)!important;font-weight:550!important;
+ line-height:1.08!important;letter-spacing:-.02em!important;max-width:22ch!important;margin-inline:auto;
+}
+body.brand-site.finesse-redesigned :is(.precision-message>p,.page-banner-copy>p,.quote-intro>p,.er-lead,.article-intro,.section-intro,.company-intro,.finesse-resource-masthead>div>p){
+ font-size:var(--type-body-large-size)!important;line-height:1.6!important;max-width:58ch!important;
+}
+body.brand-site.finesse-redesigned :is(small,.form-note,.draft-storage p,.footer-bottom,.footer-bottom a,.breadcrumbs,.breadcrumbs a,.breadcrumbs>span,.er-crumbs,.er-crumbs a,.er-crumbs>span,.er-small,.product-card-context,.er-related small,.quote-steps li){
+ font-family:var(--font-text)!important;font-size:var(--type-small-size)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:0!important;max-width:64ch!important;
+}
+body.brand-site.finesse-redesigned :is(figcaption,figcaption p,.hero-source,.resource-image-note,.image-note,.image-note p,.hero-baseline p){
+ font-family:var(--font-text)!important;font-size:var(--type-caption-size)!important;font-weight:400!important;line-height:1.55!important;letter-spacing:0!important;max-width:64ch!important;
+}
+body.brand-site.finesse-redesigned :is(#main-nav a,#main-nav summary,.footer-compact-nav a,.er-index a){
+ font-family:var(--font-text)!important;font-size:var(--type-navigation-size)!important;font-weight:500!important;line-height:1.45!important;letter-spacing:0!important;max-width:100%!important;
+}
+body.brand-site.finesse-redesigned :is(.button,.text-link,.er-button,.ed-link,.ab-button,.ft-button,button){
+ font-family:var(--font-text)!important;font-size:var(--type-button-size)!important;font-weight:600!important;line-height:1.4!important;letter-spacing:0!important;max-width:100%!important;
+}
+body.brand-site.finesse-redesigned :is(label,dt,.section-label,.nav-group-label,.product-category,.finesse-resource-start-label,.home-facts dt,.er-table dt,th){
+ font-family:var(--font-text)!important;font-size:var(--type-label-size)!important;font-weight:600!important;line-height:1.5!important;letter-spacing:0!important;max-width:40ch!important;text-transform:none!important;
+}
+body.brand-site.finesse-redesigned :is(.home-facts dd,.company-facts dd,.home-workshop-summary dd,.ab-facts dd,.ft-facts dd){
+ font-family:var(--font-data)!important;font-size:var(--type-data-size)!important;font-weight:550!important;line-height:1.25!important;letter-spacing:0!important;max-width:20ch!important;font-variant-numeric:lining-nums tabular-nums;
+}
+body.brand-site.finesse-redesigned :is(td,dd,.er-table dd,.part-facts dd,input,select,textarea){
+ font-family:var(--font-data)!important;font-size:var(--type-specification-size)!important;font-weight:400!important;line-height:1.55!important;letter-spacing:0!important;max-width:64ch!important;font-variant-numeric:lining-nums tabular-nums;
+}
+/* Data values override the general definition-list specification mapping. */
+body.brand-site.finesse-redesigned :is(.home-facts dd,.company-facts dd,.home-workshop-summary dd,.ab-facts dd,.ft-facts dd){font-size:var(--type-data-size)!important;font-weight:550!important;line-height:1.25!important;max-width:20ch!important}
+/* Compact card titles and editorial product copy use H3/H2 respectively. */
+body.brand-site.finesse-redesigned :is(.product-card h3,.ed-product h3,.footer-column h2){font-size:var(--type-h4-size)!important;line-height:1.4!important;letter-spacing:0!important;max-width:44ch!important}
+body.brand-site.finesse-redesigned .er-headline{font-size:var(--type-h2-size)!important;line-height:1.22!important;letter-spacing:-.012em!important;max-width:32ch!important}
+/* Keep a value and its unit together; apply only to an atomic value, not rows. */
+.type-value{white-space:nowrap;font-variant-numeric:lining-nums tabular-nums;letter-spacing:0}
+/* Explicit semantic roles for new components and the private specimen. */
+body.brand-site.finesse-redesigned summary{font-family:var(--font-text)!important;font-size:var(--type-body-size)!important;line-height:1.5!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned #main-nav summary{font-size:var(--type-navigation-size)!important;line-height:1.45!important}
+body.brand-site.finesse-redesigned :is(.mo-breadcrumb,.cap-breadcrumb,.study-breadcrumb,.sh-breadcrumb,.fq-breadcrumb,.ww-breadcrumb,.ag-crumb,.rq-crumb) :is(a,span){font-size:var(--type-small-size)!important;line-height:1.6!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned :is(.cap-jumps a,.manual-index a,.sh-email,.ww-back,.manual-photo-action,.manual-link){font-size:var(--type-navigation-size)!important;font-weight:500!important;line-height:1.5!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned :is(.cap-step,.study-question>span,.sh-mobile-label,.archive-year-label>span:last-child){font-size:var(--type-label-size)!important;font-weight:500!important;line-height:1.5!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned :is(.fq-number,.manual-number,.ag-number,.archive-year-label>span:first-child){font-family:var(--font-data)!important;font-size:var(--type-data-size)!important;font-weight:550!important;line-height:1.25!important;letter-spacing:0!important;font-variant-numeric:lining-nums tabular-nums}
+body.brand-site.finesse-redesigned strong{font-size:max(.875rem,1em)!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned .fq-resources a span{font-size:var(--type-small-size)!important;line-height:1.6!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned .fq-further a{font-size:var(--type-navigation-size)!important;line-height:1.5!important}
+body.brand-site.finesse-redesigned .sh-checklist-head span{font-size:var(--type-label-size)!important;line-height:1.5!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned .sh-checklist h3{font-size:var(--type-h4-size)!important;line-height:1.4!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned :is(.hero-baseline>a,.home-rfq-checklist,.ft-link,.ab-inline,.ab-secondary,.quote-support-note a){font-size:var(--type-button-size)!important;line-height:1.5!important;font-weight:600!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned :is(.quote-optional summary span,.qv-sheet-heading>span,.qv-sheet-foot span,.qv-sheet-foot strong,.ab-history li>span){font-size:var(--type-small-size)!important;line-height:1.6!important;letter-spacing:0!important}
+body.brand-site.finesse-redesigned [data-type]{
+ font-family:var(--role-family,var(--font-text))!important;font-size:var(--role-size)!important;
+ font-weight:var(--role-weight)!important;line-height:var(--role-leading)!important;
+ letter-spacing:var(--role-tracking)!important;max-width:min(100%,var(--role-width))!important;
+}
+[data-type="display"]{--role-size:var(--type-display-size);--role-weight:550;--role-leading:1.08;--role-tracking:-.02em;--role-width:22ch}
+[data-type="h1"]{--role-size:var(--type-h1-size);--role-weight:600;--role-leading:1.16;--role-tracking:-.018em;--role-width:26ch}
+[data-type="h2"]{--role-size:var(--type-h2-size);--role-weight:600;--role-leading:1.22;--role-tracking:-.012em;--role-width:32ch}
+[data-type="h3"]{--role-size:var(--type-h3-size);--role-weight:600;--role-leading:1.3;--role-tracking:-.005em;--role-width:38ch}
+[data-type="h4"]{--role-size:var(--type-h4-size);--role-weight:600;--role-leading:1.4;--role-tracking:0;--role-width:44ch}
+[data-type="body-large"]{--role-size:var(--type-body-large-size);--role-weight:400;--role-leading:1.6;--role-tracking:0;--role-width:58ch}
+[data-type="body"]{--role-size:var(--type-body-size);--role-weight:400;--role-leading:1.65;--role-tracking:0;--role-width:68ch}
+[data-type="small"]{--role-size:var(--type-small-size);--role-weight:400;--role-leading:1.6;--role-tracking:0;--role-width:64ch}
+[data-type="caption"]{--role-size:var(--type-caption-size);--role-weight:400;--role-leading:1.55;--role-tracking:0;--role-width:64ch}
+[data-type="navigation"]{--role-size:var(--type-navigation-size);--role-weight:500;--role-leading:1.45;--role-tracking:0;--role-width:100%}
+[data-type="button"]{--role-size:var(--type-button-size);--role-weight:600;--role-leading:1.4;--role-tracking:0;--role-width:100%}
+[data-type="label"]{--role-size:var(--type-label-size);--role-weight:600;--role-leading:1.5;--role-tracking:0;--role-width:40ch}
+[data-type="data"]{--role-family:var(--font-data);--role-size:var(--type-data-size);--role-weight:550;--role-leading:1.25;--role-tracking:0;--role-width:20ch;font-variant-numeric:lining-nums tabular-nums}
+[data-type="specification"]{--role-family:var(--font-data);--role-size:var(--type-specification-size);--role-weight:400;--role-leading:1.55;--role-tracking:0;--role-width:64ch;font-variant-numeric:lining-nums tabular-nums}
+@media(max-width:1100px){
+ body.brand-site.finesse-redesigned .header-inner{gap:12px}
+ body.brand-site.finesse-redesigned #main-nav{gap:12px}
+}
+@media(max-width:760px){
+ :root{--type-display-size:clamp(2.125rem,1.65rem + 2vw,2.75rem)}
+ body.brand-site.finesse-redesigned .header-quote{font-size:.875rem!important;padding-inline:10px}
+ body.brand-site.finesse-redesigned .er-table>div{grid-template-columns:minmax(0,38fr) minmax(0,62fr)}
+ body.brand-site.finesse-redesigned .precision-message h1{font-size:clamp(2.125rem,1.65rem + 2vw,2.75rem)!important}
+}
+

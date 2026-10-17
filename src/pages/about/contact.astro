@@ -1,0 +1,6 @@
+---
+import AboutContactPage from '../../components/AboutContactPage.astro';
+import AboutContactRedesign from '../../components/AboutContactRedesign.astro';
+import {isRedesigned} from '../../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<AboutContactRedesign/>:<AboutContactPage/>}

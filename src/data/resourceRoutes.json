@@ -1,0 +1,19 @@
+{
+  "groups": {
+    "ordering": "/resources/ordering/",
+    "machining": "/resources/technical-guides/"
+  },
+  "guides": {
+    "rfq-checklist": "/resources/ordering/rfq-checklist/",
+    "compare-cnc-machining-quotations": "/resources/ordering/compare-cnc-machining-quotations/",
+    "machined-prototype-approval-checklist": "/resources/ordering/machined-prototype-approval-checklist/",
+    "prototype-vs-small-batch-cnc": "/resources/ordering/prototype-vs-small-batch-cnc/",
+    "custom-cnc-parts-shipping-checklist": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+    "critical-features-cnc-drawing": "/resources/technical-guides/critical-features-cnc-drawing/",
+    "material-and-finish-checklist": "/resources/technical-guides/material-and-finish-checklist/",
+    "cnc-process-selection": "/resources/technical-guides/cnc-process-selection/"
+  },
+  "sourceArticleAliases": {
+    "custom-cnc-machined-components-for-prototypes-and-production": "critical-features-cnc-drawing"
+  }
+}

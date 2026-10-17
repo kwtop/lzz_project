@@ -1,0 +1,50 @@
+---
+import {capabilityOverview} from '../data/capabilityOverview';
+import {materialGrades} from '../data/materialGrades';
+import {processDelivery} from '../data/orderDeliverables';
+const {slug,quoteHref='/quote/'}=Astro.props;
+const overview=capabilityOverview[slug];
+const delivery=processDelivery[slug];
+const grades=materialGrades[slug];
+---
+<section class="container engineering-scope" id="engineering-fit" aria-labelledby="engineering-fit-heading">
+ <div class="scope-heading"><h2 id="engineering-fit-heading">{overview.heading}</h2></div>
+ <dl>
+  <div><dt>Geometry &amp; process</dt><dd>{overview.geometry}</dd></div>
+  <div><dt>Size &amp; workholding</dt><dd>{overview.workholding}</dd></div>
+  <div><dt>Material &amp; finish</dt><dd>{overview.materialFinish}</dd></div>
+  <div><dt>Inspection planning</dt><dd>{overview.inspection} <a href="/factory/#quality">Review inspection requirements</a></dd></div>
+  {grades&&<div class="scope-grades"><dt>Material options to confirm</dt><dd>{grades.families.map(family=><p><strong>{family.name}</strong><br/>{family.grades.join(" · ")}</p>)}<small>{grades.note}</small></dd></div>}
+ </dl>
+ {slug==='5-axis-cnc-machining'&&<div class="size-review" id="size-and-setup-review"><h3>Part size and setup review</h3><p>Send the inputs below so we can assess machine travel, workholding and tool access. Usable part size and load limits need confirmation for the planned setup.</p><ul><li>Finished length × width × height, with blank dimensions and approximate weight.</li><li>Faces available for clamping, protected surfaces and mating-part clearances.</li><li>3D model and critical-feature drawing, with material condition and quantity.</li></ul><a class="text-link" href={quoteHref}>Discuss your 5-axis part size</a></div>}
+ <p class="scope-note">See our <a href="/factory/#equipment">machining and inspection equipment</a> and <a href="/factory/#order-deliverables">order services and records</a>.</p>
+ {delivery&&<section class="process-delivery" id="service-summary"><h3>{delivery.title}</h3><ul>{delivery.items.map(item=><li>{item}</li>)}</ul>{overview.planning&&<p class="scope-note"><strong>{overview.planning.title}:</strong> {overview.planning.text}</p>}<a href="/factory/#order-documentation">Confirm inspection and order records</a></section>}
+</section>
+<style>
+
+.engineering-scope{padding-block:80px;border-bottom:1px solid var(--border);scroll-margin-top:112px}
+.scope-heading h2{font-family:var(--font-text);font-weight:550;font-size:clamp(34px,3.2vw,46px);letter-spacing:-.03em;line-height:1.15;max-width:26ch}
+.engineering-scope dl{margin:36px 0 0}
+.engineering-scope dl>div{display:grid;grid-template-columns:1fr 2fr;gap:72px;padding:24px 0;border-top:1px solid var(--border)}
+dt{font-weight:550;font-size:18px;line-height:1.4;letter-spacing:0;text-transform:none}
+dd{margin:0;max-width:80ch;font-size:17px;line-height:1.65}
+.scope-grades p+p{margin-top:18px}
+.scope-grades small{display:block;font-size:14px;line-height:1.6;margin-top:18px}
+.scope-note{font-size:15px;line-height:1.65;max-width:85ch;margin-top:26px}
+a{text-decoration:underline;text-underline-offset:4px}
+.size-review{margin-top:36px;padding-top:30px;border-top:1px solid var(--border);scroll-margin-top:112px}
+.size-review h3{font-size:28px;font-weight:550;letter-spacing:-.025em;line-height:1.3}
+.size-review p,.size-review li{font-size:17px;line-height:1.65;max-width:80ch}
+.size-review p{margin-top:20px}
+.size-review ul{padding-left:22px;margin:22px 0}
+.size-review li+li{margin-top:12px}
+.size-review .text-link{font-size:15px;min-height:44px;padding:10px 16px;border:1px solid #bdbdbd;text-decoration:none}
+.process-delivery{scroll-margin-top:112px;margin-top:34px;border-top:1px solid var(--border)}
+.process-delivery h3{padding-block:22px;font-size:24px;font-weight:550;letter-spacing:-.025em;line-height:1.3}
+.process-delivery ul{padding-left:22px;max-width:85ch;margin:0 0 24px}
+.process-delivery li{font-size:17px;line-height:1.65;margin-bottom:14px}
+.process-delivery>a{font-size:15px;display:inline-block;padding:10px 16px;min-height:44px;border:1px solid #bdbdbd;text-decoration:none}
+@media(max-width:760px){.engineering-scope{padding-block:52px}.scope-heading h2{font-size:32px}.engineering-scope dl>div{grid-template-columns:1fr;gap:12px;padding:22px 0}dd,.size-review p,.size-review li,.process-delivery li{font-size:16px}.size-review h3{font-size:25px}.process-delivery h3{font-size:23px}}
+
+</style>
+

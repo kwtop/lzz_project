@@ -1,0 +1,159 @@
+{
+  "created": "2026-10-15",
+  "tool": "image_gen.imagegen",
+  "evidenceBoundary": "Illustrations only. Product composites retain real source pixels. No documentary replacement.",
+  "items": [
+    {
+      "id": "HOME-I1",
+      "stem": "machining-hero",
+      "file": "exec-83c5c6af-6839-4b75-b432-ec1d3e26dded.png",
+      "references": [
+        "/media/machining-hero-v2.webp",
+        "/media/evidence/milling-enclosure-operation-1600.webp"
+      ],
+      "purpose": "Generic milling illustration, separate from real factory and order evidence",
+      "direction": "4:3; short four-flute cutter visibly engaging pocket wall; spindle upper right; complete workpiece/vise, cool neutral steel and soft upper-left light; no text, logos or results",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "type": "imagegen-reference-generation",
+      "assets": [
+        {
+          "src": "/media/redesign-20261015/machining-hero-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 29948
+        },
+        {
+          "src": "/media/redesign-20261015/machining-hero-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 67422
+        },
+        {
+          "src": "/media/redesign-20261015/machining-hero-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 121042
+        },
+        {
+          "src": "/media/redesign-20261015/machining-hero-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 152942
+        }
+      ],
+      "adopted": true,
+      "originalRetained": true,
+      "promptRecord": "prompts.json",
+      "originalProjectFile": "/media/redesign-20261015/machining-hero-generated-original.png",
+      "originalSha256": "247978c357de2e6202e4acaf3d01058a828b3cc12e66192fc5d6600bc788ae33",
+      "locations": [
+        "/"
+      ],
+      "originalToolSha256": "247978c357de2e6202e4acaf3d01058a828b3cc12e66192fc5d6600bc788ae33"
+    },
+    {
+      "id": "CAP-I11",
+      "stem": "inspection-concept",
+      "file": "exec-9c7bb2d1-1239-4b2a-919b-e350963b7e37.png",
+      "references": [
+        "/media/factory-unified-20261015/inspection-concept-1200.webp",
+        "/media/evidence/cmm-detail-1600.webp"
+      ],
+      "purpose": "Generic contact measurement explanation, never an inspection record",
+      "direction": "3:2; ruby touch-probe tangent to inner bore wall, supported aluminum block; neutral diffuse industrial photography; no measurements, marks or results",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "type": "imagegen-reference-generation",
+      "assets": [
+        {
+          "src": "/media/redesign-20261015/inspection-concept-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30590
+        },
+        {
+          "src": "/media/redesign-20261015/inspection-concept-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 73958
+        },
+        {
+          "src": "/media/redesign-20261015/inspection-concept-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 141102
+        },
+        {
+          "src": "/media/redesign-20261015/inspection-concept-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 209852
+        }
+      ],
+      "adopted": true,
+      "originalRetained": true,
+      "promptRecord": "prompts.json",
+      "originalProjectFile": "/media/redesign-20261015/inspection-concept-generated-original.png",
+      "originalSha256": "d59084a502cd2b31b5a6a920165cfa0f4ac0cbaab06cfd5fda60196c09c3defc",
+      "locations": [
+        "/factory/"
+      ],
+      "originalToolSha256": "d59084a502cd2b31b5a6a920165cfa0f4ac0cbaab06cfd5fda60196c09c3defc"
+    },
+    {
+      "id": "PART-background",
+      "stem": "product-background",
+      "file": "exec-376ba729-65cc-4b40-bf5e-97895e81cecf.png",
+      "references": [],
+      "purpose": "Empty studio canvas only; original product subject pixels must be retained in composites",
+      "direction": "4:3; empty cool pale-gray seamless surface, diffuse upper-left light; no object or invented part",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "type": "imagegen-generation",
+      "assets": [
+        {
+          "src": "/media/redesign-20261015/product-background-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 1488
+        },
+        {
+          "src": "/media/redesign-20261015/product-background-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 3492
+        },
+        {
+          "src": "/media/redesign-20261015/product-background-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 7026
+        },
+        {
+          "src": "/media/redesign-20261015/product-background-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 9780
+        }
+      ],
+      "adopted": true,
+      "originalRetained": true,
+      "adoptedBy": [
+        "P29: original-subject composite; generated empty backdrop only"
+      ],
+      "rejectedCandidates": 9,
+      "decisionManifest": "D:/lzz/website-implementation-20261015/product-background-decisions.json",
+      "promptRecord": "prompts.json",
+      "originalProjectFile": "/media/redesign-20261015/product-background-generated-original.png",
+      "originalSha256": "d6d61d48a15836f511513ddb39ee4fc2242c88ce541e4c39d4ece9436ac5eb00",
+      "locations": [
+        "/capabilities/plastic-machined-parts/",
+        "/products/",
+        "/products/part-examples/",
+        "/products/part-examples/precision-machining-for-functional-plastic-blocks-structural-components/"
+      ],
+      "originalToolSha256": "d6d61d48a15836f511513ddb39ee4fc2242c88ce541e4c39d4ece9436ac5eb00"
+    }
+  ]
+}

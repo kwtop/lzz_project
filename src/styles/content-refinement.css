@@ -1,0 +1,20 @@
+/* Existing content templates: chapter rhythm, scoped away from commerce pages. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-section,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-related{padding-block:64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-section p{max-width:68ch;font-size:17px;line-height:1.7}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-section h2{margin-bottom:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .case-related{display:block;border-top:1px solid var(--border)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .case-related>p{margin-block:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .case-related-grid{margin-top:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .ce-display-pair{grid-column:1/-1;max-width:800px;margin:36px auto 0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .ce-display-pair img{width:100%;height:auto;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .collection-section{padding-block:64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .collection-section .reference-gallery{padding-block:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-header{padding-block:48px 56px}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-section,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-related,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .collection-section{padding-block:36px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-section p{font-size:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-refined .reading-header{padding-block:32px 40px}
+}

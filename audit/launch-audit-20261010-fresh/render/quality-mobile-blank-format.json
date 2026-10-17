@@ -1,0 +1,101 @@
+{
+  "canonical": "https://www.lzz-cnc.com/quality/",
+  "description": "LZZ is ISO 9001 certified. Review its machining inspection stages, dimensional checks and the records to specify with your order.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Quality control forCNC machined parts"
+    },
+    {
+      "tag": "H2",
+      "text": "Inspection records and order acceptance"
+    },
+    {
+      "tag": "H3",
+      "text": "Dimensional inspection record"
+    },
+    {
+      "tag": "H3",
+      "text": "Documents to specify with your quotation"
+    },
+    {
+      "tag": "H2",
+      "text": "Checks at each production stage"
+    },
+    {
+      "tag": "H3",
+      "text": "Drawing review"
+    },
+    {
+      "tag": "H3",
+      "text": "First article"
+    },
+    {
+      "tag": "H3",
+      "text": "In-process checks"
+    },
+    {
+      "tag": "H3",
+      "text": "Final inspection"
+    },
+    {
+      "tag": "H2",
+      "text": "Inspection equipment and methods"
+    },
+    {
+      "tag": "H2",
+      "text": "Supplier qualification"
+    },
+    {
+      "tag": "H3",
+      "text": "Hangzhou Lizhizao Precision Machinery Co., Ltd."
+    },
+    {
+      "tag": "H2",
+      "text": "Resources and checklists"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/quote/?part=Quality+review+%E2%80%94+inspection+requirements+and+order+records",
+      "text": "Discuss your inspection needs"
+    },
+    {
+      "href": "/factory/#workflow",
+      "text": "See the complete manufacturing process"
+    },
+    {
+      "href": "/factory/#equipment",
+      "text": "See machining and inspection equipment"
+    },
+    {
+      "href": "/about/#documents",
+      "text": "company recognition documents"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com?subject=Supplier%20qualification%20documents&body=Please%20provide%20the%20current%20ISO%209001%20certificate%20for%20Hangzhou%20Lizhizao%20Precision%20Machinery%20Co.%2C%20Ltd.%2C%20including%20certificate%20number%2C%20issuing%20body%2C%20validity%20dates%2C%20covered%20site%2C%20scope%20and%20verification%20method.%0A%0AProject%20%2F%20drawing%20reference%3A%0ARequired%20inspection%20records%3A",
+      "text": "Request certificate & scope"
+    },
+    {
+      "href": "/downloads/order-acceptance-checklist.txt",
+      "text": "Download the order acceptance checklist"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Prepare your drawing and inspection checklist"
+    }
+  ],
+  "main": "Quality control for\nCNC machined parts\n\nDimensional checks, material requirements and inspection records, agreed against your drawing.\n\nShare critical dimensions, datums and functional requirements so we can agree the measurement methods, acceptance limits and required records before machining.\n\nDiscuss your inspection needs\nCMM probe and fixture · LZZ inspection area\nInspection records and order acceptance\n\nDefine the information shown on dimensional and first-article reports, including the part number, drawing revision, specified features, datums, acceptance limits, measurement method and results.\n\nAgree sampling, report format and any customer approval hold point before production.\n\nPreview blank dimensional inspection format · no results\nDimensional inspection record\nDrawing / revision\nTo agree\nPart / batch reference\nTo agree\nFeature / datum\tDrawing limit\tMethod\tResult\nTo define\t—\tTo agree\t—\nSampling plan: To agree\nReview / approval: Blank\n\nBlank example only. No customer data, measured results or approval.\n\nDocuments to specify with your quotation\n\nNo customer report or measurement result is published on this site.\n\nDimensional & first-article reports\nReports identify the part number, drawing revision and part or batch reference. Specify whether acceptance dimensions apply before or after finishing; use the report fields above to agree the required results.\nMaterial records\nSpecify the material grade, condition and required traceability. The quotation confirms which material documents will accompany your order.\nFinishing documents\nWe arrange the treatment documentation required by your order, linked to the specified process and part or batch. State any special acceptance test or document requirement before production.\nSurface & batch acceptance\nMark cosmetic faces, masked areas and edge conditions. Include sampling requirements and the approval process for any proposed deviation.\n\nAsk LZZ to confirm which records can be supplied before machining. Your quotation will list the included documents and any extra cost.\n\nChecks at each production stage\nDrawing review\n\nAgree critical features, datums and acceptance criteria.\n\nFirst article\n\nCheck the initial part before the production run. Agree any customer approval hold point in advance.\n\nIn-process checks\n\nInspect agreed features during machining.\n\nFinal inspection\n\nVerify the finished parts against the agreed order.\n\nSee the complete manufacturing process\nInspection equipment and methods\n\nChoose the measurement method for the feature and its drawing limits. The equipment below covers dimensional checks; specify any additional tests with your quotation request.\n\nRequest the current calibration records during supplier review.\n\nCoordinate measuring machine (CMM)\nPositions and geometric features against drawing datums.\nHeight gauges\nHeights and dimensions in the agreed setup.\nOptical projectors\nProfiles suited to optical measurement.\nOther checks to specify\nFor threads, roughness, coating thickness or hardness, state the method and acceptance criteria on your drawing. Confirm checks and records with the quotation.\nSee machining and inspection equipment\nSupplier qualification\n\nLZZ is ISO 9001-certified. Request the current certificate for your supplier file and check the details listed here.\n\nThe company recognition documents are separate from the ISO certificate.\n\nRequest certificate & scope\nHangzhou Lizhizao Precision Machinery Co., Ltd.\n\nWhen reviewing our ISO 9001 certificate, please check:\n\nNamed legal entity: Hangzhou Lizhizao Precision Machinery Co., Ltd.\nCertificate number, issuing certification body and verification method.\nIssue and expiry dates, covered site and certified activities.\nThe current certificate copy and the inspection records required for your project.\n\nCertificate number, issuer and current validity are available on request.\n\nResources and checklists\n\nPrepare your drawing and inspection requirements.\n\nDownload the order acceptance checklist\nPrepare your drawing and inspection checklist",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/quality/#webpage\",\"url\":\"https://www.lzz-cnc.com/quality/\",\"name\":\"Quality control for custom CNC machined parts\",\"description\":\"LZZ is ISO 9001 certified. Review its machining inspection stages, dimensional checks and the records to specify with your order.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/quality/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/quality/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Quality control for custom CNC machined parts\",\"item\":\"https://www.lzz-cnc.com/quality/\"}]}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "CNC part inspection & quality control | LZZ Precision",
+  "url": "http://127.0.0.1:4326/quality/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "quality-mobile-blank-format"
+}

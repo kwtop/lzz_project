@@ -1,0 +1,115 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - navigation "Breadcrumb":
+    - link "Resources":
+      - /url: /resources/
+    - generic: / Drawings & Ordering
+  - heading "Drawings & Ordering" [level=1]
+  - paragraph: Prepare your drawing and order requirements so you can compare quotations on the same basis.
+  - region "Drawings & Ordering articles":
+    - article:
+      - figure "AI-generated illustrative image. Not an LZZ order, inspection or measurement record.":
+        - img "Illustrative machined housing beside a drawing and caliper"
+        - generic: AI-generated illustrative image. Not an LZZ order, inspection or measurement record.
+      - heading "RFQ Checklist" [level=2]:
+        - link "RFQ Checklist":
+          - /url: /resources/rfq-checklist/
+      - paragraph: Send a consistent drawing package with the material and quantity required. Identify critical features and the inspection records you need.
+      - link "Read the guide":
+        - /url: /resources/rfq-checklist/
+    - article:
+      - figure:
+        - img "Packed machining order photographed before dispatch."
+      - heading "How We Work" [level=2]:
+        - link "How We Work":
+          - /url: /resources/how-we-work/
+      - paragraph: Follow the LZZ order process, starting with your drawing and quotation. Agree on sample checks and production requirements before arranging shipment.
+      - link "Read the guide":
+        - /url: /resources/how-we-work/
+    - article:
+      - figure:
+        - img "Batch of machined aluminum enclosures"
+      - heading "Planning CNC parts for prototypes and repeat orders" [level=2]:
+        - link "Planning CNC parts for prototypes and repeat orders":
+          - /url: /resources/custom-cnc-machined-components-for-prototypes-and-production/
+      - paragraph: Define the interfaces and acceptance requirements for your CNC part, then agree on material and finish before prototype machining or repeat orders.
+      - link "Read the guide":
+        - /url: /resources/custom-cnc-machined-components-for-prototypes-and-production/
+  - navigation "Other Resources categories":
+    - heading "Explore Resources" [level=2]
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How We Work":
+      - /url: /resources/how-we-work/
+    - link "Machining Guides":
+      - /url: /resources/processes-materials-finishes/
+    - link "Production & Shipping":
+      - /url: /resources/production-and-shipping/
+    - link "FAQ":
+      - /url: /resources/faq/
+- heading "Have a part in mind?" [level=2]
+- paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+- link "Prepare RFQ email":
+  - /url: /quote/
+- link "roger@lzz-cnc.com":
+  - /url: mailto:roger@lzz-cnc.com
+  - generic: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

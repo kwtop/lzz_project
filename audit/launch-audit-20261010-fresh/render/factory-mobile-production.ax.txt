@@ -1,0 +1,146 @@
+Browser tab: 1, Title: "Our factory and manufacturing workflow | LZZ Precision", URL: "http://127.0.0.1:4326/factory/".
+1 AXWebArea Our factory and manufacturing workflow | LZZ Precision, URL: 127.0.0.1:4326/factory/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/factory/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container main
+		8 container Our factory in Hangzhou
+			9 image Rows of enclosed CNC machines inside the LZZ workshop.
+			10 heading Our factory in Hangzhou, Value: 1, ID: factory-title
+				11 text Our factory
+				12 text in Hangzhou
+			13 text A 1,500 m² production facility with 40+ CNC machines, supporting custom parts from 1 piece. An engineering team with more than 15 years in CNC machining.
+			14 link Description: Explore the equipment, Value: 127.0.0.1:4326/factory/#equipment
+			15 text LZZ machining workshop · Original photograph
+		16 container Description: Factory scale and reference capacity, ID: production-capacity
+			17 definition list
+				18 container Founded in Hangzhou
+					19 text Founded in Hangzhou
+				20 text 2017
+				21 container Production facility
+					22 text Production facility
+				23 text 1,500 m²
+				24 container CNC machines
+					25 text CNC machines
+				26 text 40+
+			27 heading About 100,000 parts per month, Value: 2
+				28 text About 100,000 parts per month
+			29 text Reference capacity only. Actual output depends on part geometry, material, finishing and production mix.
+		30 container CNC machining and inspection equipment, ID: equipment
+			31 heading CNC machining and inspection equipment, Value: 2, ID: equipment-title
+				32 text CNC machining
+				33 text and inspection equipment
+			34 text The workshop combines machining centers, lathes, turn-mill and multi-axis machines. The equipment notes below link to the relevant machining and inspection services.
+			35 container
+				36 link Description: View original photograph: CNC machining centers, Value: 127.0.0.1:4326/media/evidence/milling-enclosure-operation-1600.webp
+				37 heading CNC machining centers, Value: 3
+					38 text CNC machining centers
+				39 text Milling pockets, profiles, bores and multi-face features.
+				40 link Description: View CNC milling capabilities, Value: 127.0.0.1:4326/capabilities/cnc-milling-service/#engineering-fit
+			41 container
+				42 link Description: View original photograph: CNC lathes & turn-mill equipment, Value: 127.0.0.1:4326/media/evidence/turning-operation-1600.webp
+				43 heading CNC lathes & turn-mill equipment, Value: 3
+					44 text CNC lathes & turn-mill equipment
+				45 text Rotational parts, threads and components combining turned and milled features.
+				46 link Description: View turning capabilities, Value: 127.0.0.1:4326/capabilities/cnc-turning-service/#engineering-fit
+			47 container
+				48 link Description: View original photograph: Multi-axis machining, Value: 127.0.0.1:4326/media/evidence/five-axis-machine-wide-1600.webp
+				49 heading Multi-axis machining, Value: 3
+					50 text Multi-axis machining
+				51 text Machining angled features and curved surfaces to your drawing.
+				52 link Description: Check your part size and setup, Value: 127.0.0.1:4326/capabilities/5-axis-cnc-machining/#size-and-setup-review
+			53 container
+				54 link Description: View original photograph: Dimensional inspection, Value: 127.0.0.1:4326/media/evidence/cmm-room-1600.webp
+				55 heading Dimensional inspection, Value: 3
+					56 text Dimensional inspection
+				57 text CMM, height gauges and optical projectors for checking part dimensions.
+				58 link Description: View quality control, Value: 127.0.0.1:4326/quality/
+		59 container The machining floor, ID: workshop-photographs
+			60 heading The machining floor, Value: 2, ID: workshop-title
+				61 text The machining floor
+			62 text These photographs from our company archive show the workshop and operators among the CNC machines. Dates refer to the original source files or folders.
+			63 container
+				64 link Description: View original photograph of workshop operators, Value: 127.0.0.1:4326/media/evidence/workshop-operators-2025-1600.webp
+				65 text Operators among the CNC machines.
+				66 text Original production-floor photograph; source file dated November 2025.
+			67 container
+				68 link Description: View original photograph of the workshop aisle, Value: 127.0.0.1:4326/media/evidence/workshop-aisle-1200.webp
+				69 text Machining centers along the workshop aisle.
+				70 text Original photograph; source folder dated December 2025.
+			71 container
+				72 link Description: View original packing archive photograph, Value: 127.0.0.1:4326/media/evidence/shipping-example-1600.webp
+				73 text Packing archive · November 2022.
+				74 text Original packing archive photograph.
+		75 container Dimensional inspection against your drawing
+			76 container
+				77 image Closer view of a coordinate measuring machine.
+				78 text Coordinate measuring machine detail · Original photograph
+			79 heading Dimensional inspection against your drawing, Value: 2, ID: inspection-title
+				80 text Dimensional inspection
+				81 text against your drawing
+			82 text We use CMM, height gauges and optical projectors to check part dimensions. Inspection scope and measurement methods are confirmed in your quotation, based on the drawing and requirements.
+			83 link Description: View quality control, Value: 127.0.0.1:4326/quality/
+		84 container Our working process, ID: workflow
+			85 heading Our working process, Value: 2, ID: workflow-title
+				86 text Our working process
+			87 link Description: See how we work, Value: 127.0.0.1:4326/resources/how-we-work/
+			88 text The quotation sets out the work, approval steps and delivery requirements. Sample approval and the agreed inspection plan guide the move into production.
+			89 content list
+				90 container
+					91 heading Requirements & quotation, Value: 3
+						92 text Requirements & quotation
+					93 text Confirm requirements and evaluate your drawing or model before agreeing the quotation.
+				94 container
+					95 heading Sample & inspection, Value: 3
+						96 text Sample & inspection
+					97 text Machine the sample or prototype, then inspect it and review the results with you.
+				98 container
+					99 heading Approval & production, Value: 3
+						100 text Approval & production
+					101 text Proceed to production after sample approval, with the agreed requirements in place.
+				102 container
+					103 heading Final QC & shipment, Value: 3
+						104 text Final QC & shipment
+					105 text Complete final quality checks and prepare the parts and agreed documents for dispatch.
+			106 button (collapsed) Purchasing, inspection and delivery requirements, Secondary Actions: Expand
+				107 text Purchasing, inspection and delivery requirements
+	108 container
+		109 heading Have a part in mind?, Value: 2
+			110 text Have a part in mind?
+		111 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+		112 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/
+		113 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+	114 container
+		115 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		116 text Custom CNC machining
+		117 text in Hangzhou, China.
+		118 container Footer navigation
+			119 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			120 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			121 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			122 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			123 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			124 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			125 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			126 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			127 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			128 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		129 container Let’s talk, ID: contact
+			130 heading Let’s talk, Value: 2, ID: footer-talk-title
+				131 text Let’s talk
+			132 text Hangzhou, China · UTC+8
+			133 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			134 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		135 container Find us
+			136 heading Find us, Value: 2, ID: footer-find-title
+				137 text Find us
+			138 container
+				139 text No. 4 Fengcheng Road
+				140 text Pingyao, Yuhang District
+				141 text Hangzhou, Zhejiang, China
+		142 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		143 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea Our factory and manufacturing workflow | LZZ Precision, URL: 127.0.0.1:4326/factory/

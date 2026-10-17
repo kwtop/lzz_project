@@ -1,0 +1,40 @@
+{
+  "created": "2026-10-14",
+  "kind": "AI-generated conceptual illustration",
+  "tool": "built-in image_gen",
+  "sourcePath": "D:/lzz/factory-redesign-20261014/outputs/workflow-illustrative-v1.png",
+  "sourceSha256": "3cb0bc781745d0919c3ec0902d0d1d9979201da0d470ffd0862e254e01c21c7c",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": "Create one polished technical editorial illustration for the workflow section of an English CNC manufacturing website. Canvas 1536 x 1024, landscape, clean warm-white (#fafafa) background. This is explicitly a conceptual illustration, never a real factory photograph. Show exactly FOUR separate small industrial vignettes in a spacious 2-by-2 composition, read left-to-right then down, without frames, arrows, numbers, logos, words, certificates, people or watermarks. Use one consistent example throughout: a simple silver aluminum rectangular component with one recessed pocket, four corner holes and a central circular bore. Upper left: an engineering drawing on white paper beside a small neutral CAD screen showing this component, fine muted blue-gray diagram lines with NO legible numbers or letters. Upper right: the same component clamped in a simple vise under a generic milling spindle, clearly an illustrative cutaway setup, not a branded production machine. Lower left: a measurement probe inspecting the bore of the same component on a small metrology table. Lower right: the same component nestled in a protective foam insert inside a plain open cardboard carton, no shipping labels. All objects fully visible, no clipping, identical isometric viewing angle, soft daylight, restrained realistic metal and paper textures, delicate contact shadows, neutral graphite details with tiny dark-red (#b71924) accents. Art direction: calm industrial engineering publication, precise and approachable, no futuristic machinery, no dramatic lighting or decorative gradient. Keep backgrounds and space between vignettes bright and quiet. Maintain believable part geometry and generic illustrative equipment; avoid adding any manufacturer or process capability claims. This image will sit beside four HTML text steps: Requirements & quotation, Sample & inspection, Approval & production, Final QC & shipment. Put no text in the illustration.\n",
+  "consumingPage": "/factory/workshop/#workflow",
+  "proofScope": "Generic explanation of drawing, machining, measurement and packing; not an LZZ factory photo, machine inventory, inspection result or shipment record.",
+  "derivatives": [
+    {
+      "url": "/media/factory-reading-20261014/workflow-illustrative-v1-480.webp",
+      "width": 480,
+      "bytes": 23186,
+      "sha256": "6bdcf9828b7ea8f8fb0ce2334f3c50c5d82ead15c931a93f0ad913bd683ec8b3"
+    },
+    {
+      "url": "/media/factory-reading-20261014/workflow-illustrative-v1-800.webp",
+      "width": 800,
+      "bytes": 53078,
+      "sha256": "a1bb5b077d4c2fe295940d72bb8de2e18bf925031a60333e1e24753e09a88431"
+    },
+    {
+      "url": "/media/factory-reading-20261014/workflow-illustrative-v1-1200.webp",
+      "width": 1200,
+      "bytes": 104524,
+      "sha256": "3f495a37d1135add3ce5697a7451d7ae8b03cc8c6ff0812461f06836622a3137"
+    },
+    {
+      "url": "/media/factory-reading-20261014/workflow-illustrative-v1-1536.webp",
+      "width": 1536,
+      "bytes": 160698,
+      "sha256": "fd98b1c4473d180717e61487536ab5099984a25b7f8d28938fb8a7be8e5d8e4f"
+    }
+  ]
+}

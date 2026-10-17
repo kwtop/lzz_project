@@ -1,0 +1,693 @@
+[
+  {
+    "h1": {
+      "fontSize": "72px",
+      "left": 196,
+      "text": "Your parts\nMachined to order",
+      "width": 1033
+    },
+    "h2": [
+      "Custom machined parts",
+      "Machining capabilities & materials",
+      "Factory & quality",
+      "Machining studies",
+      "Let’s make your part"
+    ],
+    "height": 5215,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "16px 28px",
+        "radius": "3px",
+        "text": "Discuss your part"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 50,
+        "padding": "14px 20px",
+        "radius": "6px",
+        "text": "View machining capabilities"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px",
+        "color": "rgb(203, 18, 23)",
+        "height": 44,
+        "padding": "10px 0px",
+        "radius": "0px",
+        "text": "Discuss your part"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 50,
+        "padding": "14px 20px",
+        "radius": "6px",
+        "text": "Review quality control"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 50,
+        "padding": "14px 20px",
+        "radius": "6px",
+        "text": "Explore our factory"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "16px 22px",
+        "radius": "0px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 142,
+      "text": "Custom machined parts",
+      "width": 960
+    },
+    "h2": [
+      "From the workshop",
+      "Covered components & gear forms",
+      "",
+      ""
+    ],
+    "height": 3279,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0.666667px",
+        "color": "rgb(25, 28, 30)",
+        "height": 44,
+        "padding": "11px 16px",
+        "radius": "3px",
+        "text": ""
+      }
+    ],
+    "route": "/products/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 82,
+      "text": "Machined impellers",
+      "width": 399
+    },
+    "h2": [
+      "Blade profiles and the datum axis",
+      "Manufacturing options",
+      "Drawing and inspection requirements"
+    ],
+    "height": 2653,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0px",
+        "color": "rgb(255, 255, 255)",
+        "height": 52,
+        "padding": "14px 22px",
+        "radius": "3px",
+        "text": "Request a quote"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0px",
+        "color": "rgb(255, 255, 255)",
+        "height": 52,
+        "padding": "14px 22px",
+        "radius": "3px",
+        "text": "Prepare an RFQ email"
+      }
+    ],
+    "route": "/products/ultra-high-precision-machining-services/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 142,
+      "text": "Find the right route\nfor your part",
+      "width": 637
+    },
+    "h2": [
+      "Five machining services",
+      "Choose a material",
+      "Plan an order",
+      "From sample to part"
+    ],
+    "height": 3625,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0.666667px",
+        "color": "rgb(25, 28, 30)",
+        "height": 44,
+        "padding": "11px 16px",
+        "radius": "3px",
+        "text": "Discuss your sample"
+      }
+    ],
+    "route": "/capabilities/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 132,
+      "text": "CNC milling for custom components",
+      "width": 581
+    },
+    "h2": [
+      "Milled pockets, faces and contours",
+      "Part examples",
+      "Milling in practice",
+      "From drawing to finished part",
+      "Drawing requirements",
+      "Inspection and acceptance",
+      "Prepare your milling enquiry",
+      "Related machining processes"
+    ],
+    "height": 5647,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 37, 50)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "15px 23px",
+        "radius": "0px",
+        "text": "Prepare RFQ email ↗"
+      },
+      {
+        "bg": "rgb(203, 37, 50)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "15px 23px",
+        "radius": "0px",
+        "text": "Prepare RFQ email ↗"
+      }
+    ],
+    "route": "/capabilities/cnc-milling-service/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 132,
+      "text": "5-axis machining for complex geometry",
+      "width": 581
+    },
+    "h2": [
+      "Angled access and continuous contours",
+      "Part examples",
+      "Machining in practice",
+      "Choose the motion that the geometry needs",
+      "Drawing requirements",
+      "Inspection and acceptance",
+      "Prepare your 5-axis machining enquiry",
+      "Related machining processes"
+    ],
+    "height": 5546,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 37, 50)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "15px 23px",
+        "radius": "0px",
+        "text": "Prepare RFQ email ↗"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px 0px 0.666667px",
+        "color": "rgb(32, 38, 41)",
+        "height": 44,
+        "padding": "0px",
+        "radius": "0px",
+        "text": "Request a size review ↗"
+      },
+      {
+        "bg": "rgb(203, 37, 50)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "15px 23px",
+        "radius": "0px",
+        "text": "Prepare RFQ email ↗"
+      }
+    ],
+    "route": "/capabilities/5-axis-cnc-machining/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 112,
+      "text": "The people behind\nyour custom parts",
+      "width": 620
+    },
+    "h2": [
+      "Custom CNC machining at LZZ",
+      "How our capabilities developed",
+      "Applications and example parts",
+      "",
+      "People and moments",
+      "",
+      "Original company documents",
+      "Have a part in mind?"
+    ],
+    "height": 5083,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(194, 12, 22)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 46,
+        "padding": "12px 18px",
+        "radius": "2px",
+        "text": "Meet LZZ"
+      },
+      {
+        "bg": "rgb(194, 12, 22)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 46,
+        "padding": "12px 18px",
+        "radius": "2px",
+        "text": "How we work"
+      },
+      {
+        "bg": "rgb(194, 12, 22)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 46,
+        "padding": "12px 18px",
+        "radius": "2px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/about/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 112,
+      "text": "Our factory\nin Hangzhou",
+      "width": 525
+    },
+    "h2": [
+      "About 100,000 parts per month",
+      "CNC machining and inspection equipment",
+      "The machining floor",
+      "Dimensional inspection against your drawing",
+      "Our working process"
+    ],
+    "height": 5108,
+    "overflow": false,
+    "quoteButtons": [],
+    "route": "/factory/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 112,
+      "text": "Quality control for\nCNC machined parts",
+      "width": 595
+    },
+    "h2": [
+      "Agree what the report will contain",
+      "Order documentation and acceptance",
+      "Checks at each production stage",
+      "Inspection equipment and methods",
+      "Supplier qualification",
+      "Resources and checklists"
+    ],
+    "height": 4103,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(220, 0, 41)",
+        "border": "0px",
+        "color": "rgb(255, 255, 255)",
+        "height": 56,
+        "padding": "15px 24px",
+        "radius": "2px",
+        "text": "Discuss your inspection needs"
+      }
+    ],
+    "route": "/quality/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 132,
+      "text": "CNC machining studies\nfrom the workshop",
+      "width": 613
+    },
+    "h2": [
+      "29-inch display housing",
+      "Compare part families",
+      "How geometry changes the route",
+      "Have similar features?",
+      "Pockets, bores & mounting faces",
+      "Before comparing your part"
+    ],
+    "height": 4219,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 37, 50)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "15px 24px",
+        "radius": "0px",
+        "text": "Prepare RFQ email"
+      },
+      {
+        "bg": "rgb(203, 37, 50)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 54,
+        "padding": "15px 24px",
+        "radius": "0px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/cases/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 142,
+      "text": "Resources",
+      "width": 430
+    },
+    "h2": [
+      "RFQ Checklist",
+      "Drawings & Ordering",
+      "Machining Guides",
+      "Production & Shipping"
+    ],
+    "height": 3265,
+    "overflow": false,
+    "quoteButtons": [],
+    "route": "/resources/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 132,
+      "text": "CNC machining RFQ checklist",
+      "width": 960
+    },
+    "h2": [
+      "Five essential requirements for a complete RFQ",
+      "Define how the part will be accepted",
+      "Specify the material and final surface",
+      "What drawing review returns",
+      "Set the commercial brief",
+      "Ready to prepare the email?",
+      "Related part examples"
+    ],
+    "height": 4063,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(199, 34, 47)",
+        "border": "0px",
+        "color": "rgb(255, 255, 255)",
+        "height": 51,
+        "padding": "13px 23px",
+        "radius": "0px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/resources/rfq-checklist/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 72,
+      "text": "How We Work",
+      "width": 620
+    },
+    "h2": [
+      "Key facts and preparation",
+      "Define the work",
+      "Approve before production",
+      "Prepare for handover",
+      "If there is an issue",
+      "Part examples from our work",
+      "Have a part in mind?"
+    ],
+    "height": 5310,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 52,
+        "padding": "13px 26px",
+        "radius": "2px",
+        "text": "Prepare RFQ email"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 52,
+        "padding": "13px 26px",
+        "radius": "2px",
+        "text": "Prepare RFQ email"
+      },
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 52,
+        "padding": "13px 26px",
+        "radius": "2px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/resources/how-we-work/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 132,
+      "text": "CNC prototypes and\nsmall-batch production",
+      "width": 501
+    },
+    "h2": [
+      "Validate",
+      "Approve",
+      "Repeat",
+      "Validate the first sample",
+      "Approve what will repeat",
+      "Plan the repeat order",
+      "Compare suppliers before committing",
+      "Related part examples"
+    ],
+    "height": 3666,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(201, 33, 45)",
+        "border": "0px",
+        "color": "rgb(255, 255, 255)",
+        "height": 53,
+        "padding": "14px 22px",
+        "radius": "0px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 100,
+      "text": "Shipping CNC parts\ninternationally",
+      "width": 529
+    },
+    "h2": [
+      "Protect finished surfaces and threads",
+      "Keep identification and documents together",
+      "Destination, transport and responsibilities",
+      "Five topics to confirm before a quotation",
+      "LZZ packing archive",
+      "Include delivery in your RFQ"
+    ],
+    "height": 4725,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(198, 18, 27)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 50,
+        "padding": "14px 24px",
+        "radius": "0px",
+        "text": "See the shipping checklist"
+      },
+      {
+        "bg": "rgb(198, 18, 27)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 50,
+        "padding": "14px 24px",
+        "radius": "0px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 142,
+      "text": "Specifying material and finish for a machined part",
+      "width": 960
+    },
+    "h2": [
+      "Finishing services and acceptance points",
+      "Describe the operating conditions",
+      "Specify the material grade",
+      "Material examples named in the original brochure",
+      "Compare material families by the job",
+      "How should I compare material options?",
+      "Define the finish requirements",
+      "Resolve dimensions after treatment",
+      "Record the requirements in your RFQ",
+      "Related part examples"
+    ],
+    "height": 5966,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px",
+        "color": "rgb(192, 27, 37)",
+        "height": 19,
+        "padding": "0px",
+        "radius": "0px",
+        "text": "prepare an inquiry"
+      }
+    ],
+    "route": "/resources/material-and-finish-checklist/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 72,
+      "text": "Custom CNC\nmachining FAQ",
+      "width": 787
+    },
+    "h2": [
+      "Quotes & ordering",
+      "Preparing a quotation",
+      "Processes & specifications",
+      "Inspection & delivery",
+      "Case studies & further resources"
+    ],
+    "height": 3594,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(207, 6, 24)",
+        "border": "0px",
+        "color": "rgb(255, 255, 255)",
+        "height": 50,
+        "padding": "12px 20px",
+        "radius": "2px",
+        "text": "Prepare RFQ email"
+      }
+    ],
+    "route": "/resources/faq/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 142,
+      "text": "Tell us about\nyour part",
+      "width": 538
+    },
+    "h2": [
+      "Prefer to talk first?"
+    ],
+    "height": 1826,
+    "overflow": false,
+    "quoteButtons": [
+      {
+        "bg": "rgb(203, 18, 23)",
+        "border": "0.666667px",
+        "color": "rgb(255, 255, 255)",
+        "height": 52,
+        "padding": "14px 20px",
+        "radius": "3px",
+        "text": "Prepare email draft"
+      }
+    ],
+    "route": "/quote/",
+    "width": 1440
+  },
+  {
+    "h1": {
+      "fontSize": "56px",
+      "left": 142,
+      "text": "Company News",
+      "width": 582
+    },
+    "h2": [
+      "A November team day outdoors",
+      "LZZ at the China–Africa West Lake Summit",
+      "From an outdoor meal to an evening together",
+      "An Australian customer visits the LZZ workshop",
+      "A rainy day out with the LZZ team",
+      "Photo archive"
+    ],
+    "height": 3974,
+    "overflow": false,
+    "quoteButtons": [],
+    "route": "/about/company-news/",
+    "width": 1440
+  }
+]

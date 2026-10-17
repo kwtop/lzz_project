@@ -1,0 +1,9 @@
+---
+import AboutNewsStory from '../../../components/AboutNewsStory.astro';
+import AboutNewsStoryRedesign from '../../../components/AboutNewsStoryRedesign.astro';
+import {isRedesigned} from '../../../data/redesignRollout';
+import {resources} from '../../../data/resources';
+export function getStaticPaths(){return resources.filter(article=>article.category==='Company news').map(article=>({params:{slug:article.slug},props:{article}}));}
+const {article}=Astro.props;
+---
+{isRedesigned(Astro.url.pathname)?<AboutNewsStoryRedesign article={article}/>:<AboutNewsStory article={article}/>}

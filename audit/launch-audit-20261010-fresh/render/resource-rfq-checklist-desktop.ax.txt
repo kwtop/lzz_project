@@ -1,0 +1,153 @@
+Browser tab: 506354184, Title: "RFQ Checklist | LZZ Precision", URL: "http://127.0.0.1:4323/resources/rfq-checklist/".
+1 AXWebArea RFQ Checklist | LZZ Precision, URL: 127.0.0.1:4323/resources/rfq-checklist/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/resources/rfq-checklist/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Resources, Value: 127.0.0.1:4323/resources/
+				21 text /
+				22 text RFQ Checklist
+			23 heading CNC machining RFQ checklist, Value: 1
+				24 text CNC machining RFQ checklist
+			25 text Prepare the technical files and order details we need to quote your part.
+			26 container Five essential requirements
+				27 heading Five essential requirements, Value: 2, ID: rq-essentials-title
+					28 text Five essential requirements
+				29 container RFQ essentials
+					30 link Description: Drawing revision 3D model and 2D drawing when needed, part number, units and revision., Value: 127.0.0.1:4323/resources/rfq-checklist/#drawing-package
+					31 link Description: Material & finish Exact material or functional requirement, finish details and applicable standards., Value: 127.0.0.1:4323/resources/rfq-checklist/#material-finish
+					32 link Description: Acceptance criteria Critical dimensions, datums, tolerances and inspection requirements., Value: 127.0.0.1:4323/resources/rfq-checklist/#acceptance
+					33 link Description: Quantity Initial quantity and expected repeat pattern., Value: 127.0.0.1:4323/resources/rfq-checklist/#commercial-brief
+					34 link Description: Delivery Arrival date, packaging, shipping basis and relevant customs requirements., Value: 127.0.0.1:4323/resources/rfq-checklist/#commercial-brief
+				35 link Description: Download order acceptance checklist, Value: 127.0.0.1:4323/downloads/order-acceptance-checklist.txt
+				36 text A buyer worksheet for drawing revision, critical features, documents and shipping requirements. This is not an inspection report.
+			37 container Define how the part will be accepted
+				38 heading Define how the part will be accepted, Value: 2, ID: rq-accepted-title
+					39 text Define how the part will be accepted
+				40 container drawing-package
+					41 heading Send a consistent drawing package, Value: 3
+						42 text Send a consistent drawing package
+					43 text Include a 3D model, such as STEP, and a 2D drawing when dimensions, fits or surface requirements are not fully defined in the model. Label the part number, units and drawing revision. If the files disagree, identify which document controls before requesting a quotation.
+					44 text For multi-axis parts, include the overall envelope, stock dimensions and part weight where known so tool access and setup can be reviewed.
+					45 container
+						46 heading Only have a sample?, Value: 4
+							47 text Only have a sample?
+						48 text For an existing sample without a drawing, explain what is known and ask what additional measurement or design work would be needed. A sample alone cannot establish hidden material or treatment requirements.
+				49 container acceptance
+					50 heading Mark the dimensions used for acceptance, Value: 3
+						51 text Mark the dimensions used for acceptance
+					52 text Identify mating bores and shaft fits on the drawing, with their datums and tolerances. Mark sealing faces, threads and any other critical features too. State whether dimensions apply before or after finishing.
+					53 text If you need a particular inspection record, send the format or an example with your inquiry. Agree on inspection and documentation requirements before ordering, and ask LZZ to confirm the measurement method, instrument range, calibration evidence and availability of any project-specific records required for your part.
+					54 link Description: Inspection & documentation requirements, Value: 127.0.0.1:4323/quality/
+			55 container material-finish
+				56 heading Specify the material and final surface, Value: 2
+					57 text Specify the material and final surface
+				58 heading Material requirements, Value: 3
+					59 text Material requirements
+				60 text State the exact alloy or polymer grade, or the functional requirement if selection is still open. Include any required material documentation and whether substitutes may be considered.
+				61 heading Finish and surface requirements, Value: 3
+					62 text Finish and surface requirements
+				63 text Provide the finish specification, appearance, cosmetic faces, masking and edge conditions. Include any customer or industry standards and certificates required for this part or program. State the required standard, revision and scope.
+				64 container
+					65 text A material or capability category on this site does not establish industry certification or application compliance. The 
+					66 link Description: material and finish checklist, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/
+					67 text  explains the decisions behind these fields.
+			68 container drawing-review
+				69 heading What drawing review returns, Value: 2
+					70 text What drawing review returns
+				71 text Our quotation brings together the proposed process, material, finishing, order quantity, inspection documents, production schedule and shipping basis. Where geometry or acceptance requirements need clarification, we identify the open points before you approve production.
+			72 container commercial-brief
+				73 heading Set the commercial brief, Value: 2
+					74 text Set the commercial brief
+				75 definition list
+					76 container Minimum order
+						77 text Minimum order
+					78 text 1 piece
+				79 definition list
+					80 container Production lead time
+						81 text Production lead time
+					82 text 7–14 business days
+				83 container
+					84 text After drawing and order confirmation, including surface finishing.
+					85 text Transit time is additional.
+				86 definition list
+					87 container Initial quantity
+						88 text Initial quantity
+					89 text Quantity per part number.
+					90 container Repeat pattern
+						91 text Repeat pattern
+					92 text Expected repeat orders, if known.
+					93 container Delivery details
+						94 text Delivery details
+					95 text Required arrival date and postcode.
+					96 container Packaging
+						97 text Packaging
+					98 text Any special packaging requirements.
+					99 container Shipping basis
+						100 text Shipping basis
+					101 text Incoterm and customs, duties or taxes responsibilities.
+					102 container Response deadline
+						103 text Response deadline
+					104 text Your decision or response deadline, if applicable.
+			105 heading Related part examples, Value: 2
+				106 text Related part examples
+			107 text Fittings need defined threads and sealing faces; housings need mating datums and cavity details. These examples show the drawing questions for each.
+			108 link Description: Turned fittings, connectors & flanges, Value: 127.0.0.1:4323/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/
+			109 link Description: Complex aluminum housings, Value: 127.0.0.1:4323/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/
+			110 container prepare-email
+				111 heading Ready to prepare the email?, Value: 2
+					112 text Ready to prepare the email?
+				113 text If your project needs an NDA or a controlled transfer method, contact LZZ before sending restricted files. This website does not automatically create an NDA.
+				114 content list
+					115 text Prepare the draft on the inquiry page.
+					116 text Attach drawings in your email application.
+					117 text Review the recipients and send when ready.
+				118 text The inquiry page prepares an email draft locally. The website does not upload drawings or send your request.
+				119 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+				120 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		121 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		122 container
+			123 text Custom CNC machining
+			124 text in Hangzhou, China.
+		125 container Footer navigation
+			126 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			127 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			128 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			129 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			130 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			131 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			132 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			133 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			134 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			135 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		136 container Let’s talk, ID: contact
+			137 heading Let’s talk, Value: 2, ID: footer-talk-title
+				138 text Let’s talk
+			139 text Hangzhou, China · UTC+8
+			140 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			141 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		142 container Find us
+			143 heading Find us, Value: 2, ID: footer-find-title
+				144 text Find us
+			145 container
+				146 text No. 4 Fengcheng Road
+				147 text Pingyao, Yuhang District
+				148 text Hangzhou, Zhejiang, China
+		149 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		150 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea RFQ Checklist | LZZ Precision, URL: 127.0.0.1:4323/resources/rfq-checklist/

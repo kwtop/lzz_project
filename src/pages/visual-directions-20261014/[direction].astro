@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import VisualHome from '../../components/visual-directions/VisualHome.astro';
+export function getStaticPaths(){return ['a','b','c'].map(direction=>({params:{direction}}));}
+const direction=Astro.params.direction as 'a'|'b'|'c';
+const labels={a:'Quiet refinement',b:'Material & craft',c:'Parts in focus'};
+---
+<Layout title={'Homepage study '+direction.toUpperCase()+': '+labels[direction]} description="Independent local homepage design study. Existing business pages remain unchanged." noindex cta={false}>
+ <VisualHome direction={direction}/>
+</Layout>

@@ -1,0 +1,41 @@
+.redesign-site .sample-section{margin-top:var(--rd-space);scroll-margin-top:0}
+.redesign-site .cx-page .sample-page h1{font-size:48px;font-weight:550;line-height:1.12;letter-spacing:-.03em;max-width:19ch}
+.redesign-site .sample-page .cx-lead{font-size:20px;max-width:44ch}
+.redesign-site .cx-page .sample-page .cx-intro-part{width:min(100%,420px);justify-self:center}
+.redesign-site .cx-page .sample-page .cx-intro-part img{height:390px}
+.redesign-site .sample-review>header{max-width:70ch;margin-bottom:28px}
+.redesign-site .sample-review>header p{margin-top:16px}
+.redesign-site .sample-review .cx-stage-visual{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px}
+.redesign-site .sample-review .cx-concept img{aspect-ratio:3/2;max-height:none;object-fit:contain}
+.redesign-site .sample-review .cx-sample-decisions dt{font-size:21px}
+.redesign-site .sample-review .cx-sample-decisions dd{margin:12px 0 0;max-width:55ch}
+.redesign-site .sample-deliverables>header{display:grid;grid-template-columns:minmax(0,1fr) 430px;gap:64px;align-items:center;margin-bottom:32px}
+.redesign-site .sample-deliverables>header p{margin-top:20px;max-width:52ch}
+.redesign-site .sample-deliverables .cx-concept img{max-height:none;aspect-ratio:3/2;object-fit:contain}
+.redesign-site .sample-deliverables th:first-child{width:19%}
+.redesign-site .sample-deliverables td{width:27%}
+.redesign-site .sample-materials>.cx-materials{margin:0;padding:36px 40px}
+.redesign-site .sample-materials .cx-material-overview{max-width:70ch;margin-bottom:28px}
+.redesign-site .sample-materials .cx-material-overview p{margin-top:20px}
+.redesign-site .cx-page .sample-page .inspection-review-context .sample-inspection-link{display:block;width:fit-content;padding-top:16px}
+.redesign-site .sample-page .cx-inquiry--order-first .cx-inquiry-action{padding:28px;background:var(--surface)}
+.redesign-site .sample-page .cx-inquiry--order-first .cx-order-note{margin:0 0 24px;padding:0;border:0;max-width:60ch;font-size:16px;line-height:1.65;scroll-margin-top:0}
+@media(max-width:1100px){.redesign-site .sample-deliverables>header{grid-template-columns:minmax(0,1fr) 350px;gap:32px}.redesign-site .sample-review .cx-stage-visual{gap:32px}.redesign-site .sample-materials>.cx-materials{padding:32px}}
+@media(max-width:767px){
+ .redesign-site .sample-section{margin-top:52px}
+ .redesign-site .cx-page .sample-page h1{font-size:37px;line-height:1.14}
+ .redesign-site .sample-page .cx-lead{font-size:18px}
+ .redesign-site .cx-page .sample-page .cx-intro-part{width:min(100%,330px)}
+ .redesign-site .cx-page .sample-page .cx-intro-part img{height:300px;max-height:none}
+ .redesign-site .sample-page .cx-order-link{font-size:15px}
+ .redesign-site .sample-review .cx-stage-visual{grid-template-columns:1fr;gap:24px}
+ .redesign-site .sample-review .cx-sample-decisions{order:0}
+ .redesign-site .sample-review .cx-concept{order:1}
+ .redesign-site .sample-deliverables{display:flex;flex-direction:column;gap:24px}
+ .redesign-site .sample-deliverables>header{display:contents}
+ .redesign-site .sample-deliverables>header>div{order:0}
+ .redesign-site .sample-deliverables>table{order:1}
+ .redesign-site .sample-deliverables>header>.cx-concept{order:2}
+ .redesign-site .sample-deliverables th:first-child,.redesign-site .sample-deliverables td{width:auto}
+ .redesign-site .sample-materials>.cx-materials{padding:28px var(--layout-gutter);margin-inline:calc(-1 * var(--layout-gutter))}
+}

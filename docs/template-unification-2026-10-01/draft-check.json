@@ -1,0 +1,31 @@
+{
+  "active": "draft-result",
+  "buttons": [
+    {
+      "background": "rgb(203, 18, 23)",
+      "height": 48,
+      "label": "Open email app",
+      "radius": "2px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 48,
+      "label": "Edit details",
+      "radius": "2px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 48,
+      "label": "Copy draft",
+      "radius": "2px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 48,
+      "label": "Save draft",
+      "radius": "2px"
+    }
+  ],
+  "overflow": false,
+  "title": " Email draft prepared — not sentCheck the quote details below. Your email app opens next; attach your drawing there before sending.MaterialTo confirmQuantityTo confirmDrawing and requirementsLocal layout verification: aluminum housing, 2 pieces, drawing revision QA-1.AttachmentAttach your drawing or CAD file in the email app. Nothing has been sent yet.Open email appEdit detailsCopy draftSave draftHello LZZ team,\n\nI would like to discuss a CNC machining project.\n\nName: Template QA\nEmail: template-qa@example.com\nPhone / WhatsApp: Not specified\nCompany: Not specified\nCountry / Destination: To confirm\nMaterial: To confirm\nQuantity: To confirm\n\nProject requirements:\nLocal layout verification: aluminum housing, 2 pieces, drawing revision QA-1.\n\nI will attach the relevant drawings or CAD files to this email.\n\nPlease review manufacturability, pricing and lead time.\nThank you."
+}

@@ -1,0 +1,117 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - navigation "Breadcrumb":
+    - link "Resources":
+      - /url: /resources/
+    - generic: / Production & shipping
+  - heading "Production & shipping" [level=1]
+  - figure:
+    - img "Single housing beside four matching parts"
+  - region "Production & shipping articles":
+    - article:
+      - heading "Planning CNC prototypes and repeat batches" [level=2]:
+        - link "Planning CNC prototypes and repeat batches":
+          - /url: /resources/prototype-vs-small-batch-cnc/
+      - paragraph: Approved specifications for repeat production
+      - paragraph: Sample approval · Controlled revision · Batch records
+      - link "Read the guide":
+        - /url: /resources/prototype-vs-small-batch-cnc/
+    - article:
+      - figure:
+        - img "Shipment preparation at LZZ. Packing is selected for each order."
+      - heading "Shipping CNC parts internationally" [level=2]:
+        - link "Shipping CNC parts internationally":
+          - /url: /resources/custom-cnc-parts-shipping-checklist/
+      - paragraph: Packing and delivery arrangements
+      - paragraph: Destination · Incoterm and named place · Packing and documents
+      - link "Read the guide":
+        - /url: /resources/custom-cnc-parts-shipping-checklist/
+  - navigation "Other resource categories":
+    - heading "More resources" [level=2]
+    - link "RFQ checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How we work":
+      - /url: /resources/how-we-work/
+  - navigation "Resources and order preparation":
+    - link "All resources":
+      - /url: /resources/
+    - link "RFQ checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How we work":
+      - /url: /resources/how-we-work/
+    - link "Quality control":
+      - /url: /quality/
+  - region "Prepare an inquiry":
+    - heading "Request a quote" [level=2]
+    - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "Prepare RFQ email":
+      - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

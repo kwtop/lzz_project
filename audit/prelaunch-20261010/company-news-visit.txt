@@ -1,0 +1,140 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "About LZZ":
+        - /url: /about/
+      - link "/ Company News":
+        - /url: /about/company-news/
+    - heading "An Australian customer visits the LZZ workshop" [level=1]
+    - paragraph:
+      - text: Event ·
+      - time: 7 January 2025
+    - figure "A conversation around a machined part during the customer visit.":
+      - img "A conversation around a machined part during the customer visit."
+      - generic: A conversation around a machined part during the customer visit.
+    - complementary:
+      - generic "On this page"
+      - navigation "On this page":
+        - link "From the machines to the parts":
+          - /url: "#section-1"
+        - link "Photographs from the visit":
+          - /url: "#section-2"
+    - paragraph: LZZ welcomed an Australian customer to its Hangzhou workshop on 7 January 2025. The visit included time on the machining floor, a close look at components and a conversation around a machined part.
+    - heading "From the machines to the parts" [level=2]
+    - paragraph: The photographs show the customer and LZZ team beside CNC machines and looking at a component together. A separate photograph captures a discussion at a table with a machined part in front of them.
+    - heading "Photographs from the visit" [level=2]
+    - figure "A photograph together on the CNC workshop floor.":
+      - 'link "View full photograph: A photograph together on the CNC workshop floor."':
+        - /url: /media/company-news/australian-visit-02-1600.webp
+        - img "A photograph together on the CNC workshop floor."
+      - generic: A photograph together on the CNC workshop floor.
+    - figure "Looking closely at a machined component.":
+      - 'link "View full photograph: Looking closely at a machined component."':
+        - /url: /media/company-news/australian-visit-03-1600.webp
+        - img "Looking closely at a machined component."
+      - generic: Looking closely at a machined component.
+    - figure "Visiting a CNC machine in the workshop.":
+      - 'link "View full photograph: Visiting a CNC machine in the workshop."':
+        - /url: /media/company-news/australian-visit-04-1600.webp
+        - img "Visiting a CNC machine in the workshop."
+      - generic: Visiting a CNC machine in the workshop.
+    - figure "Another moment from the workshop tour.":
+      - 'link "View full photograph: Another moment from the workshop tour."':
+        - /url: /media/company-news/australian-visit-05-1600.webp
+        - img "Another moment from the workshop tour."
+      - generic: Another moment from the workshop tour.
+    - paragraph:
+      - text: See more of
+      - link "our machining workshop":
+        - /url: /factory/
+      - text: and the
+      - link "process studies photographed on the production floor":
+        - /url: /cases/
+      - text: .
+    - navigation "More company news":
+      - heading "More company news" [level=2]
+      - link "30 November 2025 A November team day outdoors":
+        - /url: /about/company-news/november-2025-hangzhou-lizhizao-group-activity/
+        - generic: 30 November 2025
+        - text: A November team day outdoors
+      - link "19 November 2025 LZZ at the China–Africa West Lake Summit":
+        - /url: /about/company-news/china-africa-west-lake-summit-2025/
+        - generic: 19 November 2025
+        - text: LZZ at the China–Africa West Lake Summit
+      - link "May 2025 From an outdoor meal to an evening together":
+        - /url: /about/company-news/may-2025-lzz-team-outing/
+        - generic: May 2025
+        - text: From an outdoor meal to an evening together
+      - link "2024 A rainy day out with the LZZ team":
+        - /url: /about/company-news/lzz-team-outing-2024/
+        - generic: "2024"
+        - text: A rainy day out with the LZZ team
+    - link "Back to Company News":
+      - /url: /about/company-news/
+- heading "Have a part in mind?" [level=2]
+- paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+- link "Prepare RFQ email":
+  - /url: /quote/
+- link "roger@lzz-cnc.com":
+  - /url: mailto:roger@lzz-cnc.com
+  - generic: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FactoryPhoto from './FactoryPhoto.astro';
+import FactoryIllustration from './FactoryIllustration.astro';
+import RfqPanel from './RfqPanel.astro';
+import {factoryQuote,workshopMachines,workshopStages,workshopQuestions} from '../data/factoryEditorial';
+import '../styles/factory-design.css';
+const quoteHref=factoryQuote('workshop');
+---
+<Layout title="CNC Machining Workshop in Hangzhou" description="See LZZ's 1,500 m² workshop, CNC milling, turning and multi-axis setups. Review equipment suitability, approval steps, packing and order requirements." cta={false} headerQuoteHref={quoteHref}>
+<article class="factory-design fd-workshop">
+ <div class="fd-wrap">
+  <section class="fd-workshop-hero" aria-labelledby="factory-title">
+   <header><h1 id="factory-title">Inside our CNC workshop</h1><p class="fd-lead">Custom parts, from your drawing to the production floor.</p><p>Our Hangzhou workshop brings together milling, turning, multi-axis machining and dimensional inspection for prototypes and small production runs.</p><a class="fd-link" href="#equipment">Explore the machining setups</a><dl class="fd-identity" id="production-capacity"><div><dt>Established</dt><dd>2017 · Hangzhou</dd></div><div><dt>Workshop</dt><dd>1,500 m²</dd></div><div><dt>Equipment</dt><dd>40+ machining & supporting units</dd></div></dl></header>
+   <FactoryPhoto id="workshop-operators-2025" caption="Operators on the LZZ workshop floor · November 2025 source photograph" class="fd-workshop-hero-photo" eager sizes="(max-width:760px) calc(100vw - 44px), 700px"/>
+  </section>
+  <section class="fd-section" id="workshop-photographs" aria-labelledby="workshop-title">
+   <header class="fd-section-head"><h2 id="workshop-title">The space around the setup</h2><p>Part dimensions, stock, tool access and clamping determine how a part is held and machined. Include these details in your drawing review.</p></header>
+   <div class="fd-floor-essay"><FactoryPhoto id="workshop-wide" caption="CNC machining centers on the production floor." sizes="(max-width:760px) calc(100vw - 44px), 820px"/><div><FactoryPhoto id="workshop-aisle" caption="An aisle through the LZZ production floor." sizes="(max-width:760px) 220px, 280px"/><p class="fd-caption">The photographs show the workshop environment. Equipment selection and the machining route are reviewed for each drawing.</p></div></div>
+   <p class="fd-capacity-note"><strong>Reference capacity: about 100,000 small parts per month.</strong> Output varies with geometry, material, finishing and the mix of orders. Project timing is confirmed in the quotation.</p>
+  </section>
+  <section class="fd-section" id="equipment" aria-labelledby="equipment-title">
+   <header class="fd-section-head"><h2 id="equipment-title">Choose the setup around the part</h2><p>The photographs show real machining setups. Match the feature, access and workholding requirements before confirming the equipment.</p></header>
+   <div class="fd-machine-list">{workshopMachines.map(machine=><article class="fd-machine"><FactoryPhoto id={machine.photo} caption={machine.caption} sizes="(max-width:760px) calc(100vw - 44px), 300px"/><div><h3>{machine.name}</h3><p>{machine.text}</p><p class="fd-machine-parts">{machine.parts}</p><a class="fd-link" href={machine.href}>{machine.action}</a></div></article>)}</div>
+   <aside class="fd-equipment-review" id="equipment-review"><h3>Confirm the equipment fit</h3><p>Provide finished-part and stock dimensions, weight and clamping limits. Machine travel, load and tool access are checked for your drawing. Request the relevant machine model and specifications for supplier qualification; the equipment count includes supporting equipment.</p></aside>
+  </section>
+  <section class="fd-section fd-workshop-inspection" id="inspection" aria-labelledby="inspection-title">
+   <div><h2 id="inspection-title">The drawing also defines the checks</h2><p>CMM, height gauges and optical projectors are selected for the specified features. Agree acceptance criteria, methods and records before machining starts.</p><a class="fd-link" href="/factory/quality/">How we plan inspection</a></div>
+   <div class="fd-inspection-bridge"><FactoryPhoto id="cmm-room" caption="Coordinate measuring machine · archived LZZ photograph" sizes="(max-width:760px) 180px, 180px"/><dl class="fd-simple-list"><div><dt>Before machining</dt><dd>Define critical features, datums and acceptance limits.</dd></div><div><dt>Through production</dt><dd>Agree first-article approval, in-process and final checks.</dd></div><div><dt>With your parts</dt><dd>Specify dimensional, material and finishing records.</dd></div></dl></div>
+   <p class="fd-inspection-note">For supplier review, request a relevant redacted report and instrument documentation. Report format, calibration evidence and availability are confirmed separately. <a href="/factory/quality/#inspection-records">Review the inspection records.</a></p>
+  </section>
+  <section class="fd-section" id="workflow" aria-labelledby="workflow-title">
+   <header class="fd-section-head"><h2 id="workflow-title">From drawing to shipment</h2><p>Each stage has an agreed input and a result you can review. The quotation defines machining, approval and delivery responsibilities.</p></header>
+   <ol class="fd-workflow">{workshopStages.map(stage=><li><h3>{stage.title}</h3><dl><div><dt>You provide or agree</dt><dd>{stage.input}</dd></div><div><dt>The reviewable result</dt><dd>{stage.output}</dd></div></dl></li>)}</ol>
+   <div class="fd-workflow-support"><FactoryIllustration kind="workflow"/><div class="fd-workflow-note"><h3>Keep approvals tied to the revision</h3><p>Where a sample stage is required, agree its acceptance checks and who releases production. Confirm any design or process changes before the next stage.</p><a class="fd-link" href="/about/how-we-work/">The drawing and approval process</a></div></div>
+   <div class="fd-dispatch" id="order-deliverables"><FactoryPhoto id="shipping-example" caption="Protected parts prepared for dispatch · November 2022 archive" sizes="(max-width:760px) calc(100vw - 44px), 420px"/><div><h3>Protection and records go with the parts</h3><p>Identify sealing faces, visible surfaces, threads and other features that need protection. Agree labels, part numbers, revisions and quantities per pack, together with the documents required for delivery.</p><p class="fd-small">The archive photograph shows past packing preparation. Packing, carrier and delivery responsibilities for your order are specified in the quotation.</p><a class="fd-link" href="/resources/ordering/">Production and shipping guidance</a></div></div>
+  </section>
+  <section class="fd-section fd-workshop-questions" id="factory-questions" aria-labelledby="questions-title"><header><h2 id="questions-title">Before you place an order</h2><p>Drawing, equipment and delivery questions worth settling early.</p></header><div class="fd-question-list">{workshopQuestions.map(item=><section><h3>{item.question}</h3><p>{item.answer}</p></section>)}</div></section>
+  <RfqPanel title="Bring your drawing to the workshop" titleId="factory-rfq-title" description="Send your model, material, quantity and inspection requirements." href={quoteHref} contained><div slot="details" class="fd-rfq-details"><div><h3>Prepare your drawing package</h3><ul><li>STEP model and 2D drawing, with units and revision</li><li>Material, finish, quantity and protected surfaces</li><li>Critical dimensions, datums and required reports</li><li>Delivery destination and requested date</li></ul></div><p>Orders start at 1 piece. Production takes 7–14 business days after drawing and order confirmation, including finishing; shipping time is additional. Our engineering team has more than 15 years of CNC machining experience.</p></div></RfqPanel>
+ </div>
+</article>
+</Layout>
+<script>if(window.location.hash==='#documents')window.location.replace('/about/company-profile/#documents');</script>

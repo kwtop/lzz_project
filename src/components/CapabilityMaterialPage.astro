@@ -1,0 +1,24 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import CapabilityIntro from './CapabilityIntro.astro';
+import CapabilityMaterialTable from './CapabilityMaterialTable.astro';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import CapabilityConcept from './CapabilityConcept.astro';
+import CapabilityInspectionReview from './CapabilityInspectionReview.astro';
+import CapabilityInquiry from './CapabilityInquiry.astro';
+import {capabilityConcepts} from '../data/capabilityRebuild';
+import '../styles/copper-brass.css';
+interface Props {page:RevisedCapability;quoteHref:string}
+const {page,quoteHref}=Astro.props;
+const geometry={...capabilityConcepts['cnc-turning-service'],caption:'AI geometry illustration of threads, a bore and shoulders. Appearance does not identify an alloy.'};
+const checks=page.acceptanceChecks.map(row=>row.feature==='Threads & sealing faces'?{...row,inspection:'Agree thread gauges, dimensional measurement methods and burr checks for contact or sealing surfaces.'}:row.feature==='Contact & plated surfaces'?{...row,inspection:'Define the post-plating dimensional records.'}:row);
+const tests={question:'Are conductivity, thermal or pressure tests included?',answer:page.scopeQuestions[1].answer};
+---
+<div class="copper-page">
+ <div data-core-section="service"><CapabilityIntro page={page} material quoteHref={quoteHref} featureHref="#part-examples"/></div>
+ <section class="copper-section copper-functions" id="part-examples" data-core-section="function"><header><h2>Choose the alloy for its function</h2></header><div class="copper-function-grid"><div><dl><div><dt>Electrical contact</dt><dd>Contact area, conductivity criteria, plating and material restrictions.</dd></div><div><dt>Heat transfer</dt><dd>Operating conditions and dimensions of mating interfaces.</dd></div><div><dt>Fluid sealing</dt><dd>Threads, seal faces and separate pressure-test methods and limits.</dd></div></dl></div><CapabilityEvidence id="metal-brass-batch" caption="Original fitting photograph from the brass-parts source collection. Visible form does not establish alloy or functional qualification."/></div></section>
+ <div class="copper-section copper-materials" data-core-section="alloy-and-finish"><CapabilityMaterialTable page={page} title="Specify the alloy, standard and finish" intro="Choose the exact alloy and condition for the drawing. Suitability, availability and requested material declarations are confirmed for the order."/></div>
+ <section class="copper-section copper-interfaces" id="machining-studies" data-core-section="interfaces"><header><h2>Define the working interfaces</h2></header><div class="copper-interface-grid"><CapabilityConcept art={geometry}/><div><h3>Threads, passages and mating faces</h3><p>{page.overview.workholding} Provide full thread designations, engagement and passage details. Locate seal or contact surfaces from the mating connection and specify burr limits.</p><h3>Plating and the final fit</h3><p>Define plating, masking and dimensions after treatment. Mark the protected contact, sealing and cosmetic surfaces.</p>{page.study&&<a class="rd-link" href={page.study.href}>{page.study.title}</a>}</div></div></section>
+ <CapabilityInspectionReview page={page} title="Agree dimensional and functional acceptance" questions={[tests]} checks={checks} compactEvidence/>
+ <CapabilityInquiry page={page} quoteHref={quoteHref} orderFirst coreSection="quotation"/>
+</div>

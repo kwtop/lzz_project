@@ -1,0 +1,56 @@
+/* Full image viewing is confined to ReferenceGallery links and dialogs. */
+.reference-gallery a[data-reference-image] { cursor: zoom-in; }
+.reference-image-dialog {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #080b0ef5;
+  color: #fff;
+  overflow: hidden;
+}
+.reference-image-dialog[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.reference-image-dialog:not([open]) { display: none; }
+.reference-image-dialog::backdrop { background: #080b0e; }
+.reference-image-toolbar { display: flex; justify-content: flex-end; gap: 12px; padding: 16px 24px; }
+.reference-image-toolbar button {
+  min-width: 80px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #7d8389;
+  background: #15191d;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.reference-image-toolbar button:hover { background: #fff; color: #171b1e; }
+.reference-image-toolbar button:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.reference-image-stage {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  overflow: hidden;
+}
+.reference-image-stage img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; cursor: zoom-in; }
+.reference-image-dialog.is-zoomed .reference-image-stage { display: block; overflow: auto; overscroll-behavior: contain; padding: 24px; touch-action: pan-x pan-y; }
+.reference-image-dialog.is-zoomed .reference-image-stage img { max-width: none; max-height: none; margin: auto; cursor: zoom-out; }
+.reference-image-caption { max-width: 70ch; margin: 0 auto; padding: 16px 24px 24px; color: #fff; text-align: center; font-size: 14px; line-height: 1.5; }
+html:has(.reference-image-dialog[open]) { overflow: hidden; scrollbar-gutter: auto; }
+body:has(.reference-image-dialog[open]) { overflow: hidden; }
+@media (max-width: 760px) {
+  .reference-image-toolbar { padding: 12px 14px; }
+  .reference-image-stage { padding-inline: 14px; }
+  .reference-image-caption { padding: 14px 16px 18px; font-size: 13px; }
+  .reference-image-dialog.is-zoomed .reference-image-stage { padding: 14px; }
+}

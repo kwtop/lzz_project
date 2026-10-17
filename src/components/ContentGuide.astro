@@ -1,0 +1,26 @@
+---
+import '../styles/content-editorial.css';
+import ContentFigure from './ContentFigure.astro';
+import ContentClosing from './ContentClosing.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import {contentGuides} from '../data/contentGuides';
+import '../styles/procurement-guides.css';
+const {article}=Astro.props;
+const guide=contentGuides[article.slug];
+---
+<article class="content-editorial">
+ <header class="ce-wrap ce-header"><div><h1>{guide.title||article.title}</h1><p>{guide.intro}</p>{article.slug==='rfq-checklist'&&<div class="ce-actions"><a class="ce-link" href="/downloads/order-acceptance-checklist.txt" download>Download acceptance checklist</a><a class="ce-link" href="/downloads/cnc-rfq-brief.txt" download>Download inquiry brief</a></div>}</div><ContentFigure visual={guide.visual} eager/></header>
+ {guide.sections.map(section=>{
+  const dense=Boolean(section.visual)&&section.html.replace(/<[^>]+>/g,' ').trim().split(/\s+/).length>100;
+  return <section class:list={['ce-wrap','ce-chapter','ce-guide-module',{'ce-guide-dense':dense,'ce-guide-archive':section.photos,'ce-guide-text':!section.visual&&!section.photos}]} id={section.id}>
+   {section.aliases?.map(id=><span id={id} class="ce-anchor"/>)}
+   <h2 class="ce-module-heading">{section.title}</h2>
+   {(section.visual||section.photos)&&<div class:list={['ce-media',{'ce-evidence-grid':section.photos}]}>
+    {section.visual&&<ContentFigure visual={section.visual}/>}
+    {section.photos?.map(photo=><figure class="ce-source"><EvidenceImage id={photo.id} sizes="(max-width:760px) 90vw, 380px"/><figcaption>{photo.caption}</figcaption></figure>)}
+   </div>}
+   <div class="ce-copy ce-guide-content"><div set:html={section.html}/>{section.links&&<nav class="ce-actions" aria-label={section.title+' links'}>{section.links.map(([label,href])=><a class="ce-link" href={href}>{label}</a>)}</nav>}</div>
+  </section>;
+ })}
+ <div class="ce-ending-anchor" id="article-examples-title">{['prototype-vs-small-batch-cnc','custom-cnc-parts-shipping-checklist','custom-cnc-machined-components-for-prototypes-and-production'].includes(article.slug)&&<span id="section-5"/>}<ContentClosing title={guide.closing||'Prepare your machining inquiry'}/></div>
+</article>

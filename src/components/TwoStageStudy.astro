@@ -1,0 +1,33 @@
+---
+import type {EngineeringCase} from '../data/cases';
+import {caseReading} from '../data/caseReading';
+import {caseStories} from '../data/caseStories';
+import {studyReadingPolish} from '../data/readingPolish';
+import {studyChecks} from '../data/studyEditorial';
+import {studyNext} from '../data/productStudyRoutes';
+import {realStudyDetails} from '../data/productsRebuild';
+import {photo} from '../data/evidence';
+import ProductsFigure from './ProductsFigure.astro';
+import '../styles/products-20261015.css';
+interface Props {item:EngineeringCase;quoteHref:string}
+const {item,quoteHref}=Astro.props;
+const reading=caseReading[item.slug],story=caseStories[item.slug],polish=studyReadingPolish[item.slug],next=studyNext[item.slug].studies[0];
+---
+<article class="rd-page pd-page ps-page ps-two-stage" data-case={item.slug} data-layout="sequential-setups"><div class="rd-wrap">
+ <section id="component" data-core-section="First setup and locating faces">
+  <span id="case-part-title" class="pd-anchor"/><span id="study-0" class="pd-anchor"/>
+  <header class="ps-study-header"><h1>{story.title}</h1><p class="pd-lead">{item.lead} Locate the second orientation from the surfaces established in the first.</p></header>
+  <div class="ps-stage-opening"><ProductsFigure {...realStudyDetails['two-stage-first']} caption="Setup 1 · real crop from the original workshop photograph." eager/><div><h2>Establish the first locating faces</h2><p>{polish.stepText![0]}</p></div></div>
+ </section>
+ <section class="rd-section" id="machining-setup" data-core-section="Reposition without losing feature relationships">
+  <span id="case-process-title" class="pd-anchor"/><span id="study-1" class="pd-anchor"/><span id="technical-points" class="pd-anchor"/><span id="study-2" class="pd-anchor"/><span id="case-technical-title" class="pd-anchor"/>
+  <div class="ps-stage-second"><div><h2>Keep the datum through repositioning</h2><p>{polish.stepText![1]}</p></div><ProductsFigure {...realStudyDetails['two-stage-second']} caption="Setup 2 · real crop from the original workshop photograph."/></div>
+  <p class="ps-source-context">{story.processContext}</p>
+ </section>
+ <section class="rd-section ps-acceptance-evidence" id="inspection-planning" data-core-section="Acceptance after both setups">
+  <span id="case-inspection-title" class="pd-anchor"/><span id="study-3" class="pd-anchor"/>
+  <header><h2>Check relationships after both setups</h2><p>{polish.stepText![2]}</p></header>
+  <div class="ps-stage-acceptance"><ProductsFigure {...photo('cmm-detail')} caption="LZZ workshop measurement equipment. This photograph is not an inspection record for the part shown." origin="original-photo"/><div><table class="rd-table rd-stacked"><thead><tr><th scope="col">Acceptance stage</th><th scope="col">Define and agree for your drawing</th></tr></thead><tbody>{studyChecks[item.slug].map(([feature],i)=><tr><th scope="row">{feature}</th><td><p>{polish.acceptanceText![i]}</p></td></tr>)}</tbody></table><p class="pd-small">Planning for a similar part, not measured results for these photographs. Agree the method, final surface condition, support, sampling and report format before production.</p></div></div>
+ </section>
+ <section class="rd-section pd-order-band" id="drawing-review" data-core-section="Drawing inputs and quotation"><span id="prepare-email" class="pd-anchor"/><div><span id="questions" class="pd-anchor"/><span id="case-faq-title" class="pd-anchor"/><h2>Review a similar component</h2><ul>{reading.rfq.map(text=><li>{text}</li>)}</ul><div id="prepare-rfq"><a class="rd-button" href={quoteHref}>Prepare RFQ email</a><p class="pd-small">Prepare a draft, then attach drawings and send it from your email app.</p></div></div><nav class="ps-two-reading" id="related-studies" aria-label="Related machining review"><a class="rd-link" href={'/machined-parts/machining-examples/'+next.slug+'/'}>{caseReading[next.slug].title}</a><p>{next.reason}</p><a class="rd-link" href="/capabilities/cnc-milling-service/">CNC milling</a><a class="rd-link" href="/resources/ordering/rfq-checklist/">RFQ checklist</a></nav></section>
+</div></article>

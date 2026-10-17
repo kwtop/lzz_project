@@ -1,0 +1,101 @@
+/* Shared image policy: white product frames and uncropped documentary photographs.
+ * Scoped to the live site. Final overrides supersede legacy fixed heights at all breakpoints. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .product-image,.er-product-image,.er-related img,.cap-hero-image>a,
+ .cap-products>a>div,.ed-product-image,.service-list img,.ab-document-image,
+ .ft-machine-photo,.study-image,.case-component img,.ps-parts-photo img,
+ .context-grid img,.image-pilot-detail,.home-capability-photo
+) {background:#fff!important}
+
+/* Containment keeps entire product geometry, including related thumbnails. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .product-image img,.er-product-image img,.er-related img,.cap-hero-image img,
+ .cap-products img,.ed-product-image img,.service-list img
+) {object-fit:contain!important;mix-blend-mode:normal;transform:none!important;background:#fff!important}
+
+/* Product names share the image's centre axis, including wrapped titles. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .product-card,.ed-product,.cap-page .cap-products>a,.er-page .er-related>a
+) h3 {
+ font-size:var(--type-card-title-size)!important;
+ line-height:1.4!important;
+ text-align:center;
+ margin:20px auto 0;
+ padding:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .product-card .product-card-summary {
+ text-align:center;margin:12px auto 0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figcaption {
+ text-align:center;margin-inline:auto;
+}
+
+/* Natural dimensions remove letterboxing without cropping machining evidence.
+ * Both catalog/source photographs and the dedicated case layouts follow this rule. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ img[src^="/media/evidence/"],img[src^="/media/source-details/"],
+ .studies-page img,.case-study img,.ps-page img,.collection-media img,.context-grid img
+) {
+ display:block;width:100%!important;height:auto!important;max-height:none!important;
+ /* Reserve the measured source ratio before lazy images load. Once loaded,
+  * `auto` uses the intrinsic image ratio, including portrait photographs. */
+ aspect-ratio:auto var(--photo-aspect,4/3)!important;object-fit:contain!important;object-position:center;
+ padding:0!important;transform:none!important;background:#fff!important;
+}
+
+/* This guide previously capped the photograph while keeping its full width. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page.reading-page:not(.company-news-article) .ff-guide-visual img[src^="/media/evidence/"] {
+ max-height:none!important;
+}
+
+/* Directory photographs are supporting references. Equal compact rows prevent
+ * a low-detail portrait from dominating the machining-process comparison. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list {
+ display:grid;grid-template-columns:1fr;gap:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list>a {
+ display:grid;grid-template-columns:280px minmax(0,1fr);gap:48px;align-items:center;
+ grid-column:auto;margin:0;padding-block:28px;border-bottom:1px solid var(--border);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list>a:first-child {padding-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list img {
+ width:100%!important;height:210px!important;aspect-ratio:auto!important;object-fit:contain!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list h3 {font-size:28px;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list p {margin-top:12px}
+
+/* Keep every pixel of workshop evidence, but do not enlarge portrait records
+ * to fill wide columns. Full-size originals remain available on click. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page :is(.ft-machine-photo,.ft-scenes a,.ft-inspection-content figure>a) {
+ display:flex;align-items:center;justify-content:flex-start;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page :is(.ft-machine-photo,.ft-scenes a,.ft-inspection-content figure>a) img {
+ width:auto!important;max-width:100%!important;height:auto!important;max-height:380px!important;
+ object-fit:contain!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-image-caption {
+ font-size:13px;line-height:1.6;color:var(--muted);margin:12px 24px 0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-image-caption a {
+ text-decoration:underline;text-underline-offset:3px;
+}
+@media(max-width:760px){
+ /* Keep related parts as image-over-title cards on narrow screens too. */
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related>a {
+  display:block;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page[data-image-layout] .er-related img {
+  aspect-ratio:3/2;padding:12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+  .product-card,.ed-product,.cap-page .cap-products>a,.er-page .er-related>a
+ ) h3 {margin-top:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list>a {
+  grid-template-columns:112px minmax(0,1fr);gap:20px;padding-block:24px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list img {height:140px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list h3 {font-size:22px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .service-list p {font-size:15px;line-height:1.55;margin-top:8px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page :is(.ft-machine-photo,.ft-scenes a,.ft-inspection-content figure>a) img {max-height:300px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-image-caption {margin-inline:12px}
+}

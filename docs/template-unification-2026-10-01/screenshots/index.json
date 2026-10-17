@@ -1,0 +1,182 @@
+[
+  {
+    "route": "/",
+    "size": "desktop",
+    "file": "desktop-home.png"
+  },
+  {
+    "route": "/about/",
+    "size": "desktop",
+    "file": "desktop-about.png"
+  },
+  {
+    "route": "/about/company-news/may-2025-lzz-team-outing/",
+    "size": "desktop",
+    "file": "desktop-about-company-news-may-2025-lzz-team-outing.png"
+  },
+  {
+    "route": "/capabilities/cnc-milling-service/",
+    "size": "desktop",
+    "file": "desktop-capabilities-cnc-milling-service.png"
+  },
+  {
+    "route": "/cases/milling-prismatic-components/",
+    "size": "desktop",
+    "file": "desktop-cases-milling-prismatic-components.png"
+  },
+  {
+    "route": "/factory/",
+    "size": "desktop",
+    "file": "desktop-factory.png"
+  },
+  {
+    "route": "/privacy/",
+    "size": "desktop",
+    "file": "desktop-privacy.png"
+  },
+  {
+    "route": "/products/",
+    "size": "desktop",
+    "file": "desktop-products.png"
+  },
+  {
+    "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "size": "desktop",
+    "file": "desktop-products-custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier.png"
+  },
+  {
+    "route": "/quality/",
+    "size": "desktop",
+    "file": "desktop-quality.png"
+  },
+  {
+    "route": "/quote/",
+    "size": "desktop",
+    "file": "desktop-quote.png"
+  },
+  {
+    "route": "/resources/",
+    "size": "desktop",
+    "file": "desktop-resources.png"
+  },
+  {
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "size": "desktop",
+    "file": "desktop-resources-custom-cnc-parts-shipping-checklist.png"
+  },
+  {
+    "route": "/resources/faq/",
+    "size": "desktop",
+    "file": "desktop-resources-faq.png"
+  },
+  {
+    "route": "/resources/how-we-work/",
+    "size": "desktop",
+    "file": "desktop-resources-how-we-work.png"
+  },
+  {
+    "route": "/resources/material-and-finish-checklist/",
+    "size": "desktop",
+    "file": "desktop-resources-material-and-finish-checklist.png"
+  },
+  {
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "size": "desktop",
+    "file": "desktop-resources-prototype-vs-small-batch-cnc.png"
+  },
+  {
+    "route": "/resources/rfq-checklist/",
+    "size": "desktop",
+    "file": "desktop-resources-rfq-checklist.png"
+  },
+  {
+    "route": "/",
+    "size": "mobile",
+    "file": "mobile-home.png"
+  },
+  {
+    "route": "/about/",
+    "size": "mobile",
+    "file": "mobile-about.png"
+  },
+  {
+    "route": "/about/company-news/may-2025-lzz-team-outing/",
+    "size": "mobile",
+    "file": "mobile-about-company-news-may-2025-lzz-team-outing.png"
+  },
+  {
+    "route": "/capabilities/cnc-milling-service/",
+    "size": "mobile",
+    "file": "mobile-capabilities-cnc-milling-service.png"
+  },
+  {
+    "route": "/cases/milling-prismatic-components/",
+    "size": "mobile",
+    "file": "mobile-cases-milling-prismatic-components.png"
+  },
+  {
+    "route": "/factory/",
+    "size": "mobile",
+    "file": "mobile-factory.png"
+  },
+  {
+    "route": "/privacy/",
+    "size": "mobile",
+    "file": "mobile-privacy.png"
+  },
+  {
+    "route": "/products/",
+    "size": "mobile",
+    "file": "mobile-products.png"
+  },
+  {
+    "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "size": "mobile",
+    "file": "mobile-products-custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier.png"
+  },
+  {
+    "route": "/quality/",
+    "size": "mobile",
+    "file": "mobile-quality.png"
+  },
+  {
+    "route": "/quote/",
+    "size": "mobile",
+    "file": "mobile-quote.png"
+  },
+  {
+    "route": "/resources/",
+    "size": "mobile",
+    "file": "mobile-resources.png"
+  },
+  {
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "size": "mobile",
+    "file": "mobile-resources-custom-cnc-parts-shipping-checklist.png"
+  },
+  {
+    "route": "/resources/faq/",
+    "size": "mobile",
+    "file": "mobile-resources-faq.png"
+  },
+  {
+    "route": "/resources/how-we-work/",
+    "size": "mobile",
+    "file": "mobile-resources-how-we-work.png"
+  },
+  {
+    "route": "/resources/material-and-finish-checklist/",
+    "size": "mobile",
+    "file": "mobile-resources-material-and-finish-checklist.png"
+  },
+  {
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "size": "mobile",
+    "file": "mobile-resources-prototype-vs-small-batch-cnc.png"
+  },
+  {
+    "route": "/resources/rfq-checklist/",
+    "size": "mobile",
+    "file": "mobile-resources-rfq-checklist.png"
+  }
+]

@@ -1,0 +1,146 @@
+Browser tab: 1, Title: "CNC part inspection & quality control | LZZ Precision", URL: "http://127.0.0.1:4326/quality/".
+1 AXWebArea CNC part inspection & quality control | LZZ Precision, URL: 127.0.0.1:4326/quality/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/quality/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container
+		8 heading Quality control for CNC machined parts, Value: 1
+			9 text Quality control for
+			10 text CNC machined parts
+		11 text Dimensional checks, material requirements and inspection records, agreed against your drawing.
+		12 text Share critical dimensions, datums and functional requirements so we can agree the measurement methods, acceptance limits and required records before machining.
+		13 link Description: Discuss your inspection needs, Value: 127.0.0.1:4326/quote/?part=Quality+review+%E2%80%94+inspection+requirements+and+order+records
+		14 container
+			15 image Closer view of a coordinate measuring machine.
+			16 text CMM probe and fixture · LZZ inspection area
+		17 container inspection-records
+			18 heading Inspection records and order acceptance, Value: 2
+				19 text Inspection records and order acceptance
+			20 text Define the information shown on dimensional and first-article reports, including the part number, drawing revision, specified features, datums, acceptance limits, measurement method and results.
+			21 text Agree sampling, report format and any customer approval hold point before production.
+			22 button (collapsed) Preview blank dimensional inspection format · no results, Secondary Actions: Expand
+				23 text Preview blank dimensional inspection format · no results
+			24 container order-documentation
+				25 heading Documents to specify with your quotation, Value: 3
+					26 text Documents to specify with your quotation
+				27 text No customer report or measurement result is published on this site.
+				28 definition list
+					29 container Dimensional & first-article reports
+						30 text Dimensional & first-article reports
+					31 text Reports identify the part number, drawing revision and part or batch reference. Specify whether acceptance dimensions apply before or after finishing; use the report fields above to agree the required results.
+					32 container Material records
+						33 text Material records
+					34 text Specify the material grade, condition and required traceability. The quotation confirms which material documents will accompany your order.
+					35 container Finishing documents
+						36 text Finishing documents
+					37 text We arrange the treatment documentation required by your order, linked to the specified process and part or batch. State any special acceptance test or document requirement before production.
+					38 container Surface & batch acceptance
+						39 text Surface & batch acceptance
+					40 text Mark cosmetic faces, masked areas and edge conditions. Include sampling requirements and the approval process for any proposed deviation.
+				41 text Ask LZZ to confirm which records can be supplied before machining. Your quotation will list the included documents and any extra cost.
+		42 container inspection-process
+			43 heading Checks at each production stage, Value: 2
+				44 text Checks at each production stage
+			45 content list
+				46 container
+					47 heading Drawing review, Value: 3
+						48 text Drawing review
+					49 text Agree critical features, datums and acceptance criteria.
+				50 container
+					51 heading First article, Value: 3
+						52 text First article
+					53 text Check the initial part before the production run. Agree any customer approval hold point in advance.
+				54 container
+					55 heading In-process checks, Value: 3
+						56 text In-process checks
+					57 text Inspect agreed features during machining.
+				58 container
+					59 heading Final inspection, Value: 3
+						60 text Final inspection
+					61 text Verify the finished parts against the agreed order.
+			62 link Description: See the complete manufacturing process, Value: 127.0.0.1:4326/factory/#workflow
+		63 container inspection-equipment
+			64 heading Inspection equipment and methods, Value: 2
+				65 text Inspection equipment and methods
+			66 text Choose the measurement method for the feature and its drawing limits. The equipment below covers dimensional checks; specify any additional tests with your quotation request.
+			67 text Request the current calibration records during supplier review.
+			68 definition list measurement-methods
+				69 container Coordinate measuring machine (CMM)
+					70 text Coordinate measuring machine (CMM)
+				71 text Positions and geometric features against drawing datums.
+				72 container Height gauges
+					73 text Height gauges
+				74 text Heights and dimensions in the agreed setup.
+				75 container Optical projectors
+					76 text Optical projectors
+				77 text Profiles suited to optical measurement.
+				78 container Other checks to specify
+					79 text Other checks to specify
+				80 text For threads, roughness, coating thickness or hardness, state the method and acceptance criteria on your drawing. Confirm checks and records with the quotation.
+			81 link Description: See machining and inspection equipment, Value: 127.0.0.1:4326/factory/#equipment
+		82 container quality-management
+			83 heading Supplier qualification, Value: 2
+				84 text Supplier qualification
+			85 text LZZ is ISO 9001-certified. Request the current certificate for your supplier file and check the details listed here.
+			86 container
+				87 text The 
+				88 link Description: company recognition documents, Value: 127.0.0.1:4326/about/#documents
+				89 text  are separate from the ISO certificate.
+			90 link Description: Request certificate & scope, Value: mailto:roger@lzz-cnc.com?subject=Supplier%20qualification%20documents&body=Please%20provide%20the%20current%20ISO%209001%20certificate%20for%20Hangzhou%20Lizhizao%20Precision%20Machinery%20Co.%2C%20Ltd.%2C%20including%20certificate%20number%2C%20issuing%20body%2C%20validity%20dates%2C%20covered%20site%2C%20scope%20and%20verification%20method.%0A%0AProject%20%2F%20drawing%20reference%3A%0ARequired%20inspection%20records%3A
+			91 heading Hangzhou Lizhizao Precision Machinery Co., Ltd., Value: 3
+				92 text Hangzhou Lizhizao Precision Machinery Co., Ltd.
+			93 text When reviewing our ISO 9001 certificate, please check:
+			94 content list
+				95 container
+					96 AXListMarker • 
+					97 text Named legal entity: Hangzhou Lizhizao Precision Machinery Co., Ltd.
+				98 container
+					99 AXListMarker • 
+					100 text Certificate number, issuing certification body and verification method.
+				101 container
+					102 AXListMarker • 
+					103 text Issue and expiry dates, covered site and certified activities.
+				104 container
+					105 AXListMarker • 
+					106 text The current certificate copy and the inspection records required for your project.
+			107 text Certificate number, issuer and current validity are available on request.
+		108 heading Resources and checklists, Value: 2
+			109 text Resources and checklists
+		110 text Prepare your drawing and inspection requirements.
+		111 container Quality resources
+			112 link Description: Download the order acceptance checklist, Value: 127.0.0.1:4326/downloads/order-acceptance-checklist.txt
+			113 link Description: Prepare your drawing and inspection checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+	114 container
+		115 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		116 text Custom CNC machining
+		117 text in Hangzhou, China.
+		118 container Footer navigation
+			119 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			120 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			121 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			122 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			123 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			124 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			125 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			126 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			127 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			128 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		129 container Let’s talk, ID: contact
+			130 heading Let’s talk, Value: 2, ID: footer-talk-title
+				131 text Let’s talk
+			132 text Hangzhou, China · UTC+8
+			133 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			134 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		135 container Find us
+			136 heading Find us, Value: 2, ID: footer-find-title
+				137 text Find us
+			138 container
+				139 text No. 4 Fengcheng Road
+				140 text Pingyao, Yuhang District
+				141 text Hangzhou, Zhejiang, China
+		142 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		143 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea CNC part inspection & quality control | LZZ Precision, URL: 127.0.0.1:4326/quality/

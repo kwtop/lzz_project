@@ -1,0 +1,24 @@
+---
+import '../styles/palette-preview.css';
+const product='/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/';
+---
+<aside id="palette-preview" hidden aria-label="配色方案预览">
+ <strong>配色预览</strong>
+ <button type="button" data-palette-choice="original" aria-pressed="false">原配色</button>
+ <button type="button" data-palette-choice="a" aria-pressed="true">A · 矿物蓝</button>
+ <a href="/?preview=palette-a">首页</a>
+ <a href={product+'?preview=palette-a'}>产品详情</a>
+ <a href={Astro.url.pathname} aria-label="退出配色预览">退出</a>
+</aside>
+<script>
+ const panel=document.querySelector<HTMLElement>('#palette-preview');
+ if(panel&&['localhost','127.0.0.1'].includes(location.hostname)&&new URLSearchParams(location.search).get('preview')==='palette-a'){
+  panel.hidden=false;
+  panel.querySelectorAll<HTMLButtonElement>('[data-palette-choice]').forEach(button=>button.addEventListener('click',()=>{
+   const selected=button.dataset.paletteChoice;
+   if(selected==='a')document.documentElement.dataset.palette='a';
+   else delete document.documentElement.dataset.palette;
+   panel.querySelectorAll<HTMLButtonElement>('[data-palette-choice]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+  }));
+ }
+</script>

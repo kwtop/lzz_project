@@ -1,0 +1,11 @@
+---
+import media from '../data/additionalMedia.generated.json';
+import {photo} from '../data/evidence';
+import ProductsImage from './ProductsImage.astro';
+interface Props{ids:(keyof typeof media.photos)[];title?:string;standalone?:boolean}
+const {ids,title='Original views & design references',standalone=true}=Astro.props;
+---
+<div class:list={['pr-archive',{'pr-archive-single':ids.length===1}]}>
+ {standalone&&<header class="pr-section-head"><h2>{title}</h2><p>Use these views to understand the form. The controlled drawing defines the geometry and acceptance requirements for a new part.</p></header>}
+ <div class="pr-archive-grid">{ids.map(id=>{const im=media.photos[id],caption=im.kind==='original-photo'?photo(id).caption:im.caption;return <ProductsImage {...im} alt={caption} caption={caption} origin={im.kind} sizes="(max-width:760px) calc(100vw - 44px), 45vw"/>})}</div>
+</div>

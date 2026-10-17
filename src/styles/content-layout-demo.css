@@ -1,0 +1,49 @@
+/* Loaded exclusively by the three independent layout samples. */
+body.brand-site.finesse-redesigned .cl-demo{--cl-ink:#202529;--cl-muted:#5b6266;--cl-rule:#d9ddde;--cl-paper:#f2f4f3;background:#fff;color:var(--cl-ink);font-family:'Inter Variable',Arial,sans-serif}
+.cl-demo *{box-sizing:border-box}
+.cl-demo .cl-wrap{width:min(1200px,calc(100% - 96px));margin-inline:auto}
+.cl-demo .cl-section{padding-block:72px}
+.cl-demo section,.cl-demo figure{margin:0}
+.cl-demo :is(h1,h2,h3,p){margin:0}
+body.brand-site.finesse-redesigned .cl-demo :is(h1,h2,h3){color:inherit;font-weight:550!important;letter-spacing:-.025em!important}
+body.brand-site.finesse-redesigned .cl-demo h1{font-size:clamp(36px,4vw,58px)!important;line-height:1.08!important;max-width:26ch!important;text-wrap:balance}
+body.brand-site.finesse-redesigned .cl-demo h2{font-size:clamp(28px,2.65vw,38px)!important;line-height:1.16!important;max-width:32ch!important}
+body.brand-site.finesse-redesigned .cl-demo h3{font-size:21px!important;line-height:1.3!important}
+body.brand-site.finesse-redesigned .cl-demo :is(p,li,dd){font-size:16px!important;line-height:1.65!important;color:var(--cl-muted);max-width:68ch!important}
+.cl-demo a{color:inherit;text-decoration:none}
+.cl-demo a:focus-visible,.cl-demo summary:focus-visible{outline:2px solid var(--red,#c90b15);outline-offset:5px}
+.cl-demo img{display:block;max-width:100%;border-radius:0}
+.cl-demo .cl-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:48px;padding:14px 22px;background:var(--red,#c90b15);color:#fff;font-size:15px;font-weight:600;border-radius:0;border:1px solid transparent}
+.cl-demo .cl-button:hover{background:#a9000b}
+.cl-demo .cl-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;padding:8px 0;border-bottom:1px solid #a7afb2;font-size:15px;font-weight:550;width:fit-content}
+.cl-demo .cl-link:hover{color:var(--red,#c90b15);border-color:currentColor}
+body.brand-site.finesse-redesigned .cl-demo .cl-kicker{font-size:12px!important;color:#646d70;line-height:1.45!important;margin-bottom:20px;font-weight:500!important}
+.cl-demo .cl-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:30px}
+.cl-demo .cl-heading>.cl-link{flex-shrink:0}
+.cl-demo .cl-dl{margin:0;border-top:1px solid var(--cl-rule)}
+.cl-demo .cl-dl>div{display:grid;grid-template-columns:200px minmax(0,1fr);gap:30px;padding-block:20px;border-bottom:1px solid var(--cl-rule)}
+.cl-demo .cl-dl dt{font-size:14px!important;font-weight:600;line-height:1.55;color:var(--cl-ink)}
+.cl-demo .cl-dl dd{margin:0;max-width:none!important}
+body.brand-site.finesse-redesigned .cl-demo .cl-note,.cl-demo figcaption{font-size:13px!important;line-height:1.55!important;color:var(--cl-muted);margin-top:12px;max-width:68ch}
+.cl-demo details{border-block-start:1px solid var(--cl-rule);padding-block:18px}
+.cl-demo summary{cursor:pointer;font-size:16px;font-weight:550;min-height:28px}
+.cl-demo details[open]>summary{margin-bottom:22px}
+.cl-demo details p+p{margin-top:14px}
+.cl-demo .cl-next{background:#202529;color:#fff;padding:40px;display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:60px;align-items:center}
+body.brand-site.finesse-redesigned .cl-demo .cl-next p{color:#d1d7d9;margin-top:18px}
+.cl-demo .cl-next .cl-link{color:#fff;border-color:#6e777c}
+.cl-demo .cl-next .cl-button{width:100%}
+.cl-demo .cl-preview{background:#f2f4f3;border-bottom:1px solid var(--cl-rule);display:flex;gap:20px;justify-content:space-between;align-items:center;padding:9px max(24px,calc((100vw - 1200px)/2));font-size:11px;line-height:1.5;color:#646d70}
+.cl-demo .cl-preview nav{display:flex;gap:22px}
+.cl-demo .cl-preview a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:760px){
+ .cl-demo .cl-wrap{width:calc(100% - 40px)}
+ .cl-demo .cl-section{padding-block:44px}
+ .cl-demo .cl-heading{align-items:flex-start;flex-direction:column;gap:12px;margin-bottom:24px}
+ .cl-demo .cl-dl>div{grid-template-columns:1fr;gap:8px;padding-block:18px}
+ .cl-demo .cl-next{grid-template-columns:1fr;gap:26px;padding:28px 24px}
+ .cl-demo .cl-preview{padding:10px 20px;align-items:flex-start}
+ .cl-demo .cl-preview>span{max-width:120px}
+ .cl-demo .cl-preview nav{gap:7px;flex-direction:column;text-align:right}
+}
+@media(prefers-reduced-motion:reduce){.cl-demo *{scroll-behavior:auto!important;transition:none!important}}

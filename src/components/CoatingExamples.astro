@@ -1,0 +1,21 @@
+---
+import ReferenceGallery from './ReferenceGallery.astro';
+---
+<section class="container coating-examples" id="coated-parts">
+ <ReferenceGallery ids={['finish-coated-round','finish-coated-bars']} title="Surface-coated parts" description="The original photographs label these parts as Teflon surface-coated. Examples include circular components and long pieces with repeated holes. Surface coating is a different construction from machining a part from PTFE stock."/>
+ <div class="coating-notes"><div><h3>Coating requirements</h3><p>Specify the substrate and treatment, then mark surfaces to coat or mask. State whether critical dimensions apply before or after coating. Agree thickness and appearance requirements with the quotation, including any tests.</p></div><div><h3>Part construction</h3><p>Compare a part machined from plastic with a coated metal part, or a component with a separate covering.</p><a class="text-link" href="/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/">View plastic part examples</a><a class="text-link" href="/machined-parts/#additional-part-forms">View covered wheels and rollers</a></div></div>
+ 
+</section>
+<style>
+
+.coating-examples{border-top:1px solid var(--border);padding-bottom:80px;scroll-margin-top:112px}
+.coating-notes{display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-top:32px}
+.coating-notes>div{border-top:1px solid var(--border);padding-top:26px}
+.coating-notes h3{font-size:28px;font-weight:550;letter-spacing:-.025em;line-height:1.25}
+.coating-notes p{font-size:17px;line-height:1.65;margin-top:20px;max-width:55ch}
+.coating-notes a{display:flex;width:fit-content;margin-top:22px;min-height:44px;padding:10px 16px;border:1px solid #bdbdbd;font-size:15px;text-decoration:none}
+
+@media(max-width:760px){.coating-examples{padding-bottom:52px}.coating-notes{grid-template-columns:1fr;gap:34px}.coating-notes h3{font-size:25px}.coating-notes p{font-size:16px}}
+
+</style>
+

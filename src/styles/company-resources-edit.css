@@ -1,0 +1,3 @@
+/* Company page aliases retained for existing links. Composition lives in each page family. */
+body.brand-site :is(.ab-page,.ft-page) [id]{scroll-margin-top:110px}
+body.brand-site :is(.ab-page,.ft-page) a:focus-visible{outline:2px solid var(--red);outline-offset:5px}

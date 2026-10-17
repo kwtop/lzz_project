@@ -1,0 +1,63 @@
+.er-page{--er-ink:#171d21;--er-muted:#59646e;--er-line:#dce0e3;background:#fff;color:var(--er-ink)}
+.er-page .er-wrap{width:calc(100% - 128px);max-width:1260px;margin-inline:auto}
+.er-page p{color:var(--er-muted);line-height:1.55;margin:0}
+.er-page h1,.er-page h2,.er-page h3{color:var(--er-ink);font-weight:550;letter-spacing:-.045em;text-wrap:balance;margin:0}
+.er-page a{color:inherit;text-decoration:none}
+.er-page a:focus-visible,.er-page summary:focus-visible{outline:3px solid #176f9a;outline-offset:5px}
+.er-page a:hover{color:#bd0024}
+.er-page .er-crumbs{display:flex;flex-wrap:wrap;gap:12px;padding:25px 0 52px;font-size:13px;color:var(--er-muted)}
+.er-overview{display:grid;grid-template-columns:minmax(0,35.5fr) minmax(0,64.5fr);padding-bottom:48px}
+.er-identity{padding:10px 48px 0 0;border-right:1px solid var(--er-line)}
+.er-page .er-identity h1{font-size:clamp(28px,3.1vw,46px);line-height:1.12;margin-bottom:20px}
+.er-identity>p{font-size:20px;line-height:1.4}
+.er-product-image{display:block;margin:30px 0 24px}
+.er-product-image img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.er-index{display:grid;border-top:1px solid var(--er-line);padding-top:22px;gap:0}
+.er-index a{display:flex;gap:28px;align-items:center;min-height:48px;font-size:16px;font-weight:550}
+.er-index span{color:#8c99a4;font-weight:400;font-size:14px}
+.er-main{padding-left:50px;min-width:0}
+.er-page .er-headline{font-size:clamp(42px,4.9vw,70px);line-height:1.04;margin-bottom:24px;max-width:16ch;text-wrap:initial}
+.er-page .er-lead{font-size:21px;line-height:1.5;margin-bottom:30px}
+.er-table{margin:0;border-top:1px solid var(--er-line)}
+.er-table>div{display:grid;grid-template-columns:37% 63%;border-bottom:1px solid var(--er-line)}
+.er-table dt,.er-table dd{padding:14px 15px;font-size:16px;line-height:1.5;letter-spacing:0;text-transform:none;margin:0;overflow-wrap:anywhere}
+.er-table dt{font-weight:550;background:#f9f9f9;color:var(--er-ink);border-right:1px solid var(--er-line)}
+.er-table dd{color:var(--er-muted)}
+.er-action{display:flex;align-items:center;gap:26px;margin:20px 0 0}
+.er-page .er-button{background:#e8002e;color:white;display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:60px;padding:16px 25px;font-size:16px;font-weight:600;border-radius:2px;flex-shrink:0}
+.er-page .er-button:hover{background:#bc0025;color:#fff}
+.er-action p{border-left:1px solid var(--er-line);padding-left:24px;font-size:15px}
+.er-options{margin-top:38px;padding-top:32px;border-top:1px solid var(--er-line)}
+.er-page .er-options h2{font-size:34px;margin-bottom:20px;line-height:1.15}
+.er-page .er-small{font-size:14px;margin-top:18px;line-height:1.6}
+.er-surface{background:#343a3c;overflow:hidden}
+.er-page .er-surface-inner{display:grid;grid-template-columns:36% 64%;align-items:center;min-height:430px;gap:30px}
+.er-surface-inner>div{padding-block:48px}
+.er-page .er-surface h2{font-size:46px;color:white;line-height:1.08;margin-bottom:22px}
+.er-page .er-surface p{color:#fff;font-size:18px;max-width:28ch}
+.er-surface a{align-self:stretch;display:block}
+.er-surface img{width:100%;height:430px;display:block;object-fit:cover;object-position:center 49%}
+.er-page .er-drawing{display:grid;grid-template-columns:35.5% 64.5%;padding-block:54px 70px;scroll-margin-top:110px}
+.er-drawing>header{padding-right:65px}
+.er-page .er-drawing>header h2{font-size:44px;line-height:1.12;margin:0 0 20px}
+.er-drawing>header p{font-size:20px}
+.er-drawing>div{padding-left:24px;min-width:0}
+.er-page .er-secondary{display:inline-flex;gap:12px;align-items:center;font-size:15px;font-weight:550;border-bottom:1px solid #8e979d;padding:8px 0;margin-top:20px}
+.er-disclosure{border-top:1px solid var(--er-line);margin-top:26px}
+.er-disclosure summary{padding:20px 0;cursor:pointer;font-size:16px;font-weight:550}
+.er-detail-content{padding-bottom:20px;font-size:16px}
+.er-detail-content p{margin-bottom:18px}
+.er-page .er-detail-content h3,.er-page .er-casting h3{font-size:22px;letter-spacing:-.02em;margin-bottom:12px}
+.er-casting{padding-block:30px;border-top:1px solid var(--er-line)}
+.er-casting p+p{margin-top:16px}
+.er-related{margin-top:28px}
+.er-page .er-related h3{font-size:17px;letter-spacing:0;margin-bottom:15px}
+.er-related a{display:grid;grid-template-columns:1fr auto;gap:8px 20px;padding:16px 0;border-top:1px solid var(--er-line)}
+.er-related a span{font-weight:550;font-size:17px}
+.er-related small{grid-column:1;line-height:1.5;color:var(--er-muted);font-size:14px}
+.er-related svg{grid-column:2;grid-row:1}
+.er-processes{display:grid;gap:16px}.er-processes a{display:flex;justify-content:space-between;gap:20px;padding:12px 0;border-bottom:1px solid var(--er-line)}
+.er-references{padding-block:40px;border-top:1px solid var(--er-line)}
+.er-page section[id]{scroll-margin-top:110px}
+@media(min-width:761px) and (max-width:1100px){.er-page .er-wrap{width:calc(100% - 64px)}.er-identity{padding-right:26px}.er-main{padding-left:28px}.er-page .er-identity h1{font-size:30px}.er-page .er-headline{font-size:46px}.er-action{flex-wrap:wrap;gap:12px}.er-action p{border:0;padding:0}.er-table dt,.er-table dd{font-size:14px;padding:12px}.er-drawing>header{padding-right:28px}.er-page .er-surface h2{font-size:36px}}
+@media(max-width:760px){.er-page .er-wrap{width:calc(100% - 40px)}.er-page .er-crumbs{padding:22px 0 30px;font-size:12px;gap:8px}.er-overview{grid-template-columns:1fr;padding-bottom:34px}.er-identity{padding:0;border:0}.er-page .er-identity h1{font-size:36px;max-width:18ch}.er-identity>p{font-size:18px}.er-product-image{max-width:350px;margin:12px auto}.er-index{padding-block:12px;margin-bottom:30px;border-bottom:1px solid var(--er-line)}.er-index a{min-height:44px;font-size:15px}.er-main{padding:0}.er-page .er-headline{font-size:43px;max-width:17ch}.er-page .er-lead{font-size:18px;margin-bottom:24px}.er-table dt,.er-table dd{font-size:14px;padding:12px 10px}.er-table>div{grid-template-columns:35% 65%}.er-action{flex-wrap:wrap;gap:12px}.er-action p{padding-left:0;border:0;font-size:14px}.er-page .er-button{min-height:54px;font-size:15px;padding-inline:20px}.er-page .er-options h2{font-size:29px}.er-options{margin-top:28px;padding-top:26px}.er-page .er-surface-inner{grid-template-columns:1fr;gap:0}.er-surface-inner>div{padding:34px 0 24px}.er-page .er-surface h2{font-size:36px}.er-surface img{height:auto;max-height:400px;object-fit:contain}.er-page .er-surface p{font-size:16px}.er-page .er-drawing{grid-template-columns:1fr;padding-block:36px 48px;gap:24px}.er-drawing>header{padding:0}.er-page .er-drawing>header h2{font-size:36px}.er-drawing>header p{font-size:18px}.er-drawing>div{padding:0}.er-related a span{font-size:16px}}

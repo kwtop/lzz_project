@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/products/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/products/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/products/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/products/",
+      "panels": "pass",
+      "escape": "pass",
+      "overflow": false
+    }
+  ],
+  "keyboard": "pass",
+  "outsideClick": "pass",
+  "links": 23,
+  "errors": []
+}

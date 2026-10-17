@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "base": "http://127.0.0.1:4323",
+  "routes": [
+    "/resources/",
+    "/resources/rfq-checklist/",
+    "/resources/how-we-work/",
+    "/resources/processes-materials-finishes/",
+    "/resources/production-and-shipping/",
+    "/resources/faq/",
+    "/resources/drawings-and-ordering/",
+    "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+    "/resources/cnc-process-selection/",
+    "/resources/material-and-finish-checklist/",
+    "/resources/prototype-vs-small-batch-cnc/",
+    "/resources/custom-cnc-parts-shipping-checklist/"
+  ]
+}

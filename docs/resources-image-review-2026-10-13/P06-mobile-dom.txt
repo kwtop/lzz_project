@@ -1,0 +1,156 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+  - button "Open navigation"
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / Frequently asked questions
+    - heading "Custom CNC machining FAQ" [level=1]
+    - region "Essential answers":
+      - heading "Essential answers" [level=2]
+      - heading "What is the minimum order quantity?" [level=3]
+      - paragraph: Orders start at 1 piece. Include the first-order quantity and expected repeat demand so we can quote prototype work and later batches separately.
+      - link "Planning prototypes and repeat batches":
+        - /url: /resources/prototype-vs-small-batch-cnc/
+      - heading "What is the production lead time?" [level=3]
+      - paragraph: Production takes 7-14 business days after drawing and order confirmation, including surface finishing. Shipping time is additional. Record the confirmed production schedule and delivery arrangements in your quotation and order.
+      - link "How to order":
+        - /url: /resources/how-we-work/
+      - heading "What should I send for a quotation?" [level=3]
+      - paragraph: Send the drawing revision, units, material grade, finish, quantity and delivery destination. Include a STEP model where available and a dimensioned 2D drawing identifying critical tolerances, threads and acceptance requirements.
+      - link "Drawing and RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - heading "Does the website send my inquiry or upload my drawing?" [level=3]
+      - paragraph: The form creates an email draft without uploading files or sending a request. Open the draft in your email app, attach the drawings and send it to LZZ. You can also copy the draft or save it as a text file.
+      - link "Prepare an inquiry":
+        - /url: /quote/
+    - region "Quotes, payment, samples & after-sales":
+      - heading "Quotes, payment, samples & after-sales" [level=2]
+      - heading "Which payment terms should I confirm?" [level=3]
+      - paragraph: Before accepting a quote or placing an order, ask LZZ to confirm the payment method and currency. Agree the payment stages and the amount due at each stage for that order.
+      - link "Payment and order terms":
+        - /url: /resources/how-we-work/#commercial-terms
+      - heading "How are samples charged?" [level=3]
+      - paragraph: Ask for the sample machining and setup charges before approving the work. Confirm the sample freight cost and whether any sample fee can be credited to a later order.
+      - link "Sample charges to confirm":
+        - /url: /resources/how-we-work/#commercial-terms
+      - heading "Which after-sales terms apply to my parts?" [level=3]
+      - paragraph: Agree the terms for the quoted part before ordering. Confirm any warranty period and start date, exclusions and the procedure for reporting a problem. Ask who covers rework or replacement, return freight and any agreed refund.
+      - link "After-sales terms to confirm":
+        - /url: /resources/how-we-work/#section-2
+      - heading "How do I report a nonconforming part?" [level=3]
+      - paragraph: Send the drawing revision and part or batch reference, then include the affected quantity, photographs and measurement details. LZZ reviews the discrepancy against the agreed acceptance criteria and agrees corrective action with you.
+      - link "Nonconforming-part review":
+        - /url: /resources/how-we-work/#section-2
+    - region "Processes & specifications":
+      - heading "Processes & specifications" [level=2]
+      - heading "Which machining services can I discuss with LZZ?" [level=3]
+      - paragraph: We offer CNC milling and turning, with five-axis machining for suitable geometry. Plastic machining and finish machining of castings are also available. Send the complete drawing so we can plan the setup and finish; for castings, identify who supplies and accepts the blank.
+      - link "Explore the five machining services":
+        - /url: /capabilities/
+      - heading "How should I specify the material and finish?" [level=3]
+      - paragraph: Specify the exact material grade and condition. A broad label such as aluminum, steel or plastic leaves the grade undefined. Identify cosmetic faces and surface treatment requirements, then mark masked areas and dimensions to check after finishing. Record the agreed specification in the quotation.
+      - link "Material and finish guide":
+        - /url: /resources/material-and-finish-checklist/
+      - heading "Can every feature hold ±0.01 mm?" [level=3]
+      - paragraph: No. ±0.01 mm is a conditional reference for selected critical features. The achievable limit depends on material and geometry, together with the setup and measurement method. Mark each critical tolerance on the drawing for confirmation.
+      - link "Tolerance review and quality control":
+        - /url: /quality/
+    - region "Inspection & delivery":
+      - heading "Inspection & delivery" [level=2]
+      - heading "Which inspection documents should I request?" [level=3]
+      - paragraph: Specify the dimensional results and first-article records you need before ordering. Include material traceability and finishing documents where required. Agree the features and sampling plan, then confirm the report format. The quotation records the included document package and any additional cost; request current calibration evidence separately where needed.
+      - link "Inspection and delivery documents":
+        - /url: /quality/#order-documentation
+      - heading "Is LZZ ISO 9001 certified?" [level=3]
+      - paragraph: LZZ is ISO 9001 certified. For supplier qualification, request the current certificate for Hangzhou Lizhizao Precision Machinery Co., Ltd., including its number, issuer, validity, scope and verification details. Company awards are separate from the ISO certificate, and quality-system certification does not replace part-specific acceptance or industry approval.
+      - link "Request supplier qualification documents":
+        - /url: /quality/#quality-management
+      - heading "How are packing and international shipping agreed?" [level=3]
+      - paragraph: Provide the destination, receiving requirements and any vulnerable or cosmetic surfaces that need protection. Confirm the packing method, transport method, trade term and named place in the quotation. Agree the packing list, commercial invoice and other required documents. Transit time is separate from production time.
+      - link "Shipment planning checklist":
+        - /url: /resources/custom-cnc-parts-shipping-checklist/
+    - region "Machining studies":
+      - heading "Machining studies" [level=2]
+      - heading "What do the machining studies show?" [level=3]
+      - paragraph: The studies use workshop photographs to explain part features and machining setups. They outline drawing requirements for a similar part, without publishing customer inspection or performance results.
+      - link "Browse machining studies":
+        - /url: /cases/
+    - navigation "Resources and order preparation":
+      - link "All resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Quality control":
+        - /url: /quality/
+    - region "Prepare an inquiry":
+      - heading "Request a quote" [level=2]
+      - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+      - link "Prepare RFQ email":
+        - /url: /quote/?part=Custom+CNC+machining+FAQ+follow-up
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

@@ -1,0 +1,30 @@
+import {useEffect,useId,useMemo,useState} from 'react';
+export type CatalogueCard={slug:string;title:string;alt:string;src:string;srcset?:string;width:number;height:number;feature:string;search:string;filters:string[];forms:string[]};
+type ReferenceGallery=Pick<CatalogueCard,'slug'|'title'|'alt'|'src'|'width'|'height'|'feature'|'search'>&{href:string};
+type Option={key:string;label:string};
+type Facet={label:string;options:Option[]};
+const normalize=(s:string)=>s.trim().toLowerCase().replace(/\s+/g,' ');
+export default function PartsCatalogueExplorer({cards,referenceGalleries,forms,facets}:{cards:CatalogueCard[];referenceGalleries:ReferenceGallery[];forms:Option[];facets:Facet[]}){
+ const id=useId();
+ const [query,setQuery]=useState(''),[form,setForm]=useState(''),[values,setValues]=useState(['','','']),[expanded,setExpanded]=useState(false);
+ useEffect(()=>{const params=new URLSearchParams(location.search),selected=params.get('form');if(selected==='reference-galleries'||forms.some(f=>f.key===selected))setForm(selected!);const search=params.get('q');if(search)setQuery(search);setValues(facets.map(f=>{const value=params.get(f.label.toLowerCase());return f.options.some(o=>o.key===value)?value!:''}));},[]);
+ const normalized=normalize(query);
+ const shown=useMemo(()=>cards.filter(card=>(!form||card.forms.includes(form))&&values.every(v=>!v||card.filters.includes(v))&&card.search.includes(normalized)),[cards,form,values,normalized]);
+ const galleries=referenceGalleries.filter(item=>(!form||form==='reference-galleries')&&!values.some(Boolean)&&normalize(item.title+' '+item.search).includes(normalized));
+ const changed=Boolean(form||query||values.some(Boolean));
+ function updateForm(value:string){setForm(value);if(value==='reference-galleries')setValues(['','','']);const url=new URL(location.href);if(value)url.searchParams.set('form',value);else url.searchParams.delete('form');history.replaceState(null,'',url.pathname+url.search+url.hash);}
+ function reset(){setQuery('');setForm('');setValues(['','','']);const url=new URL(location.href);for(const key of ['form','q','process','material','order type'])url.searchParams.delete(key);history.replaceState(null,'',url.pathname+url.search+url.hash);}
+ return <div className="pc-browser">
+  <div className="pc-search-row"><label className="pc-search"><span className="sr-only">Find a part example</span><input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search by part, material or process" aria-label="Search part examples"/>{query&&<button type="button" aria-label="Clear search" onClick={()=>setQuery('')}>Clear</button>}</label></div>
+  <nav className="pc-forms" aria-label="Find a similar part"><button type="button" aria-pressed={!form} onClick={()=>updateForm('')}>All examples</button><button type="button" aria-pressed={form==='reference-galleries'} onClick={()=>updateForm(form==='reference-galleries'?'':'reference-galleries')}>Reference galleries</button>{forms.map(f=><button type="button" key={f.key} aria-pressed={form===f.key} onClick={()=>updateForm(form===f.key?'':f.key)}>{f.label}</button>)}</nav>
+  <label className="pc-mobile-form"><span>Part form</span><select value={form} onChange={e=>updateForm(e.target.value)}><option value="">All forms</option>{forms.map(f=><option key={f.key} value={f.key}>{f.label}</option>)}<option value="reference-galleries">Reference galleries</option></select></label>
+  <button type="button" className="pc-filter-toggle" aria-expanded={expanded} aria-controls={id} onClick={()=>setExpanded(!expanded)}>Process, material &amp; order filters <span aria-hidden="true">{expanded?'−':'+'}</span></button>
+  <div className={'pc-facets'+(expanded?' pc-facets-open':'')} id={id} role="group" aria-label="Combine part filters">{facets.map((facet,i)=><label key={facet.label}><span>{facet.label}</span><select aria-label={facet.label} value={values[i]} onChange={e=>setValues(prev=>prev.map((v,j)=>j===i?e.target.value:v))}><option value="">{['All processes','All materials','Any order type'][i]}</option>{facet.options.map(option=><option key={option.key} value={option.key}>{option.label}</option>)}</select></label>)}<p className="pc-filter-note">These filters apply to part examples. Use search or Reference galleries to find the additional image collections.</p></div>
+  <div className="pc-results" aria-live="polite"><p>{shown.length} part {shown.length===1?'example':'examples'}{galleries.length>0&&<> · {galleries.length} reference {galleries.length===1?'gallery':'galleries'}</>} found</p>{changed&&<button type="button" onClick={reset}>Reset filters</button>}</div>
+  <p className="pc-image-note">Part illustrations are AI-generated / retouched. Source images are available in the details.</p>
+  <div className="pc-grid" data-count={shown.length}>{shown.map(card=><a className="pc-card" key={card.slug} href={'/machined-parts/gallery/'+card.slug+'/'}><div className="pc-image"><img src={card.src} srcSet={card.srcset} sizes="(max-width:760px) 112px, (max-width:1100px) 44vw, 390px" width={card.width} height={card.height} alt={card.alt} loading="lazy" decoding="async"/></div><h3>{card.title}</h3><p>{card.feature}</p></a>)}</div>
+  {galleries.length>0&&<section className="pc-gallery-results" aria-label="Matching reference galleries"><h2>Reference galleries</h2>{galleries.map(item=><a className="pc-gallery-link" key={item.slug} href={item.href}><img src={item.src} width={item.width} height={item.height} alt={item.alt} loading="lazy"/><div><h3>{item.title}</h3><p>{item.feature}</p><span className="pr-secondary">View reference images</span></div></a>)}</section>}
+  {!shown.length&&!galleries.length&&<div className="pc-empty"><h3>No matching examples</h3><p>Change the search or filters, or send a drawing for a custom part.</p><div className="pr-actions"><button type="button" className="pr-secondary" onClick={reset}>Reset filters</button><a className="pr-secondary" href="/quote/">Discuss your drawing</a></div></div>}
+  <noscript><p>The complete list is available above. Interactive search and filters require JavaScript.</p></noscript>
+ </div>;
+}

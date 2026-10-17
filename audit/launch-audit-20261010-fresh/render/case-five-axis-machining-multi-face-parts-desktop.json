@@ -1,0 +1,101 @@
+{
+  "canonical": "https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/",
+  "description": "Machining holes, side openings and contoured faces on a component held in a rotary setup.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Five-axis machining for multi-face components"
+    },
+    {
+      "tag": "H2",
+      "text": "The component"
+    },
+    {
+      "tag": "H2",
+      "text": "Machining setup"
+    },
+    {
+      "tag": "H2",
+      "text": "Machined features"
+    },
+    {
+      "tag": "H2",
+      "text": "Inspection planning"
+    },
+    {
+      "tag": "H2",
+      "text": "Related capabilities"
+    },
+    {
+      "tag": "H3",
+      "text": "Parts with similar features"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/products/",
+      "text": "Custom Parts"
+    },
+    {
+      "href": "/cases/",
+      "text": "Machining Studies"
+    },
+    {
+      "href": "#study-0",
+      "text": "The component"
+    },
+    {
+      "href": "#study-1",
+      "text": "Machining setup"
+    },
+    {
+      "href": "#study-2",
+      "text": "Machined features"
+    },
+    {
+      "href": "#study-3",
+      "text": "Inspection planning"
+    },
+    {
+      "href": "/quote/",
+      "text": "Discuss your drawing"
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "5-axis machining"
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "CNC milling"
+    },
+    {
+      "href": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "text": "Multi-sided machined components"
+    },
+    {
+      "href": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "text": "Multi-bore circular milled component"
+    },
+    {
+      "href": "/cases/",
+      "text": "See all process studies"
+    }
+  ],
+  "main": "Home\nCustom Parts\nMachining Studies\nFive-axis machining for multi-face components\n\nMachining holes, side openings and contoured faces on a component held in a rotary setup.\n\nStudy sections\nThe component\nMachining setup\nMachined features\nInspection planning\n\nThe photographs come from the LZZ workshop and show the part shapes and setups discussed here.\n\nPhotography & project scope\nDiscuss your drawing\n01 · LZZ workshop\nThe component\n\nFront-face holes and a curved side opening place machining features on different faces of this component. Their relationship to a common datum is an important part of planning a similar job.\n\n02 · LZZ workshop\nMachining setup\n\nThe workpiece is held in front of a rotary assembly, with spindle access from above. Tool reach and clearance around the fixture need to be checked for each face before the machining sequence is confirmed.\n\nMachined features\n\nThe accompanying components have machined pockets, contoured edges and repeated hole patterns. These features provide useful reference points when discussing a similar geometry.\n\nInspection planning\n\nFor a comparable project, identify datums, mating features, positional tolerances, surface requirements and the dimensional record you need. LZZ can assess achievable limits and the inspection method from the drawing.\n\nRelated capabilities\n5-axis machining\nCNC milling\nParts with similar features\n\nSeparate catalog examples for a similar enquiry.\n\nMulti-sided machined components\nMulti-bore circular milled component\nSee all process studies",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/#webpage\",\"url\":\"https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/\",\"name\":\"Five-axis machining for multi-face components\",\"description\":\"Machining holes, side openings and contoured faces on a component held in a rotary setup.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Custom Parts\",\"item\":\"https://www.lzz-cnc.com/products/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Machining Studies\",\"item\":\"https://www.lzz-cnc.com/cases/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Five-axis machining for multi-face components\",\"item\":\"https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/\"}]},{\"@type\":\"Article\",\"headline\":\"Five-axis machining for multi-face components\",\"description\":\"Machining holes, side openings and contoured faces on a component held in a rotary setup.\",\"mainEntityOfPage\":{\"@id\":\"https://www.lzz-cnc.com/cases/five-axis-machining-multi-face-parts/#webpage\"},\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"image\":\"https://www.lzz-cnc.com/media/evidence/five-axis-operation-1600.webp\"}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "5-axis machining for multi-face parts | LZZ Precision",
+  "url": "http://127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "case-five-axis-machining-multi-face-parts-desktop"
+}

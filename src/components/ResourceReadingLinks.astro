@@ -1,0 +1,5 @@
+---
+interface Props {links?:[string,string][];label?:string}
+const {links=[],label='Related resources'}=Astro.props;
+---
+{links.length>0&&<nav class="res-actions" aria-label={label}>{links.map(([text,href])=><a class="res-link" href={href} download={href.startsWith('/downloads/')||undefined}>{text}</a>)}</nav>}

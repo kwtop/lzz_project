@@ -1,0 +1,450 @@
+/* Shared layout and action roles. Imported after the existing typography layer.
+ * The bounded !important declarations replace legacy component role metrics;
+ * local grids, image framing, inline references and tool controls stay local.
+ */
+body.brand-site.finesse-redesigned {
+  --layout-width: 1140px;
+  --layout-gutter: 48px;
+  --layout-gap: 48px;
+  --layout-section-space: 60px;
+  --reading-section-space: 48px;
+  --group-space: 24px;
+  --type-body-size: 1.0625rem;
+  --gutter: var(--layout-gutter);
+  --action-background: var(--red);
+  --action-hover-background: #ad1015;
+  --action-foreground: #fff;
+  --action-height: 48px;
+  --action-radius: 2px;
+  --action-padding: 12px 20px;
+  --action-gap: 12px;
+  --action-border: #aab3b7;
+}
+html[data-palette=a] body.brand-site {
+  --action-background: var(--action);
+  --action-hover-background: var(--action-hover, #10445e);
+}
+
+/* One outer content boundary, including the former single-page designs. */
+body.brand-site.finesse-redesigned :is(
+  main .container, .reading-wrap, main .er-wrap, main .cap-wrap,
+  main .rq-wrap, main .ag-wrap, main .study-wrap, main .ab-wrap,
+  main .ft-wrap, main .qv-wrap, main .ww-wrap, main .sh-wrap,
+  main .fq-wrap, main .mo-wrap, main .ps-width
+) {
+  width: min(var(--layout-width), calc(100% - var(--layout-gutter) * 2)) !important;
+  max-width: var(--layout-width) !important;
+  margin-inline: auto;
+}
+body.brand-site.finesse-redesigned .header-inner {
+  width: min(var(--layout-width), calc(100% - var(--layout-gutter) * 2));
+}
+/* Already-contained fragments must not acquire another page gutter. */
+body.brand-site.finesse-redesigned .ab-extra .container {
+  width: 100% !important;
+  max-width: none !important;
+  padding-inline: 0;
+}
+
+/* Decision pages retain evidence-led compositions, with a common cadence. */
+body.brand-site.finesse-redesigned[data-page-template=decision] :is(
+  .section, .cap-section, .ab-section, .ft-section, .study-section,
+  .qv-documents, .qv-report, .qv-process, .qv-equipment, .qv-qualification, .qv-resources
+) { padding-block: var(--layout-section-space) !important; }
+body.brand-site.finesse-redesigned[data-page-template=decision] :is(
+  .cap-section-head, .ab-overview, .ft-heading, .ft-inspection,
+  .qv-hero, .qv-report, .qv-equipment, .cap-drawing, .cap-inspection
+) { column-gap: var(--layout-gap); }
+body.brand-site.finesse-redesigned[data-page-template=decision] :is(
+  .cap-hero-grid, .qv-hero, .page-banner-inner
+) { padding-block: 64px !important; }
+body.brand-site.finesse-redesigned[data-page-template=decision] :is(
+  .cap-breadcrumb, .er-crumbs, .study-breadcrumb
+) { margin-bottom: 24px; }
+
+/* Read pages share a short opening, navigable chapters and quiet exits. */
+body.brand-site.finesse-redesigned[data-page-template=read] {
+  --type-h2-size: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+  background: #fff;
+}
+.reading-page { background: #fff; color: var(--ink); }
+.reading-header {
+  padding-block: 64px 48px;
+  min-width: 0;
+}
+.reading-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 12px;
+  margin-bottom: 20px;
+  color: var(--muted);
+  font-size: var(--type-small-size);
+  line-height: 1.5;
+}
+.reading-breadcrumb :is(a, span) {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 12px;
+  min-width: 0;
+  max-width: 100%;
+  padding-block: 8px;
+  overflow-wrap: anywhere;
+}
+.reading-breadcrumb a { min-height: 44px; }
+.reading-breadcrumb :is(a, span) + :is(a, span)::before {
+  content: '/';
+  flex: none;
+  color: var(--muted);
+}
+.reading-breadcrumb a:hover { color: var(--red); text-decoration: underline; }
+.reading-header h1 { margin: 0; }
+.reading-header .reading-description,
+.reading-header-meta > p { margin-top: 20px; color: var(--muted); max-width: 68ch; }
+body.brand-site.finesse-redesigned[data-page-template=read] .reading-header .reading-description { margin-top: 24px; }
+.reading-header-meta:empty { display: none; }
+.reading-header-meta :is(.news-event-date, time) { font-variant-numeric: tabular-nums; }
+.reading-header-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 20px; }
+.reading-contents { border-block: 1px solid var(--border); margin-bottom: 32px; }
+.page-contents-disclosure { padding-block: 0; }
+.page-contents-disclosure summary {
+  display: list-item;
+  cursor: pointer;
+  min-height: 48px;
+  padding-block: 12px;
+  font-size: var(--type-navigation-size);
+  font-weight: 600;
+  line-height: 1.6;
+}
+.page-contents-disclosure nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 4px 24px;
+  padding: 0 0 16px;
+}
+.page-contents-disclosure nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 8px;
+  color: var(--muted);
+  font-size: var(--type-navigation-size);
+  line-height: 1.5;
+  text-decoration: none;
+}
+.page-contents-disclosure nav a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 4px; }
+.reading-contents--sidebar { margin-bottom: 0; }
+.reading-contents--sidebar .page-contents-disclosure nav { display: grid; gap: 0; }
+.reading-contents--sidebar .page-contents-disclosure a { max-width: 100%; }
+body.brand-site.finesse-redesigned[data-page-template=read] :is(.reading-section, .reading-page .collection-section) {
+  padding-block: var(--reading-section-space) !important;
+  scroll-margin-top: 112px;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .reading-related {
+  padding-block: 40px !important;
+  border-top: 1px solid var(--border);
+  column-gap: var(--layout-gap);
+}
+body.brand-site.finesse-redesigned[data-page-template=read] :is(.reading-closing, .closing) {
+  padding-block: 40px !important;
+  column-gap: var(--layout-gap);
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .reading-figure {
+  margin-block: 24px 32px;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .reading-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  object-fit: contain;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .reading-figure figcaption {
+  margin-top: 12px;
+  max-width: 75ch;
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  line-height: 1.65;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] :is(
+  .article-masthead, .manual-hero, .finesse-resource-masthead, .page-banner-inner
+) { padding-block: 40px 32px !important; }
+body.brand-site.finesse-redesigned[data-page-template=read] .prose {
+  max-width: 70ch;
+}
+/* Prose chapters are continuous reading, rather than separate showcase bands. */
+body.brand-site.finesse-redesigned[data-page-template=read] .finesse-article .prose .reading-section {
+  padding-block: 0 32px !important;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .privacy-page .legal-reading {
+  padding-top: 0;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .privacy-page .prose .reading-section {
+  padding-block: 24px !important;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .privacy-page .prose .reading-section:first-child {
+  padding-top: 0 !important;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .privacy-page .prose .reading-section > h2 {
+  margin-top: 0;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .privacy-page .prose .reading-section > :last-child {
+  margin-bottom: 0;
+}
+body.brand-site.finesse-redesigned[data-page-template=read] .article-return { padding-bottom: 40px; }
+body.brand-site.finesse-redesigned[data-page-template=read] .mo-contact.reading-closing > .mo-wrap { padding-block: 0; }
+body.brand-site.finesse-redesigned[data-page-template=read] .case-source-summary { font-size: var(--type-small-size); }
+body.brand-site.finesse-redesigned[data-page-template=read] .case-related :is(.case-capabilities, .case-similar) { padding-block: 0; }
+
+/* Distilled pages: the heading and evidence carry the hierarchy. */
+body.brand-site.finesse-redesigned .cap-products {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--layout-gap);
+}
+body.brand-site.finesse-redesigned .cap-products-single { grid-template-columns: minmax(0, 560px); }
+body.brand-site.finesse-redesigned .cap-route { margin-top: 32px; }
+body.brand-site.finesse-redesigned .cap-route-items { max-width: 68ch; padding-left: 24px; margin-block: 4px 24px; }
+body.brand-site.finesse-redesigned .cap-route-items > li { margin-bottom: 16px; }
+body.brand-site.finesse-redesigned .cap-criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--layout-gap);
+  margin-top: 32px;
+}
+body.brand-site.finesse-redesigned .cap-criteria-grid .cap-paragraphs { margin-top: 20px; }
+body.brand-site.finesse-redesigned .cap-reference {
+  border-left: 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--border);
+  max-width: 68ch;
+  margin-top: 32px;
+}
+body.brand-site.finesse-redesigned .cap-reference p + p { margin-top: 16px; }
+body.brand-site.finesse-redesigned .cap-acceptance-links { margin-top: 32px; }
+body.brand-site.finesse-redesigned .cap-acceptance-links details { margin-top: 16px; }
+body.brand-site.finesse-redesigned :is(.cap-acceptance-links, .cap-more-studies) ul {
+  list-style: none;
+  padding: 0 0 20px;
+  margin: 0;
+}
+body.brand-site.finesse-redesigned :is(.cap-acceptance-links, .cap-more-studies) li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+body.brand-site.finesse-redesigned .cap-more-studies a { border: 0; padding: 8px 0; }
+body.brand-site.finesse-redesigned .cap-resources :is(h2, .resource-links h3) { font-size: 1.375rem !important; }
+body.brand-site.finesse-redesigned .qv-hero h1 { margin-top: 0; }
+body.brand-site.finesse-redesigned .qv-page :is(h1, h2, h3) { margin: 0; }
+body.brand-site.finesse-redesigned .qv-hero :is(p, .qv-button) { margin-top: 24px; }
+body.brand-site.finesse-redesigned :is(.qv-documents, .qv-equipment, .qv-qualification, .qv-resources) p { margin-block: 20px 0; }
+body.brand-site.finesse-redesigned .qv-order { margin-top: 40px; }
+body.brand-site.finesse-redesigned .qv-order h3 { margin-bottom: 0; }
+body.brand-site.finesse-redesigned .qv-hero-photo img { max-height: 520px; }
+body.brand-site.finesse-redesigned .ww-definition-details {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--layout-gap);
+}
+body.brand-site.finesse-redesigned .ww-scope dl { display: block; }
+body.brand-site.finesse-redesigned .ww-scope dl > div { margin-block: 16px; }
+body.brand-site.finesse-redesigned .ww-before { display: block; }
+body.brand-site.finesse-redesigned .ww-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; }
+body.brand-site.finesse-redesigned .ww-facts > div + div { border-left: 0; padding-left: 0; }
+body.brand-site.finesse-redesigned .ww-preparation { margin-top: 32px; }
+/* A checklist row is a structural grid; its paragraphs retain the reading measure. */
+body.brand-site.finesse-redesigned .sh-checklist ol > li { max-width: none !important; }
+body.brand-site.finesse-redesigned .sh-checklist-head > span:last-child { padding-left: 24px; }
+body.brand-site.finesse-redesigned .ab-closing-inner { display: block; }
+body.brand-site.finesse-redesigned :is(summary, .qv-table-scroll):focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+}
+@media (max-width:760px) {
+  body.brand-site.finesse-redesigned :is(.cap-products, .cap-criteria-grid, .ww-definition-details) { grid-template-columns: 1fr; }
+  body.brand-site.finesse-redesigned .ww-facts { grid-template-columns: 1fr; gap: 24px; }
+  body.brand-site.finesse-redesigned[data-page-template=read] .reading-header .reading-description { margin-top: 20px; }
+  body.brand-site.finesse-redesigned .qv-hero-photo img { max-height: none; }
+}
+
+/* Operations keep the input task and its supporting information separate. */
+body.brand-site.finesse-redesigned[data-page-template=operate] .quote-layout {
+  column-gap: var(--layout-gap);
+  padding-block: 40px 64px;
+}
+body.brand-site.finesse-redesigned[data-page-template=operate] .quote-intro {
+  column-gap: var(--layout-gap);
+  padding-bottom: 32px;
+}
+
+/* Primary actions: a single color, geometry and type role across page families. */
+body.brand-site.finesse-redesigned :is(
+  a.button:not(.secondary), button.button:not(.secondary),
+  a.er-button, a.cap-button, a.ww-button, a.rq-button, a.ag-button,
+  a.sh-button, a.ab-button, a.qv-button, a.ps-button, a.study-button,
+  a.fq-primary, a.mo-primary
+) {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: var(--action-gap) !important;
+  min-height: var(--action-height) !important;
+  max-width: 100%;
+  padding: var(--action-padding) !important;
+  border: 1px solid var(--action-background) !important;
+  border-radius: var(--action-radius) !important;
+  background: var(--action-background) !important;
+  color: var(--action-foreground) !important;
+  font-family: var(--font-text) !important;
+  font-size: var(--type-button-size) !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  text-align: center;
+  text-decoration: none !important;
+  white-space: normal;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+body.brand-site.finesse-redesigned :is(
+  a.button:not(.secondary), button.button:not(.secondary),
+  a.er-button, a.cap-button, a.ww-button, a.rq-button, a.ag-button,
+  a.sh-button, a.ab-button, a.qv-button, a.ps-button, a.study-button,
+  a.fq-primary, a.mo-primary
+):not(:disabled):not([aria-disabled=true]):hover {
+  background: var(--action-hover-background) !important;
+  border-color: var(--action-hover-background) !important;
+  color: var(--action-foreground) !important;
+}
+/* The same role has a compact variant inside the shared navigation. */
+body.brand-site.finesse-redesigned a.header-quote {
+  --action-height: 44px;
+  --action-padding: 10px 14px;
+  --action-gap: 10px;
+  white-space: nowrap;
+}
+
+/* Standalone secondary exits are contained; card links and inline refs are not. */
+body.brand-site.finesse-redesigned :is(
+  a.text-link, button.text-link, a.button.secondary, button.button.secondary,
+  a.er-secondary, a.ab-secondary, a.qv-secondary, a.ww-secondary,
+  a.sh-secondary, a.mo-secondary, a.ft-link, a.ft-hero-action,
+  a.page-banner-secondary, a.rq-download, a.manual-link, a.home-rfq-checklist,
+  .hero-baseline > a
+) {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: var(--action-gap) !important;
+  width: fit-content;
+  min-height: var(--action-height) !important;
+  max-width: 100%;
+  padding: var(--action-padding) !important;
+  border: 1px solid var(--action-border) !important;
+  border-radius: var(--action-radius) !important;
+  background: transparent !important;
+  color: var(--ink) !important;
+  font-family: var(--font-text) !important;
+  font-size: var(--type-button-size) !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  text-decoration: none !important;
+  text-align: center;
+  white-space: normal;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+body.brand-site.finesse-redesigned :is(
+  a.text-link, button.text-link, a.button.secondary, button.button.secondary,
+  a.er-secondary, a.ab-secondary, a.qv-secondary, a.ww-secondary,
+  a.sh-secondary, a.mo-secondary, a.ft-link, a.ft-hero-action,
+  a.page-banner-secondary, a.rq-download, a.manual-link, a.home-rfq-checklist,
+  .hero-baseline > a
+):not(:disabled):not([aria-disabled=true]):hover {
+  border-color: var(--ink) !important;
+  background: var(--surface) !important;
+  color: var(--ink) !important;
+}
+/* Text actions keep a smaller visual footprint while retaining a touch target. */
+body.brand-site.finesse-redesigned :is(
+  a.ed-link, a.cap-link, a.rq-link, a.ag-link, a.study-link,
+  a.ab-inline, a.qv-inline, a.archive-story-link, a.ps-all, a.ww-back,
+  a.ww-hero-email, a.rq-mail, a.sh-email, a.manual-email, a.mo-email
+) {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  max-width: 100%;
+  padding-block: 8px;
+  color: var(--ink);
+  font-size: var(--type-button-size);
+  font-weight: 600;
+  line-height: 1.5;
+  text-underline-offset: 4px;
+}
+body.brand-site.finesse-redesigned :is(a, button):focus-visible {
+  outline: 2px solid var(--red) !important;
+  outline-offset: 4px !important;
+}
+/* Dark panels and photographic heroes use an inverse secondary/focus role. */
+body.brand-site.finesse-redesigned :is(.ab-hero, .ft-hero, .precision-hero, .home-rfq-panel) {
+  --action-border: #d7dfe2;
+}
+body.brand-site.finesse-redesigned :is(.ab-hero, .ft-hero, .precision-hero, .home-rfq-panel) :is(
+  a.text-link, a.ab-secondary, a.ft-hero-action, a.home-rfq-checklist, .hero-baseline > a
+) { color: #fff !important; }
+body.brand-site.finesse-redesigned :is(.ab-hero, .ft-hero, .precision-hero, .home-rfq-panel) :is(
+  a.text-link, a.ab-secondary, a.ft-hero-action, a.home-rfq-checklist, .hero-baseline > a
+):not(:disabled):not([aria-disabled=true]):hover { background: #ffffff18 !important; border-color: #fff !important; color: #fff !important; }
+body.brand-site.finesse-redesigned :is(.ab-hero, .ft-hero, .precision-hero, .home-rfq-panel) :is(a, button):focus-visible {
+  outline-color: #fff !important;
+}
+body.brand-site.finesse-redesigned :is(button.button, button.text-link):disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  transform: none;
+}
+body.brand-site.finesse-redesigned :is(a, button)[aria-disabled=true] {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+@media (max-width:1100px) {
+  body.brand-site.finesse-redesigned {
+    --layout-gutter: 32px;
+    --layout-gap: 32px;
+    --layout-section-space: 48px;
+    --reading-section-space: 40px;
+  }
+}
+@media (max-width:760px) {
+  body.brand-site.finesse-redesigned {
+    --layout-gutter: 20px;
+    --layout-gap: 24px;
+    --layout-section-space: 32px;
+    --reading-section-space: 32px;
+  }
+  .reading-header { padding-block: 40px 32px; }
+  .reading-breadcrumb { margin-bottom: 16px; }
+  .reading-header .reading-description { margin-top: 16px; }
+  .reading-contents { margin-bottom: 24px; }
+  .page-contents-disclosure nav { display: grid; gap: 0; padding-bottom: 12px; }
+  .reading-contents--sidebar { border-top: 1px solid var(--border); }
+  body.brand-site.finesse-redesigned[data-page-template=read] :is(
+    .article-masthead, .manual-hero, .finesse-resource-masthead, .page-banner-inner
+  ) { padding-block: 24px 28px !important; }
+  body.brand-site.finesse-redesigned[data-page-template=read] :is(.reading-related, .reading-closing, .closing) {
+    padding-block: 40px !important;
+  }
+  body.brand-site.finesse-redesigned[data-page-template=read] .reading-figure img { max-height: 240px; }
+  body.brand-site.finesse-redesigned[data-page-template=decision] :is(.cap-hero-grid, .qv-hero, .page-banner-inner) {
+    padding-block: 32px !important;
+  }
+  body.brand-site.finesse-redesigned[data-page-template=operate] .quote-layout { padding-block: 0 40px; }
+  body.brand-site.finesse-redesigned[data-page-template=operate] :is(.quote-intro, .quote-form-column, .quote-support) {
+    padding-inline: 0 !important;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  body.brand-site.finesse-redesigned :is(a, button) { transition: none; }
+}

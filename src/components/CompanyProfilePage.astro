@@ -1,0 +1,31 @@
+---
+import '../styles/company-resource-gallery.css';
+import Layout from '../layouts/Layout.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import '../styles/about-documentary.css';
+import {companyHistory} from '../data/company';
+import CompanyDocuments from './CompanyDocuments.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import '../styles/company-resources-edit.css';
+import '../styles/factory-family.css';
+import '../styles/about-family.css';
+
+import '../styles/content-editorial.css';
+import ContentClosing from './ContentClosing.astro';
+---
+<Layout title="About LZZ: precision manufacturing in Hangzhou" description="LZZ is an ISO 9001-certified CNC machining company in Hangzhou. Learn about the workshop, engineering team and company history." cta={false}>
+<article class="content-editorial ce-about">
+ <DisclosureAnchors/>
+ <header class="ce-wrap ce-header"><div><h1>LZZ Precision in Hangzhou</h1><p>Hangzhou Lizhizao Precision Machinery Co., Ltd.</p><dl class="ce-company-facts"><div><dt>Founded</dt><dd>2017</dd></div><div><dt>Facility</dt><dd>1,500 m²</dd></div><div><dt>Machining &amp; supporting equipment</dt><dd>40+</dd></div></dl><div class="ce-actions"><a class="ce-primary" href="/about/contact/">Contact LZZ</a></div></div><figure class="ce-source"><EvidenceImage id="workshop-wide" loading="eager" sizes="(max-width:760px) 90vw, 580px"/><figcaption>LZZ machining workshop · Hangzhou</figcaption></figure></header>
+ <section class="ce-wrap ce-chapter ce-split ce-image-first" id="company-overview"><figure class="ce-source" id="company-factory"><EvidenceImage id="workshop-aisle" sizes="(max-width:760px) 90vw, 550px"/><figcaption>Machining centers in the Hangzhou workshop</figcaption></figure><div class="ce-copy"><h2>Engineering and inspection</h2><p>Our engineering team has more than 15 years of CNC machining experience in milling, turning and multi-axis work.</p><p>LZZ is ISO 9001 certified. Request the current certificate when qualifying us as a supplier.</p></div></section>
+ <section class="ce-wrap ce-chapter" aria-labelledby="people-heading"><div class="ce-copy"><h2 id="people-heading">People and workshop visits</h2></div><div class="ce-gallery"><figure><a class="static-photo"><EvidenceImage id="visitor-part-discussion" sizes="(max-width:760px) 90vw, 380px"/></a><figcaption>Part discussion · January 2025</figcaption></figure><figure><EvidenceImage id="workshop-visit" sizes="(max-width:760px) 90vw, 380px"/><figcaption>Workshop visit · January 2025</figcaption></figure><figure><EvidenceImage id="team-2025-evening-group" sizes="(max-width:760px) 90vw, 380px"/><figcaption>Team gathering · May 2025</figcaption></figure></div></section>
+ <CompanyDocuments/>
+ <section class="ce-wrap ce-chapter ce-split" id="company-history"><span id="company-network" class="ce-anchor"/><div class="ce-copy"><h2>From 2017 to today</h2><p>{companyHistory[0].text}</p><p>We expanded milling, turning and multi-axis machining, and introduced first-article, in-process and pre-shipment inspection. A CMM, height gauges and optical projectors broadened our dimensional inspection capabilities.</p><p>Our OEM/ODM machining services expanded to customers in Asia, North America and Europe.</p></div><div class="ce-copy" id="applications"><h3>Custom parts for equipment assemblies</h3><p>We machine components for instruments, automation equipment and automotive prototypes. Tell us which standards and industry approvals your project requires.</p><span id="part-studies"/></div></section>
+ <ContentClosing title="Talk through your part requirements"/>
+</article>
+</Layout>
+<script is:inline>
+ const legacyAboutDestinations={'company-archive':'/about/company-news/','contact':'/about/contact/'};
+ const moveLegacyAboutLink=()=>{const destination=legacyAboutDestinations[location.hash.slice(1)];if(destination)location.replace(destination);};
+ moveLegacyAboutLink();window.addEventListener('hashchange',moveLegacyAboutLink);
+</script>

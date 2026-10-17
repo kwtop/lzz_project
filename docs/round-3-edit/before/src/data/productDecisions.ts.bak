@@ -1,0 +1,233 @@
+// Editorial comparisons grounded in catalog.json, presentation, productSummaries,
+// productDetails and manufacturing. These are drawing-review choices, not claims
+// of interchangeability, measured performance or an agreed supply commitment.
+const slugs = {
+ cavities:'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm',
+ blocks:'custom-oem-high-precision-cnc-milling-manufacturer',
+ contours:'ultra-high-precision-machining-services',
+ rings:'global-oem-precision-machining-solutions',
+ multiFace:'global-manufacturer-of-multi-sided-precision-machined-components',
+ turning:'custom-oem-cnc-turning-manufacturer',
+ rotary:'custom-rotary-cylindrical-components',
+ fittings:'custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer',
+ finishing:'full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing',
+ aesthetic:'custom-high-precision-machining-for-structural-aesthetic-components-oem',
+ sleeves:'high-volume-cnc-turning-for-complex-internal-external-features',
+ fluid:'high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem',
+ intercooler:'custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier',
+ cover:'custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier',
+ intake:'custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier',
+ throttle:'custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier',
+ injectorIntake:'custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier',
+ plenum:'custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier',
+ transmission:'custom-cnc-machined-castings-transmission-housings-pump-bodies',
+ shaft:'custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier',
+ insulation:'custom-oem-cnc-machined-non-metallic-components-insulating-parts',
+ plastics:'custom-oem-cnc-machined-plastic-parts-manufacturer',
+ ribbedCasting:'oem-precision-cnc-machined-casting-housing-structural-enclosures',
+ reconstructedCasting:'oem-precision-cnc-machined-casting-housings',
+ mountingCasting:'precision-cnc-machined-castings-custom-oem-housings',
+ internalCasting:'precision-cnc-machined-castings-manufacturer',
+ thinPlastic:'precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances',
+ brass:'precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier',
+ pilot:'precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier',
+ plasticBlocks:'precision-machining-for-functional-plastic-blocks-structural-components',
+ enclosure:'precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures',
+ stainless:'precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier',
+ locking:'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier',
+ housing:'small-batch-cnc-machining-manufacturer-complex-aluminum-housings',
+ mixedBatch:'small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv',
+} as const;
+
+export type ProductDecisionSlug = typeof slugs[keyof typeof slugs];
+export type RelatedPartChoice = Readonly<{slug:ProductDecisionSlug; reason:string}>;
+export type ProductDecision = Readonly<{
+ selectionFocus:string;
+ related:readonly RelatedPartChoice[];
+}>;
+export type RelatedPartDecision<T> = {product:T; reason:string};
+type Choice = readonly [slug:ProductDecisionSlug, reason:string];
+const decision = (selectionFocus:string, choices:readonly [Choice, Choice, Choice?]):ProductDecision => ({
+ selectionFocus,
+ related:choices.filter((choice):choice is Choice=>choice!==undefined).map(([slug,reason])=>({slug,reason})),
+});
+
+// Each directed link and its order is intentional; no tag or material scoring.
+// Overlapping catalog listings are distinguished by the documented review focus,
+// not by assumed differences in size, quality, achievable tolerance or capacity.
+export const productDecisions:Readonly<Record<ProductDecisionSlug,ProductDecision>> = {
+ [slugs.cavities]:decision('Start with cavity depth, internal corner access and angled surfaces when the part is defined by a milled 3D envelope.',[
+  [slugs.blocks,'Compare blocks and brackets when mounting faces and intersecting passages are the main drawing requirements, alongside this example of cavities and angled surfaces.'],
+  [slugs.multiFace,'Compare the multi-sided example when ports and bolt patterns on several faces need shared datums; it makes those relationships the review focus.'],
+  [slugs.contours,'Compare contoured components when blade profiles and root transitions require a controlling surface model, beyond pocket and bore definitions.'],
+ ]),
+ [slugs.blocks]:decision('Start with mounting faces and intersecting passages for an instrument block, bracket or valve body.',[
+  [slugs.cavities,'Compare cavity milling when your block includes deep pockets or angled surfaces that need a tool-access review.'],
+  [slugs.multiFace,'Compare multi-sided components when the mounting and passage geometry extends across several faces with angled ports.'],
+ ]),
+ [slugs.contours]:decision('Start with blade profiles, root transitions and the datum axis for a contoured part, with material condition and inspection criteria defined by the drawing.',[
+  [slugs.fluid,'Compare the fluid-system example when the contour model must also define ports and sealing interfaces; functional flow or balance tests need their own criteria.'],
+  [slugs.cavities,'Compare cavity milling when the controlling geometry is pockets, bores and angled faces, rather than blade profiles.'],
+ ]),
+ [slugs.rings]:decision('Start with the relationship between the turned axis and angled or milled features for ring housings and combined-process components.',[
+  [slugs.rotary,'Compare rotary components when cross-holes, flats and slots must be oriented around a cylindrical axis.'],
+  [slugs.multiFace,'Compare multi-sided housings when shared datums between ports and mounting faces govern the part more than its turned axis.'],
+ ]),
+ [slugs.multiFace]:decision('Start with shared datums for angled ports, bolt patterns and mounting faces distributed around one component.',[
+  [slugs.blocks,'Compare instrument blocks when the review centers on intersecting passages and mounting interfaces in a block or bracket.'],
+  [slugs.rings,'Compare ring housings when those face relationships must also be tied to a turned diameter and datum axis.'],
+ ]),
+ [slugs.turning]:decision('Start with diameters, shoulders and the functional axis for a shaft, sleeve, bushing or flanged turned part.',[
+  [slugs.rotary,'Compare the mill-turn example when secondary flats, slots or cross-holes need angular positioning relative to the turned profile.'],
+  [slugs.fittings,'Compare fittings when thread standards and the mating seal face determine acceptance of the turned component.'],
+  [slugs.sleeves,'Compare sleeves and valve cores when internal steps, grooves and inspection access must be defined for repeat batches.'],
+ ]),
+ [slugs.rotary]:decision('Start with the angular relationship of cross-holes, flats and slots to the turned axis when a cylindrical part needs secondary machining.',[
+  [slugs.turning,'Compare the general turned-part example to define the base diameters, shoulders and fits before adding off-axis details.'],
+  [slugs.rings,'Compare ring housings when the combined turning and milling work includes angled faces and housing interfaces.'],
+ ]),
+ [slugs.fittings]:decision('Start with the mating thread standard, sealing arrangement and contact face for a connector, adapter or flange.',[
+  [slugs.brass,'Compare brass and copper components when the connector also needs a specified conductive contact or plating surface; material choice follows its function.'],
+  [slugs.stainless,'Compare stainless turned parts when alloy condition and acceptance after passivation or electropolishing are part of the fitting specification.'],
+  [slugs.sleeves,'Compare internal-feature turning when stepped bores or hidden seal grooves need inspection access beyond the connector thread.'],
+ ]),
+ [slugs.finishing]:decision('Start with fitted dimensions after finishing, masked surfaces and cosmetic acceptance for a milled metal part.',[
+  [slugs.aesthetic,'Compare structural and aesthetic parts when visible curves, engraving and mounting geometry need separate drawing and appearance references.'],
+  [slugs.housing,'Compare aluminum housings when the finish must be coordinated with a lid or gasket interface and thin enclosure walls.'],
+ ]),
+ [slugs.aesthetic]:decision('Start with visible curves and mounting interfaces, separating load-carrying geometry from engraving and cosmetic finish requirements.',[
+  [slugs.finishing,'Compare the finishing example when protected fits, treatment choice and post-finish dimensional acceptance need to be specified together.'],
+  [slugs.cover,'Compare billet engine covers when the visible contour also needs an underside envelope and clearance to adjacent engine components.'],
+ ]),
+ [slugs.sleeves]:decision('Start with sectioned internal steps, grooves and seal lands for sleeves or valve components, then define quantities and sampling per release.',[
+  [slugs.turning,'Compare the general turning example when defining external shoulders and mating diameters alongside the internal profile.'],
+  [slugs.fittings,'Compare connectors when an internal groove must work with a defined mating thread and sealing arrangement.'],
+ ]),
+ [slugs.fluid]:decision('Start with the contour model, ports and sealing interfaces for an impeller or fluid housing, with functional validation defined separately.',[
+  [slugs.contours,'Compare contoured machining when blade roots, thin sections and the datum axis are the main geometry to inspect.'],
+  [slugs.multiFace,'Compare multi-sided components when the fluid part is governed by angled ports and bolt patterns across faces rather than impeller contours.'],
+ ]),
+ [slugs.intercooler]:decision('Start with end tanks, port orientation and the core-to-tank joints, identifying supplied components and the machining versus TIG-joining scope.',[
+  [slugs.plenum,'Compare a billet plenum when the inquiry concerns a machined internal volume and throttle flange; the intercooler additionally needs core and weld-joint definitions.'],
+  [slugs.intake,'Compare intake prototypes when runner-to-flange and piping interfaces are the main development task alongside the cooling assembly.'],
+ ]),
+ [slugs.cover]:decision('Start with the cover perimeter and underside clearance as well as the visible billet contour and finish.',[
+  [slugs.aesthetic,'Compare structural and aesthetic components when exposed curves and mounting points need an appearance reference without an engine-specific clearance envelope.'],
+  [slugs.housing,'Compare aluminum housings when lid or gasket closure and cavity walls are central to the part definition.'],
+ ]),
+ [slugs.intake]:decision('Focus this intake example on runner transitions, multi-piece flanges and plenum or turbo-piping interfaces; the companion manifold listing details injector bosses and fuel-rail mounts.',[
+  [slugs.injectorIntake,'Compare the companion manifold when injector axes and fuel-rail mounting positions must be defined relative to the runners and engine ports.'],
+  [slugs.plenum,'Compare the plenum when the primary drawing decisions are internal volume geometry and the throttle flange rather than runner-to-engine interfaces.'],
+  [slugs.intercooler,'Compare the intercooler when the induction project includes machined ports joined to a cooling core; core supply and welding add a separate fabrication scope.'],
+ ]),
+ [slugs.throttle]:decision('Focus on the main airflow bore, shaft alignment and motor or gear chambers, and clarify whether supply covers the housing or an assembled actuation unit.',[
+  [slugs.plenum,'Compare the plenum to define the mating throttle flange and internal transition on the other side of the housing interface.'],
+  [slugs.injectorIntake,'Compare the manifold when intake packaging must also locate injector bosses and fuel-rail mounts; it does not define the throttle actuator supply.'],
+ ]),
+ [slugs.injectorIntake]:decision('Focus this manifold example on curved runners with injector bosses and fuel-rail mounts, whose axes and positions need to reference the intake ports.',[
+  [slugs.intake,'Compare the other intake listing for multi-piece flanges, runner transitions and turbo-piping interfaces; this listing specifically adds injector and fuel-rail geometry.'],
+  [slugs.plenum,'Compare the plenum when defining the upstream volume and throttle interface that must mate with the runner assembly.'],
+  [slugs.throttle,'Compare throttle housings when the assembly review also needs shaft bores, motor space and gear-chamber interfaces at the air inlet.'],
+ ]),
+ [slugs.plenum]:decision('Start with internal volume geometry, transitions and the throttle mounting flange, with any split-line seal and mating runner interfaces defined in the assembly.',[
+  [slugs.intake,'Compare intake prototypes when the plenum must connect to multi-piece runner flanges and engine-side ports.'],
+  [slugs.injectorIntake,'Compare the injector-equipped manifold when fuel-rail and injector locations constrain the plenum and runner packaging.'],
+  [slugs.throttle,'Compare throttle bodies to define the mating bore and flange plus the actuator envelope at the plenum inlet.'],
+ ]),
+ [slugs.transmission]:decision('Review internal splines, gear features and fluid channels against casting and finished drawings, with blank supply and incoming acceptance assigned before machining.',[
+  [slugs.ribbedCasting,'Compare structural cast enclosures when ribbed cavities, bearing-bore relationships and fixture access are the main geometry to resolve.'],
+  [slugs.reconstructedCasting,'Compare the overlapping housing listing when the project starts from a sample and controlling bore-to-face or spline dimensions still need reconstruction.'],
+  [slugs.internalCasting,'Compare the other powertrain casting listing for the same internal-feature scope, using blank origin, material condition and available model definition to frame the inquiry.'],
+ ]),
+ [slugs.shaft]:decision('Focus on stainless shaft working diameters, shoulders and live-tooled flats or holes; a locking mechanism additionally needs engagement, travel and assembly supply defined.',[
+  [slugs.locking,'Compare locking pins when the shaft participates in indexing or engagement; define travel, the mating hole and whether springs or a complete mechanism are included.'],
+  [slugs.stainless,'Compare the broader stainless listing when slender shafts or threaded fittings also require specified passivation or electropolishing.'],
+  [slugs.rotary,'Compare rotary components when angular orientation of flats, slots and cross-holes is the main review question and material is still being selected.'],
+ ]),
+ [slugs.insulation]:decision('Start with slots, holes and barriers in polymer or composite sheet, rod or block, specifying the material properties needed for the insulating or wear function.',[
+  [slugs.plasticBlocks,'Compare thick plastic blocks when mounting-face flatness, blind-hole depths and insert locations govern a structural support.'],
+  [slugs.plastics,'Compare general plastic machining when the part is a turned roller or seal, or when the inquiry needs a named polymer grade from the listed options.'],
+ ]),
+ [slugs.plastics]:decision('Start with the selected polymer grade and working surfaces for a milled or turned seal, roller, guide or support.',[
+  [slugs.insulation,'Compare non-metallic plates when slots and barrier geometry must be specified together with insulating material requirements.'],
+  [slugs.thinPlastic,'Compare complex plastic geometry when deep pockets, thin walls and multi-face holes require explicit measurement conditions and workholding review.'],
+  [slugs.plasticBlocks,'Compare structural plastic blocks when repeated drill patterns and insert locations in thick stock control assembly.'],
+ ]),
+ [slugs.ribbedCasting]:decision('Focus on ribs, deep cavities and bearing-bore relationships, including fixture access and the boundary between machined interfaces and surfaces left as cast.',[
+  [slugs.transmission,'Compare transmission and pump castings when internal splines, gear features or fluid channels need sectioned drawings alongside the enclosure.'],
+  [slugs.mountingCasting,'Compare OEM cast housings when sealing faces, bearing fits and tapped mounting holes are the principal finish-machining scope.'],
+ ]),
+ [slugs.reconstructedCasting]:decision('Use this overlapping transmission and pump housing example to review central bores, splines and mating faces when a sample may need conversion into controlled drawings.',[
+  [slugs.transmission,'Compare the transmission and pump example to define cast-versus-machined surfaces, internal feature access and incoming blank acceptance alongside any sample reconstruction.'],
+  [slugs.ribbedCasting,'Compare structural enclosures when ribbing and cavity access govern fixturing around the bearing interfaces.'],
+ ]),
+ [slugs.mountingCasting]:decision('Focus on sealing faces, bearing fits and tapped mounting holes located from casting datums, with blank allowance distinguished from the finished wall geometry.',[
+  [slugs.ribbedCasting,'Compare ribbed structural enclosures when the cast shape and deep cavities constrain access to the bearing and mounting interfaces.'],
+  [slugs.internalCasting,'Compare powertrain castings when internal splines, gear features and flow paths add hidden geometry beyond the accessible faces and tapped holes.'],
+ ]),
+ [slugs.internalCasting]:decision('For this overlapping powertrain casting scope, define internal splines and flow paths from flange datums and clarify blank origin, alloy condition and model or sample availability.',[
+  [slugs.transmission,'Compare the transmission and pump listing for the same internal-feature family, with additional guidance on casting allowance, blank acceptance and inspection access.'],
+  [slugs.mountingCasting,'Compare OEM cast housings when the drawing scope centers on sealing faces, bearing fits and threaded mounting points rather than hidden powertrain features.'],
+ ]),
+ [slugs.thinPlastic]:decision('Start with thin wall sections, deep pocket access and multi-axis hole relationships, specifying the polymer and the state in which dimensions are accepted.',[
+  [slugs.plasticBlocks,'Compare thick plastic blocks when hole patterns, insert locations and mounting-face relationships dominate instead of thin walls.'],
+  [slugs.plastics,'Compare general plastic components when choosing a listed polymer and deciding between milled and turned forms for the working surfaces.'],
+ ]),
+ [slugs.brass]:decision('Start by distinguishing electrical contact, heat-transfer and fluid-sealing functions, then specify the copper or brass alloy and any plating.',[
+  [slugs.fittings,'Compare connectors when thread standards and sealing faces control the inquiry; the brass and copper listing also covers conductive contacts and heat-transfer features.'],
+  [slugs.rotary,'Compare rotary components when flats and cross-holes around a turned axis govern the geometry; retain the selected copper or brass alloy in the drawing.'],
+ ]),
+ [slugs.pilot]:decision('Start with a part list and shared assembly interfaces for pilot batches that may combine milled, turned and cast-blank components.',[
+  [slugs.mixedBatch,'Compare mixed-material pilot runs when each part number needs its own alloy or polymer, revision and release quantity.'],
+  [slugs.enclosure,'Compare small-batch enclosures when a housing needs thin-wall and compound-angle review plus a billet-versus-cast-blank decision.'],
+ ]),
+ [slugs.plasticBlocks]:decision('Start with through-holes, blind depths and insert positions in thick plastic stock, referenced to the mounting faces and assembly loads.',[
+  [slugs.thinPlastic,'Compare complex plastic components when pockets and thin sections replace the thick-block geometry and change the workholding review.'],
+  [slugs.insulation,'Compare non-metallic plates when the part is a slotted barrier or wear plate and its required material properties need definition.'],
+ ]),
+ [slugs.enclosure]:decision('Start with deep pockets, thin walls and compound angles, identifying billet or cast-blank stock before choosing the machining route for the batch.',[
+  [slugs.housing,'Compare industrial aluminum housings when lid or gasket interfaces, masked fits and cosmetic finish are the main enclosure decisions.'],
+  [slugs.mountingCasting,'Compare cast OEM housings when a proposed cast blank needs finish-machined bearing fits, sealing faces and tapped mounting holes.'],
+  [slugs.pilot,'Compare mixed-process pilot batches when this enclosure is one item in an assembly order with turned or cast mating parts.'],
+ ]),
+ [slugs.stainless]:decision('Start with the specified stainless grade, slender or threaded geometry and post-treatment fits; passivation and electropolishing are listed options to define for the part.',[
+  [slugs.shaft,'Compare the shaft listing when working diameters, shoulders and live-tooled flats or cross-holes are the main geometry to control.'],
+  [slugs.locking,'Compare locking pins when the turned part must engage a mating hole and the inquiry needs travel, spring requirements and assembly scope.'],
+  [slugs.fittings,'Compare fittings when thread standards and seal-contact geometry govern the interface, while retaining the selected stainless grade.'],
+ ]),
+ [slugs.locking]:decision('Focus on pin engagement, travel, mounting thread and the mating hole, and specify whether the request is for machined components or a complete spring-loaded locking assembly.',[
+  [slugs.shaft,'Compare stainless shafts for the underlying diameters, shoulders and secondary flats or holes; the locking request additionally needs engagement geometry and assembly responsibility.'],
+  [slugs.stainless,'Compare the broader stainless range when material grade, threaded features and passivation or electropolishing need explicit specifications for the locking components.'],
+ ]),
+ [slugs.housing]:decision('Start with cavity walls, lid or gasket interfaces and mounting datums, coordinating masked fits and visible finish for the aluminum enclosure.',[
+  [slugs.enclosure,'Compare the other enclosure listing when compound-angle features or a billet-to-cast-blank route also need review.'],
+  [slugs.finishing,'Compare finished milled parts when treatment, cosmetic references and dimensions accepted after finishing are the unresolved supply details.'],
+ ]),
+ [slugs.mixedBatch]:decision('Start with material, revision and quantity per part number for repeated pilot releases; this listing includes stainless, brass and plastics alongside aluminum.',[
+  [slugs.pilot,'Compare mixed-process pilot batches when the order also includes cast blanks, turned mating parts and shared assembly interfaces.'],
+  [slugs.housing,'Compare aluminum housings when one item needs a detailed lid, gasket, cavity-wall and finish specification before release.'],
+ ]),
+};
+
+function decisionEntry(slug:string):ProductDecision {
+ if(!Object.prototype.hasOwnProperty.call(productDecisions,slug)) {
+  throw new Error('Missing product decision: '+slug);
+ }
+ return productDecisions[slug as ProductDecisionSlug];
+}
+
+/** Opening selection guidance for the product template. */
+export function productDecision(slug:string):{selectionFocus:string} {
+ return {selectionFocus:decisionEntry(slug).selectionFocus};
+}
+
+/** Pass the complete catalog; missing targets are content errors, never substitutes. */
+export function relatedPartDecisions<T extends {slug:string}>(product:T,products:readonly T[]):RelatedPartDecision<T>[] {
+ const bySlug=new Map(products.map(candidate=>[candidate.slug,candidate]));
+ return decisionEntry(product.slug).related.map(({slug,reason})=>{
+  if(slug===product.slug) throw new Error('Self-related product decision: '+slug);
+  const related=bySlug.get(slug);
+  if(!related) throw new Error('Unresolved product decision: '+product.slug+' -> '+slug);
+  return {product:related,reason};
+ });
+}

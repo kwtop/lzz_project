@@ -1,0 +1,6 @@
+---
+import FactoryUnifiedPage from '../components/FactoryUnifiedPage.astro';
+import FactoryRedesign from '../components/FactoryRedesign.astro';
+import {isRedesigned} from '../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<FactoryRedesign/>:<FactoryUnifiedPage/>}

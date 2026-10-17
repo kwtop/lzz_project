@@ -1,0 +1,606 @@
+[
+  {
+    "url": "/",
+    "beforeWords": 277,
+    "afterWords": 279,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/404.html",
+    "beforeWords": 27,
+    "afterWords": 27,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/",
+    "beforeWords": 313,
+    "afterWords": 153,
+    "lostNumberTokens": [
+      "2017",
+      "1,500 m²",
+      "40",
+      "19"
+    ],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-news/",
+    "beforeWords": 196,
+    "afterWords": 189,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+    "beforeWords": 151,
+    "afterWords": 151,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-news/china-africa-west-lake-summit-2025/",
+    "beforeWords": 146,
+    "afterWords": 146,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-news/lzz-team-outing-2024/",
+    "beforeWords": 154,
+    "afterWords": 154,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-news/may-2025-lzz-team-outing/",
+    "beforeWords": 123,
+    "afterWords": 123,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+    "beforeWords": 141,
+    "afterWords": 141,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/company-profile/",
+    "beforeWords": 711,
+    "afterWords": 448,
+    "lostNumberTokens": [
+      "2025"
+    ],
+    "removedIds": []
+  },
+  {
+    "url": "/about/contact/",
+    "beforeWords": 171,
+    "afterWords": 145,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/about/how-we-work/",
+    "beforeWords": 737,
+    "afterWords": 663,
+    "lostNumberTokens": [
+      "2022"
+    ],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/",
+    "beforeWords": 587,
+    "afterWords": 384,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/5-axis-cnc-machining/",
+    "beforeWords": 816,
+    "afterWords": 812,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/aluminum-cnc-parts/",
+    "beforeWords": 722,
+    "afterWords": 635,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/casting-machining/",
+    "beforeWords": 724,
+    "afterWords": 604,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/cnc-milling-service/",
+    "beforeWords": 821,
+    "afterWords": 795,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/cnc-turning-service/",
+    "beforeWords": 789,
+    "afterWords": 719,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/copper-brass-cnc-parts/",
+    "beforeWords": 680,
+    "afterWords": 563,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/low-volume-production/",
+    "beforeWords": 584,
+    "afterWords": 524,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/plastic-machined-parts/",
+    "beforeWords": 766,
+    "afterWords": 683,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/prototype-machining/",
+    "beforeWords": 642,
+    "afterWords": 596,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/stainless-steel-cnc-parts/",
+    "beforeWords": 638,
+    "afterWords": 549,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/capabilities/starting-with-a-sample/",
+    "beforeWords": 595,
+    "afterWords": 580,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/factory/",
+    "beforeWords": 933,
+    "afterWords": 869,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/privacy/",
+    "beforeWords": 315,
+    "afterWords": 319,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/",
+    "beforeWords": 272,
+    "afterWords": 251,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/",
+    "beforeWords": 330,
+    "afterWords": 272,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/29-inch-display-housing-cnc-machining/",
+    "beforeWords": 689,
+    "afterWords": 546,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/custom-metal-parts-batch-examples/",
+    "beforeWords": 957,
+    "afterWords": 513,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+    "beforeWords": 1084,
+    "afterWords": 643,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/five-axis-machining-multi-face-parts/",
+    "beforeWords": 596,
+    "afterWords": 454,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/milling-a-pocketed-enclosure-form/",
+    "beforeWords": 585,
+    "afterWords": 423,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/milling-prismatic-components/",
+    "beforeWords": 567,
+    "afterWords": 411,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/turning-then-milling-cylindrical-parts/",
+    "beforeWords": 596,
+    "afterWords": 456,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/machining-studies/two-stage-cnc-milling/",
+    "beforeWords": 552,
+    "afterWords": 418,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/",
+    "beforeWords": 937,
+    "afterWords": 1262,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "beforeWords": 648,
+    "afterWords": 505,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "beforeWords": 537,
+    "afterWords": 376,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "beforeWords": 573,
+    "afterWords": 432,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "beforeWords": 580,
+    "afterWords": 441,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "beforeWords": 538,
+    "afterWords": 393,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "beforeWords": 633,
+    "afterWords": 433,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "beforeWords": 605,
+    "afterWords": 443,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "beforeWords": 618,
+    "afterWords": 424,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "beforeWords": 529,
+    "afterWords": 328,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "beforeWords": 515,
+    "afterWords": 373,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "beforeWords": 561,
+    "afterWords": 414,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "beforeWords": 548,
+    "afterWords": 394,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "beforeWords": 519,
+    "afterWords": 399,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-turning-manufacturer/",
+    "beforeWords": 492,
+    "afterWords": 331,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "beforeWords": 570,
+    "afterWords": 416,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/custom-rotary-cylindrical-components/",
+    "beforeWords": 480,
+    "afterWords": 329,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "beforeWords": 518,
+    "afterWords": 364,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "beforeWords": 537,
+    "afterWords": 343,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/global-oem-precision-machining-solutions/",
+    "beforeWords": 525,
+    "afterWords": 365,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "beforeWords": 502,
+    "afterWords": 365,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "beforeWords": 516,
+    "afterWords": 370,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "beforeWords": 562,
+    "afterWords": 370,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/oem-precision-cnc-machined-casting-housings/",
+    "beforeWords": 593,
+    "afterWords": 407,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-machined-castings-custom-oem-housings/",
+    "beforeWords": 565,
+    "afterWords": 387,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-machined-castings-manufacturer/",
+    "beforeWords": 581,
+    "afterWords": 399,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "beforeWords": 565,
+    "afterWords": 417,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "beforeWords": 545,
+    "afterWords": 430,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "beforeWords": 541,
+    "afterWords": 357,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "beforeWords": 570,
+    "afterWords": 405,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "beforeWords": 524,
+    "afterWords": 377,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "beforeWords": 620,
+    "afterWords": 422,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "beforeWords": 535,
+    "afterWords": 391,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "beforeWords": 561,
+    "afterWords": 448,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "beforeWords": 549,
+    "afterWords": 358,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "beforeWords": 646,
+    "afterWords": 478,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/quote/",
+    "beforeWords": 352,
+    "afterWords": 352,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/",
+    "beforeWords": 226,
+    "afterWords": 193,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "beforeWords": 359,
+    "afterWords": 352,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/drawings-and-ordering/critical-features-cnc-drawing/",
+    "beforeWords": 495,
+    "afterWords": 491,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/drawings-and-ordering/machined-prototype-approval-checklist/",
+    "beforeWords": 395,
+    "afterWords": 392,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/faq/",
+    "beforeWords": 771,
+    "afterWords": 774,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/ordering-guide/",
+    "beforeWords": 248,
+    "afterWords": 201,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/processes-materials-finishes/",
+    "beforeWords": 122,
+    "afterWords": 118,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/processes-materials-finishes/cnc-process-selection/",
+    "beforeWords": 302,
+    "afterWords": 302,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/processes-materials-finishes/material-and-finish-checklist/",
+    "beforeWords": 564,
+    "afterWords": 565,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/production-and-shipping/custom-cnc-parts-shipping-checklist/",
+    "beforeWords": 383,
+    "afterWords": 379,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/production-and-shipping/prototype-vs-small-batch-cnc/",
+    "beforeWords": 499,
+    "afterWords": 499,
+    "lostNumberTokens": [],
+    "removedIds": []
+  },
+  {
+    "url": "/resources/rfq-checklist/",
+    "beforeWords": 479,
+    "afterWords": 458,
+    "lostNumberTokens": [],
+    "removedIds": []
+  }
+]

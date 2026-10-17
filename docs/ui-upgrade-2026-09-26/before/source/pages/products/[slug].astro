@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ResourceLinks from '../../components/ResourceLinks.astro';
+import Arrow from '../../components/Arrow.astro';
+import {retouchedProducts} from '../../data/refinedImages';
+import Gallery from '../../components/Gallery';
+import ProductCard from '../../components/ProductCard.astro';
+import {productTitle} from '../../data/presentation';
+import {productSummary} from '../../data/productSummaries';
+import {productDetail} from '../../data/productDetails';
+import {productManufacturing} from '../../data/manufacturing';
+import {productTags,relatedParts} from '../../data/productTags';
+import {caseForCapability} from '../../data/cases';
+import catalog from '../../data/catalog.json';
+export function getStaticPaths(){return catalog.products.map(product=>({params:{slug:product.slug},props:{product}}));}
+const {product}=Astro.props;
+const preview=retouchedProducts[product.slug];
+if(!preview)throw new Error(`Missing refined product image for ${product.slug}`);
+const overview=productSummary(product);
+const engineering=productDetail(product);
+const manufacturing=productManufacturing(product);
+const tags=productTags(product);
+const processCaseSlugs=[...new Set(tags.map(key=>catalog.categories.find(category=>category.key===key)?.slug).filter(Boolean))];
+const processCases=[...new Map(processCaseSlugs.flatMap(slug=>caseForCapability(slug!)).map(item=>[item.slug,item])).values()].slice(0,2);
+const related=relatedParts(product,catalog.products);
+const notes=[['Materials',overview.material],['Machining',overview.process],['Finish options & requirements',manufacturing.finishes],['Applications',manufacturing.applications]];
+---
+<Layout title={productTitle(product)} description={overview.purpose} closingTitle="Plan a part like this" closingHref={'/quote/?part='+encodeURIComponent(product.name)} closingLabel="Prepare an inquiry for this part">
+ <div class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/products/">Part Examples</a><span>/</span><span aria-current="page">{productTitle(product)}</span></nav>
+  <section class="product-detail">
+   <header class="product-heading">
+    <h1>{productTitle(product)}</h1>
+    <div class="category-links">{tags.map(c=><a href={'/capabilities/'+c.toLowerCase()+'/'}>{c.replaceAll('-',' ')}</a>)}</div>
+   </header>
+   <Gallery preview={preview} name={productTitle(product)}/>
+   <div class="product-summary">
+    <p>{overview.purpose}</p>
+    <a class="button" href={'/quote/?part='+encodeURIComponent(product.name)}>Discuss this part <Arrow/></a>
+    <p class="part-example-boundary">A custom part example, not a stocked SKU. Orders start at 1 piece; production takes 7–14 business days after drawing and order confirmation, including surface finishing. Shipping time is additional. Material, dimensions and acceptance criteria follow your approved drawing and quotation.</p>
+    <a class="part-spec-link" href="#part-information">Materials &amp; manufacturing</a>
+   </div>
+   <dl class="part-decision-notes"><div><dt>Geometry to review</dt><dd>{overview.features}</dd></div><div><dt>Drawing needs to define</dt><dd>{engineering.drawing}</dd></div><div><dt>Inspection to agree</dt><dd>{engineering.inspection}</dd></div></dl>
+  </section>
+ </div>
+ <section class="specification-band" id="part-information">
+  <div class="container specification section">
+   <aside class="specification-sidebar">
+    <h2>Materials & manufacturing</h2>
+    <a class="text-link" href="/quality/">Quality and inspection <Arrow size={17}/></a>
+   </aside>
+   <div class="part-information">
+    <ul class="manufacturing-highlights">{manufacturing.highlights.map(text=><li>{text}</li>)}</ul>
+    <dl class="part-facts">{notes.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+   </div>
+  </div>
+ </section>
+ <section class="container section engineering-guidance" aria-labelledby="engineering-review">
+  <h2 id="engineering-review">Drawing &amp; inspection checklist</h2>
+  <div class="prose"><p>{engineering.scope}</p><p>{overview.inspection}</p></div>
+  <div class="engineering-grid">
+   <div class="prose"><h3>Drawing details</h3><p>{engineering.drawing}</p></div>
+   <div class="prose"><h3>Inspection checks</h3><p>{engineering.inspection}</p></div>
+   <div class="prose"><h3>Requesting a quote</h3><p>{engineering.rfq}</p></div>
+  </div>
+  {engineering.considerations&&<div class="engineering-depth">{engineering.considerations.map(note=><div class="prose"><h3>{note.title}</h3><p>{note.body}</p></div>)}</div>}
+  <ResourceLinks label="Part inquiry resources"/>
+ </section>
+ {processCases.length>0&&<section class="container section part-process-links"><div class="section-heading"><h2>Separate workshop process studies</h2></div><div>{processCases.map(item=><a href={'/cases/'+item.slug+'/'}>{item.title} <Arrow size={18}/></a>)}</div></section>}
+ {related.length>0&&<section class="section container"><div class="section-heading"><h2>Related machining examples</h2><a class="text-link" href="/products/">All parts <Arrow/></a></div><div class="product-grid">{related.map(p=><ProductCard product={p}/>)}</div></section>}
+</Layout>
+<style>
+ .manufacturing-highlights{padding:0 0 24px 20px;margin:0;font-size:18px;line-height:1.65}.manufacturing-highlights li+li{margin-top:14px}
+ .engineering-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-block:2rem}
+ .engineering-depth{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;border-top:1px solid var(--line,#d6d9d9);padding-top:2rem}
+ .engineering-guidance h3{font-size:1.3rem;line-height:1.25}
+ :global(body.brand-site .product-detail){grid-template-areas:'gallery heading' 'gallery summary' 'gallery quick';grid-template-rows:auto auto 1fr}.part-decision-notes{grid-area:quick;margin:22px 0 24px;border-top:1px solid var(--border)}.part-decision-notes>div{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;padding:13px 0;border-bottom:1px solid var(--border)}.part-decision-notes dt{font-size:12px;line-height:1.5;font-weight:750;color:var(--muted);text-transform:uppercase;letter-spacing:.025em}.part-decision-notes dd{margin:0;font-size:14px;line-height:1.55}.product-summary>.part-example-boundary{font-size:12px!important;line-height:1.55!important;color:var(--muted);margin:18px 0 8px!important}.engineering-guidance>h2{font-size:clamp(27px,3vw,39px);line-height:1.15;margin-bottom:22px}.engineering-guidance>.prose{max-width:880px}
+ @media(max-width:760px){:global(body.brand-site .product-detail){grid-template-areas:'heading' 'summary' 'gallery' 'quick';grid-template-columns:minmax(0,1fr);grid-template-rows:auto}}
+ @media(max-width:600px){.part-decision-notes>div{grid-template-columns:1fr;gap:4px}.part-decision-notes dd{font-size:13px}}
+ @media(max-width:800px){.engineering-grid,.engineering-depth{grid-template-columns:1fr;gap:1.5rem}}
+ .part-process-links{border-top:1px solid var(--border)}.part-process-links>div:last-child{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.part-process-links a{display:flex;justify-content:space-between;align-items:center;gap:20px;border-top:1px solid var(--border);padding:20px 0;font-size:20px;font-weight:600}.part-process-links a:hover{color:var(--red)}@media(max-width:760px){.part-process-links>div:last-child{grid-template-columns:1fr}}
+</style>

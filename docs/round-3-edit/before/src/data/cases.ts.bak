@@ -1,0 +1,70 @@
+export interface EngineeringCase {
+ slug:string;title:string;lead:string;process:string;hero:string;photos:string[];
+ workpiece:string;setup:string;visible:string;inspection:string;relatedCapabilities:string[];
+ video?:'display-housing';
+ collection?:'plastic'|'metal';
+}
+// These are process-photo studies, not customer performance claims. Details not
+// visible in the source photos remain requirements to confirm from a drawing.
+export const engineeringCases:EngineeringCase[]=[
+ {
+  slug:'five-axis-machining-multi-face-parts',title:'Five-axis machining for multi-face components',process:'Multi-axis machining',hero:'five-axis-operation',photos:['five-axis-operation','five-axis-parts'],
+  lead:'Original process photographs show a metal workpiece in a multi-axis setup and a group of machined components from the same source set.',
+  workpiece:'The first photograph shows holes on the front face and a curved opening at the side of the workpiece. For a similar part, send the controlled drawing and identify the faces and datums that matter.',
+  setup:'The companion photograph shows repeated hole patterns and contoured edges. In the machining view, the part sits in front of a rotary assembly with the tool approaching from above. Fixturing, reach and the order of operations should be reviewed against the actual geometry before a route is quoted.',
+  visible:'The second photograph shows multiple machined components with visible pockets, edges and faces.',
+  inspection:'For a comparable project, identify datums, mating features, positional tolerances, surface requirements and the dimensional record you need. LZZ can assess achievable limits and the inspection method from the drawing.',
+  relatedCapabilities:['5-axis-cnc-machining','cnc-milling-service'],
+ },
+ {
+  slug:'turning-then-milling-cylindrical-parts',title:'Turning followed by milling',process:'Turning + milling',hero:'turn-mill-operation',photos:['turn-mill-operation','turn-mill-parts'],
+  lead:'This source group documents a milling operation after turning and shows circular components after the sequence.',
+  workpiece:'The parts have a rotational form and additional milled features. A similar inquiry needs a drawing showing both rotational and non-rotational features.',
+  setup:'A turned part is located for a subsequent milling operation. The relationship between the turned datum and milled features should be reviewed before selecting the holding method and sequence.',
+  visible:'The completed group shows circular parts with bores and machined outer features.',
+  inspection:'For this type of part, specify the datum axis, critical diameters, hole or slot positions, runout if applicable, and the report format required for approval.',
+  relatedCapabilities:['cnc-turning-service','cnc-milling-service'],
+ },
+ {
+  slug:'two-stage-cnc-milling',title:'Two milling setups for one part',process:'Sequential milling',hero:'two-stage-first',photos:['two-stage-first','two-stage-second'],
+  lead:'Two original process photographs show the same part family in different milling operations.',
+  workpiece:'The source set identifies two milling processes for one product.',
+  setup:'Each photograph shows a different orientation or holding arrangement. Repositioning can be necessary to expose features that are inaccessible from the first setup; the exact route depends on the drawing.',
+  visible:'The images show machined faces and features at the machine.',
+  inspection:'For a similar multi-setup part, identify common datums and the dimensional relationships that must be retained between setups. Agree on inspection points and acceptance records before production.',
+  relatedCapabilities:['cnc-milling-service','5-axis-cnc-machining'],
+ },
+ {
+  slug:'milling-a-pocketed-enclosure-form',title:'Milling a pocketed enclosure-style component',process:'CNC milling',hero:'milling-enclosure-operation',photos:['milling-enclosure-operation','milling-enclosure-parts'],
+  lead:'Original LZZ photographs show a pocketed component in a milling setup and several machined forms from the same source group.',
+  workpiece:'The source images show a block-like component with a circular pocket and visible mounting features. Use the controlled drawing to define interfaces and acceptance requirements.',
+  setup:'The photographed workpiece is held below a CNC spindle for milling. Tool access, pocket depth, corner radii, wall thickness and clamping surfaces should be assessed against the actual model before confirming the route.',
+  visible:'The accompanying source photo shows a group of machined components with similar visible forms.',
+  inspection:'For a similar enclosure, identify datum faces, mounting-hole positions, pocket depths and any sealing or mating surfaces. Agree how the critical dimensions will be measured and recorded.',
+  relatedCapabilities:['cnc-milling-service','aluminum-cnc-parts'],
+ },
+ {
+  slug:'milling-prismatic-components',title:'CNC milling for prismatic multi-feature parts',process:'CNC milling',hero:'multi-feature-milling-operation',photos:['multi-feature-milling-operation','multi-feature-milling-parts'],
+  lead:'This original LZZ photo set shows a prismatic component during milling and a group of finished-looking parts from the same source folder.',
+  workpiece:'The photos show a block-like metal form with machined faces and visible holes or pockets. A drawing should define the datums and relationships among the features.',
+  setup:'A milling setup holds the part below the spindle while accessible faces are machined. If the design requires multiple orientations, compare the setup sequence and datum strategy against the geometry before quotation.',
+  visible:'The second image shows several parts with similar overall forms.',
+  inspection:'Mark critical bores, hole patterns, mounting faces and positional relationships on the drawing. Confirm the inspection method, sampling plan and report format required for the project.',
+  relatedCapabilities:['cnc-milling-service','low-volume-production'],
+ },
+ {
+  slug:'29-inch-display-housing-cnc-machining',title:'CNC machining a 29-inch display housing',process:'CNC milling',hero:'display-housing-machining',photos:['display-housing-panel','display-housing-machining'],video:'display-housing',
+  lead:'A display enclosure photographed during CNC milling and after machining, with a short workshop video showing its faces and the machine setup.',
+  workpiece:'The January 2025 material set identifies this as a housing for a 29-inch display. The photographs show broad rectangular panels with edge details, slots and mounting features. The display size is not a measured enclosure dimension; a similar part needs its own overall dimensions and interface drawing.',
+  setup:'The panel is supported across the machine table beneath the spindle. The machining photographs show the broad internal face and access from above. For a comparable enclosure, review support points, clamping areas, tool reach and the order of operations before choosing the setup.',
+  visible:'The finished-panel photographs show internal recesses, machined face patterns and narrow features along the edges. The paired view below places the two panel faces together for comparison. The video also shows a panel being held and turned at the machine.',
+  inspection:'For your enclosure, identify mounting datums, hole and slot positions, required flatness and mating-edge relationships. Specify cosmetic faces, finish and acceptance dimensions after treatment. Agree the measurement method and inspection records for the features that control assembly.',
+  relatedCapabilities:['cnc-milling-service','aluminum-cnc-parts'],
+ },
+
+];
+engineeringCases.push(
+ {slug:'custom-plastic-parts-ptfe-pom-pe-acrylic',title:'Custom plastic parts: PTFE, POM, PE and acrylic',process:'Plastic part examples',hero:'plastic-acrylic-detail',photos:[],collection:'plastic',lead:'Explore guide strips, gears, transparent components and PTFE part forms through original photographs and workshop clips, with drawing notes for a similar inquiry.',workpiece:'',setup:'',visible:'',inspection:'',relatedCapabilities:['plastic-machined-parts']},
+ {slug:'custom-metal-parts-batch-examples',title:'Custom metal parts in batches: shafts, fittings and housings',process:'Metal part examples',hero:'metal-aluminum-housings',photos:[],collection:'metal',lead:'Original photographs and a batch video show turned components, aluminum housings and brass parts. Compare visible features and plan the drawing requirements for your own part.',workpiece:'',setup:'',visible:'',inspection:'',relatedCapabilities:['cnc-turning-service','aluminum-cnc-parts','copper-brass-cnc-parts','low-volume-production']},
+);
+export const caseForCapability=(slug:string)=>engineeringCases.filter(item=>item.relatedCapabilities.includes(slug));

@@ -1,0 +1,6 @@
+---
+import AboutOverview from '../components/AboutOverview.astro';
+import AboutOverviewRedesign from '../components/AboutOverviewRedesign.astro';
+import {isRedesigned} from '../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<AboutOverviewRedesign/>:<AboutOverview/>}

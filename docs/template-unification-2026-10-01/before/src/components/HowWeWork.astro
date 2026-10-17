@@ -1,0 +1,82 @@
+---
+import '../styles/how-we-work.css';
+const scope = [
+ ['Machining & material', 'Drawing revision, grade, quantity, price and any agreed alternative.'],
+ ['Surface finishing', 'Included treatments and the surfaces to be controlled.'],
+ ['Inspection', 'Report scope, sampling and required records.'],
+ ['Separate charges', 'Tooling, special documentation, freight and duties where applicable.'],
+ ['Delivery terms', 'Production timing, shipping arrangements and responsibilities.'],
+];
+const archive = [
+ {file:'shipping-example',alt:'Protected yellow and white machined components in a wooden packing case',width:1600,height:1200},
+ {file:'shipment-2022-order-packing',alt:'Historical order with protected components arranged in wooden cases',width:1600,height:2133},
+ {file:'shipment-2022-prepared-load',alt:'Packed components prepared in a loading area',width:1600,height:2133},
+];
+---
+<article class="ww-page" aria-label="Ordering custom machined parts from LZZ">
+ <header class="ww-hero">
+  <img class="ww-hero-image" src="/media/editorial/how-we-work-hero-v2-1920.webp" srcset="/media/editorial/how-we-work-hero-v2-800.webp 800w, /media/editorial/how-we-work-hero-v2-1440.webp 1440w, /media/editorial/how-we-work-hero-v2-1920.webp 1920w" sizes="100vw" alt="Illustration of a machined aluminum housing on an engineering drawing" width="1920" height="840" fetchpriority="high"/>
+  <div class="ww-wrap ww-hero-inner">
+   <nav class="ww-breadcrumb" aria-label="Breadcrumb"><a href="/resources/">Resources</a><span aria-hidden="true">/</span><span>How We Work</span></nav>
+   <div class="ww-hero-copy">
+    <h1>How We Work</h1>
+    <p class="ww-subtitle">From drawing to delivered part</p>
+    <p>OEM/ODM machining from your drawings or samples. Review the quotation, approve the sample and agree the records to receive with your parts.</p>
+    <a class="ww-button" href="/quote/">Prepare RFQ email</a>
+    <a class="ww-hero-email" href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a>
+   </div>
+   <p class="ww-hero-caption">Process illustration · Not a specific customer project.</p>
+  </div>
+ </header>
+
+ <section class="ww-before ww-wrap" aria-labelledby="ww-before-title">
+  <div class="ww-before-heading"><p class="ww-eyebrow">Before we begin</p><h2 id="ww-before-title">Key facts and <br/>preparation</h2></div>
+  <div class="ww-before-content">
+   
+   <dl class="ww-facts">
+    <div><dt>Orders from</dt><dd>1 piece</dd></div>
+    <div><dt>Production time</dt><dd>7–14 business days</dd><p>After drawing and order confirmation, including surface finishing.</p></div>
+    <div><dt>Transit time</dt><dd>Separate</dd><p>Confirm shipping time for your destination and method.</p></div>
+    <div><dt>Changes after approval</dt><dd class="ww-fact-detail">A drawing or quantity change requires an updated scope and schedule.</dd></div>
+   </dl>
+  </div>
+  <div class="ww-preparation"><p>We can agree confidentiality terms before you send sensitive files. Use the checklist to prepare your requirements.</p><a class="ww-secondary" href="/resources/rfq-checklist/">View RFQ checklist</a></div>
+ </section>
+
+ <section class="ww-define" aria-labelledby="ww-define-title">
+  <div class="ww-chapter-band"><div class="ww-wrap ww-chapter-grid">
+   <div class="ww-chapter-copy"><p class="ww-eyebrow">Chapter 1</p><h2 id="ww-define-title">Define the work</h2><p class="ww-subtitle">Requirements and quotation review</p><p>Start with the part’s function and requirements. Agree the machining, material, finishing, inspection and delivery scope before production begins.</p><a class="ww-button" href="/quote/">Prepare RFQ email</a></div>
+   <figure class="ww-review-photo" data-image-origin="AI-generated"><img src="/media/editorial/engineering-review-illustrative-1200.webp" srcset="/media/editorial/engineering-review-illustrative-480.webp 480w, /media/editorial/engineering-review-illustrative-800.webp 800w, /media/editorial/engineering-review-illustrative-1200.webp 1200w" sizes="(max-width:760px) 90vw, 52vw" alt="Illustration of two engineers reviewing a machined part and drawing" width="1536" height="1024" loading="lazy"/><figcaption>Process illustration · Not LZZ staff or a specific customer project.</figcaption></figure>
+  </div></div>
+  <div class="ww-wrap ww-definition-details">
+   <section id="section-3"><h3><span>1.</span> Define part requirements</h3><p>Send your drawing or model and revision, material grade, quantity, required delivery date and part function.</p><p>Working from a sample? Explain the fit and function to retain or change, including any material changes. Agree the measurement and drawing work needed to define the part specification.</p><a class="ww-secondary" href="/resources/rfq-checklist/">View RFQ checklist</a></section>
+   <section id="section-4"><h3><span>2.</span> Review the quotation</h3><p>Check the drawing revision against the quoted material and finish. Confirm quantity, price, delivery terms and the inspection documents you need.</p><p>Discuss tool access, workholding, mating features and critical requirements before agreeing to proposed geometry changes.</p><div class="ww-link-group"><a class="ww-secondary" href="/capabilities/">Machining capabilities</a><a class="ww-secondary" href="/products/">Original part examples</a></div></section>
+   <section class="ww-scope" id="quotation-scope"><h3>What your quotation covers</h3><dl>{scope.map(([title,text])=><div><dt>{title}</dt><dd>{text}</dd></div>)}</dl></section>
+  </div>
+ </section>
+
+ <section class="ww-approval" aria-labelledby="ww-approval-title"><div class="ww-wrap">
+  <header class="ww-section-heading"><p class="ww-eyebrow">Chapter 2</p><h2 id="ww-approval-title">Approve before production</h2><p class="ww-subtitle">Sample approval and batch inspection</p><p>Sample or prototype machining is followed by inspection and feedback. Agree what must be checked and approved before the batch starts.</p></header>
+  <div class="ww-two-col ww-approval-details">
+   <section id="section-5"><h3><span>3.</span> Check and approve the sample</h3><p>Agree sample checks in advance: fit and appearance, critical interfaces and any defined functional tests.</p><p>Set the first-article review stage and release criteria. Record the drawing revision and approval criteria before moving to production.</p></section>
+   <section id="section-6"><h3><span>4.</span> Agree on batch inspection</h3><p>Confirm the approved revision and checks for repeat production. Identify the features that need recorded results.</p><p>Agree material traceability requirements and the treatment of nonconforming parts. Our quality planning guide covers the records to request.</p><a class="ww-secondary" href="/quality/">View quality planning guide</a></section>
+  </div>
+  <figure class="ww-inspection-photo" data-image-origin="AI-generated"><img src="/media/editorial/how-we-work-inspection-v2-1440.webp" srcset="/media/editorial/how-we-work-inspection-v2-800.webp 800w, /media/editorial/how-we-work-inspection-v2-1440.webp 1440w" sizes="(max-width:760px) 90vw, 90vw" alt="Process illustration of gloved hands examining a machined component" width="1440" height="480" loading="lazy"/><figcaption>Process illustration · Not a photograph of an LZZ inspection or customer project.</figcaption></figure>
+ </div></section>
+
+ <section class="ww-handover ww-wrap" aria-labelledby="ww-handover-title">
+  <div class="ww-handover-top"><header class="ww-section-heading"><p class="ww-eyebrow">Chapter 3</p><h2 id="ww-handover-title">Prepare for handover</h2><p class="ww-subtitle">Packing, shipment and delivery documents</p><p>Agree how the parts will be protected, where they need to arrive and which records must accompany them.</p></header>
+   <figure class="ww-archive" data-image-origin="source-photo"><div class="ww-archive-grid">{archive.map((photo)=><a href={'/media/evidence/'+photo.file+'-1600.webp'} target="_blank" rel="noopener noreferrer" aria-label={'Open original archive image: '+photo.alt}><img src={'/media/evidence/'+photo.file+'-800.webp'} srcset={[480,800,1200,1600].map(w=>`/media/evidence/${photo.file}-${w}.webp ${w}w`).join(', ')} sizes="(max-width:760px) 60vw, 30vw" alt={photo.alt} width={photo.width} height={photo.height} loading="lazy"/></a>)}</div><figcaption>November 2022 LZZ packing archive. Customer, destination, carrier and export terms are not identified. These photographs do not define the packing for your order.</figcaption></figure>
+  </div>
+  <div class="ww-two-col ww-handover-details">
+   <section id="packaging-shipping"><h3><span>5.</span> Arrange packing and shipment</h3><p>Cartons or wooden cases depend on the parts and shipment requirements. Identify polished faces, sealing surfaces and vulnerable threads that need protection.</p><p>Specify labels, part numbers, drawing revision and quantity per pack where required. Provide the delivery address and receiving contact.</p><p>Distinguish the required arrival date from the planned dispatch date. Confirm the shipping method, Incoterm and responsibility for customs, duties and taxes.</p><p>Packing protection, transport costs and any arrival-date commitment must be agreed in your quotation.</p></section>
+   <section id="section-8"><h3><span>6.</span> Confirm documents for delivery</h3><p>Use the approved drawing revision and order reference consistently for packing, shipment and inspection documents.</p><p>Specify the records needed with delivery, such as an agreed dimensional report or material documentation.</p><p>The factory workflow shows the production sequence behind your order.</p><a class="ww-secondary" href="/factory/#workflow">View factory workflow</a></section>
+  </div>
+ </section>
+
+ <section class="ww-issue" id="section-2" aria-labelledby="ww-issue-title"><div class="ww-wrap ww-issue-grid"><div><p class="ww-eyebrow">Issue resolution</p><h2 id="ww-issue-title">If there is an issue</h2></div><p>Send the drawing revision, part or batch reference, affected quantity, photographs and measurement details. We review the discrepancy against the agreed acceptance criteria and agree corrective action with you.</p><a class="ww-secondary" href="/quality/#order-documentation">View available order documentation</a></div></section>
+
+ <section class="ww-related ww-wrap" aria-labelledby="article-examples-title"><div><p class="ww-eyebrow">Related examples</p><h2 id="article-examples-title">Part examples from our work</h2></div><p>Use these examples to see typical shapes and drawing questions. Each custom part needs its own drawing and quote.</p><div class="ww-link-group"><a class="ww-secondary" href="/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/">Turned fittings, connectors &amp; flanges</a><a class="ww-secondary" href="/products/custom-oem-high-precision-cnc-milling-manufacturer/">Milled instrument blocks &amp; brackets</a></div></section>
+
+ <section class="ww-closing ww-wrap" aria-labelledby="ww-closing-title"><div><h2 id="ww-closing-title">Have a part in mind?</h2><p>Send your drawing, material and quantity so we can review the part and prepare a quote.</p><a class="ww-back" href="/resources/">Back to Resources</a></div><div class="ww-closing-actions"><a class="ww-button" href="/quote/">Prepare RFQ email</a><a href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a></div></section>
+</article>

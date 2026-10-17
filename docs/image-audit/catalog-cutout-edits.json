@@ -1,0 +1,529 @@
+{
+  "purpose": "Transparent background retouch for the 35 shared catalog product display images; source catalog photography and company/process imagery remain unchanged.",
+  "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+  "items": [
+    {
+      "index": 0,
+      "slug": "custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm",
+      "input": "/media/CNC-Milling-Service-1-1764417292122--54b8b81a8c.webp",
+      "name": "catalog-00-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-9a4c0e4c-b474-43c6-8b1d-7167147211ca.png",
+      "method": "imagegen",
+      "output": "catalog-00-cutout-v1",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6058
+    },
+    {
+      "index": 2,
+      "slug": "ultra-high-precision-machining-services",
+      "input": "/media/5-axis-Machining-1-1764418510957--4b51164023.webp",
+      "name": "catalog-02-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-8168f11b-5780-41d6-b6fb-ba5285814f6b.png",
+      "method": "reused-homepage-imagegen-cutout",
+      "output": "catalog-02-cutout-v1",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.3732
+    },
+    {
+      "index": 1,
+      "slug": "custom-oem-high-precision-cnc-milling-manufacturer",
+      "input": "/media/CNC-Milling-Service-2-1764417849930--28b1b081fe.webp",
+      "previous": "catalog-01-retouched-v3",
+      "output": "catalog-01-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-7f69105a-eefa-4a0d-aa8a-6e13decc31e0.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5941
+    },
+    {
+      "index": 3,
+      "slug": "global-oem-precision-machining-solutions",
+      "input": "/media/5-axis-Machining-2-1764418526610--635f52f78c.webp",
+      "previous": "catalog-03-retouched-v3",
+      "output": "catalog-03-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-61b8fad2-dfd3-4acd-bd9c-1a217aa9f2cc.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6519
+    },
+    {
+      "index": 4,
+      "slug": "global-manufacturer-of-multi-sided-precision-machined-components",
+      "input": "/media/5-axis-Machining-3-1764418541931--3aeb6953e6.webp",
+      "previous": "catalog-04-retouched-v4",
+      "output": "catalog-04-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-bf4b64a7-d3a4-4bcc-b4e5-5113b697be21.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.7167
+    },
+    {
+      "index": 5,
+      "slug": "custom-oem-cnc-turning-manufacturer",
+      "input": "/media/Turning-1764418561811--0fef80039e.webp",
+      "previous": "catalog-05-retouched-v3",
+      "output": "catalog-05-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-5bcbc7ae-24b2-41c4-9861-5ae2e32b8599.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5245
+    },
+    {
+      "index": 6,
+      "slug": "custom-rotary-cylindrical-components",
+      "input": "/media/Turning-2-1764418599598--a725a21893.webp",
+      "previous": "catalog-06-retouched-v3",
+      "output": "catalog-06-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-0a5a5084-1c89-4848-8245-203ffd831559.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5945
+    },
+    {
+      "index": 7,
+      "slug": "custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer",
+      "input": "/media/Turning-3-1764418610761--08a5f82825.webp",
+      "previous": "catalog-07-retouched-v3",
+      "output": "catalog-07-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-03bdac71-173a-4141-8bab-ac0db11f05c7.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.4679
+    },
+    {
+      "index": 8,
+      "slug": "full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing",
+      "input": "/media/Full-Service-CNC-Milling-Solutions-Custom-Metal-Parts-Manufacturer-with-Finishing-1764554912970--2f27187334.webp",
+      "previous": "catalog-08-retouched-v3",
+      "output": "catalog-08-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-98ab6c4a-df06-420f-a07f-c024a4dfe7eb.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6876
+    },
+    {
+      "index": 9,
+      "slug": "custom-high-precision-machining-for-structural-aesthetic-components-oem",
+      "input": "/media/Custom-High-Precision-Machining-for-Structural---Aesthetic-Components-OEM-1764555402077--60c319adfb.webp",
+      "previous": "catalog-09-retouched-v4",
+      "output": "catalog-09-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-ebf7e538-df6f-4bab-bc58-a6a22fed0b13.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.537
+    },
+    {
+      "index": 10,
+      "slug": "high-volume-cnc-turning-for-complex-internal-external-features",
+      "input": "/media/High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.webp",
+      "previous": "catalog-10-retouched-v3",
+      "output": "catalog-10-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-c716dd5a-e34d-49ab-9f16-8de853d63fcf.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.7243
+    },
+    {
+      "index": 11,
+      "slug": "high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem",
+      "input": "/media/High-Reliability-Precision-Machining-Turbine--Fluid---Complex-Curve-Component-OEM-1764555925002--928a6e0ea7.webp",
+      "previous": "catalog-11-retouched-v4",
+      "output": "catalog-11-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-29ac273e-01c4-486d-8024-fd9ceabad6b6.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5104
+    },
+    {
+      "index": 12,
+      "slug": "custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier",
+      "input": "/media/Custom-Automotive-Performance-Parts-Manufacturer-and-Aluminum-Intercooler-Prototype-Supplier-1764817974310--6b57c81038.webp",
+      "previous": "catalog-12-retouched-v4",
+      "output": "catalog-12-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-fdd33cb9-6532-460f-9c3a-c441111c682a.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5744
+    },
+    {
+      "index": 13,
+      "slug": "custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier",
+      "input": "/media/Custom-Billet-Aluminum-Engine-Cover-Manufacturer-and-Automotive-Prototype-Supplier-1764818167263--638b45f01e.webp",
+      "previous": "engine-cover-retouched-v2",
+      "output": "catalog-13-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-a26c6254-32e2-4e22-a8d7-1b0bcc28ef2f.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6154
+    },
+    {
+      "index": 14,
+      "slug": "custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier",
+      "input": "/media/Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.webp",
+      "previous": "catalog-14-retouched-v4",
+      "output": "catalog-14-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-ec9ebcbc-5743-4edc-8655-994cbce03376.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5421
+    },
+    {
+      "index": 15,
+      "slug": "custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier",
+      "input": "/media/Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.webp",
+      "previous": "catalog-15-retouched-v3",
+      "output": "catalog-15-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-ef0ce35b-bf18-4f9d-b954-faa8ec90b586.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.4989
+    },
+    {
+      "index": 16,
+      "slug": "custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier",
+      "input": "/media/Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.webp",
+      "previous": "catalog-16-retouched-v3",
+      "output": "catalog-16-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-06a870ed-3c71-4476-922a-d5085e4953dc.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.669
+    },
+    {
+      "index": 17,
+      "slug": "custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier",
+      "input": "/media/Custom-Billet-Aluminum-Intake-Plenum-Manufacturer-and-High-Performance-Tuning-Parts-Supplier-1764819540953--d22e858992.webp",
+      "previous": "catalog-17-retouched-v3",
+      "output": "catalog-17-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-481fb34f-0007-4fd9-b760-3cb6ea94199d.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5801
+    },
+    {
+      "index": 18,
+      "slug": "custom-cnc-machined-castings-transmission-housings-pump-bodies",
+      "input": "/media/Custom-CNC-Machined-Castings-Transmission-Housings---Pump-Bodies-1764757074510--2cf2756006.webp",
+      "previous": "catalog-18-retouched-v4",
+      "output": "catalog-18-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-dfcaeb2a-7677-4af9-93c0-bbf68564441e.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6588
+    },
+    {
+      "index": 19,
+      "slug": "custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier",
+      "input": "/media/Custom-CNC-Turned-Stainless-Steel-Components-Manufacturer-and-Precision-Shaft-Supplier-1764816944325--cacdc81da0.webp",
+      "previous": "catalog-19-retouched-v3",
+      "output": "catalog-19-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-bf88b30c-446a-47d7-8a6f-e0273eb24735.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.7307
+    },
+    {
+      "index": 20,
+      "slug": "custom-oem-cnc-machined-non-metallic-components-insulating-parts",
+      "input": "/media/Custom-OEM-CNC-Machined-Non-Metallic-Components-Insulating-Parts-1764557225251--5ba2c574ee.webp",
+      "previous": "catalog-20-retouched-v4",
+      "output": "catalog-20-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-21172243-cd29-47d0-b457-135621006cad.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5825
+    },
+    {
+      "index": 21,
+      "slug": "custom-oem-cnc-machined-plastic-parts-manufacturer",
+      "input": "/media/Plastic-Parts-1764418490181--3049ef7c93.webp",
+      "previous": "catalog-21-retouched-v3",
+      "output": "catalog-21-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-cda49f6c-6438-4de9-a7bb-79ec070edf07.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.4689
+    },
+    {
+      "index": 22,
+      "slug": "oem-precision-cnc-machined-casting-housing-structural-enclosures",
+      "input": "/media/OEM-Precision-CNC-Machined-Casting-Housing---Structural-Enclosures-1764756565591--89bc1a30be.webp",
+      "previous": "catalog-22-retouched-v3",
+      "output": "catalog-22-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-f169ab26-a67e-411e-8351-35d4789b5a6b.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.4999
+    },
+    {
+      "index": 23,
+      "slug": "oem-precision-cnc-machined-casting-housings",
+      "input": "/media/OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.webp",
+      "previous": "catalog-23-retouched-v3",
+      "output": "catalog-23-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-b36c467e-17bb-4e74-be6f-565ab8673f56.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6667
+    },
+    {
+      "index": 24,
+      "slug": "precision-cnc-machined-castings-custom-oem-housings",
+      "input": "/media/Precision-CNC-Machined-Castings---Custom-OEM-Housings-1764756207527--bd238e3ac3.webp",
+      "previous": "catalog-24-retouched-v4",
+      "output": "catalog-24-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-a422b977-975d-40b9-b2c3-038f774558d7.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6588
+    },
+    {
+      "index": 25,
+      "slug": "precision-cnc-machined-castings-manufacturer",
+      "input": "/media/Precision-CNC-Machined-Castings-Manufacturer-1764757607644--746269a403.webp",
+      "previous": "catalog-25-retouched-v3",
+      "output": "catalog-25-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-f7cd2e0b-2c23-4c2e-8665-78ef52939695.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5308
+    },
+    {
+      "index": 26,
+      "slug": "precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances",
+      "input": "/media/Precision-CNC-Machining-for-Complex-Plastic-Geometries-and-Tight-Tolerances-1764558015887--2ed6fe3732.webp",
+      "previous": "catalog-26-retouched-v4",
+      "output": "catalog-26-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-b103bd16-cb9c-47e8-af8a-0e5349ed0a0d.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5005
+    },
+    {
+      "index": 27,
+      "slug": "precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier",
+      "input": "/media/Precision-CNC-Turned-Brass-Components-Manufacturer-and-Copper-Parts-Supplier-1764759544533--731dc8eed7.webp",
+      "previous": "catalog-27-retouched-v4",
+      "output": "catalog-27-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-c5f029da-4e67-49ef-a9d0-eba2528f9598.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.1601
+    },
+    {
+      "index": 28,
+      "slug": "precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier",
+      "input": "/media/Precision-Low-Volume-CNC-Machining-Manufacturer-and-HMLV-Components-Supplier-1764758900962--0c522f190d.webp",
+      "previous": "catalog-28-retouched-v3",
+      "output": "catalog-28-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-553c851d-7b2c-40c6-a66d-d9e47465628e.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6375
+    },
+    {
+      "index": 29,
+      "slug": "precision-machining-for-functional-plastic-blocks-structural-components",
+      "input": "/media/Precision-Machining-for-Functional-Plastic-Blocks---Structural-Components-1764557850986--18253f13c7.webp",
+      "previous": "catalog-29-retouched-v4",
+      "output": "catalog-29-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-2bc68884-ae13-4140-8bf2-72a0adcdadc1.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5087
+    },
+    {
+      "index": 30,
+      "slug": "precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures",
+      "input": "/media/Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.webp",
+      "previous": "catalog-30-retouched-v3",
+      "output": "catalog-30-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-a29c0962-88fa-4f6a-a8d2-5278729eb2f4.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.3686
+    },
+    {
+      "index": 31,
+      "slug": "precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier",
+      "input": "/media/Precision-Stainless-Steel-CNC-Turned-Parts-Manufacturer-and-316L-Components-Supplier-1764815807487--200e743e3f.webp",
+      "previous": "steel-control-retouched-v2",
+      "output": "catalog-31-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-bbf2668e-266d-4aa8-805b-6a6f7123a450.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.6976
+    },
+    {
+      "index": 32,
+      "slug": "precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier",
+      "input": "/media/Precision-Stainless-Steel-Indexing-Plunger-Manufacturer-and-Spring-Loaded-Locking-Pin-Supplier-1764817299753--5e240a8195.webp",
+      "previous": "indexing-plunger-retouched-v2",
+      "output": "catalog-32-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-3eba69ea-d9a6-470f-b068-89e99c60ebea.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.825
+    },
+    {
+      "index": 33,
+      "slug": "small-batch-cnc-machining-manufacturer-complex-aluminum-housings",
+      "input": "/media/Small-Batch-CNC-Machining-Manufacturer-Complex-Aluminum-Housings-1764758302026--a5c49734de.webp",
+      "previous": "aluminum-batch-retouched-v2",
+      "output": "catalog-33-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-0afe7061-3839-47be-ad3b-fc7f6c88bde9.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.3269
+    },
+    {
+      "index": 34,
+      "slug": "small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv",
+      "input": "/media/Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.webp",
+      "previous": "catalog-34-retouched-v3",
+      "output": "catalog-34-cutout-v1",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-8e4189bc-d733-4ac0-ade5-f6453979a412.png",
+      "method": "imagegen",
+      "prompt": "Edit this exact product image as a faithful background-removal retouch. Preserve the product exactly as shown: identical geometry, proportions, feature and hole positions/count, seams, fasteners, colors, material, finish, highlights, texture, orientation, camera angle, framing, object count, and arrangement. Do not redesign, reconstruct, stylize, smooth, add, remove, merge, separate, or alter any part or detail. Remove only the flat studio background and any ground shadow, leaving the complete product or complete group of products isolated on a fully transparent alpha background. Keep every object fully visible, centered with comfortable margin on a square canvas. No floor, gradient, backdrop, text, extra objects, or cast shadow. Preserve a realistic high-end industrial product photography/render appearance.",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "transparentPixelRatio": 0.5085
+    }
+  ]
+}

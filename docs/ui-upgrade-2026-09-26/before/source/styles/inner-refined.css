@@ -1,0 +1,175 @@
+/* Task-oriented inner pages only. The approved homepage is excluded. */
+/* Supporting equipment imagery retains its full composition. */
+.brand-site .equipment-feature {width:100%;margin:0;background:#e9ecee;overflow:hidden}
+.brand-site .equipment-feature img {display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.task-pages .factory-intro.equipment-intro .page-banner-inner {grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:60px}
+.task-pages .factory-intro.equipment-intro .page-banner-figure {max-width:none}
+.task-pages .factory-intro.equipment-intro .page-banner-image img {aspect-ratio:3/2;object-fit:cover}
+.brand-site .section.equipment-overview {padding-top:70px}
+.brand-site .equipment-families.equipment-gallery {gap:48px 36px}
+.brand-site .equipment-families.equipment-gallery article {padding-top:0;border-top:0}
+.brand-site .equipment-visual {display:block;margin-bottom:26px;overflow:hidden;background:#e9ecee}
+.brand-site .equipment-visual img {display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.brand-site .equipment-families.equipment-gallery h3 {font-size:28px}
+.brand-site .workshop-archive {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.brand-site .workshop-archive img {display:block;width:100%;max-width:447px;height:auto;aspect-ratio:447/284;object-fit:contain}
+.brand-site .workshop-archive h3 {font-size:24px;margin-top:22px}
+.brand-site .workshop-archive p {font-size:15px;line-height:1.7;margin-top:12px}
+@media(max-width:760px) {
+ .task-pages .factory-intro.equipment-intro .page-banner-inner {grid-template-columns:1fr;gap:28px}
+ .brand-site .section.equipment-overview {padding-top:45px}
+ .brand-site .equipment-families.equipment-gallery {gap:38px}
+ .brand-site .equipment-families.equipment-gallery h3 {font-size:26px}
+ .brand-site .workshop-archive {grid-template-columns:1fr;gap:34px}
+ .brand-site .workshop-archive img {max-width:none}
+}
+.brand-site .page-banner-image.inspection-illustration img {object-fit:contain}
+.brand-site .workflow-illustration {margin:28px 0}
+.brand-site .workflow-illustration img {width:100%;height:auto;margin:0 0 12px}
+.brand-site .workflow-illustration figcaption {font-size:13px;line-height:1.6;color:var(--muted)}
+/* Transparent catalog cutouts sit on one clean white surface across cards and detail galleries. */
+.task-pages .product-image,
+.task-pages .gallery-main {
+ aspect-ratio:1;
+ background:#fff;
+ border:1px solid #e6e8e9;
+ padding:0;
+}
+.task-pages .product-image img,
+.task-pages .gallery-main img,
+.task-pages .catalog-image img {
+ display:block;
+ width:100%;
+ height:100%;
+ padding:0;
+ object-fit:contain;
+ mix-blend-mode:normal;
+ transform:none;
+ filter:drop-shadow(0 10px 20px #171b1e1c);
+}
+.task-pages .product-card:hover .product-image img {transform:none}
+.task-pages .gallery-main {max-height:none;overflow:hidden}
+.task-pages .page-banner-image.catalog-image {
+ width:min(100%,320px);
+ height:auto;
+ aspect-ratio:1;
+ margin-inline:auto;
+ padding:0;
+ background:#fff;
+ border:1px solid #e6e8e9;
+}
+.task-pages .product-arrow {border:1px solid #e6e8e9}
+.task-pages .compact-catalog .page-banner-inner,
+.task-pages .compact-capability .page-banner-inner {
+ padding-block:40px 46px;
+ grid-template-columns:1.4fr 1fr;
+}
+.task-pages .compact-catalog h1,
+.task-pages .compact-capability h1 {font-size:clamp(42px,4.2vw,60px)}
+.task-pages .compact-catalog .page-banner-image,
+.task-pages .compact-capability .page-banner-image {height:240px}
+.task-pages .compact-catalog .page-banner-image.catalog-image {height:auto}
+.task-pages .category-intro .page-banner-inner{grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:58px;padding-block:46px 54px}
+.task-pages .category-intro .page-banner-image{height:auto;aspect-ratio:4/3}
+.task-pages .category-intro .page-banner-image img{width:100%;height:100%;object-fit:cover}
+.task-pages .category-intro .page-banner-image.catalog-image img{object-fit:contain}
+.task-pages .category-intro .page-banner-actions{display:flex;align-items:center;gap:14px 28px;flex-wrap:wrap;margin-top:28px}
+.task-pages .category-intro .page-banner-secondary{display:inline-flex;align-items:center;gap:12px;min-height:48px;font-size:14px;font-weight:700;border-bottom:1px solid currentColor}
+.task-pages .category-intro .page-banner-secondary svg{color:var(--red)}
+.task-pages .category-intro .page-banner-secondary:hover{color:var(--red)}
+.task-pages .catalog-section {padding-top:48px}
+.task-pages .category-results-heading {margin-bottom:28px}
+.task-pages .category-results-heading h2 {font-size:34px}
+.task-pages .product-detail {grid-template-areas:'gallery summary'}
+.task-pages .product-summary {grid-area:summary}
+.task-pages .product-detail>.gallery {grid-area:gallery}
+.task-pages .capability-jump {display:flex;gap:32px;flex-wrap:wrap;padding-block:22px;border-bottom:1px solid var(--border)}
+.task-pages .capability-jump a {display:inline-flex;align-items:center;gap:14px;min-height:44px;font-size:15px;font-weight:550}
+.task-pages .capability-jump svg {color:var(--red)}
+.task-pages .capability-jump a:hover {color:var(--red)}
+.task-pages .capability-stories {padding-block:65px}
+.task-pages .capability-group {display:grid;grid-template-columns:260px minmax(0,1fr);gap:65px;scroll-margin-top:35px}
+.task-pages .capability-group+.capability-group {margin-top:70px}
+.task-pages .capability-group>h2 {font-size:36px;padding-top:26px;line-height:1.12}
+.task-pages .capability-group .capability-list h3 {font-size:28px}
+.task-pages .factory-intro .page-banner-inner {grid-template-columns:minmax(0,1fr) minmax(0,447px);gap:70px;padding-block:48px 58px}
+.task-pages .factory-intro h1 {font-size:clamp(42px,4.6vw,64px)}
+.task-pages .factory-intro .page-banner-figure {width:100%;max-width:447px;justify-self:end}
+.task-pages .factory-intro .page-banner-image {height:auto;background:transparent}
+.task-pages .factory-intro .page-banner-image img {height:auto;aspect-ratio:447/284;object-fit:contain}
+.task-pages .equipment-section {padding-top:65px}
+.task-pages .equipment-row {gap:80px}
+.task-pages .equipment-row h2 {font-size:38px}
+.task-pages .quote-steps {gap:8px 20px}
+.task-pages .quote-steps li,.task-pages .quote-steps span,
+.task-pages .form-note,.task-pages .draft-storage p,
+.task-pages .drawing-note p,.task-pages .form-grid small {font-size:14px}
+.task-pages .form-grid small>span {display:block}
+.task-pages .form-grid small>span+span {margin-top:6px}
+
+@media(max-width:1100px) {
+ .task-pages .capability-group {grid-template-columns:220px minmax(0,1fr);gap:35px}
+ .task-pages .factory-intro .page-banner-inner,.task-pages .equipment-row {gap:40px}
+}
+@media(max-width:760px) {
+ .task-pages .compact-catalog .page-banner-inner,
+ .task-pages .compact-capability .page-banner-inner {display:block;padding-block:28px 30px}
+ .task-pages .compact-catalog h1,.task-pages .compact-capability h1 {font-size:36px;line-height:1.08}
+ .task-pages .compact-catalog .page-banner-copy>p,
+ .task-pages .compact-capability .page-banner-copy>p {font-size:15px;margin-top:16px}
+ .task-pages .compact-catalog .page-banner-figure,
+ .task-pages .compact-capability .page-banner-figure {display:none}
+ .task-pages .compact-catalog.category-intro .page-banner-figure {display:block;margin-top:26px}
+ .task-pages .compact-capability .page-banner-figure {display:block;margin-top:20px}
+ .task-pages .compact-capability .page-banner-image{height:160px}
+ .task-pages .category-intro .page-banner-inner{padding-block:26px 30px}
+ .task-pages .category-intro .page-banner-image{aspect-ratio:1.75}
+ .task-pages .category-intro .page-banner-actions{margin-top:20px;gap:8px 20px}
+ .task-pages .category-intro .page-banner-actions .button{margin:0}
+ .task-pages .category-intro .page-banner-secondary{min-height:44px}
+ .task-pages .compact-catalog .breadcrumbs {padding-bottom:18px}
+ .task-pages .compact-catalog .page-banner-copy>.button {margin-top:20px}
+ .task-pages .catalog-section {padding-top:28px}
+ .task-pages .category-results-heading h2 {font-size:27px}
+ .task-pages .category-results-heading {margin-bottom:22px}
+ .task-pages .results-meta {margin:18px 0 22px;font-size:14px}
+ .task-pages .product-grid {grid-template-columns:1fr;gap:24px}
+ .task-pages .product-card {display:grid;grid-template-columns:112px minmax(0,1fr);column-gap:18px;align-content:start;border-bottom:1px solid var(--border);padding-bottom:24px}
+ .task-pages .product-card .product-image {grid-column:1;grid-row:1/4;align-self:start}
+ .task-pages .product-card .product-category {grid-column:2;margin:0 0 7px;font-size:12px;line-height:1.5}
+ .task-pages .product-card h3 {grid-column:2;font-size:20px;line-height:1.2}
+ .task-pages .product-card .product-card-summary {grid-column:2;font-size:14px;line-height:1.6;margin-top:9px}
+ .task-pages .product-card .product-arrow {display:none}
+ .task-pages .product-detail {grid-template-areas:'heading' 'summary' 'gallery';gap:18px;padding-bottom:42px}
+ .task-pages .product-heading {grid-area:heading}
+ .task-pages .product-summary h1 {font-size:36px;line-height:1.1}
+ .task-pages .product-heading .category-links {margin-top:8px;gap:4px 12px}
+ .task-pages .product-heading .category-links a {display:inline-flex;align-items:center;min-height:36px;padding:0;font-size:12px}
+ .task-pages .product-summary {padding-top:0}
+ .task-pages .product-summary>p {margin:0 0 14px;font-size:15px;line-height:1.55}
+ .task-pages .product-summary .button {min-height:50px}
+ .task-pages .part-spec-link {display:flex;align-items:center;gap:10px;min-height:40px;margin-top:6px}
+ .task-pages .product-detail .gallery-main {aspect-ratio:1.25;max-height:none}
+ .task-pages .part-note {padding-top:16px;margin-top:18px}
+ .task-pages .capability-jump {gap:2px 22px;padding-block:14px}
+ .task-pages .capability-jump a {font-size:14px}
+ .task-pages .capability-stories {padding-block:38px 50px}
+ .task-pages .capability-story {display:flex;flex-direction:column;align-items:stretch;gap:25px}
+ .task-pages .capability-story>div {order:-1}
+ .task-pages .capability-story h2 {font-size:34px}
+ .task-pages .capability-story p {margin:16px 0 18px}
+ .task-pages .capability-story img {height:230px}
+ .task-pages .capability-group {display:block}
+ .task-pages .capability-group+.capability-group {margin-top:45px}
+ .task-pages .capability-group>h2 {font-size:32px;padding:0 0 22px}
+ .task-pages .capability-group .capability-list h3 {font-size:25px}
+ .task-pages .factory-intro .page-banner-inner {grid-template-columns:1fr;padding-block:30px 36px;gap:28px}
+ .task-pages .factory-intro h1 {font-size:39px}
+ .task-pages .factory-intro .page-banner-copy>p {font-size:15px;margin-top:18px}
+ .task-pages .factory-intro .page-banner-figure {justify-self:start}
+ .task-pages .factory-intro .page-banner-copy>.button {margin-top:22px}
+ .task-pages .equipment-section {padding-top:40px}
+ .task-pages .equipment-row {gap:24px}
+ .task-pages .equipment-row h2 {font-size:32px}
+ .task-pages .quote-steps {margin:16px 0 24px;column-gap:18px}
+}

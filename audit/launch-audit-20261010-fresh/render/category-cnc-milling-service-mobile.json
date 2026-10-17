@@ -1,0 +1,197 @@
+{
+  "canonical": "https://www.lzz-cnc.com/capabilities/cnc-milling-service/",
+  "description": "CNC milling for blocks, brackets and housings. Prepare an RFQ with tool-access constraints, mating features and finish requirements.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "CNC milling for custom components"
+    },
+    {
+      "tag": "H2",
+      "text": "Milled pockets, faces and contours"
+    },
+    {
+      "tag": "H2",
+      "text": "More part examples"
+    },
+    {
+      "tag": "H3",
+      "text": "Milled instrument blocks & brackets"
+    },
+    {
+      "tag": "H3",
+      "text": "Multi-sided machined components"
+    },
+    {
+      "tag": "H2",
+      "text": "Milling in practice"
+    },
+    {
+      "tag": "H3",
+      "text": "Two milling setups for one part"
+    },
+    {
+      "tag": "H3",
+      "text": "Five-axis machining for multi-face components"
+    },
+    {
+      "tag": "H3",
+      "text": "Turning followed by milling"
+    },
+    {
+      "tag": "H2",
+      "text": "Drawing & acceptance"
+    },
+    {
+      "tag": "H3",
+      "text": "Drawing requirements"
+    },
+    {
+      "tag": "H3",
+      "text": "Inspection and acceptance"
+    },
+    {
+      "tag": "H2",
+      "text": "Prepare your milling enquiry"
+    },
+    {
+      "tag": "H3",
+      "text": "Related resources"
+    },
+    {
+      "tag": "H2",
+      "text": "Related machining processes"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/capabilities/",
+      "text": "Capabilities"
+    },
+    {
+      "href": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "text": ""
+    },
+    {
+      "href": "/products/",
+      "text": "Browse all parts"
+    },
+    {
+      "href": "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "text": "Milled instrument blocks & brackets"
+    },
+    {
+      "href": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "text": "Multi-sided machined components"
+    },
+    {
+      "href": "/cases/",
+      "text": "All machining studies"
+    },
+    {
+      "href": "/cases/two-stage-cnc-milling/",
+      "text": "Two milling setups for one part\n\nTwo milling setups provide access to different faces of the same part."
+    },
+    {
+      "href": "/cases/five-axis-machining-multi-face-parts/",
+      "text": "Five-axis machining for multi-face components\n\nMachining holes, side openings and contoured faces on a component held in a rotary setup."
+    },
+    {
+      "href": "/cases/turning-then-milling-cylindrical-parts/",
+      "text": "Turning followed by milling\n\nA turned component returns to the machine for features that require milling."
+    },
+    {
+      "href": "/cases/milling-a-pocketed-enclosure-form/",
+      "text": ""
+    },
+    {
+      "href": "/cases/milling-prismatic-components/",
+      "text": ""
+    },
+    {
+      "href": "/cases/29-inch-display-housing-cnc-machining/",
+      "text": ""
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality & inspection"
+    },
+    {
+      "href": "/factory/#equipment",
+      "text": ""
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": ""
+    },
+    {
+      "href": "/factory/#order-deliverables",
+      "text": ""
+    },
+    {
+      "href": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Drawing & RFQ checklist"
+    },
+    {
+      "href": "/resources/cnc-process-selection/",
+      "text": "Choose a machining process"
+    },
+    {
+      "href": "/quality/",
+      "text": ""
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": ""
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "CNC turning\n↗"
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "5-axis machining\n↗"
+    },
+    {
+      "href": "/capabilities/casting-machining/",
+      "text": "Casting machining\n↗"
+    }
+  ],
+  "main": "Capabilities\n/\nCNC milling\nCNC milling for custom components\n\nCustom milling for housings and other components with pockets, bores and detailed profiles. Send your drawing to discuss the machining requirements.\n\nPrepare RFQ email\nMulti-bore circular milled component\nMilled pockets, faces and contours\n\nAn instrument housing or bracket may need features machined from several directions. The model determines the stock form, tool access and setup sequence.\n\nGeometry & process\nFor pockets, slots, flat faces and features cut from several directions. 3-, 4- and 5-axis work covers brackets, manifolds, multi-sided parts and curved surfaces.\nSize & workholding\nSend a 3D model with the overall dimensions and stock size. Setup planning considers tool access, clamping space and the relationships between features. Axis count alone does not determine the maximum part size.\nMaterials\nAluminum, stainless steel, steel, copper, brass, titanium and engineering plastics. Confirm the grade and stock condition on your drawing.\nFinishes\nDeburring, polishing, bead blasting, anodizing and plating. Options depend on the substrate and the dimensions that need protection; specify the finish on your drawing.\nFrom drawing to finished part\nMore part examples\nBrowse all parts\nMilled instrument blocks & brackets\nMulti-sided machined components\nMilling in practice\nAll machining studies\nTwo milling setups for one part\n\nTwo milling setups provide access to different faces of the same part.\n\nFive-axis machining for multi-face components\n\nMachining holes, side openings and contoured faces on a component held in a rotary setup.\n\nTurning followed by milling\n\nA turned component returns to the machine for features that require milling.\n\nMore machining studies\nDrawing & acceptance\nDrawing requirements\n\nIdentify the assembly datums and dimensions that locate mating bores, mounting holes and faces. Separate functional dimensions from general dimensions.\n\nMark deep pockets and small internal corners, along with thin sections that need tool-access or workholding checks. State where a radius or geometry change is acceptable.\n\nInspection and acceptance\n\nIdentify which face, bore and hole-position relationships need recorded results, and the datum system used to evaluate them.\n\nSpecify whether dimensional acceptance applies before or after finishing, with masking and cosmetic surfaces marked on the drawing.\n\nAgree the measurement method and required records before production.\n\n±0.01 mm — Evaluated critical-feature reference. Selected critical features may be evaluated against this reference after engineering review. Material, geometry, setup and measurement method affect feasibility. It is not a default or guaranteed tolerance.\n\nQuality & inspection\nEquipment and order records\nPrepare your milling enquiry\n\nSupply a 3D model and revision-controlled drawing, material grade and stock condition, quantity and intended assembly.\n\nInclude finish requirements and any permitted design changes so alternative machining approaches can be evaluated.\n\nPrepare RFQ email\n\nAdd your requirements to the email draft, then attach drawings in your email app before sending.\n\nroger@lzz-cnc.com\nRelated resources\nDrawing & RFQ checklist\nChoose a machining process\nMore engineering resources\nRelated machining processes\nCNC turning\n↗\n5-axis machining\n↗\nCasting machining\n↗",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/#webpage\",\"url\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/\",\"name\":\"CNC Milling Service\",\"description\":\"CNC milling for blocks, brackets and housings. Prepare an RFQ with tool-access constraints, mating features and finish requirements.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/#service\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Capabilities\",\"item\":\"https://www.lzz-cnc.com/capabilities/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"CNC Milling Service\",\"item\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/\"}]},{\"@type\":\"Service\",\"@id\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/#service\",\"url\":\"https://www.lzz-cnc.com/capabilities/cnc-milling-service/\",\"name\":\"CNC milling\",\"description\":\"CNC milling for blocks, brackets and housings. Prepare an RFQ with tool-access constraints, mating features and finish requirements.\",\"image\":\"https://www.lzz-cnc.com/media/responsive/catalog-00-cutout-v1-1200.webp\",\"provider\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"}}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "CNC Milling Service | LZZ Precision",
+  "url": "http://127.0.0.1:4326/capabilities/cnc-milling-service/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "category-cnc-milling-service-mobile"
+}

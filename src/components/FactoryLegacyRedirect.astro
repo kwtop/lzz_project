@@ -1,0 +1,6 @@
+---
+interface Props{section:'workshop'|'quality'}
+const {section}=Astro.props;
+const fallback='/factory/#'+section;
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://www.lzz-cnc.com/factory/"/><title>Factory &amp; quality | LZZ Precision</title><script is:inline define:vars={{section}}>location.replace('/factory/'+location.search+(location.hash||'#'+section));</script><meta http-equiv="refresh" content={'0;url='+fallback}/></head><body><p>Factory and quality information is now on one page. <a href={fallback}>Continue to Factory &amp; quality</a>.</p></body></html>

@@ -1,0 +1,41 @@
+{
+  "created": "2026-10-14",
+  "tool": "Built-in ImageGen",
+  "promptFile": "D:/lzz/resources-redesign-20261014/image-prompt.txt",
+  "original": "D:/lzz/resources-redesign-20261014/outputs/procurement-review-v1.png",
+  "sha256": "8b053a93099813cdfe4336af983415dba3e186518b32b0e56feae566333f1758",
+  "consumingPages": [
+    "/resources/"
+  ],
+  "proofScope": "Generic drawing and procurement preparation illustration. Not an LZZ workshop, customer part, inspection result, certification or delivery record.",
+  "derivatives": [
+    {
+      "path": "public/media/resources-reading-20261014/procurement-review-v1-480.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 18240,
+      "sha256": "18453f614d521429f6964e6a21f4deffc06ca0fa6cabe5a202995ba7de1a931f"
+    },
+    {
+      "path": "public/media/resources-reading-20261014/procurement-review-v1-800.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 43090,
+      "sha256": "3dfba214160755dc195aeaad560a8bd92c45d151220adec60f4f4b8d266d8ee0"
+    },
+    {
+      "path": "public/media/resources-reading-20261014/procurement-review-v1-1200.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 84302,
+      "sha256": "9f812ba81f8f5f8f0814a4292c330e0a78a69845b683764795b53c48762841c7"
+    },
+    {
+      "path": "public/media/resources-reading-20261014/procurement-review-v1-1536.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 127598,
+      "sha256": "affae8d43b61bd7f5e4b149bb096f1dfee88984702801c2450a2754dd12ee8a0"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+import Arrow from '../components/Arrow.astro';
+import CompanyFacts from '../components/CompanyFacts.astro';
+import {equipmentFamilies} from '../data/company';
+import EvidenceImage from '../components/EvidenceImage.astro';
+import IllustrativeScene from '../components/IllustrativeScene.astro';
+import {photo} from '../data/evidence';
+const equipmentImages=['workshop-wide','turning-operation','five-axis-machine-wide','cmm-room'] as const;
+const scenes=[
+ {title:'Machining centers along the workshop aisle',id:'workshop-aisle',note:'Original LZZ workshop photograph; source folder dated December 2025.'},
+ {title:'A second view of the production floor',id:'workshop-floor',note:'Original LZZ workshop photograph; source folder dated December 2025.'},
+ {title:'Operators among the CNC machines',id:'workshop-operators-2025',note:'Original production-floor photograph; source file dated November 2025.'}
+] as const;
+const steps=['Requirements confirmation','Drawing / model evaluation','Quotation','Sample / prototype machining','Inspection & feedback','Sample approval','Production','Final QC & shipment'];
+---
+<Layout title="Our factory and manufacturing workflow" description="Explore LZZ's Hangzhou workshop, CNC machining equipment and production workflow.">
+ <PageHero variant="factory-intro real-factory-intro" lines={['Our factory','in Hangzhou']} image={photo('workshop-wide').src} imageAlt={photo('workshop-wide').alt} imageCaption={photo('workshop-wide').caption} action={{label:'See the equipment',href:'#equipment'}}/>
+ <div class="container factory-facts"><CompanyFacts/></div>
+ <section class="container section company-introduction" id="production-capacity"><div><h2>About 100,000<br/>parts per month</h2></div><div class="company-text"><p>This is a reference capacity for our 1,500 m² facility and 40+ pieces of machining and support equipment. Actual monthly output depends on part geometry, material, finishing and the production mix.</p><p>Our engineering team has more than 15 years of CNC machining experience. We accept orders from 1 piece. Production takes 7–14 business days after drawing and order confirmation, including surface finishing; transit is separate. LZZ is ISO 9001 certified.</p><a class="text-link" href="/capabilities/prototype-machining/">Plan a prototype order <Arrow/></a></div></section>
+ <section class="container section equipment-overview" id="equipment"><div class="section-heading"><h2>Machining and<br/>inspection equipment</h2></div><div class="equipment-families equipment-gallery">{equipmentFamilies.map((equipment,index)=><article><figure class="equipment-scene"><a class="equipment-visual" href={equipment.href} aria-label={equipment.name}><EvidenceImage id={equipmentImages[index]} sizes="(max-width:760px) 90vw, 45vw"/></a></figure><h3>{equipment.name}</h3><p>{equipment.use}</p><a class="text-link" href={equipment.href}>{index===3?'See inspection details':'See machining details'} <Arrow size={18}/></a></article>)}</div></section>
+ <section class="surface-band section" id="workshop-photographs"><div class="container"><div class="section-heading"><h2>Inside our<br/>workshop</h2><p class="section-intro">Original photographs from the company archive show the production floor at the dates recorded by the source files.</p></div><div class="workshop-photo-grid">{scenes.map(scene=><article><figure><EvidenceImage id={scene.id} sizes="(max-width:600px) 90vw, (max-width:1000px) 43vw, 30vw"/><figcaption>{scene.note}</figcaption></figure><h3>{scene.title}</h3></article>)}</div></div></section>
+ <section class="workflow-band section" id="workflow"><div class="container"><div class="section-heading"><h2>From your drawing<br/>to shipment</h2></div><ol class="workflow">{steps.map((step,index)=><li><span>{String(index+1).padStart(2,'0')}</span><h3>{step}</h3></li>)}</ol><a class="text-link" href="/insights/how-we-work/">See project and delivery details <Arrow/></a></div></section>
+ <section class="container section factory-cases"><div class="factory-case-layout"><IllustrativeScene id="factoryOperator" sizes="(max-width:760px) calc(100vw - 44px), 54vw" className="factory-case-image"/><div class="factory-case-copy"><h2>CNC machining in context</h2><p>This AI-generated scene illustrates a machinist monitoring an enclosed CNC machine. It is not a photograph of LZZ's employees, equipment or facility. The original workshop photographs above show the actual production floor.</p><a class="text-link" href="/cases/">Explore documented process studies <Arrow/></a></div></div></section>
+</Layout>
+<script>
+ if (window.location.hash === '#documents') window.location.replace('/about/#documents');
+</script>
+<style>
+ .workshop-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 24px}
+ .workshop-photo-grid article{display:block;min-width:0;border-top:1px solid var(--border);padding-top:18px}
+ .workshop-photo-grid figure{margin:0}
+ .workshop-photo-grid :global(img){display:block;width:100%;height:310px;object-fit:cover}
+ .workshop-photo-grid figcaption{font-size:12px;line-height:1.5;color:var(--muted);margin-top:10px}
+ .workshop-photo-grid h3{font-size:23px;line-height:1.2;margin:15px 0 0}
+ @media(max-width:1000px){.workshop-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:600px){.workshop-photo-grid{grid-template-columns:1fr}.workshop-photo-grid :global(img){height:auto;aspect-ratio:1.4}}
+</style>
+<style>.factory-facts{padding-top:48px}.equipment-overview{padding-top:0}.equipment-families{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 65px}.equipment-families article{padding-top:25px;border-top:1px solid var(--border)}.equipment-families figure{margin:0}.equipment-families :global(img){display:block;width:100%;height:320px;object-fit:cover}.equipment-families figcaption,.evidence-caption{font-size:12px!important;line-height:1.5;color:var(--muted);margin-top:10px!important}.equipment-families h3{font-size:30px;line-height:1.2;margin-top:20px}.equipment-families p{margin:20px 0;font-size:17px}.workshop-archive :global(img){display:block;width:100%;height:330px;object-fit:cover}.factory-case-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:60px;align-items:center}.factory-case-image{min-width:0}.factory-case-image img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}.factory-case-image figcaption{font-size:12px;line-height:1.55;color:var(--muted);margin-top:12px}.factory-case-image figcaption a{text-decoration:underline;text-underline-offset:3px}.factory-case-copy h2{font-size:clamp(34px,3.8vw,53px);margin:18px 0 22px}.factory-case-copy p{font-size:17px;line-height:1.75}.factory-case-copy .text-link{margin-top:28px}.workflow-band .text-link{margin-top:35px}@media(max-width:760px){.equipment-families{grid-template-columns:1fr}.equipment-families h3{font-size:27px}.equipment-families :global(img),.workshop-archive :global(img){height:auto;aspect-ratio:1.4}.factory-case-layout{grid-template-columns:1fr;gap:25px}.factory-case-copy h2{font-size:34px}.factory-facts{padding-top:30px}}</style>

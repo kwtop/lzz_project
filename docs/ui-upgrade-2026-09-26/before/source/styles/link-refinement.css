@@ -1,0 +1,128 @@
+/* One quiet, text-first treatment for secondary actions across the site. */
+body.brand-site .text-link,
+body.brand-site button.text-link,
+body.brand-site .part-spec-link {
+ display:inline-flex;
+ align-items:center;
+ justify-content:flex-start;
+ width:fit-content;
+ max-width:100%;
+ min-height:44px;
+ padding:8px 0 7px;
+ border:0;
+ border-bottom:1px solid #8b9296;
+ border-radius:0;
+ background:transparent;
+ color:#282c2f;
+ font-family:inherit;
+ font-size:14px;
+ font-weight:600;
+ line-height:1.4;
+ text-align:left;
+ text-decoration:none;
+ transition:color .18s ease,border-color .18s ease;
+}
+body.brand-site .product-summary .part-spec-link {display:flex;margin-top:12px}
+body.brand-site .text-link:hover,
+body.brand-site .part-spec-link:hover,
+body.brand-site .text-link:focus-visible,
+body.brand-site .part-spec-link:focus-visible {
+ border-color:#cb1217;
+ background:transparent;
+ color:#cb1217;
+}
+body.brand-site .selected-action {
+ display:inline-flex;
+ align-items:center;
+ width:fit-content;
+ min-height:44px;
+ padding:8px 0 7px;
+ border:0;
+ border-bottom:1px solid #8b9296;
+ border-radius:0;
+ background:transparent;
+ color:#282c2f;
+ font-size:14px;
+ font-weight:600;
+}
+body.brand-site .selected-part:hover .selected-action,
+body.brand-site .selected-part:focus-visible .selected-action {
+ border-color:#cb1217;
+ background:transparent;
+ color:#cb1217;
+}
+body.brand-site .inside-links a {
+ justify-content:flex-start;
+ gap:0;
+ min-height:54px;
+ border-radius:0;
+ padding-inline:0;
+}
+body.brand-site .inside-links a:hover {color:#cb1217}
+body.brand-site .resource-link-grid a,
+body.brand-site .part-process-links a {
+ justify-content:flex-start;
+ gap:0;
+ background:transparent;
+ color:#282c2f;
+ text-decoration:none;
+ transition:color .18s ease,border-color .18s ease;
+}
+body.brand-site .resource-link-grid a {min-height:58px;padding:14px 0}
+body.brand-site .part-process-links a {min-height:58px;padding:16px 0}
+body.brand-site .resource-link-grid a:hover,
+body.brand-site .part-process-links a:hover {background:transparent;color:#cb1217}
+body.brand-site .resource-link-grid a:focus-visible,
+body.brand-site .part-process-links a:focus-visible {outline:2px solid #cb1217;outline-offset:4px}
+body.brand-site .category-links a {
+ display:inline-flex;
+ align-items:center;
+ min-height:40px;
+ padding:6px 0;
+ border-bottom:1px solid #aeb4b7;
+ text-decoration:none;
+ transition:color .18s ease,border-color .18s ease;
+}
+body.brand-site .category-links a:hover {border-color:#cb1217;color:#cb1217}
+body.brand-site .breadcrumbs a,
+body.brand-site .footer-column a,
+body.brand-site .nav-panel a,
+body.brand-site .part-information a,
+body.brand-site .prose a,
+body.brand-site .factory-case-image figcaption a,
+body.brand-site .turning-editorial figcaption a {
+ text-decoration-thickness:1px;
+ text-underline-offset:4px;
+ text-decoration-color:#aeb4b7;
+ transition:color .18s ease,text-decoration-color .18s ease;
+}
+body.brand-site .breadcrumbs a:hover,
+body.brand-site .footer-column a:hover,
+body.brand-site .part-information a:hover,
+body.brand-site .prose a:hover {color:#cb1217;text-decoration-color:#cb1217}
+body.brand-site #main-nav>a:hover,
+body.brand-site #main-nav summary:hover {color:#cb1217;text-decoration:underline;text-decoration-color:#cb1217;text-underline-offset:7px}
+body.brand-site .nav-panel a:hover {text-decoration:underline;text-decoration-color:#cb1217;text-underline-offset:4px}
+body.brand-site .customer-paths .path-action,
+body.brand-site .page-banner-secondary {text-decoration:underline;text-decoration-color:#aeb4b7;text-decoration-thickness:1px;text-underline-offset:4px}
+body.brand-site .customer-paths>a:hover .path-action,
+body.brand-site .page-banner-secondary:hover {color:#cb1217;text-decoration-color:#cb1217}
+body.brand-site a[href^="/"]:not(.button):not(.product-card):not(.case-card):not(.journal-image):focus-visible,
+body.brand-site a[href^="#"]:not(.button):focus-visible {outline:2px solid #cb1217;outline-offset:4px}
+body.brand-site .gallery-zoom,
+body.brand-site .product-arrow {display:none!important}
+body.brand-site .product-card h3 {text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:1px;text-underline-offset:5px;transition:color .18s ease,text-decoration-color .18s ease}
+body.brand-site .product-card:hover h3,
+body.brand-site .product-card:focus-visible h3 {color:#cb1217;text-decoration-color:#cb1217}
+body.brand-site .product-card:focus-visible {outline:2px solid #cb1217;outline-offset:5px}
+body.brand-site .capability-directory-links>a:hover h3,
+body.brand-site .supporting-services a:hover {color:#cb1217}
+body.brand-site .gallery-main {cursor:default}
+@media(prefers-reduced-motion:reduce) {
+ body.brand-site .text-link,
+ body.brand-site .part-spec-link,
+ body.brand-site .resource-link-grid a,
+ body.brand-site .part-process-links a,
+ body.brand-site .selected-action,
+ body.brand-site .product-card h3 {transition:none}
+}

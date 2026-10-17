@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HomeEditorial from '../../components/HomeEditorial.astro';
+---
+<Layout immersive cta={false} noindex={true} title="Homepage editorial layout preview"><HomeEditorial/></Layout>
+<script>
+ if(location.hash==='#parts-preview') location.replace('#selected-parts');
+</script>

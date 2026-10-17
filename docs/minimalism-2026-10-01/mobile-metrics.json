@@ -1,0 +1,7778 @@
+[
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Discuss your part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 263.6875,
+        "text": "View machining capabilities",
+        "width": 243.6875,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 245.52084350585935,
+        "text": "Review quality control",
+        "width": 201.52084350585935,
+        "x": 44
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 350,
+        "text": "Explore our factory",
+        "width": 310,
+        "x": 40
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 346,
+        "text": "Prepare RFQ email",
+        "width": 302,
+        "x": 44
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 73.85417175292969,
+        "level": "H1",
+        "right": 370,
+        "text": "Your partsMachined to order",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Custom machined parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining capabilities & materials",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Factory & quality",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining studies",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 346,
+        "text": "Let’s makeyour part",
+        "width": 302,
+        "x": 44
+      }
+    ],
+    "mainHeight": 5569,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "ab-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 130.0416717529297,
+        "text": "Meet LZZ",
+        "width": 110.04167175292967,
+        "x": 20
+      },
+      {
+        "class": "ab-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 159.0416717529297,
+        "text": "How we work",
+        "width": 139.0416717529297,
+        "x": 20
+      },
+      {
+        "class": "ab-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Example parts and engineering notes"
+      },
+      {
+        "open": false,
+        "summary": "Application families and requirements"
+      },
+      {
+        "open": false,
+        "summary": "Company background and connections"
+      },
+      {
+        "open": false,
+        "summary": "View archived logos"
+      },
+      {
+        "open": false,
+        "summary": "Issuer and date details"
+      },
+      {
+        "open": false,
+        "summary": "Issuer and date details"
+      },
+      {
+        "open": false,
+        "summary": "Issuer and date details"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "The people behindyour custom parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Custom CNC machiningat LZZ",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "How our capabilities developed",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Applications and example parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Illustrative applications",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "People and moments",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Earlier company materials",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Original company documents",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Have a part in mind?",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5588,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "20254 dated groups · View photographs"
+      },
+      {
+        "open": false,
+        "summary": "View 3 original photographsHide photographs"
+      },
+      {
+        "open": false,
+        "summary": "View 3 original photographsHide photographs"
+      },
+      {
+        "open": false,
+        "summary": "View 1 original photographHide photographs"
+      },
+      {
+        "open": false,
+        "summary": "View 2 original photographsHide photographs"
+      },
+      {
+        "open": false,
+        "summary": "20241 dated group · View photographs"
+      },
+      {
+        "open": false,
+        "summary": "View 4 original photographsHide photographs"
+      }
+    ],
+    "headings": [
+      {
+        "height": 40.10416793823242,
+        "level": "H1",
+        "right": 370,
+        "text": "Company News",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "A November team day outdoors",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "LZZ at the China–Africa West Lake Summit",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "From an outdoor meal to an evening together",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "An Australian customer visits the LZZ workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "A rainy day out with the LZZ team",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Photo archive",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4045,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/company-news/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "An Australian customer visits the LZZ workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "From the machines to the parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Photographs from the visit",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "More company news",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4209,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "LZZ at the China–Africa West Lake Summit",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Introducing LZZ’s machining services",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Photographs from the event",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "More company news",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3927,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/company-news/china-africa-west-lake-summit-2025/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "A rainy day out with the LZZ team",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "A day away from the machines",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Photographs from the outing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "More company news",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3878,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/company-news/lzz-team-outing-2024/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "From an outdoor meal to an evening together",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Time together beyond the workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "More company news",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Have a part in mind?",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3357,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/company-news/may-2025-lzz-team-outing/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "A November team day outdoors",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "A shared meal outdoors",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Photographs from the team day",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "More company news",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3674,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Find the right routefor your part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Five machining services",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Choose a material",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Plan an order",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "From sample to part",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3168,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Choose the motion that the geometry needs"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "5-axis machining for complex geometry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Angled access and continuous contours",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your 5-axis machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related machining processes",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5556,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/5-axis-cnc-machining/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Plan the alloy and finish together"
+      },
+      {
+        "open": false,
+        "summary": "More photographs from the workshop"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Aluminum parts, made to your drawing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Aluminum housings and automotive prototypes",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your aluminum machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related materials",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5861,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/aluminum-cnc-parts/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Turn a cast blank into controlled interfaces"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Finished interfaces for cast components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Finish machining for cast blanks",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your casting machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related machining processes",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4668,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/casting-machining/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "From drawing to finished part"
+      },
+      {
+        "open": false,
+        "summary": "More machining studies"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC milling for custom components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Milled pockets, faces and contours",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Milling in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your milling enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related machining processes",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5880,
+    "overflow": false,
+    "overflowElements": [
+      {
+        "class": "",
+        "height": 310.19989013671875,
+        "right": 426,
+        "tag": "IMG",
+        "width": 462,
+        "x": -36
+      }
+    ],
+    "route": "/capabilities/cnc-milling-service/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "A route for rotational and cross features"
+      },
+      {
+        "open": false,
+        "summary": "More photographs from the workshop"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC turning for shafts & fittings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Turned diameters and off-axis features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your cnc turning enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related machining processes",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5446,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/cnc-turning-service/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Separate electrical function from mechanical fit"
+      },
+      {
+        "open": false,
+        "summary": "More photographs from the workshop"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Copper & brass parts, made to specification",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Conductive parts and threaded fittings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your copper & brass machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related materials",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4760,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/copper-brass-cnc-parts/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Carry an approved revision into each batch"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Low-volume CNC production with revision control",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "What does your pilot or repeat batch need?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your low-volume production enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related production stages",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5528,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/low-volume-production/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Build the inspection plan around the polymer"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Engineering plastics, machined for your part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Plastic insulators, wear parts and housings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining in practice",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "PEEK machined parts: a closer look",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your plastic machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related materials",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 6545,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/plastic-machined-parts/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Make the sample answer a design question"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Machined prototypes for your next revision",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "What should your prototype verify?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your prototype machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related production stages",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4760,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/capabilities/prototype-machining/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      },
+      {
+        "class": "cap-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Specify the working surfaces, not just the grade"
+      },
+      {
+        "open": false,
+        "summary": "Equipment and order records"
+      },
+      {
+        "open": false,
+        "summary": "More engineering resources"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Stainless steel parts for your assembly",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Stainless steel shafts, fittings and hardware",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "More part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing & acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare your stainless steel machining enquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 26.83333396911621,
+        "level": "H2",
+        "right": 370,
+        "text": "Related materials",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4888,
+    "overflow": false,
+    "overflowElements": [
+      {
+        "class": "",
+        "height": 267.89990234375,
+        "right": 394.5,
+        "tag": "IMG",
+        "width": 399,
+        "x": -4.5
+      }
+    ],
+    "route": "/capabilities/stainless-steel-cnc-parts/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC machining studiesfrom the workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "29-inch display housing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Compare part families",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "How geometry changes the route",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Have similar features?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Pockets, bores & mounting faces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Before comparing your part",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 6205,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC machining a 29-inch display housing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "The component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining setup",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machined features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection planning",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Two faces of the enclosure",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Watch the display housing in the workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4661,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/29-inch-display-housing-cnc-machining/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Custom metal parts in batches: shafts, fittings and housings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Turned parts: shoulders, threads and mating diameters",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Original part photographs",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Aluminum housings: cavities and mounting features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Original part photographs",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Brass parts: specify the grade and interfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Original part photographs",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "A batch view after cleaning",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Small metal components in a batch",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Plan a similar part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 6309,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/custom-metal-parts-batch-examples/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Custom plastic parts: PTFE, POM, PE and acrylic",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "PTFE components: small forms and stepped shafts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Original part photographs",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "PTFE part forms in the workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "POM gears: define the tooth and hub details",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "A closer look at the POM gear",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "PE guide strips: straight and curved profiles",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "PE guide-strip examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Acrylic components: shape and viewing surfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Original part photographs",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Transparent acrylic part details",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Plan a similar part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 9398,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Five-axis machining for multi-face components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "The component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining setup",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machined features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection planning",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3137,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/five-axis-machining-multi-face-parts/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Milling a pocketed enclosure-style component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "The component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining setup",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machined features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection planning",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 2996,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/milling-a-pocketed-enclosure-form/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC milling for prismatic parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Multi-feature components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Faces, holesand pockets",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Locating the partfor milling",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection requirements",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Related studies and capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3478,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/milling-prismatic-components/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Turning followed by milling",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "The component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining setup",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machined features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection planning",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 2901,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/turning-then-milling-cylindrical-parts/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 217.98959350585935,
+        "text": "Discuss your drawing",
+        "width": 197.98959350585935,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Study sections"
+      },
+      {
+        "open": false,
+        "summary": "Photography & project scope"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Two milling setups for one part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "The component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining setup",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machined features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection planning",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related capabilities",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 2781,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/cases/two-stage-cnc-milling/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 250.71875,
+        "text": "Prepare RFQ email",
+        "width": 204.71875,
+        "x": 46
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Let's talk aboutyour next part.",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Contact details",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 344,
+        "text": "Ready to request a quote?",
+        "width": 298,
+        "x": 46
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Find us in Hangzhou",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 1722,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/contact/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Purchasing, inspection and delivery requirements"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Our factoryin Hangzhou",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 56.53125,
+        "level": "H2",
+        "right": 370,
+        "text": "About 100,000parts per month",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "CNC machiningand inspection equipment",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "The machining floor",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Dimensional inspectionagainst your drawing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Our working process",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5913,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/factory/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Privacy & site information",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Your inquiry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Saved drafts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Cookies and external services",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Product and company information",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Contact",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 2269,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/privacy/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Covered components & gear forms+"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Custom machined parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "From the workshop",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 327.46875,
+        "text": "Covered components & gear forms",
+        "width": 307.46875,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Covered wheels, rollers and shaped components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Gear forms",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 2240,
+    "overflow": false,
+    "overflowElements": [
+      {
+        "class": "",
+        "height": 188.77377319335935,
+        "right": 211.68002796173096,
+        "tag": "IMG",
+        "width": 217.3600311279297,
+        "x": -5.6800031661987305
+      }
+    ],
+    "route": "/products/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Aluminum intercooler prototypes",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Core fitment and welded connections",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "A closer look at the form",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4889,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Billet aluminum engine covers",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Underside clearance and visible finish",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "A closer lookat the surface",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3894,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Billet aluminum intake manifolds",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Injector positions and fuel-rail mounts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "A closer look at the form",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3999,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Billet aluminum intake plenums",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Internal volume and throttle-flange fit",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "A closer look at the form",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5072,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Billet intake manifold prototypes",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Runner transitions and flange connections",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3504,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Transmission housings & pump bodies",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Casting allowance and datum transfer",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4131,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC-machined electronic throttle bodies",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Bore alignment and actuator space",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3462,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Stainless steel turned shafts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Working diameters and shaft datums",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3528,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Multi-bore circular milled component",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Bore sizes and face-hole positions",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3806,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Structural & aesthetic components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Mounting geometry and visible surfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3364,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Non-metallic & insulating components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Material properties for insulation and wear",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3486,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Custom machined plastic parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Polymer grade and working surfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3556,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Turned fittings, connectors & flanges",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Thread standards and sealing interfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3629,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Custom CNC-turned components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Diameters, shoulders and mating fits",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3580,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-oem-cnc-turning-manufacturer/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Milled instrument blocks & brackets",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Mounting faces and internal passages",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3471,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Rotary & cylindrical components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Cross-holes and flats around the shaft axis",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3265,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/custom-rotary-cylindrical-components/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Milled metal brackets & finished housings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Dimensions after surface finishing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3595,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Multi-sided machined components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Ports and mounting faces with shared datums",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3511,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Ring housings & angled components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Angled features on a turned housing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3446,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/global-oem-precision-machining-solutions/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Turbine & fluid-system components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Contour geometry and fluid interfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3422,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Complex internal & external turned features",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Internal grooves and inspection access",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3507,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Cast housings & structural enclosures",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Bearing alignment in a ribbed casting",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3874,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC-machined casting housings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Bore and spline geometry from a sample",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4051,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/oem-precision-cnc-machined-casting-housings/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Machined castings & OEM housings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Sealing faces and mounting holes",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3843,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-cnc-machined-castings-custom-oem-housings/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Precision-machined castings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Hidden splines and flow paths",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4007,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-cnc-machined-castings-manufacturer/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Complex-geometry plastic components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Thin walls and measurement conditions",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3546,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Turned brass & copper components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Electrical contacts or fluid fittings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3639,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Pilot-batch housings & mating parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Mating components in a pilot batch",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3547,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Functional plastic blocks & structures",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Hole patterns and insert locations",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3417,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Small-batch aluminum enclosures",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Wall geometry and stock selection",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3579,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Stainless steel turned parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Stainless grade and post-treatment fits",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3480,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Indexing plungers & locking pins",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Pin travel and engagement",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3462,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Complex aluminum housings",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Lid closure and gasket interfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3417,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Mixed-material pilot-run components",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Material and revision by part number",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3550,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 178.61459350585938,
+        "text": "Request a quote",
+        "width": 158.61459350585938,
+        "x": 20
+      },
+      {
+        "class": "er-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 216.2916717529297,
+        "text": "Prepare an RFQ email",
+        "width": 196.2916717529297,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Additional drawing and order notes"
+      },
+      {
+        "open": false,
+        "summary": "Related machining processes"
+      }
+    ],
+    "headings": [
+      {
+        "height": 40.10416793823242,
+        "level": "H1",
+        "right": 370,
+        "text": "Machined impellers",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Blade profiles and the datum axis",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Manufacturing options",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawing andinspection requirements",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3419,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/products/ultra-high-precision-machining-services/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "qv-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 283.26043701171875,
+        "text": "Discuss your inspection needs",
+        "width": 263.26043701171875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Preview blank dimensional inspection format · no results"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Quality control forCNC machined parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection records and order acceptance",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Checks at each production stage",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.91667175292969,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection equipment and methods",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Supplier qualification",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.458335876464844,
+        "level": "H2",
+        "right": 370,
+        "text": "Resources and checklists",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5412,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/quality/",
+    "template": "decision",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare email draft",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "Contact and delivery details Optional"
+      },
+      {
+        "open": false,
+        "summary": "Drawing package checklist"
+      },
+      {
+        "open": false,
+        "summary": "Before you order"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Tell us aboutyour part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 0,
+        "level": "H2",
+        "right": 0,
+        "text": "Prefer to talk first?",
+        "width": 0,
+        "x": 0
+      }
+    ],
+    "mainHeight": 1926,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/quote/",
+    "template": "operate",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 40.10416793823242,
+        "level": "H1",
+        "right": 370,
+        "text": "Resources",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "RFQ Checklist",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Drawings & Ordering",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Machining Guides",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Production & Shipping",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3640,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 160.4166717529297,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC milling vs turning vs 5-axis machining: how to choose",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Compare the processes by geometry",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "When does a part need more than one process?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Is 5-axis machining always more accurate?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 90.375,
+        "level": "H2",
+        "right": 370,
+        "text": "What should I include when asking for a process recommendation?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related part examples",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5478,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/cnc-process-selection/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Planning CNC parts for prototypes and repeat orders",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Identify the working surfaces",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Specify critical dimensions",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Specify material and finish",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Agree on prototype checks",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Confirm repeat-order requirements",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related part examples",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 3715,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "sh-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      },
+      {
+        "open": false,
+        "summary": "Transport options and import documents"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Shipping CNC parts internationally",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Five topics to confirm before a quotation",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "LZZ packing archive",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Include delivery in your RFQ",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4499,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 40.10416793823242,
+        "level": "H1",
+        "right": 370,
+        "text": "Drawings & Ordering",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 278.7708435058594,
+        "text": "RFQ Checklist",
+        "width": 167.55209350585938,
+        "x": 111.21875
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "How We Work",
+        "width": 246,
+        "x": 124
+      },
+      {
+        "height": 90.375,
+        "level": "H2",
+        "right": 370,
+        "text": "Planning CNC parts for prototypes and repeat orders",
+        "width": 246,
+        "x": 124
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Explore Resources",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 1823,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/drawings-and-ordering/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "FAQ topics"
+      }
+    ],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Custom CNC machining FAQ",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Quotes & ordering",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Preparing a quotation",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Processes & specifications",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Inspection & delivery",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Case studies & further resources",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5993,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/faq/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "ww-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 40.10416793823242,
+        "level": "H1",
+        "right": 370,
+        "text": "How We Work",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Key facts and preparation",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Define the work",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Approve before production",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Prepare for handover",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "If there is an issue",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Part examples from our work",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Have a part in mind?",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5914,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/how-we-work/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "Specifying material and finish for a machined part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Finishing services and acceptance points",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Describe the operating conditions",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Specify the material grade",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Material examples named in the original brochure",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Compare material families by the job",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "How should I compare material options?",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Define the finish requirements",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Resolve dimensions after treatment",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Record the requirements in your RFQ",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related part examples",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 7165,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/material-and-finish-checklist/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 304.3645935058594,
+        "text": "Read process selection guide",
+        "width": 284.3645935058594,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 292.71875,
+        "text": "Read material & finish guide",
+        "width": 272.71875,
+        "x": 20
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC processes,materials and finishes",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 90.375,
+        "level": "H2",
+        "right": 370,
+        "text": "CNC milling vs turning vs 5-axis machining: how to choose",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Specifying material and finish for a machined part",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Surface-coated parts",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.3125,
+        "level": "H2",
+        "right": 370,
+        "text": "Define the coating requirement",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 68.3125,
+        "level": "H2",
+        "right": 370,
+        "text": "Compare the part construction",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 34.15625,
+        "level": "H2",
+        "right": 370,
+        "text": "Other resources",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 73.1875,
+        "level": "H2",
+        "right": 370,
+        "text": "Discuss material and finish",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5478,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/processes-materials-finishes/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 370,
+        "text": "Prepare RFQ email",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "Production & Shipping",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 120.5,
+        "level": "H2",
+        "right": 370,
+        "text": "CNC prototype vs small-batch production: what changes?",
+        "width": 246,
+        "x": 124
+      },
+      {
+        "height": 120.5,
+        "level": "H2",
+        "right": 370,
+        "text": "Shipping CNC machined parts internationally: a quote checklist",
+        "width": 246,
+        "x": 124
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Explore Resources",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 1381,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/production-and-shipping/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "ag-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 194.71875,
+        "text": "Prepare RFQ email",
+        "width": 174.71875,
+        "x": 20
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "summary": "On this page"
+      }
+    ],
+    "headings": [
+      {
+        "height": 120.3125,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC prototypes and small-batch production",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Validate the first sample",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Approve what will repeat",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Plan the repeat order",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Compare suppliers before committing",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "What to include in your next batch RFQ",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 4523,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "template": "read",
+    "viewport": 390
+  },
+  {
+    "bodyFont": "17px",
+    "brokenImages": [],
+    "buttons": [
+      {
+        "class": "button header-quote",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 44,
+        "radius": "2px",
+        "right": 314.00001525878906,
+        "text": "Request a Quote",
+        "width": 148.8541717529297,
+        "x": 165.14584350585938
+      },
+      {
+        "class": "rq-button",
+        "color": "rgb(203, 18, 23)",
+        "font": "15px",
+        "height": 48,
+        "radius": "2px",
+        "right": 224.71875,
+        "text": "Prepare RFQ email",
+        "width": 204.71875,
+        "x": 20
+      }
+    ],
+    "details": [],
+    "headings": [
+      {
+        "height": 80.20833587646484,
+        "level": "H1",
+        "right": 370,
+        "text": "CNC machining RFQ checklist",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Five essential requirements",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Define how the part will be accepted",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 60.25,
+        "level": "H2",
+        "right": 370,
+        "text": "Specify the material and final surface",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "What drawing review returns",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Set the commercial brief",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Related part examples",
+        "width": 350,
+        "x": 20
+      },
+      {
+        "height": 30.125,
+        "level": "H2",
+        "right": 370,
+        "text": "Ready to prepare the email?",
+        "width": 350,
+        "x": 20
+      }
+    ],
+    "mainHeight": 5275,
+    "overflow": false,
+    "overflowElements": [],
+    "route": "/resources/rfq-checklist/",
+    "template": "read",
+    "viewport": 390
+  }
+]

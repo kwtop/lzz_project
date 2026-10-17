@@ -1,0 +1,15 @@
+---
+import type {CapabilityPageData} from '../data/capabilityDesign';
+import WorkshopVideo from './WorkshopVideo.astro';
+import CapabilityWorkflow from './CapabilityWorkflow.astro';
+interface Props {page:CapabilityPageData}
+const {page}=Astro.props;
+const {plan,design,turning,slug}=page;
+const source=design.parts==='source';
+---
+<header class="cd-heading"><h2 id={turning?'turning-parts-title':'service-parts-title'}>{plan.exampleHeading}</h2><p>{page.reading?.examples||plan.exampleIntro}</p></header>
+<div class:list={['cd-part-layout','cd-part-layout--'+design.parts]}>{page.parts.map(part=>{
+ const omitImage=!page.reading&&(source||design.hero==='product'&&part.src===page.heroArt.src);
+ return <article class:list={['cd-part',{'cd-part--text-only':omitImage}]}>{!omitImage&&<figure><a href={part.href} aria-label={'View '+part.title}><img src={part.src} srcset={part.srcset} sizes="(max-width:760px) calc(100vw - 44px), 440px" width="1536" height="1024" loading="lazy" decoding="async" alt={part.alt}/></a><figcaption>{part.caption}</figcaption></figure>}<div><h3>{part.title}</h3><p>{part.text}</p><a class="cd-link" href={part.href}>View part requirements</a></div></article>;
+})}</div>
+{source&&<div class="cd-parts-workshop"><CapabilityWorkflow page={page} embedded/>{slug==='plastic-machined-parts'&&<div class="cd-video"><WorkshopVideo id="peek-parts" title="PEEK machined parts: a closer look" description="Original clip of PEEK components with perimeter holes and parallel slots." headingLevel="h3" compact/></div>}</div>}

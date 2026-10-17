@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-13",
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "T06",
+      "stem": "turning-geometry-v1",
+      "kind": "AI-generated generic technical illustration",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12dd5-0c5a-7910-86ba-247cca059345\\exec-df2b6520-6494-4ed7-8a0c-1412175de134.png",
+      "prompt": "Create one landscape 4:3 technical editorial image for a CNC machining buying guide. One generic stepped cylindrical metal shaft, complete silhouette, centrally placed in readable three-quarter view, axis runs left to right. Clearly visible rotational symmetry and stepped diameters, no complex features. Quiet white background, neutral satin aluminum, subtle machining texture, soft studio light from upper left, restrained contact shadow. Object occupies about 75 percent width with generous clean margins. This is a generic teaching illustration, not an actual customer product. No text, numbers, dimension lines, labels, logos, machine, hands, certificates, watermark or decorative objects.",
+      "files": [
+        {
+          "path": "/media/resources/turning-geometry-v1-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 5454
+        },
+        {
+          "path": "/media/resources/turning-geometry-v1-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 14140
+        },
+        {
+          "path": "/media/resources/turning-geometry-v1-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 34732
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "stem": "milling-geometry-v1",
+      "kind": "AI-generated generic technical illustration",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12dd5-0c5a-7910-86ba-247cca059345\\exec-66fdfaf6-4327-4377-a152-fa9b48705c20.png",
+      "prompt": "Create one landscape 4:3 technical editorial image for a CNC machining buying guide. One generic prismatic satin aluminum block, complete silhouette, centrally placed in readable three-quarter view. A single uncomplicated rectangular pocket in the top face, four clearly separated holes at its corners, clean flat faces and modest edge breaks. White background, neutral silver metal, subtle machining texture, soft studio light from upper left and restrained contact shadow. Object occupies about 75 percent width with generous clean margins. Match a quiet product illustration series, not glossy advertising. Generic teaching illustration, not actual customer product. No text, numbers, dimensions, labels, logos, machines, tools, hands, certificates, watermarks or decorative objects. Keep the geometry plausible and simple.",
+      "files": [
+        {
+          "path": "/media/resources/milling-geometry-v1-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 10024
+        },
+        {
+          "path": "/media/resources/milling-geometry-v1-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 27440
+        },
+        {
+          "path": "/media/resources/milling-geometry-v1-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 57672
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "stem": "multi-axis-geometry-v1",
+      "kind": "AI-generated generic technical illustration",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12dd5-0c5a-7910-86ba-247cca059345\\exec-cacaebb2-1aac-405f-82b3-407681a5879c.png",
+      "prompt": "Create one landscape 4:3 technical editorial illustration for a CNC machining buying guide: a single simple faceted satin aluminum component, centered and fully visible in three-quarter view on pure white. Compact prismatic body, one obvious angled top face, with a single simple circular bore normal to that angled face and another visible flat side with a simple round hole. Plausible uncomplicated solid geometry. Clearly readable different face orientations. Neutral silver metal, modest machining texture, soft studio light from upper left, restrained shadow, generous margins. Match a quiet series of generic stepped shaft and pocketed block teaching images. No text, dimensions, angle numbers, labels, logos, machine, toolpath, arrows, hands, certificates, elaborate impeller, watermark or decorative props. Generic illustration only, not a customer's actual part.",
+      "files": [
+        {
+          "path": "/media/resources/multi-axis-geometry-v1-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 5136
+        },
+        {
+          "path": "/media/resources/multi-axis-geometry-v1-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 13446
+        },
+        {
+          "path": "/media/resources/multi-axis-geometry-v1-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 30388
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "stem": "finish-interfaces-v1",
+      "kind": "AI-generated generic technical illustration",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12dd5-0c5a-7910-86ba-247cca059345\\exec-cd41fd89-65d4-4e88-9510-6f2c29e633e6.png",
+      "prompt": "Create a landscape 4:3 engineering editorial teaching illustration: one simple satin aluminum block with a shallow rectangular pocket and a prominent circular bore, fully visible, centered in readable three-quarter view on pure white. Apply a subtle translucent muted red visual highlight ONLY to one exterior flat face to indicate a surface to discuss for treatment. Leave the bore interior, its rim, and the pocket and other faces neutral silver, representing interfaces to protect. Red is an annotation-like discussion marker, not a realistic paint/coating result. Soft upper-left studio light, restrained shadow, neutral metal texture, ample margins. Simple plausible geometry. No words, labels, arrows, dimensions, thickness numbers, branding, tool, machine, hands, certificate, approval mark or watermark. A generic educational illustration, not an actual approved treatment scheme.",
+      "files": [
+        {
+          "path": "/media/resources/finish-interfaces-v1-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 8978
+        },
+        {
+          "path": "/media/resources/finish-interfaces-v1-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 21786
+        },
+        {
+          "path": "/media/resources/finish-interfaces-v1-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 44600
+        }
+      ]
+    }
+  ]
+}

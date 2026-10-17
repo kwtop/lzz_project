@@ -1,0 +1,14 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import CapabilityApplications from './CapabilityApplications.astro';
+import '../styles/capability-inspection-review.css';
+interface Props {page:RevisedCapability;title?:string;intro?:string;questions?:RevisedCapability['scopeQuestions'];checks?:RevisedCapability['acceptanceChecks'];compactEvidence?:boolean}
+const {page,title='Agree inspection before production',intro=page.overview.inspection,questions=page.scopeQuestions,checks=page.acceptanceChecks,compactEvidence=false}=Astro.props;
+---
+<section class:list={['inspection-review rd-section',{'inspection-review--compact':compactEvidence}]} id="engineering-fit" data-core-section="inspection">
+ <header>{compactEvidence?<><div><h2>{title}</h2><p>{intro}</p></div><CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from equipment records." sizes="180px"/></>:<><h2>{title}</h2><p>{intro}</p></>}</header>
+ <table class="rd-table rd-stacked" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{checks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table>
+ <slot/>
+ <div class="inspection-review-context"><div>{questions.length>0&&<div class="inspection-review-questions">{questions.map(q=><div><h3>{q.question}</h3><p>{q.answer}</p></div>)}</div>}<CapabilityApplications slug={page.slug}/><a class="rd-link" href="/factory/#quality">Inspection methods, stages and records</a><slot name="links"/></div>{!compactEvidence&&<CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from equipment records." sizes="220px"/>}</div>
+</section>

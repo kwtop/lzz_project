@@ -1,0 +1,160 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Capabilities":
+        - /url: /capabilities/
+      - generic: /
+      - generic: Plastic machining
+    - heading "Engineering plastics, machined for your part" [level=1]
+    - paragraph: Milled and turned engineering plastics for insulating parts and structural blocks. Browse examples by shape and function.
+    - link "Prepare RFQ email":
+      - /url: /quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F
+    - figure "Non-metallic & insulating components":
+      - link "View Non-metallic & insulating components":
+        - /url: /products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/
+        - img "Non-metallic & insulating components"
+      - generic: Non-metallic & insulating components
+    - heading "Plastic insulators, wear parts and housings" [level=2]
+    - paragraph: Insulating plates, wear components and machined blocks place different demands on a polymer. Specify the grade for the operating environment and loads, then review the machining and measurement conditions.
+    - term: Geometry & process
+    - definition: For insulating components, wear parts, seals and lightweight structural pieces. Milling and turning cover drilled blocks, gears, rollers, thin walls, deep pockets and multi-axis holes.
+    - term: Size & workholding
+    - definition: Send a 3D model with the overall dimensions and stock size. Low-stress workholding and temperature control address deformation. Review clamping space, tool access, thin sections and assembly loads together.
+    - term: Material & finish
+    - definition: PEEK, PTFE, polyimide, nylon, acetal/Delrin, HDPE, UHMW, acrylic and polycarbonate are listed in the plastic machining service. Specify the exact polymer grade, fillers and stock condition. Define edge quality, cleaning and mating-surface requirements.
+    - term: Grades to discuss
+    - definition:
+      - paragraph:
+        - strong: "Engineering plastics:"
+        - text: POM (acetal) · PTFE · PEEK · Nylon · PA6 · PA66 · ABS · PC · PVC · PP
+      - paragraph: Specify the polymer grade and condition. Acetal and Delrin are not treated as different base polymers here; confirm a branded grade if required.
+    - generic "Build the inspection plan around the polymer"
+    - heading "More part examples" [level=2]
+    - link "Browse all parts":
+      - /url: /products/
+    - link "Plastic components Custom machined plastic parts":
+      - /url: /products/custom-oem-cnc-machined-plastic-parts-manufacturer/
+      - img "Plastic components"
+      - heading "Custom machined plastic parts" [level=3]
+    - link "Complex-geometry plastic components Complex-geometry plastic components":
+      - /url: /products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/
+      - img "Complex-geometry plastic components"
+      - heading "Complex-geometry plastic components" [level=3]
+    - heading "Machining in practice" [level=2]
+    - link "All machining studies":
+      - /url: /cases/
+    - 'link "A closer view of the transparent rims and stepped forms. Custom plastic parts: PTFE, POM, PE and acrylic Guide strips, gears, transparent components and PTFE forms for custom plastic-part enquiries."':
+      - /url: /cases/custom-plastic-parts-ptfe-pom-pe-acrylic/
+      - img "A closer view of the transparent rims and stepped forms."
+      - 'heading "Custom plastic parts: PTFE, POM, PE and acrylic" [level=3]'
+      - paragraph: Guide strips, gears, transparent components and PTFE forms for custom plastic-part enquiries.
+    - 'region "PEEK machined parts: a closer look"':
+      - 'heading "PEEK machined parts: a closer look" [level=2]'
+      - paragraph: Original workshop footage shows rectangular PEEK components with perimeter holes and narrow parallel slots. Compare the geometry; specify your exact grade, dimensions and inspection requirements in the drawing.
+      - paragraph: 3-second original clip
+      - figure "Select play to view the original footage.":
+        - 'generic "PEEK machined parts: a closer look"': Your browser does not support this video. .
+        - generic: Select play to view the original footage.
+    - heading "Drawing & acceptance" [level=2]
+    - heading "Drawing requirements" [level=3]
+    - paragraph: Give the exact polymer grade, fillers and stock condition. Identify temperature, moisture, chemical exposure and electrical requirements relevant to selection.
+    - paragraph: Mark thin walls and deep pockets, along with press fits and inserts. Include assembly loads and any permitted geometry changes.
+    - heading "Inspection and acceptance" [level=3]
+    - paragraph: Agree measurement and conditioning requirements where material behavior affects acceptance. Define hole position, flatness and mating-surface criteria.
+    - paragraph: Specify edge, cleanliness and surface requirements; a product photograph is not evidence of electrical, food-contact or medical compliance.
+    - paragraph: Agree the measurement method and required records before production.
+    - navigation "Inspection and order information":
+      - link "Quality & inspection":
+        - /url: /quality/
+      - generic "Equipment and order records"
+    - heading "Prepare your plastic machining enquiry" [level=2]
+    - paragraph: Send a model and drawing, selected grade or selection constraints, quantities and application conditions.
+    - paragraph: Specify the documentation, material certification or functional tests you need. Confirm availability and responsibility.
+    - link "Prepare RFQ email":
+      - /url: /quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F
+    - paragraph: Add your requirements to the email draft, then attach drawings in your email app before sending.
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - navigation "Useful engineering resources":
+      - heading "Related resources" [level=3]
+      - link "Drawing & RFQ checklist":
+        - /url: /resources/rfq-checklist/
+        - generic: Drawing & RFQ checklist
+      - link "Material & Finish Guide":
+        - /url: /resources/material-and-finish-checklist/
+        - generic: Material & Finish Guide
+      - generic "More engineering resources"
+    - navigation "Related capabilities":
+      - heading "Related materials" [level=2]
+      - link "Stainless steel machining":
+        - /url: /capabilities/stainless-steel-cnc-parts/
+        - text: Stainless steel machining
+        - generic: ↗
+      - link "Copper & brass machining":
+        - /url: /capabilities/copper-brass-cnc-parts/
+        - text: Copper & brass machining
+        - generic: ↗
+      - link "Aluminum machining":
+        - /url: /capabilities/aluminum-cnc-parts/
+        - text: Aluminum machining
+        - generic: ↗
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

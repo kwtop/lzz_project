@@ -1,0 +1,277 @@
+/* Direction A: source photographs, open image fields and ruled technical copy. */
+body.precision-gallery :is(.studies-page,.case-study,.ps-page,.news-directory,.company-gallery-news,.mo-page){
+ --reading-section-space:80px;background:#fff;color:var(--ink);
+}
+body.precision-gallery :is(.studies-page,.case-reading-body,.news-body,.news-story-list,.news-cover,.news-related,.news-return){max-width:1280px}
+body.brand-site.finesse-redesigned.precision-gallery :is(.case-study,.ps-page,.news-directory,.company-gallery-news,.mo-page,.context-grid) img{border:0;border-radius:0;box-shadow:none}
+body.precision-gallery :is(.studies-page,.case-study,.ps-page,.news-directory,.company-gallery-news,.mo-page) [id]{scroll-margin-top:112px}
+body.precision-gallery .gallery-link{display:inline-flex;align-items:center;min-height:44px;max-width:100%;padding:10px 16px;border:1px solid #bfc0bf;background:transparent;color:var(--ink);font-size:15px;line-height:1.45;font-weight:500;text-decoration:none;box-shadow:none;border-radius:0;overflow-wrap:anywhere}
+body.precision-gallery .gallery-link:hover{background:#f4f4f2;border-color:var(--ink);color:var(--ink)}
+body.precision-gallery .gallery-link:focus-visible{outline:2px solid var(--red);outline-offset:4px}
+body.precision-gallery :is(.case-study,.ps-page,.company-gallery-news,.mo-page) .reading-header{padding-block:72px 52px}
+body.precision-gallery :is(.case-study,.ps-page,.company-gallery-news,.mo-page,.news-directory) .reading-header h1{max-width:22ch!important}
+body.precision-gallery :is(.case-study,.ps-page,.company-gallery-news,.mo-page,.news-directory) .reading-description{max-width:62ch!important}
+
+/* Study index: one large lead photograph, then paired image fields. */
+body.precision-gallery .studies-page>header{padding-block:72px 64px}
+body.precision-gallery .studies-page h1{margin:0}
+body.precision-gallery .studies-page p{margin-top:18px;color:var(--muted)}
+body.brand-site.finesse-redesigned.precision-gallery .studies-page header>p:first-of-type{font-size:22px!important;line-height:1.5!important;max-width:44ch!important}
+body.brand-site.finesse-redesigned.precision-gallery .studies-page .study-scope{font-size:14px!important;line-height:1.6!important;max-width:84ch!important;margin-top:24px}
+body.precision-gallery .study-breadcrumb{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px;color:var(--muted);font-size:14px}
+body.precision-gallery .study-tasks{display:flex;flex-wrap:wrap;gap:0 32px;margin-top:30px;padding-top:18px;border-top:1px solid var(--border)}
+body.precision-gallery .study-tasks a{display:flex;align-items:center;min-height:44px;font-size:16px;text-decoration:none;border-bottom:1px solid transparent}
+body.precision-gallery .study-tasks a:hover{border-color:var(--ink)}
+body.precision-gallery .studies-page>section{padding-block:80px;border-top:1px solid var(--border)}
+body.precision-gallery .study-featured{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:56px;align-items:center;margin-top:40px}
+body.precision-gallery .study-image{display:block;min-width:0;background:#f7f7f5}
+body.precision-gallery .study-image img{display:block;width:100%;height:390px;object-fit:contain}
+body.precision-gallery .study-featured .study-image img{height:490px}
+body.precision-gallery .study-featured h3{margin-block:0 16px}
+body.precision-gallery .study-featured .gallery-link{margin-top:28px}
+body.precision-gallery .study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px 48px;margin-top:80px;align-items:start}
+body.precision-gallery .study-grid article{min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .study-process{font-size:14px!important;line-height:1.6!important;color:var(--muted);margin-block:24px 10px}
+body.precision-gallery .study-grid h3{margin:24px 0 0;max-width:26ch!important}
+body.precision-gallery .study-grid .gallery-link{margin-top:22px}
+body.precision-gallery .study-grid article:last-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);column-gap:56px;align-items:start}
+body.precision-gallery .study-grid article:last-child>.study-image{grid-row:1/3}
+body.precision-gallery .study-grid article:last-child>h3{margin-top:0}
+body.precision-gallery .study-grid article:last-child>.study-image img{height:440px}
+body.precision-gallery .study-grid article:last-child>.gallery-link{justify-self:start;align-self:start}
+body.precision-gallery .study-collections{margin-top:40px}
+body.precision-gallery .study-collections article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center;padding-block:40px;border-bottom:1px solid var(--border)}
+body.precision-gallery .study-collection-image{display:block;min-width:0}
+body.precision-gallery .study-collection-image img{display:block;width:100%;height:340px;object-fit:contain}
+body.precision-gallery .study-collections .gallery-link{margin-top:24px}
+body.precision-gallery .study-checklist dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 64px;margin-block:40px}
+body.precision-gallery .study-checklist dl>div{padding-top:20px;border-top:1px solid var(--border)}
+body.precision-gallery .study-checklist dd{margin:12px 0 0;color:var(--muted)}
+body.precision-gallery .study-closing{display:flex;align-items:flex-start;justify-content:space-between;gap:48px;padding-top:28px}
+body.brand-site.finesse-redesigned.precision-gallery .study-closing p{font-size:14px!important;max-width:58ch!important}
+
+/* Study details: large photographic evidence followed by drawing inputs. */
+body.precision-gallery .case-study p{max-width:74ch}
+body.brand-site.finesse-redesigned.precision-gallery .case-scope{font-size:14px!important;line-height:1.6!important;margin:24px 0 0;color:var(--muted);max-width:88ch!important}
+body.precision-gallery .case-component{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:64px;align-items:center}
+body.precision-gallery .case-study figure{margin:0;min-width:0}
+body.precision-gallery .case-study figure>a{display:block}
+body.precision-gallery .case-study img{display:block;width:100%;height:auto;max-height:650px;object-fit:contain}
+body.precision-gallery .case-component img{height:500px;max-height:none;background:#f7f7f5}
+body.precision-gallery .case-study figcaption{margin-top:14px;color:var(--muted)}
+body.precision-gallery .case-study section p{margin-top:22px;color:var(--muted)}
+body.precision-gallery .case-setup-photos{max-width:1020px;margin-top:40px}
+body.precision-gallery .case-setup-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;max-width:none}
+body.precision-gallery .case-setup-pair img{height:420px;object-fit:contain}
+body.precision-gallery .case-sequence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px;padding:0;margin-top:36px;list-style:none}
+body.precision-gallery .case-sequence li{padding-top:20px;border-top:1px solid var(--border)}
+body.precision-gallery .case-feature-notes{margin-top:40px;padding-top:28px;border-top:1px solid var(--border);max-width:80ch}
+body.precision-gallery .case-check-table{margin-block:36px;overflow:auto}
+body.precision-gallery .case-check-table table{width:100%;border-collapse:collapse;text-align:left;font-size:16px;line-height:1.65}
+body.precision-gallery .case-check-table th,body.precision-gallery .case-check-table td{padding:22px 24px 22px 0;border-bottom:1px solid var(--border);vertical-align:top}
+body.precision-gallery .case-check-table thead th{border-top:1px solid var(--border);color:var(--muted);background:transparent}
+body.precision-gallery .case-check-table th:first-child{width:24%;font-weight:550}
+body.precision-gallery .case-related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;margin-block:36px}
+body.precision-gallery .case-related-grid nav,body.precision-gallery .case-related-grid>div{display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-width:0}
+body.precision-gallery .case-related-grid .gallery-link{display:block;width:100%}
+body.precision-gallery .case-related-grid p{margin:0}
+body.brand-site.finesse-redesigned.precision-gallery[data-page-template=read] :is(.case-closing,.ps-closing){display:flex;align-items:center;justify-content:space-between;gap:48px;padding:64px 48px!important;margin-block:36px 80px;background:#17191b;color:#fff}
+body.precision-gallery :is(.case-closing,.ps-closing) h2{max-width:20ch!important;color:#fff}
+body.precision-gallery :is(.case-closing,.ps-closing) p{color:#c4c5c6;max-width:58ch!important}
+body.precision-gallery .case-study .case-closing p,body.precision-gallery .ps-page .ps-closing p{color:#c4c5c6}
+body.precision-gallery :is(.case-closing,.ps-closing)>.button{flex-shrink:0}
+
+/* Prismatic study media and separate source photographs. */
+body.precision-gallery .ps-width{width:min(1280px,calc(100% - var(--layout-gutter)*2));margin-inline:auto}
+body.precision-gallery .ps-page figure{min-width:0;margin:0}
+body.precision-gallery .ps-hero{margin-top:32px}
+body.precision-gallery .ps-hero>img{display:block;width:100%;height:auto;aspect-ratio:2.18;object-fit:cover}
+body.precision-gallery .ps-page figcaption{margin-top:14px;color:var(--muted)}
+body.precision-gallery .ps-features{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:64px;align-items:center;width:min(1280px,calc(100% - var(--layout-gutter)*2));margin-inline:auto}
+body.precision-gallery .ps-photo{display:block}
+body.precision-gallery .ps-photo img{display:block;width:100%;height:auto;object-fit:contain}
+body.precision-gallery .ps-parts-photo img{height:520px;background:#f6f6f4}
+body.precision-gallery .ps-feature-copy p{margin-top:24px;color:var(--muted)}
+body.precision-gallery .ps-setup{background:#f6f6f4}
+body.precision-gallery .ps-setup-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;align-items:center}
+body.precision-gallery .ps-setup-grid p{margin-top:24px;color:var(--muted)}
+body.precision-gallery .ps-setup-photo img{height:380px;object-fit:cover}
+body.precision-gallery .ps-originals{padding-top:64px}
+body.precision-gallery .ps-originals>p{margin-top:18px;color:var(--muted)}
+body.precision-gallery .ps-originals>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;margin-top:32px}
+body.precision-gallery .ps-originals img{display:block;width:100%;height:400px;object-fit:contain}
+body.precision-gallery .ps-inspection>p{margin-top:22px;color:var(--muted)}
+body.precision-gallery .ps-checks{margin-block:36px;border-top:1px solid var(--border)}
+body.precision-gallery .ps-checks>div{display:grid;grid-template-columns:1fr 2.1fr;gap:40px;border-bottom:1px solid var(--border);padding-block:20px}
+body.precision-gallery .ps-checks dd{margin:0;color:var(--muted)}
+body.precision-gallery .ps-related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;margin-top:32px}
+body.precision-gallery .ps-related-grid nav{display:grid;align-content:start;gap:16px;min-width:0}
+body.precision-gallery .ps-related-grid p{color:var(--muted)}
+body.precision-gallery .ps-quote-note{margin-top:22px}
+
+/* Material collections and source clips. */
+body.precision-gallery .collection-section p{margin-top:22px;color:var(--muted)}
+body.precision-gallery .collection-section{padding-block:80px;border-top:1px solid var(--border)}
+body.precision-gallery .collection-row{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:64px;align-items:start}
+body.precision-gallery .collection-row>*{min-width:0}
+body.precision-gallery .collection-row>div:first-child{grid-column:2;grid-row:1}
+body.precision-gallery .collection-row>.collection-media{grid-column:1;grid-row:1}
+body.precision-gallery .collection-media figure{margin:0}
+body.precision-gallery .collection-media img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain}
+body.precision-gallery .collection-media figcaption{margin-top:14px;color:var(--muted)}
+body.precision-gallery .collection-fields{margin-top:32px}
+body.precision-gallery .collection-fields>div{padding-block:18px;border-top:1px solid var(--border)}
+body.precision-gallery .collection-fields dd{margin:10px 0 0;color:var(--muted)}
+body.precision-gallery .collection-all{margin-top:28px;border-top:1px solid var(--border)}
+body.precision-gallery .collection-section nav{display:flex;flex-wrap:wrap;gap:16px;margin-top:32px}
+body.precision-gallery .collection-compare{margin-top:36px}
+body.precision-gallery .collection-compare>div{display:grid;grid-template-columns:1fr 2fr;gap:40px;border-top:1px solid var(--border);padding-block:20px}
+body.precision-gallery .collection-compare dd{margin:0;color:var(--muted)}
+body.precision-gallery .workshop-video{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);gap:56px;align-items:start;border-top:1px solid var(--border);padding-block:48px;margin-top:40px}
+body.precision-gallery .workshop-video p{max-width:60ch;margin-top:20px;color:var(--muted)}
+body.brand-site.finesse-redesigned.precision-gallery .workshop-video .clip-detail{font-size:14px!important}
+body.precision-gallery .workshop-video figure{margin:0;min-width:0}
+body.precision-gallery .workshop-video video{display:block;width:100%;height:auto;max-height:680px;background:#17191b;object-fit:contain}
+body.precision-gallery .workshop-video figcaption{margin-top:14px}
+body.precision-gallery .collection-media .workshop-video{display:block;margin-top:32px;padding-bottom:0}
+body.precision-gallery .collection-media .workshop-video h2{font-size:24px!important}
+body.precision-gallery .collection-media .workshop-video figure{max-width:400px;margin:24px auto 0}
+
+/* Company news: a photographic lead and broad editorial image sequences. */
+body.precision-gallery .news-directory .reading-header{padding-block:72px 64px}
+body.precision-gallery .news-story-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px 48px;padding-bottom:80px}
+body.precision-gallery .news-story{display:block;min-width:0}
+body.precision-gallery .news-story-image{display:block;min-width:0}
+body.precision-gallery .news-story img{display:block;width:100%;height:auto;aspect-ratio:1.45;object-fit:cover}
+body.precision-gallery .news-story time{display:block;margin-block:22px 14px;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+body.precision-gallery .news-story h2{font-size:30px!important;max-width:28ch!important;margin:0}
+body.precision-gallery .news-story p{margin-block:20px 24px;color:var(--muted);max-width:55ch}
+body.precision-gallery .news-story-featured{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:56px;align-items:center}
+body.precision-gallery .news-story-featured img{aspect-ratio:1.6}
+body.precision-gallery .news-story-featured h2{font-size:clamp(30px,3.4vw,46px)!important}
+body.precision-gallery .news-photo-index{padding-block:36px;border-block:1px solid var(--border)}
+body.precision-gallery .news-photo-index>h2{margin-bottom:28px}
+body.precision-gallery .news-photo-years{display:grid;grid-template-columns:1fr 1fr;gap:40px 64px}
+body.precision-gallery .news-photo-year h3{font-size:24px!important}
+body.precision-gallery .news-photo-year ul{margin:16px 0 0;padding:0;list-style:none}
+body.precision-gallery .news-photo-year a{display:flex;align-items:center;min-height:48px;padding-block:12px;border-bottom:1px solid var(--border);text-decoration:none}
+body.precision-gallery .news-company-links{display:flex;flex-wrap:wrap;gap:20px;padding-block:40px 72px}
+body.precision-gallery .news-event-date{margin-top:24px;color:var(--muted)}
+body.precision-gallery .news-cover{margin-top:0;margin-bottom:0}
+body.precision-gallery .news-cover>a{display:block}
+body.precision-gallery .news-cover img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+body.precision-gallery .news-cover figcaption{margin-top:16px;color:var(--muted)}
+body.precision-gallery .news-lead{max-width:56ch;padding-block:56px 24px;font-size:24px;line-height:1.5;color:var(--ink)}
+body.precision-gallery .news-editorial-section{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1fr);gap:64px;padding-block:48px;border-top:1px solid var(--border)}
+body.precision-gallery .news-editorial-section h2{font-size:34px!important;max-width:18ch!important}
+body.precision-gallery .news-section-content p{margin-block:0 22px;color:var(--muted)}
+body.precision-gallery .news-section-content a:not(.news-photo-gallery a){display:inline;padding:0;min-height:0;border:0;background:transparent;text-decoration:underline;text-underline-offset:4px}
+body.precision-gallery .news-gallery-section{display:block}
+body.precision-gallery .news-gallery-section h2{max-width:none!important;margin-bottom:36px}
+body.precision-gallery .news-photo-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 40px;align-items:start;margin-block:0 40px}
+body.precision-gallery .news-photo-gallery figure{margin:0;min-width:0}
+body.precision-gallery .news-photo-gallery figure[data-photo-shape=landscape]:nth-child(3n+1){grid-column:1/-1}
+body.precision-gallery .news-photo-gallery a{display:block;padding:0;border:0;min-height:0;background:transparent;box-shadow:none}
+body.precision-gallery .news-photo-gallery img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+body.precision-gallery .news-photo-gallery figcaption{margin-top:14px;color:var(--muted)}
+body.precision-gallery .news-related{padding-block:56px;border-top:1px solid var(--border)}
+body.precision-gallery .news-related>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;margin-top:32px}
+body.precision-gallery .news-related a{display:grid;gap:12px;padding-block:24px;border-block:1px solid var(--border);font-size:24px;line-height:1.3;font-weight:500}
+body.precision-gallery .news-related time{font-size:14px;font-weight:400;color:var(--muted)}
+body.precision-gallery .news-return{display:flex;flex-wrap:wrap;gap:20px;padding-block:0 80px}
+body.precision-gallery .mo-wrap{width:min(1280px,calc(100% - var(--layout-gutter)*2));margin-inline:auto}
+body.precision-gallery .mo-page figure{margin:0;min-width:0}
+body.precision-gallery .mo-page figure>a{display:block}
+body.precision-gallery .mo-page img{display:block;width:100%;height:auto;object-fit:contain}
+body.precision-gallery .mo-page figcaption{margin-top:14px;color:var(--muted)}
+body.precision-gallery .mo-hero>a{width:min(1280px,calc(100% - var(--layout-gutter)*2));margin-inline:auto}
+body.precision-gallery .mo-hero img{max-height:780px}
+body.precision-gallery .mo-story{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.5fr);gap:64px;align-items:start}
+body.precision-gallery .mo-story p{margin-top:22px;color:var(--muted)}
+body.precision-gallery .mo-pair{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:48px;align-items:start}
+body.precision-gallery .mo-pair img{max-height:700px}
+body.precision-gallery .mo-continuation{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;margin-bottom:48px}
+body.precision-gallery .mo-news{padding-top:36px;border-top:1px solid var(--border)}
+body.precision-gallery .mo-news>a{display:grid;grid-template-columns:1fr 2fr;gap:40px;align-items:center;padding-block:24px;border-bottom:1px solid var(--border);font-size:22px;line-height:1.35}
+body.precision-gallery .mo-news time{font-size:14px;color:var(--muted)}
+body.precision-gallery .mo-return{margin-top:32px}
+body.precision-gallery .mo-contact-link{padding-block:20px 72px}
+
+/* Application imagery follows the shared gallery rhythm. */
+body.precision-gallery .context-section{padding-top:0}
+body.precision-gallery .context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px 48px;margin-top:36px;align-items:start}
+body.precision-gallery .context-grid article{min-width:0}
+body.precision-gallery .context-grid figure{margin:0;min-width:0}
+body.precision-gallery .context-grid img{display:block;width:100%;height:auto;aspect-ratio:1.55;object-fit:contain;background:#f7f7f5}
+body.precision-gallery .context-grid figcaption{margin-top:12px;color:var(--muted)}
+body.precision-gallery .context-copy h3{margin-block:24px 16px}
+body.precision-gallery .context-copy p{color:var(--muted)}
+body.precision-gallery .context-copy .gallery-link{margin-top:24px}
+
+@media(max-width:1100px){
+ body.precision-gallery :is(.study-featured,.study-grid article:last-child,.case-component,.collection-row,.news-story-featured,.ps-features,.ps-setup-grid,.mo-story){gap:40px}
+ body.precision-gallery .study-grid{gap:56px 32px}
+ body.precision-gallery .study-image img{height:320px}
+ body.precision-gallery .study-featured .study-image img{height:400px}
+ body.precision-gallery .case-component img{height:400px}
+ body.precision-gallery .news-editorial-section{gap:40px}
+}
+@media(max-width:760px){
+ body.precision-gallery :is(.studies-page,.case-study,.ps-page,.news-directory,.company-gallery-news,.mo-page){--reading-section-space:48px}
+ body.precision-gallery :is(.case-study,.ps-page,.company-gallery-news,.mo-page) .reading-header{padding-block:42px 32px}
+ body.precision-gallery .studies-page>header,body.precision-gallery .news-directory .reading-header{padding-block:42px 40px}
+ body.brand-site.finesse-redesigned.precision-gallery .studies-page header>p:first-of-type{font-size:19px!important}
+ body.precision-gallery .study-tasks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 20px;margin-top:24px}
+ body.precision-gallery .studies-page>section{padding-block:48px}
+ body.precision-gallery :is(.study-featured,.study-grid,.study-grid article:last-child,.study-collections article,.study-checklist dl,.case-component,.case-sequence,.case-setup-pair,.case-related-grid,.ps-features,.ps-setup-grid,.ps-originals>div,.ps-related-grid,.collection-row,.news-story-list,.news-story-featured,.news-editorial-section,.news-related>div,.mo-story,.mo-pair,.context-grid){grid-template-columns:1fr;gap:32px}
+ body.precision-gallery .study-featured{margin-top:28px}
+ body.precision-gallery .study-image img,body.precision-gallery .study-featured .study-image img,body.precision-gallery .study-grid article:last-child>.study-image img{height:auto;aspect-ratio:1.5;max-height:400px}
+ body.precision-gallery .study-grid{margin-top:48px;gap:48px}
+ body.precision-gallery .study-grid article:last-child{grid-column:auto;display:block}
+ body.precision-gallery .study-grid article:last-child>h3{margin-top:24px}
+ body.precision-gallery .study-collections article{padding-block:28px}
+ body.precision-gallery .study-collection-image img{height:auto;max-height:340px}
+ body.precision-gallery .study-closing{display:grid;gap:28px;justify-items:start}
+ body.precision-gallery .case-component img{height:auto;max-height:450px}
+ body.precision-gallery .case-setup-pair img{height:auto;max-height:500px}
+ body.precision-gallery .case-check-table table,body.precision-gallery .case-check-table tbody,body.precision-gallery .case-check-table tr,body.precision-gallery .case-check-table th,body.precision-gallery .case-check-table td{display:block;width:100%}
+ body.precision-gallery .case-check-table thead{display:none}
+ body.precision-gallery .case-check-table tr{margin-bottom:28px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+ body.precision-gallery .case-check-table th:first-child{width:100%;padding-top:16px;border-top:1px solid var(--border)}
+ body.precision-gallery .case-check-table th,body.precision-gallery .case-check-table td{padding:12px 0;border:0}
+ body.precision-gallery .case-check-table td:nth-child(2)::before{content:'Define on the drawing';display:block;margin-bottom:8px;color:var(--ink);font-weight:550}
+ body.precision-gallery .case-check-table td:nth-child(3)::before{content:'Agree for inspection';display:block;margin-bottom:8px;color:var(--ink);font-weight:550}
+ body.brand-site.finesse-redesigned.precision-gallery[data-page-template=read] :is(.case-closing,.ps-closing){display:grid;gap:28px;padding:40px 24px!important;margin-block:24px 48px;justify-items:start}
+ body.precision-gallery .ps-hero>img{aspect-ratio:1.5;object-position:64% center}
+ body.precision-gallery .ps-parts-photo img{height:auto;max-height:450px}
+ body.precision-gallery .ps-setup-photo img{height:auto}
+ body.precision-gallery .ps-originals{padding-top:40px}
+ body.precision-gallery .ps-originals img{height:auto;max-height:420px}
+ body.precision-gallery .ps-checks>div{grid-template-columns:1fr;gap:10px}
+ body.precision-gallery .collection-row>div:first-child,body.precision-gallery .collection-row>.collection-media{grid-column:auto;grid-row:auto}
+ body.precision-gallery .collection-row>.collection-media{order:-1}
+ body.precision-gallery .collection-compare>div{grid-template-columns:1fr;gap:12px}
+ body.precision-gallery .workshop-video{grid-template-columns:1fr;gap:28px;padding-block:32px}
+ body.precision-gallery .workshop-video figure{width:min(100%,400px);margin-inline:auto}
+ body.precision-gallery .news-story-list{gap:48px;padding-bottom:48px}
+ body.precision-gallery .news-story-featured{grid-column:auto;display:block}
+ body.precision-gallery .news-story-featured h2{font-size:30px!important}
+ body.precision-gallery .news-story h2{font-size:26px!important}
+ body.precision-gallery .news-photo-index{padding-block:28px}
+ body.precision-gallery .news-photo-years{grid-template-columns:1fr;gap:28px}
+ body.precision-gallery .news-company-links{padding-block:32px 48px}
+ body.precision-gallery .news-cover img{max-height:560px}
+ body.precision-gallery .news-lead{font-size:20px;line-height:1.5;padding-block:36px 24px}
+ body.precision-gallery .news-editorial-section{padding-block:32px;gap:20px}
+ body.precision-gallery .news-editorial-section h2{font-size:28px!important}
+ body.precision-gallery .news-photo-gallery{grid-template-columns:1fr;gap:32px}
+ body.precision-gallery .news-photo-gallery figure[data-photo-shape=landscape]:nth-child(3n+1){grid-column:auto}
+ body.precision-gallery .news-gallery-section h2{margin-bottom:28px}
+ body.precision-gallery .news-related{padding-block:40px}
+ body.precision-gallery .news-related>div{gap:24px;margin-top:28px}
+ body.precision-gallery .news-return{padding-bottom:48px}
+ body.precision-gallery .mo-pair img{max-height:none}
+ body.precision-gallery .mo-news>a{grid-template-columns:1fr;gap:12px;font-size:20px}
+ body.precision-gallery .mo-contact-link{padding-block:16px 48px}
+ body.precision-gallery .context-grid{gap:40px}
+}

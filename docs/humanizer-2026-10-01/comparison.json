@@ -1,0 +1,257 @@
+{
+  "pages": 81,
+  "changed": [
+    "/",
+    "/about/",
+    "/about/company-news/australian-customer-workshop-visit-january-2025/",
+    "/about/company-news/lzz-team-outing-2024/",
+    "/about/company-news/may-2025-lzz-team-outing/",
+    "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+    "/capabilities/5-axis-cnc-machining/",
+    "/capabilities/aluminum-cnc-parts/",
+    "/capabilities/casting-machining/",
+    "/capabilities/cnc-milling-service/",
+    "/capabilities/cnc-turning-service/",
+    "/capabilities/copper-brass-cnc-parts/",
+    "/capabilities/low-volume-production/",
+    "/capabilities/plastic-machined-parts/",
+    "/capabilities/prototype-machining/",
+    "/capabilities/stainless-steel-cnc-parts/",
+    "/cases/",
+    "/cases/milling-prismatic-components/",
+    "/factory/",
+    "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "/products/custom-oem-cnc-turning-manufacturer/",
+    "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "/products/custom-rotary-cylindrical-components/",
+    "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "/products/global-oem-precision-machining-solutions/",
+    "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "/products/oem-precision-cnc-machined-casting-housings/",
+    "/products/precision-cnc-machined-castings-custom-oem-housings/",
+    "/products/precision-cnc-machined-castings-manufacturer/",
+    "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "/products/ultra-high-precision-machining-services/",
+    "/quality/",
+    "/resources/cnc-process-selection/",
+    "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+    "/resources/custom-cnc-parts-shipping-checklist/",
+    "/resources/faq/",
+    "/resources/how-we-work/",
+    "/resources/material-and-finish-checklist/",
+    "/resources/processes-materials-finishes/",
+    "/resources/prototype-vs-small-batch-cnc/",
+    "/resources/rfq-checklist/"
+  ],
+  "contractChanges": [],
+  "removedNumbers": [],
+  "repeated": [
+    {
+      "count": 35,
+      "text": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.",
+      "routes": [
+        "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+        "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+        "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+        "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+        "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+        "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+        "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+        "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+        "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+        "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+        "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+        "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+        "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+        "/products/custom-oem-cnc-turning-manufacturer/",
+        "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+        "/products/custom-rotary-cylindrical-components/",
+        "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+        "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+        "/products/global-oem-precision-machining-solutions/",
+        "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+        "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+        "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+        "/products/oem-precision-cnc-machined-casting-housings/",
+        "/products/precision-cnc-machined-castings-custom-oem-housings/",
+        "/products/precision-cnc-machined-castings-manufacturer/",
+        "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+        "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+        "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+        "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+        "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+        "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+        "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+        "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+        "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+        "/products/ultra-high-precision-machining-services/"
+      ]
+    },
+    {
+      "count": 35,
+      "text": "From 1 piece · 7–14 business daysFrom drawing and order confirmation, including surface finishing; transit is additional.",
+      "routes": [
+        "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+        "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+        "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+        "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+        "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+        "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+        "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+        "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+        "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+        "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+        "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+        "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+        "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+        "/products/custom-oem-cnc-turning-manufacturer/",
+        "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+        "/products/custom-rotary-cylindrical-components/",
+        "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+        "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+        "/products/global-oem-precision-machining-solutions/",
+        "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+        "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+        "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+        "/products/oem-precision-cnc-machined-casting-housings/",
+        "/products/precision-cnc-machined-castings-custom-oem-housings/",
+        "/products/precision-cnc-machined-castings-manufacturer/",
+        "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+        "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+        "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+        "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+        "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+        "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+        "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+        "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+        "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+        "/products/ultra-high-precision-machining-services/"
+      ]
+    },
+    {
+      "count": 10,
+      "text": "Add your requirements to the email draft, then attach drawings in your email app before sending.",
+      "routes": [
+        "/capabilities/5-axis-cnc-machining/",
+        "/capabilities/aluminum-cnc-parts/",
+        "/capabilities/casting-machining/",
+        "/capabilities/cnc-milling-service/",
+        "/capabilities/cnc-turning-service/",
+        "/capabilities/copper-brass-cnc-parts/",
+        "/capabilities/low-volume-production/",
+        "/capabilities/plastic-machined-parts/",
+        "/capabilities/prototype-machining/",
+        "/capabilities/stainless-steel-cnc-parts/"
+      ]
+    },
+    {
+      "count": 6,
+      "text": "Turned shafts, fittings and recessed housings: a selection of custom metal components in batches.",
+      "routes": [
+        "/capabilities/aluminum-cnc-parts/",
+        "/capabilities/cnc-turning-service/",
+        "/capabilities/copper-brass-cnc-parts/",
+        "/capabilities/low-volume-production/",
+        "/cases/",
+        "/cases/custom-metal-parts-batch-examples/"
+      ]
+    },
+    {
+      "count": 5,
+      "text": "The photographs come from the LZZ workshop and show the part shapes and setups discussed here. They do not confirm material grades, dimensions or inspection results, and no customer is identified. Use the drawing and inspection notes to plan a similar part.",
+      "routes": [
+        "/cases/29-inch-display-housing-cnc-machining/",
+        "/cases/five-axis-machining-multi-face-parts/",
+        "/cases/milling-a-pocketed-enclosure-form/",
+        "/cases/turning-then-milling-cylindrical-parts/",
+        "/cases/two-stage-cnc-milling/"
+      ]
+    },
+    {
+      "count": 5,
+      "text": "These studies concern other workpieces and are not production or inspection records for this casting.",
+      "routes": [
+        "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+        "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+        "/products/oem-precision-cnc-machined-casting-housings/",
+        "/products/precision-cnc-machined-castings-custom-oem-housings/",
+        "/products/precision-cnc-machined-castings-manufacturer/"
+      ]
+    },
+    {
+      "count": 4,
+      "text": "Machining holes, side openings and contoured faces on a component held in a rotary setup.",
+      "routes": [
+        "/capabilities/5-axis-cnc-machining/",
+        "/capabilities/cnc-milling-service/",
+        "/cases/",
+        "/cases/five-axis-machining-multi-face-parts/"
+      ]
+    },
+    {
+      "count": 3,
+      "text": "Guide strips, gears, transparent components and PTFE forms for custom plastic-part enquiries.",
+      "routes": [
+        "/capabilities/plastic-machined-parts/",
+        "/cases/",
+        "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+      ]
+    },
+    {
+      "count": 3,
+      "text": "Compare the features in these examples with your drawing. Each part is quoted to its own specification.",
+      "routes": [
+        "/resources/cnc-process-selection/",
+        "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+        "/resources/material-and-finish-checklist/"
+      ]
+    },
+    {
+      "count": 2,
+      "text": "Send your drawing, material and quantity so we can review the part and prepare a quote.",
+      "routes": [
+        "/about/",
+        "/resources/how-we-work/"
+      ]
+    },
+    {
+      "count": 2,
+      "text": "Specify pocket depth, corner radii and wall thickness; identify the datum face, hole pattern and thread specification. Define the side bore and its relationship to the other features.",
+      "routes": [
+        "/capabilities/5-axis-cnc-machining/",
+        "/capabilities/cnc-milling-service/"
+      ]
+    },
+    {
+      "count": 2,
+      "text": "7–14 business days · Production, from 1 piece. Production starts after drawing and order confirmation. The period includes surface finishing; shipping time is additional.",
+      "routes": [
+        "/capabilities/low-volume-production/",
+        "/capabilities/prototype-machining/"
+      ]
+    }
+  ]
+}

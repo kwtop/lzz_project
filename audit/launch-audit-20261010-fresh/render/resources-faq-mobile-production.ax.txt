@@ -1,0 +1,159 @@
+Browser tab: 1, Title: "CNC Machining FAQ | LZZ Precision", URL: "http://127.0.0.1:4326/resources/faq/".
+1 AXWebArea CNC Machining FAQ | LZZ Precision, URL: 127.0.0.1:4326/resources/faq/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/resources/faq/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container
+		8 container Breadcrumb
+			9 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			10 text /
+			11 text Frequently asked questions
+		12 heading Custom CNC machining FAQ, Value: 1
+			13 text Custom CNC machining FAQ
+		14 text What to send for a quote, how production time is counted, and which inspection and shipping details to agree before ordering.
+		15 button (collapsed) FAQ topics, Secondary Actions: Expand
+			16 text FAQ topics
+		17 container Quick facts
+			18 definition list
+				19 container Minimum order
+					20 text Minimum order
+				21 text From 1 piece
+				22 text Share first-order and expected repeat quantities for separate quotes.
+				23 container Production
+					24 text Production
+				25 text 7–14 business days
+				26 text After drawing and order confirmation, including surface finishing. Shipping time is additional.
+				27 container To quote
+					28 text To quote
+				29 text Drawing + specifications
+				30 text Send drawing revision, units, material, finish, quantity and destination.
+		31 container Quotes & ordering, ID: ordering
+			32 heading Quotes & ordering, Value: 2, ID: ordering-title
+				33 text Quotes & ordering
+			34 container ordering-1
+				35 heading What is the minimum order quantity?, Value: 3
+					36 text What is the minimum order quantity?
+				37 text Orders start at 1 piece. Include your first-order quantity and expected repeat quantities so the quotation can distinguish prototype work from future batches.
+			38 container ordering-2
+				39 heading What is the production lead time?, Value: 3
+					40 text What is the production lead time?
+				41 text Production takes 7–14 business days after drawing and order confirmation, including surface finishing. Shipping time is additional. Record the confirmed production schedule and delivery arrangements in your quotation and order.
+		42 container Preparing a quotation, ID: preparing
+			43 heading Preparing a quotation, Value: 2, ID: preparing-title
+				44 text Preparing a quotation
+			45 container ordering-3
+				46 heading What should I send for a quotation?, Value: 3
+					47 text What should I send for a quotation?
+				48 text Please provide the following information:
+				49 content list
+					50 container
+						51 AXListMarker • 
+						52 text Drawing revision and units
+					53 container
+						54 AXListMarker • 
+						55 text Exact material grade and condition
+					56 container
+						57 AXListMarker • 
+						58 text Finish and surface treatment
+					59 container
+						60 AXListMarker • 
+						61 text First-order and expected repeat quantities
+					62 container
+						63 AXListMarker • 
+						64 text Delivery destination
+					65 container
+						66 AXListMarker • 
+						67 text STEP model, where available
+					68 container
+						69 AXListMarker • 
+						70 text Dimensioned 2D drawing with critical tolerances, threads and acceptance requirements
+			71 container ordering-4
+				72 heading Does the website send my inquiry or upload my drawing?, Value: 3
+					73 text Does the website send my inquiry or upload my drawing?
+				74 text No. The inquiry form prepares an email draft. Check the draft, open it in your email application, attach your drawings and send it there. Copy and download options are also available; preparing a draft does not send an inquiry to LZZ.
+		75 container Processes & specifications, ID: engineering
+			76 heading Processes & specifications, Value: 2, ID: engineering-title
+				77 text Processes & specifications
+			78 container engineering-1
+				79 heading Which machining services can I discuss with LZZ?, Value: 3
+					80 text Which machining services can I discuss with LZZ?
+				81 text Our five service areas are CNC milling, CNC turning, five-axis CNC machining, plastic machining and casting machining. Share the complete part geometry so the route, workholding and finishing requirements can be reviewed together. For castings, agree who supplies and approves the blank.
+			82 container engineering-2
+				83 heading How should I specify the material and finish?, Value: 3
+					84 text How should I specify the material and finish?
+				85 text Specify the exact material grade and condition, not just aluminum, steel or plastic. Identify cosmetic faces, surface treatment requirements, masking and dimensions that must be checked after finishing. The quotation should record the agreed specification.
+			86 container engineering-3
+				87 heading Can every feature hold ±0.01 mm?, Value: 3
+					88 text Can every feature hold ±0.01 mm?
+				89 text No. ±0.01 mm is a conditional engineering reference for selected critical features after review, not a general part tolerance or guarantee. Material, geometry, setup and measurement method determine whether it applies. Identify each critical feature on the drawing for confirmation.
+		90 container Inspection & delivery, ID: quality-delivery
+			91 heading Inspection & delivery, Value: 2, ID: quality-delivery-title
+				92 text Inspection & delivery
+			93 container quality-delivery-1
+				94 heading Which inspection documents should I request?, Value: 3
+					95 text Which inspection documents should I request?
+				96 text Specify the required dimensional results, first-article records, material traceability and finishing documents before ordering. Agree the features, sampling and report format. The quotation records the included document package and any additional cost; request current calibration evidence separately where needed.
+			97 container quality-delivery-2
+				98 heading Is LZZ ISO 9001 certified?, Value: 3
+					99 text Is LZZ ISO 9001 certified?
+				100 text LZZ is ISO 9001 certified. For supplier qualification, request the current certificate for Hangzhou Lizhizao Precision Machinery Co., Ltd., including its number, issuer, validity, scope and verification details. Company awards are separate from the ISO certificate, and quality-system certification does not replace part-specific acceptance or industry approval.
+			101 container quality-delivery-3
+				102 heading How are packing and international shipping agreed?, Value: 3
+					103 text How are packing and international shipping agreed?
+				104 text Provide the destination, receiving requirements and any vulnerable or cosmetic surfaces that need protection. Confirm the packing method, transport method, trade term and named place in the quotation. Agree the packing list, commercial invoice and other required documents. Transit time is separate from production time.
+		105 container Case studies & further resources, ID: case-studies
+			106 heading Case studies & further resources, Value: 2, ID: case-title
+				107 text Case studies & further resources
+			108 container quality-delivery-4
+				109 heading What do the machining case studies demonstrate?, Value: 3
+					110 text What do the machining case studies demonstrate?
+				111 text The studies use original LZZ workshop photographs to discuss visible part features, machining sequences and drawing questions. They are not customer performance reports, inspection results or proof of a particular delivery outcome.
+		112 container Helpful resources
+			113 heading Helpful resources, Value: 3
+				114 text Helpful resources
+			115 container Helpful resources
+				116 link Description: RFQ checklist What to prepare for a quotation, Value: 127.0.0.1:4326/resources/rfq-checklist/
+				117 link Description: Material & finish guide Grades, conditions and finishes, Value: 127.0.0.1:4326/resources/material-and-finish-checklist/
+				118 link Description: Quality control Inspection and documentation, Value: 127.0.0.1:4326/quality/
+				119 link Description: Shipping checklist Packing and delivery requirements, Value: 127.0.0.1:4326/resources/custom-cnc-parts-shipping-checklist/
+				120 link Description: Machining studies Workshop examples and process notes, Value: 127.0.0.1:4326/cases/
+				121 link Description: Back to Resources More technical resources, Value: 127.0.0.1:4326/resources/
+			122 link Description: Prototypes and repeat batches, Value: 127.0.0.1:4326/resources/prototype-vs-small-batch-cnc/
+			123 link Description: How to order, Value: 127.0.0.1:4326/resources/how-we-work/
+			124 link Description: Explore machining services, Value: 127.0.0.1:4326/capabilities/
+			125 link Description: Supplier qualification, Value: 127.0.0.1:4326/quality/#quality-management
+		126 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=Custom+CNC+machining+%E2%80%94+FAQ+follow-up
+	127 container
+		128 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		129 text Custom CNC machining
+		130 text in Hangzhou, China.
+		131 container Footer navigation
+			132 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			133 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			134 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			135 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			136 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			137 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			138 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			139 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			140 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			141 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		142 container Let’s talk, ID: contact
+			143 heading Let’s talk, Value: 2, ID: footer-talk-title
+				144 text Let’s talk
+			145 text Hangzhou, China · UTC+8
+			146 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			147 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		148 container Find us
+			149 heading Find us, Value: 2, ID: footer-find-title
+				150 text Find us
+			151 container
+				152 text No. 4 Fengcheng Road
+				153 text Pingyao, Yuhang District
+				154 text Hangzhou, Zhejiang, China
+		155 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		156 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea CNC Machining FAQ | LZZ Precision, URL: 127.0.0.1:4326/resources/faq/

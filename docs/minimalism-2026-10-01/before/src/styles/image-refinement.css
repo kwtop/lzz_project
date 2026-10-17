@@ -1,0 +1,21 @@
+/* Image presentation: complete silhouettes, calm backgrounds, source access. */
+.factory-scene-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.factory-scene-grid figure{margin:0;min-width:0}
+.factory-scene-grid img{width:100%;height:auto;aspect-ratio:1.5;object-fit:cover;border-radius:14px}
+.factory-scene-grid figcaption{display:grid;gap:8px;margin-top:16px}
+.factory-scene-grid figcaption strong{font-size:20px;line-height:1.3}
+.factory-scene-grid figcaption span{font-size:11px;color:var(--muted)}
+.factory-source-archive{margin-top:38px;border-top:1px solid var(--border);padding-top:12px}
+.factory-source-archive>summary{padding:16px 0;cursor:pointer;font-size:14px;font-weight:600}
+.factory-source-archive .workshop-archive{padding-top:20px}
+@media(max-width:760px){.factory-scene-grid{grid-template-columns:1fr;gap:28px}.factory-scene-grid img{aspect-ratio:1.6}}
+.image-provenance{font-size:12px;line-height:1.6;color:var(--muted);margin:12px 0}
+.image-provenance a{text-decoration:underline;text-underline-offset:3px}
+body.brand-site .company-parts img{object-fit:contain;background:#fff;object-position:center}
+body.brand-site .page-banner-figure figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}
+body.brand-site .resource-grid .resource-guide-image{width:100%;height:auto;aspect-ratio:1.5;object-fit:cover;border-radius:0;margin-bottom:22px}
+body.brand-site .resource-grid>a>span:not(.text-link){font-size:13px;color:var(--muted)}
+body.brand-site .article-editorial-image{max-width:1000px;margin:0 auto 48px}
+body.brand-site .article-editorial-image img{display:block;width:100%;height:auto;max-height:400px;object-fit:contain;background:#fff;border-radius:0}
+body.brand-site .article-editorial-image figcaption{font-size:14px;color:var(--muted);margin-top:12px}
+@media(max-width:760px){body.brand-site .article-editorial-image{margin-bottom:32px}body.brand-site .article-editorial-image img{border-radius:0}body.brand-site .resource-grid .resource-guide-image{margin-bottom:18px}}

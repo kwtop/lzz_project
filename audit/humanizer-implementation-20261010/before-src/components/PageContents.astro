@@ -1,0 +1,26 @@
+---
+interface Props {
+  entries: { id: string; label: string }[];
+  label?: string;
+  variant?: 'inline' | 'sidebar';
+}
+const { entries, label = 'On this page', variant = 'inline' } = Astro.props;
+---
+{entries.length > 0 && <div class:list={['reading-contents', {
+  'reading-wrap': variant === 'inline',
+  'reading-contents--sidebar': variant === 'sidebar',
+}]}>
+  <details class="page-contents-disclosure" open>
+    <summary>{label}</summary>
+    <nav aria-label={label}>{entries.map(entry =>
+      <a href={'#' + entry.id}>{entry.label}</a>
+    )}</nav>
+  </details>
+</div>}
+<script>
+  const contents = document.querySelectorAll<HTMLDetailsElement>('.page-contents-disclosure');
+  const mobile = matchMedia('(max-width:760px)');
+  const adaptContents = () => contents.forEach(item => { item.open = !mobile.matches; });
+  adaptContents();
+  mobile.addEventListener('change', adaptContents);
+</script>

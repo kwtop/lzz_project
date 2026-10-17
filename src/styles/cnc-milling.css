@@ -1,0 +1,149 @@
+/* CNC milling: the object, the real process and the technical decisions have distinct roles. */
+.redesign-site .milling-page{--milling-gap:80px;--milling-process:#20282b}
+.redesign-site .milling-page h2{font-size:32px;line-height:1.25;font-weight:550;letter-spacing:-.025em}
+.redesign-site .milling-page h3{font-size:21px;line-height:1.35;font-weight:550}
+.redesign-site .milling-hero{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr);gap:64px;align-items:center;min-height:460px}
+.redesign-site .milling-page .milling-hero h1{font-size:60px;line-height:1.06;font-weight:550;letter-spacing:-.04em;max-width:14ch}
+.redesign-site .milling-hero .milling-lead{font-size:20px;line-height:1.6;color:var(--ink);max-width:39ch;margin-top:24px}
+.redesign-site .milling-hero-image{min-width:0;width:100%}
+.redesign-site .milling-page .milling-hero-image img{width:100%;height:460px;object-fit:contain}
+.redesign-site .milling-hero-image figcaption{margin-top:4px}
+.redesign-site .milling-hero-actions{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin-top:28px}
+.redesign-site .milling-order-link{display:flex;align-items:center;min-height:44px;font-size:15px;color:var(--muted);width:fit-content;max-width:100%;margin-top:8px}
+.redesign-site .milling-section{margin-top:var(--milling-gap);scroll-margin-top:0}
+.redesign-site .milling-heading{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr);gap:24px 64px;align-items:start;margin-bottom:36px}
+.redesign-site .milling-heading h2{max-width:24ch}
+.redesign-site .milling-heading p{max-width:56ch}
+.redesign-site .milling-part-pair{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:96px;align-items:start}
+.redesign-site .milling-part-pair article{min-width:0;max-width:480px}
+.redesign-site .milling-part-pair article+article{max-width:380px;padding-top:64px;justify-self:end}
+.redesign-site .milling-page .milling-part-pair img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.redesign-site .milling-part-pair h3{margin-top:20px;max-width:32ch}
+.redesign-site .milling-part-pair h3 a{text-decoration:none}
+.redesign-site .milling-part-pair h3 a:is(:hover,:focus-visible){text-decoration:underline}
+.redesign-site .milling-part-pair article>p{margin-top:10px;max-width:45ch}
+.redesign-site .milling-related{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 32px;margin-top:32px}
+.redesign-site .milling-related nav{display:flex;flex-wrap:wrap;gap:8px 28px}
+.redesign-site .milling-related nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5}
+.redesign-site .milling-practice{padding:40px;background:var(--milling-process);color:#f6f8f8}
+.redesign-site .milling-page .milling-practice :is(h2,h3){color:#f6f8f8}
+.redesign-site .milling-page .milling-practice p{color:#e1e5e6}
+.redesign-site .milling-setup-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;align-items:start}
+.redesign-site .milling-page .milling-setup-pair img{width:100%;height:auto;aspect-ratio:752/540;object-fit:contain}
+.redesign-site .milling-page .milling-setup-pair figcaption{margin-top:20px;max-width:none}
+.redesign-site .milling-setup-pair figcaption p{font-size:16px;line-height:1.65;max-width:50ch;margin-top:10px}
+.redesign-site .milling-process-foot{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:16px 32px;margin-top:28px;padding-top:20px;border-top:1px solid #ffffff38}
+.redesign-site .milling-process-foot p{font-size:14px;line-height:1.5;max-width:48ch}
+.redesign-site .milling-process-foot .rd-link{color:#f6f8f8}
+.redesign-site .milling-process-foot .rd-link:hover{color:#fff;text-decoration-thickness:2px}
+.redesign-site .milling-drawing-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:80px;align-items:start}
+.redesign-site .milling-drawing-grid h2{max-width:24ch}
+.redesign-site .milling-drawing-grid p{margin-top:20px;max-width:62ch}
+.redesign-site .milling-drawing-grid h3{margin-top:28px}
+.redesign-site .milling-drawing-grid h3+p{margin-top:12px}
+.redesign-site .milling-feature-image{width:100%;max-width:380px;justify-self:end}
+.redesign-site .milling-page .milling-feature-image img{width:100%;height:auto;max-height:none;aspect-ratio:4/3;object-fit:contain}
+.redesign-site .milling-scope-answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;margin-top:36px;padding-top:28px;border-top:1px solid var(--border)}
+.redesign-site .milling-scope-answers h3{font-size:19px;max-width:36ch}
+.redesign-site .milling-scope-answers p{margin-top:12px;max-width:56ch}
+.redesign-site .milling-page .milling-material-table{table-layout:fixed;width:100%}
+.redesign-site .milling-page .milling-material-table th:first-child{width:32%}
+.redesign-site .milling-page .milling-material-table :is(th,td){padding-block:22px;vertical-align:top}
+.redesign-site .milling-page .milling-material-table tbody th{font-weight:400}
+.redesign-site .milling-material-table tbody strong{font-weight:550;display:block;font-size:17px;color:var(--ink)}
+.redesign-site .milling-material-table tbody p{font-size:16px;line-height:1.6;margin-top:10px;max-width:34ch}
+.redesign-site .milling-material-foot{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 40px;margin-top:24px}
+.redesign-site .milling-material-foot p{max-width:72ch;font-size:16px}
+.redesign-site .milling-quality{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:32px 80px;border-top:1px solid var(--border);padding-top:40px;align-items:start}
+.redesign-site .milling-quality-heading{grid-column:1;grid-row:1}
+.redesign-site .milling-quality-heading>p{max-width:70ch;margin-top:20px}
+.redesign-site .milling-tolerance-value{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 28px}
+.redesign-site .milling-tolerance-value span{font-size:17px;color:var(--ink)}
+.redesign-site .milling-tolerance-value strong{font-size:30px;line-height:1.25;letter-spacing:-.02em;font-weight:550;color:var(--ink)}
+.redesign-site .milling-page .milling-cmm{grid-column:2;grid-row:3;width:180px;max-width:100%;margin:0}
+.redesign-site .milling-page .milling-cmm img{width:100%;height:auto;max-height:none}
+.redesign-site .milling-inspection{grid-column:1/-1;grid-row:2}
+.redesign-site .milling-inspection-context{grid-column:1;grid-row:3}
+.redesign-site .milling-inspection-context .cx-application-review{margin:0;padding:0;border:0}
+.redesign-site .milling-inspection-context .cx-application-review>h3{font-size:21px}
+.redesign-site .milling-inspection-context .cx-application-review dl>div{grid-template-columns:220px minmax(0,1fr);gap:32px}
+.redesign-site .milling-inspection-context dd{max-width:62ch}
+.redesign-site .milling-inspection-context .rd-link{margin-top:20px}
+.redesign-site .milling-rfq{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:64px;padding:40px;background:var(--surface);align-items:start}
+.redesign-site .milling-request-list{margin-top:28px}
+.redesign-site .milling-request-list>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;padding:20px 0;border-bottom:1px solid var(--border)}
+.redesign-site .milling-request-list>div:first-child{padding-top:0}
+.redesign-site .milling-request-list dt{font-weight:550}
+.redesign-site .milling-request-list dd{margin:0;min-width:0}
+.redesign-site .milling-request-list p+p{margin-top:8px}
+.redesign-site .milling-rfq .rd-link{margin-top:20px}
+.redesign-site .milling-order{border-left:1px solid var(--border);padding-left:40px;scroll-margin-top:0}
+.redesign-site .milling-page .milling-order h3{font-size:23px}
+.redesign-site .milling-order dl{margin-top:24px}
+.redesign-site .milling-order dl>div{display:grid;grid-template-columns:112px minmax(0,1fr);gap:12px}
+.redesign-site .milling-order dl>div+div{margin-top:12px}
+.redesign-site .milling-order dt{font-size:15px;color:var(--muted)}
+.redesign-site .milling-order dd{font-size:20px;font-weight:550;line-height:1.45;margin:0}
+.redesign-site .milling-order>p{font-size:16px;line-height:1.65;margin-top:24px;max-width:48ch}
+.redesign-site .milling-order>.rd-button{margin-top:28px}
+.redesign-site .milling-order>.rd-note{font-size:14px;margin-top:16px}
+@media(min-width:768px){.redesign-site .milling-inspection th:first-child{width:22%}.redesign-site .milling-inspection td{width:39%}}
+@media(max-width:1100px){
+ .redesign-site .milling-hero,.redesign-site .milling-heading{gap:32px}
+ .redesign-site .milling-page .milling-hero h1{font-size:48px}
+ .redesign-site .milling-page .milling-hero-image img{height:380px}
+ .redesign-site .milling-part-pair{gap:48px}
+ .redesign-site .milling-drawing-grid{gap:40px}
+ .redesign-site .milling-quality{column-gap:40px}
+ .redesign-site .milling-quality{grid-template-columns:minmax(0,1fr)}
+ .redesign-site .milling-quality-heading,.redesign-site .milling-inspection,.redesign-site .milling-inspection-context,.redesign-site .milling-page .milling-cmm{grid-column:1;grid-row:auto}
+ .redesign-site .milling-rfq{gap:36px;padding:32px}
+ .redesign-site .milling-request-list>div,.redesign-site .milling-order dl>div{grid-template-columns:minmax(0,1fr);gap:8px}
+ .redesign-site .milling-order{padding-left:28px}
+}
+@media(max-width:767px){
+ .redesign-site .milling-page{--milling-gap:56px}
+ .redesign-site .milling-page h2{font-size:25px;line-height:1.28}
+ .redesign-site .milling-page h3{font-size:20px}
+ .redesign-site .milling-hero{display:flex;flex-direction:column;gap:20px;align-items:stretch;min-height:0}
+ .redesign-site .milling-page .milling-hero h1{font-size:38px;line-height:1.12}
+ .redesign-site .milling-hero .milling-lead{font-size:18px;margin-top:20px}
+ .redesign-site .milling-hero-actions{gap:8px 20px;margin-top:24px}
+ .redesign-site .milling-order-link{margin-top:4px}
+ .redesign-site .milling-page .milling-hero-image img{height:260px}
+ .redesign-site .milling-heading{grid-template-columns:minmax(0,1fr);gap:16px;margin-bottom:28px}
+ .redesign-site .milling-part-pair{grid-template-columns:minmax(0,1fr);gap:36px}
+ .redesign-site .milling-part-pair article,.redesign-site .milling-part-pair article+article{max-width:none;padding:0;justify-self:stretch}
+ .redesign-site .milling-part-pair article+article figure{max-width:300px}
+ .redesign-site .milling-related{margin-top:24px;display:block}
+ .redesign-site .milling-related nav{display:block;margin-top:8px}
+ .redesign-site .milling-related nav a{display:flex;min-height:44px}
+ .redesign-site .milling-practice{padding:28px var(--layout-gutter);margin-inline:calc(-1 * var(--layout-gutter))}
+ .redesign-site .milling-setup-pair{grid-template-columns:minmax(0,1fr);gap:32px}
+ .redesign-site .milling-process-foot{display:block;padding-top:20px;margin-top:24px}
+ .redesign-site .milling-process-foot .rd-link{margin-top:12px}
+ .redesign-site .milling-drawing{display:flex;flex-direction:column;gap:0}
+ .redesign-site .milling-drawing-grid{display:contents}
+ .redesign-site .milling-feature-image{order:2;max-width:300px;margin-top:28px;align-self:start}
+ .redesign-site .milling-scope-answers{order:1;grid-template-columns:minmax(0,1fr);gap:24px;margin-top:28px;padding-top:24px}
+ .redesign-site .milling-scope-answers h3{font-size:19px}
+ .redesign-site .milling-page .milling-material-table{table-layout:auto}
+ .redesign-site .milling-page .milling-material-table tbody th:first-child{width:100%;font-weight:400;min-width:0}
+ .redesign-site .milling-page .milling-material-table tbody strong{font-size:18px}
+ .redesign-site .milling-page .milling-material-table tbody :is(th,td){padding:0;border:0}
+ .redesign-site .milling-page .milling-material-table td{margin-top:16px}
+ .redesign-site .milling-page .milling-material-table tbody p{font-size:16px;max-width:none;margin-top:8px}
+ .redesign-site .milling-page .milling-materials .milling-material-table td[data-label]::before{content:attr(data-label);display:block;margin:0 0 5px;font-size:14px;line-height:1.5;font-weight:550}
+ .redesign-site .milling-material-foot{display:block;margin-top:20px}
+ .redesign-site .milling-material-foot .rd-link{margin-top:16px}
+ .redesign-site .milling-quality{display:flex;flex-direction:column;gap:28px;padding-top:28px}
+ .redesign-site .milling-quality-heading>p{margin-top:16px}
+ .redesign-site .milling-tolerance-value{gap:6px 20px}
+ .redesign-site .milling-tolerance-value strong{font-size:28px}
+ .redesign-site .milling-page .milling-cmm{width:180px;align-self:start;order:3}
+ .redesign-site .milling-inspection-context .cx-application-review dl>div{grid-template-columns:minmax(0,1fr);gap:8px}
+ .redesign-site .milling-rfq{grid-template-columns:minmax(0,1fr);gap:32px;padding:28px var(--layout-gutter);margin-inline:calc(-1 * var(--layout-gutter))}
+ .redesign-site .milling-request-list>div{grid-template-columns:minmax(0,1fr);gap:8px}
+ .redesign-site .milling-order{border-left:0;border-top:1px solid var(--border);padding:24px 0 0}
+ .redesign-site .milling-order dl>div{grid-template-columns:110px minmax(0,1fr);gap:8px}
+}

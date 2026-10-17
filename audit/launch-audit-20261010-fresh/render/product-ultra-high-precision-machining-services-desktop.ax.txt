@@ -1,0 +1,127 @@
+Browser tab: 506354184, Title: "Machined impellers | LZZ Precision", URL: "http://127.0.0.1:4323/products/ultra-high-precision-machining-services/".
+1 AXWebArea Machined impellers | LZZ Precision, URL: 127.0.0.1:4323/products/ultra-high-precision-machining-services/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/products/ultra-high-precision-machining-services/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Home, Value: 127.0.0.1:4323/
+				21 text /
+				22 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+				23 text /
+				24 text Machined impellers
+			25 heading Machined impellers, Value: 1
+				26 text Machined impellers
+			27 text Contoured blades · pockets & complex surfaces
+			28 link Description: View full-size image: Machined impellers, Value: 127.0.0.1:4323/media/responsive/catalog-02-cutout-v1-1200.webp
+			29 container On this page
+				30 link Description: 01 Part requirements, Value: 127.0.0.1:4323/products/ultra-high-precision-machining-services/#fit-review
+				31 link Description: 02 Material & finish, Value: 127.0.0.1:4323/products/ultra-high-precision-machining-services/#part-information
+				32 link Description: 03 Drawing review, Value: 127.0.0.1:4323/products/ultra-high-precision-machining-services/#drawing-review
+			33 container fit-review
+				34 heading Blade profiles and the datum axis, Value: 2
+					35 text Blade profiles and the datum axis
+				36 text Impellers and complex housings with curved surfaces and internal features.
+				37 definition list
+					38 container Typical geometry
+						39 text Typical geometry
+					40 text Contoured blades, deep pockets and complex multi-axis geometry.
+					41 container Material options
+						42 text Material options
+					43 text titanium, Inconel and hardened stainless steel. Confirm the grade for your part.
+					44 container Key review
+						45 text Key review
+					46 text The model defines blade profiles and root transitions relative to the datum axis. State material condition and inspection criteria on the drawing.
+				47 link Description: Request a quote, Value: 127.0.0.1:4323/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F
+				48 text Have a drawing? Add it to your inquiry email.
+			49 container part-information
+				50 heading Manufacturing options, Value: 2
+					51 text Manufacturing options
+				52 definition list
+					53 container Materials
+						54 text Materials
+					55 text Material options: titanium, Inconel and hardened stainless steel. Confirm the grade for your part.
+					56 container Machining
+						57 text Machining
+					58 text Continuous 5-axis machining for curved surfaces and deep cavities with fewer setups.
+					59 container Surface finish
+						60 text Surface finish
+					61 text Lapping, polishing and specialized coating options, subject to the part requirements.
+				62 text Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+			63 container drawing-review
+				64 container engineering-review
+					65 heading Drawing and inspection requirements, Value: 2
+						66 text Drawing and
+						67 text inspection requirements
+					68 link Description: Quality & inspection, Value: 127.0.0.1:4323/quality/
+				69 definition list
+					70 container Geometry & interfaces
+						71 text Geometry & interfaces
+					72 text Identify blade profiles, root transitions and the datum axis. Mark thin sections and tool-access restrictions.
+					73 container Material & finish
+						74 text Material & finish
+					75 text Specify the material grade, condition, finish and any masked areas.
+					76 container Quantity
+						77 text Quantity
+					78 text State the prototype or batch quantity and required schedule.
+					79 container Inspection requirements
+						80 text Inspection requirements
+					81 text Agree the profiles to measure and any separate balance or rotating-assembly tests.
+				82 link Description: Prepare an RFQ email, Value: 127.0.0.1:4323/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F
+				83 container
+					84 text From 1 piece · 7–14 business days
+					85 text From drawing and order confirmation, including surface finishing; transit is additional.
+				86 button (collapsed) Additional drawing and order notes, Secondary Actions: Expand
+					87 text Additional drawing and order notes
+				88 container Related parts
+					89 heading Compare part requirements, Value: 3
+						90 text Compare part requirements
+					91 link Description: Turbine & fluid-system components Contours combined with ports and sealing interfaces. Flow or balance tests need separate criteria., Value: 127.0.0.1:4323/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/
+					92 link Description: Multi-bore components Stepped bores, face-hole positions and circular-face relationships., Value: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+				93 button (collapsed) Related machining processes, Secondary Actions: Expand
+					94 text Related machining processes
+		95 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		96 container
+			97 text Custom CNC machining
+			98 text in Hangzhou, China.
+		99 container Footer navigation
+			100 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			101 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			102 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			103 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			104 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			105 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			106 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			107 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			108 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			109 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		110 container Let’s talk, ID: contact
+			111 heading Let’s talk, Value: 2, ID: footer-talk-title
+				112 text Let’s talk
+			113 text Hangzhou, China · UTC+8
+			114 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			115 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		116 container Find us
+			117 heading Find us, Value: 2, ID: footer-find-title
+				118 text Find us
+			119 container
+				120 text No. 4 Fengcheng Road
+				121 text Pingyao, Yuhang District
+				122 text Hangzhou, Zhejiang, China
+		123 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		124 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea Machined impellers | LZZ Precision, URL: 127.0.0.1:4323/products/ultra-high-precision-machining-services/

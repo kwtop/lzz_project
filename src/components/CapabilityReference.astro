@@ -1,0 +1,7 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import CapabilityPartFigure from './CapabilityPartFigure.astro';
+interface Props {part:RevisedCapability['parts'][number];namedLink?:boolean;singleEntry?:boolean}
+const {part,namedLink=false,singleEntry=false}=Astro.props;
+---
+<aside class="cx-context-reference"><CapabilityPartFigure part={part} conciseCaption={namedLink} linked={!singleEntry}/>{namedLink&&<h3 class="cx-reading-reference-title"><a href={part.href}>{part.title}</a></h3>}<p>{part.text}</p>{!namedLink&&<a class="rd-link" href={part.href}>View part requirements</a>}</aside>

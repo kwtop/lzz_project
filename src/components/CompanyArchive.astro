@@ -1,0 +1,142 @@
+---
+import '../styles/company-resource-gallery.css';
+import EvidenceImage from './EvidenceImage.astro';
+import {photo} from '../data/evidence';
+
+const {compact=false}=Astro.props;
+const years=[
+ {
+  year:'2024',
+  scenes:[{
+   date:'November 2024',datetime:'2024-11',type:'Team outing',
+   title:'November 2024 team outing',
+   description:'Umbrellas, a group portrait beneath the LZZ banner, time by the water and a shared meal: four photographs from the November team day.',
+   photos:[
+    {id:'team-activity-2024',caption:'Group portrait beneath the company banner'},
+    {id:'team-2024-riverside-group',caption:'Together on an outdoor bridge'},
+    {id:'team-2024-shared-meal',caption:'A meal after the outing'},
+    {id:'team-2024-outdoor',caption:'Another moment from the rainy day'},
+   ],
+   link:{href:'/about/company-news/lzz-team-outing-2024/',label:'Read the 2024 team outing story'},
+  }],
+ },
+ {
+  year:'2025',
+  scenes:[
+   {
+   date:'January 2025',datetime:'2025-01',type:'Workshop visit',
+    featured:true,
+    title:'January 2025 workshop visit',
+    description:'An Australian customer visited the CNC workshop and joined the LZZ team for a conversation around a machined part.',
+    photos:[
+     {id:'visitor-part-discussion',caption:'Discussing a part at the table'},
+     {id:'workshop-visit',caption:'Together on the workshop floor'},
+     {id:'visitor-machining-tour',caption:'Looking at a CNC machine'},
+    ],
+    link:{href:'/about/company-news/australian-customer-workshop-visit-january-2025/',label:'Read about the Australian customer visit'},
+   },
+   {
+    date:'May 2025',datetime:'2025-05',type:'Team outing',
+    title:'May 2025 team outing',
+    description:'A meal under a canopy and two evening group portraits from the May company outing.',
+    photos:[
+     {id:'team-gathering',caption:'A meal outdoors'},
+     {id:'team-2025-evening-group',caption:'Group photograph in the evening'},
+     {id:'team-2025-team-outing',caption:'Another stop on the outing'},
+    ],
+    link:{href:'/about/company-news/may-2025-lzz-team-outing/',label:'Read the May team outing story'},
+   },
+   {
+   date:'November 2025',datetime:'2025-11',type:'Trade gathering',
+    featured:true,
+    title:'West Lake Summit in Hangzhou',
+    description:'An LZZ team member at the China-Africa West Lake Summit in Hangzhou.',
+    photos:[{id:'trade-event',caption:'At the West Lake Summit event backdrop'}],
+    link:{href:'/about/company-news/china-africa-west-lake-summit-2025/',label:'Read about the China-Africa summit'},
+   },
+   {
+   date:'November 2025',datetime:'2025-11',type:'Team activity',
+    featured:true,
+    title:'November 2025 team activity',
+    description:'A group portrait beneath the company activity banner and an outdoor meal together.',
+    photos:[
+     {id:'team-2025-november-group',caption:'The team together outdoors'},
+     {id:'team-2025-november-meal',caption:'Sharing a meal'},
+    ],
+    link:{href:'/about/company-news/november-2025-hangzhou-lizhizao-group-activity/',label:'Read the November activity note'},
+   },
+  ],
+ },
+];
+---
+<section class="company-archive section" id="company-archive" aria-labelledby="archive-heading">
+ <div class="container">
+  <div class="archive-intro">
+   <div><h2 id="archive-heading">{compact?'Photo archive':'Company photo archive'}</h2></div>
+   <p>Team activities, workshop visits and company events, arranged by year.</p>
+  </div>
+  <div class="archive-years">
+   {[...years].reverse().map(year=><section class="archive-year" aria-labelledby={`archive-year-${year.year}`}>
+    <header class="archive-year-label"><h3 id={`archive-year-${year.year}`}>{year.year}</h3><p>{year.scenes.length} dated {year.scenes.length===1?'group':'groups'}</p></header>
+    <div class="archive-scenes">{year.scenes.map(scene=><article class="archive-story">
+     <div class="archive-story-copy"><p class="archive-date"><time datetime={scene.datetime}>{scene.date}</time><span aria-hidden="true"> / </span>{scene.type}</p><h4>{scene.title}</h4><p>{scene.description}</p>{scene.link&&<a class="archive-story-link" href={scene.link.href}>{scene.link.label}</a>}</div>
+     <div class="archive-photo-detail">
+      <div class="archive-photo-board" data-count={scene.photos.length} style={`--support-count:${scene.photos.length-1}`}>
+       <figure class="archive-lead"><EvidenceImage id={scene.photos[0].id} sizes="(max-width:900px) 90vw, 43vw"/><figcaption>{scene.photos[0].caption}</figcaption></figure>
+       {scene.photos.length>1&&<div class="archive-support">{scene.photos.slice(1).map(item=><figure class:list={{'is-portrait':photo(item.id).height>photo(item.id).width}}><EvidenceImage id={item.id} sizes="(max-width:600px) 45vw, (max-width:900px) 40vw, 28vw"/><figcaption>{item.caption}</figcaption></figure>)}</div>}
+      </div>
+     </div>
+    </article>)}</div>
+   </section>)}
+  </div>
+  <div class="archive-footer"><a href="/factory/">See the workshop photographs</a></div>
+ </div>
+</section>
+<style>
+ .company-archive{background:#fff}
+ .archive-intro{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:end;gap:64px;margin-bottom:64px}
+ .archive-eyebrow{color:var(--red);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px}
+ .archive-intro>p{max-width:46ch;font-size:17px;line-height:1.7}
+ .archive-year{border-top:1px solid var(--border)}
+ .archive-year-label{display:flex;align-items:baseline;gap:28px;padding:28px 0}
+ .archive-year-label>h3{font-size:36px;font-weight:600;color:var(--ink);letter-spacing:-.03em;margin:0}
+ .archive-year-label>p{font-size:14px;color:var(--muted);line-height:1.5;margin:0}
+ .archive-story{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);gap:64px;padding:32px 0 64px;min-width:0}
+ .archive-story+.archive-story{border-top:1px solid var(--border);padding-top:48px}
+ .archive-story-copy{min-width:0}
+ .archive-date{font-size:12px;font-weight:600;color:var(--red);line-height:1.6}
+ .archive-date span{color:var(--muted);padding:0 4px}
+ .archive-story h4{font-family:var(--heading);font-size:clamp(26px,2.5vw,36px);line-height:1.15;letter-spacing:-.025em;margin:20px 0 16px}
+ .archive-story-copy>p:last-of-type{font-size:16px;line-height:1.75;max-width:38ch}
+ .archive-story-link,.archive-footer a{display:inline-flex;align-items:center;min-height:44px;font-size:14px;font-weight:600;line-height:1.5;text-decoration:underline;text-underline-offset:6px;text-decoration-color:var(--red)}
+ .archive-story-link{margin-top:20px}
+ .archive-story-link:hover,.archive-footer a:hover{color:var(--red)}
+ .archive-photo-detail{min-width:0}
+ .archive-photo-board{display:grid;gap:28px;min-width:0}
+ .archive-photo-board figure{margin:0;min-width:0}
+ .archive-photo-board :global(img){display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:#fff}
+ .archive-photo-board figcaption{color:var(--muted);font-size:13px;line-height:1.6;margin-top:12px}
+ .archive-support{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:start}
+ .archive-support .is-portrait{max-width:280px}
+ .archive-footer{display:flex;justify-content:space-between;gap:48px;align-items:start;border-top:1px solid var(--border);padding-top:28px}
+ .archive-footer p{max-width:710px;font-size:14px;line-height:1.7}
+ .archive-footer a{flex-shrink:0}
+ @media(max-width:900px){
+  .archive-intro{gap:32px}
+  .archive-story{grid-template-columns:1fr;gap:28px}
+  .archive-story-copy>p:last-of-type{max-width:65ch}
+ }
+ @media(max-width:600px){
+  .archive-intro{grid-template-columns:1fr;gap:24px;margin-bottom:40px}
+  .archive-intro>p{font-size:16px}
+  .archive-year-label{gap:16px;padding-block:22px}
+  .archive-year-label>h3{font-size:30px}
+  .archive-year-label>p{font-size:12px}
+  .archive-story{padding-block:24px 40px}
+  .archive-story+.archive-story{padding-top:32px}
+  .archive-photo-board,.archive-support{gap:24px}
+  .archive-support{grid-template-columns:1fr}
+  .archive-footer{display:block}
+  .archive-footer a{margin-top:16px}
+ }
+</style>

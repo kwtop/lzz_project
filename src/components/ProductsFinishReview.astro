@@ -1,0 +1,28 @@
+---
+import ProductsFigure from './ProductsFigure.astro';
+import {partDisplayTitle,partVisual,type PartRecord} from '../data/productsEditorial';
+interface Props {reference:PartRecord;reason:string}
+const {reference,reason}=Astro.props;
+---
+<section class="rd-section pd-finish-review" id="related-reading" data-core-section="Material, finish and appearance reference">
+ <span id="related-part-requirements" class="pd-anchor"/>
+ <header><h2 id="continue-title">Specify the final surface</h2></header>
+ <div class="pd-finish-review-layout">
+  <div>
+   <p>Deburring and cleaning. Select the treatment for the exact substrate and required final condition.</p>
+   <table class="rd-table rd-stacked"><thead><tr><th scope="col">Substrate</th><th scope="col">Listed treatment options</th></tr></thead><tbody>
+    <tr><th scope="row">Aluminum</th><td>Type II/III anodizing or chromate conversion.</td></tr>
+    <tr><th scope="row">Stainless steel</th><td>Passivation or electropolishing.</td></tr>
+    <tr><th scope="row">Copper / brass</th><td>Polishing or plating.</td></tr>
+    <tr><th scope="row">Other treatments</th><td>Powder coating, black oxide, nickel and chrome plating are also options for compatible substrates.</td></tr>
+   </tbody></table>
+   <p class="pd-small">Finishing uses in-house operations or specialist suppliers, depending on the treatment. Confirm compatibility, protected fitted surfaces and dimensions after treatment.</p>
+  </div>
+  <aside>
+   <ProductsFigure {...partVisual(reference)} caption="Independent finished-part reference; confirm the substrate and appearance standard for your part."/>
+   <a class="pd-related-title" href={'/machined-parts/gallery/'+reference.slug+'/'}><h3>{partDisplayTitle(reference)}</h3></a>
+   <p>{reason}</p>
+   <a class="rd-link" href="/capabilities/cnc-milling-service/">CNC milling</a>
+  </aside>
+ </div>
+</section>

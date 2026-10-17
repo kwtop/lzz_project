@@ -1,0 +1,39 @@
+{
+  "anchors": [
+    {
+      "href": "/quote/",
+      "rect": {
+        "bottom": 57.666666984558105,
+        "height": 44,
+        "top": 13.666666984558104,
+        "width": 148.8541717529297
+      },
+      "text": "Request a Quote"
+    },
+    {
+      "href": "/quote/?part=Stainless+steel+turned+parts&product=precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier&source=%2Fproducts%2Fprecision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier%2F",
+      "rect": {
+        "bottom": 1601.541748046875,
+        "height": 48,
+        "top": 1553.541748046875,
+        "width": 158.61459350585938
+      },
+      "text": "Request a quote"
+    },
+    {
+      "href": "/quote/?part=Stainless+steel+turned+parts&product=precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier&source=%2Fproducts%2Fprecision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier%2F",
+      "rect": {
+        "bottom": 2983.45849609375,
+        "height": 48,
+        "top": 2935.45849609375,
+        "width": 196.2916717529297
+      },
+      "text": "Prepare an RFQ email"
+    }
+  ],
+  "url": "http://127.0.0.1:4326/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

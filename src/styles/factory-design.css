@@ -1,0 +1,250 @@
+/* Factory navigation only. Shared header, footer and RFQ keep their own rules. */
+.factory-design{--fd-ink:#202427;--fd-muted:#5a6268;--fd-line:#dde1e3;--fd-soft:#f4f5f4;--fd-space:84px;color:var(--fd-ink)}
+.factory-design .fd-wrap{width:calc(100% - 88px);max-width:1280px;margin-inline:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design :is(section,header,article,aside,figure,nav){box-sizing:border-box;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design :is(h1,h2,h3,p,dl,ol,ul,figure){margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design h1{font-size:clamp(42px,4.5vw,66px)!important;line-height:1.08!important;letter-spacing:-.025em!important;max-width:18ch!important;text-wrap:balance}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design h2{font-size:clamp(28px,2.5vw,36px)!important;line-height:1.18!important;letter-spacing:-.025em!important;max-width:26ch!important;font-weight:550!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design h3{font-size:22px!important;line-height:1.3!important;letter-spacing:-.015em!important;max-width:32ch!important;font-weight:550!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design p{font-size:16px!important;line-height:1.7!important;color:var(--fd-muted);max-width:67ch!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-lead{font-size:21px!important;line-height:1.5!important;color:var(--fd-ink);max-width:35ch!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design p+p{margin-top:16px}
+.factory-design h2+p,.factory-design h3+p{margin-top:18px!important}
+.factory-design [id]{scroll-margin-top:128px}
+.factory-design .fd-anchor{display:block}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-section{padding:var(--fd-space) 0;margin:0;border:0;border-top:1px solid var(--fd-line)}
+.factory-design .fd-section-head{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-bottom:38px!important}
+.factory-design .fd-section-head>p{margin:0!important}
+.factory-design .fd-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design a.fd-link{display:inline-flex;align-items:center;justify-content:flex-start;min-height:44px;padding:9px 15px;border:1px solid #b8bec2;border-radius:0;background:transparent;color:var(--fd-ink);font-size:14px!important;line-height:1.5!important;font-weight:500;text-decoration:none;transition:background-color 180ms,color 180ms,border-color 180ms;max-width:100%;overflow-wrap:anywhere}
+.factory-design a.fd-link:focus-visible{outline:2px solid var(--red,#cf141a);outline-offset:5px}
+.factory-design p>a:not(.fd-link){text-decoration:underline;text-underline-offset:4px;color:inherit}
+.factory-design .fd-photo{display:block;max-width:100%;min-width:0}
+.factory-design .fd-photo-frame{min-width:0;width:100%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-photo img{display:block;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto var(--photo-aspect)!important;object-fit:contain!important;object-position:center;transform:none!important;padding:0!important;border:0;border-radius:0;background:#fff!important;box-shadow:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design :is(.fd-photo,.fd-illustration)>figcaption{display:block;font-size:13px!important;line-height:1.55!important;color:#626b71;max-width:100%!important;margin:11px 0 0!important;text-align:left}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-illustration img{display:block;width:100%!important;height:auto!important;aspect-ratio:3/2!important;object-fit:contain!important;max-height:none!important;border-radius:0;box-shadow:none;background:#fff}
+
+/* The section overview is a visual entry point, with a single broad scene. */
+.factory-design .fd-overview-hero{padding:24px 0 66px}
+.factory-design .fd-overview-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-bottom:38px!important}
+.factory-design .fd-overview-intro>div{padding-top:5px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-overview-panorama .fd-photo-frame{height:470px;overflow:hidden}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-overview-panorama img{width:100%!important;height:100%!important;aspect-ratio:auto!important;object-fit:cover!important;object-position:center 53%}
+.factory-design .fd-route-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:72px}
+.factory-design .fd-route-workshop .fd-photo{margin-bottom:26px!important}
+.factory-design .fd-route-workshop .fd-photo-frame{max-width:600px}
+.factory-design .fd-route-quality{display:flex;flex-direction:column;align-items:flex-start}
+.factory-design .fd-route-quality .fd-photo{width:245px;margin-bottom:26px!important}
+.factory-design .fd-route .fd-link{margin-top:22px}
+.factory-design .fd-supplier-review{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.factory-design .fd-supplier-review>div>.fd-link{margin-top:24px}
+.factory-design .fd-review-facts{padding:30px 34px;background:var(--fd-soft)}
+.factory-design .fd-review-facts>div+div{border-top:1px solid var(--fd-line);padding-top:20px;margin-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design :is(.fd-review-facts,.fd-identity,.fd-simple-list) dt{font-size:13px!important;font-weight:500!important;color:#5d676d;line-height:1.5!important}
+.factory-design .fd-review-facts dd{margin:5px 0 0}
+.factory-design .fd-review-package{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.factory-design .fd-simple-list>div{padding-block:16px;border-top:1px solid var(--fd-line)}
+.factory-design .fd-simple-list>div:first-child{padding-top:0;border-top:0}
+.factory-design .fd-simple-list dd{margin:7px 0 0;color:var(--fd-ink)}
+
+/* The workshop is a photographic essay, followed by open equipment rows. */
+.factory-design .fd-workshop-hero{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:center;padding:26px 0 66px}
+.factory-design .fd-workshop-hero h1{max-width:14ch!important}
+.factory-design .fd-workshop-hero .fd-lead{margin-top:25px!important}
+.factory-design .fd-workshop-hero header>.fd-link{margin-top:24px}
+.factory-design .fd-identity{margin-top:30px!important;padding-top:22px;border-top:1px solid var(--fd-line)}
+.factory-design .fd-identity>div{display:grid;grid-template-columns:100px 1fr;gap:18px;padding-block:7px}
+.factory-design .fd-identity dd{margin:0}
+.factory-design .fd-floor-essay{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:60px;align-items:start}
+.factory-design .fd-floor-essay>.fd-photo{align-self:center}
+.factory-design .fd-floor-essay>div .fd-photo{width:240px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design p.fd-caption{font-size:14px!important;line-height:1.65!important;margin-top:24px;max-width:31ch!important}
+.factory-design .fd-capacity-note{margin-top:30px!important;max-width:90ch!important}
+.factory-design .fd-machine{--fd-machine-height:230px;display:grid;grid-template-columns:320px minmax(0,1fr);gap:64px;align-items:center;padding:30px 0;border-top:1px solid var(--fd-line)}
+.factory-design .fd-machine:first-child{padding-top:0;border-top:0}
+.factory-design .fd-machine .fd-photo{width:min(100%,calc(var(--fd-machine-height)*var(--fd-source-ratio)));max-width:320px;justify-self:center}
+.factory-design .fd-machine .fd-photo-frame{height:230px;display:flex;align-items:center;justify-content:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-machine .fd-photo img{width:100%!important;max-height:var(--fd-machine-height)!important;aspect-ratio:var(--photo-aspect)!important}
+.factory-design .fd-machine-parts{margin-top:7px!important}
+.factory-design .fd-machine .fd-link{margin-top:20px}
+.factory-design .fd-equipment-review{display:grid;grid-template-columns:320px 1fr;gap:64px;margin-top:24px;padding:30px 0 0;border-top:1px solid var(--fd-line)}
+.factory-design .fd-equipment-review p{margin:0!important}
+.factory-design .fd-workshop-inspection{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px 72px}
+.factory-design .fd-workshop-inspection>div>.fd-link{margin-top:24px}
+.factory-design .fd-inspection-bridge{display:grid;grid-template-columns:160px 1fr;gap:32px}
+.factory-design .fd-inspection-note{grid-column:1/-1;max-width:100%!important;padding-top:22px;border-top:1px solid var(--fd-line)}
+.factory-design .fd-workflow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;counter-reset:workflow;list-style:none;padding:0}
+.factory-design .fd-workflow>li{counter-increment:workflow;min-width:0;border-top:2px solid #525b61;padding-top:20px}
+.factory-design .fd-workflow>li::before{content:counter(workflow,decimal-leading-zero);display:block;font-size:13px;color:#697278;margin-bottom:10px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-workflow h3{font-size:20px!important;min-height:52px}
+.factory-design .fd-workflow dl{margin-top:20px!important}
+.factory-design .fd-workflow dl>div+div{margin-top:18px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-workflow dt{font-size:12px!important;font-weight:500!important;color:#697278}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-workflow dd{font-size:14px!important;line-height:1.65!important;margin:6px 0 0;color:#3e484e}
+.factory-design .fd-workflow-support{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:44px}
+.factory-design .fd-workflow-support .fd-illustration{max-width:500px}
+.factory-design .fd-workflow-note .fd-link{margin-top:22px}
+.factory-design .fd-dispatch{display:grid;grid-template-columns:420px 1fr;gap:64px;align-items:center;margin-top:44px;padding-top:44px;border-top:1px solid var(--fd-line)}
+.factory-design .fd-dispatch .fd-link{margin-top:22px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-small{font-size:14px!important;line-height:1.65!important}
+.factory-design .fd-workshop-questions{display:grid;grid-template-columns:.8fr 1.2fr;gap:90px}
+.factory-design .fd-question-list>section{padding:26px 0;border-top:1px solid var(--fd-line)}
+.factory-design .fd-question-list>section:first-child{padding-top:0;border-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-question-list h3{font-size:20px!important}
+.factory-design .fd-question-list p{margin-top:12px!important}
+
+/* Quality uses evidence, feature tables and a clearly ordered inspection flow. */
+.factory-design .fd-quality-hero{display:grid;grid-template-columns:1fr .9fr;gap:80px;align-items:center;padding:24px 0 66px}
+.factory-design .fd-quality-hero h1{max-width:15ch!important}
+.factory-design .fd-quality-hero .fd-lead{margin-top:26px!important}
+.factory-design .fd-quality-hero-photo{width:340px;justify-self:center}
+.factory-design .fd-certification{margin-top:28px!important;padding-top:22px;border-top:1px solid var(--fd-line);font-size:14px!important}
+.factory-design .fd-method-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-bottom:40px}
+.factory-design .fd-method-intro .fd-link{margin-top:22px}
+.factory-design .fd-table{width:100%;border-collapse:collapse;border:0;table-layout:fixed}
+.factory-design .fd-table :is(th,td){border:0;border-bottom:1px solid var(--fd-line);padding:20px 22px;text-align:left;vertical-align:top}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-table th{font-size:14px!important;line-height:1.6!important;font-weight:550!important;color:#303b42}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-table td{font-size:15px!important;line-height:1.7!important;color:#555f66}
+.factory-design .fd-table thead{background:var(--fd-soft)}
+.factory-design .fd-table thead th:first-child{width:25%}
+.factory-design .fd-table thead th:last-child{width:40%}
+.factory-design .fd-inspection-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;list-style:none;padding:0;counter-reset:inspection}
+.factory-design .fd-inspection-flow>li{counter-increment:inspection;padding-top:22px;border-top:2px solid #525b61;min-width:0}
+.factory-design .fd-inspection-flow>li::before{content:counter(inspection,decimal-leading-zero);display:block;font-size:13px;margin-bottom:15px;color:#697278}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-inspection-flow h3{font-size:20px!important}
+.factory-design .fd-inspection-flow p{margin-top:18px!important}
+.factory-design .fd-stage-agreement{padding-top:16px;border-top:1px solid var(--fd-line);margin-top:18px!important}
+.factory-design .fd-records-head{display:grid;grid-template-columns:1.3fr 1fr;gap:80px;align-items:start;margin-bottom:34px!important}
+.factory-design .fd-records-head .fd-actions{margin:0;display:grid;justify-items:start;gap:14px}
+.factory-design .fd-qualification{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.factory-design .fd-qualification .fd-photo{width:190px;margin-top:28px!important}
+.factory-design .fd-qualification .fd-link{margin-top:24px}
+.factory-design .fd-qualification .fd-small{margin-top:20px!important}
+.factory-design .fd-rfq-details{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-rfq-details h3{font-size:19px!important;margin-bottom:16px}
+.factory-design .fd-rfq-details ul{padding-left:20px}
+.factory-design .fd-rfq-details li+li{margin-top:8px}
+.factory-design .fd-rfq-details .fd-link{margin-top:18px}
+.factory-design .rfq-section{margin-bottom:70px!important}
+
+@media(hover:hover) and (pointer:fine){body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design a.fd-link:hover{background:#202427;color:#fff;border-color:#202427}}
+@media(min-width:761px) and (max-width:1100px){
+ .factory-design{--fd-space:64px}.factory-design .fd-wrap{width:calc(100% - 64px)}
+ .factory-design :is(.fd-section-head,.fd-overview-intro,.fd-supplier-review,.fd-review-package,.fd-workshop-hero,.fd-method-intro,.fd-quality-hero,.fd-records-head,.fd-qualification){gap:38px}
+ .factory-design .fd-route-grid{gap:40px}.factory-design .fd-route-quality .fd-photo{width:210px}
+ .factory-design .fd-floor-essay{grid-template-columns:minmax(0,1fr) 210px;gap:32px}
+ .factory-design .fd-machine,.factory-design .fd-equipment-review{grid-template-columns:260px 1fr;gap:36px}
+ .factory-design .fd-workshop-inspection{grid-template-columns:1fr;gap:32px}.factory-design .fd-inspection-bridge{grid-template-columns:160px 1fr;max-width:700px}
+ .factory-design .fd-workflow,.factory-design .fd-inspection-flow{grid-template-columns:1fr 1fr;gap:34px 40px}
+ .factory-design .fd-dispatch{grid-template-columns:.9fr 1.1fr;gap:38px}
+ .factory-design .fd-workshop-questions{grid-template-columns:.8fr 1.2fr;gap:48px}
+ .factory-design .fd-quality-hero-photo{width:min(100%,300px)}
+}
+@media(max-width:760px){
+ .factory-design{--fd-space:46px}.factory-design .fd-wrap{width:calc(100% - 44px)}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design h1{font-size:41px!important;line-height:1.12!important;max-width:18ch!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design h2{font-size:28px!important;line-height:1.2!important;max-width:25ch!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design h3{font-size:21px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-lead{font-size:19px!important;line-height:1.55!important}
+ .factory-design :is(.fd-overview-intro,.fd-section-head,.fd-route-grid,.fd-supplier-review,.fd-review-package,.fd-workshop-hero,.fd-quality-hero,.fd-floor-essay,.fd-machine,.fd-equipment-review,.fd-workshop-inspection,.fd-workflow-support,.fd-dispatch,.fd-workshop-questions,.fd-method-intro,.fd-records-head,.fd-qualification,.fd-rfq-details){grid-template-columns:1fr;gap:28px}
+ .factory-design .fd-section-head{margin-bottom:28px!important;gap:18px}
+ .factory-design :is(.fd-overview-hero,.fd-workshop-hero,.fd-quality-hero){padding-top:16px;padding-bottom:42px}
+ .factory-design .fd-overview-intro{margin-bottom:28px!important;gap:20px}
+ .factory-design .fd-overview-intro>div{padding-top:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-overview-panorama .fd-photo-frame{height:auto}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-overview-panorama img{height:auto!important;object-fit:contain!important;aspect-ratio:auto var(--photo-aspect)!important}
+ .factory-design .fd-route-grid{gap:40px}.factory-design .fd-route-quality .fd-photo{width:190px}.factory-design .fd-route .fd-photo{margin-bottom:22px!important}
+ .factory-design .fd-review-facts{padding:26px 24px}.factory-design .fd-review-facts>div+div{padding-top:17px;margin-top:17px}
+ .factory-design .fd-workshop-hero .fd-lead,.factory-design .fd-quality-hero .fd-lead{margin-top:20px!important}
+ .factory-design .fd-identity{margin-top:26px!important;padding-top:18px}
+ .factory-design .fd-identity>div{grid-template-columns:90px 1fr;gap:16px}
+ .factory-design .fd-floor-essay>div{display:grid;grid-template-columns:160px 1fr;gap:22px;align-items:start}
+ .factory-design .fd-floor-essay>div .fd-photo{width:100%}
+ .factory-design .fd-floor-essay p.fd-caption{margin-top:0;font-size:13px!important}
+ .factory-design .fd-capacity-note{margin-top:24px!important}
+ .factory-design .fd-machine{--fd-machine-height:240px;padding-block:26px;gap:22px}.factory-design .fd-machine .fd-photo{max-width:340px;justify-self:start}
+ .factory-design .fd-machine .fd-photo-frame{height:240px;justify-content:flex-start}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-machine .fd-photo img{max-height:240px!important}
+ .factory-design .fd-equipment-review{margin-top:22px;padding-top:24px;gap:16px}
+ .factory-design .fd-inspection-bridge{grid-template-columns:130px 1fr;gap:22px}.factory-design .fd-inspection-note{margin-top:0!important}
+ .factory-design .fd-workflow,.factory-design .fd-inspection-flow{grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-workflow h3{min-height:0;font-size:21px!important}
+ .factory-design .fd-workflow dl{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:18px!important}.factory-design .fd-workflow dl>div+div{margin-top:0}
+ .factory-design .fd-workflow-support{margin-top:32px;gap:24px}.factory-design .fd-workflow-support .fd-illustration{width:100%;max-width:500px}
+ .factory-design .fd-dispatch{margin-top:30px;padding-top:30px}
+ .factory-design .fd-workshop-questions{gap:30px}.factory-design .fd-question-list>section{padding-block:24px}
+ .factory-design .fd-quality-hero-photo{width:min(100%,280px);justify-self:start}
+ .factory-design .fd-certification{margin-top:24px!important}
+ .factory-design .fd-method-intro{margin-bottom:28px}
+ .factory-design .fd-table :is(thead,tbody,tr,th,td){display:block;width:100%!important}
+ .factory-design .fd-table thead{position:absolute;width:1px!important;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .factory-design .fd-table tbody tr{padding:22px 0;border-bottom:1px solid var(--fd-line)}
+ .factory-design .fd-table tbody tr:first-child{padding-top:0}
+ .factory-design .fd-table :is(th,td){border:0;padding:0;background:transparent;box-sizing:border-box}
+ .factory-design .fd-table td{margin-top:14px}
+ .factory-design .fd-table td::before{content:attr(data-label);display:block;font-size:12px;font-weight:500;color:#626c73;margin-bottom:5px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-design .fd-table th{font-size:16px!important}
+ .factory-design .fd-inspection-flow li{padding-top:20px}
+ .factory-design .fd-inspection-flow .fd-stage-agreement{margin-top:14px!important;padding-top:14px}
+ .factory-design .fd-records-head .fd-actions{gap:12px}
+ .factory-design .fd-qualification .fd-photo{width:160px;margin-top:24px!important}
+ .factory-design .rfq-section{margin-bottom:46px!important}
+}
+@media(max-width:380px){.factory-design .fd-floor-essay>div,.factory-design .fd-inspection-bridge{grid-template-columns:1fr}.factory-design .fd-floor-essay>div .fd-photo{width:160px}.factory-design .fd-inspection-bridge .fd-photo{width:130px}.factory-design .fd-workflow dl{grid-template-columns:1fr;gap:16px}}
+@media(prefers-reduced-motion:reduce){.factory-design *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* One supplier-review page, with technical detail available on demand. */
+.fd-unified{--fd-space:64px}
+.fd-unified .fd-overview-hero{padding-bottom:24px}
+.fd-unified .fd-page-nav{display:flex;flex-wrap:wrap;gap:12px 36px;padding:12px 0 28px}
+.fd-unified .fd-page-nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--fd-ink);font-size:15px;text-decoration:underline;text-underline-offset:6px;text-decoration-color:#a6afb4}
+.fd-unified .fd-section-head{display:block;max-width:780px}
+.fd-unified .fd-section-head>p{margin-top:18px!important}
+.fd-unified .fd-factory-profile{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+.fd-unified .fd-equipment-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.fd-unified .fd-equipment-grid article{display:flex;flex-direction:column;align-items:start}
+.fd-unified .fd-equipment-grid .fd-photo{width:100%;margin-bottom:24px!important}
+.fd-unified .fd-equipment-grid .fd-photo-frame{height:220px;display:flex;align-items:center;justify-content:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .fd-unified .fd-equipment-grid .fd-photo img{max-height:220px!important;width:auto!important;max-width:100%!important}
+.fd-unified .fd-equipment-grid h3{min-height:58px}
+.fd-unified .fd-equipment-grid .fd-link{margin-top:20px}
+.fd-unified .fd-equipment-grid p+p{margin-top:8px}
+.fd-unified .fd-quality-overview{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:center}
+.fd-unified .fd-quality-overview>.fd-photo{width:min(100%,340px);justify-self:center}
+.fd-unified .fd-check-stages{list-style:none;padding:0}
+.fd-unified .fd-check-stages li{padding:20px 0;border-top:1px solid var(--fd-line)}
+.fd-unified .fd-check-stages li:first-child{padding-top:0;border:0}
+.fd-unified .fd-check-stages h3+p{margin-top:8px!important}
+.fd-unified .fd-disclosure{border-top:1px solid var(--fd-line);border-bottom:1px solid var(--fd-line);padding:8px 0;margin-top:28px}
+.fd-unified .fd-disclosure+.fd-disclosure{border-top:0;margin-top:0}
+.fd-unified .fd-disclosure summary{cursor:pointer;min-height:48px;align-content:center;padding:10px 0;font-size:16px;font-weight:550;line-height:1.5}
+.fd-unified .fd-disclosure>div{padding:16px 0 24px}
+.fd-unified .fd-measurement-concept{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-bottom:32px!important}
+.fd-unified .fd-document-columns{display:grid;grid-template-columns:1.2fr 1fr;gap:72px}
+.fd-unified .fd-document-columns h3{margin-bottom:24px!important}
+.fd-unified .fd-document-columns>div>.fd-link{margin-top:24px}
+.fd-unified .fd-document-columns>div>.fd-small{margin-top:18px!important}
+.fd-unified .fd-acceptance-list{padding-left:20px!important;color:var(--fd-muted);font-size:16px;line-height:1.7;margin-bottom:24px!important}
+.fd-unified .fd-acceptance-list li+li{margin-top:12px}
+.fd-unified .fd-delivery-steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.fd-unified .fd-delivery-steps li{padding-top:20px;border-top:1px solid var(--fd-line)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .fd-unified .fd-delivery-steps h3{font-size:19px!important;min-height:50px}
+.fd-unified .fd-dispatch{grid-template-columns:360px minmax(0,1fr);gap:56px;margin-top:40px}
+.fd-unified .fd-disclosure summary:focus-visible,.fd-unified .fd-page-nav a:focus-visible{outline:2px solid var(--red,#cf141a);outline-offset:4px}
+@media(max-width:1000px){.fd-unified .fd-factory-profile,.fd-unified .fd-quality-overview,.fd-unified .fd-document-columns{gap:36px}.fd-unified .fd-equipment-grid{gap:24px}.fd-unified .fd-equipment-grid .fd-photo-frame{height:180px}.fd-unified .fd-delivery-steps{grid-template-columns:1fr 1fr}.fd-unified .fd-dispatch{grid-template-columns:280px 1fr;gap:32px}}
+@media(max-width:760px){
+ .fd-unified{--fd-space:44px}
+ .fd-unified .fd-overview-hero{padding-bottom:16px}
+ .fd-unified .fd-page-nav{gap:8px 24px;padding-bottom:20px}
+ .fd-unified .fd-factory-profile,.fd-unified .fd-equipment-grid,.fd-unified .fd-quality-overview,.fd-unified .fd-measurement-concept,.fd-unified .fd-document-columns,.fd-unified .fd-dispatch{grid-template-columns:1fr;gap:28px}
+ .fd-unified .fd-equipment-grid{gap:36px}
+ .fd-unified .fd-equipment-grid article+article{border-top:1px solid var(--fd-line);padding-top:28px}
+ .fd-unified .fd-equipment-grid .fd-photo-frame{height:240px}
+ .fd-unified .fd-equipment-grid h3{min-height:0}
+ .fd-unified .fd-quality-overview>.fd-photo{width:min(100%,270px)}
+ .fd-unified .fd-document-columns>div+div{border-top:1px solid var(--fd-line);padding-top:28px}
+ .fd-unified .fd-delivery-steps{grid-template-columns:1fr;gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .fd-unified .fd-delivery-steps h3{min-height:0}
+ .fd-unified .fd-dispatch{margin-top:32px}
+}

@@ -1,0 +1,50 @@
+/* Approved immersive homepage composition, layered over the shared site system. */
+.home-refined .site-header{position:absolute;inset:0 0 auto;background:transparent;border-bottom:0;color:#fff;height:100px}
+.home-refined .header-inner{border-bottom:1px solid #ffffff24;gap:42px}
+.home-refined .site-header nav{gap:32px}
+.home-refined .site-header nav a{font-size:14px;font-weight:500}
+.home-refined .site-header nav a:hover{color:#fff;text-decoration:underline;text-underline-offset:7px}
+.home-refined .brand-description{font-size:9px;border-color:#ffffff65;font-weight:450}
+.home-refined .header-quote{font-size:14px;min-height:48px;padding-inline:22px}
+.precision-hero{position:relative;isolation:isolate;background:#111315;color:#fff;min-height:820px;height:min(960px,100svh);overflow:hidden;display:flex;align-items:center}
+.precision-scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2}
+.precision-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#080a0c50 0%,#080a0c24 45%,#080a0c10 66%,#080a0cba 100%)}
+.precision-message{text-align:center;padding-top:20px;padding-bottom:115px;animation:precision-arrive 1s cubic-bezier(.16,1,.3,1) both}
+.precision-message h1{font-size:clamp(70px,6.7vw,96px);font-weight:650;line-height:.99;letter-spacing:-.035em;text-wrap:balance}
+.precision-message p{font-size:18px;line-height:1.55;color:#e7e8e9;margin:30px auto 34px;max-width:650px}
+.precision-message .button{min-height:58px;padding:17px 28px;gap:40px;font-size:15px}
+.hero-baseline{position:absolute;bottom:34px;left:0;right:0;display:flex;align-items:center;justify-content:space-between;gap:25px;border-top:1px solid #ffffff40;padding-top:25px}
+.hero-baseline p,.hero-baseline a{color:#e7e8e9;font-size:13px;line-height:1.5}
+.hero-baseline p span{padding-inline:13px;color:#bbb}
+.hero-baseline a{display:inline-flex;align-items:center;gap:25px}.hero-baseline a svg{transform:rotate(90deg)}
+.selected-parts{padding-block:112px 64px;scroll-margin-top:0}
+.selected-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:60px;margin-bottom:55px}
+.selected-heading h2,.machining-copy h2{font-size:clamp(44px,4.3vw,62px);font-weight:620;letter-spacing:-.03em;line-height:1.04}
+.selected-heading>div{max-width:410px}.selected-heading p{font-size:16px;line-height:1.7}.selected-heading .text-link{margin-top:20px;font-size:14px}
+.selected-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:0 58px}
+.selected-part{min-width:0;display:grid;grid-template-columns:45% 1fr;align-items:center;gap:27px;border-top:1px solid #d8dadd;padding:32px 0}
+.selected-main{grid-row:span 2;display:flex;flex-direction:column;align-items:stretch;gap:0;padding:0 0 24px;border:0}
+.selected-image{background:#fff;overflow:hidden}.selected-image img{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 10px 18px #171b1e22);transition:transform .6s cubic-bezier(.16,1,.3,1)}
+.selected-part:hover .selected-image img{transform:scale(1.035)}
+.selected-main .selected-image{aspect-ratio:1.18;padding:18px}
+.selected-part:not(.selected-main) .selected-image{aspect-ratio:1}
+.selected-info>span:first-child{display:block;font-size:12px;color:#65696d;margin-bottom:12px}
+.selected-info h3{font-size:27px;line-height:1.14;font-weight:600;letter-spacing:-.025em}
+.selected-info p{font-size:14px;line-height:1.7;margin-top:16px}
+.selected-main .selected-info{padding-top:26px;max-width:530px}.selected-main h3{font-size:33px}
+.selected-action{display:flex;align-items:center;gap:15px;font-size:13px;font-weight:600;margin-top:20px}.selected-action svg{color:var(--red)}
+.selected-footnote{border-top:1px solid #d8dadd;padding-top:24px;margin-top:15px;display:flex;justify-content:space-between;color:#707479;font-size:11px;gap:20px}
+.machining-editorial{background:#191c1e;color:#fff;padding-block:90px}
+.machining-layout{display:grid;grid-template-columns:1.04fr 1fr;gap:85px;align-items:center}
+.machining-visual{position:relative;align-self:stretch;min-height:690px;overflow:hidden;background:#111}
+.machining-visual img{width:100%;height:100%;position:absolute;object-fit:cover;object-position:60% center;filter:brightness(.78)}
+.machining-visual::after{content:'';position:absolute;inset:50% 0 0;background:linear-gradient(transparent,#0009)}
+.machining-visual>p{position:absolute;bottom:32px;left:30px;color:#fff;font-size:25px;line-height:1.2;font-family:var(--heading);letter-spacing:-.02em;z-index:1}
+.machining-intro{font-size:16px;line-height:1.75;color:#c5c9cc;margin-top:24px;max-width:480px}
+.machining-services{margin:32px 0}.machining-services>a{display:flex;align-items:center;justify-content:space-between;gap:25px;padding-block:24px;border-top:1px solid #ffffff30}.machining-services>a:last-child{border-bottom:1px solid #ffffff30}
+.machining-services h3{font-size:27px;font-weight:550;letter-spacing:-.015em}.machining-services p{font-size:14px;color:#bcc1c5;line-height:1.65;margin-top:10px;max-width:385px}.machining-services>a>svg{color:#f85e65}.machining-services>a:hover h3{color:#ff8b90}
+.machining-copy>.text-link{font-size:14px}.machining-copy>.text-link svg{color:#ff7178}
+@keyframes precision-arrive{from{transform:translateY(14px);opacity:.5}to{transform:translateY(0);opacity:1}}
+@media(max-width:1100px){.home-refined .header-inner{gap:24px}.home-refined .site-header nav{gap:22px}.precision-hero{height:850px;min-height:760px}.precision-message{padding-bottom:95px}.selected-grid{gap:0 35px}.selected-part{grid-template-columns:1fr;gap:20px}.selected-part:not(.selected-main) .selected-image{height:185px;aspect-ratio:auto}.selected-grid{grid-template-columns:1.1fr 1fr}.selected-main .selected-image{aspect-ratio:.82}.selected-info p{font-size:13px}.selected-info h3{font-size:24px}.machining-layout{gap:45px}.machining-visual{min-height:730px}.machining-copy h2{font-size:46px}}
+@media(max-width:760px){.home-refined .site-header{height:78px}.home-refined .header-inner{gap:15px}.home-refined .header-quote{min-height:40px;font-size:12px;padding:10px 13px}.home-refined .site-header nav{top:78px;background:#171b1e;color:#fff}.home-refined .menu-toggle span{background:#fff}.home-refined .site-header nav a{font-size:17px}.precision-hero{min-height:730px;height:92svh;max-height:850px}.precision-scene{object-position:65% center}.precision-hero::after{background:linear-gradient(180deg,#080a0c60,#080a0c25 65%,#080a0cc9)}.precision-message{padding:10px 0 100px}.precision-message h1{font-size:clamp(50px,13vw,76px);font-weight:650;line-height:1.02}.precision-message p{font-size:16px;max-width:340px;line-height:1.6;margin:25px auto 28px}.precision-message .button{font-size:14px;min-height:54px;padding:15px 23px;gap:30px}.hero-baseline{bottom:25px;display:block;padding-top:19px}.hero-baseline p{font-size:11px}.hero-baseline p span{padding-inline:7px}.hero-baseline a{font-size:12px;margin-top:15px;gap:20px}.selected-parts{padding-block:65px 42px}.selected-heading{display:block;margin-bottom:32px}.selected-heading h2{font-size:43px}.selected-heading>div{margin-top:22px}.selected-heading p{font-size:15px}.selected-grid{display:block}.selected-main .selected-image{aspect-ratio:1.12;padding:8px}.selected-part{padding:25px 0;grid-template-columns:40% 1fr;gap:22px}.selected-part:not(.selected-main) .selected-image{height:190px}.selected-info h3{font-size:22px}.selected-info>span:first-child{font-size:10px;margin-bottom:8px}.selected-info p{font-size:12px;margin-top:10px;line-height:1.6}.selected-main h3{font-size:29px}.selected-main .selected-info p{font-size:14px}.selected-main .selected-info{padding-top:22px}.selected-action{font-size:12px;margin-top:14px}.selected-footnote{font-size:10px;display:block;margin-top:0}.selected-footnote span{display:block;margin-top:6px}.machining-editorial{padding-block:45px 60px}.machining-layout{display:flex;flex-direction:column;gap:40px}.machining-visual{width:100%;height:365px;min-height:0}.machining-visual>p{font-size:23px;left:24px;bottom:25px}.machining-copy h2{font-size:43px}.machining-intro{font-size:15px}.machining-services h3{font-size:25px}.machining-services p{font-size:14px}.machining-services>a{padding-block:22px}.machining-copy{width:100%}}
+@media(prefers-reduced-motion:reduce){.precision-message{animation:none}.selected-image img{transition:none}}

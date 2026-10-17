@@ -1,0 +1,14 @@
+# Recent screenshot issue ledger
+
+| ID | Category / root cause | Pages and screenshot basis | Severity / repeat | Treatment / status |
+| --- | --- | --- | --- | --- |
+| F1 | Trust: ISO claim lacks a publishable certificate and approved redacted inspection record | `quality-qualification-desktop`, `quality-records-desktop`, both baseline and Candidate 1 reviewers | High; two reviewers across two rounds | Source-material gap. Preserve truthful request path, never fabricate certificate or record. Open. |
+| E1 | Buyer information: photographed form, material/process options and drawing-dependent requirements are not separated clearly enough | `part-top-desktop`, `part-plastic-top-desktop`, `part-overview-desktop`; two Candidate 1 reviewers | High; multiple product pages, repeated reviewers | Rework product-detail information hierarchy and catalogue comparison from source-grounded data. Open. |
+| G1 | RFQ handoff: draft-only path and key quote omissions are difficult to scan | `rfq-form-desktop`, `rfq-review-desktop`, mobile/tablet; both baseline and Candidate 1 reviewers | High; repeated across rounds | Candidate 1 surfaced material/quantity and review state. Candidate 2 adds an explicit pre-send summary. Partially addressed; verify independently. |
+| B1 | Article image consumes first-screen space before decision content | `article-top-desktop`, `article-overview-mobile`; both Candidate 1 reviewers | Medium; one template variant | Candidate 2 places existing comparison ahead of illustration. Awaiting review. |
+| I1 | Narrow-page navigation truncates a service label; some long pages are hard to scan | `plastic-top-mobile`, `plastic-overview-mobile`, `knowledge-overview-mobile`, `about-overview-mobile`; both Candidate 1 reviewers | Medium; cross-page mobile | Candidate 2 wraps service links; long-page hierarchy still open. |
+| B2 | The CNC turning page repeats the same source photo in hero and body | `turning-overview-desktop`; execution-side observation after Candidate 1 | Medium; one route | Remove or change redundant second use only if buyer information remains connected to case/proof. Open. |
+| I2 | Article comparison table clips on mobile due to desktop column width | `article-overview-mobile` baseline; both baseline reviewers | High; article template | Candidate 1 renders existing table data as stacked mobile comparison; passed screenshot and browser verification. Resolved. |
+| B3 | Turning operation portrait image stretched the section into thousands of pixels | `turning-overview-desktop` baseline; both baseline reviewers | High; one route | Candidate 1 set child image to stable 3:2 frame; passed screenshot and browser verification. Resolved. |
+
+Counts distinguish multi-page impact, recurrence across rounds and agreement by multiple reviewers. Candidate 2 remains under blind review; its changes are not yet promoted to BEST.

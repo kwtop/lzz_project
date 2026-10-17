@@ -1,0 +1,531 @@
+[
+  {
+    "name": "home",
+    "url": "/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "home",
+    "url": "/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "home",
+    "url": "/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "home",
+    "url": "/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "home",
+    "url": "/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "catalogue",
+    "url": "/products/part-examples/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "catalogue",
+    "url": "/products/part-examples/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "catalogue",
+    "url": "/products/part-examples/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "catalogue",
+    "url": "/products/part-examples/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "catalogue",
+    "url": "/products/part-examples/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "impeller",
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "impeller",
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "impeller",
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "impeller",
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "impeller",
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "cad",
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "cad",
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "cad",
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "cad",
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "cad",
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "batchpart",
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "batchpart",
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "batchpart",
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "batchpart",
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "batchpart",
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "milling",
+    "url": "/capabilities/cnc-milling-service/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "milling",
+    "url": "/capabilities/cnc-milling-service/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "milling",
+    "url": "/capabilities/cnc-milling-service/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "milling",
+    "url": "/capabilities/cnc-milling-service/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "milling",
+    "url": "/capabilities/cnc-milling-service/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "factory",
+    "url": "/factory/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "factory",
+    "url": "/factory/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "factory",
+    "url": "/factory/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "factory",
+    "url": "/factory/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "factory",
+    "url": "/factory/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "rfq",
+    "url": "/resources/rfq-checklist/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "rfq",
+    "url": "/resources/rfq-checklist/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "rfq",
+    "url": "/resources/rfq-checklist/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "rfq",
+    "url": "/resources/rfq-checklist/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "rfq",
+    "url": "/resources/rfq-checklist/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "compare",
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "compare",
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "compare",
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "compare",
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "compare",
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "quote",
+    "url": "/quote/",
+    "mode": "viewport",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  },
+  {
+    "name": "quote",
+    "url": "/quote/",
+    "mode": "viewport",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "quote",
+    "url": "/quote/",
+    "mode": "viewport",
+    "width": 1099,
+    "scrollWidth": 1099,
+    "overflow": [],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "quote",
+    "url": "/quote/",
+    "mode": "viewport",
+    "width": 1100,
+    "scrollWidth": 1100,
+    "overflow": [
+      {
+        "tag": "DIV",
+        "cls": "nav-panel nav-panel-capabilities"
+      },
+      {
+        "tag": "DIV",
+        "cls": "nav-columns"
+      },
+      {
+        "tag": "DIV",
+        "cls": ""
+      },
+      {
+        "tag": "P",
+        "cls": "nav-group-label"
+      },
+      {
+        "tag": "A",
+        "cls": ""
+      },
+      {
+        "tag": "A",
+        "cls": ""
+      },
+      {
+        "tag": "A",
+        "cls": ""
+      }
+    ],
+    "bodyFont": "17px",
+    "headerHeight": 76
+  },
+  {
+    "name": "quote",
+    "url": "/quote/",
+    "mode": "200% browser zoom equivalent: 1440 physical pixels / 720 CSS px at DPR2",
+    "width": 720,
+    "scrollWidth": 720,
+    "overflow": [],
+    "bodyFont": "16px",
+    "headerHeight": 72
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "canonical": "https://www.lzz-cnc.com/capabilities/casting-machining/",
+  "description": "Plan finish machining of cast housings with RFQ guidance on blank condition, machining allowance, bearing bores and sealing faces.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Finished interfaces for cast components"
+    },
+    {
+      "tag": "H2",
+      "text": "Finish machining for cast blanks"
+    },
+    {
+      "tag": "H3",
+      "text": "From sample to part"
+    },
+    {
+      "tag": "H2",
+      "text": "More part examples"
+    },
+    {
+      "tag": "H3",
+      "text": "Cast housings & structural enclosures"
+    },
+    {
+      "tag": "H3",
+      "text": "CNC-machined casting housings"
+    },
+    {
+      "tag": "H2",
+      "text": "Drawing & acceptance"
+    },
+    {
+      "tag": "H3",
+      "text": "Drawing requirements"
+    },
+    {
+      "tag": "H3",
+      "text": "Inspection and acceptance"
+    },
+    {
+      "tag": "H2",
+      "text": "Prepare your casting machining enquiry"
+    },
+    {
+      "tag": "H3",
+      "text": "Related resources"
+    },
+    {
+      "tag": "H2",
+      "text": "Related machining processes"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/capabilities/",
+      "text": "Capabilities"
+    },
+    {
+      "href": "/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "text": ""
+    },
+    {
+      "href": "/products/",
+      "text": "Browse all parts"
+    },
+    {
+      "href": "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "text": "Cast housings & structural enclosures"
+    },
+    {
+      "href": "/products/oem-precision-cnc-machined-casting-housings/",
+      "text": "CNC-machined casting housings"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality & inspection"
+    },
+    {
+      "href": "/factory/#equipment",
+      "text": ""
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": ""
+    },
+    {
+      "href": "/factory/#order-deliverables",
+      "text": ""
+    },
+    {
+      "href": "/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Drawing & RFQ checklist"
+    },
+    {
+      "href": "/resources/cnc-process-selection/",
+      "text": "Choose a machining process"
+    },
+    {
+      "href": "/quality/",
+      "text": ""
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": ""
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "CNC milling\n↗"
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "CNC turning\n↗"
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "5-axis machining\n↗"
+    }
+  ],
+  "main": "Capabilities\n/\nCasting machining\nFinished interfaces for cast components\n\nMachining cast housings, transmission components and pump bodies. Send the casting specification along with the finished-part drawing.\n\nPrepare RFQ email\nTransmission housings & pump bodies\nFinish machining for cast blanks\n\nThe casting and finished-part drawings must show what remains as cast and where material is removed. Confirm blank supply and acceptance before planning the machining work.\n\nGeometry & process\nFor adding finished bores, mounting faces, threads and passages to cast blanks. Milling, boring, drilling and tapping address transmission housings, pump bodies and structural enclosures. Reverse engineering support includes sample scanning, 2D/3D model reconstruction and manufacturability review.\nSize & workholding\nShare the blank model or photos, overall dimensions and casting and finished-part drawings. Fixtures for irregular blanks use casting datums, stock allowance and accessible clamping positions. Identify who supplies and approves the casting.\nMaterial & finish\nSpecify the casting alloy and condition. Distinguish as-cast surfaces from machined faces and identify the required finish on the finished interfaces. These machining examples do not establish an in-house foundry service.\nTurn a cast blank into controlled interfaces\nMore part examples\nBrowse all parts\nCast housings & structural enclosures\nCNC-machined casting housings\nDrawing & acceptance\nDrawing requirements\n\nDistinguish as-cast surfaces from machined faces. Supply casting and finished-part drawings with machining allowance and datum targets.\n\nIdentify bearing bores, seal lands and mounting interfaces whose alignment depends on the blank and fixture locations.\n\nInspection and acceptance\n\nAgree incoming-blank acceptance, material documentation and dimensional checks on the finished interfaces.\n\nSpecify any porosity, pressure-integrity or non-destructive examination separately. Agree who is responsible and the acceptance criteria.\n\nAgree the measurement method and required records before production.\n\nQuality & inspection\nEquipment and order records\nPrepare your casting machining enquiry\n\nShare blank photos or models, alloy and condition, available stock allowance and the number of castings available.\n\nIdentify responsibility for casting supply, rejected blanks and any sample-based reconstruction; a photo is insufficient to define internal geometry.\n\nPrepare RFQ email\n\nAdd your requirements to the email draft, then attach drawings in your email app before sending.\n\nroger@lzz-cnc.com\nRelated resources\nDrawing & RFQ checklist\nChoose a machining process\nMore engineering resources\nRelated machining processes\nCNC milling\n↗\nCNC turning\n↗\n5-axis machining\n↗",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/capabilities/casting-machining/#webpage\",\"url\":\"https://www.lzz-cnc.com/capabilities/casting-machining/\",\"name\":\"Casting Machining\",\"description\":\"Plan finish machining of cast housings with RFQ guidance on blank condition, machining allowance, bearing bores and sealing faces.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/casting-machining/#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/casting-machining/#service\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/capabilities/casting-machining/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Capabilities\",\"item\":\"https://www.lzz-cnc.com/capabilities/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Casting Machining\",\"item\":\"https://www.lzz-cnc.com/capabilities/casting-machining/\"}]},{\"@type\":\"Service\",\"@id\":\"https://www.lzz-cnc.com/capabilities/casting-machining/#service\",\"url\":\"https://www.lzz-cnc.com/capabilities/casting-machining/\",\"name\":\"Casting machining\",\"description\":\"Plan finish machining of cast housings with RFQ guidance on blank condition, machining allowance, bearing bores and sealing faces.\",\"image\":\"https://www.lzz-cnc.com/media/responsive/catalog-18-cutout-v1-1200.webp\",\"provider\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"}}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Casting Machining | LZZ Precision",
+  "url": "http://127.0.0.1:4326/capabilities/casting-machining/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "category-casting-machining-mobile"
+}

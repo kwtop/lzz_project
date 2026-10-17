@@ -1,0 +1,131 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+  - button "Open navigation"
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Machined impellers
+    - complementary:
+      - heading "Machined impellers" [level=1]
+      - paragraph: Contoured blades · pockets & complex surfaces
+      - 'link "View full-size image: Machined impellers"':
+        - /url: /media/responsive/catalog-02-cutout-v1-1200.webp
+        - img "Machined impellers"
+      - navigation "On this page":
+        - link "01 Part requirements":
+          - /url: "#fit-review"
+          - generic: "01"
+          - text: Part requirements
+        - link "02 Material & finish":
+          - /url: "#part-information"
+          - generic: "02"
+          - text: Material & finish
+        - link "03 Drawing review":
+          - /url: "#drawing-review"
+          - generic: "03"
+          - text: Drawing review
+    - heading "Blade profiles and the datum axis" [level=2]
+    - paragraph: Impellers and complex housings with curved surfaces and internal features.
+    - term: Part features
+    - definition: Contoured blades, deep pockets and complex multi-axis geometry.
+    - term: Review focus
+    - definition: The model defines blade profiles and root transitions relative to the datum axis. State material condition and inspection criteria on the drawing.
+    - link "Request a quote":
+      - /url: /quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F
+    - paragraph: Have a drawing? Add it to your inquiry email.
+    - heading "Manufacturing options" [level=2]
+    - term: Materials
+    - definition: "Material options: titanium, Inconel and hardened stainless steel. Confirm the grade for your part."
+    - term: Machining
+    - definition: Continuous 5-axis machining for curved surfaces and deep cavities with fewer setups.
+    - term: Surface finish
+    - definition: Lapping, polishing and specialized coating options, subject to the part requirements.
+    - paragraph: Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+    - heading "Drawing and inspection requirements" [level=2]:
+      - text: Drawing and
+      - text: inspection requirements
+    - link "Quality & inspection":
+      - /url: /quality/
+    - term: Geometry & interfaces
+    - definition: Identify blade profiles, root transitions and the datum axis. Mark thin sections and tool-access restrictions.
+    - term: Material & finish
+    - definition: Specify the material grade, condition, finish and any masked areas.
+    - term: Quantity
+    - definition: State the prototype or batch quantity and required schedule.
+    - term: Inspection requirements
+    - definition: Agree the profiles to measure and any separate balance or rotating-assembly tests.
+    - link "Prepare an RFQ email":
+      - /url: /quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F
+    - paragraph:
+      - strong: From 1 piece · 7–14 business days
+      - text: From drawing and order confirmation, including surface finishing; transit is additional.
+    - generic "Additional drawing and order notes"
+    - navigation "Related parts":
+      - heading "Compare part requirements" [level=3]
+      - link "Turbine & fluid-system components Contours combined with ports and sealing interfaces. Flow or balance tests need separate criteria.":
+        - /url: /products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/
+        - generic: Turbine & fluid-system components
+        - generic: Contours combined with ports and sealing interfaces. Flow or balance tests need separate criteria.
+      - link "Multi-bore components Stepped bores, face-hole positions and circular-face relationships.":
+        - /url: /products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+        - generic: Multi-bore components
+        - generic: Stepped bores, face-hole positions and circular-face relationships.
+    - generic "Related machining processes"
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

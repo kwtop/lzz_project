@@ -1,0 +1,17 @@
+---
+import '../styles/company-resource-gallery.css';
+import EvidenceImage from './EvidenceImage.astro';
+import CompanyFacts from './CompanyFacts.astro';
+---
+<section class="inside-lzz container" aria-labelledby="inside-lzz-heading">
+ <header class="section-heading"><div><h2 id="inside-lzz-heading">Machining and inspection in Hangzhou</h2></div><a class="text-link" href="/factory/">Explore our factory</a></header>
+ <div class="proof-grid">
+  <article><figure><EvidenceImage id="workshop-wide" sizes="(max-width:760px) 90vw, 560px"/></figure><h3>Machining in Hangzhou</h3><p>Prototypes and production parts made to your drawing, with material, finishing and acceptance requirements agreed before machining.</p><a class="text-link" href="/machined-parts/machining-examples/">Explore process studies</a></article>
+  <article><figure class="inspection-photo"><EvidenceImage id="cmm-room" sizes="(max-width:760px) 90vw, 560px"/></figure><h3>Inspection starts with your drawing</h3><p>Define the critical features, measurement method and records your order needs. Review equipment and documentation requirements with us.</p><a class="text-link" href="/factory/#quality">Review quality control</a></article>
+ </div>
+ <CompanyFacts facts={[{value:'2017',label:'Company established'},{value:'1,500 m²',label:'Facility area'},{value:'40+',label:'Machining & supporting equipment'}]}/>
+</section>
+<style>
+ .proof-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-bottom:40px}.proof-grid article{min-width:0}.proof-grid figure{margin:0}.proof-grid :global(img){width:100%;height:320px;object-fit:cover;border-radius:0;background:#f1f1f1}.proof-grid .inspection-photo :global(img){object-fit:contain}.proof-grid figcaption{font-size:14px;line-height:1.5;color:var(--muted);margin-top:12px}.proof-grid h3{font-size:26px;line-height:1.25;margin:24px 0 12px}.proof-grid p{font-size:16px;line-height:1.7;max-width:54ch;margin-bottom:20px}
+ @media(max-width:760px){.proof-grid{grid-template-columns:1fr;gap:36px}.proof-grid :global(img){height:260px}.proof-grid h3{font-size:24px}}
+</style>

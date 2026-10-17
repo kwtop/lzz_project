@@ -1,0 +1,14 @@
+---
+import '../styles/company-resource-gallery.css';
+import {companyFacts} from '../data/company';
+const {facts=companyFacts}=Astro.props;
+---
+<dl class:list={['company-facts',{'four-facts':facts.length===4}]} aria-label="LZZ company facts">{facts.map((fact:{label:string;value:string})=><div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
+<style>
+ .company-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin:0;padding:42px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+ .company-facts>div{display:flex;flex-direction:column-reverse;gap:13px}.company-facts dt{font-size:14px;color:var(--muted)}.company-facts dd{margin:0;font:600 clamp(34px,4vw,54px)/1.1 var(--heading);letter-spacing:-.03em}
+ @media(max-width:600px){.company-facts{grid-template-columns:1fr;gap:25px;padding:30px 0}.company-facts>div{flex-direction:row-reverse;justify-content:space-between;align-items:center;gap:22px}.company-facts dt{max-width:150px}.company-facts dd{font-size:34px;white-space:nowrap}}
+ .company-facts.four-facts{grid-template-columns:repeat(4,minmax(0,1fr))}.four-facts dd{font-size:clamp(28px,3.4vw,48px)}
+ @media(max-width:900px){.company-facts.four-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:600px){.company-facts.four-facts>div{flex-direction:column-reverse;align-items:flex-start;justify-content:flex-end;gap:12px}.four-facts dd{font-size:28px}.four-facts dt{max-width:none;line-height:1.5}}
+</style>

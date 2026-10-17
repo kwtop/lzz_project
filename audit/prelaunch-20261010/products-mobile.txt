@@ -1,0 +1,114 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+  - button "Open navigation"
+- main:
+  - heading "Custom machined parts" [level=1]
+  - paragraph: Explore parts by shape, process and material. Each example is made to drawing, not sold from stock.
+  - generic: Search parts
+  - textbox "Search parts":
+    - /placeholder: Search parts, materials, processes…
+  - button "Filters":
+    - text: Filters
+    - generic: +
+  - generic: 6 featured examples · 35 total
+  - button "View all 35 parts"
+  - link "Machined impellers Machined impellers Contoured blades · pockets & complex surfaces":
+    - /url: /products/ultra-high-precision-machining-services/
+    - img "Machined impellers"
+    - heading "Machined impellers" [level=3]
+    - paragraph: Contoured blades · pockets & complex surfaces
+  - link "Multi-bore components Multi-bore components Circular milling · stepped bores & face holes":
+    - /url: /products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+    - img "Multi-bore components"
+    - heading "Multi-bore components" [level=3]
+    - paragraph: Circular milling · stepped bores & face holes
+  - link "Locking pins Locking pins Stainless locking hardware · shafts & flanges":
+    - /url: /products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/
+    - img "Locking pins"
+    - heading "Locking pins" [level=3]
+    - paragraph: Stainless locking hardware · shafts & flanges
+  - link "Angled housings Angled housings Milling + turning · rings & angled components":
+    - /url: /products/global-oem-precision-machining-solutions/
+    - img "Angled housings"
+    - heading "Angled housings" [level=3]
+    - paragraph: Milling + turning · rings & angled components
+  - link "Multi-face components Multi-face components Multi-face bores, ports & mounting features":
+    - /url: /products/global-manufacturer-of-multi-sided-precision-machined-components/
+    - img "Multi-face components"
+    - heading "Multi-face components" [level=3]
+    - paragraph: Multi-face bores, ports & mounting features
+  - link "Cast housings Cast housings Cast housings · milling, boring & mating faces":
+    - /url: /products/oem-precision-cnc-machined-casting-housings/
+    - img "Cast housings"
+    - heading "Cast housings" [level=3]
+    - paragraph: Cast housings · milling, boring & mating faces
+  - button "View all 35 parts"
+  - link "Previously turned component mounted for a milling operation. From the workshop Setups, machining sequences and finished parts. Explore Machining Studies":
+    - /url: /cases/
+    - img "Previously turned component mounted for a milling operation."
+    - heading "From the workshop" [level=2]
+    - paragraph: Setups, machining sequences and finished parts.
+    - text: Explore Machining Studies
+    - generic: ↗
+  - generic "Covered components & gear forms":
+    - heading "Covered components & gear forms" [level=2]
+    - generic: +
+- heading "Have a part in mind?" [level=2]
+- paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+- link "Prepare RFQ email":
+  - /url: /quote/
+- link "roger@lzz-cnc.com":
+  - /url: mailto:roger@lzz-cnc.com
+  - generic: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

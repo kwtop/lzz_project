@@ -1,0 +1,7 @@
+---
+import {libraryGuide} from '../data/resourceLibrary';
+interface Props {slugs:string[];label:string;anchors?:Record<string,string>;headingLevel?:2|3}
+const {slugs,label,anchors={},headingLevel=3}=Astro.props;
+const Heading=headingLevel===2?'h2':'h3';
+---
+<nav class="res-direct-list" aria-label={label}>{slugs.map(slug=>{const guide=libraryGuide(slug);return <a id={anchors[slug]} href={guide.href}><Heading class="res-direct-title">{guide.title}</Heading><p>{guide.summary}</p></a>;})}</nav>

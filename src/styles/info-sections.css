@@ -1,0 +1,111 @@
+/* Information pages share the existing gallery tokens and semantic type roles. */
+main.info-page{
+ --content-title-size:var(--type-page-title-size);
+ --content-section-size:32px;
+ --type-h1-size:var(--content-title-size);
+ --type-h2-size:var(--content-section-size);
+ --type-h3-size:24px;
+ --info-title-size:var(--content-title-size);
+ --info-section-size:var(--content-section-size);
+ --info-card-size:var(--type-h3-size);
+ --info-fact-size:32px;
+ --info-section-gap:48px;
+ --info-intro-space:40px;
+ --info-image-height:380px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.reading-header,.ff-hero,.ab-hero,.finesse-resource-masthead,.finesse-category-masthead){padding-block:var(--info-intro-space) 32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.ff-heading,.ft-heading){gap:var(--content-column-gap);margin-bottom:40px;align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.reading-description,.ft-intro-heading p,.ab-hero-copy>p,.finesse-resource-masthead p,.topic-intro p){max-width:58ch;font-size:18px;line-height:1.65;margin-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.reading-breadcrumb,.breadcrumbs){font-size:14px;line-height:1.5;margin-bottom:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .reading-breadcrumb{display:flex;align-items:center;gap:12px;padding:0;margin-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.ff-jump,.ft-jump){display:flex;flex-wrap:wrap;gap:4px 24px;padding-block:12px 0;border:0;margin-top:14px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.ff-jump,.ft-jump) a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;text-decoration:underline;text-underline-offset:5px}
+/* Factory: the original photograph and drawing-review brief occupy one opening. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-intro{display:grid;grid-template-columns:1fr 1fr;gap:var(--content-column-gap);align-items:center;padding-block:var(--info-intro-space) 28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-intro-heading{display:block;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-cover img{height:var(--info-image-height);aspect-ratio:auto;object-fit:cover;object-position:48% center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-overview{padding-block:20px 40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-facts{gap:32px;margin-bottom:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.ft-facts,.ab-facts) dd{font-size:32px;line-height:1.2}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-capacity{grid-template-columns:.7fr 1.3fr;gap:var(--content-column-gap);padding-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-section{padding-block:var(--content-section-before) var(--content-section-after)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-scenes{grid-template-columns:1.35fr 1fr;gap:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-scenes img{height:350px;aspect-ratio:auto;object-fit:cover}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-equipment{gap:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-machine-featured{gap:var(--content-column-gap)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-inspection-band{padding-block:var(--content-section-before) var(--content-section-after)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-inspection-content{gap:var(--content-column-gap)}
+/* Quality: generic feature planning is separate from the archived equipment image. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-hero{grid-template-columns:1fr 1fr;gap:var(--content-column-gap)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-hero figure{max-width:none;justify-self:stretch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-hero img{height:var(--info-image-height);aspect-ratio:auto;object-fit:contain;background:#fff}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-section{padding-block:var(--content-section-before) var(--content-section-after)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .qv-methods-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:var(--content-column-gap);align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .qv-methods-layout img{width:100%;height:360px;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-rows>div{padding-block:20px;gap:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-stages{gap:28px 48px;margin-top:28px}
+/* Company: the same opening axes, then original visits and documentary evidence. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-hero{grid-template-columns:1fr 1fr;gap:var(--content-column-gap);align-items:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-hero h1{max-width:22ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-hero-photo img{height:var(--info-image-height);object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-company-name{font-size:16px;margin-top:18px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-facts{padding-block:24px 32px;gap:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-overview{gap:var(--content-column-gap);grid-template-columns:1fr 1fr}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-overview img{height:340px;width:100%;object-fit:cover;object-position:50% 65%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-people{padding-bottom:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-people-photos{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-people-photos img{height:250px;object-fit:cover}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page :is(.ab-history-band,.ab-documents-band){padding-block:var(--content-section-before) var(--content-section-after)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-documents-band .ab-section{padding-block:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-history{gap:var(--content-column-gap)}
+/* Resource overviews keep concrete requirements close to the guide titles. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .rs-page .finesse-resource-masthead{grid-template-columns:1fr 1fr;gap:var(--content-column-gap);align-items:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .resource-intro-photo{margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.resource-intro-photo,.topic-intro-photo) img{width:100%;height:var(--info-image-height);max-height:320px;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .resource-start-fields{margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .resource-start-fields>div{padding:16px 0;border-bottom:1px solid var(--border)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .resource-start-fields dt{font-size:15px;font-weight:600}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .resource-start-fields dd{margin:8px 0 0;color:var(--muted);font-size:16px;line-height:1.6}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .topic-intro{grid-template-columns:1fr 1fr;gap:var(--content-column-gap);align-items:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .topic-intro-photo{margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .topic-intro p{margin-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .rs-page .finesse-resource-group{padding-block:var(--content-section-before) var(--content-section-after);gap:var(--content-column-gap)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .rs-page .category-story{padding-block:32px}
+/* Contacts use the same visual language without inventing a map or response SLA. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-page{padding-block:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-hero{display:grid;grid-template-columns:1fr 1fr;gap:var(--content-column-gap);align-items:center;max-width:none;margin-bottom:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-hero figure{margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-hero img{height:300px;width:100%;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.contact-grid,.contact-qualification,.contact-address){gap:var(--content-column-gap)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-rfq{padding:0;background:transparent}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .info-actions{display:flex;flex-wrap:wrap;gap:16px 24px;margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .info-actions>a{margin:0!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.finesse-resource-row,.finesse-resource-featured-copy)>.site-secondary-link{margin-top:20px}
+/* Uniform endings preserve the contract and confidentiality information. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-closing{padding-block:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ff-page .ff-closing-inner{gap:var(--content-column-gap);align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-rfq{padding-block:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-rfq-inner{gap:var(--content-column-gap)}
+@media(max-width:1100px){
+ main.info-page{--info-image-height:320px}
+}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.ff-heading,.ft-heading){margin-bottom:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.info-actions,.af-page .ab-hero .ab-actions)>.button{width:100%!important}
+ main.info-page{--content-title-size:var(--type-page-title-size);--content-section-size:28px;--type-h3-size:22px;--info-intro-space:28px;--info-image-height:260px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.ft-page .ft-intro,.ff-page .ff-hero,.af-page .ab-hero,.af-page .ab-overview,.qv-methods-layout,.contact-hero,.rs-page .finesse-resource-masthead,.topic-intro){grid-template-columns:1fr;gap:24px;align-items:start}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-overview>figure{order:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.reading-description,.ft-intro-heading p,.ab-hero-copy>p,.finesse-resource-masthead p,.topic-intro p){font-size:16px;line-height:1.65}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-hero-photo{grid-column:1;grid-row:2}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-hero-inner{grid-column:1;grid-row:1}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-scenes{grid-template-columns:1fr;gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-scenes img{height:260px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-capacity{grid-template-columns:1fr;gap:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-people-photos{grid-template-columns:1fr;gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .af-page .ab-people-photos img{height:auto;max-height:320px;object-fit:contain}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-hero img{height:240px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-hero figure{display:none}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.info-actions,.af-page .ab-hero .ab-actions){display:flex;flex-wrap:wrap;gap:12px 20px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page :is(.info-actions,.af-page .ab-hero .ab-actions)>a{width:fit-content!important;margin:0!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .finesse-resource-row>.site-secondary-link{width:fit-content!important}
+}

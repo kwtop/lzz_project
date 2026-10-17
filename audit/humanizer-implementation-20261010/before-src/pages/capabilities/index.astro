@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHero from '../../components/PageHero.astro';
+import Arrow from '../../components/Arrow.astro';
+import {categoryDetails} from '../../data/presentation';
+import catalog from '../../data/catalog.json';
+import {capabilityGroups} from '../../data/capabilityGroups';
+import {primaryServices} from '../../data/services';
+import {matchesPartCategory} from '../../data/productTags';
+import {productImage,productSrcset} from '../../data/refinedImages';
+import {photo} from '../../data/evidence';
+const processImages:Record<string,string>={
+ 'cnc-milling-service':'two-stage-first',
+ 'cnc-turning-service':'turning-operation',
+ '5-axis-cnc-machining':'five-axis-operation',
+};
+const processFit:Record<string,string>={
+ 'cnc-milling-service':'Pockets, flat faces and hole patterns in custom components.',
+ 'cnc-turning-service':'Shafts, sleeves, discs and concentric features.',
+ '5-axis-cnc-machining':'Angled faces and features requiring access from several directions.',
+ 'plastic-machined-parts':'Machined polymer parts with grade and fit confirmed on the drawing.',
+ 'casting-machining':'Secondary machining of castings to defined datums and finished features.',
+};
+const paths=[
+ {id:'machining-processes',title:'Five machining services',question:'I need a machining service',description:'Explore CNC milling, turning, five-axis machining, plastic machining and casting machining.'},
+ {id:'materials',title:'Choose a material',question:'I know the material I need',description:'Start with the specified alloy or polymer grade; confirm the exact material for your part.'},
+ {id:'production-stages',title:'Plan an order',question:'I need a prototype or a small batch',description:'Orders start at 1 piece. Compare prototype and bridge-production needs, then share your drawing and quantity.'},
+];
+const groups=capabilityGroups.map((group,i)=>({...paths[i],categories:(i===0?primaryServices.map(service=>service.key):group.keys).map(key=>catalog.categories.find(c=>c.key===key)!).map(c=>({...c,example:catalog.products.find(p=>matchesPartCategory(p,c.key))!,count:catalog.products.filter(p=>matchesPartCategory(p,c.key)).length}))}));
+---
+<Layout title="CNC machining capabilities" description="Explore LZZ CNC milling, turning, 5-axis machining, material options, prototype machining and small-batch production.">
+ <PageHero variant="compact-capability" lines={['Find the right route','for your part']} image={photo('five-axis-operation').src} imageAlt={photo('five-axis-operation').alt} imageSrcset={photo('five-axis-operation').srcset}/>
+ <nav class="container customer-paths" aria-label="Explore capabilities by">{paths.map(path=><a href={'#'+path.id}><span class="path-action">{path.title}<Arrow size={18}/></span></a>)}</nav>
+ <div class="container capability-directory">{groups.map(group=><section id={group.id} class="capability-directory-group"><header><h2>{group.title}</h2><p>{group.description}</p></header><div class="capability-directory-links">{group.categories.map(c=>{const evidenceId=group.id==='machining-processes'?processImages[c.slug]:undefined;const image=evidenceId?photo(evidenceId):undefined;return <a href={'/capabilities/'+c.slug+'/'}><img class="capability-example" src={image?.src||productImage(c.example)} srcset={image?.srcset||productSrcset(c.example)} sizes="(max-width:760px) 90px, 156px" width="156" height="104" alt={image?.alt||c.example.name} loading="lazy"/><div><h3>{categoryDetails[c.slug]?.title||c.name}</h3>{group.id==='machining-processes'&&<p>{processFit[c.slug]}</p>}</div><Arrow size={20}/></a>})}</div></section>)}</div>
+ <section class="surface-band" id="sample-to-part"><div class="container sample-route"><div><h2>From sample to part</h2><ol><li><strong>Review the sample.</strong> Share the part, mating components and features to retain or change.</li><li><strong>Reconstruct the model.</strong> Discuss scanning and 2D/3D modeling for a manufacturability review.</li><li><strong>Approve the requirements.</strong> Confirm material, datums, tolerances and inspection criteria before machining.</li></ol></div><a class="text-link" href="/quote/?part=Sample-to-part%20support">Discuss your sample <Arrow/></a></div></section>
+</Layout>
+<style>
+ #sample-to-part{scroll-margin-top:100px}.sample-route ol{padding-left:20px;margin-top:24px;line-height:1.7}.sample-route li+li{margin-top:12px}
+ .route-example{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:5%;align-items:center;padding-block:72px;border-top:1px solid var(--border)}.route-example-label{font-size:12px;font-weight:750;color:var(--red);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}.route-example h2{font-size:clamp(30px,3vw,42px);line-height:1.1}.route-example p:not(.route-example-label){font-size:16px;line-height:1.65;margin:20px 0}.route-example figure{margin:0;min-width:0}.route-example img{width:100%;height:auto;display:block;background:#f8f8f7;border-radius:0}.route-example figcaption{font-size:14px;line-height:1.5;color:var(--muted);margin-top:10px}@media(max-width:760px){.route-example{grid-template-columns:1fr;gap:26px;padding-block:46px}.route-example p:not(.route-example-label){font-size:15px}}
+ .customer-paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;padding-block:14px;border-bottom:1px solid var(--border)}.customer-paths>a{display:flex;flex-direction:column;align-items:flex-start;padding:0;gap:0}.path-index{color:var(--red);font-size:13px}.customer-paths h2{font-size:25px;line-height:1.2;max-width:300px}.path-action{display:flex;align-items:center;gap:12px;font-size:14px;margin-top:auto;min-height:44px}.customer-paths a:hover .path-action{color:var(--red)}
+ .capability-directory-group{display:grid;grid-template-columns:1fr 2fr;gap:64px;padding-block:64px;scroll-margin-top:100px}.capability-directory-group+section{border-top:1px solid var(--border)}.capability-directory-group header h2{font-size:34px}.capability-directory-group header p{font-size:16px;line-height:1.7;margin-top:18px;color:var(--muted)}.capability-directory-links>a{display:grid;grid-template-columns:156px minmax(0,1fr) 20px;align-items:center;gap:28px;padding-block:24px;border-bottom:1px solid var(--border)}.capability-directory-links>a:first-child{padding-top:0}.capability-example{display:block;width:156px;height:104px;object-fit:cover;background:#f3f4f4}.capability-directory-links h3{font-size:23px}.capability-directory-links p{font-size:15px;line-height:1.5;color:var(--muted);margin-top:8px;max-width:44ch}.capability-directory-links>a>svg{color:var(--muted)}.capability-directory-links>a:hover h3,.capability-directory-links>a:hover>svg{color:var(--red)}.sample-route{padding-block:48px;display:flex;align-items:center;justify-content:space-between;gap:40px}.sample-route h2{font-size:30px}.sample-route p{max-width:680px;line-height:1.7;margin-top:16px}.sample-route>a{flex-shrink:0}
+ @media(max-width:760px){.customer-paths{display:flex;flex-wrap:wrap;gap:0 24px;padding-block:12px}.customer-paths>a{display:grid;grid-template-columns:1fr;gap:0;padding-block:0}.customer-paths h2{font-size:22px;max-width:none}.path-action{grid-column:1;min-height:44px}.capability-directory-group{grid-template-columns:1fr;gap:28px;padding-block:40px}.capability-directory-group header h2{font-size:28px}.capability-directory-links>a{grid-template-columns:90px minmax(0,1fr) 16px;gap:14px}.capability-example{width:90px;height:76px}.capability-directory-links h3{font-size:18px}.capability-directory-links p{font-size:13px}.sample-route{display:block}.sample-route h2{font-size:28px}.sample-route>a{margin-top:20px}}
+</style>

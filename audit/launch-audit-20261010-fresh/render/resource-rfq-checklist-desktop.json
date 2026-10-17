@@ -1,0 +1,141 @@
+{
+  "canonical": "https://www.lzz-cnc.com/resources/rfq-checklist/",
+  "description": "Send a consistent drawing package with the material and quantity required. Identify critical features and the inspection records you need.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "CNC machining RFQ checklist"
+    },
+    {
+      "tag": "H2",
+      "text": "Five essential requirements"
+    },
+    {
+      "tag": "H3",
+      "text": "Drawing revision"
+    },
+    {
+      "tag": "H3",
+      "text": "Material & finish"
+    },
+    {
+      "tag": "H3",
+      "text": "Acceptance criteria"
+    },
+    {
+      "tag": "H3",
+      "text": "Quantity"
+    },
+    {
+      "tag": "H3",
+      "text": "Delivery"
+    },
+    {
+      "tag": "H2",
+      "text": "Define how the part will be accepted"
+    },
+    {
+      "tag": "H3",
+      "text": "Send a consistent drawing package"
+    },
+    {
+      "tag": "H3",
+      "text": "Mark the dimensions used for acceptance"
+    },
+    {
+      "tag": "H2",
+      "text": "Specify the material and final surface"
+    },
+    {
+      "tag": "H3",
+      "text": "Material requirements"
+    },
+    {
+      "tag": "H3",
+      "text": "Finish and surface requirements"
+    },
+    {
+      "tag": "H2",
+      "text": "What drawing review returns"
+    },
+    {
+      "tag": "H2",
+      "text": "Set the commercial brief"
+    },
+    {
+      "tag": "H2",
+      "text": "Related part examples"
+    },
+    {
+      "tag": "H2",
+      "text": "Ready to prepare the email?"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "#drawing-package",
+      "text": "Drawing revision\n\n3D model and 2D drawing when needed, part number, units and revision."
+    },
+    {
+      "href": "#material-finish",
+      "text": "Material & finish\n\nExact material or functional requirement, finish details and applicable standards."
+    },
+    {
+      "href": "#acceptance",
+      "text": "Acceptance criteria\n\nCritical dimensions, datums, tolerances and inspection requirements."
+    },
+    {
+      "href": "#commercial-brief",
+      "text": "Quantity\n\nInitial quantity and expected repeat pattern."
+    },
+    {
+      "href": "#commercial-brief",
+      "text": "Delivery\n\nArrival date, packaging, shipping basis and relevant customs requirements."
+    },
+    {
+      "href": "/downloads/order-acceptance-checklist.txt",
+      "text": "Download order acceptance checklist"
+    },
+    {
+      "href": "/quality/",
+      "text": "Inspection & documentation requirements"
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": "material and finish checklist"
+    },
+    {
+      "href": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "text": "Turned fittings, connectors & flanges"
+    },
+    {
+      "href": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "text": "Complex aluminum housings"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    }
+  ],
+  "main": "Resources\nRFQ Checklist\nCNC machining RFQ checklist\n\nPrepare the technical files and order details we need to quote your part.\n\nFive essential requirements\nDrawing revision\n\n3D model and 2D drawing when needed, part number, units and revision.\n\nMaterial & finish\n\nExact material or functional requirement, finish details and applicable standards.\n\nAcceptance criteria\n\nCritical dimensions, datums, tolerances and inspection requirements.\n\nQuantity\n\nInitial quantity and expected repeat pattern.\n\nDelivery\n\nArrival date, packaging, shipping basis and relevant customs requirements.\n\nDownload order acceptance checklist\n\nA buyer worksheet for drawing revision, critical features, documents and shipping requirements. This is not an inspection report.\n\nDefine how the part will be accepted\nSend a consistent drawing package\n\nInclude a 3D model, such as STEP, and a 2D drawing when dimensions, fits or surface requirements are not fully defined in the model. Label the part number, units and drawing revision. If the files disagree, identify which document controls before requesting a quotation.\n\nFor multi-axis parts, include the overall envelope, stock dimensions and part weight where known so tool access and setup can be reviewed.\n\nOnly have a sample?\n\nFor an existing sample without a drawing, explain what is known and ask what additional measurement or design work would be needed. A sample alone cannot establish hidden material or treatment requirements.\n\nMark the dimensions used for acceptance\n\nIdentify mating bores and shaft fits on the drawing, with their datums and tolerances. Mark sealing faces, threads and any other critical features too. State whether dimensions apply before or after finishing.\n\nIf you need a particular inspection record, send the format or an example with your inquiry. Agree on inspection and documentation requirements before ordering, and ask LZZ to confirm the measurement method, instrument range, calibration evidence and availability of any project-specific records required for your part.\n\nInspection & documentation requirements\nSpecify the material and final surface\nMaterial requirements\n\nState the exact alloy or polymer grade, or the functional requirement if selection is still open. Include any required material documentation and whether substitutes may be considered.\n\nFinish and surface requirements\n\nProvide the finish specification, appearance, cosmetic faces, masking and edge conditions. Include any customer or industry standards and certificates required for this part or program. State the required standard, revision and scope.\n\nA material or capability category on this site does not establish industry certification or application compliance. The material and finish checklist explains the decisions behind these fields.\n\nWhat drawing review returns\n\nOur quotation brings together the proposed process, material, finishing, order quantity, inspection documents, production schedule and shipping basis. Where geometry or acceptance requirements need clarification, we identify the open points before you approve production.\n\nSet the commercial brief\nMinimum order\n1 piece\nProduction lead time\n7–14 business days\n\nAfter drawing and order confirmation, including surface finishing.\nTransit time is additional.\n\nInitial quantity\nQuantity per part number.\nRepeat pattern\nExpected repeat orders, if known.\nDelivery details\nRequired arrival date and postcode.\nPackaging\nAny special packaging requirements.\nShipping basis\nIncoterm and customs, duties or taxes responsibilities.\nResponse deadline\nYour decision or response deadline, if applicable.\nRelated part examples\n\nFittings need defined threads and sealing faces; housings need mating datums and cavity details. These examples show the drawing questions for each.\n\nTurned fittings, connectors & flanges\nComplex aluminum housings\nReady to prepare the email?\n\nIf your project needs an NDA or a controlled transfer method, contact LZZ before sending restricted files. This website does not automatically create an NDA.\n\nPrepare the draft on the inquiry page.\nAttach drawings in your email application.\nReview the recipients and send when ready.\n\nThe inquiry page prepares an email draft locally. The website does not upload drawings or send your request.\n\nPrepare RFQ email\nroger@lzz-cnc.com",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/resources/rfq-checklist/#webpage\",\"url\":\"https://www.lzz-cnc.com/resources/rfq-checklist/\",\"name\":\"RFQ Checklist\",\"description\":\"Send a consistent drawing package with the material and quantity required. Identify critical features and the inspection records you need.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/resources/rfq-checklist/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/resources/rfq-checklist/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Resources\",\"item\":\"https://www.lzz-cnc.com/resources/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"RFQ Checklist\",\"item\":\"https://www.lzz-cnc.com/resources/rfq-checklist/\"}]},{\"@type\":\"Article\",\"headline\":\"RFQ Checklist\",\"description\":\"Send a consistent drawing package with the material and quantity required. Identify critical features and the inspection records you need.\",\"mainEntityOfPage\":{\"@id\":\"https://www.lzz-cnc.com/resources/rfq-checklist/#webpage\"},\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"image\":\"https://www.lzz-cnc.com/media/rfq-planning-ai-v2.webp\"}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "RFQ Checklist | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/rfq-checklist/",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "resource-rfq-checklist-desktop"
+}

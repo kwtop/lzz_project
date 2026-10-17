@@ -1,0 +1,4715 @@
+{
+  "basis": "docs/WEBSITE-REDESIGN-PLAN.md",
+  "phase": "local implementation complete",
+  "pages": [
+    {
+      "url": "/",
+      "title": "Custom CNC machining for prototypes & small batches | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U01-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U01-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-home-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        },
+        {
+          "width": 768,
+          "file": "D:/lzz/website-implementation-20261015/final/T-home-768-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        },
+        {
+          "width": 1099,
+          "file": "D:/lzz/website-implementation-20261015/final/T-home-1099-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        },
+        {
+          "width": 1100,
+          "file": "D:/lzz/website-implementation-20261015/final/T-home-1100-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "HOME",
+      "pageType": "首页",
+      "unresolved": []
+    },
+    {
+      "url": "/404.html",
+      "title": "Page not found | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U02-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U02-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "E",
+      "pageType": "404",
+      "unresolved": []
+    },
+    {
+      "url": "/about/",
+      "title": "About LZZ: CNC machining in Hangzhou | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U03-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3765；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U03-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–5977；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A1",
+      "pageType": "公司总览",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-news/",
+      "title": "Company news: visits, events and life at LZZ | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U04-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3059；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U04-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–5069；正文、全部五条与结尾连续；最后Privacy仅上沿；另实看375×812 footer-recheck补图至Privacy与页底",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A5",
+      "pageType": "新闻列表",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "title": "Australian customer workshop visit | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U05-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3497；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U05-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–5077；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A6",
+      "pageType": "纪实文章",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "title": "LZZ at the China-Africa West Lake Summit | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U06-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3915；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U06-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4641；正文/五图/结尾连续；页脚版权中途截断；另实看375×812 footer-recheck补图至Privacy与页底",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A6",
+      "pageType": "纪实文章",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-news/lzz-team-outing-2024/",
+      "title": "A rainy day out with the LZZ team | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U07-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U07-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A6",
+      "pageType": "纪实文章",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-news/may-2025-lzz-team-outing/",
+      "title": "LZZ team outing in May 2025 | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U08-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U08-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A6",
+      "pageType": "纪实文章",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "title": "A November team day outdoors | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U09-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3827；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U09-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4563；正文/五图/结尾连续；页脚版权中途截断；另实看375×812 footer-recheck补图至Privacy与页底",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A6",
+      "pageType": "纪实文章",
+      "unresolved": []
+    },
+    {
+      "url": "/about/company-profile/",
+      "title": "LZZ Precision: CNC machining company in Hangzhou | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U10-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–6338；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U10-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–10386；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-profile-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A2",
+      "pageType": "企业与文件",
+      "unresolved": []
+    },
+    {
+      "url": "/about/contact/",
+      "title": "Contact LZZ Precision in Hangzhou | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U11-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–2391；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U11-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4065；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A4",
+      "pageType": "联系",
+      "unresolved": []
+    },
+    {
+      "url": "/about/how-we-work/",
+      "title": "How we work: drawing review to CNC parts delivery | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U12-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–5193；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U12-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–9379；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "A3",
+      "pageType": "合作流程",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/",
+      "title": "CNC Machining Capabilities | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U13-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U13-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-H",
+      "pageType": "能力目录",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/5-axis-cnc-machining/",
+      "title": "5-Axis CNC Machining Services | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U14-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U14-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-P",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/aluminum-cnc-parts/",
+      "title": "Aluminum CNC Machining Services | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U15-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U15-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-M",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/casting-machining/",
+      "title": "Casting Machining Services | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U16-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U16-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-P",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/cnc-milling-service/",
+      "title": "CNC Milling Services | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U17-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U17-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-process-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-P",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/cnc-turning-service/",
+      "title": "CNC Turning Services for Custom Parts | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U18-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U18-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-P",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/copper-brass-cnc-parts/",
+      "title": "Copper & Brass CNC Machining | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U19-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U19-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-M",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/low-volume-production/",
+      "title": "Low-Volume CNC Production | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U20-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U20-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-L",
+      "pageType": "批次放行",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/plastic-machined-parts/",
+      "title": "Plastic CNC Machining Services | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U21-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U21-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-M",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/prototype-machining/",
+      "title": "CNC Prototype Machining | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U22-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U22-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-A",
+      "pageType": "原型评审",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/stainless-steel-cnc-parts/",
+      "title": "Stainless Steel CNC Machining | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U23-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U23-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          },
+          {
+            "scope": "能力变体完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-capability-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-M",
+      "pageType": "工艺/材料详情",
+      "unresolved": []
+    },
+    {
+      "url": "/capabilities/starting-with-a-sample/",
+      "title": "Machining from an Existing Sample | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U24-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U24-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-sample-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-S",
+      "pageType": "样件重建",
+      "unresolved": []
+    },
+    {
+      "url": "/factory/",
+      "title": "CNC Factory & Quality Control in Hangzhou | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U25-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U25-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-capabilities.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-factory-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        },
+        {
+          "width": 768,
+          "file": "D:/lzz/website-implementation-20261015/final/T-factory-768-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "CAP-F",
+      "pageType": "工厂与质量",
+      "unresolved": []
+    },
+    {
+      "url": "/privacy/",
+      "title": "Privacy and site information | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U26-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U26-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-privacy-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PRIV",
+      "pageType": "隐私",
+      "unresolved": []
+    },
+    {
+      "url": "/products/",
+      "title": "Custom CNC parts made to your drawing | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U27-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U27-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-products-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PROD-OV",
+      "pageType": "产品总览",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/",
+      "title": "CNC machining studies and part examples | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U28-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U28-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PROD-STUDIES",
+      "pageType": "研究目录",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/29-inch-display-housing-cnc-machining/",
+      "title": "CNC machining a 29-inch display housing | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U29-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "完整面板首屏、29-inch边界、3项技术输入、AI support concept、原机床/双面照片、竖视频poster/controls、完整验收表与独有FAQ；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U29-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "从首屏至验收表/FAQ开头连续分帧：整板、concept、实际setup、两面照、竖video poster/controls和3行验收均看；未查后续FAQ/结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/custom-metal-parts-batch-examples/",
+      "title": "Metal part batches: shafts, fittings & housings | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U30-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首屏与4来源组、锁销/批次轴、两壳体组、黄铜原照、cleaning竖video poster/controls、路线与4行验收表/FAQ开头；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U30-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首屏、4来源组和全部静态图/竖video poster、4行手机验收表与FAQ开头；中间通用路线模块的y5952分帧未看。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY-COL",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+      "title": "Plastic parts: PTFE, POM, PE & acrylic | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U31-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首屏与PTFE/POM/PE/acrylic四来源组、全部5张原照与4个video poster、grade/measurement模块、4行验收表/FAQ开头；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U31-390-full.jpg",
+          "D:/lzz/website-implementation-20261015/final/U31-390-full-14000.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首屏至4组来源、全部原照和4个video poster、grade/measurement及4行手机验收表/FAQ开头连续分帧；未查后续FAQ/结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY-COL",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/five-axis-machining-multi-face-parts/",
+      "title": "5-axis machining for multi-face parts | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U32-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U32-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/milling-a-pocketed-enclosure-form/",
+      "title": "CNC milling a pocketed enclosure: walls, bores and datums | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U33-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U33-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/milling-prismatic-components/",
+      "title": "CNC milling for prismatic parts | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U34-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U34-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/turning-then-milling-cylindrical-parts/",
+      "title": "CNC turning followed by milling for cylindrical parts | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U35-1440-native-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U35-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/machining-studies/two-stage-cnc-milling/",
+      "title": "Two CNC milling setups: keeping features aligned | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U36-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U36-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-study-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "STUDY",
+      "pageType": "工序研究/独立集合",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/",
+      "title": "Custom machined part examples | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U37-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U37-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-directory-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        },
+        {
+          "width": 768,
+          "file": "D:/lzz/website-implementation-20261015/final/T-directory-768-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PROD-LIST",
+      "pageType": "形态筛选目录",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "title": "Aluminum intercooler prototypes | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P12；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U38-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首屏、完整2行技术表、6061/3003与CNC+TIG、客户供料/焊后检验、完整来源与独立批次细节；未查页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U38-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源缩图、scope/生产条件、2行技术表、材料及供货模块、独立批次原照；图纸验收正文与Reference开头的部分手机分帧未看。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "title": "Billet aluminum engine covers | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P13；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U39-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U39-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "title": "Injector & fuel-rail intake manifolds: billet aluminum | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P16；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U40-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U40-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "title": "Billet aluminum intake plenums | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P17；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U41-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U41-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "title": "Intake-system assembly reference | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P14；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U42-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首屏、3行接口表、Listed 6061-T6、STEP/IGES与测试条件、完整assembly source、related开头；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U42-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源、scope/生产条件、3行接口表、材料、供货及图纸输入开头；未查其余手机来源/结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "title": "Transmission housings & pump bodies | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P18；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U43-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U43-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "title": "Throttle-body CAD reference | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P15；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U44-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "裁图首屏、2行技术表、6061-T6、执行器/控制/泄漏边界、图纸验收与完整CAD source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U44-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "新裁图首屏、CAD与housing/assembly scope、生产条件、2行技术表、材料与供货/图纸输入开头；未查其余手机来源/结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-CAD-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "title": "Flanged turned component assemblies | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P19；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U45-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "双法兰首屏、ON/OFF/箭头/螺钉、3行接口表、牌号选项、供货/验收和完整原source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U45-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源、scope/生产条件、3行接口表、材料、供货/图纸开头、完整静态双法兰source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "title": "Multi-bore circular milled component | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P00；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U46-1440-paint-recheck-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U46-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "title": "Structural & aesthetic components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P09；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U47-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U47-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "title": "Non-metallic & insulating components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P20；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U48-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U48-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "title": "Custom machined plastic parts | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P21；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U49-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U49-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "title": "Turned fittings, connectors & flanges | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P07；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U50-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U50-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-oem-cnc-turning-manufacturer/",
+      "title": "Custom CNC-turned components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P05；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U51-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U51-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "title": "Milled instrument blocks & brackets | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P01；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U52-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U52-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/custom-rotary-cylindrical-components/",
+      "title": "Rotary & cylindrical components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P06；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U53-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U53-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "title": "Milled metal brackets & finished housings | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P08；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U54-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U54-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "title": "Multi-sided machined components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P04；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U55-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U55-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/global-oem-precision-machining-solutions/",
+      "title": "Angled turned component reference | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P03；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U56-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U56-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "title": "Turbine & fluid-system components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P11；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U57-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U57-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "title": "Complex internal & external turned features | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P10；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U58-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U58-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "title": "Cast housings & structural enclosures | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P22；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U59-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U59-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/oem-precision-cnc-machined-casting-housings/",
+      "title": "CNC-machined casting housings | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P23；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U60-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图、3项壳体/内部接口输入、材质与来样/铸坯责任、完整图纸验收与source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U60-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源、生产条件、3项接口、材料；sample-to-part及铸坯责任、图纸/验收连续分帧已看；未查手机完整Reference与结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-cnc-machined-castings-custom-oem-housings/",
+      "title": "Machined castings & OEM housings | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P24；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U61-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U61-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-cnc-machined-castings-manufacturer/",
+      "title": "Precision-machined castings | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P25；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U62-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U62-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "title": "Repeated-hole plastic strip references | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P26；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U63-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U63-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "title": "Turned brass & copper components | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P27；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U64-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图、3项铜/黄铜技术输入、材质/镀层、图纸验收和完整批次原source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U64-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源、生产条件、3项输入、材质与镀后条件、完整图纸/验收模块；未查手机完整Reference与结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "title": "Pilot-batch housing references | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P28；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U65-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U65-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "title": "Circular plastic component reference | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P29；原主体已核；仅生成背景合成",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U66-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U66-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          },
+          {
+            "scope": "产品代表类型完整连续分帧，修正处另有闭环",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-visual-products.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "title": "Open aluminum enclosure references | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P30；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U67-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U67-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "title": "Rotary component & flange reference | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P31；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U68-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "rotary主体/独立法兰首图、3项轴线/标记/最终状态输入、牌号与处理、assembly scope、图纸验收和完整source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U68-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源、生产条件、3项技术输入、牌号与处理、assembly scope/图纸开头、完整rotary source；部分验收和结尾未看。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "title": "Indexing plungers & locking pins | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P32；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U69-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图旧采集空白已由新现场viewport及重采分帧关闭；来源缩图、3项锁销输入、材质、弹簧/行程/测试供货边界、图纸验收和完整原source均已看；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U69-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图完整、来源/生产条件、3项接口、材质、component-or-assembly与图纸验收、Reference来源说明/related开头；未查完整结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "title": "Lid & gasket aluminum housings: sealing interfaces | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P33；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U70-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U70-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "title": "Pilot-run component references | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P34；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U71-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "同族批次首图、3项版本/批次输入、材质选项、按件号放行与图纸验收、完整原source；未查结尾/页脚。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U71-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "首图/来源、生产条件、3项输入、材质与逐件号/版本/放行条件、图纸输入开头；未查手机完整Reference与结尾。",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-product-variants.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": []
+    },
+    {
+      "url": "/products/part-examples/ultra-high-precision-machining-services/",
+      "title": "Custom CNC Impeller Machining | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "P02；原主体已核；原图/画布裁切",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U72-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U72-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "PART",
+      "pageType": "具体零件参考",
+      "unresolved": [
+        "背景分离候选未采用，已按批准兜底使用完整原图；进一步净背景需可靠新原片"
+      ]
+    },
+    {
+      "url": "/quote/",
+      "title": "Request a CNC machining quote | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U73-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U73-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-quote-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        },
+        {
+          "width": 768,
+          "file": "D:/lzz/website-implementation-20261015/final/T-quote-768-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "Q",
+      "pageType": "询价草稿",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/",
+      "title": "CNC machining & ordering resources | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U74-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–2411；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U74-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4212；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "R1",
+      "pageType": "资料总览",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+      "title": "Compare CNC machining quotations | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U75-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U75-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/drawings-and-ordering/critical-features-cnc-drawing/",
+      "title": "Drawing requirements & critical features | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U76-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4250；连续全页，含完整页脚；修订后定向复看D y900/y1800、M y2232/y2976，非新整页复审",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U76-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–7017；连续全页，含完整页脚；修订后定向复看D y900/y1800、M y2232/y2976，非新整页复审",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/drawings-and-ordering/machined-prototype-approval-checklist/",
+      "title": "Machined prototype approval | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U77-1440-full.jpg"
+        ],
+        "independent": []
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U77-390-full.jpg"
+        ],
+        "independent": []
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/faq/",
+      "title": "CNC machining FAQ | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U78-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4588；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U78-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–6479；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "R4",
+      "pageType": "FAQ",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/ordering-guide/",
+      "title": "CNC machining ordering guide | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U79-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–2617；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U79-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4469；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "R2",
+      "pageType": "采购目录",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/processes-materials-finishes/",
+      "title": "CNC processes, materials & finishes | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U80-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–1877；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U80-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–2864；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "R3",
+      "pageType": "工艺目录",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/processes-materials-finishes/cnc-process-selection/",
+      "title": "CNC milling, turning or 5-axis machining? | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U81-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3115；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U81-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–5543；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/processes-materials-finishes/material-and-finish-checklist/",
+      "title": "CNC part material & finish checklist | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U82-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4465；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U82-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–7583；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-guide-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/production-and-shipping/custom-cnc-parts-shipping-checklist/",
+      "title": "CNC parts: international shipping checklist | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U83-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3514；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U83-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–6175；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/production-and-shipping/prototype-vs-small-batch-cnc/",
+      "title": "CNC prototypes vs small-batch production | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U84-1440-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–3972；连续全页，含完整页脚；修订后定向复看D y900/y1800、M y1488/y2232/y2976，非新整页复审",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U84-390-native-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–6433；连续全页，含完整页脚；修订后定向复看D y900/y1800、M y1488/y2232/y2976，非新整页复审",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "GUIDE",
+      "pageType": "单问题技术/采购指南",
+      "unresolved": []
+    },
+    {
+      "url": "/resources/rfq-checklist/",
+      "title": "CNC machining RFQ checklist | LZZ Precision",
+      "state": "implemented",
+      "content": "来源、独有要求与语义/内链检查完成；内容职责按批准方案",
+      "images": "引用、尺寸、Alt、来源身份已检查",
+      "desktop": {
+        "rendered": true,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U85-1440-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–4483；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "mobile": {
+        "rendered": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "geometryPass": true,
+        "firstScreenCompositionReviewed": true,
+        "files": [
+          "D:/lzz/website-implementation-20261015/final/U85-390-full.jpg"
+        ],
+        "independent": [
+          {
+            "scope": "y0–6580；连续全页，含完整页脚",
+            "report": "D:/lzz/website-implementation-20261015/reports/independent-final-company-resources.md"
+          }
+        ]
+      },
+      "narrow": [
+        {
+          "width": 320,
+          "file": "D:/lzz/website-implementation-20261015/final/N-rfq-320-responsive.jpg",
+          "scope": "首屏/中部/页尾抽样；非全页逐字目视"
+        }
+      ],
+      "interactions": "共享菜单已实际回归；专有功能见 interaction-records.json",
+      "blueprint": "G1",
+      "pageType": "RFQ清单",
+      "unresolved": []
+    }
+  ],
+  "completedAt": "2026-10-15T05:53:58.834Z",
+  "deployed": false,
+  "productionVerified": false,
+  "unresolvedCodeBlockers": [],
+  "counts": {
+    "HOME": 1,
+    "E": 1,
+    "A1": 1,
+    "A5": 1,
+    "A6": 5,
+    "A2": 1,
+    "A4": 1,
+    "A3": 1,
+    "CAP-H": 1,
+    "CAP-P": 4,
+    "CAP-M": 4,
+    "CAP-L": 1,
+    "CAP-A": 1,
+    "CAP-S": 1,
+    "CAP-F": 1,
+    "PRIV": 1,
+    "PROD-OV": 1,
+    "PROD-STUDIES": 1,
+    "STUDY": 6,
+    "STUDY-COL": 2,
+    "PROD-LIST": 1,
+    "PART": 35,
+    "Q": 1,
+    "R1": 1,
+    "GUIDE": 7,
+    "R4": 1,
+    "R2": 1,
+    "R3": 1,
+    "G1": 1
+  },
+  "evidenceBoundary": "85 URL have content/asset checks and D/M rendered captures; all first-screen compositions viewed; independent full/targeted areas are explicitly recorded, not a claim of 85 full-page manual reviews."
+}

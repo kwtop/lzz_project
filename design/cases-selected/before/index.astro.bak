@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Arrow from '../../components/Arrow.astro';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import {engineeringCases} from '../../data/cases';
+---
+<Layout title="Machining Studies" description="Explore LZZ workshop studies and plastic and metal part collections, with original photographs, short videos and drawing requirements for similar parts.">
+ <section class="container cases-intro"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/products/">Custom Parts</a><span>/</span><span>Machining Studies</span></nav><h1>Machining Studies</h1><p class="case-boundary">Original workshop photographs, machining sequences and drawing considerations for comparable parts.</p></section>
+ <section class="container cases-grid" aria-label="Process studies">{engineeringCases.map(item=><a class="case-card" href={'/cases/'+item.slug+'/'}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, (max-width:1220px) 46vw, 550px"/><div><h2>{item.title}</h2><p>{item.lead}</p><span class="text-link">Read the study <Arrow size={18}/></span></div></a>)}</section>
+</Layout>
+<style>
+ .cases-intro{padding-block:48px}.cases-intro h1{font-size:var(--type-display);line-height:1.12;letter-spacing:-.035em;margin:20px 0;font-weight:600}.cases-intro .case-boundary{font-size:17px;line-height:1.7;max-width:70ch;margin-top:24px}.case-boundary a{text-decoration:underline;text-underline-offset:4px}
+ .cases-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px 40px;padding-bottom:96px}.case-card{min-width:0;display:flex;flex-direction:column;align-items:flex-start}.case-card :global(img){width:100%;height:auto;aspect-ratio:1.65;object-fit:cover;display:block}.case-card>div{padding-top:24px;display:flex;flex-direction:column;align-items:flex-start;flex:1;gap:24px}.cases-grid .case-card h2{font-size:clamp(26px,2.8vw,34px);line-height:1.2;margin:0;max-width:30ch}.case-card .text-link{margin-top:auto}.case-card:hover h2{color:var(--red)}
+ .cases-grid .case-card:first-child{grid-column:1/-1;display:grid;grid-template-columns:1.55fr 1fr;gap:48px;align-items:center;border-bottom:1px solid var(--border);padding-bottom:48px}.cases-grid .case-card:first-child>div{padding-top:0}.cases-grid .case-card:first-child :global(img){aspect-ratio:1.55}.case-card>div>p{font-size:16px;line-height:1.6;color:var(--muted);max-width:43ch;margin:0}.case-card:last-child:nth-child(odd){grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;align-items:center}.case-card:last-child:nth-child(odd)>div{padding-top:0}
+ @media(max-width:760px){.cases-intro{padding-block:32px}.cases-intro .case-boundary{font-size:16px}.cases-grid{grid-template-columns:1fr;gap:40px;padding-bottom:56px}.cases-grid .case-card:first-child,.case-card:last-child:nth-child(odd){display:flex;grid-column:auto;gap:0}.cases-grid .case-card:first-child{padding-bottom:38px}.case-card>div,.case-card:last-child:nth-child(odd)>div,.cases-grid .case-card:first-child>div{padding-top:20px}.case-card :global(img){aspect-ratio:1.45}.case-card>div>p{font-size:14px}}
+</style>

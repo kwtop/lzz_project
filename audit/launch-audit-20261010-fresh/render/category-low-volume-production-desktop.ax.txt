@@ -1,0 +1,127 @@
+Browser tab: 506354184, Title: "Low Volume Production | LZZ Precision", URL: "http://127.0.0.1:4323/capabilities/low-volume-production/".
+1 AXWebArea Low Volume Production | LZZ Precision, URL: 127.0.0.1:4323/capabilities/low-volume-production/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/capabilities/low-volume-production/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+				21 text Low-volume production
+			22 heading Low-volume CNC production with revision control, Value: 1
+				23 text Low-volume CNC production with revision control
+			24 text Small production runs of custom components, including aluminum enclosures. Send the batch quantity and schedule with your drawing.
+			25 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F
+			26 container
+				27 link Description: View Billet aluminum engine covers, Value: 127.0.0.1:4323/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/
+				28 text Billet aluminum engine covers
+			29 container engineering-fit
+				30 heading What does your pilot or repeat batch need?, Value: 2
+					31 text What does your pilot or repeat batch need?
+				32 text Examples cover pilot lots and mixed components, including short-run housings. Orders start at 1 piece. Share the geometry, material, finish and inspection requirements so we can quote the batch plan and price.
+				33 definition list
+					34 container Geometry & process
+						35 text Geometry & process
+					36 text For pilot builds, mixed-part orders and smaller repeat batches. Milling, turning, multi-axis machining and casting finishing can support different part numbers within a production program.
+					37 container Size & workholding
+						38 text Size & workholding
+					39 text Share models, overall dimensions and stock sizes for each part number. Dedicated fixtures and revision control support repeatable setups across batches. Identify common features and parts that must fit together so tool access and clamping space can be reviewed.
+					40 container Material & finish
+						41 text Material & finish
+					42 text Specify the grade, material condition and finish for each part number. Identify cosmetic criteria and required final dimensions for batch acceptance.
+				43 button (collapsed) Carry an approved revision into each batch, Secondary Actions: Expand
+					44 text Carry an approved revision into each batch
+			45 container part-examples
+				46 heading More part examples, Value: 2
+					47 text More part examples
+				48 link Description: Browse all parts, Value: 127.0.0.1:4323/products/
+				49 link Description: Billet aluminum intake plenums Billet aluminum intake plenums, Value: 127.0.0.1:4323/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/
+				50 link Description: Pilot-batch housings & mating parts Pilot-batch housings & mating parts, Value: 127.0.0.1:4323/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/
+			51 container machining-studies
+				52 heading Machining in practice, Value: 2
+					53 text Machining in practice
+				54 link Description: All machining studies, Value: 127.0.0.1:4323/cases/
+				55 link Value: 127.0.0.1:4323/cases/milling-prismatic-components/, Description: CNC milling setup machining a prismatic metal component. CNC milling for prismatic multi-feature parts CNC milling of block-shaped components with multiple machined faces and openings.
+				56 link Value: 127.0.0.1:4323/cases/custom-metal-parts-batch-examples/, Description: Custom metal parts in batches: shafts, fittings and housings Turned shafts, fittings and recessed housings: a selection of custom metal components in batches.
+			57 container capability-scope
+				58 heading Drawing & acceptance, Value: 2
+					59 text Drawing & acceptance
+				60 heading Drawing requirements, Value: 3
+					61 text Drawing requirements
+				62 text Provide a part list with revision, quantity and material for each item. Identify common features and any parts that must fit or be supplied together.
+				63 text Distinguish an initial approval batch from later releases. Identify which requirements remain fixed and how proposed drawing changes should be reviewed.
+				64 container inspection
+					65 heading Inspection and acceptance, Value: 3
+						66 text Inspection and acceptance
+					67 text Specify first-article reporting, subsequent sampling and traceability requirements with the quotation request.
+					68 text Agree treatment of cosmetic criteria, mixed revisions and nonconforming parts before defining batch acceptance.
+					69 text Agree the measurement method and required records before production.
+				70 container
+					71 text 7–14 business days — Production, from 1 piece.  Production starts after drawing and order confirmation. The period includes surface finishing; shipping time is additional.
+				72 container Inspection and order information
+					73 link Description: Quality & inspection, Value: 127.0.0.1:4323/quality/
+					74 button (collapsed) Equipment and order records, Secondary Actions: Expand
+						75 text Equipment and order records
+			76 container enquiry
+				77 heading Prepare your low-volume production enquiry, Value: 2
+					78 text Prepare your low-volume production enquiry
+				79 text Share quantities per part and release, required documentation, finish and packaging needs.
+				80 text Give expected repeat demand as a forecast and requested dates for confirmation. Agree commercial terms separately.
+				81 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F
+				82 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+				83 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			84 container Description: Useful engineering resources, ID: related-resources
+				85 heading Related resources, Value: 3
+					86 text Related resources
+				87 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				88 link Description: Prototype vs small batch, Value: 127.0.0.1:4323/resources/prototype-vs-small-batch-cnc/
+				89 button (collapsed) More engineering resources, Secondary Actions: Expand
+					90 text More engineering resources
+			91 container Related capabilities
+				92 heading Related production stages, Value: 2
+					93 text Related production stages
+				94 link Description: Prototype machining, Value: 127.0.0.1:4323/capabilities/prototype-machining/
+		95 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		96 container
+			97 text Custom CNC machining
+			98 text in Hangzhou, China.
+		99 container Footer navigation
+			100 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			101 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			102 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			103 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			104 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			105 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			106 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			107 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			108 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			109 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		110 container Let’s talk, ID: contact
+			111 heading Let’s talk, Value: 2, ID: footer-talk-title
+				112 text Let’s talk
+			113 text Hangzhou, China · UTC+8
+			114 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			115 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		116 container Find us
+			117 heading Find us, Value: 2, ID: footer-find-title
+				118 text Find us
+			119 container
+				120 text No. 4 Fengcheng Road
+				121 text Pingyao, Yuhang District
+				122 text Hangzhou, Zhejiang, China
+		123 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		124 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea Low Volume Production | LZZ Precision, URL: 127.0.0.1:4323/capabilities/low-volume-production/

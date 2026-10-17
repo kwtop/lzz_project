@@ -1,0 +1,28 @@
+/* Breadcrumbs belong to the top-left content axis, above split hero content. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main nav[aria-label="Breadcrumb"],
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main nav[aria-label="Breadcrumb"] :is(a,span) {
+ font-family:var(--font-text)!important;font-size:20px!important;font-weight:400!important;
+ line-height:1.5!important;letter-spacing:0!important;text-align:left;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main nav[aria-label="Breadcrumb"] {
+ display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;
+ gap:8px 12px;max-width:100%;min-width:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main nav[aria-label="Breadcrumb"] :is(a,span) {
+ min-width:0;overflow-wrap:anywhere;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ce-header,.ft-intro,.cap-hero-grid)>nav[aria-label="Breadcrumb"] {
+ grid-column:1/-1;align-self:start;margin:0!important;padding:0!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-header,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-intro,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-grid {
+ padding-top:40px;row-gap:24px;
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main nav[aria-label="Breadcrumb"],
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main nav[aria-label="Breadcrumb"] :is(a,span) {font-size:17px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-header,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .ft-page .ft-intro,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-grid {padding-top:24px;row-gap:20px}
+}

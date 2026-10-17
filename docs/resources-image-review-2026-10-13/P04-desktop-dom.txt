@@ -1,0 +1,149 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - navigation "Breadcrumb":
+    - link "Resources":
+      - /url: /resources/
+    - generic: / Machining guides
+  - heading "CNC processes, materials and finishes" [level=1]
+  - region "Choosing CNC milling, turning or 5-axis machining":
+    - heading "Choosing CNC milling, turning or 5-axis machining" [level=2]
+    - paragraph: Compare turning, milling and multi-axis setups for your part geometry. Identify the drawing details needed to confirm a process and quote.
+    - link "Read process selection guide":
+      - /url: /resources/cnc-process-selection/
+  - region "Specifying material and finish for a machined part":
+    - heading "Specifying material and finish for a machined part" [level=2]
+    - paragraph: Specify the material grade and finish for your CNC part, including mating surfaces, dimensions after coating and the documentation required.
+    - link "Read material & finish guide":
+      - /url: /resources/material-and-finish-checklist/
+  - region "Plastic, coated and covered parts":
+    - heading "Plastic, coated and covered parts" [level=2]
+    - heading "Plastic parts" [level=3]
+    - paragraph: The component itself is made from plastic.
+    - link "View plastic part examples":
+      - /url: /cases/custom-plastic-parts-ptfe-pom-pe-acrylic/
+    - heading "Coated metal parts" [level=3]
+    - paragraph: Metal components with a surface coating, as shown in the original photographs below.
+    - heading "Components with a separate covering" [level=3]
+    - paragraph: A separate covering forms part of the component, as with covered wheels and rollers.
+    - link "View covered wheels and rollers":
+      - /url: /products/#additional-part-forms
+  - region "Surface-coated parts":
+    - heading "Surface-coated parts" [level=2]
+    - figure "Coated circular components Dark circular parts on a rack. The collection identifies the coating as Teflon.":
+      - 'link "View full image: Dark circular parts on a rack. The collection identifies the coating as Teflon."':
+        - /url: /media/source-details/finish-coated-round-1200.webp
+        - img "Dark circular parts on a rack. The collection identifies the coating as Teflon."
+      - strong: Coated circular components
+      - generic: Dark circular parts on a rack. The collection identifies the coating as Teflon.
+      - link "View full image":
+        - /url: /media/source-details/finish-coated-round-1200.webp
+    - figure "Coated bars Long dark coated parts with repeated holes.":
+      - 'link "View full image: Long dark coated parts with repeated holes."':
+        - /url: /media/source-details/finish-coated-bars-1200.webp
+        - img "Long dark coated parts with repeated holes."
+      - strong: Coated bars
+      - generic: Long dark coated parts with repeated holes.
+      - link "View full image":
+        - /url: /media/source-details/finish-coated-bars-1200.webp
+    - paragraph: These source photographs are labeled as Teflon surface coating. They show circular components and long pieces with repeated holes. This is a surface treatment example; it is separate from parts made from PTFE material.
+  - region "Define the coating requirement":
+    - heading "Define the coating requirement" [level=2]
+    - term: Substrate material
+    - definition: Specify the material grade of the part.
+    - term: Treatment specification
+    - definition: State the required coating or surface treatment.
+    - term: Surfaces to coat or mask
+    - definition: Identify which surfaces to coat and which to mask.
+    - term: Critical dimensions
+    - definition: State whether critical dimensions apply before or after coating.
+    - link "Full finish, thickness, appearance and test requirements":
+      - /url: /resources/material-and-finish-checklist/#finish-and-acceptance
+  - navigation "Other resources":
+    - heading "Other resources" [level=2]
+    - link "RFQ checklist":
+      - /url: /resources/rfq-checklist/
+    - link "FAQ":
+      - /url: /resources/faq/
+  - navigation "Resources and order preparation":
+    - link "All resources":
+      - /url: /resources/
+    - link "RFQ checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How we work":
+      - /url: /resources/how-we-work/
+    - link "Quality control":
+      - /url: /quality/
+  - region "Prepare an inquiry":
+    - heading "Discuss material and finish" [level=2]
+    - paragraph: Send your drawing with the proposed grade and finish. Mark mating surfaces and any dimensions that must be checked after treatment.
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "Prepare RFQ email":
+      - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

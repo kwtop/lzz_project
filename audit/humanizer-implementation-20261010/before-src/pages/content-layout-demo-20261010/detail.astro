@@ -1,0 +1,177 @@
+---
+import DemoLayout from '../../layouts/ContentDemoLayout.astro';
+import Arrow from '../../components/Arrow.astro';
+import ResourceLinks from '../../components/ResourceLinks.astro';
+import catalog from '../../data/catalog.json';
+import {productTitle,productCardTitle,productImageAlt,categoryDetails} from '../../data/presentation';
+import {productImage,productSrcset} from '../../data/refinedImages';
+import {productSummary} from '../../data/productSummaries';
+import {productDetail} from '../../data/productDetails';
+import {productManufacturing} from '../../data/manufacturing';
+import {productDecision,relatedPartDecisions} from '../../data/productDecisions';
+import {productTags} from '../../data/productTags';
+import {caseForCapability} from '../../data/cases';
+import {reviewHeadlines} from '../../data/productReview';
+import {inquiryHref} from '../../lib/inquiryContext';
+
+const slug='custom-oem-cnc-machined-plastic-parts-manufacturer';
+const product=catalog.products.find(item=>item.slug===slug)!;
+const title=productTitle(product);
+const original='/products/'+slug+'/';
+const overview=productSummary(product);
+const engineering=productDetail(product);
+const manufacturing=productManufacturing(product);
+const decision=productDecision(slug);
+const related=relatedPartDecisions(product,catalog.products);
+const tags=productTags(product);
+const processCaseSlugs=[...new Set(tags.map(key=>catalog.categories.find(category=>category.key===key)?.slug).filter(Boolean))];
+const processCases=[...new Map(processCaseSlugs.flatMap(key=>caseForCapability(key!)).map(item=>[item.slug,item])).values()].slice(0,2);
+const quoteHref=inquiryHref({id:slug,title,legacyName:product.name,path:original,kind:'product'});
+const specifications=[
+ ['Materials',overview.material],
+ ['Machining',overview.process],
+ ['Surface & edges',manufacturing.finishes],
+];
+const drawingInputs=[
+ ['Geometry & interfaces',engineering.drawing],
+ ['Material & finish','Specify the material grade, condition, finish and any masked areas.'],
+ ['Quantity & schedule','State the prototype or batch quantity and required schedule.'],
+ ['Inspection requirements',engineering.inspection],
+];
+---
+<DemoLayout title={title} original={original}>
+ <article class="cl-plastic-detail">
+  <section class="cl-wrap cl-section cl-part-hero" aria-labelledby="part-title">
+   <nav class="cl-part-crumbs" aria-label="Breadcrumb"><a href="/products/">Custom Parts</a><span aria-hidden="true">/</span><a href="/capabilities/plastic-machined-parts/">Plastic machining</a></nav>
+   <h1 id="part-title">{title}</h1>
+   <figure class="cl-part-image">
+    <a href={productImage(product)} target="_blank" rel="noopener" aria-label={'View full-size image: '+title}><img src={productImage(product)} srcset={productSrcset(product)} sizes="(max-width:760px) calc(100vw - 40px), (max-width:1200px) 54vw, 650px" width="1200" height="1200" alt={productImageAlt(product)} fetchpriority="high"/></a>
+   </figure>
+   <div class="cl-part-intro">
+    <p class="cl-part-purpose">{overview.purpose}</p>
+    <div class="cl-part-focus"><h2>{reviewHeadlines[title]}</h2><p>{decision.selectionFocus}</p></div>
+    <a class="cl-button" href={quoteHref}>Prepare RFQ email <Arrow size={18}/></a>
+    <p class="cl-note cl-part-draft-note">Add your requirements to the draft, then attach your drawing in your email app before sending.</p>
+    <nav class="cl-part-jumps" aria-label="On this page"><a href="#manufacturing-options">Materials &amp; machining <Arrow size={16}/></a><a href="#drawing-requirements">Drawing &amp; inspection <Arrow size={16}/></a></nav>
+   </div>
+  </section>
+
+  <section class="cl-wrap cl-section cl-part-specifications" id="manufacturing-options" aria-labelledby="manufacturing-title">
+   <header class="cl-heading"><h2 id="manufacturing-title">Manufacturing options</h2><a class="cl-link" href="/capabilities/plastic-machined-parts/">Plastic machining scope <Arrow size={17}/></a></header>
+   <dl class="cl-dl">{specifications.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+   <p class="cl-note cl-part-boundary">Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.</p>
+  </section>
+
+  <section class="cl-part-review-band" id="drawing-requirements" aria-labelledby="drawing-title">
+   <div class="cl-wrap cl-section cl-part-review">
+    <header><h2 id="drawing-title">Drawing &amp; inspection requirements</h2><p>Identify the working surfaces and how the part fits into your assembly.</p><a class="cl-link" href="/quality/">Quality &amp; inspection <Arrow size={17}/></a></header>
+    <div class="cl-part-review-content">
+     <dl class="cl-dl">{drawingInputs.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+     <details class="cl-part-disclosure"><summary>Application, handling &amp; additional drawing notes</summary><div class="cl-part-expanded"><p>{engineering.scope}</p><dl><div><dt>Geometry summary</dt><dd>{overview.features}</dd></div><div><dt>Application scope</dt><dd>{manufacturing.applications}</dd></div><div><dt>Handling &amp; inspection</dt><dd>{overview.inspection}</dd></div><div><dt>With your inquiry</dt><dd>{engineering.rfq}</dd></div></dl>{manufacturing.considerations.map(note=><p>{note}</p>)}{engineering.considerations?.map(note=><div><h3>{note.title}</h3><p>{note.body}</p></div>)}</div></details>
+     <div class="cl-part-order"><strong>From 1 piece · 7–14 business days</strong><p>From drawing and order confirmation, including surface finishing; transit is additional.</p></div>
+    </div>
+   </div>
+  </section>
+
+  <section class="cl-wrap cl-section cl-part-comparison" aria-labelledby="related-title">
+   <header class="cl-heading"><h2 id="related-title">Compare part requirements</h2><a class="cl-link" href="/products/">All custom parts <Arrow size={17}/></a></header>
+   <div class="cl-part-related">{related.map(({product:part,reason})=><a href={'/products/'+part.slug+'/'}><figure><img src={productImage(part)} srcset={productSrcset(part)} sizes="(max-width:760px) 110px, (max-width:1200px) 28vw, 365px" width="800" height="800" loading="lazy" alt={productImageAlt(part)}/></figure><div><h3>{productCardTitle(part)}</h3><p>{reason}</p><span class="cl-part-view">View part requirements <Arrow size={16}/></span></div></a>)}</div>
+   <details class="cl-part-disclosure cl-part-further"><summary>Related machining processes &amp; order resources</summary><div class="cl-part-expanded"><nav class="cl-part-processes" aria-label="Related machining processes">{processCases.map(item=><a href={'/cases/'+item.slug+'/'}>{item.title} <Arrow size={16}/></a>)}{tags.map(key=><a href={'/capabilities/'+key.toLowerCase()+'/'}>{categoryDetails[key.toLowerCase()]?.title||key.replaceAll('-',' ')} <Arrow size={16}/></a>)}</nav><ResourceLinks label="Part inquiry resources"/></div></details>
+  </section>
+
+  <section class="cl-wrap cl-section">
+   <div class="cl-next cl-part-next"><div><h2>Prepare your plastic-part inquiry</h2><p>Include the material designation, operating environment, function and quantity with your drawing.</p></div><a class="cl-button" href={quoteHref}>Prepare RFQ email <Arrow size={18}/></a></div>
+  </section>
+ </article>
+</DemoLayout>
+
+<style>
+ .cl-part-hero{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);column-gap:64px;row-gap:28px;align-items:center}
+ .cl-part-crumbs{grid-column:1/-1;display:flex;align-items:center;flex-wrap:wrap;gap:12px;color:var(--muted);margin-bottom:0}
+ .cl-part-crumbs a{display:inline-flex;align-items:center;min-height:44px;font-size:14px;text-decoration:none}
+ .cl-part-crumbs a:hover{color:var(--red)}
+ .cl-part-hero>h1{grid-column:1/-1;margin:0}
+ .cl-part-image{min-width:0;margin:0;background:#f7f7f6}
+ .cl-part-image>a{display:block}
+ .cl-part-image img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;padding:24px}
+ .cl-part-intro{min-width:0;align-self:center}
+ .cl-part-purpose{margin:0 0 28px}
+ .cl-part-focus{border-top:1px solid var(--border);padding-top:24px;margin-bottom:30px}
+ .cl-part-focus h2{margin:0 0 12px}
+ .cl-part-focus p{margin:0}
+ .cl-part-draft-note{margin-top:14px}
+ .cl-part-jumps{display:grid;gap:2px;border-top:1px solid var(--border);padding-top:16px;margin-top:22px}
+ .cl-part-jumps a{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;color:var(--muted);font-size:14px;text-decoration:none}
+ .cl-part-jumps a:hover{color:var(--red)}
+ .cl-part-specifications{border-top:1px solid var(--border)}
+ .cl-part-boundary{margin-top:20px;max-width:78ch}
+ .cl-part-review-band{background:#f4f5f5}
+ .cl-part-review{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.65fr);gap:64px;align-items:start}
+ .cl-part-review>header p{margin-top:18px;margin-bottom:22px}
+ .cl-part-review-content{min-width:0}
+ .cl-part-disclosure{margin-top:26px;border-top:1px solid var(--border)}
+ .cl-part-disclosure>summary{padding-block:18px;min-height:56px;font-weight:550;cursor:pointer;list-style-position:outside;margin-left:18px}
+ .cl-part-expanded{padding-block:4px 12px}
+ .cl-part-expanded>p{margin:0 0 18px}
+ .cl-part-expanded dl{margin:0}
+ .cl-part-expanded dl>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;padding-block:15px;border-top:1px solid var(--border)}
+ .cl-part-expanded dd{margin:0}
+ .cl-part-order{border-top:1px solid var(--border);padding-top:22px;margin-top:8px}
+ .cl-part-order>strong{font-size:16px;font-weight:600}
+ .cl-part-order>p{margin-top:7px;color:var(--muted)}
+ .cl-part-related{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px}
+ .cl-part-related>a{display:block;min-width:0;text-decoration:none;color:var(--ink)}
+ .cl-part-related figure{margin:0 0 20px;background:#f7f7f6}
+ .cl-part-related img{display:block;width:100%;height:auto;aspect-ratio:1.2;object-fit:contain;padding:18px}
+ .cl-part-related h3{margin:0 0 12px}
+ .cl-part-related p{margin:0;color:var(--muted)}
+ .cl-part-view{display:flex;align-items:center;gap:14px;min-height:44px;margin-top:12px;font-size:14px;font-weight:550}
+ .cl-part-related>a:hover h3,.cl-part-related>a:hover .cl-part-view{color:var(--red)}
+ .cl-part-further{margin-top:36px}
+ .cl-part-processes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}
+ .cl-part-processes a{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:52px;padding-block:12px;border-bottom:1px solid var(--border);font-size:14px;color:var(--ink);text-decoration:none}
+ .cl-part-processes a:hover{color:var(--red)}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-purpose){margin:0 0 28px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-focus h2){margin-bottom:12px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-review>header p){margin-top:18px;margin-bottom:22px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-expanded>p){margin-bottom:18px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-order>p){margin-top:7px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related figure){margin-bottom:20px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related h3){margin-bottom:12px}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-hero>h1){font-size:clamp(38px,4.8vw,62px)!important;line-height:1.09!important;letter-spacing:-.035em!important;max-width:22ch!important;font-weight:550!important}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-purpose){font-size:20px!important;line-height:1.5!important}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-focus h2){font-size:26px!important;line-height:1.25!important;letter-spacing:-.018em!important}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related h3){font-size:21px!important;line-height:1.3!important}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related p){font-size:15px!important;line-height:1.6!important}
+ :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-expanded dd){font-size:15px!important}
+ @media(max-width:1100px){.cl-part-hero{gap:26px 36px}.cl-part-review{gap:36px}.cl-part-related{gap:24px}.cl-part-image img{padding:18px}}
+ @media(max-width:760px){
+  .cl-part-hero{grid-template-columns:minmax(0,1fr);gap:22px}
+  .cl-part-crumbs{grid-column:1;gap:10px}
+  .cl-part-hero>h1{grid-column:1}
+  .cl-part-image img{padding:14px}
+  .cl-part-purpose{margin-bottom:22px}
+  .cl-part-focus{padding-top:20px;margin-bottom:24px}
+  .cl-part-intro>.cl-button{width:100%}
+  .cl-part-jumps{margin-top:20px}
+  .cl-part-review{grid-template-columns:minmax(0,1fr);gap:28px}
+  .cl-part-review>header p{margin-top:14px;margin-bottom:14px}
+  .cl-part-expanded dl>div{grid-template-columns:minmax(0,1fr);gap:8px}
+  .cl-part-related{grid-template-columns:minmax(0,1fr);gap:24px}
+  .cl-part-related>a{display:grid;grid-template-columns:110px minmax(0,1fr);gap:20px;padding-top:24px;border-top:1px solid var(--border)}
+  .cl-part-related>a:first-child{padding-top:0;border-top:0}
+  .cl-part-related figure{margin:0;align-self:start}
+  .cl-part-related img{padding:10px;aspect-ratio:1}
+  .cl-part-related h3{margin-bottom:8px}
+  .cl-part-view{margin-top:7px}
+  .cl-part-processes{grid-template-columns:minmax(0,1fr)}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-purpose){margin-bottom:22px}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-review>header p){margin-top:14px;margin-bottom:14px}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related figure){margin-bottom:0}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related h3){margin-bottom:8px}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-hero>h1){font-size:38px!important;max-width:20ch!important}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-purpose){font-size:18px!important}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-focus h2){font-size:24px!important}
+  :global(body.brand-site.finesse-redesigned .cl-demo .cl-part-related h3){font-size:19px!important}
+ }
+</style>

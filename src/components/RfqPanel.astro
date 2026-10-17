@@ -1,0 +1,28 @@
+---
+import '../styles/rfq-panel.css';
+interface Props {
+ title?:string;
+ description?:string;
+ note?:string;
+ href?:string;
+ label?:string;
+ id?:string;
+ titleId?:string;
+ contained?:boolean;
+ compact?:boolean;
+}
+const {title,description='Send your drawing, material and quantity.',note='Create a draft, then attach drawings and send it from your email app.',href='/quote/',label='Prepare RFQ email',id='prepare-rfq',titleId,contained=false,compact=false}=Astro.props;
+---
+<section class:list={['rfq-section',{'rfq-contained':contained,'rfq-compact':compact}]} id={id} aria-label={title||'Have a drawing to review?'}>
+ <div class="rfq-panel">
+  <div class="rfq-copy">
+   <h2 id={titleId}>{title||<>Have a drawing<br/>to review?</>}</h2>
+   {description&&<p class="rfq-description">{description}</p>}
+  </div>
+  <div class="rfq-action">
+   <a class="rfq-button" href={href}><span>{label}</span></a>
+   {note&&<p class="rfq-note">{note}</p>}
+  </div>
+  {Astro.slots.has('details')&&<div class="rfq-details"><slot name="details"/></div>}
+ </div>
+</section>

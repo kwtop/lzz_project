@@ -1,0 +1,10 @@
+---
+import ResourceLinks from './ResourceReadingLinks.astro';
+interface Props {item:{question:string;answer:string;href:string;label:string};id:string;aliases?:string[];headingId?:string}
+const {item,id,aliases=[],headingId}=Astro.props;
+---
+<section class="res-question" id={id}>
+ {aliases.map(alias=><span class="res-anchor" id={alias}/>)}
+ <h3 id={headingId}>{item.question}</h3><p>{item.answer}</p>
+ <ResourceLinks links={[[item.label,item.href]]} label={item.question+' detailed guidance'}/>
+</section>

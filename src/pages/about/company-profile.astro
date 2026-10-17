@@ -1,0 +1,6 @@
+---
+import AboutProfilePage from '../../components/AboutProfilePage.astro';
+import AboutProfileRedesign from '../../components/AboutProfileRedesign.astro';
+import {isRedesigned} from '../../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<AboutProfileRedesign/>:<AboutProfilePage/>}

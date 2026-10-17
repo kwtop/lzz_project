@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+import QuoteForm from '../components/QuoteForm';
+import catalog from '../data/catalog.json';
+import {productTitle,categoryDetails} from '../data/presentation';
+import {siteOrigin} from '../data/seo';
+import type {InquiryReference} from '../lib/inquiryContext';
+const references:InquiryReference[]=[
+ ...catalog.products.map(product=>({id:product.slug,title:productTitle(product),legacyName:product.name,path:'/products/'+product.slug+'/',kind:'product' as const})),
+ ...catalog.categories.map(category=>({id:category.slug,title:categoryDetails[category.slug]?.title||category.name,legacyName:category.name,path:'/capabilities/'+category.slug+'/',kind:'capability' as const})),
+];
+---
+<Layout title="Request a CNC machining quote" cta={false}>
+ <section class="quote-shell"><div class="container quote-layout">
+  <div class="quote-intro"><h1>Tell us about<br/>your part</h1><p>Describe your part to prepare a quote request. You’ll review the draft before sending it from your email app.<span class="quote-quick-links">Prefer to talk? <a href="mailto:roger@lzz-cnc.com">Email LZZ</a> · <a href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer">WhatsApp</a></span></p></div>
+  <div class="quote-form-column">
+
+   <QuoteForm client:load references={references} siteOrigin={siteOrigin}/>
+  </div>
+  <div class="quote-support">
+   <div class="contact-block"><h2>Prefer to talk first?</h2><a href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a><a href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer">WhatsApp +86 138 5810 2479</a></div>
+   <details class="quote-checklist"><summary>Drawing package checklist</summary><ul><li>2D drawing or 3D model, with revision</li><li>Material, finish and critical features</li><li>Quantity, delivery destination and inspection records</li></ul></details>
+   <details class="quote-terms"><summary>Before you order</summary><dl><div><dt>Minimum order</dt><dd>From 1 piece.</dd></div><div><dt>Production &amp; delivery timing</dt><dd>7–14 business days from drawing and order confirmation, including surface finishing. Transit is additional.</dd></div><div><dt>Contact time zone</dt><dd>Hangzhou, China · UTC+8. Send your required delivery date with the drawing so timing can be reviewed.</dd></div><div><dt>Quality management</dt><dd>ISO 9001 certified. <a href="/quality/#quality-management">Request supplier qualification documents</a> and agree the inspection records required for your order.</dd></div><div><dt>Shipping terms</dt><dd>Tell us the delivery destination. We will agree the trade term and named place, then confirm packing and shipping documents.</dd></div></dl></details>
+   <nav class="quote-support-note" aria-label="Prepare your request"><a href="/resources/rfq-checklist/">RFQ checklist</a><a href="/quality/">Inspection requirements</a></nav>
+  </div>
+ </div></section>
+</Layout>
+<style>
+ :global(.quote-form .field-error),:global(.quote-form .form-error-summary){color:#a40013;font-size:14px;line-height:1.5}
+ :global(.quote-form .form-error-summary){margin-bottom:20px}
+ :global(.quote-form [aria-invalid="true"]){border-color:#a40013}
+ :global(.draft-result .draft-envelope){display:grid;gap:12px;margin:0 0 20px}
+ :global(.draft-result .draft-envelope>div){display:grid;grid-template-columns:56px minmax(0,1fr);gap:16px;align-items:baseline}
+ :global(.draft-result .draft-envelope dt){font-size:14px;color:var(--muted)}
+ :global(.draft-result .draft-envelope dd){margin:0;font-size:16px;font-weight:550;color:var(--ink);overflow-wrap:anywhere;user-select:text}
+ :global(.draft-result .draft-webmail){border-top:1px solid var(--border);padding-top:20px}
+ :global(.draft-result .draft-webmail h4){margin:0;font-size:18px;line-height:1.4;font-weight:600}
+ :global(.draft-result .draft-webmail ol){margin:12px 0 0;padding-left:22px;font-size:14px;line-height:1.7;color:var(--muted)}
+ :global(.draft-result .draft-webmail li+li){margin-top:8px}
+ :global(.draft-result .draft-webmail strong){color:var(--ink);font-weight:600}
+ :global(.draft-result .draft-webmail p){font-size:14px;line-height:1.7}
+
+ .quote-quick-links{display:none}
+ .quote-support-note{display:flex;flex-wrap:wrap;gap:12px 24px}.quote-support-note a{min-height:44px;display:inline-flex;align-items:center;text-decoration:underline;text-underline-offset:5px}
+
+ .quote-checklist summary{cursor:pointer;font-size:18px;font-weight:600;min-height:44px}.quote-checklist ul{padding-top:16px}
+ @media(max-width:760px){
+  .quote-quick-links{display:block;margin-top:14px;font-size:14px;color:var(--ink)}
+  .quote-quick-links a{text-decoration:underline;text-underline-offset:4px}
+  :global(body.brand-site) .quote-support .contact-block{display:none}
+  :global(body.brand-site) .quote-intro{background:#fff;color:var(--ink);padding-block:40px 32px;border-bottom:1px solid var(--border)}
+  :global(body.brand-site) .quote-intro>p{color:var(--muted);font-size:16px;line-height:1.7}
+  :global(body.brand-site) .quote-support{background:#fff;border-top:1px solid var(--border)}
+ }
+ .quote-terms{margin-top:26px;padding-top:24px;border-top:1px solid var(--border)}.quote-terms h2{font-size:21px}.quote-terms dl{margin-top:12px}.quote-terms dl>div{border-top:1px solid var(--border);padding:12px 0}.quote-terms dt{font-size:14px;font-weight:700}.quote-terms dd{font-size:14px;line-height:1.55;margin:5px 0 0;color:var(--muted)}
+ @media(min-width:761px){
+  :global(body.brand-site) .quote-shell{background:#fff}
+  :global(body.brand-site) .quote-layout{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);grid-template-rows:auto 1fr;column-gap:64px;row-gap:40px;padding-block:48px 72px;align-items:start}
+  :global(body.brand-site) .quote-intro{grid-column:1/-1;grid-row:1;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;border-bottom:1px solid var(--border);padding-bottom:36px}
+  :global(body.brand-site) .quote-intro h1{font-size:56px;line-height:1.1}
+  :global(body.brand-site) .quote-intro>p{font-size:17px;line-height:1.7;margin:0;max-width:52ch}
+  :global(body.brand-site) .quote-form-column{grid-column:2;grid-row:2;padding-top:0}
+  :global(body.brand-site) .quote-support{grid-column:1;grid-row:2;align-self:start;background:#fff;border-radius:0;padding:0 32px 0 0;border-right:1px solid var(--border)}
+  :global(body.brand-site) .quote-support-note{margin-top:20px}
+  :global(body.brand-site) .quote-checklist{margin-top:24px;padding-top:22px}
+  :global(body.brand-site) .quote-support :global(.contact-block a:first-of-type){font-size:21px;overflow-wrap:anywhere}
+ }
+ @media(min-width:761px) and (max-width:1100px){
+  :global(body.brand-site) .quote-layout{column-gap:32px}
+  :global(body.brand-site) .quote-intro{gap:32px}
+  :global(body.brand-site) .quote-intro h1{font-size:40px}
+  :global(body.brand-site) .quote-support{padding:0 24px 0 0}
+ }
+ @media(min-width:761px) and (max-width:960px){
+  :global(body.brand-site) .quote-layout{grid-template-columns:minmax(0,1fr)}
+  :global(body.brand-site) .quote-form-column{grid-column:1;grid-row:2}
+  :global(body.brand-site) .quote-support{grid-column:1;grid-row:3;padding:32px 0 0;border-right:0;border-top:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .quote-support .quote-terms{grid-column:2;grid-row:1/3;margin:0;padding:0;border:0}
+  .quote-support .quote-checklist{grid-column:1;margin:0}
+  .quote-support .quote-support-note{grid-column:1/-1}
+ }
+</style>

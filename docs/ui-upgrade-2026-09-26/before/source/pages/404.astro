@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+---
+<Layout title="Page not found" description="The requested LZZ page could not be found. Explore machining capabilities or browse original part examples." noindex={true} cta={false}>
+ <PageHero lines={['Page not found']} description="The page may have moved, or the link may be incorrect. Return to the homepage to find our parts and machining services." image="/media/machining-hero-v2.webp" imageAlt="Machining scene" action={{label:'Back to home',href:'/'}}/>
+</Layout>

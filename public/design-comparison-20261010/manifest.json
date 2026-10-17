@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "project": "LZZ · 三种品牌设计方向",
+  "brief": "同一企业、同一询价目标的三套首页小样。三套统一保留现站 Inter Variable 字体，配色、首屏骨架和后续内容组织独立设计；点击画面放大，切换桌面/手机。选定后告诉我编号。现状可在比较范围中隐藏。",
+  "round": "2026-10-10 / 01",
+  "candidates": [
+    {
+      "id": "baseline",
+      "name": "当前首页",
+      "concept": "现有首页用于对照；新方向尚未应用。",
+      "typography": "Inter Variable，现有首页字体与比例。",
+      "palette": ["#181b1f", "#ffffff", "#e00b16"],
+      "traits": ["现有网站实时页面", "居中标题与加工示意图", "保留原有功能"],
+      "kind": "url",
+      "url": "http://127.0.0.1:4323/",
+      "baseline": true
+    },
+    {
+      "id": "direction-a",
+      "name": "A · 工程品牌",
+      "concept": "以工业海报的力度呈现工程秩序：大字先建立品牌，真实加工图紧接证明能力。",
+      "typography": "Inter Variable，沿用现站字体；以大号全大写标题建立工程秩序。",
+      "palette": ["#f0f2f3", "#142129", "#174bdf"],
+      "traits": ["通栏文字首屏", "混凝土白与钴蓝结构色块", "编号式能力索引", "加工现场双图"],
+      "kind": "html",
+      "source": "direction-a.html"
+    },
+    {
+      "id": "direction-b",
+      "name": "B · 零件策展",
+      "concept": "把加工零件当作精密展品：从一件叶轮的形态出发，逐步展开材质、工艺与工厂。",
+      "typography": "Inter Variable，沿用现站字体；以居中标题、字重对比和展品留白形成层次。",
+      "palette": ["#f2ece0", "#344536", "#a9573b"],
+      "traits": ["居中大型叶轮", "暖纸色、深橄榄与陶土", "展品式留白", "错位编辑构图"],
+      "kind": "html",
+      "source": "direction-b.html"
+    },
+    {
+      "id": "direction-c",
+      "name": "C · 加工现场",
+      "concept": "让用户站在机床旁：真实加工画面承担首屏，工程流程与询价自然进入视线。",
+      "typography": "Inter Variable，沿用现站字体，贯穿标题、正文和技术编号。",
+      "palette": ["#082b32", "#b8e5df", "#e17b46"],
+      "traits": ["真实加工图片满版首屏", "深青色与铜橙动作", "标题置于图像安全区", "连续工序与宽幅案例"],
+      "kind": "html",
+      "source": "direction-c.html"
+    }
+  ]
+}

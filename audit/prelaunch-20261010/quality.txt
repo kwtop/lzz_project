@@ -1,0 +1,136 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - heading "Quality control for CNC machined parts" [level=1]:
+      - text: Quality control for
+      - text: CNC machined parts
+    - paragraph: Dimensional checks, material requirements and inspection records, agreed against your drawing.
+    - paragraph: Share critical dimensions, datums and functional requirements so we can agree the measurement methods, acceptance limits and required records before machining.
+    - link "Discuss your inspection needs":
+      - /url: /quote/?part=Quality+review+%E2%80%94+inspection+requirements+and+order+records
+    - figure "CMM probe and fixture · LZZ inspection area":
+      - img "Closer view of a coordinate measuring machine."
+      - generic: CMM probe and fixture · LZZ inspection area
+    - heading "Inspection records and order acceptance" [level=2]
+    - paragraph: Define the information shown on dimensional and first-article reports, including the part number, drawing revision, specified features, datums, acceptance limits, measurement method and results.
+    - paragraph: Agree sampling, report format and any customer approval hold point before production.
+    - generic "Preview blank dimensional inspection format · no results"
+    - heading "Documents to specify with your quotation" [level=3]
+    - paragraph: No customer report or measurement result is published on this site.
+    - term: Dimensional & first-article reports
+    - definition: Reports identify the part number, drawing revision and part or batch reference. Specify whether acceptance dimensions apply before or after finishing; use the report fields above to agree the required results.
+    - term: Material records
+    - definition: Specify the material grade, condition and required traceability. The quotation confirms which material documents will accompany your order.
+    - term: Finishing documents
+    - definition: We arrange the treatment documentation required by your order, linked to the specified process and part or batch. State any special acceptance test or document requirement before production.
+    - term: Surface & batch acceptance
+    - definition: Mark cosmetic faces, masked areas and edge conditions. Include sampling requirements and the approval process for any proposed deviation.
+    - paragraph: Ask LZZ to confirm which records can be supplied before machining. Your quotation will list the included documents and any extra cost.
+    - heading "Checks at each production stage" [level=2]
+    - list:
+      - heading "Drawing review" [level=3]
+      - paragraph: Agree critical features, datums and acceptance criteria.
+      - heading "First article" [level=3]
+      - paragraph: Check the initial part before the production run. Agree any customer approval hold point in advance.
+      - heading "In-process checks" [level=3]
+      - paragraph: Inspect agreed features during machining.
+      - heading "Final inspection" [level=3]
+      - paragraph: Verify the finished parts against the agreed order.
+    - link "See the complete manufacturing process":
+      - /url: /factory/#workflow
+    - heading "Inspection equipment and methods" [level=2]
+    - paragraph: Choose the measurement method for the feature and its drawing limits. The equipment below covers dimensional checks; specify any additional tests with your quotation request.
+    - paragraph: Request the current calibration records during supplier review.
+    - term: Coordinate measuring machine (CMM)
+    - definition: Positions and geometric features against drawing datums.
+    - term: Height gauges
+    - definition: Heights and dimensions in the agreed setup.
+    - term: Optical projectors
+    - definition: Profiles suited to optical measurement.
+    - term: Other checks to specify
+    - definition: For threads, roughness, coating thickness or hardness, state the method and acceptance criteria on your drawing. Confirm checks and records with the quotation.
+    - link "See machining and inspection equipment":
+      - /url: /factory/#equipment
+    - heading "Supplier qualification" [level=2]
+    - paragraph: LZZ is ISO 9001-certified. Request the current certificate for your supplier file and check the details listed here.
+    - paragraph:
+      - text: The
+      - link "company recognition documents":
+        - /url: /about/#documents
+      - text: are separate from the ISO certificate.
+    - link "Request certificate & scope":
+      - /url: mailto:roger@lzz-cnc.com?subject=Supplier%20qualification%20documents&body=Please%20provide%20the%20current%20ISO%209001%20certificate%20for%20Hangzhou%20Lizhizao%20Precision%20Machinery%20Co.%2C%20Ltd.%2C%20including%20certificate%20number%2C%20issuing%20body%2C%20validity%20dates%2C%20covered%20site%2C%20scope%20and%20verification%20method.%0A%0AProject%20%2F%20drawing%20reference%3A%0ARequired%20inspection%20records%3A
+    - heading "Hangzhou Lizhizao Precision Machinery Co., Ltd." [level=3]
+    - paragraph: "When reviewing our ISO 9001 certificate, please check:"
+    - list:
+      - listitem: "Named legal entity: Hangzhou Lizhizao Precision Machinery Co., Ltd."
+      - listitem: Certificate number, issuing certification body and verification method.
+      - listitem: Issue and expiry dates, covered site and certified activities.
+      - listitem: The current certificate copy and the inspection records required for your project.
+    - paragraph: Certificate number, issuer and current validity are available on request.
+    - heading "Resources and checklists" [level=2]
+    - paragraph: Prepare your drawing and inspection requirements.
+    - navigation "Quality resources":
+      - link "Download the order acceptance checklist":
+        - /url: /downloads/order-acceptance-checklist.txt
+      - link "Prepare your drawing and inspection checklist":
+        - /url: /resources/rfq-checklist/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

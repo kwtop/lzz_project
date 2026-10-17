@@ -1,0 +1,675 @@
+[
+  {
+    "id": "A01",
+    "key": "/media/gallery/rfq-gallery-v1.webp",
+    "file": "/media/gallery/rfq-gallery-v1-1440.webp",
+    "uses": [
+      {
+        "page": "P01",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 380,
+          "width": 616,
+          "x": 736,
+          "y": 184
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P02",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 331,
+          "width": 496,
+          "x": 776,
+          "y": 315
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": "AI-generated"
+      },
+      {
+        "page": "P07",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 380,
+          "width": 559,
+          "x": 794,
+          "y": 260
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P01",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 260,
+          "width": 331,
+          "x": 22,
+          "y": 542
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P02",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 220,
+          "width": 331,
+          "x": 22,
+          "y": 1128
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": "AI-generated"
+      },
+      {
+        "page": "P07",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 260,
+          "width": 331,
+          "x": 22,
+          "y": 276
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1440,
+      960
+    ],
+    "bytes": 49574,
+    "sha256": "50a75d573da2386ecb262baac3b08cb3feb5f9ce7dc69324948a1d6a60438a92"
+  },
+  {
+    "id": "A02",
+    "key": "/media/evidence/workshop-wide.webp",
+    "file": "/media/evidence/workshop-wide-1600.webp",
+    "uses": [
+      {
+        "page": "P03",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 776,
+          "width": 1120,
+          "x": 152,
+          "y": 363
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P03",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 229,
+          "width": 331,
+          "x": 22,
+          "y": 379
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1600,
+      1108
+    ],
+    "bytes": 154158,
+    "sha256": "d27b578993fefde2b03f3daf1bc933ee76134d434493d72316f82b17f452b0bd"
+  },
+  {
+    "id": "A03",
+    "key": "/media/evidence/shipping-example.webp",
+    "file": "/media/evidence/shipping-example-800.webp",
+    "uses": [
+      {
+        "page": "P03",
+        "mode": "desktop",
+        "occurrence": 2,
+        "size": {
+          "height": 377,
+          "width": 503,
+          "x": 769,
+          "y": 3283
+        },
+        "fit": "contain",
+        "caption": "Protected machined parts · LZZ packing archive, November 2022",
+        "origin": "source-photo"
+      },
+      {
+        "page": "P05",
+        "mode": "desktop",
+        "occurrence": 2,
+        "size": {
+          "height": 419,
+          "width": 559,
+          "x": 794,
+          "y": 930
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": "source-photo"
+      },
+      {
+        "page": "P12",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 331,
+          "width": 441,
+          "x": 152,
+          "y": 466
+        },
+        "fit": "contain",
+        "caption": "LZZ packing and shipment preparation · November 2022",
+        "origin": ""
+      },
+      {
+        "page": "P03",
+        "mode": "mobile",
+        "occurrence": 2,
+        "size": {
+          "height": 248,
+          "width": 331,
+          "x": 22,
+          "y": 4234
+        },
+        "fit": "contain",
+        "caption": "Protected machined parts · LZZ packing archive, November 2022",
+        "origin": "source-photo"
+      },
+      {
+        "page": "P05",
+        "mode": "mobile",
+        "occurrence": 2,
+        "size": {
+          "height": 248,
+          "width": 331,
+          "x": 22,
+          "y": 1330
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": "source-photo"
+      },
+      {
+        "page": "P12",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 248,
+          "width": 331,
+          "x": 22,
+          "y": 447
+        },
+        "fit": "contain",
+        "caption": "LZZ packing and shipment preparation · November 2022",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      800,
+      600
+    ],
+    "bytes": 110166,
+    "sha256": "50356f114f65a00ca10754a784a7824f187f39634a524af38799f122ffb22bd0"
+  },
+  {
+    "id": "A04",
+    "key": "/media/source-details/finish-coated-round.webp",
+    "file": "/media/source-details/finish-coated-round-1200.webp",
+    "uses": [
+      {
+        "page": "P04",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 228,
+          "width": 626,
+          "x": 72,
+          "y": 1690
+        },
+        "fit": "cover",
+        "caption": "Coated circular components\nDark circular parts on a rack. The collection identifies the coating as Teflon.",
+        "origin": ""
+      },
+      {
+        "page": "P04",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 230,
+          "width": 331,
+          "x": 22,
+          "y": 1917
+        },
+        "fit": "cover",
+        "caption": "Coated circular components\nDark circular parts on a rack. The collection identifies the coating as Teflon.",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1200,
+      675
+    ],
+    "bytes": 103982,
+    "sha256": "190d6806c9e5a6a1ed23b4e3900d9840a9545cb28fb3d624e627d2d7da09493c"
+  },
+  {
+    "id": "A05",
+    "key": "/media/source-details/finish-coated-bars.webp",
+    "file": "/media/source-details/finish-coated-bars-1200.webp",
+    "uses": [
+      {
+        "page": "P04",
+        "mode": "desktop",
+        "occurrence": 2,
+        "size": {
+          "height": 228,
+          "width": 626,
+          "x": 726,
+          "y": 1690
+        },
+        "fit": "cover",
+        "caption": "Coated bars\nLong dark coated parts with repeated holes.",
+        "origin": ""
+      },
+      {
+        "page": "P04",
+        "mode": "mobile",
+        "occurrence": 2,
+        "size": {
+          "height": 230,
+          "width": 331,
+          "x": 22,
+          "y": 2306
+        },
+        "fit": "cover",
+        "caption": "Coated bars\nLong dark coated parts with repeated holes.",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1200,
+      675
+    ],
+    "bytes": 109106,
+    "sha256": "2073b732a82084f9c8054c291432de4f74286d4a882afabad3e477e5451c3796"
+  },
+  {
+    "id": "A06",
+    "key": "/media/gallery/prototype-gallery-v1.webp",
+    "file": "/media/gallery/prototype-gallery-v1-1440.webp",
+    "uses": [
+      {
+        "page": "P05",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 380,
+          "width": 559,
+          "x": 794,
+          "y": 260
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P11",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 331,
+          "width": 496,
+          "x": 776,
+          "y": 124
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": "ai-illustration"
+      },
+      {
+        "page": "P05",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 260,
+          "width": 331,
+          "x": 22,
+          "y": 317
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P11",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 220,
+          "width": 331,
+          "x": 22,
+          "y": 278
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": "ai-illustration"
+      }
+    ],
+    "pixels": [
+      1440,
+      960
+    ],
+    "bytes": 50922,
+    "sha256": "6cfcc9c47bb8b2a0bbb92c7629b015f1878e8165c7e8357247647fee7fb03c50"
+  },
+  {
+    "id": "A07",
+    "key": "/media/info/part-features-v1.webp",
+    "file": "/media/info/part-features-v1-1200.webp",
+    "uses": [
+      {
+        "page": "P08",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 400,
+          "width": 336,
+          "x": 936,
+          "y": 186
+        },
+        "fit": "contain",
+        "caption": "Machined parts with flat faces, hole patterns and pockets. View original photograph",
+        "origin": "source-photo-refinement"
+      },
+      {
+        "page": "P08",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 320,
+          "width": 331,
+          "x": 22,
+          "y": 1132
+        },
+        "fit": "contain",
+        "caption": "Machined parts with flat faces, hole patterns and pockets. View original photograph",
+        "origin": "source-photo-refinement"
+      }
+    ],
+    "pixels": [
+      1200,
+      1600
+    ],
+    "bytes": 84912,
+    "sha256": "aaf83279d089e47b167802378446d331c501a1bea374c65142bc6748d7acf999"
+  },
+  {
+    "id": "A08",
+    "key": "/media/evidence/turning-operation.webp",
+    "file": "/media/evidence/turning-operation-1600.webp",
+    "uses": [
+      {
+        "page": "P09",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 405,
+          "width": 304,
+          "x": 152,
+          "y": 1152
+        },
+        "fit": "contain",
+        "caption": "CNC turning operation.",
+        "origin": ""
+      },
+      {
+        "page": "P09",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 441,
+          "width": 331,
+          "x": 22,
+          "y": 1951
+        },
+        "fit": "contain",
+        "caption": "CNC turning operation.",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1600,
+      2133
+    ],
+    "bytes": 443124,
+    "sha256": "e7e7cde40bf1d9a1f626e9b19ca5f36099552eec4df7c04daed2a6261c0e9fdf"
+  },
+  {
+    "id": "A09",
+    "key": "/media/evidence/milling-enclosure-operation.webp",
+    "file": "/media/evidence/milling-enclosure-operation-1600.webp",
+    "uses": [
+      {
+        "page": "P09",
+        "mode": "desktop",
+        "occurrence": 2,
+        "size": {
+          "height": 228,
+          "width": 304,
+          "x": 480,
+          "y": 1152
+        },
+        "fit": "contain",
+        "caption": "CNC milling operation.",
+        "origin": ""
+      },
+      {
+        "page": "P09",
+        "mode": "mobile",
+        "occurrence": 2,
+        "size": {
+          "height": 248,
+          "width": 331,
+          "x": 22,
+          "y": 2509
+        },
+        "fit": "contain",
+        "caption": "CNC milling operation.",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1600,
+      1200
+    ],
+    "bytes": 222084,
+    "sha256": "ca8ae7e279e34ee39975ee533532bda1c8b2fd96931201a8c72ba983375a3c54"
+  },
+  {
+    "id": "A10",
+    "key": "/media/evidence/five-axis-operation.webp",
+    "file": "/media/evidence/five-axis-operation-1600.webp",
+    "uses": [
+      {
+        "page": "P09",
+        "mode": "desktop",
+        "occurrence": 3,
+        "size": {
+          "height": 228,
+          "width": 304,
+          "x": 808,
+          "y": 1152
+        },
+        "fit": "contain",
+        "caption": "Five-axis machining operation.",
+        "origin": ""
+      },
+      {
+        "page": "P09",
+        "mode": "mobile",
+        "occurrence": 3,
+        "size": {
+          "height": 248,
+          "width": 331,
+          "x": 22,
+          "y": 2875
+        },
+        "fit": "contain",
+        "caption": "Five-axis machining operation.",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1600,
+      1200
+    ],
+    "bytes": 147412,
+    "sha256": "3776af45fda874cc631d305abb5cd3dcf0a3c3eaea808601d6a77f11f2b34a43"
+  },
+  {
+    "id": "A11",
+    "key": "/media/info/material-forms-v1.webp",
+    "file": "/media/info/material-forms-v1-1200.webp",
+    "uses": [
+      {
+        "page": "P10",
+        "mode": "desktop",
+        "occurrence": 1,
+        "size": {
+          "height": 224,
+          "width": 336,
+          "x": 936,
+          "y": 186
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      },
+      {
+        "page": "P10",
+        "mode": "mobile",
+        "occurrence": 1,
+        "size": {
+          "height": 220,
+          "width": 331,
+          "x": 22,
+          "y": 836
+        },
+        "fit": "contain",
+        "caption": "",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1200,
+      800
+    ],
+    "bytes": 51236,
+    "sha256": "0cabc544fc788ff2269c0d74a10eb7f3c8e11d354e1c2709b30f049fd18f94f3"
+  },
+  {
+    "id": "A12",
+    "key": "/media/evidence/shipment-2022-order-packing.webp",
+    "file": "/media/evidence/shipment-2022-order-packing-1600.webp",
+    "uses": [
+      {
+        "page": "P12",
+        "mode": "desktop",
+        "occurrence": 2,
+        "size": {
+          "height": 420,
+          "width": 315,
+          "x": 618,
+          "y": 466
+        },
+        "fit": "contain",
+        "caption": "LZZ packing and shipment preparation · November 2022",
+        "origin": ""
+      },
+      {
+        "page": "P12",
+        "mode": "mobile",
+        "occurrence": 2,
+        "size": {
+          "height": 210,
+          "width": 157,
+          "x": 22,
+          "y": 711
+        },
+        "fit": "contain",
+        "caption": "LZZ packing and shipment preparation · November 2022",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1600,
+      2133
+    ],
+    "bytes": 606854,
+    "sha256": "b397f7d31040b9ddf64a5d8be1b199d08ab3f2ad881c52751cbab70947a28c74"
+  },
+  {
+    "id": "A13",
+    "key": "/media/evidence/shipment-2022-prepared-load.webp",
+    "file": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+    "uses": [
+      {
+        "page": "P12",
+        "mode": "desktop",
+        "occurrence": 3,
+        "size": {
+          "height": 420,
+          "width": 315,
+          "x": 957,
+          "y": 466
+        },
+        "fit": "contain",
+        "caption": "LZZ packing and shipment preparation · November 2022",
+        "origin": ""
+      },
+      {
+        "page": "P12",
+        "mode": "mobile",
+        "occurrence": 3,
+        "size": {
+          "height": 210,
+          "width": 157,
+          "x": 195,
+          "y": 711
+        },
+        "fit": "contain",
+        "caption": "LZZ packing and shipment preparation · November 2022",
+        "origin": ""
+      }
+    ],
+    "pixels": [
+      1600,
+      2133
+    ],
+    "bytes": 395968,
+    "sha256": "976dd5b383b8a6451c09d40642a4cc2fc2a37737af59e9c3f65f44de5eb3f293"
+  }
+]

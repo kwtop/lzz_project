@@ -1,0 +1,68 @@
+---
+import DemoLayout from '../../layouts/ContentDemoLayout.astro';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import {primaryServices} from '../../data/services';
+import {engineeringCases} from '../../data/cases';
+import {productImage,productSrcset} from '../../data/refinedImages';
+import catalog from '../../data/catalog.json';
+const parts=[
+ {slug:'ultra-high-precision-machining-services',name:'Machined impeller'},
+ {slug:'oem-precision-cnc-machined-casting-housing-structural-enclosures',name:'Machined casting housing'},
+ {slug:'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier',name:'Turned locking pin'},
+ {slug:'custom-oem-cnc-machined-plastic-parts-manufacturer',name:'Machined plastic parts'},
+].map(p=>({...p,product:catalog.products.find(item=>item.slug===p.slug)!}));
+const studies=['five-axis-machining-multi-face-parts','29-inch-display-housing-cnc-machining','turning-then-milling-cylindrical-parts'].map(slug=>engineeringCases.find(c=>c.slug===slug)!);
+const routeNotes=['Pockets, faces & bores','Shafts, threads & concentric features','Angled faces & curved surfaces','Insulators, wear parts & housings','Finished interfaces on cast blanks'];
+const materials=[['Aluminum','aluminum-cnc-parts'],['Stainless steel','stainless-steel-cnc-parts'],['Brass & copper','copper-brass-cnc-parts'],['Engineering plastics','plastic-machined-parts']];
+---
+<DemoLayout title="Custom CNC machining in Hangzhou" original="/">
+ <section class="cl-home-hero cl-wrap">
+  <div class="cl-home-promise"><p class="cl-kicker">CUSTOM CNC MACHINING · HANGZHOU, CHINA</p><h1>Your parts.<br/>Machined to order.</h1><p>Custom CNC machining for prototypes and small production runs.</p><div class="cl-home-actions"><a class="cl-button" href="/machined-parts/">Explore custom parts <span aria-hidden="true">↗</span></a><a class="cl-link" href="/quote/">Discuss your drawing <span aria-hidden="true">↗</span></a></div></div>
+  <figure><EvidenceImage id="workshop-wide" loading="eager" sizes="(max-width:760px) calc(100vw - 40px), 650px"/><figcaption>Inside the LZZ machining workshop</figcaption></figure>
+ </section>
+ <section class="cl-wrap cl-section cl-home-parts" id="selected-parts"><div class="cl-heading"><h2>Parts, made to your drawing</h2><a class="cl-link" href="/machined-parts/">Browse all parts <span aria-hidden="true">↗</span></a></div><div class="cl-parts-grid">{parts.map(part=><a href={'/machined-parts/gallery/'+part.slug+'/'}><img src={productImage(part.product)} srcset={productSrcset(part.product)} sizes="(max-width:760px) 44vw, 280px" width="800" height="800" alt={part.name} loading="lazy"/><h3>{part.name}</h3></a>)}</div></section>
+ <section class="cl-wrap cl-section cl-home-routes" id="capabilities"><div><h2>Choose a machining route.</h2><p>The material, drawing and critical features guide the machining route.</p><a class="cl-link" href="/capabilities/">View all capabilities <span aria-hidden="true">↗</span></a></div><nav aria-label="Machining capabilities">{primaryServices.map((service,i)=><a href={'/capabilities/'+service.slug+'/'}><span class="cl-route-name">{service.name}</span><span class="cl-route-note">{routeNotes[i]}</span><span aria-hidden="true">↗</span></a>)}</nav><div class="cl-home-materials"><span>Materials to discuss</span><nav aria-label="Materials">{materials.map(([name,slug])=><a href={'/capabilities/'+slug+'/'}>{name} <span aria-hidden="true">↗</span></a>)}</nav></div></section>
+ <section class="cl-home-evidence"><div class="cl-wrap cl-section"><div class="cl-heading"><h2>Factory &amp; quality</h2><a class="cl-link" href="/factory/">Inside our factory <span aria-hidden="true">↗</span></a></div><div class="cl-home-proof"><figure class="cl-home-operation"><EvidenceImage id="turning-operation" sizes="(max-width:760px) calc(100vw - 40px), 650px"/><figcaption>CNC turning</figcaption></figure><div class="cl-home-inspection"><figure><EvidenceImage id="cmm-room" sizes="(max-width:760px) 110px, 190px"/></figure><div><h3>Dimensional inspection</h3><p>Measurement methods and inspection records are agreed against your drawing requirements.</p><a class="cl-link" href="/factory/quality/">Review quality control <span aria-hidden="true">↗</span></a></div></div></div><dl class="cl-home-facts"><div><dt>Established</dt><dd>2017</dd></div><div><dt>Facility area</dt><dd>1,500 m²</dd></div><div><dt>CNC machines</dt><dd>40+</dd></div></dl></div></section>
+ <section class="cl-wrap cl-section"><div class="cl-heading"><h2>Machining in practice</h2><a class="cl-link" href="/machined-parts/machining-examples/">All machining examples <span aria-hidden="true">↗</span></a></div><div class="cl-home-studies">{studies.map(item=><a href={'/machined-parts/machining-examples/'+item.slug+'/'}><EvidenceImage id={item.hero} sizes="(max-width:760px) calc(100vw - 40px), 370px"/><h3>{item.title}</h3></a>)}</div><p class="cl-note">Review the machining examples, then share your drawing to discuss your part requirements.</p></section>
+ <section class="cl-wrap cl-section"><div class="cl-next"><div><h2>Let’s make your part.</h2><p>From 1 piece. Send your drawing, material and quantity so we can review the scope and prepare a quote.</p></div><div><a class="cl-button" href="/quote/">Prepare RFQ email <span aria-hidden="true">↗</span></a><p class="cl-note">Prepare a draft, attach your drawing in your email app, then send it to LZZ.</p><a class="cl-link" href="/resources/ordering/rfq-checklist/">View the RFQ checklist <span aria-hidden="true">↗</span></a></div></div></section>
+</DemoLayout>
+<style>
+ .cl-home-hero{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center;padding-block:52px 54px}
+ .cl-home-promise>p:not(.cl-kicker){margin-block:24px 28px;max-width:35ch!important;font-size:18px!important}
+ .cl-home-hero :global(img){width:100%;height:auto;aspect-ratio:1.28;object-fit:cover}
+ .cl-home-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+ .cl-home-parts{border-top:1px solid var(--cl-rule)}
+ .cl-parts-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}
+ .cl-parts-grid img{width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+ .cl-parts-grid h3{border-top:1px solid var(--cl-rule);padding-top:18px;margin-top:16px}
+ .cl-home-routes{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px 100px;border-top:1px solid var(--cl-rule)}
+ .cl-home-routes>div:first-child>p:not(.cl-kicker){margin-top:20px}
+ .cl-home-routes>div:first-child>.cl-link{margin-top:16px}
+ .cl-home-routes>nav>a{display:grid;grid-template-columns:1fr 1.15fr 20px;gap:22px;align-items:center;border-top:1px solid var(--cl-rule);padding:22px 0}
+ .cl-home-routes>nav>a:last-child{border-bottom:1px solid var(--cl-rule)}
+ .cl-route-name{font-size:21px;font-weight:550;line-height:1.3}.cl-route-note{font-size:14px;line-height:1.5;color:var(--cl-muted)}
+ .cl-home-materials{grid-column:1/-1;display:flex;gap:36px;padding-top:24px;border-top:1px solid var(--cl-rule);font-size:14px}
+ .cl-home-materials>span{color:var(--cl-muted)}.cl-home-materials nav{display:flex;gap:28px;flex-wrap:wrap}
+ .cl-home-materials a{display:inline-block;min-height:36px;padding-bottom:6px}
+ .cl-home-evidence{background:var(--cl-paper)}
+ .cl-home-proof{display:grid;grid-template-columns:1.2fr 1fr;gap:52px;align-items:center}
+ .cl-home-operation :global(img){width:100%;height:360px;object-fit:cover;object-position:50% 48%}
+ .cl-home-inspection{display:grid;grid-template-columns:150px minmax(0,1fr);gap:28px;align-items:center}
+ .cl-home-inspection :global(img){width:100%;height:240px;object-fit:cover;object-position:center}
+ .cl-home-inspection p{margin-block:16px}
+ .cl-home-facts{display:flex;gap:72px;margin:32px 0 0;border-top:1px solid var(--cl-rule);padding-top:24px}
+ .cl-home-facts>div{display:flex;gap:20px;align-items:baseline}.cl-home-facts dt{font-weight:400!important;color:var(--cl-muted)}.cl-home-facts dd{font-weight:550;font-size:21px!important;color:var(--cl-ink)!important}
+ .cl-home-studies{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+ .cl-home-studies :global(img){width:100%;height:auto;aspect-ratio:1.45;object-fit:cover}.cl-home-studies h3{margin-top:18px}
+ @media(max-width:1000px){.cl-home-hero{gap:36px}.cl-home-routes{gap:36px}.cl-home-proof{gap:28px}.cl-home-inspection{grid-template-columns:110px 1fr;gap:20px}.cl-home-facts{gap:32px}}
+ @media(max-width:760px){
+  .cl-home-hero{grid-template-columns:1fr;gap:28px;padding-block:34px 38px}
+  .cl-home-hero :global(img){aspect-ratio:1.5}.cl-home-promise>p:not(.cl-kicker){margin-block:20px 22px;font-size:16px!important}.cl-home-actions{display:block}.cl-home-actions .cl-button{width:100%}.cl-home-actions .cl-link{display:none}
+  .cl-parts-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.cl-parts-grid h3{font-size:17px!important;padding-top:12px;margin-top:8px}
+  .cl-home-routes{grid-template-columns:1fr;gap:26px}.cl-home-routes>nav>a{grid-template-columns:1fr 20px;gap:8px 20px;padding:18px 0}.cl-route-note{grid-row:2;grid-column:1}.cl-home-routes>nav>a>span:last-child{grid-column:2;grid-row:1/3}
+  .cl-home-materials{display:block;padding-top:24px}.cl-home-materials nav{gap:10px 24px;margin-top:12px}
+  .cl-home-proof{grid-template-columns:1fr;gap:32px}.cl-home-operation :global(img){height:auto;aspect-ratio:1.5}.cl-home-inspection{grid-template-columns:100px minmax(0,1fr);gap:24px}.cl-home-inspection :global(img){height:190px}
+  .cl-home-facts{display:grid;gap:12px}.cl-home-facts>div{justify-content:space-between}.cl-home-facts dd{font-size:18px!important}
+  .cl-home-studies{grid-template-columns:1fr;gap:32px}.cl-home-studies :global(img){aspect-ratio:1.65}.cl-home-studies .cl-kicker{margin-top:16px}
+ }
+</style>

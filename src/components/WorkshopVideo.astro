@@ -1,0 +1,13 @@
+---
+import media from '../data/additionalMedia.generated.json';
+import '../styles/studies-news-gallery.css';
+interface Props {id:keyof typeof media.videos;title:string;description:string;compact?:boolean;headingLevel?:'h2'|'h3'|'h4'}
+const {id,title,description,compact=false,headingLevel='h2'}=Astro.props;
+const Heading=headingLevel;
+const video=media.videos[id];
+const previewWidth=Math.round(Math.min(320,320*video.width/video.height));
+---
+<section class:list={['workshop-video',{'workshop-video--compact':compact}]} style={compact?`--cap-preview-width:${previewWidth}px`:undefined} id={'video-'+id} aria-labelledby={'video-title-'+id}>
+ <div><Heading id={'video-title-'+id}>{title}</Heading>{description&&<p id={'video-description-'+id}>{description}</p>}<p class="clip-detail">{Math.round(video.duration)}-second original clip</p></div>
+ <figure data-image-origin="source-video"><video controls playsinline muted preload="none" poster={video.poster} width={video.width} height={video.height} aria-label={title} aria-describedby={description?'video-description-'+id:undefined}><source src={video.src} type="video/mp4"/>Your browser does not support this video. <a href={video.src}>Open the video</a>.</video></figure>
+</section>

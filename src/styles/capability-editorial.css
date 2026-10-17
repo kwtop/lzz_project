@@ -1,0 +1,140 @@
+
+/* A precision object gallery: white space, large parts and open technical rows. */
+body.brand-site.finesse-redesigned.precision-gallery .cap-page{--cap-ink:#171717;--cap-muted:#606060;--cap-line:#dedede;color:var(--cap-ink);background:#fff;font-size:17px;line-height:1.65}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page *,body.brand-site.finesse-redesigned.precision-gallery .cap-page *::before,body.brand-site.finesse-redesigned.precision-gallery .cap-page *::after{box-sizing:border-box}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-wrap{width:calc(100% - 96px);max-width:1280px;margin-inline:auto}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page h1,body.brand-site.finesse-redesigned.precision-gallery .cap-page h2,body.brand-site.finesse-redesigned.precision-gallery .cap-page h3,body.brand-site.finesse-redesigned.precision-gallery .cap-page p,body.brand-site.finesse-redesigned.precision-gallery .cap-page figure,body.brand-site.finesse-redesigned.precision-gallery .cap-page dl,body.brand-site.finesse-redesigned.precision-gallery .cap-page dd{margin:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page h1,body.brand-site.finesse-redesigned.precision-gallery .cap-page h2,body.brand-site.finesse-redesigned.precision-gallery .cap-page h3{font-family:var(--font-text);color:var(--cap-ink);font-weight:550;letter-spacing:-.03em;text-transform:none}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page h1{font-size:clamp(48px,5.2vw,76px);line-height:1.05;max-width:15ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page h2{font-size:clamp(34px,3.2vw,46px);line-height:1.15;max-width:25ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page h3{font-size:25px;line-height:1.25;letter-spacing:-.025em}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page p{color:var(--cap-muted);font-size:17px;line-height:1.65}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page a{color:inherit;text-decoration:none;box-shadow:none;border-radius:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page a:focus-visible,body.brand-site.finesse-redesigned.precision-gallery .cap-page summary:focus-visible{outline:2px solid var(--red,#c92127);outline-offset:5px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page a:hover{color:var(--red,#c92127)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page img{display:block;max-width:100%;border-radius:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page [id]{scroll-margin-top:112px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero{background:#fff;border-bottom:1px solid var(--cap-line)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.18fr);gap:72px;align-items:center;min-height:580px;padding-block:40px 64px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-breadcrumb{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:14px;color:var(--cap-muted);margin-bottom:44px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-copy>p{font-size:18px;max-width:44ch;margin:26px 0 24px;line-height:1.65}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-button{display:inline-flex;align-items:center;justify-content:center;background:var(--red,#c92127);color:#fff;padding:15px 24px;min-height:54px;font-size:16px;font-weight:550;line-height:1.4;border:1px solid var(--red,#c92127);white-space:normal}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-button:hover{background:#a91921;color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-image{min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-image>a{display:block;background:#f5f5f3}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-image img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;mix-blend-mode:normal;transform:none}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page figcaption{font-size:14px;line-height:1.5;color:var(--cap-muted);margin-top:16px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-jumps{display:flex;gap:0 24px;flex-wrap:wrap;padding:12px 0;margin-bottom:20px;border-top:1px solid var(--cap-line)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-jumps a{display:flex;align-items:center;min-height:44px;font-size:14px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-section{padding-block:80px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-section-head{display:block;margin-bottom:40px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:72px;border-top:1px solid var(--cap-line);padding:24px 0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope>div:last-child{border-bottom:1px solid var(--cap-line)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dt{font-size:18px;font-weight:550}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dd{font-size:17px;line-height:1.65;color:var(--cap-muted);max-width:68ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dd p{font-size:17px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dd p+p{margin-top:12px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-size{margin:0 0 40px;padding:0 0 34px;border-bottom:1px solid var(--cap-line);max-width:100%}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-size p{margin:20px 0;max-width:80ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-size h3{font-size:28px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-band{background:#f5f5f3}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-heading-row{display:flex;align-items:center;justify-content:space-between;gap:32px;margin-bottom:36px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-link{display:inline-flex;align-items:center;min-height:44px;border:1px solid #bdbdbd;padding:10px 16px;font-size:15px;line-height:1.4}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:60px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products>a{display:block;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products>a>div{height:auto;aspect-ratio:1.15;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products img{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products h3{padding:0;margin-top:26px;font-size:28px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products p{font-size:16px;margin-top:14px;max-width:52ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products-single{grid-template-columns:minmax(0,760px)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-context{max-width:82ch;margin-top:24px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-context a,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-paragraphs a{text-decoration:underline;text-underline-offset:4px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-criteria{border-top:1px solid var(--cap-line)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-criteria-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-top:36px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-criteria-grid>div{border-top:1px solid var(--cap-line);padding-top:24px;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-paragraphs{margin-top:22px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-paragraphs p+p{margin-top:18px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-reference{margin-top:30px;border-left:1px solid #9d9d9d;padding-left:22px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-reference p{font-size:16px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-reference p+p{margin-top:14px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-reference strong{color:var(--cap-ink);font-weight:550}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-acceptance-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-practice-route{padding-block:30px 0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-route{border-block:1px solid var(--cap-line);padding-block:24px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-route>h3{font-size:22px;margin-bottom:20px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-extra{margin-top:32px;padding-top:24px;border-top:1px solid var(--cap-line)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-route-items{max-width:84ch;padding-left:22px;margin:0 0 26px;color:var(--cap-muted);font-size:17px;line-height:1.65}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-route-items li+li{margin-top:14px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #sample-to-part{padding-block:14px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #sample-to-part h3{margin-bottom:22px}
+/* Practice references are previews: adapt the column to the original photo,
+ * keeping portrait parts complete without turning the section into a poster. */
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-panel{margin-top:40px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-studies{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:48px;align-items:start}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-lead{display:grid;grid-template-columns:minmax(0,var(--cap-preview-width,320px)) minmax(0,1fr);gap:32px;align-items:center;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-media{display:block;min-width:0;width:100%}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-media img{display:block;width:100%;height:auto;object-fit:contain}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-copy{min-width:0;max-width:62ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-copy h3{font-size:24px;line-height:1.3;margin:0 0 16px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-copy p{margin:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-lead:hover h3{text-decoration:underline;text-underline-offset:5px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-lead .cap-evidence-scope{font-size:14px;margin-top:18px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list>a{display:block;border-top:1px solid var(--cap-line);padding:26px 0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list>a:last-child{border-bottom:1px solid var(--cap-line)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list h3{font-size:25px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list p{font-size:16px;margin-top:14px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-single{grid-template-columns:minmax(0,1fr)}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-single .cap-study-lead{max-width:none}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;padding-block:20px 32px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence img{width:100%;height:auto;aspect-ratio:1.35;object-fit:contain}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence h3{margin:0 0 12px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence-item{display:grid;grid-template-columns:minmax(0,var(--cap-preview-width,320px)) minmax(0,1fr);gap:24px;align-items:center;min-width:0;margin:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence-media{display:block;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence-item figcaption{min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact{grid-template-columns:minmax(0,var(--cap-preview-width,320px)) minmax(0,1fr);gap:32px;align-items:center;margin-top:40px;padding-block:24px 0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact>div{grid-column:2;grid-row:1;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact>figure{grid-column:1;grid-row:1}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact video{width:100%;height:auto;max-height:none;object-fit:contain}
+@media(max-width:1280px){
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-studies{grid-template-columns:minmax(0,1fr)}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-panel{margin-top:32px}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-lead,
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence-item{grid-template-columns:minmax(0,1fr);gap:24px;align-items:start}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-media,
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence-media{width:min(100%,calc(var(--cap-preview-width,320px)*.75))}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-copy h3{font-size:22px}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list{display:block}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact{grid-template-columns:minmax(0,1fr);gap:24px;margin-top:32px}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact>div{grid-column:1;grid-row:1}
+ body.brand-site.finesse-redesigned.precision-gallery .cap-page .workshop-video--compact>figure{grid-column:1;grid-row:2;width:min(100%,calc(var(--cap-preview-width,320px)*.75))}
+}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section){background:#171717;color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section) h2,body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section) h3{color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section) p,body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section) .cap-rfq-details{color:#ccc}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section) .cap-inputs li{border-color:#484848}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page #enquiry:not(.rfq-section) .cap-link{border-color:#666}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry{display:grid;grid-template-columns:1.3fr 1fr;gap:90px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry h2+p{margin-top:22px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-inputs{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;list-style:none;padding:0;margin:28px 0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-inputs li{padding-block:16px;border-bottom:1px solid var(--cap-line);font-size:16px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry-action{padding-top:4px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry-action>p{font-size:16px;margin:0 0 26px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry-action>.cap-button+p{font-size:14px;margin:20px 0 18px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-rfq-details{margin-top:24px;max-width:70ch}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-resources{display:grid;grid-template-columns:1fr 1fr;gap:48px 72px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-resource-links{display:flex;flex-wrap:wrap;gap:14px;align-content:start}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-resource-links h2,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-related h2{width:100%;font-size:32px;margin-bottom:12px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-related>div{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-related a{display:inline-flex;align-items:center;min-height:44px;border:1px solid #bdbdbd;padding:10px 16px;font-size:15px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-support{grid-column:1/-1;border-top:1px solid var(--cap-line);padding-top:28px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-support h3{font-size:22px;margin-bottom:18px}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-support ul{display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;list-style:none;padding:0 0 22px;margin:0}
+body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-support a{display:inline-flex;align-items:center;min-height:44px;font-size:16px;border-bottom:1px solid var(--cap-line)}
+@media(max-width:1000px){body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-grid,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-section-head,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope>div,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-criteria-grid,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-studies,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-resources{gap:36px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products{gap:32px}body.brand-site.finesse-redesigned.precision-gallery .cap-page h1{font-size:56px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-heading-row{align-items:flex-start}}
+@media(max-width:760px){body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-wrap{width:calc(100% - 44px)}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-grid{display:flex;flex-direction:column;align-items:stretch;gap:28px;padding-block:28px 44px;min-height:0}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-copy{display:contents}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-breadcrumb{order:0;font-size:13px;margin:0}body.brand-site.finesse-redesigned.precision-gallery .cap-page h1{order:1;font-size:40px;max-width:17ch;line-height:1.1}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-copy>p{order:2;margin:0;font-size:16px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-image{order:3}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-jumps{order:4;margin:0;padding:8px 0;gap:0 20px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-hero-action{order:5;align-self:flex-start}body.brand-site.finesse-redesigned.precision-gallery .cap-page h2{font-size:32px;max-width:25ch}body.brand-site.finesse-redesigned.precision-gallery .cap-page h3{font-size:24px}body.brand-site.finesse-redesigned.precision-gallery .cap-page p{font-size:16px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-section{padding-block:52px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-section-head,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope>div,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-criteria-grid,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-studies,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-resources{grid-template-columns:1fr;gap:26px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope>div{gap:12px;padding:22px 0}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dt{font-size:17px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dd,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-scope dd p{font-size:16px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-heading-row{display:block;margin-bottom:26px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-heading-row .cap-link{margin-top:22px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products-single{grid-template-columns:1fr;gap:40px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products h3{font-size:25px;margin-top:22px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-products>a>div{aspect-ratio:1}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-criteria-grid{margin-top:26px;gap:36px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-reference p{font-size:15px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-route-items{font-size:16px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-lead>h3{font-size:25px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-study-list h3{font-size:24px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-evidence{grid-template-columns:1fr;gap:32px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-inputs{grid-template-columns:1fr;margin-top:24px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-enquiry-action{padding-top:8px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-resource-links h2,body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-related h2{font-size:29px}body.brand-site.finesse-redesigned.precision-gallery .cap-page .cap-support ul{grid-template-columns:1fr}body.brand-site.finesse-redesigned.precision-gallery .cap-page summary{font-size:18px}}
+
+

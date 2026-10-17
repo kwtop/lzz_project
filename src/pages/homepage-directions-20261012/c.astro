@@ -1,0 +1,8 @@
+---
+import Shell from '../../components/homepage-directions-20261012/Shell.astro';
+import Sections from '../../components/homepage-directions-20261012/Sections.astro';
+import Inquiry from '../../components/homepage-directions-20261012/Inquiry.astro';
+import {asset} from '../../components/homepage-directions-20261012/content';
+import {ArrowUpRight} from 'lucide-react';
+---
+<Shell variant="c" title="Open engineering"><section class="hero hero-c wrap"><div class="hero-top"><span class="eyebrow">LZZ Precision / Custom CNC machining</span><a href="#parts" class="text-link">Explore part examples <ArrowUpRight size={18}/></a></div><div class="hero-title"><h1>From your drawing.<br/>Into your assembly.</h1><p>Custom CNC parts for prototypes<br/>and small production runs.</p></div><figure><picture><source media="(max-width:760px)" srcset={asset('hero-c-mobile.webp')}/><img src={asset('hero-c-wide.webp')} alt="Existing LZZ part images arranged on a conceptual blue studio background" width="1536" height="650" fetchpriority="high"/></picture><figcaption>Part images in a studio composition · not to scale</figcaption><div class="hero-image-copy"><p>CNC milling · Turning<br/>5-axis & plastic machining</p><a class="button" href="#inquiry">Request a quote <ArrowUpRight size={20}/></a></div></figure></section><Sections section="planning"/><Sections section="process"/><Sections section="parts"/><Sections section="studies"/><Sections section="evidence"/><Sections section="ordering"/><Inquiry/></Shell>

@@ -1,0 +1,195 @@
+/* Shared content axes and type rhythm across the selected gallery direction. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery {
+ --content-title-size:var(--type-page-title-size);
+ --content-section-size:32px;
+ --content-section-space:56px;
+ --content-section-before:72px;
+ --content-section-after:48px;
+ --content-column-gap:48px;
+ --type-h1-size:var(--content-title-size);
+ --type-h2-size:var(--content-section-size);
+ --type-h3-size:24px;
+ --info-title-size:var(--content-title-size);
+ --info-section-size:var(--content-section-size);
+ --info-card-size:var(--type-h3-size);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main h1 {
+ font-family:var(--page-heading-family,var(--font-display))!important;
+ font-weight:400!important;
+ font-size:var(--content-title-size)!important;
+ line-height:var(--page-heading-leading)!important;
+ letter-spacing:var(--page-heading-tracking)!important;
+ text-wrap:balance;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery.home-refined main#main h1 {
+ font-size:var(--type-display-size)!important;
+ line-height:1.08!important;
+ letter-spacing:-.02em!important;
+}
+/* These hero wrappers already contain the two columns; their inner copy is not another page container. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ab-hero,.ft-hero) {
+ width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2));
+ margin-inline:auto;
+ gap:var(--content-column-gap);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ab-hero-inner,.ft-hero-inner) {
+ width:100%!important;max-width:none!important;margin-inline:0!important;padding-inline:0!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ag-masthead .reading-header {
+ width:100%!important;max-width:none!important;margin-inline:0!important;padding-inline:0!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ab-wrap,.ft-wrap,.qv-wrap,.ww-wrap,.sh-wrap,.rq-wrap,.er-wrap,.cap-wrap,.reading-wrap,.ps-width,.mo-wrap):not(.ab-hero-inner):not(.ft-hero-inner) {
+ width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2));
+ margin-inline:auto;
+}
+/* Match the top-level reading and directory headers, without moving breadcrumbs into body text. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-header,.studies-page>header,.cap-directory>header,.finesse-resource-masthead) {
+ padding-block:40px 32px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .catalog-heading {
+ padding-top:40px;padding-bottom:32px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-description,.studies-page>header>p,.cap-directory>header>p,.finesse-resource-masthead>p) {
+ font-size:18px!important;line-height:1.65!important;max-width:60ch!important;margin-top:20px;
+}
+/* Major sections share a rhythm; embedded cards and technical labels keep their smaller scale. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-section,.cap-section,.ab-section,.ft-section,.qv-documents,.qv-process,.qv-equipment,.qv-resources,.studies-page>section,.collection-section) {
+ padding-block:var(--content-section-before) var(--content-section-after);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-section,.cap-section,.ab-section,.ft-section,.qv-documents,.qv-process,.qv-equipment,.qv-resources,.studies-page>section,.reading-section) > h2,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-section>header,.cap-section-head,.ab-heading,.ft-heading,.study-checklist) h2 {
+ font-size:var(--content-section-size)!important;line-height:1.15!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-breadcrumb,.study-breadcrumb,.er-crumbs,.cap-crumbs) {
+ font-size:14px!important;line-height:1.5;gap:12px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-header-meta,.reading-description):empty {display:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.study-grid,.ed-product-grid,.product-grid,.cap-products,.er-related,.news-story-list) {
+ align-items:start;
+}
+@media(max-width:1100px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery {--content-column-gap:32px}
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery {
+  --content-title-size:var(--type-page-title-size);--content-section-size:28px;--content-section-space:40px;--content-column-gap:28px;--type-h3-size:22px;
+  --content-section-before:48px;--content-section-after:32px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-header,.studies-page>header,.cap-directory>header,.finesse-resource-masthead) {padding-block:28px 24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .catalog-heading {padding-top:28px;padding-bottom:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-description,.studies-page>header>p,.cap-directory>header>p,.finesse-resource-masthead>p) {font-size:16px!important;margin-top:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.reading-breadcrumb,.study-breadcrumb,.er-crumbs,.cap-crumbs) {font-size:13px!important}
+}
+
+/* Every page family follows the same content axis, including intermediate widths. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ff-page,.af-page,.rs-page) :is(
+ .container,.ff-wrap,.reading-wrap,.ab-wrap,.mo-wrap,.ww-wrap,.sh-wrap
+):not(.ff-closing-inner):not(.ab-hero-inner) {
+ width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2));margin-inline:auto;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .er-overview,.er-use-grid,.er-surface-inner,.cap-hero-grid,.cap-section-head,
+ .cap-criteria-grid,.cap-products,.cap-studies,.case-component,.case-related-grid,
+ .study-featured,.study-collections article,.study-checklist dl,.directory-section>div:first-child
+) {column-gap:var(--content-column-gap)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .er-overview,.cap-hero-grid,.cap-section-head,.cap-criteria-grid,.case-component,.directory-section>div:first-child
+) >* {min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .cap-directory>section:not(.directory-closing),.additional-part-forms,.catalog-workshop,.catalog-inquiry,
+ .case-study .reading-section,.case-study>.case-reading-body>.reference-gallery,
+ .ps-page .reading-section,.collection-section,.er-surface-inner
+) {padding-block:var(--content-section-before) var(--content-section-after)!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .case-study .reading-section,.case-study .reference-gallery,.ps-page .reading-section,.collection-section
+) >h2 {font-size:var(--content-section-size)!important;line-height:1.15!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .er-section>header,.cap-section-head,.directory-section>div:first-child,.ed-heading
+) {margin-bottom:40px;align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .er-identity>p,.cap-hero-copy>p,.studies-page>header>p
+) {font-size:18px!important;line-height:1.65!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-grid {
+ min-height:0;padding-block:40px;gap:var(--content-column-gap);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-breadcrumb {margin-bottom:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-action {margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-image img {
+ height:440px;aspect-ratio:auto;object-fit:contain;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-product-image img {
+ height:480px;aspect-ratio:auto;object-fit:contain;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-overview,.er-page.er-balanced-overview .er-overview) {padding-bottom:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .editorial-home>section:is(
+ .ed-parts,.home-capability-review,.home-evidence,.ed-cases
+) {padding-block:72px 48px}
+@media(max-width:1100px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-image img {height:360px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-product-image img {height:400px}
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-identity>p,.cap-hero-copy>p,.studies-page>header>p) {font-size:16px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-grid {padding-block:28px;gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-breadcrumb {margin-bottom:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-action {margin-top:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.cap-page .cap-hero-image img,.er-page .er-product-image img) {height:auto;max-height:360px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-section>header,.cap-section-head,.directory-section>div:first-child,.ed-heading) {margin-bottom:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .editorial-home>section:is(.ed-parts,.home-capability-review,.home-evidence,.ed-cases) {padding-block:48px 32px}
+}
+
+/* Inquiry panels share a rounded edge and a clear gap before the next section. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery {
+ --inquiry-panel-radius:20px;
+ --inquiry-panel-gap:80px;
+ --inquiry-panel-inset:48px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery :is(
+ .closing,.ff-closing,.ft-rfq,.rq-band.reading-closing,
+ .directory-closing,.case-closing,.ps-closing,.home-rfq-panel,.cap-page #enquiry:not(.rfq-section)
+) {
+ border-radius:var(--inquiry-panel-radius)!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery :is(
+ .closing,.ff-closing,.ft-rfq,.rq-band.reading-closing,
+ .directory-closing,.case-closing,.ps-closing,.cap-page #enquiry:not(.rfq-section)
+) {
+ margin-bottom:var(--inquiry-panel-gap)!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery :is(
+ .closing,.ff-closing,.ft-rfq,.rq-band.reading-closing,.cap-page #enquiry:not(.rfq-section)
+) {
+ width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2))!important;
+ max-width:var(--layout-width)!important;
+ margin-inline:auto!important;
+ padding-inline:var(--inquiry-panel-inset);
+ box-sizing:border-box;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery :is(
+ .closing>.container,.ff-closing>.ff-wrap,.ft-rfq>.ft-wrap,
+ .rq-band.reading-closing>.rq-wrap,.cap-page #enquiry:not(.rfq-section)>.cap-wrap
+) {
+ width:100%!important;
+ max-width:none!important;
+ margin-inline:0!important;
+ padding-inline:0!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page #enquiry:not(.rfq-section)>.cap-enquiry {
+ padding-block:56px!important;
+ border:0;
+ gap:64px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page #enquiry:not(.rfq-section)+.cap-resources {
+ padding-top:0!important;
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery {
+  --inquiry-panel-radius:16px;
+  --inquiry-panel-gap:48px;
+  --inquiry-panel-inset:24px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page #enquiry:not(.rfq-section)>.cap-enquiry {
+  padding-block:40px!important;
+  gap:28px;
+ }
+}

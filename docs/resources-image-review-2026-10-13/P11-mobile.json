@@ -1,0 +1,176 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "CNC prototypes and small-batch production",
+      "y": 164
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Validate the first sample",
+      "y": 548
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Approve the repeat-order specification",
+      "y": 1347
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Specification to carry forward",
+      "y": 1590
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Inspection records to agree",
+      "y": 1946
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Plan the repeat order",
+      "y": 2605
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Compare suppliers before committing",
+      "y": 3472
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Same specification",
+      "y": 3661
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Quoted scope",
+      "y": 3808
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Exclusions or substitutions",
+      "y": 3954
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Changes and repeat orders",
+      "y": 4101
+    },
+    {
+      "id": "article-examples-title",
+      "tag": "H2",
+      "text": "Related part examples",
+      "y": 4284
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote for the next batch",
+      "y": 4881
+    }
+  ],
+  "images": [
+    {
+      "alt": "Single housing beside four matching parts",
+      "anchor": "",
+      "caption": "",
+      "complete": true,
+      "context": "ag-planning-visual",
+      "currentSrc": "http://127.0.0.1:4323/media/gallery/prototype-gallery-v1-480.webp",
+      "index": 1,
+      "naturalHeight": 231,
+      "naturalWidth": 347,
+      "nearestHeading": "CNC prototypes and small-batch production",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "ai-illustration",
+      "render": {
+        "height": 220,
+        "width": 331,
+        "x": 22,
+        "y": 278
+      },
+      "src": "/media/gallery/prototype-gallery-v1-1440.webp",
+      "srcset": "/media/gallery/prototype-gallery-v1-480.webp 480w, /media/gallery/prototype-gallery-v1-800.webp 800w, /media/gallery/prototype-gallery-v1-1200.webp 1200w, /media/gallery/prototype-gallery-v1-1440.webp 1440w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/capabilities/prototype-machining/",
+      "text": "Prototype machining"
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": "Agree inspection records"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Prepare the controlled drawing package"
+    },
+    {
+      "href": "/capabilities/low-volume-production/",
+      "text": "Low-volume production"
+    },
+    {
+      "href": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "text": "Billet aluminum engine covers"
+    },
+    {
+      "href": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "text": "Small-batch aluminum enclosures"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nProduction planning\nCNC prototypes and small-batch production\nValidate the first sample\n\nDefine the sample checks before machining. Assembly fit and critical interfaces may be the main concerns; appearance or operation may also need approval. Record the acceptance criteria before releasing a repeat order.\n\nDrawing questions\nUse the sample to identify design questions related to fit, function or appearance.\nWorkholding and access\nReview workholding and tool access while confirming the design.\nMaterial, finish and acceptance\nCheck the specified grade, condition and final appearance. Define fit, function and sample acceptance checks. Confirm the prototype price and schedule for the specific part.\nPrototype machining\nApprove the repeat-order specification\n\nFor a repeat order, release one controlled drawing revision and carry the approved material and finish into the quotation. Agree the acceptance plan and the documents to accompany delivery.\n\nSpecification to carry forward\nAgree revision approval and how changed features are identified.\nConfirm material documents and the finish standard, including masking and dimensions after treatment.\nRetain the approved specification unless a change is agreed.\nInspection records to agree\nDefine batch sampling and critical-feature records.\nConfirm the measurement method, instrument evidence and available report format.\nAgree the acceptance plan and delivery documents.\n\nA drawing change may affect the approved sample. Confirm the changes before releasing the revised part.\n\nAgree inspection records\nPrepare the controlled drawing package\nPlan the repeat order\n\nConfirm the setup and machining sequence for the released revision, including critical datums, and whether the route changes with quantity. Request a new quote for the batch quantity and price, and confirm the production slot.\n\nThe economical batch size depends on the part and its setup.\nQuantities are assessed for each drawing.\n\nMinimum order\n1 piece\nProduction lead time\n7-14 business days\n\nAfter drawing and order confirmation, including surface finishing. Shipping time is additional.\n\nShare the part, quantity and required arrival date so we can quote price and delivery arrangements.\n\nLow-volume production\nCompare suppliers before committing\n\nCompare the scope of each quote alongside its unit price.\n\nSame specification\n\nMake sure each quote uses the same drawing revision, material and finish.\n\nQuoted scope\n\nCheck setup, inspection records, packaging and delivery basis are stated.\n\nExclusions or substitutions\n\nConfirm that any exclusions or substitutions are clear.\n\nChanges and repeat orders\n\nAsk how changes, nonconforming parts and repeat orders will be handled.\n\nRelated part examples\n\nThe engine-cover example covers prototype clearances; the enclosure example covers thin walls and batch inspection.\n\nBillet aluminum engine covers\nSmall-batch aluminum enclosures\nAll resources\nRFQ checklist\nHow we work\nQuality control\nRequest a quote for the next batch\n\nSend the approved drawing with quantities for the first order and expected repeat releases. Include the required arrival date and inspection records. The quotation confirms pricing and production timing, with finishing and shipping terms for that order.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 6307,
+  "title": "CNC prototypes vs small-batch production | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/prototype-vs-small-batch-cnc/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P11",
+  "mode": "mobile",
+  "screenshot": "screenshots/P11-mobile.jpg"
+}

@@ -1,0 +1,335 @@
+{
+  "routes": 81,
+  "families": {
+    "decision": 54,
+    "read": 26,
+    "operate": 1
+  },
+  "failures": [],
+  "textChanges": [
+    {
+      "route": "/cases/29-inch-display-housing-cnc-machining/",
+      "removed": [
+        {
+          "word": "machining",
+          "count": 1
+        },
+        {
+          "word": "cnc",
+          "count": 1
+        },
+        {
+          "word": "a",
+          "count": 1
+        },
+        {
+          "word": "29-inch",
+          "count": 1
+        },
+        {
+          "word": "display",
+          "count": 1
+        },
+        {
+          "word": "housing",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/cases/custom-metal-parts-batch-examples/",
+      "removed": [
+        {
+          "word": "custom",
+          "count": 1
+        },
+        {
+          "word": "parts",
+          "count": 1
+        },
+        {
+          "word": "metal",
+          "count": 1
+        },
+        {
+          "word": "in",
+          "count": 1
+        },
+        {
+          "word": "batches",
+          "count": 1
+        },
+        {
+          "word": "shafts",
+          "count": 1
+        },
+        {
+          "word": "fittings",
+          "count": 1
+        },
+        {
+          "word": "housings",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+      "removed": [
+        {
+          "word": "custom",
+          "count": 1
+        },
+        {
+          "word": "parts",
+          "count": 1
+        },
+        {
+          "word": "plastic",
+          "count": 1
+        },
+        {
+          "word": "ptfe",
+          "count": 1
+        },
+        {
+          "word": "pom",
+          "count": 1
+        },
+        {
+          "word": "pe",
+          "count": 1
+        },
+        {
+          "word": "acrylic",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/cases/five-axis-machining-multi-face-parts/",
+      "removed": [
+        {
+          "word": "machining",
+          "count": 1
+        },
+        {
+          "word": "five-axis",
+          "count": 1
+        },
+        {
+          "word": "for",
+          "count": 1
+        },
+        {
+          "word": "multi-face",
+          "count": 1
+        },
+        {
+          "word": "components",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/cases/milling-a-pocketed-enclosure-form/",
+      "removed": [
+        {
+          "word": "milling",
+          "count": 1
+        },
+        {
+          "word": "a",
+          "count": 1
+        },
+        {
+          "word": "pocketed",
+          "count": 1
+        },
+        {
+          "word": "enclosure-style",
+          "count": 1
+        },
+        {
+          "word": "component",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/cases/turning-then-milling-cylindrical-parts/",
+      "removed": [
+        {
+          "word": "turning",
+          "count": 1
+        },
+        {
+          "word": "followed",
+          "count": 1
+        },
+        {
+          "word": "by",
+          "count": 1
+        },
+        {
+          "word": "milling",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/cases/two-stage-cnc-milling/",
+      "removed": [
+        {
+          "word": "two",
+          "count": 1
+        },
+        {
+          "word": "milling",
+          "count": 1
+        },
+        {
+          "word": "for",
+          "count": 1
+        },
+        {
+          "word": "one",
+          "count": 1
+        },
+        {
+          "word": "on",
+          "count": 1
+        },
+        {
+          "word": "this",
+          "count": 1
+        },
+        {
+          "word": "page",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "route": "/resources/faq/",
+      "removed": [
+        {
+          "word": "10",
+          "count": 1
+        },
+        {
+          "word": "11",
+          "count": 1
+        },
+        {
+          "word": "01",
+          "count": 1
+        },
+        {
+          "word": "02",
+          "count": 1
+        },
+        {
+          "word": "03",
+          "count": 1
+        },
+        {
+          "word": "04",
+          "count": 1
+        },
+        {
+          "word": "05",
+          "count": 1
+        },
+        {
+          "word": "06",
+          "count": 1
+        },
+        {
+          "word": "07",
+          "count": 1
+        },
+        {
+          "word": "08",
+          "count": 1
+        },
+        {
+          "word": "09",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

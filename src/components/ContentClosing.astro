@@ -1,0 +1,6 @@
+---
+import RfqPanel from './RfqPanel.astro';
+interface Props {title?:string;description?:string;id?:string;quoteHref?:string}
+const {title='Discuss your part with LZZ',description='Prepare an email draft on the inquiry page. Attach drawings in your email application, review the recipients and send when ready.',id='prepare-email',quoteHref='/quote/'}=Astro.props;
+---
+<RfqPanel id={id} title={title} description="Send your drawing, material and quantity." note={description} href={quoteHref}/>

@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.astro/
+.env*
+!.env.example
+.finesse/
+
+# Local tooling, logs and temporary captures.
+.impeccable/
+.wrangler/
+/tmp/
+*.log
+
+# Historical review copies and backup archives remain available locally.
+/design-previews/
+/docs/**/*.png
+/docs/**/*.jpg
+/docs/**/*.jpeg
+/docs/**/*.webp
+
+# Keep original design/media inputs needed for asset maintenance.
+!/docs/media/**
+!/docs/imagegen-*/**
+!/docs/design/**
+/docs/**/*.zip

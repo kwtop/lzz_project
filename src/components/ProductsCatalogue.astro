@@ -1,0 +1,34 @@
+---
+import PartsCatalogueExplorer from './PartsCatalogueExplorer';
+import ProductArchiveViews from './ProductArchiveViews.astro';
+import ProductsClosing from './ProductsClosing.astro';
+import ProductsImage from './ProductsImage.astro';
+import {partVisual,partDisplayTitle,partDisplayFeature} from '../data/productsEditorial';
+import {partBrowseGroups,matchesBrowseFilter} from '../data/productBrowse';
+import {productTitle} from '../data/presentation';
+import {productSummary} from '../data/productSummaries';
+import {productManufacturing} from '../data/manufacturing';
+import {productTags} from '../data/productTags';
+import {photo} from '../data/evidence';
+import catalog from '../data/catalog.json';
+import additionalMedia from '../data/additionalMedia.generated.json';
+import {siteOrigin} from '../data/seo';
+import '../styles/products-redesign.css';
+const labels:Record<string,string>={'CNC-Milling-Service':'CNC milling','CNC-Turning-Service':'CNC turning','5-Axis-CNC-Machining':'5-axis machining','Casting-Machining':'Machining of castings','Aluminum-CNC-Parts':'Aluminum','Stainless-Steel-CNC-Parts':'Stainless steel','Copper-Brass-CNC-Parts':'Copper & brass','Plastic-Machined-Parts':'Engineering plastics','Prototype-Machining':'Prototype','Low-Volume-Production':'Small batch'};
+const facets=[{label:'Process',keys:['CNC-Milling-Service','CNC-Turning-Service','5-Axis-CNC-Machining','Casting-Machining']},{label:'Material',keys:['Aluminum-CNC-Parts','Stainless-Steel-CNC-Parts','Copper-Brass-CNC-Parts','Plastic-Machined-Parts']},{label:'Order type',keys:['Prototype-Machining','Low-Volume-Production']}].map(f=>({label:f.label,options:f.keys.map(key=>({key,label:labels[key]}))}));
+const cards=catalog.products.map(p=>{const summary=productSummary(p);return {slug:p.slug,title:partDisplayTitle(p),...partVisual(p),feature:partDisplayFeature(p,summary.card),search:[p.name,partDisplayTitle(p),productTitle(p),...productTags(p).map(tag=>tag.replaceAll('-',' ')),...Object.values(summary),...Object.values(productManufacturing(p))].join(' ').toLowerCase().replace(/\s+/g,' '),filters:catalog.categories.filter(c=>matchesBrowseFilter(p,c.key)).map(c=>c.key),forms:partBrowseGroups.filter(g=>g.slugs.includes(p.slug)).map(g=>g.key)}});
+const schema={'@context':'https://schema.org','@type':'ItemList',name:'Custom machined part examples',numberOfItems:cards.length,itemListElement:cards.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.title,url:siteOrigin+'/machined-parts/gallery/'+p.slug+'/'}))};
+const referenceGalleries=[
+ {slug:'covered-part-forms',title:'Covered wheels, rollers & shaped components',href:'#covered-part-forms',...additionalMedia.photos['covered-wheels'],feature:'Reference gallery · core, covering and mounting interfaces.',search:'covered coated rubber polyurethane wheels rollers shaped components cores covering hardness bonding shafts'},
+ {slug:'gear-forms',title:'Conical & cylindrical gear forms',href:'#gear-forms',...additionalMedia.photos['gear-bevel-examples'],feature:'Reference gallery · tooth forms, bores and hubs.',search:'gears gear conical cylindrical bevel tooth teeth bore hub mating components'},
+].map(item=>({...item,alt:item.title}));
+const workshop=photo('five-axis-operation');
+---
+<article class="pr-page pr-catalogue"><div class="pr-wrap">
+ <header class="pr-hero pr-catalogue-intro"><h1>Machined<br/>part examples.</h1><p class="pr-lead">Browse 35 custom part examples and two reference galleries. Find a similar shape, material or machining process.</p></header>
+ <section class="pr-catalogue-results" aria-label="Custom part examples"><PartsCatalogueExplorer cards={cards} referenceGalleries={referenceGalleries} forms={partBrowseGroups.map(({key,label})=>({key,label}))} facets={facets} client:load/></section>
+ <section class="pr-section pr-additional" id="additional-part-forms" aria-labelledby="additional-title"><header class="pr-section-head"><h2 id="additional-title">Covered parts &amp; gear forms</h2><p>Some forms need more than the machining drawing. Define the core, covering, tooth geometry and mating components as part of the supply scope.</p></header><article id="covered-part-forms"><div><h3>Covered wheels, rollers &amp; shaped components</h3><p>Specify core and covering materials, hardness and interface dimensions. Confirm formulation and bonding separately; the photographs do not identify them.</p></div><ProductArchiveViews ids={['covered-wheels','covered-rollers','covered-shaped-parts']} standalone={false}/></article><article id="gear-forms"><div><h3>Conical &amp; cylindrical gear forms</h3><p>Include tooth geometry, material, bore and hub dimensions. Supply mating-part details and agree the inspection requirements.</p></div><ProductArchiveViews ids={['gear-bevel-examples','gear-cylindrical-examples']} standalone={false}/></article></section>
+ <section class="pr-section pr-workshop-route" aria-labelledby="studies-title"><div><h2 id="studies-title">From the part form<br/>to the machining setup</h2><p>Explore original workshop photographs and studies of turning, milling and changing the holding orientation.</p><a class="pr-secondary" href="/machined-parts/machining-examples/">Explore machining examples</a></div><ProductsImage {...workshop} caption="Original workshop photograph · rotary machining setup" origin="original-photo"/></section>
+ <ProductsClosing title="Your drawing is the starting point"/>
+ </div></article>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\\u003c')}/>

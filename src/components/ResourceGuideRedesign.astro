@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import ResourceApprovedModule from './ResourceApprovedModule.astro';
+import ResourceContentImage from './ResourceContentImage.astro';
+import {resourceImagePlan} from '../data/resourceImagePlan';
+import {approvedResourceGuides} from '../data/resourceApproved';
+import {libraryGuide} from '../data/resourceLibrary';
+import type {Resource} from '../data/resources';
+import '../styles/resources-approved.css';
+import '../styles/about-approved.css';
+import '../styles/resources-constitution.css';
+import '../styles/content-image-led.css';
+interface Props {article:Resource}
+const {article}=Astro.props,plan=approvedResourceGuides[article.slug],rfq=article.slug==='rfq-checklist';
+const title=plan.title||article.title,quoteHref='/quote/?'+new URLSearchParams({part:article.title}).toString();
+const articleImages:Record<string,string>={'critical-features-cnc-drawing':'/media/evidence/multi-feature-milling-parts-1600.webp','cnc-process-selection':'/media/evidence/turning-operation-1600.webp','material-and-finish-checklist':'/media/source-details/finish-coated-round-1200.webp','custom-cnc-parts-shipping-checklist':'/media/evidence/shipping-example-1600.webp'};
+const related=plan.related.map(libraryGuide);
+const modules=rfq?[...plan.modules.filter(item=>item.kind==='brief'),...plan.modules.filter(item=>item.kind!=='brief')]:plan.modules;
+const rfqNav:Record<string,string>={'rfq-template':'Inquiry template','drawing-package':'Drawings & inspection','material-finish':'Material & finish','commercial-brief':'Quantity & delivery'};
+const compare=article.slug==='compare-cnc-machining-quotations';
+---
+<Layout title={title} description={article.description} article articleImage={articleImages[article.slug]} cta={false}>
+ <article class:list={['rs-page','rs-guide','rs-guide-layout','rd-page','rs-guide--'+article.slug]}><DisclosureAnchors/>
+  <header class="rs-guide-head" data-resource-module data-core-section={compare?'Set one comparison basis':undefined}>{plan.leadAliases?.map(id=><span class="rs-anchor" id={id}/>)}{compare?<div class="rs-head-copy"><h1>{plan.heading||title}</h1><p>{plan.intro}</p></div>:<Fragment><h1>{plan.heading||title}</h1><p>{plan.intro}</p></Fragment>}{compare&&<ResourceContentImage image={resourceImagePlan[article.slug].comparison}/> }</header>
+  <div class="rs-reading-layout">
+  <nav class="rs-reading-nav" aria-label="Guide sections"><p>In this guide</p><ol>{modules.map(item=><li><a href={'#'+item.section.id}>{rfq?rfqNav[item.section.id]:plan.sectionLabels?.[item.section.id]||item.section.title}</a></li>)}</ol></nav>
+  <div class="rs-reading-content">
+  <div class="rs-guide-body" id={rfq?'rfq-detail-fields':undefined}>{modules.map(item=><ResourceApprovedModule item={item} core={plan.polished} slug={article.slug} rfqTools={rfq&&item.kind==='brief'}/>)}</div>
+  <section class="rs-next" id="article-examples-title" data-core-section={rfq||plan.polished?'Enquiry and next reading':undefined}>{['prototype-vs-small-batch-cnc','custom-cnc-parts-shipping-checklist'].includes(article.slug)&&<span class="rs-anchor" id="section-5"/>}<div class="rs-next-intro" id="prepare-email"><span class="rs-anchor" id="manual-rfq-title"/><h2>{plan.closing}</h2><p>{plan.nextText||'Bring the drawing revision and the requirements you have defined into one inquiry.'}</p><p class="rs-note">The website prepares an email draft. Review it, attach drawings and send it from your email app.</p><a class="rd-button" href={quoteHref}>Prepare RFQ email</a></div><nav class="rs-related" aria-label="Related practical guides">{related.map(guide=><div><a href={guide.href}>{guide.title}</a><p>{guide.summary}</p></div>)}</nav></section>
+  </div></div>
+ </article>
+</Layout>
+<script>
+ const button=document.querySelector<HTMLButtonElement>('[data-rs-copy-rfq]');
+ if(button){button.disabled=false;button.addEventListener('click',async()=>{const text=document.querySelector('.rs-guide .ce-request-brief')?.textContent||'',status=document.querySelector('.rs-copy-status');if(!text||!status)return;try{await navigator.clipboard.writeText(text);status.textContent='Inquiry brief copied.';}catch{status.textContent='Copy failed. Select the brief manually, or use Save blank brief (.txt).';}});}
+</script>

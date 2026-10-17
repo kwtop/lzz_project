@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FactoryPhoto from './FactoryPhoto.astro';
+import RfqPanel from './RfqPanel.astro';
+import {factoryQuote} from '../data/factoryEditorial';
+import '../styles/factory-design.css';
+const quoteHref=factoryQuote('overview');
+---
+<Layout title="CNC Factory & Quality Control in Hangzhou" description="Explore LZZ Precision's Hangzhou CNC workshop, milling and turning setups, dimensional inspection and the supplier records to review for your custom parts." cta={false} headerQuoteHref={quoteHref}>
+<article class="factory-design fd-overview">
+ <div class="fd-wrap">
+  <section class="fd-overview-hero" aria-labelledby="factory-overview-title">
+   <header class="fd-overview-intro"><h1 id="factory-overview-title">Factory & quality</h1><div><p class="fd-lead">Get to know the workshop behind your parts.</p><p>Explore our CNC machining floor in Hangzhou, then review how drawing requirements become inspection and order records.</p></div></header>
+   <FactoryPhoto id="workshop-wide" caption="LZZ Precision machining workshop · Hangzhou, China" class="fd-overview-panorama" eager sizes="(max-width:760px) calc(100vw - 44px), 1280px"/>
+  </section>
+  <section class="fd-section fd-overview-routes" aria-labelledby="factory-explore-title">
+   <span id="section-pages-title" class="fd-anchor"/>
+   <header class="fd-section-head"><h2 id="factory-explore-title">See how your part takes shape</h2><p>Start with the production setting or go straight to the checks and records your order needs.</p></header>
+   <div class="fd-route-grid">
+    <article class="fd-route fd-route-workshop"><FactoryPhoto id="workshop-operators-2025" caption="Operators on the LZZ production floor · November 2025" sizes="(max-width:760px) calc(100vw - 44px), 700px"/><div><h3>Inside the workshop</h3><p>See milling, turning and multi-axis setups. Follow the drawing, approval and shipment steps for a custom part.</p><a class="fd-link" href="/factory/workshop/">Explore our factory</a></div></article>
+    <article class="fd-route fd-route-quality"><FactoryPhoto id="cmm-detail" caption="CMM probe and fixture · original LZZ photograph" sizes="(max-width:760px) 210px, 260px"/><div><h3>From drawing to acceptance</h3><p>Match inspection methods to critical features and agree the reports and supplier documents you need.</p><a class="fd-link" href="/factory/quality/">Review quality control</a></div></article>
+   </div>
+  </section>
+  <section class="fd-section fd-supplier-review" aria-labelledby="factory-review-title">
+   <div><h2 id="factory-review-title">A clear starting point for supplier review</h2><p>LZZ Precision makes custom CNC parts from drawings, from prototypes to small production runs.</p><p>Use the workshop information to begin your review. Confirm the equipment fit, inspection plan and order conditions for your part.</p><a class="fd-link" href="/factory/workshop/#equipment-review">Equipment and part suitability</a></div>
+   <dl class="fd-review-facts"><div><dt>Location & establishment</dt><dd>Hangzhou, China · founded in 2017</dd></div><div><dt>Production facility</dt><dd>1,500 m² workshop</dd></div><div><dt>Machining & supporting equipment</dt><dd>40+ in total; the count includes supporting equipment</dd></div><div><dt>Quality management</dt><dd>ISO 9001 certified · request the current certificate and scope</dd></div></dl>
+  </section>
+  <section class="fd-section fd-review-package" aria-labelledby="factory-package-title">
+   <header><h2 id="factory-package-title">Bring the drawing and the acceptance requirements</h2><p>These inputs connect the machining review to the quotation and final checks.</p></header>
+   <div><dl class="fd-simple-list"><div><dt>The part</dt><dd>STEP model, dimensioned drawing, units and revision.</dd></div><div><dt>The order</dt><dd>Material, finish, quantity and requested delivery date.</dd></div><div><dt>Acceptance</dt><dd>Critical features, datums, required reports and approval stages.</dd></div></dl><nav class="fd-actions" aria-label="Prepare a factory review"><a class="fd-link" href="/resources/ordering/rfq-checklist/">RFQ checklist</a><a class="fd-link" href="/factory/quality/#inspection-records">Inspection records</a></nav></div>
+  </section>
+  <RfqPanel title="Discuss your part with LZZ" description="Send your drawing, material, quantity and acceptance requirements." href={quoteHref} contained/>
+ </div>
+</article>
+</Layout>

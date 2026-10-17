@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-30",
+  "mode": "Native browser on final Astro production preview",
+  "tests": [
+    {
+      "case": "Product catalog: initial view / all / search",
+      "result": "6 initial, 35 all, impeller matches 2"
+    },
+    {
+      "case": "Product catalog: empty search and reset",
+      "result": "0 with visible empty state, reset restores 35"
+    },
+    {
+      "case": "Product catalog: process + material filters and clear",
+      "result": "5-axis + Aluminum produces 6, clear restores 35"
+    },
+    {
+      "case": "Mobile navigation and Escape",
+      "result": "expanded true after open; Escape closes and returns focus to Open navigation"
+    },
+    {
+      "case": "Technical guide TOC and comparison table",
+      "result": "Anchor target exists; desktop table follows first answer before image; mobile alternative has 5 rows and no overflow"
+    },
+    {
+      "case": "Quality blank record disclosure",
+      "result": "Opens; blank-example boundary preserved"
+    },
+    {
+      "case": "RFQ product reference and prefill",
+      "result": "Product ID / source path / reference text are correct"
+    },
+    {
+      "case": "RFQ validation",
+      "result": "Required name/email block empty preparation; quantity 0 blocked"
+    },
+    {
+      "case": "RFQ prepare and edit",
+      "result": "Aluminum / quantity 10 / QA fixture create prepared-not-sent draft; edit retains entered values"
+    },
+    {
+      "case": "RFQ status visible at 320px",
+      "result": "Prepared-not-sent heading sticky at y=100 after focus"
+    },
+    {
+      "case": "RFQ copy and save",
+      "result": "Copied UI state confirmed; downloaded 689-byte draft verified against fixture and canonical reference, then removed"
+    },
+    {
+      "case": "Clear saved input",
+      "result": "QA name/email cleared; product reference retained"
+    }
+  ],
+  "externalEmailSent": false,
+  "qaDataCleared": true
+}

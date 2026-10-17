@@ -1,0 +1,316 @@
+/* Layout system confined to the Capabilities navigation. */
+.capabilities-design{--cd-ink:#202427;--cd-muted:#586269;--cd-line:#dce1e4;--cd-soft:#f5f6f5;--cd-space:80px;--cd-photo-height:290px;color:var(--cd-ink)}
+.capabilities-design .cd-wrap{width:calc(100% - 88px);max-width:1280px;margin-inline:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design :is(article,section,header,figure,div,aside,nav){min-width:0;box-sizing:border-box}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design :is(h1,h2,h3,p,dl,ol,ul,figure){margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design h1{font-size:clamp(42px,4.3vw,64px)!important;line-height:1.09!important;letter-spacing:-.025em!important;max-width:19ch!important;text-wrap:balance}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design h2{font-size:clamp(28px,2.5vw,36px)!important;line-height:1.2!important;letter-spacing:-.024em!important;font-weight:550!important;max-width:27ch!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design h3{font-size:22px!important;line-height:1.3!important;letter-spacing:-.015em!important;font-weight:550!important;max-width:38ch!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design p{font-size:16px!important;line-height:1.7!important;color:var(--cd-muted);max-width:67ch!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-lead{font-size:21px!important;line-height:1.5!important;color:var(--cd-ink);max-width:39ch!important}
+.capabilities-design :is(h1,h2,h3)+p{margin-top:18px!important}
+.capabilities-design p+p{margin-top:15px!important}
+.capabilities-design [id]{scroll-margin-top:126px}
+.capabilities-design .cd-anchor{display:block}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-section{padding:var(--cd-space) 0;margin:0;border:0;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-heading{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start;margin-bottom:34px!important}
+.capabilities-design .cd-heading>p{margin:0!important}
+.capabilities-design .cd-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design a.cd-link{display:inline-flex;align-items:center;min-height:44px;max-width:100%;padding:9px 15px;font-size:14px!important;line-height:1.5!important;font-weight:500;color:var(--cd-ink);background:transparent;border:1px solid #b9c0c4;border-radius:0;text-decoration:none;overflow-wrap:anywhere;transition:color 180ms,background-color 180ms,border-color 180ms}
+.capabilities-design a:focus-visible{outline:2px solid var(--red,#cf141a);outline-offset:5px}
+.capabilities-design .cd-art,.capabilities-design .cd-photo{display:block;min-width:0;max-width:100%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design :is(.cd-art,.cd-part,.cd-sample-example) img{display:block;width:100%!important;height:auto!important;aspect-ratio:3/2!important;object-fit:contain!important;object-position:center;background:#fff;box-shadow:none;border-radius:0;transform:none!important;padding:0!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design figcaption{font-size:12px!important;line-height:1.6!important;max-width:100%!important;color:#626d74;margin:10px 0 0!important;text-align:left}
+.capabilities-design .cd-photo{width:min(100%,calc(var(--cd-photo-height)*var(--cd-photo-ratio)))}
+.capabilities-design .cd-photo-frame{width:100%;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-photo img{display:block;width:100%!important;height:auto!important;aspect-ratio:var(--photo-aspect)!important;max-height:var(--cd-photo-height)!important;max-width:100%!important;object-fit:contain!important;border:0;border-radius:0;background:#fff!important;box-shadow:none;transform:none!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-note{font-size:14px!important;line-height:1.65!important;margin-top:24px;color:#606c74}
+
+/* Intro proportions follow each service's subject and visual. */
+.capabilities-design .cd-hero{display:grid;grid-template-columns:1fr 1fr;gap:30px 70px;align-items:center;padding:24px 0 58px}
+.capabilities-design .cd-hero header .cd-lead{margin-top:25px!important}
+.capabilities-design .cd-hero-art{width:100%;max-width:620px;justify-self:center}
+.capabilities-design .cd-hero-actions{margin-top:24px}
+.capabilities-design .cd-order-note{grid-column:1/-1;border-top:1px solid var(--cd-line);padding-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-order-note p{font-size:13px!important;max-width:100%!important;line-height:1.65!important}
+.capabilities-design .cd-hero--showcase{grid-template-columns:.9fr 1.1fr}
+.capabilities-design .cd-hero--wide{grid-template-columns:1fr}
+.capabilities-design .cd-hero--wide header{display:grid;grid-template-columns:1fr 1fr;gap:18px 72px}
+.capabilities-design .cd-hero--wide header h1{grid-row:1/4}
+.capabilities-design .cd-hero--wide header .cd-lead{margin-top:0!important}
+.capabilities-design .cd-hero--wide header>p+p{margin-top:0!important}
+.capabilities-design .cd-hero--wide .cd-hero-actions{margin-top:0}
+.capabilities-design .cd-hero--wide .cd-hero-art{max-width:900px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-hero--wide .cd-art img{height:320px!important;aspect-ratio:auto!important;object-fit:contain!important}
+.capabilities-design :is(.cd-hero--comparison,.cd-hero--centered){display:flex;flex-direction:column;gap:32px}
+.capabilities-design :is(.cd-hero--comparison,.cd-hero--centered) header{width:100%;max-width:850px;text-align:center}
+.capabilities-design :is(.cd-hero--comparison,.cd-hero--centered) header :is(h1,p){margin-inline:auto!important}
+.capabilities-design :is(.cd-hero--comparison,.cd-hero--centered) .cd-hero-art{max-width:760px}
+.capabilities-design :is(.cd-hero--comparison,.cd-hero--centered) .cd-order-note{align-self:stretch;width:100%}
+.capabilities-design .cd-hero--brief{grid-template-columns:1.05fr .95fr}
+.capabilities-design .cd-hero--sample{grid-template-columns:.9fr 1.1fr}
+.capabilities-design .cd-hero--batch .cd-art{padding:18px;background:var(--cd-soft)}
+
+/* Part collections use a mosaic, open rows, or source photographs. */
+.capabilities-design .cd-part-layout{display:grid;gap:36px}
+.capabilities-design .cd-part-layout--mosaic{grid-template-columns:1.1fr 1fr}
+.capabilities-design .cd-part-layout--mosaic>.cd-part:first-child{grid-row:span 2;display:flex;flex-direction:column;justify-content:flex-start}
+.capabilities-design .cd-part-layout--mosaic>.cd-part:not(:first-child){display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.capabilities-design .cd-part-layout--mosaic>.cd-part:first-child figure{margin-bottom:24px!important}
+.capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child{grid-column:1/-1;grid-row:auto;display:block;padding:28px 32px;background:var(--cd-soft)}
+.capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child>div{display:grid;grid-template-columns:1fr 1.3fr;gap:16px 64px;align-items:start}
+.capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child h3{grid-row:span 2}
+.capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child p{margin:0!important}
+.capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child .cd-link{grid-column:2;justify-self:start;margin-top:0}
+.capabilities-design .cd-part .cd-link{margin-top:20px}
+.capabilities-design .cd-part-layout--rows>.cd-part{display:grid;grid-template-columns:270px 1fr;gap:64px;align-items:center;border-top:1px solid var(--cd-line);padding-top:30px}
+.capabilities-design .cd-part-layout--rows>.cd-part:first-child{border-top:0;padding-top:0}
+.capabilities-design .cd-part-layout--rows>.cd-part--text-only{display:block;padding:28px 32px;background:var(--cd-soft)}
+.capabilities-design .cd-part-layout--gallery{grid-template-columns:1fr 1fr}
+.capabilities-design .cd-part-layout--gallery>.cd-part:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.capabilities-design .cd-part-layout--gallery>.cd-part:not(:last-child) figure{margin-bottom:24px!important}
+.capabilities-design .cd-part-layout--source{grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.capabilities-design .cd-part-layout--source>.cd-part{border-top:1px solid var(--cd-line);padding-top:22px}
+.capabilities-design .cd-detail--copper-brass-cnc-parts .cd-part-layout--source{grid-template-columns:1fr}
+.capabilities-design .cd-detail--copper-brass-cnc-parts .cd-part-layout--source>.cd-part{display:grid;grid-template-columns:1fr 1fr;gap:64px;border:0;padding:0}
+.capabilities-design .cd-parts-workshop{margin-top:50px}
+.capabilities-design .cd-parts-workshop>.cd-workflow>.cd-heading{margin-bottom:28px!important}
+
+/* Material information changes presentation with the buying decision. */
+.capabilities-design .cd-table{border:0;border-collapse:collapse;table-layout:fixed;width:100%}
+.capabilities-design .cd-table :is(th,td){border:0;border-bottom:1px solid var(--cd-line);padding:19px 20px;text-align:left;vertical-align:top;background:transparent}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table th{font-size:14px!important;line-height:1.6!important;font-weight:550!important;color:#303b42}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table td{font-size:15px!important;line-height:1.7!important;color:#566169}
+.capabilities-design .cd-table thead{background:var(--cd-soft)}
+.capabilities-design .cd-material-table th:first-child{width:19%}
+.capabilities-design .cd-material-table th:nth-child(2){width:25%}
+.capabilities-design .cd-check-table th:first-child{width:24%}
+.capabilities-design .cd-check-table th:nth-child(2){width:37%}
+.capabilities-design .cd-material-body--finish{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.capabilities-design .cd-alloy-choices>article{padding:24px 0;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-alloy-choices>article:first-child{padding-top:0;border-top:0}
+.capabilities-design .cd-alloy-choices p+p{margin-top:10px!important}
+.capabilities-design .cd-finish-review h3{margin-top:28px!important}
+.capabilities-design .cd-material-options{display:grid;grid-template-columns:1fr 1fr;gap:32px 64px}
+.capabilities-design .cd-material-options>div{padding-top:20px;border-top:1px solid var(--cd-line)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-material-options dt{font-size:21px!important;line-height:1.3!important;font-weight:550!important;color:var(--cd-ink)}
+.capabilities-design .cd-material-options dd{margin:15px 0 0}
+.capabilities-design .cd-material-note{border-top:1px solid var(--cd-line);padding-top:22px;margin-top:26px!important}
+
+/* Drawing requirements remain legible and tied to the measurement method. */
+.capabilities-design .cd-geometry{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;margin-bottom:38px}
+.capabilities-design .cd-geometry--text{grid-template-columns:1fr}
+.capabilities-design .cd-geometry--text>div{display:grid;grid-template-columns:1fr 1fr;gap:15px 72px}
+.capabilities-design .cd-geometry--text>div h3:nth-of-type(2){grid-column:2;grid-row:1}
+.capabilities-design .cd-geometry--text>div p:nth-of-type(2){grid-column:2;grid-row:2}
+.capabilities-design .cd-geometry--text>div p:nth-of-type(3){grid-column:2}
+.capabilities-design .cd-geometry h3:not(:first-child){margin-top:25px!important}
+.capabilities-design .cd-geometry--text h3:not(:first-child){margin-top:0!important}
+.capabilities-design .cd-table-title{margin:0 0 22px!important}
+.capabilities-design .cd-reference{background:var(--cd-soft);padding:24px 28px;margin-top:26px}
+.capabilities-design .cd-quality-note{display:grid;grid-template-columns:150px 1fr;gap:36px;align-items:start;max-width:950px;margin-top:34px}
+.capabilities-design .cd-quality-note .cd-photo{width:150px}
+.capabilities-design .cd-quality-note .cd-link{margin-top:20px}
+.capabilities-design .cd-quality-note--text{grid-template-columns:1fr;padding-top:24px;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-quality-note--text>div{display:grid;grid-template-columns:1fr 2fr;gap:18px 42px}
+.capabilities-design .cd-quality-note--text p{margin:0!important}
+.capabilities-design .cd-quality-note--text .cd-link{grid-column:2;justify-self:start;margin-top:0}
+.capabilities-design .cd-route-comparison{display:grid;grid-template-columns:1fr 1fr;gap:72px;padding:32px;background:var(--cd-soft);margin-bottom:42px}
+.capabilities-design .cd-route-comparison article+article{border-left:1px solid var(--cd-line);padding-left:36px}
+.capabilities-design .cd-purpose-points{display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-bottom:38px}
+.capabilities-design .cd-section--purpose .cd-workflow{padding:28px 32px;background:var(--cd-soft);margin-bottom:40px}
+.capabilities-design .cd-section--purpose .cd-workflow>.cd-heading{grid-template-columns:1fr;gap:16px}
+.capabilities-design .cd-function-list>div{display:grid;grid-template-columns:250px 1fr;gap:36px;padding:22px 0;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-function-list>div:first-child{border-top:0;padding-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-function-list dt{font-size:20px!important;font-weight:550!important;line-height:1.4!important;color:var(--cd-ink)}
+.capabilities-design .cd-function-list dd{margin:0;color:var(--cd-muted)}
+
+/* Documentary sequences are sized from source ratios before lazy loading. */
+.capabilities-design .cd-photo-story{list-style:none;padding:0}
+.capabilities-design .cd-photo-story>li{display:grid;grid-template-columns:340px 1fr;gap:64px;align-items:center;padding:28px 0;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-photo-story>li:first-child{padding-top:0;border-top:0}
+.capabilities-design .cd-photo-story .cd-photo{justify-self:center}
+.capabilities-design .cd-step-index{display:block;font-size:12px;color:#69757d;margin-bottom:12px}
+.capabilities-design .cd-photo-story--panels{display:grid;grid-template-columns:1fr 1fr;gap:36px 64px}
+.capabilities-design .cd-photo-story--panels>li{grid-template-columns:1fr;gap:24px;padding:0;border:0;align-items:start}
+.capabilities-design .cd-photo-story--panels>li:last-child{grid-column:1/-1;grid-template-columns:1fr 1fr;align-items:center;padding-top:32px;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-decision-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;list-style:none;padding:0}
+.capabilities-design .cd-decision-steps>li{border-top:1px solid var(--cd-line);padding-top:20px;min-width:0}
+.capabilities-design .cd-decision-steps h3{max-width:30ch!important}
+.capabilities-design .cd-source-photos{display:flex;gap:36px;align-items:start;margin-top:32px;justify-content:space-between}
+.capabilities-design .cd-source-photos .cd-photo{flex:0 1 auto}
+.capabilities-design .cd-source-photos--1{display:block;margin:0}
+.capabilities-design .cd-step-and-evidence--archive{display:grid;grid-template-columns:1fr 420px;gap:64px;align-items:start}
+.capabilities-design .cd-step-and-evidence--archive .cd-decision-steps{grid-template-columns:1fr;gap:26px}
+.capabilities-design .cd-embedded-requirements{margin-top:40px;padding-top:36px;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-secondary-workflow{margin-top:40px;padding-top:36px;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-sample-route{display:grid;grid-template-columns:1fr 1fr;gap:18px 64px;margin-top:34px;padding:28px 32px;background:var(--cd-soft)}
+.capabilities-design .cd-sample-route h3{grid-row:span 2}.capabilities-design .cd-sample-route p{margin:0!important}
+.capabilities-design .cd-sample-route .cd-link{justify-self:start}
+.capabilities-design .cd-video{margin-top:36px;max-width:1000px}
+.capabilities-design .workshop-video{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center;padding:0;margin:0;border:0}
+.capabilities-design .workshop-video figure{margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .workshop-video video{width:100%!important;height:auto!important;max-height:360px!important;object-fit:contain;aspect-ratio:auto!important;background:#111}
+.capabilities-design .cd-sample-review{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:start}
+.capabilities-design .cd-sample-review .cd-function-list>div{grid-template-columns:100px 1fr;gap:24px}
+.capabilities-design .cd-sample-example{max-width:480px}.capabilities-design .cd-sample-example figure{margin-bottom:24px!important}
+.capabilities-design .cd-sample-example .cd-link{margin-top:20px}
+.capabilities-design .cd-faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px}
+.capabilities-design .cd-faq>div>section{padding:25px 0;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-faq>div>section:first-child{padding-top:0;border-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-faq h3{font-size:20px!important}
+.capabilities-design .cd-faq p{margin-top:12px!important}
+.capabilities-design .cd-rfq-details{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.capabilities-design .cd-rfq-details ul{padding-left:20px;margin-top:18px!important}
+.capabilities-design .cd-rfq-details li+li{margin-top:8px}
+.capabilities-design .rfq-section{margin-bottom:70px!important}
+
+/* The directory compares processes, materials and production decisions. */
+.capabilities-design .cd-hub-hero{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;padding:24px 0 60px}
+.capabilities-design .cd-hub-hero .cd-lead{margin-top:26px!important}
+.capabilities-design .cd-process-directory{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+.capabilities-design .cd-process-entry{display:grid;grid-template-columns:190px 1fr;gap:28px;align-items:center;padding:28px 0;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-process-entry:nth-child(-n+2){padding-top:0;border-top:0}
+.capabilities-design .cd-process-entry:last-child{grid-column:1/-1;grid-template-columns:190px 1fr}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-process-entry img{width:100%!important;height:auto!important;aspect-ratio:3/2!important;object-fit:contain!important;background:#fff}
+.capabilities-design .cd-process-entry .cd-link{margin-top:18px}
+.capabilities-design .cd-material-directory{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+.capabilities-design .cd-material-directory>a{display:grid;grid-template-columns:140px 1fr;gap:28px;align-items:center;padding:24px 0;border-top:1px solid var(--cd-line);text-decoration:none;color:inherit}
+.capabilities-design .cd-material-directory>a:nth-child(-n+2){border-top:0;padding-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-material-directory img{display:block;width:100%!important;height:auto!important;aspect-ratio:3/2!important;object-fit:contain!important}
+.capabilities-design .cd-stage-comparison{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+.capabilities-design .cd-stage-comparison>article{padding-top:24px;border-top:1px solid var(--cd-line)}
+.capabilities-design .cd-stage-comparison dl{margin:24px 0}
+.capabilities-design .cd-stage-comparison dl>div{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:16px 0;border-top:1px solid var(--cd-line)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-stage-comparison dt{font-size:13px!important;font-weight:500!important;line-height:1.5!important;color:#657078}
+.capabilities-design .cd-stage-comparison dd{margin:0;color:#3d484f}
+.capabilities-design .cd-hub-sample{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.capabilities-design .cd-hub-sample .cd-link{margin-top:22px}
+
+@media(hover:hover) and (pointer:fine){body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design a.cd-link:hover{background:#202427;color:#fff;border-color:#202427}.capabilities-design .cd-material-directory>a:hover h3{color:var(--red)}}
+@media(min-width:761px) and (max-width:1100px){
+ .capabilities-design{--cd-space:64px;--cd-photo-height:250px}.capabilities-design .cd-wrap{width:calc(100% - 64px)}
+ .capabilities-design :is(.cd-hero,.cd-heading,.cd-hero--wide header,.cd-geometry,.cd-material-body--finish,.cd-sample-review,.cd-faq,.cd-hub-hero,.cd-hub-sample,.cd-stage-comparison,.cd-rfq-details){gap:28px 36px}
+ .capabilities-design .cd-part-layout--mosaic{grid-template-columns:1fr 1fr;gap:32px}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part:not(:first-child){grid-template-columns:1fr;gap:22px}
+ .capabilities-design .cd-part-layout--rows>.cd-part{grid-template-columns:220px 1fr;gap:36px}
+ .capabilities-design .cd-step-and-evidence--archive{grid-template-columns:1fr 300px;gap:36px}
+ .capabilities-design .cd-photo-story>li{grid-template-columns:260px 1fr;gap:36px}
+ .capabilities-design .cd-photo-story--panels>li{grid-template-columns:1fr}
+ .capabilities-design .cd-photo-story--panels>li:last-child{grid-template-columns:1fr 1fr}
+ .capabilities-design .cd-process-directory{gap:0 36px}.capabilities-design .cd-process-entry{grid-template-columns:140px 1fr;gap:22px}
+ .capabilities-design .cd-material-directory{gap:0 36px}.capabilities-design .cd-material-directory>a{grid-template-columns:100px 1fr;gap:22px}
+ .capabilities-design .cd-stage-comparison dl>div{grid-template-columns:1fr;gap:10px}
+ .capabilities-design .cd-geometry--text>div{gap:16px 36px}
+}
+@media(max-width:760px){
+ .capabilities-design{--cd-space:44px;--cd-photo-height:280px}.capabilities-design .cd-wrap{width:calc(100% - 44px)}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design h1{font-size:40px!important;line-height:1.12!important;max-width:19ch!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design h2{font-size:28px!important;line-height:1.2!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design h3{font-size:21px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-lead{font-size:19px!important;line-height:1.55!important}
+ .capabilities-design :is(.cd-hero,.cd-hero--wide header,.cd-hub-hero){display:grid;grid-template-columns:1fr;gap:28px;padding-top:16px;padding-bottom:40px}
+ .capabilities-design .cd-hero--wide header{padding:0;gap:18px}.capabilities-design .cd-hero--wide header h1{grid-row:auto}
+ .capabilities-design .cd-hero header .cd-lead,.capabilities-design .cd-hub-hero .cd-lead{margin-top:20px!important}
+ .capabilities-design .cd-hero--wide header .cd-lead{margin-top:0!important}
+ .capabilities-design :is(.cd-hero--comparison,.cd-hero--centered) header{text-align:left}
+ .capabilities-design :is(.cd-hero--comparison,.cd-hero--centered) header :is(h1,p){margin-inline:0!important}
+ .capabilities-design .cd-hero-art{max-width:500px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-hero--wide .cd-art img{height:auto!important;aspect-ratio:3/2!important}
+ .capabilities-design .cd-order-note{padding-top:18px}
+ .capabilities-design .cd-heading{grid-template-columns:1fr;gap:18px;margin-bottom:28px!important}
+ .capabilities-design :is(.cd-part-layout--mosaic,.cd-part-layout--gallery,.cd-part-layout--source,.cd-material-body--finish,.cd-material-options,.cd-geometry,.cd-quality-note,.cd-route-comparison,.cd-purpose-points,.cd-sample-review,.cd-faq,.cd-rfq-details,.cd-hub-sample,.cd-stage-comparison){grid-template-columns:1fr;gap:28px}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part:first-child{grid-row:auto}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part:not(:first-child),.capabilities-design .cd-part-layout--rows>.cd-part,.capabilities-design .cd-part-layout--gallery>.cd-part:last-child{display:block;grid-column:auto}
+ .capabilities-design .cd-part figure{margin-bottom:22px!important;max-width:500px}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child{padding:24px}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child>div{display:block}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child p{margin-top:16px!important}
+ .capabilities-design .cd-part-layout--mosaic>.cd-part--text-only:first-child .cd-link{margin-top:20px}
+ .capabilities-design .cd-part-layout--rows>.cd-part--text-only{padding:24px}
+ .capabilities-design .cd-part-layout--source>.cd-part{padding-top:22px}
+ .capabilities-design .cd-detail--copper-brass-cnc-parts .cd-part-layout--source>.cd-part{display:block}
+ .capabilities-design .cd-parts-workshop{margin-top:34px}
+ .capabilities-design .cd-alloy-choices>article{padding-block:22px}
+ .capabilities-design .cd-finish-review{padding-top:26px;border-top:1px solid var(--cd-line)}
+ .capabilities-design .cd-table :is(thead,tbody,tr,th,td){display:block;width:100%!important;box-sizing:border-box}
+ .capabilities-design .cd-table thead{position:absolute;width:1px!important;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .capabilities-design .cd-table tbody tr{padding:22px 0;border-bottom:1px solid var(--cd-line)}
+ .capabilities-design .cd-table tbody tr:first-child{padding-top:0}
+ .capabilities-design .cd-table :is(th,td){padding:0;border:0}
+ .capabilities-design .cd-table td{margin-top:14px}
+ .capabilities-design .cd-table td::before{content:attr(data-label);display:block;font-size:12px;font-weight:500;line-height:1.6;color:#63717a;margin-bottom:5px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table th{font-size:16px!important}
+ .capabilities-design .cd-geometry{margin-bottom:28px}
+ .capabilities-design .cd-geometry--text>div{display:block}
+ .capabilities-design .cd-geometry--text h3:not(:first-child){margin-top:26px!important}
+ .capabilities-design .cd-quality-note .cd-photo{width:130px}
+ .capabilities-design .cd-quality-note--text>div{display:block}.capabilities-design .cd-quality-note--text p{margin-top:16px!important}
+ .capabilities-design .cd-quality-note--text .cd-link{margin-top:20px}
+ .capabilities-design .cd-route-comparison{padding:26px 24px;margin-bottom:30px}
+ .capabilities-design .cd-route-comparison article+article{border-left:0;padding-left:0;padding-top:24px;border-top:1px solid var(--cd-line)}
+ .capabilities-design .cd-section--purpose .cd-workflow{padding:26px 24px}
+ .capabilities-design .cd-function-list>div{grid-template-columns:1fr;gap:10px}
+ .capabilities-design .cd-photo-story,.capabilities-design .cd-photo-story--panels{display:grid;grid-template-columns:1fr;gap:28px}
+ .capabilities-design .cd-photo-story>li,.capabilities-design .cd-photo-story--panels>li:last-child{grid-template-columns:1fr;grid-column:auto;gap:22px;padding-top:26px;border-top:1px solid var(--cd-line)}
+ .capabilities-design .cd-photo-story .cd-photo{justify-self:start}
+ .capabilities-design .cd-decision-steps,.capabilities-design .cd-step-and-evidence--archive{grid-template-columns:1fr;gap:26px}
+ .capabilities-design .cd-source-photos{display:grid;grid-template-columns:1fr;gap:28px;justify-content:start}
+ .capabilities-design .cd-source-photos .cd-photo{max-width:100%}
+ .capabilities-design .cd-embedded-requirements,.capabilities-design .cd-secondary-workflow{margin-top:30px;padding-top:28px}
+ .capabilities-design .cd-sample-route{grid-template-columns:1fr;gap:18px;padding:26px 24px}.capabilities-design .cd-sample-route h3{grid-row:auto}
+ .capabilities-design .workshop-video{grid-template-columns:1fr;gap:24px}
+ .capabilities-design .cd-sample-review .cd-function-list>div{grid-template-columns:1fr;gap:10px}
+ .capabilities-design .cd-faq{gap:30px}.capabilities-design .cd-faq>div>section{padding-block:24px}
+ .capabilities-design .rfq-section{margin-bottom:44px!important}
+ .capabilities-design .cd-process-directory,.capabilities-design .cd-material-directory{grid-template-columns:1fr;gap:0}
+ .capabilities-design .cd-process-entry,.capabilities-design .cd-process-entry:last-child{grid-template-columns:110px 1fr;gap:22px;grid-column:auto}
+ .capabilities-design .cd-process-entry:nth-child(2){border-top:1px solid var(--cd-line);padding-top:28px}
+ .capabilities-design .cd-material-directory>a{grid-template-columns:100px 1fr;gap:22px}
+ .capabilities-design .cd-material-directory>a:nth-child(2){border-top:1px solid var(--cd-line);padding-top:24px}
+ .capabilities-design .cd-stage-comparison dl>div{grid-template-columns:1fr;gap:10px}
+}
+@media(max-width:380px){.capabilities-design .cd-process-entry,.capabilities-design .cd-process-entry:last-child{grid-template-columns:1fr;gap:20px}.capabilities-design .cd-process-entry figure{width:170px}.capabilities-design .cd-material-directory>a{grid-template-columns:1fr;gap:18px}.capabilities-design .cd-material-directory img{max-width:150px}}
+/* Shared reading rhythm for machining and material pages. */
+.capabilities-design.cd-reading .cd-heading,.capabilities-design.cd-overview .cd-heading{display:block;max-width:760px}
+.capabilities-design.cd-reading .cd-heading>p,.capabilities-design.cd-overview .cd-heading>p{margin-top:16px!important}
+.capabilities-design.cd-reading .cd-hero{grid-template-columns:1fr 1fr;gap:30px 56px}
+.capabilities-design.cd-reading .cd-hero-art{width:100%;max-width:600px}
+.capabilities-design.cd-reading .cd-part-layout--rows{gap:32px}
+.capabilities-design.cd-reading .cd-part-layout--rows>.cd-part{grid-template-columns:minmax(260px,.8fr) 1.2fr;gap:48px;padding-top:32px}
+.capabilities-design.cd-reading .cd-part-layout--rows>.cd-part:first-child{padding-top:0}
+.capabilities-design.cd-reading .cd-material-table th:first-child{width:23%}
+.capabilities-design.cd-reading .cd-material-table th:nth-child(2){width:38%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design.cd-reading .cd-table td{font-size:16px!important}
+.capabilities-design.cd-reading .cd-finish-explainer{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:center;margin-bottom:40px}
+.capabilities-design.cd-reading .cd-function-review{margin-bottom:40px}
+.capabilities-design.cd-reading .cd-function-review .cd-function-list{margin-top:24px!important}
+.capabilities-design.cd-reading .cd-material-drawing-notes{margin-top:28px;border-block:1px solid var(--cd-line)}
+.capabilities-design.cd-reading .cd-material-drawing-notes summary{padding:20px 0;min-height:44px;font-size:18px;font-weight:550;cursor:pointer;color:var(--cd-ink)}
+.capabilities-design.cd-reading .cd-material-drawing-notes summary:focus-visible{outline:2px solid var(--red,#cf141a);outline-offset:5px}
+.capabilities-design.cd-reading .cd-material-drawing-notes dl{padding-bottom:24px}
+.capabilities-design.cd-reading .cd-material-drawing-notes dl>div{display:grid;grid-template-columns:230px 1fr;gap:24px;padding:16px 0;border-top:1px solid var(--cd-line)}
+.capabilities-design.cd-reading .cd-material-drawing-notes dt{font-size:16px;line-height:1.7;font-weight:550}
+.capabilities-design.cd-reading .cd-material-drawing-notes dd{margin:0;font-size:16px;line-height:1.7;color:var(--cd-muted);max-width:67ch}
+.capabilities-design.cd-reading .cd-faq{grid-template-columns:1fr;gap:32px}
+.capabilities-design.cd-reading .cd-faq>div{max-width:800px}
+@media(min-width:1101px){.capabilities-design.cd-reading .cd-hero>header{min-height:360px;display:flex;flex-direction:column;justify-content:center}}
+@media(min-width:761px) and (max-width:1100px){
+ .capabilities-design.cd-reading .cd-hero{gap:28px 36px}
+ .capabilities-design.cd-reading .cd-part-layout--rows>.cd-part{grid-template-columns:260px 1fr;gap:36px}
+ .capabilities-design.cd-reading .cd-finish-explainer{gap:36px}
+}
+@media(max-width:760px){
+ .capabilities-design.cd-reading .cd-hero{grid-template-columns:1fr;gap:28px}
+ .capabilities-design.cd-reading .cd-part-layout--rows>.cd-part{display:flex;flex-direction:column;align-items:stretch;gap:16px}
+ .capabilities-design.cd-reading .cd-part>div{display:contents}
+ .capabilities-design.cd-reading .cd-part h3{order:0}
+ .capabilities-design.cd-reading .cd-part figure{order:1;margin:0!important}
+ .capabilities-design.cd-reading .cd-part p{order:2;margin:0!important}
+ .capabilities-design.cd-reading .cd-part a.cd-link{order:3;align-self:flex-start;margin-top:4px}
+ .capabilities-design.cd-reading .cd-finish-explainer{grid-template-columns:1fr;gap:24px}
+ .capabilities-design.cd-reading .cd-material-drawing-notes dl>div{grid-template-columns:1fr;gap:8px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design.cd-reading .cd-material-table tbody th{font-size:20px!important;line-height:1.4!important}
+ .capabilities-design.cd-reading .cd-material-table td::before{font-size:14px;font-weight:550;color:var(--cd-ink)}
+}
+@media(prefers-reduced-motion:reduce){.capabilities-design *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

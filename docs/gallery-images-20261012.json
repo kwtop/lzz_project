@@ -1,0 +1,123 @@
+{
+  "tool": "built-in imagegen",
+  "generated": [
+    {
+      "id": "impeller-gallery-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-a0880acf-0b9c-4ff2-ba4c-4c77792c4dc1.png",
+      "prompt": "Use case: lighting-weather / product-mockup. Edit the provided LZZ product presentation photograph of a silver machined impeller. Make a clean, highly realistic industrial product studio photograph for a white precision engineering gallery website. Preserve the exact camera angle, silhouette, every visible hole, bore, blade, rib, fastener interface, rough casting texture versus machined surface, dimensions and proportions from input. Do NOT redesign or invent geometry. Change only photographic presentation: neutral white studio background, softer directional top-left light, clean believable machined metal texture with less blown glare, sharp edges, natural subtle grounding shadow. Show whole object uncropped centered with 12% whitespace on all sides. NO text, badges, logos, numbers or technical graphics. No warm color cast, no CGI shine. Square high resolution image. Keep existing transparent background genuinely transparent except product and subtle shadow.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\impeller-gallery-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "webPrefix": "/media/gallery/impeller-gallery-v1-",
+      "widths": [
+        320,
+        480,
+        800,
+        1200
+      ],
+      "kind": "source-guided presentation",
+      "evidence": false
+    },
+    {
+      "id": "casting-gallery-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-09649b59-3ea5-4224-832a-2d990e2c521f.png",
+      "prompt": "Use case: lighting-weather / product-mockup. Edit the provided LZZ product presentation photograph of a gray machined casting housing. Make a clean, highly realistic industrial product studio photograph for a white precision engineering gallery website. Preserve the exact camera angle, silhouette, every visible hole, bore, blade, rib, fastener interface, rough casting texture versus machined surface, dimensions and proportions from input. Do NOT redesign or invent geometry. Change only photographic presentation: neutral white studio background, softer directional top-left light, clean believable machined metal texture with less blown glare, sharp edges, natural subtle grounding shadow. Show whole object uncropped centered with 12% whitespace on all sides. NO text, badges, logos, numbers or technical graphics. No warm color cast, no CGI shine. Square high resolution image. Keep existing transparent background genuinely transparent except product and subtle shadow.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\casting-gallery-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "webPrefix": "/media/gallery/casting-gallery-v1-",
+      "widths": [
+        320,
+        480,
+        800,
+        1200
+      ],
+      "kind": "source-guided presentation",
+      "evidence": false
+    },
+    {
+      "id": "locking-pin-gallery-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-91d882ce-0c69-4f16-8364-3a2e068933c6.png",
+      "prompt": "Edit ONLY photographic presentation of silver turned locking pin from the input for a white industrial precision object gallery. Preserve ALL visible geometry, number and placement of holes, exact silhouette, part count, arrangement, color, threads and proportions. Do not redesign the product. Soft neutral studio top-left illumination, reduce blown highlights, improve clean edge definition, retain real machining/surface texture. Original green remains green, no color/material change. Whole subject uncropped in same view, centered with generous white margin. Transparent background with faint realistic shadow. No text, logo, labels, symbols, other objects or invented features. Square 1200px or higher photo. It is source-guided presentation, not a technical drawing.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\locking-pin-gallery-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "webPrefix": "/media/gallery/locking-pin-gallery-v1-",
+      "widths": [
+        320,
+        480,
+        800,
+        1200
+      ],
+      "kind": "source-guided presentation",
+      "evidence": false
+    },
+    {
+      "id": "plastic-gallery-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-646e1b4f-8ec3-4871-8862-164f1527bff6.png",
+      "prompt": "Edit ONLY photographic presentation of the existing green perforated plastic components from the input for a white industrial precision object gallery. Preserve ALL visible geometry, number and placement of holes, exact silhouette, part count, arrangement, color, threads and proportions. Do not redesign the product. Soft neutral studio top-left illumination, reduce blown highlights, improve clean edge definition, retain real machining/surface texture. Original green remains green, no color/material change. Whole subject uncropped in same view, centered with generous white margin. Transparent background with faint realistic shadow. No text, logo, labels, symbols, other objects or invented features. Square 1200px or higher photo. It is source-guided presentation, not a technical drawing.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\plastic-gallery-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "webPrefix": "/media/gallery/plastic-gallery-v1-",
+      "widths": [
+        320,
+        480,
+        800,
+        1200
+      ],
+      "kind": "source-guided presentation",
+      "evidence": false
+    },
+    {
+      "id": "impeller-detail-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-7d2557a7-5c41-498c-87c5-427eea5a4a10.png",
+      "prompt": "Create a photorealistic industrial editorial macro detail image guided by the supplied impeller photograph. Landscape 3:2 1440px or higher. Show the same blade contours, central bore, circular hub and machining tool marks, camera close to the silver surface. Crop a dramatic sculptural close-up with the hub toward right and layered blades filling the frame. Soft neutral directional studio light, pale gray to white background, no added parts or altered blade anatomy, no fake workshop. For a white precision-engineering gallery website. No text, labels, arrows, logos, gradients or glow. This is a source-guided artistic detail presentation, not engineering evidence.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\impeller-detail-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "webPrefix": "/media/gallery/impeller-detail-v1-",
+      "widths": [
+        640,
+        960,
+        1440
+      ],
+      "kind": "illustration",
+      "evidence": false
+    },
+    {
+      "id": "rfq-gallery-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-0700cbb6-8c1d-498e-acfc-f9629c440984.png",
+      "prompt": "Use case: style-transfer / product-mockup. Rework supplied illustration to match a premium white precision object gallery website. Landscape 3:2 at 1536px or higher. Preserve the simple generic machined pocketed housing from the reference, and present it beside two neat sheets with quiet unlabelled orthographic outline views. Remove caliper and loose ring. White tabletop, almost white background, soft neutral studio light. Housing occupies left foreground, drawing sheets lie flat to right, balanced negative space. No text or dimension values anywhere. This is a generic drawing preparation illustration, not an actual LZZ drawing, project or measurement. No text, logos, labels, arrows, gradients or glow. Photorealistic understated lighting, no warm beige color cast. Whole parts uncropped with broad whitespace. Do not invent visible technical specifications.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\rfq-gallery-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "webPrefix": "/media/gallery/rfq-gallery-v1-",
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "kind": "illustration",
+      "evidence": false
+    },
+    {
+      "id": "prototype-gallery-v1",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a12e55-c7e6-77b3-bf8b-74530fefd0db\\exec-25ed4c7b-ebdd-4966-86a0-06fa5e646f5d.png",
+      "prompt": "Use case: style-transfer / product-mockup. Rework supplied illustration to match a premium white precision object gallery website. Landscape 3:2 at 1536px or higher. Preserve the five simple generic aluminum pocketed housing forms, with one solitary part on the left and four matching parts on right. Pure white tabletop/background, soft neutral industrial studio lighting, elegant spacing, clear metal tool marks. No paperwork, humans, tools or props. This is a generic prototype/batch planning illustration, not an LZZ order or delivered quantity. No text, logos, labels, arrows, gradients or glow. Photorealistic understated lighting, no warm beige color cast. Whole parts uncropped with broad whitespace. Do not invent visible technical specifications.",
+      "archivedSource": "D:\\lzz\\gallery-redesign-20261012\\images\\prototype-gallery-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "webPrefix": "/media/gallery/prototype-gallery-v1-",
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "kind": "illustration",
+      "evidence": false
+    }
+  ]
+}

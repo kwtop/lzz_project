@@ -1,0 +1,151 @@
+Browser tab: 506354184, Title: "CNC milling, turning or 5-axis machining? | LZZ Precision", URL: "http://127.0.0.1:4323/resources/cnc-process-selection/".
+1 AXWebArea CNC milling, turning or 5-axis machining? | LZZ Precision, URL: 127.0.0.1:4323/resources/cnc-process-selection/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/resources/cnc-process-selection/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Resources, Value: 127.0.0.1:4323/resources/
+				21 text /
+				22 text Process comparison
+			23 heading CNC milling vs turning vs 5-axis machining: how to choose, Value: 1
+				24 text CNC milling vs turning vs 5-axis machining: how to choose
+			25 container
+				26 button (expanded) On this page, Secondary Actions: Collapse
+					27 text On this page
+				28 container On this page
+					29 link Description: Compare the processes by geometry, Value: 127.0.0.1:4323/resources/cnc-process-selection/#section-1
+					30 link Description: When does a part need more than one process?, Value: 127.0.0.1:4323/resources/cnc-process-selection/#section-2
+					31 link Description: Is 5-axis machining always more accurate?, Value: 127.0.0.1:4323/resources/cnc-process-selection/#section-3
+					32 link Description: What should I include when asking for a process recommendation?, Value: 127.0.0.1:4323/resources/cnc-process-selection/#section-4
+			33 text A shaft or sleeve will usually start with turning. A housing with pockets and flat mounting faces is more likely to need milling. Angled features or access to several faces may call for a multi-axis setup. Some parts need a combination; send the drawing so we can review the sequence.
+			34 container Original LZZ photographs illustrating turning, milling and multi-axis setups
+				35 container
+					36 image Rotating metal workpiece being machined inside a CNC lathe.
+					37 text CNC turning operation; original LZZ process photograph.
+				38 container
+					39 image A metal component held in a CNC milling setup beneath the spindle.
+					40 text CNC milling operation photographed in LZZ process materials; source folder dated December 2025.
+				41 container
+					42 image Metal workpiece mounted on a trunnion beneath a CNC spindle.
+					43 text Five-axis machining operation; original LZZ process photograph.
+			44 heading Compare the processes by geometry, Value: 2, ID: section-1
+				45 text Compare the processes by geometry
+			46 container Scrollable comparison of CNC machining process routes
+				47 table
+					48 row
+						49 cell
+							50 text Route to discuss
+						51 cell
+							52 text Geometry cues
+						53 cell
+							54 text Drawing and quote questions
+					55 row
+						56 cell
+							57 text CNC turning
+						58 cell
+							59 text Rotational features such as a shaft, sleeve, disc or fitting, often arranged around an axis.
+						60 cell
+							61 text Define the datum axis, diameters, shoulders, grooves, threads and runout if required. Confirm whether cross-holes, flats or slots need secondary milling.
+					62 row
+						63 cell
+							64 text CNC milling
+						65 cell
+							66 text Block-like or irregular forms with pockets, slots, holes, contours and planar mounting faces.
+						67 cell
+							68 text Define datum faces, pocket depth, hole patterns and positional relationships. Confirm stock, clamping surfaces, setups and inspection records.
+					69 row
+						70 cell
+							71 text Multi-axis machining
+						72 cell
+							73 text Features distributed over several faces, angled faces or areas that need different tool approaches.
+						74 cell
+							75 text Define common datums, face-to-face and angular relationships. Review tool access, workholding and sequence against the model.
+			76 image A metal component held in a CNC milling setup beneath the spindle.
+			77 heading When does a part need more than one process?, Value: 2, ID: section-2
+				78 text When does a part need more than one process?
+			79 text A shaft with cross-holes, a turned fitting with milled flats or a housing with angled faces may need more than one operation or setup. The route should preserve the relationships between critical features. Send a 3D model and controlled 2D drawing so the team can review datums, access and inspection together.
+			80 heading Is 5-axis machining always more accurate?, Value: 2, ID: section-3
+				81 text Is 5-axis machining always more accurate?
+			82 text No single process label guarantees accuracy. Acceptance depends on the part geometry, machine and setup, datum strategy, material, finishing and measurement method. If an interface matters, state its tolerance and datum on the drawing and ask how it will be produced and checked. Any tolerance target needs feature-specific review.
+			83 heading What should I include when asking for a process recommendation?, Value: 2, ID: section-4
+				84 text What should I include when asking for a process recommendation?
+			85 content list
+				86 container
+					87 AXListMarker • 
+					88 text A 3D model and the controlling 2D drawing revision.
+				89 container
+					90 AXListMarker • 
+					91 text Material grade and condition, or the functional requirement if still undecided.
+				92 container
+					93 AXListMarker • 
+					94 text Quantity for the first order and expected repeat pattern, if known.
+				95 container
+					96 AXListMarker • 
+					97 text Critical datums, fits, surface requirements and required inspection records.
+				98 container
+					99 AXListMarker • 
+					100 text Finish, packaging and required arrival date, with any standards or approvals identified.
+			101 container
+				102 text Use the 
+				103 link Description: RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				104 text  to organize those details. We review your drawing before confirming the machining process and quoting a price and schedule.
+			105 container Related part examples
+				106 text APPLY THE GUIDE
+				107 heading Related part examples, Value: 2, ID: article-examples-title
+					108 text Related part examples
+				109 text Compare the features in these examples with your drawing. Each part is quoted to its own specification.
+				110 link Description: Stainless steel turned shafts, Value: 127.0.0.1:4323/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/
+				111 link Description: Complex aluminum housings, Value: 127.0.0.1:4323/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/
+				112 link Description: Multi-sided machined components, Value: 127.0.0.1:4323/products/global-manufacturer-of-multi-sided-precision-machined-components/
+			113 link Description: Back to Resources, Value: 127.0.0.1:4323/resources/
+		114 heading Have a part in mind?, Value: 2
+			115 text Have a part in mind?
+		116 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+		117 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+		118 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		119 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		120 container
+			121 text Custom CNC machining
+			122 text in Hangzhou, China.
+		123 container Footer navigation
+			124 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			125 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			126 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			127 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			128 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			129 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			130 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			131 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			132 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			133 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		134 container Let’s talk, ID: contact
+			135 heading Let’s talk, Value: 2, ID: footer-talk-title
+				136 text Let’s talk
+			137 text Hangzhou, China · UTC+8
+			138 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			139 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		140 container Find us
+			141 heading Find us, Value: 2, ID: footer-find-title
+				142 text Find us
+			143 container
+				144 text No. 4 Fengcheng Road
+				145 text Pingyao, Yuhang District
+				146 text Hangzhou, Zhejiang, China
+		147 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		148 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea CNC milling, turning or 5-axis machining? | LZZ Precision, URL: 127.0.0.1:4323/resources/cnc-process-selection/

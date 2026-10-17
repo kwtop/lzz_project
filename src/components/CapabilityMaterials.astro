@@ -1,0 +1,16 @@
+---
+import type {CapabilityPageData} from '../data/capabilityDesign';
+import {capabilityArtwork} from '../data/capabilityDesign';
+import CapabilityArtwork from './CapabilityArtwork.astro';
+interface Props {page:CapabilityPageData}
+const {page}=Astro.props;
+const {plan,design,turning,sample,slug}=page;
+const compact=design.material==='compact',finish=design.material==='finish';
+---
+<header class="cd-heading"><h2 id={turning?'turning-material-title':'service-material-title'}>{page.reading?(slug==='casting-machining'?'Casting material & blank requirements':page.reading.family==='material'?'Material grades & finishes':'Materials & finishes'):plan.materialHeading||(slug==='stainless-steel-cnc-parts'?'Select the grade and final condition':slug==='plastic-machined-parts'?'Choose the polymer for the working conditions':finish?'Alloy, temper and surface treatment':'Materials & finishes')}</h2><p>{page.reading?'Compare the material specifications and finish options below. Suitability and availability are confirmed for your drawing; detailed drawing notes follow in the inspection section.':sample?'Record what is known and resolve the unknowns on the approved drawing.':compact?'Specify the material, stock condition and finish for the part. Approve any alternatives for the evaluation or release.':'Choose grade, condition and finish together. These are discussion options; availability and suitability are confirmed for your drawing.'}</p></header>
+<div class:list={['cd-material-body','cd-material-body--'+design.material]}>
+ {page.reading?<table class="cd-table cd-material-table cd-material-table--reading"><thead><tr><th scope="col">{page.reading.family==='material'?'Grade / material':'Material / scope'}</th><th scope="col">Specification</th><th scope="col">Finish options</th></tr></thead><tbody>{plan.materials.map(r=><tr><th scope="row">{r.name}</th><td data-label="Specification">{r.grades}</td><td data-label="Finish options">{r.finish}</td></tr>)}</tbody></table>:compact?<dl class="cd-material-options">{plan.materials.map(r=><div><dt>{r.name}</dt><dd><p>{r.grades}</p><p>{r.finish} {r.review}</p></dd></div>)}</dl>:finish?<div class="cd-alloy-choices">{plan.materials.map(r=><article><h3>{r.name}</h3><p>{r.grades}</p><p>{r.finish} {r.review}</p></article>)}</div>:<table class="cd-table cd-material-table"><thead><tr><th scope="col">{sample?'Information':'Material / scope'}</th><th scope="col">Specification</th><th scope="col">Finish / treatment</th><th scope="col">Drawing considerations</th></tr></thead><tbody>{plan.materials.map(r=><tr><th scope="row">{r.name}</th><td data-label="Specification">{r.grades}</td><td data-label="Finish / treatment">{r.finish}</td><td data-label="Drawing considerations">{r.review}</td></tr>)}</tbody></table>}
+ {finish&&<div class="cd-finish-review"><CapabilityArtwork art={capabilityArtwork.finish}/><h3>Protect the surfaces that control fit</h3><p>Mark masked fits, cosmetic faces and dimensions that apply after treatment. Define the required appearance and acceptance criteria.</p></div>}
+</div>
+{plan.materialNote&&<p class="cd-material-note">{plan.materialNote}</p>}
+<div class="cd-actions"><a class="cd-link" href="/resources/technical-guides/material-and-finish-checklist/">Material & finish checklist</a></div>

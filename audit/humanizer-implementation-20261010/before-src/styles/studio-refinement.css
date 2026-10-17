@@ -1,0 +1,330 @@
+/* Studio refinement: a photographic industrial editorial system. */
+body.brand-site{--section-space:clamp(3rem,5vw,4.5rem)}
+body.brand-site h2{font-weight:550;letter-spacing:-.035em}
+body.brand-site .section-heading{margin-bottom:32px}
+body.brand-site .button{border-radius:3px}
+body.brand-site .text-link{border-radius:2px;background:transparent;box-shadow:none}
+body.brand-site .studio-hero{min-height:min(880px,100svh)}
+body.brand-site .studio-hero::after{background:linear-gradient(90deg,#0b0e10 0%,#0b0e10 50%,#0b0e10d9 56%,transparent 69%),linear-gradient(180deg,#0b0e10a0 0%,transparent 25%,transparent 72%,#0b0e10b0 100%)}
+body.brand-site .studio-hero .precision-scene{left:53%;width:47%;object-position:52% 54%}
+body.brand-site .studio-hero .precision-message{text-align:left;padding-block:160px 150px}
+body.brand-site .studio-hero h1{max-width:11ch;margin:0;font-size:clamp(3.3rem,6.4vw,6rem);line-height:1.03;font-weight:500;letter-spacing:-.055em;text-wrap:initial}
+body.brand-site .studio-hero .precision-message p{margin:28px 0;max-width:32ch;font-size:20px}
+body.brand-site .studio-hero .precision-message .hero-note{font-size:13px;margin-top:20px;color:#c8cdd0}
+body.brand-site .hero-baseline{justify-content:space-between;padding-top:18px}
+body.brand-site .hero-baseline>span{font-size:13px;color:#ccd1d3}
+body.brand-site .hero-baseline a{border:0;background:none;padding:8px 0;font-size:14px;gap:24px}
+body.brand-site .ed-inspection figure img{object-fit:cover;object-position:center 52%;height:320px}
+body.brand-site .ed-case-grid{gap:32px}
+body.brand-site .ed-product-image{aspect-ratio:1.15}
+body.brand-site .ed-process figure img{height:400px}
+/* Keep reference imagery as a composed chapter, not a spare half-width row. */
+body.brand-site .reference-gallery.single-reference{display:grid;grid-template-columns:.8fr 1.8fr;gap:64px;align-items:center;padding-block:48px 64px;border-top:1px solid var(--border)}
+body.brand-site .reference-gallery header p{font-size:16px;line-height:1.7;margin-top:20px;max-width:46ch;color:var(--muted)}
+body.brand-site .reference-gallery.single-reference>div{display:block;margin:0}
+body.brand-site .reference-gallery.single-reference img{height:390px;width:100%;object-fit:cover}
+body.brand-site .reference-gallery figcaption{font-size:12px}
+body.brand-site .engineering-grid{margin-block:28px}
+body.brand-site .engineering-grid>.prose{padding-block:22px}
+body.brand-site .part-process-links{padding-block:40px}
+body.brand-site .part-process-links+.section{padding-top:32px}
+body.brand-site .product-heading h1{font-size:clamp(36px,3.5vw,52px);font-weight:550;letter-spacing:-.04em}
+/* Factory: establish the place, then a consistent equipment contact sheet. */
+body.brand-site .real-factory-intro .page-banner-inner{display:block;padding-block:52px 0}
+body.brand-site .real-factory-intro .page-banner-copy{display:flex;align-items:center;justify-content:space-between;gap:40px;margin-bottom:36px}
+body.brand-site .real-factory-intro h1 br{display:none}
+body.brand-site .real-factory-intro h1{font-size:clamp(36px,4.5vw,60px)}
+body.brand-site .real-factory-intro .page-banner-image{height:430px;max-width:none}
+body.brand-site .real-factory-intro .page-banner-image img{width:100%;height:100%;object-fit:cover}
+body.brand-site .factory-facts{padding-top:32px}
+body.brand-site #production-capacity{padding-block:40px}
+body.brand-site #equipment .equipment-gallery{grid-template-columns:1fr 1fr;gap:40px 32px}
+body.brand-site #equipment .equipment-gallery article:last-child{max-width:none;justify-self:stretch}
+body.brand-site #equipment .equipment-visual img{height:320px;object-fit:cover;object-position:center}
+body.brand-site #equipment .equipment-gallery article:last-child img{object-fit:contain;background:#f5f5f3}
+body.brand-site #equipment .equipment-gallery h3{font-size:25px;margin-top:18px}
+body.brand-site #equipment .equipment-gallery article>p{margin:10px 0 12px;font-size:16px}
+body.brand-site #workshop-photographs .workshop-photo-grid{grid-template-columns:1fr 1fr;gap:32px}
+body.brand-site #workshop-photographs article{max-width:none}
+body.brand-site #workshop-photographs .workshop-landscape{max-width:none}
+body.brand-site #workshop-photographs img{height:370px;object-fit:cover;object-position:center}
+body.brand-site #workshop-photographs .workshop-landscape img{height:470px;object-position:center 48%}
+body.brand-site #workshop-photographs figcaption{font-size:12px}
+/* Reduce repetition in the quality chapter; technical guidance needs no stock-like image. */
+body.brand-site .quality-hero figure{padding:0;background:#f5f5f3}
+body.brand-site .quality-hero img{height:380px;object-fit:cover;object-position:center 52%}
+body.brand-site .quality-hero figcaption{padding:0 16px 16px}
+body.brand-site .studio-measurement{display:block;padding-block:40px}
+body.brand-site .studio-measurement>div{display:grid;grid-template-columns:.8fr 1.8fr;gap:0 64px}
+body.brand-site .studio-measurement h2{grid-column:1;grid-row:1/4;font-size:32px}
+body.brand-site .studio-measurement p{grid-column:2;margin:0;font-size:16px}
+body.brand-site .studio-measurement dl{grid-column:2;margin-block:22px}
+body.brand-site .studio-measurement .text-link{grid-column:2;justify-self:start}
+body.brand-site .studio-measurement dl>div{padding-block:14px}
+/* Footer navigation ends the page rather than repeating the sitemap. */
+body.brand-site .footer-main{grid-template-columns:1fr 2fr 1fr;padding-block:48px 36px;gap:40px}
+body.brand-site .footer-navigation{grid-template-columns:1fr 1.2fr 1.3fr;gap:24px}
+body.brand-site .footer-brand .footer-logo{width:120px}
+body.brand-site .footer-brand p{font-size:16px;margin-top:20px}
+body.brand-site .footer-brand p::before{display:none}
+body.brand-site .footer-column h2{font-size:14px;margin-bottom:14px}
+body.brand-site .footer-column :is(a,p){font-size:14px}
+body.brand-site .footer-link-list{gap:10px}
+body.brand-site .footer-contact{gap:24px}
+body.brand-site .footer-company-link{margin-top:12px!important;padding-top:8px}
+body.brand-site .draft-storage{display:flex;justify-content:space-between;align-items:center;gap:16px}
+body.brand-site .draft-result h3 svg{color:var(--ink)}
+body.brand-site .draft-storage .clear-draft{border:0;padding:8px 0;margin:0;background:none;font-size:12px;min-height:44px;flex-shrink:0}
+body.brand-site .draft-storage .clear-draft svg{width:14px}
+@media(max-width:760px){
+ body.brand-site .studio-hero{min-height:720px;min-height:92svh}
+ body.brand-site .studio-hero .precision-scene{left:0;width:100%;object-position:50% center}
+ body.brand-site .studio-hero::after{background:linear-gradient(180deg,#0b0e10 0%,#0b0e10 57%,#0b0e10d9 68%,#0b0e1055 84%,#0b0e10c9 100%)}
+ body.brand-site .studio-hero .precision-message{padding-block:150px 140px}
+ body.brand-site .studio-hero h1{font-size:clamp(44px,12vw,64px);max-width:11ch}
+ body.brand-site .studio-hero .precision-message p{font-size:17px;margin-block:24px}
+ body.brand-site .studio-hero .precision-scene{object-position:64% center}
+ body.brand-site .hero-baseline>span{max-width:19ch;font-size:11px}
+ body.brand-site .hero-baseline a{font-size:12px;gap:12px}
+ body.brand-site .ed-product-grid{grid-template-columns:1fr 1fr;gap:24px 16px}
+ body.brand-site .ed-product:first-child{grid-column:1/-1}
+ body.brand-site .ed-product:first-child .ed-product-image{aspect-ratio:1.6}
+ body.brand-site .ed-product-image{aspect-ratio:1}
+ body.brand-site .ed-product h3{font-size:16px;padding-top:12px;margin-top:12px}
+ body.brand-site .ed-product:first-child h3{font-size:20px}
+ body.brand-site .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 18px}
+ body.brand-site .product-card h3{font-size:16px;line-height:1.35;padding-top:12px;margin-top:12px}
+ body.brand-site .product-image{aspect-ratio:1;height:auto}
+ body.brand-site .product-image img{padding:4px}
+ body.brand-site .reference-gallery.single-reference{grid-template-columns:1fr;gap:24px;padding-block:32px}
+ body.brand-site .reference-gallery.single-reference img{height:auto;max-height:380px;object-fit:contain}
+ body.brand-site .real-factory-intro .page-banner-copy{display:block;margin-bottom:24px}
+ body.brand-site .real-factory-intro .page-banner-copy .button{margin-top:20px}
+ body.brand-site .real-factory-intro .page-banner-image{height:280px}
+ body.brand-site #equipment .equipment-gallery{grid-template-columns:1fr;gap:36px}
+ body.brand-site #equipment .equipment-visual img{height:280px}
+ body.brand-site #workshop-photographs .workshop-photo-grid{grid-template-columns:1fr;gap:28px}
+ body.brand-site #workshop-photographs img,body.brand-site #workshop-photographs .workshop-landscape img{height:300px}
+ body.brand-site .studio-measurement>div{display:block}
+ body.brand-site .studio-measurement p{margin-top:20px}
+ body.brand-site .quote-steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-block:20px 28px}
+ body.brand-site .quote-steps li{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:10px 0;font-size:12px;line-height:1.4;border-top:1px solid var(--border);border-bottom:0}
+ body.brand-site .quote-steps li[aria-current]{border-top:2px solid var(--red);border-bottom:0}
+ body.brand-site .draft-storage{gap:12px}
+ body.brand-site .draft-storage p{font-size:12px}
+ body.brand-site .footer-main{grid-template-columns:1fr;gap:32px;padding-block:36px}
+ body.brand-site .footer-brand{display:flex;align-items:center;gap:28px}
+ body.brand-site .footer-brand p{font-size:14px;margin:0}
+ body.brand-site .footer-brand .footer-logo{width:100px}
+ body.brand-site .footer-navigation{grid-template-columns:1fr 1fr;gap:24px}
+ body.brand-site .footer-navigation>.footer-column:last-child{grid-column:1/-1;border-top:1px solid #ffffff2b;padding-top:20px;display:block}
+ body.brand-site .footer-navigation>.footer-column:last-child .footer-link-list{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+ body.brand-site .footer-company-link{border:0;padding:0}
+ body.brand-site .footer-contact{grid-template-columns:1fr 1fr;gap:24px}
+ body.brand-site .footer-link-list{gap:0}
+ body.brand-site .footer-column h2{margin-bottom:8px}
+ body.brand-site .footer-column :is(a,p){font-size:13px}
+ body.brand-site .footer-bottom{font-size:11px}
+}
+@media(max-width:760px){
+ body.brand-site #equipment .equipment-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 16px}
+ body.brand-site #equipment .equipment-gallery article:first-child{grid-column:1/-1}
+ body.brand-site #equipment .equipment-gallery article:first-child img{height:270px}
+ body.brand-site #equipment .equipment-gallery article:not(:first-child) img{height:160px}
+ body.brand-site #equipment .equipment-gallery article:not(:first-child) h3{font-size:18px;line-height:1.3;margin-top:12px}
+ body.brand-site #equipment .equipment-gallery article:not(:first-child)>p{font-size:13px;line-height:1.45;margin-top:6px}
+ body.brand-site #workshop-photographs .workshop-photo-grid{gap:26px}
+}
+@media(prefers-reduced-motion:reduce){body.brand-site .studio-hero *{scroll-behavior:auto}}
+/* Keep the desktop navigation out of the hero message and its labels legible. */
+@media(min-width:961px){
+ body.brand-site #main-nav .nav-panel-capabilities{position:fixed;top:76px;left:auto;right:max(24px,calc((100vw - 1140px)/2));width:min(560px,calc(100vw - 48px));z-index:30}
+}
+body.brand-site .explorer .product-card-context{font-size:14px;line-height:1.45;color:var(--muted);margin:9px 0 0;max-width:32ch}
+@media(max-width:760px){body.brand-site .explorer .product-card-context{font-size:12px;line-height:1.4;margin-top:7px}}
+body.brand-site .real-factory-intro .page-banner-figure{width:100%;max-width:none;justify-self:stretch;margin:0}
+body.brand-site .real-factory-intro .page-banner-figure .page-banner-image{width:100%;max-width:100%;margin:0}
+@media(max-width:760px){
+ body.brand-site.task-pages .explorer .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 18px}
+ body.brand-site .footer-navigation>.footer-explore{display:flex;grid-column:auto;grid-row:auto}
+ body.brand-site .footer-navigation>.footer-column{grid-row:auto}
+}
+/* Long-page editorial hierarchy: group decisions, specifications, and photographic studies. */
+body.brand-site .scope-grades strong{font-weight:500}
+body.brand-site .scope-grades p{margin:0 0 12px}
+body.brand-site .scope-grades small{display:block;font-size:13px;color:var(--muted);line-height:1.6}
+body.brand-site .engineering-scope{display:grid;grid-template-columns:.85fr 1.65fr;gap:0 56px;padding-block:48px}
+body.brand-site .engineering-scope .scope-heading{grid-column:1;grid-row:1/4}
+body.brand-site .engineering-scope dl{grid-column:2;margin-top:0}
+body.brand-site .engineering-scope dl>div{grid-template-columns:140px 1fr;gap:24px;padding-block:18px}
+body.brand-site .engineering-scope .scope-note,body.brand-site .engineering-scope .process-delivery{grid-column:2}
+body.brand-site .engineering-scope .process-delivery{margin-top:20px}
+body.brand-site .engineering-scope .process-delivery summary{font-size:18px;font-weight:550;min-height:44px;align-content:center}
+body.brand-site .capability-guidance{padding-block:8px}
+body.brand-site .capability-cases>div:last-child>a:first-child{grid-column:1/-1;display:grid;grid-template-columns:1.65fr 1fr;gap:0 40px;align-items:center}
+body.brand-site .capability-cases>div:last-child>a:first-child img{grid-row:1/3;height:360px}
+body.brand-site .capability-cases>div:last-child>a:first-child h3{align-self:end;font-size:30px;line-height:1.2;margin:0 0 20px}
+body.brand-site .capability-cases>div:last-child>a:first-child .study-link{align-self:start}
+body.brand-site .study-link{display:inline-flex;gap:20px;font-size:14px;font-weight:550;min-height:44px;align-items:center;border-bottom:1px solid #abb1b4}
+body.brand-site .material-evidence .technical-disclosure{padding-block:22px}
+body.brand-site .material-evidence .material-evidence-grid{margin-top:28px}
+body.brand-site .supporting-services{padding-block:28px}
+body.brand-site .supporting-services h2{font-size:22px}
+body.brand-site .supporting-services p{font-size:14px;margin-block:12px}
+body.brand-site .supporting-services ul{gap:8px 32px;font-size:14px}
+body.brand-site .quality-overview{align-items:start}
+body.brand-site .quality-overview dl{margin-top:0}
+body.brand-site .measurement-note{font-size:14px;line-height:1.7}
+body.brand-site .quality-method-details{border-top:1px solid var(--border);margin-block:20px;padding-block:16px}
+body.brand-site .quality-method-details summary{font-size:17px;font-weight:550;cursor:pointer;min-height:44px;align-content:center}
+body.brand-site .quality-method-details p{font-size:15px;line-height:1.7;margin-top:12px}
+body.brand-site #order-documentation{padding-bottom:56px}
+body.brand-site #order-documentation .order-documentation-details{margin-top:0}
+body.brand-site #inspection-records{padding-bottom:24px}
+body.brand-site .product-grid:has(>.product-card:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr));max-width:100%}
+body.brand-site .product-grid:has(>.product-card:nth-child(2):last-child) .product-image{aspect-ratio:1.6}
+body.brand-site .ed-case-grid>a:first-child{grid-template-columns:1.65fr 1fr}
+body.brand-site .ed-case-grid>a:first-child img{aspect-ratio:1.6}
+@media(max-width:760px){
+ body.brand-site .engineering-scope{display:block;padding-block:32px}
+ body.brand-site .engineering-scope dl{margin-top:24px}
+ body.brand-site .engineering-scope dl>div{grid-template-columns:1fr;gap:8px}
+ body.brand-site .capability-cases>div:last-child>a:first-child{display:block}
+ body.brand-site .capability-cases>div:last-child>a:first-child img{height:260px}
+ body.brand-site .capability-cases>div:last-child>a:first-child h3{font-size:24px;margin-top:18px}
+ body.brand-site .product-grid:has(>.product-card:nth-child(2):last-child) .product-image{aspect-ratio:1}
+ body.brand-site .ed-workshop{margin-inline:calc(-1 * var(--gutter))}
+ body.brand-site .ed-workshop figcaption{margin-inline:var(--gutter)}
+ body.brand-site .ed-case-grid>a:first-child{display:block}
+}
+@media(max-width:760px){
+ body.brand-site.task-pages .explorer .product-card h3{font-size:16px;line-height:1.35;letter-spacing:-.015em;font-weight:550}
+ body.brand-site.task-pages .explorer .product-image{aspect-ratio:1;height:auto}
+ body.brand-site.task-pages .explorer .product-image img{padding:0}
+}
+/* Final editorial pass: fewer repeated modules and clearer actions. */
+body.brand-site .ed-material-inline{padding-top:20px;border-top:1px solid var(--border)}
+body.brand-site .ed-material-inline nav{display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;margin:0 0 16px}
+body.brand-site .ed-material-inline nav a{font-size:14px;min-height:36px;padding:6px 0;border:0;color:var(--muted)}
+body.brand-site .quality-editorial-hero{display:block;padding-block:64px 48px}
+body.brand-site .quality-editorial-hero>div{display:grid;grid-template-columns:1.3fr 1fr;gap:0 80px;align-items:center}
+body.brand-site .quality-editorial-hero h1{grid-row:1/3;font-size:clamp(40px,5vw,68px);max-width:13ch}
+body.brand-site .quality-editorial-hero p{margin:0 0 24px;max-width:38ch}
+body.brand-site .quality-editorial-hero .button{justify-self:start}
+body.brand-site #inspection-process>.container{display:block}
+body.brand-site #inspection-process .inspection-sequence{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}
+body.brand-site #inspection-process .inspection-sequence li{display:block;border-top:1px solid var(--border);padding-top:18px}
+body.brand-site #inspection-process .inspection-sequence li>span{display:block;margin-bottom:20px}
+body.brand-site #inspection-process .inspection-sequence h3{font-size:22px;font-weight:550}
+body.brand-site #inspection-process .inspection-sequence p{font-size:14px}
+body.brand-site #inspection-process .process-link{margin-top:8px}
+body.brand-site #inspection-equipment{grid-template-columns:1.15fr 1fr;gap:36px 64px}
+body.brand-site #inspection-equipment>div:first-child{grid-column:1/-1;display:grid;grid-template-columns:1.15fr 1fr;gap:0 64px}
+body.brand-site #inspection-equipment>div:first-child h2{grid-row:1/3}
+body.brand-site #inspection-equipment>div:first-child p{margin:0 0 12px}
+body.brand-site #inspection-equipment>figure{max-width:none}
+body.brand-site #inspection-equipment>figure img{height:560px;width:100%;object-fit:cover;object-position:50% 68%}
+body.brand-site #inspection-equipment>figure figcaption{font-size:12px}
+body.brand-site #inspection-equipment .measurement-list{align-self:start}
+body.brand-site .reference-gallery.single-reference img{height:440px}
+body.brand-site .footer-compact-nav{display:grid;grid-template-columns:1fr 1fr;gap:4px 32px}
+body.brand-site .footer-compact-nav>a{display:flex;align-items:center;min-height:40px;font-size:14px;color:#c5cbcf}
+body.brand-site .footer-compact-nav>a:hover{color:white;text-decoration:underline;text-underline-offset:5px}
+body.brand-site .quote-terms>summary{font-size:18px;font-weight:550;cursor:pointer;min-height:44px;align-content:center}
+body.brand-site .quote-form>.quote-steps{margin-top:0}
+body.brand-site .drawing-note{border-top:0;margin-top:20px;padding-top:0}
+body.brand-site .quote-optional{border-bottom:0}
+body.brand-site .quote-form form>.button{min-height:52px}
+body.brand-site .technical-disclosure>summary,body.brand-site .document-needs summary,body.brand-site .quality-method-details summary,body.brand-site .quote-optional>summary,body.brand-site .record-example-disclosure>summary,body.brand-site .order-documentation-details>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:24px}
+body.brand-site .technical-disclosure>summary::after,body.brand-site .document-needs summary::after,body.brand-site .quality-method-details summary::after,body.brand-site .record-example-disclosure>summary::after,body.brand-site .order-documentation-details>summary::after{content:'+';font-size:20px;font-weight:400;flex:none}
+body.brand-site details[open].technical-disclosure>summary::after,body.brand-site .document-needs details[open] summary::after,body.brand-site details[open].quality-method-details summary::after,body.brand-site details[open].record-example-disclosure>summary::after,body.brand-site details[open].order-documentation-details>summary::after{content:'−'}
+@media(max-width:760px){
+ body.brand-site .quality-editorial-hero{padding-block:36px}
+ body.brand-site .quality-editorial-hero>div{display:block}
+ body.brand-site .quality-editorial-hero h1{font-size:40px}
+ body.brand-site .quality-editorial-hero p{margin-block:22px}
+ body.brand-site #inspection-process .inspection-sequence{grid-template-columns:1fr 1fr;gap:24px}
+ body.brand-site #inspection-process .inspection-sequence h3{font-size:19px}
+ body.brand-site #inspection-process .inspection-sequence li>span{margin-bottom:12px}
+ body.brand-site #inspection-equipment{grid-template-columns:1fr;gap:28px}
+ body.brand-site #inspection-equipment>div:first-child{display:block}
+ body.brand-site #inspection-equipment>div:first-child p{margin-top:18px}
+ body.brand-site #inspection-equipment>figure img{height:420px}
+ body.brand-site .reference-gallery.single-reference img{height:auto}
+ body.brand-site .footer-compact-nav{gap:0 24px;border-block:1px solid #ffffff2b;padding-block:16px}
+ body.brand-site .footer-compact-nav>a{font-size:13px;min-height:40px}
+ body.brand-site .footer-main{gap:24px}
+ body.brand-site .footer-contact{padding-top:0;border-top:0}
+ body.brand-site .footer-contact h2{font-size:13px}
+ body.brand-site .footer-contact a{min-height:36px}
+ body.brand-site .footer-find p{font-size:12px}
+ body.brand-site .ed-material-inline nav{grid-template-columns:1fr 1fr;gap:0 20px}
+ body.brand-site .ed-material-inline nav a{font-size:14px}
+}
+/* Optical balance and a single photographic exit from the directory. */
+body.brand-site .catalog-workshop{padding-block:40px 64px;border-top:1px solid var(--border)}
+body.brand-site .catalog-workshop>a{display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:center}
+body.brand-site .catalog-workshop img{height:330px;width:100%;object-fit:cover}
+body.brand-site .catalog-workshop h2{font-size:38px}
+body.brand-site .catalog-workshop p{font-size:16px;margin:20px 0}
+body.brand-site .part-process-links>div:last-child>a{display:grid;grid-template-columns:150px 1fr;gap:24px;font-size:18px;font-weight:550;border-top:0}
+body.brand-site .part-process-links img{width:150px;height:110px;object-fit:cover}
+body.brand-site .engineering-scope{grid-template-columns:1fr}
+body.brand-site .engineering-scope .scope-heading{grid-column:1;grid-row:auto;margin-bottom:24px}
+body.brand-site .engineering-scope .scope-heading h2{max-width:32ch}
+body.brand-site .engineering-scope dl{grid-column:1;display:grid;grid-template-columns:1fr 1fr;gap:20px 48px}
+body.brand-site .engineering-scope dl>div{display:block;padding-block:16px;border-top:1px solid var(--border)}
+body.brand-site .engineering-scope dt{margin-bottom:12px;font-size:15px}
+body.brand-site .engineering-scope dd{font-size:15px;line-height:1.7}
+body.brand-site .engineering-scope .scope-grades{grid-column:1/-1;display:grid;grid-template-columns:1fr 2fr}
+body.brand-site .engineering-scope .scope-note,body.brand-site .engineering-scope .process-delivery{grid-column:1}
+body.brand-site .scope-grades strong{display:none}
+body.brand-site .scope-grades br{display:none}
+body.brand-site .scope-grades small{max-width:70ch}
+body.brand-site .workflow.studio-workflow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}
+body.brand-site .workflow.studio-workflow li{display:block;position:relative;border-top:1px solid #ffffff40;padding:22px 0}
+body.brand-site .workflow.studio-workflow h3{font-size:28px;font-weight:500;margin-block:16px}
+body.brand-site .workflow.studio-workflow p{font-size:14px;line-height:1.7;color:#ccd1d3;max-width:23ch}
+body.brand-site .quote-optional>summary::after{content:'+';font-size:20px;font-weight:400;margin-left:0}
+body.brand-site .quote-optional[open]>summary::after{content:'−'}
+body.brand-site .quote-optional>summary>span{margin-left:auto}
+body.brand-site .quote-form .drawing-note{padding-bottom:0;border:0;margin-bottom:20px}
+body.brand-site .quote-form .draft-storage{border:0;margin-top:20px;padding-top:0}
+body.brand-site .quote-form-column .quote-form form>.button{width:100%;max-width:320px}
+body.brand-site .quote-review-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;margin:22px 0 26px;border-top:1px solid var(--border)}
+body.brand-site .quote-review-summary>div{min-width:0;padding:13px 0;border-bottom:1px solid var(--border)}
+body.brand-site .quote-review-summary>.full{grid-column:1/-1}
+body.brand-site .quote-review-summary dt{font-size:12px;line-height:1.4;color:var(--muted);margin-bottom:5px}
+body.brand-site .quote-review-summary dd{font-size:15px;line-height:1.5;overflow-wrap:anywhere;max-width:65ch}
+body.brand-site .draft-result .actions{margin-bottom:18px}
+body.brand-site .header-inner:not(:has(.header-quote)) .menu-toggle{margin-left:auto}
+body.brand-site .header-inner:not(:has(.header-quote)) #main-nav{margin-left:auto}
+body.brand-site .studio-hero::after{background:linear-gradient(90deg,#080a0ccc 0%,#080a0c65 38%,transparent 78%),linear-gradient(0deg,#080a0c65,transparent 28%)}
+body.brand-site .studio-hero .hero-baseline{border-top:1px solid #ffffff55}
+body.brand-site .studio-hero .hero-baseline a{background:transparent;box-shadow:none;border:0}
+@media(max-width:760px){
+ body.brand-site .catalog-workshop{padding-block:32px}
+ body.brand-site .catalog-workshop>a{grid-template-columns:1fr;gap:24px}
+ body.brand-site .catalog-workshop img{height:230px}
+ body.brand-site .catalog-workshop h2{font-size:30px}
+ body.brand-site .part-process-links>div:last-child>a{grid-template-columns:104px 1fr;gap:18px;font-size:16px}
+ body.brand-site .part-process-links img{width:104px;height:90px}
+ body.brand-site .engineering-scope dl{grid-template-columns:1fr;gap:8px}
+ body.brand-site .engineering-scope .scope-grades{display:block}
+ body.brand-site .workflow.studio-workflow{grid-template-columns:1fr 1fr;gap:24px}
+ body.brand-site .workflow.studio-workflow h3{font-size:24px}
+ body.brand-site .quote-form-column .quote-form form>.button{max-width:none}
+ body.brand-site .studio-hero .hero-baseline{bottom:20px}
+ body.brand-site .studio-hero .precision-scene{object-position:70% center}
+}
+body.brand-site .editorial-home .ed-process .ed-material-inline nav a{font-size:14px;min-height:36px;padding:6px 0;border:0;line-height:1.5}
+body.brand-site .ed-case-grid .ed-case-pair{display:grid;grid-template-columns:1.65fr 1fr;gap:12px;margin:0}
+body.brand-site .ed-case-grid .ed-case-pair img{width:100%;height:330px;aspect-ratio:auto;object-fit:cover}
+body.brand-site .ed-case-grid .ed-case-pair figcaption{grid-column:1/-1}
+@media(max-width:760px){
+ body.brand-site .studio-hero .hero-baseline{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding-top:12px}
+ body.brand-site .studio-hero .hero-baseline>span{max-width:none;font-size:11px}
+ body.brand-site .studio-hero .hero-baseline a{min-height:36px;padding-block:4px;font-size:13px;gap:18px}
+ body.brand-site .studio-hero::after{background:linear-gradient(180deg,#0b0e10 0%,#0b0e10 57%,#0b0e10d9 68%,#0b0e1055 84%,#0b0e10c9 100%)}
+ body.brand-site .ed-case-grid .ed-case-pair img{height:220px}
+}

@@ -1,0 +1,13 @@
+{
+  "asset": "Homepage selected impeller image background cleanup",
+  "input": "/media/catalog-02-retouched-v4.webp",
+  "generator": "Built-in image_gen",
+  "sourceOutput": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-8168f11b-5780-41d6-b6fb-ba5285814f6b.png",
+  "prompt": "Use case: precise-object-edit. Asset type: homepage featured product photograph, output with transparent background. Input image: the provided product photo is the sole geometry reference and edit target. Primary request: Remove only the flat gray square background and produce a clean, premium floating product cutout for the LZZ Precision homepage. Subject: The exact single silver centrifugal impeller shown in the reference. Composition: Square, 1200 × 1200. Keep the full impeller centered and large, filling about 78–82% of the image with balanced clear margins. Preserve the exact view angle. Materials: Keep brushed machined aluminum appearance and realistic fine radial machining lines. Constraints: Preserve the exact number, count, sweep, curvature and orientation of every vane, the center hub, center bore, proportions and all visible details. Keep object contour crisp and physically coherent. Transparent background, with only a subtle soft natural contact shadow if the shadow is separately visible; no opaque backdrop, no white or gray tile, no frame, no text or logo. Do not redesign, invent, simplify, or crop any part.",
+  "output": "/media/home-featured-impeller-cutout-1200.webp",
+  "variants": [
+    "/media/home-featured-impeller-cutout-480.webp",
+    "/media/home-featured-impeller-cutout-800.webp",
+    "/media/home-featured-impeller-cutout-1200.webp"
+  ]
+}

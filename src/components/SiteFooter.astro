@@ -1,0 +1,32 @@
+---
+import {siteSections} from '../data/siteSections';
+import { Facebook, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import '../styles/site-footer.css';
+const groups=siteSections.map(section=>({...section,links:(section.key==='capabilities'?section.children.filter(page=>['/capabilities/cnc-milling-service/','/capabilities/cnc-turning-service/','/capabilities/5-axis-cnc-machining/'].includes(page.href)):section.key==='factory'?[{title:'Workshop & equipment',href:'/factory/#workshop'},{title:'Quality & documents',href:'/factory/#quality'}]:section.children).map(page=>[page.title,page.href])}));
+---
+<footer class="lzz-footer lzz-footer--directory">
+ <div class="lzz-footer-inner">
+  <div class="lzz-footer-main" id="contact">
+   <div class="lzz-footer-brand">
+    <a href="/" aria-label="LZZ Precision home"><img src="/media/lzz-logo.png" alt="LZZ" width="124" height="69" loading="lazy" /></a>
+    <p>Custom CNC machining<br />in Hangzhou, China.</p>
+    <nav class="lzz-footer-social" aria-label="Follow LZZ Precision">
+     <a href="https://www.facebook.com/lzzcncmachining/" target="_blank" rel="noopener noreferrer" aria-label="LZZ Precision on Facebook (opens in a new tab)"><Facebook size={20} aria-hidden="true"/></a>
+     <a href="https://www.linkedin.com/company/lzz-cnc-machining/" target="_blank" rel="noopener noreferrer" aria-label="LZZ Precision on LinkedIn (opens in a new tab)"><Linkedin size={20} aria-hidden="true"/></a>
+    </nav>
+   </div>
+   <nav class="lzz-footer-nav" aria-label="Footer navigation">
+    {groups.map(group => <section class="lzz-footer-group"><h2><a href={group.href}>{group.title}</a></h2><ul>{group.links.map(([label,href]) => <li><a href={href}>{label}</a></li>)}</ul></section>)}
+   </nav>
+   <div class="lzz-footer-contacts">
+    <div class="lzz-footer-contact"><a href="mailto:roger@lzz-cnc.com" aria-label="Email roger@lzz-cnc.com"><Mail size={20} strokeWidth={1.7} aria-hidden="true"/><span>roger@lzz-cnc.com</span></a></div>
+    <div class="lzz-footer-contact"><a href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +86 138 5810 2479 (opens in a new tab)"><Phone size={20} strokeWidth={1.7} aria-hidden="true"/><span>+86 138 5810 2479</span></a></div>
+   </div>
+  </div>
+  <div class="lzz-footer-base">
+   <address class="lzz-footer-address"><MapPin size={22} aria-hidden="true" /><div>No. 4 Fengcheng Road, Pingyao, Yuhang District, Hangzhou, Zhejiang, China<br /><span>Hangzhou, China · UTC+8</span></div></address>
+   <div class="lzz-footer-legal"><span>© {new Date().getFullYear()} Hangzhou Lizhizao Precision Machinery Co., Ltd.</span><a href="/privacy/">Privacy and site information</a></div>
+  </div>
+ </div>
+</footer>
+

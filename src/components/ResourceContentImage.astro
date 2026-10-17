@@ -1,0 +1,10 @@
+---
+import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
+import type {ContentImage} from '../data/resourceImagePlan';
+interface Props {image:ContentImage;class?:string}
+const {image,class:className=''}=Astro.props;
+const prefix=image.stem||'/media/image-led-20261015/'+image.concept,largest=image.stem?'1536':'1600';
+---
+<div class:list={['rs-content-image',className]}>
+ {image.evidence?<AboutRedesignPhoto id={image.evidence} caption={image.caption}/>:<AboutRedesignPhoto src={prefix+'-1200.webp'} srcset={`${prefix}-480.webp 480w, ${prefix}-800.webp 800w, ${prefix}-1200.webp 1200w, ${prefix}-${largest}.webp 1536w`} width={1200} height={800} alt={image.caption} caption={image.caption} origin="ai-illustration"/>}
+</div>

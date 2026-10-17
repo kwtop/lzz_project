@@ -1,0 +1,39 @@
+/* Shared navigation overrides follow the existing visual system. */
+body.brand-site .header-inner{position:relative}
+body.brand-site #main-nav{display:flex;align-items:center;gap:20px;margin-left:auto}
+body.brand-site #main-nav>.nav-group{position:relative}
+body.brand-site #main-nav> a,body.brand-site #main-nav summary{font-size:12px;font-weight:600;letter-spacing:.25px;text-transform:uppercase;min-height:44px;display:flex;align-items:center;cursor:pointer;padding:10px 0;white-space:nowrap}
+#main-nav summary{list-style:none}#main-nav summary::-webkit-details-marker{display:none}
+#main-nav summary::after{content:'';width:6px;height:6px;margin:-3px 2px 0 9px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);transition:transform .18s cubic-bezier(.2,.7,.2,1)}
+#main-nav details[open]>summary::after{transform:translateY(3px) rotate(225deg)}
+#main-nav [data-active]>summary,#main-nav details[open]>summary{text-decoration:underline;text-underline-offset:7px}
+body.brand-site #main-nav .nav-panel{position:absolute;top:calc(100% + 15px);left:0;right:auto;background:#fff;color:var(--ink);padding:24px 30px;border:1px solid var(--border);box-shadow:0 12px 32px #00000014;border-radius:4px;max-height:calc(100dvh - 100px);overflow:auto}
+body.brand-site #main-nav .nav-panel a{display:block;font-size:15px;font-weight:550;letter-spacing:0;text-transform:none;padding:10px 8px;min-height:44px;white-space:normal;text-decoration:none;color:var(--ink);border-radius:3px;transition:background-color 140ms ease,color 140ms ease}
+body.brand-site #main-nav .nav-panel a:hover,body.brand-site #main-nav .nav-panel a[aria-current]{color:var(--red);background:var(--surface);text-decoration:none}
+#main-nav .nav-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:20px}
+body.brand-site #main-nav .nav-panel-capabilities{width:min(650px,calc(100vw - 60px))}
+body.brand-site #main-nav .nav-group-label{font-size:12px;font-weight:650;color:var(--muted);margin:0 8px 10px;text-transform:uppercase;letter-spacing:.5px}
+body.brand-site #main-nav .nav-overview{border-bottom:1px solid var(--border);font-weight:600}
+body.brand-site #main-nav .nav-support{margin-top:18px;border-top:1px solid var(--border)}
+body.brand-site #main-nav .nav-panel-small{width:310px}
+body.brand-site #main-nav .nav-group-resources .nav-panel{left:auto;right:0}
+#main-nav :is(a,summary):focus-visible{outline:2px solid var(--red);outline-offset:4px;border-radius:3px}
+@media(max-width:1100px) and (min-width:961px){body.brand-site #main-nav{gap:14px}body.brand-site .header-inner{gap:18px}}
+@media(max-width:960px){
+ body.brand-site #main-nav{display:none;position:absolute;top:100%;left:calc(-1 * var(--gutter));right:calc(-1 * var(--gutter));background:#fff;color:var(--ink);margin:0;padding:16px var(--gutter) 24px;max-height:calc(100dvh - 76px);overflow:auto;border-bottom:1px solid var(--border);box-shadow:0 12px 32px #00000014}
+ body.brand-site .site-header.menu-open #main-nav{display:block}
+ body.brand-site #main-nav>a,body.brand-site #main-nav summary{font-size:15px;padding:14px 0;min-height:50px;justify-content:space-between;color:var(--ink)}
+ body.brand-site #main-nav .nav-panel,body.brand-site #main-nav .nav-panel-small,body.brand-site #main-nav .nav-panel-capabilities{position:static;width:auto;padding:6px 0 16px 12px;border:0;border-left:2px solid var(--border);border-radius:0;box-shadow:none;max-height:none;overflow:visible}
+ body.brand-site #main-nav .nav-group-resources .nav-panel{right:auto}
+ #main-nav .nav-columns{grid-template-columns:1fr;gap:18px;margin-top:14px}
+ body.brand-site #main-nav .nav-panel a{font-size:15px}
+}
+/* Keep click-open menus predictable; position each panel beneath its trigger. */
+body.brand-site #main-nav .nav-panel{transform-origin:top left;overscroll-behavior:contain}
+body.brand-site #main-nav .nav-group-resources .nav-panel{transform-origin:top right}
+body.brand-site #main-nav details[open]>.nav-panel{animation:nav-panel-arrive 160ms ease-out}
+body.brand-site #main-nav .nav-panel a{line-height:1.5;padding:11px 12px}
+body.brand-site #main-nav summary::after{flex-shrink:0}
+@keyframes nav-panel-arrive{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:960px){body.brand-site #main-nav details[open]>.nav-panel{animation:none}}
+@media(prefers-reduced-motion:reduce){body.brand-site #main-nav details[open]>.nav-panel{animation:none}#main-nav summary::after{transition:none}}

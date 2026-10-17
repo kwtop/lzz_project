@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AboutNewsRecord from './AboutNewsRecord.astro';
+import '../styles/content-image-led.css';
+import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import type {Resource} from '../data/resources';
+import {companyNews} from '../data/companyNews';
+import {approvedNewsPlans,approvedNewsPhoto} from '../data/aboutApproved';
+import '../styles/about-approved.css';
+import '../styles/about-constitution.css';
+interface Props {article:Resource}
+const {article}=Astro.props,plan=approvedNewsPlans[article.slug],cover=approvedNewsPhoto(plan.cover);
+const polishedStories=['november-2025-hangzhou-lizhizao-group-activity','china-africa-west-lake-summit-2025','australian-customer-workshop-visit-january-2025','may-2025-lzz-team-outing','lzz-team-outing-2024'];
+const readingRefined=['australian-customer-workshop-visit-january-2025','china-africa-west-lake-summit-2025','lzz-team-outing-2024','may-2025-lzz-team-outing','november-2025-hangzhou-lizhizao-group-activity'].includes(article.slug);
+const quietRecords=polishedStories.includes(article.slug);
+const omitChapterText=['november-2025-hangzhou-lizhizao-group-activity','may-2025-lzz-team-outing','lzz-team-outing-2024'].includes(article.slug);
+const related=companyNews.filter(item=>item.slug!==article.slug).sort((a,b)=>Number(approvedNewsPlans[b.slug].category===plan.category)-Number(approvedNewsPlans[a.slug].category===plan.category)).slice(0,2);
+const context=article.slug.startsWith('australian-')?{href:'/factory/',label:'See the workshop and quality planning'}:article.slug.startsWith('china-africa-')?{href:'/capabilities/',label:'Explore the machining scope'}:{href:'/about/company-profile/',label:'Read the company profile'};
+---
+<Layout title={article.title} description={article.description} article articleImage={cover.src} cta={false}>
+ <article class:list={['ar-page ar-story rd-wrap rd-page',{'ar-story--polished':readingRefined}]}><DisclosureAnchors/>
+  <div data-core-section={readingRefined?'Event introduction':undefined} class:list={['ar-story-hero',{'ar-story-hero--portrait':plan.hero==='portrait'}]}><header class="ar-story-head"><div class="ar-news-meta"><time datetime={article.eventDate}>{article.eventDateLabel}</time><span>{plan.category}</span></div><h1>{article.title}</h1><p>{plan.intro}</p></header><AboutRedesignPhoto src={cover.src} srcset={cover.srcset} width={cover.width} height={cover.height} alt={cover.caption} caption={cover.caption} eager sizes="(max-width:767px) calc(100vw - 44px), 980px"/></div>
+  {plan.sections.map((section,index)=><section data-core-section={readingRefined?section.title:undefined} class="rd-section ar-photo-chapter" id={index===0?'news-photographs':'news-moments'}><header><span id={'section-'+(index+1)}/><h2>{article.slug==='china-africa-west-lake-summit-2025'&&index===1?'The conference hall and entrance':section.title}</h2>{!(omitChapterText||(['australian-customer-workshop-visit-january-2025','china-africa-west-lake-summit-2025'].includes(article.slug)&&index===1))&&<p>{section.text}</p>}</header><div class:list={['ar-chapter-photos','ar-chapter-photos--'+section.layout]}>{section.photos.map(id=>{const image=approvedNewsPhoto(id);return <AboutRedesignPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption} caption={image.caption}/>;})}</div></section>)}
+  <section data-core-section={readingRefined?'Related company records':undefined} class="rd-section ar-news-context"><h2 id="al-more-news">Related company records</h2><div class="ar-news-archive-grid">{related.map(item=><AboutNewsRecord item={item} quiet={quietRecords} summary={!readingRefined} showCategory={!readingRefined}/>)}</div><nav class="ar-links" aria-label="Continue reading"><a href="/about/company-news/">Back to company news</a><a href={context.href}>{context.label}</a><a href="/about/contact/">Contact LZZ</a></nav></section>
+ </article>
+</Layout>

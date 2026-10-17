@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import RfqPanel from './RfqPanel.astro';
+import {siteSections} from '../data/siteSections';
+interface Props {sectionKey:string;legacyHashes?:Record<string,string>}
+const {sectionKey,legacyHashes={}}=Astro.props;
+const section=siteSections.find(item=>item.key===sectionKey)!;
+---
+<Layout title={section.title} description={section.description} cta={false}>
+ <article class="section-hub">
+  <header class="section-hub-intro"><div><h1>{section.title}</h1><p>{section.description}</p></div><figure><EvidenceImage id={section.image} loading="eager" sizes="(max-width:760px) calc(100vw - 40px), 520px"/><figcaption>{sectionKey==='about'||sectionKey==='factory'?'LZZ machining workshop · Hangzhou':'Original workshop part photograph'}</figcaption></figure></header>
+  <section class="section-hub-pages" aria-labelledby="section-pages-title"><header><h2 id="section-pages-title">Explore {section.title}</h2><p>{section.children.length} pages in this section</p></header><div>{section.children.map(page=><article><h3><a href={page.href}>{page.title}</a></h3><p>{page.description}</p></article>)}</div></section>
+  <RfqPanel title="Have a part to discuss?" contained/>
+ </article>
+</Layout>
+{Object.keys(legacyHashes).length>0&&<script is:inline define:vars={{legacyHashes}}>const moveLegacyHash=()=>{const target=legacyHashes[location.hash.slice(1)];if(target)location.replace(target);};moveLegacyHash();window.addEventListener('hashchange',moveLegacyHash);</script>}

@@ -1,0 +1,26 @@
+---
+import type {CapabilityPageData} from '../data/capabilityDesign';
+import CapabilityPhoto from './CapabilityPhoto.astro';
+import CapabilityRequirements from './CapabilityRequirements.astro';
+import CapabilityArtwork from './CapabilityArtwork.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+import {capabilityArtwork} from '../data/capabilityDesign';
+interface Props {page:CapabilityPageData;embedded?:boolean}
+const {page,embedded=false}=Astro.props;
+const {plan,slug,turning,sample}=page;
+const photoSteps=plan.steps.filter(s=>s.photo);
+const includeRequirements=!page.reading&&(slug==='casting-machining'||slug==='aluminum-cnc-parts');
+const Heading=embedded?'h3':'h2';
+---
+<div class:list={['cd-workflow','cd-workflow--'+slug]} id="machining-studies">
+ <header class="cd-heading"><Heading id={turning?'turning-practice-title':'service-process-title'}>{plan.workflowTitle}</Heading><p>{plan.workflowIntro}</p></header>
+ {page.reading&&slug==='5-axis-cnc-machining'&&<div class="cd-route-comparison"><article><h3>Indexed positioning</h3><p>Hold the part at a selected orientation while cutting a feature. Review access to angled faces and the relationships between them.</p></article><article><h3>Simultaneous motion</h3><p>Change orientation during a continuous tool path. Review the contour, tool reach and clearance around the fixture.</p></article></div>}
+ {page.reading&&slug==='copper-brass-cnc-parts'&&<div class="cd-function-review"><h3>Match the alloy to the function</h3><dl class="cd-function-list"><div><dt>Electrical contact</dt><dd>Define contact area, conductivity criteria, plating and material restrictions.</dd></div><div><dt>Heat transfer</dt><dd>State operating conditions and the dimensions of mating interfaces.</dd></div><div><dt>Fluid sealing</dt><dd>Specify threads, seal faces and the method and limits for any pressure test.</dd></div></dl><p class="cd-note">Functional qualification and the availability of required declarations are confirmed separately for the application.</p></div>}
+ {page.reading&&slug==='aluminum-cnc-parts'&&<div class="cd-finish-explainer"><CapabilityArtwork art={capabilityArtwork.finish}/><div><h3>Protect the surfaces that control fit</h3><p>Surface treatment can affect how parts fit together. Mark the areas to protect from treatment and the dimensions to check afterward.</p><p>Define the required appearance and acceptance criteria, including masked fits and cosmetic faces.</p></div></div>}
+ {photoSteps.length>=2&&slug!=='aluminum-cnc-parts'&&slug!=='plastic-machined-parts'&&slug!=='copper-brass-cnc-parts'?<ol class:list={['cd-photo-story',{'cd-photo-story--panels':!page.reading&&(slug==='5-axis-cnc-machining'||turning)}]}>{plan.steps.map((step,i)=><li>{step.photo&&<CapabilityPhoto id={step.photo} caption={step.caption||step.title}/>}<div><span class="cd-step-index" aria-hidden="true">0{i+1}</span><h3>{step.title}</h3><p>{step.text}</p></div></li>)}</ol>:<div class:list={['cd-step-and-evidence',{'cd-step-and-evidence--archive':photoSteps.length===1}]}><ol class="cd-decision-steps">{plan.steps.map((step,i)=><li><span class="cd-step-index" aria-hidden="true">0{i+1}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>{photoSteps.length>0&&<div class:list={['cd-source-photos','cd-source-photos--'+photoSteps.length]}>{photoSteps.map(step=><CapabilityPhoto id={step.photo!} caption={step.caption||step.title}/>)}</div>}</div>}
+ {page.reading&&slug==='plastic-machined-parts'&&<div class="cd-video"><WorkshopVideo id="peek-parts" title="PEEK machined parts: a closer look" description="Original clip of PEEK components with perimeter holes and parallel slots." headingLevel="h3" compact/></div>}
+ {includeRequirements&&<div class="cd-embedded-requirements"><CapabilityRequirements page={page} headingLevel="h3" showGeometry={slug!=='aluminum-cnc-parts'}/></div>}
+ {sample&&<p class="cd-note">Agree model and drawing file formats, inspection records and approval responsibility in the quotation. Reconstruction and drawing approval are scheduled separately from machining production.</p>}
+ {slug==='casting-machining'&&<aside class="cd-sample-route" id="sample-to-part"><h3>Starting from an existing housing?</h3><p>Agree reconstruction, hidden-feature measurements and drawing approval before machining.</p><a class="cd-link" href="/capabilities/starting-with-a-sample/">Sample-to-part process</a></aside>}
+ {page.cases.length>0&&<nav class="cd-actions cd-study-links" aria-label="Related machining examples">{page.cases.map(c=><a class="cd-link" href={'/machined-parts/machining-examples/'+c.slug+'/'}>{c.title}</a>)}</nav>}
+</div>

@@ -1,0 +1,645 @@
+{
+  "workshop-wide": {
+    "id": "workshop-wide",
+    "src": "/media/evidence/workshop-wide-1600.webp",
+    "srcset": "/media/evidence/workshop-wide-480.webp 480w, /media/evidence/workshop-wide-800.webp 800w, /media/evidence/workshop-wide-1200.webp 1200w, /media/evidence/workshop-wide-1600.webp 1600w",
+    "width": 4088,
+    "height": 2832,
+    "caption": "LZZ machining workshop; original site photograph.",
+    "alt": "Rows of enclosed CNC machines inside the LZZ workshop.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/10，Producing Department-生产车间/1 (7).jpg",
+    "sha256": "1f83184bb7af2b952b65fffc7cf8b01604d0bc392645fc7955068a79b15b4d48",
+    "kind": "original-photo",
+    "uses": [
+      "home",
+      "factory"
+    ],
+    "proofScope": "Workshop interior and enclosed CNC machine row; not a current machine-count audit."
+  },
+  "cmm-room": {
+    "id": "cmm-room",
+    "src": "/media/evidence/cmm-room-1600.webp",
+    "srcset": "/media/evidence/cmm-room-480.webp 480w, /media/evidence/cmm-room-800.webp 800w, /media/evidence/cmm-room-1200.webp 1200w, /media/evidence/cmm-room-1600.webp 1600w",
+    "width": 3072,
+    "height": 4096,
+    "caption": "Coordinate measuring machine in LZZ source workshop photographs; historical site photograph.",
+    "alt": "Coordinate measuring machine in the LZZ inspection area.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/10，Producing Department-生产车间/1 (84).jpg",
+    "sha256": "80ab80074cbc879fb109750963d4dc7f43291c8edb758e37710944a98123a5b6",
+    "kind": "original-photo",
+    "uses": [
+      "quality",
+      "factory"
+    ],
+    "proofScope": "Presence of a coordinate measuring machine; not its calibration status or measurement result."
+  },
+  "cmm-detail": {
+    "id": "cmm-detail",
+    "src": "/media/evidence/cmm-detail-1600.webp",
+    "srcset": "/media/evidence/cmm-detail-480.webp 480w, /media/evidence/cmm-detail-800.webp 800w, /media/evidence/cmm-detail-1200.webp 1200w, /media/evidence/cmm-detail-1600.webp 1600w",
+    "width": 3072,
+    "height": 4096,
+    "caption": "Coordinate measuring machine detail; historical site photograph.",
+    "alt": "Closer view of a coordinate measuring machine.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/10，Producing Department-生产车间/1 (85).jpg",
+    "sha256": "10a5fd5a6adb5c888a83a3bcfc28a1a8b533083fa3c3923869dd59841a215fa7",
+    "kind": "original-photo",
+    "uses": [
+      "quality"
+    ],
+    "proofScope": "Visible coordinate measuring machine detail; not a measurement result."
+  },
+  "workshop-operators-2025": {
+    "id": "workshop-operators-2025",
+    "src": "/media/evidence/workshop-operators-2025-1600.webp",
+    "srcset": "/media/evidence/workshop-operators-2025-480.webp 480w, /media/evidence/workshop-operators-2025-800.webp 800w, /media/evidence/workshop-operators-2025-1200.webp 1200w, /media/evidence/workshop-operators-2025-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Workshop-floor photograph from LZZ production-department archive; source file dated November 2025.",
+    "alt": "Two workers among CNC machines on the LZZ workshop floor.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/10，Producing Department-生产车间/微信图片_20251104221718_145_246.jpg",
+    "sha256": "c5b074f9b16bcdef1dfc74a845cd63071e92550ef4900592a956473e35826b05",
+    "kind": "original-photo",
+    "uses": [
+      "factory"
+    ],
+    "proofScope": "Workers and machines visible in one historical workshop photograph; not a current staffing or machine-count audit."
+  },
+  "trade-event": {
+    "id": "trade-event",
+    "src": "/media/evidence/trade-event-1600.webp",
+    "srcset": "/media/evidence/trade-event-480.webp 480w, /media/evidence/trade-event-800.webp 800w, /media/evidence/trade-event-1200.webp 1200w, /media/evidence/trade-event-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "LZZ team member at a Hangzhou trade event; source folder dated November 2025.",
+    "alt": "Attendee photographed in front of the West Lake Summit event backdrop.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/11，参加活动-20251119中非经贸西湖大会/019c8a44607be10f8548080bb1498a1f.jpg",
+    "sha256": "425320d4ef403004d3adc309dfcf25f32f1bff03bda08ea7d194942d5211f3db",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "Attendance at the named event; not endorsement by event organizers or other attendees."
+  },
+  "team-2024-outdoor": {
+    "id": "team-2024-outdoor",
+    "src": "/media/evidence/team-2024-outdoor-1600.webp",
+    "srcset": "/media/evidence/team-2024-outdoor-480.webp 480w, /media/evidence/team-2024-outdoor-800.webp 800w, /media/evidence/team-2024-outdoor-1200.webp 1200w, /media/evidence/team-2024-outdoor-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "Team activity photograph from LZZ source archive; source file dated November 2024.",
+    "alt": "LZZ colleagues gathered outdoors beneath a company banner during a November 2024 team activity.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/14,2024年公司团建/IMG_20241117_100326.jpg",
+    "sha256": "f400ee50f44c041d2d30b16e876b4fb990d5d1db9211ac11b9701481417a8f7b",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "team-activity-2024": {
+    "id": "team-activity-2024",
+    "src": "/media/evidence/team-activity-2024-1600.webp",
+    "srcset": "/media/evidence/team-activity-2024-480.webp 480w, /media/evidence/team-activity-2024-800.webp 800w, /media/evidence/team-activity-2024-1200.webp 1200w, /media/evidence/team-activity-2024-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "LZZ team activity photograph; source file dated November 17, 2024.",
+    "alt": "LZZ employees gathered beneath a company banner during a team activity in November 2024.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/14,2024年公司团建/IMG_20241117_100535.jpg",
+    "sha256": "a7d671e8f4c5d2fb2196297a336a7500c8baa256010dec278708c2fcf82095af",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A company team activity; not customer endorsement, production evidence or project outcome."
+  },
+  "team-2024-shared-meal": {
+    "id": "team-2024-shared-meal",
+    "src": "/media/evidence/team-2024-shared-meal-1600.webp",
+    "srcset": "/media/evidence/team-2024-shared-meal-480.webp 480w, /media/evidence/team-2024-shared-meal-800.webp 800w, /media/evidence/team-2024-shared-meal-1200.webp 1200w, /media/evidence/team-2024-shared-meal-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "Team gathering photograph from LZZ source archive; source file dated November 2024.",
+    "alt": "LZZ colleagues sharing a meal during a November 2024 company gathering.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/14,2024年公司团建/IMG_20241117_115048.jpg",
+    "sha256": "c5c8b265b8c774e8cb24051aee6cfc337ff97415ae204224fd63c6ab8edeb57c",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "team-2024-riverside-group": {
+    "id": "team-2024-riverside-group",
+    "src": "/media/evidence/team-2024-riverside-group-1600.webp",
+    "srcset": "/media/evidence/team-2024-riverside-group-480.webp 480w, /media/evidence/team-2024-riverside-group-800.webp 800w, /media/evidence/team-2024-riverside-group-1200.webp 1200w, /media/evidence/team-2024-riverside-group-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "Team activity photograph from LZZ source archive; source file dated November 2024.",
+    "alt": "LZZ colleagues together on outdoor steps during a November 2024 team activity.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/14,2024年公司团建/IMG_20241117_141027.jpg",
+    "sha256": "360010347a7320fa4e9ea1dd81bdea4bbbfb556dd6be3a11258ca1d5b42498c0",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "team-gathering": {
+    "id": "team-gathering",
+    "src": "/media/evidence/team-gathering-1600.webp",
+    "srcset": "/media/evidence/team-gathering-480.webp 480w, /media/evidence/team-gathering-800.webp 800w, /media/evidence/team-gathering-1200.webp 1200w, /media/evidence/team-gathering-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "LZZ team gathering; source folder dated May 2025.",
+    "alt": "LZZ team members seated together during an outdoor gathering.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/15,2025-5月公司团建/IMG_20250512_175348.jpg",
+    "sha256": "a2132ce97c294b42980a88564e54a0caf1628c562f4e6ce7382c5a56ce4810bc",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "People together at a company activity; not evidence of machining capacity or project outcomes."
+  },
+  "team-2025-evening-group": {
+    "id": "team-2025-evening-group",
+    "src": "/media/evidence/team-2025-evening-group-1600.webp",
+    "srcset": "/media/evidence/team-2025-evening-group-480.webp 480w, /media/evidence/team-2025-evening-group-800.webp 800w, /media/evidence/team-2025-evening-group-1200.webp 1200w, /media/evidence/team-2025-evening-group-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "Team gathering photograph from LZZ source archive; source file dated May 2025.",
+    "alt": "LZZ colleagues posing together outside during a May 2025 company gathering.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/15,2025-5月公司团建/IMG_20250512_194928.jpg",
+    "sha256": "e91b34d8789669c12e54a9603e9eff21de6c99a3abb1e6d80be314717f4d7f96",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "team-2025-team-outing": {
+    "id": "team-2025-team-outing",
+    "src": "/media/evidence/team-2025-team-outing-1600.webp",
+    "srcset": "/media/evidence/team-2025-team-outing-480.webp 480w, /media/evidence/team-2025-team-outing-800.webp 800w, /media/evidence/team-2025-team-outing-1200.webp 1200w, /media/evidence/team-2025-team-outing-1600.webp 1600w",
+    "width": 4096,
+    "height": 3072,
+    "caption": "Team gathering photograph from LZZ source archive; source file dated May 2025.",
+    "alt": "LZZ colleagues gathered together during a May 2025 company outing.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/15,2025-5月公司团建/IMG_20250512_195946.jpg",
+    "sha256": "f5aeb5a8d4364a2d83f50bb0fac6d93f44a9190edd8efc14050411b3dee9fb03",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "shipment-2022-order-packing": {
+    "id": "shipment-2022-order-packing",
+    "src": "/media/evidence/shipment-2022-order-packing-1600.webp",
+    "srcset": "/media/evidence/shipment-2022-order-packing-480.webp 480w, /media/evidence/shipment-2022-order-packing-800.webp 800w, /media/evidence/shipment-2022-order-packing-1200.webp 1200w, /media/evidence/shipment-2022-order-packing-1600.webp 1600w",
+    "width": 3072,
+    "height": 4096,
+    "caption": "Protected parts prepared for packing in a historical LZZ delivery photograph; source file dated November 2022.",
+    "alt": "Machined parts protected and arranged in packing materials before dispatch.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/17，发货资料/IMG_20221120_161920.jpg",
+    "sha256": "c3a7681a5ccef523dc7de7b054614e33f8151ffd2af72f6296955e5631609daf",
+    "kind": "original-photo",
+    "uses": [
+      "how-we-work",
+      "factory"
+    ],
+    "proofScope": "Historical order packing preparation; source materials do not identify destination, carrier or trade terms."
+  },
+  "shipping-example": {
+    "id": "shipping-example",
+    "src": "/media/evidence/shipping-example-1600.webp",
+    "srcset": "/media/evidence/shipping-example-480.webp 480w, /media/evidence/shipping-example-800.webp 800w, /media/evidence/shipping-example-1200.webp 1200w, /media/evidence/shipping-example-1600.webp 1600w",
+    "width": 2400,
+    "height": 1800,
+    "caption": "Historical shipment preparation photograph from LZZ source materials; packing varies by order.",
+    "alt": "Packed machining order photographed before dispatch.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/17，发货资料/IMG_20221121_091701.jpg",
+    "sha256": "e1ffddf00a79eac6904a3b4ac1aa0a5cc8ea84d247db44215d3d3aff78b66434",
+    "kind": "original-photo",
+    "uses": [
+      "how-we-work",
+      "factory"
+    ],
+    "proofScope": "Historical protected packing and shipment preparation; not a standard packing specification."
+  },
+  "shipment-2022-prepared-load": {
+    "id": "shipment-2022-prepared-load",
+    "src": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+    "srcset": "/media/evidence/shipment-2022-prepared-load-480.webp 480w, /media/evidence/shipment-2022-prepared-load-800.webp 800w, /media/evidence/shipment-2022-prepared-load-1200.webp 1200w, /media/evidence/shipment-2022-prepared-load-1600.webp 1600w",
+    "width": 3072,
+    "height": 4096,
+    "caption": "Prepared shipment photographed in LZZ historical delivery archive; source file dated November 2022.",
+    "alt": "Protected packed components arranged in a loading area before dispatch.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/17，发货资料/IMG_20221121_091824.jpg",
+    "sha256": "3fa0ce8fcd11558c7ac759eafb403a894607754cc2025ae41e9810eba4006162",
+    "kind": "original-photo",
+    "uses": [
+      "how-we-work",
+      "factory"
+    ],
+    "proofScope": "Historical shipment preparation; source materials do not identify destination, carrier or trade terms."
+  },
+  "visitor-machining-tour": {
+    "id": "visitor-machining-tour",
+    "src": "/media/evidence/visitor-machining-tour-1200.webp",
+    "srcset": "/media/evidence/visitor-machining-tour-480.webp 480w, /media/evidence/visitor-machining-tour-800.webp 800w, /media/evidence/visitor-machining-tour-1200.webp 1200w",
+    "width": 1279,
+    "height": 1706,
+    "caption": "Workshop visit photographed in LZZ source materials; source folder dated January 2025.",
+    "alt": "Visitors viewing CNC machinery during a workshop visit.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20250107澳大利亚客户上门参观/ded911a55e01131860430bd949957500.jpg",
+    "sha256": "93ee8ee51e56e59bcc13a01ae2840ee29bd3980c50345bac0fd94aba53b95d7b",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A workshop visit and visible machinery; not evidence of visitor identity, contract, endorsement or project outcome."
+  },
+  "workshop-visit": {
+    "id": "workshop-visit",
+    "src": "/media/evidence/workshop-visit-1200.webp",
+    "srcset": "/media/evidence/workshop-visit-480.webp 480w, /media/evidence/workshop-visit-800.webp 800w, /media/evidence/workshop-visit-1200.webp 1200w",
+    "width": 1279,
+    "height": 1706,
+    "caption": "Workshop visit photographed in LZZ source materials; source folder dated January 2025.",
+    "alt": "Two people photographed in the LZZ machining workshop.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20250107澳大利亚客户上门参观/df0670b458eeaf1276569d1e2d4d51f4.jpg",
+    "sha256": "4d1cd3cd87265c2a452c51264851dd2e474a25a43b771b9fb551d6d7c548118c",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A visit photographed in the workshop; not evidence of the visitor’s identity, contract or project outcome."
+  },
+  "visitor-part-discussion": {
+    "id": "visitor-part-discussion",
+    "src": "/media/evidence/visitor-part-discussion-1600.webp",
+    "srcset": "/media/evidence/visitor-part-discussion-480.webp 480w, /media/evidence/visitor-part-discussion-800.webp 800w, /media/evidence/visitor-part-discussion-1200.webp 1200w, /media/evidence/visitor-part-discussion-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Part discussion photographed during a workshop visit; source folder dated January 2025.",
+    "alt": "Visitors and LZZ staff reviewing a machined part at a table.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20250107澳大利亚客户上门参观/ede21f91855931fcf1764bd51accbbc1.jpg",
+    "sha256": "667615cc541fdda632a38619143b6e335fe1d070eb627121319234f28cf65037",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A part discussion during a workshop visit; not evidence of visitor identity, approval or customer outcome."
+  },
+  "display-housing-panel": {
+    "id": "display-housing-panel",
+    "src": "/media/evidence/display-housing-panel-1600.webp",
+    "srcset": "/media/evidence/display-housing-panel-480.webp 480w, /media/evidence/display-housing-panel-800.webp 800w, /media/evidence/display-housing-panel-1200.webp 1200w, /media/evidence/display-housing-panel-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Machined display housing panel in LZZ source materials; source folder dated January 2025.",
+    "alt": "Complete machined aluminum display housing panel with visible contours and slots.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20250108-29寸显示屏外壳/4d2ffc8e44b552fe7c8fd6754455aa4d.jpg",
+    "sha256": "99737e78c034a014b68fd03ce27bfb2d424f2410b6d48b915e87659198820f61",
+    "kind": "original-photo",
+    "uses": [
+      "capability-aluminum"
+    ],
+    "proofScope": "Visible large display housing panel; source folder identifies the project as a 29-inch display enclosure, not a drawing or dimensional measurement."
+  },
+  "display-housing-machining": {
+    "id": "display-housing-machining",
+    "src": "/media/evidence/display-housing-machining-1600.webp",
+    "srcset": "/media/evidence/display-housing-machining-480.webp 480w, /media/evidence/display-housing-machining-800.webp 800w, /media/evidence/display-housing-machining-1200.webp 1200w, /media/evidence/display-housing-machining-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Display housing panel at the CNC machine; source folder dated January 2025.",
+    "alt": "Large aluminum display housing panel under a CNC spindle during machining.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20250108-29寸显示屏外壳/8f3aa98a32a0260275a218aa1b001183.jpg",
+    "sha256": "707eac81c78ec9eb8d5b0566476ffab658214e0a699cd3b1dad312ebf04b43af",
+    "kind": "original-photo",
+    "uses": [
+      "capability-aluminum"
+    ],
+    "proofScope": "Visible CNC machining of a display housing panel; not an inspection result."
+  },
+  "team-2025-november-meal": {
+    "id": "team-2025-november-meal",
+    "src": "/media/evidence/team-2025-november-meal-1200.webp",
+    "srcset": "/media/evidence/team-2025-november-meal-480.webp 480w, /media/evidence/team-2025-november-meal-800.webp 800w, /media/evidence/team-2025-november-meal-1200.webp 1200w",
+    "width": 1279,
+    "height": 1706,
+    "caption": "LZZ team activity photograph; source folder dated November 2025.",
+    "alt": "Adult colleagues sharing a meal during a company gathering.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251130-公司团建/1e9b9e261d84f13e9aff7f12e2d2b4aa.jpg",
+    "sha256": "1e9748d9d2924e2acfbe3e03759179e8eac7209a8f2f316900ac65e8764b2e81",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "team-2025-november-group": {
+    "id": "team-2025-november-group",
+    "src": "/media/evidence/team-2025-november-group-1600.webp",
+    "srcset": "/media/evidence/team-2025-november-group-480.webp 480w, /media/evidence/team-2025-november-group-800.webp 800w, /media/evidence/team-2025-november-group-1200.webp 1200w, /media/evidence/team-2025-november-group-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "LZZ team activity photograph; source folder dated November 2025.",
+    "alt": "Adult team members gathered outdoors beneath a company activity banner.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251130-公司团建/2ca7107bf423f50a60bb1e6ae1eb6937.jpg",
+    "sha256": "5b84eeb5d22995b97b4e252d73794fa9dedbeea2fabe5d253814540ad20ba6ec",
+    "kind": "original-photo",
+    "uses": [
+      "about"
+    ],
+    "proofScope": "A documented company activity; not production evidence, customer endorsement or project outcome."
+  },
+  "workshop-floor": {
+    "id": "workshop-floor",
+    "src": "/media/evidence/workshop-floor-1200.webp",
+    "srcset": "/media/evidence/workshop-floor-480.webp 480w, /media/evidence/workshop-floor-800.webp 800w, /media/evidence/workshop-floor-1200.webp 1200w",
+    "width": 1279,
+    "height": 1706,
+    "caption": "LZZ workshop floor; source folder dated December 2025.",
+    "alt": "Machine tools and work area in the LZZ workshop.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251201/车间照片/4787147060a71822ebce6378539086fe.jpg",
+    "sha256": "ddcf88b59eebbcff30021a7ee7a3e8064ca9ca67167a1d35b2c340e2637a1f08",
+    "kind": "original-photo",
+    "uses": [
+      "factory"
+    ],
+    "proofScope": "Workshop production area at source time."
+  },
+  "workshop-aisle": {
+    "id": "workshop-aisle",
+    "src": "/media/evidence/workshop-aisle-1200.webp",
+    "srcset": "/media/evidence/workshop-aisle-480.webp 480w, /media/evidence/workshop-aisle-800.webp 800w, /media/evidence/workshop-aisle-1200.webp 1200w",
+    "width": 1279,
+    "height": 1706,
+    "caption": "LZZ production floor; source folder dated December 2025.",
+    "alt": "Machining centers along an aisle in the LZZ workshop.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251201/车间照片/a2e689129271aafee43bc86bb5cb0933.jpg",
+    "sha256": "2bf0ec7be49a36fd20918a2402e1afe2bc89730292e4a2378dab0c45d2fb9f9b",
+    "kind": "original-photo",
+    "uses": [
+      "factory",
+      "about"
+    ],
+    "proofScope": "Workshop aisle and machine placement at source time."
+  },
+  "aluminum-housings": {
+    "id": "aluminum-housings",
+    "src": "/media/evidence/aluminum-housings-1600.webp",
+    "srcset": "/media/evidence/aluminum-housings-480.webp 480w, /media/evidence/aluminum-housings-800.webp 800w, /media/evidence/aluminum-housings-1200.webp 1200w, /media/evidence/aluminum-housings-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Machined aluminum housings in LZZ source materials; source folder dated December 2025.",
+    "alt": "A group of machined aluminum housings showing pockets, bores and fastening features.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251201/铝制零件/b9a2df3748dfeb55c9360a118a465f5d.jpg",
+    "sha256": "1099033337f851e9f4061807a9271da72b162d1a1c58a27475e349928c1a72b7",
+    "kind": "original-photo",
+    "uses": [
+      "capability-aluminum",
+      "home-materials",
+      "product-directory"
+    ],
+    "proofScope": "Visible machined housings in the aluminum-parts source group; not a measured grade or tolerance."
+  },
+  "brass-plugs": {
+    "id": "brass-plugs",
+    "src": "/media/evidence/brass-plugs-1200.webp",
+    "srcset": "/media/evidence/brass-plugs-480.webp 480w, /media/evidence/brass-plugs-800.webp 800w, /media/evidence/brass-plugs-1200.webp 1200w",
+    "width": 1280,
+    "height": 1280,
+    "caption": "Threaded plugs in the LZZ brass-parts source folder dated December 2025.",
+    "alt": "Batch of short hex-head threaded metal plugs in a blue bin.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251201/黄铜零件/7db93e137da06879e3824ff60569d9f1.jpg",
+    "sha256": "abf7eafc0008ed4ba4ef7da54118899d00de99e11860cefad583c68dff6cc9b8",
+    "kind": "original-photo",
+    "uses": [
+      "capability-brass"
+    ],
+    "proofScope": "Visible threaded plugs in the brass-parts source group; not an alloy certification or dimensional result."
+  },
+  "five-axis-machine-wide": {
+    "id": "five-axis-machine-wide",
+    "src": "/media/evidence/five-axis-machine-wide-1600.webp",
+    "srcset": "/media/evidence/five-axis-machine-wide-480.webp 480w, /media/evidence/five-axis-machine-wide-800.webp 800w, /media/evidence/five-axis-machine-wide-1200.webp 1200w, /media/evidence/five-axis-machine-wide-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "Wider view of a five-axis machining setup; original LZZ process photograph.",
+    "alt": "Five-axis machining center with a workpiece on a rotary trunnion beneath the spindle.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品1-五轴加工/d3928b0409cc533dffd9561fedbb4b63.jpg",
+    "sha256": "2a6d89967fb5a7b8d43c51c453307adb08ba21bf5ceea90f1918517d9c8884e7",
+    "kind": "original-photo",
+    "uses": [
+      "home",
+      "factory"
+    ],
+    "proofScope": "Visible five-axis machining center and rotary setup; not a capability range or measured result."
+  },
+  "five-axis-operation": {
+    "id": "five-axis-operation",
+    "src": "/media/evidence/five-axis-operation-1600.webp",
+    "srcset": "/media/evidence/five-axis-operation-480.webp 480w, /media/evidence/five-axis-operation-800.webp 800w, /media/evidence/five-axis-operation-1200.webp 1200w, /media/evidence/five-axis-operation-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Five-axis machining operation; original LZZ process photograph.",
+    "alt": "Metal workpiece mounted on a trunnion beneath a CNC spindle.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品1-五轴加工/db22827e75937add7eb7e1636af6ab94.jpg",
+    "sha256": "c2accb6b2bfafd76d2f5b4df829fe3a1c750d43ed7b7bdd0483b83105609b65a",
+    "kind": "original-photo",
+    "uses": [
+      "case-five-axis",
+      "factory"
+    ],
+    "proofScope": "A workpiece held in a multi-axis machining setup."
+  },
+  "five-axis-parts": {
+    "id": "five-axis-parts",
+    "src": "/media/evidence/five-axis-parts-1600.webp",
+    "srcset": "/media/evidence/five-axis-parts-480.webp 480w, /media/evidence/five-axis-parts-800.webp 800w, /media/evidence/five-axis-parts-1200.webp 1200w, /media/evidence/five-axis-parts-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "Finished parts pictured in the five-axis process set; original LZZ photograph.",
+    "alt": "Batch of machined metal components with multiple visible faces.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品1-五轴加工/f743ece664101831b1f642aad280916f.jpg",
+    "sha256": "596513c29ad6d348c42456fe1ad71469e0a84f5bfda5541d6188aa0ed904777e",
+    "kind": "original-photo",
+    "uses": [
+      "case-five-axis"
+    ],
+    "proofScope": "Visible finished geometry in the five-axis process group; not material or tolerance."
+  },
+  "turning-operation": {
+    "id": "turning-operation",
+    "src": "/media/evidence/turning-operation-1600.webp",
+    "srcset": "/media/evidence/turning-operation-480.webp 480w, /media/evidence/turning-operation-800.webp 800w, /media/evidence/turning-operation-1200.webp 1200w, /media/evidence/turning-operation-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "CNC turning operation; original LZZ process photograph.",
+    "alt": "Rotating metal workpiece being machined inside a CNC lathe.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品2-车加工/6c06c0a46e0bf5eae2d41d80616b236e.jpg",
+    "sha256": "c01f81c7db1170b8ab9bf8b479fb489fd343e3a92544549e75b6db998122eefc",
+    "kind": "original-photo",
+    "uses": [
+      "factory",
+      "capability-turning"
+    ],
+    "proofScope": "Metal workpiece undergoing CNC turning."
+  },
+  "turning-parts": {
+    "id": "turning-parts",
+    "src": "/media/evidence/turning-parts-1600.webp",
+    "srcset": "/media/evidence/turning-parts-480.webp 480w, /media/evidence/turning-parts-800.webp 800w, /media/evidence/turning-parts-1200.webp 1200w, /media/evidence/turning-parts-1600.webp 1600w",
+    "width": 1706,
+    "height": 1279,
+    "caption": "Parts photographed in the CNC turning source set; original LZZ photograph.",
+    "alt": "A group of turned metal discs with central bores.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品2-车加工/e3c1ae6bd215f8723dcdda496d91eb34.jpg",
+    "sha256": "b29be863d0e37aaf8752ee0862d2395f238b0a6a0201def673124a7fc623b378",
+    "kind": "original-photo",
+    "uses": [
+      "capability-turning"
+    ],
+    "proofScope": "Visible turned discs from the turning process source group; not a material grade or acceptance result."
+  },
+  "turn-mill-operation": {
+    "id": "turn-mill-operation",
+    "src": "/media/evidence/turn-mill-operation-1600.webp",
+    "srcset": "/media/evidence/turn-mill-operation-480.webp 480w, /media/evidence/turn-mill-operation-800.webp 800w, /media/evidence/turn-mill-operation-1200.webp 1200w, /media/evidence/turn-mill-operation-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "Milling after turning; original LZZ process photograph.",
+    "alt": "Previously turned component mounted for a milling operation.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品3-车加工完成后的铣加工/44a8d35e74bf5e21513fcef0db0caf80.jpg",
+    "sha256": "fd467734648c47243b1573ef19380ee7deede9eb2fee0e284269745e8fd6b4a6",
+    "kind": "original-photo",
+    "uses": [
+      "case-turn-mill",
+      "factory"
+    ],
+    "proofScope": "Milling setup for the source group labeled turning followed by milling."
+  },
+  "turn-mill-parts": {
+    "id": "turn-mill-parts",
+    "src": "/media/evidence/turn-mill-parts-1200.webp",
+    "srcset": "/media/evidence/turn-mill-parts-480.webp 480w, /media/evidence/turn-mill-parts-800.webp 800w, /media/evidence/turn-mill-parts-1200.webp 1200w",
+    "width": 1279,
+    "height": 1706,
+    "caption": "Parts pictured after the turning and milling sequence; original LZZ photograph.",
+    "alt": "Circular machined metal components grouped in a blue bin.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品3-车加工完成后的铣加工/ed1b33497e19f41bba39fb5f5fdd34c4.jpg",
+    "sha256": "36e7760528ac9492f7899b889d14f7e4034609e68dd6f56c05e2341ad20f3afe",
+    "kind": "original-photo",
+    "uses": [
+      "case-turn-mill"
+    ],
+    "proofScope": "Visible circular machined components; not dimensional acceptance."
+  },
+  "milling-enclosure-operation": {
+    "id": "milling-enclosure-operation",
+    "src": "/media/evidence/milling-enclosure-operation-1600.webp",
+    "srcset": "/media/evidence/milling-enclosure-operation-480.webp 480w, /media/evidence/milling-enclosure-operation-800.webp 800w, /media/evidence/milling-enclosure-operation-1200.webp 1200w, /media/evidence/milling-enclosure-operation-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "CNC milling operation photographed in LZZ process materials; source folder dated December 2025.",
+    "alt": "A metal component held in a CNC milling setup beneath the spindle.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品4-铣加工/0a5402c99ab04d0826457ec57f22fbc8.jpg",
+    "sha256": "d4413eb5fc89c6a5f5272ceeb7a70e6579d7d213b96f07124cccbe4dea2e6149",
+    "kind": "original-photo",
+    "uses": [
+      "case-milling-enclosure",
+      "factory",
+      "capability-milling"
+    ],
+    "proofScope": "A component in a CNC milling setup; not a verified alloy, tolerance or acceptance result."
+  },
+  "milling-enclosure-parts": {
+    "id": "milling-enclosure-parts",
+    "src": "/media/evidence/milling-enclosure-parts-1600.webp",
+    "srcset": "/media/evidence/milling-enclosure-parts-480.webp 480w, /media/evidence/milling-enclosure-parts-800.webp 800w, /media/evidence/milling-enclosure-parts-1200.webp 1200w, /media/evidence/milling-enclosure-parts-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "Machined parts photographed in LZZ process materials; source folder dated December 2025.",
+    "alt": "A group of matching machined components with circular pockets and mounting features.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品4-铣加工/cad544d5f3f868d241fb876c7708b7b0.jpg",
+    "sha256": "26dec4893b1aab2b6b13956610364fda85c6278c596c277eb7942fd8ec5ecf34",
+    "kind": "original-photo",
+    "uses": [
+      "case-milling-enclosure"
+    ],
+    "proofScope": "Visible matching components in the milling source set; not a verified order quantity, alloy or dimensional result."
+  },
+  "multi-feature-milling-parts": {
+    "id": "multi-feature-milling-parts",
+    "src": "/media/evidence/multi-feature-milling-parts-1600.webp",
+    "srcset": "/media/evidence/multi-feature-milling-parts-480.webp 480w, /media/evidence/multi-feature-milling-parts-800.webp 800w, /media/evidence/multi-feature-milling-parts-1200.webp 1200w, /media/evidence/multi-feature-milling-parts-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "Machined parts photographed in LZZ process materials; source folder dated December 2025.",
+    "alt": "Several matching prismatic machined components arranged together.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品5-铣加工/0fa877b4559cd1377b9c6109f008f635.jpg",
+    "sha256": "584c21be8899762cbabf24f073dc91821bd1ce712580409544edb40220359e43",
+    "kind": "original-photo",
+    "uses": [
+      "case-multi-feature-milling"
+    ],
+    "proofScope": "Visible matching components in the milling source set; not a verified order quantity, alloy or dimensional result."
+  },
+  "multi-feature-milling-operation": {
+    "id": "multi-feature-milling-operation",
+    "src": "/media/evidence/multi-feature-milling-operation-1600.webp",
+    "srcset": "/media/evidence/multi-feature-milling-operation-480.webp 480w, /media/evidence/multi-feature-milling-operation-800.webp 800w, /media/evidence/multi-feature-milling-operation-1200.webp 1200w, /media/evidence/multi-feature-milling-operation-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "CNC milling operation photographed in LZZ process materials; source folder dated December 2025.",
+    "alt": "CNC milling setup machining a prismatic metal component.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品5-铣加工/e6a69f3c28f7cf2a9b7705ee55e342d4.jpg",
+    "sha256": "09b7f39b1faea3c5449cb11b8fed0dca3716d797f7b10de16b4f726ec61bdf4c",
+    "kind": "original-photo",
+    "uses": [
+      "case-multi-feature-milling",
+      "factory",
+      "capability-milling"
+    ],
+    "proofScope": "A prismatic component in a milling setup; not a verified alloy, tolerance or acceptance result."
+  },
+  "two-stage-first": {
+    "id": "two-stage-first",
+    "src": "/media/evidence/two-stage-first-1600.webp",
+    "srcset": "/media/evidence/two-stage-first-480.webp 480w, /media/evidence/two-stage-first-800.webp 800w, /media/evidence/two-stage-first-1200.webp 1200w, /media/evidence/two-stage-first-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "First pictured milling setup for the same part; original LZZ process photograph.",
+    "alt": "Metal part fixed for one milling operation.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品6-同一个产品-2个不同工序的铣加工/15af15bf59dadc3a3daf31888ada46b6.jpg",
+    "sha256": "aaeb3f688607ff2fba790c6e4a4fdf1a87f590d5cf1d507eeeb9e44e6deb8724",
+    "kind": "original-photo",
+    "uses": [
+      "case-two-stage",
+      "factory",
+      "capability-directory",
+      "capability-milling"
+    ],
+    "proofScope": "One documented milling setup for the same source product."
+  },
+  "two-stage-second": {
+    "id": "two-stage-second",
+    "src": "/media/evidence/two-stage-second-1600.webp",
+    "srcset": "/media/evidence/two-stage-second-480.webp 480w, /media/evidence/two-stage-second-800.webp 800w, /media/evidence/two-stage-second-1200.webp 1200w, /media/evidence/two-stage-second-1600.webp 1600w",
+    "width": 4000,
+    "height": 3000,
+    "caption": "Second pictured milling setup for the same part; original LZZ process photograph.",
+    "alt": "The same part shown in another milling setup.",
+    "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品6-同一个产品-2个不同工序的铣加工/d31c871835ad1c575272ad874ebe3f55.jpg",
+    "sha256": "6eb8c4149c08fe79ed0a2927055d16ddbf033cb3a1a23f2b5eec4fc0669d9a0f",
+    "kind": "original-photo",
+    "uses": [
+      "case-two-stage"
+    ],
+    "proofScope": "Another documented milling setup for the same source product."
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Mobile navigation opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Escape closes navigation",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "35 catalogue records",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "First complete card within 390x844 viewport",
+    "pass": true,
+    "detail": "{\"x\":20,\"y\":415.75,\"width\":350,\"height\":237.59375}"
+  },
+  {
+    "name": "Search narrows actual records",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Query persisted in URL",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Search restores on reload",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Empty result message visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Reset restores all parts",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Material filter updates URL",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Browser back restores facet state",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Empty form gives errors",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "First error gets focus",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Phone alone satisfies contact requirement",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "One full draft rendered",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Draft retains message",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Email action is mailto only",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Copy draft succeeds",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "TXT contains full draft",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Prepared state restores on reload",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Changing reference preserves entry storage key",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Clear empties form",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Clear removes stored entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Storage failure gives usable notice",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Copy failure has recovery text",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Checklist copy works",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "No-JS catalogue has complete records",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "No-JS inquiry fallback remains",
+    "pass": true,
+    "detail": ""
+  }
+]

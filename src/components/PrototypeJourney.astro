@@ -1,0 +1,87 @@
+---
+import ReadingHeader from './ReadingHeader.astro';
+import {guideImages} from '../data/refinedImages';
+import ResourcePageFooter from '../components/ResourcePageFooter.astro';
+import '../styles/factory-family.css';
+import '../styles/resources-family.css';
+const planningVisual=guideImages['prototype-vs-small-batch-cnc'];
+const suppliers=[{title:'Same specification',text:'Make sure each quote uses the same drawing revision, material and finish.'},{title:'Quoted scope',text:'Check setup, inspection records, packaging and delivery basis are stated.'},{title:'Exclusions or substitutions',text:'Confirm that any exclusions or substitutions are clear.'},{title:'Changes and repeat orders',text:'Ask how changes, nonconforming parts and repeat orders will be handled.'}];
+---
+<article class="approval-guide reading-page ff-page rs-page">
+ <div class="ag-masthead ag-wrap">
+  <ReadingHeader title="CNC prototypes and small-batch production" description="Check the first sample against the design, then use the approved specification for repeat production." breadcrumbs={[{label:'Resources',href:'/resources/'},{label:'Production planning'}]}/>
+  <figure class="ag-planning-visual" data-image-origin="ai-illustration">
+   <img src={planningVisual.image} srcset={planningVisual.srcset} sizes="(max-width:760px) 89vw, (max-width:1400px) 44vw, 560px" width="1440" height="960" alt={planningVisual.alt} loading="eager"/>
+  </figure>
+ </div>
+
+ <section class="ag-wrap ag-chapter reading-section" id="section-1"><div class="ag-intro"><div><h2>Validate the first sample</h2><p>Agree fit, appearance and functional checks before machining.</p></div></div><dl class="ag-review"><div><dt>Drawing questions</dt><dd>Use the sample to identify design questions related to fit, function or appearance.</dd></div><div><dt>Workholding and access</dt><dd>Review workholding and tool access while confirming the design.</dd></div><div><dt>Material, finish and acceptance</dt><dd>Confirm grade, condition, finish, acceptance, price and schedule.</dd></div></dl><a class="ag-link" href="/capabilities/prototype-machining/">Prototype machining</a></section>
+ <section class="ag-band reading-section" id="section-2"><div class="ag-wrap ag-chapter ag-approval"><div class="ag-intro"><div><h2>Approve the repeat-order specification</h2><p>Release the approved drawing, material, finish and acceptance plan for repeat production.</p></div></div><div><div class="ag-columns"><div><h3>Specification to carry forward</h3><ul><li>Agree revision approval and how changed features are identified.</li><li>Confirm material documents and the finish standard, including masking and dimensions after treatment.</li><li>Retain the approved specification unless a change is agreed.</li></ul></div><div><h3>Inspection records to agree</h3><ul><li>Define batch sampling and critical-feature records.</li><li>Confirm the measurement method, instrument evidence and available report format.</li><li>Agree the acceptance plan and delivery documents.</li></ul></div></div></div><p class="ag-change">A drawing change may affect the approved sample. Confirm the changes before releasing the revised part.</p><nav class="ag-actions" aria-label="Approved specification"><a class="ag-link" href="/factory/#order-documentation">Agree inspection records</a><a class="ag-link" href="/resources/ordering/rfq-checklist/">Prepare the controlled drawing package</a></nav></div></section>
+ <section class="ag-wrap ag-chapter ag-repeat reading-section" id="section-3"><div class="ag-intro"><div><h2>Plan the repeat order</h2><p>Confirm the setup, batch quantity, price and production slot for the released revision.</p><p><strong>The economical batch size depends on the part and its setup.</strong><br/>Quantities are assessed for each drawing.</p></div></div><div class="ag-planning"><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production lead time</dt><dd>7-14 business days</dd></div></dl><p>After drawing and order confirmation, including surface finishing. Shipping time is additional.</p><a class="ag-link" href="/capabilities/low-volume-production/">Low-volume production</a></div></section>
+ <section class="ag-wrap ag-suppliers reading-section" id="section-4"><h2>Compare suppliers before committing</h2><p>Compare the scope of each quote alongside its unit price.</p><div>{suppliers.map(s=><section><h3>{s.title}</h3><p>{s.text}</p></section>)}</div></section>
+ <section class="ag-wrap ag-related reading-related" aria-labelledby="article-examples-title"><div><h2 id="article-examples-title">Related part examples</h2><p>The engine-cover example covers prototype clearances; the enclosure example covers thin walls and batch inspection.</p></div><div><a href="/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/">Billet aluminum engine covers</a><a href="/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/">Small-batch aluminum enclosures</a></div></section>
+
+ <div id="section-5"><ResourcePageFooter current="/resources/ordering/prototype-vs-small-batch-cnc/" title="Request a quote for the next batch" description="Send the approved drawing with quantities for the first order and expected repeat releases. Include the required arrival date and inspection records. The quotation confirms pricing and production timing, with finishing and shipping terms for that order."/></div>
+</article>
+<style>
+
+.approval-guide{--ag-line:#dedede;--ag-muted:#606060;color:#171717;background:#fff;font-size:17px;line-height:1.65}
+.ag-wrap{width:calc(100% - 96px);max-width:1280px;margin-inline:auto}
+.ag-masthead{display:grid;grid-template-columns:1.1fr 1fr;gap:72px;align-items:center;padding-block:72px 48px}
+.ag-masthead :global(.reading-header){width:100%!important;padding-block:0!important}
+.ag-planning-visual{margin:0;min-width:0}
+.ag-planning-visual img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#fff;border:0;border-radius:0}
+.ag-planning-visual figcaption{font-size:14px;line-height:1.6;color:var(--ag-muted);margin-top:14px}
+.ag-planning-visual figcaption span{display:block}
+.approval-guide h1,.approval-guide h2,.approval-guide h3,.approval-guide p,.approval-guide dl,.approval-guide dd{margin:0}
+.approval-guide h1,.approval-guide h2,.approval-guide h3{font-family:var(--font-text);font-weight:550;letter-spacing:-.03em;line-height:1.15}
+.approval-guide h2{font-size:clamp(34px,3.2vw,46px);max-width:23ch}
+.approval-guide h3{font-size:25px;letter-spacing:-.025em;line-height:1.25}
+.approval-guide p{font-size:17px;line-height:1.65;color:var(--ag-muted)}
+.approval-guide a{color:inherit;text-decoration:none;box-shadow:none;border-radius:0}
+.approval-guide a:focus-visible{outline:2px solid var(--red,#c92127);outline-offset:5px}
+.approval-guide a:hover{color:var(--red,#c92127)}
+.approval-guide [id]{scroll-margin-top:112px}
+.ag-chapter{display:grid;grid-template-columns:1fr 1.25fr;gap:36px 72px;padding-block:80px}
+.ag-intro{display:block}
+.ag-intro p{margin-top:24px;max-width:53ch}
+.ag-intro strong{font-weight:550;color:#171717}
+.ag-review>div{display:grid;grid-template-columns:1fr 1.7fr;gap:28px;border-top:1px solid var(--ag-line);padding:22px 0}
+.ag-review>div:last-child{border-bottom:1px solid var(--ag-line)}
+.ag-review dt{font-size:17px;font-weight:550;line-height:1.4}
+.ag-review dd{font-size:17px;color:var(--ag-muted);line-height:1.65}
+.ag-band{background:#f5f5f3}
+.ag-band.reading-section>.ag-chapter{padding-block:0}
+.ag-columns{display:grid;grid-template-columns:1fr;gap:34px}
+.ag-columns ul{list-style:none;padding:0;margin:20px 0 0}
+.ag-columns li{border-top:1px solid var(--ag-line);padding:16px 0;font-size:17px;line-height:1.65;color:var(--ag-muted)}
+.ag-change{grid-column:1/-1;padding:0;font-size:17px}
+.ag-planning{border-top:1px solid var(--ag-line);padding-top:24px}
+.ag-planning dl>div+div{border-top:1px solid var(--ag-line);margin-top:24px;padding-top:24px}
+.ag-planning dt{font-size:16px}
+.ag-planning dd{font-size:38px;line-height:1.2;font-weight:550;letter-spacing:-.03em;margin-top:12px}
+.ag-planning p{margin-top:20px}
+.ag-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px}
+.approval-guide .ag-button{display:inline-flex;align-items:center;justify-content:center;background:var(--red,#c92127);color:#fff;padding:15px 24px;min-height:54px;font-size:16px;font-weight:550;text-decoration:none;border:1px solid var(--red,#c92127)}
+.approval-guide .ag-button:hover{background:#a91921;color:#fff}
+.approval-guide .ag-link{display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.4;border:1px solid #bdbdbd;padding:10px 16px;justify-self:start;align-self:start}
+.ag-rfq.reading-closing{padding:72px 0 80px;background:transparent;border-top:1px solid var(--ag-line)}
+.ag-rfq h2{max-width:26ch}
+.ag-rfq p{margin-top:24px;max-width:82ch}
+.ag-suppliers{padding-block:72px}
+.ag-suppliers>p{margin-top:22px;max-width:80ch}
+.ag-suppliers>div{display:grid;grid-template-columns:1fr 1fr;gap:32px 72px;margin-top:36px}
+.ag-suppliers>div>section{border-top:1px solid var(--ag-line);padding-top:24px}
+.ag-suppliers h3{font-size:25px}
+.ag-suppliers section p{font-size:17px;margin-top:16px;max-width:50ch}
+.ag-related{display:grid;grid-template-columns:1fr 1fr;gap:72px;border-top:1px solid var(--ag-line);padding-block:56px}
+.ag-related p{margin-top:24px;max-width:50ch}
+.ag-related>div:last-child{display:grid;align-content:start;gap:18px}
+.ag-related a{display:flex;align-items:center;min-height:54px;padding:16px 20px;border:1px solid #bdbdbd;font-size:17px;font-weight:500;line-height:1.5}
+.ag-bottom{display:flex;justify-content:space-between;gap:24px;padding-block:0 56px}
+@media(max-width:1000px){.ag-chapter,.ag-related,.ag-suppliers>div{gap:36px}.ag-review>div{grid-template-columns:1fr;gap:10px}}
+@media(max-width:760px){.ag-masthead{grid-template-columns:1fr;gap:32px;padding-block:48px 36px}.ag-planning-visual figcaption{font-size:14px}}
+@media(max-width:760px){.ag-wrap{width:calc(100% - 44px)}.approval-guide h2{font-size:32px}.approval-guide h3{font-size:24px}.approval-guide p,.ag-review dd,.ag-columns li{font-size:16px}.ag-chapter{grid-template-columns:1fr;gap:30px;padding-block:52px}.ag-intro p{margin-top:20px}.ag-review>div{grid-template-columns:1fr;gap:10px;padding:22px 0}.ag-columns{gap:30px}.ag-change{font-size:16px}.ag-planning dd{font-size:34px}.ag-suppliers{padding-block:52px}.ag-suppliers>div{grid-template-columns:1fr;gap:30px;margin-top:28px}.ag-suppliers section p{font-size:16px}.ag-related{grid-template-columns:1fr;gap:28px;padding-block:44px}.ag-related a{font-size:16px}.ag-bottom{padding-bottom:44px;flex-wrap:wrap}.ag-rfq.reading-closing{padding-block:44px 52px}}
+
+</style>
+

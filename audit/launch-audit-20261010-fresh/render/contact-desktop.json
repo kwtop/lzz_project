@@ -1,0 +1,61 @@
+{
+  "canonical": "https://www.lzz-cnc.com/contact/",
+  "description": "Contact LZZ Precision in Hangzhou by email or WhatsApp. Find our factory address and prepare a quote request with your drawing, material and quantity.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Let's talk aboutyour next part."
+    },
+    {
+      "tag": "H2",
+      "text": "Contact details"
+    },
+    {
+      "tag": "H2",
+      "text": "Ready to request a quote?"
+    },
+    {
+      "tag": "H2",
+      "text": "Find us in Hangzhou"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/about/",
+      "text": "About LZZ"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "https://wa.me/8613858102479",
+      "text": "+86 138 5810 2479"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "View the RFQ checklist"
+    },
+    {
+      "href": "/factory/",
+      "text": "Explore our factory"
+    }
+  ],
+  "main": "About LZZ\nContact Us\n\nCONTACT LZZ\n\nLet's talk about\nyour next part.\n\nContact us about custom CNC machining, supplier documents or a workshop visit.\n\nContact details\nEmail\nroger@lzz-cnc.com\nWhatsApp\n+86 138 5810 2479\nLocation & time zone\nHangzhou, China · UTC+8\nReady to request a quote?\n\nPrepare your drawing, material and quantity so we can review your part and quote the scope.\n\nPrepare RFQ email\n\nReview the draft, attach your drawing in your email app, then send it to LZZ.\n\nView the RFQ checklist\nFind us in Hangzhou\n\nHangzhou Lizhizao Precision Machinery Co., Ltd.\n\nNo. 4 Fengcheng Road\nPingyao, Yuhang District\nHangzhou, Zhejiang, China\n\nContact us to arrange your workshop visit.\n\nExplore our factory",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/contact/#webpage\",\"url\":\"https://www.lzz-cnc.com/contact/\",\"name\":\"Contact LZZ Precision\",\"description\":\"Contact LZZ Precision in Hangzhou by email or WhatsApp. Find our factory address and prepare a quote request with your drawing, material and quantity.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/contact/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/contact/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"About LZZ\",\"item\":\"https://www.lzz-cnc.com/about/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Contact LZZ Precision\",\"item\":\"https://www.lzz-cnc.com/contact/\"}]}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "Contact LZZ Precision | LZZ Precision",
+  "url": "http://127.0.0.1:4323/contact/",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "contact-desktop"
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-01",
+  "changes": [
+    {
+      "path": "src/components/HowWeWork.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/components/MayTeamOuting.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/components/PageContents.astro",
+      "type": "added"
+    },
+    {
+      "path": "src/components/PrismaticStudy.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/components/PrototypeJourney.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/components/ReadingHeader.astro",
+      "type": "added"
+    },
+    {
+      "path": "src/components/ResourceArticle.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/components/RfqChecklist.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/components/ShippingChecklist.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/data/pageTemplates.ts",
+      "type": "added"
+    },
+    {
+      "path": "src/layouts/Layout.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/pages/cases/[slug].astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/pages/privacy.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/pages/resources/faq.astro",
+      "type": "modified"
+    },
+    {
+      "path": "src/styles/page-system.css",
+      "type": "added"
+    }
+  ],
+  "removed": [],
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "routes": 81,
+      "width": 1440,
+      "overflow": [],
+      "primaryStyles": [
+        "{\"height\":48,\"font\":\"15px\",\"radius\":\"2px\",\"padding\":\"12px 20px\",\"background\":\"rgb(203, 18, 23)\"}"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "routes": 81,
+      "width": 390,
+      "overflow": [],
+      "primaryStyles": [
+        "{\"height\":48,\"font\":\"15px\",\"radius\":\"2px\",\"padding\":\"12px 20px\",\"background\":\"rgb(203, 18, 23)\"}"
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "routes": 81,
+      "width": 768,
+      "overflow": [],
+      "primaryStyles": [
+        "{\"height\":48,\"font\":\"15px\",\"radius\":\"2px\",\"padding\":\"12px 20px\",\"background\":\"rgb(203, 18, 23)\"}",
+        "{\"height\":67.33333587646484,\"font\":\"15px\",\"radius\":\"2px\",\"padding\":\"12px 20px\",\"background\":\"rgb(203, 18, 23)\"}"
+      ]
+    },
+    {
+      "viewport": "narrow",
+      "routes": 6,
+      "width": 320,
+      "overflow": [],
+      "primaryStyles": [
+        "{\"height\":48,\"font\":\"15px\",\"radius\":\"2px\",\"padding\":\"12px 20px\",\"background\":\"rgb(203, 18, 23)\"}"
+      ]
+    }
+  ],
+  "renderedRouteChecks": 249,
+  "sourceDataUnchanged": true
+}

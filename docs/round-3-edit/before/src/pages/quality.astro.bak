@@ -1,0 +1,117 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+import Arrow from '../components/Arrow.astro';
+import EvidenceImage from '../components/EvidenceImage.astro';
+import InspectionIllustration from '../components/InspectionIllustration.astro';
+
+const stages=[
+ {number:'01',title:'Drawing and specifications',text:'Before quoting, we review the drawing, critical dimensions, mating surfaces, material and finish to agree the inspection plan.'},
+ {number:'02',title:'Sample inspection',text:'Review the sample inspection results with us and resolve drawing changes before approving production.'},
+ {number:'03',title:'Checks during production',text:'We inspect the first article and check agreed features during manufacturing against your order requirements.'},
+ {number:'04',title:'Final inspection and shipment',text:'Final QC takes place before shipment, using the acceptance criteria and records agreed for your order.'},
+];
+---
+<Layout title="Quality control for custom CNC machined parts" description="LZZ is ISO 9001 certified. Review its machining inspection stages, dimensional checks and the records to specify with your order.">
+ <PageHero lines={['Quality control','for your parts']} action={{label:'Discuss your inspection needs',href:'/quote/'}}/>
+ <nav class="container page-jump-nav" aria-label="Quality page sections"><a href="#inspection-process">Inspection process</a><a href="#inspection-equipment">Equipment</a><a href="#measurement-methods">Measurement methods</a><a href="#inspection-records">Records</a><a href="#quality-management">Certification</a><a href="#order-documentation">Order documents</a></nav>
+ <section class="surface-band section" id="inspection-process"><div class="container"><div class="section-heading"><h2>Checks at each<br/>production stage</h2></div><ol class="quality-stages inspection-sequence">{stages.map(stage=><li><span>{stage.number}</span><div><h3>{stage.title}</h3><p>{stage.text}</p></div></li>)}</ol><a class="text-link process-link" href="/factory/#workflow">See the complete manufacturing process <Arrow/></a></div></section>
+ <section class="container section quality-overview" id="inspection-equipment" aria-labelledby="quality-overview-title">
+  <figure><EvidenceImage id="cmm-room" sizes="(max-width:760px) calc(100vw - 48px), 540px"/><figcaption>LZZ coordinate measuring machine. Ask us to supply current calibration records for your supplier review.</figcaption></figure>
+  <div><h2 id="quality-overview-title">Inspection requirements<br/>for your order</h2><dl><div><dt>Dimensions &amp; fit</dt><dd>Critical features, datums and mating surfaces.</dd></div><div><dt>Material &amp; finish</dt><dd>Material grade, treatment and cosmetic requirements.</dd></div><div><dt>Acceptance records</dt><dd>Report format, traceability and sampling requirements.</dd></div></dl><a class="text-link" href="#inspection-records">Plan your inspection records <Arrow/></a></div>
+ </section>
+
+  <section class="section measurement-section"><div class="container company-introduction"><div><h2>Dimensional<br/>measurement</h2></div><div class="measurement-list"><dl class="measurement-matrix"><div><dt>Coordinate measuring machine</dt><dd>Positions and geometric features, checked against drawing datums.</dd></div><div><dt>Height gauges</dt><dd>Heights and dimensional checks using the agreed setup.</dd></div><div><dt>Optical projectors</dt><dd>Profiles and features suited to optical measurement.</dd></div></dl><p class="measurement-note">Mark any critical tolerances on your drawing. We assess them against the material and part geometry, then confirm the setup and measurement method. For selected features, ±0.01 mm may be a useful engineering reference after review, but it is not a general tolerance or guarantee. Ask us to confirm the instrument range and supply current calibration evidence. We also need to confirm which measurement records can be provided for your order.</p><a class="text-link" href="/factory/#equipment">See machining and inspection equipment <Arrow/></a></div></div></section>
+ <InspectionIllustration/>
+ <section class="container section quality-records" id="inspection-records"><div class="section-heading"><h2>Inspection records<br/>for your order</h2></div><div class="document-needs"><details open><summary>Dimensional results</summary><p>Identify critical features and the first-article or dimensional report format you need. Specify the datums and whether dimensions apply before or after finishing.</p></details><details><summary>Material &amp; treatment records</summary><p>Specify the material grade and condition, along with any material or finishing documents you need. Confirm traceability requirements and the documents to supply when agreeing the quotation.</p></details><details><summary>Surface &amp; batch acceptance</summary><p>Mark cosmetic faces, masked areas and edge conditions. Include sampling requirements and the approval process for any proposed deviation.</p></details></div><div class="record-example"><div class="record-explainer"><h3>Make acceptance clear before machining</h3><p>Use this blank example to discuss the report you need. We agree the features to measure and sampling plan from your approved drawing, together with the measurement method.</p><p class="record-disclaimer">Blank example only. It contains no customer data, measured results or approval.</p></div><div class="record-sheet" aria-label="Blank example dimensional inspection record layout"><div class="record-sheet-head"><strong>Dimensional inspection record</strong><span>BLANK FORMAT · NO RESULTS</span></div><div class="record-meta"><span>Drawing / revision <b>To agree</b></span><span>Part / batch reference <b>To agree</b></span></div><div class="record-table-wrap"><table><thead><tr><th scope="col">Feature / datum</th><th scope="col">Drawing limit</th><th scope="col">Method</th><th scope="col">Result</th></tr></thead><tbody><tr><td>To define</td><td>—</td><td>To agree</td><td>—</td></tr><tr><td>To define</td><td>—</td><td>To agree</td><td>—</td></tr><tr><td>To define</td><td>—</td><td>To agree</td><td>—</td></tr></tbody></table></div><div class="record-sheet-foot"><span>Sampling plan: to agree</span><span>Review / approval: blank</span></div></div></div><p class="document-note">Ask LZZ to confirm which records can be supplied for your order before machining. No customer report or measurement result is published on this site.</p><a class="text-link" href="/insights/rfq-checklist/">Prepare your drawing and inspection checklist <Arrow/></a></section>
+ <section class="surface-band section quality-reference" id="quality-management"><div class="container company-introduction"><div><h2>ISO 9001-certified<br/>quality management</h2><p class="qualification-note">LZZ is ISO 9001 certified. The enterprise-recognition documents shown on our About page are separate awards, not the ISO certificate or a product approval.</p><a class="text-link" href="/about/#documents">View company documents <Arrow/></a></div><div class="qualification-details">
+  <details><summary>Company recognition documents</summary><p>Our company documents include an education collaboration plaque, a high-tech enterprise certificate and Zhejiang science and technology SME recognition.</p><p>They cover enterprise recognition and education collaboration. Read the English descriptions alongside the original Chinese documents.</p></details>
+  <details><summary>ISO 9001 certification &amp; order checks</summary><p>LZZ is ISO 9001 certified. We confirm requirements before machining, inspect the first article and check agreed features during production and before shipment.</p><p>For supplier qualification, ask LZZ for the certificate details and applicable scope. Agree any part-specific inspection records or industry approvals separately before production.</p></details>
+  <details><summary>Feature-specific tolerance review</summary><p>We agree acceptance limits from your drawing, taking material, geometry, finish, setup and inspection method into account. A reference tolerance cannot be applied to every part or dimension.</p><a class="text-link" href="/quote/">Discuss critical dimensions <Arrow/></a></details>
+ </div></div></section>
+ <section class="container section" id="order-documentation" aria-labelledby="order-documentation-title">
+  <div class="section-heading"><h2 id="order-documentation-title">Inspection and material documents</h2></div>
+  <div class="quality-stages order-documentation-grid">
+   <article><h3>First-article inspection</h3><p>We provide first-article inspection against the agreed drawing features. Define the report format, sampling and any customer approval hold point before batch production.</p></article>
+   <article><h3>Dimensional records</h3><p>We record the specified features, drawing limits, measurement method and results, identified by part number, drawing revision and part or batch reference.</p></article>
+   <article><h3>Material documents</h3><p>We supply the material documents specified in the order. Agree the grade, condition and required traceability when quoting so procurement retains the necessary records.</p></article>
+   <article><h3>Finishing documents</h3><p>We arrange the treatment documentation required by the order, linked to the specified process and part or batch. State any special acceptance test or document requirement before production.</p></article>
+  </div>
+  <p class="document-note">Your quotation will list the included documents and any extra cost. The services above are not reports from a completed order. If you are qualifying LZZ as a supplier, request the ISO certificate and current calibration records separately.</p>
+  <a class="text-link" href="/downloads/order-acceptance-checklist.txt" download>Download the order acceptance checklist</a>
+ </section>
+</Layout>
+<style>
+ #inspection-process>.container{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:0 72px;align-items:start}
+ #inspection-process .inspection-sequence{display:block;list-style:none;padding:0;margin:0}
+ .inspection-sequence li{display:grid;grid-template-columns:32px minmax(0,1fr);gap:24px;padding:28px 0;border-top:1px solid var(--border)}
+ .inspection-sequence li:first-child{padding-top:0;border-top:0}
+ .inspection-sequence li>span{color:var(--red);font-size:14px;padding-top:4px}
+ .inspection-sequence h3{font-size:25px;line-height:1.25}
+ .inspection-sequence p{font-size:15px;line-height:1.75;max-width:58ch;margin-top:12px}
+ #inspection-process .process-link{grid-column:2;margin-top:16px;justify-self:start}
+ #inspection-equipment{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:80px;align-items:center}
+ #inspection-equipment figure{margin:0;min-width:0;max-width:380px}
+ #inspection-equipment :global(img){width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:#fff;border-radius:0}
+ .quality-overview h2{font-size:40px}
+ .quality-overview dl{margin:24px 0}
+ .quality-overview dl>div{padding-block:15px;border-top:1px solid var(--border)}
+ .quality-overview dt{font-size:18px;font-weight:600}
+ .quality-overview dd{margin:6px 0 0;font-size:15px;color:var(--muted)}
+ .measurement-section{background:#fff}
+ .measurement-note,.document-note{font-size:16px;margin:28px 0;max-width:850px}
+ #inspection-records,#quality-management,#order-documentation{scroll-margin-top:100px}
+ #inspection-records .document-needs{display:block;max-width:860px}
+ #inspection-records .document-needs details{border-top:1px solid var(--border);padding-block:16px}
+ #inspection-records .document-needs summary{font-size:22px;line-height:1.3;font-weight:600;cursor:pointer;min-height:44px;align-content:center;padding-block:12px}
+ #inspection-records .document-needs p{font-size:16px;margin-block:12px 18px;max-width:68ch;line-height:1.75}
+ #inspection-records .record-example{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:56px;align-items:start;margin-top:64px;padding-top:48px;border-top:1px solid var(--border)}
+ .record-explainer{max-width:390px}
+ .record-explainer h3{font-size:clamp(28px,2.8vw,38px);line-height:1.15;margin:0 0 18px}
+ .record-explainer p{font-size:16px;line-height:1.75}
+ .record-explainer .record-disclaimer{margin-top:20px}
+ #inspection-records .record-sheet{min-width:0;background:#fff}
+ .record-sheet-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;padding-bottom:18px;border-bottom:2px solid var(--ink)}
+ .record-sheet-head strong{font-family:var(--heading);font-size:20px;line-height:1.2}
+ .record-sheet-head span{color:var(--red);font-size:10px;letter-spacing:.1em;font-weight:700;text-align:right}
+ .record-meta{display:flex;gap:12px 30px;flex-wrap:wrap;padding:17px 0;color:var(--muted);font-size:14px}
+ .record-meta b{color:var(--ink);font-weight:500;margin-left:4px}
+ .record-table-wrap{width:100%;overflow-x:auto}
+ .record-sheet table{width:100%;border-collapse:collapse;text-align:left;font-size:14px;min-width:460px}
+ .record-sheet th{background:#fff;color:var(--ink);font-weight:650}
+ .record-sheet th,.record-sheet td{padding:12px 10px;border-bottom:1px solid var(--border)}
+ .record-sheet td{color:var(--muted)}
+ .record-sheet-foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted);margin-top:16px}
+ #quality-management h2{font-size:32px}
+ .qualification-note{font-size:16px;line-height:1.7;margin:20px 0 24px;max-width:46ch}
+ .qualification-details details{border-bottom:1px solid var(--border);padding-block:4px 12px}
+ .qualification-details summary{font-size:19px;font-weight:600;line-height:1.4;cursor:pointer;min-height:52px;align-content:center;padding-block:14px}
+ .qualification-details p{font-size:15px;margin-block:12px 20px}
+ .qualification-details .text-link{margin-bottom:16px}
+ #order-documentation .order-documentation-grid{display:block}
+ #order-documentation .order-documentation-grid article{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px;padding-block:28px;border-top:1px solid var(--border)}
+ .order-documentation-grid h3{font-size:23px;line-height:1.25}
+ #order-documentation .order-documentation-grid p{font-size:16px;line-height:1.75;margin:0;max-width:65ch}
+ @media(max-width:760px){
+  #inspection-process>.container,#inspection-equipment{grid-template-columns:1fr;gap:32px}
+  #inspection-process .section-heading{margin-bottom:0}
+  #inspection-process .process-link{grid-column:auto;margin-top:0}
+  .inspection-sequence li{gap:16px;padding-block:24px}
+  .inspection-sequence h3,.order-documentation-grid h3{font-size:24px}
+  .inspection-sequence p{font-size:16px}
+  .quality-overview h2,#quality-management h2{font-size:30px}
+  #inspection-records .record-example{grid-template-columns:1fr;gap:32px;margin-top:40px;padding-top:32px}
+  .record-sheet-head strong{font-size:17px}
+  .record-sheet table{min-width:0}
+  .record-sheet thead{display:none}
+  .record-sheet tbody,.record-sheet tr{display:block}
+  .record-sheet tr{padding:8px 0;border-bottom:1px solid var(--border)}
+  .record-sheet td{display:flex;justify-content:space-between;gap:12px;padding:5px 0;border:0}
+  .record-sheet td::before{color:var(--ink);font-weight:650}
+  .record-sheet td:nth-child(1)::before{content:'Feature / datum'}
+  .record-sheet td:nth-child(2)::before{content:'Drawing limit'}
+  .record-sheet td:nth-child(3)::before{content:'Method'}
+  .record-sheet td:nth-child(4)::before{content:'Result'}
+  #order-documentation .order-documentation-grid article{grid-template-columns:1fr;gap:14px}
+ }
+</style>

@@ -1,0 +1,171 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - region "Our factory in Hangzhou":
+    - img "Rows of enclosed CNC machines inside the LZZ workshop."
+    - heading "Our factory in Hangzhou" [level=1]:
+      - text: Our factory
+      - text: in Hangzhou
+    - paragraph: A 1,500 m² production facility with 40+ CNC machines, supporting custom parts from 1 piece. An engineering team with more than 15 years in CNC machining.
+    - link "Explore the equipment":
+      - /url: "#equipment"
+    - paragraph: LZZ machining workshop · Original photograph
+  - region "Factory scale and reference capacity":
+    - term: Founded in Hangzhou
+    - definition: "2017"
+    - term: Production facility
+    - definition: 1,500 m²
+    - term: CNC machines
+    - definition: 40+
+    - heading "About 100,000 parts per month" [level=2]:
+      - text: About 100,000
+      - generic: parts per month
+    - paragraph: Reference capacity only. Actual output depends on part geometry, material, finishing and production mix.
+  - region "CNC machining and inspection equipment":
+    - heading "CNC machining and inspection equipment" [level=2]:
+      - text: CNC machining
+      - text: and inspection equipment
+    - paragraph: The workshop combines machining centers, lathes, turn-mill and multi-axis machines. The equipment notes below link to the relevant machining and inspection services.
+    - article:
+      - 'link "View original photograph: CNC machining centers"':
+        - /url: /media/evidence/milling-enclosure-operation-1600.webp
+        - img "A metal component held in a CNC milling setup beneath the spindle."
+      - heading "CNC machining centers" [level=3]
+      - paragraph: Milling pockets, profiles, bores and multi-face features.
+      - link "View CNC milling capabilities":
+        - /url: /capabilities/cnc-milling-service/#engineering-fit
+    - article:
+      - 'link "View original photograph: CNC lathes & turn-mill equipment"':
+        - /url: /media/evidence/turning-operation-1600.webp
+        - img "Rotating metal workpiece being machined inside a CNC lathe."
+      - heading "CNC lathes & turn-mill equipment" [level=3]
+      - paragraph: Rotational parts, threads and components combining turned and milled features.
+      - link "View turning capabilities":
+        - /url: /capabilities/cnc-turning-service/#engineering-fit
+    - article:
+      - 'link "View original photograph: Multi-axis machining"':
+        - /url: /media/evidence/five-axis-machine-wide-1600.webp
+        - img "Five-axis machining center with a workpiece on a rotary trunnion beneath the spindle."
+      - heading "Multi-axis machining" [level=3]
+      - paragraph: Machining angled features and curved surfaces to your drawing.
+      - link "Check your part size and setup":
+        - /url: /capabilities/5-axis-cnc-machining/#size-and-setup-review
+    - article:
+      - 'link "View original photograph: Dimensional inspection"':
+        - /url: /media/evidence/cmm-room-1600.webp
+        - img "Coordinate measuring machine in the LZZ inspection area."
+      - heading "Dimensional inspection" [level=3]
+      - paragraph: CMM, height gauges and optical projectors for checking part dimensions.
+      - link "View quality control":
+        - /url: /quality/
+  - region "The machining floor":
+    - heading "The machining floor" [level=2]
+    - paragraph: These photographs from our company archive show the workshop and operators among the CNC machines. Dates refer to the original source files or folders.
+    - figure "Operators among the CNC machines. Original production-floor photograph; source file dated November 2025.":
+      - link "View original photograph of workshop operators":
+        - /url: /media/evidence/workshop-operators-2025-1600.webp
+        - img "Two workers among CNC machines on the LZZ workshop floor."
+      - text: Operators among the CNC machines.
+      - text: Original production-floor photograph; source file dated November 2025.
+    - figure "Machining centers along the workshop aisle. Original photograph; source folder dated December 2025.":
+      - link "View original photograph of the workshop aisle":
+        - /url: /media/evidence/workshop-aisle-1200.webp
+        - img "Machining centers along an aisle in the LZZ workshop."
+      - text: Machining centers along the workshop aisle.
+      - text: Original photograph; source folder dated December 2025.
+    - figure "Packing archive · November 2022. Original packing archive photograph.":
+      - link "View original packing archive photograph":
+        - /url: /media/evidence/shipping-example-1600.webp
+        - img "Packed machining order photographed before dispatch."
+      - text: Packing archive · November 2022.
+      - text: Original packing archive photograph.
+  - region "Dimensional inspection against your drawing":
+    - figure "Coordinate measuring machine detail · Original photograph":
+      - img "Closer view of a coordinate measuring machine."
+      - generic: Coordinate measuring machine detail · Original photograph
+    - heading "Dimensional inspection against your drawing" [level=2]:
+      - text: Dimensional inspection
+      - text: against your drawing
+    - paragraph: We use CMM, height gauges and optical projectors to check part dimensions. Inspection scope and measurement methods are confirmed in your quotation, based on the drawing and requirements.
+    - link "View quality control":
+      - /url: /quality/
+  - region "Our working process":
+    - heading "Our working process" [level=2]
+    - link "See how we work":
+      - /url: /resources/how-we-work/
+    - paragraph: The quotation sets out the work, approval steps and delivery requirements. Sample approval and the agreed inspection plan guide the move into production.
+    - list:
+      - heading "Requirements & quotation" [level=3]
+      - paragraph: Confirm requirements and evaluate your drawing or model before agreeing the quotation.
+      - heading "Sample & inspection" [level=3]
+      - paragraph: Machine the sample or prototype, then inspect it and review the results with you.
+      - heading "Approval & production" [level=3]
+      - paragraph: Proceed to production after sample approval, with the agreed requirements in place.
+      - heading "Final QC & shipment" [level=3]
+      - paragraph: Complete final quality checks and prepare the parts and agreed documents for dispatch.
+    - generic "Purchasing, inspection and delivery requirements"
+- heading "Have a part in mind?" [level=2]
+- paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+- link "Prepare RFQ email":
+  - /url: /quote/
+- link "roger@lzz-cnc.com":
+  - /url: mailto:roger@lzz-cnc.com
+  - generic: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

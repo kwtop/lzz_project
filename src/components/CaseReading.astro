@@ -1,0 +1,65 @@
+---
+import type {EngineeringCase} from '../data/cases';
+import {caseReading,collectionReading} from '../data/caseReading';
+import {studyChecks} from '../data/studyEditorial';
+import {workshopCollections} from '../data/workshopCollections';
+import {categoryDetails} from '../data/presentation';
+import {photo} from '../data/evidence';
+import EvidenceImage from './EvidenceImage.astro';
+import CollectionCover from './CollectionCover.astro';
+import CaseCollectionExamples from './CaseCollectionExamples.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import RfqPanel from './RfqPanel.astro';
+import '../styles/turning-capability.css';
+import '../styles/case-reading.css';
+interface Props {item:EngineeringCase;quoteHref:string}
+const {item,quoteHref}=Astro.props;
+const plan=caseReading[item.slug];
+const twoSetup=item.slug==='two-stage-cnc-milling';
+const isDisplay=item.slug==='29-inch-display-housing-cnc-machining';
+const heroId=item.collection?undefined:isDisplay?item.photos[0]:twoSetup?item.photos[0]:item.photos[1];
+const processIds=item.collection?[]:twoSetup?item.photos:[item.hero];
+const photoStyle=(id:string,height=440)=>`--cr-photo-width:${Math.floor(height*photo(id).width/photo(id).height)}px`;
+const checks=item.collection?workshopCollections[item.collection].map(family=>[family.title,collectionReading[family.id].drawing,collectionReading[family.id].inspection]):studyChecks[item.slug];
+const guide=item.collection?'/resources/technical-guides/material-and-finish-checklist/':'/resources/technical-guides/critical-features-cnc-drawing/';
+---
+<article class="tc-page cr-page" data-case={item.slug}>
+ <DisclosureAnchors/>
+ <div class="tc-wrap">
+  
+  <section class="cr-hero" aria-labelledby="case-title">
+   <header><p class="cr-eyebrow">{item.collection?'Workshop part examples':'Machining study'}</p><h1 id="case-title">{plan.title}</h1><p class="cr-lead">{item.lead}</p><dl class="cr-facts"><div><dt>{item.collection?'Part focus':'Machining focus'}</dt><dd>{plan.focus}</dd></div><div><dt>Inspection focus</dt><dd>{plan.inspectionFocus}</dd></div></dl><nav class="cr-hero-links" aria-label="Read this study"><a class="tc-secondary" href="#machining-setup">{item.collection?'Planning a similar part':'Machining process'}</a><a class="tc-secondary" href="#inspection-planning">Inspection requirements</a></nav></header>
+   <div class="cr-hero-media">{item.collection?<CollectionCover collection={item.collection} sizes="(max-width:760px) calc(100vw - 44px), 48vw"/>:<figure class="cr-photo" style={photoStyle(heroId!)}><EvidenceImage id={heroId!} sizes="(max-width:760px) calc(100vw - 44px), 48vw" loading="eager"/><figcaption>{photo(heroId!).caption}</figcaption></figure>}</div>
+  </section>
+  <section class="tc-section" id="component" aria-labelledby="case-part-title">
+   <span id="study-0" class="cr-anchor"/>
+   <header class="tc-section-head"><h2 id="case-part-title">{plan.partHeading}</h2><p>{item.collection?'Use the photographs and clips to identify a similar form, then define the exact material and acceptance requirements for your drawing.':item.workpiece}</p></header>
+   {item.collection?<CaseCollectionExamples collection={item.collection}/>:<div class="cr-points cr-part-points">{plan.partPoints.map(p=><div><h3>{p.title}</h3><p>{p.text}</p></div>)}</div>}
+   {isDisplay&&<figure class="cr-photo cr-display-pair" style={photoStyle('display-housing-pair',360)}><EvidenceImage id="display-housing-pair" sizes="(max-width:760px) calc(100vw - 44px), 75vw"/><figcaption>Internal and external enclosure faces from the original collection.</figcaption></figure>}
+  </section>
+  <section class="tc-section" id="machining-setup" aria-labelledby="case-process-title">
+   <span id="study-1" class="cr-anchor"/>
+   <header class="tc-section-head"><h2 id="case-process-title">{item.collection?'Plan the machining route':'Machining process & setup'}</h2><p>{item.collection?plan.sequenceNote:item.setup}</p></header>
+   <ol class="cr-sequence">{plan.steps.map((step,i)=><li><span aria-hidden="true" class="tc-number">0{i+1}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
+   {processIds.length>0&&<div class:list={['cr-process-photos',{'cr-process-single':processIds.length===1}]}>{processIds.map((id,i)=><figure class="cr-photo" style={photoStyle(id,400)}><EvidenceImage id={id} sizes="(max-width:760px) calc(100vw - 44px), 45vw"/><figcaption>{twoSetup?(i===0?'First setup: the initial holding orientation.':'Second setup: another orientation exposes additional faces.'):photo(id).caption}</figcaption></figure>)}</div>}
+   {!item.collection&&plan.sequenceNote&&<p class="cr-note">{plan.sequenceNote}</p>}
+   {item.video&&<div class="cr-video"><WorkshopVideo id={item.video} title="The display housing in the workshop" description="Original views of the machined panel and CNC setup." headingLevel="h3"/></div>}
+  </section>
+  <section class="tc-section" id="technical-points" aria-labelledby="case-technical-title">
+   <span id="study-2" class="cr-anchor"/>
+   <header class="tc-section-head"><h2 id="case-technical-title">Technical points for a similar part</h2><p>{item.collection?'Select the material and review the working interfaces before choosing the machining and acceptance requirements.':'Translate the visible geometry into drawing datums, tool-access requirements and final acceptance conditions.'}</p></header>
+   <div class="tc-geometry cr-technical"><figure><img src={plan.illustration.stem+'-1200.webp'} srcset={[480,800,1200,1536].map(w=>`${plan.illustration.stem}-${w}.webp ${w}w`).join(', ')} sizes="(max-width:760px) calc(100vw - 44px), 52vw" width="1536" height="1024" loading="lazy" alt={plan.illustration.alt}/><figcaption>{plan.illustration.caption}</figcaption></figure><div>{plan.technical.map(p=><div class="cr-technical-point"><h3>{p.title}</h3><p>{p.text}</p></div>)}</div></div>
+  </section>
+  <section class="tc-section" id="inspection-planning" aria-labelledby="case-inspection-title">
+   <span id="study-3" class="cr-anchor"/>
+   <header class="tc-section-head"><h2 id="case-inspection-title">Drawing & inspection requirements</h2><p>{item.collection?'Set acceptance by part family, then agree the measurement method and records for each drawing.':item.inspection}</p></header>
+   <table class="tc-checks"><thead><tr><th scope="col">Feature / part family</th><th scope="col">Define on the drawing</th><th scope="col">Agree for inspection</th></tr></thead><tbody>{checks.map(([feature,drawing,inspection])=><tr><th scope="row">{feature}</th><td data-label="Define on the drawing">{drawing}</td><td data-label="Agree for inspection">{inspection}</td></tr>)}</tbody></table>
+   <div class="cr-acceptance"><div><h3>Agree what will be recorded</h3><ul><li>Critical features, limits and datum references</li><li>Measurement method, support and material condition</li><li>Checks before or after finishing</li><li>Sampling, report format and approval responsibility</li></ul><p>These are inspection-planning inputs. The photographs and clips do not provide measured acceptance results for the pictured parts.</p></div><figure class="cr-photo" style="--cr-photo-width:160px"><EvidenceImage id="cmm-detail" sizes="160px"/><figcaption>LZZ coordinate measuring machine. The method is agreed for each part.</figcaption></figure></div>
+  </section>
+  <section class="tc-section tc-faq" aria-labelledby="case-faq-title"><h2 id="case-faq-title">Questions about a similar part</h2><div>{plan.questions.map(entry=><section><h3>{entry.question}</h3><p>{entry.answer}</p></section>)}</div></section>
+  <span id="prepare-rfq" class="cr-anchor"/>
+  <span id="prepare-email" class="cr-anchor"/>
+  <RfqPanel id="drawing-review" title="Discuss a similar part" description="Send your drawing, material and quantity. Mark the features that matter to fit and acceptance." href={quoteHref} contained><div slot="details"><h3>Include with your inquiry</h3><ul class="tc-rfq-checklist">{plan.rfq.map(text=><li>{text}</li>)}</ul><nav class="cr-guidance" aria-label="Guidance for a similar part"><a class="tc-secondary" href={guide}>{item.collection?'Material & finish checklist':'Critical drawing features'}</a><a class="tc-secondary" href="/resources/ordering/machined-prototype-approval-checklist/">Sample acceptance checklist</a>{item.relatedCapabilities.map(slug=><a class="tc-secondary" href={'/capabilities/'+slug+'/'}>{categoryDetails[slug].title}</a>)}</nav></div></RfqPanel>
+ </div>
+</article>

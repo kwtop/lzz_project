@@ -1,0 +1,70 @@
+---
+import '@fontsource-variable/inter';
+const base='/content-layout-demo-20261010/';
+const samples=[
+ {id:'home',label:'首页',before:'/',after:base+'home/',purpose:'理解企业 → 找到加工路线 → 查看实拍证据 → 准备询价',changes:[
+  ['KEEP 保留','定位、三个原精选零件、五项能力、四类材料、公司事实、工厂/检验照片、三项研究与邮件草稿流程。'],
+  ['REORDER 重排','原始车间照片进入首屏；新增已有塑料产品入口。先看产品，再按几何选择工艺。'],
+  ['MERGE 合并','能力与材料共用一个选型区域；工厂和质量证据成为一个连贯模块。'],
+  ['SHORTEN / MOVE 缩短、迁移','缩短首屏及重复介绍；完整工厂、质量及研究细节继续由原页面承接，原素材保留。'],
+ ],gain:'真实车间承担企业身份表达；四类产品帮助客户识别供货范围。主入口与辅助材料索引不再竞争。'},
+ {id:'category',label:'分类 · 塑料加工',before:'/capabilities/plastic-machined-parts/',after:base+'category/',purpose:'识别形状 → 比较材料与工艺条件 → 确定图纸和验收 → 携带上下文询价',changes:[
+  ['KEEP 保留','全部材料选项、加工几何、装夹与温度条件、图纸/检验/环境要求、原 PEEK 片段、产品与案例链接、询价责任说明。'],
+  ['REORDER 重排','实拍轴类和透明组件进入前段；PEEK 片段与产品入口集中呈现，不必读完长范围表才看到实物。'],
+  ['MERGE 合并','重复但不完全相同的材料名单合为一个材料区域；独有选项与准确牌号声明仍保留。'],
+  ['DE-EMPHASIZE 降权','详细测量、环境与相关材料仍可展开；结尾突出上下文询价与质量资料。'],
+ ],gain:'先用实物确认适用形态，再用结构化技术内容做采购判断；档案照片不冒充订单或性能证明。'},
+ {id:'detail',label:'详情 · 塑料零件',before:'/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/',after:base+'detail/',purpose:'看清零件 → 明确适用与规格 → 核对验收条件 → 比较相似件 / 询价',changes:[
+  ['KEEP 保留','现有橙黄拼合产品图、全部聚合物选项、制造/表面要求、关键 review、图纸/检验条件、交期限制、相似件比较与询价上下文。'],
+  ['REORDER 重排','手机标题后立即展示主图；桌面主图占主要面积，短用途和询价靠近图像。'],
+  ['MERGE 合并','材料、加工、表面与形状集中为唯一采购表，避免首屏摘要与制造表重复。'],
+  ['DE-EMPHASIZE 降权','附加工程说明仍可展开；相似件只解释具体区别。完整图纸和验收条件保留，不虚构近照。'],
+ ],gain:'产品身份先被看见；完整材料和验收信息仍容易查找，询价按钮与客户判断节点相邻。'},
+];
+const findings=[
+ ['首页整屏背景先于车间与产品','车间与产品提前，首屏缩短。'],
+ ['详情手机长摘要挤掉主图','标题后先图像，再呈现技术表与验收条件。'],
+ ['塑料分类实物片段出现过晚','将现有实物与视频前移为一个示例模块。'],
+ ['材料与制造信息分散重复','合并材料列表，保留独有选项及牌号限制。'],
+ ['首页工艺、材料和 CTA 主次不清','五项工艺主入口，材料辅助；加入现有塑料零件。'],
+ ['首页、Factory、About 反复突出同组事实和流程','页面分工；详细现场和流程由现有专页承接。'],
+ ['About 企业文件入口埋在背景故事后','身份与文件前移，历史、应用、人物降权。'],
+ ['加工研究图片前有多层介绍与目录','图片与具体加工问题提前，来源及完整技术说明保留。'],
+ ['分类、详情、FAQ 结尾出口竞争','一个主行动、两个相关资料，其余渐进展示。'],
+ ['Contact 手机版询价区域出现在长联系区之后','询价入口与联系渠道靠近，缩短准备图纸后的行动路径。'],
+];
+---
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex, nofollow"/><meta name="description" content="LZZ 三个独立内容与视觉排版样板的改造前后对比。"/><title>LZZ · 内容与排版前后对比</title><link rel="icon" href="/favicon.svg"/></head>
+<body data-samples={JSON.stringify(samples)}>
+ <header class="explorer-head"><a href="/" aria-label="打开现有主站"><img src="/media/lzz-logo.png" alt="LZZ" width="108" height="60"/></a><div><p>LOCAL DESIGN REVIEW · 10 OCT 2026</p><h1>内容与排版，前后对比</h1></div><span class="scope">3 个独立样板<br/>主站未改 · 未部署</span></header>
+ <main>
+  <div class="intro"><p>保留现有 Inter 字体、品牌红、业务信息与 URL。先确认三个样板，再扩展到全站。</p><p class="subnote">“改造前”加载当前原页；“改造后”加载独立 Demo。页面可滚动、展开和点击，询价沿用现有邮件草稿流程。</p></div>
+  <div class="controls"><div class="tabs" role="tablist" aria-label="选择样板">{samples.map((s,i)=><button role="tab" id={'tab-'+s.id} aria-selected={i===0?'true':'false'} aria-controls="sample-panels" data-sample={s.id}>{s.label}</button>)}</div><div class="display-controls"><label>视口<select id="viewport-mode"><option value="desktop">Desktop · 1440px</option><option value="mobile">Mobile · 390px</option></select></label><label>比较<select id="comparison-mode"><option value="both">前后并排</option><option value="after">只看改造后</option><option value="before">只看改造前</option></select></label></div></div>
+  <div class="canvas" id="sample-panels" role="tabpanel" aria-labelledby="tab-home"><section class="preview-pane before"><div class="pane-head"><h2>改造前 <span>当前主站</span></h2><a id="before-link" href="/" target="_blank">全尺寸打开 ↗</a></div><div class="vp"><iframe id="before-frame" title="改造前的当前页面" src="/" loading="eager"></iframe></div></section><section class="preview-pane after"><div class="pane-head"><h2>改造后 <span>独立样板</span></h2><a id="after-link" href={base+'home/'} target="_blank">全尺寸打开 ↗</a></div><div class="vp"><iframe id="after-frame" title="改造后的独立样板" src={base+'home/'} loading="eager"></iframe></div></section></div>
+  <section class="change-notes" aria-live="polite"><div class="reading"><p class="eyebrow">客户阅读与转化路径</p><h2 id="sample-purpose">{samples[0].purpose}</h2><p id="sample-gain">{samples[0].gain}</p></div><dl id="sample-changes">{samples[0].changes.map(([label,copy])=><div><dt>{label}</dt><dd>{copy}</dd></div>)}</dl></section>
+  <details class="audit"><summary>整站最值得调整的 10 个问题 <span>按改造收益排序</span></summary><ol>{findings.map(([problem,fix])=><li><strong>{problem}</strong><p>{fix}</p></li>)}</ol></details>
+  <p class="boundary">本轮只新增三个样板及对比页，没有替换主站模板、删除技术内容或添加企业能力证明。Factory、About、案例、Contact 等建议等待样板确认后再实施。</p>
+ </main>
+</body></html>
+<script>
+ const samples=JSON.parse(document.body.dataset.samples||'[]');
+ const frameBefore=document.querySelector<HTMLIFrameElement>('#before-frame')!;
+ const frameAfter=document.querySelector<HTMLIFrameElement>('#after-frame')!;
+ const mode=document.querySelector<HTMLSelectElement>('#comparison-mode')!;
+ const viewport=document.querySelector<HTMLSelectElement>('#viewport-mode')!;
+ if(matchMedia('(max-width:650px)').matches)viewport.value='mobile';
+ function sizeFrames(){const mobile=viewport.value==='mobile';const width=mobile?390:1440;const height=mobile?844:1000;document.querySelectorAll<HTMLElement>('.vp').forEach(box=>{const frame=box.querySelector('iframe')!;const scale=Math.min(1,box.clientWidth/width);frame.style.width=width+'px';frame.style.height=height+'px';frame.style.transform='scale('+scale+')';frame.style.left=Math.max(0,(box.clientWidth-width*scale)/2)+'px';box.style.height=height*scale+'px';});}
+ function choose(id:string){const sample=samples.find((s:any)=>s.id===id)||samples[0];document.querySelectorAll<HTMLButtonElement>('[data-sample]').forEach(button=>button.setAttribute('aria-selected',String(button.dataset.sample===sample.id)));document.querySelector('#sample-panels')!.setAttribute('aria-labelledby','tab-'+sample.id);frameBefore.src=sample.before;frameAfter.src=sample.after;document.querySelector<HTMLAnchorElement>('#before-link')!.href=sample.before;document.querySelector<HTMLAnchorElement>('#after-link')!.href=sample.after;document.querySelector('#sample-purpose')!.textContent=sample.purpose;document.querySelector('#sample-gain')!.textContent=sample.gain;const dl=document.querySelector('#sample-changes')!;dl.replaceChildren(...sample.changes.map(([label,copy]:string[])=>{const row=document.createElement('div');const dt=document.createElement('dt');const dd=document.createElement('dd');dt.textContent=label;dd.textContent=copy;row.append(dt,dd);return row;}));sizeFrames();}
+ document.querySelectorAll<HTMLButtonElement>('[data-sample]').forEach(button=>{button.addEventListener('click',()=>choose(button.dataset.sample!));button.addEventListener('keydown',event=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;event.preventDefault();const buttons=[...document.querySelectorAll<HTMLButtonElement>('[data-sample]')];const index=buttons.indexOf(button);const target=event.key==='Home'?buttons[0]:event.key==='End'?buttons.at(-1)!:buttons[(index+(event.key==='ArrowRight'?1:-1)+buttons.length)%buttons.length];target.focus();choose(target.dataset.sample!);});});
+ mode.addEventListener('change',()=>{document.querySelector('.canvas')!.setAttribute('data-mode',mode.value);sizeFrames();});viewport.addEventListener('change',sizeFrames);new ResizeObserver(sizeFrames).observe(document.querySelector('.canvas')!);sizeFrames();
+</script>
+<style>
+ :global(*){box-sizing:border-box} :global(body){margin:0;font-family:'Inter Variable',Arial,sans-serif;background:#f4f5f4;color:#22282b;line-height:1.6} :global(a){color:inherit;text-decoration:none} :global(button),:global(select){font:inherit} :global(button),:global(a),:global(select){outline-offset:4px} :global(:focus-visible){outline:2px solid #c90b15}
+ .explorer-head{display:flex;align-items:center;gap:32px;padding:28px max(28px,calc((100vw - 1440px)/2));background:#202529;color:#fff}.explorer-head img{object-fit:contain;filter:brightness(0) invert(1);width:80px;height:auto}.explorer-head p{font-size:11px;letter-spacing:.09em;margin:0 0 8px;color:#a7b2b6}.explorer-head h1{font-size:28px;font-weight:550;line-height:1.3;margin:0}.scope{margin-left:auto;color:#c4cdcf;font-size:12px;line-height:1.8}
+ main{max-width:1440px;padding:0 28px;margin:auto}.intro{padding:26px 0 22px}.intro p{margin:0;font-size:15px}.intro .subnote{font-size:12px;color:#6c7478;margin-top:6px}
+ .controls{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:22px}.tabs{display:flex;border-bottom:1px solid #cbd2d4;gap:4px}.tabs button{border:0;background:transparent;padding:12px 16px;font-size:14px;cursor:pointer;color:#5f686c;border-bottom:2px solid transparent}.tabs button[aria-selected=true]{border-color:#c90b15;color:#bf0913;font-weight:600}.display-controls{display:flex;gap:18px}.display-controls label{display:flex;align-items:center;gap:8px;color:#626b70;font-size:12px}select{border:1px solid #cbd2d4;background:#fff;color:#202529;padding:8px 10px;border-radius:0;font-size:12px;min-height:40px}
+ .canvas{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}.preview-pane{min-width:0;background:#fff;border:1px solid #d5dcdd}.pane-head{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid #d5dcdd}.pane-head h2{font-size:14px;font-weight:600;margin:0}.pane-head h2 span{font-size:11px;font-weight:400;color:#788286;margin-left:10px}.pane-head a{font-size:12px;text-decoration:underline;text-underline-offset:3px}.after .pane-head{border-top:2px solid #c90b15;padding-top:10px}.vp{position:relative;overflow:hidden;background:#e7ebea;min-height:240px}.vp iframe{border:0;position:absolute;top:0;transform-origin:top left;background:#fff;display:block}.canvas[data-mode=before],.canvas[data-mode=after]{grid-template-columns:1fr}.canvas[data-mode=before] .after,.canvas[data-mode=after] .before{display:none}
+ .change-notes{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;padding:40px 0;border-bottom:1px solid #cbd2d4}.eyebrow{font-size:12px;color:#af0c15;margin:0 0 12px}.reading h2{font-size:20px;line-height:1.55;font-weight:550;margin:0 0 14px}.reading>p:last-child{font-size:14px;color:#646f73;margin:0;max-width:48ch}dl{margin:0}dl>div{display:grid;grid-template-columns:170px 1fr;gap:22px;padding:13px 0;border-bottom:1px solid #d7ddde}dl>div:first-child{padding-top:0}dt{font-size:12px;font-weight:600}dd{margin:0;font-size:13px;color:#606b70;line-height:1.8}.audit{padding:22px 0;border-bottom:1px solid #cbd2d4}.audit summary{cursor:pointer;font-weight:550;font-size:16px}.audit summary span{font-size:12px;color:#7a8488;margin-left:18px}.audit ol{display:grid;grid-template-columns:1fr 1fr;gap:24px 52px;padding-left:24px;margin-top:28px}.audit strong{font-size:14px;font-weight:550}.audit p{font-size:13px;color:#657176;margin:6px 0 0}.boundary{font-size:12px;line-height:1.8;color:#758085;margin:22px 0 38px}
+ @media(max-width:1000px){.controls{flex-wrap:wrap}.change-notes{gap:36px}.display-controls{margin-left:0}dl>div{grid-template-columns:1fr;gap:6px}}
+ @media(max-width:650px){.explorer-head{padding:22px 20px;gap:20px}.explorer-head h1{font-size:20px}.explorer-head img{width:56px}.scope{display:none}main{padding:0 16px}.intro p{font-size:14px}.tabs{width:100%}.tabs button{flex:1;font-size:12px;padding:12px 6px}.display-controls{gap:16px}.display-controls label{display:block}.display-controls select{display:block;margin-top:4px}.canvas{grid-template-columns:1fr}.change-notes{grid-template-columns:1fr;gap:28px;padding-top:30px}.pane-head{padding-inline:12px}.audit ol{grid-template-columns:1fr}.audit summary span{display:block;margin-left:18px;margin-top:4px}}
+</style>

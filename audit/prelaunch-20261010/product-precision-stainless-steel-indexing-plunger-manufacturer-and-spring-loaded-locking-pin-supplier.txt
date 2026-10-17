@@ -1,0 +1,136 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Indexing plungers & locking pins
+    - complementary:
+      - heading "Indexing plungers & locking pins" [level=1]
+      - paragraph: Stainless locking hardware · shafts & flanges
+      - 'link "View full-size image: Indexing plungers & locking pins"':
+        - /url: /media/responsive/catalog-32-cutout-v1-1200.webp
+        - img "Locking pins"
+      - navigation "On this page":
+        - link "01 Part requirements":
+          - /url: "#fit-review"
+          - generic: "01"
+          - text: Part requirements
+        - link "02 Material & finish":
+          - /url: "#part-information"
+          - generic: "02"
+          - text: Material & finish
+        - link "03 Drawing review":
+          - /url: "#drawing-review"
+          - generic: "03"
+          - text: Drawing review
+    - heading "Pin travel and engagement" [level=2]
+    - paragraph: Indexing plungers, locking pins and turned control hardware.
+    - term: Part features
+    - definition: Shafts, flanges, locking features, threads, cross-holes and flats.
+    - term: Review focus
+    - definition: Define pin engagement and travel, with the mounting thread and mating hole. Specify machined-component supply or a complete spring-loaded assembly.
+    - link "Request a quote":
+      - /url: /quote/?part=Indexing+plungers+%26+locking+pins&product=precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier&source=%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F
+    - paragraph: Have a drawing? Add it to your inquiry email.
+    - heading "Manufacturing options" [level=2]
+    - term: Materials
+    - definition: Stainless steel options include 304, 316L and 17-4PH.
+    - term: Machining
+    - definition: CNC turning with live-tooling operations.
+    - term: Surface finish
+    - definition: Fine-turned surfaces, mirror polishing and engraving.
+    - paragraph: Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+    - heading "Drawing and inspection requirements" [level=2]:
+      - text: Drawing and
+      - text: inspection requirements
+    - link "Quality & inspection":
+      - /url: /quality/
+    - term: Geometry & interfaces
+    - definition: Define pin travel, engagement geometry, mounting thread and the mating hole. Clarify whether the inquiry is for a component or a complete assembly.
+    - term: Material & finish
+    - definition: Specify the material grade, condition, finish and any masked areas.
+    - term: Quantity
+    - definition: State the prototype or batch quantity and required schedule.
+    - term: Inspection requirements
+    - definition: Agree fit and alignment checks and any separate actuation-force or cycle-test requirements.
+    - link "Prepare an RFQ email":
+      - /url: /quote/?part=Indexing+plungers+%26+locking+pins&product=precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier&source=%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F
+    - paragraph:
+      - strong: From 1 piece · 7–14 business days
+      - text: From drawing and order confirmation, including surface finishing; transit is additional.
+    - generic "Additional drawing and order notes"
+    - navigation "Related parts":
+      - heading "Compare part requirements" [level=3]
+      - link "Stainless steel turned shafts Shaft diameters, shoulders and secondary features. A locking mechanism also needs engagement geometry and assembly responsibility.":
+        - /url: /products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/
+        - generic: Stainless steel turned shafts
+        - generic: Shaft diameters, shoulders and secondary features. A locking mechanism also needs engagement geometry and assembly responsibility.
+      - link "Stainless steel turned parts Grade, threads and specified passivation or electropolishing for the locking components.":
+        - /url: /products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/
+        - generic: Stainless steel turned parts
+        - generic: Grade, threads and specified passivation or electropolishing for the locking components.
+    - generic "Related machining processes"
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

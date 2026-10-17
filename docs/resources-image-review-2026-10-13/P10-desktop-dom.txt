@@ -1,0 +1,218 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / Design preparation
+    - heading "Specifying material and finish for a machined part" [level=1]
+    - heading "Confirm the material specification" [level=2]
+    - paragraph: State the exact alloy or polymer grade and condition, with the applicable standard. Include the certificates and traceability records required. If substitutes may be considered, identify them for approval and confirm the material documents in the quotation.
+    - paragraph: Describe the part function and mating assembly. Include loads and operating temperature, with exposure or electrical requirements where relevant. Specify any cleanliness, chemical-contact or ESD limits and the evidence needed for acceptance. If the grade is undecided, send these conditions for engineering review..
+    - complementary "Part references and drawing preparation":
+      - img "Aluminum housing, turned shaft, threaded connector and plastic block"
+      - region "Related part examples":
+        - heading "Related part examples" [level=2]
+        - paragraph: Examples with related features. Each custom part is quoted to its own drawing.
+        - link "Billet aluminum engine covers":
+          - /url: /products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/
+        - link "Functional plastic blocks & structures":
+          - /url: /products/precision-machining-for-functional-plastic-blocks-structural-components/
+      - heading "Next step" [level=2]
+      - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+      - link "View RFQ checklist":
+        - /url: /resources/rfq-checklist/
+    - heading "Compare materials against the part requirements" [level=2]
+    - paragraph:
+      - text: The catalog groups parts as
+      - link "aluminum":
+        - /url: /capabilities/aluminum-cnc-parts/
+      - text: ","
+      - link "stainless steel":
+        - /url: /capabilities/stainless-steel-cnc-parts/
+      - text: ","
+      - link "copper and brass":
+        - /url: /capabilities/copper-brass-cnc-parts/
+      - text: ", and"
+      - link "engineering plastics":
+        - /url: /capabilities/plastic-machined-parts/
+      - text: . The grades below are examples for selection, rather than a stock list. Properties depend on the grade and condition. Suitability and availability are confirmed for the part and proposed finish in the quotation.
+    - region "Scrollable comparison of material families":
+      - table:
+        - rowgroup:
+          - row "Material family Brochure examples Selection questions":
+            - columnheader "Material family"
+            - columnheader "Brochure examples"
+            - columnheader "Selection questions"
+        - rowgroup:
+          - row "Aluminum 6061, 7075, 2024 Compare strength, stiffness, part mass, environment and finish needs. Specify the exact alloy and temper.":
+            - rowheader "Aluminum"
+            - cell "6061, 7075, 2024"
+            - cell "Compare strength, stiffness, part mass, environment and finish needs. Specify the exact alloy and temper."
+          - row "Stainless steel 304, 316, 17-4PH Compare the service environment and mechanical requirements. Specify the grade, condition and any required heat treatment.":
+            - rowheader "Stainless steel"
+            - cell "304, 316, 17-4PH"
+            - cell "Compare the service environment and mechanical requirements. Specify the grade, condition and any required heat treatment."
+          - row "Copper / brass See the material naming note below. Define the electrical or thermal role and service environment. Confirm the exact designation and applicable standard.":
+            - rowheader "Copper / brass"
+            - cell "See the material naming note below."
+            - cell "Define the electrical or thermal role and service environment. Confirm the exact designation and applicable standard."
+          - row "Engineering plastics POM, PEEK, PPSU Compare temperature, load, chemical exposure, electrical behavior and mating material. Specify the polymer grade and condition.":
+            - rowheader "Engineering plastics"
+            - cell "POM, PEEK, PPSU"
+            - cell "Compare temperature, load, chemical exposure, electrical behavior and mating material. Specify the polymer grade and condition."
+          - row "Other named materials Titanium, Inconel, Kovar, Invar Provide the exact material designation and intended use for engineering review.":
+            - rowheader "Other named materials"
+            - cell "Titanium, Inconel, Kovar, Invar"
+            - cell "Provide the exact material designation and intended use for engineering review."
+    - region "Confirm the alloy designation":
+      - heading "Confirm the alloy designation" [level=3]
+      - paragraph: The original brochure names C3600 and H62, while the supplied material sheet lists C36000 brass. Their equivalence is not established. Confirm the exact designation and applicable standard in your inquiry.
+    - heading "Define the finish and acceptance criteria" [level=2]
+    - paragraph: Finishing options depend on the material. Services include deburring and polishing, with blasting, anodizing, passivation or plating where suitable. The quotation confirms the treatment and supporting documents for your part.
+    - list:
+      - listitem: "Process specification: identify the material and treatment, including the finish standard and revision where applicable. Specify controlled color, gloss, texture, coating thickness or roughness; separate visual appearance from the finish's function."
+      - listitem: "Faces and edges: mark cosmetic faces and specify edge breaks and deburring or polishing requirements. For bead blasting, agree the appearance and whether a reference sample is needed."
+      - listitem: "Masking and function: mark protected threads, mating bores and other interfaces, plus surfaces for corrosion protection, electrical contact or sealing. For anodizing, confirm the alloy, color and coating requirements. For passivation or plating, confirm the process specification and protected areas."
+      - listitem: "Dimensions and inspection: state whether acceptance dimensions apply before or after treatment. Critical dimensions are checked at the agreed stage, including after finishing where required."
+      - listitem: "Order records: specify the material and treatment documents and acceptance records required. We link the requested documents to the relevant part or batch reference."
+    - region "Finish requirements and acceptance stages":
+      - table:
+        - rowgroup:
+          - row "Requirement Specification Inspection stage":
+            - columnheader "Requirement"
+            - columnheader "Specification"
+            - columnheader "Inspection stage"
+        - rowgroup:
+          - row "Substrate Exact material grade and condition. Confirm before treatment.":
+            - rowheader "Substrate"
+            - cell "Exact material grade and condition."
+            - cell "Confirm before treatment."
+          - row "Treatment Required coating or treatment, standard and revision. Agree process before production.":
+            - rowheader "Treatment"
+            - cell "Required coating or treatment, standard and revision."
+            - cell "Agree process before production."
+          - row "Coat or mask Faces, bores, threads and interfaces to coat or protect. Identify before treatment; verify agreed interfaces after treatment.":
+            - rowheader "Coat or mask"
+            - cell "Faces, bores, threads and interfaces to coat or protect."
+            - cell "Identify before treatment; verify agreed interfaces after treatment."
+          - row "Critical dimensions Whether acceptance dimensions apply before or after coating. Check at the specified stage.":
+            - rowheader "Critical dimensions"
+            - cell "Whether acceptance dimensions apply before or after coating."
+            - cell "Check at the specified stage."
+          - row "Thickness Coating thickness requirements and the agreed measurement method. Agree any required after-treatment check and record.":
+            - rowheader "Thickness"
+            - cell "Coating thickness requirements and the agreed measurement method."
+            - cell "Agree any required after-treatment check and record."
+          - row "Appearance Cosmetic faces, color, gloss, texture and any agreed reference. Agree appearance criteria before work; review the finished part.":
+            - rowheader "Appearance"
+            - cell "Cosmetic faces, color, gloss, texture and any agreed reference."
+            - cell "Agree appearance criteria before work; review the finished part."
+          - row "Tests and records Required tests, limits, sampling, document format and part or batch reference. Confirm availability and scope in the quotation; record agreed results.":
+            - rowheader "Tests and records"
+            - cell "Required tests, limits, sampling, document format and part or batch reference."
+            - cell "Confirm availability and scope in the quotation; record agreed results."
+    - paragraph:
+      - text: See the
+      - link "original surface-coating photographs":
+        - /url: /resources/processes-materials-finishes/#coated-parts
+      - text: and agree
+      - link "order documentation":
+        - /url: /quality/#order-documentation
+      - text: .
+    - paragraph: Use the finish specification and inspection criteria to accept the part.
+    - heading "Record the requirements in your RFQ" [level=2]
+    - paragraph:
+      - text: Record the material and finish on the controlled drawing or specification. Include inspection and traceability requirements in your
+      - link "RFQ package":
+        - /url: /resources/rfq-checklist/
+      - text: ", using the"
+      - link "quality checklist":
+        - /url: /quality/
+      - text: to check the details before you
+      - link "prepare an inquiry":
+        - /url: /quote/
+      - text: .
+    - navigation "Resources and order preparation":
+      - link "All resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Quality control":
+        - /url: /quality/
+    - region "Prepare an inquiry":
+      - heading "Request a quote for your part" [level=2]
+      - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+      - link "Prepare RFQ email":
+        - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

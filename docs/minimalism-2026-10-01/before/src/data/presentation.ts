@@ -1,0 +1,71 @@
+// Editorial display labels; original names, content and source URLs stay intact.
+const titles: Record<string, string> = {
+ 'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm': 'Multi-bore circular milled component',
+ 'custom-oem-high-precision-cnc-milling-manufacturer': 'Milled instrument blocks & brackets',
+ 'ultra-high-precision-machining-services': 'Machined impellers',
+ 'global-oem-precision-machining-solutions': 'Ring housings & angled components',
+ 'global-manufacturer-of-multi-sided-precision-machined-components': 'Multi-sided machined components',
+ 'custom-oem-cnc-turning-manufacturer': 'Custom CNC-turned components',
+ 'custom-rotary-cylindrical-components': 'Rotary & cylindrical components',
+ 'custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer': 'Turned fittings, connectors & flanges',
+ 'full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing': 'Milled metal brackets & finished housings',
+ 'custom-high-precision-machining-for-structural-aesthetic-components-oem': 'Structural & aesthetic components',
+ 'high-volume-cnc-turning-for-complex-internal-external-features': 'Complex internal & external turned features',
+ 'high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem': 'Turbine & fluid-system components',
+ 'custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier': 'Aluminum intercooler prototypes',
+ 'custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier': 'Billet aluminum engine covers',
+ 'custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier': 'Billet intake manifold prototypes',
+ 'custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier': 'CNC-machined electronic throttle bodies',
+ 'custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier': 'Billet aluminum intake manifolds',
+ 'custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier': 'Billet aluminum intake plenums',
+ 'custom-cnc-machined-castings-transmission-housings-pump-bodies': 'Transmission housings & pump bodies',
+ 'custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier': 'Stainless steel turned shafts',
+ 'custom-oem-cnc-machined-non-metallic-components-insulating-parts': 'Non-metallic & insulating components',
+ 'custom-oem-cnc-machined-plastic-parts-manufacturer': 'Custom machined plastic parts',
+ 'oem-precision-cnc-machined-casting-housing-structural-enclosures': 'Cast housings & structural enclosures',
+ 'oem-precision-cnc-machined-casting-housings': 'CNC-machined casting housings',
+ 'precision-cnc-machined-castings-custom-oem-housings': 'Machined castings & OEM housings',
+ 'precision-cnc-machined-castings-manufacturer': 'Precision-machined castings',
+ 'precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances': 'Complex-geometry plastic components',
+ 'precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier': 'Turned brass & copper components',
+ 'precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier': 'Pilot-batch housings & mating parts',
+ 'precision-machining-for-functional-plastic-blocks-structural-components': 'Functional plastic blocks & structures',
+ 'precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures': 'Small-batch aluminum enclosures',
+ 'precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier': 'Stainless steel turned parts',
+ 'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier': 'Indexing plungers & locking pins',
+ 'small-batch-cnc-machining-manufacturer-complex-aluminum-housings': 'Complex aluminum housings',
+ 'small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv': 'Mixed-material pilot-run components',
+};
+export const productTitle = (product: {slug: string; name: string}) => titles[product.slug] || product.name;
+export const categoryDetails: Record<string, {title: string; description: string}> = {
+ 'cnc-milling-service': {title: 'CNC milling', description: 'Custom milling for housings and other components with pockets, bores and detailed profiles. Send your drawing to discuss the machining requirements.'},
+ 'cnc-turning-service': {title: 'CNC turning', description: 'Turned shafts, fittings and flanges with internal and external features. Specify the fits, threads and concentricity your assembly needs.'},
+ '5-axis-cnc-machining': {title: '5-axis machining', description: 'Machining for angled features and curved surfaces. We assess the geometry and tool access from your model.'},
+ 'prototype-machining': {title: 'Prototype machining', description: 'Machined prototypes for design development. Browse examples and discuss the next revision of your part.'},
+ 'low-volume-production': {title: 'Low-volume production', description: 'Small production runs of custom components, including aluminum enclosures. Send the batch quantity and schedule with your drawing.'},
+ 'casting-machining': {title: 'Casting machining', description: 'Machining cast housings, transmission components and pump bodies. Send the casting specification along with the finished-part drawing.'},
+ 'aluminum-cnc-parts': {title: 'Aluminum machining', description: 'Custom aluminum housings and structural components. Specify the alloy and finish needed for your application.'},
+ 'stainless-steel-cnc-parts': {title: 'Stainless steel machining', description: 'Stainless steel shafts, fittings and other custom components machined to your drawing.'},
+ 'copper-brass-cnc-parts': {title: 'Copper & brass machining', description: 'Machined fittings, electrical contacts and custom connectors in copper and brass alloys.'},
+ 'plastic-machined-parts': {title: 'Plastic machining', description: 'Milled and turned engineering plastics for insulating parts and structural blocks. Browse examples by shape and function.'},
+};
+
+// Short labels for browsing; full engineering titles remain on detail pages.
+const cardNames:Record<string,string>={
+ 'ultra-high-precision-machining-services':'Machined impellers',
+ 'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm':'Multi-bore components',
+ 'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier':'Locking pins',
+ 'global-oem-precision-machining-solutions':'Angled housings',
+ 'global-manufacturer-of-multi-sided-precision-machined-components':'Multi-face components',
+ 'oem-precision-cnc-machined-casting-housings':'Cast housings',
+ 'custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer':'Fittings & flanges',
+ 'custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier':'Billet engine covers',
+ 'custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier':'Throttle bodies',
+ 'custom-oem-cnc-machined-plastic-parts-manufacturer':'Plastic components',
+ 'precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier':'Brass & copper parts',
+ 'small-batch-cnc-machining-manufacturer-complex-aluminum-housings':'Aluminum housings',
+ 'custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier':'Intercooler prototypes',
+ 'custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier':'Intake prototypes'
+};
+export const productCardTitle=(product:{slug:string;name:string})=>cardNames[product.slug]||productTitle(product);
+export const productImageAlt=(product:{slug:string;name:string})=>product.slug==='small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv'?'Batch of turned cylindrical components':productCardTitle(product);

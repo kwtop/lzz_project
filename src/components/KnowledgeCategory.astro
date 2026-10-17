@@ -1,0 +1,26 @@
+---
+import {resourceHref} from '../data/knowledgeCenter';
+import Layout from '../layouts/Layout.astro';
+import {resources} from '../data/resources';
+import {knowledgeTopics} from '../data/knowledgeCenter';
+import '../styles/content-editorial.css';
+import ContentFigure from './ContentFigure.astro';
+import ContentClosing from './ContentClosing.astro';
+import {contentGuides} from '../data/contentGuides';
+import '../styles/procurement-guides.css';
+interface Props {topic:string}
+const {topic}=Astro.props;
+const group=knowledgeTopics.find(item=>item.id===topic)!;
+const {title,description}=group;
+const articles=group.slugs.map(slug=>resources.find(item=>item.slug===slug)!);
+
+---
+<Layout title={title+' | CNC machining resources'} description={description} cta={false}>
+<article class="content-editorial">
+<header class="ce-wrap ce-header"><div><h1>{title}</h1><p>{description}</p></div><ContentFigure visual={topic==='delivery-guides'?'packing':'drawing'} eager/></header>
+{(articles.length>3?articles.slice(0,1):articles).map(article=><section class="ce-wrap ce-chapter ce-split ce-image-first"><ContentFigure visual={contentGuides[article.slug].sections[0]?.visual||contentGuides[article.slug].visual}/><div class="ce-copy"><h2><a class="ce-directory-link" href={resourceHref(article.slug)}>{article.title}</a></h2><p>{article.description}</p></div></section>)}
+{articles.length>3&&<section class="ce-wrap ce-chapter ce-topic-articles" aria-label="More drawing and ordering guides">{articles.slice(1).map(article=><article><h2><a class="ce-directory-link" href={resourceHref(article.slug)}>{article.title}</a></h2><p>{article.description}</p></article>)}</section>}
+<slot/>
+<ContentClosing title="Put the requirements in your RFQ"/>
+</article>
+</Layout>

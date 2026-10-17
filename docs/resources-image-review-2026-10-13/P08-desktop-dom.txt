@@ -1,0 +1,149 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / Manufacturing guide
+    - heading "Define part requirements before machining" [level=1]
+    - heading "Identify the working surfaces" [level=2]
+    - paragraph: A housing or shaft is located by the surfaces that meet other parts. Mark those interfaces on the drawing, including surfaces used to seal, slide or carry load. For a mounting block, identify the locating faces so tolerances can be assessed against the assembly function.
+    - paragraph:
+      - text: Compare
+      - link "milled pockets and housings":
+        - /url: /capabilities/cnc-milling-service/
+      - text: with
+      - link "turned shafts and fittings":
+        - /url: /capabilities/cnc-turning-service/
+      - text: . Some designs need both operations; the geometry determines the process choice.
+    - heading "Specify critical dimensions" [level=2]
+    - paragraph: Give critical features their datums and acceptance limits. A 3D model defines shape, but a controlled 2D drawing may also be needed to specify fits and surface texture. Include edge conditions and measurement requirements where they affect acceptance.
+    - paragraph:
+      - text: Tolerances are assessed for each drawing. Achievable limits depend on the material and feature geometry, together with the setup and measurement method. Agree on
+      - link "inspection requirements and supporting records":
+        - /url: /quality/
+      - text: for your design.
+    - complementary "Part references and drawing preparation":
+      - figure "Machined parts with flat faces, hole patterns and pockets. View full original component photograph":
+        - img "Milled components with flat faces, hole patterns and pockets"
+        - text: Machined parts with flat faces, hole patterns and pockets.
+        - link "View full original component photograph":
+          - /url: /media/evidence/multi-feature-milling-parts-1600.webp
+          - text: View original photograph
+      - region "Related part examples":
+        - heading "Related part examples" [level=2]
+        - paragraph: Examples with related features. Each custom part is quoted to its own drawing.
+        - link "Multi-sided machined components":
+          - /url: /products/global-manufacturer-of-multi-sided-precision-machined-components/
+        - link "Stainless steel turned parts":
+          - /url: /products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/
+      - heading "Next step" [level=2]
+      - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+      - link "View RFQ checklist":
+        - /url: /resources/rfq-checklist/
+    - heading "Specify material and surface requirements" [level=2]
+    - paragraph: State the exact alloy or plastic grade, material condition and any material-certificate requirement. For coated parts, specify the finish and whether critical dimensions apply before or after treatment. Mark areas that need masking, cosmetic faces and burr-sensitive edges.
+    - paragraph:
+      - text: Name the applicable standards and their revisions. Include traceability and approval requirements, with the intended end use and any export requirements. The
+      - link "material and finish checklist":
+        - /url: /resources/material-and-finish-checklist/
+      - text: covers the detailed fields.
+    - heading "Define acceptance checks and revisions" [level=2]
+    - paragraph: Define the checks needed to accept the part, whether they concern assembly fit, appearance or a functional test. Set the criteria before machining. For a design change, issue a revised drawing identifying the affected features.
+    - paragraph:
+      - text: Record the controlled drawing revision, material, finish and approval criteria. Sample approval does not cover a changed design or material.
+      - link "Prototype-to-repeat planning":
+        - /url: /resources/prototype-vs-small-batch-cnc/
+      - text: explains how to release the approved specification;
+      - link "How we work":
+        - /url: /resources/how-we-work/#section-5
+      - text: covers the order approval.
+    - heading "Include the requirements with your RFQ" [level=2]
+    - paragraph:
+      - text: Send the controlled drawing with the material and finish specification. Identify the critical interfaces and acceptance checks. Use the
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - text: to prepare the complete inquiry.
+    - navigation "Resources and order preparation":
+      - link "All resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Quality control":
+        - /url: /quality/
+    - region "Prepare an inquiry":
+      - heading "Request a quote for your part" [level=2]
+      - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+      - link "Prepare RFQ email":
+        - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "retouched to source thumbnail",
+    "source image modal",
+    "Escape closes modal",
+    "switch back to retouched"
+  ],
+  "errors": []
+}

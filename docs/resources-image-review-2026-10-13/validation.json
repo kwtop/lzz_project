@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-13",
+  "document": "D:\\lzz\\lzz\\_react\\docs\\resources-image-content-proposal-2026-10-13.md",
+  "document_sha256": "86b1e49e94d83093512cb26eefff13fdeea4778008ea215011f1c294dcd28115",
+  "bytes": 64944,
+  "lines": 572,
+  "page_sections": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12"
+  ],
+  "scope_routes": [
+    "/resources/",
+    "/resources/rfq-checklist/",
+    "/resources/how-we-work/",
+    "/resources/processes-materials-finishes/",
+    "/resources/production-and-shipping/",
+    "/resources/faq/",
+    "/resources/drawings-and-ordering/",
+    "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+    "/resources/cnc-process-selection/",
+    "/resources/material-and-finish-checklist/",
+    "/resources/prototype-vs-small-batch-cnc/",
+    "/resources/custom-cnc-parts-shipping-checklist/"
+  ],
+  "captures": [
+    {
+      "page": "P01",
+      "mode": "desktop",
+      "file": "screenshots/P01-desktop.jpg",
+      "pixels": [
+        1424,
+        3172
+      ],
+      "sha256": "86dfd40494481708b4675218c5cc238378b6f0f0418731dd1be95816dbe393ca"
+    },
+    {
+      "page": "P02",
+      "mode": "desktop",
+      "file": "screenshots/P02-desktop.jpg",
+      "pixels": [
+        1424,
+        3868
+      ],
+      "sha256": "c3162e0ec105b78ddeb321c9c99b1f3b406a5d636216b6d3077e142fe42f50e2"
+    },
+    {
+      "page": "P03",
+      "mode": "desktop",
+      "file": "screenshots/P03-desktop.jpg",
+      "pixels": [
+        1424,
+        5614
+      ],
+      "sha256": "ac614c6a639905feeadf36058418e21a5d463019617767826c01b2d537c29a03"
+    },
+    {
+      "page": "P04",
+      "mode": "desktop",
+      "file": "screenshots/P04-desktop.jpg",
+      "pixels": [
+        1424,
+        3956
+      ],
+      "sha256": "110be53be58e38f178f87913546c6593758602b42f9250fe393c25cb6004fc35"
+    },
+    {
+      "page": "P05",
+      "mode": "desktop",
+      "file": "screenshots/P05-desktop.jpg",
+      "pixels": [
+        1424,
+        2560
+      ],
+      "sha256": "bc10784c121a715226660e00779d06c32a4389cbcea26e841fa5705232b325c9"
+    },
+    {
+      "page": "P06",
+      "mode": "desktop",
+      "file": "screenshots/P06-desktop.jpg",
+      "pixels": [
+        1424,
+        4735
+      ],
+      "sha256": "e13c1221c989c0a0681901cbbaa058f096f5d230e8c5f91c36a42661f9fdb13b"
+    },
+    {
+      "page": "P07",
+      "mode": "desktop",
+      "file": "screenshots/P07-desktop.jpg",
+      "pixels": [
+        1424,
+        2554
+      ],
+      "sha256": "2a12b6e4b0cc63f7e34b55cb2ea7ba5708712415a5bd11e1326e8d01625e143f"
+    },
+    {
+      "page": "P08",
+      "mode": "desktop",
+      "file": "screenshots/P08-desktop.jpg",
+      "pixels": [
+        1424,
+        2915
+      ],
+      "sha256": "cad9bcb11745668247b0dc87f4ae0328f1b865802a333573b009813ed7dc4b86"
+    },
+    {
+      "page": "P09",
+      "mode": "desktop",
+      "file": "screenshots/P09-desktop.jpg",
+      "pixels": [
+        1424,
+        3570
+      ],
+      "sha256": "5389e32132e190b8d0089afa7d8a03e3fd7fc847401be1fe5ebea7b38a3fafc1"
+    },
+    {
+      "page": "P10",
+      "mode": "desktop",
+      "file": "screenshots/P10-desktop.jpg",
+      "pixels": [
+        1424,
+        4453
+      ],
+      "sha256": "fa3bc2f611160c82a1d80c15ebd26a5974d572be740ed013125326c16194f5f8"
+    },
+    {
+      "page": "P11",
+      "mode": "desktop",
+      "file": "screenshots/P11-desktop.jpg",
+      "pixels": [
+        1424,
+        4307
+      ],
+      "sha256": "119109e4bdaae88c880bcedb8f326045599f456e0ba50d3f05949ca2ba2f2c9f"
+    },
+    {
+      "page": "P12",
+      "mode": "desktop",
+      "file": "screenshots/P12-desktop.jpg",
+      "pixels": [
+        1424,
+        3649
+      ],
+      "sha256": "aa25b96c735e57cbee86f305ab45b32872f7285efc4bb97c79c7dcc8eeb120b1"
+    },
+    {
+      "page": "P01",
+      "mode": "mobile",
+      "file": "screenshots/P01-mobile.jpg",
+      "pixels": [
+        374,
+        5136
+      ],
+      "sha256": "2510022e14fe37a830c4e01ef7def9d202cdb060d3631510b332ebeac8231fb8"
+    },
+    {
+      "page": "P02",
+      "mode": "mobile",
+      "file": "screenshots/P02-mobile.jpg",
+      "pixels": [
+        374,
+        6624
+      ],
+      "sha256": "1989dd898c9ae8722f2decce6253411f6a99795cf8ac90350adcd39f9c7e8917"
+    },
+    {
+      "page": "P03",
+      "mode": "mobile",
+      "file": "screenshots/P03-mobile.jpg",
+      "pixels": [
+        374,
+        7650
+      ],
+      "sha256": "55decb4107eb3a54ccabf4dcad4949621c585bdb7461e5e6ceed7c61e2d59aff"
+    },
+    {
+      "page": "P04",
+      "mode": "mobile",
+      "file": "screenshots/P04-mobile.jpg",
+      "pixels": [
+        374,
+        5573
+      ],
+      "sha256": "305b2dcc6a9b1ce16ed042cee3e58f924ec2f2339ad52e603416ae221c5f3b56"
+    },
+    {
+      "page": "P05",
+      "mode": "mobile",
+      "file": "screenshots/P05-mobile.jpg",
+      "pixels": [
+        374,
+        3532
+      ],
+      "sha256": "3f777c3ed1d882771a22801a72904ccdae6dc27f8b053a425bb12a76e7130247"
+    },
+    {
+      "page": "P06",
+      "mode": "mobile",
+      "file": "screenshots/P06-mobile.jpg",
+      "pixels": [
+        374,
+        7376
+      ],
+      "sha256": "f6d9348684befc2e9296072ce49d08be37cf9d1fd475cd019bcdecd42cbb57fb"
+    },
+    {
+      "page": "P07",
+      "mode": "mobile",
+      "file": "screenshots/P07-mobile.jpg",
+      "pixels": [
+        374,
+        3642
+      ],
+      "sha256": "126fb5de08a4606a201a293333d416bddad37e3d483033d4fff979e39249049c"
+    },
+    {
+      "page": "P08",
+      "mode": "mobile",
+      "file": "screenshots/P08-mobile.jpg",
+      "pixels": [
+        374,
+        4782
+      ],
+      "sha256": "ff73a085abd3f03e45977e7bab24f53e21372a81cb74c53be6c4bc00d5de6d29"
+    },
+    {
+      "page": "P09",
+      "mode": "mobile",
+      "file": "screenshots/P09-mobile.jpg",
+      "pixels": [
+        374,
+        6347
+      ],
+      "sha256": "d46aa47f94a4a9c392f37558fc2fc4b56a596fe405b4663a8400ae7227b098dc"
+    },
+    {
+      "page": "P10",
+      "mode": "mobile",
+      "file": "screenshots/P10-mobile.jpg",
+      "pixels": [
+        374,
+        8701
+      ],
+      "sha256": "dccab89ec6108d21f52d2df47b50c96e887840b336c6a4bab209512ec4881a1b"
+    },
+    {
+      "page": "P11",
+      "mode": "mobile",
+      "file": "screenshots/P11-mobile.jpg",
+      "pixels": [
+        374,
+        6307
+      ],
+      "sha256": "5b14988cbaf397e60df4d7c13cb4df4e72cc829cbf5d3ddeb0fe1e704e4ce433"
+    },
+    {
+      "page": "P12",
+      "mode": "mobile",
+      "file": "screenshots/P12-mobile.jpg",
+      "pixels": [
+        374,
+        5501
+      ],
+      "sha256": "9074bc95f87d702db708c83c81fe112750d936f0c5362654854d2f4bc4bf8311"
+    }
+  ],
+  "existing_asset_groups": 13,
+  "desktop_image_occurrences": 18,
+  "tasks": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09"
+  ],
+  "local_link_targets": 53,
+  "missing_links": [],
+  "image_load_issues": [],
+  "visible_overflow_pages": [],
+  "protected_files": 2084,
+  "source_media_changed": [],
+  "source_media_added": [],
+  "source_media_removed": [],
+  "passed": true,
+  "document_version": "v1.1",
+  "revision_checks": {
+    "new_illustrations": [
+      "T06",
+      "T07",
+      "T08",
+      "T09"
+    ],
+    "conditional_photo_optimizations": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05"
+    ],
+    "withdrawn": [
+      "T10"
+    ],
+    "page_and_task_coverage": true,
+    "v1_0_archive_exists": true
+  },
+  "evidence_note": "Page captures, asset checks and protected-source hashes are from the same-day v1.0 audit. v1.1 changes proposal text only; it is not a new website test."
+}

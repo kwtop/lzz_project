@@ -1,0 +1,117 @@
+{
+  "canonical": "https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/",
+  "description": "A broad display housing with recessed faces, edge details and mounting features.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "CNC machining a 29-inch display housing"
+    },
+    {
+      "tag": "H2",
+      "text": "The component"
+    },
+    {
+      "tag": "H2",
+      "text": "Machining setup"
+    },
+    {
+      "tag": "H2",
+      "text": "Machined features"
+    },
+    {
+      "tag": "H2",
+      "text": "Inspection planning"
+    },
+    {
+      "tag": "H2",
+      "text": "Two faces of the enclosure"
+    },
+    {
+      "tag": "H2",
+      "text": "Watch the display housing in the workshop"
+    },
+    {
+      "tag": "H2",
+      "text": "Related capabilities"
+    },
+    {
+      "tag": "H3",
+      "text": "Parts with similar features"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/products/",
+      "text": "Custom Parts"
+    },
+    {
+      "href": "/cases/",
+      "text": "Machining Studies"
+    },
+    {
+      "href": "#study-0",
+      "text": ""
+    },
+    {
+      "href": "#study-1",
+      "text": ""
+    },
+    {
+      "href": "#study-2",
+      "text": ""
+    },
+    {
+      "href": "#study-3",
+      "text": ""
+    },
+    {
+      "href": "/quote/",
+      "text": "Discuss your drawing"
+    },
+    {
+      "href": "/media/source-details/display-housing-pair-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/source-details/display-housing.mp4",
+      "text": "Open the video"
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "CNC milling"
+    },
+    {
+      "href": "/capabilities/aluminum-cnc-parts/",
+      "text": "Aluminum machining"
+    },
+    {
+      "href": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "text": "Complex aluminum housings"
+    },
+    {
+      "href": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "text": "Small-batch aluminum enclosures"
+    },
+    {
+      "href": "/cases/",
+      "text": "See all process studies"
+    }
+  ],
+  "main": "Home\nCustom Parts\nMachining Studies\nCNC machining a 29-inch display housing\n\nA broad display housing with recessed faces, edge details and mounting features.\n\nStudy sections\n\nThe photographs come from the LZZ workshop and show the part shapes and setups discussed here.\n\nPhotography & project scope\nDiscuss your drawing\n01 · LZZ workshop\nThe component\n\nThis housing is identified in the workshop records as a 29-inch display enclosure. Broad rectangular panels carry slots and mounting features. The display size does not specify the enclosure dimensions; those must come from the drawing.\n\n02 · LZZ workshop\nMachining setup\n\nThe panel is supported across the machine table beneath the spindle. The machining photographs show the broad internal face and access from above. For a comparable enclosure, review support points, clamping areas, tool reach and the order of operations before choosing the setup.\n\nMachined features\n\nThe panels have internal recesses, machined face patterns and narrow edge features. The paired view compares their two faces, while the workshop video provides a closer look at the overall form.\n\nInspection planning\n\nFor your enclosure, identify mounting datums, hole and slot positions, required flatness and mating-edge relationships. Specify cosmetic faces, finish and acceptance dimensions after treatment. Agree the measurement method and inspection records for the features that control assembly.\n\nTwo faces of the enclosure\nPaired enclosure panels showing their internal and external faces.\nWatch the display housing in the workshop\n\nThe clip shows a person holding and turning the machined panel, followed by a view of the CNC machine and workpiece. Compare the broad faces, internal recesses and overall form.\n\n18-second original clip\n\nSelect play to view the original footage.\nRelated capabilities\nCNC milling\nAluminum machining\nParts with similar features\n\nSeparate catalog examples for a similar enquiry.\n\nComplex aluminum housings\nSmall-batch aluminum enclosures\nSee all process studies",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/#webpage\",\"url\":\"https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/\",\"name\":\"CNC machining a 29-inch display housing\",\"description\":\"A broad display housing with recessed faces, edge details and mounting features.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Custom Parts\",\"item\":\"https://www.lzz-cnc.com/products/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Machining Studies\",\"item\":\"https://www.lzz-cnc.com/cases/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"CNC machining a 29-inch display housing\",\"item\":\"https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/\"}]},{\"@type\":\"Article\",\"headline\":\"CNC machining a 29-inch display housing\",\"description\":\"A broad display housing with recessed faces, edge details and mounting features.\",\"mainEntityOfPage\":{\"@id\":\"https://www.lzz-cnc.com/cases/29-inch-display-housing-cnc-machining/#webpage\"},\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"image\":\"https://www.lzz-cnc.com/media/evidence/display-housing-machining-1600.webp\"}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "CNC machining a 29-inch display housing | LZZ Precision",
+  "url": "http://127.0.0.1:4326/cases/29-inch-display-housing-cnc-machining/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "cases-29-inch-display-housing-cnc-machining-mobile-production"
+}

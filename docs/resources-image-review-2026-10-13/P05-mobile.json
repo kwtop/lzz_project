@@ -1,0 +1,151 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Production & shipping",
+      "y": 210
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Planning CNC prototypes and repeat batches",
+      "y": 638
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Shipping CNC parts internationally",
+      "y": 1066
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "More resources",
+      "y": 1695
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote",
+      "y": 2235
+    }
+  ],
+  "images": [
+    {
+      "alt": "Single housing beside four matching parts",
+      "anchor": "",
+      "caption": "",
+      "complete": true,
+      "context": "topic-intro-photo",
+      "currentSrc": "http://127.0.0.1:4323/media/gallery/prototype-gallery-v1-480.webp",
+      "index": 1,
+      "naturalHeight": 234,
+      "naturalWidth": 351,
+      "nearestHeading": "Production & shipping",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 260,
+        "width": 331,
+        "x": 22,
+        "y": 317
+      },
+      "src": "/media/gallery/prototype-gallery-v1-1440.webp",
+      "srcset": "/media/gallery/prototype-gallery-v1-480.webp 480w, /media/gallery/prototype-gallery-v1-800.webp 800w, /media/gallery/prototype-gallery-v1-1200.webp 1200w, /media/gallery/prototype-gallery-v1-1440.webp 1440w"
+    },
+    {
+      "alt": "Shipment preparation at LZZ. Packing is selected for each order.",
+      "anchor": "",
+      "caption": "",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/shipping-example-1600-400.webp",
+      "index": 2,
+      "naturalHeight": 263,
+      "naturalWidth": 351,
+      "nearestHeading": "Shipping CNC parts internationally",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "source-photo",
+      "render": {
+        "height": 248,
+        "width": 331,
+        "x": 22,
+        "y": 1330
+      },
+      "src": "/media/evidence/shipping-example-1600.webp",
+      "srcset": "/media/responsive/shipping-example-1600-240.webp 240w, /media/responsive/shipping-example-1600-320.webp 320w, /media/responsive/shipping-example-1600-400.webp 400w, /media/responsive/shipping-example-1600-480.webp 480w, /media/responsive/shipping-example-1600-640.webp 640w, /media/responsive/shipping-example-1600-800.webp 800w, /media/responsive/shipping-example-1600-960.webp 960w, /media/responsive/shipping-example-1600-1200.webp 1200w, /media/responsive/shipping-example-1600-1600.webp 1600w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Planning CNC prototypes and repeat batches"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Read the guide"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Shipping CNC parts internationally"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Read the guide"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nProduction & shipping\nProduction & shipping\nPlanning CNC prototypes and repeat batches\n\nApproved specifications for repeat production\n\nSample approval · Controlled revision · Batch records\n\nRead the guide\nShipping CNC parts internationally\n\nPacking and delivery arrangements\n\nDestination · Incoterm and named place · Packing and documents\n\nRead the guide\nMore resources\nRFQ checklist\nHow we work\nAll resources\nRFQ checklist\nHow we work\nQuality control\nRequest a quote\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 3532,
+  "title": "CNC production & shipping guides | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/production-and-shipping/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P05",
+  "mode": "mobile",
+  "screenshot": "screenshots/P05-mobile.jpg"
+}

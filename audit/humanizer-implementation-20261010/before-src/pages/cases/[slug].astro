@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ReadingHeader from '../../components/ReadingHeader.astro';
+import PageContents from '../../components/PageContents.astro';
+import PrismaticStudy from '../../components/PrismaticStudy.astro';
+import Arrow from '../../components/Arrow.astro';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import {engineeringCases} from '../../data/cases';
+import {photo} from '../../data/evidence';
+import {casePartExamples} from '../../data/editorialLinks';
+import {productTitle,categoryDetails} from '../../data/presentation';
+import catalog from '../../data/catalog.json';
+import WorkshopVideo from '../../components/WorkshopVideo.astro';
+import ReferenceGallery from '../../components/ReferenceGallery.astro';
+import WorkshopCollection from '../../components/WorkshopCollection.astro';
+import {workshopCollections} from '../../data/workshopCollections';
+export function getStaticPaths(){return engineeringCases.map(item=>({params:{slug:item.slug},props:{item}}));}
+const {item}=Astro.props;
+const sections=item.collection?workshopCollections[item.collection].map(section=>[section.title,section.copy]):[['The component',item.workpiece],['Machining setup',item.setup],['Machined features',item.visible],['Inspection planning',item.inspection]];
+const examples=(casePartExamples[item.slug]||[]).map(slug=>catalog.products.find(product=>product.slug===slug)).filter((product):product is (typeof catalog.products)[number]=>Boolean(product));
+const photographyScope=item.collection?"These photographs and clips come from the supplied LZZ material collection. They show separate part examples, not a single customer order. Material names follow the source labels; exact grades, dimensions and acceptance results require the order documents.":"The photographs come from the LZZ workshop and show the part shapes and setups discussed here. They do not confirm material grades, dimensions or inspection results, and no customer is identified. Use the drawing and inspection notes to plan a similar part.";
+const photographySummary=photographyScope.split('. ')[0]+'.';
+const contents=sections.map(([label],index)=>({id:item.collection?workshopCollections[item.collection][index].id:'study-'+index,label}));
+---
+<Layout title={item.title} description={item.lead} article articleImage={photo(item.hero).src} cta={item.slug!=='milling-prismatic-components'}>
+ {item.slug==='milling-prismatic-components'?<PrismaticStudy/>:<>
+ <article class="case-study reading-page">
+  <ReadingHeader title={item.title} description={item.lead} breadcrumbs={[{label:'Home',href:'/'},{label:'Custom Parts',href:'/products/'},{label:'Machining Studies',href:'/cases/'}]}/>
+  <PageContents entries={contents} label="Study sections"/>
+  <div class="container case-reading-body">
+  <div class="case-procurement"><div><p class="case-source-summary">{photographySummary}</p><details class="case-source"><summary>Photography &amp; project scope</summary><p>{photographyScope}</p></details></div><a href="/quote/" class="button">Discuss your drawing <Arrow size={18}/></a></div>
+
+  <div class="case-content">{item.collection?<WorkshopCollection collection={item.collection}/>:<div class="case-sections">{sections.map(([heading,copy],index)=><section class="reading-section" id={'study-'+index}><figure>{index<2&&<><EvidenceImage id={item.photos[index]} sizes="(max-width:760px) 90vw, 560px" loading={index===0?'eager':'lazy'}/><figcaption>{String(index+1).padStart(2,'0')} · LZZ workshop</figcaption></>}</figure><div><h2>{heading}</h2><p>{copy}</p></div></section>)}</div>}</div>
+
+  {item.video&&<><ReferenceGallery ids={['display-housing-pair']} title="Two faces of the enclosure"/><WorkshopVideo id={item.video} title="Watch the display housing in the workshop" description="The clip shows a person holding and turning the machined panel, followed by a view of the CNC machine and workpiece. Compare the broad faces, internal recesses and overall form."/></>}
+  <section class="case-related reading-related" aria-label="Related studies and capabilities">
+   <nav class="case-capabilities" aria-labelledby="case-capabilities-title"><h2 id="case-capabilities-title">Related capabilities</h2>{item.relatedCapabilities.map(slug=><a href={'/capabilities/'+slug+'/'}>{categoryDetails[slug]?.title||slug.replaceAll('-',' ')} <Arrow size={16}/></a>)}</nav>
+   {examples.length>0&&<div class="case-similar" aria-labelledby="case-related-title"><h3 id="case-related-title">Parts with similar features</h3><p>Separate catalog examples for a similar enquiry.</p><div>{examples.map(product=><a href={'/products/'+product.slug+'/'}>{productTitle(product)}</a>)}</div></div>}
+   <a class="text-link" href="/cases/">See all process studies <Arrow/></a>
+  </section>
+  </div>
+ </article>
+ </>}
+</Layout>
+<style>
+ .case-procurement{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px 40px;align-items:start;border-block:1px solid var(--border);padding:18px 0 24px;margin-bottom:24px}.case-procurement>div,.case-source{min-width:0}.case-source-summary{margin:0 0 8px}.case-source p{margin-top:10px;max-width:75ch}.case-procurement>.button{margin-top:4px;white-space:nowrap}.case-source summary{cursor:pointer;min-height:44px;display:list-item}
+ .case-sections{display:grid;gap:0}.case-sections section{min-width:0;scroll-margin-top:110px}.case-sections section:nth-child(-n+2){display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:center;gap:40px}.case-sections figure{margin:0;min-width:0}.case-sections figure:empty{display:none}.case-sections :global(img){display:block;width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}.case-sections section:nth-child(2) figure{max-width:460px}.case-study figcaption{padding-top:12px}.case-sections p{margin-top:16px}
+ .case-capabilities a,.case-similar a{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:12px 0;border-bottom:1px solid var(--border)}.case-capabilities a:hover,.case-similar a:hover{color:var(--red)}.case-similar{margin-top:28px}.case-similar p{margin:12px 0 20px}.case-similar>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}.case-related>.text-link{margin-top:24px}
+ @media(max-width:760px){.case-procurement{grid-template-columns:1fr;gap:16px;padding-block:20px}.case-procurement>.button{justify-self:start;margin:0}.case-sections section:nth-child(-n+2){grid-template-columns:1fr;gap:24px}.case-sections section:nth-child(2) figure{max-width:none}.case-similar>div{grid-template-columns:1fr}}
+</style>

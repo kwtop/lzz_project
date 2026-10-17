@@ -1,0 +1,143 @@
+---
+import {guideImages} from '../data/refinedImages';
+import {photoFrame} from '../lib/photoFrame';
+import Layout from '../layouts/Layout.astro';
+import MayTeamOuting from './MayTeamOuting.astro';
+import HowWeWork from './HowWeWork.astro';
+import PrototypeJourney from './PrototypeJourney.astro';
+import RfqChecklist from './RfqChecklist.astro';
+import ShippingChecklist from './ShippingChecklist.astro';
+import Arrow from './Arrow.astro';
+import {resources} from '../data/resources';
+import {guidePartExamples} from '../data/editorialLinks';
+import {productTitle} from '../data/presentation';
+import catalog from '../data/catalog.json';
+import {load} from 'cheerio';
+const {article}=Astro.props;
+const isMayTeamOuting=article.slug==='may-2025-lzz-team-outing';
+const isHowWeWork=article.slug==='how-we-work';
+const isRfqChecklist=article.slug==='rfq-checklist';
+const isShippingChecklist=article.slug==='custom-cnc-parts-shipping-checklist';
+const isNews=article.category==='Company news';
+const isComparisonGuide=article.slug==='prototype-vs-small-batch-cnc';
+const visual=guideImages[article.slug]||(article.image?{image:article.image,srcset:article.imageSrcset,alt:article.imageAlt||article.title,caption:article.imageCaption,disclosure:undefined}:undefined);
+const visualFrame=visual?await photoFrame(visual.image,article.imageWidth||1200,article.imageHeight||800):undefined;
+const relatedNews=isNews?resources.filter(item=>item.category==='Company news'&&item.slug!==article.slug):[];
+const $=load(article.html,null,false);
+const escapeText=(value:string)=>value.replace(/[&<>"']/g,character=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]!));
+$('.decision-table').each((_,table)=>{
+ const headings=$(table).find('thead th').map((__,cell)=>$(cell).text().trim()).get();
+ const rows=$(table).find('tbody tr').map((__,row)=>{
+  const cells=$(row).children('th,td').map((___,cell)=>$(cell).text().trim()).get();
+  return `<section class="decision-mobile-row"><h3>${escapeText(cells[0]||'')}</h3>${cells.slice(1).map((value,index)=>`<div><strong>${escapeText(headings[index+1]||'Detail')}</strong><p>${escapeText(value)}</p></div>`).join('')}</section>`;
+ }).get().join('');
+ $(table).closest('.decision-table-wrap').after(`<div class="decision-mobile" aria-label="${escapeText(headings[0]||'Comparison')}">${rows}</div>`);
+});
+const contents: {id:string;label:string}[]=[];
+$('h2').each((i,element)=>{const id=$(element).attr('id')||'section-'+(i+1);$(element).attr('id',id);contents.push({id,label:$(element).text()});});
+let articleLead='';
+if(!isNews){
+ const children=$.root().children().toArray();
+ const comparisonEnd=$('.decision-table-wrap').first().next('.decision-mobile')[0];
+ const secondHeading=$('h2')[1];
+ const endIndex=isComparisonGuide?children.indexOf(comparisonEnd):secondHeading?children.indexOf(secondHeading)-1:children.length-1;
+ if(endIndex>=0){
+  const lead=children.slice(0,endIndex+1);
+  articleLead=lead.map(element=>$.html(element)).join('');
+  lead.forEach(element=>$(element).remove());
+ }
+}
+const articleBody=$.html();
+const examples=(guidePartExamples[article.slug]||[]).map(slug=>catalog.products.find(product=>product.slug===slug)).filter((product):product is (typeof catalog.products)[number]=>Boolean(product));
+---
+<Layout title={article.title} description={article.description} article={true} articleImage={isHowWeWork?'/media/editorial/how-we-work-hero-v2-1440.webp':visual?.image||article.image} cta={!isMayTeamOuting&&!isHowWeWork&&!isComparisonGuide&&!isRfqChecklist&&!isShippingChecklist}>
+ {isMayTeamOuting ? <MayTeamOuting article={article} relatedNews={relatedNews}/> : isShippingChecklist ? <ShippingChecklist/> : isHowWeWork ? <HowWeWork/> : isComparisonGuide ? <PrototypeJourney/> : isRfqChecklist ? <RfqChecklist/> : <>
+ <article class:list={['finesse-article',{'company-news-article':isNews,'finesse-technical-article':!isNews}]}>
+  <header class="article-masthead"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href={isNews?'/about/':'/resources/'}>{isNews?'About LZZ':'Resources'}</a><span>/</span>{isNews?<a href="/about/company-news/">Company News</a>:<span>{article.slug==='rfq-checklist'?article.title:article.category}</span>}</nav><h1>{article.title}</h1>{article.eventDate&&<p class="news-event-date">Event · <time datetime={article.eventDate}>{article.eventDateLabel}</time></p>}</div></header>
+  {visual&&isNews&&<figure class="container article-editorial-image" data-image-origin="source-photo"><img src={visual.image} srcset={visual.srcset} sizes="(max-width:760px) 90vw, (max-width:1220px) 94vw, 1140px" alt={visual.alt} width={article.imageWidth||1200} height={article.imageHeight||800} style={visualFrame?.style}/>{visual.caption&&<figcaption>{visual.caption}</figcaption>}</figure>}
+  <div class:list={['container article-reading finesse-article-reading',{'with-toc':contents.length>0}]}>
+   {contents.length>0&&<aside class="article-contents"><details class="contents-disclosure" open><summary>On this page</summary><nav aria-label="Article contents">{contents.map(c=><a href={'#'+c.id}>{c.label}</a>)}</nav></details></aside>}
+   <div class="finesse-article-content">
+    {articleLead&&<div class="prose finesse-article-lead" set:html={articleLead}/>}
+    {visual&&!isNews&&<figure class:list={['article-editorial-image finesse-article-visual',{'comparison-illustration':isComparisonGuide}]} data-image-origin={visual.disclosure?'AI-generated':'source-photo'}><img src={visual.image} srcset={visual.srcset} sizes="(max-width:760px) 90vw, 700px" alt={visual.alt} width={article.imageWidth||1200} height={article.imageHeight||800} style={visualFrame?.style} loading="lazy"/>{visual.disclosure&&<figcaption><strong>AI-generated illustrative image.</strong> {visual.disclosure}</figcaption>}</figure>}
+    <div class="prose finesse-article-continuation" set:html={articleBody}/>
+   </div>
+  </div>
+  {examples.length>0&&<section class="container article-part-examples" aria-labelledby="article-examples-title"><div><p class="article-example-label">Apply the guide</p><h2 id="article-examples-title">Related part examples</h2><p>Compare the features in these examples with your drawing. Each part is quoted to its own specification.</p></div><div>{examples.map(product=><a href={'/products/'+product.slug+'/'}>{productTitle(product)}</a>)}</div></section>}
+  {relatedNews.length>0&&<nav class="container more-company-news" aria-labelledby="more-news-title"><h2 id="more-news-title">More company news</h2><div>{relatedNews.map(item=><a href={'/about/company-news/'+item.slug+'/'}><span>{item.eventDateLabel}</span>{item.title}<Arrow size={18}/></a>)}</div></nav>}
+  <div class="container article-return"><a class="text-link" href={isNews?'/about/company-news/':'/resources/'}>Back to {isNews?'Company News':'Resources'} <Arrow/></a></div>
+ </article>
+ </>}
+</Layout>
+<style>
+ :global(body.brand-site) .finesse-article .article-masthead{padding-block:28px 34px;background:transparent}
+ :global(body.brand-site) .finesse-article .article-masthead .breadcrumbs{padding-bottom:24px}
+ :global(body.brand-site) .finesse-article .article-masthead h1{max-width:32ch;font-size:clamp(32px,3.7vw,48px);font-weight:550;letter-spacing:-.035em;line-height:1.14;text-wrap:balance;overflow-wrap:anywhere;min-width:0}
+ :global(body.brand-site) .finesse-article .finesse-article-reading{max-width:1140px;padding-block:8px 64px}
+ :global(body.brand-site) .finesse-article .finesse-article-reading.with-toc{grid-template-columns:232px minmax(0,760px);gap:56px}
+ :global(body.brand-site) .finesse-article .article-contents{top:104px;min-width:0;margin:0;padding:0;z-index:1}
+ .finesse-article .contents-disclosure{padding-block:0 12px}
+ .finesse-article .contents-disclosure summary{font-size:16px;padding-block:12px;min-height:48px}
+ .finesse-article .contents-disclosure nav{gap:0;padding-top:0}
+ .finesse-article .contents-disclosure a{display:flex;align-items:center;min-height:44px;padding-block:8px;font-size:14px;line-height:1.5;color:var(--muted)}
+ .finesse-article .contents-disclosure a:hover{color:var(--red)}
+ .finesse-article .contents-disclosure a:focus-visible,.finesse-article .contents-disclosure summary:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+ .finesse-article-content{min-width:0}
+ :global(body.brand-site) .finesse-article .prose{max-width:70ch;font-size:17px;line-height:1.8}
+ :global(body.brand-site) .finesse-article .prose :global(h2){font-size:clamp(25px,2.5vw,30px);font-weight:550;line-height:1.25;letter-spacing:-.025em;margin-block:38px 16px;scroll-margin-top:104px;overflow-wrap:anywhere}
+ :global(body.brand-site) .finesse-article .prose :global(p){font-size:16px;line-height:1.8;margin-block:16px}
+ :global(body.brand-site) .finesse-article .prose :global(h2:first-child){margin-top:0}
+ .finesse-article .finesse-article-visual{margin-block:32px 36px;padding-block:24px;border-block:1px solid var(--border)}
+ .finesse-article .finesse-article-visual img{max-height:360px;background:var(--surface);object-fit:contain}
+ .finesse-article .finesse-article-visual figcaption{font-size:13px;line-height:1.65;margin-top:12px;max-width:70ch}
+ .finesse-article.company-news-article .finesse-article-reading{padding-top:36px}
+ @media(max-width:1000px){:global(body.brand-site) .finesse-article .finesse-article-reading.with-toc{grid-template-columns:200px minmax(0,1fr);gap:36px}}
+ @media(max-width:760px){:global(body.brand-site) .finesse-article .article-masthead{padding-block:22px 26px}:global(body.brand-site) .finesse-article .article-masthead .breadcrumbs{padding-bottom:20px}:global(body.brand-site) .finesse-article .article-masthead h1{font-size:32px;line-height:1.14;text-wrap:pretty}:global(body.brand-site) .finesse-article .finesse-article-reading.with-toc{display:block;padding-block:0 44px}:global(body.brand-site) .finesse-article .article-contents{position:static;margin-bottom:26px}.finesse-article .contents-disclosure{padding-bottom:0}.finesse-article .contents-disclosure[open]{padding-bottom:12px}:global(body.brand-site) .finesse-article .prose :global(h2){font-size:25px;line-height:1.25;margin-block:30px 14px}.finesse-article .finesse-article-visual{margin-block:26px 30px;padding-block:20px}.finesse-article .finesse-article-visual img{max-height:270px}.finesse-article.company-news-article .finesse-article-reading{padding-top:26px}}
+ .news-event-date{margin-top:24px;color:var(--muted);font-size:15px;line-height:1.6}
+ .company-news-article .article-editorial-image img{max-height:680px;object-fit:contain}
+ :global(.article-reading .prose .news-photo-gallery){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px;margin:28px 0 40px;align-items:start}
+ :global(.article-reading .prose .news-photo-gallery figure){margin:0;min-width:0}
+ :global(.article-reading .prose .news-photo-gallery a){display:block;min-height:0;padding:0;border:0;background:transparent;box-shadow:none}
+ :global(.article-reading .prose .news-photo-gallery a:focus-visible){outline:2px solid var(--red);outline-offset:5px}
+ :global(.article-reading .prose .news-photo-gallery img){display:block;width:100%;height:auto;max-height:none;object-fit:contain;margin:0}
+ :global(.article-reading .prose .news-photo-gallery figcaption){margin-top:10px;font-size:14px;line-height:1.65;color:var(--muted)}
+ .more-company-news{padding-block:40px 56px;border-top:1px solid var(--border)}.more-company-news h2{font-size:28px;margin-bottom:24px}.more-company-news>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px}.more-company-news a{display:grid;grid-template-columns:1fr auto;gap:10px 20px;border-bottom:1px solid var(--border);padding:22px 0;align-content:start;line-height:1.5;font-weight:600}.more-company-news a span{grid-column:1/-1;color:var(--muted);font-size:14px;font-weight:400}.more-company-news a:hover{color:var(--red)}
+ @media(max-width:760px){:global(.article-reading .prose .news-photo-gallery){grid-template-columns:1fr;gap:28px}.more-company-news>div{grid-template-columns:1fr}}
+ .article-part-examples{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;border-top:1px solid var(--border);padding-block:48px}.article-part-examples #article-examples-title{font-size:clamp(28px,3vw,38px);line-height:1.15}.article-part-examples p:not(.article-example-label){font-size:16px;line-height:1.7;color:var(--muted);margin-top:16px;max-width:44ch}.article-example-label{font-size:12px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:var(--red);margin-bottom:11px}.article-part-examples>div:last-child{display:grid;gap:10px;align-content:start}.article-part-examples a{display:flex;align-items:center;min-height:48px;border-bottom:1px solid var(--border);padding:16px 0;line-height:1.5;font-weight:600}.article-part-examples a:hover{border-color:var(--red);color:var(--red)}@media(max-width:760px){.article-part-examples{grid-template-columns:1fr;gap:23px}}
+ .article-editorial-image{margin-top:0;margin-bottom:0}.article-editorial-image img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;background:#fff}.article-editorial-image figcaption{max-width:75ch;margin:12px 0 0;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ .comparison-illustration{max-width:760px}
+ :global(.article-reading .prose .guide-illustration){margin:30px 0}.article-reading .prose :global(.guide-illustration img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:0}.article-reading .prose :global(.guide-illustration figcaption){margin-top:9px;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ :global(.article-reading .prose .decision-table-wrap){width:100%;overflow-x:auto;overscroll-behavior-inline:contain;margin:26px 0 34px;border-block:1px solid var(--border);background:white}
+ :global(.article-reading .prose .decision-table-wrap:focus-visible){outline:2px solid var(--red);outline-offset:3px}
+ :global(.article-reading .prose .decision-table){display:table;width:100%;min-width:620px;border-collapse:collapse;text-align:left;font-size:.9375rem;line-height:1.7;margin:0}
+ :global(.article-reading .prose .decision-table th),:global(.article-reading .prose .decision-table td){padding:15px 16px;border-bottom:1px solid var(--border);vertical-align:top}
+ :global(.article-reading .prose .decision-table thead th){background:#f8f8f7;color:var(--ink);font-weight:600}
+ :global(.article-reading .prose .decision-table tbody th){min-width:120px;color:var(--ink);font-weight:650}
+ :global(.article-reading .prose .decision-table tr:last-child th),:global(.article-reading .prose .decision-table tr:last-child td){border-bottom:0}
+ :global(.article-reading .prose .decision-mobile){display:none}
+ :global(.article-reading .prose .process-comparison-photos){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px;margin:30px 0 38px}
+ :global(.article-reading .prose .process-comparison-photos figure){margin:0;min-width:0}
+ :global(.article-reading .prose .process-comparison-photos img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+ :global(.article-reading .prose .process-comparison-photos figcaption){margin-top:9px;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ :global(.article-reading .prose .shipment-photo-grid){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px;margin:26px 0 18px}
+ :global(.article-reading .prose .shipment-photo-grid figure){min-width:0;margin:0}
+ :global(.article-reading .prose .shipment-photo-grid img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+ :global(.article-reading .prose .shipment-photo-grid figcaption){margin:10px 0 0;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ :global(.article-reading .prose .shipment-archive-note){padding:20px 0;border-block:1px solid var(--border);font-size:15px;line-height:1.7}
+ :global(.article-reading .prose .shipment-history-gallery){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px;margin:26px 0 18px}
+ :global(.article-reading .prose .shipment-history-gallery figure){margin:0;min-width:0}
+ :global(.article-reading .prose .shipment-history-gallery img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+ :global(.article-reading .prose .shipment-history-gallery figcaption){margin:10px 0 0;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ :global(.article-reading .prose .workflow-ai-illustration){margin:28px 0}
+ :global(.article-reading .prose .workflow-ai-illustration img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:0}
+ :global(.article-reading .prose .workflow-ai-illustration figcaption){margin-top:10px;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ @media(min-width:761px){:global(.article-reading .prose .process-comparison-photos figure:first-child),:global(.article-reading .prose .shipment-photo-grid figure:first-child){grid-column:1/-1}}
+ @media(max-width:760px){:global(.article-reading .prose .decision-table-wrap){display:none}:global(.article-reading .prose .decision-mobile){display:block;margin:24px 0 36px;border-top:1px solid var(--border)}:global(.article-reading .prose .decision-mobile-row){padding:22px 0;border-bottom:1px solid var(--border)}:global(.article-reading .prose .decision-mobile-row h3){font-size:19px;line-height:1.3;margin:0 0 16px}:global(.article-reading .prose .decision-mobile-row>div+div){margin-top:16px}:global(.article-reading .prose .decision-mobile-row strong){display:block;font-size:13px;line-height:1.4;color:var(--ink)}:global(.article-reading .prose .decision-mobile-row p){font-size:15px;line-height:1.6;margin:5px 0 0}:global(.article-reading .prose .shipment-photo-grid){grid-template-columns:1fr;gap:22px}:global(.article-reading .prose .shipment-photo-grid img){height:auto;aspect-ratio:1.4}:global(.article-reading .prose .shipment-history-gallery){grid-template-columns:1fr;gap:22px}:global(.article-reading .prose .shipment-history-gallery img){height:auto;aspect-ratio:1.45}:global(.article-reading .prose .process-comparison-photos){grid-template-columns:1fr}:global(.article-reading .prose .process-comparison-photos img){height:auto;aspect-ratio:1.5}}
+</style>
+<script>
+ const contents=document.querySelector<HTMLDetailsElement>('.contents-disclosure');
+ const mobile=matchMedia('(max-width:760px)');
+ const adaptContents=()=>{if(contents)contents.open=!mobile.matches;};
+ adaptContents();
+ mobile.addEventListener('change',adaptContents);
+</script>

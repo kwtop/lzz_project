@@ -1,0 +1,212 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Machining &\nordering resources",
+      "y": 206
+    },
+    {
+      "id": "finesse-rfq-title",
+      "tag": "H2",
+      "text": "RFQ checklist",
+      "y": 859
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Drawings & ordering",
+      "y": 1394
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "How we work",
+      "y": 1579
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Define part requirements before machining",
+      "y": 1783
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Machining guides",
+      "y": 2036
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Choosing CNC milling, turning or 5-axis machining",
+      "y": 2222
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Specifying material and finish for a machined part",
+      "y": 2450
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Production & shipping",
+      "y": 2703
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Planning CNC prototypes and repeat batches",
+      "y": 2889
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Shipping CNC parts internationally",
+      "y": 3118
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Need a quick answer?",
+      "y": 3375
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote",
+      "y": 3840
+    }
+  ],
+  "images": [
+    {
+      "alt": "Machined housing beside outline drawings",
+      "anchor": "",
+      "caption": "",
+      "complete": true,
+      "context": "resource-intro-photo",
+      "currentSrc": "http://127.0.0.1:4323/media/gallery/rfq-gallery-v1-480.webp",
+      "index": 1,
+      "naturalHeight": 234,
+      "naturalWidth": 351,
+      "nearestHeading": "Machining &\nordering resources",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 260,
+        "width": 331,
+        "x": 22,
+        "y": 542
+      },
+      "src": "/media/gallery/rfq-gallery-v1-1440.webp",
+      "srcset": "/media/gallery/rfq-gallery-v1-480.webp 480w, /media/gallery/rfq-gallery-v1-800.webp 800w, /media/gallery/rfq-gallery-v1-1200.webp 1200w, /media/gallery/rfq-gallery-v1-1440.webp 1440w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/resources/processes-materials-finishes/",
+      "text": "Machining guides"
+    },
+    {
+      "href": "/resources/production-and-shipping/",
+      "text": "Production & shipping"
+    },
+    {
+      "href": "/resources/faq/",
+      "text": "FAQ"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Read the checklist"
+    },
+    {
+      "href": "/resources/drawings-and-ordering/",
+      "text": "Drawings & ordering"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+      "text": "Define part requirements before machining"
+    },
+    {
+      "href": "/resources/processes-materials-finishes/",
+      "text": "Machining guides"
+    },
+    {
+      "href": "/resources/cnc-process-selection/",
+      "text": "Choosing CNC milling, turning or 5-axis machining"
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": "Specifying material and finish for a machined part"
+    },
+    {
+      "href": "/resources/production-and-shipping/",
+      "text": "Production & shipping"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Planning CNC prototypes and repeat batches"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Shipping CNC parts internationally"
+    },
+    {
+      "href": "/resources/faq/",
+      "text": "Read the FAQ"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact LZZ"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nMachining &\nordering resources\nRFQ checklist\nHow we work\nMachining guides\nProduction & shipping\nFAQ\nRFQ checklist\n\nCheck drawing revision, material, quantity, acceptance and delivery before preparing an inquiry.\n\nRead the checklist\nDrawing\nControlled revision and critical features\nOrder\nMaterial, finish, quantity and destination\nDrawings & ordering\n\nDefine the drawing revision, working surfaces, material and quantity. Review quotation scope, sample approval and the information needed to order.\n\nHow we work\n\nFollow the LZZ order process, starting with your drawing and quotation. Agree on sample checks and production requirements before arranging shipment.\n\nDefine part requirements before machining\n\nPrepare a machining drawing that defines the working surfaces and critical dimensions. Include material, finish and inspection requirements.\n\nMachining guides\n\nChoose milling, turning or multi-axis machining from the part geometry. Specify the material grade, finish and dimensions to check after treatment.\n\nChoosing CNC milling, turning or 5-axis machining\n\nChoose a machining process from the part geometry. Compare turning, milling and multi-axis setups, with the drawing details needed for a quotation.\n\nSpecifying material and finish for a machined part\n\nSpecify the material and finish on your CNC part drawing. Identify mating surfaces and dimensions after treatment, with the records required for acceptance.\n\nProduction & shipping\n\nCarry the approved drawing into repeat production. Agree packing, transit, delivery terms and the documents that accompany the parts.\n\nPlanning CNC prototypes and repeat batches\n\nApprove a prototype specification, then plan the setup and inspection for repeat batches. Confirm material, finish and order terms before increasing the quantity.\n\nShipping CNC parts internationally\n\nAgree packing and delivery terms for an international CNC parts order. Check document requirements and allow transit time beyond the production schedule.\n\nNeed a quick answer?\nRead the FAQ\nContact LZZ\nRFQ checklist\nHow we work\nQuality control\nRequest a quote\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 5136,
+  "title": "CNC machining resources | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P01",
+  "mode": "mobile",
+  "screenshot": "screenshots/P01-mobile.jpg"
+}

@@ -1,0 +1,149 @@
+{
+  "canonical": "https://www.lzz-cnc.com/factory/",
+  "description": "Explore LZZ's Hangzhou workshop, CNC machining equipment and production workflow.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Our factoryin Hangzhou"
+    },
+    {
+      "tag": "H2",
+      "text": "About 100,000parts per month"
+    },
+    {
+      "tag": "H2",
+      "text": "CNC machiningand inspection equipment"
+    },
+    {
+      "tag": "H3",
+      "text": "CNC machining centers"
+    },
+    {
+      "tag": "H3",
+      "text": "CNC lathes & turn-mill equipment"
+    },
+    {
+      "tag": "H3",
+      "text": "Multi-axis machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Dimensional inspection"
+    },
+    {
+      "tag": "H2",
+      "text": "The machining floor"
+    },
+    {
+      "tag": "H2",
+      "text": "Dimensional inspectionagainst your drawing"
+    },
+    {
+      "tag": "H2",
+      "text": "Our working process"
+    },
+    {
+      "tag": "H3",
+      "text": "Requirements & quotation"
+    },
+    {
+      "tag": "H3",
+      "text": "Sample & inspection"
+    },
+    {
+      "tag": "H3",
+      "text": "Approval & production"
+    },
+    {
+      "tag": "H3",
+      "text": "Final QC & shipment"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "#equipment",
+      "text": "Explore the equipment"
+    },
+    {
+      "href": "/media/evidence/milling-enclosure-operation-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/#engineering-fit",
+      "text": "View CNC milling capabilities"
+    },
+    {
+      "href": "/media/evidence/turning-operation-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/#engineering-fit",
+      "text": "View turning capabilities"
+    },
+    {
+      "href": "/media/evidence/five-axis-machine-wide-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/#size-and-setup-review",
+      "text": "Check your part size and setup"
+    },
+    {
+      "href": "/media/evidence/cmm-room-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/quality/",
+      "text": "View quality control"
+    },
+    {
+      "href": "/media/evidence/workshop-operators-2025-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/workshop-aisle-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/shipping-example-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/quality/",
+      "text": "View quality control"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "See how we work"
+    },
+    {
+      "href": "/resources/how-we-work/#quotation-scope",
+      "text": ""
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/prototype-machining/",
+      "text": ""
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/#delivery-package",
+      "text": ""
+    }
+  ],
+  "main": "Our factory\nin Hangzhou\n\nA 1,500 m² production facility with 40+ CNC machines, supporting custom parts from 1 piece. An engineering team with more than 15 years in CNC machining.\n\nExplore the equipment\n\nLZZ machining workshop · Original photograph\n\nFounded in Hangzhou\n2017\nProduction facility\n1,500 m²\nCNC machines\n40+\nAbout 100,000\nparts per month\n\nReference capacity only. Actual output depends on part geometry, material, finishing and production mix.\n\nCNC machining\nand inspection equipment\n\nThe workshop combines machining centers, lathes, turn-mill and multi-axis machines. The equipment notes below link to the relevant machining and inspection services.\n\nCNC machining centers\n\nMilling pockets, profiles, bores and multi-face features.\n\nView CNC milling capabilities\nCNC lathes & turn-mill equipment\n\nRotational parts, threads and components combining turned and milled features.\n\nView turning capabilities\nMulti-axis machining\n\nMachining angled features and curved surfaces to your drawing.\n\nCheck your part size and setup\nDimensional inspection\n\nCMM, height gauges and optical projectors for checking part dimensions.\n\nView quality control\nThe machining floor\n\nThese photographs from our company archive show the workshop and operators among the CNC machines. Dates refer to the original source files or folders.\n\nOperators among the CNC machines.\nOriginal production-floor photograph; source file dated November 2025.\nMachining centers along the workshop aisle.\nOriginal photograph; source folder dated December 2025.\nPacking archive · November 2022.\nOriginal packing archive photograph.\nCoordinate measuring machine detail · Original photograph\nDimensional inspection\nagainst your drawing\n\nWe use CMM, height gauges and optical projectors to check part dimensions. Inspection scope and measurement methods are confirmed in your quotation, based on the drawing and requirements.\n\nView quality control\nOur working process\nSee how we work\n\nThe quotation sets out the work, approval steps and delivery requirements. Sample approval and the agreed inspection plan guide the move into production.\n\nRequirements & quotation\n\nConfirm requirements and evaluate your drawing or model before agreeing the quotation.\n\nSample & inspection\n\nMachine the sample or prototype, then inspect it and review the results with you.\n\nApproval & production\n\nProceed to production after sample approval, with the agreed requirements in place.\n\nFinal QC & shipment\n\nComplete final quality checks and prepare the parts and agreed documents for dispatch.\n\nPurchasing, inspection and delivery requirements",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/factory/#webpage\",\"url\":\"https://www.lzz-cnc.com/factory/\",\"name\":\"Our factory and manufacturing workflow\",\"description\":\"Explore LZZ's Hangzhou workshop, CNC machining equipment and production workflow.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/factory/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/factory/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Our factory and manufacturing workflow\",\"item\":\"https://www.lzz-cnc.com/factory/\"}]}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "Our factory and manufacturing workflow | LZZ Precision",
+  "url": "http://127.0.0.1:4323/factory/",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "factory-desktop"
+}

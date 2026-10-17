@@ -1,0 +1,50 @@
+[
+  {
+    "route": "",
+    "width": 1440,
+    "height": 6402,
+    "overflow": false,
+    "cmm": 1,
+    "brokenAnchors": []
+  },
+  {
+    "route": "quality/",
+    "width": 1440,
+    "height": 5795,
+    "overflow": false,
+    "cmm": 1,
+    "brokenAnchors": []
+  },
+  {
+    "route": "capabilities/",
+    "width": 1440,
+    "height": 4488,
+    "overflow": false,
+    "cmm": 0,
+    "brokenAnchors": []
+  },
+  {
+    "route": "",
+    "width": 390,
+    "height": 8006,
+    "overflow": false,
+    "cmm": 1,
+    "brokenAnchors": []
+  },
+  {
+    "route": "quality/",
+    "width": 390,
+    "height": 7877,
+    "overflow": false,
+    "cmm": 1,
+    "brokenAnchors": []
+  },
+  {
+    "route": "capabilities/",
+    "width": 390,
+    "height": 5367,
+    "overflow": false,
+    "cmm": 0,
+    "brokenAnchors": []
+  }
+]

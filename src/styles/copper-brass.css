@@ -1,0 +1,36 @@
+.redesign-site .copper-section{margin-top:var(--rd-space);scroll-margin-top:0}
+.redesign-site .cx-page .copper-page h1{font-size:48px;font-weight:550;line-height:1.12;letter-spacing:-.03em;max-width:none}
+.redesign-site .copper-page .cx-lead{font-size:20px;max-width:45ch}
+.redesign-site .copper-page .cx-intro-part img{height:390px}
+.redesign-site .copper-functions>header,.redesign-site .copper-interfaces>header{margin-bottom:28px}
+.redesign-site .copper-function-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center}
+.redesign-site .copper-function-grid dl>div+div{margin-top:24px;padding-top:20px;border-top:1px solid var(--border)}
+.redesign-site .copper-function-grid dt{font-size:21px;font-weight:550}
+.redesign-site .copper-function-grid dd{margin:10px 0 0;color:var(--muted);max-width:52ch}
+.redesign-site .copper-function-grid>.cx-evidence{width:100%;max-width:430px}
+.redesign-site .copper-function-grid>.cx-evidence img{max-height:none;aspect-ratio:1;object-fit:contain}
+.redesign-site .copper-materials>.cx-materials{margin:0;padding:36px 40px}
+.redesign-site .copper-materials .cx-material-overview{margin-bottom:28px;max-width:70ch}
+.redesign-site .copper-materials .cx-material-overview p{margin-top:16px}
+.redesign-site .copper-materials .cx-callout{max-width:70ch}
+.redesign-site .copper-interfaces{padding:40px;background:var(--surface)}
+.redesign-site .copper-interface-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:48px;align-items:center}
+.redesign-site .copper-interface-grid .cx-concept img{max-height:none;aspect-ratio:3/2;object-fit:contain}
+.redesign-site .copper-interface-grid h3{font-size:21px}
+.redesign-site .copper-interface-grid p{margin-top:14px;max-width:54ch}
+.redesign-site .copper-interface-grid p+h3{margin-top:28px}
+.redesign-site .copper-interface-grid .rd-link{margin-top:24px}
+.redesign-site .copper-page .cx-inquiry--order-first .cx-inquiry-action{padding:28px;background:var(--surface)}
+.redesign-site .copper-page .cx-inquiry--order-first .cx-order-note{margin:0 0 24px;padding:0;border:0;max-width:60ch;font-size:16px;line-height:1.65;scroll-margin-top:0}
+@media(max-width:1100px){.redesign-site .copper-function-grid,.redesign-site .copper-interface-grid{gap:32px}.redesign-site .copper-materials>.cx-materials,.redesign-site .copper-interfaces{padding:32px}}
+@media(max-width:767px){
+ .redesign-site .copper-section{margin-top:52px}
+ .redesign-site .cx-page .copper-page h1{font-size:37px;line-height:1.14}
+ .redesign-site .copper-page .cx-lead{font-size:18px}
+ .redesign-site .copper-page .cx-intro-part img{height:300px;max-height:none}
+ .redesign-site .copper-page .cx-order-link{font-size:15px}
+ .redesign-site .copper-function-grid,.redesign-site .copper-interface-grid{grid-template-columns:1fr;gap:28px}
+ .redesign-site .copper-function-grid>.cx-evidence{max-width:350px}
+ .redesign-site .copper-interface-grid>.cx-concept{order:2}
+ .redesign-site .copper-materials>.cx-materials,.redesign-site .copper-interfaces{padding:28px var(--layout-gutter);margin-inline:calc(-1 * var(--layout-gutter))}
+}

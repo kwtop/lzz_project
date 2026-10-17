@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import catalog from '../../data/catalog.json';
+import {categoryDetails,productTitle,productImageAlt} from '../../data/presentation';
+import {productImage,productSrcset} from '../../data/refinedImages';
+import {productImageScale} from '../../data/productImagePresentation';
+import {matchesCapability,matchesPartCategory} from '../../data/productTags';
+import {capabilityGroups} from '../../data/capabilityGroups';
+import {capabilityOverview} from '../../data/capabilityOverview';
+import {capabilityContent} from '../../data/capabilityContent';
+import {capabilityReferences} from '../../data/capabilityReferences';
+import {materialGrades} from '../../data/materialGrades';
+import {processDelivery} from '../../data/orderDeliverables';
+import {caseForCapability} from '../../data/cases';
+import {inquiryHref} from '../../lib/inquiryContext';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import ResourceLinks from '../../components/ResourceLinks.astro';
+import WorkshopVideo from '../../components/WorkshopVideo.astro';
+import DisclosureAnchors from '../../components/DisclosureAnchors.astro';
+import '../../styles/capability-editorial.css';
+export function getStaticPaths(){return catalog.categories.map(category=>({params:{slug:category.slug},props:{category}}));}
+const {category}=Astro.props;
+const slug=category.slug;
+const detail=categoryDetails[slug];
+const overview=capabilityOverview[slug];
+const content=capabilityContent[slug];
+const delivery=processDelivery[slug];
+const grades=materialGrades[slug];
+const products=catalog.products.filter(p=>matchesPartCategory(p,category.key));
+const exampleProducts=products.slice(1,3);
+const supporting=catalog.products.filter(p=>matchesCapability(p,category.key)&&!matchesPartCategory(p,category.key));
+const quoteHref=inquiryHref({id:slug,title:detail.title,legacyName:category.name,path:'/capabilities/'+slug+'/',kind:'capability'});
+const cases=caseForCapability(slug);
+const leadCase=cases.find(c=>slug==='cnc-milling-service'&&c.slug==='two-stage-cnc-milling')||cases[0];
+const otherCases=cases.filter(c=>c!==leadCase);
+const siblings=capabilityGroups.find(g=>g.keys.includes(category.key))!.keys.map(key=>catalog.categories.find(c=>c.key===key)!).filter(c=>c.slug!==slug);
+const headlines:Record<string,string>={
+ 'cnc-milling-service':'CNC milling for custom components',
+ 'cnc-turning-service':'CNC turning for shafts & fittings',
+ '5-axis-cnc-machining':'5-axis machining for complex geometry',
+ 'casting-machining':'Finished interfaces for cast components',
+ 'aluminum-cnc-parts':'Aluminum parts, made to your drawing',
+ 'stainless-steel-cnc-parts':'Stainless steel parts for your assembly',
+ 'copper-brass-cnc-parts':'Copper & brass parts, made to specification',
+ 'plastic-machined-parts':'Engineering plastics, machined for your part',
+ 'prototype-machining':'Machined prototypes for your next revision',
+ 'low-volume-production':'Low-volume CNC production with revision control'
+};
+const scenes:Record<string,{id:string;title:string;text:string}[]>={
+ 'aluminum-cnc-parts':[{id:'display-housing-panel',title:'Machined display housing panel',text:'A complete panel with visible contours and slots; the source folder identifies a 29-inch display enclosure.'},{id:'aluminum-housings',title:'Machined aluminum housings',text:'A group of housings showing pockets, bores and fastening features.'}],
+ 'copper-brass-cnc-parts':[{id:'brass-plugs',title:'Threaded plugs',text:'Original batch photograph from the brass-parts source set. Confirm the exact alloy, thread and acceptance dimensions from your drawing.'}],
+ 'cnc-turning-service':[{id:'turning-operation',title:'CNC turning in the workshop',text:'A cylindrical workpiece, tool turret and coolant. Confirm diameter, runout, surface and inspection requirements from your drawing.'},{id:'turning-parts',title:'Turned components after machining',text:'Finished discs from the same process source group. The photograph does not establish material grade or measured results.'}]
+};
+const references=capabilityReferences[slug]||[];
+---
+<Layout title={category.name} description={content.description} cta={false} structuredEntity={{type:'Service',name:detail.title,description:content.description,image:products[0]?productImage(products[0]):undefined}}>
+ <article class="cap-page">
+  <DisclosureAnchors/>
+  <header class="cap-hero">
+   <div class="cap-wrap cap-hero-grid">
+    <div class="cap-hero-copy">
+     <nav class="cap-breadcrumb" aria-label="Breadcrumb"><a href="/capabilities/">Capabilities</a><span aria-hidden="true">/</span><span>{detail.title}</span></nav>
+     <h1>{headlines[slug]}</h1><p>{detail.description}</p>
+     <a class="cap-button" href={quoteHref}>Prepare RFQ email</a>
+    </div>
+    {products[0]&&<figure class="cap-hero-image" id={!exampleProducts.length?'part-examples':undefined}><a href={'/products/'+products[0].slug+'/'} aria-label={'View '+productTitle(products[0])}><img src={productImage(products[0])} srcset={productSrcset(products[0])} sizes="(max-width:760px) 88vw, 44vw" width="800" height="800" alt={productImageAlt(products[0])} fetchpriority="high"/></a><figcaption>{productTitle(products[0])}</figcaption></figure>}
+   </div>
+  </header>
+  <section class="cap-wrap cap-section" id="engineering-fit">
+   <div class="cap-section-head"><h2>{overview.heading}</h2><p>{content.scope}</p></div>
+   <dl class="cap-scope"><div><dt>Geometry &amp; process</dt><dd>{overview.geometry}</dd></div><div><dt>Size &amp; workholding</dt><dd>{overview.workholding}</dd></div>{slug==='cnc-milling-service'?<><div><dt>Materials</dt><dd>Aluminum, stainless steel, steel, copper, brass, titanium and engineering plastics. Confirm the grade and stock condition on your drawing.</dd></div><div><dt>Finishes</dt><dd>Deburring, polishing, bead blasting, anodizing and plating. Options depend on the substrate and the dimensions that need protection; specify the finish on your drawing.</dd></div></>:<div><dt>Material &amp; finish</dt><dd>{overview.materialFinish}</dd></div>}
+    {grades&&<div><dt>Grades to discuss</dt><dd>{grades.families.map(f=><p><strong>{f.name}: </strong>{f.grades.join(' · ')}</p>)}<p>{grades.note}</p></dd></div>}
+   </dl>
+   {slug==='5-axis-cnc-machining'&&<div class="cap-size" id="size-and-setup-review"><h3>Review your part size &amp; setup</h3><p>Include finished length, width, height and weight, stock dimensions and weight, protected surfaces, clamping areas and clearances. Send the model, drawing, material and quantity; machine travel, load and maximum part envelope are not published here.</p></div>}
+   <details class="cap-route" id="service-summary"><summary>{slug==='cnc-milling-service'?'From drawing to finished part':delivery.title}</summary><ul class="cap-route-items">{delivery.items.map(text=><li>{text}</li>)}</ul>
+    {slug==='casting-machining'&&<div id="sample-to-part"><h3>From sample to part</h3><ol class="cap-route-items"><li><strong>Review the sample.</strong> Share the part, mating components and features to retain or change.</li><li><strong>Reconstruct the model.</strong> Scanning and 2D/3D modeling establish geometry for manufacturability review.</li><li><strong>Approve the requirements.</strong> Confirm material, datums, tolerances and inspection criteria before machining.</li></ol></div>}
+   </details>
+  </section>
+  {exampleProducts.length>0&&<section class="cap-band" id="part-examples"><div class="cap-wrap cap-section">
+   <div class="cap-heading-row"><h2>More part examples</h2><a class="cap-link" href="/products/">Browse all parts</a></div>
+   <div class:list={["cap-products",{"cap-products-single":exampleProducts.length===1}]}>{exampleProducts.map(p=><a href={'/products/'+p.slug+'/'}><div><img src={productImage(p)} srcset={productSrcset(p)} sizes="(max-width:760px) 88vw, 40vw" width="800" height="800" alt={productImageAlt(p)} loading="lazy" style={`transform:scale(${productImageScale(p.slug)})`}/></div><h3>{productTitle(p)}</h3></a>)}</div>
+  </div></section>}
+  {leadCase&&<section class="cap-wrap cap-section" id="machining-studies">
+   <div class="cap-heading-row"><h2>{slug==='cnc-milling-service'?'Milling in practice':'Machining in practice'}</h2><a class="cap-link" href="/cases/">All machining studies</a></div>
+   <div class:list={['cap-studies',{'cap-study-single':!otherCases.length}]}>
+    <a class="cap-study-lead" href={'/cases/'+leadCase.slug+'/'}><EvidenceImage id={leadCase.hero}/><h3>{leadCase.title}</h3><p>{leadCase.lead}</p></a>
+    {otherCases.length>0&&<div class="cap-study-list">{otherCases.slice(0,2).map(c=><a href={'/cases/'+c.slug+'/'}><h3>{c.title}</h3><p>{c.lead}</p></a>)}{otherCases.length>2&&<details class="cap-more-studies"><summary>More machining studies</summary><ul>{otherCases.slice(2).map(c=><li><a href={'/cases/'+c.slug+'/'}>{c.title}</a></li>)}</ul></details>}</div>}
+   </div>
+  </section>}
+  {scenes[slug]&&<section class="cap-wrap cap-extra"><details><summary>More photographs from the workshop</summary><div class="cap-evidence">{scenes[slug].map(s=><figure><EvidenceImage id={s.id}/><figcaption><h3>{s.title}</h3><p>{s.text}</p></figcaption></figure>)}</div></details></section>}
+  {slug==='plastic-machined-parts'&&<div class="cap-wrap"><WorkshopVideo id="peek-parts" title="PEEK machined parts: a closer look" description="Original workshop footage shows rectangular PEEK components with perimeter holes and narrow parallel slots. Compare the geometry; specify your exact grade, dimensions and inspection requirements in the drawing."/></div>}
+  <section class="cap-wrap cap-section cap-criteria" id="capability-scope">
+   <h2>Drawing &amp; acceptance</h2>
+   <div class="cap-criteria-grid"><div><h3>Drawing requirements</h3><div class="cap-paragraphs">{content.drawing.map(p=><p>{p}</p>)}</div></div><div id="inspection"><h3>Inspection and acceptance</h3><div class="cap-paragraphs">{content.inspection.map(p=><p>{p}</p>)}<p>Agree the measurement method and required records before production.</p></div></div></div>
+   {references.length>0&&<div class="cap-reference" id="reference-figures">{references.map(r=><p><strong>{r.value} — {r.label}.</strong> {r.text}</p>)}</div>}
+   <nav class="cap-acceptance-links" aria-label="Inspection and order information"><a class="cap-link" href="/quality/">Quality &amp; inspection</a><details><summary>Equipment and order records</summary><ul><li><a href="/factory/#equipment">Workshop equipment</a></li><li><a href="/quality/#order-documentation">Order documentation</a></li><li><a href="/factory/#order-deliverables">Order deliverables</a></li></ul></details></nav>
+  </section>
+  <section class="cap-band" id="enquiry"><div class="cap-wrap cap-section cap-enquiry">
+   <div><h2>{slug==='cnc-milling-service'?'Prepare your milling enquiry':'Prepare your '+detail.title.toLowerCase()+' enquiry'}</h2><div class="cap-paragraphs">{content.rfq.map(p=><p>{p}</p>)}</div></div><div class="cap-enquiry-action"><a class="cap-button" href={quoteHref}>Prepare RFQ email</a><p>Add your requirements to the email draft, then attach drawings in your email app before sending.</p><a class="cap-link" href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a></div>
+  </div></section>
+  <div class="cap-wrap cap-section cap-resources"><ResourceLinks label="Useful engineering resources" priority={['/resources/rfq-checklist/',capabilityGroups[1].keys.includes(category.key)?'/resources/material-and-finish-checklist/':capabilityGroups[2].keys.includes(category.key)?'/resources/prototype-vs-small-batch-cnc/':'/resources/cnc-process-selection/']}/>
+   <nav class="cap-related" aria-label="Related capabilities"><h2>Related {capabilityGroups.find(g=>g.keys.includes(category.key))!.label.toLowerCase()}</h2><div>{siblings.map(c=><a href={'/capabilities/'+c.slug+'/'}>{categoryDetails[c.slug].title} <span aria-hidden="true">↗</span></a>)}</div></nav>
+   {supporting.length>0&&!grades&&<details class="cap-support"><summary>Related machining services</summary><ul>{supporting.map(p=><li><a href={'/products/'+p.slug+'/'}>{productTitle(p)} <span aria-hidden="true">↗</span></a></li>)}</ul></details>}
+  </div>
+ </article>
+</Layout>
+

@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/content-editorial.css';
+import type {Resource} from '../data/resources';
+import {companyNews} from '../data/companyNews';
+import {load} from 'cheerio';
+interface Props {article:Resource}
+const {article}=Astro.props;
+const relatedNews=companyNews.filter(item=>item.slug!==article.slug).slice(0,2);
+const $=load(article.html,null,false);
+const lead=$.root().children('p').first().text();
+const gallery=$('.news-photo-gallery').html()||'';
+const detail=article.slug==='australian-customer-workshop-visit-january-2025'?'They examined a component on the workshop floor and continued the part discussion at a table.':article.slug==='china-africa-west-lake-summit-2025'?'The photographs below show the company display, event backdrop and conference hall.':article.slug==='lzz-team-outing-2024'?'The outing also included a group photograph on a bridge, a walk through the visitor area and a stop at the bumper cars.':'';
+---
+<Layout title={article.title} description={article.description} article articleImage={article.image} cta={false}>
+ <article class="content-editorial ce-news">
+  <header class="ce-wrap ce-header"><div><h1>{article.title}</h1><p><time datetime={article.eventDate}>{article.eventDateLabel}</time></p><p>{lead} {detail}</p></div><figure class="ce-source" data-image-origin="source-photo"><a class="static-photo"><img src={article.image} srcset={article.imageSrcset} sizes="(max-width:760px) 90vw, 580px" alt={article.imageAlt} width={article.imageWidth} height={article.imageHeight} fetchpriority="high"/></a><figcaption>{article.imageCaption}</figcaption></figure></header>
+  <section class="ce-wrap ce-chapter" id="news-photographs"><span id="section-1"/><span id="section-2"/><h2>Photographs from the day</h2><div class="ce-news-gallery" set:html={gallery}/></section>
+  <section class="ce-wrap ce-chapter"><h2 id="more-news-title">More company news</h2><nav class="ce-news-links" aria-labelledby="more-news-title">{relatedNews.map(item=><a href={'/about/company-news/'+item.slug+'/'}><time datetime={item.eventDate}>{item.eventDateLabel}</time><span>{item.title}</span></a>)}</nav></section>
+  <section class="ce-wrap ce-closing"><h2>Meet LZZ in Hangzhou</h2><nav class="ce-actions" aria-label="Company information"><a class="ce-link" href="/about/contact/">Arrange a visit</a></nav></section>
+ </article>
+</Layout>
+<style is:global>
+ .ce-news .ce-news-gallery{display:grid;grid-template-columns:1fr 1fr;gap:40px 32px;margin-top:36px;align-items:start}
+ .ce-news .ce-news-gallery figure{min-width:0;margin:0}
+ .ce-news .ce-news-gallery img{display:block;width:100%;height:auto;max-height:580px;object-fit:contain}
+ .ce-news .ce-news-gallery figcaption{font-size:13px;line-height:1.6;color:var(--muted);margin-top:12px}
+ .ce-news .ce-news-links{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:32px}
+ .ce-news .ce-news-links a{display:flex;flex-direction:column;gap:12px;padding:24px 0;border-block:1px solid var(--border)}
+ .ce-news .ce-news-links time{font-size:14px;color:var(--muted)}
+ .ce-news .ce-news-links span{font-size:23px;line-height:1.35}
+ @media(max-width:760px){.ce-news .ce-news-gallery,.ce-news .ce-news-links{grid-template-columns:1fr;gap:28px}.ce-news .ce-news-gallery{margin-top:28px}}
+</style>

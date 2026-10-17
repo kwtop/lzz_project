@@ -1,0 +1,186 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Machining Studies
+    - heading "CNC machining studies from the workshop" [level=1]:
+      - text: CNC machining studies
+      - text: from the workshop
+    - paragraph:
+      - text: Compare part geometry and machining setups,
+      - text: then identify the requirements for your own drawing.
+    - link "Prepare RFQ email":
+      - /url: /quote/
+    - link "Browse by geometry":
+      - /url: "#geometry"
+      - text: Browse by geometry
+    - figure "Machining setup":
+      - img "Large aluminum display housing panel under a CNC spindle during machining."
+      - generic: Machining setup
+    - figure "Component view":
+      - img "Complete machined aluminum display housing panel with visible contours and slots."
+      - generic: Component view
+    - heading "29-inch display housing" [level=2]
+    - paragraph: Support, mounting features and mating edges. Display size is not part dimensions.
+    - 'link "View study: CNC machining a 29-inch display housing"':
+      - /url: /cases/29-inch-display-housing-cnc-machining/
+      - text: View study
+    - heading "Compare part families" [level=2]
+    - paragraph: Explore metal and plastic components by their form and machining requirements.
+    - article:
+      - 'link "Explore collection: Custom plastic parts: PTFE, POM, PE and acrylic"':
+        - /url: /cases/custom-plastic-parts-ptfe-pom-pe-acrylic/
+        - img "A closer view of the transparent rims and stepped forms."
+      - 'heading "Custom plastic parts: PTFE, POM, PE and acrylic" [level=3]'
+      - paragraph: Guide strips, gears, transparent components and PTFE forms for custom plastic-part enquiries.
+      - link "Explore collection":
+        - /url: /cases/custom-plastic-parts-ptfe-pom-pe-acrylic/
+        - text: Explore collection
+    - article:
+      - 'link "Explore collection: Custom metal parts in batches: shafts, fittings and housings"':
+        - /url: /cases/custom-metal-parts-batch-examples/
+        - img "Rectangular housings with cavities and perimeter holes, grouped on a work surface."
+      - 'heading "Custom metal parts in batches: shafts, fittings and housings" [level=3]'
+      - paragraph: "Turned shafts, fittings and recessed housings: a selection of custom metal components in batches."
+      - link "Explore collection":
+        - /url: /cases/custom-metal-parts-batch-examples/
+        - text: Explore collection
+    - heading "How geometry changes the route" [level=2]
+    - article:
+      - generic: "01"
+      - heading "Access several faces" [level=3]
+      - 'link "View study: Five-axis machining for multi-face components"':
+        - /url: /cases/five-axis-machining-multi-face-parts/
+        - img "Metal workpiece mounted on a trunnion beneath a CNC spindle."
+      - heading "Five-axis machining for multi-face components" [level=3]
+      - paragraph: Machining holes, side openings and contoured faces on a component held in a rotary setup.
+      - paragraph: Review tool access for angled holes, side openings and contoured surfaces.
+      - link "View study":
+        - /url: /cases/five-axis-machining-multi-face-parts/
+        - text: View study
+    - article:
+      - generic: "02"
+      - heading "Combine turned and milled features" [level=3]
+      - 'link "View study: Turning followed by milling"':
+        - /url: /cases/turning-then-milling-cylindrical-parts/
+        - img "Previously turned component mounted for a milling operation."
+      - heading "Turning followed by milling" [level=3]
+      - paragraph: A turned component returns to the machine for features that require milling.
+      - paragraph: Review how milled features relate to the turned datum axis.
+      - link "View study":
+        - /url: /cases/turning-then-milling-cylindrical-parts/
+        - text: View study
+    - article:
+      - generic: "03"
+      - heading "Reposition without losing datums" [level=3]
+      - 'link "View study: Two milling setups for one part"':
+        - /url: /cases/two-stage-cnc-milling/
+        - img "Metal part fixed for one milling operation."
+      - heading "Two milling setups for one part" [level=3]
+      - paragraph: Two milling setups provide access to different faces of the same part.
+      - paragraph: Review the locating faces and dimensional relationships between setups.
+      - link "View study":
+        - /url: /cases/two-stage-cnc-milling/
+        - text: View study
+    - heading "Have similar features?" [level=2]
+    - paragraph: Send your drawing, material and quantity so we can discuss your part.
+    - link "Prepare RFQ email":
+      - /url: /quote/
+    - heading "Pockets, bores & mounting faces" [level=2]
+    - article:
+      - 'link "View study: Milling a pocketed enclosure-style component"':
+        - /url: /cases/milling-a-pocketed-enclosure-form/
+        - img "A metal component held in a CNC milling setup beneath the spindle."
+      - heading "Milling a pocketed enclosure-style component" [level=3]
+      - paragraph: Milling a recessed component with a circular pocket and mounting features.
+      - paragraph: Review pocket depth, wall thickness and mounting features.
+      - link "View study":
+        - /url: /cases/milling-a-pocketed-enclosure-form/
+        - text: View study
+    - article:
+      - 'link "View study: CNC milling for prismatic multi-feature parts"':
+        - /url: /cases/milling-prismatic-components/
+        - img "CNC milling setup machining a prismatic metal component."
+      - heading "CNC milling for prismatic multi-feature parts" [level=3]
+      - paragraph: CNC milling of block-shaped components with multiple machined faces and openings.
+      - paragraph: Review datum faces, bores and hole positions across multiple features.
+      - link "View study":
+        - /url: /cases/milling-prismatic-components/
+        - text: View study
+    - heading "Before comparing your part" [level=2]
+    - term: Geometry and model revision
+    - definition: Share the latest drawing or 3D model. Identify changes to functional features.
+    - term: Critical datums and key features
+    - definition: Identify mating faces, critical hole positions and features that control assembly.
+    - term: Material and finish
+    - definition: Confirm the grade, condition and required surface finish, including protected dimensions.
+    - term: Inspection criteria
+    - definition: Specify acceptance requirements, measurement methods and the records you need.
+    - link "Drawing checklist":
+      - /url: /resources/rfq-checklist/
+      - text: Drawing checklist
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+      - text: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

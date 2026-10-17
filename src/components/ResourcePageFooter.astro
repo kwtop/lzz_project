@@ -1,0 +1,8 @@
+---
+import RfqPanel from './RfqPanel.astro';
+interface Props {current:string;title?:string;description?:string;quoteHref?:string;showClosing?:boolean;showRelated?:boolean}
+const {current,title='Request a quote',description='',quoteHref='/quote/',showClosing=true,showRelated=true}=Astro.props;
+const links=current==='/resources/ordering/rfq-checklist/'?[['How we work','/about/how-we-work/']]:[['RFQ checklist','/resources/ordering/rfq-checklist/']];
+---
+{showRelated&&<nav class="ff-wrap ff-related" aria-label="Resources and order preparation">{links.filter(([,href])=>href!==current).map(([label,href])=><a href={href}>{label}</a>)}</nav>}
+{showClosing&&<RfqPanel title={title} description={description||"Send your drawing, material and quantity."} href={quoteHref}/>}

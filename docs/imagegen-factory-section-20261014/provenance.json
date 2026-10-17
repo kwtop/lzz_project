@@ -1,0 +1,39 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "assets": [
+    {
+      "name": "measurement-setup",
+      "source": "C:/Users/Administrator/.codex/generated_images/01a0e6a3-5941-71c1-989c-332d0ddd8e0d/exec-ed708f55-60cb-4074-b161-12d72dd930b3.png",
+      "prompt": "Use case: scientific-educational. Asset type: supporting image for an industrial B2B quality-control page, clearly published as an AI illustration. Generate a single landscape 1536x1024 studio image explaining a plausible datum-based measurement setup, with no numbers or words. Subject: one unbranded silver machined aluminum rectangular block, with a broad vertical cylindrical through bore, one stepped side shoulder and a few small bolt holes, resting stably on three short precision supports on a compact dark graphite fixture plate. A slender touch-trigger CMM stylus enters the large bore from above; its single small ruby-red ball tip visibly contacts the inside wall of the bore, correctly oriented, without intersecting the metal. Show only the lower slender probe stem entering from the upper edge, not a whole CMM or inspection room. Close three-quarter view from slightly above, clearly showing the bore, locating faces and support arrangement. All of the workpiece and fixture must be within frame, comfortable margins, workpiece occupies about 65 percent of the width. Refined photorealistic technical 3D visualization, subtle real machined textures, neutral silver and graphite palette, seamless near-white background, soft directional studio lighting and a restrained contact shadow. Quiet clean engineering composition at readable thumbnail scale. No charts, paperwork, inspection results, dimensions, text, arrows, lettered datums, logos, certifications, branding, factory environment, people or extra tools. This is an illustrative generic setup; it must not imply an actual supplier machine, calibration state or measured result.",
+      "usage": "/factory/quality/ measurement-methods section",
+      "proofScope": "Generic illustrative workpiece and measurement supports; no actual LZZ equipment, calibration or measured results.",
+      "derivatives": [
+        {
+          "file": "public/media/factory-section-20261014/measurement-setup-480.webp",
+          "width": 480,
+          "sha256": "fe4c0178da82b52c7f6c2f7b38465390667c0801f2fe58d4c35b232843c4701c",
+          "bytes": 14612
+        },
+        {
+          "file": "public/media/factory-section-20261014/measurement-setup-800.webp",
+          "width": 800,
+          "sha256": "10ed722f109aaf79be1ba06115310adb5f9bc2f8e1ec163fc2deb98d21230668",
+          "bytes": 38018
+        },
+        {
+          "file": "public/media/factory-section-20261014/measurement-setup-1200.webp",
+          "width": 1200,
+          "sha256": "b75099e15c23a7680da8babd017b6a8985a562a789107d54d152283b1be13276",
+          "bytes": 82030
+        },
+        {
+          "file": "public/media/factory-section-20261014/measurement-setup-1536.webp",
+          "width": 1536,
+          "sha256": "42843edfab960c94389efbec359239a2a55731eb2b71066ddab583570f612fa1",
+          "bytes": 133892
+        }
+      ]
+    }
+  ]
+}

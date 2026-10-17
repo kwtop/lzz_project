@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pages": 82,
+  "protectedFiles": 36,
+  "checks": [
+    "routes and SEO metadata unchanged",
+    "all original headings, paragraphs, list items and labels retained",
+    "all original media sources, alt text and srcsets retained",
+    "original links, anchors and primary CTA retained",
+    "business logic and complete source-data directory unchanged"
+  ]
+}

@@ -1,0 +1,83 @@
+/* Turning puts the datum axis before material and inspection choices. */
+.redesign-site .turning-section{margin-top:var(--rd-space);scroll-margin-top:0}
+.redesign-site .turning-page .cx-intro{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}
+.redesign-site .cx-page .turning-page h1{font-size:56px;font-weight:550;line-height:1.1;letter-spacing:-.035em;max-width:17ch}
+.redesign-site .turning-page .cx-intro-part img{height:410px}
+.redesign-site .turning-page .cx-lead{font-size:20px;max-width:44ch}
+.redesign-site .turning-feature-layout{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr);gap:64px;align-items:center}
+.redesign-site .turning-feature-layout header p{margin-top:18px;max-width:48ch}
+.redesign-site .turning-feature-layout h3{margin-top:28px}
+.redesign-site .turning-feature-layout .cx-concept img{max-height:none;width:100%;aspect-ratio:3/2;object-fit:contain}
+.redesign-site .turning-scope{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;margin-top:36px;padding-top:28px;border-top:1px solid var(--border)}
+.redesign-site .turning-scope h3{font-size:19px;max-width:38ch}
+.redesign-site .turning-scope p{margin-top:12px;max-width:60ch}
+.redesign-site .turning-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px;margin-bottom:32px}
+.redesign-site .turning-heading h2{max-width:24ch}
+.redesign-site .turning-heading p{max-width:58ch}
+.redesign-site .turning-workshop{background:var(--surface);padding:40px}
+.redesign-site .turning-operations{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr);gap:64px;align-items:start}
+.redesign-site .turning-operations article:first-child .cx-evidence{width:260px;max-width:100%;margin-inline:0}
+.redesign-site .turning-operations article:nth-child(2) .cx-evidence{width:100%;margin-inline:0}
+.redesign-site .turning-operations .cx-evidence img{width:100%;height:360px;object-fit:contain;object-position:left center}
+.redesign-site .turning-operations h3{margin-top:20px}
+.redesign-site .turning-operations article>p{max-width:53ch;margin-top:12px}
+.redesign-site .turning-workshop>.rd-link{margin-top:24px}
+.redesign-site .turning-materials>.cx-materials{margin:0;padding:0;background:transparent}
+.redesign-site .turning-materials .cx-material-overview{max-width:70ch;margin-bottom:28px}
+.redesign-site .turning-materials .cx-material-overview p{margin-top:16px}
+.redesign-site .turning-parts{padding:28px 0 0;margin-top:32px;border-top:1px solid var(--border)}
+.redesign-site .turning-parts>header{max-width:65ch}
+.redesign-site .turning-parts>header p{margin-top:12px}
+.redesign-site .turning-parts-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;margin-top:28px}
+.redesign-site .turning-parts-pair img{height:270px;width:100%;object-fit:contain}
+.redesign-site .turning-parts-pair h3{margin-top:18px}
+.redesign-site .turning-parts-pair h3 a{text-decoration:none}
+.redesign-site .turning-parts-pair h3 a:is(:hover,:focus-visible){text-decoration:underline}
+.redesign-site .turning-parts-pair article>p{margin-top:10px;max-width:50ch}
+.redesign-site .turning-parts>.rd-note{margin-top:20px}
+.redesign-site .turning-quality-context{display:grid;grid-template-columns:220px minmax(0,1fr);gap:64px;align-items:start;margin-top:32px}
+.redesign-site .turning-quality-context .cx-application-review{margin:0;padding:0;border:0}
+.redesign-site .turning-quality-context .rd-link{margin-top:20px}
+.redesign-site .turning-quality-context .cx-application-review dl>div{grid-template-columns:1fr;gap:12px}
+.redesign-site .turning-quality-context .cx-application-review dd{max-width:70ch}
+.redesign-site .turning-rfq{border-top:1px solid var(--border);padding-top:36px}
+.redesign-site .turning-rfq>header{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px}
+.redesign-site .turning-rfq>header p{max-width:60ch;scroll-margin-top:0}
+.redesign-site .turning-rfq-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;margin-top:32px}
+.redesign-site .turning-rfq-body ol{list-style:none;margin:0;padding:0}
+.redesign-site .turning-rfq-body li{padding:14px 0;border-top:1px solid var(--border);margin:0;max-width:60ch}
+.redesign-site .turning-rfq-body li:first-child{padding-top:0;border:0}
+.redesign-site .turning-rfq-body>div{padding:28px;background:var(--surface);align-self:start}
+.redesign-site .turning-rfq-body .rd-note{margin-top:20px;max-width:50ch}
+.redesign-site .turning-rfq-body .rd-link{margin-top:20px}
+@media(min-width:768px){.redesign-site .turning-checks th:first-child{width:21%}.redesign-site .turning-checks td{width:39.5%}}
+@media(max-width:1100px){
+ .redesign-site .turning-feature-layout,.redesign-site .turning-operations{gap:32px}
+ .redesign-site .turning-page .cx-intro{gap:24px 32px}
+ .redesign-site .cx-page .turning-page h1{font-size:48px}
+ .redesign-site .turning-workshop{padding:32px}
+ .redesign-site .turning-heading,.redesign-site .turning-parts-pair{gap:24px 32px}
+ .redesign-site .turning-quality-context{gap:32px}
+}
+@media(max-width:767px){
+ .redesign-site .turning-section{margin-top:52px}
+ .redesign-site .cx-page .turning-page h1{font-size:37px;line-height:1.14;max-width:18ch}
+ .redesign-site .turning-page .cx-lead{font-size:18px}
+ .redesign-site .turning-page .cx-intro-part img{height:280px;max-height:none}
+ .redesign-site .turning-page .cx-order-link{font-size:15px}
+ .redesign-site .turning-page .cx-intro-actions{column-gap:20px}
+ .redesign-site .turning-feature-layout{grid-template-columns:1fr;gap:28px}
+ .redesign-site .turning-scope{grid-template-columns:1fr;gap:24px;margin-top:28px;padding-top:24px}
+ .redesign-site .turning-heading{grid-template-columns:1fr;gap:16px;margin-bottom:24px}
+ .redesign-site .turning-workshop{padding:28px var(--layout-gutter);margin-inline:calc(-1 * var(--layout-gutter))}
+ .redesign-site .turning-operations{grid-template-columns:1fr;gap:32px}
+ .redesign-site .turning-operations article:first-child .cx-evidence{width:240px;margin-inline:auto}
+ .redesign-site .turning-operations .cx-evidence img{height:auto;max-height:340px}
+ .redesign-site .turning-operations article:nth-child(2) .cx-evidence img{max-height:none}
+ .redesign-site .turning-parts-pair{grid-template-columns:1fr;gap:32px}
+ .redesign-site .turning-materials>.cx-materials{margin-inline:0}
+ .redesign-site .turning-quality-context{grid-template-columns:1fr;gap:28px}
+ .redesign-site .turning-quality-context>.cx-evidence{width:210px;order:2}
+ .redesign-site .turning-rfq>header,.redesign-site .turning-rfq-body{grid-template-columns:1fr;gap:24px}
+ .redesign-site .turning-rfq-body{margin-top:28px}
+}

@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Arrow from '../../components/Arrow.astro';
+
+
+import ProductExplorer from '../../components/ProductExplorer';
+import catalog from '../../data/catalog.json';
+import AdditionalPartForms from '../../components/AdditionalPartForms.astro';
+const products=catalog.products.map(({slug,name,categories,images})=>({slug,name,categories,images}));
+---
+<Layout title="Custom parts: machining examples" description="Browse custom CNC machined part examples by process and material, including housings, shafts, fittings and complex components.">
+ <header class="container catalog-heading"><h1>Custom machined parts</h1><p>Find examples with features similar to your part, or filter by process and material. We make each part to your drawing; the examples shown are not stock items.</p>
+  <aside class="catalog-case-entry" aria-labelledby="catalog-case-title"><div><h2 id="catalog-case-title">See how parts are machined</h2><p>Explore workshop photographs, setups and machining sequences.</p></div><a class="text-link" href="/cases/">View machining case studies <Arrow size={18}/></a></aside>
+  <a class="text-link" href="#additional-part-forms" style="margin-top:24px">Explore covered components and gear forms →</a>
+ </header>
+ <section class="container section catalog-section"><ProductExplorer products={products} categories={catalog.categories} client:load/></section>
+ <nav class="container geometry-paths" aria-label="Browse part examples by geometry"><a href="/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/"><strong>Housings &amp; pockets</strong><span>Walls, cavities, interfaces</span></a><a href="/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/"><strong>Shafts &amp; turned parts</strong><span>Diameters, fits, runout</span></a><a href="/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/"><strong>Fittings &amp; flanges</strong><span>Threads and sealing faces</span></a><a href="/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/"><strong>Cast blanks to finish</strong><span>Machining allowance and datums</span></a></nav>
+ <AdditionalPartForms/>
+</Layout>
+<style>
+ .catalog-case-entry{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:28px;padding:24px;border:1px solid var(--border);background:var(--surface);border-radius:4px}.catalog-case-entry h2{font-size:23px;line-height:1.3;letter-spacing:-.02em}.catalog-heading .catalog-case-entry p{font-size:15px;line-height:1.6;margin-top:8px}.catalog-case-entry>a{flex-shrink:0}
+ @media(max-width:760px){.catalog-case-entry{flex-direction:column;align-items:flex-start;gap:18px;padding:20px;margin-top:24px}.catalog-case-entry h2{font-size:21px}.catalog-case-entry>a{max-width:100%;white-space:normal}}
+ .catalog-heading{padding-block:48px 0}.catalog-heading h1{font-size:var(--type-display);line-height:1.12;letter-spacing:-.035em}.catalog-heading p{max-width:76ch;font-size:17px;margin-top:20px}:global(body.brand-site .catalog-section){padding-top:32px}.geometry-paths{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding-block:22px 64px;border-top:1px solid var(--border)}.geometry-paths a{display:flex;flex-direction:column;gap:8px;padding:17px 0;border-top:2px solid var(--ink);min-width:0}.geometry-paths strong{font-size:17px;line-height:1.25}.geometry-paths span{font-size:13px;color:var(--muted);line-height:1.45}.geometry-paths a:hover strong{color:var(--red)}@media(max-width:760px){.catalog-intro{grid-template-columns:1fr;gap:14px;padding-block:20px 11px}.catalog-intro>div:last-child p{font-size:14px;line-height:1.5}.catalog-intro>div:last-child a{font-size:13px;margin-top:8px}.geometry-paths{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.geometry-paths strong{font-size:15px}:global(body.brand-site.task-pages .catalog-section){padding-top:18px}}
+</style>

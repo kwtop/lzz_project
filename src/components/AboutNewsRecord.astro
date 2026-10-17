@@ -1,0 +1,12 @@
+---
+import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
+import {approvedNewsPlans,approvedNewsPhoto} from '../data/aboutApproved';
+import type {Resource} from '../data/resources';
+interface Props {item:Resource;featured?:boolean;quiet?:boolean;showCategory?:boolean;summary?:boolean}
+const {item,featured=false,quiet=false,showCategory=true,summary=true}=Astro.props,plan=approvedNewsPlans[item.slug],image=approvedNewsPhoto(plan.cover);
+const href='/about/company-news/'+item.slug+'/',Heading=featured?'h2':'h3';
+---
+<article class="ar-news-record" data-ar-news-category={plan.category}>
+ {quiet?<div class="ar-record-image"><AboutRedesignPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption}/></div>:<a href={href} aria-label={'Photographs: '+item.title}><AboutRedesignPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption} caption="Original company photograph"/></a>}
+ <div class="ar-record-copy"><div class="ar-news-meta"><time datetime={item.eventDate}>{item.eventDateLabel}</time>{showCategory&&<span>{plan.category}</span>}</div><Heading><a href={href}>{item.title}</a></Heading>{summary&&<p>{item.description}</p>}</div>
+</article>

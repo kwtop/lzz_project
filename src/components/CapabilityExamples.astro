@@ -1,0 +1,22 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {heroPartSlugs} from '../data/capabilityRebuild';
+import CapabilityPartFigure from './CapabilityPartFigure.astro';
+import {usesEditorialLayout} from '../data/redesignRollout';
+import {partDisplay} from '../data/capabilityDesign';
+import catalog from '../data/catalog.json';
+import {capabilityReadingPolish} from '../data/readingPolish';
+interface Props {page:RevisedCapability;skipHero?:boolean;embedded?:boolean;singleEntry?:boolean;coreSection?:string}
+const {page,skipHero=false,embedded=false,singleEntry=false,coreSection}=Astro.props;
+const existing=skipHero?page.parts.filter(part=>part.product.slug!==heroPartSlugs[page.slug]):page.parts;
+const lowResolution=existing.filter(part=>part.product.slug==='global-manufacturer-of-multi-sided-precision-machined-components');
+const replaceLowResolution=usesEditorialLayout(Astro.url.pathname)&&lowResolution.length>0;
+const clearCover=partDisplay(catalog.products.find(part=>part.slug==='custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier')!);
+const parts=replaceLowResolution?existing.map(part=>lowResolution.includes(part)?clearCover:part):existing;
+const reading=capabilityReadingPolish.has(page.slug);
+---
+<section class:list={['cx-examples',{'rd-section':!embedded,'cx-examples--embedded':embedded}]} id="part-examples" data-core-section={coreSection}><header><h2>{page.plan.exampleHeading}</h2><p>{page.plan.exampleIntro}</p></header>
+ {parts.length>0&&<div class:list={['cx-part-grid',{'cx-part-grid--single':parts.length===1,'cx-part-grid--pair':parts.length===2}]}>{parts.map(part=><article><CapabilityPartFigure part={part} conciseCaption={reading} linked={!singleEntry}/>{reading&&<h3 class="cx-reading-part-name"><a href={part.href}>{part.title}</a></h3>}<p>{part.text}</p>{!reading&&<a class="rd-link" href={part.href}>View part requirements</a>}</article>)}</div>}
+ <slot/>
+ {replaceLowResolution&&<p class="cx-source-reference"><a href={lowResolution[0].href}>Multi-face component reference</a> · {lowResolution[0].text} The source image has limited detail.</p>}
+</section>

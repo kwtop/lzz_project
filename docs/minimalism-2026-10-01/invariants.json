@@ -1,0 +1,7657 @@
+{
+  "generatedAt": "2026-10-01T07:00:44.240Z",
+  "baseline": "docs/minimalism-2026-10-01/before-render.json",
+  "sourceBaseline": "docs/minimalism-2026-10-01/source-before.json",
+  "distSitemapModifiedAt": "2026-10-01T07:00:29.524Z",
+  "routes": 81,
+  "expectedRoutes": 81,
+  "families": {
+    "decision": 54,
+    "read": 26,
+    "operate": 1
+  },
+  "failures": [],
+  "warnings": [],
+  "routeDiff": {
+    "added": [],
+    "removed": [],
+    "duplicateBaseline": [],
+    "duplicateSitemap": []
+  },
+  "idChanges": [
+    {
+      "route": "/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/company-news/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/company-news/lzz-team-outing-2024/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/company-news/may-2025-lzz-team-outing/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/29-inch-display-housing-cnc-machining/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/custom-metal-parts-batch-examples/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/five-axis-machining-multi-face-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/milling-a-pocketed-enclosure-form/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/milling-prismatic-components/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/turning-then-milling-cylindrical-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/cases/two-stage-cnc-milling/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/contact/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/factory/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/privacy/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-oem-cnc-turning-manufacturer/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/custom-rotary-cylindrical-components/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/global-oem-precision-machining-solutions/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/oem-precision-cnc-machined-casting-housings/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-cnc-machined-castings-custom-oem-housings/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-cnc-machined-castings-manufacturer/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/products/ultra-high-precision-machining-services/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/quality/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/quote/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/cnc-process-selection/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/custom-cnc-parts-shipping-checklist/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/drawings-and-ordering/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/faq/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/how-we-work/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/material-and-finish-checklist/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/processes-materials-finishes/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/production-and-shipping/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/prototype-vs-small-batch-cnc/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    },
+    {
+      "route": "/resources/rfq-checklist/",
+      "removed": [],
+      "added": [
+        "main"
+      ]
+    }
+  ],
+  "anchorChecks": {
+    "linksSeen": 5091,
+    "externalOrNonHttp": 210,
+    "internalDestinations": 4881,
+    "fragmentLinks": 503,
+    "samePageFragments": 285,
+    "crossPageFragments": 218,
+    "failures": []
+  },
+  "mediaChecks": {
+    "referencesSeen": 2153,
+    "localReferences": 2153,
+    "externalOrEmbedded": 0,
+    "missing": []
+  },
+  "protectedData": {
+    "beforeFiles": 42,
+    "afterFiles": 42,
+    "changes": [],
+    "unchanged": true
+  },
+  "publicMedia": {
+    "filesPresent": 1700,
+    "baselineHashesAvailable": false,
+    "byteComparison": "not-established"
+  },
+  "sourceChanges": {
+    "scope": [
+      "src"
+    ],
+    "beforeFiles": 134,
+    "afterFiles": 134,
+    "modified": [
+      {
+        "path": "src/components/HowWeWork.astro",
+        "beforeSha256": "03D60A89D11BFF9E35FB30A3578172142285F279C3162B6F78D1179CC42458CC",
+        "afterSha256": "29AC29A1437A4E88FD13B4E1A9C35F2890325007AF0279FA2D92219D4252A966"
+      },
+      {
+        "path": "src/components/PrototypeJourney.astro",
+        "beforeSha256": "EF05C9DE02522E8CB5F106CD4EDD8A7ED191116764D0C295A36E00FEC1D16939",
+        "afterSha256": "98794D98AAB05C31CDA8AB22F1F1B86576163BDDC5C437C36DAFE8D51863D67E"
+      },
+      {
+        "path": "src/components/RfqChecklist.astro",
+        "beforeSha256": "9243786A4C5504765AD209B23BDF657001017CF48AEAC7CFC6EE187513D0DA01",
+        "afterSha256": "1AB023BA7A1A33318448E2E8EF554789F12E78C4B2235822947D142F902AAB15"
+      },
+      {
+        "path": "src/components/ShippingChecklist.astro",
+        "beforeSha256": "00F4FCB9E8794084D83D794E2951EF3502F6D8774C31CFE170783BA1D6DACEE9",
+        "afterSha256": "5386F200A6CA8C5B6AB33BBE5E7453F1BA2573B1986131BA445AA1374B49ACD1"
+      },
+      {
+        "path": "src/pages/about.astro",
+        "beforeSha256": "AAB73D939119988BCF6CD8ACD5037F855C6C2C87E8F26CB78675A22E54E778E9",
+        "afterSha256": "7237095158B3027697691BD223EE5F0E7E6D8E936907742F6452945C7F4591F4"
+      },
+      {
+        "path": "src/pages/capabilities/[slug].astro",
+        "beforeSha256": "D78C78A48ED66D610DC43829B7CED678A0A528DF7C82152FDA8E391460B100E0",
+        "afterSha256": "010BE645AE3358269F7F8A6D941B46E6AD1440F1E87A39625BC8C98DCBC55FFD"
+      },
+      {
+        "path": "src/pages/factory.astro",
+        "beforeSha256": "26589FE59C805CE3BB3F36BF32D64D22A9324CDD540052CCBE05C42C4148A084",
+        "afterSha256": "33BCB4E1B48B6B02741499BA131B573E1DE4A8CCA8B6D002A96BAAF98BEA3DAE"
+      },
+      {
+        "path": "src/pages/quality.astro",
+        "beforeSha256": "64A922BC1DA8A2A215C5003BA4D1497707D0216CB29D0EEB81D113D880413B39",
+        "afterSha256": "8C034D9E8516F7C992E3BB507FD5F4C09B9FB102F5BF002F6CB0B41C2E849C72"
+      },
+      {
+        "path": "src/styles/page-system.css",
+        "beforeSha256": "A81B46BD4F19271D9469014EF3A21689E8A40BAFA3AA2D033076A3F1D6497B98",
+        "afterSha256": "1F6438144375D702D63B78E570ED55C482E9A5934B2D1C18649984570DA6C0B4"
+      }
+    ],
+    "added": [],
+    "deleted": []
+  },
+  "linkChanges": [
+    {
+      "route": "/about/",
+      "removed": [
+        {
+          "href": "/factory/",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "kind": "reduced-repeat"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "removed": [
+        {
+          "href": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2,
+          "kind": "reduced-repeat"
+        },
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "/products/",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#machining-studies",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "removed": [
+        {
+          "href": "#engineering-fit",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#part-examples",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#capability-scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#enquiry",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/factory/",
+      "removed": [
+        {
+          "href": "/quality/#order-documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "kind": "reduced-repeat"
+        }
+      ],
+      "added": [
+        {
+          "href": "/media/evidence/shipping-example-1600.webp",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1,
+          "kind": "new-destination"
+        }
+      ]
+    },
+    {
+      "route": "/resources/custom-cnc-parts-shipping-checklist/",
+      "removed": [
+        {
+          "href": "#section-2",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/how-we-work/",
+      "removed": [
+        {
+          "href": "/quote/",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2,
+          "kind": "reduced-repeat"
+        },
+        {
+          "href": "/resources/rfq-checklist/",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "kind": "reduced-repeat"
+        },
+        {
+          "href": "/products/",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/prototype-vs-small-batch-cnc/",
+      "removed": [
+        {
+          "href": "/resources/how-we-work/",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "kind": "reduced-repeat"
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/rfq-checklist/",
+      "removed": [
+        {
+          "href": "#rq-essentials-title",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#rq-accepted-title",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#material-finish",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "kind": "reduced-repeat"
+        },
+        {
+          "href": "#drawing-review",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "#commercial-brief",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2,
+          "kind": "reduced-repeat"
+        },
+        {
+          "href": "#prepare-email",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "kind": "removed-destination"
+        },
+        {
+          "href": "/downloads/order-acceptance-checklist.txt",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "kind": "reduced-repeat"
+        }
+      ],
+      "added": []
+    }
+  ],
+  "imageChanges": [
+    {
+      "route": "/about/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/editorial/how-we-work-hero-v2-800.webp",
+            "alt": "Illustration of a machined aluminum housing on an engineering drawing",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-00-cutout-v1-1200.webp",
+            "alt": "Multi-bore components",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        },
+        {
+          "image": {
+            "src": "/media/editorial/geometry-review-v1-800.webp",
+            "alt": "Illustrative pocketed block showing mounting holes, internal corners and side opening",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-12-cutout-v1-1200.webp",
+            "alt": "Intercooler prototypes",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-18-cutout-v1-1200.webp",
+            "alt": "Transmission housings & pump bodies",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-00-cutout-v1-1200.webp",
+            "alt": "Multi-bore components",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        },
+        {
+          "image": {
+            "src": "/media/editorial/geometry-review-v1-800.webp",
+            "alt": "Illustrative pocketed block showing mounting holes, internal corners and side opening",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-03-cutout-v1-1200.webp",
+            "alt": "Angled housings",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-27-cutout-v1-1200.webp",
+            "alt": "Brass & copper parts",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-13-cutout-v1-1200.webp",
+            "alt": "Billet engine covers",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-20-cutout-v1-1200.webp",
+            "alt": "Non-metallic & insulating components",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-03-cutout-v1-1200.webp",
+            "alt": "Angled housings",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/responsive/catalog-19-cutout-v1-1200.webp",
+            "alt": "Stainless steel turned shafts",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/factory/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/evidence/workshop-wide-1600.webp",
+            "alt": "Rows of enclosed CNC machines inside the LZZ workshop.",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        },
+        {
+          "image": {
+            "src": "/media/evidence/milling-enclosure-operation-1600.webp",
+            "alt": "A metal component held in a CNC milling setup beneath the spindle.",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        },
+        {
+          "image": {
+            "src": "/media/evidence/cmm-detail-1600.webp",
+            "alt": "Closer view of a coordinate measuring machine.",
+            "origin": ""
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/quality/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/evidence/cmm-detail-1600.webp",
+            "alt": "Closer view of a coordinate measuring machine.",
+            "origin": "original-photo"
+          },
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1,
+          "srcStillUsed": true
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/custom-cnc-parts-shipping-checklist/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/editorial/packing-protection-illustrative-v2-1200.webp",
+            "alt": "Illustration of CNC parts separated by foam, with protective caps on threaded features",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        },
+        {
+          "image": {
+            "src": "/media/editorial/shipping-identification-illustrative-1200.webp",
+            "alt": "Illustrative machined part with a sample identification label and paperwork",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/how-we-work/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/editorial/how-we-work-hero-v2-1920.webp",
+            "alt": "Illustration of a machined aluminum housing on an engineering drawing",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        },
+        {
+          "image": {
+            "src": "/media/editorial/engineering-review-illustrative-1200.webp",
+            "alt": "Illustration of two engineers reviewing a machined part and drawing",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        },
+        {
+          "image": {
+            "src": "/media/editorial/how-we-work-inspection-v2-1440.webp",
+            "alt": "Process illustration of gloved hands examining a machined component",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/prototype-vs-small-batch-cnc/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/editorial/prototype-batch-editorial-r3-1536.webp",
+            "alt": "AI-generated illustration of one machined enclosure prototype beside four matching repeat-batch parts",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/rfq-checklist/",
+      "removed": [
+        {
+          "image": {
+            "src": "/media/rfq-planning-ai-v2.webp",
+            "alt": "AI-generated illustration of a machined housing beside a drawing and caliper",
+            "origin": "AI-generated"
+          },
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0,
+          "srcStillUsed": false
+        }
+      ],
+      "added": []
+    }
+  ],
+  "textChanges": [
+    {
+      "route": "/about/",
+      "beforeWords": 902,
+      "afterWords": 889,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "precision",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "inside",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "our",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "factory",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "a",
+          "count": 1,
+          "beforeCount": 13,
+          "afterCount": 12
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "04",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "05",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "project",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "application",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "not",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "customer",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "explore",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "illustrations",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "specific",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "parts",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 7
+        },
+        {
+          "word": "and",
+          "count": 2,
+          "beforeCount": 54,
+          "afterCount": 56
+        },
+        {
+          "word": "example",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "requirements",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 6
+        },
+        {
+          "word": "engineering",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "notes",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 4
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "beforeWords": 598,
+      "afterWords": 519,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "machining",
+          "count": 2,
+          "beforeCount": 15,
+          "afterCount": 13
+        },
+        {
+          "word": "geometry",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "features",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "and",
+          "count": 2,
+          "beforeCount": 32,
+          "afterCount": 30
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "the",
+          "count": 4,
+          "beforeCount": 34,
+          "afterCount": 30
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "multi-bore",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "circular",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "milled",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "component",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "studies",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "inspection",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "indexed",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "positioning",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "a",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "simultaneous",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "route",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "size",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "identify",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "to",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "finish",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "specify",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "not",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "request",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "side",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "an",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "face",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "plan",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "complete",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "ai-generated",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "or",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "record",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "pocket",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "depth",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "corner",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "radii",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "wall",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "thickness",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datum",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "hole",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "pattern",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "thread",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "specification",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "define",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "bore",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "its",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "relationship",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "other",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "beforeWords": 601,
+      "afterWords": 569,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "aluminum",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "machining",
+          "count": 1,
+          "beforeCount": 12,
+          "afterCount": 11
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 10,
+          "afterCount": 8
+        },
+        {
+          "word": "intercooler",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "prototypes",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "studies",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 39,
+          "afterCount": 40
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 4
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "beforeWords": 503,
+      "afterWords": 475,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "housings",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "transmission",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "pump",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "bodies",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 34,
+          "afterCount": 35
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 6
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "beforeWords": 646,
+      "afterWords": 544,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "cnc",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "milling",
+          "count": 2,
+          "beforeCount": 13,
+          "afterCount": 11
+        },
+        {
+          "word": "components",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "and",
+          "count": 5,
+          "beforeCount": 36,
+          "afterCount": 31
+        },
+        {
+          "word": "other",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "with",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 10,
+          "afterCount": 9
+        },
+        {
+          "word": "to",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "the",
+          "count": 3,
+          "beforeCount": 24,
+          "afterCount": 21
+        },
+        {
+          "word": "multi-bore",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "circular",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "milled",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "component",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "inspection",
+          "count": 3,
+          "beforeCount": 6,
+          "afterCount": 3
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "faces",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "an",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "housing",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "or",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "features",
+          "count": 4,
+          "beforeCount": 10,
+          "afterCount": 6
+        },
+        {
+          "word": "machined",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "geometry",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "a",
+          "count": 3,
+          "beforeCount": 13,
+          "afterCount": 10
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "not",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "specify",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "of",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "side",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "openings",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "recessed",
+          "count": 2,
+          "beforeCount": 2,
+          "afterCount": 0
+        },
+        {
+          "word": "pocket",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "mounting",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "block-shaped",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "multiple",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "display",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "broad",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "edge",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "details",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "depth",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "hole",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "datum",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "record",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "ai-generated",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "identify",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "corner",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "radii",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "wall",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "thickness",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "face",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "pattern",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "thread",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "specification",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "define",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "bore",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "its",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "relationship",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 4
+        },
+        {
+          "word": "more",
+          "count": 2,
+          "beforeCount": 1,
+          "afterCount": 3
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "beforeWords": 560,
+      "afterWords": 527,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "ring",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "housings",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "angled",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "components",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "machining",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "studies",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 33,
+          "afterCount": 34
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "beforeWords": 528,
+      "afterWords": 489,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "copper",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "brass",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "machining",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "parts",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "turned",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "components",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "examples",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "studies",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "browse",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "all",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 35,
+          "afterCount": 36
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 6
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "beforeWords": 529,
+      "afterWords": 492,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "revision",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "control",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "aluminum",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "the",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "billet",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "engine",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "covers",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "machining",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "studies",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "repeat",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "finish",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "plan",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "each",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "release",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "approve",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 29,
+          "afterCount": 30
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 4
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "beforeWords": 587,
+      "afterWords": 555,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "machining",
+          "count": 1,
+          "beforeCount": 12,
+          "afterCount": 11
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "insulating",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "non-metallic",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "components",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "studies",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "process",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "study",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 41,
+          "afterCount": 42
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "beforeWords": 505,
+      "afterWords": 471,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "prototype",
+          "count": 1,
+          "beforeCount": 12,
+          "afterCount": 11
+        },
+        {
+          "word": "next",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "revision",
+          "count": 2,
+          "beforeCount": 9,
+          "afterCount": 7
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "the",
+          "count": 3,
+          "beforeCount": 27,
+          "afterCount": 24
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "ring",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "housings",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "angled",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "components",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "finish",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "define",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "objective",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 20,
+          "afterCount": 21
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "beforeWords": 498,
+      "afterWords": 470,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "stainless",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "steel",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "shafts",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "turned",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "examples",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "enquiry",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "grade",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "condition",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "material",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "3d",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "model",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "datums",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "finish",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "surfaces",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "machine",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "inspect",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "release",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 33,
+          "afterCount": 34
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "route": "/factory/",
+      "beforeWords": 499,
+      "afterWords": 489,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "our",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "a",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "cnc",
+          "count": 1,
+          "beforeCount": 10,
+          "afterCount": 9
+        },
+        {
+          "word": "from",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "machining",
+          "count": 2,
+          "beforeCount": 12,
+          "afterCount": 10
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "workshop",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "original",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "photograph",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "to",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "your",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "cmm",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "quality",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "control",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "inside",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "detail",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "plan",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "review",
+          "count": 3,
+          "beforeCount": 6,
+          "afterCount": 3
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        }
+      ],
+      "added": [
+        {
+          "word": "production",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 8
+        },
+        {
+          "word": "the",
+          "count": 1,
+          "beforeCount": 27,
+          "afterCount": 28
+        },
+        {
+          "word": "and",
+          "count": 1,
+          "beforeCount": 31,
+          "afterCount": 32
+        },
+        {
+          "word": "inspection",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 12
+        },
+        {
+          "word": "for",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "archive",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "packing",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "quotation",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 8
+        },
+        {
+          "word": "requirements",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 9
+        },
+        {
+          "word": "approval",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 6
+        },
+        {
+          "word": "delivery",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "sample",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 5
+        },
+        {
+          "word": "final",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "qc",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "purchasing",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "orders",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "preparation",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "route": "/quality/",
+      "beforeWords": 578,
+      "afterWords": 546,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "requirements",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "and",
+          "count": 2,
+          "beforeCount": 33,
+          "afterCount": 31
+        },
+        {
+          "word": "your",
+          "count": 1,
+          "beforeCount": 13,
+          "afterCount": 12
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 12,
+          "afterCount": 11
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "identify",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "key",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "from",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "method",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "agree",
+          "count": 3,
+          "beforeCount": 12,
+          "afterCount": 9
+        },
+        {
+          "word": "suitable",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "equipment",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "acceptance",
+          "count": 1,
+          "beforeCount": 10,
+          "afterCount": 9
+        },
+        {
+          "word": "confirm",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "the",
+          "count": 2,
+          "beforeCount": 33,
+          "afterCount": 31
+        },
+        {
+          "word": "reports",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "documents",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "you",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "need",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "starts",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "record",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "format",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "what",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "report",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "will",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "contain",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "define",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "to",
+          "count": 3,
+          "beforeCount": 14,
+          "afterCount": 11
+        },
+        {
+          "word": "documentation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "04",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "dimensional",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 6
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 8
+        },
+        {
+          "word": "share",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1
+        },
+        {
+          "word": "so",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1
+        },
+        {
+          "word": "we",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "can",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "methods",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "preview",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "route": "/resources/custom-cnc-parts-shipping-checklist/",
+      "beforeWords": 704,
+      "afterWords": 444,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "delivery",
+          "count": 4,
+          "beforeCount": 12,
+          "afterCount": 8
+        },
+        {
+          "word": "shipping",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "parts",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "include",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "the",
+          "count": 16,
+          "beforeCount": 34,
+          "afterCount": 18
+        },
+        {
+          "word": "destination",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "and",
+          "count": 18,
+          "beforeCount": 44,
+          "afterCount": 26
+        },
+        {
+          "word": "required",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "arrival",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "date",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "in",
+          "count": 5,
+          "beforeCount": 14,
+          "afterCount": 9
+        },
+        {
+          "word": "your",
+          "count": 4,
+          "beforeCount": 10,
+          "afterCount": 6
+        },
+        {
+          "word": "rfq",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "packing",
+          "count": 7,
+          "beforeCount": 14,
+          "afterCount": 7
+        },
+        {
+          "word": "documents",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "transport",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "responsibilities",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "need",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "to",
+          "count": 6,
+          "beforeCount": 9,
+          "afterCount": 3
+        },
+        {
+          "word": "be",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "agreed",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "a",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "quotation",
+          "count": 3,
+          "beforeCount": 11,
+          "afterCount": 8
+        },
+        {
+          "word": "checklist",
+          "count": 4,
+          "beforeCount": 5,
+          "afterCount": 1
+        },
+        {
+          "word": "see",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "this",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "part",
+          "count": 3,
+          "beforeCount": 11,
+          "afterCount": 8
+        },
+        {
+          "word": "protection",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "pack",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "identification",
+          "count": 4,
+          "beforeCount": 7,
+          "afterCount": 3
+        },
+        {
+          "word": "basis",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "schedule",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "confirm",
+          "count": 1,
+          "beforeCount": 11,
+          "afterCount": 10
+        },
+        {
+          "word": "use",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "distinguish",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "information",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "you",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "provide",
+          "count": 2,
+          "beforeCount": 9,
+          "afterCount": 7
+        },
+        {
+          "word": "from",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "details",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "cosmetic",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "faces",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "sealing",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "surfaces",
+          "count": 4,
+          "beforeCount": 6,
+          "afterCount": 2
+        },
+        {
+          "word": "threads",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "fragile",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "edges",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "cleanliness",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "protective",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "materials",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "carton",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "or",
+          "count": 2,
+          "beforeCount": 10,
+          "afterCount": 8
+        },
+        {
+          "word": "case",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "requirements",
+          "count": 3,
+          "beforeCount": 5,
+          "afterCount": 2
+        },
+        {
+          "word": "limits",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "number",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "drawing",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "revision",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "per",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "batch",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "labels",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "whether",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "lot",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "references",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "inspection",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "are",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "available",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "requested",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "format",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "address",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "receiving",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "trade",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "term",
+          "count": 3,
+          "beforeCount": 5,
+          "afterCount": 2
+        },
+        {
+          "word": "version",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "named",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "place",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "who",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "export",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "clearance",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "insurance",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "duties",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "taxes",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "local",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "04",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "document",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "list",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "for",
+          "count": 3,
+          "beforeCount": 6,
+          "afterCount": 3
+        },
+        {
+          "word": "order",
+          "count": 4,
+          "beforeCount": 7,
+          "afterCount": 3
+        },
+        {
+          "word": "05",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "separate",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "production",
+          "count": 3,
+          "beforeCount": 6,
+          "afterCount": 3
+        },
+        {
+          "word": "takes",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "7–14",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "business",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "days",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "after",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "confirmation",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "including",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "surface",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "finishing",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "estimate",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "transit",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "separately",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "archive",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "route",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "not",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "carrier",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "ai-generated",
+          "count": 2,
+          "beforeCount": 2,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 2,
+          "beforeCount": 2,
+          "afterCount": 0
+        },
+        {
+          "word": "an",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "shipment",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "international",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "protect",
+          "count": 3,
+          "beforeCount": 3,
+          "afterCount": 0
+        },
+        {
+          "word": "finished",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "depends",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "mark",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "vulnerable",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "describe",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "any",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "so",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "can",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "specified",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "agree",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "identify",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "areas",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "requiring",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "corrosion",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "according",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "method",
+          "count": 2,
+          "beforeCount": 2,
+          "afterCount": 0
+        },
+        {
+          "word": "consider",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "at",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "site",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "keep",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "together",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "record",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "links",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "destination-specific",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "state",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "arranges",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "time",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "quote",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "assumption",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "responsibility",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": [
+        {
+          "word": "alongside",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "five",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "topics",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "receiving-site",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1
+        },
+        {
+          "word": "depend",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 3
+        },
+        {
+          "word": "options",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 2
+        },
+        {
+          "word": "above",
+          "count": 1,
+          "beforeCount": 0,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "route": "/resources/how-we-work/",
+      "beforeWords": 750,
+      "afterWords": 598,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "1",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "2",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "3",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "how",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "we",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "machining",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "from",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "your",
+          "count": 1,
+          "beforeCount": 10,
+          "afterCount": 9
+        },
+        {
+          "word": "or",
+          "count": 3,
+          "beforeCount": 10,
+          "afterCount": 7
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "the",
+          "count": 7,
+          "beforeCount": 40,
+          "afterCount": 33
+        },
+        {
+          "word": "sample",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "and",
+          "count": 10,
+          "beforeCount": 51,
+          "afterCount": 41
+        },
+        {
+          "word": "agree",
+          "count": 3,
+          "beforeCount": 11,
+          "afterCount": 8
+        },
+        {
+          "word": "records",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "to",
+          "count": 2,
+          "beforeCount": 12,
+          "afterCount": 10
+        },
+        {
+          "word": "with",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "parts",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "drawing",
+          "count": 1,
+          "beforeCount": 14,
+          "afterCount": 13
+        },
+        {
+          "word": "delivered",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part",
+          "count": 2,
+          "beforeCount": 12,
+          "afterCount": 10
+        },
+        {
+          "word": "prepare",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "rfq",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "email",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "requirements",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "batch",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "inspection",
+          "count": 5,
+          "beforeCount": 9,
+          "afterCount": 4
+        },
+        {
+          "word": "packing",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "shipment",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "confirm",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "documents",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "delivery",
+          "count": 3,
+          "beforeCount": 9,
+          "afterCount": 6
+        },
+        {
+          "word": "process",
+          "count": 3,
+          "beforeCount": 3,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 3,
+          "beforeCount": 3,
+          "afterCount": 0
+        },
+        {
+          "word": "not",
+          "count": 3,
+          "beforeCount": 5,
+          "afterCount": 2
+        },
+        {
+          "word": "a",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "specific",
+          "count": 2,
+          "beforeCount": 2,
+          "afterCount": 0
+        },
+        {
+          "word": "customer",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "project",
+          "count": 3,
+          "beforeCount": 3,
+          "afterCount": 0
+        },
+        {
+          "word": "before",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "begin",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "production",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "order",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "finishing",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "approval",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "quantity",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "an",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "terms",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "you",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "checklist",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "view",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "chapter",
+          "count": 3,
+          "beforeCount": 3,
+          "afterCount": 0
+        },
+        {
+          "word": "start",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "part’s",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "function",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "material",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "begins",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "lzz",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "staff",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "quoted",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "finish",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "price",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "need",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "original",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "examples",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "what",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "be",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "where",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "prototype",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "is",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "followed",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "by",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "feedback",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "must",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "checked",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "approved",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "starts",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "of",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "photograph",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "will",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "protected",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "they",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "arrive",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "which",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "accompany",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "them",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "factory",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "workflow",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "shows",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "sequence",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "behind",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "issue",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "resolution",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "related",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/prototype-vs-small-batch-cnc/",
+      "beforeWords": 560,
+      "afterWords": 470,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "production",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "and",
+          "count": 5,
+          "beforeCount": 39,
+          "afterCount": 34
+        },
+        {
+          "word": "a",
+          "count": 2,
+          "beforeCount": 8,
+          "afterCount": 6
+        },
+        {
+          "word": "prototype",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "helps",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "you",
+          "count": 2,
+          "beforeCount": 2,
+          "afterCount": 0
+        },
+        {
+          "word": "check",
+          "count": 3,
+          "beforeCount": 5,
+          "afterCount": 2
+        },
+        {
+          "word": "the",
+          "count": 7,
+          "beforeCount": 42,
+          "afterCount": 35
+        },
+        {
+          "word": "design",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "before",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "ordering",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "more",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "parts",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "for",
+          "count": 1,
+          "beforeCount": 8,
+          "afterCount": 7
+        },
+        {
+          "word": "repeat",
+          "count": 1,
+          "beforeCount": 10,
+          "afterCount": 9
+        },
+        {
+          "word": "batch",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "use",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "approved",
+          "count": 2,
+          "beforeCount": 4,
+          "afterCount": 2
+        },
+        {
+          "word": "drawing",
+          "count": 3,
+          "beforeCount": 9,
+          "afterCount": 6
+        },
+        {
+          "word": "revision",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "confirm",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "material",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "finish",
+          "count": 3,
+          "beforeCount": 8,
+          "afterCount": 5
+        },
+        {
+          "word": "also",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "need",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "an",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "agreed",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "inspection",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "delivery",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "terms",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "fit",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "function",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "or",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "appearance",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "with",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "lock",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "carry",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "into",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "controlled",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "ai-generated",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "not",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "record",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "01",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "agree",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "to",
+          "count": 1,
+          "beforeCount": 9,
+          "afterCount": 8
+        },
+        {
+          "word": "02",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "03",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "same",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "following",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "points",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "each",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "supplier",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "guide",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "explains",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "information",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "shipment",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": []
+    },
+    {
+      "route": "/resources/rfq-checklist/",
+      "beforeWords": 709,
+      "afterWords": 609,
+      "textOrOrderChanged": true,
+      "removed": [
+        {
+          "word": "rfq",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "checklist",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "prepare",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "the",
+          "count": 6,
+          "beforeCount": 33,
+          "afterCount": 27
+        },
+        {
+          "word": "drawing",
+          "count": 5,
+          "beforeCount": 16,
+          "afterCount": 11
+        },
+        {
+          "word": "revision",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "material",
+          "count": 3,
+          "beforeCount": 12,
+          "afterCount": 9
+        },
+        {
+          "word": "quantity",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "and",
+          "count": 7,
+          "beforeCount": 40,
+          "afterCount": 33
+        },
+        {
+          "word": "acceptance",
+          "count": 3,
+          "beforeCount": 7,
+          "afterCount": 4
+        },
+        {
+          "word": "requirements",
+          "count": 3,
+          "beforeCount": 15,
+          "afterCount": 12
+        },
+        {
+          "word": "together",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "this",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "covers",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "order",
+          "count": 2,
+          "beforeCount": 7,
+          "afterCount": 5
+        },
+        {
+          "word": "details",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "we",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "to",
+          "count": 2,
+          "beforeCount": 5,
+          "afterCount": 3
+        },
+        {
+          "word": "your",
+          "count": 3,
+          "beforeCount": 10,
+          "afterCount": 7
+        },
+        {
+          "word": "on",
+          "count": 2,
+          "beforeCount": 6,
+          "afterCount": 4
+        },
+        {
+          "word": "page",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "five",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "essential",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "final",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "surface",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "review",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "commercial",
+          "count": 2,
+          "beforeCount": 3,
+          "afterCount": 1
+        },
+        {
+          "word": "brief",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "email",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "a",
+          "count": 2,
+          "beforeCount": 13,
+          "afterCount": 11
+        },
+        {
+          "word": "complete",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "finish",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "or",
+          "count": 2,
+          "beforeCount": 19,
+          "afterCount": 17
+        },
+        {
+          "word": "applicable",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "standards",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "critical",
+          "count": 1,
+          "beforeCount": 4,
+          "afterCount": 3
+        },
+        {
+          "word": "inspection",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "delivery",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "shipping",
+          "count": 1,
+          "beforeCount": 5,
+          "afterCount": 4
+        },
+        {
+          "word": "buyer",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "worksheet",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "record",
+          "count": 3,
+          "beforeCount": 4,
+          "afterCount": 1
+        },
+        {
+          "word": "features",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "documents",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "ai-generated",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "illustration",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "not",
+          "count": 1,
+          "beforeCount": 6,
+          "afterCount": 5
+        },
+        {
+          "word": "an",
+          "count": 1,
+          "beforeCount": 7,
+          "afterCount": 6
+        },
+        {
+          "word": "lzz",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "define",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "in",
+          "count": 3,
+          "beforeCount": 5,
+          "afterCount": 2
+        },
+        {
+          "word": "quotation",
+          "count": 1,
+          "beforeCount": 3,
+          "afterCount": 2
+        },
+        {
+          "word": "so",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "can",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "confirm",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "notes",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "provide",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "scope",
+          "count": 1,
+          "beforeCount": 2,
+          "afterCount": 1
+        },
+        {
+          "word": "use",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "one",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "place",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        },
+        {
+          "word": "timing",
+          "count": 1,
+          "beforeCount": 1,
+          "afterCount": 0
+        }
+      ],
+      "added": []
+    }
+  ],
+  "reviewOnlyFields": [
+    "linkChanges",
+    "imageChanges",
+    "textChanges"
+  ],
+  "limitations": [
+    "Captures current static dist only; does not run a build, browser, network request or prove dist freshness.",
+    "Text and word counts include closed details and responsive alternatives; they do not measure default visible reading length.",
+    "Main links/images/words are compared with the baseline. Removed repeats and approved decorative media are review records, not hard failures.",
+    "Current internal links and fragment IDs are checked across all sitemap HTML, with trailing slash/index.html and declared canonical path aliases normalized. JavaScript-created destinations and text-fragment matching are not verified.",
+    "Local DOM image, srcset, video, audio, source and poster files are checked in dist; CSS backgrounds, external URL availability and hydrated media are not verified.",
+    "Source hashes cover src only; src/data additions, modifications and deletions fail. The newly added audit script is outside that baseline scope.",
+    "No starting public/media byte hashes were recorded for this pass. Referenced files are checked for existence; complete before/after media-byte preservation is not established.",
+    "Word and image diffs do not determine whether a removed sentence contains a unique fact; review the recorded diffs and before/after source when assessing content fidelity."
+  ]
+}

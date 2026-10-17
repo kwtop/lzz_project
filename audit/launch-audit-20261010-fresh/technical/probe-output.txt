@@ -1,0 +1,25 @@
+audit/prelaunch-20261010/technical/product-content-coverage.mjs:12:8 - warning ts(6133): 'required' is declared but its value is never read.
+
+12  const required=['Materials','Machining','Surface finish'];
+          ~~~~~~~~
+
+scripts/verify-company-pages.mjs:3:1 - warning ts(6133): 'load' is declared but its value is never read.
+
+3 import {load} from 'cheerio';
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Result (411 files): 
+- 0 errors
+- 0 warnings
+- 2 hints
+
+
+
+> lzz-precision@1.0.0 test:seo
+> node scripts/verify-seo.mjs
+
+Checked 98 HTML, 93 evidence-derived redirect rules, 91 discovered URLs (35 products / 53 aliases, 10 categories / 20 routes, 2 articles).
+SEO verified locally: 98 HTML, 81 sitemap URLs, 93 redirects, 91 raw URLs covered. Host behavior not tested.
+
+Static links, assets, headings and redirect shells verified: 98 HTML files.
+

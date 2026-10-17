@@ -1,0 +1,29 @@
+/* Six process studies; collection layouts and original image files are independent. */
+.cs-page [id]{scroll-margin-top:110px}
+.cs-hero{display:grid;grid-template-columns:1fr 1.05fr;gap:48px;align-items:center;padding:12px 0 60px}
+.cs-hero h1{margin:0 0 24px;max-width:23ch}.cs-eyebrow{font-size:13px!important;letter-spacing:.035em;color:#647078;margin:0 0 16px}
+.cs-lead{margin:0;max-width:58ch;color:#555f65}.cs-jump{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.cs-illustration,.cs-source{margin:0;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cs-page .cs-illustration img{display:block;width:100%!important;height:auto!important;aspect-ratio:3/2!important;max-height:none!important;object-fit:contain!important;background:#fff;box-shadow:none;border-radius:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cs-page .cs-source img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:520px!important;object-fit:contain!important;aspect-ratio:auto!important;border-radius:0;box-shadow:none}
+.cs-page figcaption{font-size:13px;max-width:64ch;margin:12px 0 0;color:#687279;line-height:1.5}
+.cs-hero figcaption{max-width:54ch}.cs-hero-source{max-width:560px}
+.cs-feature-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.cs-feature-points p,.cs-sequence p{margin:0;color:#555f65}.cs-feature-points>div{min-width:0;border-top:1px solid #dfe2e4;padding-top:24px}
+.cs-features-with-image{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.cs-features-with-image .cs-feature-points{grid-template-columns:1fr;gap:24px}.cs-features-with-image .cs-feature-points>div{border:0;padding:0}.cs-features-with-image .tc-number{display:none}
+.cs-sequence{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;padding:0;list-style:none;margin:0 0 40px}
+.cs-sequence li{border-top:1px solid #dfe2e4;padding-top:24px;min-width:0}
+.cs-workshop{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:start}.cs-process-images{min-width:0}.cs-photo-context{padding-top:12px}.cs-photo-context>p:not(.cs-eyebrow){color:#555f65;max-width:58ch}
+.cs-workshop-pair{display:block}.cs-workshop-pair .cs-process-images{display:grid;grid-template-columns:1fr 1fr;gap:32px}.cs-workshop-pair .cs-photo-context{max-width:850px;padding-top:24px}
+.cs-original{margin-top:24px;border-block:1px solid #dfe2e4}.cs-original summary{cursor:pointer;padding:16px 0;min-height:48px;font-size:15px;color:#343a3f}.cs-original summary:focus-visible{outline:2px solid #ac2831;outline-offset:4px}.cs-original[open] summary{margin-bottom:8px}
+.cs-part-source{max-width:360px;padding-bottom:24px}.cs-note{font-size:14px!important;color:#687279;max-width:85ch;margin:24px 0 0}.cs-table-caption{text-align:left;font-size:14px;color:#687279;margin-bottom:16px}
+.cs-guidance{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.cs-video{margin-top:32px;max-width:960px}
+.cs-page .workshop-video{margin:0;padding:0;border:0}.cs-page .workshop-video video{width:100%;height:auto;max-height:440px;object-fit:contain}.cs-page .workshop-video figure{margin:24px 0 0}
+@media(min-width:761px) and (max-width:1050px){.cs-hero,.cs-features-with-image,.cs-workshop{gap:30px}.cs-sequence,.cs-feature-points{gap:24px}}
+@media(max-width:760px){
+ .cs-hero{grid-template-columns:1fr;gap:28px;padding:0 0 38px}.cs-hero h1{max-width:none;margin-bottom:20px}.cs-jump{margin-top:24px}.cs-hero .cs-illustration{max-width:520px;margin-inline:auto}
+ .cs-features-with-image,.cs-feature-points,.cs-sequence,.cs-workshop,.cs-workshop-pair .cs-process-images{grid-template-columns:1fr;gap:28px}.cs-sequence{margin-bottom:32px}.cs-sequence li{padding-top:20px}
+ .cs-features-with-image .cs-feature-points{gap:24px}.cs-photo-context{padding-top:0}.cs-original{margin-top:20px}.cs-part-source{max-width:320px}.cs-guidance{display:grid;grid-template-columns:1fr}.cs-guidance a{justify-content:flex-start}
+ .cs-page .tc-checks caption{display:block}.cs-note{margin-top:20px}.cs-page .cs-hero-source{max-width:100%}
+}

@@ -1,0 +1,24 @@
+---
+import {siteOrigin} from '../data/seo';
+interface Props {destination:string}
+const {destination}=Astro.props;
+const canonical=new URL(destination.split(/[?#]/)[0],siteOrigin).href;
+---
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="noindex, follow"/>
+  <link rel="canonical" href={canonical}/>
+  <title>Page moved | LZZ Precision</title>
+  <script is:inline define:vars={{destination}}>
+   const target=new URL(destination,location.origin);
+   target.search=location.search;
+   if(location.hash)target.hash=location.hash;
+   location.replace(target.pathname+target.search+target.hash);
+  </script>
+  <meta http-equiv="refresh" content={'0;url='+destination}/>
+ </head>
+ <body><p>This page has moved. <a href={destination}>Continue to the current page</a>.</p></body>
+</html>

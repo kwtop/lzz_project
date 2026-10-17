@@ -1,0 +1,106 @@
+---
+import EvidenceImage from './EvidenceImage.astro';
+import {photo} from '../data/evidence';
+
+const years=[
+ {
+  year:'2024',
+  scenes:[{
+   date:'November 2024',datetime:'2024-11',type:'Team outing',
+   title:'A rainy team outing',
+   description:'Umbrellas, a group portrait beneath the LZZ banner, time by the water and a shared meal: four photographs from the November team day.',
+   photos:[
+    {id:'team-activity-2024',caption:'Group portrait beneath the company banner'},
+    {id:'team-2024-riverside-group',caption:'Together on an outdoor bridge'},
+    {id:'team-2024-shared-meal',caption:'A meal after the outing'},
+    {id:'team-2024-outdoor',caption:'Another moment from the rainy day'},
+   ],
+  }],
+ },
+ {
+  year:'2025',
+  scenes:[
+   {
+   date:'January 2025',datetime:'2025-01',type:'Workshop visit',
+    featured:true,
+    title:'A visit to the machining floor',
+    description:'A visit to the CNC machines led to a conversation around a part. These photographs document the visit, without identifying the visitors or a completed order.',
+    photos:[
+     {id:'visitor-part-discussion',caption:'Discussing a part at the table'},
+     {id:'workshop-visit',caption:'Together on the workshop floor'},
+     {id:'visitor-machining-tour',caption:'Looking at a CNC machine'},
+    ],
+   },
+   {
+    date:'May 2025',datetime:'2025-05',type:'Team outing',
+    title:'An afternoon and evening together',
+    description:'A meal under a canopy and two evening group portraits from the May company outing.',
+    photos:[
+     {id:'team-gathering',caption:'A meal outdoors'},
+     {id:'team-2025-evening-group',caption:'Group photograph in the evening'},
+     {id:'team-2025-team-outing',caption:'Another stop on the outing'},
+    ],
+   },
+   {
+   date:'November 2025',datetime:'2025-11',type:'Trade gathering',
+    featured:true,
+    title:'At a Hangzhou trade event',
+    description:'An LZZ team member at the West Lake Summit China–Africa trade gathering in Hangzhou. The archive photograph records attendance at the event.',
+    photos:[{id:'trade-event',caption:'At the West Lake Summit event backdrop'}],
+   },
+   {
+   date:'November 2025',datetime:'2025-11',type:'Team activity',
+    featured:true,
+    title:'The November team day',
+    description:'A group portrait beneath the company activity banner, followed by an outdoor meal together.',
+    photos:[
+     {id:'team-2025-november-group',caption:'The team together outdoors'},
+     {id:'team-2025-november-meal',caption:'Sharing a meal'},
+    ],
+    link:{href:'/insights/november-2025-hangzhou-lizhizao-group-activity/',label:'Read the November activity note'},
+   },
+  ],
+ },
+];
+---
+<section class="company-archive section" id="company-archive" aria-labelledby="archive-heading">
+ <div class="container">
+  <div class="archive-intro">
+   <div><p class="archive-eyebrow">From the company archive</p><h2 id="archive-heading">People and moments<br/>behind the work</h2></div>
+   <p>Selected original photographs are shown below. Open the other dated groups to see the full team archive from 2024 and 2025.</p>
+  </div>
+  <div class="archive-years">
+   {[...years].reverse().map(year=><section class="archive-year" aria-labelledby={`archive-year-${year.year}`}>
+    <div class="archive-year-label"><h3 id={`archive-year-${year.year}`}>{year.year}</h3><span>Company photographs</span></div>
+    <div class="archive-scenes">{year.scenes.map(scene=><article class="archive-story">
+     <div class="archive-story-copy"><p class="archive-date"><time datetime={scene.datetime}>{scene.date}</time><span aria-hidden="true"> / </span>{scene.type}</p><h4>{scene.title}</h4><p>{scene.description}</p>{scene.link&&<a class="archive-story-link" href={scene.link.href}>{scene.link.label}</a>}</div>
+     <details class="archive-photo-detail" open={scene.featured}>
+      <summary><span class="archive-photo-toggle-closed">View {scene.photos.length} original photographs</span><span class="archive-photo-toggle-open">Hide photographs</span></summary>
+      <div class="archive-photo-board" data-count={scene.photos.length} style={`--support-count:${scene.photos.length-1}`}>
+       <figure class="archive-lead"><EvidenceImage id={scene.photos[0].id} sizes="(max-width:900px) 90vw, 43vw"/><figcaption>{scene.photos[0].caption}</figcaption></figure>
+       {scene.photos.length>1&&<div class="archive-support">{scene.photos.slice(1).map(item=><figure class:list={{'is-portrait':photo(item.id).height>photo(item.id).width}}><EvidenceImage id={item.id} sizes="(max-width:600px) 45vw, (max-width:900px) 40vw, 28vw"/><figcaption>{item.caption}</figcaption></figure>)}</div>}
+      </div>
+     </details>
+    </article>)}</div>
+   </section>)}
+  </div>
+  <div class="archive-footer"><p>Dates come from the original file names or source folders. The visit and event photographs document the occasions shown; they do not establish a visitor's identity, an endorsement or a customer project result.</p><a href="/factory/">See the workshop photographs</a></div>
+ </div>
+</section>
+<style>
+ .company-archive{background:var(--surface)}
+ .archive-intro{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(270px,.8fr);align-items:end;gap:70px;margin-bottom:75px}
+ .archive-eyebrow{color:var(--red);font-size:12px;font-weight:750;letter-spacing:.12em;text-transform:uppercase;margin-bottom:19px}
+ .archive-intro>p{max-width:480px;font-size:17px;line-height:1.7;padding-bottom:4px}
+ .archive-year{display:grid;grid-template-columns:132px minmax(0,1fr);gap:36px;border-top:1px solid #cdd2d5}
+ .archive-year-label{padding-top:24px}.archive-year-label h3{font-size:clamp(46px,5vw,72px);line-height:.95;font-weight:650;letter-spacing:-.06em}.archive-year-label span{display:block;margin-top:17px;color:var(--muted);font-size:11px;line-height:1.4;text-transform:uppercase;letter-spacing:.07em}
+ .archive-story{display:grid;grid-template-columns:minmax(210px,.31fr) minmax(0,.69fr);gap:36px;padding:34px 0 55px;border-bottom:1px solid #d4d9db;min-width:0}
+ .archive-story:last-child{border-bottom:0}.archive-story-copy{padding-top:4px;min-width:0}.archive-date{font-size:12px;font-weight:700;color:var(--red);line-height:1.5;letter-spacing:.025em;text-transform:uppercase}.archive-date span{color:#aab0b4;padding:0 4px}.archive-story h4{font-family:var(--heading);font-size:clamp(27px,2.5vw,38px);line-height:1.08;letter-spacing:-.035em;font-weight:630;margin:21px 0 18px}.archive-story-copy>p:last-of-type{font-size:15px;line-height:1.7;max-width:36ch}.archive-story-link,.archive-footer a{display:inline-flex;align-items:center;min-height:44px;border-bottom:1px solid var(--red);font-size:13px;font-weight:650;line-height:1.4}.archive-story-link{margin-top:19px}.archive-story-link:hover,.archive-footer a:hover{color:var(--red)}
+ .archive-photo-detail{min-width:0}.archive-photo-detail summary{display:inline-flex;align-items:center;min-height:44px;margin-bottom:14px;color:var(--ink);font-size:13px;font-weight:650;cursor:pointer;border-bottom:1px solid var(--red);list-style:none}.archive-photo-detail summary::-webkit-details-marker{display:none}.archive-photo-detail summary:focus-visible{outline:2px solid var(--red);outline-offset:4px}.archive-photo-detail:not([open]) .archive-photo-toggle-open,.archive-photo-detail[open] .archive-photo-toggle-closed{display:none}
+ .archive-photo-board{height:440px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:12px;min-width:0}.archive-photo-board[data-count="4"]{height:500px}.archive-photo-board[data-count="2"]{height:390px}.archive-photo-board[data-count="1"]{height:400px;grid-template-columns:minmax(0,1fr);max-width:650px}
+ .archive-photo-board figure{min-width:0;min-height:0;display:flex;flex-direction:column}.archive-photo-board :global(img){width:100%;height:0;flex:1;min-height:0;object-fit:contain;background:#e4e7e9}.archive-photo-board figcaption{color:#505960;font-size:11px;line-height:1.4;padding-top:8px;min-height:25px}.archive-support{display:grid;grid-template-rows:repeat(var(--support-count),minmax(0,1fr));gap:12px;min-height:0}.archive-support figure:not(.is-portrait) :global(img){object-fit:cover}
+ .archive-footer{display:flex;justify-content:space-between;gap:45px;align-items:start;border-top:1px solid #cdd2d5;padding-top:28px}.archive-footer p{max-width:710px;font-size:12px;line-height:1.7}.archive-footer a{flex-shrink:0;margin-top:-10px}
+ @media(max-width:1100px){.archive-year{grid-template-columns:100px minmax(0,1fr);gap:25px}.archive-story{grid-template-columns:minmax(180px,.34fr) minmax(0,.66fr);gap:23px}.archive-photo-board{height:360px}.archive-photo-board[data-count="4"]{height:400px}.archive-photo-board[data-count="2"]{height:340px}}
+ @media(max-width:900px){.archive-intro{gap:30px;margin-bottom:55px}.archive-year{display:block}.archive-year-label{display:flex;align-items:baseline;gap:18px}.archive-year-label span{margin:0}.archive-story{grid-template-columns:1fr;gap:27px;padding-block:35px 48px}.archive-story-copy>p:last-of-type{max-width:68ch}.archive-photo-board{height:460px}.archive-photo-board[data-count="4"]{height:490px}.archive-photo-board[data-count="2"]{height:390px}}
+ @media(max-width:600px){.archive-intro{grid-template-columns:1fr;gap:18px;margin-bottom:44px}.archive-intro h2{font-size:clamp(38px,11vw,48px)}.archive-intro>p{font-size:15px}.archive-year-label{padding-top:18px}.archive-year-label h3{font-size:49px}.archive-year-label span{font-size:10px}.archive-story{gap:23px;padding:31px 0 42px}.archive-story h4{font-size:31px;margin:15px 0 12px}.archive-story-copy>p:last-of-type{font-size:14px}.archive-photo-board,.archive-photo-board[data-count="4"],.archive-photo-board[data-count="2"],.archive-photo-board[data-count="1"]{display:block;height:auto;max-width:none}.archive-lead :global(img){height:auto!important;aspect-ratio:4/3;flex:none!important}.archive-support{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto;gap:17px 10px;margin-top:18px}.archive-support figure:last-child:nth-child(odd){grid-column:1/-1;max-width:calc(50% - 5px)}.archive-support :global(img){height:auto!important;aspect-ratio:4/3;flex:none!important}.archive-photo-board figcaption{font-size:11px;line-height:1.35;padding-top:7px;min-height:0}.archive-footer{display:block}.archive-footer a{margin-top:17px}}
+</style>

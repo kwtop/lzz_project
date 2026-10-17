@@ -1,0 +1,28 @@
+---
+import type {EngineeringCase} from '../data/cases';
+import {caseReading} from '../data/caseReading';
+import {caseStories} from '../data/caseStories';
+import {studyPlans} from '../data/productsEditorial';
+import {photo} from '../data/evidence';
+import ProductsImage from './ProductsImage.astro';
+import ProductsStudyModule from './ProductsStudyModule.astro';
+import ProductsClosing from './ProductsClosing.astro';
+import '../styles/products-redesign.css';
+import ProductsStudyRedesigned from './ProductsStudyRedesigned.astro';
+import TwoStageStudy from './TwoStageStudy.astro';
+import {isRedesigned} from '../data/redesignRollout';
+interface Props{item:EngineeringCase;quoteHref:string}
+const {item,quoteHref}=Astro.props,reading=caseReading[item.slug],story=caseStories[item.slug],plan=studyPlans[item.slug];
+const title=(story?.title||reading.title).replace('29-inch','29‑inch');
+const hero=item.collection?{stem:'/media/collection-covers/'+item.collection+'-collection-illustrative-v1',alt:reading.illustration.alt,caption:'AI-generated '+item.collection+' part illustration.'}:story?.hero?{stem:story.hero,alt:story.heroAlt!,caption:'Part-form illustration based on workshop references. AI-generated; not a dimensional reconstruction.'}:{...photo(item.video?'display-housing-panel':item.hero),origin:'original-photo'};
+---
+{isRedesigned(Astro.url.pathname)?item.slug==='two-stage-cnc-milling'?<TwoStageStudy item={item} quoteHref={quoteHref}/>:<ProductsStudyRedesigned item={item} quoteHref={quoteHref}/>:<article class:list={['pr-page','pr-study','pr-study-'+plan.layout]} data-case={item.slug} data-layout={plan.layout}><div class="pr-wrap">
+ <section class:list={['pr-hero','pr-study-hero','pr-study-hero-'+plan.hero]} aria-labelledby="case-title"><header><h1 id="case-title">{title}</h1><p class="pr-lead">{story?.summary||item.lead}</p></header><ProductsImage {...hero} eager origin={story?.hero||item.collection?'ai-generated-illustration':'original-photo'} sizes={plan.hero==='wide'?'(max-width:760px) calc(100vw - 44px), 1000px':'(max-width:760px) calc(100vw - 44px), 48vw'}/><div class="pr-study-summary">{reading.partPoints.map(p=><p>{p.text}</p>)}</div></section>
+ <nav class="pr-reading-nav" aria-label="Read this study"><a href="#component">{item.collection?'Part families':'Part geometry'}</a><a href={item.collection==='plastic'?'#technical-points':'#machining-setup'}>{item.collection==='plastic'?'Material conditions':'Machining setup'}</a><a href="#inspection-planning">Drawing &amp; inspection</a><a href="#questions">Questions</a></nav>
+ {plan.modules.map(module=><ProductsStudyModule item={item} module={module}/>)}
+ <div class="pr-study-inquiry"><span id="prepare-rfq"/><span id="prepare-email"/><ProductsClosing id="drawing-review" href={quoteHref} title="Discuss a similar part" description="Send the current drawing and identify the requirements for a similar component."><ul class="pr-rfq-list">{reading.rfq.map(text=><li>{text}</li>)}</ul></ProductsClosing></div>
+ </div></article>}
+<script>
+ function revealStudyHash(){let id:string;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}const target=document.getElementById(id);if(!target)return;let node:HTMLElement|null=target;while(node){if(node instanceof HTMLDetailsElement)node.open=true;node=node.parentElement}requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}
+ window.addEventListener('hashchange',revealStudyHash);if(location.hash)revealStudyHash();
+</script>

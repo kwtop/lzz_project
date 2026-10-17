@@ -1,0 +1,18 @@
+---
+import '../styles/company-resource-gallery.css';
+import catalog from '../data/catalog.json';
+const documentNotes=[
+ {title:'Precision manufacturing teaching base',type:'Education collaboration plaque',description:'The plaque names Zhejiang Institute of Mechanical & Electrical Engineering and Lizhizao as a practical teaching base.',date:'Dated November 2023.',scope:'A record of the teaching partnership.'},
+ {title:'High-tech enterprise certificate',type:'Enterprise recognition',description:'Issued to Hangzhou Lizhizao Precision Machinery Co., Ltd., with seals from Zhejiang science and technology, finance and tax authorities.',date:'Issued 8 December 2023; the printed validity period is three years.',scope:'Recognition as a high-tech enterprise.'},
+ {title:'Zhejiang science & technology SME',type:'Provincial enterprise recognition',description:'The document identifies Lizhizao as a Zhejiang science and technology SME and names the provincial science and technology authority.',date:'No issue date is stated in the displayed document.',scope:'Provincial enterprise recognition.'}
+];
+const certificates=catalog.companyAssets.filter(asset=>asset.source.includes('/certificate/'));
+---
+<section class="ce-wrap ce-chapter ce-documents" id="documents"><div class="ce-copy"><h2>Company recognition documents</h2><p>Enterprise recognition and a teaching partnership, shown in the original documents. Request the current ISO 9001 certificate separately for supplier qualification.</p><nav class="ce-actions"><a class="ce-link" href="/factory/#quality-management">Request the ISO 9001 certificate</a></nav></div><div class="ce-document-grid">{certificates.map((certificate,index)=>{const note=documentNotes[index];return <article><a class="ce-document-image static-photo"><img src={certificate.image} alt={note.title+', original Chinese document'} width="400" height="300" loading="lazy"/></a><h3>{note.title}</h3><p>{note.description}</p><p>{note.date}</p></article>;})}</div></section>
+<style is:global>
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-documents .ce-document-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin-top:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-documents .ce-document-image{display:flex;align-items:center;justify-content:center;height:240px;margin-bottom:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-documents img{width:100%;height:100%;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-documents .ce-document-grid p{font-size:16px;line-height:1.65;margin-top:16px}
+@media(max-width:760px){body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-documents .ce-document-grid{grid-template-columns:1fr;gap:40px}body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-documents .ce-document-image{height:220px;margin-bottom:20px}}
+</style>

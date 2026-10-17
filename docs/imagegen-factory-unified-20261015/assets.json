@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "type": "AI-generated inspection concept",
+  "notEvidence": [
+    "LZZ workshop equipment",
+    "customer parts",
+    "inspection results",
+    "certification"
+  ],
+  "assets": [
+    {
+      "file": "public/media/factory-unified-20261015/inspection-concept-1200.webp",
+      "sha256": "b7a57275ee98bd134072cbd7e857f7c8707580cba418b710d2fcc150d63e5989"
+    },
+    {
+      "file": "public/media/factory-unified-20261015/inspection-concept-1536.webp",
+      "sha256": "6a3917d22aa91f3e5421c5f7c7678c62e187475ede30495a7f529dc722842976"
+    },
+    {
+      "file": "public/media/factory-unified-20261015/inspection-concept-480.webp",
+      "sha256": "f214708e7c5d5a0001324fb3e39cf312121366f555b47b216c311d32fc2a93ed"
+    },
+    {
+      "file": "public/media/factory-unified-20261015/inspection-concept-800.webp",
+      "sha256": "8ff813a29d090ee98fd452513294093de7e0038d7098c73aa3d4c0c6d1d8bf25"
+    },
+    {
+      "file": "public/media/factory-unified-20261015/inspection-concept-source.png",
+      "sha256": "e7b5c4857e3508cc26504c72bae376bdb175acebe288cf9900adc71414d037a9"
+    }
+  ]
+}

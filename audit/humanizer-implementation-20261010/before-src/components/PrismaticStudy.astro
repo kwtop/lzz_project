@@ -1,0 +1,50 @@
+---
+import Arrow from './Arrow.astro';
+import ReadingHeader from './ReadingHeader.astro';
+import PageContents from './PageContents.astro';
+import {engineeringCases} from '../data/cases';
+const item=engineeringCases.find(item=>item.slug==='milling-prismatic-components')!;
+const image=(name:string,width:number)=>`/media/prismatic-study/${name}-${width}.webp`;
+const srcset=(name:string)=>[640,1200,2000].map(w=>`${image(name,w)} ${w}w`).join(', ');
+const quoteHref='/quote/?'+new URLSearchParams({part:'Prismatic multi-feature part — drawing review'}).toString();
+const checks=[['Bores','Identify critical bores and their locations.'],['Hole patterns','Confirm hole patterns and related datums.'],['Mounting faces','Specify mounting faces used for location and function.'],['Positional relationships','Define the key relative positions between features.']];
+const photographyScope='These views focus on part form and machining setup. Material grades, dimensions and inspection results must be confirmed from project documents. Use the drawing and inspection notes below to plan a similar part.';
+const contents=[{id:'component',label:'Faces, holes and pockets'},{id:'machining-setup',label:'Locating the part for milling'},{id:'inspection-planning',label:'Inspection requirements'}];
+---
+<article class="ps-page reading-page">
+ <ReadingHeader title="CNC milling for prismatic parts" description={item.lead} breadcrumbs={[{label:'Custom Parts',href:'/products/'},{label:'Machining Studies',href:'/cases/'}]}/>
+ <PageContents entries={contents} label="Study sections"/>
+ <figure class="ps-width ps-hero reading-media">
+  <img src={image('machine',2000)} srcset={srcset('machine')} sizes="100vw" width="2400" height="1100" alt="Milling spindle above a rectangular workpiece held in a vise" fetchpriority="high"/>
+  <figcaption>Mounting faces, bores and pockets in one machined body.</figcaption>
+ </figure>
+ <section class="ps-width ps-intro reading-section">
+  <h2>Multi-feature components</h2>
+  <p class="ps-scope">These views focus on part form and machining setup.</p>
+  <details class="ps-source"><summary>Photography &amp; project scope</summary><p>{photographyScope}</p></details>
+ </section>
+ <section class="ps-features reading-section" id="component">
+  <a class="ps-photo ps-parts-photo" href={image('parts',2000)} target="_blank" rel="noopener" aria-label="View full-size prismatic component image"><img src={image('parts',1200)} srcset={srcset('parts')} sizes="(max-width:760px) 100vw, 60vw" width="1800" height="1400" alt="Rectangular machined components with rows of circular holes and end pockets" loading="lazy"/></a>
+  <div class="ps-feature-copy"><h2>Faces, holes<br/>and pockets</h2><p>Flat faces, holes and pockets share a prismatic body. Define the locating faces and the relationship of the other features to them.</p></div>
+ </section>
+ <section class="ps-setup reading-section" id="machining-setup"><div class="ps-width ps-setup-grid">
+  <div><h2>Locating the part<br/>for milling</h2><p>{item.setup}</p></div>
+  <a class="ps-photo ps-setup-photo" href={image('machine',2000)} target="_blank" rel="noopener" aria-label="View full-size milling setup image"><img src={image('machine-detail',1200)} srcset={srcset('machine-detail')} sizes="(max-width:760px) 90vw, 43vw" width="1600" height="1000" alt="Detail of the spindle, coolant nozzle and vise holding the workpiece" loading="lazy"/></a>
+ </div></section>
+ <section class="ps-width ps-inspection reading-section" id="inspection-planning"><h2>Inspection requirements</h2><p>Mark the features below on your drawing, then agree the inspection method, sampling plan and report format.</p>
+  <dl class="ps-checks">{checks.map(([name,copy])=><div><dt>{name}</dt><dd>{copy}</dd></div>)}</dl>
+ </section>
+ <section class="ps-width ps-related reading-related"><h2>Related studies and capabilities</h2><div class="ps-related-grid">
+  <nav aria-label="Related capabilities"><h3>Related capabilities</h3><a href="/capabilities/cnc-milling-service/">CNC Milling Service <Arrow size={17}/></a><a href="/capabilities/low-volume-production/">Low-volume Production <Arrow size={17}/></a></nav>
+  <nav aria-label="Parts with similar features"><h3>Parts with similar features</h3><a href="/products/custom-oem-high-precision-cnc-milling-manufacturer/">Milled instrument blocks &amp; brackets <Arrow size={17}/></a><a href="/products/global-manufacturer-of-multi-sided-precision-machined-components/">Multi-sided machined components <Arrow size={17}/></a><p>Separate catalog examples for a similar enquiry.</p><a class="ps-all" href="/cases/">See all process studies <Arrow size={17}/></a></nav>
+ </div></section>
+ <section class="ps-width reading-closing"><a class="ps-button" href={quoteHref}>Discuss your drawing <Arrow size={18}/></a><p class="ps-quote-note">Include material and quantity with your drawing. The RFQ form prepares an email draft for you to review and send.</p></section>
+</article>
+<style>
+ .ps-page{--ps-line:#dce0e3;--ps-muted:#59646e}.ps-page .ps-width{width:calc(100% - 128px);max-width:1220px;margin-inline:auto}.ps-hero{margin-top:24px}.ps-hero>img{display:block;width:100%;height:auto;aspect-ratio:2400/1100;object-fit:cover;object-position:60% center}.ps-hero figcaption{margin-top:12px}.ps-source{margin-top:12px}.ps-source summary{cursor:pointer;min-height:44px;padding-block:10px}.ps-source p{margin-top:12px}
+ .ps-features{display:grid;grid-template-columns:61% 39%;align-items:stretch}.ps-photo{display:block;overflow:hidden}.ps-photo img{display:block;width:100%;height:100%;object-fit:cover}.ps-parts-photo{height:490px;min-height:0}.ps-parts-photo img{object-position:center 60%}.ps-feature-copy{padding:32px 48px;align-self:center;max-width:560px}.ps-feature-copy p{margin-top:18px}.ps-setup{background:#f5f6f7}.ps-setup-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:48px}.ps-setup-grid p{margin-top:18px}.ps-setup-photo{height:335px}.ps-inspection>p{margin-top:16px}
+ .ps-checks{margin:20px 0 0;border-top:1px solid var(--ps-line)}.ps-checks>div{display:grid;grid-template-columns:30% 70%;border-bottom:1px solid var(--ps-line)}.ps-checks dt,.ps-checks dd{margin:0;padding:13px 22px}.ps-checks dt{background:#f6f7f8;border-right:1px solid var(--ps-line)}.ps-checks dd{color:var(--ps-muted)}
+ .ps-related-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:24px}.ps-related a{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:14px 0;border-bottom:1px solid var(--ps-line)}.ps-related a:hover{color:var(--red)}.ps-related p{margin:12px 0 16px}.ps-related .ps-all{display:inline-flex;border:1px solid var(--ps-line);padding:12px 16px}.ps-quote-note{margin-top:16px}
+ @media(min-width:761px) and (max-width:1100px){.ps-page .ps-width{width:calc(100% - 64px)}.ps-feature-copy{padding:32px}.ps-features{grid-template-columns:55% 45%}.ps-setup-grid{gap:32px}}
+ @media(max-width:760px){.ps-page .ps-width{width:calc(100% - 40px)}.ps-hero>img{aspect-ratio:1.6;object-position:70% center}.ps-features,.ps-setup-grid{grid-template-columns:1fr}.ps-parts-photo{height:340px}.ps-feature-copy{padding:24px 20px;max-width:none}.ps-setup-grid{gap:24px}.ps-setup-photo{height:230px}.ps-checks>div{grid-template-columns:36% 64%}.ps-checks dt,.ps-checks dd{padding:12px 10px;overflow-wrap:anywhere}.ps-related-grid{grid-template-columns:1fr;gap:28px}}
+</style>

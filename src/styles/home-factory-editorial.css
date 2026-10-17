@@ -1,0 +1,23 @@
+/* Selected factory remix: complete evidence photographs with controlled dimensions. */
+body.brand-site.finesse-redesigned.precision-gallery .factory-editorial .ed-heading{margin-bottom:36px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-editorial .ed-heading h2{font-size:clamp(32px,3vw,44px)!important;line-height:1.05!important}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-pair{display:grid;grid-template-columns:1.6fr 1fr;gap:32px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-item{display:grid;grid-template-rows:auto auto 1fr;align-items:start;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-item figure{height:auto;aspect-ratio:4/3;margin:0 0 28px;background:#fff;display:block}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-quality figure{aspect-ratio:5/6}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-item h3{font-size:clamp(24px,2.7vw,38px)!important;line-height:1.18!important;margin:0 0 24px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts{display:grid;grid-template-columns:.8fr 1fr 1.3fr;gap:24px;margin:0 0 28px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts>div{display:flex;flex-direction:column;min-width:0}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts>div+div{border-left:1px solid #ddd;padding-left:24px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts dt{font-size:16px!important;font-weight:400!important;line-height:1.4!important;color:#606266}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts dd{order:-1;font-size:38px!important;font-weight:700!important;line-height:1.2!important;margin:0 0 10px;white-space:nowrap;font-variant-numeric:tabular-nums}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-description{border-top:1px solid #ddd;padding-top:18px;margin-bottom:28px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-description p{font-size:18px!important;line-height:1.5!important;margin:0 0 8px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-item>.button{justify-self:start;margin:0;min-width:240px;min-height:56px;font-size:17px!important;padding:14px 28px}
+body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts>div:last-child dt{max-width:22ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-story-item figure img{width:100%!important;height:100%!important;max-width:100%!important;object-fit:contain!important;aspect-ratio:auto!important;max-height:none!important}
+@media(max-width:1000px){body.brand-site.finesse-redesigned.precision-gallery .factory-story-pair{gap:24px;grid-template-columns:1.6fr 1fr}body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts{gap:12px}body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts>div+div{padding-left:12px}body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts dd{font-size:26px!important}}
+@media(max-width:760px){body.brand-site.finesse-redesigned.precision-gallery .factory-story-pair{grid-template-columns:1fr;gap:40px}body.brand-site.finesse-redesigned.precision-gallery .factory-story-item figure{height:auto;aspect-ratio:auto;margin-bottom:24px}body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .factory-story-item figure img{height:auto!important;width:100%!important;max-height:none!important}body.brand-site.finesse-redesigned.precision-gallery .factory-story-quality figure{width:100%;max-width:none;aspect-ratio:auto}body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts dd{font-size:24px!important}body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts dt{font-size:12px!important}}@media(max-width:359px){
+ body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts{grid-template-columns:1fr;gap:16px}
+ body.brand-site.finesse-redesigned.precision-gallery .factory-story-facts>div+div{border-left:0;padding-left:0}
+}

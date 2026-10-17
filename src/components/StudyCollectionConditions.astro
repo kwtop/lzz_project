@@ -1,0 +1,5 @@
+---
+interface Props {collection:'plastic'|'metal';technical:{title:string;text:string}[];sequenceNote?:string}
+const {collection,technical,sequenceNote}=Astro.props;
+---
+<aside id="technical-points"><span id="machining-setup" class="pd-anchor"/><span id="study-1" class="pd-anchor"/><span id="study-2" class="pd-anchor"/><span id="case-process-title" class="pd-anchor"/><span id="case-technical-title" class="pd-anchor"/><span id="inspection-planning" class="pd-anchor"/><span id="case-inspection-title" class="pd-anchor"/><span id="study-3" class="pd-anchor"/><h3>{collection==='plastic'?'Conditions across the plastic families':'Requirements across the metal families'}</h3>{technical.map(p=><div><h4>{p.title}</h4><p>{p.text}</p></div>)}<p class="pd-small">{sequenceNote} Agree measurement method, final surface condition, support, sampling and report format before production.</p></aside>

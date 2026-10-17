@@ -1,0 +1,73 @@
+{
+  "canonical": "https://www.lzz-cnc.com/resources/production-and-shipping/",
+  "description": "Plan the steps from prototype approval to repeat orders. Check production lead times and prepare for international shipping.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Production & Shipping"
+    },
+    {
+      "tag": "H2",
+      "text": "CNC prototype vs small-batch production: what changes?"
+    },
+    {
+      "tag": "H2",
+      "text": "Shipping CNC machined parts internationally: a quote checklist"
+    },
+    {
+      "tag": "H2",
+      "text": "Explore Resources"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "CNC prototype vs small-batch production: what changes?"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Read the guide"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Shipping CNC machined parts internationally: a quote checklist"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Read the guide"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ Checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How We Work"
+    },
+    {
+      "href": "/resources/processes-materials-finishes/",
+      "text": "Machining Guides"
+    },
+    {
+      "href": "/resources/faq/",
+      "text": "FAQ"
+    }
+  ],
+  "main": "Resources\nProduction & Shipping\nProduction & Shipping\n\nPlan the steps from prototype approval to repeat orders. Check production lead times and prepare for international shipping.\n\nAI-generated illustrative image. It is not an LZZ order, delivered quantity or production record.\nCNC prototype vs small-batch production: what changes?\n\nSee what changes between prototype machining and repeat batches: drawing revision, setup, inspection, material, finish and the details to confirm before scaling.\n\nRead the guide\nShipping CNC machined parts internationally: a quote checklist\n\nPlan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.\n\nRead the guide\nExplore Resources\nRFQ Checklist\nHow We Work\nMachining Guides\nFAQ",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/resources/production-and-shipping/#webpage\",\"url\":\"https://www.lzz-cnc.com/resources/production-and-shipping/\",\"name\":\"Production & Shipping | CNC Machining Resources\",\"description\":\"Plan the steps from prototype approval to repeat orders. Check production lead times and prepare for international shipping.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/resources/production-and-shipping/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/resources/production-and-shipping/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Resources\",\"item\":\"https://www.lzz-cnc.com/resources/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Production & Shipping | CNC Machining Resources\",\"item\":\"https://www.lzz-cnc.com/resources/production-and-shipping/\"}]}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "CNC production & shipping guides | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/production-and-shipping/",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "resource-production-and-shipping-desktop"
+}

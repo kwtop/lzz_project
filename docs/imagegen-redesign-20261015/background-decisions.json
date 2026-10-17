@@ -1,0 +1,105 @@
+[
+  {
+    "id": "P00",
+    "slug": "custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\CNC-Milling-Service-1-1764417292122--54b8b81a8c.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p00-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P02",
+    "slug": "ultra-high-precision-machining-services",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-1-1764418510957--4b51164023.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p02-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P03",
+    "slug": "global-oem-precision-machining-solutions",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-2-1764418526610--635f52f78c.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p03-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P04",
+    "slug": "global-manufacturer-of-multi-sided-precision-machined-components",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-3-1764418541931--3aeb6953e6.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p04-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P11",
+    "slug": "high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\High-Reliability-Precision-Machining-Turbine--Fluid---Complex-Curve-Component-OEM-1764555925002--928a6e0ea7.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p11-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P19",
+    "slug": "custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Turned-Stainless-Steel-Components-Manufacturer-and-Precision-Shaft-Supplier-1764816944325--cacdc81da0.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p19-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P20",
+    "slug": "custom-oem-cnc-machined-non-metallic-components-insulating-parts",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\Custom-OEM-CNC-Machined-Non-Metallic-Components-Insulating-Parts-1764557225251--5ba2c574ee.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p20-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P29",
+    "slug": "precision-machining-for-functional-plastic-blocks-structural-components",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\Precision-Machining-for-Functional-Plastic-Blocks---Structural-Components-1764557850986--18253f13c7.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p29-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": true,
+    "reason": "Conservative edge-connected background removal; all enclosed bore and four-hole pixels retained. Final candidate visually checked against the original.",
+    "inspected": true,
+    "preservedRgbPixels": 238028,
+    "final": "/media/product-sources-20261015/p29-framed-1200.webp",
+    "finalLosslessRgbMatch": true
+  },
+  {
+    "id": "P31",
+    "slug": "precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\Precision-Stainless-Steel-CNC-Turned-Parts-Manufacturer-and-316L-Components-Supplier-1764815807487--200e743e3f.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p31-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  },
+  {
+    "id": "P32",
+    "slug": "precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier",
+    "raw": "D:\\lzz\\raw\\_content\\images\\products\\Precision-Stainless-Steel-Indexing-Plunger-Manufacturer-and-Spring-Loaded-Locking-Pin-Supplier-1764817299753--5e240a8195.jpg",
+    "candidate": "D:/lzz/website-implementation-20261015/background-candidates/p32-background-candidate.png",
+    "retainedSubjectRgb": "Original RGB bytes retained for non-white pixels; no resizing or generated subject.",
+    "adopted": false,
+    "reason": "Not adopted: neutral or near-white edges and/or metal highlights cannot be separated reliably without altering source appearance. Complete source is used with contain.",
+    "inspected": true
+  }
+]

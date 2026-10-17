@@ -1,0 +1,12 @@
+---
+import ReferenceGallery from './ReferenceGallery.astro';
+---
+<section class="container additional-part-forms" id="additional-part-forms">
+ <header><h2>More part forms to discuss</h2><p>These separate examples from the supplied material collection help describe your requirement. Share a drawing so the material, construction and manufacturing scope can be reviewed.</p></header>
+ <ReferenceGallery ids={['covered-wheels','covered-rollers','covered-shaped-parts']} title="Covered wheels, rollers and shaped components" description="The photographs show exposed metal hubs or shaft ends and an outer covering. Specify the core and covering materials, hardness requirement, interface dimensions and acceptance criteria. The photographs do not establish the material formulation or bonding method."/>
+ <ReferenceGallery ids={['gear-bevel-examples','gear-cylindrical-examples']} title="Gear forms" description="These examples show different tooth arrangements and central interfaces. For a similar part, provide the tooth specification, material, bore and hub dimensions, mating details and inspection requirements."/>
+ <nav aria-label="Related part requirements"><a class="text-link" href="/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/#pom">Watch the POM gear example →</a><a class="text-link" href="/insights/processes-materials-finishes/#coated-parts">Explore surface-coated parts →</a><a class="text-link" href="/quote/">Discuss your drawing →</a></nav>
+</section>
+<style>
+ .additional-part-forms{padding-block:48px 64px;border-top:1px solid var(--border);scroll-margin-top:110px}.additional-part-forms header h2{font-size:clamp(30px,3.5vw,46px);line-height:1.2}.additional-part-forms header p{font-size:17px;line-height:1.75;margin-top:20px;max-width:76ch}.additional-part-forms nav{display:flex;flex-wrap:wrap;gap:24px 32px;margin-top:24px}.additional-part-forms :global(.reference-gallery>div:has(>figure:nth-child(3))){grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:760px){.additional-part-forms :global(.reference-gallery>div:has(>figure:nth-child(3))){grid-template-columns:1fr}.additional-part-forms nav{flex-direction:column;align-items:flex-start}}
+</style>

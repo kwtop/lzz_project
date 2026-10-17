@@ -1,0 +1,201 @@
+Browser tab: 506354184, Title: "CNC part material & finish checklist | LZZ Precision", URL: "http://127.0.0.1:4323/resources/material-and-finish-checklist/".
+1 AXWebArea CNC part material & finish checklist | LZZ Precision, URL: 127.0.0.1:4323/resources/material-and-finish-checklist/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Resources, Value: 127.0.0.1:4323/resources/
+				21 text /
+				22 text Design preparation
+			23 heading Specifying material and finish for a machined part, Value: 1
+				24 text Specifying material and finish for a machined part
+			25 container
+				26 button (expanded) On this page, Secondary Actions: Collapse
+					27 text On this page
+				28 container On this page
+					29 link Description: Finishing services and acceptance points, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-1
+					30 link Description: Describe the operating conditions, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-2
+					31 link Description: Specify the material grade, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-3
+					32 link Description: Material examples named in the original brochure, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-4
+					33 link Description: Compare material families by the job, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-5
+					34 link Description: How should I compare material options?, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-6
+					35 link Description: Define the finish requirements, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-7
+					36 link Description: Resolve dimensions after treatment, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-8
+					37 link Description: Record the requirements in your RFQ, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/#section-9
+			38 heading Finishing services and acceptance points, Value: 2, ID: section-1
+				39 text Finishing services and acceptance points
+			40 text We support deburring, bead blasting, polishing, anodizing, passivation and plating as appropriate to the selected material. The quotation defines the finish and any accompanying documents; not every treatment is suitable for every alloy.
+			41 content list
+				42 container
+					43 AXListMarker • 
+					44 text Deburring and polishing: specify edge breaks, cosmetic faces and any controlled roughness.
+				45 container
+					46 AXListMarker • 
+					47 text Bead blasting: agree appearance, protected interfaces and whether a reference sample is needed.
+				48 container
+					49 AXListMarker • 
+					50 text Anodizing: specify alloy, color, coating requirements and masked threads or mating surfaces.
+				51 container
+					52 AXListMarker • 
+					53 text Passivation and plating: identify the applicable material, process specification, protected areas and acceptance documents.
+			54 text Critical dimensions are checked at the agreed stage, including after finishing where required. We link the material and treatment documents requested in the order to the relevant part or batch reference.
+			55 image AI-generated illustrative arrangement of generic machined components in varied appearances
+			56 container
+				57 text AI-generated illustrative image.  It does not identify alloy grades, stock availability or finish specifications.
+			58 heading Describe the operating conditions, Value: 2, ID: section-2
+				59 text Describe the operating conditions
+			60 text Explain the weight and loading requirements, along with the part's exposure and operating temperature. Describe its electrical behavior and the assembly it mates with. If you have not selected a grade, share these conditions and the applicable specification for engineering review. A catalog category does not establish suitability for a safety-critical application.
+			61 heading Specify the material grade, Value: 2, ID: section-3
+				62 text Specify the material grade
+			63 container
+				64 text The catalog groups parts by material: 
+				65 link Description: aluminum, Value: 127.0.0.1:4323/capabilities/aluminum-cnc-parts/
+				66 text , 
+				67 link Description: stainless steel, Value: 127.0.0.1:4323/capabilities/stainless-steel-cnc-parts/
+				68 text , 
+				69 link Description: copper and brass, Value: 127.0.0.1:4323/capabilities/copper-brass-cnc-parts/
+				70 text , and 
+				71 link Description: engineering plastics, Value: 127.0.0.1:4323/capabilities/plastic-machined-parts/
+				72 text . Each group covers different grades. State the grade and condition your design requires, then confirm whether alternatives are permitted and which material documents you need.
+			73 heading Material examples named in the original brochure, Value: 2, ID: section-4
+				74 text Material examples named in the original brochure
+			75 content list
+				76 container
+					77 AXListMarker • 
+					78 text Aluminum: 6061, 7075 and 2024.
+				79 container
+					80 AXListMarker • 
+					81 text Stainless steel: 304, 316 and 17-4PH.
+				82 container
+					83 AXListMarker • 
+					84 text Copper and brass: printed as C3600 and H62 in the source brochure.
+				85 container
+					86 AXListMarker • 
+					87 text Engineering plastics: POM, PEEK and PPSU.
+				88 container
+					89 AXListMarker • 
+					90 text Other named materials: titanium, Inconel, Kovar and Invar.
+			91 text This list preserves examples from the source brochure; it does not confirm current stock or availability. Confirm the exact alloy designation, grade, condition, process suitability and material documents for each part. In particular, verify the intended C3600 designation before quoting.
+			92 heading Compare material families by the job, Value: 2, ID: section-5
+				93 text Compare material families by the job
+			94 container Scrollable comparison of material families
+				95 table
+					96 row
+						97 cell
+							98 text Family
+						99 cell
+							100 text Examples in the brochure
+						101 cell
+							102 text Compare and confirm
+					103 row
+						104 cell
+							105 text Aluminum
+						106 cell
+							107 text 6061, 7075, 2024
+						108 cell
+							109 text Compare strength/stiffness, part mass, environment and finish needs. Confirm exact alloy/temper, alternatives, finish compatibility and documents.
+					110 row
+						111 cell
+							112 text Stainless steel
+						113 cell
+							114 text 304, 316, 17-4PH
+						115 cell
+							116 text Compare environment, mechanical requirements and condition. Confirm grade, heat treatment where applicable, finish, standard and certificates.
+					117 row
+						118 cell
+							119 text Copper / brass
+						120 cell
+							121 text C3600, H62 as printed
+						122 cell
+							123 text Compare electrical or thermal role and service environment. Confirm the alloy designation and material documents. Check the brochure's C3600 reference with us before ordering.
+					124 row
+						125 cell
+							126 text Engineering plastics
+						127 cell
+							128 text POM, PEEK, PPSU
+						129 cell
+							130 text Compare temperature, load, chemical exposure, electrical behavior and mating material. Confirm exact grade, operating conditions and traceability documents.
+			131 text These are comparison prompts, not a material recommendation. Properties vary by grade, condition and design; confirm the requirements with the drawing and applicable specification.
+			132 heading How should I compare material options?, Value: 2, ID: section-6
+				133 text How should I compare material options?
+			134 text A material family alone is not a purchase specification. Compare named grades using the conditions above, then record the grade, condition and applicable standard. If a substitute is proposed, approve it explicitly and confirm the available material documents.
+			135 heading Define the finish requirements, Value: 2, ID: section-7
+				136 text Define the finish requirements
+			137 text Specify visual appearance separately from the finish's function. Name the required finish standard and revision where applicable, and describe color, gloss, texture, coating thickness or roughness only where these are controlled requirements. Mark masked areas, cosmetic faces and surfaces for corrosion protection, electrical contact or sealing. Confirm process suitability, availability and required documentation for the selected material and part.
+			138 text A photograph shows surface appearance but cannot establish coating thickness or surface roughness. It cannot verify process compliance either, so a reference image alone is not a finish specification.
+			139 container
+				140 image AI-generated visual comparison of several generic machined surface-finish coupons
+				141 text AI-generated illustration.
+				142 text  The pictured finishes are not LZZ samples and do not identify a coating, roughness value or process standard.
+			143 heading Resolve dimensions after treatment, Value: 2, ID: section-8
+				144 text Resolve dimensions after treatment
+			145 text Tell the supplier whether acceptance dimensions apply before or after finishing. Highlight mating bores, threads and other interfaces where a coating matters. Specify edge breaks and cosmetic faces separately so functional and appearance criteria can be reviewed together.
+			146 heading Record the requirements in your RFQ, Value: 2, ID: section-9
+				147 text Record the requirements in your RFQ
+			148 container
+				149 text Put the agreed material and finish requirements on the controlled drawing or specification. Include inspection and traceability needs in your 
+				150 link Description: RFQ package, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				151 text , using the 
+				152 link Description: quality checklist, Value: 127.0.0.1:4323/quality/
+				153 text  to check the details before you 
+				154 link Description: prepare an inquiry, Value: 127.0.0.1:4323/quote/
+				155 text .
+			156 container Related part examples
+				157 text APPLY THE GUIDE
+				158 heading Related part examples, Value: 2, ID: article-examples-title
+					159 text Related part examples
+				160 text Compare the features in these examples with your drawing. Each part is quoted to its own specification.
+				161 link Description: Billet aluminum engine covers, Value: 127.0.0.1:4323/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/
+				162 link Description: Functional plastic blocks & structures, Value: 127.0.0.1:4323/products/precision-machining-for-functional-plastic-blocks-structural-components/
+			163 link Description: Back to Resources, Value: 127.0.0.1:4323/resources/
+		164 heading Have a part in mind?, Value: 2
+			165 text Have a part in mind?
+		166 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+		167 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+		168 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		169 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		170 container
+			171 text Custom CNC machining
+			172 text in Hangzhou, China.
+		173 container Footer navigation
+			174 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			175 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			176 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			177 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			178 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			179 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			180 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			181 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			182 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			183 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		184 container Let’s talk, ID: contact
+			185 heading Let’s talk, Value: 2, ID: footer-talk-title
+				186 text Let’s talk
+			187 text Hangzhou, China · UTC+8
+			188 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			189 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		190 container Find us
+			191 heading Find us, Value: 2, ID: footer-find-title
+				192 text Find us
+			193 container
+				194 text No. 4 Fengcheng Road
+				195 text Pingyao, Yuhang District
+				196 text Hangzhou, Zhejiang, China
+		197 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		198 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea CNC part material & finish checklist | LZZ Precision, URL: 127.0.0.1:4323/resources/material-and-finish-checklist/

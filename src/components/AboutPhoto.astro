@@ -1,0 +1,12 @@
+---
+import {photo} from '../data/evidence';
+interface Props {id?:string;src?:string;srcset?:string;alt?:string;caption?:string;width?:number;height?:number;eager?:boolean;class?:string;illustrative?:boolean;link?:boolean;sizes?:string}
+const {id,eager=false,class:className='',illustrative=false,link=false,sizes='(max-width:760px) calc(100vw - 44px), 55vw'}=Astro.props;
+const source=id?photo(id):{src:Astro.props.src!,srcset:Astro.props.srcset,width:Astro.props.width??1536,height:Astro.props.height??1024,alt:Astro.props.alt!,caption:Astro.props.caption};
+const alt=Astro.props.alt??source.alt;
+const caption=Astro.props.caption??source.caption;
+---
+<figure class:list={['al-photo',className]} data-image-origin={illustrative?'ai-generated-illustration':'source-photo'}>
+ {link?<a href={source.src} target="_blank" rel="noopener" aria-label={'Open photograph: '+alt}><img src={source.src} srcset={source.srcset} width={source.width} height={source.height} alt={alt} sizes={sizes} loading={eager?'eager':'lazy'} decoding="async"/></a>:<img src={source.src} srcset={source.srcset} width={source.width} height={source.height} alt={alt} sizes={sizes} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async"/>}
+ {caption&&<figcaption>{caption}</figcaption>}
+</figure>

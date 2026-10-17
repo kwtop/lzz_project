@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ResourceContentImage from './ResourceContentImage.astro';
+import {contentConcepts} from '../data/resourceImagePlan';
+import ContactIcon from './ContactIcon.astro';
+import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
+import {qualificationEmail,visitEmail} from '../data/aboutEditorial';
+import '../styles/about-approved.css';
+import '../styles/about-constitution.css';
+import '../styles/content-image-led.css';
+---
+<Layout title="Contact LZZ Precision in Hangzhou" description="Email or WhatsApp LZZ Precision about custom CNC parts. Find the Hangzhou address, prepare a drawing-based inquiry or arrange a workshop visit." cta={false}>
+ <article class="ar-page ar-contact rd-wrap rd-page">
+  <header data-core-section="Direct contact" class="ar-hero ar-contact-hero"><div><h1>Contact LZZ</h1><p>Discuss a machining inquiry, an existing order or supplier documents with LZZ.</p></div><dl class="ar-contact-details"><div><dt>Email</dt><dd><a href="mailto:roger@lzz-cnc.com"><ContactIcon kind="email"/>roger@lzz-cnc.com</a></dd></div><div><dt>WhatsApp</dt><dd><a href="https://wa.me/8613858102479"><ContactIcon kind="phone"/>+86 138 5810 2479</a></dd></div><div><dt>Location &amp; time zone</dt><dd>Hangzhou, China · UTC+8</dd></div></dl></header>
+  <div class="ar-contact-workspace"><section class="ar-contact-tasks" aria-label="Choose your enquiry"><article data-core-section="New part inquiry" id="al-inquiry-title"><h2>A new part</h2><ResourceContentImage image={contentConcepts.definition}/><div><p>Include the current drawing revision and model, material, finish and quantity. Mark critical features and required inspection records; give the destination and requested arrival.</p><nav class="ar-links" aria-label="New part enquiry"><a class="rd-button" href="/quote/">Prepare RFQ email</a><a href="/resources/ordering/rfq-checklist/">RFQ checklist</a></nav><p class="ar-note">Review the draft, attach drawings and send it from your email app.</p></div></article><article data-core-section="Existing order support" class="ar-contact-existing"><h2>An existing order</h2><ResourceContentImage image={contentConcepts.records}/><div><p>For changes, acceptance or a discrepancy, include the drawing revision, order or batch reference, affected quantity and supporting photographs or measurements.</p><nav class="ar-links" aria-label="Existing order support"><a href="mailto:roger@lzz-cnc.com">Email LZZ</a><a href="/about/how-we-work/#section-2">Order and after-sales responsibilities</a></nav></div></article><article data-core-section="Supplier documents" id="al-contact-support"><h2>Supplier documents</h2><div><p>Request the current ISO 9001 certificate and scope. Identify any order-specific reports or material documents your team needs.</p><nav class="ar-links" aria-label="Supplier documents"><a href={qualificationEmail}>Request supplier documents</a><a href="/about/company-profile/#documents">View the document archive</a></nav></div></article></section>
+  <section data-core-section="Workshop visit" class="ar-contact-visit" aria-labelledby="al-location-title"><AboutRedesignPhoto id="workshop-wide" caption="LZZ machining workshop · Hangzhou"/><div><h2 id="al-location-title">Visit the workshop</h2><p>Arrange the date and the parts or processes to discuss before travelling.</p><address class="ar-address">Hangzhou Lizhizao Precision Machinery Co., Ltd.<br/>No. 4 Fengcheng Road, Pingyao<br/>Yuhang District, Hangzhou<br/>Zhejiang, China</address><a class="ar-text-link" href={visitEmail}>Arrange a workshop visit</a></div></section></div>
+ </article>
+</Layout>
+

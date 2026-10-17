@@ -1,0 +1,22 @@
+---
+import {workshopCollections} from '../data/workshopCollections';
+import {collectionReading} from '../data/caseReading';
+import {photo} from '../data/evidence';
+import EvidenceImage from './EvidenceImage.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+interface Props {collection:string}
+const {collection}=Astro.props;
+---
+<div class="cr-collection">
+ {workshopCollections[collection].map(family=>{
+  const info=collectionReading[family.id];
+  return <section class="cr-family" id={family.id}>
+   <header><h3>{family.title}</h3><div><p>{info.form}</p><p class="cr-material-note">{info.material}</p></div></header>
+   {family.photos?.length&&<div class="cr-family-photos" style={`--cr-columns:${Math.min(family.photos.length,3)}`}>{family.photos.map(id=>{
+    const source=photo(id);
+    return <figure class="cr-photo" style={`--cr-photo-width:${Math.floor(340*source.width/source.height)}px`}><EvidenceImage id={id} sizes="(max-width:760px) calc(100vw - 44px), 32vw"/><figcaption>{source.caption}</figcaption></figure>;
+   })}</div>}
+   {family.video&&<div class="cr-video cr-family-video"><WorkshopVideo {...family.video} headingLevel="h4" compact/></div>}
+  </section>;
+ })}
+</div>

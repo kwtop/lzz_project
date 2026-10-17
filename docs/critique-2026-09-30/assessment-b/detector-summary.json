@@ -1,0 +1,91 @@
+{
+  "cli": {
+    "findings": 0,
+    "scopeFiles": 53,
+    "command": "C:\\Users\\Administrator\\.agents\\skills\\impeccable\\scripts\\impeccable.cmd detect --json src/pages src/components src/layouts",
+    "fileLocations": [],
+    "stderr": "",
+    "ruleNames": [],
+    "exitCode": 0,
+    "runs": 1
+  },
+  "browser": {
+    "countNote": "Group headers report 70; subsequent rule logs total 75. These are raw diagnostic signals, not 75 confirmed defects.",
+    "pages": [
+      {
+        "page": "home",
+        "rules": {
+          "heading-rhythm": 5,
+          "dark-glow": 1,
+          "low-contrast": 8,
+          "layout-transition": 1,
+          "tiny-text": 1,
+          "gpt-thin-border-wide-shadow": 1,
+          "text-occlusion": 14
+        },
+        "announced": "%c[impeccable] 29 anti-patterns found",
+        "route": "/"
+      },
+      {
+        "page": "products",
+        "rules": {
+          "low-contrast": 3,
+          "text-occlusion": 7,
+          "layout-transition": 1,
+          "skipped-heading": 1
+        },
+        "announced": "%c[impeccable] 11 anti-patterns found",
+        "route": "/products/"
+      },
+      {
+        "page": "product",
+        "rules": {
+          "low-contrast": 3,
+          "text-occlusion": 3,
+          "dark-glow": 1,
+          "layout-transition": 1,
+          "gpt-thin-border-wide-shadow": 1
+        },
+        "announced": "%c[impeccable] 8 anti-patterns found",
+        "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/"
+      },
+      {
+        "page": "quality",
+        "rules": {
+          "layout-transition": 1,
+          "low-contrast": 3,
+          "wide-tracking": 1,
+          "tiny-text": 1,
+          "line-length": 2,
+          "text-occlusion": 6
+        },
+        "announced": "%c[impeccable] 13 anti-patterns found",
+        "route": "/quality/"
+      },
+      {
+        "page": "quote",
+        "rules": {
+          "low-contrast": 3,
+          "text-occlusion": 5,
+          "layout-transition": 1
+        },
+        "announced": "%c[impeccable] 9 anti-patterns found",
+        "route": "/quote/"
+      }
+    ],
+    "announcedTotal": 70,
+    "ruleLogTotal": 75,
+    "ruleLogCounts": {
+      "heading-rhythm": 5,
+      "skipped-heading": 1,
+      "dark-glow": 2,
+      "low-contrast": 20,
+      "layout-transition": 5,
+      "wide-tracking": 1,
+      "tiny-text": 2,
+      "line-length": 2,
+      "gpt-thin-border-wide-shadow": 2,
+      "text-occlusion": 35
+    }
+  }
+}

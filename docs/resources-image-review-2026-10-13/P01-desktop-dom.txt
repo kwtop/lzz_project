@@ -1,0 +1,158 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources" [active]
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - navigation "Breadcrumb":
+    - generic: Resources
+  - heading "Machining & ordering resources" [level=1]:
+    - text: Machining &
+    - text: ordering resources
+  - navigation "Resource topics":
+    - link "RFQ checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How we work":
+      - /url: /resources/how-we-work/
+    - link "Machining guides":
+      - /url: /resources/processes-materials-finishes/
+    - link "Production & shipping":
+      - /url: /resources/production-and-shipping/
+    - link "FAQ":
+      - /url: /resources/faq/
+  - figure:
+    - img "Machined housing beside outline drawings"
+  - region "RFQ checklist":
+    - heading "RFQ checklist" [level=2]
+    - paragraph: Check drawing revision, material, quantity, acceptance and delivery before preparing an inquiry.
+    - link "Read the checklist":
+      - /url: /resources/rfq-checklist/
+    - term: Drawing
+    - definition: Controlled revision and critical features
+    - term: Order
+    - definition: Material, finish, quantity and destination
+  - heading "Drawings & ordering" [level=2]:
+    - link "Drawings & ordering":
+      - /url: /resources/drawings-and-ordering/
+  - paragraph: Define the drawing revision, working surfaces, material and quantity. Review quotation scope, sample approval and the information needed to order.
+  - article:
+    - heading "How we work" [level=3]:
+      - link "How we work":
+        - /url: /resources/how-we-work/
+    - paragraph: Follow the LZZ order process, starting with your drawing and quotation. Agree on sample checks and production requirements before arranging shipment.
+  - article:
+    - heading "Define part requirements before machining" [level=3]:
+      - link "Define part requirements before machining":
+        - /url: /resources/custom-cnc-machined-components-for-prototypes-and-production/
+    - paragraph: Prepare a machining drawing that defines the working surfaces and critical dimensions. Include material, finish and inspection requirements.
+  - heading "Machining guides" [level=2]:
+    - link "Machining guides":
+      - /url: /resources/processes-materials-finishes/
+  - paragraph: Choose milling, turning or multi-axis machining from the part geometry. Specify the material grade, finish and dimensions to check after treatment.
+  - article:
+    - heading "Choosing CNC milling, turning or 5-axis machining" [level=3]:
+      - link "Choosing CNC milling, turning or 5-axis machining":
+        - /url: /resources/cnc-process-selection/
+    - paragraph: Choose a machining process from the part geometry. Compare turning, milling and multi-axis setups, with the drawing details needed for a quotation.
+  - article:
+    - heading "Specifying material and finish for a machined part" [level=3]:
+      - link "Specifying material and finish for a machined part":
+        - /url: /resources/material-and-finish-checklist/
+    - paragraph: Specify the material and finish on your CNC part drawing. Identify mating surfaces and dimensions after treatment, with the records required for acceptance.
+  - heading "Production & shipping" [level=2]:
+    - link "Production & shipping":
+      - /url: /resources/production-and-shipping/
+  - paragraph: Carry the approved drawing into repeat production. Agree packing, transit, delivery terms and the documents that accompany the parts.
+  - article:
+    - heading "Planning CNC prototypes and repeat batches" [level=3]:
+      - link "Planning CNC prototypes and repeat batches":
+        - /url: /resources/prototype-vs-small-batch-cnc/
+    - paragraph: Approve a prototype specification, then plan the setup and inspection for repeat batches. Confirm material, finish and order terms before increasing the quantity.
+  - article:
+    - heading "Shipping CNC parts internationally" [level=3]:
+      - link "Shipping CNC parts internationally":
+        - /url: /resources/custom-cnc-parts-shipping-checklist/
+    - paragraph: Agree packing and delivery terms for an international CNC parts order. Check document requirements and allow transit time beyond the production schedule.
+  - heading "Need a quick answer?" [level=2]
+  - navigation "Next resource task":
+    - link "Read the FAQ":
+      - /url: /resources/faq/
+    - link "Contact LZZ":
+      - /url: /contact/
+  - navigation "Resources and order preparation":
+    - link "RFQ checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How we work":
+      - /url: /resources/how-we-work/
+    - link "Quality control":
+      - /url: /quality/
+  - region "Prepare an inquiry":
+    - heading "Request a quote" [level=2]
+    - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "Prepare RFQ email":
+      - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

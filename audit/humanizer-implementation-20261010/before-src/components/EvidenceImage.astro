@@ -1,0 +1,8 @@
+---
+import {photo} from '../data/evidence';
+import {photoFrame} from '../lib/photoFrame';
+const {id,sizes='(max-width: 760px) 100vw, 50vw',loading='lazy',class:className}=Astro.props;
+const item=photo(id);
+const frame=await photoFrame(item.src,item.width,item.height);
+---
+<img class={className} src={item.src} srcset={item.srcset} sizes={sizes} width={item.width} height={item.height} style={frame.style} alt={item.alt} loading={loading} decoding="async"/>

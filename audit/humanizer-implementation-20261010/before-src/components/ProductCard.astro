@@ -1,0 +1,15 @@
+---
+import {productCardTitle,productImageAlt} from '../data/presentation';
+import {productImage,productSrcset} from '../data/refinedImages';
+import {productImageScale} from '../data/productImagePresentation';
+interface Props {product: {slug:string;name:string;images:string[];categories:string[]};reason?:string;}
+const {product,reason}=Astro.props;
+---
+<a class="product-card" href={`/products/${product.slug}/`}>
+ <div class="product-image"><img src={productImage(product)} srcset={productSrcset(product)} sizes="(max-width:760px) calc((100vw - 52px)/2), (max-width:960px) 42vw, 400px" alt={productImageAlt(product)} width="800" height="800" loading="lazy" style={`transform:scale(${productImageScale(product.slug)})`}/></div>
+ <h3>{productCardTitle(product)}</h3>
+ {reason && <p class="product-card-summary product-card-reason">{reason}</p>}
+</a>
+<style>
+ .product-card .product-card-summary.product-card-reason {font-size:14px;line-height:1.6;}
+</style>

@@ -1,0 +1,23 @@
+/* Shared technical role, enabled only as each page is individually reviewed. */
+.redesign-site .inspection-review{scroll-margin-top:0}
+.redesign-site .inspection-review>header{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px;margin-bottom:32px}
+.redesign-site .inspection-review>header h2{max-width:25ch}
+.redesign-site .inspection-review>header p{max-width:60ch}
+.redesign-site .inspection-review-context{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:64px;align-items:start;margin-top:32px}
+.redesign-site .inspection-review-context>.cx-evidence{width:220px}
+.redesign-site .inspection-review-questions>div+div{margin-top:24px}
+.redesign-site .inspection-review-questions h3{font-size:21px;max-width:45ch}
+.redesign-site .inspection-review-questions p{max-width:70ch;margin-top:12px}
+.redesign-site .inspection-review-context .rd-link{margin-top:20px}
+.redesign-site .inspection-review-context .cx-application-review:first-child{margin-top:0;border:0;padding:0}
+.redesign-site .inspection-review--compact>header{grid-template-columns:minmax(0,1fr) 440px;align-items:center}
+.redesign-site .inspection-review--compact>header p{margin-top:24px}
+.redesign-site .inspection-review--compact>header>.cx-evidence{display:grid;grid-template-columns:180px minmax(0,1fr);gap:24px;align-items:center;width:100%;max-width:none;margin-inline:0}
+.redesign-site .inspection-review--compact>header>.cx-evidence figcaption{margin:0}
+.redesign-site .inspection-review--compact .inspection-review-context{display:block;margin-top:20px}
+.redesign-site .inspection-review--compact .inspection-review-context .rd-link{margin-top:0}
+@media(min-width:768px){.redesign-site .inspection-review th:first-child{width:21%}.redesign-site .inspection-review td{width:39.5%}}
+@media(max-width:1100px){.redesign-site .inspection-review>header{gap:24px 32px}.redesign-site .inspection-review-context{gap:32px}}
+@media(max-width:767px){.redesign-site .inspection-review>header{grid-template-columns:1fr;gap:16px;margin-bottom:24px}.redesign-site .inspection-review-context{grid-template-columns:1fr;gap:28px}.redesign-site .inspection-review-context>.cx-evidence{width:210px}}
+@media(max-width:1100px){.redesign-site .inspection-review--compact>header{grid-template-columns:minmax(0,1fr) 180px}.redesign-site .inspection-review--compact>header>.cx-evidence{display:block}}
+@media(max-width:767px){.redesign-site .inspection-review--compact{display:flex;flex-direction:column}.redesign-site .inspection-review--compact>header{display:contents}.redesign-site .inspection-review--compact>header>div{order:0;margin-bottom:24px}.redesign-site .inspection-review--compact>table{order:1}.redesign-site .inspection-review--compact>header>.cx-evidence{display:grid;grid-template-columns:140px minmax(0,1fr);gap:20px;order:3;margin-top:24px}.redesign-site .inspection-review--compact .inspection-review-context{order:2}.redesign-site .inspection-review--compact>header p{margin-top:16px}}

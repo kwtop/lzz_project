@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import {ArrowRight,ArrowDown,Mail,FileText} from 'lucide-react';
+import {engineeringCases} from '../../data/cases';
+const study=(slug:string)=>engineeringCases.find(c=>c.slug===slug)!;
+const featured=study('29-inch-display-housing-cnc-machining');
+const families=engineeringCases.filter(c=>c.collection);
+const routes=[
+ {item:study('five-axis-machining-multi-face-parts'),question:'Access several faces',review:'Review tool access for angled holes, side openings and contoured surfaces.'},
+ {item:study('turning-then-milling-cylindrical-parts'),question:'Combine turned and milled features',review:'Review how milled features relate to the turned datum axis.'},
+ {item:study('two-stage-cnc-milling'),question:'Reposition without losing datums',review:'Review the locating faces and dimensional relationships between setups.'},
+];
+const features=[
+ {item:study('milling-a-pocketed-enclosure-form'),review:'Review pocket depth, wall thickness and mounting features.'},
+ {item:study('milling-prismatic-components'),review:'Review datum faces, bores and hole positions across multiple features.'},
+];
+const checklist=[
+ {title:'Geometry and model revision',text:'Share the latest drawing or 3D model. Identify changes to functional features.'},
+ {title:'Critical datums and key features',text:'Identify mating faces, critical hole positions and features that control assembly.'},
+ {title:'Material and finish',text:'Confirm the grade, condition and required surface finish, including protected dimensions.'},
+ {title:'Inspection criteria',text:'Specify acceptance requirements, measurement methods and the records you need.'},
+];
+---
+<Layout title="Machining Studies" description="Compare LZZ machining setups and component examples. Explore six workshop studies and two part collections, then prepare a drawing-based enquiry." cta={false}>
+ <article class="studies-page">
+  <section class="study-wrap study-intro">
+   <nav class="study-breadcrumb" aria-label="Breadcrumb"><a href="/products/">Custom Parts</a><span>/</span><span>Machining Studies</span></nav>
+   <div class="study-intro-row"><div><h1>CNC machining studies<br/>from the workshop</h1><p>Compare part geometry and machining setups,<br class="desktop-break"/> then identify the requirements for your own drawing.</p></div><div class="study-actions"><a class="study-button" href="/quote/">Prepare RFQ email</a><a class="study-link" href="#geometry"><ArrowDown size={17}/> Browse by geometry</a></div></div>
+   <div class="study-diptych"><figure><EvidenceImage id="display-housing-machining" loading="eager" sizes="(max-width:760px) 90vw, 44vw"/><figcaption>Machining setup</figcaption></figure><figure><EvidenceImage id="display-housing-panel" loading="eager" sizes="(max-width:760px) 90vw, 44vw"/><figcaption>Component view</figcaption></figure></div>
+   <div class="study-feature-caption"><div><h2>29-inch display housing</h2><p>Support, mounting features and mating edges. Display size is not part dimensions.</p></div><a class="study-link" data-case-link href={'/cases/'+featured.slug+'/'} aria-label={'View study: '+featured.title}>View study <ArrowRight size={18}/></a></div>
+  </section>
+  <section class="study-band" id="part-families"><div class="study-wrap study-section"><h2>Compare part families</h2><p class="study-section-lead">Explore metal and plastic components by their form and machining requirements.</p><div class="study-family-grid">{families.map(c=><article><a class="study-image-link" data-case-link href={'/cases/'+c.slug+'/'} aria-label={'Explore collection: '+c.title}><EvidenceImage id={c.hero} sizes="(max-width:760px) 90vw, 44vw"/></a><h3>{c.title}</h3><p>{c.lead}</p><a class="study-link" href={'/cases/'+c.slug+'/'}>Explore collection <ArrowRight size={18}/></a></article>)}</div></div></section>
+  <section class="study-wrap study-section" id="geometry"><h2>How geometry changes the route</h2><div class="study-route-list">{routes.map(({item,question,review},i)=><article class="study-route"><div class="study-question"><span>0{i+1}</span><h3>{question}</h3></div><a class="study-image-link" data-case-link href={'/cases/'+item.slug+'/'} aria-label={'View study: '+item.title}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 32vw"/></a><div class="study-route-copy"><h3>{item.title}</h3><p>{item.lead}</p><p>{review}</p><a class="study-link" href={'/cases/'+item.slug+'/'}>View study <ArrowRight size={18}/></a></div></article>)}</div></section>
+  <section class="study-band"><div class="study-wrap study-enquiry"><div><h2>Have similar features?</h2><p>Send your drawing, material and quantity so we can discuss your part.</p></div><a class="study-button" href="/quote/">Prepare RFQ email</a></div></section>
+  <section class="study-wrap study-section" id="pockets-and-bores"><h2>Pockets, bores &amp; mounting faces</h2><div class="study-feature-grid">{features.map(({item,review})=><article><a class="study-image-link" data-case-link href={'/cases/'+item.slug+'/'} aria-label={'View study: '+item.title}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 44vw"/></a><h3>{item.title}</h3><p>{item.lead}</p><p>{review}</p><a class="study-link" href={'/cases/'+item.slug+'/'}>View study <ArrowRight size={18}/></a></article>)}</div></section>
+  <section class="study-wrap study-checklist"><h2>Before comparing your part</h2><dl>{checklist.map(c=><div><dt>{c.title}</dt><dd>{c.text}</dd></div>)}</dl><div class="study-checklist-links"><a class="study-link" href="/resources/rfq-checklist/"><FileText size={20}/> Drawing checklist <ArrowRight size={18}/></a><a class="study-link" href="mailto:roger@lzz-cnc.com"><Mail size={20}/> roger@lzz-cnc.com</a></div></section>
+ </article>
+</Layout>
+<style>
+ .studies-page{color:#202629;background:white;--study-line:#dce1e3;--study-blue:#17577c;font-size:16px;line-height:1.65}
+ .study-wrap{width:calc(100% - 96px);max-width:1160px;margin-inline:auto}
+ .studies-page h1,.studies-page h2,.studies-page h3,.studies-page p,.studies-page figure{margin:0}
+ .studies-page h1,.studies-page h2,.studies-page h3{font-weight:550;letter-spacing:-.035em;color:#202629}
+ .studies-page h1{font-size:clamp(38px,4vw,58px);line-height:1.1;max-width:850px}
+ .studies-page h2{font-size:34px;line-height:1.2}.studies-page h3{font-size:23px;line-height:1.25;letter-spacing:-.025em}
+ .studies-page p{font-size:16px;line-height:1.65;color:#586268}
+ .studies-page a{border-radius:0;text-decoration:none;box-shadow:none;color:inherit}
+ .studies-page a:focus-visible{outline:2px solid var(--study-blue);outline-offset:5px}
+ .studies-page a:hover{color:#b9212c}.studies-page [id]{scroll-margin-top:110px}
+ .study-intro{padding-block:40px 54px}.study-breadcrumb{display:flex;gap:14px;font-size:13px;color:#606b71;margin-bottom:32px}.study-breadcrumb a:hover{text-decoration:underline}
+ .study-intro-row{display:flex;justify-content:space-between;gap:40px;align-items:center;margin-bottom:36px}.study-intro-row p{margin-top:22px;max-width:650px}.study-actions{display:flex;flex-direction:column;align-items:flex-end;gap:12px;flex-shrink:0}
+ .studies-page .study-button{display:inline-flex;justify-content:center;align-items:center;min-height:54px;padding:15px 24px;color:white;background:#cb2532;border:1px solid #cb2532;font-size:15px;font-weight:600;line-height:1.4;white-space:nowrap}.studies-page .study-button:hover{background:#a91b26;color:white}
+ .studies-page .study-link{display:inline-flex;align-items:center;gap:12px;font-size:15px;font-weight:550;color:var(--study-blue);min-height:44px;line-height:1.4}.study-link:hover{text-decoration:underline;text-underline-offset:5px}.study-link :global(svg){flex-shrink:0}
+ .study-diptych{display:grid;grid-template-columns:1fr 1fr;gap:22px}.study-diptych figure{min-width:0}.study-diptych :global(img){width:100%;height:330px;object-fit:cover;border-radius:0}.study-diptych figcaption{font-size:14px;margin-top:10px;color:#303b41}
+ .study-feature-caption{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:26px}.study-feature-caption h2{font-size:30px}.study-feature-caption p{margin-top:12px}.study-feature-caption>a{flex-shrink:0}
+ .study-band{background:#f3f5f5}.study-section{padding-block:52px}.study-section-lead{margin-top:12px!important;margin-bottom:27px!important}
+ .study-family-grid,.study-feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.study-family-grid article,.study-feature-grid article{min-width:0}.study-image-link{display:block;overflow:hidden}.study-image-link :global(img){width:100%;height:225px;object-fit:cover;border-radius:0;display:block}.study-family-grid h3,.study-feature-grid h3{margin-top:17px;font-size:21px}.study-family-grid p,.study-feature-grid p{margin-top:10px}.study-family-grid .study-link,.study-feature-grid .study-link{margin-top:9px}
+ .study-route-list{margin-top:30px}.study-route{display:grid;grid-template-columns:210px minmax(0,1fr) minmax(0,1.1fr);gap:30px;padding-block:21px;border-bottom:1px solid var(--study-line);align-items:start}.study-route:first-child{padding-top:0}.study-route:last-child{border-bottom:0;padding-bottom:0}.study-question{padding:5px 22px 5px 20px;border-left:2px solid #cbd3d7}.study-route:first-child .study-question{border-color:var(--study-blue)}.study-question>span{display:block;color:#7a878f;font-size:13px;margin-bottom:12px}.study-question h3{font-size:19px;line-height:1.4;max-width:170px}.study-route .study-image-link :global(img){height:210px}.study-route-copy h3{font-size:23px}.study-route-copy p{font-size:15px;margin-top:10px}.study-route-copy .study-link{margin-top:6px}
+ .study-enquiry{display:flex;align-items:center;justify-content:space-between;gap:30px;padding-block:33px}.study-enquiry h2{font-size:30px}.study-enquiry p{margin-top:10px}
+ .study-checklist{border-top:1px solid var(--study-line);padding-block:38px 50px}.study-checklist dl{display:grid;grid-template-columns:1fr 1fr;gap:23px 60px;margin:26px 0}.study-checklist dl>div{border-left:1px solid var(--study-line);padding-left:18px}.study-checklist dt{font-size:17px;font-weight:550}.study-checklist dd{font-size:15px;line-height:1.6;color:#586268;margin:7px 0 0;max-width:460px}.study-checklist-links{display:flex;justify-content:space-between;gap:25px}
+ @media(max-width:1050px){.study-wrap{width:calc(100% - 64px)}.study-intro-row{gap:24px}.study-actions{flex-shrink:1}.study-route{grid-template-columns:155px 1fr 1fr;gap:23px}.study-route .study-image-link :global(img){height:200px}.study-diptych :global(img){height:270px}.study-route-copy h3{font-size:21px}.study-question{padding-left:14px;padding-right:5px}}
+ @media(max-width:760px){.study-wrap{width:calc(100% - 40px)}.study-intro{padding-block:26px 36px}.study-breadcrumb{font-size:12px;margin-bottom:26px}.study-intro-row{display:block;margin-bottom:26px}.studies-page h1{font-size:37px}.study-intro-row p{margin-top:20px}.desktop-break{display:none}.study-actions{align-items:flex-start;margin-top:24px;gap:8px}.study-diptych{gap:22px;grid-template-columns:1fr}.study-diptych :global(img){height:auto;aspect-ratio:1.7}.study-feature-caption{display:block;margin-top:24px}.study-feature-caption h2{font-size:27px}.study-feature-caption .study-link{margin-top:12px}.studies-page h2{font-size:29px}.study-section{padding-block:38px}.study-family-grid,.study-feature-grid{grid-template-columns:1fr;gap:28px}.study-image-link :global(img){height:auto;aspect-ratio:1.65}.study-family-grid h3,.study-feature-grid h3{font-size:21px}.study-route{grid-template-columns:1fr;gap:18px;padding-block:25px}.study-question{display:flex;gap:14px;align-items:baseline;padding:4px 12px}.study-question>span{margin:0}.study-question h3{max-width:none;font-size:18px}.study-route .study-image-link :global(img){height:auto;aspect-ratio:1.6}.study-route-copy h3{font-size:23px}.study-route-copy p{font-size:16px}.study-enquiry{display:block;padding-block:30px}.study-enquiry .study-button{margin-top:22px}.study-checklist{padding-block:32px}.study-checklist dl{grid-template-columns:1fr;gap:22px}.study-checklist-links{flex-direction:column;gap:8px;align-items:flex-start}}
+</style>

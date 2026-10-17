@@ -1,0 +1,51 @@
+.filter-disclosure{display:none}
+.quote-optional{margin:24px 0;border-block:1px solid var(--border)}
+.quote-optional>summary{cursor:pointer;padding:18px 0;font-weight:600;min-height:48px}
+.quote-optional>summary>span{font-size:12px;font-weight:400;color:var(--muted);margin-left:12px}
+.quote-optional .form-grid{padding:8px 0 24px}
+body.brand-site .quote-steps li{padding:8px 10px;border-radius:5px;background:var(--surface);line-height:1.4}
+body.brand-site .quote-steps li[aria-current=step]{background:#fbe9e9;color:#a50009;font-weight:600}
+body.brand-site .quote-steps li[aria-current=step] span{color:inherit}
+body.brand-site .real-factory-intro .page-banner-figure{max-width:447px;justify-self:end;width:100%}
+body.brand-site .real-factory-intro .page-banner-image{aspect-ratio:447/284;height:auto}
+body.brand-site .real-factory-intro .page-banner-image img{aspect-ratio:447/284;width:100%;height:auto;object-fit:contain}
+body.brand-site .real-factory-intro figcaption{font-size:13px;color:var(--ink)}
+#workshop-photographs .workshop-archive{display:grid;grid-template-columns:repeat(2,minmax(0,447px));gap:32px;justify-content:space-between}
+#workshop-photographs .workshop-archive img{width:100%;max-width:none;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:10px}
+body.brand-site.task-pages #workshop-photographs .workshop-archive article{display:block}
+body.brand-site.task-pages #workshop-photographs .workshop-archive article>a{display:block;width:100%;margin-bottom:18px}
+.measurement-matrix{margin:0}
+.measurement-matrix>div{display:grid;grid-template-columns:1fr 1.25fr;gap:24px;padding:20px 0;border-bottom:1px solid var(--border)}
+.measurement-matrix>div:first-child{padding-top:0}
+.measurement-matrix dt{font-weight:600;line-height:1.5}
+.measurement-matrix dd{margin:0;color:var(--muted);line-height:1.65;font-size:15px}
+body.brand-site .measurement-section{padding-block:56px}
+body.brand-site .quality-reference{padding-block:56px}
+.capability-directory-links .capability-example{width:96px;height:96px;object-fit:contain;border-radius:8px;background:var(--surface);flex-shrink:0}
+.capability-directory-links>a>div{flex:1;min-width:0}
+body.brand-site .capability-directory-group{padding-block:44px;gap:44px}
+@media(max-width:760px){
+ .filter-disclosure{display:flex;justify-content:space-between;align-items:center;width:100%;min-height:46px;background:white;border:0;border-bottom:1px solid var(--border);font:inherit;font-size:14px;margin-top:8px;padding:8px 0;text-align:left}
+ .catalog-facets:not(.is-open){display:none}
+ body.brand-site .explorer .results-meta{margin:18px 0 24px}
+ body.brand-site.task-pages .explorer .product-grid{grid-template-columns:1fr;gap:32px}
+ body.brand-site.task-pages .explorer .product-card{display:block;padding-bottom:26px}
+ body.brand-site.task-pages .explorer .product-card .product-image{width:100%;aspect-ratio:1.15;grid-column:auto;grid-row:auto}
+ body.brand-site.task-pages .explorer .product-card .product-image img{padding:12px}
+ body.brand-site.task-pages .explorer .product-card .product-category{margin:18px 0 8px}
+ body.brand-site.task-pages .explorer .product-card h3{font-size:24px;line-height:1.2}
+ body.brand-site.task-pages .explorer .product-card .product-card-summary{font-size:14px;margin-top:10px;max-width:none}
+ body.brand-site.task-pages .explorer .product-card .product-arrow{display:grid;width:36px;height:36px}
+ body.brand-site .quote-steps{gap:6px;margin-block:12px 24px}
+ body.brand-site .quote-steps li{padding:7px 8px;font-size:11px}
+ body.brand-site .quote-form-column{padding-top:28px}
+ body.brand-site .real-factory-intro .page-banner-figure{justify-self:start}
+ #workshop-photographs .workshop-archive{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+ #workshop-photographs .workshop-archive h3{font-size:18px;line-height:1.2;margin-top:12px}
+ .measurement-matrix>div{grid-template-columns:1fr;gap:8px;padding-block:16px}
+ body.brand-site .measurement-section,body.brand-site .quality-reference{padding-block:36px}
+ body.brand-site .capability-directory-group{gap:22px;padding-block:32px}
+ body.brand-site.task-pages .capability-directory-links>a{display:grid;grid-template-columns:80px minmax(0,1fr);gap:10px 16px}
+ .capability-directory-links .capability-example{width:80px;height:80px;grid-row:1/3}
+ body.brand-site.task-pages .capability-directory-links>a>span{grid-column:2;grid-row:2}
+}

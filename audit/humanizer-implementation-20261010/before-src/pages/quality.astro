@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Arrow from '../components/Arrow.astro';
+import EvidenceImage from '../components/EvidenceImage.astro';
+const qualificationFields=[
+ 'Named legal entity: Hangzhou Lizhizao Precision Machinery Co., Ltd.',
+ 'Certificate number, issuing certification body and verification method.',
+ 'Issue and expiry dates, covered site and certified activities.',
+ 'The current certificate copy and the inspection records required for your project.',
+];
+const qualificationBody='Please provide the current ISO 9001 certificate for Hangzhou Lizhizao Precision Machinery Co., Ltd., including certificate number, issuing body, validity dates, covered site, scope and verification method.\n\nProject / drawing reference:\nRequired inspection records:';
+const qualificationHref='mailto:roger@lzz-cnc.com?subject='+encodeURIComponent('Supplier qualification documents')+'&body='+encodeURIComponent(qualificationBody);
+
+const stages=[
+ {title:'Drawing review',text:'Agree critical features, datums and acceptance criteria.'},
+ {title:'First article',text:'Check the initial part before the production run. Agree any customer approval hold point in advance.'},
+ {title:'In-process checks',text:'Inspect agreed features during machining.'},
+ {title:'Final inspection',text:'Verify the finished parts against the agreed order.'},
+];
+
+const quoteHref='/quote/?'+new URLSearchParams({part:'Quality review — inspection requirements and order records'}).toString();
+const documents=[
+ ['Dimensional & first-article reports','Reports identify the part number, drawing revision and part or batch reference. Specify whether acceptance dimensions apply before or after finishing; use the report fields above to agree the required results.'],
+ ['Material records','Specify the material grade, condition and required traceability. The quotation confirms which material documents will accompany your order.'],
+ ['Finishing documents','We arrange the treatment documentation required by your order, linked to the specified process and part or batch. State any special acceptance test or document requirement before production.'],
+ ['Surface & batch acceptance','Mark cosmetic faces, masked areas and edge conditions. Include sampling requirements and the approval process for any proposed deviation.'],
+];
+const methods=[['Coordinate measuring machine (CMM)','Positions and geometric features against drawing datums.'],['Height gauges','Heights and dimensions in the agreed setup.'],['Optical projectors','Profiles suited to optical measurement.'],['Other checks to specify','For threads, roughness, coating thickness or hardness, state the method and acceptance criteria on your drawing. Confirm checks and records with the quotation.']];
+---
+<Layout title="Quality control for custom CNC machined parts" description="LZZ is ISO 9001 certified. Review its machining inspection stages, dimensional checks and the records to specify with your order." cta={false}>
+ <article class="qv-page">
+  <header class="qv-wrap qv-hero">
+   <div><h1>Quality control for<br/>CNC machined parts</h1><p class="qv-lead">Dimensional checks, material requirements and inspection records, agreed against your drawing.</p>
+    <p>Share critical dimensions, datums and functional requirements so we can agree the measurement methods, acceptance limits and required records before machining.</p>
+    <a class="qv-button" href={quoteHref}>Discuss your inspection needs <Arrow size={18}/></a>
+   </div>
+   <figure class="qv-hero-photo" data-image-origin="original-photo"><EvidenceImage id="cmm-detail" loading="eager" sizes="(max-width:760px) 90vw, 42vw"/><figcaption>CMM probe and fixture · LZZ inspection area</figcaption></figure>
+  </header>
+  <section class="qv-wrap qv-documents" id="inspection-records">
+   <h2>Inspection records and order acceptance</h2><p>Define the information shown on dimensional and first-article reports, including the part number, drawing revision, specified features, datums, acceptance limits, measurement method and results.</p><p>Agree sampling, report format and any customer approval hold point before production.</p>
+   <details class="qv-record-details">
+    <summary>Preview blank dimensional inspection format · no results</summary>
+    <div class="qv-sheet" aria-label="Blank example dimensional inspection record layout">
+    <h3>Dimensional inspection record</h3>
+    <dl class="qv-meta"><div><dt>Drawing / revision</dt><dd>To agree</dd></div><div><dt>Part / batch reference</dt><dd>To agree</dd></div></dl>
+    <div class="qv-table-scroll" tabindex="0" role="region" aria-label="Blank inspection record table"><table><thead><tr><th scope="col">Feature / datum</th><th scope="col">Drawing limit</th><th scope="col">Method</th><th scope="col">Result</th></tr></thead><tbody><tr><td>To define</td><td>—</td><td>To agree</td><td>—</td></tr></tbody></table></div>
+    <div class="qv-sheet-foot"><span>Sampling plan: <strong>To agree</strong></span><span>Review / approval: <strong>Blank</strong></span></div>
+    <p class="qv-small">Blank example only. No customer data, measured results or approval.</p>
+    </div>
+   </details>
+   <div class="qv-order" id="order-documentation">
+   <h3>Documents to specify with your quotation</h3><p>No customer report or measurement result is published on this site.</p>
+   <dl class="qv-rows">{documents.map(([label,text])=><div><dt>{label}</dt><dd>{text}</dd></div>)}</dl>
+   <p class="qv-small">Ask LZZ to confirm which records can be supplied before machining. Your quotation will list the included documents and any extra cost.</p>
+   </div>
+  </section>
+  <section class="qv-tint" id="inspection-process"><div class="qv-wrap qv-process">
+   <h2>Checks at each production stage</h2>
+   <ol class="qv-stages">{stages.map(stage=><li><h3>{stage.title}</h3><p>{stage.text}</p></li>)}</ol>
+   <a class="qv-secondary" href="/factory/#workflow">See the complete manufacturing process <Arrow size={17}/></a>
+  </div></section>
+  <section class="qv-wrap qv-equipment" id="inspection-equipment">
+   <div><h2>Inspection equipment and methods</h2><p>Choose the measurement method for the feature and its drawing limits. The equipment below covers dimensional checks; specify any additional tests with your quotation request.</p><p class="qv-calibration">Request the current calibration records during supplier review.</p>
+    <dl class="qv-methods" id="measurement-methods">{methods.map(([label,text])=><div><dt>{label}</dt><dd>{text}</dd></div>)}</dl>
+    <a class="qv-secondary" href="/factory/#equipment">See machining and inspection equipment <Arrow size={17}/></a>
+   </div>
+  </section>
+  <section class="qv-tint" id="quality-management"><div class="qv-wrap qv-qualification">
+   <div><h2>Supplier qualification</h2><p>LZZ is ISO 9001-certified. Request the current certificate for your supplier file and check the details listed here.</p><p>The <a class="qv-inline" href="/about/#documents">company recognition documents</a> are separate from the ISO certificate.</p><a class="qv-secondary" href={qualificationHref}>Request certificate &amp; scope <Arrow size={17}/></a></div>
+   <div><h3>Hangzhou Lizhizao Precision Machinery Co., Ltd.</h3><p>When reviewing our ISO 9001 certificate, please check:</p><ul>{qualificationFields.map(field=><li>{field}</li>)}</ul><p class="qv-small">Certificate number, issuer and current validity are available on request.</p></div>
+  </div></section>
+  <section class="qv-wrap qv-resources"><div><h2>Resources and checklists</h2><p>Prepare your drawing and inspection requirements.</p></div><nav aria-label="Quality resources"><a class="qv-secondary" href="/downloads/order-acceptance-checklist.txt" download>Download the order acceptance checklist <Arrow size={17}/></a><a class="qv-secondary" href="/resources/rfq-checklist/">Prepare your drawing and inspection checklist <Arrow size={17}/></a></nav></section>
+ </article>
+</Layout>
+<style>
+ .qv-page{background:#fff;color:#171d21;--qv-line:#dce1e4;--qv-muted:#55616b}
+ .qv-page figure{margin:0}.qv-page section[id],.qv-page dl[id],.qv-order{scroll-margin-top:110px}
+ .qv-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:start}
+ .qv-hero-photo :global(img){display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 58%}
+ .qv-hero-photo figcaption{color:var(--qv-muted);margin-top:12px}
+ .qv-record-details{margin-block:32px;border-block:1px solid var(--qv-line)}
+ .qv-record-details>summary{cursor:pointer;padding-block:20px}
+ .qv-sheet{padding-block:4px 24px;min-width:0}.qv-sheet h3{margin:0}
+ .qv-meta{display:flex;flex-wrap:wrap;gap:12px 32px;margin-block:24px}.qv-meta>div{display:flex;gap:12px}.qv-meta dt{color:var(--qv-muted)}.qv-meta dd{margin:0}
+ .qv-table-scroll{overflow-x:auto}.qv-sheet table{border-collapse:collapse;width:100%;text-align:left}.qv-sheet th,.qv-sheet td{border:1px solid var(--qv-line);padding:14px;line-height:1.5}.qv-sheet th{background:#f4f5f6;font-weight:550}.qv-sheet td{color:var(--qv-muted)}
+ .qv-sheet-foot{display:flex;flex-wrap:wrap;gap:12px 32px;margin-top:24px;color:var(--qv-muted)}.qv-sheet-foot strong{font-weight:550}
+ .qv-rows,.qv-methods{margin-block:28px 0}.qv-rows>div,.qv-methods>div{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:24px;border-top:1px solid var(--qv-line);padding-block:20px}.qv-rows dt,.qv-methods dt{font-weight:550;line-height:1.5}.qv-rows dd,.qv-methods dd{margin:0;line-height:1.6;color:var(--qv-muted)}
+ .qv-stages{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;padding:0;list-style:none;margin-block:36px}.qv-stages li{border-top:1px solid var(--qv-line);padding-top:20px}
+ .qv-equipment{display:block}.qv-methods{margin-bottom:28px}
+ .qv-qualification{display:grid;grid-template-columns:1.1fr 1fr;gap:64px}.qv-qualification ul{padding-left:20px}.qv-qualification li{margin-block:10px;line-height:1.6;color:var(--qv-muted)}
+ .qv-resources{display:grid;grid-template-columns:1.15fr 1fr;gap:64px;align-items:start}.qv-resources nav{display:grid;gap:16px}
+ @media(max-width:1000px){.qv-hero,.qv-qualification{gap:32px}.qv-stages{grid-template-columns:repeat(2,1fr)}}
+ @media(max-width:760px){.qv-hero,.qv-qualification,.qv-resources{grid-template-columns:1fr;gap:32px}.qv-hero-photo :global(img){aspect-ratio:5/4}.qv-rows>div,.qv-methods>div{grid-template-columns:1fr;gap:8px}.qv-meta{display:grid;gap:12px}.qv-sheet th,.qv-sheet td{padding:10px;overflow-wrap:anywhere}.qv-stages{grid-template-columns:1fr;gap:24px}}
+</style>

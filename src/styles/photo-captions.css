@@ -1,0 +1,50 @@
+/* A photograph and its caption share a single intrinsic-width column.
+ * Inline containment keeps long captions from widening the photo. Original
+ * images remain uncropped; height limits are inherited by page family. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main {--caption-photo-height:520px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ft-scenes>figure,.ft-inspection-content>figure,.ce-source,.ce-news-gallery>figure,.contact-hero>.ce-figure,.case-component>figure,.case-setup-photos>figure,.cap-evidence-item) {
+ display:block;width:var(--caption-photo-width,fit-content)!important;max-width:100%;min-width:0;justify-self:center;margin-inline:auto!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ft-scenes>figure,.ft-inspection-content>figure,.ce-source,.ce-news-gallery>figure,.contact-hero>.ce-figure,.case-component>figure,.case-setup-photos>figure,.cap-evidence-item)>a {
+ display:block;width:fit-content;max-width:100%;margin:0;padding:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ft-scenes>figure,.ft-inspection-content>figure,.ce-source,.ce-news-gallery>figure,.contact-hero>.ce-figure,.case-component>figure,.case-setup-photos>figure,.cap-evidence-item) img {
+ display:block;width:auto!important;max-width:100%!important;height:auto!important;max-height:var(--caption-photo-height)!important;aspect-ratio:auto!important;object-fit:contain!important;margin:0!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.ft-scenes>figure,.ft-inspection-content>figure,.ce-source,.ce-news-gallery>figure,.contact-hero>.ce-figure,.case-component>figure,.case-setup-photos>figure,.cap-evidence-item)>figcaption {
+ contain:inline-size;display:block;width:100%;max-width:none!important;box-sizing:border-box;margin:12px 0 0!important;padding:0;text-align:left;font-size:14px!important;line-height:1.55!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page{--caption-photo-height:380px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-news-gallery{--caption-photo-height:580px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-evidence-grid{--caption-photo-height:300px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .contact-hero{--caption-photo-height:300px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-evidence{--caption-photo-height:460px}
+/* Measured study columns reserve their width before lazy source photos load. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.case-component>figure,.case-setup-photos>figure,.cap-evidence-item)>a {width:100%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.case-component>figure,.case-setup-photos>figure,.cap-evidence-item) img {width:100%!important}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page{--caption-photo-height:300px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ce-evidence-grid{--caption-photo-height:360px}
+ /* Side-by-side capability examples become a single photo/caption column. */
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence-item {
+  width:min(100%,calc(var(--cap-preview-width,320px) * .75));gap:12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence-media {width:100%}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence-item figcaption {width:100%;max-width:100%!important}
+}
+
+/* Contained catalogue originals use the same width for photo and description.
+ * Cropped detail tiles keep their existing full-column presentation. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figure[data-reference-fit="contain"] {
+ width:min(100%,calc(var(--reference-image-height) * var(--photo-ratio)))!important;
+ margin-inline:auto;justify-self:center;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figure[data-reference-fit="contain"] .reference-photo {
+ height:auto;aspect-ratio:var(--photo-aspect);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figure[data-reference-fit="contain"] img {
+ height:auto!important;aspect-ratio:auto var(--photo-aspect)!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figure[data-reference-fit="contain"] figcaption {
+ max-width:100%!important;margin-top:12px;
+}

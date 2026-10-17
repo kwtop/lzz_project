@@ -1,0 +1,57 @@
+---
+import {
+  illustrativeScenes,
+  type IllustrativeSceneId,
+} from '../data/illustrativeScenes';
+
+interface Props {
+  id: IllustrativeSceneId;
+  sizes?: string;
+  className?: string;
+  loading?: 'eager' | 'lazy';
+}
+
+const {
+  id,
+  sizes = '(max-width: 760px) 100vw, 50vw',
+  className,
+  loading = 'lazy',
+} = Astro.props;
+const item = illustrativeScenes[id];
+---
+
+<figure class:list={['illustrative-scene', className]} data-image-origin="AI-generated">
+  <img
+    src={item.src}
+    srcset={item.srcset}
+    sizes={sizes}
+    width="1536"
+    height="1024"
+    alt={item.alt}
+    loading={loading}
+    decoding="async"
+  />
+  
+</figure>
+
+<style>
+  .illustrative-scene {
+    min-width: 0;
+    margin: 0;
+  }
+
+  .illustrative-scene img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .illustrative-scene figcaption {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+</style>

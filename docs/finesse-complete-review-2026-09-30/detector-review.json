@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-30",
+  "rawP0Findings": 4,
+  "validatedP0Defects": 0,
+  "reviews": [
+    {
+      "file": "src/layouts/Layout.astro",
+      "id": "dead-local-ref",
+      "reason": "Two new URL(expression, siteOrigin) calls were parsed as filenames. Built URLs and actual local references are checked by verify-links.mjs."
+    },
+    {
+      "file": "src/components/QuoteForm.tsx",
+      "id": "dead-local-ref",
+      "reason": "new URL(reference.path, siteOrigin) is a canonical product URL construction, not a local filename. Protected file unchanged; product source in prepared draft verified."
+    },
+    {
+      "file": "src/components/MainNavigation.astro",
+      "id": "no-reduced-motion",
+      "reason": "The detector checks this component independently. Final shared CSS handles reduced-motion; menu keyboard interactions verified."
+    },
+    {
+      "file": "src/components/DisclosureAnchors.astro",
+      "id": "no-reduced-motion",
+      "reason": "The component uses instant scroll and receives the shared CSS reduced-motion rule. Its hash target behaviour does not animate."
+    }
+  ],
+  "styleExceptions": [
+    "Preserve protected SEO copy, CTA labels and long reading links.",
+    "Preserve existing white button lettering for contrast.",
+    "Existing industrial photographs provide texture; omit decorative grain over technical reading.",
+    "Keep existing Inter for brand continuity and engineering text readability."
+  ]
+}

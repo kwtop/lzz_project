@@ -1,0 +1,145 @@
+{
+  "canonical": "https://www.lzz-cnc.com/capabilities/prototype-machining/",
+  "description": "Machined prototypes for fit and design evaluation. Define the revision and validation priorities in your RFQ.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Machined prototypes for your next revision"
+    },
+    {
+      "tag": "H2",
+      "text": "What should your prototype verify?"
+    },
+    {
+      "tag": "H2",
+      "text": "More part examples"
+    },
+    {
+      "tag": "H3",
+      "text": "Aluminum intercooler prototypes"
+    },
+    {
+      "tag": "H3",
+      "text": "Billet aluminum engine covers"
+    },
+    {
+      "tag": "H2",
+      "text": "Drawing & acceptance"
+    },
+    {
+      "tag": "H3",
+      "text": "Drawing requirements"
+    },
+    {
+      "tag": "H3",
+      "text": "Inspection and acceptance"
+    },
+    {
+      "tag": "H2",
+      "text": "Prepare your prototype machining enquiry"
+    },
+    {
+      "tag": "H3",
+      "text": "Related resources"
+    },
+    {
+      "tag": "H2",
+      "text": "Related production stages"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/capabilities/",
+      "text": "Capabilities"
+    },
+    {
+      "href": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "/products/global-oem-precision-machining-solutions/",
+      "text": ""
+    },
+    {
+      "href": "/products/",
+      "text": "Browse all parts"
+    },
+    {
+      "href": "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "text": "Aluminum intercooler prototypes"
+    },
+    {
+      "href": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "text": "Billet aluminum engine covers"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality & inspection"
+    },
+    {
+      "href": "/factory/#equipment",
+      "text": ""
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": ""
+    },
+    {
+      "href": "/factory/#order-deliverables",
+      "text": ""
+    },
+    {
+      "href": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Drawing & RFQ checklist"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Prototype vs small batch"
+    },
+    {
+      "href": "/quality/",
+      "text": ""
+    },
+    {
+      "href": "/resources/cnc-process-selection/",
+      "text": ""
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/low-volume-production/",
+      "text": "Low-volume production\n↗"
+    }
+  ],
+  "main": "Capabilities\n/\nPrototype machining\nMachined prototypes for your next revision\n\nMachined prototypes for design development. Browse examples and discuss the next revision of your part.\n\nPrepare RFQ email\nRing housings & angled components\nWhat should your prototype verify?\n\nPrototype examples focus on automotive housings and intake or cooling components. State the goal: packaging, assembly, appearance or a specific functional test. A prototype does not automatically validate a production design.\n\nGeometry & process\nFor checking fit, assembly and design details before repeat production. STEP or IGES review helps identify tool access, fitment and manufacturability issues before machining. Automotive development examples include intercoolers, billet engine covers, intake manifolds, plenums and electronic throttle bodies.\nSize & workholding\nSend the current model revision, overall dimensions and stock size. Separate fixed interfaces from geometry still open to change so tool access and clamping space can be reviewed for the prototype.\nMaterial & finish\nSpecify the material grade, condition and required finish. State whether production material and finish are essential to the evaluation, or whether alternatives may be proposed for your approval. Separate fit-check dimensions from appearance finishes.\nMake the sample answer a design question\nMore part examples\nBrowse all parts\nAluminum intercooler prototypes\nBillet aluminum engine covers\nDrawing & acceptance\nDrawing requirements\n\nIdentify the current revision and dimensions needed for the prototype evaluation. Separate fixed interfaces from geometry still open to change.\n\nState whether production material and finish are essential to the evaluation, or whether alternatives may be proposed for your approval.\n\nInspection and acceptance\n\nAgree the measurements and evidence needed to judge the prototype against its objective. Document the acceptance criteria for each critical interface.\n\nIf testing is required, identify who supplies the fixture and test procedure and who evaluates the result. No test completion is implied by the example.\n\nAgree the measurement method and required records before production.\n\n7–14 business days — Production, from 1 piece. Production starts after drawing and order confirmation. The period includes surface finishing; shipping time is additional.\n\nQuality & inspection\nEquipment and order records\nPrepare your prototype machining enquiry\n\nProvide the model, key drawing dimensions, prototype quantity, revision status and intended evaluation.\n\nExplain any planned next revision or later batch. Give your requested date so it can be assessed; delivery still needs confirmation.\n\nPrepare RFQ email\n\nAdd your requirements to the email draft, then attach drawings in your email app before sending.\n\nroger@lzz-cnc.com\nRelated resources\nDrawing & RFQ checklist\nPrototype vs small batch\nMore engineering resources\nRelated production stages\nLow-volume production\n↗",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/#webpage\",\"url\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/\",\"name\":\"Prototype Machining\",\"description\":\"Machined prototypes for fit and design evaluation. Define the revision and validation priorities in your RFQ.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/#service\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Capabilities\",\"item\":\"https://www.lzz-cnc.com/capabilities/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Prototype Machining\",\"item\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/\"}]},{\"@type\":\"Service\",\"@id\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/#service\",\"url\":\"https://www.lzz-cnc.com/capabilities/prototype-machining/\",\"name\":\"Prototype machining\",\"description\":\"Machined prototypes for fit and design evaluation. Define the revision and validation priorities in your RFQ.\",\"image\":\"https://www.lzz-cnc.com/media/responsive/catalog-03-cutout-v1-1200.webp\",\"provider\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"}}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Prototype Machining | LZZ Precision",
+  "url": "http://127.0.0.1:4326/capabilities/prototype-machining/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "category-prototype-machining-mobile"
+}

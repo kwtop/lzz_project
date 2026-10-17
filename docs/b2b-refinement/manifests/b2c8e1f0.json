@@ -1,0 +1,618 @@
+[
+  {
+    "file": "home-overview-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "home-top-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "home-parts-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 774,
+    "state": "region #selected-parts",
+    "fullPage": false
+  },
+  {
+    "file": "home-factory-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 1435,
+    "state": "region .ed-factory",
+    "fullPage": false
+  },
+  {
+    "file": "home-studies-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 3662,
+    "state": "region .ed-cases",
+    "fullPage": false
+  },
+  {
+    "file": "catalog-overview-desktop.png",
+    "url": "/products/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "catalog-top-desktop.png",
+    "url": "/products/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "catalog-parts-desktop.png",
+    "url": "/products/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 418,
+    "state": "region .product-grid",
+    "fullPage": false
+  },
+  {
+    "file": "part-overview-desktop.png",
+    "url": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "part-top-desktop.png",
+    "url": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "part-engineering-desktop.png",
+    "url": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 2265,
+    "state": "region #engineering-review",
+    "fullPage": false
+  },
+  {
+    "file": "applications-overview-desktop.png",
+    "url": "/cases/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "applications-study-desktop.png",
+    "url": "/cases/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 335,
+    "state": "region .cases-grid",
+    "fullPage": false
+  },
+  {
+    "file": "application-study-overview-desktop.png",
+    "url": "/cases/five-axis-machining-multi-face-parts/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "application-study-evidence-desktop.png",
+    "url": "/cases/five-axis-machining-multi-face-parts/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 446,
+    "state": "region .case-sections",
+    "fullPage": false
+  },
+  {
+    "file": "custom-capabilities-overview-desktop.png",
+    "url": "/capabilities/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "custom-capabilities-top-desktop.png",
+    "url": "/capabilities/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "custom-capabilities-services-desktop.png",
+    "url": "/capabilities/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 369,
+    "state": "region #machining-processes",
+    "fullPage": false
+  },
+  {
+    "file": "prototype-overview-desktop.png",
+    "url": "/capabilities/prototype-machining/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "factory-overview-desktop.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "factory-top-desktop.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "factory-equipment-desktop.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 1244,
+    "state": "region #equipment",
+    "fullPage": false
+  },
+  {
+    "file": "factory-workshop-desktop.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 2491,
+    "state": "region #workshop-photographs",
+    "fullPage": false
+  },
+  {
+    "file": "quality-overview-desktop.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "quality-top-desktop.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "quality-inspection-desktop.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 331,
+    "state": "region #inspection-equipment",
+    "fullPage": false
+  },
+  {
+    "file": "quality-records-desktop.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 1809,
+    "state": "region #inspection-records",
+    "fullPage": false
+  },
+  {
+    "file": "quality-qualification-desktop.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 2823,
+    "state": "region #quality-management",
+    "fullPage": false
+  },
+  {
+    "file": "about-overview-desktop.png",
+    "url": "/about/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "about-top-desktop.png",
+    "url": "/about/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "about-people-desktop.png",
+    "url": "/about/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 2084,
+    "state": "region #people-heading",
+    "fullPage": false
+  },
+  {
+    "file": "about-documents-desktop.png",
+    "url": "/about/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 3524,
+    "state": "region #documents",
+    "fullPage": false
+  },
+  {
+    "file": "rfq-overview-desktop.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "rfq-top-desktop.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "rfq-form-desktop.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 218,
+    "state": "region .quote-form-column",
+    "fullPage": false
+  },
+  {
+    "file": "header-menu-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 0,
+    "state": "capabilities menu open",
+    "fullPage": false
+  },
+  {
+    "file": "footer-desktop.png",
+    "url": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 5024,
+    "state": "bottom of page",
+    "fullPage": false
+  },
+  {
+    "file": "rfq-review-desktop.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollY": 996,
+    "state": "test draft prepared; no email sent",
+    "fullPage": false
+  },
+  {
+    "file": "home-overview-tablet.png",
+    "url": "/",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "catalog-overview-tablet.png",
+    "url": "/products/",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "rfq-overview-tablet.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "home-overview-mobile.png",
+    "url": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "home-top-mobile.png",
+    "url": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "home-factory-mobile.png",
+    "url": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 1512,
+    "state": "factory evidence region",
+    "fullPage": false
+  },
+  {
+    "file": "catalog-overview-mobile.png",
+    "url": "/products/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "catalog-top-mobile.png",
+    "url": "/products/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "part-overview-mobile.png",
+    "url": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "part-top-mobile.png",
+    "url": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "factory-overview-mobile.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "factory-top-mobile.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "factory-equipment-mobile.png",
+    "url": "/factory/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 1334,
+    "state": "equipment region",
+    "fullPage": false
+  },
+  {
+    "file": "quality-overview-mobile.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "quality-top-mobile.png",
+    "url": "/quality/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "rfq-overview-mobile.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": true
+  },
+  {
+    "file": "rfq-top-mobile.png",
+    "url": "/quote/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "default",
+    "fullPage": false
+  },
+  {
+    "file": "header-menu-mobile.png",
+    "url": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "state": "mobile navigation open",
+    "fullPage": false
+  }
+]

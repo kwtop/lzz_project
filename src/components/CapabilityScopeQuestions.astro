@@ -1,0 +1,6 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+interface Props {page:RevisedCapability}
+const {page}=Astro.props;
+---
+{page.scopeQuestions.length>0&&<section class="rd-section cx-questions"><header><h2>Scope to confirm separately</h2></header><div>{page.scopeQuestions.map(item=><section><h3>{item.question}</h3><p>{item.answer}</p></section>)}</div></section>}

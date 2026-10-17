@@ -1,0 +1,2248 @@
+{
+  "p0": 4,
+  "files": [
+    {
+      "file": "src\\styles\\ui-refinement.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 2,
+          "hits": [
+            {
+              "line": 31,
+              "text": "#fff"
+            },
+            {
+              "line": 85,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\studio-refinement.css",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\secondary-actions.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 4,
+          "hits": [
+            {
+              "line": 33,
+              "text": "#fff"
+            },
+            {
+              "line": 41,
+              "text": "#fff"
+            },
+            {
+              "line": 46,
+              "text": "#fff"
+            },
+            {
+              "line": 47,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\palette-preview.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 8,
+          "hits": [
+            {
+              "line": 2,
+              "text": "#fff"
+            },
+            {
+              "line": 4,
+              "text": "#fff"
+            },
+            {
+              "line": 6,
+              "text": "#fff"
+            },
+            {
+              "line": 11,
+              "text": "#fff"
+            },
+            {
+              "line": 22,
+              "text": "#fff"
+            },
+            {
+              "line": 27,
+              "text": "#fff"
+            },
+            {
+              "line": 30,
+              "text": "#fff"
+            },
+            {
+              "line": 33,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "inline-color-literal",
+          "severity": "P2",
+          "label": "33 opaque colour literals outside :root (>30) — lift them into named tokens",
+          "fix": "soul",
+          "total": 33,
+          "hits": [
+            {
+              "line": 2,
+              "text": "#1e2b34"
+            },
+            {
+              "line": 2,
+              "text": "#52636f"
+            },
+            {
+              "line": 2,
+              "text": "#eef3f6"
+            },
+            {
+              "line": 2,
+              "text": "#ccd7de"
+            },
+            {
+              "line": 2,
+              "text": "#175a7a"
+            },
+            {
+              "line": 2,
+              "text": "#205d7b"
+            },
+            {
+              "line": 2,
+              "text": "#175a7a"
+            },
+            {
+              "line": 2,
+              "text": "#10445e"
+            }
+          ],
+          "count": 33
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\navigation.css",
+      "findings": [
+        {
+          "id": "side-stripe",
+          "severity": "P1",
+          "label": "Side-stripe border (border-left/right > 1px as colored accent)",
+          "fix": "redesign",
+          "count": 1,
+          "hits": [
+            {
+              "line": 26,
+              "text": "border-left:2px solid var(--border)"
+            }
+          ]
+        },
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 2,
+          "hits": [
+            {
+              "line": 10,
+              "text": "#fff"
+            },
+            {
+              "line": 23,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\navigation-refinement.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 4,
+          "hits": [
+            {
+              "line": 6,
+              "text": "#fff"
+            },
+            {
+              "line": 11,
+              "text": "#fff"
+            },
+            {
+              "line": 26,
+              "text": "#fff"
+            },
+            {
+              "line": 29,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\link-refinement.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 2,
+          "hits": [
+            {
+              "line": 14,
+              "text": "#fff"
+            },
+            {
+              "line": 41,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "inline-color-literal",
+          "severity": "P2",
+          "label": "31 opaque colour literals outside :root (>30) — lift them into named tokens",
+          "fix": "soul",
+          "total": 31,
+          "hits": [
+            {
+              "line": 12,
+              "text": "#c7cbcd"
+            },
+            {
+              "line": 14,
+              "text": "#fff"
+            },
+            {
+              "line": 15,
+              "text": "#282c2f"
+            },
+            {
+              "line": 29,
+              "text": "#cb1217"
+            },
+            {
+              "line": 31,
+              "text": "#cb1217"
+            },
+            {
+              "line": 39,
+              "text": "#c7cbcd"
+            },
+            {
+              "line": 41,
+              "text": "#fff"
+            },
+            {
+              "line": 42,
+              "text": "#282c2f"
+            }
+          ],
+          "count": 31
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\inner-refined.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 3,
+          "hits": [
+            {
+              "line": 34,
+              "text": "#fff"
+            },
+            {
+              "line": 51,
+              "text": "#fff"
+            },
+            {
+              "line": 60,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\image-refinement.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 2,
+          "hits": [
+            {
+              "line": 14,
+              "text": "#fff"
+            },
+            {
+              "line": 19,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\home-refined.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 8,
+          "hits": [
+            {
+              "line": 2,
+              "text": "#fff"
+            },
+            {
+              "line": 6,
+              "text": "#fff"
+            },
+            {
+              "line": 9,
+              "text": "#fff"
+            },
+            {
+              "line": 27,
+              "text": "#fff"
+            },
+            {
+              "line": 37,
+              "text": "#fff"
+            },
+            {
+              "line": 42,
+              "text": "#fff"
+            },
+            {
+              "line": 49,
+              "text": "#fff"
+            },
+            {
+              "line": 49,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\home-evidence-layout.css",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\home-current.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 4,
+          "hits": [
+            {
+              "line": 2,
+              "text": "#fff"
+            },
+            {
+              "line": 39,
+              "text": "#fff"
+            },
+            {
+              "line": 72,
+              "text": "#fff"
+            },
+            {
+              "line": 75,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\global.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 22,
+          "hits": [
+            {
+              "line": 3,
+              "text": "#fff"
+            },
+            {
+              "line": 3,
+              "text": "#fff"
+            },
+            {
+              "line": 3,
+              "text": "#fff"
+            },
+            {
+              "line": 5,
+              "text": "#fff"
+            },
+            {
+              "line": 5,
+              "text": "#fff"
+            },
+            {
+              "line": 7,
+              "text": "#fff"
+            },
+            {
+              "line": 7,
+              "text": "#fff"
+            },
+            {
+              "line": 9,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "inline-color-literal",
+          "severity": "P2",
+          "label": "59 opaque colour literals outside :root (>30) — lift them into named tokens",
+          "fix": "soul",
+          "total": 59,
+          "hits": [
+            {
+              "line": 3,
+              "text": "#fff"
+            },
+            {
+              "line": 3,
+              "text": "#fff"
+            },
+            {
+              "line": 3,
+              "text": "#fff"
+            },
+            {
+              "line": 3,
+              "text": "#bc1822"
+            },
+            {
+              "line": 3,
+              "text": "#bc1822"
+            },
+            {
+              "line": 5,
+              "text": "#fff"
+            },
+            {
+              "line": 5,
+              "text": "#fff"
+            },
+            {
+              "line": 6,
+              "text": "#c4c9cc"
+            }
+          ],
+          "count": 59
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\footer-navigation.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 2,
+          "hits": [
+            {
+              "line": 87,
+              "text": "#fff"
+            },
+            {
+              "line": 119,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\styles\\brand-system.css",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 19,
+          "hits": [
+            {
+              "line": 10,
+              "text": "#fff"
+            },
+            {
+              "line": 11,
+              "text": "#fff"
+            },
+            {
+              "line": 29,
+              "text": "#fff"
+            },
+            {
+              "line": 31,
+              "text": "#fff"
+            },
+            {
+              "line": 32,
+              "text": "#fff"
+            },
+            {
+              "line": 43,
+              "text": "#fff"
+            },
+            {
+              "line": 44,
+              "text": "#fff"
+            },
+            {
+              "line": 49,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "inline-color-literal",
+          "severity": "P2",
+          "label": "71 opaque colour literals outside :root (>30) — lift them into named tokens",
+          "fix": "soul",
+          "total": 71,
+          "hits": [
+            {
+              "line": 3,
+              "text": "#282c2f"
+            },
+            {
+              "line": 3,
+              "text": "#cb1217"
+            },
+            {
+              "line": 3,
+              "text": "#454d55"
+            },
+            {
+              "line": 3,
+              "text": "#f8f8f7"
+            },
+            {
+              "line": 3,
+              "text": "#d8dcde"
+            },
+            {
+              "line": 10,
+              "text": "#fff"
+            },
+            {
+              "line": 11,
+              "text": "#fff"
+            },
+            {
+              "line": 25,
+              "text": "#68737d"
+            }
+          ],
+          "count": 71
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\quote.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 4,
+          "hits": [
+            {
+              "line": 37,
+              "text": "#fff"
+            },
+            {
+              "line": 39,
+              "text": "#fff"
+            },
+            {
+              "line": 43,
+              "text": "#fff"
+            },
+            {
+              "line": 49,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\quality.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 4,
+          "hits": [
+            {
+              "line": 53,
+              "text": "#fff"
+            },
+            {
+              "line": 59,
+              "text": "#fff"
+            },
+            {
+              "line": 71,
+              "text": "#fff"
+            },
+            {
+              "line": 79,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\products\\[slug].astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\products\\index.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\privacy.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\preview\\home-editorial.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\[slug].astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 1,
+          "hits": [
+            {
+              "line": 69,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 7,
+          "hits": [
+            {
+              "line": 66,
+              "text": "grid-template-columns:1fr auto"
+            },
+            {
+              "line": 67,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 67,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 68,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 97,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 97,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 97,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 7
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\production-and-shipping.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\processes-materials-finishes.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\index.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 1,
+          "hits": [
+            {
+              "line": 20,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 3,
+          "hits": [
+            {
+              "line": 21,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 21,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 21,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\faq.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\drawings-and-ordering.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\insights\\company-news.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\index.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\factory.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 1,
+          "hits": [
+            {
+              "line": 36,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\cases\\[slug].astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 1,
+          "hits": [
+            {
+              "line": 34,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\cases\\index.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\capabilities\\[slug].astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 1,
+          "hits": [
+            {
+              "line": 77,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\capabilities\\index.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 4,
+          "hits": [
+            {
+              "line": 39,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 41,
+              "text": "grid-template-columns:1fr 2fr"
+            },
+            {
+              "line": 42,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 42,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\about.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 3,
+          "hits": [
+            {
+              "line": 58,
+              "text": "#fff"
+            },
+            {
+              "line": 68,
+              "text": "#fff"
+            },
+            {
+              "line": 74,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 3,
+          "hits": [
+            {
+              "line": 91,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 95,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 99,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "file": "src\\pages\\404.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\layouts\\Layout.astro",
+      "findings": [
+        {
+          "id": "dead-local-ref",
+          "severity": "P0",
+          "label": "2 local file reference(s) point at nothing on disk: Astro.url.pathname,siteOrigin, Astro.props.articleImage,siteOrigin",
+          "fix": "write the missing file (or fix the path) before delivery",
+          "total": 2,
+          "hits": [
+            {
+              "line": 36,
+              "text": "Astro.url.pathname,siteOrigin"
+            },
+            {
+              "line": 51,
+              "text": "Astro.props.articleImage,siteOrigin"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\WorkshopVideo.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 1,
+          "hits": [
+            {
+              "line": 13,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\WorkshopCollection.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\ResourceLinks.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\ReferenceGallery.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 1,
+          "hits": [
+            {
+              "line": 8,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 1,
+          "hits": [
+            {
+              "line": 9,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\QuoteForm.tsx",
+      "findings": [
+        {
+          "id": "dead-local-ref",
+          "severity": "P0",
+          "label": "1 local file reference(s) point at nothing on disk: reference.path,siteOrigin",
+          "fix": "write the missing file (or fix the path) before delivery",
+          "total": 1,
+          "hits": [
+            {
+              "line": 82,
+              "text": "reference.path,siteOrigin"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "em-dash",
+          "severity": "P2",
+          "label": "Em-dash / \"--\" as a prose flourish (kinetic pause / dramatic aside)",
+          "fix": "clarify",
+          "count": 1,
+          "hits": [
+            {
+              "line": 118,
+              "text": "prepared — not"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\ProductExplorer.tsx",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\ProductCard.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\PalettePreview.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\PageHero.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\OrderDeliverables.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\Materials.tsx",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\MainNavigation.astro",
+      "findings": [
+        {
+          "id": "no-reduced-motion",
+          "severity": "P0",
+          "label": "Continuous motion (rAF/gsap/@keyframes) but no prefers-reduced-motion fallback",
+          "fix": "animate",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no @media (prefers-reduced-motion)"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\KnowledgeCategory.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 1,
+          "hits": [
+            {
+              "line": 33,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\InspectionIllustration.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\IllustrativeScene.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\HomeEditorial.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 3,
+          "hits": [
+            {
+              "line": 56,
+              "text": "#fff"
+            },
+            {
+              "line": 60,
+              "text": "#fff"
+            },
+            {
+              "line": 73,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 14,
+          "hits": [
+            {
+              "line": 80,
+              "text": "grid-template-columns:1fr 2fr"
+            },
+            {
+              "line": 83,
+              "text": "grid-template-columns:1fr 1fr"
+            },
+            {
+              "line": 86,
+              "text": "grid-template-columns:1fr 1fr"
+            },
+            {
+              "line": 87,
+              "text": "grid-template-columns:1.65fr 1fr"
+            },
+            {
+              "line": 88,
+              "text": "grid-template-columns:1fr 1.3fr"
+            },
+            {
+              "line": 88,
+              "text": "grid-template-columns:1fr 1fr"
+            },
+            {
+              "line": 102,
+              "text": "grid-template-columns:1fr 1fr"
+            },
+            {
+              "line": 102,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 14
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\GeometryReview.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 1,
+          "hits": [
+            {
+              "line": 6,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\Gallery.tsx",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\FactorySection.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\EvidenceImage.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\EquipmentImage.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\EngineeringScope.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\DisclosureAnchors.astro",
+      "findings": [
+        {
+          "id": "no-reduced-motion",
+          "severity": "P0",
+          "label": "Continuous motion (rAF/gsap/@keyframes) but no prefers-reduced-motion fallback",
+          "fix": "animate",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no @media (prefers-reduced-motion)"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\ContactIcon.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\CompanyNetwork.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\CompanyFacts.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\CompanyArchive.astro",
+      "findings": [
+        {
+          "id": "pure-bw",
+          "severity": "P2",
+          "label": "Pure #fff / #000 (untinted neutral)",
+          "fix": "soul",
+          "count": 2,
+          "hits": [
+            {
+              "line": 95,
+              "text": "#fff"
+            },
+            {
+              "line": 124,
+              "text": "#fff"
+            }
+          ]
+        },
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\CoatingExamples.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\Arrow.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\ApplicationContexts.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        },
+        {
+          "id": "bare-1fr-track",
+          "severity": "P2",
+          "label": "Bare `1fr` track(s) on a page with images — confirm whether an image sits in one, then use `minmax(0,1fr)`",
+          "fix": "mobile-floor M2",
+          "total": 2,
+          "hits": [
+            {
+              "line": 19,
+              "text": "grid-template-columns:1fr"
+            },
+            {
+              "line": 19,
+              "text": "grid-template-columns:1fr"
+            }
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "file": "src\\components\\AdditionalPartForms.astro",
+      "findings": [
+        {
+          "id": "missing-stamp",
+          "severity": "P2",
+          "label": "No /* finesse · … */ build stamp — next run has nothing to rotate against",
+          "fix": "divergence §4.2",
+          "hits": [
+            {
+              "line": 0,
+              "text": "no five-axis stamp in CSS"
+            }
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "notCovered": [
+    "default-category aesthetic (the vibe, not just token names — beige+brass craft, AI purple-glow)",
+    "div-based fake screenshots / fake dashboards",
+    "identical / generic card grids (icon + title + text × N)",
+    "zero imagery on an image-implied brief (food / hotel / fashion / travel)",
+    "glassmorphism / AI-purple-glow used as decoration",
+    "layout-family repetition (§5) and whether the soul is actually distinct",
+    "whether the engine RENDERS real pixels (needs the Playwright runtime pass, not a grep)",
+    "mobile-floor M3/M4 — clickable text wrapping to two lines, long-word overflow at 320px (needs a rendered page at 320, not a grep)",
+    "root-relative asset paths (`/img/x.png`) — dead-ref only resolves file-relative ones; a broken `/…` link needs the real serving root"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "changedSourceFiles": [
+    "src/components/HomeEditorial.astro",
+    "src/pages/cases/[slug].astro",
+    "src/styles/finesse-redesign.css"
+  ],
+  "bookkeeping": ".finesse/log.json"
+}

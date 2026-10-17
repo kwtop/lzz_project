@@ -1,0 +1,14 @@
+/* Selected study direction: alternating full photographs and concise case copy. */
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial .ed-heading{align-items:center;margin-bottom:40px}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial .ed-heading h2{font-size:clamp(32px,3vw,44px)!important;line-height:1.05!important;letter-spacing:-.035em}
+body.brand-site.finesse-redesigned.precision-gallery .editorial-home .studies-editorial-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center;padding:0;margin:0}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-row+.studies-editorial-row{border-top:1px solid #ddd;margin-top:40px;padding-top:40px}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-photo{display:block;min-width:0;background:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-copy h3{font-size:clamp(28px,2.65vw,40px)!important;line-height:1.14!important;letter-spacing:-.025em;max-width:25ch;margin:0 0 22px}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-copy h3 a{color:inherit;text-decoration:none}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-copy p{font-size:18px!important;line-height:1.5!important;margin:0 0 30px;max-width:42ch}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-copy .button{min-height:52px;min-width:170px;justify-content:center}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-reverse .studies-editorial-photo{grid-column:2;grid-row:1}
+body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-reverse .studies-editorial-copy{grid-column:1;grid-row:1}
+@media(max-width:1000px){body.brand-site.finesse-redesigned.precision-gallery .editorial-home .studies-editorial-row{gap:36px}}
+@media(max-width:760px){body.brand-site.finesse-redesigned.precision-gallery .studies-editorial .ed-heading{display:block}body.brand-site.finesse-redesigned.precision-gallery .editorial-home .studies-editorial-row{grid-template-columns:1fr;gap:26px}body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-reverse .studies-editorial-photo,body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-reverse .studies-editorial-copy{grid-column:auto;grid-row:auto}body.brand-site.finesse-redesigned.precision-gallery .studies-editorial-copy p{font-size:16px!important;margin-bottom:24px}}

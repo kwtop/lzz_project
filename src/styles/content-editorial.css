@@ -1,0 +1,86 @@
+/* Scoped editorial system for content pages only. Home, products and capabilities
+ * do not use this root class. One chapter owns each vertical interval. */
+.content-editorial .ce-anchor{position:absolute;pointer-events:none}
+.content-editorial .ce-source{margin:0 0 28px}
+.content-editorial .ce-source img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}
+.content-editorial .ce-source figcaption{font-size:13px;line-height:1.5;margin-top:10px;color:var(--muted)}
+.content-editorial .ce-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:32px}
+.content-editorial .ce-gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
+.content-editorial .ce-gallery figcaption{font-size:13px;line-height:1.5;margin-top:10px;color:var(--muted)}
+.content-editorial .ce-company-facts{display:flex;gap:24px 48px;flex-wrap:wrap;margin-top:32px}
+.content-editorial .ce-company-facts dt{font-size:13px;color:var(--muted)}
+.content-editorial .ce-company-facts dd{font-size:24px}
+.content-editorial .ce-primary{display:inline-flex;align-items:center;justify-content:center;background:var(--red);border:1px solid var(--red);color:white;min-height:48px;padding:12px 20px;font-size:14px;font-weight:600;text-decoration:none}
+.content-editorial .ce-primary:hover{background:#aa1018;color:white}
+.content-editorial .ce-copy li{font-size:16px;line-height:1.7;margin-block:10px;color:var(--muted)}
+.content-editorial .ce-copy ul{padding-left:22px;margin-block:24px}
+@media(max-width:760px){.content-editorial .ce-gallery{grid-template-columns:1fr;gap:24px}}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial {
+ color:var(--ink);background:#fff;font-family:var(--font-text);font-size:17px;line-height:1.65;
+ --ce-gap:64px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-wrap {width:min(1200px,calc(100% - 96px));margin-inline:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-copy{display:block;grid-column:auto;grid-row:auto;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-copy>h2{grid-area:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-source img{display:block;width:100%!important;height:auto!important;max-height:520px!important;object-fit:contain!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-top:36px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-evidence-grid img{height:300px!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-company-facts{display:flex;gap:20px 36px;margin-top:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-company-facts dd{font-size:24px!important;line-height:1.4!important;margin-top:6px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(h1,h2,h3,p,figure,dl,dd) {margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h1 {font-size:var(--type-editorial-title-size)!important;max-width:24ch!important;text-wrap:balance}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 {font-size:clamp(28px,3vw,38px)!important;line-height:1.18!important;letter-spacing:-.03em!important;font-weight:600!important;max-width:25ch;text-wrap:balance}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h3 {font-size:21px!important;line-height:1.35!important;letter-spacing:-.02em!important;font-weight:600!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial p {font-size:17px;line-height:1.7;color:var(--muted);max-width:68ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-breadcrumb {display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;color:var(--muted);margin-bottom:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-header {display:grid;grid-template-columns:1fr 1.08fr;gap:var(--ce-gap);align-items:center;padding-block:56px 64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-header p {margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter {padding-block:64px;border-top:1px solid var(--border)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-split {display:grid;grid-template-columns:1.1fr 1fr;gap:var(--ce-gap);align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter:nth-of-type(even).ce-split {grid-template-columns:1fr 1.1fr}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter:nth-of-type(even).ce-split>.ce-media {order:-1}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-copy>h2 {margin-bottom:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-copy :is(p+p,p+dl,dl+p,ul+p) {margin-top:18px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-copy h3 {margin-top:28px;margin-bottom:12px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-figure {min-width:0;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-figure img {display:block;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:3/2;object-fit:contain!important;border-radius:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-figure figcaption {font-size:12px;line-height:1.5;color:var(--muted);margin-top:10px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-media {min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-media>p {margin-top:20px;font-size:15px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-facts {margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-facts>div {padding-block:16px;border-top:1px solid var(--border)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-facts dt {font-size:16px!important;line-height:1.5!important;font-weight:600;margin-bottom:6px;max-width:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-facts dd {font-size:17px!important;line-height:1.65!important;color:var(--muted)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-actions {display:flex;flex-wrap:wrap;gap:12px 16px;margin-top:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-link {display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #bfc3c5;padding:10px 16px;color:var(--ink);font-size:14px;font-weight:550;text-decoration:none;line-height:1.45}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-link:hover {border-color:var(--ink);background:#f4f4f2}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(a,button):focus-visible {outline:2px solid var(--red);outline-offset:4px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-closing {border-top:1px solid var(--border);padding-block:64px 80px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-ending {display:grid;grid-template-columns:1.2fr 1fr;gap:var(--ce-gap);align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-ending h2+p {margin-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-related {display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:32px;font-size:15px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-related a {text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial [id] {scroll-margin-top:112px}
+@media(max-width:1000px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial {--ce-gap:36px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-wrap {width:calc(100% - 64px)}
+}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial {--ce-gap:28px;font-size:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-wrap {width:calc(100% - 44px)}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(.ce-header,.ce-split,.ce-ending,.ce-chapter:nth-of-type(even).ce-split) {grid-template-columns:1fr}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-header {padding-block:36px 40px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 {font-size:29px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial p {font-size:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-facts dd {font-size:16px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-evidence-grid {grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-evidence-grid img{height:auto!important;max-height:360px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter {padding-block:36px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter:nth-of-type(even).ce-split>.ce-media {order:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-closing {padding-block:40px 56px}
+}
+
+/* Resource directories use the article title as their single navigation entry. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 a.ce-directory-link {display:inline;color:inherit;font:inherit;letter-spacing:inherit;line-height:inherit;padding:0;border:0;box-shadow:none;text-decoration:none;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 a.ce-directory-link:hover {color:var(--red);text-decoration:underline;text-underline-offset:.14em;text-decoration-thickness:1px;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 a.ce-directory-link:focus-visible {outline:2px solid var(--red);outline-offset:5px;}

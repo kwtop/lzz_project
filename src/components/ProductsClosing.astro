@@ -1,0 +1,8 @@
+---
+interface Props{href?:string;title?:string;description?:string;id?:string}
+const {href='/quote/',title='Have a part to discuss?',description='Send the controlled drawing or model, material and quantity. Mark the interfaces that determine fit and acceptance.',id='prepare-rfq'}=Astro.props;
+---
+<section class="pr-closing" id={id} aria-labelledby={id+'-title'}>
+ <div><h2 id={id+'-title'}>{title}</h2><p>{description}</p><slot/></div>
+ <div><a class="pr-primary" href={href}>Prepare RFQ email</a><p class="pr-small">Create a draft, then attach drawings and send it from your email app.</p></div>
+</section>

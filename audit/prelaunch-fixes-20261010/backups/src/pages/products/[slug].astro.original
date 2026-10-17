@@ -1,0 +1,93 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ResourceLinks from '../../components/ResourceLinks.astro';
+import Arrow from '../../components/Arrow.astro';
+
+import {retouchedProducts} from '../../data/refinedImages';
+import {reviewHeadlines,reviewAssets} from '../../data/productReview';
+import {refinedSrcset} from '../../data/refinedImages';
+import '../../styles/product-review.css';
+
+import {productTitle,productCardTitle,productImageAlt,categoryDetails} from '../../data/presentation';
+import {productSummary} from '../../data/productSummaries';
+import {productDetail} from '../../data/productDetails';
+import {productManufacturing} from '../../data/manufacturing';
+import {productTags} from '../../data/productTags';
+import {productDecision,relatedPartDecisions} from '../../data/productDecisions';
+import {caseForCapability} from '../../data/cases';
+import catalog from '../../data/catalog.json';
+import {inquiryHref} from '../../lib/inquiryContext';
+import ReferenceGallery from '../../components/ReferenceGallery.astro';
+import {productReferences} from '../../data/productReferences';
+import {castingReview} from '../../data/castingReview';
+import {partSchemaType} from '../../data/partSchema';
+import {productImage} from '../../data/refinedImages';
+export function getStaticPaths(){return catalog.products.map(product=>({params:{slug:product.slug},props:{product}}));}
+const {product}=Astro.props;
+const quoteHref=inquiryHref({id:product.slug,title:productTitle(product),legacyName:product.name,path:'/products/'+product.slug+'/',kind:'product'});
+const preview=retouchedProducts[product.slug];
+if(!preview)throw new Error(`Missing refined product image for ${product.slug}`);
+const overview=productSummary(product);
+const engineering=productDetail(product);
+const manufacturing=productManufacturing(product);
+const tags=productTags(product);
+const processCaseSlugs=[...new Set(tags.map(key=>catalog.categories.find(category=>category.key===key)?.slug).filter(Boolean))];
+const processCases=[...new Map(processCaseSlugs.flatMap(slug=>caseForCapability(slug!)).map(item=>[item.slug,item])).values()].slice(0,2);
+const decision=productDecision(product.slug);
+const related=relatedPartDecisions(product,catalog.products);
+const casting=castingReview[product.slug];
+const notes=[['Materials',overview.material],['Machining',overview.process],['Surface finish',manufacturing.finishes],['Applications',manufacturing.applications],...(manufacturing.considerations.length ? [['Manufacturing notes',manufacturing.considerations.join(' ')]] : [])];
+
+const title=productTitle(product);
+const isCover=product.slug==='custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier';
+const generated=reviewAssets[product.slug];
+const displayImage=generated?`/media/product-review/${generated}-1200.webp`:productImage(product);
+const displaySrcset=generated?[480,800,1200].map(w=>`/media/product-review/${generated}-${w}.webp ${w}w`).join(', '):refinedSrcset(preview);
+const requirements=isCover?[
+ ['Mating geometry','Perimeter, mounting positions and assembly datums.'],
+ ['Clearance','Underside envelope and fastener access.'],
+ ['Appearance','Cosmetic faces and accepted tool-path texture.'],
+]:[['Part features',overview.features],['Review focus',decision.selectionFocus]];
+---
+<Layout title={title} description={overview.purpose} cta={false} structuredEntity={{type:partSchemaType(product.slug),name:title,description:overview.purpose,image:displayImage}}>
+ <article class="er-page">
+  <div class="er-wrap">
+   <nav class="er-crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/products/">Custom Parts</a><span>/</span><span aria-current="page">{title}</span></nav>
+   <div class="er-overview">
+    <aside class="er-identity">
+     <h1>{title}</h1>
+     <p>{isCover?'Custom parts for prototype fitment and small batches.':overview.card}</p>
+     <a class="er-product-image" href={displayImage} target="_blank" rel="noopener" aria-label={'View full-size image: '+title}><img src={displayImage} srcset={displaySrcset} sizes="(max-width: 760px) 88vw, 30vw" width="1200" height="1200" alt={productImageAlt(product)} fetchpriority="high"/></a>
+     {generated&&<p class="er-small">Illustrative part visual · not an LZZ production or inspection record.</p>}
+     <nav class="er-index" aria-label="On this page"><a href="#fit-review"><span>01</span>{isCover?'Fit & clearance':'Part requirements'}</a><a href="#part-information"><span>02</span>Material & finish</a><a href="#drawing-review"><span>03</span>Drawing review</a></nav>
+    </aside>
+    <div class="er-main">
+     <section id="fit-review">
+      <h2 class="er-headline">{reviewHeadlines[title]||'Part requirements'}</h2>
+      <p class="er-lead">{overview.purpose}</p>
+      <dl class="er-table er-requirements">{requirements.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+      <div class="er-action"><a class="er-button" href={quoteHref}>Request a quote <Arrow size={17}/></a><p>Have a drawing? Add it to your inquiry email.</p></div>
+     </section>
+     <section class="er-options" id="part-information">
+      <h2>Manufacturing options</h2>
+      <dl class="er-table">{notes.slice(0,3).map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+      <p class="er-small">Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.</p>
+     </section>
+    </div>
+   </div>
+  </div>
+  {isCover?<section class="er-surface"><div class="er-wrap er-surface-inner"><div><h2>A closer look<br/>at the surface</h2><p>Original photograph of a curved cover and its visible tool-path texture.</p></div><a href="/media/source-details/engine-cover-original-1200.webp" target="_blank" rel="noopener" aria-label="View original cover photograph"><img src="/media/source-details/engine-cover-original-1200.webp" width="1080" height="814" loading="lazy" alt="Original hand-held photograph of a curved machined cover"/></a></div></section>:productReferences[product.slug]?<div class="er-wrap er-references"><ReferenceGallery ids={productReferences[product.slug]} title="A closer look at the form" description={overview.features}/></div>:null}
+  <section class="er-wrap er-drawing" id="drawing-review">
+   <header id="engineering-review" style="scroll-margin-top:110px"><h2>Drawing and<br/>inspection requirements</h2><a class="er-secondary" href="/quality/">Quality & inspection <Arrow size={17}/></a></header>
+   <div>
+    <dl class="er-table"><div><dt>Geometry & interfaces</dt><dd>{engineering.drawing}</dd></div><div><dt>Material & finish</dt><dd>Specify the material grade, condition, finish and any masked areas.</dd></div><div><dt>Quantity</dt><dd>State the prototype or batch quantity and required schedule.</dd></div><div><dt>Inspection requirements</dt><dd>{engineering.inspection}</dd></div></dl>
+    <div class="er-action"><a class="er-button" href={quoteHref}>Prepare an RFQ email <Arrow size={17}/></a></div>
+    <p class="er-small"><strong>From 1 piece · 7–14 business days</strong><br/>From drawing and order confirmation, including surface finishing; transit is additional.</p>
+    <details class="er-disclosure"><summary>Additional drawing and order notes</summary><div class="er-detail-content"><p>{engineering.scope}</p><p>{overview.inspection}</p><h3>With your inquiry</h3><p>{engineering.rfq}</p><h3>Applications</h3><p>{manufacturing.applications}</p>{manufacturing.considerations.map(note=><p>{note}</p>)}{engineering.considerations?.map(note=><section><h3>{note.title}</h3><p>{note.body}</p></section>)}<ResourceLinks label="Part inquiry resources"/></div></details>
+    {casting&&<div class="er-casting"><h3>{casting.heading}</h3><p>{casting.focus}</p><p><strong>Drawing inputs:</strong> {casting.inputs}</p><a class="er-secondary" href={casting.href}>{casting.label} <Arrow size={17}/></a></div>}
+    <nav class="er-related" aria-label="Related parts"><h3>Compare part requirements</h3>{related.map(({product,reason})=><a href={'/products/'+product.slug+'/'}><span>{productCardTitle(product)}</span><small>{reason}</small><Arrow size={17}/></a>)}</nav>
+    <details class="er-disclosure"><summary>Related machining processes</summary><div class="er-detail-content">{casting&&<p>These studies concern other workpieces and are not production or inspection records for this casting.</p>}<nav class="er-processes" aria-label="Machining processes">{processCases.map(item=><a href={'/cases/'+item.slug+'/'}>{item.title} <Arrow size={17}/></a>)}{tags.map(c=><a href={'/capabilities/'+c.toLowerCase()+'/'}>{categoryDetails[c.toLowerCase()]?.title||c.replaceAll('-',' ')} <Arrow size={17}/></a>)}</nav></div></details>
+   </div>
+  </section>
+ </article>
+</Layout>

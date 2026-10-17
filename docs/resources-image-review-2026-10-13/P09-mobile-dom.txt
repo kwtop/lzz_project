@@ -1,0 +1,157 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+  - button "Open navigation"
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / Process comparison
+    - heading "Choosing CNC milling, turning or 5-axis machining" [level=1]
+    - paragraph: A shaft or sleeve will usually start with turning. A housing with pockets and flat mounting faces is more likely to need milling. Angled features or access to several faces may call for a multi-axis setup. Some parts need a combination; send the drawing so we can review the sequence.
+    - heading "Compare the processes by geometry" [level=2]
+    - generic "Process":
+      - heading "CNC turning" [level=3]
+      - strong: Typical geometry
+      - paragraph:
+        - text: Rotational features such as a shaft, sleeve, disc or fitting, often arranged around an axis.
+        - link "Turning capabilities":
+          - /url: /capabilities/cnc-turning-service/
+        - text: .
+      - strong: Drawing requirements
+      - paragraph: Define the datum axis, diameters, shoulders, grooves, threads and runout if required. Confirm whether cross-holes, flats or slots need secondary milling.
+      - heading "CNC milling" [level=3]
+      - strong: Typical geometry
+      - paragraph:
+        - text: Block-like or irregular forms with pockets, slots, holes, contours and planar mounting faces.
+        - link "Milling capabilities":
+          - /url: /capabilities/cnc-milling-service/
+        - text: .
+      - strong: Drawing requirements
+      - paragraph: Define datum faces, pocket depth, hole patterns and positional relationships. Confirm stock, clamping surfaces, setups and inspection records.
+      - heading "Multi-axis machining" [level=3]
+      - strong: Typical geometry
+      - paragraph:
+        - text: Features distributed over several faces, angled faces or areas that need different tool approaches.
+        - link "Multi-axis capabilities":
+          - /url: /capabilities/5-axis-cnc-machining/
+        - text: .
+      - strong: Drawing requirements
+      - paragraph: Define common datums, face-to-face and angular relationships. Review tool access, workholding and sequence against the model.
+    - heading "Parts that need more than one process" [level=2]
+    - generic "Original LZZ photographs illustrating turning, milling and multi-axis setups":
+      - figure "CNC turning operation.":
+        - 'link "View original photograph: CNC turning in progress."':
+          - /url: /media/evidence/turning-operation-1600.webp
+          - img "CNC turning in progress."
+        - generic: CNC turning operation.
+      - figure "CNC milling operation.":
+        - 'link "View original photograph: CNC milling of an enclosure."':
+          - /url: /media/evidence/milling-enclosure-operation-1600.webp
+          - img "CNC milling of an enclosure."
+        - generic: CNC milling operation.
+      - figure "Five-axis machining operation.":
+        - 'link "View original photograph: Five-axis machining in progress."':
+          - /url: /media/evidence/five-axis-operation-1600.webp
+          - img "Five-axis machining in progress."
+        - generic: Five-axis machining operation.
+    - paragraph: Some turned parts also need milling, for example to add flats or cross-holes. A housing may require another setup to reach an angled face. The machining sequence must preserve the relationships between critical features, so send both a 3D model and the controlling 2D drawing.
+    - heading "Accuracy depends on the feature" [level=2]
+    - paragraph: Accuracy is assessed at the feature level. Geometry and material affect the achievable limit, together with the setup and datum strategy. Finishing and the measurement method also affect acceptance. State the tolerance and datum for each critical interface so its machining and inspection can be planned.
+    - heading "Files for a process recommendation" [level=2]
+    - list:
+      - listitem: A 3D model and the controlling 2D drawing revision.
+      - listitem: Material grade and condition, or the functional requirement if still undecided.
+      - listitem: Quantity for the first order and expected repeat pattern, if known.
+      - listitem: Critical datums, fits, surface requirements and required inspection records.
+      - listitem: Finish, packaging and required arrival date, with any standards or approvals identified.
+    - paragraph:
+      - text: Use the
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - text: to organize those details. We review your drawing before confirming the machining process and quoting a price and schedule.
+    - region "Related part examples":
+      - heading "Related part examples" [level=2]
+      - paragraph: Examples with related features. Each custom part is quoted to its own drawing.
+      - link "Stainless steel turned shafts":
+        - /url: /products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/
+      - link "Lid & gasket aluminum housings":
+        - /url: /products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/
+      - link "Multi-sided machined components":
+        - /url: /products/global-manufacturer-of-multi-sided-precision-machined-components/
+    - navigation "Resources and order preparation":
+      - link "All resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Quality control":
+        - /url: /quality/
+    - region "Prepare an inquiry":
+      - heading "Request a quote for your part" [level=2]
+      - paragraph: Use the RFQ checklist to prepare your drawing and order details.
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+      - link "Prepare RFQ email":
+        - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

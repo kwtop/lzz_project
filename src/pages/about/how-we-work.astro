@@ -1,0 +1,6 @@
+---
+import AboutWorkflow from '../../components/AboutWorkflow.astro';
+import AboutWorkflowRedesign from '../../components/AboutWorkflowRedesign.astro';
+import {isRedesigned} from '../../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<AboutWorkflowRedesign/>:<AboutWorkflow/>}

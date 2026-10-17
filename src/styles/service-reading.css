@@ -1,0 +1,27 @@
+/* Extends the selected turning layout; rules apply only to other service pages. */
+.service-reading .service-single-example{display:block}
+.service-single-example>article{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.service-reading .service-single-example .tc-part-image{max-width:500px;margin:0}
+.service-reading .service-note{margin:24px 0 0;color:#5b646b;max-width:1050px}
+.service-reading .service-note p{margin:0 0 16px}
+.service-reading .service-steps{gap:36px}
+.service-reading .service-steps article{border-top:1px solid #dfe2e4;padding-top:24px}
+.service-evidence{display:grid;grid-template-columns:repeat(var(--evidence-columns),minmax(0,1fr));gap:36px;margin-top:36px;align-items:start}
+.service-evidence figure{margin:0;min-width:0}
+.service-evidence[style*="columns:1"]{max-width:560px}
+.service-study-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.service-reading .service-video{margin-top:36px;max-width:820px}
+.service-reading .service-rfq-notes{margin-top:24px;max-width:1060px}
+.service-reading .service-rfq-notes p{margin:8px 0 0}
+body.brand-site main#main .service-reading .service-rfq-notes p{font-size:15px!important;line-height:1.6!important;color:#646c72}
+.service-reading [id]{scroll-margin-top:112px}
+@media(max-width:760px){
+ .service-single-example>article{grid-template-columns:1fr;gap:22px}
+ .service-reading .service-single-example .tc-part-image{margin-inline:auto}
+ .service-reading .service-steps{gap:26px}
+ .service-evidence{grid-template-columns:1fr;gap:28px}
+ .service-evidence figure{max-width:440px;width:100%}
+ .service-evidence .tc-process-image{justify-content:flex-start}
+ .service-study-links{display:grid;grid-template-columns:1fr}
+ .service-study-links a{justify-content:flex-start}
+}

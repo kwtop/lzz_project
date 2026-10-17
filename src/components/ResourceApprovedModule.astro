@@ -1,0 +1,40 @@
+---
+import {resourceHtml,type ApprovedResourceModule} from '../data/resourceApproved';
+import {photo} from '../data/evidence';
+import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
+import ResourceVisual from './ResourceVisual.astro';
+import ResourceContentImage from './ResourceContentImage.astro';
+import {resourceImagePlan} from '../data/resourceImagePlan';
+import {load} from 'cheerio';
+interface Props {item:ApprovedResourceModule;rfqTools?:boolean;slug:string;core?:boolean}
+const {item,rfqTools=false,slug,core=false}=Astro.props,{section,kind='reading',visual}=item;
+const media=slug==='compare-cnc-machining-quotations'&&section.id==='comparison'?undefined:resourceImagePlan[slug]?.[section.id];
+const imageAfterTable=slug==='cnc-process-selection'&&section.id==='process-comparison';
+const photos=(section.photos||[]).filter(source=>slug!=='custom-cnc-parts-shipping-checklist'||!['shipment-2022-order-packing','shipment-2022-prepared-load'].includes(source.id));
+const $=load(resourceHtml(section.html),null,false);
+let mediaNote='';
+if(slug==='rfq-checklist'&&section.id==='drawing-package'){const sample=$('.ce-facts>div').last();mediaNote='<h3>'+sample.find('dt').text()+'</h3><p>'+sample.find('dd').text()+'</p>';sample.remove();}
+if(slug==='custom-cnc-parts-shipping-checklist'&&section.id==='transport-title'){
+ const paragraphs=$.root().children('p').toArray();const labels=['Production and arrival','Trade term and costs','Transport mode'];
+ if(paragraphs.length===3) $.root().html('<dl class="ce-facts">'+paragraphs.map((p,i)=>'<div><dt>'+labels[i]+'</dt><dd>'+$(p).html()+'</dd></div>').join('')+'</dl>');
+}
+let introduction='';
+if(kind==='table'&&media){while($.root().children().first().is('p')){introduction+=$.root().children().first().toString();$.root().children().first().remove();}}
+let html=$.html(),finishInterfaces='';
+const splitFinish=slug==='material-and-finish-checklist'&&section.id==='finish-and-acceptance';
+if(splitFinish){const split=html.indexOf('<span id="interfaces-and-dimensions-heading"');if(split>=0){finishInterfaces=html.slice(split);html=html.slice(0,split);}}
+---
+<section class:list={['rs-module','rs-module--'+kind,{'rs-module--with-image':Boolean(media),'rs-module--visual':Boolean(visual)}]} id={section.id} aria-labelledby={section.id+'-heading'} data-resource-module data-core-section={core||slug==='rfq-checklist'?section.title:undefined}>
+ {section.aliases?.map(id=><span class="rs-anchor" id={id}/>)}
+ <header class="rs-module-heading"><div><h2 id={section.id+'-heading'}>{section.title}</h2>{introduction&&<div class="rs-prose" set:html={introduction}/>}</div>{kind==='table'&&media&&!imageAfterTable&&<ResourceContentImage image={media}/>}</header>
+ {rfqTools&&<div class="rs-tool-actions"><button type="button" class="rs-copy-button" data-rs-copy-rfq disabled>Copy inquiry brief</button><a href="/downloads/cnc-rfq-brief.txt" download>Save blank brief (.txt)</a><span class="rs-copy-status" role="status" aria-live="polite"/></div>}{rfqTools&&<noscript><p class="rs-note">JavaScript is disabled. Select the brief to copy it manually, or use Save blank brief (.txt).</p></noscript>}
+ <div class="rs-module-body">
+  <div class="rs-prose"><div class="rs-prose-content" set:html={html}/>{Boolean(section.links?.length)&&<nav class="rs-links" aria-label={section.title+' links'}>{section.links!.map(([label,href])=><a href={href}>{label}</a>)}</nav>}{slug==='rfq-checklist'&&section.id==='drawing-package'&&<aside class="rs-acceptance-download"><h3>Blank acceptance worksheet</h3><p>Use the blank worksheet to agree requirements and keep them with the order. It is not an inspection report or a record of completed checks.</p><a class="rs-text-link" href="/downloads/order-acceptance-checklist.txt" download>Download acceptance worksheet</a></aside>}</div>
+  {kind!=='table'&&media&&(mediaNote?<div class="rs-media-note"><ResourceContentImage image={media}/><div class="rs-prose" set:html={mediaNote}/></div>:<ResourceContentImage image={media}/>)}
+  {imageAfterTable&&media&&<ResourceContentImage image={media}/>}
+  {visual&&<div class="rs-illustration"><ResourceVisual visual={visual}/></div>}
+  {photos.length>0&&<div class:list={['rs-photos',{'rs-photos--workshop':kind==='workshop','rs-photos--archive':kind==='archive','rs-photos--context':kind==='context'}]}>{photos.map((source,index)=>{const asset=photo(source.id),link=item.photoLinks?.[index];return <div><AboutRedesignPhoto src={asset.src} srcset={asset.srcset} width={asset.width} height={asset.height} alt={source.caption} caption={source.caption} sizes="(max-width:767px) calc(100vw - 44px), 480px"/>{link&&<a class="rs-photo-study" href={link[1]}>{link[0]}</a>}</div>;})}</div>}
+ </div>
+ {finishInterfaces&&<div class="rs-finish-interfaces rs-prose" set:html={finishInterfaces}/>}
+ <slot/>
+</section>

@@ -1,0 +1,682 @@
+[
+  {
+    "url": "/",
+    "type": "H",
+    "difference": "业务句已明确；四参考/材料工艺/工厂/两研究/RFQ现为六层",
+    "scope": "合并实物/工艺、重组证据、统一主体尺度",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P1"
+  },
+  {
+    "url": "/404.html",
+    "type": "U",
+    "difference": "四恢复去向：Home、Part examples、Capabilities、Ordering & machining guides",
+    "scope": "轻量保持，恢复路径/真实行为",
+    "status": "C（404 DOM）；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/",
+    "type": "A0",
+    "difference": "Choose the company information you need；Qualification and part acceptance；Dated company records；Start with your drawing",
+    "scope": "三任务入口、统计归简介、新闻精选",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-news/",
+    "type": "A4",
+    "difference": "A November team day outdoors；LZZ at the China-Africa West Lake Summit；LZZ team outing in May 2025；An Australian customer visits the LZZ workshop；A rainy day out with the LZZ team",
+    "scope": "记录更早出现，保留分类/日期",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+    "type": "A5",
+    "difference": "On the workshop floor；Conversation during the visit；Continue the archive",
+    "scope": "保留真实照片组，缩同义说明",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-news/china-africa-west-lake-summit-2025/",
+    "type": "A5",
+    "difference": "Introducing custom machining；Inside the conference hall；Continue the archive",
+    "scope": "保留真实照片组，缩同义说明",
+    "status": "C；T",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-news/lzz-team-outing-2024/",
+    "type": "A5",
+    "difference": "The journey and a shared meal；A day away from the machines；Continue the archive",
+    "scope": "保留真实照片组，缩同义说明",
+    "status": "C；T",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-news/may-2025-lzz-team-outing/",
+    "type": "A5",
+    "difference": "An outdoor meal together；Evening streets and food stops；Continue the archive",
+    "scope": "保留真实照片组，缩同义说明",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+    "type": "A5",
+    "difference": "A day beside the water；Around the barbecue and table；Continue the archive",
+    "scope": "保留真实照片组，缩同义说明",
+    "status": "C；T",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/company-profile/",
+    "type": "A1",
+    "difference": "三份企业/教学文件非ISO；事实、11应用、发展、人物；证件当前在工程之后",
+    "scope": "证件前置、身份/工程/发展分层",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/contact/",
+    "type": "A3",
+    "difference": "新零件、供应商文件、既有订单异常、来访四任务；首屏联系方式已清楚",
+    "scope": "保留直接联系，文件/订单任务前移",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/about/how-we-work/",
+    "type": "A2",
+    "difference": "报价、样品、检验、交接、变更/异常；付款/样费/售后不能迁空",
+    "scope": "责任/阶段记录、条款保留、教学迁指南",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/capabilities/",
+    "type": "C0",
+    "difference": "Choose the route for the features；Known material, precise specification；Define the decision before the order；Look at the setup and the inspection plan；Bring the part requirements together",
+    "scope": "路线前置、缩目录教学、三类入口",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/5-axis-cnc-machining/",
+    "type": "C1",
+    "difference": "Fit the process to the drawing；Angled faces & complex contours；Material and finish review；Five-axis machining in practice；Scope to confirm separately；Request a 5-axis machining quote",
+    "scope": "实物前置、图纸/验收合表、工序图局部",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/aluminum-cnc-parts/",
+    "type": "C2",
+    "difference": "Start with the specification；Grade, condition and finishing；Aluminum housings, covers & enclosures；Aluminum machining in practice；Accept the part in its final specified state；Scope to confirm separately；Request an aluminum machining quote",
+    "scope": "用途/实物前置、牌号与最终状态连续",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/casting-machining/",
+    "type": "C1",
+    "difference": "Fit the process to the drawing；Cast housings & finished interfaces；Casting material & blank requirements；From cast blank to inspected part；Scope to confirm separately；Request a casting machining quote",
+    "scope": "实物前置、图纸/验收合表、工序图局部",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/cnc-milling-service/",
+    "type": "C1",
+    "difference": "Fit the process to the drawing；Parts suited to CNC milling；Material and finish review；CNC milling in practice；Scope to confirm separately；Request a CNC milling quote",
+    "scope": "实物前置、图纸/验收合表、工序图局部",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/cnc-turning-service/",
+    "type": "C1",
+    "difference": "Fit the process to the drawing；Turned forms, different working interfaces；Material and finish review；Turning, secondary machining, finished features；Scope to confirm separately；Request a CNC turning quote",
+    "scope": "实物前置、图纸/验收合表、工序图局部",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/copper-brass-cnc-parts/",
+    "type": "C2",
+    "difference": "Start with the specification；Specify the function before the alloy；Grade, condition and finishing；Contacts, fittings & connectors；From alloy choice to finished fitting；Accept the part in its final specified state；Scope to confirm separately；Request a copper or brass quote",
+    "scope": "用途/实物前置、牌号与最终状态连续",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/low-volume-production/",
+    "type": "C4",
+    "difference": "Lock the requirements for every line item；Agree the hold point before the first release；Pilot builds & repeat part families；Keep the repeat baseline and packing aligned；Request a small-batch quote",
+    "scope": "服务说明先行、每料号/批准/重复订货",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/plastic-machined-parts/",
+    "type": "C2",
+    "difference": "Start with the specification；Grade, condition and finishing；Insulators, guides & polymer housings；Plastic part examples & process review；Accept the part in its final specified state；Scope to confirm separately；Request a plastic machining quote",
+    "scope": "用途/实物前置、牌号与最终状态连续",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/prototype-machining/",
+    "type": "C3",
+    "difference": "Fix the interfaces and the approval point；Prototypes for assembly & design checks；If the prototype differs from production；Record the next release decision；Submit a defined evaluation",
+    "scope": "真实样件前置、产物/批准、量产差异",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/stainless-steel-cnc-parts/",
+    "type": "C2",
+    "difference": "Start with the specification；Grade, condition and finishing；Shafts, fittings & locking hardware；Plan the stainless machining sequence；Accept the part in its final specified state；Scope to confirm separately；Request a stainless steel quote",
+    "scope": "用途/实物前置、牌号与最终状态连续",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/capabilities/starting-with-a-sample/",
+    "type": "C5",
+    "difference": "Record the sample and the intended part；Know what each stage will deliver；Keep unknown material and treatment explicit；Approve the first part before a repeat release；Send the information available now",
+    "scope": "样件识别、未知项/交付/批准分阶段",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/factory/",
+    "type": "F",
+    "difference": "2017/面积/加工支持设备/团队/参考产能；设备、检查阶段、方法、文件、交接",
+    "scope": "事实/设备/阶段/方法/文件分层",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P2"
+  },
+  {
+    "url": "/privacy/",
+    "type": "U",
+    "difference": "五节真实数据/本地存储/外部服务说明，不新增营销模块",
+    "scope": "轻量保持，恢复路径/真实行为",
+    "status": "C；V-D/M首屏",
+    "priority": "P2"
+  },
+  {
+    "url": "/products/",
+    "type": "P0",
+    "difference": "Start with the shape of your part；Read the setup behind the features；Turn a reference into a clear scope",
+    "scope": "真实主体总览、形态与材料/数量分维度",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/",
+    "type": "S0",
+    "difference": "Choose the machining question；Separate material and form collections；Bring the question to your drawing",
+    "scope": "具体工序入口前置、材料集合分开",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/29-inch-display-housing-cnc-machining/",
+    "type": "S1",
+    "difference": "Plan the panel around its assembly interfaces；Support, machine and inspect the panel；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "真图/真实局部与问题同组、重复要求合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/custom-metal-parts-batch-examples/",
+    "type": "S2",
+    "difference": "Explore the original metal part families；Define a separate route for each part；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "取消大AI封面、真实组优先、组间差异",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+    "type": "S2",
+    "difference": "Explore the original part families；Specify grade and measurement conditions；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "取消大AI封面、真实组优先、组间差异",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/five-axis-machining-multi-face-parts/",
+    "type": "S1",
+    "difference": "Read the part across its machining faces；For a similar part: setup and workholding；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "真图/真实局部与问题同组、重复要求合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/milling-a-pocketed-enclosure-form/",
+    "type": "S1",
+    "difference": "Define the pocket together with its interfaces；For a similar part: setup and workholding；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "真图/真实局部与问题同组、重复要求合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/milling-prismatic-components/",
+    "type": "S1",
+    "difference": "Connect the openings to the mounting faces；For a similar part: setup and workholding；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "真图/真实局部与问题同组、重复要求合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/turning-then-milling-cylindrical-parts/",
+    "type": "S1",
+    "difference": "Connect the milled features to the turned geometry；For a similar part: setup and workholding；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "真图/真实局部与问题同组、重复要求合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/machining-studies/two-stage-cnc-milling/",
+    "type": "S1",
+    "difference": "Keep the feature relationships through repositioning；Plan datum transfer between the two orientations；Connect the drawing to the acceptance check；Questions for this machining task；Continue the drawing review；Review a similar component",
+    "scope": "真图/真实局部与问题同组、重复要求合表",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/",
+    "type": "P1",
+    "difference": "Reference galleries；Covered parts and gear forms；From the part form to the setup",
+    "scope": "首条参考前置、材料值、真实清晰卡图",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "type": "P5",
+    "difference": "P12：中冷器样件参考；提供组件、连接与压力/性能测试范围",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "type": "P2",
+    "difference": "P13：手持engine cover；配合/外观及实际来源上下文",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "type": "P5",
+    "difference": "P16：Injector/fuel-rail manifold；独立CAD来源版本、接口与供货",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "type": "P5",
+    "difference": "P17：Plenum；port与内部细节独立参考，功能测试另定",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "type": "P5",
+    "difference": "P14：进气系统装配参考；定义需要加工的子组件，不默认总成",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "type": "P4",
+    "difference": "P18：Transmission/pump casting；来料毛坯、加工余量与责任",
+    "scope": "毛坯责任提前、加工/保留面与验收",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "type": "P5",
+    "difference": "P15：Throttle-body CAD；非实拍，壳体/轴/执行器供货范围待定义",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "type": "P5",
+    "difference": "P19：带法兰回转组件；保留方向标记/紧固件，非普通长轴",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "type": "P2",
+    "difference": "P00：圆盘多孔形态；端面、孔列与同心/位置关系",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "type": "P3",
+    "difference": "P09：结构/外观组件；外观要求与配合条件分开",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "type": "P2",
+    "difference": "P20：非金属/绝缘形态；材料、工作环境、温湿度测量状态",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "type": "P3",
+    "difference": "P21：多种塑料形态拼图；对象选择、精确牌号与装配条件",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "type": "P3",
+    "difference": "P07：接头/法兰/螺纹拼图；连接标准、密封面、安装",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-oem-cnc-turning-manufacturer/",
+    "type": "P3",
+    "difference": "P05：多种车削/块状形态组合；分别指定待报价对象",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "type": "P3",
+    "difference": "P01：九种铣削形态拼图；选中对象与孔/安装面分别定义",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/custom-rotary-cylindrical-components/",
+    "type": "P3",
+    "difference": "P06：旋转及圆柱/块状组合；交叉孔、平面、槽",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "type": "P3",
+    "difference": "P08：黑色表面处理件拼图；最终表面与保护界面",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "type": "P2",
+    "difference": "P04：蓝色多面圆件；多方向孔/面与安装基准，颜色不证实处理",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/global-oem-precision-machining-solutions/",
+    "type": "P2",
+    "difference": "P03：斜颈回转件；螺纹轴与主体轴关系，不生成背面",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "type": "P2",
+    "difference": "P11：涡轮/流体形态；曲面与配合，平衡测试独立",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "type": "P3",
+    "difference": "P10：内外复合车削特征；螺纹、工作直径、沟槽/肩",
+    "scope": "选中形态、拼图/真实局部、材料范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "type": "P4",
+    "difference": "P22：开口带筋铸壳；刀具访问、定位、保留铸态面",
+    "scope": "毛坯责任提前、加工/保留面与验收",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/oem-precision-cnc-machined-casting-housings/",
+    "type": "P4",
+    "difference": "P23：带接口壳体；样件重建定义与毛坯/加工面",
+    "scope": "毛坯责任提前、加工/保留面与验收",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-machined-castings-custom-oem-housings/",
+    "type": "P4",
+    "difference": "P24：不规则铸件；密封、配合、安装孔的验收",
+    "scope": "毛坯责任提前、加工/保留面与验收",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-machined-castings-manufacturer/",
+    "type": "P4",
+    "difference": "P25：开口铸件结构；隐藏接口/测量访问不能凭图补全",
+    "scope": "毛坯责任提前、加工/保留面与验收",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "type": "P6",
+    "difference": "P26：绿色重复孔长条；单件孔关系、材料状态与批次定义",
+    "scope": "单件局部识别、完整批图/版本与追溯",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "type": "P6",
+    "difference": "P27：黄铜色接头堆放；合金/螺纹/镀层，不凭色鉴材",
+    "scope": "单件局部识别、完整批图/版本与追溯",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "type": "P6",
+    "difference": "P28：Pilot壳体排布；每料号与释放，非固定套件",
+    "scope": "单件局部识别、完整批图/版本与追溯",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "type": "P2",
+    "difference": "P29：绿色圆件；中心孔、四小孔、曲边与measurement state",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "type": "P6",
+    "difference": "P30：开放壳体排布；侧口、安装耳、壁与接口",
+    "scope": "单件局部识别、完整批图/版本与追溯",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "type": "P5",
+    "difference": "P31：回转组件及独立法兰；ON/OFF标记与完整供应范围",
+    "scope": "CAD/装配身份及BOM提前、测试范围",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "type": "P2",
+    "difference": "P32：索引销；安装、啮合、内部弹簧未知及组件/整套区别",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "type": "P6",
+    "difference": "P33：盖/密封铝壳；配合面、安装接口与批图来源",
+    "scope": "单件局部识别、完整批图/版本与追溯",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "type": "P6",
+    "difference": "P34：重复车削件；单件/BOM/版本/追溯，不称混材质套件",
+    "scope": "单件局部识别、完整批图/版本与追溯",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/products/part-examples/ultra-high-precision-machining-services/",
+    "type": "P2",
+    "difference": "P02：曲面叶轮；叶面、根部、轮毂与平衡范围",
+    "scope": "去重复图、特征/图纸/验收合表",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P1"
+  },
+  {
+    "url": "/quote/",
+    "type": "Q",
+    "difference": "必填Name/Message，Email或Phone至少一项；本地草稿而非提交",
+    "scope": "短说明、五字段、单份预览、状态保留",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/",
+    "type": "R0",
+    "difference": "Ready to request a quote?；Ordering guide；Machining guides；Keep a copy with your order；Need a quick answer?；Use the prepared information",
+    "scope": "任务直接到指南，集中模板下载",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/drawings-and-ordering/compare-cnc-machining-quotations/",
+    "type": "R3",
+    "difference": "Compare what the price includes；Resolve exceptions before awarding the order；Keep the agreed scope with the order；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/drawings-and-ordering/critical-features-cnc-drawing/",
+    "type": "R3",
+    "difference": "Connect each requirement to the part function；Make the requirement measurable；Geometry and the machining route；Material, treatment and project scope；Resolve file conflicts before release；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/drawings-and-ordering/machined-prototype-approval-checklist/",
+    "type": "R3",
+    "difference": "Agree the evaluation before making the sample；Check the sample and its records together；Write down exactly what has been approved；Release the batch as a separate decision；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/faq/",
+    "type": "R4",
+    "difference": "15问，三类；MOQ/完整交期/材料/检验/ISO/草稿/售后",
+    "scope": "压紧到达答案的层级，15问常显",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/ordering-guide/",
+    "type": "R1",
+    "difference": "Prepare the quote request；Compare the quoted work；Approve the sample and batch；Plan packing and delivery；LZZ process or technical definition?",
+    "scope": "阶段目录与摘要合一",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/processes-materials-finishes/",
+    "type": "R2",
+    "difference": "Choose a machining process；Specify material & finish；Drawing requirements & critical features；See real geometry and setups；Prepare a complete RFQ",
+    "scope": "保留三任务列表，缩引言",
+    "status": "C；V-D/M首屏",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/processes-materials-finishes/cnc-process-selection/",
+    "type": "R3",
+    "difference": "Choose by geometry；Workshop setups and related studies；Tolerances for critical features；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/processes-materials-finishes/material-and-finish-checklist/",
+    "type": "R3",
+    "difference": "Choose the material specification；Treatment and appearance；Interfaces and dimensions after treatment；Solid material, coating or covering?；Material and inspection records；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/production-and-shipping/custom-cnc-parts-shipping-checklist/",
+    "type": "R3",
+    "difference": "Protection and identification；Timing and responsibility；Shipment and import documents；LZZ packing archive；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/production-and-shipping/prototype-vs-small-batch-cnc/",
+    "type": "R3",
+    "difference": "Prototype and repeat-batch decisions；Approve the batch specification；Keep a clear revision and release record；Confirm the next order；Next decision",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；T",
+    "priority": "P1"
+  },
+  {
+    "url": "/resources/rfq-checklist/",
+    "type": "R3",
+    "difference": "六快览、三组字段、最后模板；NDA/控制版本/开放项完整保留",
+    "scope": "答案/工具前置，按该篇字段合并",
+    "status": "C；V-D/M首屏＋正文局部",
+    "priority": "P1"
+  }
+]

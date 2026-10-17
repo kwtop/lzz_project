@@ -1,0 +1,49 @@
+{
+  "canonical": "https://www.lzz-cnc.com/privacy/",
+  "description": "Read about inquiry drafts, browser storage and product information on the LZZ website. The form creates an email draft without sending or uploading files.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Privacy & site information"
+    },
+    {
+      "tag": "H2",
+      "text": "Your inquiry"
+    },
+    {
+      "tag": "H2",
+      "text": "Saved drafts"
+    },
+    {
+      "tag": "H2",
+      "text": "Cookies and external services"
+    },
+    {
+      "tag": "H2",
+      "text": "Product and company information"
+    },
+    {
+      "tag": "H2",
+      "text": "Contact"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    }
+  ],
+  "main": "Privacy & site information\n\nInformation about inquiry drafts, browser storage and the product details on this site.\n\nYour inquiry\n\nThe form creates an email draft in your browser. It does not send your information to LZZ or upload drawings. To contact us, open the draft in your email app, add your attachments and send it yourself.\n\nSaved drafts\n\nThe form saves your input and draft status in the current tab using sessionStorage, with a separate entry for each selected part. Your details stay available after a refresh but are not saved to an account or sent to LZZ. Select \"Clear saved input\" to remove the entry for the current part.\n\nYour browser may restore this data when it restores a previous session. Clear your input before leaving a shared device. If browser storage is blocked or full, you can still use the form while the page is open. Select \"Save draft\" to download a text copy.\n\nCookies and external services\n\nThis site does not use analytics or advertising cookies. Your email provider, WhatsApp and other linked websites have their own privacy policies.\n\nProduct and company information\n\nProduct pages use catalog photographs and clearly labeled illustrative visuals. Neither is an inspection record or a specification document. Original workshop photographs and company documents are identified separately from product examples.\n\nProduct pages use shorter titles and summaries of the catalog entries. Original catalog names and source material are retained in our archive; they are not displayed on every product page. The summaries are not independently verified specifications for the photographed parts. Confirm material grades and tolerances with the team, along with the inspection and commercial terms for your order.\n\nThe engineering guides help you prepare an inquiry; they are not inspection records or customer case studies. They do not establish suitability for a particular application. Material filters help you find existing parts without creating duplicate product pages. English descriptions of company documents explain their contents but do not verify current validity.\n\nContact\n\nFor questions, contact roger@lzz-cnc.com.",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/privacy/#webpage\",\"url\":\"https://www.lzz-cnc.com/privacy/\",\"name\":\"Privacy and site information\",\"description\":\"Read about inquiry drafts, browser storage and product information on the LZZ website. The form creates an email draft without sending or uploading files.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/privacy/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/privacy/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Privacy and site information\",\"item\":\"https://www.lzz-cnc.com/privacy/\"}]}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Privacy and site information | LZZ Precision",
+  "url": "http://127.0.0.1:4326/privacy/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "privacy-mobile-production"
+}

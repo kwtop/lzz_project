@@ -1,0 +1,14 @@
+---
+import {capabilityPage} from '../data/capabilityDesign';
+import CapabilityHero from './CapabilityHero.astro';
+import CapabilityModule from './CapabilityModule.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import '../styles/capabilities-design.css';
+interface Props {slug:string;quoteHref:string}
+const {slug,quoteHref}=Astro.props;
+const page=capabilityPage(slug);
+---
+<article class:list={['capabilities-design','cd-detail','cd-detail--'+slug,page.reading&&'cd-reading',page.reading&&'cd-reading--'+page.reading.family]} data-capability={slug}>
+ <DisclosureAnchors/>
+ <div class="cd-wrap"><CapabilityHero page={page}/>{page.design.modules.map(kind=><CapabilityModule page={page} kind={kind} quoteHref={quoteHref}/>)}</div>
+</article>

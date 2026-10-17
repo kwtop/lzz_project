@@ -1,0 +1,32 @@
+---
+import '@fontsource-variable/inter';
+import {Menu,ArrowUpRight,X,ChevronDown} from 'lucide-react';
+import {navigation,root} from './content';
+import './styles.css';
+const {variant='a',title='Product focus'}=Astro.props;
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>{variant.toUpperCase()} — {title} | LZZ homepage preview</title><meta name="description" content="Independent local homepage design preview for LZZ Precision."/></head>
+<body class={'direction direction-'+variant}>
+ <a class="skip" href="#main">Skip to content</a>
+ <aside class="preview-bar"><a href={root}>Compare A / B / C</a><span>{variant.toUpperCase()} · {title}</span><a href="/">Current site</a></aside>
+ <header class="site-header wrap">
+  <a href={root+variant+'/'} class="brand" aria-label="LZZ homepage preview"><img src="/media/lzz-logo.png" width="90" height="50" alt="LZZ"/></a>
+  <nav id="design-nav" aria-label="Main navigation">{navigation.map(group=><details class="nav-group" name="preview-nav"><summary>{group.name}<ChevronDown size={12}/></summary><div class="nav-panel">{group.links.map(([name,href])=><a href={href}>{name}</a>)}</div></details>)}</nav>
+  <a class="button small header-quote" href="#inquiry">Request a quote <ArrowUpRight size={16}/></a>
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="design-nav"><Menu size={24}/><X size={24}/></button>
+ </header>
+ <main id="main"><slot/></main>
+ <footer class="site-footer wrap">
+  <div class="footer-top"><div><img src="/media/lzz-logo.png" alt="LZZ" width="108" height="60"/><p>Custom CNC machining<br/>in Hangzhou, China.</p></div><div><h3>Explore LZZ</h3><a href="/machined-parts/">Custom parts</a><a href="/capabilities/">Capabilities</a><a href="/factory/">Our factory</a><a href="/factory/quality/">Quality control</a></div><div><h3>Plan your project</h3><a href="/machined-parts/machining-examples/">Machining examples</a><a href="/resources/ordering/rfq-checklist/">RFQ checklist</a><a href="/about/how-we-work/">How we work</a><a href="/about/contact/">Contact us</a></div><div><h3>Contact LZZ</h3><p>roger@lzz-cnc.com<br/>WhatsApp +86 138 5810 2479<br/>Hangzhou · UTC+8</p><a href="#inquiry">Prepare your inquiry <ArrowUpRight size={16}/></a></div></div>
+  <div class="footer-bottom"><p>© 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.</p><p>No. 4 Fengcheng Road · Pingyao, Yuhang · Hangzhou, China</p><a href="/privacy/">Privacy</a></div>
+ </footer>
+ <script>
+ const toggle=document.querySelector<HTMLButtonElement>('.menu-toggle')!;
+ const nav=document.querySelector<HTMLElement>('#design-nav')!;
+ function closeNav(){toggle.setAttribute('aria-expanded','false');nav.classList.remove('mobile-open');}
+ toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('mobile-open',open);});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeNav();document.querySelectorAll<HTMLDetailsElement>('.nav-group[open]').forEach(d=>d.open=false);toggle.focus();}});
+ document.addEventListener('click',e=>{if(!(e.target as Element).closest('.site-header')){closeNav();document.querySelectorAll<HTMLDetailsElement>('.nav-group[open]').forEach(d=>d.open=false);}});
+ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeNav));
+ </script>
+</body></html>

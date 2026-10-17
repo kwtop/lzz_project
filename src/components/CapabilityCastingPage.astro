@@ -1,0 +1,126 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {materialGuide} from '../data/capabilityRedesign';
+import {capabilityHeroPart} from '../data/capabilityRebuild';
+import CapabilityPartFigure from './CapabilityPartFigure.astro';
+import CapabilityConcept from './CapabilityConcept.astro';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import '../styles/casting-machining.css';
+
+interface Props {page:RevisedCapability;quoteHref:string}
+const {page,quoteHref}=Astro.props;
+const hero=capabilityHeroPart(page.slug);
+const parts=page.parts.filter(part=>part.product.slug!==hero.product.slug);
+const [sampleQuestion,testQuestion]=page.scopeQuestions;
+// Incoming-blank requirements live with the blank specification, rather than
+// being repeated in the finished-interface inspection table.
+const materials=page.plan.materials.map(row=>row.name==='Blank condition'
+ ?{...row,review:'Define incoming acceptance, acceptable blank variation, measurement methods and responsibility for rejected blanks.'}
+ :row);
+const finishedChecks=page.acceptanceChecks.filter(row=>row.feature!=='Incoming blank');
+const castingIllustration={
+ stem:'/media/reading-polish-20261015/casting-condition',width:1536,height:1024,
+ alt:'AI illustration of a generic cast housing with a rough exterior and smooth machined bore and flange',
+ caption:'AI illustration · finish-machining concept.',
+};
+const requestGroups=[
+ {name:'Drawings & geometry',text:'Finished-part drawing and revision, blank photographs or model. Mark as-cast surfaces, locating targets, finished datums and sections for hidden features.'},
+ {name:'Casting supply',text:'Casting supplier, alloy, condition and number of castings. Define blank acceptance, available machining allowance and responsibility for rejected blanks.'},
+ {name:'Finish & acceptance',text:'Finish, inspection requirements and any separate pressure, porosity or non-destructive tests. Include any sample reconstruction, measurements and approval responsibility.'},
+ {name:'Delivery',text:'Delivery destination and requested date.'},
+];
+---
+<div class="casting-page">
+ <section class="casting-hero" aria-labelledby="casting-title" data-core-section="service">
+  <header>
+   <h1 id="casting-title">{page.plan.title}</h1>
+   <p class="casting-lead">Finish machining for cast housings, pump bodies and structural enclosures. Bearing bores, sealing faces and mounting points made to your drawing.</p>
+  </header>
+  <CapabilityPartFigure part={hero} eager conciseCaption class="casting-hero-image"/>
+  <div class="casting-hero-actions">
+   <div class="casting-actions"><a class="rd-button" href={quoteHref}>Prepare RFQ email</a><a class="rd-link" href="#part-examples">See cast part examples</a></div>
+   <a class="casting-order-start" href="#order-conditions">Orders from 1 piece · order & timing conditions</a>
+  </div>
+ </section>
+
+ <section class="casting-section casting-examples" id="part-examples" aria-labelledby="casting-examples-title" data-core-section="parts">
+  <header class="casting-section-heading">
+   <h2 id="casting-examples-title">{page.plan.exampleHeading}</h2>
+   <p>{page.plan.exampleIntro}</p>
+  </header>
+  <div class="casting-part-grid">
+   {parts.map(part=><article>
+    <CapabilityPartFigure part={part} showCaption={false} linked={false} class="casting-example-image"/>
+    <h3><a href={part.href}>{part.title}</a></h3>
+    <p>{part.text}</p>
+   </article>)}
+  </div>
+  <p class="casting-source-note">Source listing photographs.</p>
+  <a class="rd-link casting-process-link" href="#geometry-review">Cast blank & finished interfaces</a>
+ </section>
+
+ <section class="casting-section casting-process" id="geometry-review" aria-labelledby="casting-process-title" data-core-section="process">
+  <header class="casting-section-heading">
+   <h2 id="casting-process-title">From cast blank to finished interfaces</h2>
+   <p>Send the casting specification and finished-part drawing together. Agree blank supply, acceptance, locating datums and machining allowance before the machining plan is released.</p>
+  </header>
+  <div class="casting-process-grid" id="machining-studies">
+   <CapabilityConcept art={castingIllustration} class="casting-process-image" sizes="(max-width:767px) calc(100vw - 40px), 560px"/>
+   <ol class="casting-steps">
+    {page.plan.steps.map((step,index)=><li>
+     <h3 id={index===0?'size-and-setup-review':undefined}>{step.title}</h3>
+     <p>{step.text}</p>
+    </li>)}
+   </ol>
+  </div>
+  {sampleQuestion&&<aside class="casting-sample">
+   <h3>{sampleQuestion.question}</h3>
+   <div><p>{sampleQuestion.answer}</p><a class="rd-link" href="/capabilities/starting-with-a-sample/">Sample reconstruction process</a></div>
+  </aside>}
+ </section>
+
+ <section class="casting-section casting-materials" id="materials-finishes" aria-labelledby="casting-material-title" data-core-section="materials">
+  <header class="casting-section-heading">
+   <h2 id="casting-material-title">{page.plan.materialHeading}</h2>
+   <p>Specify alloy, blank condition and finishing requirements together. Suitability and availability are confirmed for your drawing.</p>
+  </header>
+  <table class="rd-table rd-stacked casting-material-table">
+   <thead><tr><th scope="col">Material / scope</th><th scope="col">Specification</th><th scope="col">Finish / treatment</th><th scope="col">Agree for this drawing</th></tr></thead>
+   <tbody>{materials.map(row=><tr><th scope="row">{row.name}</th><td data-label="Specification">{row.grades}</td><td data-label="Finish / treatment">{row.finish}</td><td data-label="Drawing agreement">{row.review}</td></tr>)}</tbody>
+  </table>
+  <a class="rd-link casting-material-link" href={materialGuide}>Material and finish checklist</a>
+ </section>
+
+ <section class="casting-section casting-quality" id="engineering-fit" aria-labelledby="casting-quality-title" data-core-section="inspection">
+  <header class="casting-section-heading">
+   <h2 id="casting-quality-title">Agree inspection before machining</h2>
+   <p>Define dimensional checks on the finished interfaces. Agree locating methods, measurement methods and recorded results before production.</p>
+  </header>
+  <div class="casting-quality-grid">
+   <table class="rd-table rd-stacked casting-inspection-table" id="capability-scope">
+     <thead><tr><th scope="col">Feature / decision</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead>
+     <tbody>{finishedChecks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody>
+   </table>
+   <div class="casting-quality-scope">
+    {testQuestion&&<aside class="casting-test-note"><h3>{testQuestion.question}</h3><p>{testQuestion.answer}</p></aside>}
+    <a class="rd-link casting-quality-link" href="/factory/#quality">Inspection methods, stages and records</a>
+   </div>
+   <div class="casting-quality-image"><CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from the equipment records." sizes="(max-width:767px) 220px, 260px"/></div>
+  </div>
+ </section>
+
+ <section class="casting-section casting-rfq" id="enquiry" aria-labelledby="casting-rfq-title" data-core-section="quotation">
+  <div class="casting-rfq-inputs">
+   <h2 id="casting-rfq-title">{page.plan.rfqTitle}</h2>
+   <dl class="casting-request-list">{requestGroups.map(group=><div><dt>{group.name}</dt><dd>{group.text}</dd></div>)}</dl>
+   <a class="rd-link" href="/resources/ordering/rfq-checklist/">RFQ preparation checklist</a>
+  </div>
+  <aside class="casting-order" id="order-conditions" aria-labelledby="casting-order-title">
+   <h3 id="casting-order-title">Order & timing</h3>
+   <dl class="casting-order-facts"><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7–14 business days</dd></div></dl>
+   <p>After drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.</p>
+   <a class="rd-button" href={quoteHref}>Prepare RFQ email</a>
+   <p class="rd-note">The website prepares a draft. Review it, attach drawings in your email application and send it yourself.</p>
+  </aside>
+ </section>
+</div>

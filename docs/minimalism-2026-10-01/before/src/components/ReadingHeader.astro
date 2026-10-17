@@ -1,0 +1,19 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  breadcrumbs?: { label: string; href?: string }[];
+  titleId?: string;
+}
+const { title, description, breadcrumbs = [], titleId } = Astro.props;
+---
+<header class="reading-header reading-wrap">
+  {breadcrumbs.length > 0 && <nav class="reading-breadcrumb" aria-label="Breadcrumb">
+    {breadcrumbs.map(crumb => crumb.href
+      ? <a href={crumb.href}>{crumb.label}</a>
+      : <span>{crumb.label}</span>)}
+  </nav>}
+  <h1 id={titleId}>{title}</h1>
+  {description && <p class="reading-description">{description}</p>}
+  <div class="reading-header-meta"><slot/></div>
+</header>

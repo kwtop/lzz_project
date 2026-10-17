@@ -1,0 +1,57 @@
+---
+import '../styles/company-resource-gallery.css';
+import '../styles/reference-image-viewer.css';
+import '../styles/reference-catalogue.css';
+import media from '../data/additionalMedia.generated.json';
+import {photo} from '../data/evidence';
+import {photoFrame} from '../lib/photoFrame';
+type PhotoId=keyof typeof media.photos;
+interface Props {
+ ids:PhotoId[];title:string;description?:string;titleId?:string;
+ captions?:Partial<Record<PhotoId,string>>;
+ fields?:{label:string;value:string}[];requirements?:string[];
+}
+const {ids,title,description,titleId,captions,fields=[],requirements=[]}=Astro.props;
+const labels:Partial<Record<PhotoId,string>>={
+ 'intake-runner-cad':'Intake runner CAD',
+ 'plenum-original':'Intake plenum','plenum-port-detail':'Port detail','plenum-internal-detail':'Internal opening',
+ 'intercooler-original':'Intercooler form','intercooler-batch-detail':'Cooling component batch',
+ 'display-housing-pair':'Internal and external enclosure faces',
+ 'plastic-ptfe-batch':'Small PTFE components','plastic-ptfe-intermediate':'Repeated PTFE forms','plastic-ptfe-shafts':'Stepped PTFE shafts',
+ 'plastic-acrylic-batch':'Acrylic component batch','plastic-acrylic-detail':'Rim and step details',
+ 'metal-turned-shaft':'Turned shaft','metal-turned-batch':'Turned component batch',
+ 'metal-aluminum-housings':'Aluminum housings','metal-aluminum-close':'Mounting features','metal-brass-batch':'Brass fitting batch',
+ 'finish-coated-round':'Coated circular components','finish-coated-bars':'Coated bars',
+};
+const columns=Math.min(ids.length,3);
+const fullFormIds=new Set<PhotoId>(['plenum-original','intercooler-original','metal-turned-shaft','metal-turned-batch','plastic-ptfe-shafts']);
+const imageSizes=`(max-width:760px) calc(100vw - 44px), (max-width:1376px) calc((100vw - ${96+28*(columns-1)}px) / ${columns}), ${Math.round((1280-28*(columns-1))/columns)}px`;
+const photographs=await Promise.all(ids.map(async id=>{
+ const image=media.photos[id];
+ const frame=await photoFrame(image.src,image.width,image.height);
+ const caption=(image.kind==='original-photo'?photo(id).caption:image.caption)
+  .replace(/^Original reference photograph of (a|an) /,'$1 ')
+  .replace(/^Reference photograph (of|showing) /,'')
+  .replace(/^Reference close-up of /,'Close-up of ')
+  .replace(/^Reference view of /,'View of ')
+  .replace(/^CAD reference showing /,'CAD model showing ')
+  .replace(/, from the (PTFE|brass|supplied part reference) (source )?collection\./,'.')
+  .replace(/ from the (PTFE|brass) source collection\./,'.');
+ const fullCaption=caption.charAt(0).toUpperCase()+caption.slice(1);
+ const label=captions?.[id]||labels[id]||fullCaption;
+ return {image,caption:fullCaption,label,detail:!captions?.[id]&&label!==fullCaption?fullCaption:undefined,frameStyle:frame.style};
+}));
+---
+<section class:list={["reference-gallery","reference-catalogue",{'single-reference':ids.length===1}]} style={`--reference-columns:${columns};--reference-field-columns:${fields.length===4?2:3}`}>
+ <header><h2 id={titleId}>{title}</h2></header>
+ <div class="reference-grid">{photographs.map(({image,caption,label,detail,frameStyle})=>{
+  return <figure style={frameStyle} data-reference-id={image.id} data-reference-fit={ids.length===1||image.kind==='cad-reference'||fullFormIds.has(image.id as PhotoId)?'contain':'cover'}><a class="reference-photo static-photo"><img src={image.src} srcset={image.srcset} sizes={imageSizes} width={image.width} height={image.height} alt={caption} loading="lazy" decoding="async"/></a><figcaption><strong class="reference-caption-label">{label}</strong>{detail&&<span class="reference-caption-detail">{detail}</span>}</figcaption></figure>;
+ })}</div>
+ {description&&<p class="reference-description">{description}</p>}
+ {fields.length>0&&<dl class="reference-fields">{fields.map(field=><div><dt>{field.label}</dt><dd>{field.value}</dd></div>)}</dl>}
+ {requirements.length>0&&<ul class="reference-requirements">{requirements.map(requirement=><li>{requirement}</li>)}</ul>}
+</section>
+<style>
+ .reference-gallery{padding-block:40px}.reference-gallery h2{font-size:clamp(27px,3vw,36px);line-height:1.2}.reference-gallery>p{max-width:72ch;font-size:16px;line-height:1.7;margin-top:18px}.reference-gallery>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:28px;align-items:start}.reference-gallery figure{margin:0;min-width:0}.reference-gallery a{display:block}.reference-gallery a:focus-visible{outline:2px solid var(--red);outline-offset:4px}.reference-gallery img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain;background:#fff}.reference-gallery figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}.reference-gallery>div:has(>figure:only-child){grid-template-columns:minmax(0,680px)}
+ @media(max-width:760px){.reference-gallery>div{grid-template-columns:1fr;gap:28px}}
+</style>

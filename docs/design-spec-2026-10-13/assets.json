@@ -1,0 +1,404 @@
+{
+  "archived_on": "2026-10-13",
+  "copies_are_byte_identical": true,
+  "purpose": "Design references and historical implementation examples; not current site conformance proof.",
+  "assets": [
+    {
+      "reference": "quote-v3",
+      "role": "selected",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/quote-design-options-20261012/option-3.png",
+      "file": "references/quote-v3.png",
+      "pixels": [
+        1586,
+        992
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "5bae697907464505ba4609ad5468992ce8177d49913f851f02e5ce5420286a25",
+      "bytes": 1222768
+    },
+    {
+      "reference": "factory-v1",
+      "role": "selected",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-71b0bcdf-0334-4a52-bf12-079f3bf45357.png",
+      "file": "references/factory-v1.png",
+      "pixels": [
+        1435,
+        1096
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "0d5b0b96b373fd27d78c399bf545370dfe6062e7b19a3b682bc346363f25371b",
+      "bytes": 1743299
+    },
+    {
+      "reference": "studies-v3",
+      "role": "selected",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-2f366992-9846-49de-b51e-12c9cde0fc2d.png",
+      "file": "references/studies-v3.png",
+      "pixels": [
+        1435,
+        1096
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "bfbd30685df5b39f133769621d3b3459162b1415b5da7d577ec3e10d347b61cd",
+      "bytes": 1806903
+    },
+    {
+      "reference": "home-inquiry",
+      "role": "selected",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/home-inquiry-order-20261012/selected-reference.png",
+      "file": "references/home-inquiry.png",
+      "pixels": [
+        1449,
+        1086
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "b3f30192c13b8a603ee934c47975c3f40a02a4a43d4ad205be8dc03b4ad557cd",
+      "bytes": 1584990
+    },
+    {
+      "reference": "catalogue-v1",
+      "role": "selected",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/additional-part-forms-options-20261012/implementation/selected.png",
+      "file": "references/catalogue-v1.png",
+      "pixels": [
+        1330,
+        1182
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "0d947a322aa9976fd59e2e8dce76e9b6a594d03dcbba3ddfb5ee598cb0a8a6bb",
+      "bytes": 2048513
+    },
+    {
+      "reference": "quote-v3",
+      "role": "desktop",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/quote-design-options-20261012/implementation/product-desktop-readable.png",
+      "file": "references/quote-desktop.png",
+      "pixels": [
+        1586,
+        992
+      ],
+      "historical_css_viewport": [
+        1586,
+        992
+      ],
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "cb855b79c883063f924ee0c57331e25c4443e23161dbad9c37fe148001627cd8",
+      "bytes": 441476
+    },
+    {
+      "reference": "quote-v3",
+      "role": "mobile",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/quote-design-options-20261012/implementation/product-mobile-full-readable.png",
+      "file": "references/quote-mobile.png",
+      "pixels": [
+        390,
+        2680
+      ],
+      "historical_css_viewport": [
+        390,
+        844
+      ],
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "e2f29532eceb581fdf9ed2463b91d809afb2504e1ae07ee9a7a2588dd75b5a43",
+      "bytes": 512131
+    },
+    {
+      "reference": "quote-v3",
+      "role": "comparison",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/quote-design-options-20261012/implementation/selected-vs-implemented.png",
+      "file": "references/quote-comparison.png",
+      "pixels": [
+        3172,
+        992
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "717fc8630f69ea35f19f229c6514d1cb857826c744fa86ee5430dbaf56a0a435",
+      "bytes": 1542410
+    },
+    {
+      "reference": "factory-v1",
+      "role": "desktop",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/factory-refined-20261012/section-final.png",
+      "file": "references/factory-desktop.png",
+      "pixels": [
+        1425,
+        976
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "da7f05504015984c8f8f0e1f02f2e6b3e038dc25a37b6c01478c91af8904dd49",
+      "bytes": 1317889
+    },
+    {
+      "reference": "factory-v1",
+      "role": "mobile",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/factory-refined-20261012/mobile.png",
+      "file": "references/factory-mobile.png",
+      "pixels": [
+        375,
+        812
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "1780d96ffc612443f515286396e4d0955da5b2530a67471674dc592b8c44c6d3",
+      "bytes": 38937
+    },
+    {
+      "reference": "factory-v1",
+      "role": "comparison",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/factory-refined-20261012/comparison.png",
+      "file": "references/factory-comparison.png",
+      "pixels": [
+        1800,
+        720
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "5f2f23e33987fc53c14e44c22b0c492e7341779b2cd1b7fc9bfea104dccf9d09",
+      "bytes": 1659202
+    },
+    {
+      "reference": "studies-v3",
+      "role": "desktop",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/studies-design-options-20261012/rows-after.png",
+      "file": "references/studies-desktop.png",
+      "pixels": [
+        1280,
+        1013
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "1d9b3b7892a90eb259e339672f88acaa84a1800096d998e37f020391bd37caa7",
+      "bytes": 1206376
+    },
+    {
+      "reference": "studies-v3",
+      "role": "mobile",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/studies-design-options-20261012/mobile-after.png",
+      "file": "references/studies-mobile.png",
+      "pixels": [
+        375,
+        812
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "1525927bc096a2a57ebd12c02458761c451ea737e95266d0343f07bb399a5e93",
+      "bytes": 43371
+    },
+    {
+      "reference": "studies-v3",
+      "role": "comparison",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/studies-design-options-20261012/comparison.png",
+      "file": "references/studies-comparison.png",
+      "pixels": [
+        1440,
+        640
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "f642a6be5817259b331a859a98f1fb7e9bb88f35d9fe1f6cc84c8eef3b20bee7",
+      "bytes": 1123329
+    },
+    {
+      "reference": "home-inquiry",
+      "role": "desktop",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/home-inquiry-order-20261012/desktop-final.jpg",
+      "file": "references/home-inquiry-desktop.jpg",
+      "pixels": [
+        1123,
+        842
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "7c1d568e5c1edd30ac268b326548ceceaaa52bb9def9a555bde79aae433bd9f7",
+      "bytes": 69259
+    },
+    {
+      "reference": "home-inquiry",
+      "role": "mobile",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/home-inquiry-order-20261012/mobile-final.jpg",
+      "file": "references/home-inquiry-mobile.jpg",
+      "pixels": [
+        375,
+        812
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "3345f7f330a856d31af73776741b23aa7889e4c114ff08104d925b2a8524b478",
+      "bytes": 38102
+    },
+    {
+      "reference": "home-inquiry",
+      "role": "comparison",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/home-inquiry-order-20261012/final-panel-comparison.png",
+      "file": "references/home-inquiry-comparison.png",
+      "pixels": [
+        2030,
+        364
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "9a84fd0bbd069df26e492479eb40f409b0072fd5027a1aff95437121a87f9cbf",
+      "bytes": 573990
+    },
+    {
+      "reference": "catalogue-v1",
+      "role": "desktop",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/additional-part-forms-options-20261012/implementation/desktop-final.jpg",
+      "file": "references/catalogue-desktop.jpg",
+      "pixels": [
+        1330,
+        1172
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "45a6ca997733bca28806ef0f86406e3942cb1bfb483d6674532064571f754d77",
+      "bytes": 359785
+    },
+    {
+      "reference": "catalogue-v1",
+      "role": "mobile",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/additional-part-forms-options-20261012/implementation/mobile-final.jpg",
+      "file": "references/catalogue-mobile.jpg",
+      "pixels": [
+        390,
+        2594
+      ],
+      "historical_css_viewport": [
+        390,
+        844
+      ],
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "61205aae5cc81b0e45652572fc0746324aadcbe60e0446463b9826534cdaae7c",
+      "bytes": 244353
+    },
+    {
+      "reference": "catalogue-v1",
+      "role": "comparison",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/additional-part-forms-options-20261012/implementation/comparison-final.jpg",
+      "file": "references/catalogue-comparison.jpg",
+      "pixels": [
+        2680,
+        1172
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "030c5623b9c46f4db62cbe0e3937afe2d9f00fcc3c281bde51c5aa4578b3a911",
+      "bytes": 749740
+    },
+    {
+      "reference": "catalogue-v1",
+      "role": "before",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/additional-part-forms-options-20261012/implementation/focused-initial.jpg",
+      "file": "references/catalogue-before.jpg",
+      "pixels": [
+        1300,
+        460
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "d2c2eca1d17bff8531b3785baf4bd178da315fcefe42ad24726531a877408cca",
+      "bytes": 146755
+    },
+    {
+      "reference": "catalogue-v1",
+      "role": "after",
+      "version": "selected-or-captured-2026-10-12",
+      "source": "D:/lzz/additional-part-forms-options-20261012/implementation/focused-final.jpg",
+      "file": "references/catalogue-after.jpg",
+      "pixels": [
+        1300,
+        460
+      ],
+      "historical_css_viewport": null,
+      "viewport_note": "Historical effective CSS viewport where recorded by source QA; null means not established for this particular crop. Image pixels are measured separately.",
+      "sha256": "82a243155b3f50eeb5abeb6f8897fcd6ec1cb4e5fd0815ee5032a15d072db215",
+      "bytes": 147019
+    },
+    {
+      "reference": "home-hero",
+      "role": "source-illustration",
+      "version": "existing-source",
+      "source": "D:/lzz/lzz/_react/public/media/machining-hero-v2.webp",
+      "file": "references/home-hero-background.webp",
+      "pixels": [
+        1672,
+        941
+      ],
+      "historical_css_viewport": null,
+      "css_viewport": null,
+      "layout_client_width": null,
+      "viewport_note": "Read-only capture. CSS viewport, layout client width and exported pixels are recorded separately; not site acceptance.",
+      "sha256": "df2c2aa7663123be159137fef59b900511d30b46d43b0a2cf3a3b56d7f8348e8",
+      "bytes": 103414
+    },
+    {
+      "reference": "home-hero",
+      "role": "current-desktop",
+      "version": "captured-2026-10-13",
+      "source": "D:/lzz/design-spec-rebuild-20261013/captures/home-hero-desktop.png",
+      "file": "references/home-hero-desktop.png",
+      "pixels": [
+        1425,
+        866
+      ],
+      "historical_css_viewport": null,
+      "css_viewport": [
+        1440,
+        900
+      ],
+      "layout_client_width": 1425,
+      "viewport_note": "Read-only capture. CSS viewport, layout client width and exported pixels are recorded separately; not site acceptance.",
+      "sha256": "12c02a8a7542a06e605efd8b9d3bffd1362a0453ae3013ff04034938bbbcb256",
+      "bytes": 103271
+    },
+    {
+      "reference": "home-hero",
+      "role": "current-mobile",
+      "version": "captured-2026-10-13",
+      "source": "D:/lzz/design-spec-rebuild-20261013/captures/home-hero-mobile.png",
+      "file": "references/home-hero-mobile.png",
+      "pixels": [
+        375,
+        812
+      ],
+      "historical_css_viewport": null,
+      "css_viewport": [
+        390,
+        844
+      ],
+      "layout_client_width": 375,
+      "viewport_note": "Read-only capture. CSS viewport, layout client width and exported pixels are recorded separately; not site acceptance.",
+      "sha256": "b145c080c21375cec41f85a513e34b4525e0d0562af2129d6f23ad0d0efa593c",
+      "bytes": 40100
+    }
+  ],
+  "measurement_file": "references/home-hero-measurements.json"
+}

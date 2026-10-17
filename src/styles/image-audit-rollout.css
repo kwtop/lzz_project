@@ -1,0 +1,113 @@
+/* Reviewed business pages only. Original assets, typography and brand colors stay intact. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page[data-image-layout] .er-product-image {
+ padding:24px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page[data-image-layout="landscape"] .er-product-image img,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page[data-image-layout="landscape"] .cap-hero-image img {
+ aspect-ratio:4/3;
+ object-fit:contain;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page[data-image-layout] .er-related img {
+ aspect-ratio:3/2;
+ object-fit:contain;
+ padding:20px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-image>a {
+ padding:24px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-products>a>div {
+ aspect-ratio:3/2;
+ padding:24px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-opening {
+ display:grid;
+ grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);
+ gap:64px;
+ align-items:start;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-photo {
+ margin:36px 0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-photo img {
+ width:100%;height:auto;max-height:520px;object-fit:contain;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-photo figcaption {
+ margin-top:12px;font-size:15px;line-height:1.6;color:var(--muted);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ps-setup-originals {
+ width:100%;padding:0;margin:0;border:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ps-setup-originals>div {
+ grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ps-setup-originals img {
+ width:100%;height:auto;max-height:420px;object-fit:contain;
+}
+/* Process photographs support comparison without three full-width mobile panels. */
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page[data-image-layout] .er-product-image {
+  padding:12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related {
+  grid-template-columns:1fr;gap:28px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related>a {
+  display:grid;grid-template-columns:124px minmax(0,1fr);gap:18px;align-items:start;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page[data-image-layout] .er-related img {
+  aspect-ratio:1;padding:8px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related h3 {
+  font-size:21px;margin:0 0 10px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related p {
+  font-size:15px;line-height:1.6;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-hero-image>a {
+  padding:12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-products>a>div {
+  aspect-ratio:3/2;padding:12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="cnc-process-selection"] .prose .process-comparison-photos {
+  grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-block:24px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="cnc-process-selection"] .prose .process-comparison-photos figure {
+  display:block;min-width:0;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="cnc-process-selection"] .prose .process-comparison-photos img {
+  width:100%;height:auto;aspect-ratio:auto;max-height:420px;object-fit:contain;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="cnc-process-selection"] .prose .process-comparison-photos figcaption {
+  margin:12px 0 0;font-size:14px;line-height:1.6;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="material-and-finish-checklist"] .prose .decision-mobile-row {
+  padding-block:20px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="material-and-finish-checklist"] .prose .decision-mobile-row h3 {
+  margin-bottom:12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rs-page[data-image-guide="material-and-finish-checklist"] .prose .decision-mobile-row p {
+  margin-block:6px 12px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-opening {
+  grid-template-columns:1fr;gap:0;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-photo {
+  margin:0 0 28px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .requirements-photo img {
+  max-height:360px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ps-setup-originals>div {
+  grid-template-columns:1fr;gap:28px;
+ }
+}
+@media(max-width:359px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related>a {
+  grid-template-columns:104px minmax(0,1fr);gap:14px;
+ }
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-related h3 {
+  font-size:19px;
+ }
+}

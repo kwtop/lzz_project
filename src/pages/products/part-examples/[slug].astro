@@ -1,0 +1,7 @@
+---
+import RouteRedirect from '../../../components/RouteRedirect.astro';
+import catalog from '../../../data/catalog.json';
+export function getStaticPaths(){return catalog.products.map(product=>({params:{slug:product.slug},props:{destination:'/machined-parts/gallery/'+product.slug+'/'}}));}
+const {destination}=Astro.props;
+---
+<RouteRedirect destination={destination}/>

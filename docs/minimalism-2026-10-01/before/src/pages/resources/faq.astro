@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ReadingHeader from '../../components/ReadingHeader.astro';
+import PageContents from '../../components/PageContents.astro';
+import Arrow from '../../components/Arrow.astro';
+const groups=[
+ {id:'ordering',title:'Quotes & ordering',items:[
+  {question:'What is the minimum order quantity?',answer:'Orders start at 1 piece. Include your first-order quantity and expected repeat quantities so the quotation can distinguish prototype work from future batches.',href:'/resources/prototype-vs-small-batch-cnc/',label:'Planning prototypes and repeat batches'},
+  {question:'What is the production lead time?',answer:'Production takes 7–14 business days after drawing and order confirmation, including surface finishing. Shipping time is additional. Record the confirmed production schedule and delivery arrangements in your quotation and order.',href:'/resources/how-we-work/',label:'How to order'},
+  {question:'What should I send for a quotation?',answer:'Send the drawing revision, units, material grade, finish, quantity and delivery destination. Include a STEP model where available and a dimensioned 2D drawing identifying critical tolerances, threads and acceptance requirements.',href:'/resources/rfq-checklist/',label:'Drawing and RFQ checklist'},
+  {question:'Does the website send my inquiry or upload my drawing?',answer:'No. The inquiry form prepares an email draft. Check the draft, open it in your email application, attach your drawings and send it there. Copy and download options are also available; preparing a draft does not send an inquiry to LZZ.',href:'/quote/',label:'Prepare an inquiry'},
+ ]},
+ {id:'engineering',title:'Processes & specifications',items:[
+  {question:'Which machining services can I discuss with LZZ?',answer:'Our five service areas are CNC milling, CNC turning, five-axis CNC machining, plastic machining and casting machining. Share the complete part geometry so the route, workholding and finishing requirements can be reviewed together. For castings, agree who supplies and approves the blank.',href:'/capabilities/',label:'Explore the five machining services'},
+  {question:'How should I specify the material and finish?',answer:'Specify the exact material grade and condition, not just aluminum, steel or plastic. Identify cosmetic faces, surface treatment requirements, masking and dimensions that must be checked after finishing. The quotation should record the agreed specification.',href:'/resources/material-and-finish-checklist/',label:'Material and finish guide'},
+  {question:'Can every feature hold ±0.01 mm?',answer:'No. ±0.01 mm is a conditional engineering reference for selected critical features after review, not a general part tolerance or guarantee. Material, geometry, setup and measurement method determine whether it applies. Identify each critical feature on the drawing for confirmation.',href:'/quality/',label:'Tolerance review and quality control'},
+ ]},
+ {id:'quality-delivery',title:'Inspection & delivery',items:[
+  {question:'Which inspection documents should I request?',answer:'Specify the required dimensional results, first-article records, material traceability and finishing documents before ordering. Agree the features, sampling and report format. The quotation records the included document package and any additional cost; request current calibration evidence separately where needed.',href:'/quality/#order-documentation',label:'Inspection and delivery documents'},
+  {question:'Is LZZ ISO 9001 certified?',answer:'LZZ is ISO 9001 certified. For supplier qualification, request the current certificate for Hangzhou Lizhizao Precision Machinery Co., Ltd., including its number, issuer, validity, scope and verification details. Company awards are separate from the ISO certificate, and quality-system certification does not replace part-specific acceptance or industry approval.',href:'/quality/#quality-management',label:'Request supplier qualification documents'},
+  {question:'How are packing and international shipping agreed?',answer:'Provide the destination, receiving requirements and any vulnerable or cosmetic surfaces that need protection. Confirm the packing method, transport method, trade term and named place in the quotation. Agree the packing list, commercial invoice and other required documents. Transit time is separate from production time.',href:'/resources/custom-cnc-parts-shipping-checklist/',label:'Shipment planning checklist'},
+  {question:'What do the machining case studies demonstrate?',answer:'The studies use original LZZ workshop photographs to discuss visible part features, machining sequences and drawing questions. They are not customer performance reports, inspection results or proof of a particular delivery outcome.',href:'/cases/',label:'Browse machining case studies'},
+ ]},
+];
+
+const quoteHref='/quote/?'+new URLSearchParams({part:'Custom CNC machining — FAQ follow-up'}).toString();
+const quoteInputs=['Drawing revision and units','Exact material grade and condition','Finish and surface treatment','First-order and expected repeat quantities','Delivery destination','STEP model, where available','Dimensioned 2D drawing with critical tolerances, threads and acceptance requirements'];
+const resources=[['RFQ checklist','What to prepare for a quotation','/resources/rfq-checklist/'],['Material & finish guide','Grades, conditions and finishes','/resources/material-and-finish-checklist/'],['Quality control','Inspection and documentation','/quality/'],['Shipping checklist','Packing and delivery requirements','/resources/custom-cnc-parts-shipping-checklist/'],['Machining studies','Workshop examples and process notes','/cases/'],['Back to Resources','More technical resources','/resources/']];
+const contents=[{id:'ordering',label:'Quotes & ordering'},{id:'preparing',label:'Preparing a quotation'},{id:'engineering',label:'Processes & specifications'},{id:'quality-delivery',label:'Inspection & delivery'},{id:'case-studies',label:'Case studies & further resources'}];
+---
+<Layout title="CNC Machining FAQ" cta={false}>
+ <article class="fq-page reading-page">
+  <ReadingHeader title="Custom CNC machining FAQ" description="What to send for a quote, how production time is counted, and which inspection and shipping details to agree before ordering." breadcrumbs={[{label:'Resources',href:'/resources/'},{label:'Frequently asked questions'}]}/>
+  <PageContents entries={contents} label="FAQ topics"/>
+  <section class="fq-wrap fq-quick-facts" aria-label="Quick facts">
+   <dl class="fq-quick"><div><dt>Minimum order</dt><dd>From 1 piece</dd><p>Share first-order and expected repeat quantities for separate quotes.</p></div><div><dt>Production</dt><dd>7–14 business days</dd><p>After drawing and order confirmation, including surface finishing. Shipping time is additional.</p></div><div><dt>To quote</dt><dd>Drawing + specifications</dd><p>Send drawing revision, units, material, finish, quantity and destination.</p></div></dl>
+  </section>
+  <section class="fq-wrap fq-section reading-section" id="ordering" aria-labelledby="ordering-title"><h2 id="ordering-title">Quotes &amp; ordering</h2>
+   {groups[0].items.slice(0,2).map((item,index)=><div class="fq-row" id={'ordering-'+(index+1)}><h3>{item.question}</h3><p>{item.answer}</p></div>)}
+  </section>
+  <section class="fq-wrap fq-section fq-preparing reading-section" id="preparing" aria-labelledby="preparing-title"><h2 id="preparing-title">Preparing a quotation</h2><div class="fq-prepare-grid">
+   <div class="fq-inputs" id="ordering-3"><h3>{groups[0].items[2].question}</h3><div><p>Please provide the following information:</p><ul>{quoteInputs.map(input=><li>{input}</li>)}</ul></div></div>
+   <div class="fq-draft" id="ordering-4"><h3>{groups[0].items[3].question}</h3><p>{groups[0].items[3].answer}</p></div>
+  </div></section>
+  <section class="fq-wrap fq-section reading-section" id="engineering" aria-labelledby="engineering-title"><h2 id="engineering-title">Processes &amp; specifications</h2>
+   {groups[1].items.map((item,index)=><div class="fq-row" id={'engineering-'+(index+1)}><h3>{item.question}</h3><p>{item.answer}</p></div>)}
+  </section>
+  <section class="fq-band reading-section" id="quality-delivery" aria-labelledby="quality-delivery-title"><div class="fq-wrap fq-section"><h2 id="quality-delivery-title">Inspection &amp; delivery</h2>
+   {groups[2].items.slice(0,3).map((item,index)=><div class="fq-row" id={'quality-delivery-'+(index+1)}><h3>{item.question}</h3><p>{item.answer}</p></div>)}
+  </div></section>
+  <section class="fq-wrap fq-section fq-case reading-section" id="case-studies" aria-labelledby="case-title"><h2 id="case-title">Case studies &amp; further resources</h2><div class="fq-row" id="quality-delivery-4"><h3>{groups[2].items[3].question}</h3><p>{groups[2].items[3].answer}</p></div></section>
+  <section class="fq-wrap reading-related" aria-label="Helpful resources">
+   <div class="fq-resources"><h3>Helpful resources</h3><nav aria-label="Helpful resources">{resources.map(([title,description,href])=><a href={href}><div><strong>{title}</strong><span>{description}</span></div><Arrow size={17}/></a>)}</nav></div>
+   <div class="fq-further"><a href={groups[0].items[0].href}>Prototypes and repeat batches <Arrow size={15}/></a><a href={groups[0].items[1].href}>How to order <Arrow size={15}/></a><a href="/capabilities/">Explore machining services <Arrow size={15}/></a><a href="/quality/#quality-management">Supplier qualification <Arrow size={15}/></a></div>
+  </section>
+  <section class="fq-wrap reading-closing"><a class="fq-primary" href={quoteHref}>Prepare RFQ email <Arrow size={17}/></a></section>
+ </article>
+</Layout>
+<style>
+ .fq-page{--fq-line:#d9dfe4}.fq-page .fq-wrap{width:calc(100% - 128px);max-width:1280px;margin-inline:auto}.fq-page [id]{scroll-margin-top:110px}.fq-quick-facts{margin-block:24px}.fq-quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:0;padding-block:20px;border-block:1px solid var(--fq-line)}.fq-quick dt{margin-bottom:8px}.fq-quick dd{margin:0}.fq-quick p{margin-top:12px}
+ .fq-row,.fq-inputs,.fq-draft{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr);gap:20px 32px;padding-block:24px;border-top:1px solid var(--fq-line)}.fq-row h3,.fq-inputs h3,.fq-draft h3{max-width:25ch}.fq-row p,.fq-draft p{max-width:67ch}.fq-inputs ul{padding-left:20px;margin:12px 0 0}.fq-inputs li{margin:4px 0}.fq-band{background:#f0f2f4}
+ .fq-resources h3{margin-bottom:16px}.fq-resources nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}.fq-resources a{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:14px 0;border-bottom:1px solid var(--fq-line)}.fq-resources strong,.fq-resources span{display:block}.fq-resources span{margin-top:5px}.fq-resources a:hover,.fq-further a:hover{color:var(--red)}.fq-further{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.fq-further a{display:flex;align-items:center;gap:16px;border:1px solid var(--fq-line);padding:8px 12px;min-height:44px}
+ @media(max-width:1100px){.fq-page .fq-wrap{width:calc(100% - 64px)}.fq-quick{gap:20px}}
+ @media(max-width:760px){.fq-page .fq-wrap{width:calc(100% - 40px)}.fq-quick{grid-template-columns:1fr;gap:0;padding-block:0}.fq-quick>div{padding-block:18px}.fq-quick>div+div{border-top:1px solid var(--fq-line)}.fq-row,.fq-inputs,.fq-draft{grid-template-columns:1fr;gap:12px}.fq-row h3,.fq-inputs h3,.fq-draft h3{max-width:none}.fq-resources nav{grid-template-columns:1fr}.fq-further{display:grid;grid-template-columns:1fr}}
+</style>

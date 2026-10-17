@@ -1,0 +1,89 @@
+[
+  {
+    "width": 390,
+    "route": "/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 390,
+    "route": "/products/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 390,
+    "route": "/factory/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 390,
+    "route": "/quality/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 768,
+    "route": "/products/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 768,
+    "route": "/factory/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 768,
+    "route": "/quality/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 1440,
+    "route": "/products/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 1440,
+    "route": "/factory/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "width": 1440,
+    "route": "/quality/",
+    "overflow": 0,
+    "font": "\"Inter Variable\", Arial, sans-serif",
+    "weight": "550"
+  },
+  {
+    "reducedMotion": "auto"
+  }
+]

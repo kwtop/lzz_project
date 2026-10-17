@@ -1,0 +1,148 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Aluminum intercooler prototypes
+    - complementary:
+      - heading "Aluminum intercooler prototypes" [level=1]
+      - paragraph: Aluminum cooling prototypes · CNC + TIG welding
+      - 'link "View full-size image: Aluminum intercooler prototypes"':
+        - /url: /media/responsive/catalog-12-cutout-v1-1200.webp
+        - img "Intercooler prototypes"
+      - navigation "On this page":
+        - link "01 Part requirements":
+          - /url: "#fit-review"
+          - generic: "01"
+          - text: Part requirements
+        - link "02 Material & finish":
+          - /url: "#part-information"
+          - generic: "02"
+          - text: Material & finish
+        - link "03 Drawing review":
+          - /url: "#drawing-review"
+          - generic: "03"
+          - text: Drawing review
+    - heading "Core fitment and welded connections" [level=2]
+    - paragraph: Intercooler and cooling-system prototypes for vehicle fitment development.
+    - term: Part features
+    - definition: End tanks, inlet and outlet ports, cooling cores and welded joints.
+    - term: Review focus
+    - definition: Show the end tanks and port orientation relative to the core. Identify supplied components and distinguish CNC machining from TIG joining in the scope.
+    - link "Request a quote":
+      - /url: /quote/?part=Aluminum+intercooler+prototypes&product=custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier&source=%2Fproducts%2Fcustom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier%2F
+    - paragraph: Have a drawing? Add it to your inquiry email.
+    - heading "Manufacturing options" [level=2]
+    - term: Materials
+    - definition: Aluminum 6061 and 3003 options. Confirm the grade for each component.
+    - term: Machining
+    - definition: CNC machining combined with TIG welding.
+    - term: Surface finish
+    - definition: Mirror polishing, brushing, powder coating or anodizing.
+    - paragraph: Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+    - heading "A closer look at the form" [level=2]
+    - paragraph: End tanks, inlet and outlet ports, cooling cores and welded joints.
+    - figure "Original reference photograph of an intercooler form with its fins and end tanks.":
+      - 'link "View full image: Original reference photograph of an intercooler form with its fins and end tanks."':
+        - /url: /media/source-details/intercooler-original-1200.webp
+        - img "Original reference photograph of an intercooler form with its fins and end tanks."
+      - generic: Original reference photograph of an intercooler form with its fins and end tanks.
+    - figure "Reference photograph showing repeated machined cooling-component features.":
+      - 'link "View full image: Reference photograph showing repeated machined cooling-component features."':
+        - /url: /media/source-details/intercooler-batch-detail-1200.webp
+        - img "Reference photograph showing repeated machined cooling-component features."
+      - generic: Reference photograph showing repeated machined cooling-component features.
+    - heading "Drawing and inspection requirements" [level=2]:
+      - text: Drawing and
+      - text: inspection requirements
+    - link "Quality & inspection":
+      - /url: /quality/
+    - term: Geometry & interfaces
+    - definition: Define end-tank geometry, port orientation, mounting points and interfaces between machined and welded components.
+    - term: Material & finish
+    - definition: Specify the material grade, condition, finish and any masked areas.
+    - term: Quantity
+    - definition: State the prototype or batch quantity and required schedule.
+    - term: Inspection requirements
+    - definition: Agree post-fabrication interface checks and any pressure or leak-test method, medium and acceptance criteria.
+    - link "Prepare an RFQ email":
+      - /url: /quote/?part=Aluminum+intercooler+prototypes&product=custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier&source=%2Fproducts%2Fcustom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier%2F
+    - paragraph:
+      - strong: From 1 piece · 7–14 business days
+      - text: From drawing and order confirmation, including surface finishing; transit is additional.
+    - generic "Additional drawing and order notes"
+    - navigation "Related parts":
+      - heading "Compare part requirements" [level=3]
+      - link "Billet aluminum intake plenums A machined internal volume and throttle flange. An intercooler also needs core and weld-joint definitions.":
+        - /url: /products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/
+        - generic: Billet aluminum intake plenums
+        - generic: A machined internal volume and throttle flange. An intercooler also needs core and weld-joint definitions.
+      - link "Intake prototypes Runner-to-flange and piping interfaces alongside the cooling assembly.":
+        - /url: /products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/
+        - generic: Intake prototypes
+        - generic: Runner-to-flange and piping interfaces alongside the cooling assembly.
+    - generic "Related machining processes"
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

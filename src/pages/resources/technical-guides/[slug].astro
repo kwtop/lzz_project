@@ -1,0 +1,8 @@
+---
+import ResourceGuidePage from '../../../components/ResourceGuidePage.astro';
+import {resources} from '../../../data/resources';
+import {resourceLibrary} from '../../../data/resourceLibrary';
+export function getStaticPaths(){return resourceLibrary.filter(guide=>guide.group==='machining').map(guide=>({params:{slug:guide.slug},props:{article:resources.find(article=>article.slug===guide.slug)!}}));}
+const {article}=Astro.props;
+---
+<ResourceGuidePage article={article}/>

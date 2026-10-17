@@ -1,0 +1,199 @@
+/* Apple Design: hierarchy, proximity, legible type and responsive feedback.
+ * Retains Inter, brand colors, content and native controls. Public Layout only.
+ * The role overrides supersede the existing shared !important type metrics.
+ */
+body.brand-site.finesse-redesigned.apple-layout {
+  --layout-width: 1200px;
+  --layout-gutter: 48px;
+  --layout-gap: 56px;
+  --layout-section-space: 80px;
+  --layout-intro-space: 56px;
+  --layout-crumb-space: 20px;
+  --reading-section-space: 48px;
+  --type-h1-size: clamp(2.25rem, 1.65rem + 2.8vw, 3.75rem);
+  --type-h2-size: clamp(1.75rem, 1.3rem + 1.7vw, 2.625rem);
+  --type-h3-size: clamp(1.25rem, 1.1rem + .65vw, 1.625rem);
+  --type-display-size: clamp(2.5rem, 1.75rem + 3.5vw, 4.75rem);
+  --action-radius: 6px;
+  font-optical-sizing: auto;
+}
+body.brand-site.finesse-redesigned.apple-layout :is(h1,h2) {
+  font-weight: 550 !important;
+  letter-spacing: -.025em !important;
+}
+body.brand-site.finesse-redesigned.apple-layout h1 {line-height:1.08 !important; max-width:24ch !important}
+body.brand-site.finesse-redesigned.apple-layout h2 {line-height:1.16 !important}
+body.brand-site.finesse-redesigned.apple-layout h3 {font-weight:550 !important}
+body.brand-site.finesse-redesigned.apple-layout :is(main p,main li) {text-wrap:pretty}
+body.brand-site.finesse-redesigned.apple-layout :is(main section,main aside,main figure,main form,main label) {min-width:0}
+body.brand-site.finesse-redesigned.apple-layout main [id] {scroll-margin-top:104px}
+
+/* Navigation is a quiet functional layer with a fixed, reliable content axis. */
+body.brand-site.finesse-redesigned.apple-layout .site-header {height:80px;background:rgba(250,250,250,.94);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+body.brand-site.finesse-redesigned.apple-layout .header-inner {display:flex;align-items:center;gap:24px;height:100%;padding-inline:0;max-width:var(--layout-width);width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2));min-width:0}
+body.brand-site.finesse-redesigned.apple-layout .header-inner>.brand {flex:0 0 auto}
+body.brand-site.finesse-redesigned.apple-layout #main-nav {gap:20px;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout #main-nav>details>summary {font-size:.875rem !important;font-weight:500 !important}
+body.brand-site.finesse-redesigned.apple-layout .site-header .header-quote {font-size:.875rem !important;padding:12px 18px;min-height:44px}
+body.brand-site.finesse-redesigned.apple-layout.home-refined .site-header {background:rgba(15,18,20,.7)}
+body.brand-site.finesse-redesigned.apple-layout #main-nav .nav-panel {border-radius:10px;box-shadow:0 16px 40px #17212a1a}
+body.brand-site.finesse-redesigned.apple-layout #main-nav .nav-panel a {border-radius:5px}
+body.brand-site.finesse-redesigned.apple-layout :is(.button,.er-button,.cap-button,.ab-button,button.text-link) {touch-action:manipulation;transition:background-color 150ms ease,color 150ms ease,transform 100ms ease-out}
+body.brand-site.finesse-redesigned.apple-layout :is(.button,.er-button,.cap-button,.ab-button):not(:disabled):active {transform:scale(.98)}
+
+/* Home: shorten the opening, then let products and evidence carry the page. */
+body.brand-site.finesse-redesigned.apple-layout .precision-hero {min-height:720px;height: min(860px, 90svh)}
+body.brand-site.finesse-redesigned.apple-layout .precision-message {padding-block:9rem 8rem}
+body.brand-site.finesse-redesigned.apple-layout .precision-message h1 {max-width:23ch !important}
+body.brand-site.finesse-redesigned.apple-layout .precision-message>p {margin-block:24px 28px}
+body.brand-site.finesse-redesigned.apple-layout .hero-baseline {justify-content:space-between;gap:24px;bottom:26px}
+body.brand-site.finesse-redesigned.apple-layout .editorial-home {--ed-space:5rem;--ed-gap:3.5rem}
+body.brand-site.finesse-redesigned.apple-layout .ed-heading {gap:32px;margin-bottom:32px}
+body.brand-site.finesse-redesigned.apple-layout .ed-product-grid {gap:28px}
+body.brand-site.finesse-redesigned.apple-layout .ed-product-image {background:#f5f6f6;border-radius:12px;padding:20px;aspect-ratio:1.1;overflow:hidden}
+body.brand-site.finesse-redesigned.apple-layout .ed-product h3 {border-top:0;padding-top:0;margin-top:20px;font-size:1.25rem !important}
+body.brand-site.finesse-redesigned.apple-layout .home-capability-review {grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:56px}
+body.brand-site.finesse-redesigned.apple-layout .home-capability-copy {border-left:0;padding-left:0}
+body.brand-site.finesse-redesigned.apple-layout .home-capability-photo img {border-radius:12px;max-height:560px;min-height:400px}
+body.brand-site.finesse-redesigned.apple-layout .home-inspection-row {border-radius:12px;overflow:hidden}
+body.brand-site.finesse-redesigned.apple-layout .home-workshop-panorama img {aspect-ratio:2.8;border-radius:12px 12px 0 0}
+body.brand-site.finesse-redesigned.apple-layout .home-workshop-summary {padding:28px 32px;border-radius:0 0 12px 12px}
+body.brand-site.finesse-redesigned.apple-layout .home-rfq-panel {border-radius:12px;padding:48px;gap:48px}
+
+/* Catalog: controls form one group; images and names are one reading unit. */
+body.brand-site.finesse-redesigned.apple-layout .catalog-heading {max-width:var(--layout-width);padding-bottom:0}
+body.brand-site.finesse-redesigned.apple-layout .catalog-route-links {padding-block:24px 0}
+body.brand-site.finesse-redesigned.apple-layout .catalog-section {padding-top:36px}
+body.brand-site.finesse-redesigned.apple-layout .explorer .filter-row {margin-bottom:20px}
+body.brand-site.finesse-redesigned.apple-layout .explorer .search {width:min(100%,520px);background:#fff;border-radius:8px;min-height:50px}
+body.brand-site.finesse-redesigned.apple-layout .catalog-facets {gap:20px}
+body.brand-site.finesse-redesigned.apple-layout .results-meta {margin-block:24px}
+body.brand-site.finesse-redesigned.apple-layout .product-grid {gap:40px 28px}
+body.brand-site.finesse-redesigned.apple-layout .product-card .product-image {border:0;background:#f0f2f3;border-radius:12px;padding:16px;aspect-ratio:1.12}
+body.brand-site.finesse-redesigned.apple-layout .product-card h3 {border-top:0;padding-top:0;margin-top:18px;font-size:1.125rem !important}
+body.brand-site.finesse-redesigned.apple-layout .product-card .product-card-context {font-size:.875rem !important;margin-top:8px;line-height:1.5 !important}
+
+/* Product: generous image column and a calmer technical hierarchy. */
+body.brand-site.finesse-redesigned.apple-layout .er-overview {grid-template-columns:minmax(0,44fr) minmax(0,56fr);gap:56px}
+body.brand-site.finesse-redesigned.apple-layout .er-identity {border-right:0;padding:0}
+body.brand-site.finesse-redesigned.apple-layout .er-main {padding-left:0}
+body.brand-site.finesse-redesigned.apple-layout .er-identity h1 {font-size:clamp(2.125rem,1.55rem + 2vw,3rem) !important;margin-bottom:16px}
+body.brand-site.finesse-redesigned.apple-layout .er-identity>p {font-size:1.0625rem !important}
+body.brand-site.finesse-redesigned.apple-layout .er-visual {order:1}
+body.brand-site.finesse-redesigned.apple-layout .er-identity-action {order:2;margin-block:24px}
+body.brand-site.finesse-redesigned.apple-layout .er-product-image {margin:24px 0 0;padding:20px;background:#f5f6f6;border-radius:12px;overflow:hidden}
+body.brand-site.finesse-redesigned.apple-layout .er-product-image img {aspect-ratio:1.15;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout .er-headline {font-size:clamp(1.75rem,1.3rem + 1.5vw,2.5rem) !important;line-height:1.16 !important;margin-bottom:20px}
+body.brand-site.finesse-redesigned.apple-layout .er-lead {font-size:1.0625rem !important;margin-bottom:28px}
+body.brand-site.finesse-redesigned.apple-layout .er-options h2 {font-size:1.5rem !important;margin-bottom:20px}
+body.brand-site.finesse-redesigned.apple-layout .er-table>div {grid-template-columns:minmax(0,30fr) minmax(0,70fr)}
+body.brand-site.finesse-redesigned.apple-layout .er-table dt {background:transparent;border-right:0;padding-left:0;color:var(--muted)}
+body.brand-site.finesse-redesigned.apple-layout .er-table dd {padding-right:0}
+body.brand-site.finesse-redesigned.apple-layout .er-index {gap:0;margin-top:8px}
+body.brand-site.finesse-redesigned.apple-layout .er-drawing {grid-template-columns:minmax(0,44fr) minmax(0,56fr);gap:56px;border-top:1px solid var(--border)}
+body.brand-site.finesse-redesigned.apple-layout .er-drawing>header {padding-right:0}
+body.brand-site.finesse-redesigned.apple-layout .er-drawing>div {padding-left:0}
+
+/* Evidence-led pages keep their individual compositions on the shared grid. */
+body.brand-site.finesse-redesigned.apple-layout .cap-hero-grid {grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;min-height:480px}
+body.brand-site.finesse-redesigned.apple-layout .cap-hero-image img {height:360px;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout :is(.cap-section-head,.ft-heading) {align-items:start}
+body.brand-site.finesse-redesigned.apple-layout .cap-products {gap:40px}
+body.brand-site.finesse-redesigned.apple-layout :is(.cap-products figure,.ab-overview figure,.ft-gallery figure) img {border-radius:10px}
+body.brand-site.finesse-redesigned.apple-layout .ab-overview {grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:center}
+body.brand-site.finesse-redesigned.apple-layout .ab-history {gap:28px}
+body.brand-site.finesse-redesigned.apple-layout .ab-history h3 {font-size:1.25rem !important}
+body.brand-site.finesse-redesigned.apple-layout .ab-history p {font-size:.9375rem !important}
+body.brand-site.finesse-redesigned.apple-layout .closing-inner {align-items:center;gap:48px}
+body.brand-site.finesse-redesigned.apple-layout .closing-inner h2 {margin-bottom:16px}
+body.brand-site.finesse-redesigned.apple-layout footer .footer-bottom {width:100%;max-width:none;display:flex;justify-content:space-between;gap:24px}
+body.brand-site.finesse-redesigned.apple-layout footer .footer-bottom span {max-width:none}
+
+/* Reading is deliberately narrower than a product or image spread. */
+body.brand-site.finesse-redesigned.apple-layout[data-page-template=read] {--type-h1-size:clamp(2.125rem,1.65rem + 2.2vw,3.375rem);--type-h2-size:clamp(1.5rem,1.2rem + 1.2vw,2rem)}
+body.brand-site.finesse-redesigned.apple-layout .reading-header {padding-block:56px 40px}
+body.brand-site.finesse-redesigned.apple-layout .finesse-article-reading.with-toc {grid-template-columns:220px minmax(0,760px);gap:64px}
+body.brand-site.finesse-redesigned.apple-layout .reading-contents--sidebar {position:sticky;top:104px;align-self:start;max-height:calc(100svh - 128px);overflow:auto}
+body.brand-site.finesse-redesigned.apple-layout .prose :is(p,li) {max-width:65ch !important}
+body.brand-site.finesse-redesigned.apple-layout .reading-related {margin-top:16px}
+
+/* Operate: make the request easy to enter, with supporting information quieter. */
+body.brand-site.finesse-redesigned.apple-layout .quote-layout {grid-template-columns:minmax(0,30fr) minmax(0,70fr);gap:56px}
+body.brand-site.finesse-redesigned.apple-layout .quote-form-column {padding-left:0;border-left:0}
+body.brand-site.finesse-redesigned.apple-layout .quote-support {padding-right:0}
+body.brand-site.finesse-redesigned.apple-layout .quote-support h2 {font-size:1.625rem !important}
+body.brand-site.finesse-redesigned.apple-layout .form-grid {gap:24px}
+body.brand-site.finesse-redesigned.apple-layout .form-grid label {max-width:none !important;width:100%}
+body.brand-site.finesse-redesigned.apple-layout .form-grid :is(input,select,textarea) {width:100%;max-width:none !important}
+body.brand-site.finesse-redesigned.apple-layout .form-grid .full {grid-column:1/-1}
+body.brand-site.finesse-redesigned.apple-layout :is(input,select,textarea) {border-radius:8px;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout .form-grid :is(input,select) {min-height:52px}
+body.brand-site.finesse-redesigned.apple-layout .form-grid textarea {min-height:160px;resize:vertical}
+
+@media(max-width:1100px) {
+ body.brand-site.finesse-redesigned.apple-layout {--layout-gutter:32px;--layout-gap:36px;--layout-section-space:64px;--layout-intro-space:48px}
+ body.brand-site.finesse-redesigned.apple-layout .header-inner {gap:16px}
+ body.brand-site.finesse-redesigned.apple-layout #main-nav {gap:12px}
+ body.brand-site.finesse-redesigned.apple-layout #main-nav>details>summary {font-size:.8125rem !important}
+ body.brand-site.finesse-redesigned.apple-layout :is(.er-overview,.er-drawing,.home-capability-review,.quote-layout) {gap:36px}
+ body.brand-site.finesse-redesigned.apple-layout .finesse-article-reading.with-toc {grid-template-columns:190px minmax(0,1fr);gap:36px}
+}
+@media(max-width:960px) {
+ body.brand-site.finesse-redesigned.apple-layout .site-header #main-nav {top:80px;max-height:calc(100dvh - 80px);overflow-y:auto;margin:0}
+ body.brand-site.finesse-redesigned.apple-layout .site-header .header-quote {margin-left:auto}
+ body.brand-site.finesse-redesigned.apple-layout #main-nav>details>summary {font-size:1rem !important;min-height:48px}
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout {--layout-gutter:20px;--layout-gap:24px;--layout-section-space:48px;--layout-intro-space:32px;--layout-crumb-space:12px;--reading-section-space:32px;--type-body-size:1rem;--type-h1-size:clamp(2rem,1.6rem + 2vw,2.5rem);--type-display-size:clamp(2rem,1.7rem + 2vw,2.625rem)}
+ body.brand-site.finesse-redesigned.apple-layout .site-header {height:72px}
+ body.brand-site.finesse-redesigned.apple-layout .header-inner {gap:12px}
+ body.brand-site.finesse-redesigned.apple-layout .site-header #main-nav {top:72px;max-height:calc(100dvh - 72px)}
+ body.brand-site.finesse-redesigned.apple-layout .site-header .header-quote {font-size:.8125rem !important;padding:10px 12px}
+ body.brand-site.finesse-redesigned.apple-layout .menu-toggle {min-width:44px;min-height:44px}
+ body.brand-site.finesse-redesigned.apple-layout .precision-hero {min-height:660px;height:auto}
+ body.brand-site.finesse-redesigned.apple-layout .precision-message {padding-block:140px 180px}
+ body.brand-site.finesse-redesigned.apple-layout .precision-message h1 {font-size:var(--type-display-size) !important}
+ body.brand-site.finesse-redesigned.apple-layout .precision-message .button {width:auto;min-width:180px}
+ body.brand-site.finesse-redesigned.apple-layout .hero-baseline {display:flex;flex-wrap:wrap;gap:14px;bottom:24px}
+ body.brand-site.finesse-redesigned.apple-layout .editorial-home {--ed-space:3rem;--ed-gap:1.5rem}
+ body.brand-site.finesse-redesigned.apple-layout .ed-product-grid {gap:32px}
+ body.brand-site.finesse-redesigned.apple-layout .ed-product-image {aspect-ratio:1.3;padding:16px}
+ body.brand-site.finesse-redesigned.apple-layout .home-capability-review {grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout .home-capability-photo img {height:280px;min-height:0;max-height:none}
+ body.brand-site.finesse-redesigned.apple-layout .home-workshop-panorama img {aspect-ratio:1.5}
+ body.brand-site.finesse-redesigned.apple-layout .home-workshop-summary {padding:24px}
+ body.brand-site.finesse-redesigned.apple-layout .home-rfq-panel {padding:28px 24px;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout .product-grid {gap:28px 16px}
+ body.brand-site.finesse-redesigned.apple-layout .product-card .product-image {padding:8px;aspect-ratio:1;border-radius:8px}
+ body.brand-site.finesse-redesigned.apple-layout .product-card h3 {font-size:1rem !important;margin-top:12px}
+ body.brand-site.finesse-redesigned.apple-layout .product-card .product-card-context {font-size:.8125rem !important}
+ body.brand-site.finesse-redesigned.apple-layout :is(.er-overview,.er-drawing,.cap-hero-grid,.ab-overview,.quote-layout) {grid-template-columns:minmax(0,1fr);gap:32px}
+ body.brand-site.finesse-redesigned.apple-layout .er-identity h1 {font-size:var(--type-h1-size) !important}
+ body.brand-site.finesse-redesigned.apple-layout .er-product-image {margin-top:20px;padding:16px}
+ body.brand-site.finesse-redesigned.apple-layout .er-product-image img {height:260px;aspect-ratio:auto}
+ body.brand-site.finesse-redesigned.apple-layout .er-identity-action {margin-block:20px}
+ body.brand-site.finesse-redesigned.apple-layout .er-index {grid-template-columns:1fr;gap:0}
+ body.brand-site.finesse-redesigned.apple-layout .er-table>div {grid-template-columns:minmax(0,1fr)}
+ body.brand-site.finesse-redesigned.apple-layout .er-table dt {padding:16px 0 4px}
+ body.brand-site.finesse-redesigned.apple-layout .er-table dd {padding:4px 0 16px}
+ body.brand-site.finesse-redesigned.apple-layout .er-drawing {padding-top:48px}
+ body.brand-site.finesse-redesigned.apple-layout .cap-hero-grid {min-height:0}
+ body.brand-site.finesse-redesigned.apple-layout .cap-hero-image img {height:260px}
+ body.brand-site.finesse-redesigned.apple-layout .cap-products {gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout .finesse-article-reading.with-toc {display:block}
+ body.brand-site.finesse-redesigned.apple-layout .reading-contents--sidebar {position:static;max-height:none;margin-bottom:24px}
+ body.brand-site.finesse-redesigned.apple-layout .reading-header {padding-block:32px}
+ body.brand-site.finesse-redesigned.apple-layout .form-grid {grid-template-columns:1fr;gap:20px}
+ body.brand-site.finesse-redesigned.apple-layout .form-grid .full {grid-column:auto}
+ body.brand-site.finesse-redesigned.apple-layout .closing-inner {gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout footer .footer-bottom {flex-direction:column;gap:16px}
+}
+@media(prefers-reduced-motion:reduce) {
+ body.brand-site.finesse-redesigned.apple-layout {scroll-behavior:auto}
+ body.brand-site.finesse-redesigned.apple-layout :is(a,button,img) {animation:none !important;transition:none !important}
+ body.brand-site.finesse-redesigned.apple-layout :is(a,button):active {transform:none !important}
+}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more) {
+ body.brand-site.finesse-redesigned.apple-layout .site-header {background:#fafafa;backdrop-filter:none;-webkit-backdrop-filter:none}
+ body.brand-site.finesse-redesigned.apple-layout.home-refined .site-header {background:#171b1e}
+}

@@ -1,0 +1,11 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {productIdentity} from '../data/productIdentity';
+interface Props {part:RevisedCapability['parts'][number];eager?:boolean;class?:string;conciseCaption?:boolean;linked?:boolean;showCaption?:boolean}
+const {part,eager=false,class:className,conciseCaption=false,linked=true,showCaption=true}=Astro.props;
+const caption=part.origin==='original-subject-ai-background'?'Original source subject; AI-generated neutral background.':productIdentity(part.product.slug).label+(conciseCaption?'':' · '+part.title);
+---
+<figure class:list={['cx-part-figure',className]} data-image-origin={part.origin}>
+ {linked?<a href={part.href} aria-label={'View '+part.title}><img src={part.src} srcset={part.srcset} width={part.width} height={part.height} sizes="(max-width:767px) calc(100vw - 40px), 560px" alt={part.alt} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async"/></a>:<img src={part.src} srcset={part.srcset} width={part.width} height={part.height} sizes="(max-width:767px) calc(100vw - 40px), 560px" alt={part.alt} loading={eager?'eager':'lazy'} decoding="async"/>}
+ {showCaption&&<figcaption>{caption}</figcaption>}
+</figure>

@@ -1,0 +1,67 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {capabilityHeroPart,capabilityConcepts} from '../data/capabilityRebuild';
+import {capabilityReferences} from '../data/capabilityReferences';
+import {libraryGuide} from '../data/resourceLibrary';
+import {materialGuide} from '../data/capabilityRedesign';
+import {partDisplay} from '../data/capabilityDesign';
+import catalog from '../data/catalog.json';
+import CapabilityPartFigure from './CapabilityPartFigure.astro';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import CapabilityConcept from './CapabilityConcept.astro';
+import CapabilityApplications from './CapabilityApplications.astro';
+import '../styles/cnc-milling.css';
+interface Props {page:RevisedCapability;quoteHref:string}
+const {page,quoteHref}=Astro.props;
+const hero=capabilityHeroPart(page.slug);
+const cover=partDisplay(catalog.products.find(p=>p.slug==='custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier')!);
+const housing=page.parts.find(p=>p.product.slug==='small-batch-cnc-machining-manufacturer-complex-aluminum-housings')!;
+const instrument=page.parts.find(p=>p.product.slug==='custom-oem-high-precision-cnc-milling-manufacturer')!;
+const reference=capabilityReferences[page.slug][0];
+const setupPhotos=['two-stage-first','two-stage-second'];
+const requests=[
+ {name:'Drawing & material',items:['Current 3D model and drawing, part number, units and revision.','Material grade, stock condition and stock dimensions.']},
+ {name:'Geometry & setup',items:['Mating features, datums, holes, thin walls and permitted geometry or radius changes.','Clamping faces, tool-access limits and intended assembly or operating conditions.']},
+ {name:'Acceptance & delivery',items:['Finish, masking, post-treatment acceptance and any required tests or records.','Quantity, delivery destination and requested date.']},
+];
+---
+<div class="milling-page">
+ <section class="milling-hero" data-core-section="service" aria-labelledby="milling-title">
+  <header><h1 id="milling-title">{page.plan.title}</h1><p class="milling-lead">Blocks, brackets, housings and circular parts, CNC milled to your drawing. Prototypes and small production runs.</p><div class="milling-hero-actions"><a class="rd-button" href={quoteHref}>Prepare RFQ email</a><a class="rd-link" href="#part-examples">See milled parts</a></div><a class="milling-order-link" href="#order-conditions">Orders from 1 piece · timing conditions</a></header>
+  <CapabilityPartFigure part={hero} eager conciseCaption class="milling-hero-image"/>
+ </section>
+
+ <section class="milling-section milling-parts" id="part-examples" data-core-section="parts" aria-labelledby="milling-parts-title">
+  <header class="milling-heading"><h2 id="milling-parts-title">{page.plan.exampleHeading}</h2><p>{page.plan.exampleIntro}</p></header>
+  <div class="milling-part-pair">{[housing,cover].map(part=><article><CapabilityPartFigure part={part} linked={false} showCaption={false}/><h3><a href={part.href}>{part.title}</a></h3><p>{part.text}</p></article>)}</div>
+  <div class="milling-related"><p class="rd-note">Source reference photographs.</p><nav aria-label="Other milled forms"><a href={instrument.href}>{instrument.title}</a><a href="/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/">Multi-face components · limited photo detail</a></nav></div>
+ </section>
+
+ <section class="milling-section milling-practice" id="machining-studies" data-core-section="setups" aria-labelledby="milling-setups-title">
+  <header class="milling-heading"><h2 id="milling-setups-title">One part, two milling setups</h2><p>{page.plan.workflowIntro}</p></header>
+  <div class="milling-setup-pair">{page.plan.steps.slice(0,2).map((step,index)=><figure data-image-origin="original-photo-crop"><img src={'/media/products-real-details-20261015/'+setupPhotos[index]+'.webp'} width="752" height="540" alt={step.caption} loading="lazy" decoding="async"/><figcaption><h3>{step.title}</h3><p>{step.text}</p></figcaption></figure>)}</div>
+  <div class="milling-process-foot"><p>Two setups of the same part · original LZZ workshop photographs, cropped.</p>{page.study&&<a class="rd-link" href={page.study.href}>Review the two-setup example</a>}</div>
+ </section>
+
+ <section class="milling-section milling-drawing" id="geometry-review" data-core-section="drawing" aria-labelledby="milling-drawing-title">
+  <div class="milling-drawing-grid"><div><h2 id="milling-drawing-title">{page.plan.geometry.title}</h2><p>Define pocket depths, internal radii, hole positions and locating faces. We review the model, stock form, setup sequence and tool access for features machined from several directions. Mark geometry that may change if a longer tool or another setup would otherwise be needed.</p><h3 id="size-and-setup-review">Size and workholding</h3><p>{page.overview.workholding}</p></div><CapabilityConcept art={capabilityConcepts[page.slug]} class="milling-feature-image" sizes="(max-width:767px) 300px, 380px"/>
+  </div>
+  <div class="milling-scope-answers">{page.scopeQuestions.map(item=><div><h3>{item.question}</h3><p>{item.answer}</p></div>)}</div>
+ </section>
+
+ <section class="milling-section milling-materials" id="materials-finishes" data-core-section="materials" aria-labelledby="milling-materials-title"><header class="milling-heading"><h2 id="milling-materials-title">{page.plan.materialHeading||'Materials and finishing'}</h2><p>Specify grade, condition, finish and the final acceptance state together. These are discussion options; suitability and availability are confirmed for the drawing.</p></header>
+  <table class="rd-table rd-stacked milling-material-table"><thead><tr><th scope="col">Material &amp; specification</th><th scope="col">Finish / treatment</th><th scope="col">Confirm for this drawing</th></tr></thead><tbody>{page.plan.materials.map(row=><tr><th scope="row"><strong>{row.name}</strong><p>{row.grades}</p></th><td data-label="Finish / treatment">{row.finish}</td><td data-label="Drawing check">{row.review}</td></tr>)}</tbody></table>
+  <div class="milling-material-foot">{page.plan.materialNote&&<p>{page.plan.materialNote}</p>}<a class="rd-link" href={materialGuide}>Material and finish checklist</a></div>
+ </section>
+
+ <section class="milling-section milling-quality" id="engineering-fit" data-core-section="inspection" aria-labelledby="milling-quality-title">
+  <header class="milling-quality-heading"><h2 id="milling-quality-title">Define the critical features</h2><p class="milling-tolerance-value"><span>{reference.label}</span><strong>{reference.value}</strong></p><p>{reference.text}</p></header>
+  <table class="rd-table rd-stacked milling-inspection" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{page.acceptanceChecks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table>
+  <div class="milling-inspection-context"><CapabilityApplications slug={page.slug}/><a class="rd-link" href="/factory/#quality">Inspection methods, stages and records</a></div><CapabilityEvidence id="cmm-room" class="milling-cmm" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from the equipment records." sizes="(max-width:767px) 180px, 190px"/>
+ </section>
+
+ <section class="milling-section milling-rfq" id="enquiry" data-core-section="quotation" aria-labelledby="milling-rfq-title">
+  <div><h2 id="milling-rfq-title">{page.plan.rfqTitle}</h2><dl class="milling-request-list">{requests.map(group=><div><dt>{group.name}</dt><dd>{group.items.map(text=><p>{text}</p>)}</dd></div>)}</dl><a class="rd-link" href={libraryGuide('rfq-checklist').href}>RFQ preparation checklist</a></div>
+  <aside class="milling-order" id="order-conditions"><h3>Order & timing</h3><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7–14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.</p><a class="rd-button" href={quoteHref}>Prepare RFQ email</a><p class="rd-note">The website prepares a draft. Review it, attach drawings in your email application and send it yourself.</p></aside>
+ </section>
+</div>

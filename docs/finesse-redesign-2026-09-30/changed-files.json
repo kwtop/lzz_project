@@ -1,0 +1,22 @@
+{
+  "baseline": "before-source.zip",
+  "changedExistingFiles": [
+    "src/components/Gallery.tsx",
+    "src/components/HomeEditorial.astro",
+    "src/components/KnowledgeCategory.astro",
+    "src/layouts/Layout.astro",
+    "src/pages/about.astro",
+    "src/pages/factory.astro",
+    "src/pages/quality.astro",
+    "src/pages/insights/[slug].astro",
+    "src/pages/insights/index.astro",
+    "src/pages/products/[slug].astro",
+    "src/scripts/site-motion.ts"
+  ],
+  "addedImplementationFiles": [
+    "src/styles/finesse-redesign.css",
+    "design-model.yaml"
+  ],
+  "sourceTextAndBusinessProtection": "See content-verification.json",
+  "localSkillRecord": ".finesse/log.json; .gitignore updated"
+}

@@ -1,0 +1,43 @@
+# finesse redesign: existing LZZ industrial B2B site, 2026-09-30
+meta:
+  name: LZZ Precision
+  industry: custom CNC machining
+  register: brand with technical reading and RFQ workflow surfaces
+  persona: restrained industrial editorial
+  reason: real factory and part evidence, clear procurement decisions
+dials:
+  soul: 7
+  spectacle: 2
+  density: 6
+color:
+  bg: "#f6f7f6" # Cool paper: reading canvas, not an illustration of a material.
+  surface: "#ecefed" # Quiet grey: grouped facts and secondary panels.
+  ink: "#252b2d" # Graphite: primary text, high contrast on reading surfaces.
+  muted: "#49545a" # Steel grey: secondary text, never used for disabled-looking facts.
+  accent: "#cb1217" # LZZ red: primary actions and focus; no decorative accent drift.
+  on_accent: "#ffffff" # Existing button white: retained for contrast and identity.
+  border: "rgba(37,43,45,0.16)" # Hairline: grouping, not repeated card decoration.
+type:
+  display: Inter Variable
+  body: Inter Variable
+  reason: readable engineering details and continuity with the established LZZ site
+  display_weight: 550
+  body_weight: 400
+  display_tracking: "-0.035em"
+  display_leading: 1.08
+  body_leading: 1.65
+substrate:
+  grain_opacity: 0
+  grain_reason: source photographs already carry industrial texture; no decorative noise over technical reading
+  radius_scale: 3px
+  motion_easing: "cubic-bezier(.22,.7,.25,1)"
+hero_engine:
+  type: static image and CSS interaction feedback
+  reason: restrained and truthful brief; no spectacle engine promised
+  reduced_motion: remove interaction transitions and smooth scrolling
+structure:
+  container: 1140px
+  mobile_gutter: 16px
+  layout_families: [photographic hero, part grid, procurement overview, technical reading, compact resource index, source archive]
+  protected: [SEO text, metadata, H1 text, URLs, anchor IDs, business logic, CTA labels and destinations, source images, evidence disclosures]
+  imagery: existing local photographs and disclosed illustrations only

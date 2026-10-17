@@ -1,0 +1,70 @@
+---
+import '../styles/resources-reading.css';
+import Layout from '../layouts/Layout.astro';
+import ResourceGuideRedesign from './ResourceGuideRedesign.astro';
+import {isRedesigned} from '../data/redesignRollout';
+import ResourceVisual from './ResourceVisual.astro';
+import ResourceModule from './ResourceModule.astro';
+import ResourceLinks from './ResourceReadingLinks.astro';
+import ResourceCompactClosing from './ResourceCompactClosing.astro';
+import ResourceRfqWorkspace from './ResourceRfqWorkspace.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import {contentGuides} from '../data/contentGuides';
+import {resourceReading} from '../data/resourceReading';
+import {contentVisuals,type ContentVisual} from '../data/contentVisuals';
+import {photo} from '../data/evidence';
+import type {Resource} from '../data/resources';
+import {libraryGuide} from '../data/resourceLibrary';
+interface Props {article:Resource}
+const {article}=Astro.props;
+const guide=contentGuides[article.slug];
+const reading=resourceReading[article.slug];
+const first=guide.sections[0];
+const hasVisual=Boolean(reading.hero||reading.heroPhoto||reading.pair);
+const quoteHref='/quote/?'+new URLSearchParams({part:article.title}).toString();
+const preserveLastAnchor=['prototype-vs-small-batch-cnc','custom-cnc-parts-shipping-checklist','custom-cnc-machined-components-for-prototypes-and-production'].includes(article.slug);
+const articleImage=article.slug==='critical-features-cnc-drawing'?photo('multi-feature-milling-parts').src:reading.heroPhoto?photo(reading.heroPhoto).src:reading.hero&&reading.hero in contentVisuals?'/media/content-guides/'+contentVisuals[reading.hero as ContentVisual].name+'-1200.webp':reading.pair?'/media/resources/milling-geometry-v1-1200.webp':article.slug==='cnc-process-selection'?photo('turning-operation').src:article.slug==='custom-cnc-parts-shipping-checklist'?photo('shipping-example').src:undefined;
+const next:Record<string,string[]>={
+ 'rfq-checklist':['critical-features-cnc-drawing','compare-cnc-machining-quotations'],
+ 'compare-cnc-machining-quotations':['rfq-checklist','machined-prototype-approval-checklist'],
+ 'critical-features-cnc-drawing':['rfq-checklist','material-and-finish-checklist'],
+ 'machined-prototype-approval-checklist':['prototype-vs-small-batch-cnc','compare-cnc-machining-quotations'],
+ 'cnc-process-selection':['critical-features-cnc-drawing','material-and-finish-checklist'],
+ 'material-and-finish-checklist':['critical-features-cnc-drawing','cnc-process-selection'],
+ 'prototype-vs-small-batch-cnc':['machined-prototype-approval-checklist','custom-cnc-parts-shipping-checklist'],
+ 'custom-cnc-parts-shipping-checklist':['prototype-vs-small-batch-cnc','rfq-checklist'],
+};
+const related=(next[article.slug]||[]).map(slug=>{const guide=libraryGuide(slug);return [guide.title,guide.href] as [string,string];});
+---
+{isRedesigned(Astro.url.pathname)?<ResourceGuideRedesign article={article}/>:<Layout title={reading.title||guide.title||article.title} description={article.description} article={true} articleImage={articleImage} cta={false}>
+ <article class:list={['res-page','res-guide','res-guide-'+article.slug]}><DisclosureAnchors/>
+  <header class:list={['res-wrap','res-hero',hasVisual?'res-hero-visual':'res-hero-text',{'res-hero-small':reading.compact}]} data-resource-module>
+   <div class="res-hero-copy"><h1>{reading.title||guide.title||article.title}</h1><p>{reading.intro||guide.intro}</p>
+    {article.slug==='rfq-checklist'&&<ResourceLinks links={[
+     ['Use the inquiry template','#rfq-template'],
+    ]} label="RFQ template"/>}
+    {reading.mergeFirst&&<section class="res-hero-baseline" id={first.id}><h2>{first.title}</h2><div class="res-prose" set:html={first.html}/><ResourceLinks links={first.links}/></section>}
+   </div>
+   {reading.hero&&<ResourceVisual visual={reading.hero} eager/>}
+   {reading.pair&&<div class="res-hero-pair"><ResourceVisual visual="turning" eager/><ResourceVisual visual="milling" eager/></div>}
+   {reading.heroPhoto&&<figure class="res-hero-photo" data-image-origin="original-photo"><EvidenceImage id={reading.heroPhoto} loading="eager" sizes="(max-width:760px) calc(100vw - 40px), 560px"/><figcaption>Multi-feature machined parts · original LZZ photograph. Geometry reference; acceptance is defined by your drawing.</figcaption></figure>}
+  </header>
+  {article.slug==='rfq-checklist'?<ResourceRfqWorkspace/>:reading.modules.map(item=><ResourceModule section={item.section} layout={item.layout} visual={item.visual}/>)}
+  <aside class="res-wrap res-article-next" data-resource-module id="article-examples-title">
+   {preserveLastAnchor&&<span class="res-anchor" id="section-5"/>}
+   <h2>Related guides</h2><ResourceLinks links={related} label="Related practical guides"/>
+  </aside>
+  <ResourceCompactClosing title={guide.closing||'Discuss the requirements for your part'} href={quoteHref}/>
+ </article>
+</Layout>}
+<script>
+ const copyButton=document.querySelector<HTMLButtonElement>('[data-copy-rfq]');
+ copyButton?.addEventListener('click',async()=>{
+  const text=document.querySelector('.ce-request-brief')?.textContent||'';
+  const status=document.querySelector<HTMLElement>('.res-copy-status');
+  if(!text||!status)return;
+  try{await navigator.clipboard.writeText(text);status.textContent='Inquiry brief copied.';}
+  catch{status.textContent='Select the brief above and copy it.';}
+ });
+</script>

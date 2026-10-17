@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FactoryPhoto from './FactoryPhoto.astro';
+import RfqPanel from './RfqPanel.astro';
+import {factoryQuote,workshopMachines,inspectionStages,measurementMethods,orderRecords,qualificationFields,qualificationHref,reportHref} from '../data/factoryEditorial';
+import '../styles/factory-design.css';
+const quoteHref=factoryQuote('overview');
+const deliveryStages=[
+ ['Drawing & quotation','Confirm the drawing revision, material, finish and quantity.'],
+ ['Sample & approval','Agree any sample checks and release before production.'],
+ ['Production & inspection','Machine and inspect against the approved requirements.'],
+ ['Packing & shipment','Protect the parts and include the agreed records.'],
+];
+---
+<Layout title="CNC Factory & Quality Control in Hangzhou" description="Visit LZZ's Hangzhou workshop. Explore CNC machining setups, dimensional inspection, supplier documents and preparation for delivery." cta={false} headerQuoteHref={quoteHref}>
+<article class="factory-design fd-unified"><div class="fd-wrap">
+ <section class="fd-overview-hero" aria-labelledby="factory-title">
+  <header class="fd-overview-intro"><h1 id="factory-title">Factory &amp; quality</h1><div><p class="fd-lead">From the workshop floor to the final check.</p><p>See where your parts are machined, how critical features are inspected and which records to agree before production.</p></div></header>
+  <FactoryPhoto id="workshop-wide" caption="LZZ Precision machining workshop · Hangzhou, China" class="fd-overview-panorama" eager sizes="(max-width:760px) calc(100vw - 44px), 1280px"/>
+ </section>
+ <nav class="fd-page-nav" aria-label="Explore factory and quality"><a href="#workshop">Workshop</a><a href="#equipment">Equipment</a><a href="#quality">Quality</a><a href="#documents">Documents</a></nav>
+ <section class="fd-section" id="workshop" aria-labelledby="workshop-title">
+  <header class="fd-section-head"><h2 id="workshop-title">Inside our Hangzhou workshop</h2><p>Custom CNC parts for prototypes and small production runs, with milling, turning and multi-axis machining under one roof.</p></header>
+  <div class="fd-factory-profile"><FactoryPhoto id="workshop-operators-2025" caption="Operators on the LZZ production floor · source archive, November 2025" sizes="(max-width:760px) calc(100vw - 44px), 540px"/><div>
+   <dl class="fd-simple-list" id="production-capacity"><div><dt>Established</dt><dd>2017 · Hangzhou, China</dd></div><div><dt>Production facility</dt><dd>1,500 m² workshop</dd></div><div><dt>Equipment</dt><dd>40+ machining and supporting units</dd></div><div><dt>Engineering team</dt><dd>More than 15 years of CNC machining experience</dd></div></dl>
+   <details class="fd-disclosure"><summary>Production capacity &amp; timing</summary><div><p>Reference capacity is about 100,000 small parts per month. Output varies with geometry, material, finishing and the mix of orders.</p><p>Orders start at 1 piece. Production takes 7–14 business days after drawing and order confirmation, including finishing. Shipping time is additional; confirm your schedule in the quotation.</p></div></details>
+  </div></div>
+ </section>
+ <section class="fd-section" id="equipment" aria-labelledby="equipment-title">
+  <header class="fd-section-head"><h2 id="equipment-title">Equipment for the shape of your part</h2><p>Bores, pockets, threads and angled faces call for different setups. These photographs show machining in the LZZ workshop.</p></header>
+  <div class="fd-equipment-grid">{workshopMachines.map(machine=><article><FactoryPhoto id={machine.photo} caption={machine.caption} sizes="(max-width:760px) calc(100vw - 44px), 360px"/><h3>{machine.name}</h3><p>{machine.text}</p><p class="fd-small">{machine.parts}</p><a class="fd-link" href={machine.href}>{machine.action}</a></article>)}</div>
+  <details class="fd-disclosure" id="equipment-review"><summary>Will my part fit the equipment?</summary><div><p>Send finished-part and stock dimensions, weight and clamping restrictions. We review machine travel, load, tool access and workholding against your drawing. Request relevant machine models and specifications for supplier qualification; the equipment count includes supporting units.</p></div></details>
+ </section>
+ <section class="fd-section" id="quality" aria-labelledby="quality-title">
+  <header class="fd-section-head"><h2 id="quality-title">Checks from the first part to final release</h2><p>Your drawing defines the critical features, datums and acceptance limits. Agree the measurement methods and records before machining begins.</p></header>
+  <div class="fd-quality-overview"><FactoryPhoto id="cmm-room" caption="Coordinate measuring machine · original LZZ inspection photograph" sizes="(max-width:760px) 280px, 360px"/><ol class="fd-check-stages" id="inspection-process">{inspectionStages.map(stage=><li><h3>{stage.title}</h3><p>{stage.text}</p></li>)}</ol></div>
+  <details class="fd-disclosure" id="inspection-equipment"><summary>Measurement methods &amp; setup</summary><div>
+   <div class="fd-measurement-concept"><figure class="fd-illustration" data-image-origin="AI-generated"><img src="/media/factory-unified-20261015/inspection-concept-1200.webp" srcset={[480,800,1200,1536].map(w=>`/media/factory-unified-20261015/inspection-concept-${w}.webp ${w}w`).join(', ')} width="1536" height="1024" sizes="(max-width:760px) calc(100vw - 44px), 480px" alt="Conceptual machined block held on supports while a touch probe checks its bore" loading="lazy" decoding="async"/><figcaption>AI-generated inspection concept. Actual supports and measurement methods follow the drawing.</figcaption></figure><div><h3>The setup matters as much as the instrument</h3><p>Support the part consistently, establish the drawing datums and identify the surfaces to measure. Confirm whether acceptance applies before or after finishing.</p><p>Request the instrument range and calibration evidence relevant to your project.</p></div></div>
+   <table class="fd-table" id="measurement-methods"><thead><tr><th scope="col">Feature</th><th scope="col">Method</th><th scope="col">Agree for the drawing</th></tr></thead><tbody>{measurementMethods.map(([feature,method,agreement])=><tr><th scope="row">{feature}</th><td data-label="Method">{method}</td><td data-label="Agree for the drawing">{agreement}</td></tr>)}</tbody></table>
+  </div></details>
+  <details class="fd-disclosure"><summary>Sampling, approval &amp; final acceptance</summary><div><ul class="fd-acceptance-list">{inspectionStages.map(stage=><li><strong>{stage.title}:</strong> {stage.agreement}</li>)}</ul><a class="fd-link" href="/resources/technical-guides/critical-features-cnc-drawing/">Prepare critical drawing requirements</a></div></details>
+ </section>
+ <section class="fd-section" id="documents" aria-labelledby="documents-title">
+  <header class="fd-section-head"><h2 id="documents-title">Reports and supplier documents</h2><p>Specify the documents you need in the quotation, so the records match your part, drawing revision and acceptance plan.</p></header>
+  <div class="fd-document-columns"><div id="inspection-records"><h3>Inspection &amp; order records</h3><dl class="fd-simple-list">{orderRecords.map(([record,content])=><div><dt>{record}</dt><dd>{content}</dd></div>)}</dl><div class="fd-actions"><a class="fd-link" href={reportHref}>Request a sample inspection report</a><a class="fd-link" href="/downloads/order-acceptance-checklist.txt" download>Download acceptance checklist</a></div></div><div id="quality-management"><h3>ISO 9001 certification</h3><p>LZZ is ISO 9001 certified. Request the current certificate and scope for your supplier review.</p><a class="fd-link" href={qualificationHref}>Request the ISO certificate</a><details class="fd-disclosure"><summary>What to verify in the documents</summary><div><dl class="fd-simple-list">{qualificationFields.map(([title,text])=><div><dt>{title}</dt><dd>{text}</dd></div>)}</dl></div></details><p class="fd-small">Current calibration evidence and report availability are confirmed for your project.</p></div></div>
+  <details class="fd-disclosure" id="order-documentation"><summary>Traceability and report details</summary><div><dl class="fd-simple-list">{orderRecords.map(([record,,reference])=><div><dt>{record}</dt><dd>{reference}</dd></div>)}</dl></div></details>
+ </section>
+ <section class="fd-section" id="delivery" aria-labelledby="delivery-title">
+  <header class="fd-section-head"><h2 id="delivery-title">Ready for the next step</h2><p>Drawing approval, inspection and packing connect the workshop to your delivery requirements.</p></header>
+  <ol class="fd-delivery-steps" id="workflow">{deliveryStages.map(([title,text])=><li><h3>{title}</h3><p>{text}</p></li>)}</ol>
+  <div class="fd-dispatch" id="order-deliverables"><FactoryPhoto id="shipping-example" caption="Protected parts prepared for dispatch · source archive, November 2022" sizes="(max-width:760px) calc(100vw - 44px), 360px"/><div><h3>Protect the surfaces that matter</h3><p>Agree protection for sealing faces, threads and visible surfaces, with part identification and the required documents. Packing and delivery responsibilities follow your quotation.</p><div class="fd-actions"><a class="fd-link" href="/resources/ordering/">Drawing, approval &amp; delivery guide</a><a class="fd-link" href="/resources/ordering/custom-cnc-parts-shipping-checklist/">Packing &amp; shipping checklist</a></div></div></div>
+ </section>
+ <RfqPanel title="Discuss your part with LZZ" description="Send your drawing, material, quantity and acceptance requirements." href={quoteHref} contained/>
+</div></article>
+</Layout>
+<script>
+ const aliases:Record<string,string>={'factory-overview-title':'factory-title','workshop-photographs':'workshop','inspection':'quality','inspection-title':'quality','methods-title':'inspection-equipment','inspection-process-title':'inspection-process','records-title':'inspection-records','qualification-title':'quality-management','workflow-title':'workflow','factory-questions':'delivery','questions-title':'delivery','factory-rfq-title':'prepare-rfq','prepare-email':'prepare-rfq','section-pages-title':'workshop','factory-explore-title':'workshop','factory-review-title':'workshop','factory-package-title':'documents'};
+ function revealFactorySection(){const key=location.hash.slice(1);const target=document.getElementById(aliases[key]||key);if(!target)return;let node:HTMLElement|null=target;while(node){if(node instanceof HTMLDetailsElement)node.open=true;node=node.parentElement}requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}
+ window.addEventListener('hashchange',revealFactorySection);if(location.hash)revealFactorySection();
+</script>

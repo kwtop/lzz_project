@@ -1,0 +1,229 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "How we work",
+      "y": 164
+    },
+    {
+      "id": "ww-before-title",
+      "tag": "H2",
+      "text": "Order essentials",
+      "y": 672
+    },
+    {
+      "id": "ww-define-title",
+      "tag": "H2",
+      "text": "Drawing and quotation",
+      "y": 1566
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "1. Define part requirements",
+      "y": 1630
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "2. Review the quotation",
+      "y": 1982
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "QUOTATION SCOPE",
+      "y": 2256
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Payment and sample charges",
+      "y": 2981
+    },
+    {
+      "id": "ww-approval-title",
+      "tag": "H2",
+      "text": "Approve before production",
+      "y": 3333
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "3. Check and approve the sample",
+      "y": 3394
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "4. Agree on batch inspection",
+      "y": 3756
+    },
+    {
+      "id": "ww-handover-title",
+      "tag": "H2",
+      "text": "Packing and delivery documents",
+      "y": 4144
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "5. Arrange packing and shipment",
+      "y": 4574
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "6. Confirm documents for delivery",
+      "y": 5101
+    },
+    {
+      "id": "ww-issue-title",
+      "tag": "H2",
+      "text": "Report a nonconforming part",
+      "y": 5456
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "After-sales terms",
+      "y": 5695
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote for your part",
+      "y": 6357
+    }
+  ],
+  "images": [
+    {
+      "alt": "LZZ machining workshop.",
+      "anchor": "/media/evidence/workshop-wide-1600.webp",
+      "caption": "",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/workshop-wide-1600-400.webp",
+      "index": 1,
+      "naturalHeight": 243,
+      "naturalWidth": 351,
+      "nearestHeading": "How we work",
+      "objectFit": "contain",
+      "objectPosition": "62% 55%",
+      "origin": "",
+      "render": {
+        "height": 229,
+        "width": 331,
+        "x": 22,
+        "y": 379
+      },
+      "src": "/media/evidence/workshop-wide-1600.webp",
+      "srcset": "/media/responsive/workshop-wide-1600-240.webp 240w, /media/responsive/workshop-wide-1600-320.webp 320w, /media/responsive/workshop-wide-1600-400.webp 400w, /media/responsive/workshop-wide-1600-480.webp 480w, /media/responsive/workshop-wide-1600-640.webp 640w, /media/responsive/workshop-wide-1600-800.webp 800w, /media/responsive/workshop-wide-1600-960.webp 960w, /media/responsive/workshop-wide-1600-1200.webp 1200w, /media/responsive/workshop-wide-1600-1600.webp 1600w"
+    },
+    {
+      "alt": "Protected yellow and white machined components in a wooden packing case",
+      "anchor": "/media/evidence/shipping-example-1600.webp",
+      "caption": "Protected machined parts · LZZ packing archive, November 2022",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/evidence/shipping-example-480.webp",
+      "index": 2,
+      "naturalHeight": 263,
+      "naturalWidth": 351,
+      "nearestHeading": "Packing and delivery documents",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "source-photo",
+      "render": {
+        "height": 248,
+        "width": 331,
+        "x": 22,
+        "y": 4234
+      },
+      "src": "/media/evidence/shipping-example-800.webp",
+      "srcset": "/media/evidence/shipping-example-480.webp 480w, /media/evidence/shipping-example-800.webp 800w, /media/evidence/shipping-example-1200.webp 1200w, /media/evidence/shipping-example-1600.webp 1600w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/media/evidence/workshop-wide-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "View RFQ checklist"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "Prepare the drawing and order inputs"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Release the specification for repeat orders"
+    },
+    {
+      "href": "/quality/",
+      "text": "View quality planning guide"
+    },
+    {
+      "href": "/media/evidence/shipping-example-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Packing archive and delivery checklist"
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": "View available order documentation"
+    },
+    {
+      "href": "/contact/",
+      "text": "Discuss a nonconforming part"
+    },
+    {
+      "href": "/factory/",
+      "text": "Our factory"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": "Shipping checklist"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nHow we work\nHow we work\nPrepare RFQ email\nroger@lzz-cnc.com\nOrder essentials\nOrders from\n1 piece\nProduction time\n7-14 business days\n\nAfter drawing and order confirmation, including surface finishing.\n\nTransit time\nSeparate\n\nConfirm shipping time for your destination and method.\n\nPayment and samples\nConfirm payment terms and sample charges in the quotation.\n\nA drawing or quantity change after approval requires an updated scope and schedule.\n\nView RFQ checklist\nDrawing and quotation\n1. Define part requirements\n\nSend your drawing or model with its revision and the material grade. Include the quantity and required delivery date, and describe the part function.\n\nIf you are working from a sample, explain the fit and function to retain or change. Identify any material changes, then agree the measurement and drawing work needed to define the part.\n\n2. Review the quotation\n\nCheck that the quotation uses the correct drawing revision. Discuss tool access and workholding with the team, and approve any proposed geometry changes against the mating features and critical dimensions.\n\nPrepare the drawing and order inputs\nQUOTATION SCOPE\nMachining & material\nDrawing revision, grade, quantity, price and any agreed alternative.\nSurface finishing\nIncluded treatments and the surfaces to be controlled.\nInspection\nReport scope, sampling and required records.\nSeparate charges\nTooling, special documentation, freight and duties where applicable.\nDelivery terms\nProduction timing, shipping arrangements and responsibilities.\nPayment and sample charges\n\nBefore accepting a quote or placing an order, confirm the payment method and currency. Agree the payment stages and the amount due at each stage.\n\nFor sample work, ask about machining and setup charges. Confirm sample freight and whether any sample fee can be credited to a later order.\n\nApprove before production\n3. Check and approve the sample\n\nSet the sample acceptance criteria before machining. Identify critical interfaces and appearance requirements, with any functional tests needed.\n\nSet the first-article review stage and release criteria. Record the drawing revision and approval criteria before moving to production.\n\nRelease the specification for repeat orders\n4. Agree on batch inspection\n\nConfirm the approved revision and checks for repeat production. Identify the features that need recorded results.\n\nAgree material traceability requirements and the treatment of nonconforming parts. Our quality planning guide covers the records to request.\n\nView quality planning guide\nPacking and delivery documents\nProtected machined parts · LZZ packing archive, November 2022\n5. Arrange packing and shipment\n\nThe parts and shipment requirements determine whether cartons or wooden cases are used. Identify polished faces and sealing surfaces that need protection, along with vulnerable threads.\n\nSpecify the labels and part numbers required. Include the drawing revision and quantity per pack where needed. Provide the delivery address and receiving contact.\n\nSeparate the required arrival date from the dispatch date. Confirm the shipping method, Incoterm, packing protection, transport costs and responsibility for customs, duties and taxes in the quotation. Any arrival-date commitment must also be agreed.\n\n6. Confirm documents for delivery\n\nUse the approved drawing revision and order reference consistently for packing, shipment and inspection documents.\n\nSpecify the records needed with delivery, such as an agreed dimensional report or material documentation.\n\nPacking archive and delivery checklist\nReport a nonconforming part\n\nSend the drawing revision and part or batch reference. Include the affected quantity, photographs and measurement details. We check the discrepancy against the order's acceptance criteria and discuss corrective action with you.\n\nAfter-sales terms\n\nConfirm any warranty period and its start date, exclusions and the procedure for reporting a problem.\n\nAgree responsibility for rework or replacement, return freight and any refund before ordering.\n\nView available order documentation\nDiscuss a nonconforming part\nOur factory\nQuality control\nShipping checklist\nRequest a quote for your part\n\nSend your drawing or sample requirements, material and quantity so we can review the part and agree the quotation.\n\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 7651,
+  "title": "How we work | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/how-we-work/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P03",
+  "mode": "mobile",
+  "screenshot": "screenshots/P03-mobile.jpg"
+}

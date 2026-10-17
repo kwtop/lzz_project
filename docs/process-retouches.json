@@ -1,0 +1,62 @@
+{
+  "purpose": "Source-traceable editorial retouches; original site photographs remain the documentary evidence.",
+  "assets": [
+    {
+      "id": "five-axis-operation-editorial-v1",
+      "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品1-五轴加工/db22827e75937add7eb7e1636af6ab94.jpg",
+      "page": "/factory/",
+      "label": "AI-retouched presentation from an LZZ machining photograph; see the original process photographs in our engineering cases.",
+      "prompt": "Retouch the exact real five-axis machine interior, spindle, rotary trunnion and clamped metal workpiece. Preserve documentary geometry and machining context. Improve neutral lighting, color and detail. No new parts, logos, screens, people or claims.",
+      "tool": "built-in image_gen",
+      "mode": "source-guided photographic edit; editorial only",
+      "sourceSha256": "c2accb6b2bfafd76d2f5b4df829fe3a1c750d43ed7b7bdd0483b83105609b65a",
+      "originalOutput": "docs/media/generated/five-axis-operation-editorial-v1.png",
+      "outputSha256": "876e40118ed1176a9a1f1892895de513b5a6298b6fccf35e073aceb17c371472",
+      "webPrefix": "public/media/editorial/five-axis-operation-editorial-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "cmm-detail-editorial-v1",
+      "source": "力智造-素材资料照片/力智造-素材资料照片/10，Producing Department-生产车间/1 (85).jpg",
+      "page": "/quality/",
+      "label": "AI-retouched presentation from an LZZ coordinate measuring machine photograph; not a measurement or calibration record.",
+      "prompt": "Retouch the exact real coordinate measuring machine, granite table, probe and fixtures. Preserve documentary geometry. Improve neutral lighting, color and detail; compose a landscape crop. No new gauges, documents, people, measurements or claims.",
+      "tool": "built-in image_gen",
+      "mode": "source-guided photographic edit; editorial only",
+      "sourceSha256": "10a5fd5a6adb5c888a83a3bcfc28a1a8b533083fa3c3923869dd59841a215fa7",
+      "originalOutput": "docs/media/generated/cmm-detail-editorial-v1.png",
+      "outputSha256": "dbdd45eb8c28250b81cd69a606eedcbdbd8e3c67acc777f4d74ea376be2d714f",
+      "webPrefix": "public/media/editorial/cmm-detail-editorial-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "turning-operation-editorial-v1",
+      "source": "力智造-素材资料照片/力智造-素材资料照片/20251203力智造产品加工过程中图片/产品2-车加工/6c06c0a46e0bf5eae2d41d80616b236e.jpg",
+      "page": "/capabilities/cnc-turning-service/",
+      "label": "AI-retouched presentation from an LZZ turning-process photograph; see the unretouched source photograph.",
+      "prompt": "Retouch the exact real CNC turning scene with spinning cylindrical workpiece, cutting tool, coolant spray and turret. Preserve documentary geometry and motion. Correct washed-out exposure and haze with neutral industrial light. No new machine, finished part, people, values or claims.",
+      "tool": "built-in image_gen",
+      "mode": "source-guided photographic edit; editorial only",
+      "sourceSha256": "c01f81c7db1170b8ab9bf8b479fb489fd343e3a92544549e75b6db998122eefc",
+      "originalOutput": "docs/media/generated/turning-operation-editorial-v1.png",
+      "outputSha256": "10a2dae477c17b093ce11b695f173fb73a1a65831f27d910f23855b6921ef377",
+      "webPrefix": "public/media/editorial/turning-operation-editorial-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+/* Reading exits, grouped navigation and references have different weights.
+ * Scope stays on business pages; header, filters and preview pages keep their UI.
+ */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main {
+ --link-line:#d7d8d7;
+ --link-outline:#9b9d9c;
+ --link-hover-surface:#f5f5f3;
+}
+
+/* Reading destinations are text links. Reserve button surfaces for task actions. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href]:is(
+ .button.secondary,.button-outline,.site-secondary-link,.text-link,.gallery-link,.cap-link,
+ .er-secondary,.er-inline-link,.ab-secondary,.ab-inline,.ft-link,.ft-text-link,.ft-hero-action,
+ .qv-secondary,.ff-secondary,.ww-secondary,.ww-back,.sh-secondary,.rq-link,.rq-download,
+ .fq-link,.manual-link,.ag-link,.ed-link,.home-rfq-checklist,.quote-next-step>a
+) {
+ --internal-link-role:reading;
+ display:inline-flex;align-items:center;justify-content:flex-start;gap:8px;
+ width:fit-content!important;min-width:0!important;max-width:100%;min-height:44px!important;box-sizing:border-box;
+ padding:8px 0!important;border:0!important;border-radius:0;
+ background:transparent;color:var(--ink);font-family:inherit;
+ font-size:16px;font-weight:550!important;line-height:1.45!important;
+ text-align:left;text-decoration:underline!important;text-decoration-thickness:1px!important;text-underline-offset:5px;text-decoration-color:#9b9d9c;white-space:normal;
+ overflow-wrap:break-word;box-shadow:none;
+ transition:background-color 160ms ease,border-color 160ms ease,color 160ms ease;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href]:is(
+ .button.secondary,.button-outline,.site-secondary-link,.text-link,.gallery-link,.cap-link,
+ .er-secondary,.er-inline-link,.ab-secondary,.ab-inline,.ft-link,.ft-text-link,.ft-hero-action,
+ .qv-secondary,.ff-secondary,.ww-secondary,.ww-back,.sh-secondary,.rq-link,.rq-download,
+ .fq-link,.manual-link,.ag-link,.ed-link,.home-rfq-checklist,.quote-next-step>a
+):hover {background:transparent!important;color:var(--ink);text-decoration-color:currentColor}
+
+/* Related destinations form one open list, rather than a stack of framed buttons. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .home-order-links,.er-resource-links,.er-processes,.cap-acceptance-links,.cap-resource-links,
+ .cap-support nav,.ft-quality-links,.ft-process-links,.quote-support-note,
+ .part-process-exits,.ff-links,.ff-related,.sh-related-links,.news-return,.news-company-links,
+ .ps-related-grid nav,.ab-overview .ab-actions,.resource-quick nav,
+ .article-part-examples>div+div,.ag-related>div+div,.rq-related>div+div,
+ .reading-related>div:has(>a:not(:has(img)):not(:has(time))),
+ .category-browse>div,.manual-resources>div,.contact-qualification nav
+) {
+ display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));
+ align-items:start;gap:0 32px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .home-order-links,.er-resource-links,.er-processes,.cap-acceptance-links,.cap-resource-links,
+ .cap-support nav,.ft-quality-links,.ft-process-links,.quote-support-note,
+ .part-process-exits,.ff-links,.ff-related,.sh-related-links,.news-return,.news-company-links,
+ .ps-related-grid nav,.ab-overview .ab-actions,.resource-quick nav,
+ .article-part-examples>div+div,.ag-related>div+div,.rq-related>div+div,
+ .reading-related>div:has(>a:not(:has(img)):not(:has(time))),
+ .category-browse>div,.manual-resources>div,.contact-qualification nav
+) > a[href]:not(:has(img)):not(:has(time)) {
+ --internal-link-role:row;
+ display:flex;align-items:center;justify-content:flex-start;
+ width:100%!important;min-height:52px;max-width:100%;margin:0;
+ padding:14px 0!important;border:0!important;border-bottom:1px solid var(--link-line)!important;
+ border-radius:0;background:transparent!important;color:var(--ink);
+ font-size:16px;font-weight:550!important;line-height:1.5!important;
+ text-align:left;text-decoration:none!important;white-space:normal;overflow-wrap:break-word;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .home-order-links,.er-resource-links,.er-processes,.cap-acceptance-links,.cap-resource-links,
+ .cap-support nav,.ft-quality-links,.ft-process-links,.quote-support-note,
+ .part-process-exits,.ff-links,.ff-related,.sh-related-links,.news-return,.news-company-links,
+ .ps-related-grid nav,.ab-overview .ab-actions,.resource-quick nav,
+ .article-part-examples>div+div,.ag-related>div+div,.rq-related>div+div,
+ .reading-related>div:has(>a:not(:has(img)):not(:has(time))),
+ .category-browse>div,.manual-resources>div,.contact-qualification nav
+) > a[href]:not(:has(img)):not(:has(time)):hover {
+ border-bottom-color:var(--ink)!important;color:var(--red);
+ text-decoration:underline!important;text-underline-offset:5px;text-decoration-thickness:1px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(.er-resource-links,.er-processes,.home-order-links) {max-width:760px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-order-links {margin-block:24px 32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .part-process-exits>span {grid-column:1/-1;margin:0;padding-block:8px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .contact-qualification nav {grid-template-columns:1fr}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ff-page nav.ff-related {
+ display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));
+ gap:0 40px;padding-block:32px 56px;border:0;border-top:1px solid var(--link-line);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ff-page nav.ff-related>a[href] {
+ width:100%!important;margin:0;padding:14px 0!important;
+ border:0!important;border-bottom:1px solid var(--link-line)!important;background:transparent!important;
+}
+
+/* Process/material indexes use alignment and proximity as their boundary. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists nav {display:grid;align-content:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists nav h3 {margin-bottom:12px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href] {
+ --internal-link-role:row;display:flex;align-items:center;justify-content:flex-start;
+ min-height:52px;padding:12px 0;border:0;border-bottom:1px solid var(--link-line);
+ background:transparent;color:var(--ink);font-size:17px;line-height:1.5;text-decoration:none;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a+a {margin-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a::after {content:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a:hover {
+ color:var(--red);border-bottom-color:var(--ink);text-decoration:underline;text-underline-offset:5px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .cap-study-list>a,.news-related>div>a,.mo-news>a,.news-photo-year a,
+ .finesse-resource-row,.rq-essentials nav a,.material-list a
+) {
+ --internal-link-role:row;
+ padding:24px 0;border:0;border-block:1px solid var(--link-line);border-radius:0;
+ background:transparent;color:var(--ink);text-decoration:none;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .cap-study-list>a,.news-related>div>a,.mo-news>a,.news-photo-year a,
+ .finesse-resource-row,.rq-essentials nav a,.material-list a
+)+a {margin-top:0;border-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .cap-study-list>a,.news-related>div>a,.mo-news>a,.news-photo-year a,
+ .finesse-resource-row,.rq-essentials nav a,.material-list a
+):hover {color:var(--ink);background:transparent;border-color:var(--ink)}
+
+/* A label inside an already-linked article is a reading cue, not another button. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href] span.text-link {
+ display:inline;min-height:0;padding:0;border:0;background:transparent;color:inherit;
+ font-size:15px;font-weight:500!important;line-height:1.5!important;
+ text-decoration:underline!important;text-decoration-thickness:1px;text-underline-offset:5px;
+ text-decoration-color:var(--link-outline);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href]:hover span.text-link {color:var(--red);text-decoration-color:var(--red)}
+
+/* Repeated article labels accompany the image and heading; they do not need a frame. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .study-grid,.study-collections,.news-story,.context-copy,.ab-part-links
+) a[href]:is(.gallery-link,.ab-inline,.fq-link) {
+ --internal-link-role:reading;
+ display:inline-flex;align-items:center;justify-content:flex-start;min-height:44px;
+ width:fit-content;max-width:100%;padding:8px 0;border:0;background:transparent;
+ color:var(--ink);font-size:16px;font-weight:500!important;text-align:left;
+ text-decoration:underline!important;text-decoration-thickness:1px;
+ text-underline-offset:5px;text-decoration-color:var(--link-outline);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .study-grid,.study-collections,.news-story,.context-copy,.ab-part-links
+) a[href]:is(.gallery-link,.ab-inline,.fq-link):hover {color:var(--red);text-decoration-color:var(--red);background:transparent}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .contact-address a.text-link {
+ --internal-link-role:row;display:flex;justify-content:flex-start;width:100%;
+ padding:14px 0;border:0;border-bottom:1px solid var(--link-line);background:transparent;text-align:left;
+}
+
+/* Original media and downloads remain available, with less weight than the content. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href]:is(
+ .er-secondary,.ab-secondary,.ft-link,.ft-text-link,.qv-secondary,.ff-secondary,
+ .rq-download,.manual-link,.gallery-link,.text-link
+):is([href^="/media/"],[download]) {
+ --internal-link-role:reference;
+ justify-content:flex-start;min-height:44px;padding:8px 0!important;
+ border:0!important;background:transparent!important;color:var(--muted);
+ font-size:14px;font-weight:500!important;text-align:left;
+ text-decoration:underline!important;text-decoration-thickness:1px;text-underline-offset:5px;
+ text-decoration-color:var(--link-outline);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href]:is(
+ .er-secondary,.ab-secondary,.ft-link,.ft-text-link,.qv-secondary,.ff-secondary,
+ .rq-download,.manual-link,.gallery-link,.text-link
+):is([href^="/media/"],[download]):hover {color:var(--ink);text-decoration-color:var(--ink)}
+
+/* References within prose stay in the sentence and keep their readable underline. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(p,li,dd,td)>a[href^="/"]:not([class]):not(:has(img)):not(.news-photo-year a) {
+ --internal-link-role:inline;color:var(--ink);
+ text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;text-decoration-color:var(--link-outline);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(p,li,dd,td)>a[href^="/"]:not([class]):hover {color:var(--red);text-decoration-color:var(--red)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main p>.qv-inline {
+ --internal-link-role:inline;display:inline;min-height:0;padding:0;border:0;background:transparent;
+ text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--link-outline);
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main a[href]:focus-visible {outline:2px solid var(--red);outline-offset:5px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .precision-hero,.home-inquiry-band,.ab-closing,.ff-closing,.case-closing,.ps-closing,.cap-page #enquiry:not(.rfq-section)
+) a[href]:is(.button.secondary,.button-outline,.text-link,.gallery-link,.ab-secondary,.cap-link,.home-rfq-checklist) {
+ background:transparent!important;border-color:#818689!important;color:#fff!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+ .precision-hero,.home-inquiry-band,.ab-closing,.ff-closing,.case-closing,.ps-closing,.cap-page #enquiry:not(.rfq-section)
+) a[href]:is(.button.secondary,.button-outline,.text-link,.gallery-link,.ab-secondary,.cap-link,.home-rfq-checklist):hover {
+ background:#fff!important;border-color:#fff!important;color:#191b1d!important;
+}
+
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
+  .home-order-links,.er-resource-links,.er-processes,.cap-acceptance-links,.cap-resource-links,
+  .cap-support nav,.ft-quality-links,.ft-process-links,.quote-support-note,
+  .part-process-exits,.ff-links,.ff-related,.sh-related-links,.news-return,.news-company-links,
+  .ps-related-grid nav,.ab-overview .ab-actions,.resource-quick nav,
+  .article-part-examples>div+div,.ag-related>div+div,.rq-related>div+div,
+  .reading-related>div:has(>a:not(:has(img)):not(:has(time))),.category-browse>div,.manual-resources>div,.contact-qualification nav
+ ) {grid-template-columns:minmax(0,1fr);gap:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ff-page nav.ff-related {grid-template-columns:1fr;padding-block:24px 40px;gap:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists h3 {min-height:48px;line-height:1.35!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href] {font-size:16px;padding:12px 0}
+}
+

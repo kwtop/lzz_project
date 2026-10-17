@@ -1,0 +1,248 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Specifying material and finish for a machined part",
+      "y": 164
+    },
+    {
+      "id": "section-1",
+      "tag": "H2",
+      "text": "Confirm the material specification",
+      "y": 318
+    },
+    {
+      "id": "article-examples-title",
+      "tag": "H2",
+      "text": "Related part examples",
+      "y": 1102
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Next step",
+      "y": 1333
+    },
+    {
+      "id": "section-2",
+      "tag": "H2",
+      "text": "Compare materials against the part requirements",
+      "y": 1525
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Aluminum",
+      "y": 1833
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Stainless steel",
+      "y": 2126
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Copper / brass",
+      "y": 2418
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Engineering plastics",
+      "y": 2711
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Other named materials",
+      "y": 3030
+    },
+    {
+      "id": "alloy-designation-title",
+      "tag": "H3",
+      "text": "Confirm the alloy designation",
+      "y": 3312
+    },
+    {
+      "id": "finish-and-acceptance",
+      "tag": "H2",
+      "text": "Define the finish and acceptance criteria",
+      "y": 3538
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Substrate",
+      "y": 4661
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Treatment",
+      "y": 4901
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Coat or mask",
+      "y": 5167
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Critical dimensions",
+      "y": 5460
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Thickness",
+      "y": 5726
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Appearance",
+      "y": 6019
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Tests and records",
+      "y": 6311
+    },
+    {
+      "id": "section-4",
+      "tag": "H2",
+      "text": "Record the requirements in your RFQ",
+      "y": 6794
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote for your part",
+      "y": 7402
+    }
+  ],
+  "images": [
+    {
+      "alt": "Aluminum housing, turned shaft, threaded connector and plastic block",
+      "anchor": "",
+      "caption": "",
+      "complete": true,
+      "context": "material-guide-visual",
+      "currentSrc": "http://127.0.0.1:4323/media/info/material-forms-v1-480.webp",
+      "index": 1,
+      "naturalHeight": 230,
+      "naturalWidth": 346,
+      "nearestHeading": "Confirm the material specification",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 220,
+        "width": 331,
+        "x": 22,
+        "y": 836
+      },
+      "src": "/media/info/material-forms-v1-1200.webp",
+      "srcset": "/media/info/material-forms-v1-320.webp 320w, /media/info/material-forms-v1-480.webp 480w, /media/info/material-forms-v1-800.webp 800w, /media/info/material-forms-v1-1200.webp 1200w, /media/info/material-forms-v1-1440.webp 1440w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "text": "Billet aluminum engine covers"
+    },
+    {
+      "href": "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "text": "Functional plastic blocks & structures"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "View RFQ checklist"
+    },
+    {
+      "href": "/capabilities/aluminum-cnc-parts/",
+      "text": "aluminum"
+    },
+    {
+      "href": "/capabilities/stainless-steel-cnc-parts/",
+      "text": "stainless steel"
+    },
+    {
+      "href": "/capabilities/copper-brass-cnc-parts/",
+      "text": "copper and brass"
+    },
+    {
+      "href": "/capabilities/plastic-machined-parts/",
+      "text": "engineering plastics"
+    },
+    {
+      "href": "/resources/processes-materials-finishes/#coated-parts",
+      "text": "original surface-coating photographs"
+    },
+    {
+      "href": "/quality/#order-documentation",
+      "text": "order documentation"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ package"
+    },
+    {
+      "href": "/quality/",
+      "text": "quality checklist"
+    },
+    {
+      "href": "/quote/",
+      "text": "prepare an inquiry"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nDesign preparation\nSpecifying material and finish for a machined part\nConfirm the material specification\n\nState the exact alloy or polymer grade and condition, with the applicable standard. Include the certificates and traceability records required. If substitutes may be considered, identify them for approval and confirm the material documents in the quotation.\n\nDescribe the part function and mating assembly. Include loads and operating temperature, with exposure or electrical requirements where relevant. Specify any cleanliness, chemical-contact or ESD limits and the evidence needed for acceptance. If the grade is undecided, send these conditions for engineering review..\n\nRelated part examples\n\nExamples with related features. Each custom part is quoted to its own drawing.\n\nBillet aluminum engine covers\nFunctional plastic blocks & structures\nNext step\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nView RFQ checklist\nCompare materials against the part requirements\n\nThe catalog groups parts as aluminum, stainless steel, copper and brass, and engineering plastics. The grades below are examples for selection, rather than a stock list. Properties depend on the grade and condition. Suitability and availability are confirmed for the part and proposed finish in the quotation.\n\nAluminum\nBrochure examples\n\n6061, 7075, 2024\n\nSelection questions\n\nCompare strength, stiffness, part mass, environment and finish needs. Specify the exact alloy and temper.\n\nStainless steel\nBrochure examples\n\n304, 316, 17-4PH\n\nSelection questions\n\nCompare the service environment and mechanical requirements. Specify the grade, condition and any required heat treatment.\n\nCopper / brass\nBrochure examples\n\nSee the material naming note below.\n\nSelection questions\n\nDefine the electrical or thermal role and service environment. Confirm the exact designation and applicable standard.\n\nEngineering plastics\nBrochure examples\n\nPOM, PEEK, PPSU\n\nSelection questions\n\nCompare temperature, load, chemical exposure, electrical behavior and mating material. Specify the polymer grade and condition.\n\nOther named materials\nBrochure examples\n\nTitanium, Inconel, Kovar, Invar\n\nSelection questions\n\nProvide the exact material designation and intended use for engineering review.\n\nConfirm the alloy designation\n\nThe original brochure names C3600 and H62, while the supplied material sheet lists C36000 brass. Their equivalence is not established. Confirm the exact designation and applicable standard in your inquiry.\n\nDefine the finish and acceptance criteria\n\nFinishing options depend on the material. Services include deburring and polishing, with blasting, anodizing, passivation or plating where suitable. The quotation confirms the treatment and supporting documents for your part.\n\nProcess specification: identify the material and treatment, including the finish standard and revision where applicable. Specify controlled color, gloss, texture, coating thickness or roughness; separate visual appearance from the finish's function.\nFaces and edges: mark cosmetic faces and specify edge breaks and deburring or polishing requirements. For bead blasting, agree the appearance and whether a reference sample is needed.\nMasking and function: mark protected threads, mating bores and other interfaces, plus surfaces for corrosion protection, electrical contact or sealing. For anodizing, confirm the alloy, color and coating requirements. For passivation or plating, confirm the process specification and protected areas.\nDimensions and inspection: state whether acceptance dimensions apply before or after treatment. Critical dimensions are checked at the agreed stage, including after finishing where required.\nOrder records: specify the material and treatment documents and acceptance records required. We link the requested documents to the relevant part or batch reference.\nSubstrate\nSpecification\n\nExact material grade and condition.\n\nInspection stage\n\nConfirm before treatment.\n\nTreatment\nSpecification\n\nRequired coating or treatment, standard and revision.\n\nInspection stage\n\nAgree process before production.\n\nCoat or mask\nSpecification\n\nFaces, bores, threads and interfaces to coat or protect.\n\nInspection stage\n\nIdentify before treatment; verify agreed interfaces after treatment.\n\nCritical dimensions\nSpecification\n\nWhether acceptance dimensions apply before or after coating.\n\nInspection stage\n\nCheck at the specified stage.\n\nThickness\nSpecification\n\nCoating thickness requirements and the agreed measurement method.\n\nInspection stage\n\nAgree any required after-treatment check and record.\n\nAppearance\nSpecification\n\nCosmetic faces, color, gloss, texture and any agreed reference.\n\nInspection stage\n\nAgree appearance criteria before work; review the finished part.\n\nTests and records\nSpecification\n\nRequired tests, limits, sampling, document format and part or batch reference.\n\nInspection stage\n\nConfirm availability and scope in the quotation; record agreed results.\n\nSee the original surface-coating photographs and agree order documentation.\n\nUse the finish specification and inspection criteria to accept the part.\n\nRecord the requirements in your RFQ\n\nRecord the material and finish on the controlled drawing or specification. Include inspection and traceability requirements in your RFQ package, using the quality checklist to check the details before you prepare an inquiry.\n\nAll resources\nRFQ checklist\nHow we work\nQuality control\nRequest a quote for your part\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 8701,
+  "title": "CNC part material & finish checklist | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/material-and-finish-checklist/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P10",
+  "mode": "mobile",
+  "screenshot": "screenshots/P10-mobile.jpg"
+}

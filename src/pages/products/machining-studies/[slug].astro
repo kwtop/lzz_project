@@ -1,0 +1,7 @@
+---
+import RouteRedirect from '../../../components/RouteRedirect.astro';
+import {engineeringCases} from '../../../data/cases';
+export function getStaticPaths(){return engineeringCases.map(item=>({params:{slug:item.slug},props:{destination:'/machined-parts/machining-examples/'+item.slug+'/'}}));}
+const {destination}=Astro.props;
+---
+<RouteRedirect destination={destination}/>

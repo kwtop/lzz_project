@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import QuoteForm from '../components/QuoteForm';
+---
+<Layout title="Start your CNC machining project" cta={false}>
+ <section class="quote-shell"><div class="container quote-layout">
+  <div class="quote-intro"><h1>Tell us about<br/>your part</h1><p>Orders start at 1 piece. Production takes 7–14 business days after your drawing and order are confirmed, including surface finishing; shipping time is additional. Fill in the details to prepare an inquiry email, then attach your drawing in your email app. This page does not send anything.</p></div>
+  <div class="quote-form-column">
+   <h2>Project details</h2>
+   <QuoteForm client:load/>
+  </div>
+  <div class="quote-support">
+   <div class="contact-block"><h2>Prefer to talk first?</h2><a href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a><a href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer">WhatsApp +86 138 5810 2479</a></div>
+   <div class="quote-checklist"><h2>Details to include</h2><ul><li>A 2D drawing or 3D CAD model</li><li>Material grade, finish and required standards</li><li>Critical dimensions and mating features</li><li>Quantity per part and repeat-lot plan</li><li>Required date, ship-to location and inspection records</li></ul></div>
+   <div class="quote-terms"><h2>Order terms &amp; quotation details</h2><dl><div><dt>Minimum order</dt><dd>1 piece. State your first-order and expected repeat quantities so we can quote the right price and batch plan.</dd></div><div><dt>Production &amp; delivery timing</dt><dd>7–14 business days from drawing and order confirmation, including surface finishing. Transit time is additional; state your required arrival date.</dd></div><div><dt>Quality management</dt><dd>LZZ is ISO 9001 certified. Specify any certificate details, critical features, sampling, measurement records and material or treatment documents your procurement team needs.</dd></div><div><dt>Shipping responsibility</dt><dd>Request the trade term, named place, packing and document list for your destination.</dd></div></dl></div>
+   <p class="quote-support-note">Use the <a href="/insights/rfq-checklist/">RFQ checklist</a> to prepare your drawings and note any <a href="/quality/">inspection requirements</a>. You will attach the files in your email app.</p>
+  </div>
+ </div></section>
+</Layout>
+<style>
+ .quote-terms{margin-top:26px;padding-top:24px;border-top:1px solid var(--border)}.quote-terms h2{font-size:21px}.quote-terms dl{margin-top:12px}.quote-terms dl>div{border-top:1px solid var(--border);padding:12px 0}.quote-terms dt{font-size:13px;font-weight:700}.quote-terms dd{font-size:13px;line-height:1.55;margin:5px 0 0;color:var(--muted)}
+ @media(min-width:761px){
+  :global(body.brand-site) .quote-shell{background:#fff}
+  :global(body.brand-site) .quote-layout{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);grid-template-rows:auto 1fr;column-gap:64px;row-gap:40px;padding-block:48px 72px;align-items:start}
+  :global(body.brand-site) .quote-intro{grid-column:1/-1;grid-row:1;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;border-bottom:1px solid var(--border);padding-bottom:36px}
+  :global(body.brand-site) .quote-intro h1{font-size:48px;line-height:1.1}
+  :global(body.brand-site) .quote-intro>p{font-size:17px;line-height:1.7;margin:0;max-width:52ch}
+  :global(body.brand-site) .quote-form-column{grid-column:2;grid-row:2;padding-top:0}
+  :global(body.brand-site) .quote-support{grid-column:1;grid-row:2;align-self:start;background:#f1f1f1;border-radius:16px;padding:28px}
+  :global(body.brand-site) .quote-support-note{margin-top:20px}
+  :global(body.brand-site) .quote-checklist{margin-top:24px;padding-top:22px}
+  :global(body.brand-site) .quote-support :global(.contact-block a:first-of-type){font-size:21px;overflow-wrap:anywhere}
+ }
+ @media(min-width:761px) and (max-width:1100px){
+  :global(body.brand-site) .quote-layout{column-gap:32px}
+  :global(body.brand-site) .quote-intro{gap:32px}
+  :global(body.brand-site) .quote-intro h1{font-size:40px}
+  :global(body.brand-site) .quote-support{padding:22px}
+ }
+</style>

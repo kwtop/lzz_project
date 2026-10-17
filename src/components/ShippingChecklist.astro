@@ -1,0 +1,49 @@
+---
+import '../styles/company-resource-gallery.css';
+import EvidenceImage from './EvidenceImage.astro';
+import {photo} from '../data/evidence';
+import '../styles/shipping-checklist.css';
+import '../styles/factory-family.css';
+import '../styles/resources-family.css';
+import FactoryPageFooter from './FactoryPageFooter.astro';
+import ReadingHeader from './ReadingHeader.astro';
+const topics=[
+ [
+  "Part protection",
+  "Cosmetic faces, seals, threads, fragile edges, cleanliness and corrosion needs; pack weight and handling limits.",
+  "Protective materials, part separation, and cartons or wooden cases suited to the shipment."
+ ],
+ [
+  "Pack identification",
+  "Part number, revision, batch, quantity per pack and labels.",
+  "Available label and record formats, matched to the packing list."
+ ],
+ [
+  "Delivery basis",
+  "Address, contact, arrival date, trade term/version and named place.",
+  "Transport, clearance, insurance, duties, taxes and local delivery. EXW, FOB or DDP as quoted."
+ ],
+ [
+  "Documents",
+  "Procurement and import document requirements.",
+  "Packing list, commercial invoice and shipment information. Material, finish and dimensional records only as agreed."
+ ],
+ [
+  "Schedule",
+  "Required arrival and dispatch dates.",
+  "7-14 business days after drawing and order confirmation, including finishing. Transit time is additional."
+ ]
+];
+const archive=['shipping-example','shipment-2022-order-packing','shipment-2022-prepared-load'];
+---
+<article class="sh-page reading-page ff-page rs-page">
+ <ReadingHeader title="Shipping CNC parts internationally" description="Confirm protection, destination and delivery responsibilities." breadcrumbs={[{label:'Resources',href:'/resources/'},{label:'Delivery planning'}]}><p class="reading-description">Confirm protection, destination and delivery responsibilities.</p><a class="ff-primary" href="/quote/">Include delivery in your RFQ</a></ReadingHeader>
+
+ <section class="sh-wrap sh-archive reading-section" aria-labelledby="archive-title"><h2 id="archive-title">LZZ packing archive</h2><figure><div class="sh-archive-grid">{archive.map(id=><div class="rs-archive-frame" style={`--reference-ratio:${photo(id).width/photo(id).height}`}><a class="static-photo"><EvidenceImage id={id} sizes="(max-width:760px) 220px, 375px"/></a></div>)}</div><figcaption>LZZ packing and shipment preparation · November 2022</figcaption></figure></section>
+ <section class="sh-wrap sh-section sh-checklist reading-section" id="section-2" aria-labelledby="checklist-title"><h2 id="checklist-title">Packing and delivery requirements</h2><div class="sh-checklist-head" aria-hidden="true"><span>Topic</span><span>Information you provide</span><span>Confirm in the quotation</span></div><ol>{topics.map((row,index)=><li id={'shipping-topic-'+(index+1)}><div>{index===0&&<><span id="section-3" aria-hidden="true"/><span id="protection-title" aria-hidden="true"/></>}{index===2&&<span id="transport-title" aria-hidden="true"/>}{index===3&&<><span id="delivery-package" aria-hidden="true"/><span id="section-4" aria-hidden="true"/><span id="documents-title" aria-hidden="true"/></>}<h3>{row[0]}</h3></div><div><span class="sh-mobile-label">Information you provide</span><p>{row[1]}</p></div><div><span class="sh-mobile-label">Confirm in the quotation</span><p>{row[2]}</p>{index===2&&<p><strong>DDP applies only where included in the quotation.</strong></p>}</div></li>)}</ol></section>
+ <section class="sh-wrap sh-section sh-transport reading-section"><h2>Transport options and import documents</h2><p>Courier, air or sea arrangements depend on shipment size and destination. DHL, FedEx or UPS can be discussed when selecting a courier.</p><p>Agree additional customs documents before production with your importing entity or freight forwarder. Requirements depend on the destination and transaction.</p></section>
+
+ <nav class="sh-wrap sh-related reading-related" aria-label="Related resources"><div><h3>Related part examples</h3><a class="sh-secondary" href="/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/">Complex aluminum housings</a></div><div><h3>Prepare your request</h3><div class="sh-related-links"><a class="sh-secondary" href="/resources/ordering/rfq-checklist/">RFQ checklist</a></div></div><a class="sh-secondary" href="/resources/">Back to resources</a></nav>
+ <div id="section-5"><FactoryPageFooter current="/resources/ordering/custom-cnc-parts-shipping-checklist/" title="Include delivery in your RFQ" description="Confirm transport responsibilities and exclusions."/></div>
+</article>
+

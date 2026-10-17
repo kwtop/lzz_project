@@ -1,0 +1,83 @@
+[
+  {
+    "Route": "/",
+    "Status": 200,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\index.html",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/products/",
+    "Status": 200,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\products\\index.html",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/capabilities/plastic-machined-parts/",
+    "Status": 200,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\capabilities\\plastic-machined-parts\\index.html",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "Status": 200,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\products\\custom-oem-cnc-machined-plastic-parts-manufacturer\\index.html",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/quality/",
+    "Status": 200,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\quality\\index.html",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/quote/",
+    "Status": 200,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\quote\\index.html",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/robots.txt",
+    "Status": 200,
+    "ContentType": "text/plain",
+    "BuiltFile": "dist\\robots.txt",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/sitemap.xml",
+    "Status": 200,
+    "ContentType": "text/xml",
+    "BuiltFile": "dist\\sitemap.xml",
+    "ExactBuiltTextMatch": true,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  },
+  {
+    "Route": "/audit-missing-route-20261010/",
+    "Status": 404,
+    "ContentType": "text/html",
+    "BuiltFile": "dist\\audit-missing-route-20261010\\index.html",
+    "ExactBuiltTextMatch": null,
+    "HeaderXRobotsTag": "",
+    "Location": ""
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Define part requirements before machining",
+      "y": 188
+    },
+    {
+      "id": "section-1",
+      "tag": "H2",
+      "text": "Identify the working surfaces",
+      "y": 337
+    },
+    {
+      "id": "section-2",
+      "tag": "H2",
+      "text": "Specify critical dimensions",
+      "y": 633
+    },
+    {
+      "id": "article-examples-title",
+      "tag": "H2",
+      "text": "Related part examples",
+      "y": 684
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Next step",
+      "y": 916
+    },
+    {
+      "id": "section-3",
+      "tag": "H2",
+      "text": "Specify material and surface requirements",
+      "y": 1112
+    },
+    {
+      "id": "section-4",
+      "tag": "H2",
+      "text": "Define acceptance checks and revisions",
+      "y": 1436
+    },
+    {
+      "id": "section-5",
+      "tag": "H2",
+      "text": "Include the requirements with your RFQ",
+      "y": 1760
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote for your part",
+      "y": 2136
+    }
+  ],
+  "images": [
+    {
+      "alt": "Milled components with flat faces, hole patterns and pockets",
+      "anchor": "",
+      "caption": "Machined parts with flat faces, hole patterns and pockets. View original photograph",
+      "complete": true,
+      "context": "requirements-photo",
+      "currentSrc": "http://127.0.0.1:4323/media/info/part-features-v1-480.webp",
+      "index": 1,
+      "naturalHeight": 480,
+      "naturalWidth": 360,
+      "nearestHeading": "",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "source-photo-refinement",
+      "render": {
+        "height": 400,
+        "width": 336,
+        "x": 936,
+        "y": 186
+      },
+      "src": "/media/info/part-features-v1-1200.webp",
+      "srcset": "/media/info/part-features-v1-320.webp 320w, /media/info/part-features-v1-480.webp 480w, /media/info/part-features-v1-800.webp 800w, /media/info/part-features-v1-1200.webp 1200w, /media/info/part-features-v1-1440.webp 1440w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "milled pockets and housings"
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "turned shafts and fittings"
+    },
+    {
+      "href": "/quality/",
+      "text": "inspection requirements and supporting records"
+    },
+    {
+      "href": "/media/evidence/multi-feature-milling-parts-1600.webp",
+      "text": "View original photograph"
+    },
+    {
+      "href": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "text": "Multi-sided machined components"
+    },
+    {
+      "href": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "text": "Stainless steel turned parts"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "View RFQ checklist"
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": "material and finish checklist"
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": "Prototype-to-repeat planning"
+    },
+    {
+      "href": "/resources/how-we-work/#section-5",
+      "text": "How we work"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nManufacturing guide\nDefine part requirements before machining\nIdentify the working surfaces\n\nA housing or shaft is located by the surfaces that meet other parts. Mark those interfaces on the drawing, including surfaces used to seal, slide or carry load. For a mounting block, identify the locating faces so tolerances can be assessed against the assembly function.\n\nCompare milled pockets and housings with turned shafts and fittings. Some designs need both operations; the geometry determines the process choice.\n\nSpecify critical dimensions\n\nGive critical features their datums and acceptance limits. A 3D model defines shape, but a controlled 2D drawing may also be needed to specify fits and surface texture. Include edge conditions and measurement requirements where they affect acceptance.\n\nTolerances are assessed for each drawing. Achievable limits depend on the material and feature geometry, together with the setup and measurement method. Agree on inspection requirements and supporting records for your design.\n\nMachined parts with flat faces, hole patterns and pockets. View original photograph\nRelated part examples\n\nExamples with related features. Each custom part is quoted to its own drawing.\n\nMulti-sided machined components\nStainless steel turned parts\nNext step\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nView RFQ checklist\nSpecify material and surface requirements\n\nState the exact alloy or plastic grade, material condition and any material-certificate requirement. For coated parts, specify the finish and whether critical dimensions apply before or after treatment. Mark areas that need masking, cosmetic faces and burr-sensitive edges.\n\nName the applicable standards and their revisions. Include traceability and approval requirements, with the intended end use and any export requirements. The material and finish checklist covers the detailed fields.\n\nDefine acceptance checks and revisions\n\nDefine the checks needed to accept the part, whether they concern assembly fit, appearance or a functional test. Set the criteria before machining. For a design change, issue a revised drawing identifying the affected features.\n\nRecord the controlled drawing revision, material, finish and approval criteria. Sample approval does not cover a changed design or material. Prototype-to-repeat planning explains how to release the approved specification; How we work covers the order approval.\n\nInclude the requirements with your RFQ\n\nSend the controlled drawing with the material and finish specification. Identify the critical interfaces and acceptance checks. Use the RFQ checklist to prepare the complete inquiry.\n\nAll resources\nRFQ checklist\nHow we work\nQuality control\nRequest a quote for your part\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 2915,
+  "title": "Define CNC part requirements before machining | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 1425,
+    "height": 900,
+    "width": 1440
+  },
+  "pageId": "P08",
+  "mode": "desktop",
+  "screenshot": "screenshots/P08-desktop.jpg"
+}

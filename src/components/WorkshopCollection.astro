@@ -1,0 +1,33 @@
+---
+import {workshopCollections} from '../data/workshopCollections';
+import '../styles/studies-news-gallery.css';
+import ReferenceGallery from './ReferenceGallery.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+interface Props {collection:string}
+const {collection}=Astro.props;
+const fields:Record<string,{form:string;source:string;drawing:string;acceptance:string}>={
+ ptfe:{form:'Small white forms, repeated intermediate components and stepped shafts.',source:'Identified as PTFE in the workshop collection. Specify the exact grade for your order.',drawing:'Mating features, hole positions, working dimensions and stock form.',acceptance:'Mating dimensions and edge condition, checked under the agreed measurement conditions.'},
+ pom:{form:'Gear teeth, raised hub and central bore; separate gear forms appear in the clip.',source:'The source identifies POM. A specific branded or filled grade must be named in the order.',drawing:'Tooth specification, bore and hub dimensions, mating parts and material grade.',acceptance:'Gear-tooth and mating-fit checks, with edge quality and dimensions agreed from the drawing.'},
+ pe:{form:'Straight and curved guide-strip profiles.',source:'Identified as PE in the workshop file. Color does not specify the polymer grade.',drawing:'Cross-section, length or curved path, mounting features and sliding surfaces.',acceptance:'Profile and fit checks, including the specified dimensions and finish of sliding surfaces.'},
+ acrylic:{form:'Circular rimmed components and a separate rectangular component with recesses and holes.',source:'Identified as acrylic in the workshop collection.',drawing:'Shape, interfaces, viewing surfaces, cosmetic limits and handling requirements.',acceptance:'Dimensional and appearance criteria; sample appearance does not establish an optical specification.'},
+ 'turned-parts':{form:'Shafts and fitting-like forms with shoulders, flanges and threaded sections.',source:'Exact metal grade not specified. Include the grade for your part.',drawing:'Working diameter, datum axis, shoulder locations, thread designation and engagement.',acceptance:'Mating fits, runout, thread gauging and axial dimensions from the drawing.'},
+ 'aluminum-housings':{form:'Rectangular housings with cavities and perimeter mounting holes.',source:'Identified as aluminum. Specify alloy, temper and stock form for your order.',drawing:'Cavity depth, wall thickness, datum faces, interfaces and cosmetic surfaces.',acceptance:'Final dimensions after finishing, hole locations and agreed appearance criteria.'},
+ 'brass-fittings':{form:'Small fitting-like components grouped in a batch photograph.',source:'Identified as brass. The exact alloy grade needs confirmation.',drawing:'Exact grade, threads, contact or sealing surfaces and any plating.',acceptance:'Thread and interface checks, post-plating dimensions and required material records.'},
+ 'batch-handling':{form:'Repeated small metal forms and openings in a blue tray.',source:'The clip is labeled aluminum parts after cleaning.',drawing:'Part numbers, revision, grade, quantities and cleanliness requirements.',acceptance:'Specify cleanliness criteria and dimensional records. The clip contains no cleaning-process details or final acceptance results.'},
+};
+---
+<div class="workshop-collection">
+ {workshopCollections[collection].map(section=>{
+  const input=fields[section.id];
+  return <section id={section.id} class:list={['collection-section',{'collection-catalogue':Boolean(section.photos?.length)}]}>
+   {section.photos?.length?<>
+    <ReferenceGallery ids={section.photos} title={section.title} fields={[
+     {label:'Material information',value:input.source},
+     {label:'Drawing details',value:input.drawing},
+     {label:'Inspection requirements',value:input.acceptance},
+    ]}/>
+    {section.video&&<div class="collection-video"><WorkshopVideo {...section.video} description=""/></div>}
+   </>:<div class="collection-row"><div><h2>{section.title}</h2><dl class="collection-fields"><div><dt>Material information</dt><dd>{input.source}</dd></div><div><dt>Drawing details</dt><dd>{input.drawing}</dd></div><div><dt>Inspection requirements</dt><dd>{input.acceptance}</dd></div></dl></div><div class="collection-media">{section.video&&<WorkshopVideo {...section.video} description=""/>}</div></div>}
+  </section>;
+ })}
+</div>

@@ -1,0 +1,6 @@
+---
+import RfqPanel from './RfqPanel.astro';
+interface Props { title?:string; description?:string }
+const {title='Talk to LZZ',description='Discuss a part, request supplier documents or arrange a workshop visit.'}=Astro.props;
+---
+<RfqPanel title={title} description={description}/>

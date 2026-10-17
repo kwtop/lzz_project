@@ -1,0 +1,145 @@
+{
+  "canonical": "https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/",
+  "description": "Impellers and complex housings with curved surfaces and internal features.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Machined impellers"
+    },
+    {
+      "tag": "H2",
+      "text": "Part fit at a glance"
+    },
+    {
+      "tag": "H2",
+      "text": "Blade profiles and the datum axis"
+    },
+    {
+      "tag": "H2",
+      "text": "Manufacturing options"
+    },
+    {
+      "tag": "H2",
+      "text": "Drawing andinspection requirements"
+    },
+    {
+      "tag": "H3",
+      "text": "With your inquiry"
+    },
+    {
+      "tag": "H3",
+      "text": "Applications"
+    },
+    {
+      "tag": "H3",
+      "text": "Related resources"
+    },
+    {
+      "tag": "H3",
+      "text": "Compare part requirements"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/products/",
+      "text": "Custom Parts"
+    },
+    {
+      "href": "/media/responsive/catalog-02-cutout-v1-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "#fit-review",
+      "text": "01\nPart requirements"
+    },
+    {
+      "href": "#part-information",
+      "text": "02\nMaterial & finish"
+    },
+    {
+      "href": "#drawing-review",
+      "text": "03\nDrawing review"
+    },
+    {
+      "href": "/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F",
+      "text": "Request a quote"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality & inspection"
+    },
+    {
+      "href": "/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F",
+      "text": "Prepare an RFQ email"
+    },
+    {
+      "href": "/quality/",
+      "text": ""
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/cnc-process-selection/",
+      "text": ""
+    },
+    {
+      "href": "/resources/prototype-vs-small-batch-cnc/",
+      "text": ""
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/custom-cnc-parts-shipping-checklist/",
+      "text": ""
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": ""
+    },
+    {
+      "href": "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "text": "Turbine & fluid-system components\nContours combined with ports and sealing interfaces. Flow or balance tests need separate criteria."
+    },
+    {
+      "href": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "text": "Multi-bore components\nStepped bores, face-hole positions and circular-face relationships."
+    },
+    {
+      "href": "/cases/five-axis-machining-multi-face-parts/",
+      "text": ""
+    },
+    {
+      "href": "/cases/two-stage-cnc-milling/",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": ""
+    },
+    {
+      "href": "/capabilities/stainless-steel-cnc-parts/",
+      "text": ""
+    }
+  ],
+  "main": "Home\n/\nCustom Parts\n/\nMachined impellers\nMachined impellers\n\nContoured blades · pockets & complex surfaces\n\nPart fit at a glance\nTypical geometry\nContoured blades, deep pockets and complex multi-axis geometry.\nMaterial options\ntitanium, Inconel and hardened stainless steel. Confirm the grade for your part.\nKey review\nThe model defines blade profiles and root transitions relative to the datum axis. State material condition and inspection criteria on the drawing.\n01\nPart requirements\n02\nMaterial & finish\n03\nDrawing review\nBlade profiles and the datum axis\n\nImpellers and complex housings with curved surfaces and internal features.\n\nRequest a quote\n\nHave a drawing? Add it to your inquiry email.\n\nManufacturing options\nMaterials\nMaterial options: titanium, Inconel and hardened stainless steel. Confirm the grade for your part.\nMachining\nContinuous 5-axis machining for curved surfaces and deep cavities with fewer setups.\nSurface finish\nLapping, polishing and specialized coating options, subject to the part requirements.\n\nMade to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.\n\nDrawing and\ninspection requirements\nQuality & inspection\nGeometry & interfaces\nIdentify blade profiles, root transitions and the datum axis. Mark thin sections and tool-access restrictions.\nMaterial & finish\nSpecify the material grade, condition, finish and any masked areas.\nQuantity\nState the prototype or batch quantity and required schedule.\nInspection requirements\nAgree the profiles to measure and any separate balance or rotating-assembly tests.\nPrepare an RFQ email\n\nFrom 1 piece · 7–14 business days\nFrom drawing and order confirmation, including surface finishing; transit is additional.\n\nAdditional drawing and order notes\nCompare part requirements\nTurbine & fluid-system components\nContours combined with ports and sealing interfaces. Flow or balance tests need separate criteria.\nMulti-bore components\nStepped bores, face-hole positions and circular-face relationships.\nRelated machining processes",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/#webpage\",\"url\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/\",\"name\":\"Machined impellers\",\"description\":\"Impellers and complex housings with curved surfaces and internal features.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/#service\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Custom Parts\",\"item\":\"https://www.lzz-cnc.com/products/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Machined impellers\",\"item\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/\"}]},{\"@type\":\"Service\",\"@id\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/#service\",\"url\":\"https://www.lzz-cnc.com/products/ultra-high-precision-machining-services/\",\"name\":\"Machined impellers\",\"description\":\"Impellers and complex housings with curved surfaces and internal features.\",\"image\":\"https://www.lzz-cnc.com/media/responsive/catalog-02-cutout-v1-1200.webp\",\"provider\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"}}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Machined impellers | LZZ Precision",
+  "url": "http://127.0.0.1:4326/products/ultra-high-precision-machining-services/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "products-ultra-high-precision-machining-services-mobile-production"
+}

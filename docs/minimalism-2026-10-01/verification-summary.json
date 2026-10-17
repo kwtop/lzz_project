@@ -1,0 +1,65 @@
+{
+  "routes": 81,
+  "structurallyReducedRoutes": 17,
+  "sourceFilesModified": [
+    "src/components/HowWeWork.astro",
+    "src/components/PrototypeJourney.astro",
+    "src/components/RfqChecklist.astro",
+    "src/components/ShippingChecklist.astro",
+    "src/pages/about.astro",
+    "src/pages/capabilities/[slug].astro",
+    "src/pages/factory.astro",
+    "src/pages/quality.astro",
+    "src/styles/page-system.css"
+  ],
+  "protectedData": {
+    "beforeFiles": 42,
+    "afterFiles": 42,
+    "changes": [],
+    "unchanged": true
+  },
+  "renderChecks": 252,
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "routes": 81,
+      "overflow": [],
+      "brokenImages": []
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "routes": 81,
+      "overflow": [],
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "routes": 81,
+      "overflow": [],
+      "brokenImages": []
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "routes": 9,
+      "overflow": [],
+      "brokenImages": []
+    }
+  ],
+  "capabilityRequirementsPreserved": 70,
+  "staticHtml": 90,
+  "seo": {
+    "sitemapURLs": 81,
+    "redirects": 93,
+    "discoveredURLs": 91
+  },
+  "typeCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "preexistingHints": 1
+  },
+  "deployment": "local-only"
+}

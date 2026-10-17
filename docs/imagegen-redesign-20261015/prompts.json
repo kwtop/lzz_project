@@ -1,0 +1,46 @@
+{
+  "source": "Exact image-generation tool requests from this task transcript; original output association retained.",
+  "items": [
+    {
+      "output": "exec-83c5c6af-6839-4b75-b432-ec1d3e26dded.png",
+      "timestamp": "2026-10-15T03:46:32.272Z",
+      "callId": "call_0e65a1bf56394cf1b69bd5a3cab8cc19",
+      "requests": [
+        {
+          "referenced_image_paths": [
+            "D:/lzz/lzz/_react/public/media/machining-hero-v2.webp",
+            "D:/lzz/lzz/_react/public/media/evidence/milling-enclosure-operation-1600.webp"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: photorealistic-natural. Asset: final B2B custom CNC website hero, a generic AI machining illustration, never documentary evidence. Image 1 is the old generic AI hero to refresh; Image 2 is only a reference for physically plausible spindle, tool, workholding and unpolished metal texture, do not copy its factory identity. Produce ONE landscape 4:3 photograph-quality image. A vertical CNC spindle in the upper right holds a short realistic four-flute end mill, visibly engaging an inside wall near the corner of a pocketed rectangular aluminum workpiece. Workpiece is firmly held in a credible plain machining vise with clear jaws; show the tool tip, workpiece, holding contact and some table context fully inside frame. Tool/spindle plus workpiece occupy about 70 percent; workpiece lower center, spindle upper right, 8 percent clear margin around all important features. Moderate close-up, 50mm perspective, no extreme macro or wide-angle distortion. Restrained neutral cool steel/aluminum tones, soft industrial side light from upper left, authentic subtle tool marks, a few believable chips, clean but working machine interior, dark grey softly out-of-focus background, controlled highlights and natural detail. No sparks, flying chips, coolant spray, extra cutters, impossible intersecting clamps, brand logos, typography, gauges, numeric readouts, certificates, human hands, watermark or decorative overlays. Text will be outside image in HTML; no typography area needed. Composition must also work as a complete uncropped 4:3 image on mobile."
+        }
+      ]
+    },
+    {
+      "output": "exec-9c7bb2d1-1239-4b2a-919b-e350963b7e37.png",
+      "timestamp": "2026-10-15T03:51:03.433Z",
+      "callId": "call_a0927cae42994297a57bd8df95eeb242",
+      "requests": [
+        {
+          "referenced_image_paths": [
+            "D:\\lzz\\lzz\\_react\\public\\media\\factory-unified-20261015\\inspection-concept-1200.webp",
+            "D:\\lzz\\lzz\\_react\\public\\media\\evidence\\cmm-detail-1600.webp"
+          ],
+          "transparent_background": false,
+          "prompt": "Use case: photorealistic-natural. Create ONE final professional B2B machining website educational illustration, landscape 3:2. This is explicitly a generic AI-generated contact measurement concept, never an actual LZZ inspection record or factory photograph. Reference 1 is the old concept that needs correction, reference 2 is only a real mechanical reference for the probe assembly and restrained photographic treatment; do not copy or invent the company's actual room or machine identity. Show a simple unbranded aluminum rectangular workpiece with one bored circular hole, firmly located on three supports on a CMM table with credible small clamps. A realistic vertical touch-trigger probe assembly descends from upper right; its narrow stylus and small ruby red spherical tip MUST VISIBLY TOUCH the INNER CYLINDRICAL WALL of the bore, tangential contact near the right-hand inside wall, with the tip partly below the top surface. The probe tip must not hover above the part, pass through metal, or touch empty space. Clear, physically readable contact point is the central purpose. Oblique 45-degree closeup, show the entire bore rim, enough tabletop and support context, keep 8 percent clear margin around all important parts. Restrained cool neutral silver and pale gray, soft diffuse studio daylight from upper left, clean low-complexity background and controlled metal highlights, natural machining marks, industrial commercial photography rather than shiny 3D render. Workpiece and probe occupy about 70 percent of frame width. No human, no hands, no logos, no badges, no screens, no measurements, no acceptance results, no calibration labels, no text or watermark. No extra probes, floating or crossing supports, impossible clamps. No text overlay or empty text panel: caption will be HTML outside image. Mobile uses the complete 3:2 frame, so keep workpiece, stylus and exact contact point fully inside the central 85 percent."
+        }
+      ]
+    },
+    {
+      "output": "exec-376ba729-65cc-4b40-bf5e-97895e81cecf.png",
+      "timestamp": "2026-10-15T03:51:49.009Z",
+      "callId": "call_6950d7c832c7487eb0d0c1cca2d9ac4c",
+      "requests": [
+        {
+          "transparent_background": false,
+          "prompt": "Use case: photographic studio background for compositing existing real CNC parts without changing those parts. Generate ONE completely EMPTY seamless matte studio cyclorama, landscape 4:3. Very light cool neutral gray surface merges softly into an almost white background; diffuse large softbox lighting from upper left, controlled very gentle tonal falloff toward lower right, almost imperceptible horizon. Consistent professional industrial product catalogue photography treatment, low contrast and no colored tint. Entire central 90 percent is clean empty floor suitable for preserving a real metal or plastic product subject; retain enough light gray to separate white polymer parts. No object, machine, tool, product, cylinder, sphere, part, geometric decoration, texture, gradient banding, vignetting, visible studio equipment, text, logo, watermark or pre-made object shadow. This is an empty photographic canvas only. Do not invent a product."
+        }
+      ]
+    }
+  ]
+}

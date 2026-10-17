@@ -1,0 +1,139 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Capabilities":
+        - /url: /capabilities/
+      - generic: /
+      - generic: Casting machining
+    - heading "Finished interfaces for cast components" [level=1]
+    - paragraph: Machining cast housings, transmission components and pump bodies. Send the casting specification along with the finished-part drawing.
+    - link "Prepare RFQ email":
+      - /url: /quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F
+    - figure "Transmission housings & pump bodies":
+      - link "View Transmission housings & pump bodies":
+        - /url: /products/custom-cnc-machined-castings-transmission-housings-pump-bodies/
+        - img "Transmission housings & pump bodies"
+      - generic: Transmission housings & pump bodies
+    - heading "Finish machining for cast blanks" [level=2]
+    - paragraph: The casting and finished-part drawings must show what remains as cast and where material is removed. Confirm blank supply and acceptance before planning the machining work.
+    - term: Geometry & process
+    - definition: For adding finished bores, mounting faces, threads and passages to cast blanks. Milling, boring, drilling and tapping address transmission housings, pump bodies and structural enclosures. Reverse engineering support includes sample scanning, 2D/3D model reconstruction and manufacturability review.
+    - term: Size & workholding
+    - definition: Share the blank model or photos, overall dimensions and casting and finished-part drawings. Fixtures for irregular blanks use casting datums, stock allowance and accessible clamping positions. Identify who supplies and approves the casting.
+    - term: Material & finish
+    - definition: Specify the casting alloy and condition. Distinguish as-cast surfaces from machined faces and identify the required finish on the finished interfaces. These machining examples do not establish an in-house foundry service.
+    - generic "Turn a cast blank into controlled interfaces"
+    - heading "More part examples" [level=2]
+    - link "Browse all parts":
+      - /url: /products/
+    - link "Cast housings & structural enclosures Cast housings & structural enclosures":
+      - /url: /products/oem-precision-cnc-machined-casting-housing-structural-enclosures/
+      - img "Cast housings & structural enclosures"
+      - heading "Cast housings & structural enclosures" [level=3]
+    - link "Cast housings CNC-machined casting housings":
+      - /url: /products/oem-precision-cnc-machined-casting-housings/
+      - img "Cast housings"
+      - heading "CNC-machined casting housings" [level=3]
+    - heading "Drawing & acceptance" [level=2]
+    - heading "Drawing requirements" [level=3]
+    - paragraph: Distinguish as-cast surfaces from machined faces. Supply casting and finished-part drawings with machining allowance and datum targets.
+    - paragraph: Identify bearing bores, seal lands and mounting interfaces whose alignment depends on the blank and fixture locations.
+    - heading "Inspection and acceptance" [level=3]
+    - paragraph: Agree incoming-blank acceptance, material documentation and dimensional checks on the finished interfaces.
+    - paragraph: Specify any porosity, pressure-integrity or non-destructive examination separately. Agree who is responsible and the acceptance criteria.
+    - paragraph: Agree the measurement method and required records before production.
+    - navigation "Inspection and order information":
+      - link "Quality & inspection":
+        - /url: /quality/
+      - generic "Equipment and order records"
+    - heading "Prepare your casting machining enquiry" [level=2]
+    - paragraph: Share blank photos or models, alloy and condition, available stock allowance and the number of castings available.
+    - paragraph: Identify responsibility for casting supply, rejected blanks and any sample-based reconstruction; a photo is insufficient to define internal geometry.
+    - link "Prepare RFQ email":
+      - /url: /quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F
+    - paragraph: Add your requirements to the email draft, then attach drawings in your email app before sending.
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - navigation "Useful engineering resources":
+      - heading "Related resources" [level=3]
+      - link "Drawing & RFQ checklist":
+        - /url: /resources/rfq-checklist/
+        - generic: Drawing & RFQ checklist
+      - link "Choose a machining process":
+        - /url: /resources/cnc-process-selection/
+        - generic: Choose a machining process
+      - generic "More engineering resources"
+    - navigation "Related capabilities":
+      - heading "Related machining processes" [level=2]
+      - link "CNC milling":
+        - /url: /capabilities/cnc-milling-service/
+        - text: CNC milling
+        - generic: ↗
+      - link "CNC turning":
+        - /url: /capabilities/cnc-turning-service/
+        - text: CNC turning
+        - generic: ↗
+      - link "5-axis machining":
+        - /url: /capabilities/5-axis-cnc-machining/
+        - text: 5-axis machining
+        - generic: ↗
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

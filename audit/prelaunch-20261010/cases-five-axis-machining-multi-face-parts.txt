@@ -1,0 +1,122 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - link "/ Custom Parts":
+        - /url: /products/
+      - link "/ Machining Studies":
+        - /url: /cases/
+    - heading "Five-axis machining for multi-face components" [level=1]
+    - paragraph: Machining holes, side openings and contoured faces on a component held in a rotary setup.
+    - generic "Study sections"
+    - navigation "Study sections":
+      - link "The component":
+        - /url: "#study-0"
+      - link "Machining setup":
+        - /url: "#study-1"
+      - link "Machined features":
+        - /url: "#study-2"
+      - link "Inspection planning":
+        - /url: "#study-3"
+    - paragraph: The photographs come from the LZZ workshop and show the part shapes and setups discussed here.
+    - generic "Photography & project scope"
+    - link "Discuss your drawing":
+      - /url: /quote/
+    - figure "01 · LZZ workshop":
+      - img "Metal workpiece mounted on a trunnion beneath a CNC spindle."
+      - generic: 01 · LZZ workshop
+    - heading "The component" [level=2]
+    - paragraph: Front-face holes and a curved side opening place machining features on different faces of this component. Their relationship to a common datum is an important part of planning a similar job.
+    - figure "02 · LZZ workshop":
+      - img "Batch of machined metal components with multiple visible faces."
+      - generic: 02 · LZZ workshop
+    - heading "Machining setup" [level=2]
+    - paragraph: The workpiece is held in front of a rotary assembly, with spindle access from above. Tool reach and clearance around the fixture need to be checked for each face before the machining sequence is confirmed.
+    - heading "Machined features" [level=2]
+    - paragraph: The accompanying components have machined pockets, contoured edges and repeated hole patterns. These features provide useful reference points when discussing a similar geometry.
+    - heading "Inspection planning" [level=2]
+    - paragraph: For a comparable project, identify datums, mating features, positional tolerances, surface requirements and the dimensional record you need. LZZ can assess achievable limits and the inspection method from the drawing.
+    - region "Related studies and capabilities":
+      - navigation "Related capabilities":
+        - heading "Related capabilities" [level=2]
+        - link "5-axis machining":
+          - /url: /capabilities/5-axis-cnc-machining/
+        - link "CNC milling":
+          - /url: /capabilities/cnc-milling-service/
+      - generic "Parts with similar features":
+        - heading "Parts with similar features" [level=3]
+        - paragraph: Separate catalog examples for a similar enquiry.
+        - link "Multi-sided machined components":
+          - /url: /products/global-manufacturer-of-multi-sided-precision-machined-components/
+        - link "Multi-bore circular milled component":
+          - /url: /products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+      - link "See all process studies":
+        - /url: /cases/
+- heading "Have a part in mind?" [level=2]
+- paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+- link "Prepare RFQ email":
+  - /url: /quote/
+- link "roger@lzz-cnc.com":
+  - /url: mailto:roger@lzz-cnc.com
+  - generic: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

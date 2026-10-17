@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+import Arrow from '../components/Arrow.astro';
+import CompanyFacts from '../components/CompanyFacts.astro';
+import {equipmentFamilies} from '../data/company';
+import EvidenceImage from '../components/EvidenceImage.astro';
+import OrderDeliverables from '../components/OrderDeliverables.astro';
+
+import {photo} from '../data/evidence';
+const equipmentImages=['workshop-wide','turning-operation','five-axis-machine-wide','cmm-room'] as const;
+const scenes=[
+ {title:'Machining centers along the workshop aisle',id:'workshop-aisle',note:'Original LZZ workshop photograph; source folder dated December 2025.'},
+ {title:'A second view of the production floor',id:'workshop-floor',note:'Original LZZ workshop photograph; source folder dated December 2025.'},
+ {title:'Operators among the CNC machines',id:'workshop-operators-2025',note:'Original production-floor photograph; source file dated November 2025.'}
+] as const;
+const steps=['Requirements confirmation','Drawing / model evaluation','Quotation','Sample / prototype machining','Inspection & feedback','Sample approval','Production','Final QC & shipment'];
+---
+<Layout title="Our factory and manufacturing workflow" description="Explore LZZ's Hangzhou workshop, CNC machining equipment and production workflow.">
+ <PageHero variant="factory-intro real-factory-intro" lines={['Our factory','in Hangzhou']} image={photo('workshop-wide').src} imageAlt={photo('workshop-wide').alt} imageCaption={photo('workshop-wide').caption} action={{label:'See the equipment',href:'#equipment'}}/>
+ <div class="container factory-facts"><CompanyFacts/></div>
+ <section class="container section company-introduction" id="production-capacity"><div><h2>About 100,000<br/>parts per month</h2></div><div class="company-text"><p>This is a reference capacity for our 1,500 m² facility and 40+ pieces of machining and support equipment. Actual monthly output depends on part geometry, material, finishing and the production mix.</p><p>Our engineering team has more than 15 years of CNC machining experience. We accept orders from 1 piece. Production takes 7–14 business days after drawing and order confirmation, including surface finishing; transit is separate. LZZ is ISO 9001 certified.</p><a class="text-link" href="/capabilities/prototype-machining/">Plan a prototype order <Arrow/></a></div></section>
+ <section class="container section equipment-overview" id="equipment"><div class="section-heading"><h2>Machining and<br/>inspection equipment</h2></div><div class="equipment-families equipment-gallery">{equipmentFamilies.map((equipment,index)=><article><figure class="equipment-scene"><a class="equipment-visual" href={equipment.href+(index===3?'':'#engineering-fit')} aria-label={equipment.name}><EvidenceImage id={equipmentImages[index]} sizes="(max-width:760px) 90vw, 45vw"/></a></figure><h3>{equipment.name}</h3><p>{equipment.use}</p><a class="text-link" href={equipment.href+(index===3?'':'#engineering-fit')}>{index===3?'See inspection details':'See machining details'} <Arrow size={18}/></a></article>)}</div></section>
+ <section class="surface-band section" id="workshop-photographs"><div class="container"><div class="section-heading"><h2>Inside our<br/>workshop</h2><p class="section-intro">Workshop photographs from our company archive. Captions give the dates recorded in the original files or folders.</p></div><div class="workshop-photo-grid">{scenes.map(scene=><article class:list={{'workshop-landscape':photo(scene.id).width>photo(scene.id).height}} style={`--photo-width:${photo(scene.id).width}px`}><figure><EvidenceImage id={scene.id} sizes={photo(scene.id).width>photo(scene.id).height ? "(max-width:760px) 90vw, 960px" : "(max-width:760px) 90vw, 440px"}/><figcaption>{scene.note}</figcaption></figure><h3>{scene.title}</h3></article>)}</div></div></section>
+ <section class="workflow-band section" id="workflow"><div class="container"><div class="section-heading"><h2>From your drawing<br/>to shipment</h2></div><ol class="workflow">{steps.map((step,index)=><li><span>{String(index+1).padStart(2,'0')}</span><h3>{step}</h3></li>)}</ol><a class="text-link" href="/insights/how-we-work/">See project and delivery details <Arrow/></a></div></section>
+ <OrderDeliverables/>
+</Layout>
+<script>
+ if (window.location.hash === '#documents') window.location.replace('/about/#documents');
+</script>
+<style>
+ .factory-facts{padding-top:48px}
+ #equipment .equipment-gallery{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:72px 64px;align-items:start}
+ #equipment .equipment-gallery article{display:block;min-width:0;border:0;padding:0}
+ #equipment .equipment-gallery article:last-child{max-width:360px;justify-self:center}
+ #equipment .equipment-scene{display:block;margin:0}
+ #equipment .equipment-visual{display:block;background:#fff;margin:0 0 24px}
+ #equipment .equipment-visual :global(img){display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+ #equipment .equipment-gallery h3{margin:24px 0 0;font-size:26px;line-height:1.2}
+ #equipment .equipment-gallery article>p{margin:16px 0 20px;max-width:48ch;font-size:17px}
+ #workshop-photographs .workshop-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,440px));justify-content:space-between;gap:56px 48px;align-items:start}
+ #workshop-photographs article{display:block;min-width:0;padding:0;border:0;max-width:var(--photo-width);width:100%}
+ #workshop-photographs .workshop-landscape{grid-column:1/-1;grid-row:1;max-width:960px;justify-self:center}
+ #workshop-photographs figure{margin:0}
+ #workshop-photographs :global(img){display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+ #workshop-photographs figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:14px}
+ #workshop-photographs h3{font-size:24px;line-height:1.2;margin:18px 0 0}
+ .workflow-band .text-link{margin-top:35px}
+ @media(max-width:760px){
+  .factory-facts{padding-top:30px}
+  #equipment .equipment-gallery{grid-template-columns:1fr;gap:48px}
+  #equipment .equipment-gallery article:last-child{justify-self:start}
+  #equipment .equipment-gallery article>p{font-size:16px}
+  #workshop-photographs .workshop-photo-grid{grid-template-columns:1fr;gap:40px}
+  #workshop-photographs article:not(.workshop-landscape){max-width:440px}
+ }
+</style>

@@ -1,0 +1,28 @@
+---
+import type {CapabilityPageData} from '../data/capabilityDesign';
+import CapabilityArtwork from './CapabilityArtwork.astro';
+import CapabilityPhoto from './CapabilityPhoto.astro';
+import {capabilityReferences} from '../data/capabilityReferences';
+interface Props {page:CapabilityPageData;headingLevel?:'h2'|'h3';showGeometry?:boolean;title?:string}
+const {page,headingLevel='h2',showGeometry=true,title}=Astro.props;
+const {slug,plan,overview,content,turning,sample}=page;
+const Heading=headingLevel;
+const references=capabilityReferences[slug]?.filter(r=>r.label!=='Production, from 1 piece')||[];
+const geometryIsHero=page.heroArt.stem===plan.geometry.stem&&!!plan.geometry.stem||page.heroArt.src===plan.geometry.src&&!!plan.geometry.src;
+const showArt=showGeometry&&!geometryIsHero;
+const hasCmmInWorkflow=plan.steps.some(s=>s.photo==='cmm-detail')&&page.design.modules.includes('workshop');
+---
+<div class="cd-requirements" id="engineering-fit">
+ <header class="cd-heading"><Heading id={turning?'turning-inspection-title':'service-inspection-title'}>{title||(sample?'Approve the manufacturing definition':'Define the interfaces and acceptance')}</Heading><p>{content.scope}</p></header>
+ <div class:list={['cd-geometry',{'cd-geometry--text':!showArt}]}>
+  {showArt&&<CapabilityArtwork art={plan.geometry}/>}
+  <div><h3>{plan.geometry.title}</h3><p>{plan.geometry.text}</p><h3 id="size-and-setup-review">{sample?'Information needed beyond the photographs':slug==='prototype-machining'?'Revision & design changes':'Size & workholding review'}</h3><p>{overview.workholding}</p>{slug==='5-axis-cnc-machining'&&<p>Provide finished and blank dimensions and weight. Machine and fixture limits are assessed per drawing.</p>}</div>
+ </div>
+ <div id="capability-scope"><h3 class="cd-table-title" id="inspection">{sample?'Requirements to approve before manufacture':'From drawing to acceptance'}</h3><table class="cd-table cd-check-table"><thead><tr><th scope="col">Feature / decision</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{plan.checks.map(r=><tr><th scope="row">{r.feature}</th><td data-label="Specify on the drawing">{r.drawing}</td><td data-label="Agree before production">{r.inspection}</td></tr>)}</tbody></table></div>
+ {references.length>0&&<aside class="cd-reference" id="reference-figures">{references.map(r=><p><strong>{r.label}: {r.value}.</strong> {r.text}</p>)}</aside>}
+ {page.reading&&<details class="cd-material-drawing-notes"><summary>Drawing notes by material</summary><dl>{plan.materials.map(r=><div><dt>{r.name}</dt><dd>{r.review}</dd></div>)}</dl></details>}
+ <div class:list={['cd-quality-note',{'cd-quality-note--text':hasCmmInWorkflow}]} id={sample?'sample-approval':undefined}>
+  {!hasCmmInWorkflow&&<CapabilityPhoto id="cmm-detail" caption="LZZ coordinate measuring machine." sizes="160px"/>}
+  <div><h3>{sample?'Agree the first-part review':'Inspection follows the requirement'}</h3><p>{overview.inspection}</p><a class="cd-link" href="/factory/#quality">Quality control & inspection</a></div>
+ </div>
+</div>

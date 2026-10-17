@@ -1,0 +1,8 @@
+---
+import Shell from '../../components/homepage-directions-20261012/Shell.astro';
+import Sections from '../../components/homepage-directions-20261012/Sections.astro';
+import Inquiry from '../../components/homepage-directions-20261012/Inquiry.astro';
+import {asset} from '../../components/homepage-directions-20261012/content';
+import {ArrowUpRight} from 'lucide-react';
+---
+<Shell variant="a" title="Precision, in focus"><section class="hero hero-a wrap"><div class="hero-copy"><span class="eyebrow">Custom CNC machining</span><h1>Your drawing.<br/>Our next part.</h1><p>Custom CNC parts for prototypes<br/>and small production runs.</p><a class="button" href="#inquiry">Request a quote <ArrowUpRight size={20}/></a><a class="hero-secondary" href="#parts">Explore part examples</a></div><figure><picture><source media="(max-width:760px)" srcset={asset('hero-a-mobile.webp')}/><img src={asset('hero-a.webp')} alt="Studio concept of an impeller, based on an existing LZZ part image" width="1536" height="1024" fetchpriority="high"/></picture><figcaption>Impeller · studio concept</figcaption></figure><div class="hero-foot"><span>CNC milling · Turning · 5-axis machining</span><a href="/capabilities/plastic-machined-parts/">Plastic machining</a></div></section><Sections section="planning"/><Sections section="parts"/><Sections section="process"/><Sections section="evidence"/><Sections section="studies"/><Sections section="ordering"/><Inquiry/></Shell>

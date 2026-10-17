@@ -1,0 +1,23 @@
+---
+import {capabilityOverview} from '../data/capabilityOverview';
+import {processDelivery} from '../data/orderDeliverables';
+const {slug}=Astro.props;
+const overview=capabilityOverview[slug];
+const delivery=processDelivery[slug];
+---
+<section class="container engineering-scope" id="engineering-fit" aria-labelledby="engineering-fit-heading">
+ <div class="scope-heading"><h2 id="engineering-fit-heading">{overview.heading}</h2></div>
+ <dl>
+  <div><dt>Geometry &amp; process</dt><dd>{overview.geometry}</dd></div>
+  <div><dt>Size &amp; workholding</dt><dd>{overview.workholding}</dd></div>
+  <div><dt>Material &amp; finish</dt><dd>{overview.materialFinish}</dd></div>
+  <div><dt>Inspection planning</dt><dd>{overview.inspection} <a href="/quality/">Review inspection requirements</a></dd></div>
+ </dl>
+ <p class="scope-note">See our <a href="/factory/#equipment">machining and inspection equipment</a> and the <a href="/factory/#order-deliverables">services and records available with your order</a>.</p>
+ {delivery&&<details class="process-delivery" id="service-summary" open><summary>{delivery.title}</summary><ul>{delivery.items.map(item=><li>{item}</li>)}</ul>{overview.planning&&<p class="scope-note"><strong>{overview.planning.title}:</strong> {overview.planning.text}</p>}<a href="/quality/#order-documentation">Plan the inspection and delivery records</a></details>}
+</section>
+<style>
+ .process-delivery{scroll-margin-top:110px}
+ .process-delivery{margin-top:28px;border-top:1px solid var(--border);padding-top:20px}.process-delivery summary{font-size:22px;font-weight:650;cursor:pointer;line-height:1.35}.process-delivery ul{padding-left:20px;max-width:85ch;margin:18px 0}.process-delivery li{font-size:16px;line-height:1.7;margin-bottom:12px}.process-delivery>a{font-size:15px;display:inline-block;padding-block:8px}
+ .engineering-scope{padding-block:40px;border-bottom:1px solid var(--border);scroll-margin-top:110px}.scope-heading>p{font-size:14px;color:var(--muted);margin-bottom:12px}.scope-heading h2{font-size:clamp(28px,3vw,38px);max-width:25ch}.engineering-scope dl{margin:28px 0 0}.engineering-scope dl>div{display:grid;grid-template-columns:220px minmax(0,1fr);gap:32px;padding:20px 0;border-top:1px solid var(--border)}dt{font-weight:650;font-size:16px}dd{margin:0;max-width:72ch;font-size:16px;line-height:1.7}.scope-note{font-size:14px;line-height:1.65;max-width:85ch;margin-top:20px}a{text-decoration:underline;text-underline-offset:4px}@media(max-width:760px){.engineering-scope dl>div{grid-template-columns:1fr;gap:8px}.engineering-scope{padding-block:30px}}
+</style>

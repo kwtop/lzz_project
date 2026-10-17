@@ -1,0 +1,22 @@
+---
+import '../styles/studies-news-gallery.css';
+import EvidenceImage from './EvidenceImage.astro';
+import {photo} from '../data/evidence';
+import {engineeringCases} from '../data/cases';
+const item=engineeringCases.find(item=>item.slug==='milling-prismatic-components')!;
+const quoteHref='/quote/?'+new URLSearchParams({part:'Prismatic multi-feature part drawing review'}).toString();
+const checks=[['Bores','Identify critical bores and their locations.'],['Hole patterns','Confirm hole patterns and related datums.'],['Mounting faces','Specify mounting faces used for location and function.'],['Positional relationships','Define the key relative positions between features.']];
+
+import '../styles/content-editorial.css';
+import ContentFigure from './ContentFigure.astro';
+import ContentClosing from './ContentClosing.astro';
+import StudyGuidance from './StudyGuidance.astro';
+---
+<article class="content-editorial">
+<header class="ce-wrap ce-header"><div><h1>CNC milling for prismatic parts</h1><p>Use the mounting faces as datums for the holes and pockets. The drawing should show the relationships needed for assembly.</p></div><ContentFigure visual="process" eager/></header>
+<section class="ce-wrap ce-chapter ce-split ce-image-first" id="component"><figure class="ce-source"><a class="static-photo"><EvidenceImage id={item.photos[1]} sizes="(max-width:760px) 90vw, 550px"/></a><figcaption>{photo(item.photos[1]).caption}</figcaption></figure><div class="ce-copy"><h2>Faces, holes and pockets</h2><p>{item.workpiece}</p><p>Locate holes and pockets from the mounting-face datums.</p></div></section>
+<section class="ce-wrap ce-chapter ce-split ce-image-first" id="machining-setup"><figure class="ce-source"><a class="static-photo"><EvidenceImage id={item.photos[0]} sizes="(max-width:760px) 90vw, 550px"/></a><figcaption>{photo(item.photos[0]).caption}</figcaption></figure><div class="ce-copy"><h2>Locating the part for milling</h2><p>{item.setup}</p></div></section>
+<section class="ce-wrap ce-chapter" id="inspection-planning"><div class="ce-copy"><h2>Inspection requirements</h2><p>Mark the features below on your drawing, then agree the method, sampling plan and report format. Specify material and finish, with dimensions to check after treatment.</p><dl class="ce-facts">{checks.map(([name,copy])=><div><dt>{name}</dt><dd>{copy}</dd></div>)}</dl></div></section>
+<div class="ce-wrap"><StudyGuidance item={item}/></div>
+<ContentClosing quoteHref={quoteHref} title="Discuss a similar part"/>
+</article>

@@ -1,0 +1,18 @@
+---
+import CapabilityDetail from '../../components/CapabilityDetail.astro';
+import CapabilityRedesign from '../../components/CapabilityRedesign.astro';
+import {isRedesigned} from '../../data/redesignRollout';
+import Layout from '../../layouts/Layout.astro';
+import {sampleToPart} from '../../data/sampleToPart';
+import {serviceReading} from '../../data/serviceReading';
+import {capabilityHeroPart} from '../../data/capabilityRebuild';
+import {inquiryHref} from '../../lib/inquiryContext';
+const slug='starting-with-a-sample';
+const title=serviceReading[slug].title;
+const description='Start a custom machining project from an existing part. Review the sample, reconstruct its geometry and approve drawings, material and acceptance requirements before production.';
+const image=capabilityHeroPart(slug).src;
+const quoteHref=inquiryHref(sampleToPart);
+---
+<Layout title={title} description={description} articleImage={image} cta={false} headerQuoteHref={quoteHref} structuredEntity={{type:'Service',name:title,description,image}}>
+ {isRedesigned(Astro.url.pathname)?<CapabilityRedesign slug={slug} quoteHref={quoteHref}/>:<CapabilityDetail slug={slug} quoteHref={quoteHref}/>}
+</Layout>

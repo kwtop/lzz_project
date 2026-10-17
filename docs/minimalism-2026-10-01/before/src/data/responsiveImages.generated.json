@@ -1,0 +1,601 @@
+{
+  "/media/catalog-29-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-29-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-29-cutout-v1-240.webp 240w, /media/responsive/catalog-29-cutout-v1-320.webp 320w, /media/responsive/catalog-29-cutout-v1-400.webp 400w, /media/responsive/catalog-29-cutout-v1-480.webp 480w, /media/responsive/catalog-29-cutout-v1-640.webp 640w, /media/responsive/catalog-29-cutout-v1-800.webp 800w, /media/responsive/catalog-29-cutout-v1-960.webp 960w, /media/responsive/catalog-29-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-26-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-26-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-26-cutout-v1-240.webp 240w, /media/responsive/catalog-26-cutout-v1-320.webp 320w, /media/responsive/catalog-26-cutout-v1-400.webp 400w, /media/responsive/catalog-26-cutout-v1-480.webp 480w, /media/responsive/catalog-26-cutout-v1-640.webp 640w, /media/responsive/catalog-26-cutout-v1-800.webp 800w, /media/responsive/catalog-26-cutout-v1-960.webp 960w, /media/responsive/catalog-26-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-24-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-24-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-24-cutout-v1-240.webp 240w, /media/responsive/catalog-24-cutout-v1-320.webp 320w, /media/responsive/catalog-24-cutout-v1-400.webp 400w, /media/responsive/catalog-24-cutout-v1-480.webp 480w, /media/responsive/catalog-24-cutout-v1-640.webp 640w, /media/responsive/catalog-24-cutout-v1-800.webp 800w, /media/responsive/catalog-24-cutout-v1-960.webp 960w, /media/responsive/catalog-24-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-20-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-20-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-20-cutout-v1-240.webp 240w, /media/responsive/catalog-20-cutout-v1-320.webp 320w, /media/responsive/catalog-20-cutout-v1-400.webp 400w, /media/responsive/catalog-20-cutout-v1-480.webp 480w, /media/responsive/catalog-20-cutout-v1-640.webp 640w, /media/responsive/catalog-20-cutout-v1-800.webp 800w, /media/responsive/catalog-20-cutout-v1-960.webp 960w, /media/responsive/catalog-20-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-18-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-18-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-18-cutout-v1-240.webp 240w, /media/responsive/catalog-18-cutout-v1-320.webp 320w, /media/responsive/catalog-18-cutout-v1-400.webp 400w, /media/responsive/catalog-18-cutout-v1-480.webp 480w, /media/responsive/catalog-18-cutout-v1-640.webp 640w, /media/responsive/catalog-18-cutout-v1-800.webp 800w, /media/responsive/catalog-18-cutout-v1-960.webp 960w, /media/responsive/catalog-18-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-12-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-12-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-12-cutout-v1-240.webp 240w, /media/responsive/catalog-12-cutout-v1-320.webp 320w, /media/responsive/catalog-12-cutout-v1-400.webp 400w, /media/responsive/catalog-12-cutout-v1-480.webp 480w, /media/responsive/catalog-12-cutout-v1-640.webp 640w, /media/responsive/catalog-12-cutout-v1-800.webp 800w, /media/responsive/catalog-12-cutout-v1-960.webp 960w, /media/responsive/catalog-12-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-11-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-11-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-11-cutout-v1-240.webp 240w, /media/responsive/catalog-11-cutout-v1-320.webp 320w, /media/responsive/catalog-11-cutout-v1-400.webp 400w, /media/responsive/catalog-11-cutout-v1-480.webp 480w, /media/responsive/catalog-11-cutout-v1-640.webp 640w, /media/responsive/catalog-11-cutout-v1-800.webp 800w, /media/responsive/catalog-11-cutout-v1-960.webp 960w, /media/responsive/catalog-11-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-09-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-09-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-09-cutout-v1-240.webp 240w, /media/responsive/catalog-09-cutout-v1-320.webp 320w, /media/responsive/catalog-09-cutout-v1-400.webp 400w, /media/responsive/catalog-09-cutout-v1-480.webp 480w, /media/responsive/catalog-09-cutout-v1-640.webp 640w, /media/responsive/catalog-09-cutout-v1-800.webp 800w, /media/responsive/catalog-09-cutout-v1-960.webp 960w, /media/responsive/catalog-09-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-04-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-04-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-04-cutout-v1-240.webp 240w, /media/responsive/catalog-04-cutout-v1-320.webp 320w, /media/responsive/catalog-04-cutout-v1-400.webp 400w, /media/responsive/catalog-04-cutout-v1-480.webp 480w, /media/responsive/catalog-04-cutout-v1-640.webp 640w, /media/responsive/catalog-04-cutout-v1-800.webp 800w, /media/responsive/catalog-04-cutout-v1-960.webp 960w, /media/responsive/catalog-04-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-02-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-02-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-02-cutout-v1-240.webp 240w, /media/responsive/catalog-02-cutout-v1-320.webp 320w, /media/responsive/catalog-02-cutout-v1-400.webp 400w, /media/responsive/catalog-02-cutout-v1-480.webp 480w, /media/responsive/catalog-02-cutout-v1-640.webp 640w, /media/responsive/catalog-02-cutout-v1-800.webp 800w, /media/responsive/catalog-02-cutout-v1-960.webp 960w, /media/responsive/catalog-02-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-00-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-00-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-00-cutout-v1-240.webp 240w, /media/responsive/catalog-00-cutout-v1-320.webp 320w, /media/responsive/catalog-00-cutout-v1-400.webp 400w, /media/responsive/catalog-00-cutout-v1-480.webp 480w, /media/responsive/catalog-00-cutout-v1-640.webp 640w, /media/responsive/catalog-00-cutout-v1-800.webp 800w, /media/responsive/catalog-00-cutout-v1-960.webp 960w, /media/responsive/catalog-00-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-03-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-03-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-03-cutout-v1-240.webp 240w, /media/responsive/catalog-03-cutout-v1-320.webp 320w, /media/responsive/catalog-03-cutout-v1-400.webp 400w, /media/responsive/catalog-03-cutout-v1-480.webp 480w, /media/responsive/catalog-03-cutout-v1-640.webp 640w, /media/responsive/catalog-03-cutout-v1-800.webp 800w, /media/responsive/catalog-03-cutout-v1-960.webp 960w, /media/responsive/catalog-03-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-22-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-22-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-22-cutout-v1-240.webp 240w, /media/responsive/catalog-22-cutout-v1-320.webp 320w, /media/responsive/catalog-22-cutout-v1-400.webp 400w, /media/responsive/catalog-22-cutout-v1-480.webp 480w, /media/responsive/catalog-22-cutout-v1-640.webp 640w, /media/responsive/catalog-22-cutout-v1-800.webp 800w, /media/responsive/catalog-22-cutout-v1-960.webp 960w, /media/responsive/catalog-22-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-23-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-23-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-23-cutout-v1-240.webp 240w, /media/responsive/catalog-23-cutout-v1-320.webp 320w, /media/responsive/catalog-23-cutout-v1-400.webp 400w, /media/responsive/catalog-23-cutout-v1-480.webp 480w, /media/responsive/catalog-23-cutout-v1-640.webp 640w, /media/responsive/catalog-23-cutout-v1-800.webp 800w, /media/responsive/catalog-23-cutout-v1-960.webp 960w, /media/responsive/catalog-23-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-25-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-25-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-25-cutout-v1-240.webp 240w, /media/responsive/catalog-25-cutout-v1-320.webp 320w, /media/responsive/catalog-25-cutout-v1-400.webp 400w, /media/responsive/catalog-25-cutout-v1-480.webp 480w, /media/responsive/catalog-25-cutout-v1-640.webp 640w, /media/responsive/catalog-25-cutout-v1-800.webp 800w, /media/responsive/catalog-25-cutout-v1-960.webp 960w, /media/responsive/catalog-25-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-16-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-16-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-16-cutout-v1-240.webp 240w, /media/responsive/catalog-16-cutout-v1-320.webp 320w, /media/responsive/catalog-16-cutout-v1-400.webp 400w, /media/responsive/catalog-16-cutout-v1-480.webp 480w, /media/responsive/catalog-16-cutout-v1-640.webp 640w, /media/responsive/catalog-16-cutout-v1-800.webp 800w, /media/responsive/catalog-16-cutout-v1-960.webp 960w, /media/responsive/catalog-16-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-17-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-17-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-17-cutout-v1-240.webp 240w, /media/responsive/catalog-17-cutout-v1-320.webp 320w, /media/responsive/catalog-17-cutout-v1-400.webp 400w, /media/responsive/catalog-17-cutout-v1-480.webp 480w, /media/responsive/catalog-17-cutout-v1-640.webp 640w, /media/responsive/catalog-17-cutout-v1-800.webp 800w, /media/responsive/catalog-17-cutout-v1-960.webp 960w, /media/responsive/catalog-17-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-19-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-19-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-19-cutout-v1-240.webp 240w, /media/responsive/catalog-19-cutout-v1-320.webp 320w, /media/responsive/catalog-19-cutout-v1-400.webp 400w, /media/responsive/catalog-19-cutout-v1-480.webp 480w, /media/responsive/catalog-19-cutout-v1-640.webp 640w, /media/responsive/catalog-19-cutout-v1-800.webp 800w, /media/responsive/catalog-19-cutout-v1-960.webp 960w, /media/responsive/catalog-19-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-21-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-21-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-21-cutout-v1-240.webp 240w, /media/responsive/catalog-21-cutout-v1-320.webp 320w, /media/responsive/catalog-21-cutout-v1-400.webp 400w, /media/responsive/catalog-21-cutout-v1-480.webp 480w, /media/responsive/catalog-21-cutout-v1-640.webp 640w, /media/responsive/catalog-21-cutout-v1-800.webp 800w, /media/responsive/catalog-21-cutout-v1-960.webp 960w, /media/responsive/catalog-21-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-28-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-28-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-28-cutout-v1-240.webp 240w, /media/responsive/catalog-28-cutout-v1-320.webp 320w, /media/responsive/catalog-28-cutout-v1-400.webp 400w, /media/responsive/catalog-28-cutout-v1-480.webp 480w, /media/responsive/catalog-28-cutout-v1-640.webp 640w, /media/responsive/catalog-28-cutout-v1-800.webp 800w, /media/responsive/catalog-28-cutout-v1-960.webp 960w, /media/responsive/catalog-28-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-30-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-30-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-30-cutout-v1-240.webp 240w, /media/responsive/catalog-30-cutout-v1-320.webp 320w, /media/responsive/catalog-30-cutout-v1-400.webp 400w, /media/responsive/catalog-30-cutout-v1-480.webp 480w, /media/responsive/catalog-30-cutout-v1-640.webp 640w, /media/responsive/catalog-30-cutout-v1-800.webp 800w, /media/responsive/catalog-30-cutout-v1-960.webp 960w, /media/responsive/catalog-30-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-34-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-34-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-34-cutout-v1-240.webp 240w, /media/responsive/catalog-34-cutout-v1-320.webp 320w, /media/responsive/catalog-34-cutout-v1-400.webp 400w, /media/responsive/catalog-34-cutout-v1-480.webp 480w, /media/responsive/catalog-34-cutout-v1-640.webp 640w, /media/responsive/catalog-34-cutout-v1-800.webp 800w, /media/responsive/catalog-34-cutout-v1-960.webp 960w, /media/responsive/catalog-34-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-01-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-01-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-01-cutout-v1-240.webp 240w, /media/responsive/catalog-01-cutout-v1-320.webp 320w, /media/responsive/catalog-01-cutout-v1-400.webp 400w, /media/responsive/catalog-01-cutout-v1-480.webp 480w, /media/responsive/catalog-01-cutout-v1-640.webp 640w, /media/responsive/catalog-01-cutout-v1-800.webp 800w, /media/responsive/catalog-01-cutout-v1-960.webp 960w, /media/responsive/catalog-01-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-05-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-05-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-05-cutout-v1-240.webp 240w, /media/responsive/catalog-05-cutout-v1-320.webp 320w, /media/responsive/catalog-05-cutout-v1-400.webp 400w, /media/responsive/catalog-05-cutout-v1-480.webp 480w, /media/responsive/catalog-05-cutout-v1-640.webp 640w, /media/responsive/catalog-05-cutout-v1-800.webp 800w, /media/responsive/catalog-05-cutout-v1-960.webp 960w, /media/responsive/catalog-05-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-06-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-06-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-06-cutout-v1-240.webp 240w, /media/responsive/catalog-06-cutout-v1-320.webp 320w, /media/responsive/catalog-06-cutout-v1-400.webp 400w, /media/responsive/catalog-06-cutout-v1-480.webp 480w, /media/responsive/catalog-06-cutout-v1-640.webp 640w, /media/responsive/catalog-06-cutout-v1-800.webp 800w, /media/responsive/catalog-06-cutout-v1-960.webp 960w, /media/responsive/catalog-06-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-07-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-07-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-07-cutout-v1-240.webp 240w, /media/responsive/catalog-07-cutout-v1-320.webp 320w, /media/responsive/catalog-07-cutout-v1-400.webp 400w, /media/responsive/catalog-07-cutout-v1-480.webp 480w, /media/responsive/catalog-07-cutout-v1-640.webp 640w, /media/responsive/catalog-07-cutout-v1-800.webp 800w, /media/responsive/catalog-07-cutout-v1-960.webp 960w, /media/responsive/catalog-07-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-08-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-08-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-08-cutout-v1-240.webp 240w, /media/responsive/catalog-08-cutout-v1-320.webp 320w, /media/responsive/catalog-08-cutout-v1-400.webp 400w, /media/responsive/catalog-08-cutout-v1-480.webp 480w, /media/responsive/catalog-08-cutout-v1-640.webp 640w, /media/responsive/catalog-08-cutout-v1-800.webp 800w, /media/responsive/catalog-08-cutout-v1-960.webp 960w, /media/responsive/catalog-08-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-10-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-10-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-10-cutout-v1-240.webp 240w, /media/responsive/catalog-10-cutout-v1-320.webp 320w, /media/responsive/catalog-10-cutout-v1-400.webp 400w, /media/responsive/catalog-10-cutout-v1-480.webp 480w, /media/responsive/catalog-10-cutout-v1-640.webp 640w, /media/responsive/catalog-10-cutout-v1-800.webp 800w, /media/responsive/catalog-10-cutout-v1-960.webp 960w, /media/responsive/catalog-10-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-14-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-14-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-14-cutout-v1-240.webp 240w, /media/responsive/catalog-14-cutout-v1-320.webp 320w, /media/responsive/catalog-14-cutout-v1-400.webp 400w, /media/responsive/catalog-14-cutout-v1-480.webp 480w, /media/responsive/catalog-14-cutout-v1-640.webp 640w, /media/responsive/catalog-14-cutout-v1-800.webp 800w, /media/responsive/catalog-14-cutout-v1-960.webp 960w, /media/responsive/catalog-14-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-15-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-15-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-15-cutout-v1-240.webp 240w, /media/responsive/catalog-15-cutout-v1-320.webp 320w, /media/responsive/catalog-15-cutout-v1-400.webp 400w, /media/responsive/catalog-15-cutout-v1-480.webp 480w, /media/responsive/catalog-15-cutout-v1-640.webp 640w, /media/responsive/catalog-15-cutout-v1-800.webp 800w, /media/responsive/catalog-15-cutout-v1-960.webp 960w, /media/responsive/catalog-15-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-32-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-32-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-32-cutout-v1-240.webp 240w, /media/responsive/catalog-32-cutout-v1-320.webp 320w, /media/responsive/catalog-32-cutout-v1-400.webp 400w, /media/responsive/catalog-32-cutout-v1-480.webp 480w, /media/responsive/catalog-32-cutout-v1-640.webp 640w, /media/responsive/catalog-32-cutout-v1-800.webp 800w, /media/responsive/catalog-32-cutout-v1-960.webp 960w, /media/responsive/catalog-32-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-31-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-31-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-31-cutout-v1-240.webp 240w, /media/responsive/catalog-31-cutout-v1-320.webp 320w, /media/responsive/catalog-31-cutout-v1-400.webp 400w, /media/responsive/catalog-31-cutout-v1-480.webp 480w, /media/responsive/catalog-31-cutout-v1-640.webp 640w, /media/responsive/catalog-31-cutout-v1-800.webp 800w, /media/responsive/catalog-31-cutout-v1-960.webp 960w, /media/responsive/catalog-31-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-13-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-13-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-13-cutout-v1-240.webp 240w, /media/responsive/catalog-13-cutout-v1-320.webp 320w, /media/responsive/catalog-13-cutout-v1-400.webp 400w, /media/responsive/catalog-13-cutout-v1-480.webp 480w, /media/responsive/catalog-13-cutout-v1-640.webp 640w, /media/responsive/catalog-13-cutout-v1-800.webp 800w, /media/responsive/catalog-13-cutout-v1-960.webp 960w, /media/responsive/catalog-13-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-33-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-33-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-33-cutout-v1-240.webp 240w, /media/responsive/catalog-33-cutout-v1-320.webp 320w, /media/responsive/catalog-33-cutout-v1-400.webp 400w, /media/responsive/catalog-33-cutout-v1-480.webp 480w, /media/responsive/catalog-33-cutout-v1-640.webp 640w, /media/responsive/catalog-33-cutout-v1-800.webp 800w, /media/responsive/catalog-33-cutout-v1-960.webp 960w, /media/responsive/catalog-33-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/catalog-27-cutout-v1.webp": {
+    "src": "/media/responsive/catalog-27-cutout-v1-1200.webp",
+    "srcset": "/media/responsive/catalog-27-cutout-v1-240.webp 240w, /media/responsive/catalog-27-cutout-v1-320.webp 320w, /media/responsive/catalog-27-cutout-v1-400.webp 400w, /media/responsive/catalog-27-cutout-v1-480.webp 480w, /media/responsive/catalog-27-cutout-v1-640.webp 640w, /media/responsive/catalog-27-cutout-v1-800.webp 800w, /media/responsive/catalog-27-cutout-v1-960.webp 960w, /media/responsive/catalog-27-cutout-v1-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/evidence/workshop-wide-1600.webp": {
+    "src": "/media/responsive/workshop-wide-1600-1600.webp",
+    "srcset": "/media/responsive/workshop-wide-1600-240.webp 240w, /media/responsive/workshop-wide-1600-320.webp 320w, /media/responsive/workshop-wide-1600-400.webp 400w, /media/responsive/workshop-wide-1600-480.webp 480w, /media/responsive/workshop-wide-1600-640.webp 640w, /media/responsive/workshop-wide-1600-800.webp 800w, /media/responsive/workshop-wide-1600-960.webp 960w, /media/responsive/workshop-wide-1600-1200.webp 1200w, /media/responsive/workshop-wide-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1108
+  },
+  "/media/evidence/cmm-room-1600.webp": {
+    "src": "/media/responsive/cmm-room-1600-1600.webp",
+    "srcset": "/media/responsive/cmm-room-1600-240.webp 240w, /media/responsive/cmm-room-1600-320.webp 320w, /media/responsive/cmm-room-1600-400.webp 400w, /media/responsive/cmm-room-1600-480.webp 480w, /media/responsive/cmm-room-1600-640.webp 640w, /media/responsive/cmm-room-1600-800.webp 800w, /media/responsive/cmm-room-1600-960.webp 960w, /media/responsive/cmm-room-1600-1200.webp 1200w, /media/responsive/cmm-room-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/cmm-detail-1600.webp": {
+    "src": "/media/responsive/cmm-detail-1600-1600.webp",
+    "srcset": "/media/responsive/cmm-detail-1600-240.webp 240w, /media/responsive/cmm-detail-1600-320.webp 320w, /media/responsive/cmm-detail-1600-400.webp 400w, /media/responsive/cmm-detail-1600-480.webp 480w, /media/responsive/cmm-detail-1600-640.webp 640w, /media/responsive/cmm-detail-1600-800.webp 800w, /media/responsive/cmm-detail-1600-960.webp 960w, /media/responsive/cmm-detail-1600-1200.webp 1200w, /media/responsive/cmm-detail-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/workshop-operators-2025-1600.webp": {
+    "src": "/media/responsive/workshop-operators-2025-1600-1600.webp",
+    "srcset": "/media/responsive/workshop-operators-2025-1600-240.webp 240w, /media/responsive/workshop-operators-2025-1600-320.webp 320w, /media/responsive/workshop-operators-2025-1600-400.webp 400w, /media/responsive/workshop-operators-2025-1600-480.webp 480w, /media/responsive/workshop-operators-2025-1600-640.webp 640w, /media/responsive/workshop-operators-2025-1600-800.webp 800w, /media/responsive/workshop-operators-2025-1600-960.webp 960w, /media/responsive/workshop-operators-2025-1600-1200.webp 1200w, /media/responsive/workshop-operators-2025-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/trade-event-1600.webp": {
+    "src": "/media/responsive/trade-event-1600-1600.webp",
+    "srcset": "/media/responsive/trade-event-1600-240.webp 240w, /media/responsive/trade-event-1600-320.webp 320w, /media/responsive/trade-event-1600-400.webp 400w, /media/responsive/trade-event-1600-480.webp 480w, /media/responsive/trade-event-1600-640.webp 640w, /media/responsive/trade-event-1600-800.webp 800w, /media/responsive/trade-event-1600-960.webp 960w, /media/responsive/trade-event-1600-1200.webp 1200w, /media/responsive/trade-event-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-2024-outdoor-1600.webp": {
+    "src": "/media/responsive/team-2024-outdoor-1600-1600.webp",
+    "srcset": "/media/responsive/team-2024-outdoor-1600-240.webp 240w, /media/responsive/team-2024-outdoor-1600-320.webp 320w, /media/responsive/team-2024-outdoor-1600-400.webp 400w, /media/responsive/team-2024-outdoor-1600-480.webp 480w, /media/responsive/team-2024-outdoor-1600-640.webp 640w, /media/responsive/team-2024-outdoor-1600-800.webp 800w, /media/responsive/team-2024-outdoor-1600-960.webp 960w, /media/responsive/team-2024-outdoor-1600-1200.webp 1200w, /media/responsive/team-2024-outdoor-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-activity-2024-1600.webp": {
+    "src": "/media/responsive/team-activity-2024-1600-1600.webp",
+    "srcset": "/media/responsive/team-activity-2024-1600-240.webp 240w, /media/responsive/team-activity-2024-1600-320.webp 320w, /media/responsive/team-activity-2024-1600-400.webp 400w, /media/responsive/team-activity-2024-1600-480.webp 480w, /media/responsive/team-activity-2024-1600-640.webp 640w, /media/responsive/team-activity-2024-1600-800.webp 800w, /media/responsive/team-activity-2024-1600-960.webp 960w, /media/responsive/team-activity-2024-1600-1200.webp 1200w, /media/responsive/team-activity-2024-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-2024-shared-meal-1600.webp": {
+    "src": "/media/responsive/team-2024-shared-meal-1600-1600.webp",
+    "srcset": "/media/responsive/team-2024-shared-meal-1600-240.webp 240w, /media/responsive/team-2024-shared-meal-1600-320.webp 320w, /media/responsive/team-2024-shared-meal-1600-400.webp 400w, /media/responsive/team-2024-shared-meal-1600-480.webp 480w, /media/responsive/team-2024-shared-meal-1600-640.webp 640w, /media/responsive/team-2024-shared-meal-1600-800.webp 800w, /media/responsive/team-2024-shared-meal-1600-960.webp 960w, /media/responsive/team-2024-shared-meal-1600-1200.webp 1200w, /media/responsive/team-2024-shared-meal-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-2024-riverside-group-1600.webp": {
+    "src": "/media/responsive/team-2024-riverside-group-1600-1600.webp",
+    "srcset": "/media/responsive/team-2024-riverside-group-1600-240.webp 240w, /media/responsive/team-2024-riverside-group-1600-320.webp 320w, /media/responsive/team-2024-riverside-group-1600-400.webp 400w, /media/responsive/team-2024-riverside-group-1600-480.webp 480w, /media/responsive/team-2024-riverside-group-1600-640.webp 640w, /media/responsive/team-2024-riverside-group-1600-800.webp 800w, /media/responsive/team-2024-riverside-group-1600-960.webp 960w, /media/responsive/team-2024-riverside-group-1600-1200.webp 1200w, /media/responsive/team-2024-riverside-group-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-gathering-1600.webp": {
+    "src": "/media/responsive/team-gathering-1600-1600.webp",
+    "srcset": "/media/responsive/team-gathering-1600-240.webp 240w, /media/responsive/team-gathering-1600-320.webp 320w, /media/responsive/team-gathering-1600-400.webp 400w, /media/responsive/team-gathering-1600-480.webp 480w, /media/responsive/team-gathering-1600-640.webp 640w, /media/responsive/team-gathering-1600-800.webp 800w, /media/responsive/team-gathering-1600-960.webp 960w, /media/responsive/team-gathering-1600-1200.webp 1200w, /media/responsive/team-gathering-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-2025-evening-group-1600.webp": {
+    "src": "/media/responsive/team-2025-evening-group-1600-1600.webp",
+    "srcset": "/media/responsive/team-2025-evening-group-1600-240.webp 240w, /media/responsive/team-2025-evening-group-1600-320.webp 320w, /media/responsive/team-2025-evening-group-1600-400.webp 400w, /media/responsive/team-2025-evening-group-1600-480.webp 480w, /media/responsive/team-2025-evening-group-1600-640.webp 640w, /media/responsive/team-2025-evening-group-1600-800.webp 800w, /media/responsive/team-2025-evening-group-1600-960.webp 960w, /media/responsive/team-2025-evening-group-1600-1200.webp 1200w, /media/responsive/team-2025-evening-group-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-2025-team-outing-1600.webp": {
+    "src": "/media/responsive/team-2025-team-outing-1600-1600.webp",
+    "srcset": "/media/responsive/team-2025-team-outing-1600-240.webp 240w, /media/responsive/team-2025-team-outing-1600-320.webp 320w, /media/responsive/team-2025-team-outing-1600-400.webp 400w, /media/responsive/team-2025-team-outing-1600-480.webp 480w, /media/responsive/team-2025-team-outing-1600-640.webp 640w, /media/responsive/team-2025-team-outing-1600-800.webp 800w, /media/responsive/team-2025-team-outing-1600-960.webp 960w, /media/responsive/team-2025-team-outing-1600-1200.webp 1200w, /media/responsive/team-2025-team-outing-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/shipment-2022-order-packing-1600.webp": {
+    "src": "/media/responsive/shipment-2022-order-packing-1600-1600.webp",
+    "srcset": "/media/responsive/shipment-2022-order-packing-1600-240.webp 240w, /media/responsive/shipment-2022-order-packing-1600-320.webp 320w, /media/responsive/shipment-2022-order-packing-1600-400.webp 400w, /media/responsive/shipment-2022-order-packing-1600-480.webp 480w, /media/responsive/shipment-2022-order-packing-1600-640.webp 640w, /media/responsive/shipment-2022-order-packing-1600-800.webp 800w, /media/responsive/shipment-2022-order-packing-1600-960.webp 960w, /media/responsive/shipment-2022-order-packing-1600-1200.webp 1200w, /media/responsive/shipment-2022-order-packing-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/shipping-example-1600.webp": {
+    "src": "/media/responsive/shipping-example-1600-1600.webp",
+    "srcset": "/media/responsive/shipping-example-1600-240.webp 240w, /media/responsive/shipping-example-1600-320.webp 320w, /media/responsive/shipping-example-1600-400.webp 400w, /media/responsive/shipping-example-1600-480.webp 480w, /media/responsive/shipping-example-1600-640.webp 640w, /media/responsive/shipping-example-1600-800.webp 800w, /media/responsive/shipping-example-1600-960.webp 960w, /media/responsive/shipping-example-1600-1200.webp 1200w, /media/responsive/shipping-example-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/shipment-2022-prepared-load-1600.webp": {
+    "src": "/media/responsive/shipment-2022-prepared-load-1600-1600.webp",
+    "srcset": "/media/responsive/shipment-2022-prepared-load-1600-240.webp 240w, /media/responsive/shipment-2022-prepared-load-1600-320.webp 320w, /media/responsive/shipment-2022-prepared-load-1600-400.webp 400w, /media/responsive/shipment-2022-prepared-load-1600-480.webp 480w, /media/responsive/shipment-2022-prepared-load-1600-640.webp 640w, /media/responsive/shipment-2022-prepared-load-1600-800.webp 800w, /media/responsive/shipment-2022-prepared-load-1600-960.webp 960w, /media/responsive/shipment-2022-prepared-load-1600-1200.webp 1200w, /media/responsive/shipment-2022-prepared-load-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/visitor-machining-tour-1200.webp": {
+    "src": "/media/responsive/visitor-machining-tour-1200-1200.webp",
+    "srcset": "/media/responsive/visitor-machining-tour-1200-240.webp 240w, /media/responsive/visitor-machining-tour-1200-320.webp 320w, /media/responsive/visitor-machining-tour-1200-400.webp 400w, /media/responsive/visitor-machining-tour-1200-480.webp 480w, /media/responsive/visitor-machining-tour-1200-640.webp 640w, /media/responsive/visitor-machining-tour-1200-800.webp 800w, /media/responsive/visitor-machining-tour-1200-960.webp 960w, /media/responsive/visitor-machining-tour-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/evidence/workshop-visit-1200.webp": {
+    "src": "/media/responsive/workshop-visit-1200-1200.webp",
+    "srcset": "/media/responsive/workshop-visit-1200-240.webp 240w, /media/responsive/workshop-visit-1200-320.webp 320w, /media/responsive/workshop-visit-1200-400.webp 400w, /media/responsive/workshop-visit-1200-480.webp 480w, /media/responsive/workshop-visit-1200-640.webp 640w, /media/responsive/workshop-visit-1200-800.webp 800w, /media/responsive/workshop-visit-1200-960.webp 960w, /media/responsive/workshop-visit-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/evidence/visitor-part-discussion-1600.webp": {
+    "src": "/media/responsive/visitor-part-discussion-1600-1600.webp",
+    "srcset": "/media/responsive/visitor-part-discussion-1600-240.webp 240w, /media/responsive/visitor-part-discussion-1600-320.webp 320w, /media/responsive/visitor-part-discussion-1600-400.webp 400w, /media/responsive/visitor-part-discussion-1600-480.webp 480w, /media/responsive/visitor-part-discussion-1600-640.webp 640w, /media/responsive/visitor-part-discussion-1600-800.webp 800w, /media/responsive/visitor-part-discussion-1600-960.webp 960w, /media/responsive/visitor-part-discussion-1600-1200.webp 1200w, /media/responsive/visitor-part-discussion-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/display-housing-panel-1600.webp": {
+    "src": "/media/responsive/display-housing-panel-1600-1600.webp",
+    "srcset": "/media/responsive/display-housing-panel-1600-240.webp 240w, /media/responsive/display-housing-panel-1600-320.webp 320w, /media/responsive/display-housing-panel-1600-400.webp 400w, /media/responsive/display-housing-panel-1600-480.webp 480w, /media/responsive/display-housing-panel-1600-640.webp 640w, /media/responsive/display-housing-panel-1600-800.webp 800w, /media/responsive/display-housing-panel-1600-960.webp 960w, /media/responsive/display-housing-panel-1600-1200.webp 1200w, /media/responsive/display-housing-panel-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/display-housing-machining-1600.webp": {
+    "src": "/media/responsive/display-housing-machining-1600-1600.webp",
+    "srcset": "/media/responsive/display-housing-machining-1600-240.webp 240w, /media/responsive/display-housing-machining-1600-320.webp 320w, /media/responsive/display-housing-machining-1600-400.webp 400w, /media/responsive/display-housing-machining-1600-480.webp 480w, /media/responsive/display-housing-machining-1600-640.webp 640w, /media/responsive/display-housing-machining-1600-800.webp 800w, /media/responsive/display-housing-machining-1600-960.webp 960w, /media/responsive/display-housing-machining-1600-1200.webp 1200w, /media/responsive/display-housing-machining-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/team-2025-november-meal-1200.webp": {
+    "src": "/media/responsive/team-2025-november-meal-1200-1200.webp",
+    "srcset": "/media/responsive/team-2025-november-meal-1200-240.webp 240w, /media/responsive/team-2025-november-meal-1200-320.webp 320w, /media/responsive/team-2025-november-meal-1200-400.webp 400w, /media/responsive/team-2025-november-meal-1200-480.webp 480w, /media/responsive/team-2025-november-meal-1200-640.webp 640w, /media/responsive/team-2025-november-meal-1200-800.webp 800w, /media/responsive/team-2025-november-meal-1200-960.webp 960w, /media/responsive/team-2025-november-meal-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/evidence/team-2025-november-group-1600.webp": {
+    "src": "/media/responsive/team-2025-november-group-1600-1600.webp",
+    "srcset": "/media/responsive/team-2025-november-group-1600-240.webp 240w, /media/responsive/team-2025-november-group-1600-320.webp 320w, /media/responsive/team-2025-november-group-1600-400.webp 400w, /media/responsive/team-2025-november-group-1600-480.webp 480w, /media/responsive/team-2025-november-group-1600-640.webp 640w, /media/responsive/team-2025-november-group-1600-800.webp 800w, /media/responsive/team-2025-november-group-1600-960.webp 960w, /media/responsive/team-2025-november-group-1600-1200.webp 1200w, /media/responsive/team-2025-november-group-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/workshop-floor-1200.webp": {
+    "src": "/media/responsive/workshop-floor-1200-1200.webp",
+    "srcset": "/media/responsive/workshop-floor-1200-240.webp 240w, /media/responsive/workshop-floor-1200-320.webp 320w, /media/responsive/workshop-floor-1200-400.webp 400w, /media/responsive/workshop-floor-1200-480.webp 480w, /media/responsive/workshop-floor-1200-640.webp 640w, /media/responsive/workshop-floor-1200-800.webp 800w, /media/responsive/workshop-floor-1200-960.webp 960w, /media/responsive/workshop-floor-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/evidence/workshop-aisle-1200.webp": {
+    "src": "/media/responsive/workshop-aisle-1200-1200.webp",
+    "srcset": "/media/responsive/workshop-aisle-1200-240.webp 240w, /media/responsive/workshop-aisle-1200-320.webp 320w, /media/responsive/workshop-aisle-1200-400.webp 400w, /media/responsive/workshop-aisle-1200-480.webp 480w, /media/responsive/workshop-aisle-1200-640.webp 640w, /media/responsive/workshop-aisle-1200-800.webp 800w, /media/responsive/workshop-aisle-1200-960.webp 960w, /media/responsive/workshop-aisle-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/evidence/aluminum-housings-1600.webp": {
+    "src": "/media/responsive/aluminum-housings-1600-1600.webp",
+    "srcset": "/media/responsive/aluminum-housings-1600-240.webp 240w, /media/responsive/aluminum-housings-1600-320.webp 320w, /media/responsive/aluminum-housings-1600-400.webp 400w, /media/responsive/aluminum-housings-1600-480.webp 480w, /media/responsive/aluminum-housings-1600-640.webp 640w, /media/responsive/aluminum-housings-1600-800.webp 800w, /media/responsive/aluminum-housings-1600-960.webp 960w, /media/responsive/aluminum-housings-1600-1200.webp 1200w, /media/responsive/aluminum-housings-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/brass-plugs-1200.webp": {
+    "src": "/media/responsive/brass-plugs-1200-1200.webp",
+    "srcset": "/media/responsive/brass-plugs-1200-240.webp 240w, /media/responsive/brass-plugs-1200-320.webp 320w, /media/responsive/brass-plugs-1200-400.webp 400w, /media/responsive/brass-plugs-1200-480.webp 480w, /media/responsive/brass-plugs-1200-640.webp 640w, /media/responsive/brass-plugs-1200-800.webp 800w, /media/responsive/brass-plugs-1200-960.webp 960w, /media/responsive/brass-plugs-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/evidence/five-axis-machine-wide-1600.webp": {
+    "src": "/media/responsive/five-axis-machine-wide-1600-1600.webp",
+    "srcset": "/media/responsive/five-axis-machine-wide-1600-240.webp 240w, /media/responsive/five-axis-machine-wide-1600-320.webp 320w, /media/responsive/five-axis-machine-wide-1600-400.webp 400w, /media/responsive/five-axis-machine-wide-1600-480.webp 480w, /media/responsive/five-axis-machine-wide-1600-640.webp 640w, /media/responsive/five-axis-machine-wide-1600-800.webp 800w, /media/responsive/five-axis-machine-wide-1600-960.webp 960w, /media/responsive/five-axis-machine-wide-1600-1200.webp 1200w, /media/responsive/five-axis-machine-wide-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/five-axis-operation-1600.webp": {
+    "src": "/media/responsive/five-axis-operation-1600-1600.webp",
+    "srcset": "/media/responsive/five-axis-operation-1600-240.webp 240w, /media/responsive/five-axis-operation-1600-320.webp 320w, /media/responsive/five-axis-operation-1600-400.webp 400w, /media/responsive/five-axis-operation-1600-480.webp 480w, /media/responsive/five-axis-operation-1600-640.webp 640w, /media/responsive/five-axis-operation-1600-800.webp 800w, /media/responsive/five-axis-operation-1600-960.webp 960w, /media/responsive/five-axis-operation-1600-1200.webp 1200w, /media/responsive/five-axis-operation-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/five-axis-parts-1600.webp": {
+    "src": "/media/responsive/five-axis-parts-1600-1600.webp",
+    "srcset": "/media/responsive/five-axis-parts-1600-240.webp 240w, /media/responsive/five-axis-parts-1600-320.webp 320w, /media/responsive/five-axis-parts-1600-400.webp 400w, /media/responsive/five-axis-parts-1600-480.webp 480w, /media/responsive/five-axis-parts-1600-640.webp 640w, /media/responsive/five-axis-parts-1600-800.webp 800w, /media/responsive/five-axis-parts-1600-960.webp 960w, /media/responsive/five-axis-parts-1600-1200.webp 1200w, /media/responsive/five-axis-parts-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/turning-operation-1600.webp": {
+    "src": "/media/responsive/turning-operation-1600-1600.webp",
+    "srcset": "/media/responsive/turning-operation-1600-240.webp 240w, /media/responsive/turning-operation-1600-320.webp 320w, /media/responsive/turning-operation-1600-400.webp 400w, /media/responsive/turning-operation-1600-480.webp 480w, /media/responsive/turning-operation-1600-640.webp 640w, /media/responsive/turning-operation-1600-800.webp 800w, /media/responsive/turning-operation-1600-960.webp 960w, /media/responsive/turning-operation-1600-1200.webp 1200w, /media/responsive/turning-operation-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/turning-parts-1600.webp": {
+    "src": "/media/responsive/turning-parts-1600-1600.webp",
+    "srcset": "/media/responsive/turning-parts-1600-240.webp 240w, /media/responsive/turning-parts-1600-320.webp 320w, /media/responsive/turning-parts-1600-400.webp 400w, /media/responsive/turning-parts-1600-480.webp 480w, /media/responsive/turning-parts-1600-640.webp 640w, /media/responsive/turning-parts-1600-800.webp 800w, /media/responsive/turning-parts-1600-960.webp 960w, /media/responsive/turning-parts-1600-1200.webp 1200w, /media/responsive/turning-parts-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/turn-mill-operation-1600.webp": {
+    "src": "/media/responsive/turn-mill-operation-1600-1600.webp",
+    "srcset": "/media/responsive/turn-mill-operation-1600-240.webp 240w, /media/responsive/turn-mill-operation-1600-320.webp 320w, /media/responsive/turn-mill-operation-1600-400.webp 400w, /media/responsive/turn-mill-operation-1600-480.webp 480w, /media/responsive/turn-mill-operation-1600-640.webp 640w, /media/responsive/turn-mill-operation-1600-800.webp 800w, /media/responsive/turn-mill-operation-1600-960.webp 960w, /media/responsive/turn-mill-operation-1600-1200.webp 1200w, /media/responsive/turn-mill-operation-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/turn-mill-parts-1200.webp": {
+    "src": "/media/responsive/turn-mill-parts-1200-1200.webp",
+    "srcset": "/media/responsive/turn-mill-parts-1200-240.webp 240w, /media/responsive/turn-mill-parts-1200-320.webp 320w, /media/responsive/turn-mill-parts-1200-400.webp 400w, /media/responsive/turn-mill-parts-1200-480.webp 480w, /media/responsive/turn-mill-parts-1200-640.webp 640w, /media/responsive/turn-mill-parts-1200-800.webp 800w, /media/responsive/turn-mill-parts-1200-960.webp 960w, /media/responsive/turn-mill-parts-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/evidence/milling-enclosure-operation-1600.webp": {
+    "src": "/media/responsive/milling-enclosure-operation-1600-1600.webp",
+    "srcset": "/media/responsive/milling-enclosure-operation-1600-240.webp 240w, /media/responsive/milling-enclosure-operation-1600-320.webp 320w, /media/responsive/milling-enclosure-operation-1600-400.webp 400w, /media/responsive/milling-enclosure-operation-1600-480.webp 480w, /media/responsive/milling-enclosure-operation-1600-640.webp 640w, /media/responsive/milling-enclosure-operation-1600-800.webp 800w, /media/responsive/milling-enclosure-operation-1600-960.webp 960w, /media/responsive/milling-enclosure-operation-1600-1200.webp 1200w, /media/responsive/milling-enclosure-operation-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/milling-enclosure-parts-1600.webp": {
+    "src": "/media/responsive/milling-enclosure-parts-1600-1600.webp",
+    "srcset": "/media/responsive/milling-enclosure-parts-1600-240.webp 240w, /media/responsive/milling-enclosure-parts-1600-320.webp 320w, /media/responsive/milling-enclosure-parts-1600-400.webp 400w, /media/responsive/milling-enclosure-parts-1600-480.webp 480w, /media/responsive/milling-enclosure-parts-1600-640.webp 640w, /media/responsive/milling-enclosure-parts-1600-800.webp 800w, /media/responsive/milling-enclosure-parts-1600-960.webp 960w, /media/responsive/milling-enclosure-parts-1600-1200.webp 1200w, /media/responsive/milling-enclosure-parts-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/multi-feature-milling-parts-1600.webp": {
+    "src": "/media/responsive/multi-feature-milling-parts-1600-1600.webp",
+    "srcset": "/media/responsive/multi-feature-milling-parts-1600-240.webp 240w, /media/responsive/multi-feature-milling-parts-1600-320.webp 320w, /media/responsive/multi-feature-milling-parts-1600-400.webp 400w, /media/responsive/multi-feature-milling-parts-1600-480.webp 480w, /media/responsive/multi-feature-milling-parts-1600-640.webp 640w, /media/responsive/multi-feature-milling-parts-1600-800.webp 800w, /media/responsive/multi-feature-milling-parts-1600-960.webp 960w, /media/responsive/multi-feature-milling-parts-1600-1200.webp 1200w, /media/responsive/multi-feature-milling-parts-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 2133
+  },
+  "/media/evidence/multi-feature-milling-operation-1600.webp": {
+    "src": "/media/responsive/multi-feature-milling-operation-1600-1600.webp",
+    "srcset": "/media/responsive/multi-feature-milling-operation-1600-240.webp 240w, /media/responsive/multi-feature-milling-operation-1600-320.webp 320w, /media/responsive/multi-feature-milling-operation-1600-400.webp 400w, /media/responsive/multi-feature-milling-operation-1600-480.webp 480w, /media/responsive/multi-feature-milling-operation-1600-640.webp 640w, /media/responsive/multi-feature-milling-operation-1600-800.webp 800w, /media/responsive/multi-feature-milling-operation-1600-960.webp 960w, /media/responsive/multi-feature-milling-operation-1600-1200.webp 1200w, /media/responsive/multi-feature-milling-operation-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/two-stage-first-1600.webp": {
+    "src": "/media/responsive/two-stage-first-1600-1600.webp",
+    "srcset": "/media/responsive/two-stage-first-1600-240.webp 240w, /media/responsive/two-stage-first-1600-320.webp 320w, /media/responsive/two-stage-first-1600-400.webp 400w, /media/responsive/two-stage-first-1600-480.webp 480w, /media/responsive/two-stage-first-1600-640.webp 640w, /media/responsive/two-stage-first-1600-800.webp 800w, /media/responsive/two-stage-first-1600-960.webp 960w, /media/responsive/two-stage-first-1600-1200.webp 1200w, /media/responsive/two-stage-first-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/evidence/two-stage-second-1600.webp": {
+    "src": "/media/responsive/two-stage-second-1600-1600.webp",
+    "srcset": "/media/responsive/two-stage-second-1600-240.webp 240w, /media/responsive/two-stage-second-1600-320.webp 320w, /media/responsive/two-stage-second-1600-400.webp 400w, /media/responsive/two-stage-second-1600-480.webp 480w, /media/responsive/two-stage-second-1600-640.webp 640w, /media/responsive/two-stage-second-1600-800.webp 800w, /media/responsive/two-stage-second-1600-960.webp 960w, /media/responsive/two-stage-second-1600-1200.webp 1200w, /media/responsive/two-stage-second-1600-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "/media/source-details/display-housing-pair-1200.webp": {
+    "src": "/media/responsive/display-housing-pair-1200-1200.webp",
+    "srcset": "/media/responsive/display-housing-pair-1200-240.webp 240w, /media/responsive/display-housing-pair-1200-320.webp 320w, /media/responsive/display-housing-pair-1200-400.webp 400w, /media/responsive/display-housing-pair-1200-480.webp 480w, /media/responsive/display-housing-pair-1200-640.webp 640w, /media/responsive/display-housing-pair-1200-800.webp 800w, /media/responsive/display-housing-pair-1200-960.webp 960w, /media/responsive/display-housing-pair-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/source-details/plastic-acrylic-batch-1200.webp": {
+    "src": "/media/responsive/plastic-acrylic-batch-1200-810.webp",
+    "srcset": "/media/responsive/plastic-acrylic-batch-1200-240.webp 240w, /media/responsive/plastic-acrylic-batch-1200-320.webp 320w, /media/responsive/plastic-acrylic-batch-1200-400.webp 400w, /media/responsive/plastic-acrylic-batch-1200-480.webp 480w, /media/responsive/plastic-acrylic-batch-1200-640.webp 640w, /media/responsive/plastic-acrylic-batch-1200-800.webp 800w, /media/responsive/plastic-acrylic-batch-1200-810.webp 810w",
+    "width": 810,
+    "height": 1080
+  },
+  "/media/source-details/plastic-acrylic-detail-1200.webp": {
+    "src": "/media/responsive/plastic-acrylic-detail-1200-810.webp",
+    "srcset": "/media/responsive/plastic-acrylic-detail-1200-240.webp 240w, /media/responsive/plastic-acrylic-detail-1200-320.webp 320w, /media/responsive/plastic-acrylic-detail-1200-400.webp 400w, /media/responsive/plastic-acrylic-detail-1200-480.webp 480w, /media/responsive/plastic-acrylic-detail-1200-640.webp 640w, /media/responsive/plastic-acrylic-detail-1200-800.webp 800w, /media/responsive/plastic-acrylic-detail-1200-810.webp 810w",
+    "width": 810,
+    "height": 1440
+  },
+  "/media/source-details/plastic-ptfe-batch-1200.webp": {
+    "src": "/media/responsive/plastic-ptfe-batch-1200-1200.webp",
+    "srcset": "/media/responsive/plastic-ptfe-batch-1200-240.webp 240w, /media/responsive/plastic-ptfe-batch-1200-320.webp 320w, /media/responsive/plastic-ptfe-batch-1200-400.webp 400w, /media/responsive/plastic-ptfe-batch-1200-480.webp 480w, /media/responsive/plastic-ptfe-batch-1200-640.webp 640w, /media/responsive/plastic-ptfe-batch-1200-800.webp 800w, /media/responsive/plastic-ptfe-batch-1200-960.webp 960w, /media/responsive/plastic-ptfe-batch-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1601
+  },
+  "/media/source-details/plastic-ptfe-intermediate-1200.webp": {
+    "src": "/media/responsive/plastic-ptfe-intermediate-1200-1080.webp",
+    "srcset": "/media/responsive/plastic-ptfe-intermediate-1200-240.webp 240w, /media/responsive/plastic-ptfe-intermediate-1200-320.webp 320w, /media/responsive/plastic-ptfe-intermediate-1200-400.webp 400w, /media/responsive/plastic-ptfe-intermediate-1200-480.webp 480w, /media/responsive/plastic-ptfe-intermediate-1200-640.webp 640w, /media/responsive/plastic-ptfe-intermediate-1200-800.webp 800w, /media/responsive/plastic-ptfe-intermediate-1200-960.webp 960w, /media/responsive/plastic-ptfe-intermediate-1200-1080.webp 1080w",
+    "width": 1080,
+    "height": 1920
+  },
+  "/media/source-details/plastic-ptfe-shafts-1200.webp": {
+    "src": "/media/responsive/plastic-ptfe-shafts-1200-810.webp",
+    "srcset": "/media/responsive/plastic-ptfe-shafts-1200-240.webp 240w, /media/responsive/plastic-ptfe-shafts-1200-320.webp 320w, /media/responsive/plastic-ptfe-shafts-1200-400.webp 400w, /media/responsive/plastic-ptfe-shafts-1200-480.webp 480w, /media/responsive/plastic-ptfe-shafts-1200-640.webp 640w, /media/responsive/plastic-ptfe-shafts-1200-800.webp 800w, /media/responsive/plastic-ptfe-shafts-1200-810.webp 810w",
+    "width": 810,
+    "height": 1080
+  },
+  "/media/source-details/metal-turned-shaft-1200.webp": {
+    "src": "/media/responsive/metal-turned-shaft-1200-1080.webp",
+    "srcset": "/media/responsive/metal-turned-shaft-1200-240.webp 240w, /media/responsive/metal-turned-shaft-1200-320.webp 320w, /media/responsive/metal-turned-shaft-1200-400.webp 400w, /media/responsive/metal-turned-shaft-1200-480.webp 480w, /media/responsive/metal-turned-shaft-1200-640.webp 640w, /media/responsive/metal-turned-shaft-1200-800.webp 800w, /media/responsive/metal-turned-shaft-1200-960.webp 960w, /media/responsive/metal-turned-shaft-1200-1080.webp 1080w",
+    "width": 1080,
+    "height": 1080
+  },
+  "/media/source-details/metal-turned-batch-1200.webp": {
+    "src": "/media/responsive/metal-turned-batch-1200-1080.webp",
+    "srcset": "/media/responsive/metal-turned-batch-1200-240.webp 240w, /media/responsive/metal-turned-batch-1200-320.webp 320w, /media/responsive/metal-turned-batch-1200-400.webp 400w, /media/responsive/metal-turned-batch-1200-480.webp 480w, /media/responsive/metal-turned-batch-1200-640.webp 640w, /media/responsive/metal-turned-batch-1200-800.webp 800w, /media/responsive/metal-turned-batch-1200-960.webp 960w, /media/responsive/metal-turned-batch-1200-1080.webp 1080w",
+    "width": 1080,
+    "height": 1440
+  },
+  "/media/source-details/metal-aluminum-housings-1200.webp": {
+    "src": "/media/responsive/metal-aluminum-housings-1200-1200.webp",
+    "srcset": "/media/responsive/metal-aluminum-housings-1200-240.webp 240w, /media/responsive/metal-aluminum-housings-1200-320.webp 320w, /media/responsive/metal-aluminum-housings-1200-400.webp 400w, /media/responsive/metal-aluminum-housings-1200-480.webp 480w, /media/responsive/metal-aluminum-housings-1200-640.webp 640w, /media/responsive/metal-aluminum-housings-1200-800.webp 800w, /media/responsive/metal-aluminum-housings-1200-960.webp 960w, /media/responsive/metal-aluminum-housings-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 900
+  },
+  "/media/source-details/metal-aluminum-close-1200.webp": {
+    "src": "/media/responsive/metal-aluminum-close-1200-1200.webp",
+    "srcset": "/media/responsive/metal-aluminum-close-1200-240.webp 240w, /media/responsive/metal-aluminum-close-1200-320.webp 320w, /media/responsive/metal-aluminum-close-1200-400.webp 400w, /media/responsive/metal-aluminum-close-1200-480.webp 480w, /media/responsive/metal-aluminum-close-1200-640.webp 640w, /media/responsive/metal-aluminum-close-1200-800.webp 800w, /media/responsive/metal-aluminum-close-1200-960.webp 960w, /media/responsive/metal-aluminum-close-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 900
+  },
+  "/media/source-details/metal-brass-batch-1200.webp": {
+    "src": "/media/responsive/metal-brass-batch-1200-1200.webp",
+    "srcset": "/media/responsive/metal-brass-batch-1200-240.webp 240w, /media/responsive/metal-brass-batch-1200-320.webp 320w, /media/responsive/metal-brass-batch-1200-400.webp 400w, /media/responsive/metal-brass-batch-1200-480.webp 480w, /media/responsive/metal-brass-batch-1200-640.webp 640w, /media/responsive/metal-brass-batch-1200-800.webp 800w, /media/responsive/metal-brass-batch-1200-960.webp 960w, /media/responsive/metal-brass-batch-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/source-details/finish-coated-round-1200.webp": {
+    "src": "/media/responsive/finish-coated-round-1200-1200.webp",
+    "srcset": "/media/responsive/finish-coated-round-1200-240.webp 240w, /media/responsive/finish-coated-round-1200-320.webp 320w, /media/responsive/finish-coated-round-1200-400.webp 400w, /media/responsive/finish-coated-round-1200-480.webp 480w, /media/responsive/finish-coated-round-1200-640.webp 640w, /media/responsive/finish-coated-round-1200-800.webp 800w, /media/responsive/finish-coated-round-1200-960.webp 960w, /media/responsive/finish-coated-round-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 675
+  },
+  "/media/source-details/finish-coated-bars-1200.webp": {
+    "src": "/media/responsive/finish-coated-bars-1200-1200.webp",
+    "srcset": "/media/responsive/finish-coated-bars-1200-240.webp 240w, /media/responsive/finish-coated-bars-1200-320.webp 320w, /media/responsive/finish-coated-bars-1200-400.webp 400w, /media/responsive/finish-coated-bars-1200-480.webp 480w, /media/responsive/finish-coated-bars-1200-640.webp 640w, /media/responsive/finish-coated-bars-1200-800.webp 800w, /media/responsive/finish-coated-bars-1200-960.webp 960w, /media/responsive/finish-coated-bars-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 675
+  },
+  "/media/source-details/covered-wheels-1200.webp": {
+    "src": "/media/responsive/covered-wheels-1200-904.webp",
+    "srcset": "/media/responsive/covered-wheels-1200-240.webp 240w, /media/responsive/covered-wheels-1200-320.webp 320w, /media/responsive/covered-wheels-1200-400.webp 400w, /media/responsive/covered-wheels-1200-480.webp 480w, /media/responsive/covered-wheels-1200-640.webp 640w, /media/responsive/covered-wheels-1200-800.webp 800w, /media/responsive/covered-wheels-1200-904.webp 904w",
+    "width": 904,
+    "height": 904
+  },
+  "/media/source-details/covered-rollers-1200.webp": {
+    "src": "/media/responsive/covered-rollers-1200-1200.webp",
+    "srcset": "/media/responsive/covered-rollers-1200-240.webp 240w, /media/responsive/covered-rollers-1200-320.webp 320w, /media/responsive/covered-rollers-1200-400.webp 400w, /media/responsive/covered-rollers-1200-480.webp 480w, /media/responsive/covered-rollers-1200-640.webp 640w, /media/responsive/covered-rollers-1200-800.webp 800w, /media/responsive/covered-rollers-1200-960.webp 960w, /media/responsive/covered-rollers-1200-1200.webp 1200w",
+    "width": 1200,
+    "height": 1200
+  },
+  "/media/source-details/covered-shaped-parts-1200.webp": {
+    "src": "/media/responsive/covered-shaped-parts-1200-1080.webp",
+    "srcset": "/media/responsive/covered-shaped-parts-1200-240.webp 240w, /media/responsive/covered-shaped-parts-1200-320.webp 320w, /media/responsive/covered-shaped-parts-1200-400.webp 400w, /media/responsive/covered-shaped-parts-1200-480.webp 480w, /media/responsive/covered-shaped-parts-1200-640.webp 640w, /media/responsive/covered-shaped-parts-1200-800.webp 800w, /media/responsive/covered-shaped-parts-1200-960.webp 960w, /media/responsive/covered-shaped-parts-1200-1080.webp 1080w",
+    "width": 1080,
+    "height": 810
+  },
+  "/media/source-details/gear-bevel-examples-1200.webp": {
+    "src": "/media/responsive/gear-bevel-examples-1200-1024.webp",
+    "srcset": "/media/responsive/gear-bevel-examples-1200-240.webp 240w, /media/responsive/gear-bevel-examples-1200-320.webp 320w, /media/responsive/gear-bevel-examples-1200-400.webp 400w, /media/responsive/gear-bevel-examples-1200-480.webp 480w, /media/responsive/gear-bevel-examples-1200-640.webp 640w, /media/responsive/gear-bevel-examples-1200-800.webp 800w, /media/responsive/gear-bevel-examples-1200-960.webp 960w, /media/responsive/gear-bevel-examples-1200-1024.webp 1024w",
+    "width": 1024,
+    "height": 474
+  },
+  "/media/source-details/gear-cylindrical-examples-1200.webp": {
+    "src": "/media/responsive/gear-cylindrical-examples-1200-1080.webp",
+    "srcset": "/media/responsive/gear-cylindrical-examples-1200-240.webp 240w, /media/responsive/gear-cylindrical-examples-1200-320.webp 320w, /media/responsive/gear-cylindrical-examples-1200-400.webp 400w, /media/responsive/gear-cylindrical-examples-1200-480.webp 480w, /media/responsive/gear-cylindrical-examples-1200-640.webp 640w, /media/responsive/gear-cylindrical-examples-1200-800.webp 800w, /media/responsive/gear-cylindrical-examples-1200-960.webp 960w, /media/responsive/gear-cylindrical-examples-1200-1080.webp 1080w",
+    "width": 1080,
+    "height": 1440
+  },
+  "/media/machining-hero-v2.webp": {
+    "src": "/media/responsive/machining-hero-v2-1672.webp",
+    "srcset": "/media/responsive/machining-hero-v2-240.webp 240w, /media/responsive/machining-hero-v2-320.webp 320w, /media/responsive/machining-hero-v2-400.webp 400w, /media/responsive/machining-hero-v2-480.webp 480w, /media/responsive/machining-hero-v2-640.webp 640w, /media/responsive/machining-hero-v2-800.webp 800w, /media/responsive/machining-hero-v2-960.webp 960w, /media/responsive/machining-hero-v2-1200.webp 1200w, /media/responsive/machining-hero-v2-1600.webp 1600w, /media/responsive/machining-hero-v2-1672.webp 1672w",
+    "width": 1672,
+    "height": 941,
+    "mobile": {
+      "srcset": "/media/responsive/machining-hero-mobile-320.webp 320w, /media/responsive/machining-hero-mobile-375.webp 375w, /media/responsive/machining-hero-mobile-418.webp 418w",
+      "width": 418,
+      "height": 941
+    }
+  },
+  "/media/rfq-planning-ai-v2.webp": {
+    "src": "/media/responsive/rfq-planning-ai-v2-1200.webp",
+    "srcset": "/media/responsive/rfq-planning-ai-v2-240.webp 240w, /media/responsive/rfq-planning-ai-v2-320.webp 320w, /media/responsive/rfq-planning-ai-v2-400.webp 400w, /media/responsive/rfq-planning-ai-v2-480.webp 480w, /media/responsive/rfq-planning-ai-v2-640.webp 640w, /media/responsive/rfq-planning-ai-v2-800.webp 800w, /media/responsive/rfq-planning-ai-v2-960.webp 960w, /media/responsive/rfq-planning-ai-v2-1200.webp 1200w",
+    "width": 1200,
+    "height": 800
+  },
+  "/media/stainless-detail-v3.webp": {
+    "src": "/media/responsive/stainless-detail-v3-1600.webp",
+    "srcset": "/media/responsive/stainless-detail-v3-240.webp 240w, /media/responsive/stainless-detail-v3-320.webp 320w, /media/responsive/stainless-detail-v3-400.webp 400w, /media/responsive/stainless-detail-v3-480.webp 480w, /media/responsive/stainless-detail-v3-640.webp 640w, /media/responsive/stainless-detail-v3-800.webp 800w, /media/responsive/stainless-detail-v3-960.webp 960w, /media/responsive/stainless-detail-v3-1200.webp 1200w, /media/responsive/stainless-detail-v3-1600.webp 1600w",
+    "width": 1600,
+    "height": 900
+  },
+  "/media/brass-threaded-plugs-retouched-v1-1536.webp": {
+    "src": "/media/responsive/brass-threaded-plugs-retouched-v1-1536-1536.webp",
+    "srcset": "/media/responsive/brass-threaded-plugs-retouched-v1-1536-240.webp 240w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-320.webp 320w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-400.webp 400w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-480.webp 480w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-640.webp 640w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-800.webp 800w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-960.webp 960w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-1200.webp 1200w, /media/responsive/brass-threaded-plugs-retouched-v1-1536-1536.webp 1536w",
+    "width": 1536,
+    "height": 1024
+  },
+  "/media/polymer-shafts-retouched-v1-1536.webp": {
+    "src": "/media/responsive/polymer-shafts-retouched-v1-1536-1536.webp",
+    "srcset": "/media/responsive/polymer-shafts-retouched-v1-1536-240.webp 240w, /media/responsive/polymer-shafts-retouched-v1-1536-320.webp 320w, /media/responsive/polymer-shafts-retouched-v1-1536-400.webp 400w, /media/responsive/polymer-shafts-retouched-v1-1536-480.webp 480w, /media/responsive/polymer-shafts-retouched-v1-1536-640.webp 640w, /media/responsive/polymer-shafts-retouched-v1-1536-800.webp 800w, /media/responsive/polymer-shafts-retouched-v1-1536-960.webp 960w, /media/responsive/polymer-shafts-retouched-v1-1536-1200.webp 1200w, /media/responsive/polymer-shafts-retouched-v1-1536-1536.webp 1536w",
+    "width": 1536,
+    "height": 1024
+  },
+  "/media/editorial/material-family-editorial-illustrative-v1-1536.webp": {
+    "src": "/media/responsive/material-family-editorial-illustrative-v1-1536-1536.webp",
+    "srcset": "/media/responsive/material-family-editorial-illustrative-v1-1536-240.webp 240w, /media/responsive/material-family-editorial-illustrative-v1-1536-320.webp 320w, /media/responsive/material-family-editorial-illustrative-v1-1536-400.webp 400w, /media/responsive/material-family-editorial-illustrative-v1-1536-480.webp 480w, /media/responsive/material-family-editorial-illustrative-v1-1536-640.webp 640w, /media/responsive/material-family-editorial-illustrative-v1-1536-800.webp 800w, /media/responsive/material-family-editorial-illustrative-v1-1536-960.webp 960w, /media/responsive/material-family-editorial-illustrative-v1-1536-1200.webp 1200w, /media/responsive/material-family-editorial-illustrative-v1-1536-1536.webp 1536w",
+    "width": 1536,
+    "height": 1024
+  },
+  "/media/editorial/prototype-batch-editorial-r3-1536.webp": {
+    "src": "/media/responsive/prototype-batch-editorial-r3-1536-1536.webp",
+    "srcset": "/media/responsive/prototype-batch-editorial-r3-1536-240.webp 240w, /media/responsive/prototype-batch-editorial-r3-1536-320.webp 320w, /media/responsive/prototype-batch-editorial-r3-1536-400.webp 400w, /media/responsive/prototype-batch-editorial-r3-1536-480.webp 480w, /media/responsive/prototype-batch-editorial-r3-1536-640.webp 640w, /media/responsive/prototype-batch-editorial-r3-1536-800.webp 800w, /media/responsive/prototype-batch-editorial-r3-1536-960.webp 960w, /media/responsive/prototype-batch-editorial-r3-1536-1200.webp 1200w, /media/responsive/prototype-batch-editorial-r3-1536-1536.webp 1536w",
+    "width": 1536,
+    "height": 1024
+  }
+}

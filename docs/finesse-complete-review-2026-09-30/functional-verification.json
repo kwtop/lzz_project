@@ -1,0 +1,258 @@
+{
+  "status": "passed",
+  "casePlacement": [
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 442.609375,
+      "photoY": 692.5078125,
+      "route": "/cases/29-inch-display-housing-cnc-machining/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 438.609375,
+      "summaryFont": "16px",
+      "tocOpen": false
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 473.203125,
+      "photoY": 1225.859375,
+      "route": "/cases/custom-metal-parts-batch-examples/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 469.203125,
+      "summaryFont": "16px",
+      "tocOpen": true
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 473.203125,
+      "photoY": 1195.265625,
+      "route": "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 469.203125,
+      "summaryFont": "16px",
+      "tocOpen": true
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 442.609375,
+      "photoY": 692.5078125,
+      "route": "/cases/five-axis-machining-multi-face-parts/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 438.609375,
+      "summaryFont": "16px",
+      "tocOpen": false
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 442.609375,
+      "photoY": 692.5078125,
+      "route": "/cases/milling-a-pocketed-enclosure-form/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 438.609375,
+      "summaryFont": "16px",
+      "tocOpen": false
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 442.609375,
+      "photoY": 692.5078125,
+      "route": "/cases/milling-prismatic-components/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 438.609375,
+      "summaryFont": "16px",
+      "tocOpen": false
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 378.1015625,
+      "photoY": 628,
+      "route": "/cases/turning-then-milling-cylindrical-parts/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 374.1015625,
+      "summaryFont": "16px",
+      "tocOpen": false
+    },
+    {
+      "ctaHref": "/quote/",
+      "ctaText": "Discuss your drawing",
+      "ctaY": 378.1015625,
+      "photoY": 628,
+      "route": "/cases/two-stage-cnc-milling/",
+      "scopeFont": "15px",
+      "scopeOpen": true,
+      "scopeY": 374.1015625,
+      "summaryFont": "16px",
+      "tocOpen": false
+    }
+  ],
+  "interactions": [
+    {
+      "check": "collection-anchor",
+      "hash": "#pom",
+      "headerBottom": 76,
+      "scrollY": 1920,
+      "target": "POM gears: define the tooth and hub details",
+      "top": 209.9609375,
+      "videoCount": 1
+    },
+    {
+      "check": "home-source",
+      "color": "rgb(229, 233, 233)",
+      "font": "13px",
+      "text": "Illustrative machining visual · AI-generated"
+    },
+    {
+      "check": "mobile-case-cta",
+      "ctaBottom": 620.6875,
+      "ctaY": 569.6875,
+      "scopeOpen": true,
+      "scopeY": 636.6875,
+      "viewport": 844,
+      "width": 320
+    },
+    {
+      "check": "mobile-navigation",
+      "expanded": "true",
+      "viewport": 320,
+      "visibleLinks": [
+        "CNC milling",
+        "CNC turning",
+        "5-axis machining",
+        "Machining of Castings",
+        "Aluminum machining",
+        "Stainless steel machining",
+        "Copper & brass machining",
+        "Engineering Plastics",
+        "Prototype & small batch",
+        "Starting with a sample",
+        "View all machining capabilities",
+        "Machining Studies",
+        "Quality Control",
+        "Drawings & Ordering",
+        "Processes, Materials & Finishes",
+        "Production & Shipping",
+        "FAQ",
+        "Company News",
+        "Contact LZZ"
+      ],
+      "width": 305
+    },
+    {
+      "check": "mobile-menu-Escape",
+      "expanded": "false",
+      "focus": "Open navigation"
+    },
+    {
+      "captions": [
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "text": "AI-generated illustration; not a specific LZZ customer project or supplied part."
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "text": "AI-generated illustration; not a specific LZZ customer project or pressure-test evidence."
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "text": "AI-generated illustration; not a specific LZZ customer project or qualified end-use example."
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "text": "Original LZZ machining photograph; the end customer and application are not identified."
+        }
+      ],
+      "check": "about-disclosures"
+    },
+    {
+      "cards": 10,
+      "check": "product-search",
+      "result": "10 parts foundClear filtersShow selected parts"
+    },
+    {
+      "check": "RFQ-product-context",
+      "part": [
+        "Indexing plungers & locking pins"
+      ],
+      "url": "http://127.0.0.1:4323/quote/?part=Indexing+plungers+%26+locking+pins&product=precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier&source=%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F"
+    },
+    {
+      "check": "RFQ-required-fields",
+      "draftCount": 0,
+      "invalid": [
+        {
+          "message": "请填写此字段。",
+          "name": "name"
+        },
+        {
+          "message": "",
+          "name": "email"
+        }
+      ]
+    },
+    {
+      "check": "RFQ-draft-not-sent",
+      "heading": " Email draft prepared — not sent",
+      "reference": "Part exampleIndexing plungers & locking pinsUse this as a reference, then describe your own part below.",
+      "mailHref": "mailto:roger@lzz-cnc.com?subject=CNC%20machining%20inquiry%3A%20Design%20QA&body=Hello%20LZZ%20team%2C%0A%0AI%20would%20like%20to%20discuss%20a%20CNC%20machining%20project.%0A%0AReference%3A%20Indexing%20plungers%20%26%20locking%20pins%0AReference%20ID%3A%20product%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%0ASource%20page%3A%20https%3A%2F%2Fwww.lzz-cnc.com%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F%0A%0AName%3A%20Design%20QA%0AEmail%3A%20design-qa%40example.test%0APhone%20%2F%20WhatsApp%3A%20Not%20specified%0ACompany%3A%20Not%20specified%0ACountry%20%2F%20Destination%3A%20To%20confirm%0AMaterial%3A%20Stainless%20steel%0AQuantity%3A%205%0A%0AProject%20requirements%3A%0ADesign%20QA%20only%3A%20locking-pin%20drawing%20review.%20No%20commercial%20inquiry.%0A%0AI%20will%20attach%20the%20relevant%20drawings%20or%20CAD%20files%20to%20this%20email.%0A%0APlease%20review%20manufacturability%2C%20pricing%20and%20lead%20time.%0AThank%20you.",
+      "emailAppOpened": false
+    },
+    {
+      "check": "QA-input-cleared",
+      "inputValues": [
+        {
+          "name": "name",
+          "value": ""
+        },
+        {
+          "name": "email",
+          "value": ""
+        },
+        {
+          "name": "quantity",
+          "value": ""
+        },
+        {
+          "name": "project",
+          "value": "Indexing plungers & locking pins"
+        },
+        {
+          "name": "phone",
+          "value": ""
+        },
+        {
+          "name": "destination",
+          "value": ""
+        },
+        {
+          "name": "company",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "check": "case-keyboard-focus",
+      "outline": "rgb(203, 18, 23) solid 2px",
+      "outlineOffset": "4px",
+      "tag": "SUMMARY",
+      "text": "On this page"
+    }
+  ],
+  "externalSend": false
+}

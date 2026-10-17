@@ -1,0 +1,36 @@
+{
+  "name": "lzz-precision",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build && node scripts/build-seo.mjs",
+    "build:seo": "node scripts/build-seo.mjs",
+    "build:images": "node scripts/generate-responsive-images.mjs",
+    "test:seo": "node scripts/verify-seo.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "import:content": "node scripts/import-content.mjs",
+    "check": "astro check",
+    "test:site": "node scripts/verify.mjs",
+    "test:refinement": "node scripts/verify-refinement.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.5",
+    "@fontsource-variable/inter": "^5.2.0",
+    "astro": "^7.3.1",
+    "gsap": "^3.15.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "cheerio": "^1.1.2",
+    "playwright": "^1.55.0",
+    "sharp": "^0.35.4",
+    "typescript": "^5.9.0"
+  }
+}

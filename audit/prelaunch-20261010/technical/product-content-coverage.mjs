@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {load} from 'cheerio';
+const base=import.meta.dirname;
+const pages=JSON.parse(fs.readFileSync(path.join(base,'built-html-pages.json'),'utf8')).filter(r=>/^\/products\/[^/]+\/$/.test(r.route));
+const rows=pages.map(r=>{
+ const $=load(fs.readFileSync(r.file,'utf8'),{scriptingEnabled:false});
+ const clean=el=>$(el).text().replace(/\s+/g,' ').trim();
+ const fields=Object.fromEntries($('#part-information .er-table > div').map((_,el)=>[[clean($(el).find('dt')),clean($(el).find('dd'))]]).get());
+ const drawingFields=Object.fromEntries($('#drawing-review .er-table > div').map((_,el)=>[[clean($(el).find('dt')),clean($(el).find('dd'))]]).get());
+ const drawingRequired=['Geometry & interfaces','Material & finish','Quantity','Inspection requirements'];
+ const required=['Materials','Machining','Surface finish'];
+ const source=clean($('.er-page'));
+ const measuredPatterns=source.match(/\d+(?:\.\d+)?\s*(?:[×x]\s*\d+(?:\.\d+)?\s*)?(?:mm|cm|µm|μm|microns?|inches?|inch|ft|kg|MPa)(?:\b|$)|[±]\s*\d+(?:\.\d+)?|(?:ISO|DIN|ASTM|GB|EN)\s*\d+/gi)||[];
+ const rfq=$('.er-action a[href^="/quote/?"]').map((_,el)=>$(el).attr('href')).get();
+ const conditions={materials:!!fields.Materials,machining:!!fields.Machining,surfaceFinish:!!fields['Surface finish'],partRequirements:$('#fit-review').length===1&&$('#fit-review .er-table').length===1,drawingAndInspection:drawingRequired.every(k=>!!drawingFields[k]),productContextRfq:rfq.length>0&&rfq.every(h=>new URL(h,'https://www.lzz-cnc.com').searchParams.get('product')===r.route.split('/')[2]),relatedParts:$('.er-related a[href^="/products/"]').length>0};
+ return {route:r.route,file:r.file,fields,drawingFields,conditions,missing:Object.keys(conditions).filter(k=>!conditions[k]),requirementsHeading:clean($('#fit-review h2')),requirementsLabels:$('#fit-review dt').map((_,el)=>clean(el)).get(),rfqCount:rfq.length,relatedPartCount:$('.er-related a[href^="/products/"]').length,heroImage:$('.er-product-image img').attr('src'),heroAlt:$('.er-product-image img').attr('alt'),illustrativeDisclosure:$('.er-small').map((_,el)=>clean(el)).get().filter(t=>t.includes('Illustrative part visual')),sourcePhotographDisclosure:clean($('.er-surface p')),measuredPatterns,scopeDisclosure:$('.er-small').map((_,el)=>clean(el)).get().find(t=>t.includes('Made to order.'))||''};
+});
+const summary={pages:rows.length,fieldCoverage:Object.fromEntries(Object.keys(rows[0].conditions).map(k=>[k,rows.filter(r=>r.conditions[k]).length])),missing:rows.filter(r=>r.missing.length).map(r=>({route:r.route,missing:r.missing})),illustrativeHeroPages:rows.filter(r=>r.illustrativeDisclosure.length).length,heroSourceGroups:Object.fromEntries([...new Set(rows.map(r=>r.heroImage.split('/').slice(0,3).join('/')))].map(prefix=>[prefix,rows.filter(r=>r.heroImage.startsWith(prefix+'/')).length])),alternateTemplateRequirements:rows.filter(r=>r.requirementsLabels.join('|')!=='Part features|Review focus').map(r=>({route:r.route,heading:r.requirementsHeading,labels:r.requirementsLabels})),numericSpecPatterns:rows.filter(r=>r.measuredPatterns.length).map(r=>({route:r.route,matches:r.measuredPatterns})),relatedPartCountRange:[Math.min(...rows.map(r=>r.relatedPartCount)),Math.max(...rows.map(r=>r.relatedPartCount))],rows};
+fs.writeFileSync(path.join(base,'product-content-coverage.json'),JSON.stringify(summary,null,2));
+console.log(JSON.stringify({...summary,rows:undefined},null,2));

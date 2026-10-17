@@ -1,0 +1,104 @@
+[
+  {
+    "name": "industry-disclosures",
+    "state": [
+      {
+        "text": "Laboratory & scientific instruments",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Automotive & motorcycle prototypes",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Hydraulic & rescue equipment",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Robotics & automation",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Agricultural machinery",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Industrial fans & impellers",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Aerospace & defense equipment",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Semiconductor equipment",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Electronic & audio equipment",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "UAVs, 3D printers & motion systems",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      },
+      {
+        "text": "Medical devices & industrial equipment",
+        "marker": "none",
+        "after": "none",
+        "before": "none"
+      }
+    ]
+  },
+  {
+    "name": "catalog-first-card-desktop",
+    "state": {
+      "top": 523.875,
+      "titleTop": 903.875,
+      "contextTop": 962.46875
+    }
+  },
+  {
+    "name": "catalog-caption-mobile",
+    "state": {
+      "text": "Contoured blades · pockets & complex surfaces",
+      "size": "12px",
+      "line": "16.8px"
+    }
+  },
+  {
+    "name": "clear-input",
+    "nameAfter": "",
+    "projectAfter": "",
+    "message": "Saved input cleared. If you selected a part, its name is still filled in.\n\nClear saved input"
+  },
+  {
+    "name": "product-gallery",
+    "state": {
+      "images": 1,
+      "buttons": 0,
+      "links": 0,
+      "text": ""
+    }
+  }
+]

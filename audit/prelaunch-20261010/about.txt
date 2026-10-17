@@ -1,0 +1,159 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - img "Visitors and LZZ staff reviewing a machined part at a table."
+  - paragraph: Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - heading "The people behind your custom parts" [level=1]:
+    - text: The people behind
+    - text: your custom parts
+  - paragraph:
+    - text: Custom CNC machining in Hangzhou, China.
+    - text: Prototypes and small production batches from drawings or samples, with orders starting at 1 piece.
+  - link "Meet LZZ":
+    - /url: "#company-overview"
+  - paragraph: Workshop visit and part discussion · January 2025 company archive.
+  - term: Founded in Hangzhou
+  - definition: "2017"
+  - term: Production facility
+  - definition: 1,500 m²
+  - term: CNC machines
+  - definition: 40+
+  - term: Prototypes and small batches
+  - definition: From 1 piece
+  - figure "Inside the LZZ machining workshop in Hangzhou.":
+    - img "Machining centers along an aisle in the LZZ workshop."
+    - generic: Inside the LZZ machining workshop in Hangzhou.
+  - heading "Custom CNC machining at LZZ" [level=2]:
+    - text: Custom CNC machining
+    - text: at LZZ
+  - paragraph: LZZ is an ISO 9001-certified CNC machining company. Our workshop combines milling, turning and multi-axis machining with dimensional inspection.
+  - link "How we work":
+    - /url: /resources/how-we-work/
+  - link "Inside our factory":
+    - /url: /factory/
+  - link "Company documents and certificate details":
+    - /url: /about/#documents
+  - heading "How our capabilities developed" [level=2]
+  - list:
+    - heading "Founded in 2017" [level=3]
+    - paragraph: LZZ began making precision CNC machined parts for domestic equipment manufacturers.
+    - heading "More machining options" [level=3]
+    - paragraph: We added CNC milling and turning equipment, along with multi-axis machines, to take on a wider range of industrial parts.
+    - heading "Production checks" [level=3]
+    - paragraph: First-article checks became part of the workflow, alongside inspection during production and before shipment.
+    - heading "More inspection equipment" [level=3]
+    - paragraph: CMM, height gauges and optical projectors allowed us to inspect more complex custom components.
+    - heading "Overseas customers" [level=3]
+    - paragraph: We expanded our OEM/ODM machining services to customers in Asia, North America and Europe.
+  - heading "Applications and example parts" [level=2]
+  - paragraph: We manufacture custom parts for a range of industries. Send your drawing, intended use and applicable standards so we can review the requirements for your project.
+  - generic "Example parts and engineering notes"
+  - generic "Application families and requirements"
+  - region "People and moments":
+    - heading "People and moments" [level=2]
+    - paragraph: Our team, workshop visitors and company life.
+    - link "Company News":
+      - /url: /about/company-news/
+    - figure "Workshop visit · January 2025 source folder. No customer endorsement is implied.":
+      - img "Two people photographed in the LZZ machining workshop."
+      - generic: Workshop visit · January 2025 source folder. No customer endorsement is implied.
+    - figure "Team gathering · May 2025 original photograph.":
+      - img "LZZ colleagues posing together outside during a May 2025 company gathering."
+      - generic: Team gathering · May 2025 original photograph.
+  - generic "Company background and connections"
+  - heading "Original company documents" [level=2]
+  - paragraph: The original documents below cover enterprise recognition and education collaboration. They are separate from our ISO 9001 certification.
+  - link "Request current ISO 9001 certificate":
+    - /url: /quality/#quality-management
+  - paragraph: For supplier qualification, request the current ISO certificate, validity, applicable scope, issuer and verification details.
+  - article:
+    - link "Open original Precision manufacturing teaching base":
+      - /url: /media/Artificial-1764396998946--413c4183ea.webp
+      - img "Precision manufacturing teaching base, original Chinese document"
+    - heading "Precision manufacturing teaching base" [level=3]
+    - paragraph: Education collaboration, not a quality-system certificate.
+    - generic "Issuer and date details"
+    - link "View original document":
+      - /url: /media/Artificial-1764396998946--413c4183ea.webp
+  - article:
+    - link "Open original High-tech enterprise certificate":
+      - /url: /media/High-tech-Enterprise-Certificate-1764396986484--69861fe474.webp
+      - img "High-tech enterprise certificate, original Chinese document"
+    - heading "High-tech enterprise certificate" [level=3]
+    - paragraph: Enterprise recognition, not a product conformity or ISO certificate.
+    - generic "Issuer and date details"
+    - link "View original document":
+      - /url: /media/High-tech-Enterprise-Certificate-1764396986484--69861fe474.webp
+  - article:
+    - link "Open original Zhejiang science & technology SME":
+      - /url: /media/Zhejiang-1764397018975--75b9eb4d46.webp
+      - img "Zhejiang science & technology SME, original Chinese document"
+    - heading "Zhejiang science & technology SME" [level=3]
+    - paragraph: Enterprise recognition; current status and applicable scope should be confirmed.
+    - generic "Issuer and date details"
+    - link "View original document":
+      - /url: /media/Zhejiang-1764397018975--75b9eb4d46.webp
+  - heading "Have a part in mind?" [level=2]
+  - paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+  - link "Prepare RFQ email":
+    - /url: /quote/
+  - link "roger@lzz-cnc.com":
+    - /url: mailto:roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

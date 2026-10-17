@@ -1,0 +1,25 @@
+{
+  "failedAstroAttempt": {
+    "processPresent": false,
+    "error": "MODULE_NOT_FOUND: node_modules/astro/astro.js",
+    "pid": 69636,
+    "result": "Exited without binding a port. Root Agent owns the Astro service actually used."
+  },
+  "liveServer": {
+    "pid": 6180,
+    "stopCommand": "impeccable.cmd live-server stop --keep-inject",
+    "stopExit": 0,
+    "port": 8412,
+    "processPresent": false,
+    "stopOutput": "Stopped live server on port 8412.",
+    "portListening": false
+  },
+  "nativeBrowser": {
+    "error": "nodeRepl.fetch request failed",
+    "fallback": "Playwright chrome in a new headless context",
+    "attempt": "cua.createBrowserTab(\"chrome\", \"http://127.0.0.1:4323/\", fresh session)",
+    "userVisibleOverlay": false
+  },
+  "sourceEdits": false,
+  "tempCleanup": "Completed after evidence collection"
+}

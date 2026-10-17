@@ -1,0 +1,140 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Custom machined plastic parts
+    - complementary:
+      - heading "Custom machined plastic parts" [level=1]
+      - paragraph: Engineering plastics · milled & turned components
+      - 'link "View full-size image: Custom machined plastic parts"':
+        - /url: /media/responsive/catalog-21-cutout-v1-1200.webp
+        - img "Plastic components"
+      - navigation "On this page":
+        - link "01 Part requirements":
+          - /url: "#fit-review"
+          - generic: "01"
+          - text: Part requirements
+        - link "02 Material & finish":
+          - /url: "#part-information"
+          - generic: "02"
+          - text: Material & finish
+        - link "03 Drawing review":
+          - /url: "#drawing-review"
+          - generic: "03"
+          - text: Drawing review
+    - heading "Polymer grade and working surfaces" [level=2]
+    - paragraph: Custom insulators, seals, wear plates, gears, rollers and structural supports.
+    - term: Part features
+    - definition: Milled and turned forms with features tailored to the application.
+    - term: Review focus
+    - definition: Select the polymer grade for the working surfaces of the seal, roller, guide or support, then define the milled or turned geometry.
+    - link "Request a quote":
+      - /url: /quote/?part=Custom+machined+plastic+parts&product=custom-oem-cnc-machined-plastic-parts-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-machined-plastic-parts-manufacturer%2F
+    - paragraph: Have a drawing? Add it to your inquiry email.
+    - heading "Manufacturing options" [level=2]
+    - term: Materials
+    - definition: PEEK, PTFE, polyimide, nylon, acetal/Delrin, HDPE, UHMW, acrylic and polycarbonate options.
+    - term: Machining
+    - definition: CNC milling and turning of engineering-grade plastics.
+    - term: Surface finish
+    - definition: Specify edge quality, surface texture and cleaning requirements for the selected polymer.
+    - paragraph: Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+    - heading "Drawing and inspection requirements" [level=2]:
+      - text: Drawing and
+      - text: inspection requirements
+    - link "Quality & inspection":
+      - /url: /quality/
+    - term: Geometry & interfaces
+    - definition: Identify the selected polymer and fillers, working surfaces, interference fits and assembled loading.
+    - term: Material & finish
+    - definition: Specify the material grade, condition, finish and any masked areas.
+    - term: Quantity
+    - definition: State the prototype or batch quantity and required schedule.
+    - term: Inspection requirements
+    - definition: Agree measurement conditions, mating dimensions and surface or cleanliness criteria for the chosen grade.
+    - link "Prepare an RFQ email":
+      - /url: /quote/?part=Custom+machined+plastic+parts&product=custom-oem-cnc-machined-plastic-parts-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-machined-plastic-parts-manufacturer%2F
+    - paragraph:
+      - strong: From 1 piece · 7–14 business days
+      - text: From drawing and order confirmation, including surface finishing; transit is additional.
+    - generic "Additional drawing and order notes"
+    - navigation "Related parts":
+      - heading "Compare part requirements" [level=3]
+      - link "Non-metallic & insulating components Slots and barrier geometry combined with insulating-material requirements.":
+        - /url: /products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/
+        - generic: Non-metallic & insulating components
+        - generic: Slots and barrier geometry combined with insulating-material requirements.
+      - link "Complex-geometry plastic components Deep pockets, thin walls and multi-face holes with defined measurement conditions.":
+        - /url: /products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/
+        - generic: Complex-geometry plastic components
+        - generic: Deep pockets, thin walls and multi-face holes with defined measurement conditions.
+      - link "Functional plastic blocks & structures Repeated drill patterns and inserts in thick stock.":
+        - /url: /products/precision-machining-for-functional-plastic-blocks-structural-components/
+        - generic: Functional plastic blocks & structures
+        - generic: Repeated drill patterns and inserts in thick stock.
+    - generic "Related machining processes"
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

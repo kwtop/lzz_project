@@ -1,0 +1,90 @@
+{
+  "observedAt": "2026-09-28T02:20:01.351Z",
+  "count": 69,
+  "types": {
+    "core": 11,
+    "capability": 10,
+    "case": 5,
+    "resource": 8,
+    "product": 35
+  },
+  "statuses": {
+    "200": 68,
+    "404": 1
+  },
+  "duplicates": {
+    "title": [],
+    "description": []
+  },
+  "broken": [],
+  "orphans": [
+    "/404.html"
+  ],
+  "headingErrors": [],
+  "extras": [
+    {
+      "route": "/robots.txt",
+      "status": 404,
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html",
+        "date": "Mon, 28 Sep 2026 02:20:01 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "Origin"
+      },
+      "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>Page not found | LZZ Precision</title><meta name=\"description\" content=\"The requested LZZ page could not be found. Explore machining capabilities or browse original part examples.\"><meta name=\"robots\" content=\"noindex, follow\"><meta name=\"theme-color\" content=\"#171b1e\"><link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg?v=lzz-blue\"><meta property=\"og:title\" content=\"Page not found | LZZ Precision\"><meta property=\"og:description\" content=\"The requested LZZ page could not be found. Explore machining capabilities or browse original part examples.\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://www.lzz-cnc.com/robots.txt\"><meta property=\"og:image\" content=\"https://www.lzz-cnc.com/media/evidence/workshop-wide-1600.webp\"><meta property=\"og:image:alt\" content=\"Original LZZ workshop photograph in Hangzhou\"><meta name=\"twitter:card\" content=\"summary_large_image\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/robots.txt#webpage\",\"url\":\"https://www.lzz-cnc.com/robots.txt\",\"name\":\"Page not found\",\"description\":\"The requested LZZ page could not be found. Explor"
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 404,
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html",
+        "date": "Mon, 28 Sep 2026 02:20:01 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "Origin"
+      },
+      "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>Page not found | LZZ Precision</title><meta name=\"description\" content=\"The requested LZZ page could not be found. Explore machining capabilities or browse original part examples.\"><meta name=\"robots\" content=\"noindex, follow\"><meta name=\"theme-color\" content=\"#171b1e\"><link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg?v=lzz-blue\"><meta property=\"og:title\" content=\"Page not found | LZZ Precision\"><meta property=\"og:description\" content=\"The requested LZZ page could not be found. Explore machining capabilities or browse original part examples.\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://www.lzz-cnc.com/sitemap.xml\"><meta property=\"og:image\" content=\"https://www.lzz-cnc.com/media/evidence/workshop-wide-1600.webp\"><meta property=\"og:image:alt\" content=\"Original LZZ workshop photograph in Hangzhou\"><meta name=\"twitter:card\" content=\"summary_large_image\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/sitemap.xml#webpage\",\"url\":\"https://www.lzz-cnc.com/sitemap.xml\",\"name\":\"Page not found\",\"description\":\"The requested LZZ page could not be found. Exp"
+    },
+    {
+      "route": "/not-a-real-page-audit-20260928/",
+      "status": 404,
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html",
+        "date": "Mon, 28 Sep 2026 02:20:01 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "Origin"
+      },
+      "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>Page not found | LZZ Precision</title><meta name=\"description\" content=\"The requested LZZ page could not be found. Explore machining capabilities or browse original part examples.\"><meta name=\"robots\" content=\"noindex, follow\"><meta name=\"theme-color\" content=\"#171b1e\"><link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg?v=lzz-blue\"><meta property=\"og:title\" content=\"Page not found | LZZ Precision\"><meta property=\"og:description\" content=\"The requested LZZ page could not be found. Explore machining capabilities or browse original part examples.\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://www.lzz-cnc.com/not-a-real-page-audit-20260928/\"><meta property=\"og:image\" content=\"https://www.lzz-cnc.com/media/evidence/workshop-wide-1600.webp\"><meta property=\"og:image:alt\" content=\"Original LZZ workshop photograph in Hangzhou\"><meta name=\"twitter:card\" content=\"summary_large_image\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/not-a-real-page-audit-20260928/#webpage\",\"url\":\"https://www.lzz-cnc.com/not-a-real-page-audit-20260928/\",\"name\":\"Page not found\",\""
+    },
+    {
+      "route": "/product",
+      "status": 404,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "4590",
+        "content-type": "text/html",
+        "date": "Mon, 28 Sep 2026 02:20:01 GMT",
+        "keep-alive": "timeout=5"
+      },
+      "body": "<!doctype html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>404: Not Found</title>\n\t\t<style>\n\t\t\t:root {\n\t\t\t\t--gray-10: hsl(258, 7%, 10%);\n\t\t\t\t--gray-20: hsl(258, 7%, 20%);\n\t\t\t\t--gray-30: hsl(258, 7%, 30%);\n\t\t\t\t--gray-40: hsl(258, 7%, 40%);\n\t\t\t\t--gray-50: hsl(258, 7%, 50%);\n\t\t\t\t--gray-60: hsl(258, 7%, 60%);\n\t\t\t\t--gray-70: hsl(258, 7%, 70%);\n\t\t\t\t--gray-80: hsl(258, 7%, 80%);\n\t\t\t\t--gray-90: hsl(258, 7%, 90%);\n\t\t\t\t--black: #13151A;\n\t\t\t\t--accent-light: #E0CCFA;\n\t\t\t}\n\n\t\t\t* {\n\t\t\t\tbox-sizing: border-box;\n\t\t\t}\n\n\t\t\thtml {\n\t\t\t\tbackground: var(--black);\n\t\t\t\tcolor-scheme: dark;\n\t\t\t\taccent-color: var(--accent-light);\n\t\t\t}\n\n\t\t\tbody {\n\t\t\t\tbackground-color: var(--gray-10);\n\t\t\t\tcolor: var(--gray-80);\n\t\t\t\tfont-family: ui-monospace, Menlo, Monaco, \"Cascadia Mono\", \"Segoe UI Mono\", \"Roboto Mono\", \"Oxygen Mono\", \"Ubuntu Monospace\", \"Source Code Pro\", \"Fira Mono\", \"Droid Sans Mono\", \"Courier New\", monospace;\n\t\t\t\tline-height: 1.5;\n\t\t\t\tmargin: 0;\n\t\t\t}\n\n\t\t\ta {\n\t\t\t\tcolor: var(--accent-light);\n\t\t\t}\n\n\t\t\t.center {\n\t\t\t\tdisplay: flex;\n\t\t\t\tflex-direction: column;\n\t\t\t\tjustify-content: center;\n\t\t\t\talign-items: center;\n\t\t\t\theight: 100vh;\n\t\t\t\twidth: 100vw;\n\t\t\t}\n\n\t\t\th1 {\n\t\t\t\tmargin-bottom: 8px;\n\t\t\t\tcolor: white;\n\t\t\t\tfont-family: system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n\t\t\t\tfont-weight: 700;\n\t\t\t\tmargin-top: 1rem;\n\t\t\t\tmargin-bottom: 0;\n\t\t\t}\n\n\t\t\t.statusCode {\n\t\t\t\tcolor: var(--accent-light);\n\t\t\t}\n\n\t\t\t.astro-icon {\n\t\t\t\theight: 124px;\n\t\t\t\twidth: 124px;\n\t\t\t}\n\n\t\t\tpre, code {\n\t\t\t\tpadding: 2px 8px;\n\t\t\t\tbackground: rgba(0,0,0, 0.25);\n\t\t\t\tborder: 1px solid rgba(255,255,255, 0.25);\n\t\t\t\tborder-radius: 4px;\n\t\t\t\tfont-size: 1.2em;\n\t\t\t\tmargin-top: 0;\n\t\t\t\tmax-width: 60em;\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<main class=\"center\">\n\t\t\t<svg class=\"astro-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"80\" viewBox=\"0 0 64 80\" fill=\"none\"> <path d=\"M20.5253 67.6322C16.9291 64.3531 15.8793 57.4632 17.3776 52.4717C19.9755 55.618"
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/?audit=1",
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html",
+        "date": "Mon, 28 Sep 2026 02:20:01 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "Origin"
+      },
+      "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>5 Axis CNC Machining | LZZ Precision</title><meta name=\"description\" content=\"Multi-face and contoured CNC components: define datums, tool access and inspection against the model.\"><link rel=\"canonical\" href=\"https://www.lzz-cnc.com/capabilities/5-axis-cnc-machining/\"><meta name=\"theme-color\" content=\"#171b1e\"><link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg?v=lzz-blue\"><meta property=\"og:title\" content=\"5 Axis CNC Machining | LZZ Precision\"><meta property=\"og:description\" content=\"Multi-face and contoured CNC components: define datums, tool access and inspection against the model.\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://www.lzz-cnc.com/capabilities/5-axis-cnc-machining/\"><meta property=\"og:image\" content=\"https://www.lzz-cnc.com/media/evidence/workshop-wide-1600.webp\"><meta property=\"og:image:alt\" content=\"Original LZZ workshop photograph in Hangzhou\"><meta name=\"twitter:card\" content=\"summary_large_image\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/capabilities/5-axis-cnc-machining/#webpage\",\"url\":\"https://www.lzz-cnc.com/capabiliti"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+---
+import ProductsImage from './ProductsImage.astro';
+import ProductsClosing from './ProductsClosing.astro';
+import {engineeringCases} from '../data/cases';
+import {caseReading} from '../data/caseReading';
+import {caseStories} from '../data/caseStories';
+import {photo} from '../data/evidence';
+import {siteOrigin} from '../data/seo';
+import '../styles/products-redesign.css';
+const link=(slug:string)=>'/machined-parts/machining-examples/'+slug+'/';
+const panel=engineeringCases.find(p=>p.video==='display-housing')!;
+const collections=engineeringCases.filter(p=>p.collection);
+const processes=engineeringCases.filter(p=>!p.collection&&p.slug!==panel.slug);
+const anchorIds:Record<string,string>={'five-axis-machining-multi-face-parts':'multi-face-access','turning-then-milling-cylindrical-parts':'turning-milling','two-stage-cnc-milling':'two-setups','milling-a-pocketed-enclosure-form':'pockets-and-bores','milling-prismatic-components':'prismatic-parts'};
+const schema={'@context':'https://schema.org','@type':'ItemList',name:'CNC machining examples and workshop part collections',numberOfItems:engineeringCases.length,itemListElement:[panel,...collections,...processes].map((p,i)=>({'@type':'ListItem',position:i+1,name:caseStories[p.slug]?.title||caseReading[p.slug].title,url:siteOrigin+link(p.slug)}))};
+---
+<article class="pr-page pr-studies-directory"><div class="pr-wrap">
+ <header class="pr-hero pr-study-intro"><h1>Understand the part.<br/>Plan the machining.</h1><p class="pr-lead">Original workshop photographs, part collections and machining examples connect visible features to the drawing and inspection requirements for a similar component.</p></header>
+ <section class="pr-section pr-study-feature" id="display-housing" aria-labelledby="panel-title"><div><p class="pr-kicker">Display housing study</p><h2 id="panel-title">A broad panel.<br/>A careful support plan.</h2><p>Explore the housing faces, machining setup and original workshop clip. Review clamping areas, mounting datums, flatness and finished surfaces together.</p><p class="pr-small">The source record identifies a housing for a 29-inch display. Display size does not establish enclosure dimensions or a machining envelope.</p><a class="pr-secondary" href={link(panel.slug)}>Read the display housing study</a></div><ProductsImage {...photo('display-housing-panel')} caption="Original display housing panel photograph" origin="original-photo" href={link(panel.slug)} sizes="(max-width:760px) calc(100vw - 44px), 55vw"/></section>
+ <section class="pr-section" id="part-families" aria-labelledby="families-title"><header class="pr-section-head"><h2 id="families-title">Explore the workshop part collections</h2><p>Metal and plastic archives bring together separate forms and original clips. Each new part needs its own material specification and controlled drawing.</p></header><div class="pr-study-families">{collections.map(item=><article><ProductsImage stem={'/media/collection-covers/'+item.collection+'-collection-illustrative-v1'} alt={item.collection==='metal'?'Illustrative metal housings, stepped shaft and threaded fittings':'Illustrative clear covers, white bushings, polymer gear and guide strips'} caption={'AI-generated '+item.collection+' part illustration.'} href={link(item.slug)} origin="ai-generated-illustration"/><h3><a href={link(item.slug)}>{item.collection==='metal'?'Metal part examples':'Plastic part examples'}</a></h3><p>{caseReading[item.slug].focus}.</p><a class="pr-secondary" href={link(item.slug)}>View original photographs &amp; clips</a></article>)}</div></section>
+ <section class="pr-section" id="geometry" aria-labelledby="processes-title"><header class="pr-section-head"><h2 id="processes-title">Choose the study that fits your geometry</h2><p>Start with the feature relationships and tool access that matter to your part.</p></header><div class="pr-study-list">{processes.map(item=><article id={anchorIds[item.slug]}><ProductsImage {...photo(item.hero)} caption="Original workshop photograph" origin="original-photo" href={link(item.slug)} sizes="(max-width:760px) calc(100vw - 44px), 280px"/><div><h3><a href={link(item.slug)}>{caseReading[item.slug].title}</a></h3><p>{caseReading[item.slug].focus}.</p><a class="pr-secondary" href={link(item.slug)}>Read the machining study</a></div><div><p class="pr-small">For inspection</p><p>{caseReading[item.slug].inspectionFocus}.</p></div></article>)}</div></section>
+ <ProductsClosing title="Have a similar component?" description="Send the drawing, material and quantity. Identify the features that matter to fit and acceptance so the setup and inspection scope can be reviewed."/>
+ </div></article>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\\u003c')}/>
+
+

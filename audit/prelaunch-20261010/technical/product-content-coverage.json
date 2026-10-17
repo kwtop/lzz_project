@@ -1,0 +1,1371 @@
+{
+  "pages": 35,
+  "fieldCoverage": {
+    "materials": 35,
+    "machining": 35,
+    "surfaceFinish": 35,
+    "partRequirements": 35,
+    "drawingAndInspection": 35,
+    "productContextRfq": 35,
+    "relatedParts": 35
+  },
+  "missing": [],
+  "illustrativeHeroPages": 2,
+  "heroSourceGroups": {
+    "/media/responsive": 33,
+    "/media/product-review": 2
+  },
+  "alternateTemplateRequirements": [
+    {
+      "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "heading": "Underside clearance and visible finish",
+      "labels": [
+        "Mating geometry",
+        "Clearance",
+        "Appearance"
+      ]
+    }
+  ],
+  "numericSpecPatterns": [],
+  "relatedPartCountRange": [
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "route": "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier\\index.html",
+      "fields": {
+        "Materials": "Aluminum 6061 and 3003 options. Confirm the grade for each component.",
+        "Machining": "CNC machining combined with TIG welding.",
+        "Surface finish": "Mirror polishing, brushing, powder coating or anodizing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define end-tank geometry, port orientation, mounting points and interfaces between machined and welded components.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree post-fabrication interface checks and any pressure or leak-test method, medium and acceptance criteria."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Core fitment and welded connections",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-12-cutout-v1-1200.webp",
+      "heroAlt": "Intercooler prototypes",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier\\index.html",
+      "fields": {
+        "Materials": "6061-T6 aluminum, with 7075 as an alternative.",
+        "Machining": "5-axis machining from solid billet with ball-nose toolpaths.",
+        "Surface finish": "Polishing, brushing and anodizing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Locate mounting holes and the mating perimeter from assembly datums; show underside clearances and local wall sections.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree mating-face, mounting-pattern and clearance checks, with separate appearance acceptance for the outer contour."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Underside clearance and visible finish",
+      "requirementsLabels": [
+        "Mating geometry",
+        "Clearance",
+        "Appearance"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-13-cutout-v1-1200.webp",
+      "heroAlt": "Billet engine covers",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "Original photograph of a curved cover and its visible tool-path texture.",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier\\index.html",
+      "fields": {
+        "Materials": "6061-T6 aluminum billet.",
+        "Machining": "5-axis CNC machining, subject to checking the model.",
+        "Surface finish": "Raw machined surfaces, mirror polishing and color anodizing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Locate injector axes and fuel-rail mounts relative to the intake ports and assembly datums.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree positional and fitment checks, with separate criteria for sealing interfaces and any requested functional tests."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Injector positions and fuel-rail mounts",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-16-cutout-v1-1200.webp",
+      "heroAlt": "Billet aluminum intake manifolds",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier\\index.html",
+      "fields": {
+        "Materials": "6061-T6 aluminum.",
+        "Machining": "5-axis surfacing.",
+        "Surface finish": "Machined texture, mirror polishing, anodizing and engraving."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define the internal envelope, flange interface, fastener access and any split-line sealing detail.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree flange and passage checks, appearance requirements and any separate leak or pressure acceptance."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Internal volume and throttle-flange fit",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-17-cutout-v1-1200.webp",
+      "heroAlt": "Billet aluminum intake plenums",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier\\index.html",
+      "fields": {
+        "Materials": "6061-T6 aluminum billet.",
+        "Machining": "5-axis CNC machining with a check of the drawing and model.",
+        "Surface finish": "Raw machined surfaces, polishing and color anodizing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define runner transitions, port spacing and flange relationships to the mating engine and plenum.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Specify interface and passage checks. Agree any pressure or flow tests separately."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Runner transitions and flange connections",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-14-cutout-v1-1200.webp",
+      "heroAlt": "Intake prototypes",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-cnc-machined-castings-transmission-housings-pump-bodies\\index.html",
+      "fields": {
+        "Materials": "Casting alloy unspecified. Confirm the material of the supplied blank.",
+        "Machining": "CNC finish machining, with sample scanning and reverse engineering support.",
+        "Surface finish": "Define the casting alloy, machined faces and any post-machining treatment."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Separate cast and machined surfaces, with section views for internal splines, channels and sealing flanges.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree blank acceptance, datum-based dimensional checks and any separate pressure-integrity requirement."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Casting allowance and datum transfer",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-18-cutout-v1-1200.webp",
+      "heroAlt": "Transmission housings & pump bodies",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier\\index.html",
+      "fields": {
+        "Materials": "6061-T6 aluminum.",
+        "Machining": "5-axis CNC machining from a CAD model.",
+        "Surface finish": "Color anodizing or clear chemical conversion coating."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define the main bore, shaft-bore relationship, mounting flange and motor or gear-chamber interfaces from named datums.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree bore size, alignment and mating-feature checks. Functional actuation or leakage criteria must be specified separately."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Bore alignment and actuator space",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-15-cutout-v1-1200.webp",
+      "heroAlt": "Throttle bodies",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier\\index.html",
+      "fields": {
+        "Materials": "Stainless steel options include 304, 316L and 17-4PH.",
+        "Machining": "CNC turning and live-tooling operations.",
+        "Surface finish": "Fine-turned surfaces, mirror polishing and engraving."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define working diameters, shoulders, datum axis and angular relationships of live-tooled features.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree runout, fit and thread checks plus surface requirements for sliding or sealing regions."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Working diameters and shaft datums",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-19-cutout-v1-1200.webp",
+      "heroAlt": "Stainless steel turned shafts",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm\\index.html",
+      "fields": {
+        "Materials": "Material options: aluminum, stainless and carbon steel, copper, brass, titanium and engineering plastics.",
+        "Machining": "3-axis, 4-axis and 5-axis CNC milling.",
+        "Surface finish": "As-machined, polishing, bead blasting, Type II or Type III anodizing, and plating; select a treatment compatible with the material."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Specify bore diameters, step depths and fits. Locate the face-hole pattern from drawing datums, including pitch-circle diameter or hole-center coordinates and the relationship to the central bore.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree diameter and depth checks for each bore step, hole-position checks and the flatness or orientation of functional circular faces. Define the inspection setup from the drawing datums."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Bore sizes and face-hole positions",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-00-cutout-v1-1200.webp",
+      "heroAlt": "Multi-bore components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-high-precision-machining-for-structural-aesthetic-components-oem\\index.html",
+      "fields": {
+        "Materials": "No grade is specified for this example. Tell us which material your part requires.",
+        "Machining": "CNC milling.",
+        "Surface finish": "Anodizing, plating and logo engraving, with color and substrate agreed for the part."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Separate load-carrying and mating features from decorative surfaces, engraving and weight-reduction geometry.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Define interface checks and appearance criteria without treating a photograph as a finish acceptance standard."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Mounting geometry and visible surfaces",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-09-cutout-v1-1200.webp",
+      "heroAlt": "Structural & aesthetic components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-oem-cnc-machined-non-metallic-components-insulating-parts\\index.html",
+      "fields": {
+        "Materials": "Engineering polymers and composites; specify the required grade.",
+        "Machining": "CNC machining from sheet, rod and block stock.",
+        "Surface finish": "Machined surfaces with burr and edge requirements defined for use."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Specify material grade and required properties, then locate slots, holes and barriers from assembly datums.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree dimensional and edge checks; define electrical or material testing separately if required."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Material properties for insulation and wear",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-20-cutout-v1-1200.webp",
+      "heroAlt": "Non-metallic & insulating components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-oem-cnc-machined-plastic-parts-manufacturer\\index.html",
+      "fields": {
+        "Materials": "PEEK, PTFE, polyimide, nylon, acetal/Delrin, HDPE, UHMW, acrylic and polycarbonate options.",
+        "Machining": "CNC milling and turning of engineering-grade plastics.",
+        "Surface finish": "Specify edge quality, surface texture and cleaning requirements for the selected polymer."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Identify the selected polymer and fillers, working surfaces, interference fits and assembled loading.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree measurement conditions, mating dimensions and surface or cleanliness criteria for the chosen grade."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Polymer grade and working surfaces",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-21-cutout-v1-1200.webp",
+      "heroAlt": "Plastic components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer\\index.html",
+      "fields": {
+        "Materials": "Material options include brass, copper, stainless steel and aluminum.",
+        "Machining": "CNC turning with cross-drilling, milled flats, hex features and grooves.",
+        "Surface finish": "Polishing for specified sealing faces; define other treatments with the material grade."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Identify thread standards, sealing arrangement, groove geometry and the contact face of the mating component.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree thread gauges and seal-surface criteria. Pressure or leak testing needs a separate procedure and acceptance limit."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Thread standards and sealing interfaces",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-07-cutout-v1-1200.webp",
+      "heroAlt": "Fittings & flanges",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-oem-cnc-turning-manufacturer/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-oem-cnc-turning-manufacturer\\index.html",
+      "fields": {
+        "Materials": "Material options include stainless steel, aluminum, brass, copper and engineering plastics.",
+        "Machining": "CNC turning and mill-turn operations for side holes and slots.",
+        "Surface finish": "Specify the surface texture for bearing, sealing and mating diameters."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Specify diameters, shoulders, groove dimensions and the functional axis; identify secondary flats and cross-holes.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Request the fit, axial-length and runout checks relevant to the assembly, with thread gauging where needed."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Diameters, shoulders and mating fits",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-05-cutout-v1-1200.webp",
+      "heroAlt": "Custom CNC-turned components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-oem-high-precision-cnc-milling-manufacturer\\index.html",
+      "fields": {
+        "Materials": "No grade is specified for this example. Tell us which material your part requires.",
+        "Machining": "3-axis, 4-axis and 5-axis CNC milling.",
+        "Surface finish": "Define the surface treatment and any protected fits on the drawing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Distinguish mounting interfaces from internal passages and identify any intersecting holes or inaccessible edges.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Specify hole-position and mating-face checks, plus a separate cleanliness or leak requirement where the application needs it."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Mounting faces and internal passages",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-01-cutout-v1-1200.webp",
+      "heroAlt": "Milled instrument blocks & brackets",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/custom-rotary-cylindrical-components/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\custom-rotary-cylindrical-components\\index.html",
+      "fields": {
+        "Materials": "Material options include aluminum, stainless steel, brass and copper.",
+        "Machining": "Integrated turning, drilling, threading and milling.",
+        "Surface finish": "Specify the treatment and surfaces that must retain their finished dimensions."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define angular orientation of the secondary features relative to one another and to the shaft axis.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree checks for feature orientation, thread engagement and burrs at intersecting holes."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Cross-holes and flats around the shaft axis",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-06-cutout-v1-1200.webp",
+      "heroAlt": "Rotary & cylindrical components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing\\index.html",
+      "fields": {
+        "Materials": "Material options include aluminum, stainless steel and brass.",
+        "Machining": "CNC milling.",
+        "Surface finish": "Deburring and cleaning. Aluminum: Type II/III anodizing or chromate conversion. Stainless steel: passivation or electropolishing. Copper/brass: polishing or plating. Powder coating, black oxide, nickel and chrome plating are also options for compatible substrates."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Mark visible faces, masked areas and fitted bores; identify dimensions to be accepted after finishing.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree dimensional and cosmetic acceptance separately, including a finish reference if appearance matters."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Dimensions after surface finishing",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-08-cutout-v1-1200.webp",
+      "heroAlt": "Milled metal brackets & finished housings",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\global-manufacturer-of-multi-sided-precision-machined-components\\index.html",
+      "fields": {
+        "Materials": "No grade is specified for this example. Tell us which material your part requires.",
+        "Machining": "Multi-axis and 5-axis machining with component-specific fixturing.",
+        "Surface finish": "Choose the finish around the fluid, assembly and appearance requirements."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Locate angled ports and bolt patterns from shared datums, and distinguish fluid interfaces from structural holes.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree positional and face-orientation checks; specify sealing tests separately if required."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Ports and mounting faces with shared datums",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-04-cutout-v1-1200.webp",
+      "heroAlt": "Multi-face components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/global-oem-precision-machining-solutions/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\global-oem-precision-machining-solutions\\index.html",
+      "fields": {
+        "Materials": "No grade is specified for this example. Tell us which material your part requires.",
+        "Machining": "5-axis milling, CNC turning and mill-turn machining.",
+        "Surface finish": "Specify finish and material grade for the interfaces in your assembly."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define the relationship between the turned axis, mounting faces and off-axis features so the machining route can be assessed.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Identify runout, feature position and thread checks against a consistent datum scheme."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Angled features on a turned housing",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-03-cutout-v1-1200.webp",
+      "heroAlt": "Angled housings",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem\\index.html",
+      "fields": {
+        "Materials": "No grade is specified for this example. Tell us which material your part requires.",
+        "Machining": "5-axis contour machining.",
+        "Surface finish": "Specify the treatment for flow surfaces and mating features with the material grade."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Identify the controlling contour model, ports, datum axis and sealing interfaces.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Define profile and interface checks; specify any flow, balance or leak validation as a separate requirement."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Contour geometry and fluid interfaces",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-11-cutout-v1-1200.webp",
+      "heroAlt": "Turbine & fluid-system components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\high-volume-cnc-turning-for-complex-internal-external-features\\index.html",
+      "fields": {
+        "Materials": "No grade is specified for this example. Tell us which material your part requires.",
+        "Machining": "Multi-axis CNC turning with production-specific tooling.",
+        "Surface finish": "Define the required texture on internal bores, grooves and seal-contact surfaces."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Specify internal steps, grooves and seal lands, including features difficult to access with a gauge.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree access for measurement, first-article checks and subsequent sampling of critical internal dimensions."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Internal grooves and inspection access",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-10-cutout-v1-1200.webp",
+      "heroAlt": "Complex internal & external turned features",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\oem-precision-cnc-machined-casting-housing-structural-enclosures\\index.html",
+      "fields": {
+        "Materials": "Casting grade must be confirmed; no specific alloy is assigned to this example.",
+        "Machining": "Multi-axis milling and boring with casting-specific fixturing.",
+        "Surface finish": "Machined functional surfaces; specify any exterior treatment separately."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Show bearing-bore relationships, mounting datums and accessible fixture surfaces on the cast blank.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree bore alignment and mating-face checks, along with acceptance criteria for regions left as cast."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Bearing alignment in a ribbed casting",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-22-cutout-v1-1200.webp",
+      "heroAlt": "Cast housings & structural enclosures",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/oem-precision-cnc-machined-casting-housings/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\oem-precision-cnc-machined-casting-housings\\index.html",
+      "fields": {
+        "Materials": "Casting alloy is not specified; confirm the blank and material condition.",
+        "Machining": "CNC milling and boring, with sample scanning and reverse engineering support.",
+        "Surface finish": "Agree the casting alloy, machining allowance and treatment before manufacture."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define spline requirements and bore-to-face relationships; identify which original sample dimensions are controlling if reconstruction is requested.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree spline inspection and bore alignment using defined datums. Sample appearance cannot establish these relationships."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Bore and spline geometry from a sample",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-23-cutout-v1-1200.webp",
+      "heroAlt": "Cast housings",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-cnc-machined-castings-custom-oem-housings/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-cnc-machined-castings-custom-oem-housings\\index.html",
+      "fields": {
+        "Materials": "Agree the casting material and grade for the project.",
+        "Machining": "Finish milling, boring, drilling and tapping.",
+        "Surface finish": "Specify surface finish and protected dimensions on the machined interfaces."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Mark sealing faces, bearing fits and tapped mounting holes; distinguish machining allowance from final wall geometry.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree face, fit and thread checks and any restrictions on exposed casting defects at functional surfaces."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Sealing faces and mounting holes",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-24-cutout-v1-1200.webp",
+      "heroAlt": "Machined castings & OEM housings",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-cnc-machined-castings-manufacturer/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-cnc-machined-castings-manufacturer\\index.html",
+      "fields": {
+        "Materials": "Metal castings; specify the alloy grade and blank condition.",
+        "Machining": "CNC boring and milling, with reverse engineering from a sample.",
+        "Surface finish": "Define the treatment around the casting material and finished mating surfaces."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Provide sections through hidden features and define the relationship between flange datums, bores and internal gear or spline geometry.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree the material documents to check and the dimensions to measure. Discuss fluid-integrity testing separately."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Hidden splines and flow paths",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-25-cutout-v1-1200.webp",
+      "heroAlt": "Precision-machined castings",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances\\index.html",
+      "fields": {
+        "Materials": "Engineering plastic; the exact polymer grade is not specified.",
+        "Machining": "CNC machining with low-stress fixturing and thermal management.",
+        "Surface finish": "Specify the surface condition required at seals, bearings and sliding interfaces."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Identify the polymer, wall sections, pocket depth and mating interfaces. Define the state in which the part must meet dimensions.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree measurement conditions and checks for wall geometry, hole relationships and dimensional stability relevant to assembly."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Thin walls and measurement conditions",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-26-cutout-v1-1200.webp",
+      "heroAlt": "Complex-geometry plastic components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier\\index.html",
+      "fields": {
+        "Materials": "C36000 brass, tellurium copper and other copper/brass options; confirm the alloy for your part.",
+        "Machining": "CNC turning, milling, multi-axis machining and casting finishing.",
+        "Surface finish": "Specify any protective plating and the surfaces needed for electrical or thermal contact."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Separate contact surfaces from sealing features and specify threads, fastening details and post-finish dimensions.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree thread gauging, burr and surface acceptance. Conductivity or pressure performance needs separate test criteria."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Electrical contacts or fluid fittings",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/product-review/brass-1200.webp",
+      "heroAlt": "Brass & copper parts",
+      "illustrativeDisclosure": [
+        "Illustrative part visual · not an LZZ production or inspection record."
+      ],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier\\index.html",
+      "fields": {
+        "Materials": "Aluminum and cast-blank machining options. Confirm the material for each part.",
+        "Machining": "CNC milling, turning, 5-axis machining and secondary casting machining.",
+        "Surface finish": "Coordinate finish requirements with each material and part revision."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Give each item a part number, revision, material and quantity; identify shared interfaces across the assembly.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree first-article checks and subsequent sampling for each part. One unspecified batch requirement is insufficient."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Mating components in a pilot batch",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/product-review/enclosure-1200.webp",
+      "heroAlt": "Pilot-batch housings & mating parts",
+      "illustrativeDisclosure": [
+        "Illustrative part visual · not an LZZ production or inspection record."
+      ],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-machining-for-functional-plastic-blocks-structural-components\\index.html",
+      "fields": {
+        "Materials": "Plastic block stock; polymer grade requires confirmation.",
+        "Machining": "CNC machining of thick plastic stock.",
+        "Surface finish": "Deburring and cleaning, with working-surface requirements defined on the drawing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define hole patterns, blind depths and insert locations relative to mounting faces, with assembly loads identified.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree hole alignment, depth, flatness and parallelism checks under specified measurement conditions."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Hole patterns and insert locations",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-29-cutout-v1-1200.webp",
+      "heroAlt": "Functional plastic blocks & structures",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures\\index.html",
+      "fields": {
+        "Materials": "Aluminum housings; confirm the stock grade and condition.",
+        "Machining": "CNC milling, turning, 5-axis machining and cast-blank finishing.",
+        "Surface finish": "Specify the exterior treatment and dimensions that must be protected during finishing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define wall sections and mating datums. Identify whether the stock is billet or a cast blank so the machining route can be assessed.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree flatness, hole-position and batch-report requirements, including whether final acceptance follows finishing."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Wall geometry and stock selection",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-30-cutout-v1-1200.webp",
+      "heroAlt": "Small-batch aluminum enclosures",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier\\index.html",
+      "fields": {
+        "Materials": "Stainless steel options include 303, 304, 316L and 17-4PH.",
+        "Machining": "CNC turning.",
+        "Surface finish": "Passivation and electropolishing."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Specify material condition, bearing or sliding fits, thread standards and the datum axis of slender sections.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree diameter, runout and thread checks plus acceptance after any requested passivation or electropolishing."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Stainless grade and post-treatment fits",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 3,
+      "heroImage": "/media/responsive/catalog-31-cutout-v1-1200.webp",
+      "heroAlt": "Stainless steel turned parts",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier\\index.html",
+      "fields": {
+        "Materials": "Stainless steel options include 304, 316L and 17-4PH.",
+        "Machining": "CNC turning with live-tooling operations.",
+        "Surface finish": "Fine-turned surfaces, mirror polishing and engraving."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Define pin travel, engagement geometry, mounting thread and the mating hole. Clarify whether the inquiry is for a component or a complete assembly.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree fit and alignment checks and any separate actuation-force or cycle-test requirements."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Pin travel and engagement",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-32-cutout-v1-1200.webp",
+      "heroAlt": "Locking pins",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\small-batch-cnc-machining-manufacturer-complex-aluminum-housings\\index.html",
+      "fields": {
+        "Materials": "Aluminum; the specific grade is not assigned to this example.",
+        "Machining": "CNC milling.",
+        "Surface finish": "Bead blasting, clear/black/color anodizing and laser engraving."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Locate mounting points and seal faces, and mark thin sections, masked fits and cosmetic exterior faces.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree flatness, mounting-pattern and finish checks; an enclosure example does not imply a tested ingress-protection rating."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Lid closure and gasket interfaces",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-33-cutout-v1-1200.webp",
+      "heroAlt": "Aluminum housings",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv\\index.html",
+      "fields": {
+        "Materials": "Material options include aluminum 6061/7075, stainless steel 304/316, brass and engineering plastics.",
+        "Machining": "CNC machining with part-specific programming and fixtures.",
+        "Surface finish": "Define the treatment for each material and part number in the batch."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Assign material, revision and functional requirements to each part, and identify common interfaces or matched items.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree initial approval evidence, sampling and traceability needs for each release."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Material and revision by part number",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-34-cutout-v1-1200.webp",
+      "heroAlt": "Batch of turned cylindrical components",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    },
+    {
+      "route": "/products/ultra-high-precision-machining-services/",
+      "file": "D:\\lzz\\lzz\\_react\\dist\\products\\ultra-high-precision-machining-services\\index.html",
+      "fields": {
+        "Materials": "Material options: titanium, Inconel and hardened stainless steel. Confirm the grade for your part.",
+        "Machining": "Continuous 5-axis machining for curved surfaces and deep cavities with fewer setups.",
+        "Surface finish": "Lapping, polishing and specialized coating options, subject to the part requirements."
+      },
+      "drawingFields": {
+        "Geometry & interfaces": "Identify blade profiles, root transitions and the datum axis. Mark thin sections and tool-access restrictions.",
+        "Material & finish": "Specify the material grade, condition, finish and any masked areas.",
+        "Quantity": "State the prototype or batch quantity and required schedule.",
+        "Inspection requirements": "Agree the profiles to measure and any separate balance or rotating-assembly tests."
+      },
+      "conditions": {
+        "materials": true,
+        "machining": true,
+        "surfaceFinish": true,
+        "partRequirements": true,
+        "drawingAndInspection": true,
+        "productContextRfq": true,
+        "relatedParts": true
+      },
+      "missing": [],
+      "requirementsHeading": "Blade profiles and the datum axis",
+      "requirementsLabels": [
+        "Part features",
+        "Review focus"
+      ],
+      "rfqCount": 2,
+      "relatedPartCount": 2,
+      "heroImage": "/media/responsive/catalog-02-cutout-v1-1200.webp",
+      "heroAlt": "Machined impellers",
+      "illustrativeDisclosure": [],
+      "sourcePhotographDisclosure": "",
+      "measuredPatterns": [],
+      "scopeDisclosure": "Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result."
+    }
+  ]
+}

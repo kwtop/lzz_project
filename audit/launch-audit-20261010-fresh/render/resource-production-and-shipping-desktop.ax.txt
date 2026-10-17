@@ -1,0 +1,85 @@
+Browser tab: 506354184, Title: "CNC production & shipping guides | LZZ Precision", URL: "http://127.0.0.1:4323/resources/production-and-shipping/".
+1 AXWebArea CNC production & shipping guides | LZZ Precision, URL: 127.0.0.1:4323/resources/production-and-shipping/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/resources/production-and-shipping/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container main
+			19 container
+				20 container Breadcrumb
+					21 link Description: Resources, Value: 127.0.0.1:4323/resources/
+					22 text /
+					23 text Production & Shipping
+				24 heading Production & Shipping, Value: 1
+					25 text Production & Shipping
+				26 text Plan the steps from prototype approval to repeat orders. Check production lead times and prepare for international shipping.
+			27 container Production & Shipping articles
+				28 container
+					29 image AI-generated illustration of one machined enclosure prototype beside four matching repeat-batch parts
+					30 text AI-generated illustrative image. It is not an LZZ order, delivered quantity or production record.
+					31 heading CNC prototype vs small-batch production: what changes?, Value: 2
+						32 link Description: CNC prototype vs small-batch production: what changes?, Value: 127.0.0.1:4323/resources/prototype-vs-small-batch-cnc/
+					33 text See what changes between prototype machining and repeat batches: drawing revision, setup, inspection, material, finish and the details to confirm before scaling.
+					34 link Description: Read the guide, Value: 127.0.0.1:4323/resources/prototype-vs-small-batch-cnc/
+				35 container
+					36 image Packed machining order photographed before dispatch.
+					37 heading Shipping CNC machined parts internationally: a quote checklist, Value: 2
+						38 link Description: Shipping CNC machined parts internationally: a quote checklist, Value: 127.0.0.1:4323/resources/custom-cnc-parts-shipping-checklist/
+					39 text Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.
+					40 link Description: Read the guide, Value: 127.0.0.1:4323/resources/custom-cnc-parts-shipping-checklist/
+			41 container Other Resources categories
+				42 heading Explore Resources, Value: 2
+					43 text Explore Resources
+				44 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				45 link Description: How We Work, Value: 127.0.0.1:4323/resources/how-we-work/
+				46 link Description: Machining Guides, Value: 127.0.0.1:4323/resources/processes-materials-finishes/
+				47 link Description: FAQ, Value: 127.0.0.1:4323/resources/faq/
+		48 heading Have a part in mind?, Value: 2
+			49 text Have a part in mind?
+		50 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+		51 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+		52 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		53 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		54 container
+			55 text Custom CNC machining
+			56 text in Hangzhou, China.
+		57 container Footer navigation
+			58 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			59 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			60 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			61 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			62 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			63 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			64 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			65 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			66 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			67 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		68 container Let’s talk, ID: contact
+			69 heading Let’s talk, Value: 2, ID: footer-talk-title
+				70 text Let’s talk
+			71 text Hangzhou, China · UTC+8
+			72 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			73 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		74 container Find us
+			75 heading Find us, Value: 2, ID: footer-find-title
+				76 text Find us
+			77 container
+				78 text No. 4 Fengcheng Road
+				79 text Pingyao, Yuhang District
+				80 text Hangzhou, Zhejiang, China
+		81 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		82 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea CNC production & shipping guides | LZZ Precision, URL: 127.0.0.1:4323/resources/production-and-shipping/

@@ -1,0 +1,153 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Capabilities":
+        - /url: /capabilities/
+      - generic: /
+      - generic: 5-axis machining
+    - heading "5-axis machining for complex geometry" [level=1]
+    - paragraph: Machining for angled features and curved surfaces. We assess the geometry and tool access from your model.
+    - link "Prepare RFQ email":
+      - /url: /quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F
+    - figure "Multi-bore circular milled component":
+      - link "View Multi-bore circular milled component":
+        - /url: /products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+        - img "Multi-bore components"
+      - generic: Multi-bore circular milled component
+    - heading "Angled access and continuous contours" [level=2]
+    - paragraph: Angled features may be reached by indexed positioning; continuous contours may need a simultaneous tool path. We review the model before choosing the machining route.
+    - term: Geometry & process
+    - definition: For continuous curves, deep cavities and features requiring angled tool access. Impellers, curved components and multi-sided housings use angled tool access and contour machining.
+    - term: Size & workholding
+    - definition: Review the clamping areas, tool reach and clearance across the required orientations. Identify protected surfaces and features that must share a setup; use the size-review checklist below to provide the model and dimensions.
+    - term: Material & finish
+    - definition: Services cover aluminum, titanium, Inconel and hardened stainless. Specify the grade, material condition and finish requirements, including surfaces where tool marks matter.
+    - heading "Review your part size & setup" [level=3]
+    - paragraph: Include finished length, width, height and weight, stock dimensions and weight, protected surfaces, clamping areas and clearances. Send the model, drawing, material and quantity; machine travel, load and maximum part envelope are not published here.
+    - generic "Choose the motion that the geometry needs"
+    - heading "More part examples" [level=2]
+    - link "Browse all parts":
+      - /url: /products/
+    - link "Machined impellers Machined impellers":
+      - /url: /products/ultra-high-precision-machining-services/
+      - img "Machined impellers"
+      - heading "Machined impellers" [level=3]
+    - link "Angled housings Ring housings & angled components":
+      - /url: /products/global-oem-precision-machining-solutions/
+      - img "Angled housings"
+      - heading "Ring housings & angled components" [level=3]
+    - heading "Machining in practice" [level=2]
+    - link "All machining studies":
+      - /url: /cases/
+    - link "Metal workpiece mounted on a trunnion beneath a CNC spindle. Five-axis machining for multi-face components Machining holes, side openings and contoured faces on a component held in a rotary setup.":
+      - /url: /cases/five-axis-machining-multi-face-parts/
+      - img "Metal workpiece mounted on a trunnion beneath a CNC spindle."
+      - heading "Five-axis machining for multi-face components" [level=3]
+      - paragraph: Machining holes, side openings and contoured faces on a component held in a rotary setup.
+    - link "Two milling setups for one part Two milling setups provide access to different faces of the same part.":
+      - /url: /cases/two-stage-cnc-milling/
+      - heading "Two milling setups for one part" [level=3]
+      - paragraph: Two milling setups provide access to different faces of the same part.
+    - heading "Drawing & acceptance" [level=2]
+    - heading "Drawing requirements" [level=3]
+    - paragraph: Identify the functional surfaces and the relationships between angled holes, bores and mounting faces. Specify which model revision defines the contour.
+    - paragraph: Mark restricted tool access, thin blades, deep cavities and surfaces where tool marks matter. Discuss acceptable changes before fixing the route.
+    - heading "Inspection and acceptance" [level=3]
+    - paragraph: Define profile and position requirements with usable datums. Agree the features to compare with the model or measure.
+    - paragraph: For rotating or fluid-handling parts, identify any separate balance, leak or functional test requirement; geometry alone does not demonstrate performance.
+    - paragraph: Agree the measurement method and required records before production.
+    - navigation "Inspection and order information":
+      - link "Quality & inspection":
+        - /url: /quality/
+      - generic "Equipment and order records"
+    - heading "Prepare your 5-axis machining enquiry" [level=2]
+    - paragraph: Provide the native or neutral 3D model, a drawing of critical features, material condition and finish requirements.
+    - paragraph: Include assembly clearances and any validation criteria to help assess feasibility and the reports and work to include in the quotation.
+    - link "Prepare RFQ email":
+      - /url: /quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F
+    - paragraph: Add your requirements to the email draft, then attach drawings in your email app before sending.
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - navigation "Useful engineering resources":
+      - heading "Related resources" [level=3]
+      - link "Drawing & RFQ checklist":
+        - /url: /resources/rfq-checklist/
+        - generic: Drawing & RFQ checklist
+      - link "Choose a machining process":
+        - /url: /resources/cnc-process-selection/
+        - generic: Choose a machining process
+      - generic "More engineering resources"
+    - navigation "Related capabilities":
+      - heading "Related machining processes" [level=2]
+      - link "CNC milling":
+        - /url: /capabilities/cnc-milling-service/
+        - text: CNC milling
+        - generic: ↗
+      - link "CNC turning":
+        - /url: /capabilities/cnc-turning-service/
+        - text: CNC turning
+        - generic: ↗
+      - link "Casting machining":
+        - /url: /capabilities/casting-machining/
+        - text: Casting machining
+        - generic: ↗
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

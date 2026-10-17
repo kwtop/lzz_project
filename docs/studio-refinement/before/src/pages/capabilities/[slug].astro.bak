@@ -1,0 +1,80 @@
+---
+import {materialHeroes,productImage} from '../../data/refinedImages';
+import Layout from '../../layouts/Layout.astro';
+import ResourceLinks from '../../components/ResourceLinks.astro';
+import PageHero from '../../components/PageHero.astro';
+import ProductExplorer from '../../components/ProductExplorer';
+import catalog from '../../data/catalog.json';
+import {services} from '../../data/services';
+import {categoryDetails,productTitle} from '../../data/presentation';
+import {capabilityGroups} from '../../data/capabilityGroups';
+import {capabilityContent} from '../../data/capabilityContent';
+import {matchesCapability,matchesPartCategory} from '../../data/productTags';
+import {capabilityReferences} from '../../data/capabilityReferences';
+import {inquiryHref} from '../../lib/inquiryContext';
+import {materialGrades} from '../../data/materialGrades';
+import {caseForCapability} from '../../data/cases';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import EngineeringScope from '../../components/EngineeringScope.astro';
+import DisclosureAnchors from '../../components/DisclosureAnchors.astro';
+import GeometryReview from '../../components/GeometryReview.astro';
+import WorkshopVideo from '../../components/WorkshopVideo.astro';
+export function getStaticPaths(){return catalog.categories.map(category=>({params:{slug:category.slug},props:{category}}));}
+const {category}=Astro.props;
+const materialHero=materialHeroes[category.slug];
+const isMaterial=Boolean(materialHero);
+const service=services.find(s=>s.slug===category.slug);
+const detail=categoryDetails[category.slug];
+const quoteHref=inquiryHref({id:category.slug,title:detail?.title||category.name,legacyName:category.name,path:'/capabilities/'+category.slug+'/',kind:'capability'});
+const content=capabilityContent[category.slug];
+const grades=materialGrades[category.slug];
+const processCases=caseForCapability(category.slug);
+const products=catalog.products.filter(p=>matchesPartCategory(p,category.key)).map(({slug,name,categories,images})=>({slug,name,categories,images}));
+const supportingServices=catalog.products.filter(p=>matchesCapability(p,category.key)&&!matchesPartCategory(p,category.key));
+const siblingGroup=capabilityGroups.find(group=>group.keys.includes(category.key))!;
+const siblings=siblingGroup.keys.map(key=>catalog.categories.find(c=>c.key===key)!);
+const reviewSections=[{title:'Details to mark on the drawing',items:content.drawing},{title:'Inspection checks',items:content.inspection},{title:'Requesting a quote',items:content.rfq}];
+ const materialEvidence={
+ 'aluminum-cnc-parts':[{id:'display-housing-panel',title:'Machined display housing panel',detail:'A complete panel with visible contours and slots; the source folder identifies a 29-inch display enclosure.'},{id:'aluminum-housings',title:'Machined aluminum housings',detail:'A group of housings showing pockets, bores and fastening features.'}],
+ 'copper-brass-cnc-parts':[{id:'brass-plugs',title:'Threaded plugs from the brass-parts source set',detail:'Original batch photograph. Confirm the exact alloy, thread and acceptance dimensions from your drawing.'}],
+ 'cnc-turning-service':[{id:'turning-parts',title:'Turned components after machining',detail:'Finished discs in the same turning process source group; the photograph does not establish a material grade or measured result.'}],
+} as const;
+const evidenceScenes=materialEvidence[category.slug as keyof typeof materialEvidence]||[];
+---
+<Layout title={category.name} description={content.description} closingTitle={'Plan your '+category.name.toLowerCase()+' project'} closingHref={quoteHref} closingLabel="Request a quote">
+ <PageHero variant={'compact-catalog category-intro '+(isMaterial?'material-intro':'process-intro')} lines={[detail?.title||category.name]} description={detail?.description||'Custom components made to your drawing. Discuss your material, geometry and production requirements.'} image={materialHero?.image||service?.image||(products[0]?productImage(products[0]):undefined)} imageAlt={materialHero?.alt||service?.imageAlt||products[0]?.name} imageCaption={materialHero?.caption||service?.imageCaption} imageSrcset={materialHero?.srcset} imageClass={service||materialHero?'':'catalog-image'} parent={{label:'Capabilities',href:'/capabilities/'}} action={{label:'Request a quote',href:quoteHref}} secondaryAction={{label:'See part examples',href:'#part-examples'}}/>
+ <nav class="container sibling-nav" aria-label={siblingGroup.label}><div>{siblings.map(c=><a href={'/capabilities/'+c.slug+'/'} aria-current={c.key===category.key?'page':undefined}>{categoryDetails[c.slug]?.title||c.name}</a>)}</div></nav>
+ <DisclosureAnchors/>
+ <nav class="container page-jump-nav" aria-label="On this capability page"><a href="#engineering-fit">Part suitability</a><a href="#service-summary">Process &amp; delivery</a><a href="#part-examples">Part examples</a><a href="#capability-scope">Drawing &amp; inspection</a></nav>
+ <EngineeringScope slug={category.slug}/>
+ {category.slug==='plastic-machined-parts'&&<div class="container"><WorkshopVideo id="peek-parts" title="PEEK machined parts: a closer look" description="This short workshop clip shows several rectangular PEEK components with perimeter holes and narrow parallel slots. Use the view to compare part geometry; specify your exact grade, dimensions and inspection requirements in the drawing."/></div>}
+ <section class="container capability-guidance" aria-labelledby="capability-scope">
+  <details class="technical-disclosure"><summary id="capability-scope">Drawing, inspection &amp; order planning</summary><div class="prose"><p>{content.scope}</p></div>
+  <div class="review-grid">{reviewSections.map(section=><div class="prose"><h3>{section.title}</h3><ul>{section.items.map(item=><li>{item}</li>)}</ul></div>)}</div>
+  <ResourceLinks label="Engineering inquiry resources"/>
+  </details>
+ </section>
+ {capabilityReferences[category.slug]&&<section class="container reference-parameters" id="reference-figures" aria-label="Reference capability figures"><h2>Planning figures</h2><div>{capabilityReferences[category.slug].map(item=><article><h3>{item.value}</h3><p class="parameter-label">{item.label}</p><p>{item.text}</p></article>)}</div></section>}
+ {isMaterial&&<section class="container section catalog-section" id="part-examples"><div class="section-heading category-results-heading"><h2>Part examples</h2></div><ProductExplorer products={products} categories={catalog.categories} initialCategory={category.key} previewLimit={3} client:load/></section>}
+ {category.slug==='cnc-turning-service'&&<section class="container section turning-editorial"><figure><EvidenceImage id="turning-operation" sizes="(max-width:760px) calc(100vw - 44px), 54vw"/><figcaption>Original LZZ turning-process photograph. See the related <a href="/cases/turning-then-milling-cylindrical-parts/">turning and milling process study</a>.</figcaption></figure><div><h2>CNC turning in the workshop</h2><p>This view shows a cylindrical workpiece, tool turret and coolant. Use your drawing to confirm diameter, runout, surface and inspection requirements for a comparable part.</p><a class="text-link" href="/insights/cnc-process-selection/">Compare machining process options</a></div></section>}
+ {grades&&<section class="container section grade-section"><div class="section-heading"><h2>Common grades to specify</h2></div><div class="grade-families">{grades.families.map(family=><div><h3>{family.name}</h3><ul>{family.grades.map(grade=><li>{grade}</li>)}</ul></div>)}</div><p class="grade-note">{grades.note}</p></section>}
+ {evidenceScenes.length>0&&<section class="container section material-evidence"><div class="section-heading"><h2>Original LZZ photographs</h2></div><div class:list={['material-evidence-grid',{'single':evidenceScenes.length===1,'double':evidenceScenes.length===2}]}>{evidenceScenes.map(scene=><article><EvidenceImage id={scene.id} sizes="(max-width:760px) 90vw, 45vw"/><div class="material-evidence-copy"><h3>{scene.title}</h3><p>{scene.detail}</p></div></article>)}</div></section>}
+ {processCases.length>0&&<section class:list={['container section capability-cases',{three:processCases.length===3}]}><div class="section-heading"><h2>Related workshop studies</h2></div><div>{processCases.map(item=><a href={'/cases/'+item.slug+'/'}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 42vw"/><h3>{item.title}</h3><span class="text-link">View study</span></a>)}</div></section>}
+ {['cnc-milling-service','5-axis-cnc-machining'].includes(category.slug)&&<GeometryReview/>}
+ {category.slug==='casting-machining'&&<section class="container sample-to-part" id="sample-to-part"><h2>From sample to part</h2><ol><li><h3>Review the sample</h3><p>Share the part, mating components and the features you need to retain or change.</p></li><li><h3>Reconstruct the model</h3><p>Scanning and 2D/3D modeling establish geometry for a manufacturability review.</p></li><li><h3>Approve the requirements</h3><p>Confirm material, datums, tolerances and inspection criteria before machining.</p></li></ol></section>}
+ {!isMaterial&&<section class="container section catalog-section" id="part-examples"><div class="section-heading category-results-heading"><h2>Part examples</h2></div><ProductExplorer products={products} categories={catalog.categories} initialCategory={category.key} previewLimit={3} client:load/></section>}
+ {supportingServices.length>0&&<section class="container supporting-services"><h2>Services supporting this material</h2><p>These service pages cover several material options; their images are not material-specific examples.</p><ul>{supportingServices.map(p=><li><a href={'/products/'+p.slug+'/'}>{productTitle(p)}</a></li>)}</ul></section>}
+</Layout>
+<style>
+ .sibling-nav{padding-block:24px;border-bottom:1px solid var(--border)}.sibling-nav>span{display:block;font-size:13px;color:var(--muted);margin-bottom:12px}.sibling-nav>div{display:flex;gap:10px 24px;flex-wrap:wrap}.sibling-nav a{font-size:15px;padding-block:10px}.sibling-nav a[aria-current="page"]{color:var(--red);text-decoration:underline;text-underline-offset:6px}.supporting-services{padding-bottom:48px}.supporting-services h2{font-size:28px}.supporting-services p{margin-block:16px;color:var(--muted);line-height:1.7}.supporting-services ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 36px;padding-left:20px}.supporting-services a{line-height:1.6}.supporting-services a:hover{color:var(--red)}@media(max-width:760px){.supporting-services ul{grid-template-columns:1fr}.sibling-nav{padding-block:10px}.sibling-nav>div{flex-wrap:nowrap;overflow-x:auto;gap:22px;scrollbar-width:thin}.sibling-nav a{flex:none;white-space:nowrap;min-height:44px;font-size:14px}}
+ .catalog-section{scroll-margin-top:100px}.sample-to-part{padding-block:36px;scroll-margin-top:100px}.sample-to-part>h2{font-size:30px}.sample-to-part ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;padding-left:22px;margin-top:24px}.sample-to-part h3{font-size:20px}.sample-to-part p{font-size:15px;line-height:1.7;margin-top:12px}@media(max-width:800px){.sample-to-part ol{grid-template-columns:1fr;gap:24px}}
+ .capability-guidance{border-top:1px solid var(--line,#d6d9d9)}
+ .review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-block:2.5rem}
+ .review-grid h3{font-size:1.3rem;line-height:1.25}.review-grid ul{padding-left:1.2rem}.review-grid li+li{margin-top:1rem}
+ @media(max-width:800px){.review-grid{grid-template-columns:1fr;gap:1.5rem}}
+ .reference-parameters{padding:32px 0;border-top:1px solid var(--border)}.reference-parameters h2{font-size:32px}.reference-parameters>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;margin-top:28px}.reference-parameters h3{font-size:38px}.reference-parameters .parameter-label{font-size:16px;color:var(--ink);margin:14px 0}.reference-parameters article>p:last-child{font-size:15px;line-height:1.75}@media(max-width:760px){.reference-parameters>div{grid-template-columns:1fr}.reference-parameters h2{font-size:28px}}
+ .grade-section{border-bottom:1px solid var(--border)}.grade-families{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.grade-families>div{border-top:1px solid var(--border);padding-top:20px}.grade-families h3{font-size:23px}.grade-families ul{display:flex;flex-wrap:wrap;gap:9px;list-style:none;margin:20px 0 0;padding:0}.grade-note{font-size:14px;line-height:1.7;max-width:850px;margin-top:25px}.capability-cases{border-bottom:1px solid var(--border)}.capability-cases>div:last-child{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 40px}.capability-cases.three>div:last-child{grid-template-columns:repeat(2,minmax(0,1fr))}.capability-cases a{min-width:0}.capability-cases :global(img){display:block;width:100%;height:280px;object-fit:cover}.capability-cases h3{font-size:25px;line-height:1.2;margin:18px 0}.capability-cases .text-link{font-size:14px}@media(max-width:1000px){.capability-cases.three>div:last-child{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.grade-families,.capability-cases>div:last-child,.capability-cases.three>div:last-child{grid-template-columns:1fr}.capability-cases :global(img){height:auto;aspect-ratio:1.5}}
+ @media(min-width:761px) and (max-width:1000px){.capability-cases.three>div:last-child{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.capability-cases.three :global(img){height:260px}.capability-cases.three h3{font-size:21px}}
+ .material-evidence{border-bottom:1px solid var(--border)}.material-evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.material-evidence-grid.double{grid-template-columns:repeat(2,minmax(0,1fr))}.material-evidence-grid.single{display:block}.material-evidence article{min-width:0}.material-evidence-grid.single article{display:grid;grid-template-columns:1.25fr 1fr;align-items:center;gap:40px}.material-evidence :global(img){display:block;width:100%;height:280px;object-fit:contain;background:#fff}.material-evidence-grid.single :global(img){height:380px}.material-evidence-copy{margin-top:18px}.material-evidence-copy h3{font-size:22px;line-height:1.25}.material-evidence-copy p{font-size:16px;line-height:1.65;margin-top:10px}.material-evidence-grid.single .material-evidence-copy{margin-top:0}@media(max-width:760px){.material-evidence-grid,.material-evidence-grid.double{grid-template-columns:1fr;gap:34px}.material-evidence-grid.single article{grid-template-columns:1fr;gap:0}.material-evidence :global(img),.material-evidence-grid.single :global(img){height:auto;aspect-ratio:1.5}.material-evidence-grid.single .material-evidence-copy{margin-top:18px}}
+ .turning-editorial{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:60px;align-items:center;border-bottom:1px solid var(--border)}.turning-editorial figure{min-width:0}.turning-editorial img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}.turning-editorial figcaption{font-size:14px;line-height:1.55;color:var(--muted);margin-top:12px}.turning-editorial figcaption a{text-decoration:underline;text-underline-offset:3px}.turning-editorial h2{font-size:clamp(34px,3.8vw,53px);margin:18px 0 22px}.turning-editorial p{font-size:17px;line-height:1.75}.turning-editorial .text-link{margin-top:28px}@media(max-width:760px){.turning-editorial{grid-template-columns:1fr;gap:25px}.turning-editorial h2{font-size:34px}}
+</style>

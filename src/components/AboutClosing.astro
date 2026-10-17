@@ -1,0 +1,5 @@
+---
+interface Props {title?:string;text?:string;href?:string;label?:string}
+const {title='Have a drawing to review?',text='Send your drawing, material and quantity so we can review your part requirements.',href='/quote/',label='Prepare RFQ email'}=Astro.props;
+---
+<section class="al-closing" aria-label={title}><div><h2>{title}</h2><p>{text}</p></div><div><a class="al-primary" href={href}>{label}</a>{href.startsWith('/quote/')&&<p class="al-small">Prepare a draft, then attach your drawings and send from your email app.</p>}</div></section>

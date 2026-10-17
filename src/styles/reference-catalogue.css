@@ -1,0 +1,100 @@
+/* Selected component catalogue: original images, aligned photo windows and open technical copy. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue {
+ display:block;grid-template-columns:none;padding-block:24px;gap:0;border:0;
+ --reference-image-height:256px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > header {max-width:none;margin:0 0 12px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > header h2 {
+ font-family:var(--font-text);font-size:24px!important;font-weight:700!important;
+ line-height:1.25!important;letter-spacing:-.025em!important;max-width:none!important;margin:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > .reference-grid {
+ display:grid;grid-template-columns:repeat(var(--reference-columns),minmax(0,1fr));gap:28px;
+ margin:0;align-items:start;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue[style*="--reference-columns:2"] {--reference-image-height:228px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figure {
+ width:100%;max-width:none;min-width:0;margin:0;justify-self:stretch;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-photo {
+ display:block;width:100%;height:var(--reference-image-height);overflow:hidden;background:#fff;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-photo img {
+ display:block;width:100%!important;height:100%!important;max-height:none!important;aspect-ratio:auto!important;
+ object-fit:cover!important;object-position:center;border:0!important;border-radius:0!important;
+ background:#fff!important;box-shadow:none;padding:0!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue [data-reference-fit="contain"] .reference-photo img {object-fit:contain!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue [data-reference-id="covered-wheels"] img {object-position:50% 56%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue [data-reference-id="covered-rollers"] img {object-position:50% 75%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue [data-reference-id="gear-cylindrical-examples"] img {object-position:50% 20%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figcaption {
+ font-family:var(--font-text);font-size:18px!important;line-height:1.4!important;color:#191b1d;margin-top:8px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-caption-label {font-weight:700!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-caption-detail {display:block;color:#606266;font-size:14px!important;line-height:1.55!important;font-weight:400;margin-top:5px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > .reference-description {
+ font-family:var(--font-text);font-size:16px!important;line-height:1.6!important;color:#606266;
+ max-width:82ch;margin:14px 0 0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > .reference-fields {
+ display:grid;grid-template-columns:repeat(var(--reference-field-columns),minmax(0,1fr));gap:0 28px;margin:14px 0 0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields > div {padding:0;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields > div + div {border-left:1px solid #d9dddf;padding-left:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields dt {font-size:17px!important;font-weight:700!important;line-height:1.4!important;color:#191b1d}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields dd {margin:4px 0 0;font-size:16px!important;line-height:1.5!important;color:#606266}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue[style*="--reference-field-columns:2"] .reference-fields {gap:22px 28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue[style*="--reference-field-columns:2"] .reference-fields > div:nth-child(odd) {border-left:0;padding-left:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > .reference-requirements {
+ display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:14px 0 0;padding:0;list-style:none;
+ font-size:16px;font-weight:600;line-height:1.45;color:#191b1d;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-requirements > li {min-width:0;font-size:16px!important;font-weight:600!important;line-height:1.45!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-requirements > li + li {border-left:1px solid #d9dddf;padding-left:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-original-link {margin-top:12px;font-size:14px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue.single-reference .reference-grid {max-width:920px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue.single-reference {--reference-image-height:360px}
+
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms {padding-block:26px 28px!important;scroll-margin-top:0!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > header {display:block;margin:0 0 18px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > header h2 {font-size:42px!important;font-weight:700!important;line-height:1.15!important;letter-spacing:-.035em!important;max-width:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > header p {font-size:19px!important;line-height:1.45!important;max-width:none!important;margin-top:8px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms .reference-catalogue > header h2 {font-size:24px!important;line-height:1.25!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms .additional-group {padding-block:0 20px;border-bottom:1px solid #d9dddf}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms .additional-group + .additional-group {padding-top:18px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms .reference-catalogue {padding:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > nav {display:flex;flex-wrap:wrap;gap:14px;margin-top:18px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > nav a {font-size:14px;font-weight:600;line-height:1.4;min-height:46px;padding:12px 20px;border-radius:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > nav a:last-child {margin-left:auto}
+
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .collection-catalogue > .reference-catalogue {padding:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .collection-catalogue > .collection-video {margin-top:30px;border-top:1px solid #d9dddf;padding-top:24px}
+
+@media(max-width:1100px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue {--reference-image-height:240px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue[style*="--reference-columns:2"] {--reference-image-height:230px}
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue {--reference-image-height:250px;padding-block:18px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > header h2 {font-size:23px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > .reference-grid {grid-template-columns:1fr;gap:22px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue[style*="--reference-columns:2"] {--reference-image-height:230px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue.single-reference {--reference-image-height:290px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue figcaption {font-size:17px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue > :is(.reference-fields,.reference-requirements) {grid-template-columns:1fr;gap:0;margin-top:18px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue[style*="--reference-field-columns:2"] .reference-fields {gap:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields > div,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields > div + div,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-requirements > li,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-requirements > li + li {border-left:0;border-top:1px solid #d9dddf;padding:12px 0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .reference-gallery.reference-catalogue .reference-fields dt {font-size:16px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms {padding-block:26px 36px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > header {margin-bottom:22px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > header h2 {font-size:32px!important;line-height:1.15!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > header p {font-size:16px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms .reference-catalogue > header h2 {font-size:23px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms .additional-group {padding-bottom:22px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > nav {display:grid;grid-template-columns:1fr;gap:12px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main #additional-part-forms > nav a {width:100%;justify-content:center;margin-left:0}
+}

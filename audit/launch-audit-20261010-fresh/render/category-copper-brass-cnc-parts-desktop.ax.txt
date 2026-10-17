@@ -1,0 +1,129 @@
+Browser tab: 506354184, Title: "Copper Brass CNC Parts | LZZ Precision", URL: "http://127.0.0.1:4323/capabilities/copper-brass-cnc-parts/".
+1 AXWebArea Copper Brass CNC Parts | LZZ Precision, URL: 127.0.0.1:4323/capabilities/copper-brass-cnc-parts/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/capabilities/copper-brass-cnc-parts/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+				21 text Copper & brass machining
+			22 heading Copper & brass parts, made to specification, Value: 1
+				23 text Copper & brass parts, made to specification
+			24 text Machined fittings, electrical contacts and custom connectors in copper and brass alloys.
+			25 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F
+			26 container part-examples
+				27 link Description: View Turned brass & copper components, Value: 127.0.0.1:4323/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/
+				28 text Turned brass & copper components
+			29 container engineering-fit
+				30 heading Conductive parts and threaded fittings, Value: 2
+					31 text Conductive parts and threaded fittings
+				32 text Electrical contacts and fluid fittings need different acceptance criteria. Choose the alloy for the function and specify any required testing; the examples do not establish electrical or fluid-system qualification.
+				33 definition list
+					34 container Geometry & process
+						35 text Geometry & process
+					36 text For conductive parts, heat-transfer components, manifolds and threaded fittings. Turning, milling, 5-axis work and casting finishing cover cylindrical fittings and complex conductive parts.
+					37 container Size & workholding
+						38 text Size & workholding
+					39 text Send a 3D model with the overall dimensions and stock size. Show mating areas and fastening details so tool access and clamping space can be reviewed around contact areas, passages and threads.
+					40 container Material & finish
+						41 text Material & finish
+					42 text C36000 brass and tellurium copper are named options in the copper and brass service. Burr control matters around threads and passages. Specify polishing or plating requirements and any surfaces that need direct electrical contact.
+					43 container Grades to discuss
+						44 text Grades to discuss
+					45 container
+						46 text Copper: 
+						47 text C11000 · C10200 · C12000
+						48 text Brass: 
+						49 text C26000 · C36000 Copper and brass are separate material families. State the required grade and electrical, thermal, surface or fit requirements in your inquiry.
+				50 button (collapsed) Separate electrical function from mechanical fit, Secondary Actions: Expand
+					51 text Separate electrical function from mechanical fit
+			52 container machining-studies
+				53 heading Machining in practice, Value: 2
+					54 text Machining in practice
+				55 link Description: All machining studies, Value: 127.0.0.1:4323/cases/
+				56 link Value: 127.0.0.1:4323/cases/custom-metal-parts-batch-examples/, Description: Rectangular housings with cavities and perimeter holes, grouped on a work surface. Custom metal parts in batches: shafts, fittings and housings Turned shafts, fittings and recessed housings: a selection of custom metal components in batches.
+			57 button (collapsed) More photographs from the workshop, Secondary Actions: Expand
+				58 text More photographs from the workshop
+			59 container capability-scope
+				60 heading Drawing & acceptance, Value: 2
+					61 text Drawing & acceptance
+				62 heading Drawing requirements, Value: 3
+					63 text Drawing requirements
+				64 text Specify alloy and material restrictions. Distinguish electrical contact areas from sealing faces, threads and cosmetic surfaces.
+				65 text For contacts, show mating area and fastening details. For fittings, state thread standard, seal arrangement and the intended fluid environment.
+				66 container inspection
+					67 heading Inspection and acceptance, Value: 3
+						68 text Inspection and acceptance
+					69 text Define thread gauging, burr acceptance and contact or seal surface requirements. State which dimensions apply after any plating.
+					70 text Specify conductivity, pressure or other functional tests separately, with acceptance criteria. Agree the tests to include in the quotation.
+					71 text Agree the measurement method and required records before production.
+				72 container Inspection and order information
+					73 link Description: Quality & inspection, Value: 127.0.0.1:4323/quality/
+					74 button (collapsed) Equipment and order records, Secondary Actions: Expand
+						75 text Equipment and order records
+			76 container enquiry
+				77 heading Prepare your copper & brass machining enquiry, Value: 2
+					78 text Prepare your copper & brass machining enquiry
+				79 text Include alloy designation, finish or plating specification, quantities and assembly information.
+				80 text State the applicable material restrictions and declarations you need. Confirm that the declarations are available for the proposed supply.
+				81 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F
+				82 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+				83 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			84 container Description: Useful engineering resources, ID: related-resources
+				85 heading Related resources, Value: 3
+					86 text Related resources
+				87 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				88 link Description: Material & Finish Guide, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/
+				89 button (collapsed) More engineering resources, Secondary Actions: Expand
+					90 text More engineering resources
+			91 container Related capabilities
+				92 heading Related materials, Value: 2
+					93 text Related materials
+				94 link Description: Stainless steel machining, Value: 127.0.0.1:4323/capabilities/stainless-steel-cnc-parts/
+				95 link Description: Plastic machining, Value: 127.0.0.1:4323/capabilities/plastic-machined-parts/
+				96 link Description: Aluminum machining, Value: 127.0.0.1:4323/capabilities/aluminum-cnc-parts/
+		97 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		98 container
+			99 text Custom CNC machining
+			100 text in Hangzhou, China.
+		101 container Footer navigation
+			102 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			103 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			104 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			105 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			106 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			107 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			108 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			109 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			110 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			111 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		112 container Let’s talk, ID: contact
+			113 heading Let’s talk, Value: 2, ID: footer-talk-title
+				114 text Let’s talk
+			115 text Hangzhou, China · UTC+8
+			116 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			117 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		118 container Find us
+			119 heading Find us, Value: 2, ID: footer-find-title
+				120 text Find us
+			121 container
+				122 text No. 4 Fengcheng Road
+				123 text Pingyao, Yuhang District
+				124 text Hangzhou, Zhejiang, China
+		125 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		126 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea Copper Brass CNC Parts | LZZ Precision, URL: 127.0.0.1:4323/capabilities/copper-brass-cnc-parts/

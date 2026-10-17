@@ -1,0 +1,7 @@
+---
+import AboutPhoto from './AboutPhoto.astro';
+import {aboutIllustrations} from '../data/aboutEditorial';
+interface Props {kind:keyof typeof aboutIllustrations;eager?:boolean;class?:string}
+const {kind,eager=false,class:className}=Astro.props;const image=aboutIllustrations[kind];
+---
+<AboutPhoto src={image.stem+'-1200.webp'} srcset={[480,800,1200,1536].map(w=>`${image.stem}-${w}.webp ${w}w`).join(', ')} alt={image.alt} caption={image.caption} width={1536} height={1024} eager={eager} class={className} illustrative/>

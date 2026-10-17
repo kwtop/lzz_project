@@ -1,0 +1,40 @@
+---
+import Arrow from './Arrow.astro';
+import {primaryServices} from '../data/services';
+import {knowledgeLinks} from '../data/knowledgeCenter';
+const current=Astro.url.pathname;
+const isNews=current.startsWith('/about/company-news/');
+const processLinks=primaryServices.filter(service=>service.key!=='Plastic-Machined-Parts').map(service=>({title:service.name,href:'/capabilities/'+service.slug+'/'}));
+const evidenceLinks=[{title:'Our Factory',href:'/factory/'},{title:'Quality Control',href:'/quality/'}];
+const materialLinks=[
+ {title:'Aluminum machining',href:'/capabilities/aluminum-cnc-parts/'},
+ {title:'Stainless steel machining',href:'/capabilities/stainless-steel-cnc-parts/'},
+ {title:'Copper & brass machining',href:'/capabilities/copper-brass-cnc-parts/'},
+ {title:'Engineering Plastics',href:'/capabilities/plastic-machined-parts/'},
+];
+---
+<nav id="main-nav" aria-label="Main navigation">
+ <details name="main-navigation" class="nav-group" data-active={current.startsWith('/capabilities/')||undefined}>
+  <summary>Capabilities</summary>
+  <div class="nav-panel nav-panel-capabilities"><div class="nav-columns"><div><p class="nav-group-label">Machining</p>{processLinks.map(link=><a href={link.href} aria-current={current===link.href?'page':undefined}>{link.title}</a>)}</div><div><p class="nav-group-label">Materials</p>{materialLinks.map(link=><a href={link.href} aria-current={current===link.href?'page':undefined}>{link.title}</a>)}</div><div><p class="nav-group-label">Projects</p><a href="/capabilities/#production-stages">Prototype &amp; small batch</a><a href="/capabilities/#sample-to-part">Starting with a sample</a></div></div><a class="nav-overview" href="/capabilities/">View all machining capabilities <Arrow size={16}/></a></div>
+ </details>
+ <details name="main-navigation" class="nav-group" data-active={current.startsWith('/products/')||current.startsWith('/cases/')||undefined}><summary>Custom Parts</summary><div class="nav-panel nav-panel-small"><a href="/products/" aria-current={current==='/products/'?'page':undefined}>Browse Custom Parts</a><a href="/cases/" aria-current={current.startsWith('/cases/')?'page':undefined}>Machining Studies</a></div></details>
+ <details name="main-navigation" class="nav-group" data-active={['/factory/','/quality/'].includes(current)||undefined}><summary>Factory &amp; Quality</summary><div class="nav-panel nav-panel-small">{evidenceLinks.map(link=><a href={link.href} aria-current={current===link.href?'page':undefined}>{link.title}</a>)}</div></details>
+ <details name="main-navigation" class="nav-group nav-group-resources" data-active={current.startsWith('/resources/')&&!isNews||undefined}><summary>Resources</summary><div class="nav-panel nav-panel-small"><a class="nav-overview" href="/resources/" aria-current={current==='/resources/'?'page':undefined}>All Resources</a>{knowledgeLinks.map(link=><a href={link.href} aria-current={current===link.href?'page':undefined}>{link.title}</a>)}</div></details>
+ <details name="main-navigation" class="nav-group" data-active={current.startsWith('/about/')||current==='/contact/'||undefined}><summary>About LZZ</summary><div class="nav-panel nav-panel-small nav-panel-about"><a href="/about/" aria-current={current==='/about/'?'page':undefined}>Company Profile</a><a href="/about/company-news/" aria-current={isNews?'page':undefined}>Company News</a><a class="nav-contact" href="/contact/" aria-current={current==='/contact/'?'page':undefined}>Contact Us</a></div></details>
+</nav>
+<style>.nav-order-label{margin-top:20px}.nav-panel-about .nav-contact{border-top:1px solid var(--border);margin-top:8px;padding-top:16px}</style>
+<script>
+ const nav=document.querySelector('#main-nav')!;
+ const groups=Array.from(nav.querySelectorAll<HTMLDetailsElement>('.nav-group'));
+ const closeGroups=()=>groups.forEach(g=>g.open=false);
+ groups.forEach(group=>{
+  group.addEventListener('toggle',()=>{if(group.open)groups.filter(g=>g!==group).forEach(g=>g.open=false);});
+  group.addEventListener('focusout',()=>{requestAnimationFrame(()=>{if(!group.contains(document.activeElement))group.open=false;});});
+  group.addEventListener('keydown',event=>{if(event.key==='Escape'&&group.open){event.stopPropagation();group.open=false;group.querySelector('summary')?.focus();}});
+ });
+ document.addEventListener('click',event=>{if(event.target instanceof Node&&!nav.contains(event.target))closeGroups();});
+ nav.addEventListener('focusout',()=>{requestAnimationFrame(()=>{if(!nav.contains(document.activeElement))closeGroups();});});
+ nav.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('a')){closeGroups();document.querySelector('.site-header')?.classList.remove('menu-open');const toggle=document.querySelector('.menu-toggle');toggle?.setAttribute('aria-expanded','false');toggle?.setAttribute('aria-label','Open navigation');}});
+ matchMedia('(min-width:961px)').addEventListener('change',closeGroups);
+</script>

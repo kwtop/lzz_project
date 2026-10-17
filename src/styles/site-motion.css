@@ -1,0 +1,47 @@
+/* The resting state is always readable, including without JavaScript. */
+.precision-message [data-motion-line] { display: inline-block; max-width: 100%; }
+
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-copy {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: clamp(24px, 3vw, 44px);
+  background: #191b1d;
+  color: #f5f5f4;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists {
+  width: 100%;
+  margin-block: 0;
+  gap: 28px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists h3 {
+  color: #fff !important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href] {
+  color: #d7d9da !important;
+  border-color: #46494c;
+  background: transparent;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href]:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+@media (max-width: 480px) {
+  body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists { gap: 20px; }
+  body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href] { font-size: 15px; }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .ed-product, .product-card, .er-related > a, .cap-products > a, .service-list > a, .material-list > a, .study-image, .study-collection-image, .news-story-image { transition: translate 220ms cubic-bezier(.23,1,.32,1); }
+  .ed-product:hover, .product-card:hover, .er-related > a:hover, .cap-products > a:hover, .service-list > a:hover, .material-list > a:hover, .study-image:hover, .study-collection-image:hover, .news-story-image:hover { translate: 0 -3px; }
+  .rfq-button svg { transition: translate 220ms cubic-bezier(.23,1,.32,1); }
+  .rfq-button:hover svg { translate: 3px 0; }
+  body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href] {
+    transition: color 180ms ease, border-color 180ms ease, translate 220ms cubic-bezier(.23,1,.32,1);
+  }
+  body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists a[href]:hover {
+    color: #fff !important;
+    border-color: #b8bdc1;
+    translate: 3px 0;
+  }
+}
+

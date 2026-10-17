@@ -1,0 +1,31 @@
+---
+import photos from '../data/companyNewsMedia.json';
+import type {Resource} from '../data/resources';
+import {load} from 'cheerio';
+import Arrow from './Arrow.astro';
+import ReadingHeader from './ReadingHeader.astro';
+interface Props {article:Resource;relatedNews:Resource[]}
+const {article,relatedNews}=Astro.props;
+const images=photos.filter(photo=>photo.group==='team-may-2025');
+const $=load(article.html,null,false);
+const paragraphs=$.root().children('p').map((_,p)=>$(p).text()).get();
+---
+<article class="mo-page reading-page">
+ <ReadingHeader title={article.title} description={paragraphs[0]} breadcrumbs={[{label:'About LZZ',href:'/about/'},{label:'Company News',href:'/about/company-news/'}]}><p class="mo-date">LZZ team outing · <time datetime={article.eventDate}>{article.eventDateLabel}</time></p></ReadingHeader>
+ <figure class="mo-hero" data-image-origin="source-photo"><a href={images[0].src} aria-label={'View full photograph: '+images[0].caption}><img src={images[0].src} srcset={images[0].srcset} sizes="96vw" alt={images[0].caption} width={images[0].width} height={images[0].height} loading="eager" fetchpriority="high"/></a><figcaption class="mo-wrap">{images[0].caption}</figcaption></figure>
+ <section class="mo-wrap mo-story reading-section" aria-labelledby="section-1"><div><h2 id="section-1">Time together beyond the workshop</h2><p>{paragraphs[1]}</p></div><figure data-image-origin="source-photo"><a href={images[1].src} aria-label={'View full photograph: '+images[1].caption}><img src={images[1].src} srcset={images[1].srcset} sizes="(max-width:760px) 90vw, 65vw" alt={images[1].caption} width={images[1].width} height={images[1].height} loading="lazy"/></a><figcaption>{images[1].caption}</figcaption></figure></section>
+ <section class="mo-wrap mo-pair reading-section" id="section-2" aria-label="Photographs from the outing">{[images[3],images[2]].map(photo=><figure data-image-origin="source-photo"><a href={photo.src} aria-label={'View full photograph: '+photo.caption}><img src={photo.src} srcset={photo.srcset} sizes="(max-width:760px) 90vw, 52vw" alt={photo.caption} width={photo.width} height={photo.height} loading="lazy"/></a><figcaption>{photo.caption}</figcaption></figure>)}</section>
+ <section class="mo-wrap reading-related" aria-label="Related company information">
+  <div class="mo-continuation"><p>For more about the team’s working environment,</p><a class="mo-secondary" href="/factory/">See the LZZ workshop <Arrow size={17}/></a></div>
+  <nav class="mo-news" aria-labelledby="more-news-title"><h2 id="more-news-title">More company news</h2>{relatedNews.map(item=><a href={'/about/company-news/'+item.slug+'/'}><time datetime={item.eventDate}>{item.eventDateLabel}</time><span>{item.title}</span><Arrow size={18}/></a>)}</nav>
+  <div class="mo-return"><a class="mo-secondary" href="/about/company-news/">Back to Company News <Arrow size={17}/></a></div>
+ </section>
+ <section class="mo-contact reading-closing"><div class="mo-wrap"><div><h2>Have a part in mind?</h2><p>Share your drawing, material and quantity so we can review the part and prepare a quote.</p></div><div class="mo-actions"><a class="mo-primary" href="/quote/">Prepare RFQ email <Arrow size={17}/></a><a class="mo-email" href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a></div></div></section>
+</article>
+<style>
+ .mo-page .mo-wrap{width:calc(100% - 128px);max-width:1280px;margin-inline:auto}.mo-page [id]{scroll-margin-top:110px}.mo-date{margin-top:12px}.mo-page figure{margin:0;min-width:0}.mo-page figure a{display:block}.mo-page img{display:block;width:100%;height:auto}.mo-page figcaption{margin-top:12px}.mo-hero>a{margin-inline:20px}.mo-hero img{aspect-ratio:1.86;object-fit:cover;object-position:center 100%}.mo-page .mo-hero figcaption{margin-top:16px}
+ .mo-story{display:grid;grid-template-columns:.85fr 2fr;gap:48px}.mo-story p{margin-top:20px}.mo-story img{aspect-ratio:1.62;object-fit:cover;object-position:center 85%}.mo-pair{display:grid;grid-template-columns:.8fr 1.25fr;gap:32px;align-items:start}.mo-pair img{height:560px;object-fit:cover;object-position:center}
+ .mo-continuation{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-bottom:28px}.mo-return{margin-top:24px}.mo-news>a{display:grid;grid-template-columns:30% 1fr auto;gap:24px;align-items:center;min-height:58px;padding-block:16px;border-bottom:1px solid var(--border);line-height:1.5}.mo-news>a:hover{color:var(--red)}.mo-contact{background:#f3f4f5}.mo-contact>.mo-wrap{display:flex;justify-content:space-between;align-items:center;gap:40px}.mo-contact p{max-width:55ch;margin-top:15px}.mo-actions{flex-shrink:0;display:grid;gap:15px;justify-items:start}.mo-email{display:inline-flex;align-items:center;min-height:44px}.mo-email:hover{color:var(--red)}
+ @media(max-width:1100px){.mo-page .mo-wrap{width:calc(100% - 64px)}.mo-story{grid-template-columns:1fr 1.65fr;gap:32px}.mo-pair img{height:auto;object-fit:contain}}
+ @media(max-width:760px){.mo-page .mo-wrap{width:calc(100% - 40px)}.mo-hero>a{margin-inline:0}.mo-hero img{aspect-ratio:4/3;object-fit:contain}.mo-story,.mo-pair{grid-template-columns:1fr;gap:24px}.mo-story img{aspect-ratio:4/3;object-fit:contain}.mo-pair img{height:auto;object-fit:contain}.mo-news>a{grid-template-columns:1fr auto;gap:8px 16px}.mo-news time{grid-column:1/-1}.mo-contact>.mo-wrap{display:grid;gap:24px}}
+</style>

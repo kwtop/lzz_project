@@ -1,0 +1,192 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "CNC machining RFQ checklist",
+      "y": 164
+    },
+    {
+      "id": "rq-essentials-title",
+      "tag": "H2",
+      "text": "Details needed for a quotation",
+      "y": 288
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Drawing revision",
+      "y": 390
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Material & finish",
+      "y": 521
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Acceptance criteria",
+      "y": 651
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Quantity",
+      "y": 782
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Delivery",
+      "y": 886
+    },
+    {
+      "id": "rq-accepted-title",
+      "tag": "H2",
+      "text": "Drawing and acceptance requirements",
+      "y": 1399
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Send a consistent drawing package",
+      "y": 1493
+    },
+    {
+      "id": "",
+      "tag": "H4",
+      "text": "Working from a sample",
+      "y": 1917
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Mark the dimensions used for acceptance",
+      "y": 2166
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Specify the material and final surface",
+      "y": 2731
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Material requirements",
+      "y": 2825
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Finish and surface requirements",
+      "y": 2999
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Quantity and delivery details",
+      "y": 3382
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Related part examples",
+      "y": 4642
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Prepare and send your inquiry",
+      "y": 5197
+    }
+  ],
+  "images": [
+    {
+      "alt": "Machined housing beside outline drawings",
+      "anchor": "",
+      "caption": "",
+      "complete": true,
+      "context": "rq-drawing-visual",
+      "currentSrc": "http://127.0.0.1:4323/media/gallery/rfq-gallery-v1-480.webp",
+      "index": 1,
+      "naturalHeight": 234,
+      "naturalWidth": 351,
+      "nearestHeading": "Delivery",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "AI-generated",
+      "render": {
+        "height": 220,
+        "width": 331,
+        "x": 22,
+        "y": 1128
+      },
+      "src": "/media/gallery/rfq-gallery-v1-1440.webp",
+      "srcset": "/media/gallery/rfq-gallery-v1-480.webp 480w, /media/gallery/rfq-gallery-v1-800.webp 800w, /media/gallery/rfq-gallery-v1-1200.webp 1200w, /media/gallery/rfq-gallery-v1-1440.webp 1440w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/downloads/order-acceptance-checklist.txt",
+      "text": "Download order acceptance checklist"
+    },
+    {
+      "href": "/quality/",
+      "text": "Inspection & documentation requirements"
+    },
+    {
+      "href": "/resources/material-and-finish-checklist/",
+      "text": "Material & finish checklist"
+    },
+    {
+      "href": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "text": "Turned fittings, connectors & flanges"
+    },
+    {
+      "href": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "text": "Complex aluminum housings"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    }
+  ],
+  "mainText": "Resources\nRFQ checklist\nCNC machining RFQ checklist\nDetails needed for a quotation\nDrawing revision\n\n3D model and 2D drawing when needed, part number, units and revision.\n\nMaterial & finish\n\nExact material or functional requirement, finish details and applicable standards.\n\nAcceptance criteria\n\nCritical dimensions, datums, tolerances and inspection requirements.\n\nQuantity\n\nInitial quantity and expected repeat pattern.\n\nDelivery\n\nArrival date, packaging, shipping basis and relevant customs requirements.\n\nDownload order acceptance checklist\nDrawing and acceptance requirements\nSend a consistent drawing package\n\nInclude a 3D model, such as STEP, and a 2D drawing when dimensions, fits or surface requirements are not fully defined in the model. Label the part number and units, and identify the drawing revision. If the files disagree, identify which document controls before requesting a quotation.\n\nFor multi-axis parts, include the overall envelope, stock dimensions and part weight where known so tool access and setup can be reviewed.\n\nWorking from a sample\n\nIf you have a sample without a drawing, describe the known requirements. Ask which measurements or design work are needed to define the part. A sample alone cannot establish hidden material or treatment requirements.\n\nMark the dimensions used for acceptance\n\nIdentify mating bores and shaft fits on the drawing, with their datums and tolerances. Mark sealing faces, threads and any other critical features too. State whether dimensions apply before or after finishing.\n\nIf you need a particular inspection record, send the format or an example with your inquiry. Agree the inspection and documentation requirements before ordering. Ask LZZ to confirm the measurement method and instrument range, then request calibration evidence and confirmation that your required project records are available.\n\nInspection & documentation requirements\nSpecify the material and final surface\nMaterial requirements\n\nState the exact alloy or polymer grade, or the functional requirement if selection is still open. Include any required material documentation and whether substitutes may be considered.\n\nFinish and surface requirements\n\nProvide the finish specification and appearance requirements. State whether acceptance dimensions apply before or after finishing. Mark cosmetic faces and masked areas, and define edge conditions. Include customer or industry standards and certificates required for this part or program, stating each standard, revision and scope.\n\nMaterial & finish checklist\nQuantity and delivery details\n\nThe quotation identifies the process and material for your part. It includes finishing and quantity, with inspection records and production timing. We resolve drawing questions before approval and confirm shipping terms separately.\n\nMinimum order\n1 piece\nProduction lead time\n7-14 business days\n\nAfter drawing and order confirmation, including surface finishing.\nTransit time is additional.\n\nInitial quantity\nQuantity per part number.\nRepeat pattern\nExpected repeat orders, if known.\nDelivery details\nRequired arrival date and postcode.\nPackaging\nAny special packaging requirements.\nShipping basis\nIncoterm and customs, duties or taxes responsibilities.\nResponse deadline\nYour decision or response deadline, if applicable.\nRelated part examples\n\nFittings need defined threads and sealing faces; housings need mating datums and cavity details. These examples show the drawing questions for each.\n\nTurned fittings, connectors & flanges\nComplex aluminum housings\nAll resources\nHow we work\nQuality control\nPrepare and send your inquiry\nPrepare the draft on the inquiry page.\nAttach drawings in your email application.\nReview the recipients and send when ready.\nPrepare RFQ email\nroger@lzz-cnc.com",
+  "overflow": false,
+  "pageHeight": 6624,
+  "title": "RFQ checklist | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/rfq-checklist/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P02",
+  "mode": "mobile",
+  "screenshot": "screenshots/P02-mobile.jpg"
+}

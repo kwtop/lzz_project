@@ -1,0 +1,109 @@
+Browser tab: 506354184, Title: "5-axis machining for multi-face parts | LZZ Precision", URL: "http://127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/".
+1 AXWebArea 5-axis machining for multi-face parts | LZZ Precision, URL: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Home, Value: 127.0.0.1:4323/
+				21 link Description: / Custom Parts, Value: 127.0.0.1:4323/products/
+				22 link Description: / Machining Studies, Value: 127.0.0.1:4323/cases/
+			23 heading Five-axis machining for multi-face components, Value: 1
+				24 text Five-axis machining for multi-face components
+			25 text Machining holes, side openings and contoured faces on a component held in a rotary setup.
+			26 button (expanded) Study sections, Secondary Actions: Collapse
+				27 text Study sections
+			28 container Study sections
+				29 link Description: The component, Value: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/#study-0
+				30 link Description: Machining setup, Value: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/#study-1
+				31 link Description: Machined features, Value: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/#study-2
+				32 link Description: Inspection planning, Value: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/#study-3
+			33 text The photographs come from the LZZ workshop and show the part shapes and setups discussed here.
+			34 button (collapsed) Photography & project scope, Secondary Actions: Expand
+				35 text Photography & project scope
+			36 link Description: Discuss your drawing, Value: 127.0.0.1:4323/quote/
+			37 container study-0
+				38 container
+					39 image Metal workpiece mounted on a trunnion beneath a CNC spindle.
+					40 text 01 · LZZ workshop
+				41 heading The component, Value: 2
+					42 text The component
+				43 text Front-face holes and a curved side opening place machining features on different faces of this component. Their relationship to a common datum is an important part of planning a similar job.
+			44 container study-1
+				45 container
+					46 image Batch of machined metal components with multiple visible faces.
+					47 text 02 · LZZ workshop
+				48 heading Machining setup, Value: 2
+					49 text Machining setup
+				50 text The workpiece is held in front of a rotary assembly, with spindle access from above. Tool reach and clearance around the fixture need to be checked for each face before the machining sequence is confirmed.
+			51 container study-2
+				52 heading Machined features, Value: 2
+					53 text Machined features
+				54 text The accompanying components have machined pockets, contoured edges and repeated hole patterns. These features provide useful reference points when discussing a similar geometry.
+			55 container study-3
+				56 heading Inspection planning, Value: 2
+					57 text Inspection planning
+				58 text For a comparable project, identify datums, mating features, positional tolerances, surface requirements and the dimensional record you need. LZZ can assess achievable limits and the inspection method from the drawing.
+			59 container Related studies and capabilities
+				60 container Related capabilities
+					61 heading Related capabilities, Value: 2, ID: case-capabilities-title
+						62 text Related capabilities
+					63 link Description: 5-axis machining, Value: 127.0.0.1:4323/capabilities/5-axis-cnc-machining/
+					64 link Description: CNC milling, Value: 127.0.0.1:4323/capabilities/cnc-milling-service/
+				65 container Parts with similar features
+					66 heading Parts with similar features, Value: 3, ID: case-related-title
+						67 text Parts with similar features
+					68 text Separate catalog examples for a similar enquiry.
+					69 link Description: Multi-sided machined components, Value: 127.0.0.1:4323/products/global-manufacturer-of-multi-sided-precision-machined-components/
+					70 link Description: Multi-bore circular milled component, Value: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+				71 link Description: See all process studies, Value: 127.0.0.1:4323/cases/
+		72 heading Have a part in mind?, Value: 2
+			73 text Have a part in mind?
+		74 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+		75 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+		76 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		77 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		78 container
+			79 text Custom CNC machining
+			80 text in Hangzhou, China.
+		81 container Footer navigation
+			82 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			83 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			84 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			85 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			86 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			87 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			88 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			89 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			90 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			91 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		92 container Let’s talk, ID: contact
+			93 heading Let’s talk, Value: 2, ID: footer-talk-title
+				94 text Let’s talk
+			95 text Hangzhou, China · UTC+8
+			96 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			97 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		98 container Find us
+			99 heading Find us, Value: 2, ID: footer-find-title
+				100 text Find us
+			101 container
+				102 text No. 4 Fengcheng Road
+				103 text Pingyao, Yuhang District
+				104 text Hangzhou, Zhejiang, China
+		105 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		106 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea 5-axis machining for multi-face parts | LZZ Precision, URL: 127.0.0.1:4323/cases/five-axis-machining-multi-face-parts/

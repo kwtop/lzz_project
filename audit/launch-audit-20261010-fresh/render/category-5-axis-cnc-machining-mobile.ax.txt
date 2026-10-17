@@ -1,0 +1,120 @@
+Browser tab: 1, Title: "5 Axis CNC Machining | LZZ Precision", URL: "http://127.0.0.1:4326/capabilities/5-axis-cnc-machining/".
+1 AXWebArea 5 Axis CNC Machining | LZZ Precision, URL: 127.0.0.1:4326/capabilities/5-axis-cnc-machining/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/capabilities/5-axis-cnc-machining/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container
+		8 container Breadcrumb
+			9 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			10 text 5-axis machining
+		11 heading 5-axis machining for complex geometry, Value: 1
+			12 text 5-axis machining for complex geometry
+		13 text Machining for angled features and curved surfaces. We assess the geometry and tool access from your model.
+		14 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F
+		15 container
+			16 link Description: View Multi-bore circular milled component, Value: 127.0.0.1:4326/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+			17 text Multi-bore circular milled component
+		18 container engineering-fit
+			19 heading Angled access and continuous contours, Value: 2
+				20 text Angled access and continuous contours
+			21 text Angled features may be reached by indexed positioning; continuous contours may need a simultaneous tool path. We review the model before choosing the machining route.
+			22 definition list
+				23 container Geometry & process
+					24 text Geometry & process
+				25 text For continuous curves, deep cavities and features requiring angled tool access. Impellers, curved components and multi-sided housings use angled tool access and contour machining.
+				26 container Size & workholding
+					27 text Size & workholding
+				28 text Review the clamping areas, tool reach and clearance across the required orientations. Identify protected surfaces and features that must share a setup; use the size-review checklist below to provide the model and dimensions.
+				29 container Material & finish
+					30 text Material & finish
+				31 text Services cover aluminum, titanium, Inconel and hardened stainless. Specify the grade, material condition and finish requirements, including surfaces where tool marks matter.
+			32 container size-and-setup-review
+				33 heading Review your part size & setup, Value: 3
+					34 text Review your part size & setup
+				35 text Include finished length, width, height and weight, stock dimensions and weight, protected surfaces, clamping areas and clearances. Send the model, drawing, material and quantity; machine travel, load and maximum part envelope are not published here.
+			36 button (collapsed) Choose the motion that the geometry needs, Secondary Actions: Expand
+				37 text Choose the motion that the geometry needs
+		38 container part-examples
+			39 heading More part examples, Value: 2
+				40 text More part examples
+			41 link Description: Browse all parts, Value: 127.0.0.1:4326/products/
+			42 link Description: Machined impellers Machined impellers, Value: 127.0.0.1:4326/products/ultra-high-precision-machining-services/
+			43 link Description: Angled housings Ring housings & angled components, Value: 127.0.0.1:4326/products/global-oem-precision-machining-solutions/
+		44 container machining-studies
+			45 heading Machining in practice, Value: 2
+				46 text Machining in practice
+			47 link Description: All machining studies, Value: 127.0.0.1:4326/cases/
+			48 link Value: 127.0.0.1:4326/cases/five-axis-machining-multi-face-parts/, Description: Metal workpiece mounted on a trunnion beneath a CNC spindle. Five-axis machining for multi-face components Machining holes, side openings and contoured faces on a component held in a rotary setup.
+			49 link Value: 127.0.0.1:4326/cases/two-stage-cnc-milling/, Description: Two milling setups for one part Two milling setups provide access to different faces of the same part.
+		50 container capability-scope
+			51 heading Drawing & acceptance, Value: 2
+				52 text Drawing & acceptance
+			53 heading Drawing requirements, Value: 3
+				54 text Drawing requirements
+			55 text Identify the functional surfaces and the relationships between angled holes, bores and mounting faces. Specify which model revision defines the contour.
+			56 text Mark restricted tool access, thin blades, deep cavities and surfaces where tool marks matter. Discuss acceptable changes before fixing the route.
+			57 container inspection
+				58 heading Inspection and acceptance, Value: 3
+					59 text Inspection and acceptance
+				60 text Define profile and position requirements with usable datums. Agree the features to compare with the model or measure.
+				61 text For rotating or fluid-handling parts, identify any separate balance, leak or functional test requirement; geometry alone does not demonstrate performance.
+				62 text Agree the measurement method and required records before production.
+			63 container Inspection and order information
+				64 link Description: Quality & inspection, Value: 127.0.0.1:4326/quality/
+				65 button (collapsed) Equipment and order records, Secondary Actions: Expand
+					66 text Equipment and order records
+		67 container enquiry
+			68 heading Prepare your 5-axis machining enquiry, Value: 2
+				69 text Prepare your 5-axis machining enquiry
+			70 text Provide the native or neutral 3D model, a drawing of critical features, material condition and finish requirements.
+			71 text Include assembly clearances and any validation criteria to help assess feasibility and the reports and work to include in the quotation.
+			72 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F
+			73 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+			74 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		75 container Description: Useful engineering resources, ID: related-resources
+			76 heading Related resources, Value: 3
+				77 text Related resources
+			78 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+			79 link Description: Choose a machining process, Value: 127.0.0.1:4326/resources/cnc-process-selection/
+			80 button (collapsed) More engineering resources, Secondary Actions: Expand
+				81 text More engineering resources
+		82 container Related capabilities
+			83 heading Related machining processes, Value: 2
+				84 text Related machining processes
+			85 link Description: CNC milling, Value: 127.0.0.1:4326/capabilities/cnc-milling-service/
+			86 link Description: CNC turning, Value: 127.0.0.1:4326/capabilities/cnc-turning-service/
+			87 link Description: Casting machining, Value: 127.0.0.1:4326/capabilities/casting-machining/
+	88 container
+		89 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		90 text Custom CNC machining
+		91 text in Hangzhou, China.
+		92 container Footer navigation
+			93 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			94 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			95 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			96 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			97 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			98 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			99 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			100 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			101 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			102 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		103 container Let’s talk, ID: contact
+			104 heading Let’s talk, Value: 2, ID: footer-talk-title
+				105 text Let’s talk
+			106 text Hangzhou, China · UTC+8
+			107 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			108 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		109 container Find us
+			110 heading Find us, Value: 2, ID: footer-find-title
+				111 text Find us
+			112 container
+				113 text No. 4 Fengcheng Road
+				114 text Pingyao, Yuhang District
+				115 text Hangzhou, Zhejiang, China
+		116 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		117 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea 5 Axis CNC Machining | LZZ Precision, URL: 127.0.0.1:4326/capabilities/5-axis-cnc-machining/

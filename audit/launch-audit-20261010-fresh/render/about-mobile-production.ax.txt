@@ -1,0 +1,156 @@
+Browser tab: 1, Title: "About LZZ: CNC machining in Hangzhou | LZZ Precision", URL: "http://127.0.0.1:4326/about/".
+1 AXWebArea About LZZ: CNC machining in Hangzhou | LZZ Precision, URL: 127.0.0.1:4326/about/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/about/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container main
+		8 container
+			9 image Visitors and LZZ staff reviewing a machined part at a table.
+			10 text Hangzhou Lizhizao Precision Machinery Co., Ltd.
+			11 heading The people behind your custom parts, Value: 1
+				12 text The people behind
+				13 text your custom parts
+			14 container
+				15 text Custom CNC machining in Hangzhou, China.
+				16 text Prototypes and small production batches from drawings or samples, with orders starting at 1 piece.
+			17 link Description: Meet LZZ, Value: 127.0.0.1:4326/about/#company-overview
+			18 text Workshop visit and part discussion · January 2025 company archive.
+		19 definition list
+			20 container Founded in Hangzhou
+				21 text Founded in Hangzhou
+			22 text 2017
+			23 container Production facility
+				24 text Production facility
+			25 text 1,500 m²
+			26 container CNC machines
+				27 text CNC machines
+			28 text 40+
+			29 container Prototypes and small batches
+				30 text Prototypes and small batches
+			31 text From 1 piece
+		32 container company-overview
+			33 container company-factory
+				34 image Machining centers along an aisle in the LZZ workshop.
+				35 text Inside the LZZ machining workshop in Hangzhou.
+			36 heading Custom CNC machining at LZZ, Value: 2
+				37 text Custom CNC machining
+				38 text at LZZ
+			39 text LZZ is an ISO 9001-certified CNC machining company. Our workshop combines milling, turning and multi-axis machining with dimensional inspection.
+			40 link Description: How we work, Value: 127.0.0.1:4326/resources/how-we-work/
+			41 link Description: Inside our factory, Value: 127.0.0.1:4326/factory/
+			42 link Description: Company documents and certificate details, Value: 127.0.0.1:4326/about/#documents
+		43 container company-history
+			44 heading How our capabilities developed, Value: 2
+				45 text How our capabilities developed
+			46 content list
+				47 container
+					48 heading Founded in 2017, Value: 3
+						49 text Founded in 2017
+					50 text LZZ began making precision CNC machined parts for domestic equipment manufacturers.
+				51 container
+					52 heading More machining options, Value: 3
+						53 text More machining options
+					54 text We added CNC milling and turning equipment, along with multi-axis machines, to take on a wider range of industrial parts.
+				55 container
+					56 heading Production checks, Value: 3
+						57 text Production checks
+					58 text First-article checks became part of the workflow, alongside inspection during production and before shipment.
+				59 container
+					60 heading More inspection equipment, Value: 3
+						61 text More inspection equipment
+					62 text CMM, height gauges and optical projectors allowed us to inspect more complex custom components.
+				63 container
+					64 heading Overseas customers, Value: 3
+						65 text Overseas customers
+					66 text We expanded our OEM/ODM machining services to customers in Asia, North America and Europe.
+		67 container applications
+			68 heading Applications and example parts, Value: 2
+				69 text Applications and example parts
+			70 text We manufacture custom parts for a range of industries. Send your drawing, intended use and applicable standards so we can review the requirements for your project.
+			71 button (collapsed) Example parts and engineering notes, Secondary Actions: Expand
+				72 text Example parts and engineering notes
+			73 button (collapsed) Application families and requirements, Secondary Actions: Expand
+				74 text Application families and requirements
+		75 container People and moments
+			76 heading People and moments, Value: 2, ID: people-heading
+				77 text People and moments
+			78 text Our team, workshop visitors and company life.
+			79 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			80 container
+				81 image Two people photographed in the LZZ machining workshop.
+				82 text Workshop visit · January 2025 source folder. No customer endorsement is implied.
+			83 container
+				84 image LZZ colleagues posing together outside during a May 2025 company gathering.
+				85 text Team gathering · May 2025 original photograph.
+		86 button (collapsed) Company background and connections, Secondary Actions: Expand
+			87 text Company background and connections
+		88 container documents
+			89 heading Original company documents, Value: 2
+				90 text Original company documents
+			91 text The original documents below cover enterprise recognition and education collaboration. They are separate from our ISO 9001 certification.
+			92 link Description: Request current ISO 9001 certificate, Value: 127.0.0.1:4326/quality/#quality-management
+			93 text For supplier qualification, request the current ISO certificate, validity, applicable scope, issuer and verification details.
+			94 container
+				95 link Description: Open original Precision manufacturing teaching base, Value: 127.0.0.1:4326/media/Artificial-1764396998946--413c4183ea.webp
+				96 heading Precision manufacturing teaching base, Value: 3
+					97 text Precision manufacturing teaching base
+				98 text Education collaboration, not a quality-system certificate.
+				99 button (collapsed) Issuer and date details, Secondary Actions: Expand
+					100 text Issuer and date details
+				101 link Description: View original document, Value: 127.0.0.1:4326/media/Artificial-1764396998946--413c4183ea.webp
+			102 container
+				103 link Description: Open original High-tech enterprise certificate, Value: 127.0.0.1:4326/media/High-tech-Enterprise-Certificate-1764396986484--69861fe474.webp
+				104 heading High-tech enterprise certificate, Value: 3
+					105 text High-tech enterprise certificate
+				106 text Enterprise recognition, not a product conformity or ISO certificate.
+				107 button (collapsed) Issuer and date details, Secondary Actions: Expand
+					108 text Issuer and date details
+				109 link Description: View original document, Value: 127.0.0.1:4326/media/High-tech-Enterprise-Certificate-1764396986484--69861fe474.webp
+			110 container
+				111 link Description: Open original Zhejiang science & technology SME, Value: 127.0.0.1:4326/media/Zhejiang-1764397018975--75b9eb4d46.webp
+				112 heading Zhejiang science & technology SME, Value: 3
+					113 text Zhejiang science & technology SME
+				114 text Enterprise recognition; current status and applicable scope should be confirmed.
+				115 button (collapsed) Issuer and date details, Secondary Actions: Expand
+					116 text Issuer and date details
+				117 link Description: View original document, Value: 127.0.0.1:4326/media/Zhejiang-1764397018975--75b9eb4d46.webp
+		118 container
+			119 heading Have a part in mind?, Value: 2
+				120 text Have a part in mind?
+			121 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+			122 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/
+			123 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+	124 container
+		125 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		126 text Custom CNC machining
+		127 text in Hangzhou, China.
+		128 container Footer navigation
+			129 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			130 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			131 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			132 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			133 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			134 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			135 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			136 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			137 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			138 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		139 container Let’s talk, ID: contact
+			140 heading Let’s talk, Value: 2, ID: footer-talk-title
+				141 text Let’s talk
+			142 text Hangzhou, China · UTC+8
+			143 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			144 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		145 container Find us
+			146 heading Find us, Value: 2, ID: footer-find-title
+				147 text Find us
+			148 container
+				149 text No. 4 Fengcheng Road
+				150 text Pingyao, Yuhang District
+				151 text Hangzhou, Zhejiang, China
+		152 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		153 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea About LZZ: CNC machining in Hangzhou | LZZ Precision, URL: 127.0.0.1:4326/about/

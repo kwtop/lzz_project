@@ -1,0 +1,129 @@
+Browser tab: 506354184, Title: "CNC Turning Service | LZZ Precision", URL: "http://127.0.0.1:4323/capabilities/cnc-turning-service/".
+1 AXWebArea CNC Turning Service | LZZ Precision, URL: 127.0.0.1:4323/capabilities/cnc-turning-service/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/capabilities/cnc-turning-service/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+				21 text CNC turning
+			22 heading CNC turning for shafts & fittings, Value: 1
+				23 text CNC turning for shafts & fittings
+			24 text Turned shafts, fittings and flanges with internal and external features. Specify the fits, threads and concentricity your assembly needs.
+			25 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F
+			26 container
+				27 link Description: View Ring housings & angled components, Value: 127.0.0.1:4323/products/global-oem-precision-machining-solutions/
+				28 text Ring housings & angled components
+			29 container engineering-fit
+				30 heading Turned diameters and off-axis features, Value: 2
+					31 text Turned diameters and off-axis features
+				32 text Cross-holes, flats or slots can require secondary machining. Their position relative to the turned features determines how the operations are combined.
+				33 definition list
+					34 container Geometry & process
+						35 text Geometry & process
+					36 text For shafts, sleeves, bushings and fittings built around a rotational axis. Stepped diameters, bores, grooves and threads can be combined in turned components. Live tooling adds cross-holes, flats, slots and milled details to cylindrical parts. Fitting services include NPT, BSPT and metric threads; state the thread standard, mating component and sealing requirements.
+					37 container Size & workholding
+						38 text Size & workholding
+					39 text Send the model, stock size, overall diameter and axial lengths. Identify the functional axis, shoulders, internal grooves and off-axis features so tool access and clamping space can be reviewed.
+					40 container Material & finish
+						41 text Material & finish
+					42 text State the stock grade, condition and surface finish on the drawing. Identify sealing and sliding surfaces, mating-part requirements and the edges that need deburring.
+				43 button (collapsed) A route for rotational and cross features, Secondary Actions: Expand
+					44 text A route for rotational and cross features
+			45 container part-examples
+				46 heading More part examples, Value: 2
+					47 text More part examples
+				48 link Description: Browse all parts, Value: 127.0.0.1:4323/products/
+				49 link Description: Custom CNC-turned components Custom CNC-turned components, Value: 127.0.0.1:4323/products/custom-oem-cnc-turning-manufacturer/
+				50 link Description: Rotary & cylindrical components Rotary & cylindrical components, Value: 127.0.0.1:4323/products/custom-rotary-cylindrical-components/
+			51 container machining-studies
+				52 heading Machining in practice, Value: 2
+					53 text Machining in practice
+				54 link Description: All machining studies, Value: 127.0.0.1:4323/cases/
+				55 link Value: 127.0.0.1:4323/cases/turning-then-milling-cylindrical-parts/, Description: Previously turned component mounted for a milling operation. Turning followed by milling A turned component returns to the machine for features that require milling.
+				56 link Value: 127.0.0.1:4323/cases/custom-metal-parts-batch-examples/, Description: Custom metal parts in batches: shafts, fittings and housings Turned shafts, fittings and recessed housings: a selection of custom metal components in batches.
+			57 button (collapsed) More photographs from the workshop, Secondary Actions: Expand
+				58 text More photographs from the workshop
+			59 container capability-scope
+				60 heading Drawing & acceptance, Value: 2
+					61 text Drawing & acceptance
+				62 heading Drawing requirements, Value: 3
+					63 text Drawing requirements
+				64 text Define the functional axis, bearing or sliding fits, shoulders and axial lengths. Identify any runout requirement relative to a named datum.
+				65 text Give complete thread designations and engagement lengths. Mark internal grooves, cross-holes and flats that need access or deburring checks.
+				66 container inspection
+					67 heading Inspection and acceptance, Value: 3
+						68 text Inspection and acceptance
+					69 text Give acceptance limits for the diameters and axial relationships that control assembly. A general precision requirement is insufficient to define these checks.
+					70 text Agree thread gauging, edge condition and sealing-surface acceptance; a dimensional report alone does not establish leak performance.
+					71 text Agree the measurement method and required records before production.
+				72 container Inspection and order information
+					73 link Description: Quality & inspection, Value: 127.0.0.1:4323/quality/
+					74 button (collapsed) Equipment and order records, Secondary Actions: Expand
+						75 text Equipment and order records
+			76 container enquiry
+				77 heading Prepare your cnc turning enquiry, Value: 2
+					78 text Prepare your cnc turning enquiry
+				79 text Include mating-part information, stock grade and condition, surface finish and the quantity per release.
+				80 text If you need functional testing or a report, specify the method and acceptance criteria to be agreed.
+				81 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F
+				82 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+				83 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			84 container Description: Useful engineering resources, ID: related-resources
+				85 heading Related resources, Value: 3
+					86 text Related resources
+				87 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				88 link Description: Choose a machining process, Value: 127.0.0.1:4323/resources/cnc-process-selection/
+				89 button (collapsed) More engineering resources, Secondary Actions: Expand
+					90 text More engineering resources
+			91 container Related capabilities
+				92 heading Related machining processes, Value: 2
+					93 text Related machining processes
+				94 link Description: CNC milling, Value: 127.0.0.1:4323/capabilities/cnc-milling-service/
+				95 link Description: 5-axis machining, Value: 127.0.0.1:4323/capabilities/5-axis-cnc-machining/
+				96 link Description: Casting machining, Value: 127.0.0.1:4323/capabilities/casting-machining/
+		97 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		98 container
+			99 text Custom CNC machining
+			100 text in Hangzhou, China.
+		101 container Footer navigation
+			102 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			103 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			104 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			105 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			106 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			107 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			108 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			109 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			110 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			111 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		112 container Let’s talk, ID: contact
+			113 heading Let’s talk, Value: 2, ID: footer-talk-title
+				114 text Let’s talk
+			115 text Hangzhou, China · UTC+8
+			116 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			117 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		118 container Find us
+			119 heading Find us, Value: 2, ID: footer-find-title
+				120 text Find us
+			121 container
+				122 text No. 4 Fengcheng Road
+				123 text Pingyao, Yuhang District
+				124 text Hangzhou, Zhejiang, China
+		125 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		126 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea CNC Turning Service | LZZ Precision, URL: 127.0.0.1:4323/capabilities/cnc-turning-service/

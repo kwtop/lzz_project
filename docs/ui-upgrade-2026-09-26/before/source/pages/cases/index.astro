@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Arrow from '../../components/Arrow.astro';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+import {engineeringCases} from '../../data/cases';
+---
+<Layout title="Machining process studies" description="Browse original LZZ workshop process studies for CNC milling, turning followed by milling, and multi-axis machining. These photographs are not customer case studies or inspection records.">
+ <section class="container cases-intro"><h1>Machining process studies</h1><p class="case-boundary">These original workshop photographs illustrate process work, not customer case studies or inspection reports. They do not verify a particular material grade, customer program or delivery result. <a href="/insights/cnc-process-selection/">Compare turning, milling and multi-axis machining</a>, or <a href="/quality/">see how inspection is planned.</a></p></section>
+ <section class="container cases-grid" aria-label="Process studies">{engineeringCases.map(item=><a class="case-card" href={'/cases/'+item.slug+'/'}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 32vw"/><div><h2>{item.title}</h2><span class="text-link">Read the study <Arrow size={18}/></span></div></a>)}</section>
+</Layout>
+<style>
+ .cases-intro{padding-block:80px 38px;max-width:1100px}.cases-intro h1{font-size:clamp(46px,7vw,96px);line-height:1;letter-spacing:-.045em;margin:20px 0}.cases-intro .case-boundary{font-size:15px;line-height:1.65;max-width:800px;margin-top:24px}.case-boundary a{text-decoration:underline;text-underline-offset:4px}.cases-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding-bottom:90px}.case-card{border:1px solid var(--border);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}.case-card :global(img){width:100%;height:270px;object-fit:cover;display:block}.case-card>div{padding:28px;display:flex;flex-direction:column;flex:1}.case-card h2{font-size:29px;line-height:1.15;margin:15px 0}.case-card p{font-size:15px;line-height:1.65;margin-bottom:26px}.case-card .text-link{margin-top:auto}.case-card:hover{border-color:var(--red)}@media(max-width:850px){.cases-intro{padding-block:48px 24px}.cases-intro h1{font-size:clamp(42px,12vw,58px)}.cases-grid{grid-template-columns:1fr}.case-card :global(img){height:auto;aspect-ratio:1.7}}
+</style>

@@ -1,0 +1,8 @@
+---
+import RfqPanel from './RfqPanel.astro';
+interface Props { current:string; title:string; description:string; quoteHref?:string }
+const {current,title,description,quoteHref='/quote/'}=Astro.props;
+const links=[['Our factory','/factory/'],['Quality control','/factory/#quality'],['How we work','/about/how-we-work/'],['Shipping checklist','/resources/ordering/custom-cnc-parts-shipping-checklist/']];
+---
+<nav class="ff-wrap ff-related" aria-label="Factory and order information">{links.filter(([,href])=>href!==current).map(([label,href])=><a href={href}>{label}</a>)}</nav>
+<RfqPanel title={title} description={description} href={quoteHref}/>

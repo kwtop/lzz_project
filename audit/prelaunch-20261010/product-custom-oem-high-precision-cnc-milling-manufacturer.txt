@@ -1,0 +1,136 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Milled instrument blocks & brackets
+    - complementary:
+      - heading "Milled instrument blocks & brackets" [level=1]
+      - paragraph: Milled blocks, brackets & instrument housings
+      - 'link "View full-size image: Milled instrument blocks & brackets"':
+        - /url: /media/responsive/catalog-01-cutout-v1-1200.webp
+        - img "Milled instrument blocks & brackets"
+      - navigation "On this page":
+        - link "01 Part requirements":
+          - /url: "#fit-review"
+          - generic: "01"
+          - text: Part requirements
+        - link "02 Material & finish":
+          - /url: "#part-information"
+          - generic: "02"
+          - text: Material & finish
+        - link "03 Drawing review":
+          - /url: "#drawing-review"
+          - generic: "03"
+          - text: Drawing review
+    - heading "Mounting faces and internal passages" [level=2]
+    - paragraph: Blocks, brackets and housings for laboratory instruments, hydraulic tools and automotive equipment.
+    - term: Part features
+    - definition: Manifolds, valve bodies, mounting features and instrument housings.
+    - term: Review focus
+    - definition: For an instrument block or valve body, show how intersecting passages relate to the mounting faces. Include the mounting interfaces for brackets.
+    - link "Request a quote":
+      - /url: /quote/?part=Milled+instrument+blocks+%26+brackets&product=custom-oem-high-precision-cnc-milling-manufacturer&source=%2Fproducts%2Fcustom-oem-high-precision-cnc-milling-manufacturer%2F
+    - paragraph: Have a drawing? Add it to your inquiry email.
+    - heading "Manufacturing options" [level=2]
+    - term: Materials
+    - definition: No grade is specified for this example. Tell us which material your part requires.
+    - term: Machining
+    - definition: 3-axis, 4-axis and 5-axis CNC milling.
+    - term: Surface finish
+    - definition: Define the surface treatment and any protected fits on the drawing.
+    - paragraph: Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+    - heading "Drawing and inspection requirements" [level=2]:
+      - text: Drawing and
+      - text: inspection requirements
+    - link "Quality & inspection":
+      - /url: /quality/
+    - term: Geometry & interfaces
+    - definition: Distinguish mounting interfaces from internal passages and identify any intersecting holes or inaccessible edges.
+    - term: Material & finish
+    - definition: Specify the material grade, condition, finish and any masked areas.
+    - term: Quantity
+    - definition: State the prototype or batch quantity and required schedule.
+    - term: Inspection requirements
+    - definition: Specify hole-position and mating-face checks, plus a separate cleanliness or leak requirement where the application needs it.
+    - link "Prepare an RFQ email":
+      - /url: /quote/?part=Milled+instrument+blocks+%26+brackets&product=custom-oem-high-precision-cnc-milling-manufacturer&source=%2Fproducts%2Fcustom-oem-high-precision-cnc-milling-manufacturer%2F
+    - paragraph:
+      - strong: From 1 piece · 7–14 business days
+      - text: From drawing and order confirmation, including surface finishing; transit is additional.
+    - generic "Additional drawing and order notes"
+    - navigation "Related parts":
+      - heading "Compare part requirements" [level=3]
+      - link "Multi-bore components Stepped bores and face-hole patterns located from circular faces.":
+        - /url: /products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+        - generic: Multi-bore components
+        - generic: Stepped bores and face-hole patterns located from circular faces.
+      - link "Multi-face components Mounting and passage geometry extending across several faces, including angled ports.":
+        - /url: /products/global-manufacturer-of-multi-sided-precision-machined-components/
+        - generic: Multi-face components
+        - generic: Mounting and passage geometry extending across several faces, including angled ports.
+    - generic "Related machining processes"
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

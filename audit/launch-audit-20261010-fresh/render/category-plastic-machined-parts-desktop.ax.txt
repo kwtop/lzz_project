@@ -1,0 +1,144 @@
+Browser tab: 506354184, Title: "Plastic Machined Parts | LZZ Precision", URL: "http://127.0.0.1:4323/capabilities/plastic-machined-parts/".
+1 AXWebArea Plastic Machined Parts | LZZ Precision, URL: 127.0.0.1:4323/capabilities/plastic-machined-parts/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/capabilities/plastic-machined-parts/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+				21 text Plastic machining
+			22 heading Engineering plastics, machined for your part, Value: 1
+				23 text Engineering plastics, machined for your part
+			24 text Milled and turned engineering plastics for insulating parts and structural blocks. Browse examples by shape and function.
+			25 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F
+			26 container
+				27 link Description: View Non-metallic & insulating components, Value: 127.0.0.1:4323/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/
+				28 text Non-metallic & insulating components
+			29 container engineering-fit
+				30 heading Plastic insulators, wear parts and housings, Value: 2
+					31 text Plastic insulators, wear parts and housings
+				32 text Insulating plates, wear components and machined blocks place different demands on a polymer. Specify the grade for the operating environment and loads, then review the machining and measurement conditions.
+				33 definition list
+					34 container Geometry & process
+						35 text Geometry & process
+					36 text For insulating components, wear parts, seals and lightweight structural pieces. Milling and turning cover drilled blocks, gears, rollers, thin walls, deep pockets and multi-axis holes.
+					37 container Size & workholding
+						38 text Size & workholding
+					39 text Send a 3D model with the overall dimensions and stock size. Low-stress workholding and temperature control address deformation. Review clamping space, tool access, thin sections and assembly loads together.
+					40 container Material & finish
+						41 text Material & finish
+					42 text PEEK, PTFE, polyimide, nylon, acetal/Delrin, HDPE, UHMW, acrylic and polycarbonate are listed in the plastic machining service. Specify the exact polymer grade, fillers and stock condition. Define edge quality, cleaning and mating-surface requirements.
+					43 container Grades to discuss
+						44 text Grades to discuss
+					45 container
+						46 text Engineering plastics: 
+						47 text POM (acetal) · PTFE · PEEK · Nylon · PA6 · PA66 · ABS · PC · PVC · PP Specify the polymer grade and condition. Acetal and Delrin are not treated as different base polymers here; confirm a branded grade if required.
+				48 button (collapsed) Build the inspection plan around the polymer, Secondary Actions: Expand
+					49 text Build the inspection plan around the polymer
+			50 container part-examples
+				51 heading More part examples, Value: 2
+					52 text More part examples
+				53 link Description: Browse all parts, Value: 127.0.0.1:4323/products/
+				54 link Description: Plastic components Custom machined plastic parts, Value: 127.0.0.1:4323/products/custom-oem-cnc-machined-plastic-parts-manufacturer/
+				55 link Description: Complex-geometry plastic components Complex-geometry plastic components, Value: 127.0.0.1:4323/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/
+			56 container machining-studies
+				57 heading Machining in practice, Value: 2
+					58 text Machining in practice
+				59 link Description: All machining studies, Value: 127.0.0.1:4323/cases/
+				60 link Value: 127.0.0.1:4323/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/, Description: A closer view of the transparent rims and stepped forms. Custom plastic parts: PTFE, POM, PE and acrylic Guide strips, gears, transparent components and PTFE forms for custom plastic-part enquiries.
+			61 container PEEK machined parts: a closer look, ID: video-peek-parts
+				62 heading PEEK machined parts: a closer look, Value: 2, ID: video-title-peek-parts
+					63 text PEEK machined parts: a closer look
+				64 text Original workshop footage shows rectangular PEEK components with perimeter holes and narrow parallel slots. Compare the geometry; specify your exact grade, dimensions and inspection requirements in the drawing.
+				65 text 3-second original clip
+				66 container
+					67 container PEEK machined parts: a closer look
+						68 container 正在缓冲
+						69 container
+							70 button
+							71 pop up button
+						72 slider (disabled) 视频时间进度条
+					73 text Select play to view the original footage.
+			74 container capability-scope
+				75 heading Drawing & acceptance, Value: 2
+					76 text Drawing & acceptance
+				77 heading Drawing requirements, Value: 3
+					78 text Drawing requirements
+				79 text Give the exact polymer grade, fillers and stock condition. Identify temperature, moisture, chemical exposure and electrical requirements relevant to selection.
+				80 text Mark thin walls and deep pockets, along with press fits and inserts. Include assembly loads and any permitted geometry changes.
+				81 container inspection
+					82 heading Inspection and acceptance, Value: 3
+						83 text Inspection and acceptance
+					84 text Agree measurement and conditioning requirements where material behavior affects acceptance. Define hole position, flatness and mating-surface criteria.
+					85 text Specify edge, cleanliness and surface requirements; a product photograph is not evidence of electrical, food-contact or medical compliance.
+					86 text Agree the measurement method and required records before production.
+				87 container Inspection and order information
+					88 link Description: Quality & inspection, Value: 127.0.0.1:4323/quality/
+					89 button (collapsed) Equipment and order records, Secondary Actions: Expand
+						90 text Equipment and order records
+			91 container enquiry
+				92 heading Prepare your plastic machining enquiry, Value: 2
+					93 text Prepare your plastic machining enquiry
+				94 text Send a model and drawing, selected grade or selection constraints, quantities and application conditions.
+				95 text Specify the documentation, material certification or functional tests you need. Confirm availability and responsibility.
+				96 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F
+				97 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+				98 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			99 container Description: Useful engineering resources, ID: related-resources
+				100 heading Related resources, Value: 3
+					101 text Related resources
+				102 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				103 link Description: Material & Finish Guide, Value: 127.0.0.1:4323/resources/material-and-finish-checklist/
+				104 button (collapsed) More engineering resources, Secondary Actions: Expand
+					105 text More engineering resources
+			106 container Related capabilities
+				107 heading Related materials, Value: 2
+					108 text Related materials
+				109 link Description: Stainless steel machining, Value: 127.0.0.1:4323/capabilities/stainless-steel-cnc-parts/
+				110 link Description: Copper & brass machining, Value: 127.0.0.1:4323/capabilities/copper-brass-cnc-parts/
+				111 link Description: Aluminum machining, Value: 127.0.0.1:4323/capabilities/aluminum-cnc-parts/
+		112 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		113 container
+			114 text Custom CNC machining
+			115 text in Hangzhou, China.
+		116 container Footer navigation
+			117 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			118 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			119 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			120 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			121 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			122 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			123 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			124 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			125 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			126 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		127 container Let’s talk, ID: contact
+			128 heading Let’s talk, Value: 2, ID: footer-talk-title
+				129 text Let’s talk
+			130 text Hangzhou, China · UTC+8
+			131 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			132 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		133 container Find us
+			134 heading Find us, Value: 2, ID: footer-find-title
+				135 text Find us
+			136 container
+				137 text No. 4 Fengcheng Road
+				138 text Pingyao, Yuhang District
+				139 text Hangzhou, Zhejiang, China
+		140 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		141 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea Plastic Machined Parts | LZZ Precision, URL: 127.0.0.1:4323/capabilities/plastic-machined-parts/

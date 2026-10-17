@@ -1,0 +1,7 @@
+---
+import ResourceArticle from '../../../components/ResourceArticle.astro';
+import {resources} from '../../../data/resources';
+export function getStaticPaths(){return resources.filter(article=>article.category==='Company news').map(article=>({params:{slug:article.slug},props:{article}}));}
+const {article}=Astro.props;
+---
+<ResourceArticle article={article}/>

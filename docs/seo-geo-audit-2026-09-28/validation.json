@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-28",
+  "scope": "read-only audit; new files only in this audit directory",
+  "sourceHashComparison": {"changedSourceFiles": []},
+  "inventoryTemplates": {"missing": []},
+  "reportRouteReferences": {"unknown": []},
+  "briefCount": 10,
+  "intentCount": 28,
+  "answerTestCount": 15,
+  "implementationTaskCount": 10,
+  "existingDistSeoTest": "pass: 69 HTML, 68 sitemap URLs, 86 redirects, 91 source URLs covered",
+  "newBuildPerformed": false,
+  "deploymentPerformed": false,
+  "inquirySent": false,
+  "browserScope": "sample checks at 390, 768 and 1440; see browser-verification.md",
+  "notVerified": ["production host behavior", "GSC indexing and performance", "Bing account report", "CWV", "certificate authenticity and calibration", "real mail delivery"]
+}

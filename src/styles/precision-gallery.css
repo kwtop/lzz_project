@@ -1,0 +1,82 @@
+/* Selected direction A. Shared visual roles; page-family compositions remain local. */
+body.brand-site.finesse-redesigned.precision-gallery {
+ --font-text:'Inter Variable',Arial,sans-serif;--font-data:'Inter Variable',Arial,sans-serif;
+ --heading:'Inter Variable',Arial,sans-serif;--body:'Inter Variable',Arial,sans-serif;
+ --bg:#fff;--ink:#191b1d;--muted:#606266;--surface:#f6f6f5;--border:#dededb;--red:#cf141a;
+ --layout-width:1280px;--layout-gutter:48px;--layout-gap:64px;
+ --layout-section-space:96px;--layout-intro-space:80px;--reading-section-space:64px;
+ --type-h1-size:clamp(2.5rem,1.7rem + 3.2vw,4.75rem);
+ --type-h2-size:clamp(2rem,1.5rem + 1.7vw,3.25rem);
+ --type-h3-size:clamp(1.375rem,1.15rem + .65vw,1.75rem);
+ --type-display-size:clamp(3.25rem,1rem + 4.5vw,5rem);
+ --type-body-size:1.0625rem;--type-body-large-size:1.25rem;
+ --type-small-size:.875rem;--type-caption-size:.875rem;
+ --action-radius:0;--action-height:52px;--action-padding:14px 24px;
+ background:#fff;color:var(--ink);font-family:var(--font-text);
+}
+body.brand-site.finesse-redesigned.precision-gallery :is(h1,h2){font-weight:550!important;letter-spacing:-.035em!important;line-height:1.08!important}
+body.brand-site.finesse-redesigned.precision-gallery h3{font-weight:550!important;letter-spacing:-.018em!important}
+body.brand-site.finesse-redesigned.precision-gallery :is(p,li,figcaption){text-wrap:pretty}
+body.brand-site.finesse-redesigned.precision-gallery :is(.button,.er-button,.cap-button,.ab-button,.ft-button){border-radius:0!important;box-shadow:none!important;gap:0;min-height:52px;transition:background-color 160ms ease,color 160ms ease}
+body.precision-gallery :is(.button,.er-button,.cap-button,.ab-button,.ft-button) svg{display:none}
+body.precision-gallery :is(.text-link,.ed-link) svg{display:none}
+body.brand-site.finesse-redesigned.precision-gallery .button.secondary{background:transparent;color:var(--ink);border:1px solid #a9aaab}
+body.brand-site.finesse-redesigned.precision-gallery .button.secondary:hover{background:#f2f2f0;border-color:var(--ink)}
+body.brand-site.finesse-redesigned.precision-gallery .site-header{height:88px;background:#fff;color:var(--ink);box-shadow:none;border-bottom:1px solid var(--border)}
+body.brand-site.finesse-redesigned.precision-gallery .header-inner{height:100%;border:0;gap:30px}
+body.brand-site.finesse-redesigned.precision-gallery .brand-logo{width:106px;height:auto;filter:none}
+body.brand-site.finesse-redesigned.precision-gallery .header-quote{min-height:46px;padding:12px 19px;white-space:nowrap}
+body.brand-site.finesse-redesigned.precision-gallery #main-nav{gap:24px}
+body.brand-site.finesse-redesigned.precision-gallery #main-nav :is(summary,a){text-transform:none;letter-spacing:0;font-size:15px!important;font-weight:500!important}
+body.brand-site.finesse-redesigned.precision-gallery #main-nav .nav-panel{border-radius:0;box-shadow:none;border:1px solid var(--border)}
+body.brand-site.finesse-redesigned.precision-gallery #main-nav .nav-panel a{border-radius:0}
+body.brand-site.finesse-redesigned.precision-gallery .menu-toggle span{background:var(--ink)}
+body.brand-site.finesse-redesigned.precision-gallery.home-refined .site-header{background:#141719;color:#fff;border-color:#ffffff26}
+body.brand-site.finesse-redesigned.precision-gallery.home-refined .site-header .brand-logo{filter:grayscale(1) brightness(0) invert(1)}
+body.brand-site.finesse-redesigned.precision-gallery.home-refined .menu-toggle span{background:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .site-header.menu-open{background:#fff;color:var(--ink)}
+body.brand-site.finesse-redesigned.precision-gallery .site-header.menu-open .brand-logo{filter:none}
+body.brand-site.finesse-redesigned.precision-gallery .site-header.menu-open .menu-toggle span{background:var(--ink)}
+body.brand-site.finesse-redesigned.precision-gallery .page-banner{background:#fff;color:var(--ink);border-bottom:1px solid var(--border)}
+body.brand-site.finesse-redesigned.precision-gallery .page-banner-inner{padding-block:80px 88px}
+body.brand-site.finesse-redesigned.precision-gallery .page-banner.has-image .page-banner-inner{gap:72px;padding-block:72px 88px}
+body.brand-site.finesse-redesigned.precision-gallery .page-banner-copy>p{color:var(--muted);max-width:52ch!important}
+body.brand-site.finesse-redesigned.precision-gallery :is(.page-banner-image,.page-banner-image img){border-radius:0;box-shadow:none}
+body.brand-site.finesse-redesigned.precision-gallery :is(.page-banner-image,.page-banner-image img){background:#fff}
+body.brand-site.finesse-redesigned.precision-gallery :is(.closing,footer){background:#17191b;color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery .closing{padding-block:80px}
+body.brand-site.finesse-redesigned.precision-gallery .closing h2{max-width:19ch!important}
+body.brand-site.finesse-redesigned.precision-gallery .closing p{color:#c4c5c6}
+body.brand-site.finesse-redesigned.precision-gallery footer>.container{width:min(var(--layout-width),calc(100% - var(--layout-gutter)*2))}
+body.brand-site.finesse-redesigned.precision-gallery .footer-main{padding-block:64px 56px;gap:48px;border-top:1px solid #ffffff25}
+body.brand-site.finesse-redesigned.precision-gallery .footer-logo{filter:grayscale(1) brightness(0) invert(1);width:120px}
+body.brand-site.finesse-redesigned.precision-gallery .footer-column h2{font-size:16px!important;letter-spacing:0!important;line-height:1.4!important;color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery :is(.footer-column p,.footer-column a,.footer-brand p){font-size:14px!important;color:#c2c4c5;line-height:1.6!important}
+body.brand-site.finesse-redesigned.precision-gallery .footer-bottom{font-size:13px;line-height:1.5}
+body.precision-gallery a:focus-visible,body.precision-gallery button:focus-visible{outline:2px solid var(--red);outline-offset:5px}
+body.precision-gallery :is(.closing,footer) a:focus-visible{outline-color:#fff}
+@media(max-width:1100px){
+ body.brand-site.finesse-redesigned.precision-gallery{--layout-gutter:32px;--layout-gap:40px}
+ body.brand-site.finesse-redesigned.precision-gallery #main-nav{gap:14px}
+ body.brand-site.finesse-redesigned.precision-gallery #main-nav :is(summary,a){font-size:14px!important}
+}
+@media(max-width:960px){
+ body.brand-site.finesse-redesigned.precision-gallery .site-header{height:76px}
+ body.brand-site.finesse-redesigned.precision-gallery #main-nav{gap:0;max-height:calc(100dvh - 76px)}
+ body.brand-site.finesse-redesigned.precision-gallery .header-inner{gap:16px}
+}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.precision-gallery{--layout-gutter:22px;--layout-gap:28px;--layout-section-space:56px;--layout-intro-space:42px;--reading-section-space:40px;--type-h1-size:clamp(2.125rem,8.8vw,2.625rem);--type-h2-size:clamp(1.75rem,7vw,2.125rem);--type-h3-size:1.375rem;--type-body-size:1rem;--type-body-large-size:1.125rem;--type-display-size:clamp(2.375rem,11.3vw,2.75rem)}
+ body.brand-site.finesse-redesigned.precision-gallery .brand-logo{width:86px}
+ body.brand-site.finesse-redesigned.precision-gallery .header-quote{padding:10px 12px;font-size:13px!important;min-height:44px}
+ body.brand-site.finesse-redesigned.precision-gallery .page-banner-inner{padding-block:40px 48px}
+ body.brand-site.finesse-redesigned.precision-gallery .page-banner.has-image .page-banner-inner{gap:32px;padding-block:40px 48px}
+ body.brand-site.finesse-redesigned.precision-gallery .closing{padding-block:56px}
+ body.brand-site.finesse-redesigned.precision-gallery .footer-main{gap:32px;padding-block:48px}
+}
+@media(max-width:359px){
+ body.brand-site.finesse-redesigned.precision-gallery .header-inner{gap:6px}
+ body.brand-site.finesse-redesigned.precision-gallery .site-header .brand-logo{width:64px}
+ body.brand-site.finesse-redesigned.precision-gallery .header-quote{padding-inline:10px}
+}
+@media(prefers-reduced-motion:reduce){body.precision-gallery *,body.precision-gallery *::before,body.precision-gallery *::after{scroll-behavior:auto;animation:none!important;transition:none!important}}

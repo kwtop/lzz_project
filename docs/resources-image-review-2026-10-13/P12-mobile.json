@@ -1,0 +1,212 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Shipping CNC parts internationally",
+      "y": 164
+    },
+    {
+      "id": "archive-title",
+      "tag": "H2",
+      "text": "LZZ packing archive",
+      "y": 384
+    },
+    {
+      "id": "checklist-title",
+      "tag": "H2",
+      "text": "Packing and delivery requirements",
+      "y": 1026
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Part protection",
+      "y": 1155
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Pack identification",
+      "y": 1623
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Delivery basis",
+      "y": 1960
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Documents",
+      "y": 2418
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Schedule",
+      "y": 2860
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Transport options and import documents",
+      "y": 3243
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Related part examples",
+      "y": 3611
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Prepare your request",
+      "y": 3727
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Include delivery in your RFQ",
+      "y": 4207
+    }
+  ],
+  "images": [
+    {
+      "alt": "Shipment preparation at LZZ. Packing is selected for each order.",
+      "anchor": "/media/evidence/shipping-example-1600.webp",
+      "caption": "LZZ packing and shipment preparation · November 2022",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/shipping-example-1600-400.webp",
+      "index": 1,
+      "naturalHeight": 263,
+      "naturalWidth": 351,
+      "nearestHeading": "LZZ packing archive",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 248,
+        "width": 331,
+        "x": 22,
+        "y": 447
+      },
+      "src": "/media/evidence/shipping-example-1600.webp",
+      "srcset": "/media/responsive/shipping-example-1600-240.webp 240w, /media/responsive/shipping-example-1600-320.webp 320w, /media/responsive/shipping-example-1600-400.webp 400w, /media/responsive/shipping-example-1600-480.webp 480w, /media/responsive/shipping-example-1600-640.webp 640w, /media/responsive/shipping-example-1600-800.webp 800w, /media/responsive/shipping-example-1600-960.webp 960w, /media/responsive/shipping-example-1600-1200.webp 1200w, /media/responsive/shipping-example-1600-1600.webp 1600w"
+    },
+    {
+      "alt": "Protected parts prepared for packing in an archived LZZ shipment photograph.",
+      "anchor": "/media/evidence/shipment-2022-order-packing-1600.webp",
+      "caption": "LZZ packing and shipment preparation · November 2022",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/shipment-2022-order-packing-1600-400.webp",
+      "index": 2,
+      "naturalHeight": 467,
+      "naturalWidth": 351,
+      "nearestHeading": "LZZ packing archive",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 210,
+        "width": 157,
+        "x": 22,
+        "y": 711
+      },
+      "src": "/media/evidence/shipment-2022-order-packing-1600.webp",
+      "srcset": "/media/responsive/shipment-2022-order-packing-1600-240.webp 240w, /media/responsive/shipment-2022-order-packing-1600-320.webp 320w, /media/responsive/shipment-2022-order-packing-1600-400.webp 400w, /media/responsive/shipment-2022-order-packing-1600-480.webp 480w, /media/responsive/shipment-2022-order-packing-1600-640.webp 640w, /media/responsive/shipment-2022-order-packing-1600-800.webp 800w, /media/responsive/shipment-2022-order-packing-1600-960.webp 960w, /media/responsive/shipment-2022-order-packing-1600-1200.webp 1200w, /media/responsive/shipment-2022-order-packing-1600-1600.webp 1600w"
+    },
+    {
+      "alt": "A prepared shipment from the LZZ delivery archive.",
+      "anchor": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+      "caption": "LZZ packing and shipment preparation · November 2022",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/shipment-2022-prepared-load-1600-400.webp",
+      "index": 3,
+      "naturalHeight": 467,
+      "naturalWidth": 351,
+      "nearestHeading": "LZZ packing archive",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 210,
+        "width": 157,
+        "x": 195,
+        "y": 711
+      },
+      "src": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+      "srcset": "/media/responsive/shipment-2022-prepared-load-1600-240.webp 240w, /media/responsive/shipment-2022-prepared-load-1600-320.webp 320w, /media/responsive/shipment-2022-prepared-load-1600-400.webp 400w, /media/responsive/shipment-2022-prepared-load-1600-480.webp 480w, /media/responsive/shipment-2022-prepared-load-1600-640.webp 640w, /media/responsive/shipment-2022-prepared-load-1600-800.webp 800w, /media/responsive/shipment-2022-prepared-load-1600-960.webp 960w, /media/responsive/shipment-2022-prepared-load-1600-1200.webp 1200w, /media/responsive/shipment-2022-prepared-load-1600-1600.webp 1600w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/quote/",
+      "text": "Include delivery in your RFQ"
+    },
+    {
+      "href": "/media/evidence/shipping-example-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/shipment-2022-order-packing-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "text": "Complex aluminum housings"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/",
+      "text": "Back to resources"
+    },
+    {
+      "href": "/factory/",
+      "text": "Our factory"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nDelivery planning\nShipping CNC parts internationally\nInclude delivery in your RFQ\nLZZ packing archive\nLZZ packing and shipment preparation · November 2022\nPacking and delivery requirements\nPart protection\nInformation you provide\n\nMark cosmetic faces and sealing surfaces, then identify threads and fragile edges that need protection. State cleanliness and corrosion-protection needs. Specify pack weight or quantity limits and receiving-site handling requirements.\n\nConfirm in the quotation\n\nAgree protective materials, separation between parts and protection for threads and mating surfaces. Cartons or wooden cases depend on the part, quantity and transport route.\n\nPack identification\nInformation you provide\n\nPart number, drawing revision, quantity per pack, batch identification and required labels.\n\nConfirm in the quotation\n\nConfirm available label, lot-reference and inspection-document formats. Use the same part and revision references on the packing list and agreed quality records.\n\nDelivery basis\nInformation you provide\n\nFull delivery address, receiving contact, required arrival date, requested trade term/version and named place.\n\nConfirm in the quotation\n\nConfirm who books transport and handles export/import clearance, insurance, duties, taxes and local delivery. EXW, FOB or DDP options are quoted for the applicable destination and service.\n\nDDP applies only where included in the quotation.\n\nDocuments\nInformation you provide\n\nThe document list required by procurement, logistics or your destination-side import contact.\n\nConfirm in the quotation\n\nWe provide protective packing with a packing list and commercial invoice, plus shipment information. Material and finishing records accompany the parts when specified in the order; the same applies to agreed dimensional records. Confirm which documents are available and who prepares each.\n\nSchedule\nInformation you provide\n\nSeparate your required arrival date from the desired dispatch date.\n\nConfirm in the quotation\n\nProduction takes 7-14 business days after drawing and order confirmation, including surface finishing. Transit is estimated separately and is not included in production time.\n\nTransport options and import documents\n\nCourier, air or sea arrangements depend on shipment size and destination. DHL, FedEx or UPS can be discussed when selecting a courier.\n\nAgree additional customs documents before production with your importing entity or freight forwarder. Requirements depend on the destination and transaction.\n\nRelated part examples\nComplex aluminum housings\nPrepare your request\nRFQ checklist\nBack to resources\nOur factory\nQuality control\nHow we work\nInclude delivery in your RFQ\n\nInclude delivery details with your drawing and order quantity. The quotation must identify transport responsibilities and any exclusions.\n\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 5501,
+  "title": "CNC parts: international shipping checklist | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/custom-cnc-parts-shipping-checklist/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P12",
+  "mode": "mobile",
+  "screenshot": "screenshots/P12-mobile.jpg"
+}

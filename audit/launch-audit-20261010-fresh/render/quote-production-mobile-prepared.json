@@ -1,0 +1,65 @@
+{
+  "canonical": "https://www.lzz-cnc.com/quote/",
+  "description": "Start from 1 custom CNC part. Production takes 7–14 business days after drawing and order confirmation, including surface finishing; prepare and send your inquiry by email.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Tell us aboutyour part"
+    },
+    {
+      "tag": "H3",
+      "text": "Email draft prepared — not sent"
+    },
+    {
+      "tag": "H2",
+      "text": "Prefer to talk first?"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "Email LZZ"
+    },
+    {
+      "href": "https://wa.me/8613858102479",
+      "text": "WhatsApp"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com?subject=CNC%20machining%20inquiry%3A%20Launch%20QA&body=Hello%20LZZ%20team%2C%0A%0AI%20would%20like%20to%20discuss%20a%20CNC%20machining%20project.%0A%0AName%3A%20Launch%20QA%0AEmail%3A%20qa%40example.invalid%0APhone%20%2F%20WhatsApp%3A%20Not%20specified%0ACompany%3A%20Not%20specified%0ACountry%20%2F%20Destination%3A%20To%20confirm%0AMaterial%3A%20To%20confirm%0AQuantity%3A%20To%20confirm%0A%0AProject%20requirements%3A%0AQA%20only%3A%2020%20pieces%20in%20316L%20to%20drawing%20Rev%20B.%20No%20live%20sending.%0A%0AI%20will%20attach%20the%20relevant%20drawings%20or%20CAD%20files%20to%20this%20email.%0A%0APlease%20review%20manufacturability%2C%20pricing%20and%20lead%20time.%0AThank%20you.",
+      "text": "Open email app"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "https://wa.me/8613858102479",
+      "text": "WhatsApp +86 138 5810 2479"
+    },
+    {
+      "href": "/quality/#quality-management",
+      "text": ""
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/quality/",
+      "text": "Inspection requirements"
+    }
+  ],
+  "main": "Tell us about\nyour part\n\nDescribe your part to prepare a quote request. You’ll review the draft before sending it from your email app.\nPrefer to talk? Email LZZ · WhatsApp\n\n1\nProject details\n2\nReview draft\n3\nSend in email\nEmail draft prepared — not sent\n\nReview the details, then send from your email app or webmail. Attach your drawing or CAD file before sending.\n\nMaterial\nTo confirm\nQuantity\nTo confirm\nDrawing and requirements\nQA only: 20 pieces in 316L to drawing Rev B. No live sending.\nAttachment\nAttach your drawing or CAD file in your email. Nothing has been sent yet.\nTo\nroger@lzz-cnc.com\nSubject\nCNC machining inquiry: Launch QA\nOpen email app\nEdit details\nCopy draft\nSave draft\nUsing webmail?\nStart a new email and add the recipient and subject shown above.\nUse Copy draft or Save draft, then paste the message body into your email. The draft includes the To and Subject lines for reference.\nAttach your drawing or CAD file, then send from your email.\n\nPreparing this draft does not send an inquiry to LZZ.\n\nTo: roger@lzz-cnc.com\nSubject: CNC machining inquiry: Launch QA\n\nHello LZZ team,\n\nI would like to discuss a CNC machining project.\n\nName: Launch QA\nEmail: qa@example.invalid\nPhone / WhatsApp: Not specified\nCompany: Not specified\nCountry / Destination: To confirm\nMaterial: To confirm\nQuantity: To confirm\n\nProject requirements:\nQA only: 20 pieces in 316L to drawing Rev B. No live sending.\n\nI will attach the relevant drawings or CAD files to this email.\n\nPlease review manufacturability, pricing and lead time.\nThank you.\nDrawing package checklist\nBefore you order\nRFQ checklist\nInspection requirements",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/quote/#webpage\",\"url\":\"https://www.lzz-cnc.com/quote/\",\"name\":\"Request a CNC machining quote\",\"description\":\"Start from 1 custom CNC part. Production takes 7–14 business days after drawing and order confirmation, including surface finishing; prepare and send your inquiry by email.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/quote/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/quote/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Request a CNC machining quote\",\"item\":\"https://www.lzz-cnc.com/quote/\"}]}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Request a CNC machining quote | LZZ Precision",
+  "url": "http://127.0.0.1:4326/quote/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "quote-production-mobile-prepared"
+}

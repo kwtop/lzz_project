@@ -1,0 +1,23 @@
+---
+import ResourceVisual from './ResourceVisual.astro';
+import ResourceLinks from './ResourceReadingLinks.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import {photo} from '../data/evidence';
+import {photoFrame} from '../lib/photoFrame';
+import type {Guide} from '../data/contentGuides';
+import type {ContentVisual} from '../data/contentVisuals';
+import type {resourceIllustrations} from '../data/resourceIllustrations';
+interface Props {section:Guide['sections'][number];layout?:string;visual?:ContentVisual|keyof typeof resourceIllustrations}
+const {section,layout='reading',visual}=Astro.props;
+const photos=await Promise.all((section.photos||[]).map(async source=>{const asset=photo(source.id);const frame=await photoFrame(asset.src,asset.width,asset.height);return {...source,ratio:frame.width/frame.height};}));
+const photoColumns=photos.map(item=>item.ratio+'fr').join(' ');
+---
+<section class:list={['res-wrap','res-module','res-module-'+layout]} id={section.id} aria-labelledby={section.id+'-heading'} data-resource-module>
+ <h2 id={section.id+'-heading'}>{section.title}</h2>
+ {section.aliases?.map(id=><span class="res-anchor" id={id}/>)}
+ <div class="res-module-body">
+  {visual&&<ResourceVisual visual={visual}/>}
+  {photos.length>0&&<div class="res-photo-grid" style={'--res-photo-columns:'+photoColumns}>{photos.map(photo=><figure data-image-origin="original-photo"><EvidenceImage id={photo.id} sizes="(max-width:760px) calc(100vw - 40px), 480px"/><figcaption>{photo.caption}</figcaption></figure>)}</div>}
+  <div class="res-copy"><div class="res-prose" set:html={section.html}/><slot/><ResourceLinks links={section.links} label={section.title+' links'}/></div>
+ </div>
+</section>

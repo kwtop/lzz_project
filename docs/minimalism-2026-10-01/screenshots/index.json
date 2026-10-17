@@ -1,0 +1,142 @@
+[
+  {
+    "key": "rfq",
+    "route": "/resources/rfq-checklist/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "quality",
+    "route": "/quality/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "milling",
+    "route": "/capabilities/cnc-milling-service/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "five-axis",
+    "route": "/capabilities/5-axis-cnc-machining/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "casting",
+    "route": "/capabilities/casting-machining/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "how-we-work",
+    "route": "/resources/how-we-work/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "shipping",
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "prototype",
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "about",
+    "route": "/about/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "factory",
+    "route": "/factory/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "home",
+    "route": "/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "products",
+    "route": "/products/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "product",
+    "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "quote",
+    "route": "/quote/",
+    "viewport": "desktop"
+  },
+  {
+    "key": "milling",
+    "route": "/capabilities/cnc-milling-service/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "five-axis",
+    "route": "/capabilities/5-axis-cnc-machining/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "casting",
+    "route": "/capabilities/casting-machining/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "rfq",
+    "route": "/resources/rfq-checklist/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "quality",
+    "route": "/quality/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "how-we-work",
+    "route": "/resources/how-we-work/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "shipping",
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "prototype",
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "about",
+    "route": "/about/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "factory",
+    "route": "/factory/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "home",
+    "route": "/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "products",
+    "route": "/products/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "product",
+    "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "viewport": "mobile"
+  },
+  {
+    "key": "quote",
+    "route": "/quote/",
+    "viewport": "mobile"
+  }
+]

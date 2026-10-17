@@ -1,0 +1,14 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {capabilityIntros,capabilityHeroPart} from '../data/capabilityRebuild';
+import CapabilityPartFigure from './CapabilityPartFigure.astro';
+import {capabilityOpeningCopy,capabilityFeatureLabels} from '../data/readingPolish';
+interface Props {page:RevisedCapability;material?:boolean;quoteHref:string;featureHref?:string}
+const {page,material=false,quoteHref,featureHref}=Astro.props;
+const part=capabilityHeroPart(page.slug);
+---
+<section class:list={['cx-intro',material?'cx-intro--material':'cx-intro--process']}>
+ <header><h1>{page.plan.title}</h1><p class="cx-lead">{capabilityOpeningCopy[page.slug]||capabilityIntros[page.slug]}</p></header>
+ <CapabilityPartFigure part={part} eager class="cx-intro-part"/>
+ <div class="cx-intro-actions"><a class="rd-button" href={quoteHref}>Prepare RFQ email</a><a class="rd-link" href={featureHref||(material?'#materials-finishes':'#geometry-review')}>{capabilityFeatureLabels[page.slug]||(material?'Compare grades & finishes':'Explore the part features')}</a><a class="cx-order-link" href="#order-conditions">Order & timing conditions</a></div>
+</section>

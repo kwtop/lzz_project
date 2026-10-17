@@ -1,0 +1,125 @@
+{
+  "canonical": "https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/",
+  "description": "Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Shipping CNC parts internationally"
+    },
+    {
+      "tag": "H2",
+      "text": "Five topics to confirm before a quotation"
+    },
+    {
+      "tag": "H3",
+      "text": "Part protection"
+    },
+    {
+      "tag": "H3",
+      "text": "Pack identification"
+    },
+    {
+      "tag": "H3",
+      "text": "Delivery basis"
+    },
+    {
+      "tag": "H3",
+      "text": "Documents"
+    },
+    {
+      "tag": "H3",
+      "text": "Schedule"
+    },
+    {
+      "tag": "H2",
+      "text": "LZZ packing archive"
+    },
+    {
+      "tag": "H3",
+      "text": "Related part examples"
+    },
+    {
+      "tag": "H3",
+      "text": "Learn more"
+    },
+    {
+      "tag": "H2",
+      "text": "Include delivery in your RFQ"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "#shipping-topic-1",
+      "text": ""
+    },
+    {
+      "href": "#shipping-topic-2",
+      "text": ""
+    },
+    {
+      "href": "#shipping-topic-3",
+      "text": ""
+    },
+    {
+      "href": "#shipping-topic-4",
+      "text": ""
+    },
+    {
+      "href": "#shipping-topic-5",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/shipment-2022-order-packing-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/shipping-example-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "text": "Complex aluminum housings"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How We Work"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ Checklist"
+    },
+    {
+      "href": "/resources/",
+      "text": "Back to Resources"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    }
+  ],
+  "main": "Resources\nDelivery planning\nShipping CNC parts internationally\n\nAgree packing, documents and transport responsibilities alongside the machining work.\n\nOn this page\nFive topics to confirm before a quotation\nPart protection\nInformation you provide\n\nMark cosmetic faces, sealing surfaces, threads, fragile edges, cleanliness and corrosion-protection needs. Specify pack weight or quantity limits and receiving-site handling requirements.\n\nConfirm in the quotation\n\nAgree protective materials, separation between parts and protection for threads and mating surfaces. Cartons or wooden cases depend on the part, quantity and transport route.\n\nPack identification\nInformation you provide\n\nPart number, drawing revision, quantity per pack, batch identification and required labels.\n\nConfirm in the quotation\n\nConfirm available label, lot-reference and inspection-document formats. Use the same part and revision references on the packing list and agreed quality records.\n\nDelivery basis\nInformation you provide\n\nFull delivery address, receiving contact, required arrival date, requested trade term/version and named place.\n\nConfirm in the quotation\n\nConfirm who books transport and handles export/import clearance, insurance, duties, taxes and local delivery. EXW, FOB or DDP options are quoted for the applicable destination and service.\n\nDDP is not an automatic inclusion.\n\nDocuments\nInformation you provide\n\nThe document list required by procurement, logistics or your destination-side import contact.\n\nConfirm in the quotation\n\nWe provide protective packing, a packing list, commercial invoice and shipment information. Material, finishing and dimensional records are included when specified in the order. Confirm which documents are available and who prepares each.\n\nSchedule\nInformation you provide\n\nSeparate your required arrival date from the desired dispatch date.\n\nConfirm in the quotation\n\nProduction takes 7–14 business days after drawing and order confirmation, including surface finishing. Transit is estimated separately and is not included in production time.\n\nTransport options and import documents\nLZZ packing archive\nLZZ packing archive · November 2022. Packing varies by part, quantity and route. These images do not establish a customer, destination, carrier, trade term or delivery outcome for a new order.\nRelated part examples\n\nEach custom part requires its own drawing and quote.\n\nComplex aluminum housings\nLearn more\nHow We Work\nRFQ Checklist\nBack to Resources\nInclude delivery in your RFQ\n\nSend the controlled drawing, material and finish specification, and quantity alongside the five delivery topics above. Ask the quotation to identify any exclusions.\n\nPrepare RFQ email\n\nReview your draft before sending it from your email app.\n\nroger@lzz-cnc.com",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/#webpage\",\"url\":\"https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/\",\"name\":\"Shipping CNC machined parts internationally: a quote checklist\",\"description\":\"Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Resources\",\"item\":\"https://www.lzz-cnc.com/resources/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Shipping CNC machined parts internationally: a quote checklist\",\"item\":\"https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/\"}]},{\"@type\":\"Article\",\"headline\":\"Shipping CNC machined parts internationally: a quote checklist\",\"description\":\"Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.\",\"mainEntityOfPage\":{\"@id\":\"https://www.lzz-cnc.com/resources/custom-cnc-parts-shipping-checklist/#webpage\"},\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"image\":\"https://www.lzz-cnc.com/media/evidence/shipping-example-1600.webp\"}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "CNC parts: international shipping checklist | LZZ Precision",
+  "url": "http://127.0.0.1:4326/resources/custom-cnc-parts-shipping-checklist/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "resource-shipping-mobile-production"
+}

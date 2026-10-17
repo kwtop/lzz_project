@@ -1,0 +1,147 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / Delivery planning
+    - heading "Shipping CNC parts internationally" [level=1]
+    - link "Include delivery in your RFQ":
+      - /url: /quote/
+    - region "LZZ packing archive":
+      - heading "LZZ packing archive" [level=2]
+      - figure "LZZ packing and shipment preparation · November 2022":
+        - 'link "View original photograph: Shipment preparation at LZZ. Packing is selected for each order."':
+          - /url: /media/evidence/shipping-example-1600.webp
+          - img "Shipment preparation at LZZ. Packing is selected for each order."
+        - 'link "View original photograph: Protected parts prepared for packing in an archived LZZ shipment photograph."':
+          - /url: /media/evidence/shipment-2022-order-packing-1600.webp
+          - img "Protected parts prepared for packing in an archived LZZ shipment photograph."
+        - 'link "View original photograph: A prepared shipment from the LZZ delivery archive."':
+          - /url: /media/evidence/shipment-2022-prepared-load-1600.webp
+          - img "A prepared shipment from the LZZ delivery archive."
+        - generic: LZZ packing and shipment preparation · November 2022
+    - region "Packing and delivery requirements":
+      - heading "Packing and delivery requirements" [level=2]
+      - generic: Topic
+      - generic: Information you provide
+      - generic: Confirm in the quotation
+      - list:
+        - heading "Part protection" [level=3]
+        - generic: Information you provide
+        - paragraph: Mark cosmetic faces and sealing surfaces, then identify threads and fragile edges that need protection. State cleanliness and corrosion-protection needs. Specify pack weight or quantity limits and receiving-site handling requirements.
+        - generic: Confirm in the quotation
+        - paragraph: Agree protective materials, separation between parts and protection for threads and mating surfaces. Cartons or wooden cases depend on the part, quantity and transport route.
+        - heading "Pack identification" [level=3]
+        - generic: Information you provide
+        - paragraph: Part number, drawing revision, quantity per pack, batch identification and required labels.
+        - generic: Confirm in the quotation
+        - paragraph: Confirm available label, lot-reference and inspection-document formats. Use the same part and revision references on the packing list and agreed quality records.
+        - heading "Delivery basis" [level=3]
+        - generic: Information you provide
+        - paragraph: Full delivery address, receiving contact, required arrival date, requested trade term/version and named place.
+        - generic: Confirm in the quotation
+        - paragraph: Confirm who books transport and handles export/import clearance, insurance, duties, taxes and local delivery. EXW, FOB or DDP options are quoted for the applicable destination and service.
+        - paragraph:
+          - strong: DDP applies only where included in the quotation.
+        - heading "Documents" [level=3]
+        - generic: Information you provide
+        - paragraph: The document list required by procurement, logistics or your destination-side import contact.
+        - generic: Confirm in the quotation
+        - paragraph: We provide protective packing with a packing list and commercial invoice, plus shipment information. Material and finishing records accompany the parts when specified in the order; the same applies to agreed dimensional records. Confirm which documents are available and who prepares each.
+        - heading "Schedule" [level=3]
+        - generic: Information you provide
+        - paragraph: Separate your required arrival date from the desired dispatch date.
+        - generic: Confirm in the quotation
+        - paragraph: Production takes 7-14 business days after drawing and order confirmation, including surface finishing. Transit is estimated separately and is not included in production time.
+    - heading "Transport options and import documents" [level=2]
+    - paragraph: Courier, air or sea arrangements depend on shipment size and destination. DHL, FedEx or UPS can be discussed when selecting a courier.
+    - paragraph: Agree additional customs documents before production with your importing entity or freight forwarder. Requirements depend on the destination and transaction.
+    - navigation "Related resources":
+      - heading "Related part examples" [level=3]
+      - link "Complex aluminum housings":
+        - /url: /products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/
+      - heading "Prepare your request" [level=3]
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "Back to resources":
+        - /url: /resources/
+    - navigation "Factory and order information":
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+    - region "Discuss your project":
+      - heading "Include delivery in your RFQ" [level=2]
+      - paragraph: Include delivery details with your drawing and order quantity. The quotation must identify transport responsibilities and any exclusions.
+      - link "Prepare RFQ email":
+        - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

@@ -1,0 +1,73 @@
+{
+  "created": "2026-10-12",
+  "tool": "built-in imagegen",
+  "images": [
+    {
+      "name": "part-features-v1",
+      "file": "exec-dc9e2809-9214-4551-b247-4ac9a4e191c7.png",
+      "type": "source-photo-refinement",
+      "source": "/media/evidence/multi-feature-milling-parts-1600.webp",
+      "use": [
+        "part requirements guide",
+        "drawing preparation directory"
+      ],
+      "meaning": "Flat faces, hole patterns and pockets; retain original photograph access.",
+      "originalDimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "69c515fd71c4da740e6e81ea814479e461cf557685301af02acd65d224dbf532",
+      "files": [
+        "/media/info/part-features-v1-320.webp",
+        "/media/info/part-features-v1-480.webp",
+        "/media/info/part-features-v1-800.webp",
+        "/media/info/part-features-v1-1200.webp",
+        "/media/info/part-features-v1-1440.webp"
+      ]
+    },
+    {
+      "name": "material-forms-v1",
+      "file": "exec-b36f77b7-6c5b-4109-b737-767c6d023bbb.png",
+      "type": "generated-editorial",
+      "use": [
+        "About introduction",
+        "machining resource directory",
+        "material and finish guide"
+      ],
+      "meaning": "Discuss material families and finish requirements, not a certified material sample or a customer order.",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "6f51004fca908606c9a8d34bc374774ef09b1bf36946eb7ba7956234fb52c9f9",
+      "files": [
+        "/media/info/material-forms-v1-320.webp",
+        "/media/info/material-forms-v1-480.webp",
+        "/media/info/material-forms-v1-800.webp",
+        "/media/info/material-forms-v1-1200.webp",
+        "/media/info/material-forms-v1-1440.webp"
+      ]
+    },
+    {
+      "name": "inspection-planning-v1",
+      "file": "exec-d3dd4bf7-a11e-443b-a044-942bf51fe909.png",
+      "type": "generated-editorial",
+      "use": [
+        "quality introduction"
+      ],
+      "meaning": "Specify bore/datum features and measurement methods, not equipment evidence or a measured result.",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "a4949c48624cdb6c11544e8f0e2c2ff3014fdcb1326b45f3a508b8e16667ae6d",
+      "files": [
+        "/media/info/inspection-planning-v1-320.webp",
+        "/media/info/inspection-planning-v1-480.webp",
+        "/media/info/inspection-planning-v1-800.webp",
+        "/media/info/inspection-planning-v1-1200.webp",
+        "/media/info/inspection-planning-v1-1440.webp"
+      ]
+    }
+  ]
+}

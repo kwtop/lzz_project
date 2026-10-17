@@ -1,0 +1,63 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "items": [
+    {
+      "name": "brass-gallery-v2",
+      "source": "public/media/catalog-27-cutout-v1.webp",
+      "prompt": "Edit target: supplied image of brass hex-head threaded plugs. Create a clean premium industrial product display by extracting exactly three representative plugs from the supplied pile and arranging them as a small balanced still life on a pure white seamless background. Preserve their solid flat hex heads (no slots, recesses, holes or writing), short cylindrical external threaded stems, brass color and proportions. Two stand with hex faces visible and one rests at a slight diagonal showing its threads. Crisp natural metal, restrained soft studio light, subtle contact shadows. Square composition, complete objects occupy about 72% of width and 55% of height, comfortable white margin. No other parts, no piles, no floating objects, no text or branding. This is a retouched catalog presentation, not evidence of a production batch.",
+      "master": "D:/lzz/_qa/image-quality-20261013/generated/brass-gallery-v2.png",
+      "sourceSha256": "e6726d41bb53f4ad4f2a8c2dbfc2004029305a880cb9226e519d708bd137530c",
+      "outputs": [
+        {
+          "path": "public/media/gallery/brass-gallery-v2-320.webp",
+          "bytes": 9602
+        },
+        {
+          "path": "public/media/gallery/brass-gallery-v2-480.webp",
+          "bytes": 18098
+        },
+        {
+          "path": "public/media/gallery/brass-gallery-v2-800.webp",
+          "bytes": 44350
+        },
+        {
+          "path": "public/media/gallery/brass-gallery-v2-1200.webp",
+          "bytes": 86436
+        }
+      ]
+    },
+    {
+      "name": "fittings-gallery-v2",
+      "source": "public/media/catalog-07-cutout-v1.webp",
+      "prompt": "Edit target: supplied image of nine CNC turned fittings. Recompose into a coherent premium product still life on pure white: retain only the upper central stepped hollow sleeve, the upper right round flange with central threaded hole and four mounting holes, and the lower right hex-shouldered hollow threaded adapter. Exactly three objects. Preserve each object's geometry, bore, holes, threading, metallic material and relative proportions as visible in input. Remove all other six components. Arrange selected parts on one ground plane, sleeve left back, flange right back, hex adapter front center, without occluding essential features. Three-quarter product photography, restrained satin silver highlights, clean edges, soft subtle contact shadows. Square canvas, all objects fully visible within comfortable 12% outer white margins, group fills 75% width and 60% height. No text, no labels, no new engineering features. Catalog presentation retouch.",
+      "master": "D:/lzz/_qa/image-quality-20261013/generated/fittings-gallery-v2.png",
+      "sourceSha256": "eb25c18a3aaa50fd6902814e6aac5d616e14c4ba6bd00634d8768b9fc5b5a350",
+      "outputs": [
+        {
+          "path": "public/media/gallery/fittings-gallery-v2-320.webp",
+          "bytes": 9812
+        },
+        {
+          "path": "public/media/gallery/fittings-gallery-v2-480.webp",
+          "bytes": 18662
+        },
+        {
+          "path": "public/media/gallery/fittings-gallery-v2-800.webp",
+          "bytes": 42888
+        },
+        {
+          "path": "public/media/gallery/fittings-gallery-v2-1200.webp",
+          "bytes": 79466
+        }
+      ]
+    }
+  ],
+  "widths": [
+    320,
+    480,
+    800,
+    1200
+  ],
+  "limits": "AI recomposition for catalog presentation; original source retained. Visual review is not dimensional/engineering identity certification."
+}

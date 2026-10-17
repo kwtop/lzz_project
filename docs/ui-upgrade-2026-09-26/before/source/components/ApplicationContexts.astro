@@ -1,0 +1,20 @@
+---
+import Arrow from './Arrow.astro';
+import EvidenceImage from './EvidenceImage.astro';
+const contexts=[
+ {title:'Scientific instruments',description:'Housing geometry, mounting faces and optical or mechanical interfaces to specify.',href:'/products/custom-oem-high-precision-cnc-milling-manufacturer/',image:'laboratory-application-illustration-v1',alt:'AI-generated illustrative laboratory instrument assembly with a generic machined housing',disclosure:'AI-generated illustration; not a specific LZZ customer project or supplied part.'},
+ {title:'Hydraulic equipment',description:'Ports, sealing faces and fitting interfaces to confirm against the assembly drawing.',href:'/products/global-oem-precision-machining-solutions/',image:'hydraulic-manifold-illustrative-v1',alt:'AI-generated illustrative hydraulic manifold and fittings',disclosure:'AI-generated illustration; not a specific LZZ customer project or pressure-test evidence.'},
+ {title:'Robotics & automation',description:'Brackets, linkage geometry and mounting interfaces to review against the assembly model.',href:'/capabilities/',image:'robotics-application-illustrative-v1',alt:'AI-generated illustrative robotics wrist with generic machined components',disclosure:'AI-generated illustration; not a specific LZZ customer project or qualified end-use example.'},
+ {title:'Machined enclosures',description:'Pockets, bores, mounting patterns and mating faces to define on the part drawing.',href:'/capabilities/cnc-milling-service/',evidenceId:'milling-enclosure-parts',disclosure:'Original LZZ machining photograph; the end customer and application are not identified.'},
+];
+---
+<section class="container section context-section" aria-labelledby="context-title">
+ <div class="section-heading"><h2 id="context-title">Illustrative applications</h2></div>
+ <div class="context-grid">{contexts.map(context=><article>
+  <figure data-image-origin={context.evidenceId?'source-photo':'AI-generated'}>{context.evidenceId?<EvidenceImage id={context.evidenceId} sizes="(max-width:760px) 90vw, 45vw"/>:<img src={`/media/editorial/${context.image}-1200.webp`} srcset={[480,800,1200,1536].map(width=>`/media/editorial/${context.image}-${width}.webp ${width}w`).join(', ')} sizes="(max-width:760px) 90vw, 45vw" width="1536" height="1024" loading="lazy" alt={context.alt}/>}<figcaption>{context.disclosure}</figcaption></figure>
+  <div class="context-copy"><h3>{context.title}</h3><p>{context.description}</p><a class="text-link" href={context.href}>See related examples <Arrow size={18}/></a></div>
+ </article>)}</div>
+</section>
+<style>
+ .context-section{padding-top:0}.context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px}.context-grid article{display:grid;grid-template-columns:43% minmax(0,1fr);gap:20px;min-width:0;border-top:1px solid var(--border);padding-top:22px;align-items:start}.context-grid figure{margin:0;min-width:0}.context-grid :global(img){display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:#ececea}.context-grid figcaption{margin-top:8px;color:var(--muted);font-size:11px;line-height:1.45}.context-copy{min-width:0}.context-grid h3{font-size:clamp(23px,2vw,29px);line-height:1.15;margin:10px 0}.context-copy>p{font-size:15px;line-height:1.55}.context-grid .text-link{margin-top:12px;font-size:12px;padding:9px 11px;min-height:44px}@media(max-width:1000px){.context-grid article{grid-template-columns:1fr}.context-grid :global(img){aspect-ratio:1.8}}@media(max-width:760px){.context-grid{grid-template-columns:1fr;gap:32px}}
+</style>

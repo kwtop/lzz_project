@@ -1,0 +1,1072 @@
+[
+  {
+    "slug": "custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm",
+    "id": "P00",
+    "scope": "A circular milled component with a central opening, stepped bores and a face-hole pattern.",
+    "drawing": "Send a 3D model and dimensioned drawing. Give the bore diameters, step depths and fits, with the face holes located by pitch-circle diameter or hole-center coordinates. Identify the datums and any mating-bore or fastener requirements. Show additional pockets on the drawing.",
+    "inspection": "Specify diameter and depth checks for each bore step. Hole positions and the flatness or orientation of the circular faces are measured from the drawing datums.",
+    "rfq": "Include the 3D model, dimensioned drawing, datum scheme, material grade and quantity. Identify the mating bore or fastener requirements; any additional pockets need their own drawing details.",
+    "intro": "The central opening, stepped bores and face holes share the same circular reference surfaces.",
+    "notes": [
+      "Include the material grade and order quantity."
+    ],
+    "features": [
+      {
+        "title": "Central opening & steps",
+        "body": "Specify diameters, step depths and mating fits from the circular face datums.",
+        "check": "Bore diameters, depths and fits."
+      },
+      {
+        "title": "Face-hole pattern",
+        "body": "Give pitch-circle diameter or hole-center coordinates and the relationship to the central bore.",
+        "check": "Hole positions and face orientation."
+      },
+      {
+        "title": "Additional geometry",
+        "body": "Any pockets or features not visible in the source need a separate model or section view.",
+        "check": "Agreed method for any additional features."
+      }
+    ]
+  },
+  {
+    "slug": "custom-oem-high-precision-cnc-milling-manufacturer",
+    "id": "P01",
+    "scope": "Instrument blocks, brackets and valve bodies with machined interfaces.",
+    "drawing": "Locate passages and mounting holes from the assembly datums. Include thread specifications and sections through intersecting holes, and mark inaccessible edges. If you have a part but no complete drawing, ask about reverse engineering.",
+    "inspection": "Define the hole-position and mating-face checks for your assembly. Cleanliness and leak tests require separate criteria. Specify any first-article, in-process, final or pre-shipment checks needed for the order.",
+    "rfq": "Provide passage geometry, thread specifications, assembly references and material grade; do not rely on the exterior photograph.",
+    "intro": "Instrument blocks and valve bodies often combine mounting faces with intersecting internal passages. Brackets require the same care in locating mounting interfaces.",
+    "notes": [
+      "State the material grade.",
+      "If the project starts with an existing component, discuss reverse engineering."
+    ],
+    "features": [
+      {
+        "title": "Mounting faces",
+        "body": "Identify the surfaces that locate the block or bracket in the assembly. Dimension the mounting holes from these datums.",
+        "check": "Mounting positions and face relationships."
+      },
+      {
+        "title": "Bores & internal passages",
+        "body": "Use sections to show intersecting bores and hidden passages. State edge and cleanliness requirements for the intended use.",
+        "check": "Bore access, deburring and specified cleanliness."
+      },
+      {
+        "title": "Access & workholding",
+        "body": "Include the stock dimensions and faces available for clamping. If starting from a sample, agree the drawing before manufacture.",
+        "check": "Fixture contact and final acceptance state."
+      }
+    ]
+  },
+  {
+    "slug": "ultra-high-precision-machining-services",
+    "id": "P02",
+    "scope": "Contoured impellers and housings need a controlling model and feature-specific tolerances. No numerical tolerance is specified for this example.",
+    "drawing": "Send the controlling model, with the datum axis and critical blade profiles identified. Mark thin sections and restricted tool access. State the material condition and tolerances for the features that matter to the assembly.",
+    "inspection": "Mark the profiles that need measurement and tell us which records you need. For balance or rotating-assembly tests, agree the procedures and acceptance limits separately.",
+    "rfq": "Supply the controlling model, material condition, critical profiles and acceptance criteria for the intended operating context.",
+    "intro": "An impeller model defines the blade contours and root transitions around the hub. Thin sections and deep pockets also affect tool access.",
+    "notes": [
+      "Tolerances are assessed for the individual drawing; no numerical tolerance is specified for this example."
+    ],
+    "features": [
+      {
+        "title": "Blade profiles",
+        "body": "Use the controlling 3D model to define the curved blade surfaces. Identify the profiles that need inspection and the limits that matter to your design.",
+        "check": "Agreed profiles against the controlled model."
+      },
+      {
+        "title": "Blade roots & tool access",
+        "body": "The transitions between blades and hub affect cutter access. Mark thin sections and any areas where a radius or thickness change needs approval.",
+        "check": "Root geometry, thin sections and permitted changes."
+      },
+      {
+        "title": "Hub bore & datum axis",
+        "body": "Define the hub bore, mating fit and datum axis together. Identify the relationships between the hub and blade geometry on the drawing.",
+        "check": "Hub fit and relationship to the blade geometry."
+      }
+    ]
+  },
+  {
+    "slug": "global-oem-precision-machining-solutions",
+    "id": "P03",
+    "scope": "Components that combine turned forms with angled or milled features.",
+    "drawing": "Locate mounting faces and off-axis features from the turned axis. Include mating geometry and critical interface dimensions on the same drawing so we can plan both turning and milling.",
+    "inspection": "Define runout, feature-position and thread checks using one datum scheme. The quotation confirms the measurement methods and acceptance limits.",
+    "rfq": "Include mating geometry and critical interface dimensions so turning and milling requirements can be reviewed together.",
+    "intro": "The source is a tapered component with an angled threaded neck. Relate the connection to the turned body and assembly datums.",
+    "notes": [],
+    "features": [
+      {
+        "title": "Turned axis",
+        "body": "Use a consistent datum axis for the central bore and outside diameters. Mark the fitted and sealing surfaces.",
+        "check": "Common-axis and runout requirements."
+      },
+      {
+        "title": "Angled & off-axis features",
+        "body": "Locate milled faces and hole patterns relative to the turned geometry. Include any inaccessible internal details.",
+        "check": "Position and orientation relative to the turned body."
+      },
+      {
+        "title": "Assembly interfaces",
+        "body": "Specify mating parts, threads and port requirements. State separate leak or cleanliness checks where the application needs them.",
+        "check": "Thread, seal and mating-fit criteria."
+      }
+    ]
+  },
+  {
+    "slug": "global-manufacturer-of-multi-sided-precision-machined-components",
+    "id": "P04",
+    "scope": "Housings with ports and mounting patterns across several faces.",
+    "drawing": "Provide a complete model showing angled ports and mounting faces. Identify the shared datums, with port standards and mating-hardware details. Include assembly clearances so we can check tool access and the need for repeated clamping.",
+    "inspection": "Specify position and face-orientation limits on the drawing. Add separate sealing-test requirements where the application needs them.",
+    "rfq": "Provide a complete model with port standards, mating hardware and access constraints for assembly.",
+    "intro": "Ports and bolt patterns extend across several faces of these components. Shared datums relate the fluid connections to the structural mounting features.",
+    "notes": [
+      "Check tool access and repeated clamping when reviewing the drawing."
+    ],
+    "features": [
+      {
+        "title": "Multi-face datums",
+        "body": "Relate the working faces and hole patterns to the same drawing datums. Mark the dimensions that cross between faces.",
+        "check": "Feature positions from shared datums."
+      },
+      {
+        "title": "Ports & bores",
+        "body": "Specify bore depths, intersections and connection details with sections where needed.",
+        "check": "Port standard and separate sealing criteria."
+      },
+      {
+        "title": "Setup access",
+        "body": "Identify clamping restrictions and finished surfaces that must be protected during a later setup.",
+        "check": "Mounting-pattern position and orientation."
+      }
+    ]
+  },
+  {
+    "slug": "custom-oem-cnc-turning-manufacturer",
+    "id": "P05",
+    "scope": "Shafts, sleeves and flanged rotational parts.",
+    "drawing": "Show the turned profile and mating fits on the drawing. Reference working diameters and shoulders to the functional axis, and dimension grooves and any secondary flats or cross-holes.",
+    "inspection": "Specify the diameter, axial-length and runout checks needed for assembly. Include thread-gauge requirements where relevant.",
+    "rfq": "Share the turned profile, mating fits, stock grade and finish requirements alongside the requested quantity.",
+    "intro": "Shafts, sleeves and flanged parts are machined around a functional axis. The stepped diameters and shoulders control their fit in fluid systems, instruments and motors.",
+    "notes": [
+      "Include the stock grade, finish and quantity."
+    ],
+    "features": [
+      {
+        "title": "Working diameters",
+        "body": "Identify bearing, sealing and assembly diameters. Specify each fit rather than relying on the photographed shape.",
+        "check": "Fitted diameters and runout."
+      },
+      {
+        "title": "Shoulders & axial location",
+        "body": "Dimension the shoulders and grooves that position the part along its axis.",
+        "check": "Axial lengths and shoulder locations."
+      },
+      {
+        "title": "Secondary features",
+        "body": "Show flats, cross holes and other off-axis features, with their relationship to the turned datum.",
+        "check": "Hole or flat positions after secondary machining."
+      }
+    ]
+  },
+  {
+    "slug": "custom-rotary-cylindrical-components",
+    "id": "P06",
+    "scope": "Turned parts with cross-holes, slots and flats.",
+    "drawing": "Send a model showing hidden intersections. Define the orientation of secondary features relative to the shaft axis and one another. Identify the features used to locate the part during assembly.",
+    "inspection": "Specify checks for feature orientation and thread engagement. Include burr limits at intersecting holes.",
+    "rfq": "Include a model showing hidden intersections and explain which flats or holes locate the part during assembly.",
+    "intro": "Cross-holes, slots and flats add off-axis features to a turned part. Their angular relationship matters as well as the turned profile.",
+    "notes": [],
+    "features": [
+      {
+        "title": "Coaxial features",
+        "body": "Define the axis shared by the working diameters and central bore. State the required geometric controls.",
+        "check": "Diameter and axial-position requirements."
+      },
+      {
+        "title": "Flats & cross holes",
+        "body": "Locate off-axis features from the turned datums so orientation is clear.",
+        "check": "Angular and relative positions."
+      },
+      {
+        "title": "Mating surfaces",
+        "body": "Specify the fit, edge condition and surface requirements where the part meets its assembly.",
+        "check": "Burrs and edges at intersecting features."
+      }
+    ]
+  },
+  {
+    "slug": "custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer",
+    "id": "P07",
+    "scope": "Connectors, adapters and flanges need a defined mechanical or fluid interface.",
+    "drawing": "Provide the mating-connector details and the thread standard for each connection. Dimension the seal grooves and contact face. NPT, BSPT and metric threads are available options; state the required standard.",
+    "inspection": "Specify thread gauges and seal-surface acceptance. Pressure or leak testing requires a procedure and an acceptance limit.",
+    "rfq": "Supply mating connector information, fluid and temperature conditions where relevant, alloy and any proposed test requirements.",
+    "intro": "A fitting connects through its threads and sealing surfaces. Hose barbs, adapters and flanges need the mating connection defined before machining.",
+    "notes": [
+      "Include the alloy and, where relevant, the fluid and operating temperature.",
+      "NPT, BSPT and metric thread options; confirm the standard for each connection."
+    ],
+    "features": [
+      {
+        "title": "Threads & connections",
+        "body": "Call out the thread standard, size and required gauge. NPT, BSPT and metric options are separate specifications.",
+        "check": "The specified thread gauge and engagement."
+      },
+      {
+        "title": "Sealing features",
+        "body": "Show the seal-contact faces and grooves. Supply mating details and any separate pressure-test requirements.",
+        "check": "Surface and separate leak-test limits."
+      },
+      {
+        "title": "Flanges & tool access",
+        "body": "Locate mounting holes, flats and wrenching features relative to the connection axis.",
+        "check": "Mounting positions and wrenching clearance."
+      }
+    ]
+  },
+  {
+    "slug": "full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing",
+    "id": "P08",
+    "scope": "For these milled parts, specify dimensions together with the required surface finish.",
+    "drawing": "Mark cosmetic faces and fitted bores on the drawing. Identify dimensions that apply after finishing, and surfaces that must remain untreated. Include a finish specification and any color or texture reference.",
+    "inspection": "State which dimensions must be checked after finishing. Define cosmetic acceptance separately from dimensional limits.",
+    "rfq": "Include the finish specification, color or texture reference where applicable, and any assembly surfaces that must remain untreated.",
+    "intro": "These blocks, brackets and housings need their final dimensions considered together with the surface treatment. Visible faces may also require a separate appearance reference.",
+    "notes": [
+      "Finishing uses in-house operations or specialist suppliers, depending on the treatment."
+    ],
+    "features": [
+      {
+        "title": "Functional dimensions",
+        "body": "Mark bores, holes and faces that control fit. Identify which dimensions apply after finishing.",
+        "check": "Dimensions in the final finish state."
+      },
+      {
+        "title": "Visible surfaces",
+        "body": "Separate appearance requirements from functional surface requirements. Provide a finish reference where available.",
+        "check": "A controlled appearance reference."
+      },
+      {
+        "title": "Protected areas",
+        "body": "Specify threads, contacts and fitted areas that need masking or special handling during treatment.",
+        "check": "Masked fits, contacts and threads."
+      }
+    ]
+  },
+  {
+    "slug": "custom-high-precision-machining-for-structural-aesthetic-components-oem",
+    "id": "P09",
+    "scope": "Structural parts with visible contours and mounting interfaces.",
+    "drawing": "Show the mounting arrangement. Distinguish mating and structural features from decorative surfaces and weight-reduction profiles. Include artwork for engraving and an approved finish reference.",
+    "inspection": "Specify interface checks against the drawing. Use the finish reference to define appearance acceptance.",
+    "rfq": "Provide mounting context, chosen material, artwork if needed and a controlled finish reference.",
+    "intro": "Mounting features and load-carrying geometry determine the fit of these structural parts. Visible curves, engraving and color need their own appearance requirements.",
+    "notes": [
+      "Choose the material for the structural requirements and the proposed finish."
+    ],
+    "features": [
+      {
+        "title": "Structural interfaces",
+        "body": "Show mounting faces, holes and mating parts. State the dimensions that govern assembly.",
+        "check": "Assembly-fit limits."
+      },
+      {
+        "title": "Exterior contours",
+        "body": "Identify cosmetic faces and where tool-path texture is acceptable.",
+        "check": "Specified appearance and tool-mark limits."
+      },
+      {
+        "title": "Finish & markings",
+        "body": "Specify the substrate, color reference and any engraved details. Identify dimensions that must remain within limits after treatment.",
+        "check": "Artwork, color reference and final dimensions."
+      }
+    ]
+  },
+  {
+    "slug": "high-volume-cnc-turning-for-complex-internal-external-features",
+    "id": "P10",
+    "scope": "Sleeves and valve components for repeat batches. Confirm production capacity for your quantities and release schedule.",
+    "drawing": "Provide section views through internal steps and seal grooves. Dimension the seal lands and identify features that are difficult to reach with a gauge.",
+    "inspection": "Specify first-article checks and later sampling for critical internal dimensions. Batch consistency checks or statistical process control must be included in the agreed inspection plan.",
+    "rfq": "Include section views, quantities per release and the reports you need so we can assess the production requirements.",
+    "intro": "Stepped bores and internal grooves can be difficult to measure in sleeves, bushings and valve cores. Access for inspection is planned alongside machining.",
+    "notes": [
+      "Give the quantity and date for each order, with the reports you need. We assess capacity against that schedule; repeat production uses standardized setups.",
+      "Repeat production uses standardized setups."
+    ],
+    "features": [
+      {
+        "title": "Internal bores",
+        "body": "Provide sections for bore depths, steps and internal grooves. Mark the surfaces that seal or guide mating parts.",
+        "check": "Access for measuring internal steps and grooves."
+      },
+      {
+        "title": "External features",
+        "body": "Relate shoulders, grooves and outside diameters to the working axis.",
+        "check": "Common-axis and fitted-size requirements."
+      },
+      {
+        "title": "Repeat-order checks",
+        "body": "Identify the drawing revision and critical features for sampling and batch records before production.",
+        "check": "First-article, sampling and release records."
+      }
+    ]
+  },
+  {
+    "slug": "high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem",
+    "id": "P11",
+    "scope": "Fluid-system components with contours and impeller features. No efficiency or reliability rating is established for this example.",
+    "drawing": "Send the current model revision. Define the datum axis and sealing interfaces, with the ports located from the same references.",
+    "inspection": "Specify profile and interface checks, including any CMM comparison with the 3D model. Include the required reports and traceability. Flow, balance or leak tests need separate acceptance criteria.",
+    "rfq": "Send the model revision and state who will validate each functional requirement.",
+    "intro": "Fluid-system parts combine curved profiles with ports and sealing faces. The contour model must also locate those interfaces.",
+    "notes": [
+      "Agree who will test functional performance. No efficiency or reliability rating has been established for this example."
+    ],
+    "features": [
+      {
+        "title": "Curved flow surfaces",
+        "body": "Supply the controlling model for the contours and transitions. Mark the surfaces that require profile inspection.",
+        "check": "Profile comparison to the model."
+      },
+      {
+        "title": "Hub & mounting geometry",
+        "body": "Define the common datums for bores, mounting faces and curved features.",
+        "check": "Hub and interface position."
+      },
+      {
+        "title": "Operating requirements",
+        "body": "Identify the intended fluid and assembly context. Agree any balance, pressure or performance test separately from dimensional inspection.",
+        "check": "Separate balance, pressure or performance criteria."
+      }
+    ]
+  },
+  {
+    "slug": "custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier",
+    "id": "P12",
+    "scope": "A cooling-assembly prototype needs fitment and fabrication requirements.",
+    "drawing": "Send the assembly model showing the end tanks and port orientation relative to the core. Include mounting points and the interfaces between machined and welded parts. Identify customer-supplied components and distinguish CNC machining from TIG joining.",
+    "inspection": "Mark the interfaces to check after fabrication. If you need pressure or leak testing, provide the procedure, test pressure and medium, with the acceptance criteria.",
+    "rfq": "Include the assembly model, component materials, supplied-core details and the intended validation plan.",
+    "considerations": [
+      {
+        "title": "Core, end tanks and supplied components",
+        "body": "Show the core, end tanks, ports and brackets in one assembly model. Identify customer-supplied components. Specify the material for each component, since one alloy may not suit the whole assembly. The quotation should make clear which work covers machining and joining, and which items are supplied separately."
+      },
+      {
+        "title": "Installation checks and pressure testing",
+        "body": "Mark the mounting and port dimensions to check after joining for correct installation. If you request a pressure test, supply the procedure and test conditions, with acceptance criteria, so we can confirm whether it can be carried out. A leak check alone does not establish cooling effectiveness or suitability for a particular vehicle."
+      }
+    ],
+    "intro": "An intercooler prototype combines machined end tanks and ports with a cooling core and welded joints. Fitment is checked against the vehicle installation.",
+    "notes": [
+      "State the material for each component and how you plan to validate the assembly. Cooling performance requires separate testing.",
+      "Check vehicle fitment during intercooler prototype development."
+    ],
+    "features": [
+      {
+        "title": "Core, end tanks and supplied components",
+        "body": "Show the core, end tanks, ports and brackets in one assembly model. Identify customer-supplied components. Specify the material for each component, since one alloy may not suit the whole assembly. The quotation should make clear which work covers machining and joining, and which items are supplied separately.",
+        "check": "Component materials and supplied-item scope."
+      },
+      {
+        "title": "Installation checks and pressure testing",
+        "body": "Mark the mounting and port dimensions to check after joining for correct installation. If you request a pressure test, supply the procedure and test conditions, with acceptance criteria, so we can confirm whether it can be carried out. A leak check alone does not establish cooling effectiveness or suitability for a particular vehicle.",
+        "check": "Welded interface dimensions and separate pressure criteria."
+      }
+    ]
+  },
+  {
+    "slug": "custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier",
+    "id": "P13",
+    "scope": "A billet cover needs engine-bay clearance and a specified finish on visible surfaces.",
+    "drawing": "Locate mounting holes from the assembly datums. Show wall sections and fastener access, with hood, camshaft and sensor clearances. Include gasket or seal details where applicable, and specify the finish on visible surfaces.",
+    "inspection": "Specify checks for the mating face and mounting pattern, with the required clearances. Define appearance acceptance separately for the outer contour.",
+    "rfq": "Provide the mating envelope, alloy and temper, finish requirements and whether any seal interface is present.",
+    "considerations": [
+      {
+        "title": "Underside clearance and seal interfaces",
+        "body": "Define the underside as well as the visible cover contour, including fastener access and clearance to adjacent parts. If the cover uses a gasket or seal, provide the interface and mating-face requirements."
+      },
+      {
+        "title": "Visible finish and masked fits",
+        "body": "Mark cosmetic faces and areas where tool-path texture is acceptable. Specify the anodized or polished finish, with an appearance reference if available. Before approving the finish, agree how masked fits and finished dimensions will be checked."
+      }
+    ],
+    "intro": "The visible contour is only one part of an engine-cover drawing. The underside must fit the mating perimeter and clear nearby engine components.",
+    "notes": [
+      "State the alloy and temper.",
+      "For prototypes and small batches, check hood and camshaft clearance, with sensor clearance included in the model."
+    ],
+    "features": [
+      {
+        "title": "Underside clearance and seal interfaces",
+        "body": "Define the underside as well as the visible cover contour, including fastener access and clearance to adjacent parts. If the cover uses a gasket or seal, provide the interface and mating-face requirements.",
+        "check": "Mating clearances and seal-face geometry."
+      },
+      {
+        "title": "Visible finish and masked fits",
+        "body": "Mark cosmetic faces and areas where tool-path texture is acceptable. Specify the anodized or polished finish, with an appearance reference if available. Before approving the finish, agree how masked fits and finished dimensions will be checked.",
+        "check": "Appearance and post-treatment fitted dimensions."
+      }
+    ]
+  },
+  {
+    "slug": "custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier",
+    "id": "P14",
+    "scope": "Intake prototypes with runner transitions and multi-piece flanges connecting to the engine, plenum or turbo piping.",
+    "drawing": "Send the full STEP or IGES model and mating-port drawing. Define runner transitions and port spacing, with the flange positions relative to the engine and connected piping.",
+    "inspection": "Specify interface and passage checks for prototype fitment. Pressure-test conditions and any flow tests are agreed separately.",
+    "rfq": "Include the full assembly model, mating-port drawing and the objective of the prototype evaluation.",
+    "intro": "The source gives engine and intake-system assembly context. Define the individual machined component before reviewing its runner transitions and flange interfaces.",
+    "notes": [
+      "Explain the purpose of the prototype evaluation.",
+      "Send a STEP or IGES model so we can check machining requirements for intake and turbo-related components."
+    ],
+    "features": [
+      {
+        "title": "Runner geometry",
+        "body": "Define the internal passages in the controlling model, with sections where access is restricted.",
+        "check": "Controlled passage and transition geometry."
+      },
+      {
+        "title": "Flange interfaces",
+        "body": "Show the port shape, sealing face and bolt pattern for each mating connection.",
+        "check": "Port, seal and bolt-pattern checks."
+      },
+      {
+        "title": "Installation envelope",
+        "body": "Include adjacent components and available clearance. Any flow or pressure targets require separate acceptance criteria.",
+        "check": "Separate fitment, pressure or flow criteria."
+      }
+    ]
+  },
+  {
+    "slug": "custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier",
+    "id": "P15",
+    "scope": "Throttle-body housings with mechanical interfaces.",
+    "drawing": "Provide the mating-shaft and throttle-plate details, with the motor envelope. Locate shaft bores from the airflow bore and assembly datums. Specify bearing and actuator fits, and clarify whether the order covers the housing or an assembled unit.",
+    "inspection": "Specify bore-size, shaft-alignment and mating-feature checks. Actuation and leakage tests require separate criteria and an agreed test procedure.",
+    "rfq": "Provide mating shaft and plate requirements, motor envelope, material and finish, and identify who evaluates the assembled prototype.",
+    "considerations": [
+      {
+        "title": "Shaft, bore and throttle-plate fit",
+        "body": "Define the main bore relative to the shaft and throttle plate; bore diameter alone is insufficient. Supply the mating components or approved interface drawings showing the shaft datum and required clearance or fit. Choose the fit designation for your design."
+      },
+      {
+        "title": "Housing supply and functional tests",
+        "body": "Identify the motor, gear and sealing features included in the supply. For an assembled actuation or leakage test, specify the assembly condition and procedure, with acceptance criteria. Confirm whether the test can be carried out and who is responsible."
+      }
+    ],
+    "intro": "The CAD reference shows a throttle-body form. Define the main bore, shaft and actuator interfaces from approved mating components; confirm housing or assembly supply.",
+    "notes": [
+      "Include the material and finish. Identify who evaluates the assembled prototype; machining the housing does not establish electronic control performance.",
+      "Check bearing and actuator fits against the model."
+    ],
+    "features": [
+      {
+        "title": "Shaft, bore and throttle-plate fit",
+        "body": "Define the main bore relative to the shaft and throttle plate; bore diameter alone is insufficient. Supply the mating components or approved interface drawings showing the shaft datum and required clearance or fit. Choose the fit designation for your design.",
+        "check": "Bore size, axis relationships and mating fit."
+      },
+      {
+        "title": "Housing supply and functional tests",
+        "body": "Identify the motor, gear and sealing features included in the supply. For an assembled actuation or leakage test, specify the assembly condition and procedure, with acceptance criteria. Confirm whether the test can be carried out and who is responsible.",
+        "check": "Component scope and separate actuation or leakage limits."
+      }
+    ]
+  },
+  {
+    "slug": "custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier",
+    "id": "P16",
+    "scope": "Curved intake runners with injector bosses and fuel-rail mounts. Locate these interfaces for engine-bay and mounting checks.",
+    "drawing": "Send the current STEP or IGES model, with injector and rail interface drawings. Reference the mounting features to the intake ports and assembly datums. Show installation, engine-bay and hood clearances so we can check machining access.",
+    "inspection": "Specify position and injector-alignment checks for prototype fitment. Include sealing criteria and any functional tests as separate requirements.",
+    "rfq": "Supply injector and rail interface drawings, installation clearances and the current manifold model revision.",
+    "intro": "Injector axes and fuel-rail mounts must be located relative to the curved runners and engine ports. The model also needs enough clearance for installation.",
+    "notes": [
+      "Send a STEP or IGES model to check machining access and engine-bay or hood clearance."
+    ],
+    "features": [
+      {
+        "title": "Runners & ports",
+        "body": "Define curved passages and port transitions in the model, with the required surface condition.",
+        "check": "Agreed runner and port profiles."
+      },
+      {
+        "title": "Injector & rail interfaces",
+        "body": "Locate injector bores and fuel-rail mounts from the assembly datums.",
+        "check": "Injector-axis and rail-mount position."
+      },
+      {
+        "title": "Clearance & installation",
+        "body": "Show nearby components and hood clearance. Agree installation and any pressure-test requirements separately.",
+        "check": "Fitment and separately defined functional criteria."
+      }
+    ]
+  },
+  {
+    "slug": "custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier",
+    "id": "P17",
+    "scope": "Billet plenums with internal transitions and a throttle mounting flange.",
+    "drawing": "Provide the internal geometry and mating-throttle details. Show transitions and runner interfaces, with fastener access and any split-line seal. Include the finish specification.",
+    "inspection": "Specify flange and passage checks, with appearance requirements where needed. Pressure ratings and sealing tests require their own conditions and acceptance limits.",
+    "rfq": "Provide the intended volume geometry, mating-throttle details and finish specification. A performance target alone does not define the part.",
+    "intro": "A billet plenum has a defined internal volume, with transitions to the throttle flange and intake runners. Split lines and fastener access must be shown in the assembly.",
+    "notes": [
+      "Provide the geometry needed to meet the design target."
+    ],
+    "features": [
+      {
+        "title": "Internal cavity",
+        "body": "Supply the complete cavity geometry and wall sections. Identify restricted machining access.",
+        "check": "Internal geometry from the approved model."
+      },
+      {
+        "title": "Port transitions",
+        "body": "Show the mating ports, sealing faces and fasteners in the same assembly context.",
+        "check": "Throttle and runner interface checks."
+      },
+      {
+        "title": "Finish & pressure requirements",
+        "body": "Specify exterior appearance separately from internal surface requirements. Agree any pressure test and its acceptance limits.",
+        "check": "Split-line seal and separate pressure criteria."
+      }
+    ]
+  },
+  {
+    "slug": "custom-cnc-machined-castings-transmission-housings-pump-bodies",
+    "id": "P18",
+    "scope": "Machined functional interfaces in a supplied or proposed cast housing.",
+    "drawing": "Send casting and finished-part drawings. Show machining allowance and datum targets, with the transfer from casting to machined datums. Identify blank supply, alloy and condition. Ask about 2D/3D model development if the drawings are incomplete.",
+    "inspection": "Set incoming-blank acceptance and responsibility for casting defects before machining. Specify dimensional checks from the finished-part datums, including any CMM verification. Identify the inspection stages required and agree pressure-integrity tests separately.",
+    "rfq": "Provide casting and finished drawings, alloy and condition, machining allowance and responsibility for blank supply.",
+    "considerations": [
+      {
+        "title": "Casting allowance and blank acceptance",
+        "body": "Supply casting and finished-part drawings showing datum targets and material available for removal. Agree who accepts the incoming blank and how to handle insufficient allowance or a casting defect at a seal face. Confirm these responsibilities before machining."
+      },
+      {
+        "title": "Internal features and inspection access",
+        "body": "Use sections and detail views to define splines, channels and bearing interfaces hidden from the exterior model. Specify gauges or reporting requirements for inaccessible features. Agree pressure-integrity or defect examinations separately from dimensional inspection."
+      }
+    ],
+    "intro": "Cast surfaces locate the blank before bores and sealing flanges are finish-machined. Internal splines, gear features and fluid channels need section views and suitable access.",
+    "notes": [
+      "If drawings are incomplete, discuss 2D/3D model development."
+    ],
+    "features": [
+      {
+        "title": "Casting allowance and blank acceptance",
+        "body": "Supply casting and finished-part drawings showing datum targets and material available for removal. Agree who accepts the incoming blank and how to handle insufficient allowance or a casting defect at a seal face. Confirm these responsibilities before machining.",
+        "check": "Incoming acceptance and sufficient allowance."
+      },
+      {
+        "title": "Internal features and inspection access",
+        "body": "Use sections and detail views to define splines, channels and bearing interfaces hidden from the exterior model. Specify gauges or reporting requirements for inaccessible features. Agree pressure-integrity or defect examinations separately from dimensional inspection.",
+        "check": "Specified internal checks and measurement access."
+      }
+    ]
+  },
+  {
+    "slug": "custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier",
+    "id": "P19",
+    "scope": "Stainless shafts and valve stems with secondary flats or holes.",
+    "drawing": "Send controlled part and assembly drawings. Define bore axes, flange faces, hole patterns, screw specifications and required direction-mark artwork. Identify supplied components and any hidden connection or sealing features. If the design includes working diameters, threads, sliding interfaces or off-axis milled features, specify fits, thread standards, angular references and surface condition.",
+    "inspection": "Agree bore-size, flange-face and mounting-pattern checks. Include runout or thread gauging where the controlled drawing requires it. Define marking orientation and appearance; assembly, leakage or actuation checks require their own conditions and acceptance limits.",
+    "rfq": "Include each component drawing, stainless grade and condition, material records, finish, hardware list and marking artwork. Identify the assembly and test responsibilities.",
+    "intro": "The source shows two flanged forms, a rotary handle, direction marks and separate screws. These do not establish the internal mechanism or complete valve supply.",
+    "notes": [
+      "Include the stainless grade and condition, operating environment and treatment.",
+      "Plan machining to control tool wear and work hardening."
+    ],
+    "features": [
+      {
+        "title": "Flange faces & bore axes",
+        "body": "Define each flange face, bore fit, face relationship and mounting pattern from common datums.",
+        "check": "Bore size, flange faces and hole positions."
+      },
+      {
+        "title": "Fasteners & direction marks",
+        "body": "Specify screws, countersinks, ON/OFF text and arrow artwork, including the required orientation and marking process.",
+        "check": "Marking orientation, appearance and screw specification."
+      },
+      {
+        "title": "Component & assembly scope",
+        "body": "List the machined pieces and purchased hardware. Provide any hidden interfaces on a drawing; actuation or sealing requirements need separate criteria.",
+        "check": "Agreed assembly scope and separate functional criteria."
+      }
+    ]
+  },
+  {
+    "slug": "custom-oem-cnc-machined-non-metallic-components-insulating-parts",
+    "id": "P20",
+    "scope": "Insulating plates and non-metallic wear components.",
+    "drawing": "State the exact grade and required properties. Locate slots and holes from assembly datums, and show pockets or barriers in the model. Include the loads and service environment.",
+    "inspection": "Specify dimensional and edge checks for the chosen material. Electrical or material tests require separate criteria.",
+    "rfq": "Include the service environment, loads and selected material or selection constraints, with any compliance documentation needs.",
+    "intro": "Slotted plates, insulating barriers and wear components are machined from polymer or composite stock. Material properties are specified for the operating conditions.",
+    "notes": [
+      "Include material-selection limits and any compliance documents required. Electrical suitability must be established for the application.",
+      "Use low-stress workholding and heat control suited to the non-metallic material."
+    ],
+    "features": [
+      {
+        "title": "Material & environment",
+        "body": "Specify the grade and relevant electrical, chemical or wear requirements for the application.",
+        "check": "Material documents and measurement condition."
+      },
+      {
+        "title": "Holes & thin sections",
+        "body": "Identify fragile sections and the relationships between holes and mounting faces.",
+        "check": "Hole, slot and working-face dimensions."
+      },
+      {
+        "title": "Assembly loads",
+        "body": "Show where the part is clamped or loaded. Agree fit and measurement conditions for the chosen material.",
+        "check": "Separately specified electrical or service tests."
+      }
+    ]
+  },
+  {
+    "slug": "custom-oem-cnc-machined-plastic-parts-manufacturer",
+    "id": "P21",
+    "scope": "For polymer rollers, seals, guides and structural components, select the material to suit the application.",
+    "drawing": "Identify the polymer grade and fillers. Define the milled or turned geometry, with interference fits and loads on the assembled part.",
+    "inspection": "Specify measurement conditions and mating dimensions. Include surface, cleanliness and material-handling requirements for the selected grade.",
+    "rfq": "Provide material designation, operating environment and the intended function; the listed polymers are not interchangeable specifications.",
+    "intro": "Milled and turned plastics are used for seals, wear plates and structural supports. Guides, gears and rollers also require a grade suited to their working surfaces.",
+    "notes": [
+      "State the operating environment and function. The polymer options have different properties and are not interchangeable.",
+      "Account for polymer temperature during machining."
+    ],
+    "features": [
+      {
+        "title": "Polymer grade",
+        "body": "State the polymer, fillers and material condition. Color alone does not specify the grade.",
+        "check": "Grade, fillers and stock condition."
+      },
+      {
+        "title": "Mating geometry",
+        "body": "Define the bores, slots and surfaces that guide or seal against another component.",
+        "check": "Fits in the agreed measurement state."
+      },
+      {
+        "title": "Measurement conditions",
+        "body": "Identify conditioning or temperature requirements where these affect acceptance of the dimensions.",
+        "check": "Surface, appearance or independent functional limits."
+      }
+    ]
+  },
+  {
+    "slug": "oem-precision-cnc-machined-casting-housing-structural-enclosures",
+    "id": "P22",
+    "scope": "Cast enclosures with ribs, cavities and bearing interfaces.",
+    "drawing": "Send the blank and finished-part models where available. Include casting condition and allowance, with wall sections and bearing-bore relationships. Mark accessible fixture surfaces and the areas left as cast.",
+    "inspection": "Specify bore-alignment and mating-face checks from the drawing datums. Set acceptance criteria for as-cast areas and identify the CMM reports required.",
+    "rfq": "Include casting condition, allowance and both blank and finished-part models where available.",
+    "intro": "Ribs and deep cavities restrict fixture access around the bearing bores of a cast enclosure. The drawing relates those bores to the mounting and mating faces.",
+    "notes": [],
+    "features": [
+      {
+        "title": "Ribs & fixture support",
+        "body": "Show the areas available for locating and clamping the casting.",
+        "check": "Support and retained cast surfaces."
+      },
+      {
+        "title": "Bearing bores",
+        "body": "Define bore relationships and fits from the machining datums.",
+        "check": "Bore positions from agreed datums."
+      },
+      {
+        "title": "Mounting faces",
+        "body": "Mark the faces to machine and the areas that must remain as cast.",
+        "check": "Wall and functional-interface criteria."
+      }
+    ]
+  },
+  {
+    "slug": "oem-precision-cnc-machined-casting-housings",
+    "id": "P23",
+    "scope": "Cast housings with machined central bores, splines and mating faces.",
+    "drawing": "Send blank details and available drawings. For reconstruction, include sample photographs and mating-part information, and identify features to retain or change. Define the controlling bore-to-face and spline dimensions before quotation. Confirm casting material and condition, with allowance and treatment requirements.",
+    "inspection": "Specify spline and bore-alignment checks using defined datums. Include any first-article, in-process, final or pre-shipment inspections needed for the housing.",
+    "rfq": "Send available drawings and blank details. Identify dimensions that still need confirmation before quotation.",
+    "intro": "The source shows a circular cover-like housing with projecting connections. Define internal geometry on the approved model; splines or pump functions are conditional requirements.",
+    "notes": [],
+    "features": [
+      {
+        "title": "Sample & mating parts",
+        "body": "Provide available drawings, sample photographs and information about the mating components.",
+        "check": "Defined internal interfaces from the controlled model."
+      },
+      {
+        "title": "Bores & splines",
+        "body": "Define internal geometry with sections and required inspection access.",
+        "check": "Connection and flange relationship."
+      },
+      {
+        "title": "Finished faces",
+        "body": "Agree the blank allowance and datum scheme before machining the mating surfaces.",
+        "check": "Incoming blank and approved drawing before machining."
+      }
+    ]
+  },
+  {
+    "slug": "precision-cnc-machined-castings-custom-oem-housings",
+    "id": "P24",
+    "scope": "Finish-machined cast housings for mechanical assembly.",
+    "drawing": "Send the casting specification and finished drawing. Include seal-face requirements and thread callouts, with bearing-fit limits. Distinguish stock allowance from finished wall thickness so the fixture can locate the irregular blank.",
+    "inspection": "Specify face, fit and thread checks. Set limits on exposed casting defects at functional surfaces, and identify the CMM or gauge records required.",
+    "rfq": "Include the casting specification, finished drawing, blank supply details and required inspection records.",
+    "intro": "Sealing faces, bearing fits and tapped mounting holes are finish-machined for assembly. Their positions are referenced to the casting datums.",
+    "notes": [
+      "Identify who supplies the casting.",
+      "Irregular-part fixtures locate the blank against agreed datums."
+    ],
+    "features": [
+      {
+        "title": "Seal faces",
+        "body": "Mark flatness, texture and mating requirements on the relevant faces.",
+        "check": "Seal-face geometry."
+      },
+      {
+        "title": "Bearing fits",
+        "body": "Locate fitted bores from the agreed casting and machining datums.",
+        "check": "Bearing-fit limits."
+      },
+      {
+        "title": "Mounting features",
+        "body": "Specify threads, hole relationships and the wall geometry remaining after machining.",
+        "check": "Thread and mounting-pattern checks."
+      }
+    ]
+  },
+  {
+    "slug": "precision-cnc-machined-castings-manufacturer",
+    "id": "P25",
+    "scope": "Transmission and pump blanks with internal features and flow paths.",
+    "drawing": "Send section views or the approved model showing internal features located from the flange datums. Include interface limits and proposed measurement access. Identify the blank source and alloy condition, and whether a complete model or a sample is available.",
+    "inspection": "Define incoming-blank acceptance and material verification. Specify CMM checks and dimensional acceptance limits. Fluid-integrity testing is agreed separately.",
+    "rfq": "Clarify blank origin, alloy condition and whether the project starts from a complete model or a sample needing definition.",
+    "intro": "Use section views to define any hidden interfaces, spline or flow-path requirements. The exterior photograph alone does not establish those features.",
+    "notes": [],
+    "features": [
+      {
+        "title": "Flange datums",
+        "body": "Locate internal and external features from clearly defined flange references.",
+        "check": "Access for hidden-interface measurement."
+      },
+      {
+        "title": "Hidden interfaces",
+        "body": "Supply sections for splines, channels and other geometry that cannot be judged from an exterior photograph.",
+        "check": "Position from flange datums."
+      },
+      {
+        "title": "Inspection access",
+        "body": "Identify the gauges or measurement access needed for internal features. Agree fluid-integrity tests separately.",
+        "check": "Incoming documents and separate fluid-integrity criteria."
+      }
+    ]
+  },
+  {
+    "slug": "precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances",
+    "id": "P26",
+    "scope": "Plastic parts with thin walls and deep pockets. Set acceptance limits for each critical feature; no general tolerance is specified for this example.",
+    "drawing": "Send the model and polymer grade. Dimension walls and pocket depths, with hole relationships and mating interfaces. State the condition in which dimensions must be met, and identify permitted radius or thickness changes.",
+    "inspection": "Specify measurement conditions and the dimensional checks for assembly. Include surface requirements and any stability criteria for the selected polymer.",
+    "rfq": "Provide the model, selected grade, operating and measurement conditions and any permitted wall or radius changes.",
+    "considerations": [
+      {
+        "title": "Polymer grade and measurement conditions",
+        "body": "Specify the polymer grade and fillers, with the operating environment. State any required moisture conditioning or measurement temperature on the drawing or inspection request. Agree the measurement conditions under which the specified fit dimensions must be met."
+      },
+      {
+        "title": "Thin sections and assembly loads",
+        "body": "Identify the thin sections and pocket walls essential to function, with the hole relationships. Mark where radius or thickness changes may be proposed. Include insertion loads or clamping constraints. Agree any geometry changes and inspection arrangements; achievable tolerances depend on the drawing and measurement conditions."
+      }
+    ],
+    "intro": "The source shows long rectangular components with repeated bores. Thin walls, deep pockets or angled holes are additional drawing requirements rather than observed features.",
+    "notes": [
+      "Set tolerances for each critical feature. No general tolerance is specified for this example."
+    ],
+    "features": [
+      {
+        "title": "Polymer & measurement state",
+        "body": "Specify the exact grade and fillers, operating environment, moisture conditioning and measurement temperature.",
+        "check": "Conditioning and temperature for dimensional acceptance."
+      },
+      {
+        "title": "Repeated bore relationships",
+        "body": "Locate each bore from common datums and define fits, depths, pitch and end relationships.",
+        "check": "Bore sizes, depths and relative positions."
+      },
+      {
+        "title": "Working surfaces & design limits",
+        "body": "Specify working faces, insertion loads and clamping constraints. Show any required thin walls or pockets, and identify permitted radius or thickness changes.",
+        "check": "Support, surface and permitted-geometry criteria."
+      }
+    ]
+  },
+  {
+    "slug": "precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier",
+    "id": "P27",
+    "scope": "For threaded fittings, contacts and heat-transfer features, the intended function determines the alloy and finish requirements.",
+    "drawing": "Provide mating-part details. Distinguish contact areas from fluid seals, and include thread and fastening specifications. Mark dimensions that apply after plating or other finishing.",
+    "inspection": "Specify dimensional and thread-gauge checks, with burr and surface limits. Conductivity and pressure tests require separate acceptance criteria suited to the function.",
+    "rfq": "Supply alloy designation, any material restrictions, plating requirements and mating-part information.",
+    "considerations": [
+      {
+        "title": "Electrical contacts and fluid fittings",
+        "body": "Electrical contacts and fluid fittings can have similar turned shapes but need different acceptance checks. State whether conductivity, sealing, mechanical attachment or heat transfer controls the design. Provide alloy requirements and material restrictions; copper and brass are not interchangeable specifications."
+      },
+      {
+        "title": "Contact areas and plating",
+        "body": "Mark contact or seal areas and specify edge requirements, with any plating specification and dimensions to check after plating. Agree the conditions and limits for any functional test. No measured electrical or pressure performance is available for this example."
+      }
+    ],
+    "intro": "Copper and brass components may serve as electrical contacts, thermal parts or fluid fittings. The function determines the alloy and the surfaces requiring inspection.",
+    "notes": [
+      "State the alloy designation and any material restrictions.",
+      "Account for soft-metal deformation when setting feeds and deburring."
+    ],
+    "features": [
+      {
+        "title": "Electrical contacts and fluid fittings",
+        "body": "Electrical contacts and fluid fittings can have similar turned shapes but need different acceptance checks. State whether conductivity, sealing, mechanical attachment or heat transfer controls the design. Provide alloy requirements and material restrictions; copper and brass are not interchangeable specifications.",
+        "check": "Function-specific material and dimensional criteria."
+      },
+      {
+        "title": "Contact areas and plating",
+        "body": "Mark contact or seal areas and specify edge requirements, with any plating specification and dimensions to check after plating. Agree the conditions and limits for any functional test. No measured electrical or pressure performance is available for this example.",
+        "check": "Plating, edge and separate functional-test limits."
+      }
+    ]
+  },
+  {
+    "slug": "precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier",
+    "id": "P28",
+    "scope": "Mixed pilot batches may combine turned, milled and cast-blank components.",
+    "drawing": "Send a part list giving each part number and revision, with material and quantity. Identify the machining processes required and any components that must fit together.",
+    "inspection": "Specify first-article checks and later sampling by part number. Include batch-control and reporting requirements in the quotation request.",
+    "rfq": "Provide the part list, release quantities and document needs, and distinguish forecast demand from the initial order.",
+    "intro": "A pilot build may combine milled housings with turned parts and machined castings. Each component needs its own specification, with shared assembly interfaces identified.",
+    "notes": [
+      "Give quantities for the initial order separately from forecast demand.",
+      "Mixed-part orders use standardized fixtures and revision control."
+    ],
+    "features": [
+      {
+        "title": "Part & revision list",
+        "body": "Assign an approved drawing revision to every part number.",
+        "check": "Approved drawing per part number."
+      },
+      {
+        "title": "Matched interfaces",
+        "body": "Identify components that assemble together and the dimensions controlling their fit.",
+        "check": "Shared-interface fits defined in the BOM."
+      },
+      {
+        "title": "Release quantities",
+        "body": "Give the quantity and requested release date for each part, with inspection and traceability needs.",
+        "check": "First-article checks, sampling and release records."
+      }
+    ]
+  },
+  {
+    "slug": "precision-machining-for-functional-plastic-blocks-structural-components",
+    "id": "P29",
+    "scope": "Thick polymer blocks used as guides or equipment supports.",
+    "drawing": "Send the current model and drawing, with the central bore, four surrounding holes, repeated curved edge recesses and full thickness located from common datums. Include the exact polymer grade, fillers, working loads and mounting arrangement.",
+    "inspection": "Agree bore sizes, hole positions, thickness and working-edge profile checks. Define flatness or parallelism only where required, with conditioning, temperature and support during measurement stated.",
+    "rfq": "Include the circular model, bore pattern, working-edge geometry, thickness, exact polymer grade, operating loads and agreed measurement state.",
+    "intro": "The original reference is circular. Define its bore pattern, curved working edge and thickness from the controlled model.",
+    "notes": [
+      "Specify assembly loads and contact forces around the bore, holes and curved working edges when planning workholding."
+    ],
+    "features": [
+      {
+        "title": "Central bore & four surrounding holes",
+        "body": "Define the central bore and each surrounding hole from the same datums, with diameters, depths and positional limits.",
+        "check": "Bore sizes and four-hole positions."
+      },
+      {
+        "title": "Curved working edges & thickness",
+        "body": "Dimension the repeated curved recesses and the complete thickness. Identify working edges, contact surfaces and any permitted edge treatment.",
+        "check": "Thickness and specified working-edge profiles."
+      },
+      {
+        "title": "Material & measurement condition",
+        "body": "Specify the polymer grade, fillers, operating loads and clamping arrangement. Agree temperature, conditioning and support during measurement.",
+        "check": "Dimensions in the agreed conditioning and support state."
+      }
+    ]
+  },
+  {
+    "slug": "precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures",
+    "id": "P30",
+    "scope": "Short-run aluminum enclosures with pockets, thin walls and compound-angle features, starting from billet or a cast blank.",
+    "drawing": "Send a model showing pocket depths and wall sections, with angled features referenced to mating datums. Identify stock form and alloy condition, and include quantity per revision and the finish specification.",
+    "inspection": "Specify flatness and hole-position limits. Include batch sampling or reporting requirements, and identify dimensions accepted after finishing.",
+    "rfq": "Provide alloy and condition, stock assumptions, quantity per revision and the finish specification.",
+    "intro": "The source shows open housings with cavities and side features. If your enclosure has compound-angle geometry, provide the model and datums defining it.",
+    "notes": [
+      "Plan stress relief and consistent fixtures for repeated thin-wall enclosure setups."
+    ],
+    "features": [
+      {
+        "title": "Cavities & mounting interfaces",
+        "body": "Locate pocket depths, side openings and mounting features from the assembly datums. Include stock form and alloy condition.",
+        "check": "Positions from specified datums."
+      },
+      {
+        "title": "Walls & any angled features",
+        "body": "Specify wall sections and support areas. If compound-angle features are required, define their faces and relationships in the model.",
+        "check": "Wall, depth and any defined angled-feature checks."
+      },
+      {
+        "title": "Repeat setups & final condition",
+        "body": "Give quantities per revision and the feature limits to retain through repeated setups. Identify dimensions accepted after exterior treatment.",
+        "check": "Post-finish dimensions and batch records."
+      }
+    ]
+  },
+  {
+    "slug": "precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier",
+    "id": "P31",
+    "scope": "Stainless shafts and threaded fittings. Confirm the grade; these examples are not all identified as 316L.",
+    "drawing": "Provide part and assembly drawings showing the bore and flange axes, mounting pattern, fitted dimensions and component list. Include direction-mark artwork and any hidden threads or seals. State the stainless grade and condition, with final dimensions after any treatment.",
+    "inspection": "Agree flange-face, bore, position, fitted-size and marking checks. Where required, include runout and thread-gauge checks against the specified axes and final surface condition. Request material and treatment records as needed. Any actuation, leakage, force or cycle test needs a separately agreed procedure and acceptance limits.",
+    "rfq": "Include the chosen grade and service environment. State the surface requirements and any material or treatment documents you need.",
+    "considerations": [
+      {
+        "title": "Stainless grade, condition and documents",
+        "body": "The listed stainless grades are alternatives. Specify the exact grade and condition for your part. Include treatment requirements and the service environment. Tell us which material or treatment documents you need. Confirm that they are available and can be traced to the material or parts supplied."
+      },
+      {
+        "title": "Working diameters and shaft datums",
+        "body": "Identify which working diameters share an axis and which shoulders control axial location. Specify the required runout or other geometric control using the drawing datum system. If surface treatment is requested, identify which fits and thread features must satisfy acceptance after treatment."
+      }
+    ],
+    "intro": "The source shows a rotary component and a separate flange. The drawing must define the internal interfaces, exact grade and supplied assembly.",
+    "notes": [
+      "Include the service environment and required material or treatment records. The listed examples are not all identified as 316L.",
+      "Choose tooling for the stainless grade, with heat control and deburring planned for the part."
+    ],
+    "features": [
+      {
+        "title": "Rotary body & separate flange",
+        "body": "Locate the bore and flange axes, mounting holes and contact faces from the assembly datums. Define any fitted diameters and axial shoulders on the drawing.",
+        "check": "Bore, flange-face and mounting-pattern checks."
+      },
+      {
+        "title": "Markings & component supply",
+        "body": "Identify the handle, screws and any other supplied items. Provide ON/OFF and arrow artwork with orientation and appearance requirements.",
+        "check": "Marking orientation and agreed assembly scope."
+      },
+      {
+        "title": "Stainless & final condition",
+        "body": "Specify the exact grade and condition, service environment and material records. Define acceptance after any passivation or electropolishing.",
+        "check": "Traceable records and final dimensions after treatment."
+      }
+    ]
+  },
+  {
+    "slug": "precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier",
+    "id": "P32",
+    "scope": "Locking pins and mating control hardware.",
+    "drawing": "Send an assembly drawing showing the mounting thread and mating hole. Define pin travel and engagement, and include spring requirements where applicable. State the assembly to be supplied.",
+    "inspection": "Specify fit, alignment and thread-gauge checks, with the required surface finish. Actuation-force and cycle tests need separate criteria.",
+    "rfq": "Supply the assembly drawing, spring requirements if applicable and the responsibility for functional validation.",
+    "intro": "A locking pin must match the mating hole and provide the specified engagement and travel. The order may cover a machined component or a complete spring-loaded assembly.",
+    "notes": [
+      "Identify who carries out functional validation."
+    ],
+    "features": [
+      {
+        "title": "Engagement end",
+        "body": "Define the pin diameter, engagement length and shape of the mating feature.",
+        "check": "Pin fit, engagement and alignment."
+      },
+      {
+        "title": "Mounting & adjustment",
+        "body": "Specify the mounting thread, shoulder location and installation clearance.",
+        "check": "Mounting thread and installed position."
+      },
+      {
+        "title": "Assembly scope",
+        "body": "Identify spring, handle and other supplied components, with any travel or force requirements to be agreed.",
+        "check": "Separate travel, force and cycle-test criteria."
+      }
+    ]
+  },
+  {
+    "slug": "small-batch-cnc-machining-manufacturer-complex-aluminum-housings",
+    "id": "P33",
+    "scope": "Industrial and electronic enclosures with deep cavities and sealing interfaces.",
+    "drawing": "Locate mounting points and closure interfaces from the assembly datums. Mark seal faces and thin sections, with cosmetic surfaces and masked fits. Include alloy, temper and finish requirements.",
+    "inspection": "Specify flatness, mounting-pattern and finish checks, with the batch acceptance plan. Any environmental test or ingress-protection rating requires separate test criteria.",
+    "rfq": "Provide alloy, temper, lid or gasket interfaces, finish requirements and any requested environmental testing.",
+    "considerations": [
+      {
+        "title": "Lid, gasket and mounting fit",
+        "body": "Provide the mating lid or gasket interface and identify the mounting datums. Specify the faces that control closure, with any fitted bores or threads. For environmental sealing, supply the target test and acceptance criteria. Housing geometry alone does not establish an ingress-protection rating."
+      },
+      {
+        "title": "Finish checks and batch reports",
+        "body": "Mark cosmetic exterior surfaces and masked interfaces, with dimensions to check after finishing. State which reports you need for the first article and later batches, with quantities for each revision. Confirm the sample and inspection plan with us before ordering."
+      }
+    ],
+    "intro": "The lid or gasket interface controls enclosure closure. Deep cavities and thin walls require support while mounting and sealing surfaces are machined.",
+    "notes": [
+      "Plan stress relief and controlled workholding for thin-wall machining."
+    ],
+    "features": [
+      {
+        "title": "Lid, gasket and mounting fit",
+        "body": "Provide the mating lid or gasket interface and identify the mounting datums. Specify the faces that control closure, with any fitted bores or threads. For environmental sealing, supply the target test and acceptance criteria. Housing geometry alone does not establish an ingress-protection rating.",
+        "check": "Closure fit and separately specified environmental test."
+      },
+      {
+        "title": "Finish checks and batch reports",
+        "body": "Mark cosmetic exterior surfaces and masked interfaces, with dimensions to check after finishing. State which reports you need for the first article and later batches, with quantities for each revision. Confirm the sample and inspection plan with us before ordering.",
+        "check": "Appearance, masked fits and batch records."
+      }
+    ]
+  },
+  {
+    "slug": "small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv",
+    "id": "P34",
+    "scope": "Repeat small batches with material and finish specified for each part number. Listed options are aluminum, stainless steel, brass and engineering plastics.",
+    "drawing": "List the material, drawing revision and order quantity for each part number. Explain the functional requirements and identify parts that must fit together.",
+    "inspection": "Agree how the first parts will be approved and how later batches will be sampled and traced. State what the first-article report should contain and which features to check during production.",
+    "rfq": "Include quantities per part and release, with material choices and reporting needs. Give your requested dates so availability can be checked.",
+    "intro": "The source shows repeated turned forms. Mixed materials and matched components are defined by the bill of materials, rather than inferred from this photograph.",
+    "notes": [
+      "Include requested dates.",
+      "Coordinate setup changes across the parts in a high-mix, small-batch order."
+    ],
+    "features": [
+      {
+        "title": "Material per component",
+        "body": "Assign a material grade and condition to each part rather than one material for the whole batch.",
+        "check": "Material records per component."
+      },
+      {
+        "title": "Revision control",
+        "body": "Identify approved drawings, matched components and any changes between releases.",
+        "check": "Approved baseline and change authority."
+      },
+      {
+        "title": "Inspection per release",
+        "body": "Agree initial approval evidence, later sampling and the traceability references for each batch.",
+        "check": "First approval, sampling and traceability per release."
+      }
+    ]
+  }
+]

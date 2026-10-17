@@ -1,0 +1,11 @@
+---
+import {orderDeliverables} from '../data/orderDeliverables';
+const {compact=false}=Astro.props;
+---
+<section class:list={['container','section','order-deliverables',{'order-deliverables-compact':compact}]} id="order-deliverables" aria-labelledby="deliverables-heading">
+ <div class="section-heading"><h2 id="deliverables-heading">What comes with<br/>your machining order</h2><p class="section-intro">From drawing review to shipment, we provide the services and records specified for your part. The quotation identifies what is included, any separately priced work and the approval steps.</p></div>
+ <div class="deliverable-list">{orderDeliverables.map((item,index)=><article><span class="delivery-number">0{index+1}</span><div><p class="delivery-stage">{item.stage}</p><h3>{item.title}</h3><p>{item.text}</p>{!compact&&<p class="delivery-input"><strong>Your input:</strong> {item.input}</p>}<a href={item.href}>Review {index===0?'quotation scope':index===3?'packing and delivery':'documentation requirements'}</a></div></article>)}</div>
+</section>
+<style>
+ .order-deliverables{border-top:1px solid var(--border)}.deliverable-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 56px}.deliverable-list article{display:grid;grid-template-columns:28px minmax(0,1fr);gap:16px;border-top:1px solid var(--border);padding-top:24px}.delivery-number{font-size:14px;color:var(--red);padding-top:2px}.delivery-stage{font-size:14px;color:var(--muted);margin-bottom:10px}.deliverable-list h3{font-size:24px;line-height:1.25;margin-bottom:14px}.deliverable-list p:not(.delivery-stage){font-size:16px;line-height:1.7;margin-bottom:16px}.delivery-input{color:var(--muted)}.deliverable-list a{display:inline-block;font-size:15px;text-decoration:underline;text-underline-offset:4px;padding-block:8px}.deliverable-list a:hover{color:var(--red)}@media(max-width:760px){.deliverable-list{grid-template-columns:1fr;gap:28px}}
+</style>

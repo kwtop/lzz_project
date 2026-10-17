@@ -1,0 +1,45 @@
+---
+import {productImage,productSrcset} from '../data/refinedImages';
+import Layout from '../layouts/Layout.astro';
+import Arrow from '../components/Arrow.astro';
+import EvidenceImage from '../components/EvidenceImage.astro';
+import {photo} from '../data/evidence';
+import '../styles/about-documentary.css';
+import {applications,companyHistory} from '../data/company';
+import CompanyDocuments from '../components/CompanyDocuments.astro';
+import CompanyNetwork from '../components/CompanyNetwork.astro';
+import DisclosureAnchors from '../components/DisclosureAnchors.astro';
+import ApplicationContexts from '../components/ApplicationContexts.astro';
+import catalog from '../data/catalog.json';
+import {productTitle} from '../data/presentation';
+const featured=[
+ {slug:'custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier'},
+ {slug:'precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier'},
+ {slug:'precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances'},
+].map(item=>({...item,product:catalog.products.find(p=>p.slug===item.slug)!}));
+---
+
+<Layout title="About LZZ: precision manufacturing in Hangzhou" description="Meet LZZ Precision in Hangzhou: company history, custom machining, application examples and the people behind prototypes and small production batches." cta={false}>
+ <div class="ab-page">
+  <DisclosureAnchors/>
+  <section class="ab-hero">
+   <img class="ab-hero-photo" src={photo('visitor-part-discussion').src} srcset={photo('visitor-part-discussion').srcset} sizes="100vw" alt={photo('visitor-part-discussion').alt} width="1600" height="1067" fetchpriority="high"/>
+   <div class="ab-shade"></div>
+   <div class="ab-wrap ab-hero-inner"><div class="ab-hero-copy"><p class="ab-company-name">Hangzhou Lizhizao Precision Machinery Co., Ltd.</p><h1>The people behind<br/>your custom parts</h1><p>Custom CNC machining in Hangzhou, China.<br/>Prototypes and small production batches from drawings or samples, with orders starting at 1 piece.</p><div class="ab-actions"><a class="ab-button" href="#company-overview">Meet LZZ <Arrow size={18}/></a><a class="ab-secondary" href="/factory/">Inside our factory</a></div></div><p class="ab-hero-caption">Workshop visit and part discussion · January 2025 company archive.</p></div>
+  </section>
+  <div class="ab-facts-band"><dl class="ab-wrap ab-facts"><div><dt>Founded in Hangzhou</dt><dd>2017</dd></div><div><dt>Production facility</dt><dd>1,500 m²</dd></div><div><dt>CNC machines</dt><dd>40+</dd></div><div><dt>Prototypes and small batches</dt><dd>From 1 piece</dd></div></dl></div>
+  <section class="ab-wrap ab-section ab-overview" id="company-overview"><figure id="company-factory"><EvidenceImage id="workshop-aisle" sizes="(max-width:760px) 90vw, 54vw"/><figcaption>Inside the LZZ machining workshop in Hangzhou.</figcaption></figure><div><p class="ab-eyebrow">LZZ Precision</p><h2>Custom CNC machining<br/>at LZZ</h2><p>LZZ is an ISO 9001-certified CNC machining company. Our workshop combines milling, turning and multi-axis machining with dimensional inspection.</p><div class="ab-actions"><a class="ab-button" href="/resources/how-we-work/">How we work <Arrow size={18}/></a><a class="ab-secondary" href="/factory/">Inside our factory</a></div><a class="ab-inline" href="/about/#documents">Company documents and certificate details</a></div></section>
+  <section class="ab-history-band" id="company-history"><div class="ab-wrap ab-history"><div><h2>How our capabilities developed</h2></div><ol>{companyHistory.map((stage,index)=><li><span>{String(index+1).padStart(2,'0')}</span><h3>{stage.title}</h3><p>{stage.text}</p></li>)}</ol></div></section>
+  <section class="ab-wrap ab-section" id="applications"><h2>Applications and example parts</h2><p class="ab-intro">We manufacture custom parts for a range of industries. Send your drawing, intended use and applicable standards so we can review the requirements for your project.</p><div class="ab-parts" id="part-studies">{featured.map(item=><article><img src={productImage(item.product)} srcset={productSrcset(item.product)} sizes="(max-width:760px) 90vw, 380px" width="800" height="800" loading="lazy" alt={productTitle(item.product)}/><h3>{productTitle(item.product)}</h3><a class="ab-secondary" href={'/products/'+item.slug+'/#engineering-review'}>Read the engineering notes <Arrow size={16}/></a></article>)}</div><div class="ab-application-title"><h3>Application families</h3><p>Brochure examples, not named customer projects or supply records.</p></div><div class="ab-applications">{applications.map(application=><details><summary>{application.title}</summary><p>{application.description}</p><a class="ab-secondary" href={application.href}>{application.label}<Arrow size={16}/></a></details>)}</div><p class="ab-note">Suitability for the intended use and any required industry approval or certification must be confirmed separately.</p><details class="ab-extra"><summary>Explore application illustrations</summary><ApplicationContexts/></details></section>
+  <section class="ab-wrap ab-people" aria-labelledby="people-heading"><div class="ab-heading"><div><h2 id="people-heading">People and moments</h2><p>Our team, workshop visitors and company life.</p></div><a class="ab-secondary" href="/about/company-news/">Company News <Arrow size={18}/></a></div><div class="ab-people-photos"><figure><EvidenceImage id="workshop-visit" sizes="(max-width:760px) 90vw, 48vw"/><figcaption>Workshop visit · January 2025 source folder. No customer endorsement is implied.</figcaption></figure><figure><EvidenceImage id="team-2025-evening-group" sizes="(max-width:760px) 90vw, 48vw"/><figcaption>Team gathering · May 2025 original photograph.</figcaption></figure></div></section>
+  <div class="ab-wrap"><details class="ab-extra ab-background"><summary>Company background and connections</summary><CompanyNetwork/></details></div>
+  <CompanyDocuments/>
+  <section class="ab-closing"><div class="ab-wrap ab-closing-inner"><div><h2>Have a part in mind?</h2><p>Send your drawing, material and quantity so we can review the part and prepare a quote.</p><div class="ab-actions"><a class="ab-button" href="/quote/">Prepare RFQ email</a><a class="ab-inline" href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a></div></div><figure data-image-origin="AI-generated"><img src="/media/editorial/how-we-work-hero-v2-800.webp" alt="Illustration of a machined aluminum housing on an engineering drawing" width="800" height="350" loading="lazy"/><figcaption>Process illustration · Not a specific customer project.</figcaption></figure></div></section>
+ </div>
+</Layout>
+
+<script is:inline>
+ const legacyAboutDestinations={'company-archive':'/about/company-news/','contact':'/contact/'};
+ const moveLegacyAboutLink=()=>{const destination=legacyAboutDestinations[location.hash.slice(1)];if(destination)location.replace(destination);};
+ moveLegacyAboutLink();window.addEventListener('hashchange',moveLegacyAboutLink);
+</script>

@@ -1,0 +1,145 @@
+{
+  "canonical": "https://www.lzz-cnc.com/capabilities/",
+  "description": "Explore LZZ CNC milling, turning, 5-axis machining, material options, prototype machining and small-batch production.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Find the right routefor your part"
+    },
+    {
+      "tag": "H2",
+      "text": "Five machining services"
+    },
+    {
+      "tag": "H3",
+      "text": "CNC milling"
+    },
+    {
+      "tag": "H3",
+      "text": "CNC turning"
+    },
+    {
+      "tag": "H3",
+      "text": "5-axis machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Plastic machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Casting machining"
+    },
+    {
+      "tag": "H2",
+      "text": "Choose a material"
+    },
+    {
+      "tag": "H3",
+      "text": "Stainless steel machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Plastic machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Copper & brass machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Aluminum machining"
+    },
+    {
+      "tag": "H2",
+      "text": "Plan an order"
+    },
+    {
+      "tag": "H3",
+      "text": "Prototype machining"
+    },
+    {
+      "tag": "H3",
+      "text": "Low-volume production"
+    },
+    {
+      "tag": "H2",
+      "text": "From sample to part"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "#machining-processes",
+      "text": "Five machining services"
+    },
+    {
+      "href": "#materials",
+      "text": "Choose a material"
+    },
+    {
+      "href": "#production-stages",
+      "text": "Plan an order"
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "CNC milling\n\nPockets, flat faces and hole patterns in custom components."
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "CNC turning\n\nShafts, sleeves, discs and concentric features."
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "5-axis machining\n\nAngled faces and features requiring access from several directions."
+    },
+    {
+      "href": "/capabilities/plastic-machined-parts/",
+      "text": "Plastic machining\n\nMachined polymer parts with grade and fit confirmed on the drawing."
+    },
+    {
+      "href": "/capabilities/casting-machining/",
+      "text": "Casting machining\n\nSecondary machining of castings to defined datums and finished features."
+    },
+    {
+      "href": "/capabilities/stainless-steel-cnc-parts/",
+      "text": "Stainless steel machining"
+    },
+    {
+      "href": "/capabilities/plastic-machined-parts/",
+      "text": "Plastic machining"
+    },
+    {
+      "href": "/capabilities/copper-brass-cnc-parts/",
+      "text": "Copper & brass machining"
+    },
+    {
+      "href": "/capabilities/aluminum-cnc-parts/",
+      "text": "Aluminum machining"
+    },
+    {
+      "href": "/capabilities/prototype-machining/",
+      "text": "Prototype machining"
+    },
+    {
+      "href": "/capabilities/low-volume-production/",
+      "text": "Low-volume production"
+    },
+    {
+      "href": "/quote/?part=Sample-to-part%20support",
+      "text": "Discuss your sample"
+    }
+  ],
+  "main": "Find the right route\nfor your part\nFive machining services\nChoose a material\nPlan an order\nFive machining services\n\nExplore CNC milling, turning, five-axis machining, plastic machining and casting machining.\n\nCNC milling\n\nPockets, flat faces and hole patterns in custom components.\n\nCNC turning\n\nShafts, sleeves, discs and concentric features.\n\n5-axis machining\n\nAngled faces and features requiring access from several directions.\n\nPlastic machining\n\nMachined polymer parts with grade and fit confirmed on the drawing.\n\nCasting machining\n\nSecondary machining of castings to defined datums and finished features.\n\nChoose a material\n\nStart with the specified alloy or polymer grade; confirm the exact material for your part.\n\nStainless steel machining\nPlastic machining\nCopper & brass machining\nAluminum machining\nPlan an order\n\nOrders start at 1 piece. Compare prototype and bridge-production needs, then share your drawing and quantity.\n\nPrototype machining\nLow-volume production\nFrom sample to part\nReview the sample. Share the part, mating components and features to retain or change.\nReconstruct the model. Discuss scanning and 2D/3D modeling for a manufacturability review.\nApprove the requirements. Confirm material, datums, tolerances and inspection criteria before machining.\nDiscuss your sample",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/capabilities/#webpage\",\"url\":\"https://www.lzz-cnc.com/capabilities/\",\"name\":\"CNC machining capabilities\",\"description\":\"Explore LZZ CNC milling, turning, 5-axis machining, material options, prototype machining and small-batch production.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/capabilities/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/capabilities/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"CNC machining capabilities\",\"item\":\"https://www.lzz-cnc.com/capabilities/\"}]}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "CNC machining capabilities | LZZ Precision",
+  "url": "http://127.0.0.1:4323/capabilities/",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "capabilities-desktop"
+}

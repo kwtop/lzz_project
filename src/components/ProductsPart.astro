@@ -1,0 +1,16 @@
+---
+import ProductsImage from './ProductsImage.astro';
+import ProductDetailModule from './ProductDetailModule.astro';
+import {partPlan,partVisual,partDisplayTitle,partDisplayLead,type PartRecord} from '../data/productsEditorial';
+import '../styles/products-redesign.css';
+import ProductsPartRedesigned from './ProductsPartRedesigned.astro';
+import {isRedesigned} from '../data/redesignRollout';
+interface Props{product:PartRecord;quoteHref:string}
+const {product,quoteHref}=Astro.props;
+const plan=partPlan(product.slug),reading={lead:partDisplayLead(product).split(/(?<=\.)\s/)[0]},title=partDisplayTitle(product);
+---
+{isRedesigned(Astro.url.pathname)?<ProductsPartRedesigned product={product} quoteHref={quoteHref}/>:<article class:list={['pr-page','pr-part','pr-part-'+plan.kind]} data-part={product.slug} data-layout={plan.kind}><div class="pr-wrap">
+ <section class:list={['pr-hero','pr-part-hero','pr-part-hero-split']} aria-labelledby="part-title"><header><h1 id="part-title">{title}</h1><p class="pr-lead">{reading.lead}</p><a class="pr-primary" href={quoteHref}>Prepare RFQ email</a></header><ProductsImage {...partVisual(product)} eager sizes="(max-width:760px) calc(100vw - 44px), 48vw" origin="ai-presentation"/><dl class="pr-order-conditions" id="order-conditions"><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7–14 business days</dd></div><div class="pr-condition-note"><dt class="sr-only">Production terms</dt><dd><p>After drawing and order confirmation, including finishing. Shipping time is additional.</p></dd></div></dl></section>
+ <nav class="pr-reading-nav" aria-label="On this part page"><a href="#part-information">Material &amp; process</a><a href="#fit-review">Part details</a><a href="#drawing-review">Drawing &amp; inspection</a><a href="#reference-views">Reference images</a><a href="#related-reading">Related machining</a></nav>
+ {plan.modules.map(module=><ProductDetailModule product={product} module={module} quoteHref={quoteHref}/>)}
+ </div></article>}

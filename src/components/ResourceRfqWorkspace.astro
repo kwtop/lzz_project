@@ -1,0 +1,21 @@
+---
+import ResourceModule from './ResourceModule.astro';
+import ResourceLinks from './ResourceReadingLinks.astro';
+import {contentGuides} from '../data/contentGuides';
+const guide=contentGuides['rfq-checklist'];
+const brief=guide.sections.find(section=>section.id==='rfq-template')!;
+const checks=[
+ ['Files','STEP model and controlled 2D drawing. Identify units, part number and revision.'],
+ ['Material & finish','Grade, condition, treatment, protected surfaces and permitted alternatives.'],
+ ['Quantity','Initial quantity per part number and expected repeat requirements.'],
+ ['Critical features','Fits, datums, threads, tolerances and acceptance or inspection records.'],
+ ['Delivery','Destination, required arrival date, packing and requested shipping basis.'],
+ ['Open decisions','Unresolved specifications, alternatives and any confidentiality requirements.'],
+];
+---
+<section class="res-wrap res-rfq-workspace" aria-label="RFQ checklist and inquiry template" data-resource-module>
+ <div class="res-rfq-checks"><h2>What to include</h2><ul>{checks.map(([title,text])=><li><h3>{title}</h3><p>{text}</p></li>)}</ul><a class="res-text-link" href="#rfq-detail-fields">Drawing, inspection and documentation details</a></div>
+ <div class="res-rfq-template" id="rfq-template"><h2 id="rfq-template-heading">Copy the inquiry brief</h2><div class="res-prose" set:html={brief.html}/><div class="res-actions"><button class="res-link res-copy-button" type="button" data-copy-rfq>Copy inquiry brief</button><a class="res-link" href="/downloads/cnc-rfq-brief.txt" download>Download brief</a><span class="res-copy-status" role="status" aria-live="polite"/></div></div>
+</section>
+<details class="res-wrap res-rfq-details" id="rfq-detail-fields"><summary>Drawing, inspection and documentation details</summary><div>{guide.sections.filter(section=>section.id!=='rfq-template').map(section=><ResourceModule section={section} layout="facts"/>)}</div></details>
+<aside class="res-wrap res-rfq-worksheets"><ResourceLinks links={[["Download acceptance worksheet","/downloads/order-acceptance-checklist.txt"]]} label="Acceptance planning worksheet"/></aside>

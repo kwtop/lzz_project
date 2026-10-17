@@ -1,0 +1,1127 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "desktopUnloaded": [],
+      "mobileUnloaded": [],
+      "consoleRows": [
+        {
+          "type": "startGroup",
+          "text": "%c[impeccable] 29 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+          "args": [
+            "%c[impeccable] 29 anti-patterns found",
+            "color: oklch(84% 0.19 80.46); font-weight: bold"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cgpt-thin-border-wide-shadow%c 1px border + 20px shadow blur color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cgpt-thin-border-wide-shadow%c 1px border + 20px shadow blur",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6 color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c p.nav-group-label \"Machining\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c p.nav-group-label \"Machining\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6 color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6 color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6 color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6 color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 1.7:1 (need 4.5:1) — text #ffffff on #c5c5c6",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctiny-text%c 11px body text color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctiny-text%c 11px body text",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cheading-rhythm%c h3 \"Machined impeller\" has 20px above vs 86px below — it reads as bound to the block above (5 headings on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cheading-rhythm%c h3 \"Machined impeller\" has 20px above vs 86px below — it reads as bound to the block above (5 headings on page)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cheading-rhythm%c h3 \"Machined casting housing\" has 20px above vs 86px below — it reads as bound to the block above (5 headings on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cheading-rhythm%c h3 \"Machined casting housing\" has 20px above vs 86px below — it reads as bound to the block above (5 headings on page)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cheading-rhythm%c h3 \"Turned locking pin\" has 20px above vs 86px below — it reads as bound to the block above (5 headings on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cheading-rhythm%c h3 \"Turned locking pin\" has 20px above vs 86px below — it reads as bound to the block above (5 headings on page)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cheading-rhythm%c h3 \"CNC machining a 29-inch display housing\" has 24px above vs 86px below — it reads as bound to the block above (5 headings on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cheading-rhythm%c h3 \"CNC machining a 29-inch display housing\" has 24px above vs 86px below — it reads as bound to the block above (5 headings on page)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cheading-rhythm%c h3 \"Turning followed by milling\" has 24px above vs 86px below — it reads as bound to the block above (5 headings on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cheading-rhythm%c h3 \"Turning followed by milling\" has 24px above vs 86px below — it reads as bound to the block above (5 headings on page)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"CNC milling\" is 75% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"CNC milling\" is 75% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Machining of Castings\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Machining of Castings\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a.nav-overview \"View all machining capab\" is 50% covered by overlapping text (p) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a.nav-overview \"View all machining capab\" is 50% covered by overlapping text (p)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Browse Custom Parts\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Browse Custom Parts\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Machining Studies\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Machining Studies\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Our Factory\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Our Factory\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Quality Control\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Quality Control\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a.nav-overview \"All Resources\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a.nav-overview \"All Resources\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Drawings & Ordering\" is 67% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Drawings & Ordering\" is 67% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"FAQ\" is 84% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"FAQ\" is 84% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Company Overview\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Company Overview\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Company News\" is 100% covered by an opaque element (section.precision-hero.restored-hero) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Company News\" is 100% covered by an opaque element (section.precision-hero.restored-hero)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c h1 \"Your partsMachined to or\" overhangs div.nav-panel.nav-panel-small by 280px — the headline and the card collide color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c h1 \"Your partsMachined to or\" overhangs div.nav-panel.nav-panel-small by 280px — the headline and the card collide",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clayout-transition%c transition: margin color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clayout-transition%c transition: margin",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cdark-glow%c Colored box-shadow glow (#132a36) on dark page color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cdark-glow%c Colored box-shadow glow (#132a36) on dark page",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "endGroup",
+          "text": "console.groupEnd",
+          "args": [
+            "console.groupEnd"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "desktopUnloaded": [
+        {
+          "alt": "Covered wheels with exposed metal hubs, from the supplied part reference collection.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 358.65625,
+          "height": 358.65625
+        },
+        {
+          "alt": "Long covered rollers with metal shaft ends.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 358.671875,
+          "height": 358.671875
+        },
+        {
+          "alt": "Shaped covered components with exposed mounting features.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 358.65625,
+          "height": 268.984375
+        },
+        {
+          "alt": "Conical gear forms with visible teeth and central bores.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 554,
+          "height": 256.4375
+        },
+        {
+          "alt": "Large cylindrical gear forms arranged in the workshop.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 554,
+          "height": 480
+        }
+      ],
+      "mobileUnloaded": [
+        {
+          "alt": "Covered wheels with exposed metal hubs, from the supplied part reference collection.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 342,
+          "height": 342
+        },
+        {
+          "alt": "Long covered rollers with metal shaft ends.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 342,
+          "height": 342
+        },
+        {
+          "alt": "Shaped covered components with exposed mounting features.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 342,
+          "height": 256.5
+        },
+        {
+          "alt": "Conical gear forms with visible teeth and central bores.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 342,
+          "height": 158.296875
+        },
+        {
+          "alt": "Large cylindrical gear forms arranged in the workshop.",
+          "src": "",
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "loaded": false,
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "width": 342,
+          "height": 456
+        }
+      ],
+      "consoleRows": [
+        {
+          "type": "startGroup",
+          "text": "%c[impeccable] 11 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+          "args": [
+            "%c[impeccable] 11 anti-patterns found",
+            "color: oklch(84% 0.19 80.46); font-weight: bold"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"CNC milling\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"CNC milling\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"CNC turning\" is 50% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"CNC turning\" is 50% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Machining of Castings\" is 50% covered by overlapping text (span) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Machining of Castings\" is 50% covered by overlapping text (span)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Machining Studies\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Machining Studies\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Quality Control\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Quality Control\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Drawings & Ordering\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Drawings & Ordering\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Company News\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Company News\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cskipped-heading%c <h1> \"Custom machined parts\" followed by <h3> \"Machined impellers\" (missing h2) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cskipped-heading%c <h1> \"Custom machined parts\" followed by <h3> \"Machined impellers\" (missing h2)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clayout-transition%c transition: margin color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clayout-transition%c transition: margin",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "endGroup",
+          "text": "console.groupEnd",
+          "args": [
+            "console.groupEnd"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "desktopUnloaded": [],
+      "mobileUnloaded": [],
+      "consoleRows": [
+        {
+          "type": "startGroup",
+          "text": "%c[impeccable] 8 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+          "args": [
+            "%c[impeccable] 8 anti-patterns found",
+            "color: oklch(84% 0.19 80.46); font-weight: bold"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cgpt-thin-border-wide-shadow%c 1px border + 20px shadow blur color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cgpt-thin-border-wide-shadow%c 1px border + 20px shadow blur",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Processes, Materials & F\" is 75% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Processes, Materials & F\" is 75% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Production & Shipping\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Production & Shipping\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"FAQ\" is 67% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"FAQ\" is 67% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clayout-transition%c transition: margin color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clayout-transition%c transition: margin",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cdark-glow%c Colored box-shadow glow (#132a36) on dark page color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cdark-glow%c Colored box-shadow glow (#132a36) on dark page",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "endGroup",
+          "text": "console.groupEnd",
+          "args": [
+            "console.groupEnd"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "quality",
+      "desktopUnloaded": [],
+      "mobileUnloaded": [],
+      "consoleRows": [
+        {
+          "type": "startGroup",
+          "text": "%c[impeccable] 13 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+          "args": [
+            "%c[impeccable] 13 anti-patterns found",
+            "color: oklch(84% 0.19 80.46); font-weight: bold"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cline-length%c ~88 chars on 2 of 3 rendered lines (aim for <80) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cline-length%c ~88 chars on 2 of 3 rendered lines (aim for <80)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctiny-text%c 10px body text color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctiny-text%c 10px body text",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cwide-tracking%c letter-spacing: 0.10em on body text color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cwide-tracking%c letter-spacing: 0.10em on body text",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%cline-length%c ~111 chars on 2 of 3 rendered lines (aim for <80) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%cline-length%c ~111 chars on 2 of 3 rendered lines (aim for <80)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"CNC milling\" is 50% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"CNC milling\" is 50% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"CNC turning\" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"CNC turning\" is 100% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"5-axis machining\" is 50% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"5-axis machining\" is 50% covered by overlapping text (h1)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a.nav-overview \"View all machining capab\" is 100% covered by an opaque element (section.surface-band.section.quality-reference) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a.nav-overview \"View all machining capab\" is 100% covered by an opaque element (section.surface-band.section.quality-reference)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Production & Shipping\" is 71% covered by an opaque element (a.button) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Production & Shipping\" is 71% covered by an opaque element (a.button)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Contact LZZ\" is 100% covered by overlapping text (p) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Contact LZZ\" is 100% covered by overlapping text (p)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clayout-transition%c transition: margin color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clayout-transition%c transition: margin",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "endGroup",
+          "text": "console.groupEnd",
+          "args": [
+            "console.groupEnd"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "quote",
+      "desktopUnloaded": [],
+      "mobileUnloaded": [],
+      "consoleRows": [
+        {
+          "type": "startGroup",
+          "text": "%c[impeccable] 9 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold",
+          "args": [
+            "%c[impeccable] 9 anti-patterns found",
+            "color: oklch(84% 0.19 80.46); font-weight: bold"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clow-contrast%c 4.4:1 (need 4.5:1) — text #73797e on #ffffff",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Machining of Castings\" is 67% covered by overlapping text (li) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Machining of Castings\" is 67% covered by overlapping text (li)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a.nav-overview \"View all machining capab\" is 75% covered by an opaque element (input) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a.nav-overview \"View all machining capab\" is 75% covered by an opaque element (input)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Drawings & Ordering\" is 67% covered by overlapping text (p) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Drawings & Ordering\" is 67% covered by overlapping text (p)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Processes, Materials & F\" is 50% covered by overlapping text (p) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Processes, Materials & F\" is 50% covered by overlapping text (p)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%ctext-occlusion%c a \"Contact LZZ\" is 100% covered by overlapping text (p) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%ctext-occlusion%c a \"Contact LZZ\" is 100% covered by overlapping text (p)",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "log",
+          "text": "%clayout-transition%c transition: margin color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+          "args": [
+            "%clayout-transition%c transition: margin",
+            "color: oklch(84% 0.19 80.46); font-weight: bold",
+            "color: inherit",
+            "ref: <Node>"
+          ]
+        },
+        {
+          "type": "endGroup",
+          "text": "console.groupEnd",
+          "args": [
+            "console.groupEnd"
+          ]
+        }
+      ]
+    }
+  ],
+  "mobileNavigation": {
+    "expanded": "true",
+    "navVisible": true,
+    "navRect": {
+      "x": 0,
+      "y": 71,
+      "width": 390,
+      "height": 768
+    },
+    "panelRect": {
+      "x": 24,
+      "y": 138.796875,
+      "width": 342,
+      "height": 647.171875
+    },
+    "headerQuoteVisible": true,
+    "afterEscape": {
+      "expanded": "true",
+      "navVisible": true
+    },
+    "afterFirstEscape": {
+      "expanded": "true",
+      "groupOpen": 0,
+      "navVisible": true
+    },
+    "afterSecondEscape": {
+      "expanded": "false",
+      "navVisible": false
+    },
+    "afterBrowse": {
+      "path": "/products/",
+      "menuExpanded": "false"
+    }
+  },
+  "anchorChecks": [
+    {
+      "href": "http://127.0.0.1:4323/#main",
+      "status": 200,
+      "id": "main",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/capabilities/#production-stages",
+      "status": 200,
+      "id": "production-stages",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/capabilities/#sample-to-part",
+      "status": 200,
+      "id": "sample-to-part",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/about/#contact",
+      "status": 200,
+      "id": "contact",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/#selected-parts",
+      "status": 200,
+      "id": "selected-parts",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/products/#main",
+      "status": 200,
+      "id": "main",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/#pom",
+      "status": 200,
+      "id": "pom",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/insights/processes-materials-finishes/#coated-parts",
+      "status": 200,
+      "id": "coated-parts",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/#main",
+      "status": 200,
+      "id": "main",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/#part-information",
+      "status": 200,
+      "id": "part-information",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/quality/#main",
+      "status": 200,
+      "id": "main",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/quality/#quality-management",
+      "status": 200,
+      "id": "quality-management",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/quality/#inspection-equipment",
+      "status": 200,
+      "id": "inspection-equipment",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/quality/#inspection-process",
+      "status": 200,
+      "id": "inspection-process",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/quality/#inspection-records",
+      "status": 200,
+      "id": "inspection-records",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/about/#documents",
+      "status": 200,
+      "id": "documents",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/factory/#equipment",
+      "status": 200,
+      "id": "equipment",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/factory/#workflow",
+      "status": 200,
+      "id": "workflow",
+      "found": true
+    },
+    {
+      "href": "http://127.0.0.1:4323/quote/#main",
+      "status": 200,
+      "id": "main",
+      "found": true
+    }
+  ],
+  "brokenAnchors": []
+}

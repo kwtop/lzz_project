@@ -1,0 +1,260 @@
+[
+  {
+    "key": "buildingV3",
+    "name": "factory-building-ai-v3",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-b704e443-71e8-49d1-bd66-f835d30bc130.png",
+    "prompt": "Use case: photorealistic-natural. Create an extraordinarily convincing professional architectural photograph for a precision CNC manufacturer's factory page, landscape 3:2. A modest contemporary two-story light-industrial manufacturing building in an eastern China industrial park, light-gray ribbed metal facade and concrete lower wall, long rational rows of glazing, one closed loading door, a small side entrance, practical conduit and downpipes, a clean paved forecourt with subtle tire wear, a narrow planted strip. Building occupies middle 70 percent of frame, realistic small factory scale, no vast megafactory, no luxurious office tower. Camera eye level 1.6m with a 35mm tilt-shift lens, corrected vertical lines, soft overcast morning daylight, balanced natural contrast, understated warm neutral silver-gray palette. Extremely realistic material variation: faint streaks under rain joints, fine aggregate concrete, practical roof drainage, believable window reflections. Documentary industrial architecture photography, tactile real-world detail, not glossy CGI, not illustration. No logos, no company name, no signs, no readable text, no cars, no people, no dramatic sky. This is an unbranded illustrative factory building, not a reconstruction of a particular real company premises.",
+    "kind": "AI illustrative manufacturing scene",
+    "mode": "built-in image_gen"
+  },
+  {
+    "key": "workshopV3",
+    "name": "workshop-floor-ai-v3",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-21798d3f-fbb4-4de0-bb9c-b5f65541cf8c.png",
+    "prompt": "Use case: photorealistic-natural. Create one landscape 3:2 premium documentary industrial photograph inside a modest eastern China CNC precision machining workshop. Eye-level camera looking diagonally down an orderly aisle. Three realistically proportioned enclosed vertical CNC machining centers on the left, two CNC lathes on the right, pale white and charcoal machines with restrained blue lower panels, actual safety door windows, control pendants with screens angled away and no readable lettering, chip conveyors with small metal bins, a few practical tool trolleys. White painted concrete columns, visible orderly ceiling cable trays, fluorescent strips and soft daylight from high windows. Mid-gray epoxy floor with restrained reflected light, subtle authentic wheel marks and wear. Precise perspective, realistic machine scale, intentional but lived-in organization. Broad 28mm photographic lens, f/8, realistic dynamic range, neutral industrial daylight, detailed yet unforced photography, no blur in machines, no haze, no bloom, no science fiction, no mirrored duplicated machines, no people, no logos, no legible signs. Extremely convincing camera photograph, not an architectural render. An illustrative CNC workshop, not a claimed photo of a specific real premises.",
+    "kind": "AI illustrative manufacturing scene",
+    "mode": "built-in image_gen"
+  },
+  {
+    "key": "millingV3",
+    "name": "milling-process-ai-v3",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-2627a07f-49d8-4511-a6d2-5f807e43073a.png",
+    "prompt": "Use case: photorealistic-natural. One exceptionally realistic industrial editorial photograph, landscape 3:2, professional precision manufacturing website. Real optical camera characteristics, neutral white balance, accurate metal texture, restrained soft industrial light, crisp mechanical details, plausible fasteners and clamps, natural shadows, no cinematic sparks, no smoke, no CGI look, no fake logos or readable text, no people. Precision vertical CNC milling setup viewed at a 35-degree oblique angle inside the machine enclosure. A real-looking ER toolholder in the vertical spindle holds a short four-flute end mill positioned at the edge of a rectangular pocket in a billet aluminum block. Workpiece firmly clamped between two vise jaws mounted to a slotted machine table. Visible fixed jaw, movable jaw, vise base and bolts. Sparse small curled chips confined around the pocket, slight coolant residue and fine toolpaths, soft used stainless enclosure in background. Show full workholding context, spindle at upper center and workpiece at lower center, clear safe framing. The spindle is stationary for this process illustration. Do not merge the tool into the workpiece or invent duplicate spindles. AI process illustration, not an actual inventory photograph.",
+    "kind": "AI illustrative manufacturing scene",
+    "mode": "built-in image_gen"
+  },
+  {
+    "key": "turningV3",
+    "name": "turning-process-ai-v3",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-aecab231-6a26-405b-b70d-8d509a102900.png",
+    "prompt": "Use case: photorealistic-natural. One exceptionally realistic industrial editorial photograph, landscape 3:2, professional precision manufacturing website. Real optical camera characteristics, neutral white balance, accurate metal texture, restrained soft industrial light, crisp mechanical details, plausible fasteners and clamps, natural shadows, no cinematic sparks, no smoke, no CGI look, no fake logos or readable text, no people. Inside a precision CNC lathe, horizontal spindle axis runs left to right. Large three-jaw chuck on left securely holds a short polished steel stepped shaft; exactly three jaws spaced plausibly around stock. On right, a properly mounted turning tool with a small triangular carbide insert on a rectangular holder approaches the outside diameter of the shaft at center height, with clear tip-to-surface contact. Tool turret partly visible at right, dark brushed machine enclosure behind, fine concentric turning marks, very few tiny curls on tray below, restrained practical machining environment. Entire shaft visible with no impossible support, no drill pointing at the shaft end. Stationary setup close-up photographed with 70mm lens at f/8. Convincing mechanics rather than spectacle. AI process illustration, not an actual inventory photograph.",
+    "kind": "AI illustrative manufacturing scene",
+    "mode": "built-in image_gen"
+  },
+  {
+    "key": "fiveaxisV3",
+    "name": "five-axis-process-ai-v3",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-0598e54a-f23c-4658-8a9f-213863bf71b9.png",
+    "prompt": "Use case: photorealistic-natural. One exceptionally realistic industrial editorial photograph, landscape 3:2, professional precision manufacturing website. Real optical camera characteristics, neutral white balance, accurate metal texture, restrained soft industrial light, crisp mechanical details, plausible fasteners and clamps, natural shadows, no cinematic sparks, no smoke, no CGI look, no fake logos or readable text, no people. A five-axis CNC machining center setup, rotary trunnion table clearly visible with two opposed supports and circular slotted fixture platter tilted about 25 degrees. A small intricately machined aluminum impeller is securely clamped by its central hub on a compact fixture. A single vertical spindle with slender ball-nose cutter above, not touching the part, clearly separated 8 millimeters from blade surface. Coherent mechanical axes, curved blades with realistic toolpaths and consistent thickness, no intersecting metal. Frame wide enough to show fixture bolts, both trunnion supports and a portion of stainless enclosure. Dark gray machine background, silver aluminum highlights, clean but lightly used work area. 50mm lens high fidelity commercial industrial photograph. AI process illustration, not an actual inventory photograph.",
+    "kind": "AI illustrative manufacturing scene",
+    "mode": "built-in image_gen"
+  },
+  {
+    "key": "inspectionV3",
+    "name": "cmm-inspection-ai-v3",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-51e4de5f-df73-4b8f-8e4d-82a77c35ed43.png",
+    "prompt": "Use case: photorealistic-natural. One exceptionally realistic industrial editorial photograph, landscape 3:2, professional precision manufacturing website. Real optical camera characteristics, neutral white balance, accurate metal texture, restrained soft industrial light, crisp mechanical details, plausible fasteners and clamps, natural shadows, no cinematic sparks, no smoke, no CGI look, no fake logos or readable text, no people. A precision coordinate measuring machine in an unbranded clean metrology room. Close three-quarter view of genuine bridge CMM with white horizontal bridge and vertical quill, slim probe stem and single ruby spherical stylus tip visibly touching inside wall of one aluminum housing bore. Housing held with three sensible low-profile fixture clamps on a dark speckled granite table; no machining chips, no cutting tool or drill chuck. Accurate probe geometry and meaningful physical contact, no floating component. Include some of the bridge to establish machine scale, neutral gray calibration-room background, soft daylight and diffused ceiling lighting, focus on ruby tip, bore and clamps. Realistic polished aluminum, fine milling texture, slight fingerprint-free surface variation. Crisp macro documentary photograph, no people, no screens with fake measurements. AI process illustration, not an actual inventory photograph.",
+    "kind": "AI illustrative manufacturing scene",
+    "mode": "built-in image_gen"
+  },
+  {
+    "key": "product1",
+    "name": "catalog-01-retouched-v3",
+    "productIndex": 1,
+    "slug": "custom-oem-high-precision-cnc-milling-manufacturer",
+    "original": "/media/CNC-Milling-Service-2-1764417849930--28b1b081fe.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-2ff6b530-8317-4ded-b3d8-e495c06d558f.png",
+    "prompt": "Use case: precise-object-edit. The supplied image is the edit target, a low-resolution CNC parts catalog photograph. Recreate this SAME set of components as an extremely sharp high-end industrial studio product photograph, square 1:1, at least 1536 pixels. Preserve every component's silhouette, geometry, visible holes, openings, flanges, threads, finish colors, count and arrangement. Do not add parts, remove parts, merge parts or invent technical details. Neutralize cheap blown-out reflections, reconstruct clean believable edges and authentic fine machining marks with careful local contrast. All objects in focus, large softbox lighting, controlled metal highlights, realistic satin and brushed textures, soft contact shadows on a seamless near-white gray surface. Maintain separation between parts and 10 percent safe margin around the whole group. No text, no labels, no branding, no watermarks, no dramatic vignette. The goal is a sophisticated real camera macro product photograph instead of a blurry cutout collage. This is an AI-enhanced visual presentation; the source image will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product5",
+    "name": "catalog-05-retouched-v3",
+    "productIndex": 5,
+    "slug": "custom-oem-cnc-turning-manufacturer",
+    "original": "/media/Turning-1764418561811--0fef80039e.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-b5b91c44-15ee-4383-9e32-9a225dea6fee.png",
+    "prompt": "Use case: precise-object-edit. The supplied image is the edit target, a low-resolution CNC parts catalog photograph. Recreate this SAME set of components as an extremely sharp high-end industrial studio product photograph, square 1:1, at least 1536 pixels. Preserve every component's silhouette, geometry, visible holes, openings, flanges, threads, finish colors, count and arrangement. Do not add parts, remove parts, merge parts or invent technical details. Neutralize cheap blown-out reflections, reconstruct clean believable edges and authentic fine machining marks with careful local contrast. All objects in focus, large softbox lighting, controlled metal highlights, realistic satin and brushed textures, soft contact shadows on a seamless near-white gray surface. Maintain separation between parts and 10 percent safe margin around the whole group. No text, no labels, no branding, no watermarks, no dramatic vignette. The goal is a sophisticated real camera macro product photograph instead of a blurry cutout collage. This is an AI-enhanced visual presentation; the source image will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product6",
+    "name": "catalog-06-retouched-v3",
+    "productIndex": 6,
+    "slug": "custom-rotary-cylindrical-components",
+    "original": "/media/Turning-2-1764418599598--a725a21893.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-ef66c6f6-addb-4fd5-91e9-78e32661e8ac.png",
+    "prompt": "Use case: precise-object-edit. The supplied image is the edit target, a low-resolution CNC parts catalog photograph. Recreate this SAME set of components as an extremely sharp high-end industrial studio product photograph, square 1:1, at least 1536 pixels. Preserve every component's silhouette, geometry, visible holes, openings, flanges, threads, finish colors, count and arrangement. Do not add parts, remove parts, merge parts or invent technical details. Neutralize cheap blown-out reflections, reconstruct clean believable edges and authentic fine machining marks with careful local contrast. All objects in focus, large softbox lighting, controlled metal highlights, realistic satin and brushed textures, soft contact shadows on a seamless near-white gray surface. Maintain separation between parts and 10 percent safe margin around the whole group. No text, no labels, no branding, no watermarks, no dramatic vignette. The goal is a sophisticated real camera macro product photograph instead of a blurry cutout collage. This is an AI-enhanced visual presentation; the source image will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product7",
+    "name": "catalog-07-retouched-v3",
+    "productIndex": 7,
+    "slug": "custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer",
+    "original": "/media/Turning-3-1764418610761--08a5f82825.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-a03c7c49-d97b-4be3-9589-20dac71099e7.png",
+    "prompt": "Use case: precise-object-edit. The supplied image is the edit target, a low-resolution CNC parts catalog photograph. Recreate this SAME set of components as an extremely sharp high-end industrial studio product photograph, square 1:1, at least 1536 pixels. Preserve every component's silhouette, geometry, visible holes, openings, flanges, threads, finish colors, count and arrangement. Do not add parts, remove parts, merge parts or invent technical details. Neutralize cheap blown-out reflections, reconstruct clean believable edges and authentic fine machining marks with careful local contrast. All objects in focus, large softbox lighting, controlled metal highlights, realistic satin and brushed textures, soft contact shadows on a seamless near-white gray surface. Maintain separation between parts and 10 percent safe margin around the whole group. No text, no labels, no branding, no watermarks, no dramatic vignette. The goal is a sophisticated real camera macro product photograph instead of a blurry cutout collage. This is an AI-enhanced visual presentation; the source image will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product8",
+    "name": "catalog-08-retouched-v3",
+    "productIndex": 8,
+    "slug": "full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing",
+    "original": "/media/Full-Service-CNC-Milling-Solutions-Custom-Metal-Parts-Manufacturer-with-Finishing-1764554912970--2f27187334.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-7f49dd19-e57a-49ec-a6fa-89a7a9800213.png",
+    "prompt": "Use case: precise-object-edit. Retouch the supplied low-resolution catalog photograph, preserving the SAME components, colors, silhouettes, visible openings, holes, threads and arrangement. Do not add parts or change their shape. Remove collage outlines and obvious cutout seams.  Square 1:1 high-resolution premium industrial product photography. Center the full subject group with 12 percent safe margin and size it to occupy 75 percent of the frame. Seamless very light neutral-gray surface, subtle realistic contact shadows, large softbox illumination, realistic neutral metal highlights, crisp full-depth focus and tactile microtexture. Keep the existing satin BLACK anodized parts BLACK, use edge lighting so each recess and hole can be read. No fake labels, no text, no logo, no watermark, no overblown chrome reflections, no exaggerated bevels. Extremely believable engineering catalog quality. Original source will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product10",
+    "name": "catalog-10-retouched-v3",
+    "productIndex": 10,
+    "slug": "high-volume-cnc-turning-for-complex-internal-external-features",
+    "original": "/media/High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-8bb3e71e-e62f-4dff-9e47-547d5e246808.png",
+    "prompt": "Use case: precise-object-edit. Retouch the supplied low-resolution catalog photograph, preserving the SAME components, colors, silhouettes, visible openings, holes, threads and arrangement. Do not add parts or change their shape. Remove collage outlines and obvious cutout seams.  Square 1:1 high-resolution premium industrial product photography. Center the full subject group with 12 percent safe margin and size it to occupy 75 percent of the frame. Seamless very light neutral-gray surface, subtle realistic contact shadows, large softbox illumination, realistic neutral metal highlights, crisp full-depth focus and tactile microtexture. No fake labels, no text, no logo, no watermark, no overblown chrome reflections, no exaggerated bevels. Extremely believable engineering catalog quality. Original source will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product14",
+    "name": "catalog-14-retouched-v3",
+    "productIndex": 14,
+    "slug": "custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier",
+    "original": "/media/Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-577d9b27-3b03-4675-ad4f-19fc28d82099.png",
+    "prompt": "Use case: sketch-to-render. The input is a small low-quality CAD assembly of an engine with an intake plenum on its right side. Create a photorealistic engineering visualization of that intake plenum and its runner assembly ONLY, based on the visible smooth tapered silver plenum on the right of the source, with long mounting flange, six short runners and circular inlet. Do not include the full engine, turbocharger, hoses or accessories. Preserve the source intake's overall tapered silhouette, inlet orientation and flange proportions. Do not invent branding or performance claims. Square 1:1 high-resolution premium industrial product photography. Center the full subject group with 12 percent safe margin and size it to occupy 75 percent of the frame. Seamless very light neutral-gray surface, subtle realistic contact shadows, large softbox illumination, realistic neutral metal highlights, crisp full-depth focus and tactile microtexture. No fake labels, no text, no logo, no watermark, no overblown chrome reflections, no exaggerated bevels. Extremely believable engineering catalog quality. Original source will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI visualization based on source CAD"
+  },
+  {
+    "key": "product15",
+    "name": "catalog-15-retouched-v3",
+    "productIndex": 15,
+    "slug": "custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier",
+    "original": "/media/Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-38bdb148-0185-4951-9f36-3b91e1a2b715.png",
+    "prompt": "Use case: sketch-to-render. The input is a color-coded CAD view of an electronic throttle body. Preserve EXACTLY its silhouette, angle, cylindrical main bore, motor enclosure, cover outline, ribs and screw bosses. Translate CAD colors to realistic materials: machined satin aluminum main body and dark charcoal polymer actuator cover. Do not invent accessories, wires or extra openings. It is a CAD-based visualization, not a photo of a delivered product. Square 1:1 high-resolution premium industrial product photography. Center the full subject group with 12 percent safe margin and size it to occupy 75 percent of the frame. Seamless very light neutral-gray surface, subtle realistic contact shadows, large softbox illumination, realistic neutral metal highlights, crisp full-depth focus and tactile microtexture. No fake labels, no text, no logo, no watermark, no overblown chrome reflections, no exaggerated bevels. Extremely believable engineering catalog quality. Original source will remain accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI visualization based on source CAD"
+  },
+  {
+    "key": "product16",
+    "name": "catalog-16-retouched-v3",
+    "productIndex": 16,
+    "slug": "custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier",
+    "original": "/media/Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-c98dd850-b462-41f6-8e29-4374c085e8e6.png",
+    "prompt": "Use case: sketch-to-render. The source is a gray CAD model of a six-runner intake manifold with a horizontal cylindrical plenum and flange. Preserve this EXACT design and view, all six curved runners, tube opening on the left and all mounting features. Translate the CAD shaded image into a realistic satin machined aluminum engineering visualization, retaining geometry. Do not add turbo hardware, welding beads or accessories. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI visualization based on source CAD"
+  },
+  {
+    "key": "product17",
+    "name": "catalog-17-retouched-v3",
+    "productIndex": 17,
+    "slug": "custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier",
+    "original": "/media/Custom-Billet-Aluminum-Intake-Plenum-Manufacturer-and-High-Performance-Tuning-Parts-Supplier-1764819540953--d22e858992.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-11696abb-2dc2-495e-a5ae-13cee593159e.png",
+    "prompt": "Use case: precise-object-edit. The source shows a polished billet aluminum intake plenum on a milling machine. Preserve the SAME complete plenum shape, all visible runners, longitudinal seams, machined toolpaths, mounting flange, cap and right-side pipe port. Remove the milling machine, red rail and workshop behind it. Isolate the component on the studio surface; do not redesign. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product19",
+    "name": "catalog-19-retouched-v3",
+    "productIndex": 19,
+    "slug": "custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier",
+    "original": "/media/Custom-CNC-Turned-Stainless-Steel-Components-Manufacturer-and-Precision-Shaft-Supplier-1764816944325--cacdc81da0.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-0b63ddf9-2646-4459-ad38-3c2308be17ea.png",
+    "prompt": "Use case: precise-object-edit. The source shows two circular machined steel control pieces with four small loose screws. Preserve exactly these pieces, four screws, three-lobed bore on the left, crossbar on the right, countersunk mounting holes and existing engraved OFF, ON and arrow. Restore clear engraved lettering without adding anything. Preserve proportions and orientation. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product21",
+    "name": "catalog-21-retouched-v3",
+    "productIndex": 21,
+    "slug": "custom-oem-cnc-machined-plastic-parts-manufacturer",
+    "original": "/media/Plastic-Parts-1764418490181--3049ef7c93.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-93e4280a-efcc-4815-90c2-748b2f526168.png",
+    "prompt": "Use case: precise-object-edit. The source shows orange and amber machined insulating plastic sheets and parts. Preserve the same collection, colors, plate patterns, gear, drilled tray and all visible slots. These are matte engineering plastics, not metal; do not turn them shiny or translucent. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product28",
+    "name": "catalog-28-retouched-v3",
+    "productIndex": 28,
+    "slug": "precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier",
+    "original": "/media/Precision-Low-Volume-CNC-Machining-Manufacturer-and-HMLV-Components-Supplier-1764758900962--0c522f190d.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-d1c577c6-b2a0-4b43-b274-25707f441727.png",
+    "prompt": "Use case: precise-object-edit. The source shows 24 small machined aluminum enclosures in 8 rows of 3. Preserve the rows, count, distinct side lugs, mounting tabs, bores and pocket geometry. Replace the mottled black and foam background with uniform pale neutral gray. Maintain the overhead view and clearly separated rows. Do not invent holes or combine enclosures. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product30",
+    "name": "catalog-30-retouched-v3",
+    "productIndex": 30,
+    "slug": "precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures",
+    "original": "/media/Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-062159a3-9549-4bda-bf5d-6ff00a0d0997.png",
+    "prompt": "Use case: precise-object-edit. The source shows 12 machined aluminum housings in 3 rows of 4 on a green bench. Preserve these 12 housings, all existing different hole patterns, pockets, external lugs and their arrangement. Remove green color cast and green tabletop; use uniform pale neutral gray. All 12 objects fully visible within the frame with a little breathing room. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  },
+  {
+    "key": "product34",
+    "name": "catalog-34-retouched-v3",
+    "productIndex": 34,
+    "slug": "small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv",
+    "original": "/media/Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.webp",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-0fdefefe-2b10-4688-98d0-51bb35734799.png",
+    "prompt": "Use case: precise-object-edit. The source shows many identical short flanged cylindrical aluminum parts in parallel diagonal rows on a green workbench. Preserve the SAME parts, visible flange profiles, bores, count, parallel orientation and row arrangement. Replace green background with a seamless pale neutral-gray surface and remove green color cast. No invented components or markings. Recreate as exceptionally clear premium industrial catalog photography, square format. Focus-stacked sharpness across the subject, honest fine machining marks, restrained neutral highlights, soft studio lighting and natural contact shadows. Clean presentation, full subject in frame with 10 percent margin. No plastic CGI sheen on metal, no excessive smoothing, no halos, no fake logos, no new writing. Realistic camera optics, tactile surface finish. AI presentation for display; original source remains accessible.",
+    "mode": "built-in image_gen",
+    "kind": "AI-retouched product presentation"
+  }
+,
+{
+  "key": "product3",
+  "name": "catalog-03-retouched-v3",
+  "productIndex": 3,
+  "slug": "global-oem-precision-machining-solutions",
+  "original": "/media/5-axis-Machining-2-1764418526610--635f52f78c.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-5c2153ae-c394-4a4b-b5a5-387b83670438.png",
+  "prompt": "Use case: precise-object-edit. Edit target is the supplied low-quality source catalog image. Preserve the same inclined threaded fitting with its round tapered base, angular collar, male threads and hollow bore. Remove image noise and the green reflection. Produce an exceptionally crisp, premium industrial studio product photograph, square 1:1. Keep the source silhouette, proportions and all visible geometry, no new features. The entire part centered within frame with 13 percent safe margin. Seamless pale neutral gray background, subtle contact shadow, broad softbox lighting, realistic local texture and natural silver-gray materials, no exaggerated gloss, no halos, no fake labels, no watermark. Retouch composition, illumination and clarity; do not redesign the component. High-end precision engineering catalog aesthetic. Original catalog image will remain accessible.",
+  "mode": "built-in image_gen",
+  "kind": "AI-retouched product presentation"
+},
+{
+  "key": "product22",
+  "name": "catalog-22-retouched-v3",
+  "productIndex": 22,
+  "slug": "oem-precision-cnc-machined-casting-housing-structural-enclosures",
+  "original": "/media/OEM-Precision-CNC-Machined-Casting-Housing---Structural-Enclosures-1764756565591--89bc1a30be.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-23da52db-0d9c-47ac-afc3-965e9b8f3660.png",
+  "prompt": "Use case: precise-object-edit. Edit target is the supplied low-quality source catalog image. Preserve this exact open transmission casting with its asymmetric rim, bolt holes, central toothed ring, other circular openings and cast ribs. Distinguish satin machined bearing surfaces from rough sand-cast gray walls. Do not turn the rough casting into a smooth billet part. Produce an exceptionally crisp, premium industrial studio product photograph, square 1:1. Keep the source silhouette, proportions and all visible geometry, no new features. The entire part centered within frame with 13 percent safe margin. Seamless pale neutral gray background, subtle contact shadow, broad softbox lighting, realistic local texture and natural silver-gray materials, no exaggerated gloss, no halos, no fake labels, no watermark. Retouch composition, illumination and clarity; do not redesign the component. High-end precision engineering catalog aesthetic. Original catalog image will remain accessible.",
+  "mode": "built-in image_gen",
+  "kind": "AI-retouched product presentation"
+},
+{
+  "key": "product23",
+  "name": "catalog-23-retouched-v3",
+  "productIndex": 23,
+  "slug": "oem-precision-cnc-machined-casting-housings",
+  "original": "/media/OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-1329d45c-9724-46c9-8503-04b1fa76ffc2.png",
+  "prompt": "Use case: precise-object-edit. Edit target is the supplied low-quality source catalog image. Preserve this exact circular domed pump housing with its opposed top and bottom ports, flanges, radial rim ribs, mounting holes, central seam and existing cast arrow. Keep existing cast markings only, no newly invented text. Use natural matte cast-metal texture with gentle highlights. Produce an exceptionally crisp, premium industrial studio product photograph, square 1:1. Keep the source silhouette, proportions and all visible geometry, no new features. The entire part centered within frame with 13 percent safe margin. Seamless pale neutral gray background, subtle contact shadow, broad softbox lighting, realistic local texture and natural silver-gray materials, no exaggerated gloss, no halos, no fake labels, no watermark. Retouch composition, illumination and clarity; do not redesign the component. High-end precision engineering catalog aesthetic. Original catalog image will remain accessible.",
+  "mode": "built-in image_gen",
+  "kind": "AI-retouched product presentation"
+},
+{
+  "key": "product25",
+  "name": "catalog-25-retouched-v3",
+  "productIndex": 25,
+  "slug": "precision-cnc-machined-castings-manufacturer",
+  "original": "/media/Precision-CNC-Machined-Castings-Manufacturer-1764757607644--746269a403.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c846-2094-7253-98f2-060f2204ba25/exec-1fc924fc-b45f-436e-9d22-8532b38351e7.png",
+  "prompt": "Use case: precise-object-edit. Edit target is the supplied low-quality source catalog image. Preserve the same irregular shallow cast transmission cover, large circular opening at front right, raised rim, ribs, bolt holes and perspective. Give the part authentic matte cast aluminum with clean machined gasket surfaces. Avoid faceted low-resolution edges and painted plastic appearance. Produce an exceptionally crisp, premium industrial studio product photograph, square 1:1. Keep the source silhouette, proportions and all visible geometry, no new features. The entire part centered within frame with 13 percent safe margin. Seamless pale neutral gray background, subtle contact shadow, broad softbox lighting, realistic local texture and natural silver-gray materials, no exaggerated gloss, no halos, no fake labels, no watermark. Retouch composition, illumination and clarity; do not redesign the component. High-end precision engineering catalog aesthetic. Original catalog image will remain accessible.",
+  "mode": "built-in image_gen",
+  "kind": "AI-retouched product presentation"
+}
+]

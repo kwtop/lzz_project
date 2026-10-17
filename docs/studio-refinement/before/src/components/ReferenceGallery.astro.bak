@@ -1,0 +1,10 @@
+---
+import media from '../data/additionalMedia.generated.json';
+interface Props {ids:(keyof typeof media.photos)[];title:string;description?:string}
+const {ids,title,description}=Astro.props;
+---
+<section class="reference-gallery"><h2>{title}</h2>{description&&<p>{description}</p>}<div>{ids.map(id=>{const image=media.photos[id];return <figure><a href={image.src} aria-label={'View full image: '+image.caption}><img src={image.src} srcset={image.srcset} sizes="(max-width:760px) 90vw, 550px" width={image.width} height={image.height} alt={image.caption} loading="lazy" decoding="async"/></a><figcaption>{image.kind==='cad-reference'&&<strong>CAD reference. </strong>}{image.caption}</figcaption></figure>})}</div></section>
+<style>
+ .reference-gallery{padding-block:40px}.reference-gallery h2{font-size:clamp(27px,3vw,36px);line-height:1.2}.reference-gallery>p{max-width:72ch;font-size:16px;line-height:1.7;margin-top:18px}.reference-gallery>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:28px;align-items:start}.reference-gallery figure{margin:0;min-width:0}.reference-gallery a{display:block}.reference-gallery a:focus-visible{outline:2px solid var(--red);outline-offset:4px}.reference-gallery img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain;background:#fff}.reference-gallery figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}.reference-gallery>div:has(>figure:only-child){grid-template-columns:minmax(0,680px)}
+ @media(max-width:760px){.reference-gallery>div{grid-template-columns:1fr;gap:28px}}
+</style>

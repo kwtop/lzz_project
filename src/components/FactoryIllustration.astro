@@ -1,0 +1,11 @@
+---
+interface Props {kind:'measurement'|'workflow';class?:string}
+const {kind,class:className}=Astro.props;
+const measurement=kind==='measurement';
+const stem=measurement?'/media/factory-section-20261014/measurement-setup':'/media/factory-reading-20261014/workflow-illustrative-v1';
+const alt=measurement?'Conceptual touch probe contacting the bore of a machined block resting on measurement supports':'Conceptual drawing review, CNC milling, dimensional measurement and protective packing';
+---
+<figure class:list={['fd-illustration',className]} data-image-origin="AI-generated">
+ <img src={stem+'-1200.webp'} srcset={[480,800,1200,1536].map(w=>`${stem}-${w}.webp ${w}w`).join(', ')} sizes="(max-width:760px) calc(100vw - 44px), 540px" width="1536" height="1024" alt={alt} loading="lazy" decoding="async"/>
+ <figcaption>{measurement?'AI-generated measurement concept. Support and probing are agreed for the actual drawing.':'AI-generated workflow illustration with conceptual equipment and parts.'}</figcaption>
+</figure>

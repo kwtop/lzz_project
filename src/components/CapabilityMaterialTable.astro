@@ -1,0 +1,20 @@
+---
+import type {RevisedCapability} from '../data/capabilityRedesign';
+import {materialGuide} from '../data/capabilityRedesign';
+import CapabilityConcept from './CapabilityConcept.astro';
+import {capabilityReadingPolish} from '../data/readingPolish';
+import type {CapabilityArt} from '../data/capabilityDesign';
+interface Props {page:RevisedCapability;title?:string;intro?:string;visual?:boolean;visualArt?:CapabilityArt}
+const {page,title,intro,visual=false,visualArt}=Astro.props;
+const reading=capabilityReadingPolish.has(page.slug);
+const materialArt=visualArt||(page.slug==='casting-machining'
+ ?{stem:'/media/reading-polish-20261015/casting-condition',width:1536,height:1024,alt:'AI illustration of a generic cast housing with a rough exterior and smooth machined datum land',caption:'Cast-blank condition · AI illustration. Specify the blank, allowance and finished interfaces for your drawing.'}
+ :{stem:'/media/procurement-layout-20261015/material-families',width:1448,height:1086,alt:'Four generic stock specimens illustrating metallic and polymer material families',caption:'Material families · AI illustration. Specify the exact grade and condition; these are not inventory records.'});
+---
+<section class:list={['rd-section','cx-materials',{'cx-materials--visual':visual}]} id="materials-finishes"><div class="cx-material-overview"><header><h2>{title||page.plan.materialHeading||(page.reading?.family==='material'?'Grade, condition and finishing':'Material and finish review')}</h2><p>{intro||'Specify grade, condition, finish and the final acceptance state together. These are discussion options; suitability and availability are confirmed for the drawing.'}</p></header>{visual&&<CapabilityConcept art={materialArt}/>}</div>
+ <slot/>
+ <table class="rd-table rd-stacked cx-material-table"><thead><tr><th scope="col">Material / scope</th><th scope="col">Specification</th><th scope="col">Finish / treatment</th><th scope="col">Confirm for this drawing</th></tr></thead><tbody>{page.plan.materials.map(row=><tr><th scope="row">{row.name}</th><td data-label="Specification">{row.grades}</td><td data-label="Finish / treatment">{row.finish}</td><td data-label={reading?'Drawing check':'Confirm for this drawing'}>{row.review}</td></tr>)}</tbody></table>
+ {page.plan.materialNote&&<p class="cx-callout">{page.plan.materialNote}</p>}
+ <a class="rd-link" href={materialGuide}>Material and finish checklist</a>
+ <div class="cx-specimen-strip"><slot name="examples"/></div>
+</section>

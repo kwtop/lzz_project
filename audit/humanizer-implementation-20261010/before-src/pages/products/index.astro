@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EvidenceImage from '../../components/EvidenceImage.astro';
+
+
+import ProductExplorer from '../../components/ProductExplorer';
+import catalog from '../../data/catalog.json';
+import AdditionalPartForms from '../../components/AdditionalPartForms.astro';
+const products=catalog.products.map(({slug,name,categories,images})=>({slug,name,categories,images}));
+const machiningRoutes=[
+ {slug:'cnc-milling-service',title:'CNC milling'},
+ {slug:'cnc-turning-service',title:'CNC turning'},
+ {slug:'5-axis-cnc-machining',title:'5-axis machining'},
+ {slug:'plastic-machined-parts',title:'Engineering plastics'},
+ {slug:'casting-machining',title:'Casting machining'},
+];
+---
+<Layout title="Custom Parts" description="Browse custom CNC machined part examples by process and material, including housings, shafts, fittings and complex components.">
+ <header class="container catalog-heading"><h1>Custom machined parts</h1><p>Explore parts by shape, process and material. Each example is made to drawing, not sold from stock.</p>
+
+ </header>
+ <nav class="container catalog-route-links" aria-label="Machining routes"><p>Start with a machining route</p><div>{machiningRoutes.map(route=><a href={'/capabilities/'+route.slug+'/'}>{route.title}<span aria-hidden="true">↗</span></a>)}</div></nav>
+ <section class="container section catalog-section"><ProductExplorer products={products} categories={catalog.categories} client:load/></section>
+
+ <section class="container catalog-workshop"><a href="/cases/"><EvidenceImage id="turn-mill-operation" sizes="(max-width:760px) 90vw, 740px"/><div><h2>From the workshop</h2><p>Setups, machining sequences and finished parts.</p><span class="study-link">Explore Machining Studies <span aria-hidden="true">↗</span></span></div></a></section>
+ <AdditionalPartForms/>
+</Layout>
+<style>
+ .catalog-route-links{padding-top:24px}.catalog-route-links>p{font-size:14px;font-weight:550;color:var(--ink);margin-bottom:12px}.catalog-route-links>div{display:flex;flex-wrap:wrap;gap:10px}.catalog-route-links a{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:44px;padding:10px 14px;border:1px solid var(--border);border-radius:2px;color:var(--ink);font-size:14px;font-weight:550;text-decoration:none}.catalog-route-links a:hover{color:var(--red);border-color:var(--red)}.catalog-route-links a:focus-visible{outline:2px solid var(--red);outline-offset:3px}.catalog-route-links a span{font-weight:400}@media(max-width:760px){.catalog-route-links{padding-top:20px}.catalog-route-links>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.catalog-route-links a{gap:8px;padding-inline:12px;font-size:13px}.catalog-route-links a:last-child{grid-column:1/-1}}
+ .catalog-support{padding-bottom:64px}.catalog-support>.text-link{margin-top:20px}
+
+ .catalog-case-entry{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:28px;padding:24px;border:1px solid var(--border);background:var(--surface);border-radius:4px}.catalog-case-entry h2{font-size:23px;line-height:1.3;letter-spacing:-.02em}.catalog-heading .catalog-case-entry p{font-size:15px;line-height:1.6;margin-top:8px}.catalog-case-entry>a{flex-shrink:0}
+ @media(max-width:760px){.catalog-case-entry{flex-direction:column;align-items:flex-start;gap:18px;padding:20px;margin-top:24px}.catalog-case-entry h2{font-size:21px}.catalog-case-entry>a{max-width:100%;white-space:normal}}
+ .catalog-heading{padding-block:48px 0}.catalog-heading h1{font-size:var(--type-display);line-height:1.12;letter-spacing:-.035em}.catalog-heading p{max-width:76ch;font-size:17px;margin-top:20px}:global(body.brand-site .catalog-section){padding-top:32px}.geometry-paths{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding-block:22px 64px;border-top:1px solid var(--border)}.geometry-paths a{display:flex;flex-direction:column;gap:8px;padding:17px 0;border-top:2px solid var(--ink);min-width:0}.geometry-paths strong{font-size:17px;line-height:1.25}.geometry-paths span{font-size:13px;color:var(--muted);line-height:1.45}.geometry-paths a:hover strong{color:var(--red)}@media(max-width:760px){.catalog-intro{grid-template-columns:1fr;gap:14px;padding-block:20px 11px}.catalog-intro>div:last-child p{font-size:14px;line-height:1.5}.catalog-intro>div:last-child a{font-size:13px;margin-top:8px}.geometry-paths{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.geometry-paths strong{font-size:15px}:global(body.brand-site.task-pages .catalog-section){padding-top:18px}}
+</style>

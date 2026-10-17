@@ -1,0 +1,12 @@
+---
+import {photo} from '../data/evidence';
+import {photoFrame} from '../lib/photoFrame';
+interface Props {id:string;caption?:string;class?:string;eager?:boolean;sizes?:string;frameClass?:string}
+const {id,caption,class:className,eager=false,sizes='(max-width:767px) calc(100vw - 44px), 560px',frameClass}=Astro.props;
+const source=photo(id);
+const frame=await photoFrame(source.src,source.width,source.height);
+---
+<figure class:list={['cx-evidence',className]} data-photo-id={id} data-image-origin="original-photo" style={'--cx-photo-ratio:'+frame.width/frame.height}>
+ {frameClass?<div class={frameClass}><img src={source.src} srcset={source.srcset} width={frame.width} height={frame.height} sizes={sizes} alt={source.alt} loading={eager?'eager':'lazy'} decoding="async"/></div>:<img src={source.src} srcset={source.srcset} width={frame.width} height={frame.height} sizes={sizes} alt={source.alt} loading={eager?'eager':'lazy'} decoding="async"/>}
+ <figcaption>{caption||source.caption}</figcaption>
+</figure>

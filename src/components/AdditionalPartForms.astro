@@ -1,0 +1,16 @@
+---
+import ReferenceGallery from './ReferenceGallery.astro';
+const coveredFields=[
+ {label:'Materials',value:'Specify core and covering materials.'},
+ {label:'Fit',value:'Specify hardness and interface dimensions.'},
+ {label:'Construction',value:'Confirm formulation and bonding method separately; these are not identified by the photographs.'},
+];
+---
+<section class="container additional-part-forms" id="additional-part-forms">
+ <header><h2>Covered components &amp; gear forms</h2></header>
+ <div class="additional-group"><ReferenceGallery ids={['covered-wheels','covered-rollers','covered-shaped-parts']} title="Covered components" captions={{'covered-wheels':'Covered wheels','covered-rollers':'Covered rollers','covered-shaped-parts':'Shaped components'}} description="Metal hubs or shaft ends with an outer covering." fields={coveredFields}/></div>
+ <div class="additional-group"><ReferenceGallery ids={['gear-bevel-examples','gear-cylindrical-examples']} title="Gear forms" captions={{'gear-bevel-examples':'Conical gear forms','gear-cylindrical-examples':'Cylindrical gear forms'}} requirements={['Tooth geometry & material','Bore & hub dimensions','Mating parts & inspection']}/></div>
+ <nav aria-label="Related part requirements"><a class="button" href="/quote/">Discuss your drawing</a></nav>
+</section>
+<style>.additional-part-forms{border-top:1px solid var(--border)}</style>
+

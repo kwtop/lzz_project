@@ -1,0 +1,158 @@
+[
+  {
+    "width": 390,
+    "route": "/about/",
+    "overflow": 0,
+    "images": [
+      {
+        "src": "/media/editorial/laboratory-application-illustration-v1-1200.webp",
+        "loaded": true,
+        "alt": "Conceptual laboratory instrument with a machined aluminum housing"
+      },
+      {
+        "src": "/media/editorial/hydraulic-application-illustration-v1-1200.webp",
+        "loaded": true,
+        "alt": "Conceptual hydraulic valve assembly with a machined metal manifold"
+      },
+      {
+        "src": "/media/evidence/workshop-visit-1200.webp",
+        "loaded": true,
+        "alt": "Two people photographed in the LZZ machining workshop."
+      },
+      {
+        "src": "/media/evidence/trade-event-1600.webp",
+        "loaded": true,
+        "alt": "Attendee photographed in front of the West Lake Summit event backdrop."
+      },
+      {
+        "src": "/media/evidence/team-gathering-1600.webp",
+        "loaded": true,
+        "alt": "LZZ team members seated together during an outdoor gathering."
+      }
+    ],
+    "archive": true,
+    "logosCollapsed": true,
+    "errors": [],
+    "screenshot": "editorial-390-about.jpg"
+  },
+  {
+    "width": 390,
+    "route": "/products/",
+    "overflow": 0,
+    "images": [
+      {
+        "src": "/media/editorial/machined-housings-editorial-v1-1200.webp",
+        "loaded": true,
+        "alt": "AI-retouched presentation of three machined aluminum housings based on a source marketing photograph"
+      }
+    ],
+    "archive": false,
+    "logosCollapsed": true,
+    "errors": [],
+    "screenshot": "editorial-390-products.jpg"
+  },
+  {
+    "width": 768,
+    "route": "/about/",
+    "overflow": 0,
+    "images": [
+      {
+        "src": "/media/editorial/laboratory-application-illustration-v1-1200.webp",
+        "loaded": true,
+        "alt": "Conceptual laboratory instrument with a machined aluminum housing"
+      },
+      {
+        "src": "/media/editorial/hydraulic-application-illustration-v1-1200.webp",
+        "loaded": true,
+        "alt": "Conceptual hydraulic valve assembly with a machined metal manifold"
+      },
+      {
+        "src": "/media/evidence/workshop-visit-1200.webp",
+        "loaded": true,
+        "alt": "Two people photographed in the LZZ machining workshop."
+      },
+      {
+        "src": "/media/evidence/trade-event-1600.webp",
+        "loaded": true,
+        "alt": "Attendee photographed in front of the West Lake Summit event backdrop."
+      },
+      {
+        "src": "/media/evidence/team-gathering-1600.webp",
+        "loaded": true,
+        "alt": "LZZ team members seated together during an outdoor gathering."
+      }
+    ],
+    "archive": true,
+    "logosCollapsed": true,
+    "errors": [],
+    "screenshot": "editorial-768-about.jpg"
+  },
+  {
+    "width": 768,
+    "route": "/products/",
+    "overflow": 0,
+    "images": [
+      {
+        "src": "/media/editorial/machined-housings-editorial-v1-1200.webp",
+        "loaded": true,
+        "alt": "AI-retouched presentation of three machined aluminum housings based on a source marketing photograph"
+      }
+    ],
+    "archive": false,
+    "logosCollapsed": true,
+    "errors": [],
+    "screenshot": "editorial-768-products.jpg"
+  },
+  {
+    "width": 1440,
+    "route": "/about/",
+    "overflow": 0,
+    "images": [
+      {
+        "src": "/media/editorial/laboratory-application-illustration-v1-1200.webp",
+        "loaded": true,
+        "alt": "Conceptual laboratory instrument with a machined aluminum housing"
+      },
+      {
+        "src": "/media/editorial/hydraulic-application-illustration-v1-1200.webp",
+        "loaded": true,
+        "alt": "Conceptual hydraulic valve assembly with a machined metal manifold"
+      },
+      {
+        "src": "/media/evidence/workshop-visit-1200.webp",
+        "loaded": true,
+        "alt": "Two people photographed in the LZZ machining workshop."
+      },
+      {
+        "src": "/media/evidence/trade-event-1600.webp",
+        "loaded": true,
+        "alt": "Attendee photographed in front of the West Lake Summit event backdrop."
+      },
+      {
+        "src": "/media/evidence/team-gathering-1600.webp",
+        "loaded": true,
+        "alt": "LZZ team members seated together during an outdoor gathering."
+      }
+    ],
+    "archive": true,
+    "logosCollapsed": true,
+    "errors": [],
+    "screenshot": "editorial-1440-about.jpg"
+  },
+  {
+    "width": 1440,
+    "route": "/products/",
+    "overflow": 0,
+    "images": [
+      {
+        "src": "/media/editorial/machined-housings-editorial-v1-1200.webp",
+        "loaded": true,
+        "alt": "AI-retouched presentation of three machined aluminum housings based on a source marketing photograph"
+      }
+    ],
+    "archive": false,
+    "logosCollapsed": true,
+    "errors": [],
+    "screenshot": "editorial-1440-products.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - heading "Privacy & site information" [level=1]
+    - paragraph: Information about inquiry drafts, browser storage and the product details on this site.
+    - heading "Your inquiry" [level=2]
+    - paragraph: The form creates an email draft in your browser. It does not send your information to LZZ or upload drawings. To contact us, open the draft in your email app, add your attachments and send it yourself.
+    - heading "Saved drafts" [level=2]
+    - paragraph: The form saves your input and draft status in the current tab using sessionStorage, with a separate entry for each selected part. Your details stay available after a refresh but are not saved to an account or sent to LZZ. Select "Clear saved input" to remove the entry for the current part.
+    - paragraph: Your browser may restore this data when it restores a previous session. Clear your input before leaving a shared device. If browser storage is blocked or full, you can still use the form while the page is open. Select "Save draft" to download a text copy.
+    - heading "Cookies and external services" [level=2]
+    - paragraph: This site does not use analytics or advertising cookies. Your email provider, WhatsApp and other linked websites have their own privacy policies.
+    - heading "Product and company information" [level=2]
+    - paragraph: Product pages use catalog photographs and clearly labeled illustrative visuals. Neither is an inspection record or a specification document. Original workshop photographs and company documents are identified separately from product examples.
+    - paragraph: Product pages use shorter titles and summaries of the catalog entries. Original catalog names and source material are retained in our archive; they are not displayed on every product page. The summaries are not independently verified specifications for the photographed parts. Confirm material grades and tolerances with the team, along with the inspection and commercial terms for your order.
+    - paragraph: The engineering guides help you prepare an inquiry; they are not inspection records or customer case studies. They do not establish suitability for a particular application. Material filters help you find existing parts without creating duplicate product pages. English descriptions of company documents explain their contents but do not verify current validity.
+    - heading "Contact" [level=2]
+    - paragraph:
+      - text: For questions, contact
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+      - text: .
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

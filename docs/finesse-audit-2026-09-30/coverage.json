@@ -1,0 +1,224 @@
+{
+  "audit": "finesse audit",
+  "date": "2026-09-30",
+  "project": "D:/lzz/lzz/_react",
+  "target": "http://127.0.0.1:4323/",
+  "websiteModified": false,
+  "routeDiscovery": "Native browser breadth-first traversal of actual local page links; matched the existing route inventory after excluding the internal preview.",
+  "sourceInventory": "docs/critique-2026-09-30/route-inventory.json",
+  "publicPages": 80,
+  "publicRoutes": [
+    "/about/",
+    "/capabilities/5-axis-cnc-machining/",
+    "/capabilities/aluminum-cnc-parts/",
+    "/capabilities/casting-machining/",
+    "/capabilities/cnc-milling-service/",
+    "/capabilities/cnc-turning-service/",
+    "/capabilities/copper-brass-cnc-parts/",
+    "/capabilities/",
+    "/capabilities/low-volume-production/",
+    "/capabilities/plastic-machined-parts/",
+    "/capabilities/prototype-machining/",
+    "/capabilities/stainless-steel-cnc-parts/",
+    "/cases/29-inch-display-housing-cnc-machining/",
+    "/cases/custom-metal-parts-batch-examples/",
+    "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+    "/cases/five-axis-machining-multi-face-parts/",
+    "/cases/",
+    "/cases/milling-a-pocketed-enclosure-form/",
+    "/cases/milling-prismatic-components/",
+    "/cases/turning-then-milling-cylindrical-parts/",
+    "/cases/two-stage-cnc-milling/",
+    "/factory/",
+    "/",
+    "/insights/australian-customer-workshop-visit-january-2025/",
+    "/insights/china-africa-west-lake-summit-2025/",
+    "/insights/cnc-process-selection/",
+    "/insights/company-news/",
+    "/insights/custom-cnc-machined-components-for-prototypes-and-production/",
+    "/insights/custom-cnc-parts-shipping-checklist/",
+    "/insights/drawings-and-ordering/",
+    "/insights/faq/",
+    "/insights/how-we-work/",
+    "/insights/",
+    "/insights/lzz-team-outing-2024/",
+    "/insights/material-and-finish-checklist/",
+    "/insights/may-2025-lzz-team-outing/",
+    "/insights/november-2025-hangzhou-lizhizao-group-activity/",
+    "/insights/processes-materials-finishes/",
+    "/insights/production-and-shipping/",
+    "/insights/prototype-vs-small-batch-cnc/",
+    "/insights/rfq-checklist/",
+    "/privacy/",
+    "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "/products/custom-oem-cnc-turning-manufacturer/",
+    "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "/products/custom-rotary-cylindrical-components/",
+    "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "/products/global-oem-precision-machining-solutions/",
+    "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "/products/",
+    "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "/products/oem-precision-cnc-machined-casting-housings/",
+    "/products/precision-cnc-machined-castings-custom-oem-housings/",
+    "/products/precision-cnc-machined-castings-manufacturer/",
+    "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "/products/ultra-high-precision-machining-services/",
+    "/quality/",
+    "/quote/"
+  ],
+  "browserChecks": [
+    {
+      "width": 1440,
+      "height": 900,
+      "pages": 80,
+      "pageHorizontalOverflow": 0
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "pages": 80,
+      "pageHorizontalOverflow": 0,
+      "mainHeadingHorizontalOverflow": 0
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pages": 80,
+      "pageHorizontalOverflow": 0,
+      "mainHeadingHorizontalOverflow": 0
+    },
+    {
+      "width": 414,
+      "height": 844,
+      "pages": 80,
+      "pageHorizontalOverflow": 0,
+      "mainHeadingHorizontalOverflow": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 80,
+      "pageHorizontalOverflow": 0,
+      "mainHeadingHorizontalOverflow": 0
+    }
+  ],
+  "supplementaryChecks": [
+    {
+      "path": "/404/",
+      "widths": [
+        1440,
+        320
+      ],
+      "mainPresent": true,
+      "pageHorizontalOverflow": false
+    },
+    {
+      "path": "/preview/home-editorial/",
+      "widths": [
+        1440,
+        320
+      ],
+      "mainPresent": true,
+      "pageHorizontalOverflow": false
+    }
+  ],
+  "detector": {
+    "files": 68,
+    "rawP0FindingGroups": 4,
+    "confirmedMissingFilesFromRawP0": 0,
+    "rawOutput": "detector.json",
+    "interpretation": "ASTRO URL expressions and one-shot requestAnimationFrame callbacks caused the raw P0 hits; review documented in AUDIT.md."
+  },
+  "observations": {
+    "mobileFooterLinkHeight": 40,
+    "finesseMinimumTouchHeight": 44,
+    "mobile320HeaderQuote": {
+      "width": 89,
+      "height": 57,
+      "wraps": true
+    },
+    "mobile320QualityCTA": {
+      "width": 257,
+      "height": 75,
+      "wraps": true
+    },
+    "mobile320CatalogContext": {
+      "fontSize": 12,
+      "lineHeight": 16.8
+    },
+    "desktopResourcesHeight": 4664,
+    "mobile320ResourcesHeight": 7035,
+    "desktopAboutHeight": 7638,
+    "mobile320AboutHeight": 11447,
+    "desktopAboutDocumentsHeadingY": 3821,
+    "desktopCatalogFirstTitleY": 903,
+    "desktopMaterialGuideFirstBodyHeadingY": 1288,
+    "mobile320MaterialGuideFirstBodyHeadingY": 808,
+    "desktopPortraitEquipmentImage": {
+      "sourceWidth": 648,
+      "sourceHeight": 864,
+      "displayWidth": 554,
+      "displayHeight": 320,
+      "objectFit": "cover",
+      "sourceHeightVisiblePercent": 43
+    },
+    "contrastSample": [
+      {
+        "foreground": "#282c2f",
+        "background": "#ffffff",
+        "ratio": 14.08
+      },
+      {
+        "foreground": "#454d55",
+        "background": "#ffffff",
+        "ratio": 8.59
+      },
+      {
+        "foreground": "#ffffff",
+        "background": "#cb1217",
+        "ratio": 5.77
+      }
+    ],
+    "keyboardFirstTab": {
+      "target": "Skip to content",
+      "visible": true,
+      "outline": "rgb(203, 18, 23) solid 2px"
+    }
+  },
+  "severity": {
+    "P0": 1,
+    "P1": 4,
+    "P2": 3,
+    "P0Definition": "Strict finesse mobile floor gate; touch size and button wrapping, not an observed white screen or failed RFQ."
+  },
+  "limitations": [
+    "Layout checks are DOM measurements; representative sections were visually inspected.",
+    "Same-day unchanged-source screenshots from the previous critique were also consulted.",
+    "No live mail sent or production deployment checked.",
+    "Reduced motion checked in source only; no real-device FPS measurement or complete WCAG certification.",
+    "Positions and heights are approximate and depend on viewport, font loading and disclosure state."
+  ]
+}

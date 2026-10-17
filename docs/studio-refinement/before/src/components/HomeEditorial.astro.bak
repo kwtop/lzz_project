@@ -1,0 +1,95 @@
+---
+import EvidenceImage from './EvidenceImage.astro';
+import {primaryServices} from '../data/services';
+import {engineeringCases} from '../data/cases';
+import {productImage,productSrcset} from '../data/refinedImages';
+import catalog from '../data/catalog.json';
+import '../styles/home-current.css';
+const parts=[
+ {slug:'ultra-high-precision-machining-services',name:'Machined impeller'},
+ {slug:'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm',name:'Multi-bore milled component'},
+ {slug:'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier',name:'Turned locking pin'},
+].map(item=>({...item,product:catalog.products.find(p=>p.slug===item.slug)!}));
+const featuredCases=['five-axis-machining-multi-face-parts','29-inch-display-housing-cnc-machining','turning-then-milling-cylindrical-parts'].map(slug=>engineeringCases.find(item=>item.slug===slug)!);
+const materials=[['Aluminum','aluminum-cnc-parts'],['Stainless steel','stainless-steel-cnc-parts'],['Brass & copper','copper-brass-cnc-parts'],['Engineering plastics','plastic-machined-parts']];
+---
+ <section class="precision-hero">
+  <img class="precision-scene" src="/media/machining-hero-v2.webp" alt="CNC spindle above a metal workpiece" width="1672" height="941" fetchpriority="high"/>
+  <div class="container precision-message"><h1>CNC parts<br/>Made to your drawing</h1><p>Custom CNC machining for prototypes<br class="desktop-break"/> and small production runs.</p><a class="button" href="/quote/">Request a quote</a><p class="hero-note">Prototypes &amp; small batches · From 1 piece</p></div>
+  <div class="container hero-baseline"><a href="#selected-parts">See our work</a></div>
+ </section>
+ <div class="editorial-home">
+  <section class="container ed-parts" id="selected-parts">
+   <header class="ed-heading"><h2>Custom machined parts</h2><a class="ed-link" href="/products/"><span>Browse all parts</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></header>
+   <div class="ed-product-grid">{parts.map(part=><a class="ed-product" href={'/products/'+part.slug+'/'}><div class="ed-product-image"><img src={productImage(part.product)} srcset={productSrcset(part.product)} sizes="(max-width:760px) 90vw, 380px" alt={part.product.name} width="800" height="800" loading="lazy"/></div><h3>{part.name}</h3></a>)}</div>
+  </section>
+  <section class="container ed-factory" aria-labelledby="ed-factory-title">
+   <header class="ed-heading"><h2 id="ed-factory-title">Inside LZZ</h2><div><p>Our Hangzhou workshop brings CNC milling, turning and dimensional inspection together for custom parts.</p><a class="ed-link" href="/factory/"><span>Explore our factory</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div></header>
+   <figure class="ed-workshop"><EvidenceImage id="workshop-wide" sizes="(max-width:760px) 90vw, 1140px"/><figcaption>LZZ workshop · Hangzhou</figcaption></figure>
+   <div class="ed-inspection"><div class="ed-company"><h3>Machining in Hangzhou</h3><dl><div><dt>Company established</dt><dd>2017</dd></div><div><dt>Facility area</dt><dd>1,500 m²</dd></div><div><dt>CNC machines</dt><dd>40+</dd></div></dl></div><figure><EvidenceImage id="cmm-room" sizes="(max-width:760px) 90vw, 350px"/><figcaption>Coordinate measuring machine · LZZ inspection area</figcaption></figure><div class="ed-inspection-copy"><h3>Dimensional inspection</h3><p>Mark the critical dimensions on your drawing and tell us which inspection records you need. We can then agree the measurement method before production.</p><a class="ed-link" href="/quality/"><span>Review quality control</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div></div>
+  </section>
+  <section class="container ed-process" id="capabilities">
+   <div class="ed-process-copy"><h2>Machining capabilities</h2><nav aria-label="Machining services">{primaryServices.map(service=><a href={'/capabilities/'+service.slug+'/'}>{service.name}</a>)}</nav><a class="ed-link" href="/capabilities/"><span>View machining capabilities</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+   <figure><EvidenceImage id="five-axis-machine-wide" sizes="(max-width:760px) 90vw, 570px"/></figure>
+  </section>
+  <section class="container ed-cases"><header class="ed-heading"><h2>From the workshop</h2><a class="ed-link" href="/cases/"><span>Explore process studies</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></header><div class="ed-case-grid">{featuredCases.map(item=><a href={'/cases/'+item.slug+'/'}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 570px"/><h3>{item.title}</h3></a>)}</div></section>
+  <section class="container ed-materials"><h2>Metals and plastics</h2><nav aria-label="Materials">{materials.map(([label,slug])=><a href={'/capabilities/'+slug+'/'}>{label}</a>)}</nav></section>
+  <section class="container ed-inquiry"><div><h2>Let’s make your part</h2><p>Send your drawing, material and quantity.</p></div><div class="ed-inquiry-actions"><a class="button" href="/quote/">Prepare your quote request</a><p class="ed-delivery">Typical production: 7–14 business days after drawing and order confirmation, including surface finishing. Shipping time is additional.</p><p>Still preparing? <a href="/insights/rfq-checklist/">View the RFQ checklist</a></p></div></section>
+ </div>
+
+<style>
+ /* Editorial hierarchy: company facts, inspection, and three selected studies. */
+ .editorial-home{background:#fff;--ed-space:clamp(4rem,6vw,5.5rem);--ed-gap:clamp(2rem,4vw,4rem);--ed-rule:#d8dcde;--ed-ease:cubic-bezier(.2,.7,.2,1);font-optical-sizing:auto}
+ .editorial-home section{padding-block:var(--ed-space)}
+ :global(body.brand-site) .editorial-home h2{font-size:clamp(2.125rem,3.8vw,3.25rem);line-height:1.12;letter-spacing:-.035em;font-weight:550;text-wrap:balance}
+ :global(body.brand-site) .editorial-home h3{font-size:1.5rem;line-height:1.3;letter-spacing:-.018em;font-weight:550;text-wrap:pretty}
+ .ed-heading{display:flex;justify-content:space-between;gap:var(--ed-gap);align-items:flex-end;margin-bottom:clamp(2rem,3.5vw,3rem)}
+ .ed-heading>div{max-width:29rem}.ed-heading p{font-size:1.0625rem;line-height:1.75;letter-spacing:0;margin-bottom:1.25rem}
+ .ed-link{display:inline-flex;align-items:center;gap:.75rem;min-height:44px;padding-block:.625rem;font-size:1rem;line-height:1.5;font-weight:550;text-decoration:none;transition:color 160ms ease}
+ .ed-heading>.ed-link{flex-shrink:0;margin-bottom:.125rem}
+ .ed-link :global(svg){flex:none;transition:transform 180ms var(--ed-ease)}
+ .ed-link:active{opacity:.7}
+ .ed-link:focus-visible :global(svg){transform:translateX(3px)}
+ .ed-product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.25rem}
+ .ed-product{min-width:0;display:block}
+ .ed-product-image{aspect-ratio:1.05;display:flex;align-items:center;justify-content:center;background:#fff}
+ .ed-product-image img{width:100%;height:100%;object-fit:contain;transition:transform 260ms var(--ed-ease)}
+ .ed-product h3{border-top:1px solid var(--ed-rule);padding-top:1.25rem;margin-top:1.25rem;font-size:1.375rem;max-width:100%;transition:color 160ms ease,border-color 160ms ease}
+ .ed-factory{border-top:1px solid var(--ed-rule)}
+ .ed-workshop :global(img){width:100%;height:auto;aspect-ratio:2.25;object-fit:cover;border-radius:0}
+ .editorial-home figcaption{font-size:.875rem;line-height:1.65;letter-spacing:.005em;color:var(--muted);margin-top:.875rem;max-width:65ch}
+ .ed-inspection{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.5rem 4rem;align-items:start;margin-top:2.5rem}
+ .ed-company{grid-column:1/-1;display:grid;grid-template-columns:1fr 2fr;gap:1rem 4rem;align-items:start}.ed-company dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin:0!important}.ed-company dl>div{display:flex;flex-direction:column;align-items:flex-start;padding:0 0 1rem}.ed-company>.ed-link{grid-column:2}.ed-inspection figure :global(img){width:100%;height:18rem;object-fit:contain;background:#f8f8f7}.ed-inspection-copy{align-self:center}
+ .ed-inspection-copy p{margin:1.25rem 0;font-size:1rem;line-height:1.75}
+ .ed-company dl{margin:1.5rem 0}.ed-company dl>div{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--ed-rule)}.ed-company dt{font-size:.875rem;line-height:1.5;color:var(--muted);max-width:20ch}.ed-company dd{font-size:1.5rem;font-weight:600;letter-spacing:-.025em;font-variant-numeric:tabular-nums;margin:0;white-space:nowrap}
+ .ed-process{border-top:1px solid var(--ed-rule);display:grid;grid-template-columns:1fr 1fr;gap:var(--ed-gap);align-items:center}
+ .ed-process nav{margin:2rem 0 1.5rem}.ed-process nav a{display:block;min-height:52px;padding:1.125rem 0;border-bottom:1px solid var(--ed-rule);font-size:1.375rem;line-height:1.35;letter-spacing:-.015em;transition:color 160ms ease,border-color 160ms ease}
+ .ed-process figure :global(img){display:block;width:100%;height:28rem;object-fit:cover;border-radius:0}
+ .ed-cases{border-top:1px solid var(--ed-rule)}.ed-case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3.5rem 2.5rem}.ed-case-grid>a{min-width:0;display:block}.ed-case-grid :global(img){width:100%;height:auto;aspect-ratio:1.8;object-fit:cover;border-radius:0;transition:opacity 200ms ease}.ed-case-grid h3{font-size:1.375rem;margin-top:1.5rem;max-width:32ch;transition:color 160ms ease}.ed-case-grid>a:first-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center}.ed-case-grid>a:first-child h3{font-size:clamp(1.75rem,3vw,2.5rem);margin:0;max-width:20ch}
+ .editorial-home .ed-materials{display:grid;grid-template-columns:1fr 1.3fr;gap:var(--ed-gap);border-block:1px solid var(--ed-rule);padding-block:3rem}.ed-materials h2{font-size:2rem}.ed-materials nav{display:grid;grid-template-columns:1fr 1fr;gap:.75rem 2rem}.ed-materials a{padding:.5rem 0;min-height:44px;font-size:1.0625rem;line-height:1.5;text-decoration:underline;text-underline-offset:6px;text-decoration-color:#bbb;transition:color 160ms ease,text-decoration-color 160ms ease}
+ .ed-inquiry{display:flex;justify-content:space-between;gap:3rem;align-items:center}.ed-inquiry p{margin-top:1.5rem;font-size:1.0625rem;line-height:1.65}.ed-inquiry-actions>p{font-size:.9375rem}.ed-inquiry-actions>p a{text-decoration:underline;text-underline-offset:4px}.ed-inquiry-actions{max-width:30rem}.ed-inquiry-actions .ed-delivery{font-size:.875rem;line-height:1.65;color:var(--muted)}.ed-inquiry-actions .button{min-width:15rem}
+ .editorial-home a:focus-visible{outline:2px solid var(--red);outline-offset:6px}
+ .ed-product:focus-visible h3,.ed-case-grid>a:focus-visible h3{color:var(--red)}
+ #selected-parts{scroll-margin-top:1.5rem}
+ @media(hover:hover) and (pointer:fine){
+  .ed-link:hover :global(svg){transform:translateX(3px)}
+  .ed-link:hover,.ed-materials a:hover{color:var(--red);text-decoration-color:var(--red)}
+  .ed-product:hover h3,.ed-case-grid>a:hover h3{color:var(--red)}
+  .ed-product:hover h3,.ed-process nav a:hover{border-color:var(--red)}
+  .ed-product:hover img{transform:scale(1.025)}
+  .ed-case-grid>a:hover :global(img){opacity:.92}
+  .ed-process nav a:hover{color:var(--red)}
+ }
+ @media(max-width:960px){.ed-inspection{grid-template-columns:1fr 1fr;gap:2rem}.ed-inspection-copy{grid-column:2}.ed-company{grid-row:auto;grid-template-columns:1fr}.ed-company>.ed-link{grid-column:1}.ed-process{gap:2rem}.ed-process figure :global(img){height:30rem}}
+ @media(max-width:760px){
+  .editorial-home{--ed-space:2.75rem}.ed-heading{display:block;margin-bottom:2rem}.ed-heading>.ed-link{margin-top:1rem}.ed-heading>div .ed-link{margin-top:0}.ed-heading>div{margin-top:1.5rem}
+  .ed-product-grid{grid-template-columns:1fr;gap:2.5rem}.ed-product-image{aspect-ratio:1.2}.ed-product h3{margin-top:.75rem;padding-top:1rem}
+  .ed-inspection{grid-template-columns:1fr;margin-top:2.5rem;gap:2rem}.ed-company{grid-row:auto;grid-column:auto;display:block}.ed-company dl{grid-template-columns:1fr;gap:0;margin:1.5rem 0!important}.ed-company dl>div{flex-direction:row;padding:1rem 0}.ed-inspection-copy{grid-column:auto}.ed-workshop :global(img){aspect-ratio:1.4}.ed-inspection figure :global(img){height:15rem}
+  .ed-process{grid-template-columns:1fr;gap:2rem}.ed-process figure :global(img){height:22rem}
+  .ed-case-grid{grid-template-columns:1fr;gap:2.5rem}.ed-case-grid :global(img){aspect-ratio:1.45}.ed-case-grid>a:first-child{display:block;grid-column:auto}.ed-case-grid>a:first-child h3{font-size:1.375rem;margin-top:1.5rem}
+  .editorial-home .ed-materials{grid-template-columns:1fr;gap:1.5rem;padding-block:2.5rem}.ed-materials nav{gap:.5rem 1.25rem}.ed-materials a{font-size:1rem}
+  .ed-inquiry{display:block}.ed-inquiry-actions{margin-top:2rem}.ed-inquiry-actions .button{width:100%}
+ }
+ @media(prefers-reduced-motion:reduce){.ed-link :global(svg),.editorial-home a,.ed-product-image img,.ed-product h3,.ed-case-grid h3,.ed-case-grid :global(img){transition:none!important;transform:none!important}}
+ @media(prefers-contrast:more){.editorial-home{--ed-rule:currentColor}.ed-link,.ed-materials a{text-decoration-color:currentColor}}
+</style>

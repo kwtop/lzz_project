@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AboutPhoto from './AboutPhoto.astro';
+import AboutClosing from './AboutClosing.astro';
+import {companyNews} from '../data/companyNews';
+import {newsPlans,photoById} from '../data/aboutEditorial';
+import '../styles/about-redesign.css';
+const href=(slug:string)=>'/about/company-news/'+slug+'/';
+const featured=companyNews[0],cover=photoById(newsPlans[featured.slug].cover);
+const indexCover=(slug:string)=>photoById(slug==='australian-customer-workshop-visit-january-2025'?'australian-visit-01':newsPlans[slug].cover);
+---
+<Layout title="Company news: visits, events and life at LZZ" description="Original photographs and dated records from LZZ workshop visits, company events and team activities in Hangzhou." cta={false}>
+ <article class="al-page al-news-index"><div class="al-wrap">
+  <header class="al-hero al-news-index-header"><div><h1>Inside and outside<br/>the workshop.</h1></div><p class="al-lead">Workshop visits, industry events and days with the LZZ team. Explore the dated records and original photographs.</p></header>
+  <section aria-label="Company updates" class="al-news-updates"><nav class="al-filter" aria-label="Filter company news"><button type="button" data-news-filter="all" aria-pressed="true">All updates</button><button type="button" data-news-filter="Workshop & events" aria-pressed="false">Workshop & events</button><button type="button" data-news-filter="Team life" aria-pressed="false">Team life</button></nav><p class="al-result-count" role="status" aria-live="polite">5 updates</p>
+   <article class="al-news-feature" data-news-category={newsPlans[featured.slug].category}><a href={href(featured.slug)} aria-label={'Read '+featured.title}><AboutPhoto src={cover.src} srcset={cover.srcset} width={cover.width} height={cover.height} alt={cover.caption} eager/></a><div><time datetime={featured.eventDate}>{featured.eventDateLabel} · {newsPlans[featured.slug].category}</time><h2><a href={href(featured.slug)}>{featured.title}</a></h2><p>{featured.description}</p><a class="al-inline-link" href={href(featured.slug)}>Read the story and photographs</a></div></article>
+   <div class="al-news-list">{companyNews.slice(1).map(item=>{const image=indexCover(item.slug);return <article class="al-news-item" data-news-category={newsPlans[item.slug].category}><a href={href(item.slug)} aria-label={'Read '+item.title}><AboutPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption} class="al-index-photo"/></a><time datetime={item.eventDate}>{item.eventDateLabel} · {newsPlans[item.slug].category}</time><h2><a href={href(item.slug)}>{item.title}</a></h2><p>{item.description}</p></article>;})}</div>
+  </section>
+  <section class="al-section al-news-return"><div class="al-section-head"><h2>Get to know the company behind the photographs</h2><p>Review the company profile and order process, or arrange a visit to discuss your machining requirements.</p></div><nav class="al-actions" aria-label="Company information"><a class="al-secondary" href="/about/company-profile/">Company profile</a><a class="al-inline-link" href="/about/how-we-work/">How we work</a><a class="al-inline-link" href="/about/contact/">Arrange a visit</a></nav></section>
+  <AboutClosing title="Talk through your part requirements"/>
+ </div></article>
+</Layout>
+<script>
+ const page=document.querySelector('.al-news-index');
+ if(page){const buttons=page.querySelectorAll<HTMLButtonElement>('[data-news-filter]');const stories=page.querySelectorAll<HTMLElement>('[data-news-category]');const status=page.querySelector('.al-result-count');buttons.forEach(button=>button.addEventListener('click',()=>{const selected=button.dataset.newsFilter;let count=0;buttons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));stories.forEach(story=>{story.hidden=selected!=='all'&&story.dataset.newsCategory!==selected;if(!story.hidden)count++;});if(status)status.textContent=count+(count===1?' update':' updates');}));}
+</script>

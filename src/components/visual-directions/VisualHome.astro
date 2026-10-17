@@ -1,0 +1,68 @@
+---
+import {primaryServices} from '../../data/services';
+import {engineeringCases} from '../../data/cases';
+import {productImage,productSrcset} from '../../data/refinedImages';
+import catalog from '../../data/catalog.json';
+import EvidenceImage from '../EvidenceImage.astro';
+import RfqPanel from '../RfqPanel.astro';
+import '../../styles/visual-directions-20261014.css';
+interface Props {direction:'a'|'b'|'c'}
+const {direction}=Astro.props;
+const parts=[
+ {slug:'ultra-high-precision-machining-services',name:'Machined impeller',focus:'Blade contours and hub interfaces'},
+ {slug:'oem-precision-cnc-machined-casting-housing-structural-enclosures',name:'Machined casting housing',focus:'Bores, ribs and mounting faces'},
+ {slug:'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier',name:'Turned locking pin',focus:'Engagement, threads and mating fit'},
+ {slug:'precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances',name:'Complex plastic components',focus:'Pockets, walls and mating surfaces'},
+].map(item=>({...item,product:catalog.products.find(p=>p.slug===item.slug)!}));
+const studies=['29-inch-display-housing-cnc-machining','turning-then-milling-cylindrical-parts'].map(slug=>engineeringCases.find(item=>item.slug===slug)!);
+const materials=[['Aluminum','aluminum-cnc-parts'],['Stainless steel','stainless-steel-cnc-parts'],['Brass & copper','copper-brass-cnc-parts'],['Engineering plastics','plastic-machined-parts']];
+const hero=direction==='b'?'/visual-directions-20261014/media/impeller-dark-1536.webp':'/media/machining-hero-v2.webp';
+const processDescriptions=['Pockets, profiles and bores','Shafts, threads and circular features','Angled features and curved surfaces','Pockets, walls and mating surfaces','Bores, ribs and mounting faces'];
+---
+<div class:list={['vd','vd-'+direction]}>
+ <section class="vd-hero" aria-labelledby="vd-title">
+  <div class="vd-hero-copy">
+   <p class="vd-intro-label">LZZ Precision · Hangzhou</p>
+   <h1 id="vd-title">Custom CNC parts<span>Made to your drawing.</span></h1>
+   <p class="vd-hero-lead">Machining for prototypes and small production runs.</p>
+   <div class="vd-actions"><a class="vd-button vd-primary" href="/quote/">Prepare RFQ email</a><a class="vd-button vd-secondary" href="/machined-parts/">Browse parts gallery</a></div>
+  </div>
+  <figure class="vd-hero-image"><img src={hero} alt={direction==='b'?'Machined impeller, studio presentation':'CNC spindle machining an aluminum workpiece'} width={direction==='b'?1536:1672} height={direction==='b'?1024:941} fetchpriority="high" decoding="async"/>{direction==='b'&&<figcaption>Impeller detail · studio presentation</figcaption>}</figure>
+  <div class="vd-hero-base"><p>CNC milling · Turning · 5-axis machining</p><a href="#vd-parts">Explore the parts</a></div>
+ </section>
+
+ <section class="vd-parts vd-section" id="vd-parts" aria-labelledby="vd-parts-title">
+  <div class="vd-wrap">
+   <header class="vd-section-head"><h2 id="vd-parts-title">Parts gallery</h2><a class="vd-text-link" href="/machined-parts/">All custom parts</a></header>
+   <div class="vd-parts-grid">{parts.map((part,index)=><article class:list={['vd-part','vd-part-'+index]}><a class="vd-part-image" href={'/machined-parts/gallery/'+part.slug+'/'} aria-label={'View '+part.name}><img src={productImage(part.product)} srcset={productSrcset(part.product)} sizes={direction==='a'?'(max-width:760px) 46vw, 23vw':'(max-width:760px) 90vw, 48vw'} alt={part.name} width="800" height="800" loading="eager" decoding="async"/></a><div class="vd-part-copy"><h3><a href={'/machined-parts/gallery/'+part.slug+'/'}>{part.name}</a></h3><p>{part.focus}</p></div></article>)}</div>
+  </div>
+ </section>
+
+ <section class="vd-capabilities vd-section" aria-labelledby="vd-cap-title">
+  <div class="vd-wrap vd-cap-grid">
+   <header class="vd-cap-head"><h2 id="vd-cap-title">Machining capabilities<br/>&amp; materials</h2><p>The geometry, material and critical features of your part guide the machining review.</p></header>
+   <figure class="vd-cap-image">{direction==='b'?<EvidenceImage id="milling-enclosure-operation" sizes="(max-width:760px) 90vw, 45vw" loading="eager"/>:<img src="/media/image-audit/impeller-detail-v2-1536.webp" alt="Impeller blade contours and hub bore" width="1536" height="1024" loading="eager" decoding="async"/>}</figure>
+   <nav class="vd-processes" aria-label="Machining capabilities">{primaryServices.map((service,i)=><a href={'/capabilities/'+service.slug+'/'}><strong>{service.name}</strong><span>{processDescriptions[i]}</span></a>)}</nav>
+   <div class="vd-materials"><h3>Materials</h3><nav aria-label="Materials">{materials.map(([label,slug])=><a href={'/capabilities/'+slug+'/'}>{label}</a>)}</nav><p>Specify the grade, finish and features to check in your drawing.</p></div>
+  </div>
+ </section>
+
+ <section class="vd-factory vd-section" aria-labelledby="vd-factory-title">
+  <div class="vd-wrap">
+   <header class="vd-section-head"><div><p class="vd-intro-label">Factory &amp; quality</p><h2 id="vd-factory-title">Inside our<br/>Hangzhou workshop.</h2></div><a class="vd-text-link" href="/factory/">Explore the factory</a></header>
+   <div class="vd-factory-grid">
+    <figure class="vd-workshop"><img src="/media/factory-refined/workshop-1440.webp" alt="LZZ workshop in Hangzhou" width="1448" height="1086" loading="eager" decoding="async"/></figure>
+    <div class="vd-factory-facts"><dl><div><dt>Established</dt><dd>2017</dd></div><div><dt>Facility</dt><dd>1,500 <span>m²</span></dd></div><div><dt>Machining &amp; supporting equipment</dt><dd>40+</dd></div></dl><a class="vd-text-link" href="/about/">About LZZ</a></div>
+    <figure class="vd-inspection"><img src="/media/factory-refined/inspection-1440.webp" alt="Coordinate measuring machine in the LZZ workshop" width="1145" height="1374" loading="eager" decoding="async"/></figure>
+    <div class="vd-quality"><h3>Dimensional inspection</h3><p>LZZ is ISO 9001 certified.</p><p>Review the inspection requirements and documents for your part.</p><a class="vd-text-link" href="/factory/quality/">Quality control</a></div>
+   </div>
+  </div>
+ </section>
+
+ <section class="vd-studies vd-section" aria-labelledby="vd-studies-title"><div class="vd-wrap"><header class="vd-section-head"><h2 id="vd-studies-title">Machining examples</h2><a class="vd-text-link" href="/machined-parts/machining-examples/">View all studies</a></header><div class="vd-studies-grid">{studies.map((item,i)=><article class={'vd-study vd-study-'+i}><a class="vd-study-image" href={'/machined-parts/machining-examples/'+item.slug+'/'} aria-label={'View study: '+item.title}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 60vw" loading="eager"/></a><div class="vd-study-copy"><h3><a href={'/machined-parts/machining-examples/'+item.slug+'/'}>{item.title}</a></h3><p>{i===0?'Large-panel setup and mounting features.':'Turned features and a secondary milling setup.'}</p><a class="vd-text-link" href={'/machined-parts/machining-examples/'+item.slug+'/'}>Read the machining study</a></div></article>)}</div></div></section>
+
+ <section class="vd-guides vd-section" aria-labelledby="vd-guides-title"><div class="vd-wrap vd-guides-layout"><div><h2 id="vd-guides-title">Before you send<br/>the drawing.</h2><p>Useful checks for a clearer machining inquiry.</p><a class="vd-text-link" href="/resources/">All resources</a></div><nav aria-label="Procurement guides"><a href="/resources/ordering/rfq-checklist/"><h3>Prepare your RFQ</h3><p>Drawings, material, quantity and delivery details.</p></a><a href="/resources/ordering/compare-cnc-machining-quotations/"><h3>Compare quotation scope</h3><p>Check what each price includes before comparing costs.</p></a><a href="/resources/ordering/machined-prototype-approval-checklist/"><h3>Plan sample approval</h3><p>Agree what to check and which revision to approve.</p></a></nav></div></section>
+
+ <div class="vd-rfq"><RfqPanel id="vd-inquiry" titleId="vd-inquiry-title"><div slot="details"><dl><div><dt>Minimum order</dt><dd>From 1 piece</dd></div><div><dt>Production time</dt><dd>7–14 business days</dd></div></dl><p>Production starts after drawing and order confirmation. Surface finishing is included; shipping time is additional.</p><p>If an NDA is required, request it before sharing confidential drawings.</p></div></RfqPanel></div>
+ <aside class="vd-preview-nav" aria-label="Design preview switcher"><a href="/visual-directions-20261014/">对比</a>{['a','b','c'].map(key=><a href={'/visual-directions-20261014/'+key+'/'} aria-current={key===direction?'page':undefined}>{key.toUpperCase()}</a>)}</aside>
+</div>

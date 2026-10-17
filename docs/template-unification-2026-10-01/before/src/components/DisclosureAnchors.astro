@@ -1,0 +1,24 @@
+<script>
+ const revealHash=()=>{
+  let id:string;
+  try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+  if(!id)return;
+  const target=document.getElementById(id);
+  if(!target)return;
+  let node:HTMLElement|null=target;
+  while(node){if(node instanceof HTMLDetailsElement)node.open=true;node=node.parentElement;}
+  target.setAttribute('tabindex','-1');
+  requestAnimationFrame(()=>{target.focus({preventScroll:true});target.scrollIntoView({block:'start',behavior:'instant'});});
+ };
+ window.addEventListener('hashchange',revealHash);
+ document.addEventListener('click',event=>{
+  const link=event.target instanceof Element?event.target.closest<HTMLAnchorElement>('a[href]'):null;
+  if(link&&link.hash&&link.pathname===location.pathname&&link.origin===location.origin&&link.hash===location.hash)revealHash();
+ });
+ if(location.hash)revealHash();
+</script>
+<style is:global>
+ .brand-site :is(#capability-scope,#engineering-fit,#company-overview,#people-heading,#documents,#company-archive,[id^="study-"]){scroll-margin-top:110px}
+ .brand-site [tabindex="-1"]:focus-visible{outline:2px solid var(--red);outline-offset:6px}
+ .part-process-tags{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}
+</style>

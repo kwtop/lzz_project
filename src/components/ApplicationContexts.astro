@@ -1,0 +1,17 @@
+---
+import '../styles/studies-news-gallery.css';
+import EvidenceImage from './EvidenceImage.astro';
+const contexts=[
+ {title:'Scientific instruments',description:'Specify housing geometry and mounting faces, with optical or mechanical interfaces defined on the drawing.',href:'/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/',image:'laboratory-application-illustration-v1',alt:'Laboratory instrument assembly with a machined housing'},
+ {title:'Hydraulic equipment',description:'Define ports and sealing faces against the assembly drawing, including the fitting interfaces.',href:'/machined-parts/gallery/global-oem-precision-machining-solutions/',image:'hydraulic-manifold-illustrative-v1',alt:'Hydraulic manifold and fittings'},
+ {title:'Robotics & automation',description:'Review brackets and linkage geometry against the assembly model, including mounting interfaces.',href:'/capabilities/',image:'robotics-application-illustrative-v1',alt:'Robotics wrist with machined components'},
+ {title:'Machined enclosures',description:'Define pockets and bores on the part drawing, with mounting patterns and mating faces.',href:'/capabilities/cnc-milling-service/',evidenceId:'milling-enclosure-parts',disclosure:'Original LZZ machining photograph; the end customer and application are not identified.'},
+];
+---
+<section class="container section context-section" aria-labelledby="context-title">
+ <div class="section-heading"><h2 id="context-title">Application requirements</h2></div>
+ <div class="context-grid">{contexts.map(context=><article>
+  <figure data-image-origin={context.evidenceId?'source-photo':'AI-generated'}>{context.evidenceId?<EvidenceImage id={context.evidenceId} sizes="(max-width:760px) 100vw, 60vw"/>:<img src={`/media/editorial/${context.image}-1200.webp`} srcset={[480,800,1200,1536].map(width=>`/media/editorial/${context.image}-${width}.webp ${width}w`).join(', ')} sizes="(max-width:760px) 100vw, 60vw" width="1536" height="1024" loading="lazy" alt={context.alt}/>} {context.evidenceId&&<figcaption>{context.disclosure}</figcaption>}</figure>
+  <div class="context-copy"><h3>{context.title}</h3><p>{context.description}</p><a class="gallery-link" href={context.href}>See related examples</a></div>
+ </article>)}</div>
+</section>

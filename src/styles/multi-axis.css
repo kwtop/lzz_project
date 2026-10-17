@@ -1,0 +1,85 @@
+/* Multi-axis: a motion decision, access evidence, then model acceptance. */
+.redesign-site .axis-section{margin-top:var(--rd-space);scroll-margin-top:0}
+.redesign-site .cx-page .axis-page h1{font-size:52px;font-weight:550;line-height:1.1;letter-spacing:-.035em;max-width:none}
+.redesign-site .axis-page .cx-lead{font-size:20px;max-width:45ch}
+.redesign-site .axis-page .cx-intro-part img{height:430px}
+.redesign-site .axis-routing{border-top:1px solid var(--border);padding-top:36px}
+.redesign-site .axis-routing>header{margin-bottom:32px;max-width:45ch}
+.redesign-site .axis-routing-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:72px;align-items:start}
+.redesign-site .axis-route-list>div{display:grid;grid-template-columns:170px minmax(0,1fr);gap:24px;padding:22px 0;border-bottom:1px solid var(--border)}
+.redesign-site .axis-route-list>div:first-child{padding-top:0}
+.redesign-site .axis-route-list dt{font-size:21px;font-weight:550;line-height:1.45}
+.redesign-site .axis-route-list dd{margin:0;min-width:0;max-width:55ch}
+.redesign-site .axis-routing-grid>.cx-evidence{width:310px;max-width:100%;margin-inline:auto}
+.redesign-site .axis-routing-grid>.cx-evidence img{max-height:none;width:100%;height:auto}
+.redesign-site .axis-envelope{margin-top:28px;max-width:60ch}
+.redesign-site .axis-envelope p{margin-top:12px}
+.redesign-site .axis-routing>.rd-link{margin-top:24px}
+.redesign-site .axis-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px;margin-bottom:32px}
+.redesign-site .axis-heading h2{max-width:24ch}
+.redesign-site .axis-heading p{max-width:58ch}
+.redesign-site .axis-forms{padding:40px;background:var(--surface)}
+.redesign-site .axis-form-layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,7fr);gap:56px;align-items:start}
+.redesign-site .axis-source-group>.cx-evidence{width:230px;max-width:100%;margin:0}
+.redesign-site .axis-source-group>p{font-size:16px;line-height:1.65;max-width:40ch;margin-top:20px}
+.redesign-site .axis-example-list{display:grid;gap:28px}
+.redesign-site .axis-example-list>article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:center}
+.redesign-site .axis-page .axis-example-list img{width:100%;height:240px;object-fit:contain}
+.redesign-site .axis-example-list h3 a{text-decoration:none}
+.redesign-site .axis-example-list h3 a:is(:hover,:focus-visible){text-decoration:underline}
+.redesign-site .axis-example-list p{margin-top:12px;max-width:38ch}
+.redesign-site .axis-related{border-top:1px solid var(--border);padding-top:20px;margin-top:28px}
+.redesign-site .axis-related>p{max-width:75ch;font-size:15px;line-height:1.65}
+.redesign-site .axis-related>p+p{margin-top:12px}
+.redesign-site .axis-materials>.cx-materials{margin:0;padding:0;background:transparent}
+.redesign-site .axis-materials .cx-material-overview{max-width:70ch;margin-bottom:28px}
+.redesign-site .axis-materials .cx-material-overview p{margin-top:16px}
+.redesign-site .axis-tests{background:var(--surface);padding:28px;margin-top:28px}
+.redesign-site .axis-tests h3{font-size:21px}
+.redesign-site .axis-tests p{max-width:70ch;margin-top:12px}
+.redesign-site .axis-quality-context{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:64px;align-items:start;margin-top:32px}
+.redesign-site .axis-quality-context .cx-application-review{padding:0;margin:0;border:0}
+.redesign-site .axis-quality-context .cx-application-review dl>div{grid-template-columns:200px minmax(0,1fr);gap:24px}
+.redesign-site .axis-quality-context .cx-evidence{width:220px}
+.redesign-site .axis-quality>.rd-link{margin-top:24px}
+.redesign-site .axis-rfq{border-top:1px solid var(--border);padding-top:36px}
+.redesign-site .axis-rfq-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:64px;margin-top:28px}
+.redesign-site .axis-rfq-grid ul{margin:0;padding-left:20px}
+.redesign-site .axis-rfq-grid li{padding-left:4px;margin:0 0 14px;max-width:60ch}
+.redesign-site .axis-rfq-grid aside{padding:28px;background:var(--surface);align-self:start}
+.redesign-site .axis-rfq-grid aside>p{max-width:60ch;scroll-margin-top:0}
+.redesign-site .axis-rfq-grid .rd-button{margin-top:24px}
+.redesign-site .axis-rfq-grid .rd-note{margin-top:20px}
+.redesign-site .axis-rfq-grid .rd-link{margin-top:20px}
+@media(min-width:768px){.redesign-site .axis-checks th:first-child{width:21%}.redesign-site .axis-checks td{width:39.5%}}
+@media(max-width:1100px){
+ .redesign-site .axis-routing-grid{gap:40px;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+ .redesign-site .axis-route-list>div{grid-template-columns:1fr;gap:12px}
+ .redesign-site .axis-forms{padding:32px}
+ .redesign-site .axis-form-layout{grid-template-columns:200px minmax(0,1fr);gap:32px}
+ .redesign-site .axis-example-list>article{grid-template-columns:1fr;gap:16px}
+ .redesign-site .axis-quality-context{gap:32px}
+ .redesign-site .axis-quality-context .cx-application-review dl>div{grid-template-columns:1fr;gap:8px}
+}
+@media(max-width:767px){
+ .redesign-site .axis-section{margin-top:52px}
+ .redesign-site .cx-page .axis-page h1{font-size:37px;line-height:1.14}
+ .redesign-site .axis-page .cx-lead{font-size:18px}
+ .redesign-site .axis-page .cx-intro-part img{height:280px;max-height:none}
+ .redesign-site .axis-page .cx-order-link{font-size:15px}
+ .redesign-site .axis-routing-grid{grid-template-columns:1fr;gap:28px}
+ .redesign-site .axis-route-list dt{font-size:21px}
+ .redesign-site .axis-routing-grid>.cx-evidence{width:260px}
+ .redesign-site .axis-heading{grid-template-columns:1fr;gap:16px;margin-bottom:24px}
+ .redesign-site .axis-forms{padding:28px var(--layout-gutter);margin-inline:calc(-1 * var(--layout-gutter))}
+ .redesign-site .axis-form-layout{grid-template-columns:1fr;gap:32px}
+ .redesign-site .axis-source-group>.cx-evidence{width:220px;margin-inline:auto}
+ .redesign-site .axis-source-group>p{max-width:60ch}
+ .redesign-site .axis-example-list>article{grid-template-columns:1fr;gap:16px}
+ .redesign-site .axis-page .axis-example-list img{height:250px}
+ .redesign-site .axis-tests{padding:24px 20px}
+ .redesign-site .axis-quality-context{grid-template-columns:1fr;gap:28px}
+ .redesign-site .axis-quality-context .cx-evidence{width:210px}
+ .redesign-site .axis-rfq-grid{grid-template-columns:1fr;gap:28px}
+ .redesign-site .axis-materials>.cx-materials{margin-inline:0}
+}

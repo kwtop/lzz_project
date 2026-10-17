@@ -1,0 +1,31 @@
+{
+  "purpose": "Provenance for AI-retouched material-family presentation images; these are illustrative, not factory or specific-SKU proof.",
+  "assets": [
+    {
+      "id": "polymer-shafts-retouched-v1",
+      "tool": "built-in image_gen",
+      "mode": "edit using a source photograph as target",
+      "source": "力智造-素材资料照片/力智造-素材资料照片/20251201塑料制品零件/特氟龙制品/特氟龙轴类.jpg",
+      "sourceSha256": "58635bbfdabba62c6c0c80d0b23f4fa38093cadca51874bf5c300c28d102e0f9",
+      "originalOutput": "docs/media/generated/polymer-shafts-retouched-v1.png",
+      "outputSha256": "7536642c487e619b13d722bd2517e08879aaf375db9dad83784c51646cf481ce",
+      "webPrefix": "public/media/polymer-shafts-retouched-v1-",
+      "webWidths": [480, 800, 1200, 1536],
+      "prompt": "Edit the supplied photo into a photorealistic industrial catalog image. Preserve approximately ten ivory-white machined polymer shafts, cylindrical bodies and short threaded tips. Arrange neatly on a pale cool-gray studio surface with crisp thread detail and realistic shadows. Remove workbench clutter. No branding, text, people, calipers, drawings or metallic sheen. Do not imply a certified grade, dimensions or specific SKU.",
+      "publicLabel": "AI-retouched presentation from an LZZ source photograph"
+    },
+    {
+      "id": "brass-threaded-plugs-retouched-v1",
+      "tool": "built-in image_gen",
+      "mode": "edit using a source photograph as target",
+      "source": "力智造-素材资料照片/力智造-素材资料照片/20251201/黄铜零件/7db93e137da06879e3824ff60569d9f1.jpg",
+      "sourceSha256": "abf7eafc0008ed4ba4ef7da54118899d00de99e11860cefad583c68dff6cc9b8",
+      "originalOutput": "docs/media/generated/brass-threaded-plugs-retouched-v1.png",
+      "outputSha256": "f2f6715801efabbc981df95a81a6582ee64270512cb2e6f9a205df7c0a95c2cf",
+      "webPrefix": "public/media/brass-threaded-plugs-retouched-v1-",
+      "webWidths": [480, 800, 1200, 1536],
+      "prompt": "Edit the source photo into a photorealistic industrial material-family image. Keep the recognizable short CNC-turned hex-head male threaded plug geometry, with solid flat heads and no holes or extra grooves. Show six to eight specimens arranged on a matte warm light-gray surface, with crisp thread and machining texture, diffused light and realistic shadows. Remove blue bin and clutter. No branding, text, people, calipers, dimensions or alloy-grade claims.",
+      "publicLabel": "AI-retouched presentation from an LZZ source photograph"
+    }
+  ]
+}

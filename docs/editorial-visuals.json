@@ -1,0 +1,162 @@
+{
+  "purpose": "Clearly labeled editorial illustrations, separate from original-photo evidence and product galleries.",
+  "assets": [
+    {
+      "id": "machined-housings-editorial-v1",
+      "source": "力智造-素材资料照片/力智造-素材资料照片/阿里巴巴产品资料/产品/4/封面.jpg",
+      "mode": "source-guided edit",
+      "label": "AI-retouched presentation based on an LZZ source marketing photograph; not a specific project record.",
+      "prompt": "Preserve the three machined aluminum component shapes from the source cover; remove all promotional text and banners; arrange on a neutral gray studio surface with realistic metal texture, no logos or claims.",
+      "sourceSha256": "f44f290a4ab52804047060ea637097f7874792caedfaa6d4f9e007c48307378e",
+      "originalOutput": "docs/media/generated/machined-housings-editorial-v1.png",
+      "outputSha256": "c39d7cf5f47e1cd848c50f6896518371b292459b2d7acda9e1ca4bd76e98967c",
+      "webPrefix": "public/media/editorial/machined-housings-editorial-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "laboratory-application-illustration-v1",
+      "mode": "generated illustration",
+      "label": "AI illustration of a possible laboratory-instrument application; not a customer project.",
+      "prompt": "Photorealistic generic unbranded laboratory instrument assembly featuring a CNC-machined aluminum housing and mounting block, neutral workbench, no text, logos, customer or performance claims.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/laboratory-application-illustration-v1.png",
+      "outputSha256": "004f39c66d4abda0c270e93e2c6c64040e03eef7ca14786f4c3496a3a048c76b",
+      "webPrefix": "public/media/editorial/laboratory-application-illustration-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "hydraulic-application-illustration-v1",
+      "mode": "generated illustration",
+      "label": "AI illustration of a possible hydraulic-equipment application; not a customer project.",
+      "prompt": "Photorealistic generic unbranded hydraulic equipment assembly featuring a CNC-machined valve manifold and realistic fittings, no text, logos, customer or performance claims.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/hydraulic-application-illustration-v1.png",
+      "outputSha256": "878f1069318e258acfa129fd139cdea161e21acf414e899f2a8b1b174498848f",
+      "webPrefix": "public/media/editorial/hydraulic-application-illustration-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "prototype-batch-comparison-illustrative-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated generic visual comparison of one prototype and a repeat batch; not an LZZ order or production record.",
+      "prompt": "Photorealistic, generic CNC-machined aluminum housings: one individual prototype on the left and six matching pieces on the right, arranged on a clean neutral industrial workbench, natural factory light, no logos, labels, customer cues, quantities claimed as actual output, or text.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/prototype-batch-comparison-illustrative-v1.png",
+      "outputSha256": "14df4bd890db87b03733357ca3dd156bf9609acac611a47d2f84f63ccc5dcc97",
+      "webPrefix": "public/media/editorial/prototype-batch-comparison-illustrative-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "material-family-editorial-illustrative-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated generic visual of distinct machined component forms; not material identification, stock evidence or a material certificate.",
+      "prompt": "Photorealistic editorial still life of four distinct generic CNC-machined component forms in different metallic and polymer-like appearances on a neutral surface, realistic machining marks, no labels, text, logos, grade claims or technical annotations.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/material-family-editorial-illustrative-v1.png",
+      "outputSha256": "984d9cf76cb4baf88e07c61a08d7e314f69c51dbcd089b3d39b77aa692e3252b",
+      "webPrefix": "public/media/editorial/material-family-editorial-illustrative-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "surface-finish-coupons-illustrative-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated generic finish comparison; not an LZZ finish sample, process record or specification.",
+      "prompt": "Photorealistic arrangement of four small machined metal finish coupons with visibly varied neutral surface appearance and texture, clean industrial studio lighting, no labels, coating claims, logos or text.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/surface-finish-coupons-illustrative-v1.png",
+      "outputSha256": "edb6d8ecc19e706b566e0945a1cef404560a0dfc215ad0de4b2f692d9bd2ce48",
+      "webPrefix": "public/media/editorial/surface-finish-coupons-illustrative-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "cmm-operator-illustrative-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated illustrative CMM inspection scene; not an LZZ employee, measurement or calibration record.",
+      "prompt": "Photorealistic East Asian quality technician operating a coordinate measuring machine on a machined metal component inside a clean small precision-machining inspection room, candid documentary photography, believable shop details, no visible measurement values, company marks, text or claimed results.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/cmm-operator-illustrative-v1.png",
+      "outputSha256": "9ab09bf274850d173c821febd62639da10783e20dae19ee129ae94dd2dc2a677",
+      "webPrefix": "public/media/editorial/cmm-operator-illustrative-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "robotics-application-illustrative-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated generic robotics application scene; not a specific LZZ customer project or qualified end-use example.",
+      "prompt": "Photorealistic industrial robotics wrist assembly with generic machined metal brackets and link components in a clean automation workshop, documentary product photography, no brand marks, text, customer identity, or performance claims.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/robotics-application-illustrative-v1.png",
+      "outputSha256": "fd118a49ce85cfc0438cabd3fb2cf227c4db7ed3d3df80b22256e65a5ef033b5",
+      "webPrefix": "public/media/editorial/robotics-application-illustrative-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "hydraulic-manifold-illustrative-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated generic hydraulic manifold application scene; not a specific LZZ customer project or pressure-test evidence.",
+      "prompt": "Photorealistic close editorial image of a generic precision-machined aluminum hydraulic manifold block with fittings on a clean industrial bench, realistic metal surfaces, no brand marks, pressure labels, text, customer identity or performance claims.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/hydraulic-manifold-illustrative-v1.png",
+      "outputSha256": "d621d5e78fd121252884e4f527fb72fe55353e512d80cf342352c437234570e2",
+      "webPrefix": "public/media/editorial/hydraulic-manifold-illustrative-v1-",
+      "webWidths": [
+        480,
+        800,
+        1200,
+        1536
+      ]
+    },
+    {
+      "id": "process-route-illustration-v1",
+      "mode": "generated illustration",
+      "label": "AI-generated geometry comparison for process selection; not an LZZ part, machine, factory photograph or completed order.",
+      "prompt": "A premium editorial technical illustration for a CNC machining supplier website: three distinct unbranded generic machined metal shapes aligned horizontally on an off-white studio background: a turned cylindrical stainless shaft with shoulders, a prismatic milled aluminum housing with pockets and mounting holes, and a multi-sided aluminum component with angled ports. High-quality conceptual CAD visualization, explicitly an illustrative diagram not a factory photograph. Soft shadows, precise edges, landscape 3:2, no people, no factory, no text, no numbers, no logos, no instruments.",
+      "sourceSha256": null,
+      "originalOutput": "docs/media/generated/process-route-illustration-v1.png",
+      "outputSha256": "a7ae0d9174673fde77e93834cd5fd126e833cd41e30595c5f6f38a6ccfad8db2",
+      "webFile": "public/media/process-route-illustration.webp",
+      "webSha256": "9a5184ebc6401cda288e3818a0c7da8c317c826aa2fa36dc1d5b3f6b0b8ad343",
+      "webWidths": [1536]
+    }
+  ]
+}

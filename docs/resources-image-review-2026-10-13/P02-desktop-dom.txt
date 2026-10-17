@@ -1,0 +1,154 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom parts"
+    - generic "Factory & quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / RFQ checklist
+    - heading "CNC machining RFQ checklist" [level=1]
+    - region "Details needed for a quotation":
+      - heading "Details needed for a quotation" [level=2]
+      - heading "Drawing revision" [level=3]
+      - paragraph: 3D model and 2D drawing when needed, part number, units and revision.
+      - heading "Material & finish" [level=3]
+      - paragraph: Exact material or functional requirement, finish details and applicable standards.
+      - heading "Acceptance criteria" [level=3]
+      - paragraph: Critical dimensions, datums, tolerances and inspection requirements.
+      - heading "Quantity" [level=3]
+      - paragraph: Initial quantity and expected repeat pattern.
+      - heading "Delivery" [level=3]
+      - paragraph: Arrival date, packaging, shipping basis and relevant customs requirements.
+      - link "Download order acceptance checklist":
+        - /url: /downloads/order-acceptance-checklist.txt
+      - figure:
+        - img "Machined housing beside outline drawings"
+    - region "Drawing and acceptance requirements":
+      - heading "Drawing and acceptance requirements" [level=2]
+      - heading "Send a consistent drawing package" [level=3]
+      - paragraph: Include a 3D model, such as STEP, and a 2D drawing when dimensions, fits or surface requirements are not fully defined in the model. Label the part number and units, and identify the drawing revision. If the files disagree, identify which document controls before requesting a quotation.
+      - paragraph: For multi-axis parts, include the overall envelope, stock dimensions and part weight where known so tool access and setup can be reviewed.
+      - complementary:
+        - heading "Working from a sample" [level=4]
+        - paragraph: If you have a sample without a drawing, describe the known requirements. Ask which measurements or design work are needed to define the part. A sample alone cannot establish hidden material or treatment requirements.
+      - heading "Mark the dimensions used for acceptance" [level=3]
+      - paragraph: Identify mating bores and shaft fits on the drawing, with their datums and tolerances. Mark sealing faces, threads and any other critical features too. State whether dimensions apply before or after finishing.
+      - paragraph: If you need a particular inspection record, send the format or an example with your inquiry. Agree the inspection and documentation requirements before ordering. Ask LZZ to confirm the measurement method and instrument range, then request calibration evidence and confirmation that your required project records are available.
+      - link "Inspection & documentation requirements":
+        - /url: /quality/
+    - heading "Specify the material and final surface" [level=2]
+    - heading "Material requirements" [level=3]
+    - paragraph: State the exact alloy or polymer grade, or the functional requirement if selection is still open. Include any required material documentation and whether substitutes may be considered.
+    - heading "Finish and surface requirements" [level=3]
+    - paragraph: Provide the finish specification and appearance requirements. State whether acceptance dimensions apply before or after finishing. Mark cosmetic faces and masked areas, and define edge conditions. Include customer or industry standards and certificates required for this part or program, stating each standard, revision and scope.
+    - link "Material & finish checklist":
+      - /url: /resources/material-and-finish-checklist/
+    - heading "Quantity and delivery details" [level=2]
+    - paragraph: The quotation identifies the process and material for your part. It includes finishing and quantity, with inspection records and production timing. We resolve drawing questions before approval and confirm shipping terms separately.
+    - term: Minimum order
+    - definition: 1 piece
+    - term: Production lead time
+    - definition: 7-14 business days
+    - paragraph:
+      - text: After drawing and order confirmation, including surface finishing.
+      - text: Transit time is additional.
+    - term: Initial quantity
+    - definition: Quantity per part number.
+    - term: Repeat pattern
+    - definition: Expected repeat orders, if known.
+    - term: Delivery details
+    - definition: Required arrival date and postcode.
+    - term: Packaging
+    - definition: Any special packaging requirements.
+    - term: Shipping basis
+    - definition: Incoterm and customs, duties or taxes responsibilities.
+    - term: Response deadline
+    - definition: Your decision or response deadline, if applicable.
+    - heading "Related part examples" [level=2]
+    - paragraph: Fittings need defined threads and sealing faces; housings need mating datums and cavity details. These examples show the drawing questions for each.
+    - link "Turned fittings, connectors & flanges":
+      - /url: /products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/
+    - link "Complex aluminum housings":
+      - /url: /products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/
+    - navigation "Resources and order preparation":
+      - link "All resources":
+        - /url: /resources/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Quality control":
+        - /url: /quality/
+    - heading "Prepare and send your inquiry" [level=2]
+    - list:
+      - listitem: Prepare the draft on the inquiry page.
+      - listitem: Attach drawings in your email application.
+      - listitem: Review the recipients and send when ready.
+    - link "Prepare RFQ email":
+      - /url: /quote/
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

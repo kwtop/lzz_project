@@ -1,0 +1,87 @@
+/* Homepage composition adapted from /DESIGN.md. Previous version is retained separately. */
+.precision-hero{position:relative;isolation:isolate;background:#181b1f;color:#fff;min-height:100vh;min-height:100svh;overflow:hidden;display:flex;align-items:center}
+.precision-scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2}
+.precision-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#080a0c60,#080a0c25 60%,#080a0cbd)}
+.precision-message{text-align:center;padding-block:8.5rem 11rem;font-optical-sizing:auto}
+.hero-eyebrow{font-size:12px;font-weight:600;letter-spacing:1.8px;display:block;margin-bottom:24px;color:#e2e4e6}
+.precision-message h1{font-size:clamp(2.5rem,5vw,4.5rem);line-height:1.08;font-weight:600;letter-spacing:-.035em;max-width:52rem;margin-inline:auto;text-wrap:balance}
+.precision-message p{font-size:clamp(1.125rem,1.65vw,1.375rem);line-height:1.55;color:#e7e8e9;margin:1.75rem auto 2rem;max-width:38rem;letter-spacing:0}
+body.brand-site .precision-message .button{min-height:56px;padding:1rem 2rem;font-size:1rem;border-radius:6px}
+.hero-note{display:block;font-size:13px;color:#d2d6d8;margin-top:20px}
+.precision-message .hero-note{font-size:14px;line-height:1.5;color:#f0f1f2;margin:20px auto 0;max-width:620px}
+.hero-delivery-terms{display:block;margin-top:8px;font-size:14px;line-height:1.6;color:#f0f1f2}
+.hero-baseline{position:absolute;bottom:28px;left:0;right:0;display:flex;align-items:center;justify-content:flex-end;gap:24px;border-top:1px solid #ffffff40;padding-top:20px}
+.hero-baseline a{display:inline-flex;align-items:center;gap:12px}
+.hero-baseline p,.hero-baseline a{color:#e7e8e9;font-size:13px;line-height:1.5}
+.hero-image-source{font-size:11px;color:#bfc5c8;font-weight:400;margin-left:22px;letter-spacing:.02em}
+.hero-baseline p span{padding-inline:13px;color:#bbb}.hero-baseline a svg{transform:rotate(90deg)}
+.selected-parts{padding-block:64px 72px;scroll-margin-top:90px}
+.selected-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:56px;margin-bottom:40px}
+.selected-heading .text-link{flex-shrink:0}
+.selected-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.selected-part{min-width:0;display:flex;flex-direction:column;border:1px solid #ebebeb;border-radius:12px;overflow:hidden;background:white;transition:border-color .25s}
+.selected-part:hover{border-color:#a4a9ad}
+.selected-part:hover h3{color:var(--red)}
+.selected-image{aspect-ratio:1.15;overflow:hidden;background:#f3f3f2;padding:28px}
+.selected-image img{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}
+.selected-info{padding:26px;display:flex;flex-direction:column;flex:1;align-items:flex-start}
+.selected-info>span:first-child{font-size:12px;color:#68737d;margin-bottom:12px;font-weight:600}
+.selected-info h3{font-size:24px;font-weight:600;letter-spacing:-.3px;line-height:1.12}
+.selected-info p{font-size:15px;line-height:1.7;margin-block:16px 22px}
+body.brand-site .selected-action{margin-top:auto;font-size:14px}
+.selected-footnote{padding-top:22px;display:flex;justify-content:space-between;color:#68737d;font-size:12px;gap:20px}
+
+.machining-editorial{background:#f1f1f1;padding-block:88px}
+.machining-layout{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.machining-visual{position:relative;align-self:stretch;min-height:590px;overflow:hidden;border-radius:12px;background:#181b1f}
+.machining-visual img{width:100%;height:100%;position:absolute;object-fit:cover;object-position:52% center}
+.machining-visual::after{content:none}
+.machining-visual>p{position:absolute;bottom:58px;left:30px;color:#fff;font-size:27px;line-height:1.2;font-weight:600;z-index:1}
+.image-disclosure{position:absolute;bottom:26px;left:30px;font-size:11px;color:#e1e3e4;z-index:1}
+.machining-intro{font-size:16px;line-height:1.7;margin-top:22px;max-width:480px}
+.machining-services{margin:24px 0 30px}.machining-services>a{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:21px;border-bottom:1px solid #d3d6d8}
+.machining-services h3{font-size:27px;font-weight:600;letter-spacing:-.3px}.machining-services p{font-size:15px;line-height:1.6;margin-top:8px;max-width:380px}.machining-services>a>svg{color:var(--red)}.machining-services>a:hover h3{color:var(--red)}
+.project-start{background:#f1f1f1}.project-start-layout{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+.project-start-layout figure{display:flex;flex-direction:column;min-width:0}.project-start-layout figure img{width:100%;height:100%;min-height:0;object-fit:cover;border-radius:12px}.project-start-layout figcaption{font-size:11px;color:var(--muted);padding-top:12px}
+.start-options{display:grid;gap:20px}.start-options article{background:white;border:1px solid #ebebeb;border-radius:12px;padding:30px}.start-options h3{font-size:28px}.start-options .button,.start-options .text-link{margin-top:24px}
+@keyframes precision-arrive{from{transform:translateY(10px);opacity:.6}to{transform:translateY(0);opacity:1}}
+@media(max-width:1100px){.selected-info{padding:22px}.selected-info h3{font-size:24px}.machining-layout{gap:36px}.machining-visual{min-height:600px}}
+@media(max-width:760px){
+ .precision-scene{object-position:65% center}.precision-message{padding-block:8rem 10rem}.hero-eyebrow{font-size:10px;letter-spacing:1.4px;margin-bottom:22px}.precision-message h1{font-size:clamp(2.375rem,9.6vw,3rem);line-height:1.1;max-width:25rem}.precision-message p{font-size:1.125rem;line-height:1.6;margin-block:1.5rem 1.75rem}.desktop-break{display:none}.hero-image-source{display:block;margin:6px 0 0;font-size:10px}
+ body.brand-site .precision-message .button{width:100%;min-height:54px;padding:1rem;font-size:1rem;border-radius:6px}.precision-message .hero-note{font-size:.875rem;max-width:22rem}.hero-baseline{bottom:22px;display:block;padding-top:18px}.hero-baseline p{font-size:11px}.hero-baseline p span{padding-inline:7px}.hero-baseline a{margin-top:12px}
+ .selected-parts{padding-block:56px 42px}.selected-heading{display:block;margin-bottom:28px}.selected-heading .text-link{margin-top:20px}.selected-grid{grid-template-columns:1fr;gap:20px}.selected-image{aspect-ratio:1.35}.selected-info{padding:24px}.selected-info h3{font-size:26px}.selected-info p{font-size:15px;margin-block:12px 20px}.selected-footnote{display:block;font-size:11px}.selected-footnote span{display:block;margin-top:5px}
+ .machining-editorial{padding-block:56px}.machining-layout{display:flex;flex-direction:column-reverse;gap:32px}.machining-copy{width:100%}.machining-services h3{font-size:24px}.machining-visual{width:100%;height:340px;min-height:0}.machining-visual>p{font-size:24px;left:24px}.image-disclosure{left:24px}
+ .project-start-layout{grid-template-columns:1fr;gap:24px}.project-start-layout figure img{height:260px}.start-options article{padding:26px}.start-options h3{font-size:26px}
+}
+@media(prefers-reduced-motion:reduce){.precision-message{animation:none}}
+
+/* Homepage-only controls: preserve the shared navigation and brand elsewhere. */
+body.brand-site.home-refined{--home-response:cubic-bezier(.2,.7,.2,1)}
+body.brand-site.home-refined .button{border-radius:6px;transition:background-color 160ms ease,border-color 160ms ease,transform 160ms var(--home-response)}
+body.brand-site.home-refined .button:active{transform:scale(.985);transition-duration:60ms}
+body.brand-site.home-refined .site-header{background:rgba(12,15,17,.24)}
+body.brand-site.home-refined #main-nav> a,body.brand-site.home-refined #main-nav summary{font-size:.8125rem;letter-spacing:.025em;transition:color 160ms ease,text-decoration-color 160ms ease}
+body.brand-site.home-refined #main-nav .nav-panel{border-radius:4px;padding:1.5rem;box-shadow:0 12px 32px #00000014;transform-origin:top left}
+body.brand-site.home-refined #main-nav .nav-group-resources .nav-panel{transform-origin:top right}
+body.brand-site.home-refined #main-nav details[open]>.nav-panel{animation:home-menu-appear 160ms ease-out}
+body.brand-site.home-refined #main-nav .nav-panel a{border-radius:3px;transition:background-color 140ms ease,color 140ms ease}
+body.brand-site.home-refined .menu-toggle{min-width:44px;min-height:44px;border-radius:4px}
+body.brand-site.home-refined .menu-toggle span{transition:transform 160ms var(--home-response)}
+body.brand-site.home-refined .menu-toggle[aria-expanded=true] span:first-child{transform:translateY(3.5px) rotate(45deg)}
+body.brand-site.home-refined .menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+body.brand-site.home-refined .precision-hero :is(a,button):focus-visible,body.brand-site.home-refined .site-header :is(a,button,summary):focus-visible{outline:2px solid #fff;outline-offset:5px}
+body.brand-site.home-refined .site-header #main-nav .nav-panel :is(a,summary):focus-visible{outline-color:var(--red)}
+@keyframes home-menu-appear{from{opacity:0}to{opacity:1}}
+@media(min-width:961px){body.brand-site.home-refined #main-nav>details[open]>summary{color:#fff}}
+@media(min-width:961px) and (max-width:1100px){body.brand-site.home-refined #main-nav>a,body.brand-site.home-refined #main-nav summary{font-size:.75rem}}
+@media(hover:hover) and (pointer:fine){
+ body.brand-site.home-refined #main-nav>a:hover,body.brand-site.home-refined #main-nav>details>summary:hover{text-decoration:underline;text-underline-offset:7px;text-decoration-thickness:1px}
+ body.brand-site.home-refined .menu-toggle:hover{background:#ffffff18}
+}
+@media(max-width:960px){
+ body.brand-site.home-refined #main-nav>a,body.brand-site.home-refined #main-nav summary{font-size:.9375rem}
+ body.brand-site.home-refined .site-header #main-nav :is(a,summary):focus-visible{outline-color:var(--red)}
+ body.brand-site.home-refined #main-nav .nav-panel{padding:.375rem 0 1rem .75rem;border-radius:0;box-shadow:none}
+}
+@media(prefers-reduced-motion:reduce){body.brand-site.home-refined .button:active{transform:none}body.brand-site.home-refined #main-nav details[open]>.nav-panel{animation:none}}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){body.brand-site.home-refined .site-header{background:#181b1f}}

@@ -1,0 +1,143 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Custom Parts":
+        - /url: /products/
+      - generic: /
+      - generic: Cast housings & structural enclosures
+    - complementary:
+      - heading "Cast housings & structural enclosures" [level=1]
+      - paragraph: Cast structural enclosures · ribs & bearing bores
+      - 'link "View full-size image: Cast housings & structural enclosures"':
+        - /url: /media/responsive/catalog-22-cutout-v1-1200.webp
+        - img "Cast housings & structural enclosures"
+      - navigation "On this page":
+        - link "01 Part requirements":
+          - /url: "#fit-review"
+          - generic: "01"
+          - text: Part requirements
+        - link "02 Material & finish":
+          - /url: "#part-information"
+          - generic: "02"
+          - text: Material & finish
+        - link "03 Drawing review":
+          - /url: "#drawing-review"
+          - generic: "03"
+          - text: Drawing review
+    - heading "Bearing alignment in a ribbed casting" [level=2]
+    - paragraph: Cast structural housings with mating surfaces and internal mechanical interfaces.
+    - term: Part features
+    - definition: Internal ribs, deep cavities, bearing bores and mounting points.
+    - term: Review focus
+    - definition: Bearing-bore relationships and ribbed cavities determine the drawing review. Show fixture access and distinguish machined interfaces from surfaces left as cast.
+    - link "Request a quote":
+      - /url: /quote/?part=Cast+housings+%26+structural+enclosures&product=oem-precision-cnc-machined-casting-housing-structural-enclosures&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housing-structural-enclosures%2F
+    - paragraph: Have a drawing? Add it to your inquiry email.
+    - heading "Manufacturing options" [level=2]
+    - term: Materials
+    - definition: Casting grade must be confirmed; no specific alloy is assigned to this example.
+    - term: Machining
+    - definition: Multi-axis milling and boring with casting-specific fixturing.
+    - term: Surface finish
+    - definition: Machined functional surfaces; specify any exterior treatment separately.
+    - paragraph: Made to order. Your approved drawing and quotation define the specification; the image is not a material certificate, dimensional record or inspection result.
+    - heading "Drawing and inspection requirements" [level=2]:
+      - text: Drawing and
+      - text: inspection requirements
+    - link "Quality & inspection":
+      - /url: /quality/
+    - term: Geometry & interfaces
+    - definition: Show bearing-bore relationships, mounting datums and accessible fixture surfaces on the cast blank.
+    - term: Material & finish
+    - definition: Specify the material grade, condition, finish and any masked areas.
+    - term: Quantity
+    - definition: State the prototype or batch quantity and required schedule.
+    - term: Inspection requirements
+    - definition: Agree bore alignment and mating-face checks, along with acceptance criteria for regions left as cast.
+    - link "Prepare an RFQ email":
+      - /url: /quote/?part=Cast+housings+%26+structural+enclosures&product=oem-precision-cnc-machined-casting-housing-structural-enclosures&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housing-structural-enclosures%2F
+    - paragraph:
+      - strong: From 1 piece · 7–14 business days
+      - text: From drawing and order confirmation, including surface finishing; transit is additional.
+    - generic "Additional drawing and order notes"
+    - heading "Review ribbed enclosure access" [level=3]
+    - paragraph: Plan fixture support around ribs and deep cavities, then locate bearing bores and mounting features from the agreed datums.
+    - paragraph:
+      - strong: "Drawing inputs:"
+      - text: Send blank geometry, wall sections, bore relationships and areas that must remain as cast.
+    - link "Review fixture access for cast enclosures":
+      - /url: /capabilities/casting-machining/#engineering-fit
+    - navigation "Related parts":
+      - heading "Compare part requirements" [level=3]
+      - link "Transmission housings & pump bodies Internal splines, gear features and fluid channels needing sectioned drawings.":
+        - /url: /products/custom-cnc-machined-castings-transmission-housings-pump-bodies/
+        - generic: Transmission housings & pump bodies
+        - generic: Internal splines, gear features and fluid channels needing sectioned drawings.
+      - link "Machined castings & OEM housings Sealing faces, bearing fits and tapped mounting holes as the main machining scope.":
+        - /url: /products/precision-cnc-machined-castings-custom-oem-housings/
+        - generic: Machined castings & OEM housings
+        - generic: Sealing faces, bearing fits and tapped mounting holes as the main machining scope.
+    - generic "Related machining processes"
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

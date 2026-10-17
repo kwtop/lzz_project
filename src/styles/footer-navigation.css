@@ -1,0 +1,2 @@
+/* Legacy pages share the current footer component and its single stylesheet. */
+@import './site-footer.css';

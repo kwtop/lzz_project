@@ -1,0 +1,157 @@
+/* About and its news pages: the factory family’s layout, with editorial photo sequences. */
+/* Nested hero content already sits inside the page gutter. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero > :is(.reading-header,.news-cover,.mo-hero),
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero figcaption{width:100%!important;max-width:none!important;margin-inline:0!important;padding-inline:0!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page :is(.container,.ab-wrap,.reading-wrap,.mo-wrap){width:min(1280px,calc(100% - 96px));max-width:none;margin-inline:auto;padding-inline:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page h1{max-width:20ch;text-wrap:pretty}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page :is(p,dd){line-height:1.7}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page img{border-radius:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page figure{min-width:0;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page figure>a{display:block;border:0;padding:0;background:transparent}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero{grid-template-columns:1fr 1fr;padding-block:64px 48px;gap:64px;align-items:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero h1{max-width:15ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero-photo{grid-column:2;grid-row:1;align-self:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero-photo img{width:100%;height:auto;object-fit:contain;aspect-ratio:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero-inner{width:100%;grid-column:1;grid-row:1}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-company-name{font-size:16px;margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-facts{padding-block:28px 36px;gap:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-facts dd{font-size:var(--info-fact-size,36px)!important;font-weight:550}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-facts>div{gap:12px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-section{padding-block:80px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview{grid-template-columns:.85fr 1.15fr;gap:64px;border:0;align-items:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview img{aspect-ratio:auto;height:440px;object-fit:contain;background:transparent}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview p{max-width:60ch;margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview .ab-actions{gap:12px;margin-top:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people{padding-block:0 80px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-heading{display:grid;grid-template-columns:1fr auto;gap:40px;margin-bottom:36px;align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-heading p{max-width:64ch;margin-top:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people-photos{grid-template-columns:.65fr 1.35fr;gap:48px;align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people-photos img{width:100%;height:auto;max-height:none;object-fit:contain;aspect-ratio:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people-photos figure:first-child{max-width:340px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-documents-band{background:#f6f6f5;border:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document-note{font-size:15px;max-width:72ch;margin-bottom:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document{grid-template-columns:160px minmax(0,1fr) auto;gap:40px;padding-block:28px;background:transparent;align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document img{width:100%;height:160px;object-fit:contain;max-height:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document h3{font-size:var(--info-card-size,var(--type-h3-size));margin-bottom:12px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document p{font-size:16px;margin-top:10px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-document-date{padding-top:12px;margin-top:16px;border-top:1px solid var(--ff-line);font-size:14px!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history-band{padding-block:80px;background:#fff}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history{grid-template-columns:.65fr 1.35fr;gap:64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history li{grid-template-columns:.75fr 1.25fr;gap:28px;padding-block:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history h3{font-size:23px!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin-top:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links article{display:flex;flex-direction:column;align-items:stretch;gap:24px;border:0;padding:0;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links img{width:100%;height:auto;aspect-ratio:1;max-width:none;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links h3{font-size:var(--info-card-size,var(--type-h3-size));margin-bottom:16px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links p{margin:0 0 16px;max-width:40ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-archive{padding-bottom:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-extra{padding-block:8px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-extra .network-section{padding-block:28px 16px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-extra .network-heading{align-items:start}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-extra .network-heading h2{font-size:var(--info-section-size,28px)!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-contact{display:inline-flex;align-items:center;min-height:48px;color:#fff!important;border:1px solid #62686c!important;background:transparent!important;padding:12px 20px!important;text-decoration:none;margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-directory .reading-header{padding-block:64px 40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page.news-directory .reading-header{display:grid;grid-template-columns:1fr .85fr;gap:0 64px;padding-block:64px 40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page.news-directory .reading-breadcrumb{margin-bottom:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page.news-directory .reading-header h1{max-width:20ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-list{gap:56px 48px;padding-bottom:64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-featured{grid-template-columns:1.2fr 1fr;gap:64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story h2{font-size:var(--info-section-size,32px)!important;max-width:26ch!important;line-height:1.2!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-featured h2{font-size:var(--info-section-size,42px)!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-featured img{aspect-ratio:1.5}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story img{aspect-ratio:1.5;object-fit:cover}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story time{margin-block:24px 14px;font-size:14px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story p{margin-block:20px 24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-index{padding-block:24px;margin-bottom:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-year h3{font-size:var(--info-card-size,24px)!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero{width:min(1280px,calc(100% - 96px));margin-inline:auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding-block:64px 48px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-header{display:block;width:100%;margin:0;padding:0;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-header h1{max-width:18ch;font-size:var(--info-title-size,clamp(44px,4vw,58px))!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-breadcrumb{margin-bottom:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-description{max-width:56ch;margin-top:24px;font-size:17px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-header-meta p{font-size:14px;margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero :is(.news-cover,.mo-hero){width:100%;margin:0;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero :is(.news-cover,.mo-hero)>a{width:100%;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero img{width:100%;height:auto;max-height:560px;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero figcaption{width:100%;font-size:14px;margin-top:12px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-body{padding-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-editorial-section{grid-template-columns:.65fr 1.35fr;gap:64px;padding-block:48px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-editorial-section h2{font-size:var(--info-section-size,var(--type-h2-size));max-width:22ch!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-section-content p{max-width:70ch;margin-block:0 20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-gallery-section{display:block}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-gallery-section h2{margin-bottom:32px;max-width:none!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 40px;margin-bottom:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-gallery figure[data-photo-shape=landscape]:nth-child(3n+1){grid-column:auto}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-gallery img{width:100%;height:auto;max-height:640px;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-gallery figure:last-child:nth-child(odd){grid-column:1/-1;max-width:860px;width:100%;justify-self:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-related{padding-block:48px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-related h2{font-size:var(--info-section-size,var(--type-h2-size))}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-related a{font-size:24px;background:transparent!important;border-inline:0!important;border-radius:0!important;padding-inline:0!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-story{grid-template-columns:.65fr 1.35fr;gap:64px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-story h2{font-size:var(--info-section-size,var(--type-h2-size))}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-pair{grid-template-columns:1fr 1fr;gap:40px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-pair img{max-height:640px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .reading-section{padding-block:48px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .reading-related{padding-block:24px 48px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-news h2{font-size:var(--info-section-size,var(--type-h2-size))}
+@media(max-width:1050px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero{gap:40px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-header h1{font-size:var(--info-title-size,44px)!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document{grid-template-columns:120px minmax(0,1fr);gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document>.ab-secondary{grid-column:2}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history li{grid-template-columns:1fr;gap:12px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links{gap:28px}
+}
+@media(max-width:760px){
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page :is(.container,.ab-wrap,.reading-wrap,.mo-wrap){width:calc(100% - 44px)}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page :is(.ab-hero,.af-news-hero){width:calc(100% - 44px);display:flex;flex-direction:column;gap:28px;padding-block:40px 32px;align-items:stretch}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero-inner{order:-1;width:100%}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-hero h1{max-width:18ch}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-header h1{font-size:var(--info-title-size,40px)!important;max-width:none}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero .reading-description{font-size:16px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-facts{padding-block:24px 28px;gap:20px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-facts dd{font-size:28px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-facts dt{max-width:180px;font-size:15px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-section,body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history-band{padding-block:56px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview{grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview>figure{order:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-overview img{height:auto;max-height:460px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-heading{display:block;margin-bottom:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-heading>.ab-secondary{margin-top:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people{padding-bottom:56px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people-photos{grid-template-columns:1fr;gap:28px;align-items:start}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-people-photos figcaption{font-size:14px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document{grid-template-columns:1fr;gap:20px;padding-block:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document img{height:120px;width:140px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document h3{font-size:var(--info-card-size,24px)!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document>.ab-secondary{grid-column:1/-1;justify-self:start;margin-top:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-document p{font-size:15px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-history{grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links{grid-template-columns:1fr;gap:36px;margin-top:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links article{display:grid;grid-template-columns:1fr;gap:20px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-part-links img{max-width:280px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-extra .network-heading{display:block}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-extra .network-heading p{margin-top:20px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-actions{gap:12px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .ab-button{width:100%;box-sizing:border-box}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page.news-directory .reading-header{display:block;padding-block:40px 32px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page.news-directory .reading-description{margin-top:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-list{grid-template-columns:1fr;gap:40px;padding-bottom:48px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-featured{display:block}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story h2,body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-story-featured h2{font-size:var(--info-section-size,28px)!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-index{margin-bottom:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-year h3{font-size:22px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero :is(.news-cover,.mo-hero){width:100%}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .af-news-hero figcaption{width:100%}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-body{padding-top:12px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-editorial-section{grid-template-columns:1fr;gap:20px;padding-block:32px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-editorial-section h2,body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-story h2,body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-related h2,body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-news h2{font-size:var(--info-section-size,32px)!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-gallery{grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-photo-gallery figure:last-child:nth-child(odd){grid-column:auto}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-related{padding-block:40px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .news-related>div{grid-template-columns:1fr;gap:20px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page :is(.mo-story,.mo-pair){grid-template-columns:1fr;gap:28px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .reading-section{padding-block:32px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .reading-related{padding-block:24px 40px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .af-page .mo-news>a{grid-template-columns:1fr;gap:12px}
+}

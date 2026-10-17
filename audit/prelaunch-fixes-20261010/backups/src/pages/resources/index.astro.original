@@ -1,0 +1,62 @@
+---
+import {guideImages} from '../../data/refinedImages';
+import {photoFrame} from '../../lib/photoFrame';
+import Layout from '../../layouts/Layout.astro';
+import Arrow from '../../components/Arrow.astro';
+import {resources} from '../../data/resources';
+import {knowledgeTopics,knowledgeLinks} from '../../data/knowledgeCenter';
+const guideGroups=knowledgeTopics.map(group=>({...group,guides:group.slugs.map(slug=>resources.find(resource=>resource.slug===slug)).filter((resource):resource is (typeof resources)[number]=>Boolean(resource))}));
+const featuredGuide=resources.find(resource=>resource.slug==='rfq-checklist')!;
+const featuredVisual=guideImages[featuredGuide.slug];
+const frames=new Map(await Promise.all(Object.entries(guideImages).map(async([slug,image])=>[slug,(await photoFrame(image.image,600,400)).style] as const)));
+---
+<Layout title="CNC Machining Resources" description="Browse CNC machining guides and FAQs. Compare processes, prepare drawings and plan production, inspection and shipping with LZZ.">
+ <div class="finesse-resources">
+  <header class="container finesse-resource-masthead"><h1>Resources</h1><div><p>Buying custom machined parts? Start with the drawing checklist, compare machining options, or check the ordering and delivery details before requesting a quote.</p><nav aria-label="Resources topics">{knowledgeLinks.map(link=><a href={link.href}>{link.title}<Arrow size={16}/></a>)}</nav></div></header>
+  <section class="container finesse-resource-start" aria-labelledby="finesse-rfq-title">
+   <a class="finesse-resource-featured" href={'/resources/'+featuredGuide.slug+'/'}>
+    <div class="finesse-resource-featured-copy"><span class="finesse-resource-start-label">Start with your RFQ</span><h2 id="finesse-rfq-title">{featuredGuide.title}</h2><p>{featuredGuide.description}</p><span class="text-link">Read the guide <Arrow/></span></div>
+    <div class="finesse-resource-featured-visual">{featuredVisual&&<img class="resource-guide-image" data-image-origin={featuredVisual.disclosure?'AI-generated':'source-photo'} src={featuredVisual.image} srcset={featuredVisual.srcset} sizes="(max-width:760px) 90vw, 420px" alt={featuredVisual.alt} width="600" height="400" style={frames.get(featuredGuide.slug)} loading="lazy"/>}{featuredVisual?.disclosure&&<span class="resource-image-note">AI-generated illustrative image · {featuredVisual.disclosure}</span>}</div>
+   </a>
+  </section>
+  <div class="container finesse-resource-index">
+   {guideGroups.map(group=><section class="resource-guides finesse-resource-group" id={group.id}><div class="finesse-resource-group-heading"><h2>{group.title}</h2><p class="resource-group-intro">{group.description}</p></div><div class="finesse-resource-list">{group.guides.filter(r=>r.slug!==featuredGuide.slug).map(r=><a class="finesse-resource-row" href={'/resources/'+r.slug+'/'}>{guideImages[r.slug]&&<img class="resource-guide-image" data-image-origin={guideImages[r.slug].disclosure?'AI-generated':'source-photo'} src={guideImages[r.slug].image} srcset={guideImages[r.slug].srcset} sizes="(max-width:760px) 112px, 148px" alt={guideImages[r.slug].alt} width="600" height="400" style={frames.get(r.slug)} loading="lazy"/>}<div class="finesse-resource-row-copy"><h3>{r.title}</h3><p>{r.description}</p>{guideImages[r.slug]?.disclosure&&<span class="resource-image-note">AI-generated illustrative image · {guideImages[r.slug].disclosure}</span>}</div><span class="text-link">Read the guide <Arrow size={18}/></span></a>)}</div></section>)}
+  </div>
+ </div>
+</Layout>
+<style>
+ :global(body.brand-site) .finesse-resource-masthead{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;padding-block:48px 36px;align-items:start}
+ :global(body.brand-site) .finesse-resource-masthead h1{font-size:clamp(36px,4.6vw,58px);font-weight:550;letter-spacing:-.035em;line-height:1.08;overflow-wrap:anywhere;min-width:0}
+ .finesse-resource-masthead p{max-width:62ch;font-size:17px;line-height:1.7;color:var(--muted)}
+ .finesse-resource-masthead nav{display:flex;flex-wrap:wrap;gap:0 22px;margin-top:18px}
+ .finesse-resource-masthead nav a{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-size:14px;font-weight:550;line-height:1.5;border-bottom:1px solid var(--border)}
+ .finesse-resource-masthead nav a:hover{color:var(--red);border-color:var(--red)}
+ .finesse-resource-start{padding-bottom:44px}
+ .finesse-resource-featured{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:54px;align-items:center;border-block:1px solid var(--border);padding:32px 0}
+ .finesse-resource-featured-copy{min-width:0;max-width:48ch}
+ .finesse-resource-start-label{display:block;font-size:14px;line-height:1.5;color:var(--muted);margin-bottom:14px}
+ :global(body.brand-site) .finesse-resource-featured h2{font-size:clamp(28px,3vw,38px);font-weight:550;letter-spacing:-.035em;line-height:1.16;text-wrap:balance;overflow-wrap:anywhere}
+ .finesse-resource-featured p{font-size:17px;line-height:1.7;margin-top:18px;color:var(--muted)}
+ .finesse-resource-featured .text-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:20px;white-space:nowrap}
+ .finesse-resource-featured-visual{min-width:0}
+ .finesse-resource-featured-visual img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+ .resource-image-note{display:block;font-size:13px;line-height:1.6;color:var(--muted);margin-top:10px}
+ .finesse-resource-index{padding-bottom:80px}
+ :global(body.brand-site) .finesse-resource-group{display:grid;grid-template-columns:minmax(0,.68fr) minmax(0,1.65fr);gap:56px;padding-block:30px 36px;scroll-margin-top:100px}
+ .finesse-resource-group+.finesse-resource-group{border-top:1px solid var(--border)}
+ :global(body.brand-site) .finesse-resource-group-heading h2{font-size:clamp(23px,2.3vw,28px);font-weight:550;line-height:1.2;letter-spacing:-.025em;overflow-wrap:anywhere}
+ .resource-group-intro{font-size:15px;line-height:1.7;color:var(--muted);margin-top:14px;max-width:35ch}
+ .finesse-resource-list{min-width:0}
+ .finesse-resource-row{display:grid;grid-template-columns:148px minmax(0,1fr);gap:12px 24px;padding-block:24px;border-top:1px solid var(--border);align-items:start}
+ .finesse-resource-row:first-child{padding-top:0;border-top:0}
+ .finesse-resource-row:last-child{padding-bottom:0}
+ .finesse-resource-row>.resource-guide-image{grid-row:1/3;display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+ .finesse-resource-row-copy{min-width:0}
+ :global(body.brand-site) .finesse-resource-row h3{font-size:22px;font-weight:550;line-height:1.3;letter-spacing:-.025em;text-wrap:pretty;overflow-wrap:anywhere}
+ .finesse-resource-row p{font-size:15px;line-height:1.7;color:var(--muted);margin-top:10px}
+ .finesse-resource-row>.text-link{grid-column:2;display:inline-flex;align-items:center;gap:14px;justify-self:start;min-height:44px;white-space:nowrap;font-size:14px;margin-top:0}
+ .finesse-resource-featured:hover h2,.finesse-resource-row:hover h3{color:var(--red)}
+ .finesse-resource-featured:focus-visible,.finesse-resource-row:focus-visible,.finesse-resource-masthead nav a:focus-visible{outline:2px solid var(--red);outline-offset:6px}
+ @media(max-width:980px){:global(body.brand-site) .finesse-resource-masthead{gap:36px}.finesse-resource-featured{gap:36px}:global(body.brand-site) .finesse-resource-group{grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:32px}.finesse-resource-row{grid-template-columns:112px minmax(0,1fr);gap:10px 20px}}
+ @media(max-width:760px){:global(body.brand-site) .finesse-resource-masthead{grid-template-columns:minmax(0,1fr);gap:20px;padding-block:30px 26px}.finesse-resource-masthead p{font-size:16px}.finesse-resource-masthead nav{gap:0 18px;margin-top:14px}.finesse-resource-masthead nav a{font-size:14px}.finesse-resource-start{padding-bottom:10px}.finesse-resource-featured{grid-template-columns:minmax(0,1fr);gap:24px;padding-block:28px}.finesse-resource-featured-copy{max-width:none}.finesse-resource-featured p{font-size:16px}.finesse-resource-featured-visual{max-width:460px}.finesse-resource-featured-visual img{max-height:240px;object-fit:contain;background:var(--surface)}.finesse-resource-index{padding-bottom:48px}:global(body.brand-site) .finesse-resource-group{grid-template-columns:minmax(0,1fr);gap:24px;padding-block:30px}.resource-group-intro{max-width:56ch;font-size:15px}.finesse-resource-row{grid-template-columns:88px minmax(0,1fr);gap:8px 16px}.finesse-resource-row>.resource-guide-image{grid-row:1;aspect-ratio:1.15}.finesse-resource-row-copy{display:contents}:global(body.brand-site) .finesse-resource-row h3{font-size:20px;align-self:center}.finesse-resource-row p,.finesse-resource-row .resource-image-note{grid-column:1/-1}.finesse-resource-row p{margin-top:8px}.finesse-resource-row .resource-image-note{margin-top:0}.finesse-resource-row>.text-link{grid-column:1/-1;margin-top:2px}}
+</style>

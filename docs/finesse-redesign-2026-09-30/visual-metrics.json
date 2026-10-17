@@ -1,0 +1,81 @@
+[
+  {
+    "documentsY": 1157.4583740234375,
+    "firstH2Y": 775.5729370117188,
+    "h1": "CNC machiningin Hangzhou",
+    "height": 5313,
+    "route": "/about/"
+  },
+  {
+    "firstH2Y": 351.4375,
+    "h1": "Specifying material and finish for a machined part",
+    "height": 5695,
+    "route": "/insights/material-and-finish-checklist/"
+  },
+  {
+    "catalogContextY": 840.9375,
+    "catalogTitleY": 788.9791870117188,
+    "firstH2Y": 1996.625,
+    "h1": "Custom machined parts",
+    "height": 3208,
+    "route": "/products/"
+  },
+  {
+    "firstH2Y": 409.90625,
+    "h1": "Resources",
+    "height": 2943,
+    "route": "/insights/"
+  },
+  {
+    "cardContextFont": null,
+    "firstH2Y": 888,
+    "h1Y": 268.3046875,
+    "headerQuote": {
+      "height": 44,
+      "text": "Request a Quote",
+      "width": 117.6171875
+    },
+    "height": 5941,
+    "route": "/",
+    "width": 320
+  },
+  {
+    "cardContextFont": null,
+    "firstH2Y": 419.03125,
+    "h1Y": 104,
+    "headerQuote": {
+      "height": 44,
+      "text": "Request a Quote",
+      "width": 117.6171875
+    },
+    "height": 5529,
+    "route": "/quality/",
+    "width": 320
+  },
+  {
+    "cardContextFont": null,
+    "firstH2Y": 428.90625,
+    "h1Y": 181,
+    "headerQuote": {
+      "height": 44,
+      "text": "Request a Quote",
+      "width": 117.6171875
+    },
+    "height": 9643,
+    "route": "/insights/material-and-finish-checklist/",
+    "width": 320
+  },
+  {
+    "cardContextFont": "14px",
+    "firstH2Y": 1851.609375,
+    "h1Y": 120,
+    "headerQuote": {
+      "height": 44,
+      "text": "Request a Quote",
+      "width": 117.6171875
+    },
+    "height": 3423,
+    "route": "/products/",
+    "width": 320
+  }
+]

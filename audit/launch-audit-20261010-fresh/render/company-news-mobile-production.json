@@ -1,0 +1,117 @@
+{
+  "canonical": "https://www.lzz-cnc.com/about/company-news/",
+  "description": "Team activities and company updates from LZZ, with original photographs and records.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Company News"
+    },
+    {
+      "tag": "H2",
+      "text": "A November team day outdoors"
+    },
+    {
+      "tag": "H2",
+      "text": "LZZ at the China–Africa West Lake Summit"
+    },
+    {
+      "tag": "H2",
+      "text": "From an outdoor meal to an evening together"
+    },
+    {
+      "tag": "H2",
+      "text": "An Australian customer visits the LZZ workshop"
+    },
+    {
+      "tag": "H2",
+      "text": "A rainy day out with the LZZ team"
+    },
+    {
+      "tag": "H2",
+      "text": "Photo archive"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/about/",
+      "text": "About LZZ"
+    },
+    {
+      "href": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "text": "A November team day outdoors"
+    },
+    {
+      "href": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "text": "Read company update"
+    },
+    {
+      "href": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "text": "LZZ at the China–Africa West Lake Summit"
+    },
+    {
+      "href": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "text": "Read company update"
+    },
+    {
+      "href": "/about/company-news/may-2025-lzz-team-outing/",
+      "text": "From an outdoor meal to an evening together"
+    },
+    {
+      "href": "/about/company-news/may-2025-lzz-team-outing/",
+      "text": "Read company update"
+    },
+    {
+      "href": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "text": "An Australian customer visits the LZZ workshop"
+    },
+    {
+      "href": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "text": "Read company update"
+    },
+    {
+      "href": "/about/company-news/lzz-team-outing-2024/",
+      "text": "A rainy day out with the LZZ team"
+    },
+    {
+      "href": "/about/company-news/lzz-team-outing-2024/",
+      "text": "Read company update"
+    },
+    {
+      "href": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "text": ""
+    },
+    {
+      "href": "/about/company-news/may-2025-lzz-team-outing/",
+      "text": ""
+    },
+    {
+      "href": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "text": ""
+    },
+    {
+      "href": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "text": ""
+    },
+    {
+      "href": "/about/company-news/lzz-team-outing-2024/",
+      "text": ""
+    },
+    {
+      "href": "/factory/",
+      "text": "See the workshop photographs"
+    }
+  ],
+  "main": "About LZZ\nCompany News\nCompany News\n\nTeam activities and company updates from LZZ, with original photographs and records.\n\n30 November 2025\nA November team day outdoors\n\nThe LZZ team spent a November day outdoors, sharing a meal, preparing a barbecue and taking photographs together beside the water.\n\nRead company update\n19 November 2025\nLZZ at the China–Africa West Lake Summit\n\nLZZ representatives attended the China–Africa West Lake Summit in Hangzhou, with a company display introducing its custom machining services.\n\nRead company update\nMay 2025\nFrom an outdoor meal to an evening together\n\nPhotographs from LZZ’s May 2025 team outing, from a meal beneath a canopy to group portraits along lantern-lit streets in the evening.\n\nRead company update\n7 January 2025\nAn Australian customer visits the LZZ workshop\n\nAn Australian customer visited LZZ in Hangzhou for a look around the CNC workshop and a conversation about machined parts.\n\nRead company update\n2024\nA rainy day out with the LZZ team\n\nThe LZZ team’s 2024 outing brought colleagues together for a coach trip, group photographs, a shared meal and time beside the water.\n\nRead company update\nPhoto archive\n\nOpen a year to browse original team, visit and event photographs. The complete archive remains available below.\n\n2025\n4 dated groups · View photographs\n2024\n1 dated group · View photographs\n\nDates come from the original file names or source folders. The visit and event photographs document the occasions shown; they do not establish a visitor's identity, an endorsement or a customer project result.\n\nSee the workshop photographs",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/about/company-news/#webpage\",\"url\":\"https://www.lzz-cnc.com/about/company-news/\",\"name\":\"Company News\",\"description\":\"Team activities and company updates from LZZ, with original photographs and records.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/about/company-news/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/about/company-news/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"About LZZ\",\"item\":\"https://www.lzz-cnc.com/about/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Company News\",\"item\":\"https://www.lzz-cnc.com/about/company-news/\"}]}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Company News | LZZ Precision",
+  "url": "http://127.0.0.1:4326/about/company-news/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "company-news-mobile-production"
+}

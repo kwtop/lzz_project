@@ -1,0 +1,6 @@
+---
+import media from '../data/additionalMedia.generated.json';
+interface Props{id:keyof typeof media.videos;title:string;description:string;headingLevel?:'h3'|'h4'}
+const {id,title,description,headingLevel='h3'}=Astro.props,video=media.videos[id],Heading=headingLevel;
+---
+<section class="pr-video" id={'video-'+id} aria-labelledby={'video-title-'+id}><Heading id={'video-title-'+id}>{title}</Heading><p class="pr-small" id={'video-description-'+id}>{description}</p><figure data-image-origin="original-video" style={`--pr-video-ratio:${video.width/video.height}`}><video controls playsinline muted preload="none" poster={video.poster} width={video.width} height={video.height} aria-label={title} aria-describedby={'video-description-'+id}><source src={video.src} type="video/mp4"/>Your browser does not support this video. <a href={video.src}>Open the original clip</a>.</video><figcaption class="pr-small">{Math.round(video.duration)}-second original workshop clip.</figcaption></figure></section>

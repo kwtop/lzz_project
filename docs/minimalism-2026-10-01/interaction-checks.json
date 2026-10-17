@@ -1,0 +1,30 @@
+{
+  "qualityBlankRecordMobile": {
+    "open": true,
+    "outline": "rgb(203, 18, 23) solid 2px",
+    "overflow": false,
+    "rows": 1,
+    "summary": "Preview blank dimensional inspection format · no results"
+  },
+  "qualityBlankRecordDesktop": {
+    "open": true,
+    "rows": 1,
+    "summary": "Preview blank dimensional inspection format · no results",
+    "tableWidth": 1140,
+    "outline": "rgb(203, 18, 23) solid 2px",
+    "overflow": false
+  },
+  "castingSampleDeepLink": {
+    "route": "/capabilities/casting-machining/#sample-to-part",
+    "open": true,
+    "focused": "sample-to-part",
+    "targetBelowHeader": true
+  },
+  "aboutPartDeepLink": {
+    "route": "/about/#part-studies",
+    "open": true,
+    "images": 3,
+    "links": 3,
+    "focused": "part-studies"
+  }
+}

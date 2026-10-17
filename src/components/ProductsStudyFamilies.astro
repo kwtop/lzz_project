@@ -1,0 +1,10 @@
+---
+import {workshopCollections} from '../data/workshopCollections';
+import {collectionReading} from '../data/caseReading';
+import {photo} from '../data/evidence';
+import ProductsImage from './ProductsImage.astro';
+import ProductsWorkshopVideo from './ProductsWorkshopVideo.astro';
+interface Props{collection:string}
+const {collection}=Astro.props;
+---
+<div class="pr-families">{workshopCollections[collection].map(family=>{const info=collectionReading[family.id];return <section class="pr-family" id={family.id}><header class="pr-family-header"><h3>{family.title}</h3><div><p>{family.copy.replace(/\.\.$/,'.')}</p><p class="pr-small">{info.material}</p></div></header>{family.photos?.length&&<div class="pr-family-photos">{family.photos.map(id=><ProductsImage {...photo(id)} origin="original-photo" href={photo(id).src} sizes="(max-width:760px) calc(100vw - 44px), 45vw"/>)}</div>}{family.video&&<ProductsWorkshopVideo {...family.video} headingLevel="h4"/>}</section>})}</div>

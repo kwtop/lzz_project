@@ -1,0 +1,5857 @@
+[
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your part",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/capabilities/",
+        "label": "View machining capabilities",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quality/",
+        "label": "Review quality control",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/factory/",
+        "label": "Explore our factory",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Your partsMachined to order",
+    "h1Font": "72px",
+    "h1Width": 1033.3125,
+    "h1X": 195.67709350585935,
+    "headerX": 142.33334350585938,
+    "height": 5210,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ab-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "#company-overview",
+        "label": "Meet LZZ",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ab-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/resources/how-we-work/",
+        "label": "How we work",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ab-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "The people behindyour custom parts",
+    "h1Font": "56px",
+    "h1Width": 620,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5063,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/about/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "ab-wrap ab-hero-inner",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-facts",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-section ab-overview",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-history",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-people",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ab-wrap ab-closing-inner",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Company News",
+    "h1Font": "56px",
+    "h1Width": 581.6146240234375,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3967,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/about/company-news/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "An Australian customer visits the LZZ workshop",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3945,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 2,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "LZZ at the China–Africa West Lake Summit",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3798,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/about/company-news/china-africa-west-lake-summit-2025/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 2,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "A rainy day out with the LZZ team",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3979,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/about/company-news/lzz-team-outing-2024/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 2,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "mo-primary",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "From an outdoor meal to an evening together",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3767,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/about/company-news/may-2025-lzz-team-outing/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "mo-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "mo-wrap mo-story reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "mo-wrap mo-pair reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "mo-wrap reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "mo-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "A November team day outdoors",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3827,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 2,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Find the right routefor your part",
+    "h1Font": "56px",
+    "h1Width": 637,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3623,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "container customer-paths",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "container capability-directory",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "5-axis machining for complex geometry",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5557,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/5-axis-cnc-machining/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Aluminum parts, made to your drawing",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5386,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/aluminum-cnc-parts/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-extra",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Finished interfaces for cast components",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4711,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/casting-machining/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC milling for custom components",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5657,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/cnc-milling-service/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC turning for shafts & fittings",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5117,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/cnc-turning-service/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-extra",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Copper & brass parts, made to specification",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5387,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/copper-brass-cnc-parts/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-extra",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Low-volume CNC production with revision control",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5209,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/low-volume-production/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Engineering plastics, machined for your part",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 6025,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/plastic-machined-parts/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Machined prototypes for your next revision",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4461,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/prototype-machining/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+machining&capability=stainless-steel-cnc-parts&source=%2Fcapabilities%2Fstainless-steel-cnc-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "cap-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+machining&capability=stainless-steel-cnc-parts&source=%2Fcapabilities%2Fstainless-steel-cnc-parts%2F",
+        "label": "Prepare RFQ email ↗",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Stainless steel parts for your assembly",
+    "h1Font": "56px",
+    "h1Width": 570.9479370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4560,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/capabilities/stainless-steel-cnc-parts/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "cap-wrap cap-hero-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-jumps",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-inspection",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "cap-wrap cap-section cap-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "study-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "study-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC machining studiesfrom the workshop",
+    "h1Font": "56px",
+    "h1Width": 612.75,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4283,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/cases/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "study-wrap study-intro",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "study-wrap study-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "study-wrap study-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "study-wrap study-enquiry",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "study-wrap study-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "study-wrap study-checklist",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC machining a 29-inch display housing",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4836,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/29-inch-display-housing-cnc-machining/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Custom metal parts in batches: shafts, fittings and housings",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5927,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/custom-metal-parts-batch-examples/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Custom plastic parts: PTFE, POM, PE and acrylic",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 7110,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Five-axis machining for multi-face components",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3588,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/five-axis-machining-multi-face-parts/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Milling a pocketed enclosure-style component",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3509,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/milling-a-pocketed-enclosure-form/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ps-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Prismatic+multi-feature+part+%E2%80%94+drawing+review",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "CNC milling for prismatic parts",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3799,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/milling-prismatic-components/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 3,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ps-width ps-hero reading-media",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ps-width ps-intro reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ps-width ps-setup-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ps-width ps-inspection reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ps-width ps-related reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ps-width reading-closing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Turning followed by milling",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3417,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/turning-then-milling-cylindrical-parts/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Two milling setups for one part",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3296,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/two-stage-cnc-milling/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Let's talk aboutyour next part.",
+    "h1Font": "56px",
+    "h1Width": 760,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 1857,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/contact/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "container contact-page",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Our factoryin Hangzhou",
+    "h1Font": "56px",
+    "h1Width": 525,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5028,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/factory/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "ft-wrap ft-hero-inner",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ft-wrap ft-facts",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ft-wrap ft-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ft-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ft-wrap ft-inspection ft-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ft-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Privacy & site information",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2140,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/privacy/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Custom machined parts",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3305,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "container catalog-heading",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "container section catalog-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "container catalog-workshop",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "container additional-part-forms",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Aluminum+intercooler+prototypes&product=custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier&source=%2Fproducts%2Fcustom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Aluminum+intercooler+prototypes&product=custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier&source=%2Fproducts%2Fcustom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Aluminum intercooler prototypes",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3619,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-references",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+aluminum+engine+covers&product=custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+aluminum+engine+covers&product=custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Billet aluminum engine covers",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3201,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-surface-inner",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+aluminum+intake+manifolds&product=custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+aluminum+intake+manifolds&product=custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Billet aluminum intake manifolds",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3478,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-references",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+aluminum+intake+plenums&product=custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+aluminum+intake+plenums&product=custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Billet aluminum intake plenums",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4197,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-references",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+intake+manifold+prototypes&product=custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier&source=%2Fproducts%2Fcustom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Billet+intake+manifold+prototypes&product=custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier&source=%2Fproducts%2Fcustom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Billet intake manifold prototypes",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2809,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Transmission+housings+%26+pump+bodies&product=custom-cnc-machined-castings-transmission-housings-pump-bodies&source=%2Fproducts%2Fcustom-cnc-machined-castings-transmission-housings-pump-bodies%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Transmission+housings+%26+pump+bodies&product=custom-cnc-machined-castings-transmission-housings-pump-bodies&source=%2Fproducts%2Fcustom-cnc-machined-castings-transmission-housings-pump-bodies%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Transmission housings & pump bodies",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3211,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC-machined+electronic+throttle+bodies&product=custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC-machined+electronic+throttle+bodies&product=custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC-machined electronic throttle bodies",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2859,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+turned+shafts&product=custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier&source=%2Fproducts%2Fcustom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+turned+shafts&product=custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier&source=%2Fproducts%2Fcustom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Stainless steel turned shafts",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2863,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Multi-bore+circular+milled+component&product=custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm&source=%2Fproducts%2Fcustom-high-precision-cnc-milling-5-axis-machining-services-oem-odm%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Multi-bore+circular+milled+component&product=custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm&source=%2Fproducts%2Fcustom-high-precision-cnc-milling-5-axis-machining-services-oem-odm%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Multi-bore circular milled component",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2885,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Structural+%26+aesthetic+components&product=custom-high-precision-machining-for-structural-aesthetic-components-oem&source=%2Fproducts%2Fcustom-high-precision-machining-for-structural-aesthetic-components-oem%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Structural+%26+aesthetic+components&product=custom-high-precision-machining-for-structural-aesthetic-components-oem&source=%2Fproducts%2Fcustom-high-precision-machining-for-structural-aesthetic-components-oem%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Structural & aesthetic components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2753,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Non-metallic+%26+insulating+components&product=custom-oem-cnc-machined-non-metallic-components-insulating-parts&source=%2Fproducts%2Fcustom-oem-cnc-machined-non-metallic-components-insulating-parts%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Non-metallic+%26+insulating+components&product=custom-oem-cnc-machined-non-metallic-components-insulating-parts&source=%2Fproducts%2Fcustom-oem-cnc-machined-non-metallic-components-insulating-parts%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Non-metallic & insulating components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2727,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Custom+machined+plastic+parts&product=custom-oem-cnc-machined-plastic-parts-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-machined-plastic-parts-manufacturer%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Custom+machined+plastic+parts&product=custom-oem-cnc-machined-plastic-parts-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-machined-plastic-parts-manufacturer%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Custom machined plastic parts",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2843,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Turned+fittings%2C+connectors+%26+flanges&product=custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Turned+fittings%2C+connectors+%26+flanges&product=custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Turned fittings, connectors & flanges",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2891,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Custom+CNC-turned+components&product=custom-oem-cnc-turning-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-turning-manufacturer%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Custom+CNC-turned+components&product=custom-oem-cnc-turning-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-turning-manufacturer%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Custom CNC-turned components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2836,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-oem-cnc-turning-manufacturer/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Milled+instrument+blocks+%26+brackets&product=custom-oem-high-precision-cnc-milling-manufacturer&source=%2Fproducts%2Fcustom-oem-high-precision-cnc-milling-manufacturer%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Milled+instrument+blocks+%26+brackets&product=custom-oem-high-precision-cnc-milling-manufacturer&source=%2Fproducts%2Fcustom-oem-high-precision-cnc-milling-manufacturer%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Milled instrument blocks & brackets",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2775,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Rotary+%26+cylindrical+components&product=custom-rotary-cylindrical-components&source=%2Fproducts%2Fcustom-rotary-cylindrical-components%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Rotary+%26+cylindrical+components&product=custom-rotary-cylindrical-components&source=%2Fproducts%2Fcustom-rotary-cylindrical-components%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Rotary & cylindrical components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2646,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/custom-rotary-cylindrical-components/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Milled+metal+brackets+%26+finished+housings&product=full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing&source=%2Fproducts%2Ffull-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Milled+metal+brackets+%26+finished+housings&product=full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing&source=%2Fproducts%2Ffull-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Milled metal brackets & finished housings",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2823,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Multi-sided+machined+components&product=global-manufacturer-of-multi-sided-precision-machined-components&source=%2Fproducts%2Fglobal-manufacturer-of-multi-sided-precision-machined-components%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Multi-sided+machined+components&product=global-manufacturer-of-multi-sided-precision-machined-components&source=%2Fproducts%2Fglobal-manufacturer-of-multi-sided-precision-machined-components%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Multi-sided machined components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2753,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Ring+housings+%26+angled+components&product=global-oem-precision-machining-solutions&source=%2Fproducts%2Fglobal-oem-precision-machining-solutions%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Ring+housings+%26+angled+components&product=global-oem-precision-machining-solutions&source=%2Fproducts%2Fglobal-oem-precision-machining-solutions%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Ring housings & angled components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2720,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/global-oem-precision-machining-solutions/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Turbine+%26+fluid-system+components&product=high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem&source=%2Fproducts%2Fhigh-reliability-precision-machining-turbine-fluid-complex-curve-component-oem%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Turbine+%26+fluid-system+components&product=high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem&source=%2Fproducts%2Fhigh-reliability-precision-machining-turbine-fluid-complex-curve-component-oem%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Turbine & fluid-system components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2703,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Complex+internal+%26+external+turned+features&product=high-volume-cnc-turning-for-complex-internal-external-features&source=%2Fproducts%2Fhigh-volume-cnc-turning-for-complex-internal-external-features%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Complex+internal+%26+external+turned+features&product=high-volume-cnc-turning-for-complex-internal-external-features&source=%2Fproducts%2Fhigh-volume-cnc-turning-for-complex-internal-external-features%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Complex internal & external turned features",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2811,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Cast+housings+%26+structural+enclosures&product=oem-precision-cnc-machined-casting-housing-structural-enclosures&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housing-structural-enclosures%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Cast+housings+%26+structural+enclosures&product=oem-precision-cnc-machined-casting-housing-structural-enclosures&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housing-structural-enclosures%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Cast housings & structural enclosures",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3073,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC-machined+casting+housings&product=oem-precision-cnc-machined-casting-housings&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housings%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=CNC-machined+casting+housings&product=oem-precision-cnc-machined-casting-housings&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housings%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC-machined casting housings",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3089,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/oem-precision-cnc-machined-casting-housings/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Machined+castings+%26+OEM+housings&product=precision-cnc-machined-castings-custom-oem-housings&source=%2Fproducts%2Fprecision-cnc-machined-castings-custom-oem-housings%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Machined+castings+%26+OEM+housings&product=precision-cnc-machined-castings-custom-oem-housings&source=%2Fproducts%2Fprecision-cnc-machined-castings-custom-oem-housings%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Machined castings & OEM housings",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3067,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-cnc-machined-castings-custom-oem-housings/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Precision-machined+castings&product=precision-cnc-machined-castings-manufacturer&source=%2Fproducts%2Fprecision-cnc-machined-castings-manufacturer%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Precision-machined+castings&product=precision-cnc-machined-castings-manufacturer&source=%2Fproducts%2Fprecision-cnc-machined-castings-manufacturer%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Precision-machined castings",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3098,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-cnc-machined-castings-manufacturer/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Complex-geometry+plastic+components&product=precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances&source=%2Fproducts%2Fprecision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Complex-geometry+plastic+components&product=precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances&source=%2Fproducts%2Fprecision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Complex-geometry plastic components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2802,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Turned+brass+%26+copper+components&product=precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier&source=%2Fproducts%2Fprecision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Turned+brass+%26+copper+components&product=precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier&source=%2Fproducts%2Fprecision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Turned brass & copper components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2773,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Pilot-batch+housings+%26+mating+parts&product=precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier&source=%2Fproducts%2Fprecision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Pilot-batch+housings+%26+mating+parts&product=precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier&source=%2Fproducts%2Fprecision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Pilot-batch housings & mating parts",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2751,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Functional+plastic+blocks+%26+structures&product=precision-machining-for-functional-plastic-blocks-structural-components&source=%2Fproducts%2Fprecision-machining-for-functional-plastic-blocks-structural-components%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Functional+plastic+blocks+%26+structures&product=precision-machining-for-functional-plastic-blocks-structural-components&source=%2Fproducts%2Fprecision-machining-for-functional-plastic-blocks-structural-components%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Functional plastic blocks & structures",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2747,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Small-batch+aluminum+enclosures&product=precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures&source=%2Fproducts%2Fprecision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Small-batch+aluminum+enclosures&product=precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures&source=%2Fproducts%2Fprecision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Small-batch aluminum enclosures",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2819,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+turned+parts&product=precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier&source=%2Fproducts%2Fprecision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+turned+parts&product=precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier&source=%2Fproducts%2Fprecision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Stainless steel turned parts",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2811,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Indexing+plungers+%26+locking+pins&product=precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier&source=%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Indexing+plungers+%26+locking+pins&product=precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier&source=%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Indexing plungers & locking pins",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2717,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Complex+aluminum+housings&product=small-batch-cnc-machining-manufacturer-complex-aluminum-housings&source=%2Fproducts%2Fsmall-batch-cnc-machining-manufacturer-complex-aluminum-housings%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Complex+aluminum+housings&product=small-batch-cnc-machining-manufacturer-complex-aluminum-housings&source=%2Fproducts%2Fsmall-batch-cnc-machining-manufacturer-complex-aluminum-housings%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Complex aluminum housings",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2707,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Mixed-material+pilot-run+components&product=small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv&source=%2Fproducts%2Fsmall-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Mixed-material+pilot-run+components&product=small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv&source=%2Fproducts%2Fsmall-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Mixed-material pilot-run components",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2777,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F",
+        "label": "Request a quote",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "er-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F",
+        "label": "Prepare an RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Machined impellers",
+    "h1Font": "56px",
+    "h1Width": 356.03125,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2701,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/ultra-high-precision-machining-services/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "er-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "er-wrap er-drawing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "qv-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Quality+review+%E2%80%94+inspection+requirements+and+order+records",
+        "label": "Discuss your inspection needs",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Quality control forCNC machined parts",
+    "h1Font": "56px",
+    "h1Width": 572,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4415,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/quality/",
+    "scroll": 1425,
+    "template": "decision",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "qv-wrap qv-hero",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "qv-wrap qv-report",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "qv-wrap qv-documents",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "qv-wrap qv-process",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "qv-wrap qv-equipment",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "qv-wrap qv-qualification",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "qv-wrap qv-resources",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": null,
+        "label": "Prepare email draft",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Tell us aboutyour part",
+    "h1Font": "56px",
+    "h1Width": 546,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 1806,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/quote/",
+    "scroll": 1425,
+    "template": "operate",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Resources",
+    "h1Font": "56px",
+    "h1Width": 430.3958435058594,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3171,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/resources/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC milling vs turning vs 5-axis machining: how to choose",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4636,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/cnc-process-selection/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 4,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Planning CNC parts for prototypes and repeat orders",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3421,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/custom-cnc-machined-components-for-prototypes-and-production/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 5,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "sh-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "Shipping CNC parts internationally",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5085,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/custom-cnc-parts-shipping-checklist/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 5,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap sh-section sh-checklist reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap sh-archive reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap reading-figure sh-overview-figure",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap sh-protection sh-section reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap sh-documents sh-section reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap sh-related reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "sh-wrap sh-rfq sh-section reading-closing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Drawings & Ordering",
+    "h1Font": "56px",
+    "h1Width": 581.6146240234375,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 2173,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/resources/drawings-and-ordering/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "fq-primary",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Custom+CNC+machining+%E2%80%94+FAQ+follow-up",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "Custom CNC machining FAQ",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4175,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/faq/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 5,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap fq-quick-facts",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap fq-section reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap fq-section fq-preparing reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap fq-section reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap fq-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap fq-section fq-case reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "fq-wrap reading-closing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ww-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "How We Work",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5767,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/how-we-work/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 6,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-wrap reading-figure ww-overview-figure",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-before ww-wrap reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-wrap ww-chapter-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-wrap ww-definition-details",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-handover ww-wrap reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-wrap ww-issue-grid",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-related ww-wrap reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ww-closing ww-wrap reading-closing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Specifying material and finish for a machined part",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 5758,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/material-and-finish-checklist/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 9,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/resources/cnc-process-selection/",
+        "label": "Read process selection guide",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/resources/material-and-finish-checklist/",
+        "label": "Read material & finish guide",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "CNC processes,materials and finishes",
+    "h1Font": "56px",
+    "h1Width": 772.6354370117188,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 3710,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/resources/processes-materials-finishes/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Production & Shipping",
+    "h1Font": "56px",
+    "h1Width": 581.6146240234375,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 1852,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/resources/production-and-shipping/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [],
+    "viewport": 1440,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ag-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "CNC prototypes and small-batch production",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4090,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/prototype-vs-small-batch-cnc/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 5,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-stage-notes reading-overview",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap reading-figure ag-overview-figure",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-chapter reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-chapter ag-approval",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-chapter ag-repeat reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-suppliers reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-related reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-bottom",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "ag-wrap ag-rfq reading-closing",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "rq-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "CNC machining RFQ checklist",
+    "h1Font": "56px",
+    "h1Width": 960.46875,
+    "h1X": 142.33334350585938,
+    "headerX": 142.33334350585938,
+    "height": 4076,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/rfq-checklist/",
+    "scroll": 1425,
+    "template": "read",
+    "toc": [
+      {
+        "links": 6,
+        "open": true
+      }
+    ],
+    "viewport": 1440,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-hero reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-section reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-section rq-review reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-section rq-commercial reading-section",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-related reading-related",
+        "width": 1140,
+        "x": 142.33334350585938
+      },
+      {
+        "class": "rq-wrap rq-send",
+        "width": 1140,
+        "x": 142.33334350585938
+      }
+    ]
+  }
+]

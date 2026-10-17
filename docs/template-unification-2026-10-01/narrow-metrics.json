@@ -1,0 +1,425 @@
+[
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Discuss your part",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/capabilities/",
+        "label": "View machining capabilities",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quality/",
+        "label": "Review quality control",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/factory/",
+        "label": "Explore our factory",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Your partsMachined to order",
+    "h1Font": "34px",
+    "h1Width": 280,
+    "h1X": 20,
+    "headerX": 20,
+    "height": 6328,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/",
+    "scroll": 320,
+    "template": "decision",
+    "toc": [],
+    "viewport": 320,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Custom machined parts",
+    "h1Font": "34px",
+    "h1Width": 280,
+    "h1X": 20,
+    "headerX": 20,
+    "height": 3585,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/products/",
+    "scroll": 320,
+    "template": "decision",
+    "toc": [],
+    "viewport": 320,
+    "wraps": [
+      {
+        "class": "container catalog-heading",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "container section catalog-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "container catalog-workshop",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "container additional-part-forms",
+        "width": 280,
+        "x": 20
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": null,
+        "label": "Prepare email draft",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Tell us aboutyour part",
+    "h1Font": "34px",
+    "h1Width": 280,
+    "h1X": 20,
+    "headerX": 20,
+    "height": 3050,
+    "overflow": false,
+    "readingHeader": 0,
+    "route": "/quote/",
+    "scroll": 320,
+    "template": "operate",
+    "toc": [],
+    "viewport": 320,
+    "wraps": []
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "rq-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "CNC machining RFQ checklist",
+    "h1Font": "34px",
+    "h1Width": 280,
+    "h1X": 20,
+    "headerX": 20,
+    "height": 7733,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/rfq-checklist/",
+    "scroll": 320,
+    "template": "read",
+    "toc": [
+      {
+        "links": 6,
+        "open": false
+      }
+    ],
+    "viewport": 320,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-hero reading-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-section reading-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-section rq-review reading-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-section rq-commercial reading-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-related reading-related",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "rq-wrap rq-send",
+        "width": 280,
+        "x": 20
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/",
+        "label": "Prepare RFQ email",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 0,
+    "h1": "Specifying material and finish for a machined part",
+    "h1Font": "34px",
+    "h1Width": 280,
+    "h1X": 20,
+    "headerX": 20,
+    "height": 8863,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/resources/material-and-finish-checklist/",
+    "scroll": 320,
+    "template": "read",
+    "toc": [
+      {
+        "links": 9,
+        "open": false
+      }
+    ],
+    "viewport": 320,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 280,
+        "x": 20
+      }
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "button header-quote",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 44,
+        "href": "/quote/",
+        "label": "Request a Quote",
+        "padding": "10px 14px",
+        "radius": "2px",
+        "weight": "600"
+      },
+      {
+        "background": "rgb(203, 18, 23)",
+        "class": "ps-button",
+        "color": "rgb(255, 255, 255)",
+        "font": "15px",
+        "height": 48,
+        "href": "/quote/?part=Prismatic+multi-feature+part+%E2%80%94+drawing+review",
+        "label": "Discuss your drawing",
+        "padding": "12px 20px",
+        "radius": "2px",
+        "weight": "600"
+      }
+    ],
+    "closing": 1,
+    "h1": "CNC milling for prismatic parts",
+    "h1Font": "34px",
+    "h1Width": 280,
+    "h1X": 20,
+    "headerX": 20,
+    "height": 4421,
+    "overflow": false,
+    "readingHeader": 1,
+    "route": "/cases/milling-prismatic-components/",
+    "scroll": 320,
+    "template": "read",
+    "toc": [
+      {
+        "links": 3,
+        "open": false
+      }
+    ],
+    "viewport": 320,
+    "wraps": [
+      {
+        "class": "reading-header reading-wrap",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "reading-contents reading-wrap",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "ps-width ps-hero reading-media",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "ps-width ps-intro reading-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "ps-width ps-setup-grid",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "ps-width ps-inspection reading-section",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "ps-width ps-related reading-related",
+        "width": 280,
+        "x": 20
+      },
+      {
+        "class": "ps-width reading-closing",
+        "width": 280,
+        "x": 20
+      }
+    ]
+  }
+]

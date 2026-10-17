@@ -1,0 +1,176 @@
+Browser tab: 506354184, Title: "How We Work | LZZ Precision", URL: "http://127.0.0.1:4323/resources/how-we-work/".
+1 AXWebArea How We Work | LZZ Precision, URL: 127.0.0.1:4323/resources/how-we-work/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/resources/how-we-work/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container Ordering custom machined parts from LZZ
+			19 container
+				20 container Breadcrumb
+					21 link Description: Resources, Value: 127.0.0.1:4323/resources/
+					22 text /
+					23 text How We Work
+				24 heading How We Work, Value: 1
+					25 text How We Work
+				26 text OEM/ODM machining from your drawings or samples. Review the quotation, approve the sample and agree the records to receive with your parts.
+				27 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+				28 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			29 container
+				30 button (expanded) On this page, Secondary Actions: Collapse
+					31 text On this page
+				32 container On this page
+					33 link Description: 1. Define part requirements, Value: 127.0.0.1:4323/resources/how-we-work/#section-3
+					34 link Description: 2. Review the quotation, Value: 127.0.0.1:4323/resources/how-we-work/#section-4
+					35 link Description: 3. Check and approve the sample, Value: 127.0.0.1:4323/resources/how-we-work/#section-5
+					36 link Description: 4. Agree on batch inspection, Value: 127.0.0.1:4323/resources/how-we-work/#section-6
+					37 link Description: 5. Arrange packing and shipment, Value: 127.0.0.1:4323/resources/how-we-work/#packaging-shipping
+					38 link Description: 6. Confirm documents for delivery, Value: 127.0.0.1:4323/resources/how-we-work/#section-8
+			39 container Key facts and preparation
+				40 heading Key facts and preparation, Value: 2, ID: ww-before-title
+					41 text Key facts and preparation
+				42 definition list
+					43 container Orders from
+						44 text Orders from
+					45 text 1 piece
+					46 container Production time
+						47 text Production time
+					48 text 7–14 business days
+					49 text After drawing and order confirmation, including surface finishing.
+					50 container Transit time
+						51 text Transit time
+					52 text Separate
+					53 text Confirm shipping time for your destination and method.
+					54 container Changes after approval
+						55 text Changes after approval
+					56 text A drawing or quantity change requires an updated scope and schedule.
+				57 text We can agree confidentiality terms before you send sensitive files. Use the checklist to prepare your requirements.
+				58 link Description: View RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+			59 container Define the work
+				60 heading Define the work, Value: 2, ID: ww-define-title
+					61 text Define the work
+				62 container section-3
+					63 heading 1. Define part requirements, Value: 3
+						64 text 1.  Define part requirements
+					65 text Send your drawing or model and revision, material grade, quantity, required delivery date and part function.
+					66 text Working from a sample? Explain the fit and function to retain or change, including any material changes. Agree the measurement and drawing work needed to define the part specification.
+				67 container section-4
+					68 heading 2. Review the quotation, Value: 3
+						69 text 2.  Review the quotation
+					70 text Check the drawing revision against the quotation. Discuss tool access, workholding, mating features and critical requirements before agreeing to proposed geometry changes.
+					71 container quotation-scope
+						72 heading What your quotation covers, Value: 4
+							73 text What your quotation covers
+						74 definition list
+							75 container Machining & material
+								76 text Machining & material
+							77 text Drawing revision, grade, quantity, price and any agreed alternative.
+							78 container Surface finishing
+								79 text Surface finishing
+							80 text Included treatments and the surfaces to be controlled.
+							81 container Inspection
+								82 text Inspection
+							83 text Report scope, sampling and required records.
+							84 container Separate charges
+								85 text Separate charges
+							86 text Tooling, special documentation, freight and duties where applicable.
+							87 container Delivery terms
+								88 text Delivery terms
+							89 text Production timing, shipping arrangements and responsibilities.
+					90 link Description: Machining capabilities, Value: 127.0.0.1:4323/capabilities/
+			91 container Approve before production
+				92 heading Approve before production, Value: 2, ID: ww-approval-title
+					93 text Approve before production
+				94 container section-5
+					95 heading 3. Check and approve the sample, Value: 3
+						96 text 3.  Check and approve the sample
+					97 text Agree sample checks in advance: fit and appearance, critical interfaces and any defined functional tests.
+					98 text Set the first-article review stage and release criteria. Record the drawing revision and approval criteria before moving to production.
+				99 container section-6
+					100 heading 4. Agree on batch inspection, Value: 3
+						101 text 4.  Agree on batch inspection
+					102 text Confirm the approved revision and checks for repeat production. Identify the features that need recorded results.
+					103 text Agree material traceability requirements and the treatment of nonconforming parts. Our quality planning guide covers the records to request.
+					104 link Description: View quality planning guide, Value: 127.0.0.1:4323/quality/
+			105 container Prepare for handover
+				106 heading Prepare for handover, Value: 2, ID: ww-handover-title
+					107 text Prepare for handover
+				108 container
+					109 link Description: Open original archive image: Protected yellow and white machined components in a wooden packing case, Value: 127.0.0.1:4323/media/evidence/shipping-example-1600.webp
+					110 link Description: Open original archive image: Historical order with protected components arranged in wooden cases, Value: 127.0.0.1:4323/media/evidence/shipment-2022-order-packing-1600.webp
+					111 link Description: Open original archive image: Packed components prepared in a loading area, Value: 127.0.0.1:4323/media/evidence/shipment-2022-prepared-load-1600.webp
+					112 text November 2022 LZZ packing archive. Customer, destination, carrier and export terms are not identified. These photographs do not define the packing for your order.
+				113 container packaging-shipping
+					114 heading 5. Arrange packing and shipment, Value: 3
+						115 text 5.  Arrange packing and shipment
+					116 text Cartons or wooden cases depend on the parts and shipment requirements. Identify polished faces, sealing surfaces and vulnerable threads that need protection.
+					117 text Specify labels, part numbers, drawing revision and quantity per pack where required. Provide the delivery address and receiving contact.
+					118 text Distinguish the required arrival date from the planned dispatch date. Confirm the shipping method, Incoterm and responsibility for customs, duties and taxes.
+					119 text Packing protection, transport costs and any arrival-date commitment must be agreed in your quotation.
+				120 container section-8
+					121 heading 6. Confirm documents for delivery, Value: 3
+						122 text 6.  Confirm documents for delivery
+					123 text Use the approved drawing revision and order reference consistently for packing, shipment and inspection documents.
+					124 text Specify the records needed with delivery, such as an agreed dimensional report or material documentation.
+					125 link Description: View factory workflow, Value: 127.0.0.1:4323/factory/#workflow
+			126 container If there is an issue, ID: section-2
+				127 heading If there is an issue, Value: 2, ID: ww-issue-title
+					128 text If there is an issue
+				129 text Send the drawing revision, part or batch reference, affected quantity, photographs and measurement details. We review the discrepancy against the agreed acceptance criteria and agree corrective action with you.
+				130 link Description: View available order documentation, Value: 127.0.0.1:4323/quality/#order-documentation
+			131 container Part examples from our work
+				132 heading Part examples from our work, Value: 2, ID: article-examples-title
+					133 text Part examples from our work
+				134 text Use these examples to see typical shapes and drawing questions. Each custom part needs its own drawing and quote.
+				135 link Description: Turned fittings, connectors & flanges, Value: 127.0.0.1:4323/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/
+				136 link Description: Milled instrument blocks & brackets, Value: 127.0.0.1:4323/products/custom-oem-high-precision-cnc-milling-manufacturer/
+			137 container Have a part in mind?
+				138 heading Have a part in mind?, Value: 2, ID: ww-closing-title
+					139 text Have a part in mind?
+				140 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+				141 link Description: Back to Resources, Value: 127.0.0.1:4323/resources/
+				142 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/
+				143 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		144 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		145 container
+			146 text Custom CNC machining
+			147 text in Hangzhou, China.
+		148 container Footer navigation
+			149 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			150 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			151 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			152 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			153 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			154 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			155 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			156 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			157 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			158 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		159 container Let’s talk, ID: contact
+			160 heading Let’s talk, Value: 2, ID: footer-talk-title
+				161 text Let’s talk
+			162 text Hangzhou, China · UTC+8
+			163 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			164 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		165 container Find us
+			166 heading Find us, Value: 2, ID: footer-find-title
+				167 text Find us
+			168 container
+				169 text No. 4 Fengcheng Road
+				170 text Pingyao, Yuhang District
+				171 text Hangzhou, Zhejiang, China
+		172 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		173 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea How We Work | LZZ Precision, URL: 127.0.0.1:4323/resources/how-we-work/

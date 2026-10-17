@@ -1,0 +1,393 @@
+{
+  "pages": 45,
+  "validPages": 45,
+  "invalid": [],
+  "examples": [
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "kind": "capability",
+      "id": "5-axis-cnc-machining",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F"
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "kind": "capability",
+      "id": "aluminum-cnc-parts",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F"
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "kind": "capability",
+      "id": "casting-machining",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F"
+    }
+  ],
+  "result": [
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "kind": "capability",
+      "id": "5-axis-cnc-machining",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F"
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "kind": "capability",
+      "id": "aluminum-cnc-parts",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F"
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "kind": "capability",
+      "id": "casting-machining",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F"
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "kind": "capability",
+      "id": "cnc-milling-service",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F"
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "kind": "capability",
+      "id": "cnc-turning-service",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F"
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "kind": "capability",
+      "id": "copper-brass-cnc-parts",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F"
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "kind": "capability",
+      "id": "low-volume-production",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F"
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "kind": "capability",
+      "id": "plastic-machined-parts",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F"
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "kind": "capability",
+      "id": "prototype-machining",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F"
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "kind": "capability",
+      "id": "stainless-steel-cnc-parts",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Stainless+steel+machining&capability=stainless-steel-cnc-parts&source=%2Fcapabilities%2Fstainless-steel-cnc-parts%2F"
+    },
+    {
+      "route": "/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "kind": "product",
+      "id": "custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Aluminum+intercooler+prototypes&product=custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier&source=%2Fproducts%2Fcustom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier%2F"
+    },
+    {
+      "route": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "kind": "product",
+      "id": "custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Billet+aluminum+engine+covers&product=custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier%2F"
+    },
+    {
+      "route": "/products/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "kind": "product",
+      "id": "custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Billet+aluminum+intake+manifolds&product=custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier%2F"
+    },
+    {
+      "route": "/products/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "kind": "product",
+      "id": "custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Billet+aluminum+intake+plenums&product=custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier%2F"
+    },
+    {
+      "route": "/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "kind": "product",
+      "id": "custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Billet+intake+manifold+prototypes&product=custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier&source=%2Fproducts%2Fcustom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier%2F"
+    },
+    {
+      "route": "/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "kind": "product",
+      "id": "custom-cnc-machined-castings-transmission-housings-pump-bodies",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Transmission+housings+%26+pump+bodies&product=custom-cnc-machined-castings-transmission-housings-pump-bodies&source=%2Fproducts%2Fcustom-cnc-machined-castings-transmission-housings-pump-bodies%2F"
+    },
+    {
+      "route": "/products/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "kind": "product",
+      "id": "custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=CNC-machined+electronic+throttle+bodies&product=custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier%2F"
+    },
+    {
+      "route": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "kind": "product",
+      "id": "custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Stainless+steel+turned+shafts&product=custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier&source=%2Fproducts%2Fcustom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier%2F"
+    },
+    {
+      "route": "/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "kind": "product",
+      "id": "custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Multi-bore+circular+milled+component&product=custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm&source=%2Fproducts%2Fcustom-high-precision-cnc-milling-5-axis-machining-services-oem-odm%2F"
+    },
+    {
+      "route": "/products/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "kind": "product",
+      "id": "custom-high-precision-machining-for-structural-aesthetic-components-oem",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Structural+%26+aesthetic+components&product=custom-high-precision-machining-for-structural-aesthetic-components-oem&source=%2Fproducts%2Fcustom-high-precision-machining-for-structural-aesthetic-components-oem%2F"
+    },
+    {
+      "route": "/products/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "kind": "product",
+      "id": "custom-oem-cnc-machined-non-metallic-components-insulating-parts",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Non-metallic+%26+insulating+components&product=custom-oem-cnc-machined-non-metallic-components-insulating-parts&source=%2Fproducts%2Fcustom-oem-cnc-machined-non-metallic-components-insulating-parts%2F"
+    },
+    {
+      "route": "/products/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "kind": "product",
+      "id": "custom-oem-cnc-machined-plastic-parts-manufacturer",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Custom+machined+plastic+parts&product=custom-oem-cnc-machined-plastic-parts-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-machined-plastic-parts-manufacturer%2F"
+    },
+    {
+      "route": "/products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "kind": "product",
+      "id": "custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Turned+fittings%2C+connectors+%26+flanges&product=custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer%2F"
+    },
+    {
+      "route": "/products/custom-oem-cnc-turning-manufacturer/",
+      "kind": "product",
+      "id": "custom-oem-cnc-turning-manufacturer",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Custom+CNC-turned+components&product=custom-oem-cnc-turning-manufacturer&source=%2Fproducts%2Fcustom-oem-cnc-turning-manufacturer%2F"
+    },
+    {
+      "route": "/products/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "kind": "product",
+      "id": "custom-oem-high-precision-cnc-milling-manufacturer",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Milled+instrument+blocks+%26+brackets&product=custom-oem-high-precision-cnc-milling-manufacturer&source=%2Fproducts%2Fcustom-oem-high-precision-cnc-milling-manufacturer%2F"
+    },
+    {
+      "route": "/products/custom-rotary-cylindrical-components/",
+      "kind": "product",
+      "id": "custom-rotary-cylindrical-components",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Rotary+%26+cylindrical+components&product=custom-rotary-cylindrical-components&source=%2Fproducts%2Fcustom-rotary-cylindrical-components%2F"
+    },
+    {
+      "route": "/products/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "kind": "product",
+      "id": "full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Milled+metal+brackets+%26+finished+housings&product=full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing&source=%2Fproducts%2Ffull-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing%2F"
+    },
+    {
+      "route": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "kind": "product",
+      "id": "global-manufacturer-of-multi-sided-precision-machined-components",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Multi-sided+machined+components&product=global-manufacturer-of-multi-sided-precision-machined-components&source=%2Fproducts%2Fglobal-manufacturer-of-multi-sided-precision-machined-components%2F"
+    },
+    {
+      "route": "/products/global-oem-precision-machining-solutions/",
+      "kind": "product",
+      "id": "global-oem-precision-machining-solutions",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Ring+housings+%26+angled+components&product=global-oem-precision-machining-solutions&source=%2Fproducts%2Fglobal-oem-precision-machining-solutions%2F"
+    },
+    {
+      "route": "/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "kind": "product",
+      "id": "high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Turbine+%26+fluid-system+components&product=high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem&source=%2Fproducts%2Fhigh-reliability-precision-machining-turbine-fluid-complex-curve-component-oem%2F"
+    },
+    {
+      "route": "/products/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "kind": "product",
+      "id": "high-volume-cnc-turning-for-complex-internal-external-features",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Complex+internal+%26+external+turned+features&product=high-volume-cnc-turning-for-complex-internal-external-features&source=%2Fproducts%2Fhigh-volume-cnc-turning-for-complex-internal-external-features%2F"
+    },
+    {
+      "route": "/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "kind": "product",
+      "id": "oem-precision-cnc-machined-casting-housing-structural-enclosures",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Cast+housings+%26+structural+enclosures&product=oem-precision-cnc-machined-casting-housing-structural-enclosures&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housing-structural-enclosures%2F"
+    },
+    {
+      "route": "/products/oem-precision-cnc-machined-casting-housings/",
+      "kind": "product",
+      "id": "oem-precision-cnc-machined-casting-housings",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=CNC-machined+casting+housings&product=oem-precision-cnc-machined-casting-housings&source=%2Fproducts%2Foem-precision-cnc-machined-casting-housings%2F"
+    },
+    {
+      "route": "/products/precision-cnc-machined-castings-custom-oem-housings/",
+      "kind": "product",
+      "id": "precision-cnc-machined-castings-custom-oem-housings",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Machined+castings+%26+OEM+housings&product=precision-cnc-machined-castings-custom-oem-housings&source=%2Fproducts%2Fprecision-cnc-machined-castings-custom-oem-housings%2F"
+    },
+    {
+      "route": "/products/precision-cnc-machined-castings-manufacturer/",
+      "kind": "product",
+      "id": "precision-cnc-machined-castings-manufacturer",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Precision-machined+castings&product=precision-cnc-machined-castings-manufacturer&source=%2Fproducts%2Fprecision-cnc-machined-castings-manufacturer%2F"
+    },
+    {
+      "route": "/products/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "kind": "product",
+      "id": "precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Complex-geometry+plastic+components&product=precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances&source=%2Fproducts%2Fprecision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances%2F"
+    },
+    {
+      "route": "/products/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "kind": "product",
+      "id": "precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Turned+brass+%26+copper+components&product=precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier&source=%2Fproducts%2Fprecision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier%2F"
+    },
+    {
+      "route": "/products/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "kind": "product",
+      "id": "precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Pilot-batch+housings+%26+mating+parts&product=precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier&source=%2Fproducts%2Fprecision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier%2F"
+    },
+    {
+      "route": "/products/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "kind": "product",
+      "id": "precision-machining-for-functional-plastic-blocks-structural-components",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Functional+plastic+blocks+%26+structures&product=precision-machining-for-functional-plastic-blocks-structural-components&source=%2Fproducts%2Fprecision-machining-for-functional-plastic-blocks-structural-components%2F"
+    },
+    {
+      "route": "/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "kind": "product",
+      "id": "precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Small-batch+aluminum+enclosures&product=precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures&source=%2Fproducts%2Fprecision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures%2F"
+    },
+    {
+      "route": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "kind": "product",
+      "id": "precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Stainless+steel+turned+parts&product=precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier&source=%2Fproducts%2Fprecision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier%2F"
+    },
+    {
+      "route": "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "kind": "product",
+      "id": "precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Indexing+plungers+%26+locking+pins&product=precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier&source=%2Fproducts%2Fprecision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier%2F"
+    },
+    {
+      "route": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "kind": "product",
+      "id": "small-batch-cnc-machining-manufacturer-complex-aluminum-housings",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Complex+aluminum+housings&product=small-batch-cnc-machining-manufacturer-complex-aluminum-housings&source=%2Fproducts%2Fsmall-batch-cnc-machining-manufacturer-complex-aluminum-housings%2F"
+    },
+    {
+      "route": "/products/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "kind": "product",
+      "id": "small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Mixed-material+pilot-run+components&product=small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv&source=%2Fproducts%2Fsmall-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv%2F"
+    },
+    {
+      "route": "/products/ultra-high-precision-machining-services/",
+      "kind": "product",
+      "id": "ultra-high-precision-machining-services",
+      "quoteLinks": 2,
+      "valid": true,
+      "sample": "/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F"
+    }
+  ]
+}

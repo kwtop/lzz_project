@@ -1,0 +1,15 @@
+---
+import {workshopCollections} from '../data/workshopCollections';
+import ReferenceGallery from './ReferenceGallery.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+interface Props {collection:string}
+const {collection}=Astro.props;
+---
+<div class="workshop-collection">
+ {workshopCollections[collection].map(section=><section id={section.id} class="collection-section"><h2>{section.title}</h2><p>{section.copy}</p>{section.photos&&<ReferenceGallery ids={section.photos} title="Original part photographs"/>}{section.video&&<WorkshopVideo {...section.video}/>}</section>)}
+ <section class="collection-section" id="drawing-review"><h2>Plan a similar part</h2><p>Send a 3D model and a revision-controlled drawing, material grade and quantity. Mark critical dimensions, mating features, edge conditions and appearance requirements. Agree the inspection records and packaging needs with your quotation.</p><nav aria-label="Next steps"><a class="text-link" href="/quote/">Send your drawing for review →</a>{collection==='plastic'?<><a class="text-link" href="/capabilities/plastic-machined-parts/#video-peek-parts">Watch the PEEK part example →</a><a class="text-link" href="/resources/processes-materials-finishes/#coated-parts">Compare with surface-coated parts →</a></>:<a class="text-link" href="/products/#additional-part-forms">See gears and covered components →</a>}</nav></section>
+</div>
+<style>
+ .collection-section{padding-block:40px;border-top:1px solid var(--border);scroll-margin-top:110px}.collection-section>h2{font-size:clamp(27px,3vw,38px);line-height:1.2;max-width:28ch}.collection-section>p{font-size:17px;line-height:1.8;max-width:78ch;margin-top:20px}.collection-section nav{display:flex;flex-wrap:wrap;gap:20px 32px;margin-top:28px}.collection-section :global(.workshop-video){margin-top:28px;margin-bottom:0;border-bottom:0}.collection-section :global(.reference-gallery){padding-bottom:12px}.collection-section :global(.reference-gallery h2){font-size:22px}.collection-section :global(.reference-gallery>div:has(>figure:nth-child(3))){grid-template-columns:repeat(3,minmax(0,1fr))}
+ @media(max-width:760px){.collection-section{padding-block:28px}.collection-section>p{font-size:16px}.collection-section :global(.reference-gallery>div:has(>figure:nth-child(3))){grid-template-columns:1fr}.collection-section nav{flex-direction:column;align-items:flex-start}}
+</style>

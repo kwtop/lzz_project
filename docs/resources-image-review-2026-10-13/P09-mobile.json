@@ -1,0 +1,232 @@
+{
+  "backgrounds": [],
+  "headings": [
+    {
+      "id": "",
+      "tag": "H1",
+      "text": "Choosing CNC milling, turning or 5-axis machining",
+      "y": 164
+    },
+    {
+      "id": "section-1",
+      "tag": "H2",
+      "text": "Compare the processes by geometry",
+      "y": 532
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "CNC turning",
+      "y": 643
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "CNC milling",
+      "y": 1031
+    },
+    {
+      "id": "",
+      "tag": "H3",
+      "text": "Multi-axis machining",
+      "y": 1418
+    },
+    {
+      "id": "section-2",
+      "tag": "H2",
+      "text": "Parts that need more than one process",
+      "y": 1832
+    },
+    {
+      "id": "section-3",
+      "tag": "H2",
+      "text": "Accuracy depends on the feature",
+      "y": 3452
+    },
+    {
+      "id": "section-4",
+      "tag": "H2",
+      "text": "Files for a process recommendation",
+      "y": 3796
+    },
+    {
+      "id": "article-examples-title",
+      "tag": "H2",
+      "text": "Related part examples",
+      "y": 4434
+    },
+    {
+      "id": "",
+      "tag": "H2",
+      "text": "Request a quote for your part",
+      "y": 5048
+    }
+  ],
+  "images": [
+    {
+      "alt": "CNC turning in progress.",
+      "anchor": "/media/evidence/turning-operation-1600.webp",
+      "caption": "CNC turning operation.",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/turning-operation-1600-400.webp",
+      "index": 1,
+      "naturalHeight": 467,
+      "naturalWidth": 351,
+      "nearestHeading": "Parts that need more than one process",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 441,
+        "width": 331,
+        "x": 22,
+        "y": 1951
+      },
+      "src": "/media/evidence/turning-operation-1600.webp",
+      "srcset": "/media/responsive/turning-operation-1600-240.webp 240w, /media/responsive/turning-operation-1600-320.webp 320w, /media/responsive/turning-operation-1600-400.webp 400w, /media/responsive/turning-operation-1600-480.webp 480w, /media/responsive/turning-operation-1600-640.webp 640w, /media/responsive/turning-operation-1600-800.webp 800w, /media/responsive/turning-operation-1600-960.webp 960w, /media/responsive/turning-operation-1600-1200.webp 1200w, /media/responsive/turning-operation-1600-1600.webp 1600w"
+    },
+    {
+      "alt": "CNC milling of an enclosure.",
+      "anchor": "/media/evidence/milling-enclosure-operation-1600.webp",
+      "caption": "CNC milling operation.",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/milling-enclosure-operation-1600-400.webp",
+      "index": 2,
+      "naturalHeight": 263,
+      "naturalWidth": 351,
+      "nearestHeading": "Parts that need more than one process",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 248,
+        "width": 331,
+        "x": 22,
+        "y": 2509
+      },
+      "src": "/media/evidence/milling-enclosure-operation-1600.webp",
+      "srcset": "/media/responsive/milling-enclosure-operation-1600-240.webp 240w, /media/responsive/milling-enclosure-operation-1600-320.webp 320w, /media/responsive/milling-enclosure-operation-1600-400.webp 400w, /media/responsive/milling-enclosure-operation-1600-480.webp 480w, /media/responsive/milling-enclosure-operation-1600-640.webp 640w, /media/responsive/milling-enclosure-operation-1600-800.webp 800w, /media/responsive/milling-enclosure-operation-1600-960.webp 960w, /media/responsive/milling-enclosure-operation-1600-1200.webp 1200w, /media/responsive/milling-enclosure-operation-1600-1600.webp 1600w"
+    },
+    {
+      "alt": "Five-axis machining in progress.",
+      "anchor": "/media/evidence/five-axis-operation-1600.webp",
+      "caption": "Five-axis machining operation.",
+      "complete": true,
+      "context": "",
+      "currentSrc": "http://127.0.0.1:4323/media/responsive/five-axis-operation-1600-400.webp",
+      "index": 3,
+      "naturalHeight": 263,
+      "naturalWidth": 351,
+      "nearestHeading": "Parts that need more than one process",
+      "objectFit": "contain",
+      "objectPosition": "50% 50%",
+      "origin": "",
+      "render": {
+        "height": 248,
+        "width": 331,
+        "x": 22,
+        "y": 2875
+      },
+      "src": "/media/evidence/five-axis-operation-1600.webp",
+      "srcset": "/media/responsive/five-axis-operation-1600-240.webp 240w, /media/responsive/five-axis-operation-1600-320.webp 320w, /media/responsive/five-axis-operation-1600-400.webp 400w, /media/responsive/five-axis-operation-1600-480.webp 480w, /media/responsive/five-axis-operation-1600-640.webp 640w, /media/responsive/five-axis-operation-1600-800.webp 800w, /media/responsive/five-axis-operation-1600-960.webp 960w, /media/responsive/five-axis-operation-1600-1200.webp 1200w, /media/responsive/five-axis-operation-1600-1600.webp 1600w"
+    }
+  ],
+  "links": [
+    {
+      "href": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "Turning capabilities"
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "Milling capabilities"
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "Multi-axis capabilities"
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "Turning capabilities"
+    },
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "Milling capabilities"
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "Multi-axis capabilities"
+    },
+    {
+      "href": "/media/evidence/turning-operation-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/milling-enclosure-operation-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/evidence/five-axis-operation-1600.webp",
+      "text": ""
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "text": "Stainless steel turned shafts"
+    },
+    {
+      "href": "/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "text": "Lid & gasket aluminum housings"
+    },
+    {
+      "href": "/products/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "text": "Multi-sided machined components"
+    },
+    {
+      "href": "/resources/",
+      "text": "All resources"
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/resources/how-we-work/",
+      "text": "How we work"
+    },
+    {
+      "href": "/quality/",
+      "text": "Quality control"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "/quote/",
+      "text": "Prepare RFQ email"
+    }
+  ],
+  "mainText": "Resources\nProcess comparison\nChoosing CNC milling, turning or 5-axis machining\n\nA shaft or sleeve will usually start with turning. A housing with pockets and flat mounting faces is more likely to need milling. Angled features or access to several faces may call for a multi-axis setup. Some parts need a combination; send the drawing so we can review the sequence.\n\nCompare the processes by geometry\nCNC turning\nTypical geometry\n\nRotational features such as a shaft, sleeve, disc or fitting, often arranged around an axis. Turning capabilities.\n\nDrawing requirements\n\nDefine the datum axis, diameters, shoulders, grooves, threads and runout if required. Confirm whether cross-holes, flats or slots need secondary milling.\n\nCNC milling\nTypical geometry\n\nBlock-like or irregular forms with pockets, slots, holes, contours and planar mounting faces. Milling capabilities.\n\nDrawing requirements\n\nDefine datum faces, pocket depth, hole patterns and positional relationships. Confirm stock, clamping surfaces, setups and inspection records.\n\nMulti-axis machining\nTypical geometry\n\nFeatures distributed over several faces, angled faces or areas that need different tool approaches. Multi-axis capabilities.\n\nDrawing requirements\n\nDefine common datums, face-to-face and angular relationships. Review tool access, workholding and sequence against the model.\n\nParts that need more than one process\nCNC turning operation.\nCNC milling operation.\nFive-axis machining operation.\n\nSome turned parts also need milling, for example to add flats or cross-holes. A housing may require another setup to reach an angled face. The machining sequence must preserve the relationships between critical features, so send both a 3D model and the controlling 2D drawing.\n\nAccuracy depends on the feature\n\nAccuracy is assessed at the feature level. Geometry and material affect the achievable limit, together with the setup and datum strategy. Finishing and the measurement method also affect acceptance. State the tolerance and datum for each critical interface so its machining and inspection can be planned.\n\nFiles for a process recommendation\nA 3D model and the controlling 2D drawing revision.\nMaterial grade and condition, or the functional requirement if still undecided.\nQuantity for the first order and expected repeat pattern, if known.\nCritical datums, fits, surface requirements and required inspection records.\nFinish, packaging and required arrival date, with any standards or approvals identified.\n\nUse the RFQ checklist to organize those details. We review your drawing before confirming the machining process and quoting a price and schedule.\n\nRelated part examples\n\nExamples with related features. Each custom part is quoted to its own drawing.\n\nStainless steel turned shafts\nLid & gasket aluminum housings\nMulti-sided machined components\nAll resources\nRFQ checklist\nHow we work\nQuality control\nRequest a quote for your part\n\nUse the RFQ checklist to prepare your drawing and order details.\n\nroger@lzz-cnc.com\nPrepare RFQ email",
+  "overflow": false,
+  "pageHeight": 6347,
+  "title": "CNC milling, turning or 5-axis machining? | LZZ Precision",
+  "url": "http://127.0.0.1:4323/resources/cnc-process-selection/",
+  "videos": [],
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "pageId": "P09",
+  "mode": "mobile",
+  "screenshot": "screenshots/P09-mobile.jpg"
+}

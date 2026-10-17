@@ -1,0 +1,27 @@
+---
+import photos from '../data/companyNewsMedia.json';
+import type {Resource} from '../data/resources';
+import {load} from 'cheerio';
+import '../styles/studies-news-gallery.css';
+import ReadingHeader from './ReadingHeader.astro';
+import CompanyPageFooter from './CompanyPageFooter.astro';
+import '../styles/factory-family.css';
+import '../styles/about-family.css';
+interface Props {article:Resource;relatedNews:Resource[]}
+const {article,relatedNews}=Astro.props;
+const images=photos.filter(photo=>photo.group==='team-may-2025');
+const $=load(article.html,null,false);
+const paragraphs=$.root().children('p').map((_,p)=>$(p).text()).get();
+---
+<article class="mo-page reading-page ff-page af-page">
+ <div class="af-news-hero">
+ <ReadingHeader title={article.title} description={paragraphs[0]} breadcrumbs={[{label:'About LZZ',href:'/about/'},{label:'Company news',href:'/about/company-news/'}]}><p class="mo-date"><time datetime={article.eventDate}>{article.eventDateLabel}</time></p></ReadingHeader>
+ <figure class="mo-hero" data-image-origin="source-photo"><a class="static-photo"><img src={images[0].src} srcset={images[0].srcset} sizes="96vw" alt={images[0].caption} width={images[0].width} height={images[0].height} loading="eager" fetchpriority="high"/></a><figcaption class="mo-wrap">{images[0].caption}</figcaption></figure>
+ </div>
+ <section class="mo-wrap mo-story reading-section" id="news-photographs" aria-labelledby="section-1"><div><h2 id="section-1">A meal and evening photographs</h2><p>{paragraphs[0]}</p><p>{paragraphs[1]}</p></div><figure data-image-origin="source-photo"><a class="static-photo"><img src={images[1].src} srcset={images[1].srcset} sizes="(max-width:760px) 90vw, 65vw" alt={images[1].caption} width={images[1].width} height={images[1].height} loading="lazy"/></a><figcaption>{images[1].caption}</figcaption></figure></section>
+ <section class="mo-wrap mo-pair reading-section" id="section-2" aria-label="Photographs from the outing">{[images[3],images[2]].map(photo=><figure data-image-origin="source-photo"><a class="static-photo"><img src={photo.src} srcset={photo.srcset} sizes="(max-width:760px) 90vw, 52vw" alt={photo.caption} width={photo.width} height={photo.height} loading="lazy"/></a><figcaption>{photo.caption}</figcaption></figure>)}</section>
+ <section class="mo-wrap reading-related" aria-label="Related company information">
+  <nav class="mo-news" aria-labelledby="more-news-title"><h2 id="more-news-title">More company news</h2>{relatedNews.map(item=><a href={'/about/company-news/'+item.slug+'/'}><time datetime={item.eventDate}>{item.eventDateLabel}</time><span>{item.title}</span></a>)}</nav>
+ </section>
+ <CompanyPageFooter/>
+</article>

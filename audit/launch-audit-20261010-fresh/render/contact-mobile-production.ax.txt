@@ -1,0 +1,80 @@
+Browser tab: 1, Title: "Contact LZZ Precision | LZZ Precision", URL: "http://127.0.0.1:4326/contact/".
+1 AXWebArea Contact LZZ Precision | LZZ Precision, URL: 127.0.0.1:4326/contact/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/contact/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container main
+		8 container Breadcrumb
+			9 link Description: About LZZ, Value: 127.0.0.1:4326/about/
+			10 text /
+			11 text Contact Us
+		12 container
+			13 text CONTACT LZZ
+			14 heading Let's talk about your next part., Value: 1
+				15 text Let's talk about
+				16 text your next part.
+			17 text Contact us about custom CNC machining, supplier documents or a workshop visit.
+		18 container Contact details
+			19 heading Contact details, Value: 2, ID: contact-details-title
+				20 text Contact details
+			21 definition list
+				22 container Email
+					23 text Email
+				24 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+				25 container WhatsApp
+					26 text WhatsApp
+				27 link Description: +86 138 5810 2479, Value: wa.me/8613858102479
+				28 container Location & time zone
+					29 text Location & time zone
+				30 text Hangzhou, China · UTC+8
+		31 container Ready to request a quote?
+			32 heading Ready to request a quote?, Value: 2, ID: contact-rfq-title
+				33 text Ready to request a quote?
+			34 text Prepare your drawing, material and quantity so we can review your part and quote the scope.
+			35 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/
+			36 text Review the draft, attach your drawing in your email app, then send it to LZZ.
+			37 link Description: View the RFQ checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		38 container Find us in Hangzhou
+			39 heading Find us in Hangzhou, Value: 2, ID: contact-address-title
+				40 text Find us in Hangzhou
+			41 text Hangzhou Lizhizao Precision Machinery Co., Ltd.
+			42 container
+				43 text No. 4 Fengcheng Road
+				44 text Pingyao, Yuhang District
+				45 text Hangzhou, Zhejiang, China
+			46 text Contact us to arrange your workshop visit.
+			47 link Description: Explore our factory, Value: 127.0.0.1:4326/factory/
+	48 container
+		49 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		50 text Custom CNC machining
+		51 text in Hangzhou, China.
+		52 container Footer navigation
+			53 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			54 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			55 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			56 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			57 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			58 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			59 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			60 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			61 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			62 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		63 container Let’s talk, ID: contact
+			64 heading Let’s talk, Value: 2, ID: footer-talk-title
+				65 text Let’s talk
+			66 text Hangzhou, China · UTC+8
+			67 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			68 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		69 container Find us
+			70 heading Find us, Value: 2, ID: footer-find-title
+				71 text Find us
+			72 container
+				73 text No. 4 Fengcheng Road
+				74 text Pingyao, Yuhang District
+				75 text Hangzhou, Zhejiang, China
+		76 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		77 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea Contact LZZ Precision | LZZ Precision, URL: 127.0.0.1:4326/contact/

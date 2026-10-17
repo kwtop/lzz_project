@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "design_sha256": "c852f7b65c0f1b64956c377638c958cd6851d12741e240b7790c978e97be57ba",
+  "local_link_occurrences": 36,
+  "unique_local_targets": 29,
+  "archived_images": 25,
+  "selected_unique_sources": 5,
+  "all_image_sources_and_copies_verified": true,
+  "protected_files": 2084,
+  "protected_added": [],
+  "protected_removed": [],
+  "protected_changed": [],
+  "errors": [],
+  "scope": "Document links, archived images, source-preservation hashes; not site acceptance.",
+  "final_document_link_checks": [
+    {
+      "file": "D:\\lzz\\lzz\\_react\\DESIGN.md",
+      "links": 36,
+      "unique_targets": 29,
+      "missing": []
+    },
+    {
+      "file": "D:\\lzz\\lzz\\_react\\docs\\design-spec-2026-10-13\\REVIEW.md",
+      "links": 5,
+      "unique_targets": 5,
+      "missing": []
+    }
+  ],
+  "source_check_stage": "Source and image preservation verified at v2.1; subsequent edits changed DESIGN.md and REVIEW.md only."
+}

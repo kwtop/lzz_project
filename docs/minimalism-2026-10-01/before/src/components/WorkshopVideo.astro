@@ -1,0 +1,14 @@
+---
+import media from '../data/additionalMedia.generated.json';
+interface Props {id:keyof typeof media.videos;title:string;description:string}
+const {id,title,description}=Astro.props;
+const video=media.videos[id];
+---
+<section class="workshop-video" id={'video-'+id} aria-labelledby={'video-title-'+id}>
+ <div><h2 id={'video-title-'+id}>{title}</h2><p id={'video-description-'+id}>{description}</p><p class="clip-detail">{Math.round(video.duration)}-second original clip</p></div>
+ <figure><video controls playsinline muted preload="none" poster={video.poster} width={video.width} height={video.height} aria-label={title} aria-describedby={'video-description-'+id}><source src={video.src} type="video/mp4"/>Your browser does not support this video. <a href={video.src}>Open the video</a>.</video><figcaption>Select play to view the original footage.</figcaption></figure>
+</section>
+<style>
+ .workshop-video{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,360px);gap:48px;align-items:start;padding-block:40px;border-block:1px solid var(--border);margin-bottom:40px}.workshop-video h2{font-size:clamp(27px,3vw,36px);line-height:1.2}.workshop-video p{max-width:64ch;font-size:17px;line-height:1.75;margin-top:20px}.workshop-video .clip-detail{font-size:14px;color:var(--muted)}.workshop-video figure{margin:0;min-width:0}.workshop-video video{display:block;width:100%;height:auto;max-height:620px;background:#171b1e;object-fit:contain}.workshop-video figcaption{font-size:14px;color:var(--muted);line-height:1.6;margin-top:12px}
+ @media(max-width:760px){.workshop-video{grid-template-columns:1fr;gap:24px;padding-block:28px}.workshop-video figure{width:min(100%,360px);margin-inline:auto}.workshop-video p{font-size:16px}}
+</style>

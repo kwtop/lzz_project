@@ -1,0 +1,82 @@
+/* Shared closing inquiry panel: selected gray, rounded design, October 2026. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section {
+ width:calc(100% - 96px);max-width:1280px;margin:56px auto 64px;padding:0;
+ background:transparent;border:0;box-shadow:none;scroll-margin-top:100px;
+ container-type:inline-size;container-name:rfq-shell;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-contained {width:100%;max-width:none;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-panel {
+ display:grid;grid-template-columns:minmax(0,1.78fr) minmax(0,1fr);align-items:center;
+ gap:32px 76px;padding:66px 112px;background:#f0f1f2;color:#17191b;
+ border:0;border-radius:26px;box-shadow:none;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-copy,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-action {min-width:0;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-panel h2 {
+ max-width:19ch;margin:0;padding:0;font-family:var(--font-text,Arial,sans-serif)!important;
+ font-size:clamp(40px,4.4vw,62px)!important;font-weight:700!important;line-height:1.08!important;
+ letter-spacing:-.01em!important;text-wrap:pretty;color:#17191b;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section p {
+ padding:0;font-family:var(--font-text,Arial,sans-serif)!important;font-weight:400!important;letter-spacing:-.01em!important;
+ color:#616a74;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-description {
+ max-width:42ch;margin:18px 0 0;font-size:24px!important;line-height:1.45!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button {
+ display:flex;align-items:center;justify-content:center;gap:22px;width:100%;min-height:68px;
+ margin:0;padding:17px 30px;background:#d71019;color:#fff;border:0;border-radius:6px;
+ font-family:var(--font-text,Arial,sans-serif)!important;font-size:24px!important;font-weight:600!important;
+ line-height:1.35!important;letter-spacing:-.02em!important;text-decoration:none!important;
+ box-shadow:none;transition:background-color .16s ease;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button svg {flex:none;width:26px;height:26px;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button span {white-space:nowrap;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button::after {content:none!important;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button:hover {background:#b90d15;color:#fff;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button:focus-visible {outline:3px solid #17191b;outline-offset:5px;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-note {
+ max-width:36ch;margin:20px 0 0;font-size:20px!important;line-height:1.45!important;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-details {grid-column:1/-1;border-top:1px solid #d4d8dc;padding-top:28px;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-details dl {display:flex;flex-wrap:wrap;gap:24px 60px;margin:0;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-details dt {font-size:15px!important;color:#616a74;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-details dd {font-size:22px!important;margin:4px 0 0;font-weight:600;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-details p {font-size:16px!important;line-height:1.6!important;margin:16px 0 0;max-width:75ch;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact {margin-block:0;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact .rfq-panel {grid-template-columns:1fr;padding:36px;gap:28px;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact .rfq-panel h2 {font-size:36px!important;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact .rfq-description {font-size:18px!important;}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact .rfq-note {font-size:16px!important;}
+@media(max-width:1200px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-panel {padding:52px 56px;gap:32px 44px;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-description {font-size:20px!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button {font-size:18px!important;padding:16px 22px;min-height:58px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-note {font-size:17px!important;}
+}
+@media(max-width:800px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section {width:calc(100% - 44px);margin-block:40px 48px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-panel {grid-template-columns:1fr;padding:36px 28px;gap:30px;border-radius:22px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section h2,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact .rfq-panel h2 {font-size:36px!important;line-height:1.12!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-description {font-size:18px!important;margin-top:16px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button {font-size:18px!important;min-height:56px;padding:16px 20px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-note {font-size:16px!important;margin-top:16px;max-width:38ch;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section.rfq-compact .rfq-panel {padding:32px 24px;}
+}
+@media(prefers-reduced-motion:reduce) {body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button {transition:none;}}
+@container rfq-shell (min-width:681px) and (max-width:1100px) {
+ .rfq-section .rfq-panel {padding:52px 56px!important;gap:32px 44px!important;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-panel h2 {font-size:44px!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-description {font-size:20px!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button {font-size:18px!important;padding:16px 22px;min-height:58px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-note {font-size:17px!important;}
+}
+@container rfq-shell (max-width:680px) {
+ .rfq-section .rfq-panel {grid-template-columns:1fr!important;padding:36px 28px!important;gap:30px!important;border-radius:22px!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-panel h2 {font-size:36px!important;line-height:1.12!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-description {font-size:18px!important;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-button {font-size:18px!important;min-height:56px;padding:16px 20px;}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .rfq-section .rfq-note {font-size:16px!important;}
+}

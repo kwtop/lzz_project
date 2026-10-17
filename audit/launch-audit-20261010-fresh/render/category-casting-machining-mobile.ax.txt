@@ -1,0 +1,110 @@
+Browser tab: 1, Title: "Casting Machining | LZZ Precision", URL: "http://127.0.0.1:4326/capabilities/casting-machining/".
+1 AXWebArea Casting Machining | LZZ Precision, URL: 127.0.0.1:4326/capabilities/casting-machining/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/capabilities/casting-machining/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container
+		8 container Breadcrumb
+			9 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			10 text Casting machining
+		11 heading Finished interfaces for cast components, Value: 1
+			12 text Finished interfaces for cast components
+		13 text Machining cast housings, transmission components and pump bodies. Send the casting specification along with the finished-part drawing.
+		14 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F
+		15 container
+			16 link Description: View Transmission housings & pump bodies, Value: 127.0.0.1:4326/products/custom-cnc-machined-castings-transmission-housings-pump-bodies/
+			17 text Transmission housings & pump bodies
+		18 container engineering-fit
+			19 heading Finish machining for cast blanks, Value: 2
+				20 text Finish machining for cast blanks
+			21 text The casting and finished-part drawings must show what remains as cast and where material is removed. Confirm blank supply and acceptance before planning the machining work.
+			22 definition list
+				23 container Geometry & process
+					24 text Geometry & process
+				25 text For adding finished bores, mounting faces, threads and passages to cast blanks. Milling, boring, drilling and tapping address transmission housings, pump bodies and structural enclosures. Reverse engineering support includes sample scanning, 2D/3D model reconstruction and manufacturability review.
+				26 container Size & workholding
+					27 text Size & workholding
+				28 text Share the blank model or photos, overall dimensions and casting and finished-part drawings. Fixtures for irregular blanks use casting datums, stock allowance and accessible clamping positions. Identify who supplies and approves the casting.
+				29 container Material & finish
+					30 text Material & finish
+				31 text Specify the casting alloy and condition. Distinguish as-cast surfaces from machined faces and identify the required finish on the finished interfaces. These machining examples do not establish an in-house foundry service.
+			32 button (collapsed) Turn a cast blank into controlled interfaces, Secondary Actions: Expand
+				33 text Turn a cast blank into controlled interfaces
+		34 container part-examples
+			35 heading More part examples, Value: 2
+				36 text More part examples
+			37 link Description: Browse all parts, Value: 127.0.0.1:4326/products/
+			38 link Description: Cast housings & structural enclosures Cast housings & structural enclosures, Value: 127.0.0.1:4326/products/oem-precision-cnc-machined-casting-housing-structural-enclosures/
+			39 link Description: Cast housings CNC-machined casting housings, Value: 127.0.0.1:4326/products/oem-precision-cnc-machined-casting-housings/
+		40 container capability-scope
+			41 heading Drawing & acceptance, Value: 2
+				42 text Drawing & acceptance
+			43 heading Drawing requirements, Value: 3
+				44 text Drawing requirements
+			45 text Distinguish as-cast surfaces from machined faces. Supply casting and finished-part drawings with machining allowance and datum targets.
+			46 text Identify bearing bores, seal lands and mounting interfaces whose alignment depends on the blank and fixture locations.
+			47 container inspection
+				48 heading Inspection and acceptance, Value: 3
+					49 text Inspection and acceptance
+				50 text Agree incoming-blank acceptance, material documentation and dimensional checks on the finished interfaces.
+				51 text Specify any porosity, pressure-integrity or non-destructive examination separately. Agree who is responsible and the acceptance criteria.
+				52 text Agree the measurement method and required records before production.
+			53 container Inspection and order information
+				54 link Description: Quality & inspection, Value: 127.0.0.1:4326/quality/
+				55 button (collapsed) Equipment and order records, Secondary Actions: Expand
+					56 text Equipment and order records
+		57 container enquiry
+			58 heading Prepare your casting machining enquiry, Value: 2
+				59 text Prepare your casting machining enquiry
+			60 text Share blank photos or models, alloy and condition, available stock allowance and the number of castings available.
+			61 text Identify responsibility for casting supply, rejected blanks and any sample-based reconstruction; a photo is insufficient to define internal geometry.
+			62 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=Casting+machining&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F
+			63 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+			64 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		65 container Description: Useful engineering resources, ID: related-resources
+			66 heading Related resources, Value: 3
+				67 text Related resources
+			68 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+			69 link Description: Choose a machining process, Value: 127.0.0.1:4326/resources/cnc-process-selection/
+			70 button (collapsed) More engineering resources, Secondary Actions: Expand
+				71 text More engineering resources
+		72 container Related capabilities
+			73 heading Related machining processes, Value: 2
+				74 text Related machining processes
+			75 link Description: CNC milling, Value: 127.0.0.1:4326/capabilities/cnc-milling-service/
+			76 link Description: CNC turning, Value: 127.0.0.1:4326/capabilities/cnc-turning-service/
+			77 link Description: 5-axis machining, Value: 127.0.0.1:4326/capabilities/5-axis-cnc-machining/
+	78 container
+		79 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		80 text Custom CNC machining
+		81 text in Hangzhou, China.
+		82 container Footer navigation
+			83 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			84 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			85 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			86 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			87 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			88 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			89 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			90 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			91 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			92 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		93 container Let’s talk, ID: contact
+			94 heading Let’s talk, Value: 2, ID: footer-talk-title
+				95 text Let’s talk
+			96 text Hangzhou, China · UTC+8
+			97 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			98 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		99 container Find us
+			100 heading Find us, Value: 2, ID: footer-find-title
+				101 text Find us
+			102 container
+				103 text No. 4 Fengcheng Road
+				104 text Pingyao, Yuhang District
+				105 text Hangzhou, Zhejiang, China
+		106 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		107 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea Casting Machining | LZZ Precision, URL: 127.0.0.1:4326/capabilities/casting-machining/

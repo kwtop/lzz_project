@@ -1,0 +1,28 @@
+Browser tab: 1, Title: "Machined impellers | LZZ Precision", URL: "http://127.0.0.1:4326/products/ultra-high-precision-machining-services/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~1 AXWebArea Machined impellers | LZZ Precision, URL: 127.0.0.1:4326/products/ultra-high-precision-machining-services/
+~	2 link Description: Skip to content, Value: 127.0.0.1:4326/products/ultra-high-precision-machining-services/#main
+~			13 text Machined impellers
+~		14 heading Machined impellers, Value: 1
+~			15 text Machined impellers
+~		16 text Contoured blades · pockets & complex surfaces
+~				23 text Contoured blades, deep pockets and complex multi-axis geometry.
+~				26 text titanium, Inconel and hardened stainless steel. Confirm the grade for your part.
+~				29 text The model defines blade profiles and root transitions relative to the datum axis. State material condition and inspection criteria on the drawing.
+~		30 link Description: View full-size image: Machined impellers, Value: 127.0.0.1:4326/media/responsive/catalog-02-cutout-v1-1200.webp
+~			32 link Description: 01 Part requirements, Value: 127.0.0.1:4326/products/ultra-high-precision-machining-services/#fit-review
+~			33 link Description: 02 Material & finish, Value: 127.0.0.1:4326/products/ultra-high-precision-machining-services/#part-information
+~			34 link Description: 03 Drawing review, Value: 127.0.0.1:4326/products/ultra-high-precision-machining-services/#drawing-review
+~			36 heading Blade profiles and the datum axis, Value: 2
+~				37 text Blade profiles and the datum axis
+~			38 text Impellers and complex housings with curved surfaces and internal features.
+~			39 link Description: Request a quote, Value: 127.0.0.1:4326/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F
+~				47 text Material options: titanium, Inconel and hardened stainless steel. Confirm the grade for your part.
+~				50 text Continuous 5-axis machining for curved surfaces and deep cavities with fewer setups.
+~				53 text Lapping, polishing and specialized coating options, subject to the part requirements.
+~				64 text Identify blade profiles, root transitions and the datum axis. Mark thin sections and tool-access restrictions.
+~				73 text Agree the profiles to measure and any separate balance or rotating-assembly tests.
+~			74 link Description: Prepare an RFQ email, Value: 127.0.0.1:4326/quote/?part=Machined+impellers&product=ultra-high-precision-machining-services&source=%2Fproducts%2Fultra-high-precision-machining-services%2F
+~				83 link Description: Turbine & fluid-system components Contours combined with ports and sealing interfaces. Flow or balance tests need separate criteria., Value: 127.0.0.1:4326/products/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/
+~				84 link Description: Multi-bore components Stepped bores, face-hole positions and circular-face relationships., Value: 127.0.0.1:4326/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+The focused UI element is 1 AXWebArea Machined impellers | LZZ Precision, URL: 127.0.0.1:4326/products/ultra-high-precision-machining-services/

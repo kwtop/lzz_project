@@ -1,0 +1,137 @@
+---
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import '../styles/inner-refined.css';
+import '../styles/secondary-actions.css';
+import '../styles/brand-system.css';
+import '../styles/navigation.css';
+import MainNavigation from '../components/MainNavigation.astro';
+import '../styles/image-refinement.css';
+import '../styles/ui-refinement.css';
+import '../styles/link-refinement.css';
+import '../styles/footer-navigation.css';
+import Arrow from '../components/Arrow.astro';
+import ContactIcon from '../components/ContactIcon.astro';
+import {siteOrigin,pageDescriptions} from '../data/seo';
+import {categoryDetails} from '../data/presentation';
+const {
+ title='Custom CNC machining in Hangzhou',
+ description=pageDescriptions[Astro.url.pathname] || categoryDetails[Astro.url.pathname.split('/')[2]]?.description || 'Discuss your custom CNC machining requirements with LZZ Precision in Hangzhou.',
+ cta=true, immersive=false,
+ closingTitle='Have a part in mind?',
+ closingDescription='Send your drawing to discuss machining, cost and lead time.',
+ closingHref='/quote/',closingLabel='Discuss your part',
+}=Astro.props;
+const sectionCrumbs:[string,string,string][]=[
+ ['/capabilities/','Capabilities','/capabilities/'],
+ ['/products/','Part Examples','/products/'],
+ ['/cases/','Process Studies','/cases/'],
+ ['/insights/','Resources','/insights/'],
+];
+const footerResources=[
+ {label:'RFQ Checklist',href:'/insights/rfq-checklist/'},
+ {label:'Process Comparison',href:'/insights/cnc-process-selection/'},
+ {label:'How to Order',href:'/insights/how-we-work/'},
+ {label:'Shipment Planning',href:'/insights/custom-cnc-parts-shipping-checklist/'},
+];
+const canonical=new URL(Astro.url.pathname,siteOrigin).href;
+const noindex=Astro.props.noindex || Astro.url.pathname==='/404.html' || Astro.url.pathname==='/404/';
+const socialImage=new URL('/media/evidence/workshop-wide-1600.webp',siteOrigin).href;
+const parent=sectionCrumbs.find(([prefix,,href])=>Astro.url.pathname.startsWith(prefix)&&Astro.url.pathname!==href);
+const crumbs=[{name:'Home',item:siteOrigin+'/'}];
+if(parent)crumbs.push({name:parent[1],item:siteOrigin+parent[2]});
+if(Astro.url.pathname!=='/')crumbs.push({name:title,item:canonical});
+const structured={'@context':'https://schema.org','@graph':[
+ {'@type':'Organization','@id':siteOrigin+'/#organization',name:'Hangzhou Lizhizao Precision Machinery Co., Ltd.',alternateName:'LZZ Precision',url:siteOrigin+'/',logo:new URL('/media/lzz-logo.png',siteOrigin).href,email:'roger@lzz-cnc.com',telephone:'+86 138 5810 2479',address:{'@type':'PostalAddress',streetAddress:'No. 4 Fengcheng Road',addressLocality:'Pingyao, Yuhang District, Hangzhou',addressRegion:'Zhejiang',addressCountry:'CN'}},
+ {'@type':'WebSite','@id':siteOrigin+'/#website',url:siteOrigin+'/',name:'LZZ Precision',publisher:{'@id':siteOrigin+'/#organization'},inLanguage:'en'},
+ {'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,isPartOf:{'@id':siteOrigin+'/#website'},inLanguage:'en'},
+ ...(crumbs.length>1?[{'@type':'BreadcrumbList',itemListElement:crumbs.map((crumb,index)=>({'@type':'ListItem',position:index+1,...crumb}))}]:[]),
+ ...(Astro.props.article?[{'@type':'Article',headline:title,description,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':siteOrigin+'/#organization'},...(Astro.props.articleImage?{image:new URL(Astro.props.articleImage,siteOrigin).href}:{})}]:[])
+]};
+---
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{title} | LZZ Precision</title><meta name="description" content={description}/>
+  {!noindex&&<link rel="canonical" href={canonical}/>}
+  {noindex&&<meta name="robots" content="noindex, follow"/>}
+  <meta name="theme-color" content="#171b1e"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=lzz-blue"/>
+  <meta property="og:title" content={title+' | LZZ Precision'}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
+  <meta property="og:url" content={canonical}/><meta property="og:image" content={socialImage}/><meta property="og:image:alt" content="Original LZZ workshop photograph in Hangzhou"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>
+ </head>
+ <body class:list={['brand-site',{'home-refined':immersive,'task-pages':/^\/(products|capabilities|factory|quote)(\/|$)/.test(Astro.url.pathname)}]}>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+   <div class="header-inner">
+    <a href="/" class="brand" aria-label="LZZ Precision home"><img class="brand-logo" src="/media/lzz-logo.png" alt="LZZ" width="108" height="60"/></a>
+    <MainNavigation/>
+    <a class="button header-quote" href="/quote/">Get a quote <Arrow/></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+   </div>
+  </header>
+  <main id="main"><slot/></main>
+  {cta&&<section class="closing"><div class="container closing-inner"><div><h2>{closingTitle}</h2><p>{closingDescription}</p></div><div class="closing-actions"><a class="button" href={closingHref}>{closingLabel} <Arrow/></a><a class="closing-email contact-link" href="mailto:roger@lzz-cnc.com"><ContactIcon/><span>roger@lzz-cnc.com</span></a></div></div></section>}
+  <footer>
+   <div class="container">
+    <div class="footer-main">
+     <div class="footer-brand"><a href="/" class="brand" aria-label="LZZ Precision home"><img class="brand-logo footer-logo" src="/media/lzz-logo.png" alt="LZZ" width="108" height="60"/></a><p>Custom CNC machining<br/>in Hangzhou, China.</p></div>
+     <nav class="footer-navigation" aria-label="Footer navigation">
+     <div class="footer-column footer-link-group footer-explore">
+      <h2>Explore</h2>
+       <ul class="footer-link-list"><li><a href="/capabilities/">Capabilities</a></li><li><a href="/products/">Part Examples</a></li></ul>
+      </div>
+      <div class="footer-column footer-link-group">
+       <h2>Factory &amp; Quality</h2>
+       <ul class="footer-link-list"><li><a href="/factory/">Our Factory</a></li><li><a href="/quality/">Quality Control</a></li><li><a href="/cases/">Workshop Process Studies</a></li></ul>
+      </div>
+      <div class="footer-column footer-link-group">
+       <h2><a href="/insights/">Resources</a></h2>
+       <ul class="footer-link-list">{footerResources.map((link)=><li><a href={link.href}>{link.label}</a></li>)}</ul>
+       <a class="footer-company-link" href="/about/">About LZZ</a>
+      </div>
+     </nav>
+     <div class="footer-contact">
+      <section class="footer-column footer-talk" aria-labelledby="footer-talk-title">
+       <h2 id="footer-talk-title">Let’s talk</h2>
+       <a href="mailto:roger@lzz-cnc.com">roger@lzz-cnc.com</a>
+       <a href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer">WhatsApp<br/>+86 138 5810 2479</a>
+      </section>
+      <section class="footer-column footer-find" aria-labelledby="footer-find-title">
+       <h2 id="footer-find-title">Find us</h2>
+       <p>No. 4 Fengcheng Road<br/>Pingyao, Yuhang District<br/>Hangzhou, Zhejiang, China</p>
+      </section>
+     </div>
+    </div>
+    <div class="footer-bottom"><span>© {new Date().getFullYear()} Hangzhou Lizhizao Precision Machinery Co., Ltd.</span><a href="/privacy/">Privacy & site information</a></div>
+   </div>
+  </footer>
+  <script>
+   import '../scripts/site-motion';
+   const toggle=document.querySelector<HTMLButtonElement>('.menu-toggle');
+   const header=document.querySelector('.site-header');
+   const setMenu=(open:boolean)=>{toggle?.setAttribute('aria-expanded',String(open));toggle?.setAttribute('aria-label',open?'Close navigation':'Open navigation');header?.classList.toggle('menu-open',open);};
+   toggle?.addEventListener('click',()=>setMenu(toggle.getAttribute('aria-expanded')!=='true'));
+   document.addEventListener('keydown',event=>{if(event.key==='Escape')setMenu(false);});
+   document.addEventListener('click',event=>{if(event.target instanceof Node&&!header?.contains(event.target))setMenu(false);});
+   matchMedia('(min-width: 961px)').addEventListener('change',event=>{if(event.matches)setMenu(false);});
+  </script>
+ </body>
+</html>
+<style is:global>
+ .brand-site a.contact-link{display:flex;align-items:center;gap:10px;width:fit-content;max-width:100%;min-height:44px;border:0}
+ .brand-site .contact-link .contact-icon{flex-shrink:0}
+ .brand-site .contact-link .whatsapp-icon{color:#25d366}
+ .brand-site .contact-link span{overflow-wrap:anywhere}
+ .brand-site .contact-link:hover span{text-decoration:underline;text-underline-offset:4px}
+ @media(min-width:761px) and (max-width:960px){
+  .brand-site .site-header nav{display:none;position:absolute;top:100px;left:0;right:0;background:var(--ink);padding:20px 35px 30px;border-bottom:1px solid #ffffff30;box-shadow:0 12px 20px #0002}
+  .brand-site .site-header nav a{display:block;font-size:17px;padding:13px 0}
+  .brand-site .site-header.menu-open nav{display:block}
+  .brand-site .menu-toggle{display:block}
+  .brand-site .header-quote{margin-left:auto}
+ }
+ .company-text p a,.principle-list p a,.section-intro a,.quote-support-note a{text-decoration:underline;text-underline-offset:3px}
+</style>

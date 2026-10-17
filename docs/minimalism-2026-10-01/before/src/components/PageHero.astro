@@ -1,0 +1,26 @@
+---
+interface Props {
+ lines: string[]; description?: string; image?: string; imageAlt?: string; imageClass?: string; imageCaption?: string; imageSrcset?: string;
+ parent?: {label: string; href: string}; action?: {label: string; href: string}; secondaryAction?: {label: string; href: string}; variant?: string;
+}
+import {refinedSrcset} from '../data/refinedImages';
+import {evidence} from '../data/evidence';
+import Arrow from './Arrow.astro';
+import {responsiveImage} from '../data/responsiveImages';
+const {lines,description,image,imageAlt='',imageClass='',imageCaption,imageSrcset,parent,action,secondaryAction,variant=''}=Astro.props;
+const equipmentImage = image && /\/(workshop-retouched-v2|workshop-equipment-v1|turning-equipment-v1|five-axis-equipment-v1)\.webp$/.test(image);
+const refinedImage = image?.match(/\/((?:(?:company-parts-retouched|rfq-planning-ai)-v2|(?:factory-building|workshop-floor|milling-process|turning-process|five-axis-process|cmm-inspection)-ai-v3))\.webp$/)?.[1];
+const evidenceImage=Object.values(evidence).find(item=>item.src===image);
+const displayImage=image?responsiveImage(image):undefined;
+const responsiveSrcset = displayImage?.srcset || imageSrcset || evidenceImage?.srcset || (refinedImage ? refinedSrcset(refinedImage) : equipmentImage ? `${image!.replace('.webp','-720.webp')} 720w, ${image} 1440w` : undefined);
+---
+<section class:list={['page-banner',variant,{'has-image':!!image}]}>
+ <div class="container page-banner-inner">
+  <div class="page-banner-copy">
+   {parent && <nav class="breadcrumbs" aria-label="Breadcrumb"><a href={parent.href}>{parent.label}</a><span>/</span><span>{lines.join(' ')}</span></nav>}
+   <h1>{lines.map((line,i)=><>{i>0&&<br/>}{line}</>)}</h1>{description&&<p>{description}</p>}
+   {secondaryAction?<div class="page-banner-actions">{action&&<a class="button" href={action.href}>{action.label}<Arrow/></a>}<a class="page-banner-secondary" href={secondaryAction.href}>{secondaryAction.label}<Arrow size={18}/></a></div>:action&&<a class="button" href={action.href}>{action.label}<Arrow/></a>}
+  </div>
+  {image&&<figure class="page-banner-figure" data-image-origin={evidenceImage?'original-photo':undefined}><div class:list={['page-banner-image',imageClass]}><img src={image} srcset={responsiveSrcset} sizes={responsiveSrcset?'(max-width:760px) calc(100vw - 34px), 48vw':undefined} alt={imageAlt} width={displayImage?.width||700} height={displayImage?.height||500} fetchpriority="high"/></div>{imageCaption&&<figcaption>{imageCaption}</figcaption>}</figure>}
+ </div>
+</section>

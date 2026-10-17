@@ -1,0 +1,22 @@
+---
+import {revisedCapability,processSlugs,materialSlugs} from '../data/capabilityRedesign';
+import CapabilityProcessPage from './CapabilityProcessPage.astro';
+import CapabilityCastingPage from './CapabilityCastingPage.astro';
+import CapabilityMillingPage from './CapabilityMillingPage.astro';
+import CapabilityTurningPage from './CapabilityTurningPage.astro';
+import CapabilityPlasticPage from './CapabilityPlasticPage.astro';
+import CapabilityAluminumPage from './CapabilityAluminumPage.astro';
+import CapabilityStainlessPage from './CapabilityStainlessPage.astro';
+import CapabilityMaterialPage from './CapabilityMaterialPage.astro';
+import CapabilityPrototypePage from './CapabilityPrototypePage.astro';
+import CapabilityBatchPage from './CapabilityBatchPage.astro';
+import CapabilitySamplePage from './CapabilitySamplePage.astro';
+import '../styles/capability-redesign.css';
+import '../styles/capability-constitution.css';
+interface Props {slug:string;quoteHref:string}
+const {slug,quoteHref}=Astro.props;
+const page=revisedCapability(slug);
+---
+<article class:list={['rd-wrap','rd-page','cx-page','cx-page--'+slug]} data-capability={slug}>
+ {slug==='casting-machining'?<CapabilityCastingPage page={page} quoteHref={quoteHref}/>:slug==='cnc-milling-service'?<CapabilityMillingPage page={page} quoteHref={quoteHref}/>:slug==='cnc-turning-service'?<CapabilityTurningPage page={page} quoteHref={quoteHref}/>:slug==='plastic-machined-parts'?<CapabilityPlasticPage page={page} quoteHref={quoteHref}/>:slug==='aluminum-cnc-parts'?<CapabilityAluminumPage page={page} quoteHref={quoteHref}/>:slug==='stainless-steel-cnc-parts'?<CapabilityStainlessPage page={page} quoteHref={quoteHref}/>:processSlugs.includes(slug)?<CapabilityProcessPage page={page} quoteHref={quoteHref}/>:materialSlugs.includes(slug)?<CapabilityMaterialPage page={page} quoteHref={quoteHref}/>:slug==='prototype-machining'?<CapabilityPrototypePage page={page} quoteHref={quoteHref}/>:slug==='low-volume-production'?<CapabilityBatchPage page={page} quoteHref={quoteHref}/>:<CapabilitySamplePage page={page} quoteHref={quoteHref}/>}
+</article>

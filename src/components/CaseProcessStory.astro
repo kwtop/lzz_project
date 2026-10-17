@@ -1,0 +1,61 @@
+---
+import type {EngineeringCase} from '../data/cases';
+import {caseReading} from '../data/caseReading';
+import {caseStories} from '../data/caseStories';
+import {studyChecks} from '../data/studyEditorial';
+import {categoryDetails} from '../data/presentation';
+import {photo} from '../data/evidence';
+import EvidenceImage from './EvidenceImage.astro';
+import CaseStoryImage from './CaseStoryImage.astro';
+import WorkshopVideo from './WorkshopVideo.astro';
+import RfqPanel from './RfqPanel.astro';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import '../styles/turning-capability.css';
+import '../styles/case-process-story.css';
+interface Props {item:EngineeringCase;quoteHref:string}
+const {item,quoteHref}=Astro.props;
+const story=caseStories[item.slug],plan=caseReading[item.slug];
+const twoSetup=item.slug==='two-stage-cnc-milling';
+const isDisplay=item.slug==='29-inch-display-housing-cnc-machining';
+const processIds=twoSetup?item.photos:[item.hero];
+const partId=twoSetup?undefined:isDisplay?'display-housing-pair':item.photos[1];
+const questions=plan.questions;
+---
+<article class="tc-page cs-page" data-case={item.slug}>
+ <DisclosureAnchors/>
+ <div class="tc-wrap">
+  
+  <section class="cs-hero" aria-labelledby="case-title">
+   <header><p class="cs-eyebrow">Machining study · {item.process}</p><h1 id="case-title">{story.title}</h1><p class="cs-lead">{story.summary}</p><nav class="cs-jump" aria-label="Read this study"><a class="tc-secondary" href="#machining-setup">Machining process</a><a class="tc-secondary" href="#inspection-planning">Drawing & inspection</a></nav></header>
+   {story.hero?<CaseStoryImage stem={story.hero} alt={story.heroAlt!} caption="Part-form illustration based on workshop references. AI-generated; not a dimensional reconstruction." eager/>:<figure class="cs-source cs-hero-source" data-image-origin="source-photo"><EvidenceImage id={item.photos[0]} loading="eager" sizes="(max-width:760px) calc(100vw - 44px), 46vw"/><figcaption>{photo(item.photos[0]).caption}</figcaption></figure>}
+  </section>
+  <section class="tc-section" id="component" aria-labelledby="case-part-title">
+   <span id="study-0"/><span id="technical-points"/>
+   <header class="tc-section-head"><h2 id="case-part-title">{story.featureHeading}</h2><p>{story.answer}</p></header>
+   <div class:list={['cs-features',{'cs-features-with-image':!!story.diagram}]}>
+    {story.diagram&&<CaseStoryImage {...story.diagram}/>}
+    <div class="cs-feature-points">{plan.technical.map((point,i)=><div><span class="tc-number" aria-hidden="true">0{i+1}</span><h3>{point.title}</h3><p>{point.text}</p></div>)}</div>
+   </div>
+  </section>
+  <section class="tc-section" id="machining-setup" aria-labelledby="case-process-title">
+   <span id="study-1"/>
+   <header class="tc-section-head"><h2 id="case-process-title">From the first features to final inspection</h2><p>{item.setup}</p></header>
+   <ol class="cs-sequence">{plan.steps.map((step,i)=><li><span class="tc-number" aria-hidden="true">0{i+1}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
+   <div class:list={['cs-workshop',{'cs-workshop-pair':twoSetup}]}>
+    <div class="cs-process-images">{processIds.map((id,i)=><figure class="cs-source" data-image-origin="source-photo"><EvidenceImage id={id} sizes="(max-width:760px) calc(100vw - 44px), 50vw"/><figcaption>{twoSetup?(i===0?'First setup — the initial holding orientation.':'Second setup — access to another face.'):photo(id).caption}</figcaption></figure>)}</div>
+    <div class="cs-photo-context"><p class="cs-eyebrow">Workshop photographs</p><h3>What the original views show</h3><p>{story.processContext}</p>
+     {partId&&<details class="cs-original"><summary>{isDisplay?'View the original housing faces':'View the original part photograph'}</summary><figure class="cs-source cs-part-source" data-image-origin="source-photo"><EvidenceImage id={partId} sizes="(max-width:760px) calc(100vw - 44px), 360px"/><figcaption>{photo(partId).caption}</figcaption></figure></details>}
+    </div>
+   </div>
+   {item.video&&<div class="cs-video"><WorkshopVideo id={item.video} title="The display housing in the workshop" description="Original views of the machined panel and CNC setup." headingLevel="h3"/></div>}
+  </section>
+  <section class="tc-section" id="inspection-planning" aria-labelledby="case-inspection-title">
+   <span id="study-2"/><span id="study-3"/>
+   <header class="tc-section-head"><h2 id="case-inspection-title">Drawing & inspection requirements</h2><p>{item.inspection}</p></header>
+   <table class="tc-checks"><caption class="cs-table-caption">Specify the feature, its drawing requirement and the acceptance check together.</caption><thead><tr><th scope="col">Feature</th><th scope="col">Define on the drawing</th><th scope="col">Agree for inspection</th></tr></thead><tbody>{studyChecks[item.slug].map(([feature,drawing,inspection])=><tr><th scope="row">{feature}</th><td data-label="Define on the drawing">{drawing}</td><td data-label="Agree for inspection">{inspection}</td></tr>)}</tbody></table>
+   <p class="cs-note">Agree the measurement method, final surface condition, sampling and report format before production. These are planning requirements, not measured results for the pictured parts.</p>
+  </section>
+  <section class="tc-section tc-faq" id="questions" aria-labelledby="case-faq-title"><h2 id="case-faq-title">Questions about a similar part</h2><div>{questions.map(entry=><section><h3>{entry.question}</h3><p>{entry.answer}</p></section>)}</div></section>
+  <RfqPanel id="drawing-review" title="Discuss a similar part" description="Send your drawing, material and quantity. Mark the features that control fit and acceptance." href={quoteHref} contained><div slot="details"><h3>Include with your inquiry</h3><ul class="tc-rfq-checklist">{plan.rfq.map(text=><li>{text}</li>)}</ul><nav class="cs-guidance" aria-label="Guidance for a similar part"><a class="tc-secondary" href="/resources/technical-guides/critical-features-cnc-drawing/">Critical drawing features</a><a class="tc-secondary" href="/resources/ordering/machined-prototype-approval-checklist/">Sample acceptance checklist</a>{item.relatedCapabilities.map(slug=><a class="tc-secondary" href={'/capabilities/'+slug+'/'}>{categoryDetails[slug].title}</a>)}</nav></div></RfqPanel>
+ </div>
+</article>

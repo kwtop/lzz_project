@@ -1,0 +1,115 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "purpose": "Generic guide illustrations, not company records or inspection results.",
+  "assets": [
+    {
+      "name": "drawing-review-v1",
+      "prompt": "A believable engineering workbench seen at a low three-quarter angle: one modest machined aluminum rectangular housing with pocket and four fixing bores rests beside two sheets of fine outline technical drawings and a simple mechanical pencil. Drawing sheets use faint geometric lines but no readable dimension numbers, no brand, no text. Focus on the part and its relation to drawing. Pale neutral desk, soft daylight from a tall window, restrained natural metal, slight real tool marks, premium industrial editorial photography, no person, no computer screen, no dramatic lighting. Landscape 3:2 composition, whole main part visible, generous calm space, pale cool white tones. Generic illustrative scene, not a real company record.",
+      "generatedSource": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-b80c11f9-2eff-4139-b724-4800916577ca.png",
+      "master": "../../../_qa/content-editorial-20261013/generated/drawing-review-v1.png",
+      "widths": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "outputs": [
+        "../public/media/content-guides/drawing-review-v1-480.webp",
+        "../public/media/content-guides/drawing-review-v1-800.webp",
+        "../public/media/content-guides/drawing-review-v1-1200.webp",
+        "../public/media/content-guides/drawing-review-v1-1536.webp"
+      ]
+    },
+    {
+      "name": "materials-review-v1",
+      "prompt": "Editorial industrial still-life photograph for a CNC material-selection guide. Four distinct modest stock samples arranged with deliberate spacing on a pale matte workbench: a satin silver aluminum rectangular billet, a darker silver stainless steel short cylinder, a warm brass short bar, and a white engineering-polymer round rod. Nearby one small machined pocketed aluminum block. Realistic weight, understated natural surface imperfections, soft daylight and very subtle shadows. No labels, grades, writing, logos, no lab claims, no dramatic gloss. Landscape 3:2, balanced group occupies central 70%, whole objects visible. A plausible generic illustrative sample selection, not certified material evidence.",
+      "generatedSource": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-5b3cdeef-9d98-4264-b7a1-33ed510de083.png",
+      "master": "../../../_qa/content-editorial-20261013/generated/materials-review-v1.png",
+      "widths": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "outputs": [
+        "../public/media/content-guides/materials-review-v1-480.webp",
+        "../public/media/content-guides/materials-review-v1-800.webp",
+        "../public/media/content-guides/materials-review-v1-1200.webp",
+        "../public/media/content-guides/materials-review-v1-1536.webp"
+      ]
+    },
+    {
+      "name": "inspection-review-v1",
+      "prompt": "High-end documentary-style still life illustrating dimensional inspection planning. A small satin aluminum machined block with a circular bore and mounting holes on a clean pale workbench, an analog outside micrometer resting adjacent to its outside face and a plain unbranded gauge pin beside it. Mechanically believable tools, micrometer not floating and not awkwardly penetrating the part. Soft side daylight, real milling marks, neutral whites and silver, realistic gently used surfaces, no readable measurements, no screens, no logos, no person, no certificate or report. Landscape 3:2 framed close but complete objects. Generic educational illustration, not an actual inspection or acceptance result.",
+      "generatedSource": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-a9233f9a-72d6-44ca-bc7f-2a34cc71dbfe.png",
+      "master": "../../../_qa/content-editorial-20261013/generated/inspection-review-v1.png",
+      "widths": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "outputs": [
+        "../public/media/content-guides/inspection-review-v1-480.webp",
+        "../public/media/content-guides/inspection-review-v1-800.webp",
+        "../public/media/content-guides/inspection-review-v1-1200.webp",
+        "../public/media/content-guides/inspection-review-v1-1536.webp"
+      ]
+    },
+    {
+      "name": "packing-review-v1",
+      "prompt": "Realistic editorial photograph illustrating protection of precision CNC parts for shipping: an open plain corrugated carton with a carefully fitted charcoal foam insert containing three modest machined aluminum housings in separate cutouts; small threaded surfaces protected with simple blue caps. Full carton visible, open lid behind, a blank packing document partially visible on a pale clean table. No labels, addresses, logos or readable text. Natural daylight, soft shadows, honest material texture, no glossy luxury packaging, no warehouse claim or shipping-company branding. Landscape 3:2, spacious calm composition. Generic packing example, not a record of any real shipment.",
+      "generatedSource": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-11107535-dde8-4aab-ac52-1ff2ef4254d6.png",
+      "master": "../../../_qa/content-editorial-20261013/generated/packing-review-v1.png",
+      "widths": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "outputs": [
+        "../public/media/content-guides/packing-review-v1-480.webp",
+        "../public/media/content-guides/packing-review-v1-800.webp",
+        "../public/media/content-guides/packing-review-v1-1200.webp",
+        "../public/media/content-guides/packing-review-v1-1536.webp"
+      ]
+    },
+    {
+      "name": "sample-batch-review-v1",
+      "prompt": "Photorealistic industrial editorial still life showing transition from sample to repeat parts: at front left one small pocketed aluminum housing with four mounting bores, at rear right six matching housings in two neat rows on a clean pale workbench. Identical geometry and scale across all seven parts, realistic machined satin surfaces, subtle tooling marks, no extra shapes or impossible holes. Gentle daylight, softly blurred neutral studio background. Whole arrangement within frame, generous margins, landscape 3:2, no text or logos. Illustrative sample-and-repeat arrangement, not a documented customer batch or production-capacity claim.",
+      "generatedSource": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-9a267a31-7a77-4672-a83c-061c5325ac42.png",
+      "master": "../../../_qa/content-editorial-20261013/generated/sample-batch-review-v1.png",
+      "widths": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "outputs": [
+        "../public/media/content-guides/sample-batch-review-v1-480.webp",
+        "../public/media/content-guides/sample-batch-review-v1-800.webp",
+        "../public/media/content-guides/sample-batch-review-v1-1200.webp",
+        "../public/media/content-guides/sample-batch-review-v1-1536.webp"
+      ]
+    },
+    {
+      "name": "process-review-v1",
+      "prompt": "A realistic macro editorial photograph of CNC milling: modest end mill held vertically in a plain spindle holder just above a shallow pocket of a rectangular aluminum workpiece secured in a sensible machine vise. View clearly shows pocket wall, rounded inside corners and restrained small chips, cutter does not intersect impossible geometry. No coolant drama or sparks, no logos, no readable machine model, no worker. Bright neutral metallic machine interior, natural believable wear, soft directional industrial light, attractive clean silver-gray tones, landscape 3:2 with whole workpiece and sufficient fixture context. Generic process illustration, not a specific manufacturer's machine or tolerance evidence.",
+      "generatedSource": "C:/Users/Administrator/.codex/generated_images/01a12dd5-0c5a-7910-86ba-247cca059345/exec-dbe5cd92-0f95-44d0-bbbe-f249642812f9.png",
+      "master": "../../../_qa/content-editorial-20261013/generated/process-review-v1.png",
+      "widths": [
+        480,
+        800,
+        1200,
+        1536
+      ],
+      "outputs": [
+        "../public/media/content-guides/process-review-v1-480.webp",
+        "../public/media/content-guides/process-review-v1-800.webp",
+        "../public/media/content-guides/process-review-v1-1200.webp",
+        "../public/media/content-guides/process-review-v1-1536.webp"
+      ]
+    }
+  ]
+}

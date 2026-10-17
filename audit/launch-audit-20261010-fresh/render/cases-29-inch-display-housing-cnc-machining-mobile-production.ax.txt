@@ -1,0 +1,112 @@
+Browser tab: 1, Title: "CNC machining a 29-inch display housing | LZZ Precision", URL: "http://127.0.0.1:4326/cases/29-inch-display-housing-cnc-machining/".
+1 AXWebArea CNC machining a 29-inch display housing | LZZ Precision, URL: 127.0.0.1:4326/cases/29-inch-display-housing-cnc-machining/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/cases/29-inch-display-housing-cnc-machining/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container
+		8 container Breadcrumb
+			9 link Description: Home, Value: 127.0.0.1:4326/
+			10 link Description: / Custom Parts, Value: 127.0.0.1:4326/products/
+			11 link Description: / Machining Studies, Value: 127.0.0.1:4326/cases/
+		12 heading CNC machining a 29-inch display housing, Value: 1
+			13 text CNC machining a 29-inch display housing
+		14 text A broad display housing with recessed faces, edge details and mounting features.
+		15 button (collapsed) Study sections, Secondary Actions: Expand
+			16 text Study sections
+		17 text The photographs come from the LZZ workshop and show the part shapes and setups discussed here.
+		18 button (collapsed) Photography & project scope, Secondary Actions: Expand
+			19 text Photography & project scope
+		20 link Description: Discuss your drawing, Value: 127.0.0.1:4326/quote/
+		21 container study-0
+			22 container
+				23 image Complete machined aluminum display housing panel with visible contours and slots.
+				24 text 01 · LZZ workshop
+			25 heading The component, Value: 2
+				26 text The component
+			27 text This housing is identified in the workshop records as a 29-inch display enclosure. Broad rectangular panels carry slots and mounting features. The display size does not specify the enclosure dimensions; those must come from the drawing.
+		28 container study-1
+			29 container
+				30 image Large aluminum display housing panel under a CNC spindle during machining.
+				31 text 02 · LZZ workshop
+			32 heading Machining setup, Value: 2
+				33 text Machining setup
+			34 text The panel is supported across the machine table beneath the spindle. The machining photographs show the broad internal face and access from above. For a comparable enclosure, review support points, clamping areas, tool reach and the order of operations before choosing the setup.
+		35 container study-2
+			36 heading Machined features, Value: 2
+				37 text Machined features
+			38 text The panels have internal recesses, machined face patterns and narrow edge features. The paired view compares their two faces, while the workshop video provides a closer look at the overall form.
+		39 container study-3
+			40 heading Inspection planning, Value: 2
+				41 text Inspection planning
+			42 text For your enclosure, identify mounting datums, hole and slot positions, required flatness and mating-edge relationships. Specify cosmetic faces, finish and acceptance dimensions after treatment. Agree the measurement method and inspection records for the features that control assembly.
+		43 heading Two faces of the enclosure, Value: 2
+			44 text Two faces of the enclosure
+		45 container
+			46 link Description: View full image: Paired enclosure panels showing their internal and external faces., Value: 127.0.0.1:4326/media/source-details/display-housing-pair-1200.webp
+			47 text Paired enclosure panels showing their internal and external faces.
+		48 container Watch the display housing in the workshop, ID: video-display-housing
+			49 heading Watch the display housing in the workshop, Value: 2, ID: video-title-display-housing
+				50 text Watch the display housing in the workshop
+			51 text The clip shows a person holding and turning the machined panel, followed by a view of the CNC machine and workpiece. Compare the broad faces, internal recesses and overall form.
+			52 text 18-second original clip
+			53 container
+				54 container Watch the display housing in the workshop
+					55 container 正在缓冲
+					56 container
+						57 button
+						58 pop up button
+					59 slider (disabled) 视频时间进度条
+				60 text Select play to view the original footage.
+		61 container Related studies and capabilities
+			62 container Related capabilities
+				63 heading Related capabilities, Value: 2, ID: case-capabilities-title
+					64 text Related capabilities
+				65 link Description: CNC milling, Value: 127.0.0.1:4326/capabilities/cnc-milling-service/
+				66 link Description: Aluminum machining, Value: 127.0.0.1:4326/capabilities/aluminum-cnc-parts/
+			67 container Parts with similar features
+				68 heading Parts with similar features, Value: 3, ID: case-related-title
+					69 text Parts with similar features
+				70 text Separate catalog examples for a similar enquiry.
+				71 link Description: Complex aluminum housings, Value: 127.0.0.1:4326/products/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/
+				72 link Description: Small-batch aluminum enclosures, Value: 127.0.0.1:4326/products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/
+			73 link Description: See all process studies, Value: 127.0.0.1:4326/cases/
+	74 container
+		75 heading Have a part in mind?, Value: 2
+			76 text Have a part in mind?
+		77 text Send your drawing, material and quantity so we can review the part and prepare a quote.
+		78 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/
+		79 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+	80 container
+		81 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		82 text Custom CNC machining
+		83 text in Hangzhou, China.
+		84 container Footer navigation
+			85 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			86 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			87 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			88 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			89 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			90 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			91 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			92 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			93 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			94 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		95 container Let’s talk, ID: contact
+			96 heading Let’s talk, Value: 2, ID: footer-talk-title
+				97 text Let’s talk
+			98 text Hangzhou, China · UTC+8
+			99 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			100 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		101 container Find us
+			102 heading Find us, Value: 2, ID: footer-find-title
+				103 text Find us
+			104 container
+				105 text No. 4 Fengcheng Road
+				106 text Pingyao, Yuhang District
+				107 text Hangzhou, Zhejiang, China
+		108 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		109 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea CNC machining a 29-inch display housing | LZZ Precision, URL: 127.0.0.1:4326/cases/29-inch-display-housing-cnc-machining/

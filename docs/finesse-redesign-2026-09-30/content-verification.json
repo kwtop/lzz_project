@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "pages": 82,
+  "checks": [
+    "exact route set",
+    "title and all meta values",
+    "canonical and structured data",
+    "unchanged H1 text",
+    "all existing text blocks retained",
+    "all existing hrefs retained",
+    "all existing images retained",
+    "all existing anchor IDs retained",
+    "primary CTA labels and destinations retained",
+    "protected business logic and SEO data hashes unchanged"
+  ]
+}

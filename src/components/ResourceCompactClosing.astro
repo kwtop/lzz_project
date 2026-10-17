@@ -1,0 +1,5 @@
+---
+interface Props {title?:string;text?:string;href?:string}
+const {title='Have a part to discuss?',text='Prepare a draft, then attach drawings and send from your email app.',href='/quote/'}=Astro.props;
+---
+<section class="res-wrap res-compact-closing" id="prepare-email" aria-label="Discuss your part" data-resource-module><span class="res-anchor" id="manual-rfq-title"/><div><h2>{title}</h2><p>{text}</p></div><a class="res-link" href={href}>Prepare RFQ email</a></section>

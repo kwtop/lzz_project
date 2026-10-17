@@ -1,0 +1,96 @@
+/* Image-led modules: source order matches the visual and keyboard reading path.
+ * Keep task controls and technical requirements readable without decorative media. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main {
+ --module-column-gap:48px;
+ --module-content-gap:24px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 {
+ font-size:32px!important;line-height:1.22!important;max-width:30ch;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-image-first,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-topic-module {
+ display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+ gap:var(--module-column-gap);align-items:center;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-image-first>:is(.ce-source,.ce-figure,.ce-media,.ce-copy) {
+ order:0;min-width:0;margin-block:0;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-topic-module>* {min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-topic-module .ce-hub-links {margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-topic-module .ce-hub-links a {font-size:18px;padding-block:20px}
+
+/* A short illustrated chapter reads left to right; a dense checklist gets a
+ * visual introduction followed by a full-width, two-column requirements list. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-module {
+ display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+ gap:32px var(--module-column-gap);align-items:start;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-module>.ce-module-heading {grid-column:1/-1;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-module>:is(.ce-media,.ce-copy) {min-width:0;order:0;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-module .ce-guide-content>div>:first-child {margin-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-dense {grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-dense>.ce-module-heading {grid-column:1;align-self:center;max-width:20ch}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-dense>.ce-media {grid-column:2}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(.ce-guide-dense,.ce-guide-archive,.ce-guide-text)>.ce-guide-content {grid-column:1/-1}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-archive>.ce-media {grid-column:1/-1;margin:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(.ce-guide-dense,.ce-guide-text) .ce-facts,
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter:not(.ce-split):not(.ce-guide-module)>.ce-copy>.ce-facts {
+ display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--module-column-gap);row-gap:8px;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-facts dd {font-size:16px!important;line-height:1.65!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-module .ce-facts>div {padding-block:16px;min-width:0}
+
+/* Home: one visual anchors the process and material navigation. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-review {
+ grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:32px var(--module-column-gap);align-items:center;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-review>h2 {grid-column:1/-1;max-width:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-lists {margin-top:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-photo img {height:auto;max-height:560px;object-fit:contain}
+
+/* Workshop evidence is a readable photograph, not a navigation thumbnail. */
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-studies {display:block}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-study-lead {
+ grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:var(--module-column-gap);align-items:center;
+}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page :is(.cap-study-media,.cap-evidence-media) {width:100%}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page :is(.cap-study-media,.cap-evidence-media) img {width:100%;height:auto;max-height:460px;object-fit:contain}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-study-list {display:flex;flex-wrap:wrap;gap:16px 32px;margin-top:24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-study-list a {flex:1 1 280px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence {grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence-item {display:block;width:100%;max-width:none}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence-item figcaption {margin-top:16px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-evidence-item figcaption h3 {font-size:20px!important;line-height:1.4!important}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-scope>div {padding-block:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-criteria-grid {gap:32px var(--module-column-gap)}
+
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list {grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list a {display:block;padding:0 0 24px;border-top:0;text-align:center;font-size:20px;min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list img {display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;margin-bottom:20px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list span {display:block;line-height:1.4}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-use-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:32px var(--module-column-gap)}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-use-grid>section {min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .case-study .case-setup-photos {margin-block:32px 24px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page .ft-inspection-content {grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:var(--module-column-gap)}
+
+@media(max-width:1100px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main {--module-column-gap:32px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list {grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px) {
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main {--module-column-gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial h2 {font-size:28px!important}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(.ce-image-first,.ce-topic-module,.ce-guide-module,.ce-guide-dense),
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-review,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page :is(.cap-study-lead,.cap-evidence),
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .ft-page .ft-inspection-content,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .er-page .er-use-grid {grid-template-columns:minmax(0,1fr);gap:24px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-guide-dense>:is(.ce-module-heading,.ce-media) {grid-column:1}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial :is(.ce-guide-dense,.ce-guide-text) .ce-facts,
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .content-editorial .ce-chapter:not(.ce-split):not(.ce-guide-module)>.ce-copy>.ce-facts {grid-template-columns:1fr;gap:0}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .home-capability-photo img {max-height:380px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-page .cap-study-list {display:block}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list {grid-template-columns:1fr;gap:32px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap-directory .material-list img {max-height:280px}
+ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main.info-page .contact-hero>figure {display:block;margin-top:24px}
+}

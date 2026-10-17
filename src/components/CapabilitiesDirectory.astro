@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CapabilityConcept from './CapabilityConcept.astro';
+import {partDisplay,capabilityArtwork} from '../data/capabilityDesign';
+import {orderConditions} from '../data/capabilityRedesign';
+import {capabilityHeroPart} from '../data/capabilityRebuild';
+import catalog from '../data/catalog.json';
+import CapabilityEvidence from './CapabilityEvidence.astro';
+import '../styles/capability-redesign.css';
+import '../styles/capability-constitution.css';
+const routes=[
+ {slug:'cnc-milling-service',name:'CNC milling',text:'Pockets, flat faces and hole patterns in blocks, brackets and housings.',part:'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm'},
+ {slug:'cnc-turning-service',name:'CNC turning',text:'Shafts, sleeves and fittings built around an axis, with shoulders, bores and threads.',part:'custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier'},
+ {slug:'5-axis-cnc-machining',name:'5-axis machining',text:'Angled faces and continuous contours needing access from several directions.',part:'ultra-high-precision-machining-services'},
+ {slug:'casting-machining',name:'Machining of castings',text:'Finished bores, sealing faces and mounting datums in a supplied cast blank.',part:'oem-precision-cnc-machined-casting-housing-structural-enclosures'},
+].map(route=>({...route,visual:partDisplay(catalog.products.find(part=>part.slug===route.part)!)}));
+const materials=[
+ {slug:'aluminum-cnc-parts',title:'Aluminum',text:'Alloy and temper, thin sections and the dimensions after finishing.'},
+ {slug:'stainless-steel-cnc-parts',title:'Stainless steel',text:'Grade and condition selected for the service environment and treatment.'},
+ {slug:'copper-brass-cnc-parts',title:'Copper & brass',text:'Contact, heat-transfer or sealing requirements, with the alloy standard defined.'},
+ {slug:'plastic-machined-parts',title:'Engineering plastics',text:'Polymer and fillers, working conditions and the dimensional inspection state.'},
+].map(item=>({...item,visual:capabilityHeroPart(item.slug)}));
+const stages=[
+ {slug:'prototype-machining',name:'Evaluate a prototype',text:'A current design needs a fit, assembly, appearance or functional check.',result:'An agreed revision, evaluation scope and reviewable result.'},
+ {slug:'low-volume-production',name:'Plan a pilot or repeat batch',text:'Approved drawings are ready for a release by part number and quantity.',result:'A production baseline with first-article approval, sampling and traceability.'},
+ {slug:'starting-with-a-sample',name:'Start with an existing sample',text:'A physical part is available, but the manufacturing definition is incomplete.',result:'Resolve wear and unknowns, then approve the model, drawing and first part.'},
+];
+---
+<Layout title="CNC Machining Capabilities" description="Choose CNC milling, turning, multi-axis or casting finish machining. Define grades, drawing inputs and acceptance for prototypes, sample reconstruction and repeat batches." cta={false}>
+<article class="rd-wrap rd-page cx-page cx-directory" data-capability="overview">
+ <section class="cx-directory-intro" data-core-section="starting-point"><h1>CNC machining capabilities</h1><p class="cx-lead">Choose a route by part geometry, material or project stage.</p><nav class="cx-entry-links" aria-label="Choose your starting point"><a href="#machining-processes">Machining processes</a><a href="#materials">Materials</a><a href="#production-stages">Project stages</a></nav></section>
+ <section class="rd-section cx-route-section" id="machining-processes" data-core-section="process-selection"><header><h2>Choose by part geometry</h2><p>Custom CNC machining for prototypes and small production runs. The drawing and setup constraints determine the proposed route.</p></header><div class="cx-process-routes">{routes.map((route,index)=><article><a class="cx-route-image" href={'/capabilities/'+route.slug+'/'} aria-label={route.name} data-image-origin={route.visual.origin}><img src={route.visual.src} srcset={route.visual.srcset} width={route.visual.width} height={route.visual.height} sizes="(max-width:767px) calc(100vw - 40px), 580px" alt={route.visual.alt} loading={index<2?'eager':'lazy'} decoding="async"/><div><h3>{route.name}</h3><p>{route.text}</p></div></a></article>)}</div><p class="rd-note">Source reference forms. Material, tolerances and supply scope follow the approved drawing.</p></section>
+ <section class="rd-section cx-directory-materials" id="materials" data-core-section="material-selection"><header><h2>Start with the material</h2><p>Specify the exact grade, condition and finish. If these are undecided, bring the application requirements for review.</p></header><nav class="cx-material-routes" aria-label="Material routes">{materials.map(item=><a href={'/capabilities/'+item.slug+'/'} data-image-origin={item.visual.origin} data-material-route={item.slug}><img src={item.visual.src} srcset={item.visual.srcset} width={item.visual.width} height={item.visual.height} sizes="(max-width:767px) calc(100vw - 40px), 270px" alt={item.visual.alt} loading="lazy" decoding="async"/><h3>{item.title}</h3><p>{item.text}</p></a>)}</nav><p class="rd-note">Source collection examples; appearance does not identify the alloy or polymer grade.</p></section>
+ <section class="rd-section" id="production-stages" data-core-section="project-stage"><header><h2>What information do you have today?</h2></header><div class="cx-stage-visual"><CapabilityConcept art={capabilityArtwork.sample}/><div class="cx-project-routes">{stages.map(stage=><article id={stage.slug==='starting-with-a-sample'?'sample-to-part':undefined}><h3><a href={'/capabilities/'+stage.slug+'/'}>{stage.name}</a></h3><div><p>{stage.text} {stage.result}</p></div></article>)}</div></div><a class="rd-link" href="/resources/ordering/">Drawing, approval and delivery responsibilities</a></section>
+ <section class="rd-section" id="source-records" data-core-section="machining-evidence"><div class="cx-directory-evidence"><CapabilityEvidence id="two-stage-first" caption="Original first setup from a two-stage milling record." frameClass="cx-directory-setup-frame"/><div><h2>Review the work behind the part</h2><p>See original machining setups, then agree the critical features, inspection methods, sampling and records for your drawing.</p><div class="cx-inline-actions"><a class="rd-link" href="/machined-parts/machining-examples/">Machining examples</a><a class="rd-link" href="/factory/#quality">Factory & inspection</a></div><p class="rd-note">Photographs show the visible setup. They do not establish a new part's material, tolerances or delivery outcome.</p></div></div>
+ </section><section class="rd-section cx-inquiry" id="enquiry" data-core-section="quotation"><header><h2>Bring the part requirements together</h2><p>State any undecided material, process or design requirements.</p></header><ul class="cx-rfq-inputs"><li>Current model and drawing with units and revision</li><li>Material grade, condition, finish and protected surfaces</li><li>Quantity, critical features and inspection records</li><li>Delivery destination and requested date</li></ul><div class="cx-inquiry-action"><p class="cx-order-note" id="order-conditions">{orderConditions}</p><a class="rd-button" href="/quote/">Prepare RFQ email</a><p class="rd-note">Prepare a draft, then review it, attach drawings and send it from your email application.</p></div></section>
+</article>
+</Layout>
+

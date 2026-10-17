@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/quote-approved.css';
+import QuoteForm from '../components/QuoteForm';
+import catalog from '../data/catalog.json';
+import {productTitle,productInquiryAliases,categoryDetails} from '../data/presentation';
+import {partDisplayTitle} from '../data/productsEditorial';
+import {siteOrigin} from '../data/seo';
+import type {InquiryReference} from '../lib/inquiryContext';
+import {sampleToPart} from '../data/sampleToPart';
+const references:InquiryReference[]=[
+ ...catalog.products.map(product=>({id:product.slug,title:partDisplayTitle(product),legacyName:product.name,aliases:[productTitle(product),...(productInquiryAliases[product.slug]||[])],path:'/machined-parts/gallery/'+product.slug+'/',kind:'product' as const})),
+ ...catalog.categories.map(category=>({id:category.slug,title:categoryDetails[category.slug]?.title||category.name,legacyName:category.name,path:'/capabilities/'+category.slug+'/',kind:'capability' as const})),
+ sampleToPart,
+];
+---
+<Layout title="Request a CNC machining quote" cta={false}>
+ <section class="qt-page rd-wrap rd-page">
+  <QuoteForm client:load references={references} siteOrigin={siteOrigin}/>
+  <noscript><style is:inline>.redesign-site[data-reading-path="/quote/"] .inquiry-storage{display:none}</style></noscript>
+ </section>
+</Layout>
+

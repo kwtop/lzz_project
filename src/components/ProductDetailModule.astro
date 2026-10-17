@@ -1,0 +1,46 @@
+---
+import ProductsImage from './ProductsImage.astro';
+import ProductArchiveViews from './ProductArchiveViews.astro';
+import ProductsClosing from './ProductsClosing.astro';
+import {partPlan,partVisual,partDisplayTitle,productIllustrations,type PartRecord,type PartModule} from '../data/productsEditorial';
+import {readingFor,productQuestion} from '../data/productReading';
+import {productSummary} from '../data/productSummaries';
+import {productDetail,productPageRequirements} from '../data/productDetails';
+import {productManufacturing} from '../data/manufacturing';
+import {partMaterialStatus,partUseContexts} from '../data/productBrowse';
+import {productReferences} from '../data/productReferences';
+import {castingReview} from '../data/castingReview';
+import {relatedPartDecisions} from '../data/productDecisions';
+import catalog from '../data/catalog.json';
+import listingReferences from '../data/productListingReferences.json';
+import {partReadingLinks} from '../data/productReadingLinks';
+interface Props{product:PartRecord;module:PartModule;quoteHref:string}
+const {product,module,quoteHref}=Astro.props;
+const plan=partPlan(product.slug),reading=readingFor(product.slug),summary=productSummary(product);
+const engineering=productDetail(product),requirements={...productPageRequirements(product)},manufacturing=productManufacturing(product);
+const material=partMaterialStatus(product),isFlanged=product.slug==='custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier';
+if(isFlanged){requirements.intro=requirements.intro.replace('these stainless shafts and valve stems','stainless steel turned components');requirements.drawing=requirements.drawing.replace('the shaft datums','the common datum axis');}
+const features=(engineering.considerations?.length?engineering.considerations:reading.features).map(feature=>isFlanged&&feature.title==='Shaft datums'?{...feature,title:'Datum axis'}:feature);
+const contexts=partUseContexts[product.slug]||[],notes=[...new Set([...requirements.notes,...manufacturing.considerations])];
+const casting=castingReview[product.slug],references=productReferences[product.slug]||[];
+const related=relatedPartDecisions(product,catalog.products).slice(0,2),question=productQuestion(product.slug,manufacturing.tags);
+const source=listingReferences[product.slug as keyof typeof listingReferences],links=partReadingLinks(product);
+const impeller=product.slug==='ultra-high-precision-machining-services';
+---
+{module==='fit'&&<section class:list={['pr-section','pr-fit-'+plan.kind]} id="fit-review" aria-labelledby="geometry-title">
+ <header class="pr-section-head"><h2 id="geometry-title">{plan.featureTitle}</h2><p>{isFlanged?'Stainless steel turned components with flange, bore and mounting interfaces.':engineering.scope}</p></header>
+ <div class="pr-feature-layout">
+  {impeller?<ProductsImage class="pr-feature-visual" stem="/media/product-reading-20261014/impeller-geometry" alt="Illustrative impeller showing curved blade profiles, root transitions and the central hub bore" caption="Blade profiles, root transitions and hub bore · existing AI-generated geometry illustration" origin="ai-generated-illustration"/>:!['turned','connection','pin'].includes(plan.kind)&&<div class="pr-feature-intro"><p>{summary.features}</p></div>}
+  <div class="pr-feature-list">{features.map(feature=><div><h3>{feature.title}</h3><p>{feature.body}</p></div>)}</div>
+ </div>
+ {contexts.length>0&&<aside class="pr-context" aria-label="Application requirements">{contexts.map(context=><div><h3>{context.title}</h3><p>{context.body}</p><a class="pr-secondary" href={context.href}>Review related requirements</a></div>)}</aside>}
+</section>}
+{module==='options'&&<section class="pr-section" id="part-information" aria-labelledby="options-title"><header class="pr-section-head"><h2 id="options-title">{plan.kind==='polymer'?'Material and measurement conditions':plan.kind==='batch'?'Specify material and finish per part':'Material, machining & finish'}</h2><p>{plan.kind==='polymer'?'Specify the exact grade and intended environment. Color and appearance do not establish polymer identity.':'Material grades and treatments are reviewed against your drawing and the final condition needed for assembly.'}</p></header><dl class="pr-specs"><div><dt>{material.label}</dt><dd>{material.value}</dd></div><div><dt>Machining scope</dt><dd>{summary.process}</dd></div><div><dt>Surface finish</dt><dd>{manufacturing.finishes}</dd></div><div><dt>Application scope</dt><dd>{manufacturing.applications}</dd></div></dl></section>}
+{module==='drawing'&&<section class="pr-section" id="drawing-review" aria-labelledby="engineering-review"><header class="pr-section-head"><h2 id="engineering-review">Drawing &amp; acceptance requirements</h2><p>{requirements.intro}</p></header><div class="pr-drawing-columns"><div><h3>Define on the drawing</h3><p>{requirements.drawing}</p></div><div><h3>Agree for inspection</h3><p>{requirements.inspection}</p></div></div>{notes.length>0&&<details class="pr-review-notes"><summary>Additional review notes</summary><div class="pr-notes">{notes.map(note=><p>{note}</p>)}</div></details>}</section>}
+{module==='views'&&<section class="pr-section" id="reference-views" aria-labelledby="reference-title"><header class="pr-section-head"><h2 id="reference-title">Reference images</h2><p>Compare the source listing with the part-form illustration. These references do not define the dimensions or supplied scope of a new order.</p></header><div class="pr-listing-reference"><ProductsImage src={source.src} width={source.width} height={source.height} alt={source.description} caption="Source listing image · open the image for a closer view" href={source.src} origin="source-listing" sizes="(max-width:760px) calc(100vw - 44px), 480px"/><div><h3>In the source listing</h3><p>{source.description}</p><p class="pr-small">The main presentation is AI-generated or retouched. Use the source views for visual reference and the approved drawing for manufacturing.</p></div></div>{references.length>0&&<div class="pr-supplemental"><h3>Additional views &amp; design references</h3><ProductArchiveViews ids={references} standalone={false}/></div>}</section>}
+{module==='blank'&&casting&&<section class="pr-section" id="casting-blank" aria-labelledby="blank-title"><div class="pr-blank"><div><h2 id="blank-title">{casting.heading}</h2><p>{casting.focus}</p></div><div><h3>Include in the machining review</h3><p>{casting.inputs}</p><a class="pr-secondary" href={casting.href}>{casting.label}</a></div></div></section>}
+{module==='batch'&&<section class="pr-section" id="fit-review" aria-labelledby="geometry-title"><header class="pr-section-head"><h2 id="geometry-title">{plan.featureTitle}</h2><p>{engineering.scope}</p></header><div class="pr-batch-layout"><ProductsImage {...productIllustrations.batch} origin="ai-generated-illustration"/><ol class="pr-batch-steps">{features.map(feature=><li><h3>{feature.title}</h3><p>{feature.body}</p></li>)}</ol></div></section>}
+{module==='related'&&<section class="pr-section" id="related-reading" aria-labelledby="reading-title"><header class="pr-section-head"><h2 id="reading-title">Related machining</h2><p>Explore a related machining approach. These studies explain shared review topics; they are separate from this part example.</p></header><div class="pr-reading-links"><div><h3>{links.studyTitle}</h3><p>{links.reason}</p><a class="pr-secondary" href={'/machined-parts/machining-examples/'+links.study+'/'}>Read the machining study</a></div><div><h3>{links.label}</h3><p>Review the process scope, material considerations and drawing requirements.</p><a class="pr-secondary" href={'/capabilities/'+links.capability+'/'}>Explore this capability</a></div></div></section>}
+{module==='related'&&<section class="pr-section" id="related-part-requirements" aria-labelledby="related-title"><header class="pr-section-head"><h2 id="related-title">Related part requirements</h2><p>Compare the interfaces and machining considerations for another form.</p></header><nav class="pr-related-grid" aria-label="Related parts">{related.map(({product:part,reason})=><a href={'/machined-parts/gallery/'+part.slug+'/'}><ProductsImage {...partVisual(part)} caption={undefined} sizes="150px"/><div><h3>{partDisplayTitle(part)}</h3><p>{reason}</p></div></a>)}</nav></section>}
+{module==='order'&&<section class="pr-section" id="order-details"><div class="pr-order-layout"><div><h2>Before you order</h2><section class="pr-order-question"><h3>{question.question}</h3><p>{question.answer}</p></section><section class="pr-order-question"><h3>What should I send for a quotation?</h3><p>{engineering.rfq} Include the drawing revision, quantity and delivery destination.</p></section></div><ProductsClosing title="Discuss this part" href={quoteHref} description="Prepare an inquiry with this example as the reference. Attach your controlled drawing and confirm the machining scope with LZZ."/></div></section>}
+

@@ -1,0 +1,125 @@
+[
+  {
+    "name": "nav-mobile-open",
+    "state": {
+      "details": [
+        {
+          "summary": "Capabilities",
+          "open": true
+        },
+        {
+          "summary": "Custom Parts",
+          "open": false
+        },
+        {
+          "summary": "Factory & Quality",
+          "open": false
+        },
+        {
+          "summary": "Resources",
+          "open": false
+        },
+        {
+          "summary": "About LZZ",
+          "open": false
+        }
+      ],
+      "panels": [
+        {
+          "text": "Machining\n\nCNC milling\nCNC turning\n5-axis machining\nMachining of Castings\n\nMaterials\n\nAluminum machining\nStainless steel machining\nCopper & brass machining\nEngineering Plastics\n\nProjects\n\nPrototype & small batch\nStarting with a sample\nView all machining capabilities",
+          "rect": "{\"x\":24,\"y\":138.796875,\"width\":342,\"height\":647.171875,\"top\":138.796875,\"right\":366,\"bottom\":785.96875,\"left\":24}",
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "",
+          "rect": "{\"x\":24,\"y\":838.765625,\"width\":342,\"height\":120,\"top\":838.765625,\"right\":366,\"bottom\":958.765625,\"left\":24}",
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "",
+          "rect": "{\"x\":24,\"y\":891.5625,\"width\":342,\"height\":120,\"top\":891.5625,\"right\":366,\"bottom\":1011.5625,\"left\":24}",
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "",
+          "rect": "{\"x\":24,\"y\":944.359375,\"width\":342,\"height\":252,\"top\":944.359375,\"right\":366,\"bottom\":1196.359375,\"left\":24}",
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "",
+          "rect": "{\"x\":24,\"y\":997.15625,\"width\":342,\"height\":164,\"top\":997.15625,\"right\":366,\"bottom\":1161.15625,\"left\":24}",
+          "display": "block",
+          "visibility": "visible"
+        }
+      ],
+      "scrollY": 0
+    }
+  },
+  {
+    "name": "quote-immediate",
+    "state": {
+      "scrollY": 619,
+      "result": "{\"x\":24,\"y\":-120.90625,\"width\":342,\"height\":964.59375,\"top\":-120.90625,\"right\":366,\"bottom\":843.6875,\"left\":24}",
+      "heading": "{\"x\":24,\"y\":-92.90625,\"width\":342,\"height\":57.21875,\"top\":-92.90625,\"right\":366,\"bottom\":-35.6875,\"left\":24}",
+      "summary": "{\"x\":24,\"y\":72.703125,\"width\":342,\"height\":282.390625,\"top\":72.703125,\"right\":366,\"bottom\":355.09375,\"left\":24}",
+      "actions": "{\"x\":24,\"y\":381.09375,\"width\":342,\"height\":120.59375,\"top\":381.09375,\"right\":366,\"bottom\":501.6875,\"left\":24}",
+      "active": "draft-result"
+    }
+  },
+  {
+    "name": "nav-home-desktop-settled",
+    "state": {
+      "summaries": [
+        {
+          "text": "Capabilities",
+          "color": "rgb(183, 14, 21)"
+        },
+        {
+          "text": "Custom Parts",
+          "color": "rgb(40, 44, 47)"
+        },
+        {
+          "text": "Factory & Quality",
+          "color": "rgb(40, 44, 47)"
+        },
+        {
+          "text": "Resources",
+          "color": "rgb(40, 44, 47)"
+        },
+        {
+          "text": "About LZZ",
+          "color": "rgb(40, 44, 47)"
+        }
+      ],
+      "panel": "Machining\n\nCNC milling\nCNC turning\n5-axis machining\nMachining of Castings\n\nMaterials\n\nAluminum machining\nStainless steel machining\nCopper & brass machining\nEngineering Plastics\n\nProjects\n\nPrototype & small batch\nStarting with a sample\nView all machining capabilities",
+      "open": true,
+      "headerBackground": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "header-quote-context",
+    "from": "/capabilities/cnc-turning-service/",
+    "mainHref": "/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F",
+    "quoteURL": "http://127.0.0.1:4323/quote/",
+    "text": "1\nProject details\n2\nReview draft\n3\nSend in email\nYour name *\nWork email *\nMaterial, if known\nTo be confirmed\nAluminum\nStainless steel\nBrass / copper\nEngineering plastic\nOther / need advice\nQuantity, if known\nTell us about your part *\nInclude overall size, critical dimensions or fit, finish, and drawing revision. You can attach CAD or drawings in your email app.\nContact and delivery details\nOptional\n\nYou send the final email.\nAfter reviewing your draft, attach your drawings in your email app. Nothing is uploaded or sent here.\n\nPrepare email draft\n\nDraft saved in this tab.\n\nClear saved input"
+  },
+  {
+    "name": "header-quote-context",
+    "from": "/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "mainHref": "/quote/?part=Billet+aluminum+engine+covers&product=custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier&source=%2Fproducts%2Fcustom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier%2F",
+    "quoteURL": "http://127.0.0.1:4323/quote/",
+    "text": "1\nProject details\n2\nReview draft\n3\nSend in email\nYour name *\nWork email *\nMaterial, if known\nTo be confirmed\nAluminum\nStainless steel\nBrass / copper\nEngineering plastic\nOther / need advice\nQuantity, if known\nTell us about your part *\nInclude overall size, critical dimensions or fit, finish, and drawing revision. You can attach CAD or drawings in your email app.\nContact and delivery details\nOptional\n\nYou send the final email.\nAfter reviewing your draft, attach your drawings in your email app. Nothing is uploaded or sent here.\n\nPrepare email draft\n\nDraft saved in this tab.\n\nClear saved input"
+  },
+  {
+    "name": "material-guide-reading",
+    "state": {
+      "contentsY": 722.78125,
+      "bodyY": 825.96875,
+      "firstText": "Finishing services and acceptance points\n\nWe support deburring, bead blasting, polishing, anodizing, passivation and plating as appropriate to the selected material. The quotation defines the finish and any accompanying documents; not every treatment is suitable for every alloy.\n\nDeburring and polis"
+    }
+  }
+]

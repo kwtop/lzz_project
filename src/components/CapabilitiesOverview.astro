@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RfqPanel from './RfqPanel.astro';
+import CapabilityArtwork from './CapabilityArtwork.astro';
+import {capabilityArtwork,partDisplay} from '../data/capabilityDesign';
+import catalog from '../data/catalog.json';
+import {primaryServices} from '../data/services';
+import {matchesPartCategory} from '../data/productTags';
+import '../styles/capabilities-design.css';
+const processFit:Record<string,string>={
+ 'cnc-milling-service':'Pockets, flat faces and hole patterns in custom components.',
+ 'cnc-turning-service':'Shafts, sleeves, discs and concentric features.',
+ '5-axis-cnc-machining':'Angled faces and features requiring access from several directions.',
+ 'plastic-machined-parts':'Polymer forms with grade, support and inspection conditions agreed.',
+ 'casting-machining':'Finished bores, faces and datums machined into a cast blank.',
+};
+const materials=[
+ {slug:'aluminum-cnc-parts',title:'Aluminum',text:'Housings, covers and enclosures. Compare alloys and surface finishes.'},
+ {slug:'stainless-steel-cnc-parts',title:'Stainless steel',text:'Shafts, fittings and hardware. Review grades and final surface condition.'},
+ {slug:'copper-brass-cnc-parts',title:'Copper & brass',text:'Contacts, fittings and connectors. Start with the function of the part.'},
+ {slug:'plastic-machined-parts',title:'Engineering plastics',text:'Insulators, guides and housings. Review polymers for the working conditions.'},
+].map(item=>{const c=catalog.categories.find(c=>c.slug===item.slug)!;return {...item,part:partDisplay(catalog.products.find(p=>matchesPartCategory(p,c.key))!)};});
+const stages=[
+ {slug:'prototype-machining',name:'Prototype',purpose:'Check fit, function, appearance or a design question.',revision:'Current drawing revision, showing fixed interfaces and open design changes.',quantity:'The quantity required for the evaluation.',release:'Agree evaluation checks, records and who approves the sample.'},
+ {slug:'low-volume-production',name:'Repeat batches',purpose:'Plan pilot builds and repeat orders.',revision:'Approved drawing revision for each part number, with changes recorded and approved.',quantity:'Order quantity by part number; list forecast demand separately.',release:'Agree first-article approval, sampling, traceability and repeat requirements.'},
+];
+---
+<Layout title="CNC Machining Capabilities" description="Compare CNC milling, turning, 5-axis machining, plastics and casting finishing. Review material options, prototype evaluation and repeat-batch requirements." cta={false}>
+<article class="capabilities-design cd-overview" data-capability="overview"><div class="cd-wrap">
+ <section class="cd-hub-hero"><header><h1>CNC machining capabilities</h1><p class="cd-lead">Start with the part. Find the right machining route.</p><p>Compare processes, materials and order stages, then define the drawing and acceptance requirements for your custom components.</p></header><CapabilityArtwork art={capabilityArtwork.family} eager/></section>
+ <section class="cd-section" id="machining-processes"><header class="cd-heading"><h2>Machining services</h2><p>Compare the part shapes and features each service can machine. The images below are AI-generated process concepts.</p></header><div class="cd-process-directory">{primaryServices.map(service=><article class="cd-process-entry"><figure data-image-origin="AI-generated"><img src={'/media/capability-directory-20261014/'+service.slug+'-800.webp'} srcset={[480,800,1200,1536].map(w=>`/media/capability-directory-20261014/${service.slug}-${w}.webp ${w}w`).join(', ')} sizes="(max-width:760px) 140px, 200px" width="1536" height="1024" loading="lazy" alt={'AI process illustration: '+service.name}/></figure><div><h3>{service.name}</h3><p>{processFit[service.slug]}</p><a class="cd-link" href={'/capabilities/'+service.slug+'/'}>Explore {service.name.toLowerCase().replace(/^cnc/,'CNC')}</a></div></article>)}</div></section>
+ <section class="cd-section cd-hub-materials" id="materials"><header class="cd-heading"><h2>Materials</h2><p>Explore material options through typical part forms. Your drawing establishes the exact grade, condition and finish.</p></header><nav class="cd-material-directory" aria-label="Material capabilities">{materials.map(item=><a href={'/capabilities/'+item.slug+'/'}><img src={item.part.src} srcset={item.part.srcset} sizes="140px" width="1536" height="1024" alt={item.part.alt+'; AI part illustration'} loading="lazy"/><div><h3>{item.title}</h3><p>{item.text}</p></div></a>)}</nav><p class="cd-note">Material-route thumbnails are AI part illustrations.</p></section>
+ <section class="cd-section" id="production-stages"><header class="cd-heading"><h2>One part to evaluate, or a release to repeat?</h2><p>Orders start at 1 piece. Batch planning depends on the drawing, setup and the decision you need to make.</p></header><div class="cd-stage-comparison">{stages.map(stage=><article><h3>{stage.name}</h3><dl><div><dt>Purpose</dt><dd>{stage.purpose}</dd></div><div><dt>Drawing status</dt><dd>{stage.revision}</dd></div><div><dt>Quantity information</dt><dd>{stage.quantity}</dd></div><div><dt>Before production</dt><dd>{stage.release}</dd></div></dl><a class="cd-link" href={'/capabilities/'+stage.slug+'/'}>Plan {stage.name.toLowerCase()}</a></article>)}</div></section>
+ <section class="cd-section cd-hub-sample" id="sample-to-part"><div><h2>Starting with an existing sample</h2><p>Review the physical part, reconstruct its geometry and approve the manufacturing requirements before machining.</p><a class="cd-link" href="/capabilities/starting-with-a-sample/">Review the sample-to-part process</a><p class="cd-note">Need help choosing a process? Send the model, dimensions and material, with critical features and acceptance checks.</p><a class="cd-link" href="/resources/technical-guides/cnc-process-selection/">Compare machining processes</a></div><CapabilityArtwork art={capabilityArtwork.sample}/></section>
+ <RfqPanel title="Bring your part requirements together" description="Send your drawing, material, quantity and acceptance requirements." contained/>
+</div></article>
+</Layout>
+

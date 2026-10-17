@@ -1,0 +1,124 @@
+Browser tab: 1, Title: "Aluminum CNC Parts | LZZ Precision", URL: "http://127.0.0.1:4326/capabilities/aluminum-cnc-parts/".
+1 AXWebArea Aluminum CNC Parts | LZZ Precision, URL: 127.0.0.1:4326/capabilities/aluminum-cnc-parts/
+	2 link Description: Skip to content, Value: 127.0.0.1:4326/capabilities/aluminum-cnc-parts/#main
+	3 container
+		4 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		5 link Description: Request a Quote, Value: 127.0.0.1:4326/quote/
+		6 button (collapsed) Description: Open navigation, Secondary Actions: Expand
+	7 container
+		8 container Breadcrumb
+			9 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			10 text Aluminum machining
+		11 heading Aluminum parts, made to your drawing, Value: 1
+			12 text Aluminum parts, made to your drawing
+		13 text Custom aluminum housings and structural components. Specify the alloy and finish needed for your application.
+		14 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F
+		15 container
+			16 link Description: View Aluminum intercooler prototypes, Value: 127.0.0.1:4326/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/
+			17 text Aluminum intercooler prototypes
+		18 container engineering-fit
+			19 heading Aluminum housings and automotive prototypes, Value: 2
+				20 text Aluminum housings and automotive prototypes
+			21 text For an enclosure, billet intake component or cooling prototype, review the thin sections and mounting interfaces together with the alloy, temper and finish.
+			22 definition list
+				23 container Geometry & process
+					24 text Geometry & process
+				25 text For lightweight housings, automotive prototypes and multi-feature components, including thin walls and deep pockets.
+				26 container Size & workholding
+					27 text Size & workholding
+				28 text Send a 3D model with the overall dimensions and stock size. Enclosure machining considers stress relief, fixture support and the order in which material is removed. Review tool access, clamping space and final interfaces together.
+				29 container Material & finish
+					30 text Material & finish
+				31 text 6061/6061-T6 and 7075 appear across billet machining services; 3003 is also offered in the intercooler service. Select the grade and temper for the actual part. Bead blasting, brushing, polishing, anodizing, chemical conversion and powder coating are offered across relevant services. Define color and masking requirements.
+				32 container Grades to discuss
+					33 text Grades to discuss
+				34 container
+					35 text Aluminum alloys: 
+					36 text 6061 · 6061-T6 · 6063 · 6063-T5 · 7075 · 7075-T6 · 2024 · 5083 Specify the alloy and temper on the drawing. Availability and suitability for the part and finish are confirmed in the quotation.
+			37 button (collapsed) Plan the alloy and finish together, Secondary Actions: Expand
+				38 text Plan the alloy and finish together
+		39 container part-examples
+			40 heading More part examples, Value: 2
+				41 text More part examples
+			42 link Description: Browse all parts, Value: 127.0.0.1:4326/products/
+			43 link Description: Billet engine covers Billet aluminum engine covers, Value: 127.0.0.1:4326/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/
+			44 link Description: Intake prototypes Billet intake manifold prototypes, Value: 127.0.0.1:4326/products/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/
+		45 container machining-studies
+			46 heading Machining in practice, Value: 2
+				47 text Machining in practice
+			48 link Description: All machining studies, Value: 127.0.0.1:4326/cases/
+			49 link Value: 127.0.0.1:4326/cases/milling-a-pocketed-enclosure-form/, Description: A metal component held in a CNC milling setup beneath the spindle. Milling a pocketed enclosure-style component Milling a recessed component with a circular pocket and mounting features.
+			50 link Value: 127.0.0.1:4326/cases/29-inch-display-housing-cnc-machining/, Description: CNC machining a 29-inch display housing A broad display housing with recessed faces, edge details and mounting features.
+			51 link Value: 127.0.0.1:4326/cases/custom-metal-parts-batch-examples/, Description: Custom metal parts in batches: shafts, fittings and housings Turned shafts, fittings and recessed housings: a selection of custom metal components in batches.
+		52 button (collapsed) More photographs from the workshop, Secondary Actions: Expand
+			53 text More photographs from the workshop
+		54 container capability-scope
+			55 heading Drawing & acceptance, Value: 2
+				56 text Drawing & acceptance
+			57 heading Drawing requirements, Value: 3
+				58 text Drawing requirements
+			59 text Specify alloy, temper and stock form. For housings, identify wall thicknesses, mounting datums, sealing faces and deep-pocket access.
+			60 text For anodized or other finished parts, mark masked fits, cosmetic faces and post-finish acceptance dimensions. Treat color requirements separately from geometry.
+			61 container inspection
+				62 heading Inspection and acceptance, Value: 3
+					63 text Inspection and acceptance
+				64 text Agree checks for flatness, bore relationships and interfaces that control fit. Define surface acceptance using the intended finish.
+				65 text Specify pressure, leak or assembly tests separately. An automotive prototype in the catalog is not proof of tested vehicle performance.
+				66 text Agree the measurement method and required records before production.
+			67 container Inspection and order information
+				68 link Description: Quality & inspection, Value: 127.0.0.1:4326/quality/
+				69 button (collapsed) Equipment and order records, Secondary Actions: Expand
+					70 text Equipment and order records
+		71 container enquiry
+			72 heading Prepare your aluminum machining enquiry, Value: 2
+				73 text Prepare your aluminum machining enquiry
+			74 text Send a model, drawing, alloy and temper, quantity and finish specification with the intended assembly context.
+			75 text For fabricated or welded components, identify supplied items and joint requirements. Include any test conditions so feasibility can be checked.
+			76 link Description: Prepare RFQ email, Value: 127.0.0.1:4326/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F
+			77 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+			78 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+		79 container Description: Useful engineering resources, ID: related-resources
+			80 heading Related resources, Value: 3
+				81 text Related resources
+			82 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+			83 link Description: Material & Finish Guide, Value: 127.0.0.1:4326/resources/material-and-finish-checklist/
+			84 button (collapsed) More engineering resources, Secondary Actions: Expand
+				85 text More engineering resources
+		86 container Related capabilities
+			87 heading Related materials, Value: 2
+				88 text Related materials
+			89 link Description: Stainless steel machining, Value: 127.0.0.1:4326/capabilities/stainless-steel-cnc-parts/
+			90 link Description: Plastic machining, Value: 127.0.0.1:4326/capabilities/plastic-machined-parts/
+			91 link Description: Copper & brass machining, Value: 127.0.0.1:4326/capabilities/copper-brass-cnc-parts/
+	92 container
+		93 link Description: LZZ Precision home, Value: 127.0.0.1:4326/
+		94 text Custom CNC machining
+		95 text in Hangzhou, China.
+		96 container Footer navigation
+			97 link Description: Capabilities, Value: 127.0.0.1:4326/capabilities/
+			98 link Description: Custom Parts, Value: 127.0.0.1:4326/products/
+			99 link Description: Our factory, Value: 127.0.0.1:4326/factory/
+			100 link Description: Quality control, Value: 127.0.0.1:4326/quality/
+			101 link Description: Machining studies, Value: 127.0.0.1:4326/cases/
+			102 link Description: Resources, Value: 127.0.0.1:4326/resources/
+			103 link Description: Company Profile, Value: 127.0.0.1:4326/about/
+			104 link Description: Contact Us, Value: 127.0.0.1:4326/contact/
+			105 link Description: Company News, Value: 127.0.0.1:4326/about/company-news/
+			106 link Description: RFQ Checklist, Value: 127.0.0.1:4326/resources/rfq-checklist/
+		107 container Let’s talk, ID: contact
+			108 heading Let’s talk, Value: 2, ID: footer-talk-title
+				109 text Let’s talk
+			110 text Hangzhou, China · UTC+8
+			111 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			112 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		113 container Find us
+			114 heading Find us, Value: 2, ID: footer-find-title
+				115 text Find us
+			116 container
+				117 text No. 4 Fengcheng Road
+				118 text Pingyao, Yuhang District
+				119 text Hangzhou, Zhejiang, China
+		120 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		121 link Description: Privacy & site information, Value: 127.0.0.1:4326/privacy/
+
+The focused UI element is 1 AXWebArea Aluminum CNC Parts | LZZ Precision, URL: 127.0.0.1:4326/capabilities/aluminum-cnc-parts/

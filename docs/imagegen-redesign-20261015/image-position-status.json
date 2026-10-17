@@ -1,0 +1,1377 @@
+[
+  {
+    "group": "5.2 首页重要图位",
+    "key": "HOME-I1 /media/responsive/machining-hero-v2-1672.webp（AI）",
+    "approvedOriginalRow": [
+      "HOME-I1 /media/responsive/machining-hero-v2-1672.webp（AI）",
+      "按既有工业摄影风格重新生成非证据场景；图为通用铣削概念，不指称LZZ某台机床或订单。当前横图手机裁切使刀具/文字争抢中心。",
+      "参考当前主轴/切屑构图及真实milling-enclosure-operation的机械关系；4:3，主轴在右上、刀尖与工件接触区在中下，完整工具与夹持占65–75%，无读数/商标/工牌。文字置左侧HTML，不压照片；手机完整4:3，保留刀尖、夹具与工件。可见简短AI illustration图注。"
+    ],
+    "status": "implemented",
+    "result": "ImageGen场景已采用，AI身份可见",
+    "finalMedia": []
+  },
+  {
+    "group": "5.2 首页重要图位",
+    "key": "HOME-I2 /media/factory-refined/workshop-1440.webp（AI修饰）",
+    "approvedOriginalRow": [
+      "HOME-I2 /media/factory-refined/workshop-1440.webp（AI修饰）",
+      "退出事实证据位，改用真实原片；不继续生成扩设备/环境。",
+      "参考 /media/evidence/workshop-wide-1600.webp 及来源1 (7).jpg；桌面机器行4:3、可裁少量无效屋顶/地面而保留整机/纵深；手机自然原比。事实数字独立HTML不当成图片证明。"
+    ],
+    "status": "implemented",
+    "result": "改真实workshop-wide原照",
+    "finalMedia": []
+  },
+  {
+    "group": "5.2 首页重要图位",
+    "key": "HOME-I3 /media/factory-refined/inspection-1440.webp（AI修饰）",
+    "approvedOriginalRow": [
+      "HOME-I3 /media/factory-refined/inspection-1440.webp（AI修饰）",
+      "退出检验证据位，改用原CMM照片；不生成读数/合格工件。",
+      "/media/evidence/cmm-room-1600.webp，竖3:4完整机台/探头；桌面最高420px、手机360px contain，caption注明设备照片而非结果/校准。"
+    ],
+    "status": "implemented",
+    "result": "改真实cmm-room原照",
+    "finalMedia": []
+  },
+  {
+    "group": "5.2 首页重要图位",
+    "key": "HOME-I4 四个零件卡及研究两图",
+    "approvedOriginalRow": [
+      "HOME-I4 四个零件卡及研究两图",
+      "仅调整图位与来源绑定；所有具体零件同步下表原主体，研究使用各自原工序照。",
+      "卡4:3完整主体、76–86%长边；手机2列，不嵌文字。研究原4:3/原竖比，不用统一cover；图注与实际图框同宽。"
+    ],
+    "status": "implemented",
+    "result": "四产品同步原主体；两研究用原setup",
+    "finalMedia": []
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P00 `D:\\lzz\\raw\\_content\\images\\products\\CNC-Milling-Service-1-1764417292122--54b8b81a8c.jpg`",
+    "approvedOriginalRow": [
+      "P00 `D:\\lzz\\raw\\_content\\images\\products\\CNC-Milling-Service-1-1764417292122--54b8b81a8c.jpg`",
+      "`/media/product-studio/catalog-00-studio-v2-1536.webp`；来源为薄环状件；展示重新建立了外缘孔、环壁与凹槽的立体关系，不能作孔位或壁厚证据。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "1:1，主体宽76–82%；手机1:1完整保留，不cover裁边；主体居中，文本在图外，四边至少5%安全；中心开口、全部环周孔、台阶、外围凸耳与原透视"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p00-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P01 `D:\\lzz\\raw\\_content\\images\\products\\CNC-Milling-Service-2-1764417849930--28b1b081fe.jpg`",
+    "approvedOriginalRow": [
+      "P01 `D:\\lzz\\raw\\_content\\images\\products\\CNC-Milling-Service-2-1764417849930--28b1b081fe.jpg`",
+      "`/media/product-studio/catalog-01-studio-v2-1536.webp`；来源九类零件合照，主图抽取两件并重构；不再显示其余形态。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，合照宽90%；手机4:3全图，下方逐件说明；主体居中，文本在图外，四边至少5%安全；九类轮廓、多孔块、支架和环件的分离关系"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p01-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P02 `D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-1-1764418510957--4b51164023.jpg`",
+    "approvedOriginalRow": [
+      "P02 `D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-1-1764418510957--4b51164023.jpg`",
+      "`/media/gallery/impeller-gallery-v1-1200.webp`；来源和精修图均为曲叶轮；边缘与叶片根部仍经过处理，细节示意又是不同尺度的生成近景。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "1:1，叶轮直径82–88%；手机完整叶轮，近景单独3:2；主体居中，文本在图外，四边至少5%安全；叶片走向、外缘、中央孔和叶根；不重构叶数"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p02-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P03 `D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-2-1764418526610--635f52f78c.jpg`",
+    "approvedOriginalRow": [
+      "P03 `D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-2-1764418526610--635f52f78c.jpg`",
+      "`/media/product-studio/catalog-03-studio-v2-1536.webp`；来源为倾斜螺纹颈的锥状件；展示保留总体形态，但螺纹和内孔被重新绘制。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "4:5，主体高78–84%；手机4:5全件，螺纹顶端留8%；主体居中，文本在图外，四边至少5%安全；倾斜颈、螺纹、锥体底端与开口方向"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p03-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P04 `D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-3-1764418541931--3aeb6953e6.jpg`",
+    "approvedOriginalRow": [
+      "P04 `D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-3-1764418541931--3aeb6953e6.jpg`",
+      "`/media/product-studio/catalog-04-studio-v2-1536.webp`；蓝色扁圆件的展示中央筒部和环形腔高度、螺纹细节更明确；原图不足以确认这些重建细节。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "3:2，主体宽89%；手机3:2全件，中央筒不可压扁；主体居中，文本在图外，四边至少5%安全；低矮圆盘比例、中央孔、径向端口、外围耳位"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p04-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P05 `D:\\lzz\\raw\\_content\\images\\products\\Turning-1764418561811--0fef80039e.jpg`",
+    "approvedOriginalRow": [
+      "P05 `D:\\lzz\\raw\\_content\\images\\products\\Turning-1764418561811--0fef80039e.jpg`",
+      "`/media/product-studio/catalog-05-studio-v2-1536.webp`；来源多种轴套、箱体、转子合照；展示只有三类件，不能等同原合照供货清单。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，合照宽88%；手机4:3全组，必要细节另放静态局部图；主体居中，文本在图外，四边至少5%安全；独立零件、长短比例、端面孔与侧孔，不拼成装配"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p05-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P06 `D:\\lzz\\raw\\_content\\images\\products\\Turning-2-1764418599598--a725a21893.jpg`",
+    "approvedOriginalRow": [
+      "P06 `D:\\lzz\\raw\\_content\\images\\products\\Turning-2-1764418599598--a725a21893.jpg`",
+      "`/media/product-studio/catalog-06-studio-v2-1536.webp`；原六件包括块状件；展示选前三个圆柱/环形件并改变排布。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，原组宽90%；手机原图全组；主体居中，文本在图外，四边至少5%安全；六件分组、槽口、侧开口、圆环与方块都不删除"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p06-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P07 `D:\\lzz\\raw\\_content\\images\\products\\Turning-3-1764418610761--08a5f82825.jpg`",
+    "approvedOriginalRow": [
+      "P07 `D:\\lzz\\raw\\_content\\images\\products\\Turning-3-1764418610761--08a5f82825.jpg`",
+      "`/media/gallery/fittings-gallery-v2-1200.webp`；来源多种接头/法兰，展示仅三件且重绘了口部、螺纹和孔口。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，合照宽88%；手机全图+正文静态细节图；主体居中，文本在图外，四边至少5%安全；螺纹、软管接头、法兰、球头与不同接口均保留"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p07-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P08 `D:\\lzz\\raw\\_content\\images\\products\\Full-Service-CNC-Milling-Solutions-Custom-Metal-Parts-Manufacturer-with-Finishing-1764554912970--2f27187334.jpg`",
+    "approvedOriginalRow": [
+      "P08 `D:\\lzz\\raw\\_content\\images\\products\\Full-Service-CNC-Milling-Solutions-Custom-Metal-Parts-Manufacturer-with-Finishing-1764554912970--2f27187334.jpg`",
+      "`/media/product-studio/catalog-08-studio-v2-1536.webp`；来源多个黑色件，展示选成条状支架和圆壳；显示更整洁但减少原范围。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，组宽90%；手机4:3全图；主体居中，文本在图外，四边至少5%安全；黑色表面、不同形态分离、孔和内腔；不推定涂层种类"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p08-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P09 `D:\\lzz\\raw\\_content\\images\\products\\Custom-High-Precision-Machining-for-Structural---Aesthetic-Components-OEM-1764555402077--60c319adfb.png`",
+    "approvedOriginalRow": [
+      "P09 `D:\\lzz\\raw\\_content\\images\\products\\Custom-High-Precision-Machining-for-Structural---Aesthetic-Components-OEM-1764555402077--60c319adfb.png`",
+      "`/media/product-studio/catalog-09-studio-v2-1536.webp`；来源为多色成组，展示抽出橙/蓝两件；明暗和色相并非受控色样。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，主体群宽88%；手机完整组图；主体居中，文本在图外，四边至少5%安全；颜色差异、夹环/孔系、结构分离，不改造成同套配件"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p09-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P10 `D:\\lzz\\raw\\_content\\images\\products\\High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.jpg`",
+    "approvedOriginalRow": [
+      "P10 `D:\\lzz\\raw\\_content\\images\\products\\High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.jpg`",
+      "`/media/product-studio/catalog-10-studio-v2-1536.webp`；来源多件批次，展示缩为轴/接头/套筒三件，内部不可见几何仍不能从图确定。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，来源全组宽90%；手机4:3全图；主体居中，文本在图外，四边至少5%安全；小件多样性、内孔/细长轴、分立数量，不补剖面"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p10-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P11 `D:\\lzz\\raw\\_content\\images\\products\\High-Reliability-Precision-Machining-Turbine--Fluid---Complex-Curve-Component-OEM-1764555925002--928a6e0ea7.jpg`",
+    "approvedOriginalRow": [
+      "P11 `D:\\lzz\\raw\\_content\\images\\products\\High-Reliability-Precision-Machining-Turbine--Fluid---Complex-Curve-Component-OEM-1764555925002--928a6e0ea7.jpg`",
+      "`/media/product-studio/catalog-11-studio-v2-1536.webp`；来源开式曲叶轮含非圆中心沉腔；展示相近但重建反光和叶缘，无法证实工作性能。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "1:1，直径82–88%；手机全轮不裁叶尖；主体居中，文本在图外，四边至少5%安全；中心沉腔、曲叶朝向、叶根与外缘"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p11-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P12 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Automotive-Performance-Parts-Manufacturer-and-Aluminum-Intercooler-Prototype-Supplier-1764817974310--6b57c81038.jpg`",
+    "approvedOriginalRow": [
+      "P12 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Automotive-Performance-Parts-Manufacturer-and-Aluminum-Intercooler-Prototype-Supplier-1764817974310--6b57c81038.jpg`",
+      "`/media/product-studio/catalog-12-studio-v2-1536.webp`；源有竖向原型/芯体和端部纹理，展示清理背景并重建端部；整图容易被当完整已验证总成。",
+      "仅调整布局：intercooler-original首图，listing与batch-detail为独立来源；撤下生成端部；保留原芯体与焊接关系",
+      "3:4，主体高82%；手机3:4完整竖件，不横向cover；主体居中，文本在图外，四边至少5%安全；两片鳍片/芯体、弧形端箱、接口与实际方向"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p12-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P13 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Engine-Cover-Manufacturer-and-Automotive-Prototype-Supplier-1764818167263--638b45f01e.jpg`",
+    "approvedOriginalRow": [
+      "P13 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Engine-Cover-Manufacturer-and-Automotive-Prototype-Supplier-1764818167263--638b45f01e.jpg`",
+      "`/media/product-studio/catalog-13-studio-v2-1536.webp`；来源手持件有真实刀纹和弯曲轮廓；展示重建底部与另一侧，无法补齐背面/安装孔。",
+      "仅调整布局：engine-cover-original手持原照为首图和关联卡；保留手、刀纹与弧边，撤下补绘背面",
+      "4:3，件宽78–86%；手机4:3不裁弧顶与两端；主体居中，文本在图外，四边至少5%安全；原弧度、边缘、刀路纹理；不虚构底面和螺孔"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p13-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P14 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.jpg`",
+    "approvedOriginalRow": [
+      "P14 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.jpg`",
+      "`/media/product-studio/catalog-14-studio-v2-1536.webp`；来源是发动机/进气系统总成，主图变成完整孤立歧管，无法建立一对一结构关系。",
+      "保留本条原始资料主体，仅调整布局；按本条原始身份标注，撤下该条后生成产品及目录卡",
+      "4:5，整机高78–84%；手机4:5全机，不抠选未确认歧管；主体居中，文本在图外，四边至少5%安全；完整系统、原安装方向、可见接口；不补隐藏runner"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p14-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P15 `D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.jpg`",
+    "approvedOriginalRow": [
+      "P15 `D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.jpg`",
+      "`/media/product-studio/catalog-15-studio-v2-1536.webp`；来源是彩色CAD；展示变写实金属壳、黑色电控盖和内部阀片，容易误认现有实物完整供货。",
+      "保留原始资料主体，仅调整布局：分别标assembly reference / CAD reference / design reference；撤下该条后生成产品及目录卡",
+      "1:1，CAD主体宽78–84%；手机1:1全装配外轮廓；主体居中，文本在图外，四边至少5%安全；分件颜色、主孔/轴位、电机/齿轮腔边界；不制造实物质感"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p15-framed-480.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P16 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.jpg`",
+    "approvedOriginalRow": [
+      "P16 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.jpg`",
+      "`/media/product-studio/catalog-16-studio-v2-1536.webp`；原图本身是设计参考式渲染，当前展示进一步重绘光泽/壁部；附加CAD是同类参考，未有受控模型或零件号证明同一设计。",
+      "保留原始资料主体，仅调整布局：分别标assembly reference / CAD reference / design reference；撤下该条后生成产品及目录卡",
+      "16:9，主件宽90%；手机16:9全runner，另开局部图；主体居中，文本在图外，四边至少5%安全；runner数量/连接走向、法兰孔位、可见boss和长底管"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p16-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P17 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Intake-Plenum-Manufacturer-and-High-Performance-Tuning-Parts-Supplier-1764819540953--d22e858992.jpg`",
+    "approvedOriginalRow": [
+      "P17 `D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Intake-Plenum-Manufacturer-and-High-Performance-Tuning-Parts-Supplier-1764819540953--d22e858992.jpg`",
+      "`/media/product-studio/catalog-17-studio-v2-1536.webp`；来源含车间大件与另外端口/内腔参考；生成整体更完整，但不能补出受控内部几何。",
+      "仅调整布局：plenum-original首图；port/internal分别保留独立参考，不拼为同一受控剖面",
+      "4:3，件宽84–90%；手机4:3全件；竖向内腔图原比例独立；主体居中，文本在图外，四边至少5%安全；顶部转折、runner、底法兰与入口；不把三图拼成同一批件"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p17-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P18 `D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Machined-Castings-Transmission-Housings---Pump-Bodies-1764757074510--2cf2756006.jpg`",
+    "approvedOriginalRow": [
+      "P18 `D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Machined-Castings-Transmission-Housings---Pump-Bodies-1764757074510--2cf2756006.jpg`",
+      "`/media/product-studio/catalog-18-studio-v2-1536.webp`；来源铸壳中心有深色孔/内部件，生成重新建立孔内结构和铸面，不能证明材质/内部花键。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "1:1，壳宽82–88%；手机全壳外耳不裁；主体居中，文本在图外，四边至少5%安全；筋、孔、底脚、原铸面/加工面边界"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p18-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P19 `D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Turned-Stainless-Steel-Components-Manufacturer-and-Precision-Shaft-Supplier-1764816944325--cacdc81da0.jpg`",
+    "approvedOriginalRow": [
+      "P19 `D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Turned-Stainless-Steel-Components-Manufacturer-and-Precision-Shaft-Supplier-1764816944325--cacdc81da0.jpg`",
+      "`/media/product-studio/catalog-19-studio-v2-1536.webp`；产品主图确为双法兰，不是shaft；生成删除OFF/ON、箭头和散螺钉。能力页却给本slug另一张锁销长件图，形成身份错配。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "4:3，双件宽89%；手机全双件，原字标另配静态细节图；主体居中，文本在图外，四边至少5%安全；两个独立法兰、原OFF/ON/箭头、孔和螺钉，不宣称完整阀门"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p19-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P20 `D:\\lzz\\raw\\_content\\images\\products\\Custom-OEM-CNC-Machined-Non-Metallic-Components-Insulating-Parts-1764557225251--5ba2c574ee.jpg`",
+    "approvedOriginalRow": [
+      "P20 `D:\\lzz\\raw\\_content\\images\\products\\Custom-OEM-CNC-Machined-Non-Metallic-Components-Insulating-Parts-1764557225251--5ba2c574ee.jpg`",
+      "`/media/product-studio/catalog-20-studio-v2-1536.webp`；来源和展示均圆形，但生成改变孔缘与反光，颜色不能识别材料或绝缘能力。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "1:1，圆件直径82–88%；手机整圆，不裁突出部；主体居中，文本在图外，四边至少5%安全；径向槽、外围孔、中心凸部与原厚度透视"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p20-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P21 `D:\\lzz\\raw\\_content\\images\\products\\Plastic-Parts-1764418490181--3049ef7c93.jpg`",
+    "approvedOriginalRow": [
+      "P21 `D:\\lzz\\raw\\_content\\images\\products\\Plastic-Parts-1764418490181--3049ef7c93.jpg`",
+      "`/media/product-studio/catalog-21-studio-v2-1536.webp`；来源多种板/齿形/盒状件；展示选三件且为重绘，不能代表所有聚合物或同批。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，来源集合宽90%；手机4:3全图；主体居中，文本在图外，四边至少5%安全；多形态、齿形与板件的分离；不增加材料标签到照片上"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p21-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P22 `D:\\lzz\\raw\\_content\\images\\products\\OEM-Precision-CNC-Machined-Casting-Housing---Structural-Enclosures-1764756565591--89bc1a30be.jpg`",
+    "approvedOriginalRow": [
+      "P22 `D:\\lzz\\raw\\_content\\images\\products\\OEM-Precision-CNC-Machined-Casting-Housing---Structural-Enclosures-1764756565591--89bc1a30be.jpg`",
+      "`/media/gallery/casting-gallery-v1-1200.webp`；带透明背景的精修与来源同一开式壳轮廓，内部孔与筋仍有重绘；阴影与抠边处理不能替代原铸面检查。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "1:1，外壳宽84–90%；手机整外缘+完整中央孔；主体居中，文本在图外，四边至少5%安全；内筋、各开孔、周边紧固孔、非矩形外轮廓"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p22-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P23 `D:\\lzz\\raw\\_content\\images\\products\\OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.jpg`",
+    "approvedOriginalRow": [
+      "P23 `D:\\lzz\\raw\\_content\\images\\products\\OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.jpg`",
+      "`/media/product-studio/catalog-23-studio-v2-1536.webp`；来源为圆形盖体加上下同轴接管；展示改变视角成强对角姿态，深度和后部结构难以与原图核对。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:5，主体高82–88%；手机保持原上下方向；主体居中，文本在图外，四边至少5%安全；圆形盖、上下接管、法兰耳、方向箭头"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p23-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P24 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machined-Castings---Custom-OEM-Housings-1764756207527--bd238e3ac3.jpg`",
+    "approvedOriginalRow": [
+      "P24 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machined-Castings---Custom-OEM-Housings-1764756207527--bd238e3ac3.jpg`",
+      "`/media/product-studio/catalog-24-studio-v2-1536.webp`；来源与展示都为偏置通道的不规则壳；透视与孔壁被生成重建。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，件宽84–90%；手机4:3全件；主体居中，文本在图外，四边至少5%安全；大/小孔、法兰孔系、筋与外伸通道"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p24-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P25 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machined-Castings-Manufacturer-1764757607644--746269a403.jpg`",
+    "approvedOriginalRow": [
+      "P25 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machined-Castings-Manufacturer-1764757607644--746269a403.jpg`",
+      "`/media/product-studio/catalog-25-studio-v2-1536.webp`；原壳看得到大孔与内腔，展示把高度、内壁、支撑筋绘得更规整；照片未证明隐藏齿/流道。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，壳宽89%；手机完整内腔边界；主体居中，文本在图外，四边至少5%安全；大孔位置、周边boss、前开口、原铸面"
+    ],
+    "status": "implemented",
+    "result": "仅裁多余画布，完整来源另保留",
+    "finalMedia": [
+      "/media/product-sources-20261015/p25-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P26 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machining-for-Complex-Plastic-Geometries-and-Tight-Tolerances-1764558015887--2ed6fe3732.jpg`",
+    "approvedOriginalRow": [
+      "P26 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machining-for-Complex-Plastic-Geometries-and-Tight-Tolerances-1764558015887--2ed6fe3732.jpg`",
+      "`/media/gallery/plastic-gallery-v1-1200.webp`；原绿色多孔条批次，当前精修带透明背景，强化孔深与倒角；仍不能识别聚合物或公差。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "3:2，组宽90%；手机3:2全组，不裁首尾孔；主体居中，文本在图外，四边至少5%安全；条数、逐排孔、端面堆叠与原长宽比"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p26-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P27 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Turned-Brass-Components-Manufacturer-and-Copper-Parts-Supplier-1764759544533--731dc8eed7.jpg`",
+    "approvedOriginalRow": [
+      "P27 `D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Turned-Brass-Components-Manufacturer-and-Copper-Parts-Supplier-1764759544533--731dc8eed7.jpg`",
+      "`/media/gallery/brass-gallery-v2-1200.webp`；来源为密集批次螺纹件，展示是三颗重构六角堵头，功能、尺寸和数量不能等同。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，批次宽90%；手机全图+正文独立真实细节图；主体居中，文本在图外，四边至少5%安全；六角头、螺纹、混合朝向、实际批次密度"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p27-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P28 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Low-Volume-CNC-Machining-Manufacturer-and-HMLV-Components-Supplier-1764758900962--0c522f190d.jpg`",
+    "approvedOriginalRow": [
+      "P28 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Low-Volume-CNC-Machining-Manufacturer-and-HMLV-Components-Supplier-1764758900962--0c522f190d.jpg`",
+      "`/media/product-studio/catalog-28-studio-v2-1536.webp`；原图为多排同族小壳，展示只两件且差异较大；并无“matched”关系证据。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "3:4，批次高88%；手机竖向全排，不裁成只有两件；主体居中，文本在图外，四边至少5%安全；各行数量语境、重复壳轮廓、孔与腔"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p28-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P29 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Machining-for-Functional-Plastic-Blocks---Structural-Components-1764557850986--18253f13c7.jpg`",
+    "approvedOriginalRow": [
+      "P29 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Machining-for-Functional-Plastic-Blocks---Structural-Components-1764557850986--18253f13c7.jpg`",
+      "`/media/products-editorial-20261014/polymer-support-block-1200.webp`；来源绿色圆形带弧形凹口件，现主图是矩形带阶孔支撑块，主体轮廓、孔与接口皆不同。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图；形态改称Circular plastic component reference，保留中心孔周围4个小孔，不再称矩形块",
+      "1:1，圆件直径82–88%；手机完整外缘，不能切掉凹口；主体居中，文本在图外，四边至少5%安全；中心孔、周围4个小孔、环周弧形凹口与原层叠边缘"
+    ],
+    "status": "implemented",
+    "result": "原主体像素保留，ImageGen空背景合成已采用",
+    "finalMedia": [
+      "/media/product-sources-20261015/p29-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P30 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.jpg`",
+    "approvedOriginalRow": [
+      "P30 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.jpg`",
+      "`/media/product-studio/catalog-30-studio-v2-1536.webp`；来源多排矩形壳体，生成两件补出侧腔深度和孔位；原照片不足以把compound angle当该件事实。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，批次宽90%；手机4:3全图+正文静态细节图；主体居中，文本在图外，四边至少5%安全；侧开口、内孔、外耳、重复样件差异"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p30-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P31 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Stainless-Steel-CNC-Turned-Parts-Manufacturer-and-316L-Components-Supplier-1764815807487--200e743e3f.jpg`",
+    "approvedOriginalRow": [
+      "P31 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Stainless-Steel-CNC-Turned-Parts-Manufacturer-and-316L-Components-Supplier-1764815807487--200e743e3f.jpg`",
+      "`/media/product-studio/catalog-31-studio-v2-1536.webp`；来源有OFF/ON与箭头的回转组件和独立法兰；生成去掉标记，文本按普通长轴/接头解释过多。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "4:3，双件宽89%；手机全件+标记局部；主体居中，文本在图外，四边至少5%安全；侧向外形、法兰、原字标、孔轴线与外端"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p31-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P32 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Stainless-Steel-Indexing-Plunger-Manufacturer-and-Spring-Loaded-Locking-Pin-Supplier-1764817299753--5e240a8195.jpg`",
+    "approvedOriginalRow": [
+      "P32 `D:\\lzz\\raw\\_content\\images\\products\\Precision-Stainless-Steel-Indexing-Plunger-Manufacturer-and-Spring-Loaded-Locking-Pin-Supplier-1764817299753--5e240a8195.jpg`",
+      "`/media/gallery/locking-pin-gallery-v1-1200.webp`；原图与精修主体一致，是盘头、螺纹、调节螺母和细端销组合；照片不显示内部弹簧与行程。",
+      "基于真实原图编辑：保留原主体像素，只整理背景/扩画布；替换该条所有生成/未可靠核对的精修图",
+      "3:2，主体长度90%；手机3:2整件，两端各留5%；主体居中，文本在图外，四边至少5%安全；盘头、长轴肩、螺纹、调节螺母、细端销，长度比例不重画"
+    ],
+    "status": "source-fallback-background-upgrade-pending",
+    "result": "候选未采用：边缘/高光无法可靠分离；已用完整原主体和自然比例兜底，进一步净背景待可靠实拍",
+    "finalMedia": [
+      "/media/product-sources-20261015/p32-framed-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P33 `D:\\lzz\\raw\\_content\\images\\products\\Small-Batch-CNC-Machining-Manufacturer-Complex-Aluminum-Housings-1764758302026--a5c49734de.jpg`",
+    "approvedOriginalRow": [
+      "P33 `D:\\lzz\\raw\\_content\\images\\products\\Small-Batch-CNC-Machining-Manufacturer-Complex-Aluminum-Housings-1764758302026--a5c49734de.jpg`",
+      "`/media/product-studio/catalog-33-studio-v2-1536.webp`；来源多件铝壳，展示变一个壳体并重建支撑外耳；没有配套盖板/垫片实物证据。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，群宽90%；手机4:3全组；主体居中，文本在图外，四边至少5%安全；开腔、周边孔、壁与外耳、不同朝向"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p33-1200.webp"
+    ]
+  },
+  {
+    "group": "5.3 全部35个产品主图与关联卡片",
+    "key": "P34 `D:\\lzz\\raw\\_content\\images\\products\\Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.jpg`",
+    "approvedOriginalRow": [
+      "P34 `D:\\lzz\\raw\\_content\\images\\products\\Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.jpg`",
+      "`/media/product-studio/catalog-34-studio-v2-1536.webp`；来源为同形回转件成排，展示仅三件同材质外观；混料计划图是另一组完全不同的生成件。",
+      "仅调整布局/裁切：完整来源作为该条主图与目录卡；统一容器/白边，不重组或重建主体",
+      "4:3，批次宽90%；手机4:3全排；主体居中，文本在图外，四边至少5%安全；长轴/法兰/槽的重复形态，保持原排列与比例"
+    ],
+    "status": "implemented",
+    "result": "完整来源/独立真实参考恢复；无产品重画",
+    "finalMedia": [
+      "/media/product-sources-20261015/p34-1200.webp"
+    ]
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "Products overview形态合图",
+    "approvedOriginalRow": [
+      "Products overview形态合图",
+      "/media/products-editorial-20261014/part-families-1200.webp；生成示意，无对应同批原照。",
+      "保留为形态索引示意；图注写示意；不得当产出集合或case cover。",
+      "3:2，群宽86%；手机3:2完整四类，不能裁剩一类。",
+      "housing/shaft/brass/polymer分别可识别；链接形态目录。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "Batch planning合图",
+    "approvedOriginalRow": [
+      "Batch planning合图",
+      "/media/products-editorial-20261014/mixed-part-planning-1200.webp；生成。",
+      "仅P28/P34的BOM规划模块使用；每类旁写“separate part number”。",
+      "3:2，群宽88%；手机完整合图，BOM文字在图下。",
+      "壳盖、轴、接头、滚子、支架分立，不能暗示照片实际同单。"
+    ],
+    "status": "implemented",
+    "result": "未用装饰合图延长页面；P28/P34以逐料号字段直接呈现，旧素材留档",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "P02 blade/root近景",
+    "approvedOriginalRow": [
+      "P02 blade/root近景",
+      "P02原叶轮真实照片；当前 /media/product-reading-20261014/impeller-geometry-1200.webp 为未可靠核对的生成近景。",
+      "撤下此生成近景，改原叶轮的静态真实局部裁切，HTML说明blade/root/hub；不重画叶片和孔。",
+      "3:2局部框，hub和叶根占70%，手机完整显示该真实局部；整体原轮仍同屏/邻接。",
+      "保留原叶缘与hub孔；不把纹理写成粗糙度或检验结果；进入5-axis能力。"
+    ],
+    "status": "implemented",
+    "result": "采用原叶轮真实局部裁切并邻接整体",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "P12 two补充视图",
+    "approvedOriginalRow": [
+      "P12 two补充视图",
+      "source-details/intercooler-original与intercooler-batch-detail；additionalMedia.kind=reference-photo。",
+      "首张用original；batch detail只解释重复鳍片/端部，不称同订单或冷却能力。",
+      "竖图3:4，主体高82%；手机原竖比例，不裁掉完整芯体。",
+      "鳍片、端箱、真实排列；接assembly scope。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "P13 hand-held原图",
+    "approvedOriginalRow": [
+      "P13 hand-held原图",
+      "source-details/engine-cover-original-1200.webp；reference-photo。",
+      "原图首图，手保留；下方直接列缺的underside/mating/bolt资料。",
+      "4:3，件宽80%；手机全弧面+两端，留手作上下文。",
+      "刀路与原弧边；不生成安装孔来填空。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "P16 runner CAD",
+    "approvedOriginalRow": [
+      "P16 runner CAD",
+      "source-details/intake-runner-cad-1200.webp；cad-reference。",
+      "独立CAD参考，说明未证实与列表图同受控版本；不作额外实拍。",
+      "约1.91:1，件宽90%；手机全长，细节另放正文静态局部图。",
+      "runner/法兰/boss；接injector/fuel-rail图纸输入。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "P17 port/internal",
+    "approvedOriginalRow": [
+      "P17 port/internal",
+      "source-details/plenum-port-detail、plenum-internal-detail；两个reference-photo来源文件不同。",
+      "分别标接口局部/内部形态参考，不能拼作受控剖面或同一件验证过程。",
+      "port 4:3，internal 9:16；手机各自完整比例，不拼一横排。",
+      "孔口、过渡壁、工具纹理；接控制模型和压力条件。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "Covered parts原图组",
+    "approvedOriginalRow": [
+      "Covered parts原图组",
+      "additionalMedia covered-wheels/covered-rollers/covered-shaped-parts。",
+      "保留三张原参考，不生成新包覆厚度；与齿轮集合明确分开。",
+      "轮4:3、滚子3:4、异形4:3；手机整件，无通用cover。",
+      "金属芯、表层、轴端/孔/连接；硬度/配方/粘接待定。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.4 产品集合/补充资料与研究图位",
+    "key": "Gear forms原图组",
+    "approvedOriginalRow": [
+      "Gear forms原图组",
+      "additionalMedia gear-bevel-examples/gear-cylindrical-examples。",
+      "保留原集合；齿形图片帮助识别cone/cylinder，不派生齿数/模数。",
+      "4:3，两组群宽92%；手机完整图+正文真实齿细节图。",
+      "齿向、锥/柱形、hub/bore；接tooth spec/mate/inspection。"
+    ],
+    "status": "implemented",
+    "result": "原资料完整保留、按独立来源与自然比例呈现",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I1 Hub `capabilities-section-20261014/capability-family-1200.webp`",
+    "approvedOriginalRow": [
+      "I1 Hub `capabilities-section-20261014/capability-family-1200.webp`",
+      "四种泛用形态完整、便于识别材质族；不是实际交付四件套。",
+      "保留",
+      "CAP-H1 辅图，3:2、完整轮廓、白底；手机不撑满首屏。AI 图注保留"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I2 directory 的 `cnc-milling-service`、`cnc-turning-service`、`5-axis-cnc-machining`、`plastic-machined-parts`、`casting-machining`（目录 `capability-directory-20261014/*-800.webp`）",
+    "approvedOriginalRow": [
+      "I2 directory 的 `cnc-milling-service`、`cnc-turning-service`、`5-axis-cnc-machining`、`plastic-machined-parts`、`casting-machining`（目录 `capability-directory-20261014/*-800.webp`）",
+      "工具、卡盘/工装与工件能区分五种概念；是通用渲染，不能作设备实拍。",
+      "保留",
+      "H2 120–160px 辅图，3:2 contain，刀具与接近工件的位置均保留；每个链接旁明确文字选路"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I3 `services-reading-20261014/milling-features-1200.webp`",
+    "approvedOriginalRow": [
+      "I3 `services-reading-20261014/milling-features-1200.webp`",
+      "可见口袋/内圆角/孔/薄壁；没有公差或实际测量信息。",
+      "保留",
+      "P2/M5 小型工程说明，3:2 全形；可用网页 HTML 标注特征，不在位图伪写数值"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I4 `turning-reading-20261014/turned-features-1200.webp`",
+    "approvedOriginalRow": [
+      "I4 `turning-reading-20261014/turned-features-1200.webp`",
+      "轴向孔、肩、槽、外螺纹及横孔清晰；AI 图不能判定线程标准与 runout。",
+      "保留",
+      "P2 3:2，全形，两端不裁；参数用旁边表格"
+    ],
+    "status": "implemented",
+    "result": "示意图仅保留技术解释位，重复首屏移除；保留AI图注",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I5 `product-reading-20261014/impeller-geometry-1200.webp`",
+    "approvedOriginalRow": [
+      "I5 `product-reading-20261014/impeller-geometry-1200.webp`",
+      "当前为未可靠核对的P02生成叶片近景，不能确认具体叶根结构。",
+      "退出生成图，改原片真实局部",
+      "使用第5.3节P02原叶轮真实裁切，3:2、hub与叶根占70%，HTML标形态名称，不重画叶片/隐藏侧或写粗糙度数值；原整体保持邻接。"
+    ],
+    "status": "implemented",
+    "result": "错误/未核生成主体退出；同步原产品或原工序来源，修正身份并去重",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I6 `services-reading-20261014/casting-stages-1200.webp`",
+    "approvedOriginalRow": [
+      "I6 `services-reading-20261014/casting-stages-1200.webp`",
+      "泛用粗坯/finished interfaces 对照；不是同一实际零件的前后记录。",
+      "保留",
+      "casting P2，只标“AI blank/finished-interface concept”；从 sample 页重复段移出，3:2 两件完整"
+    ],
+    "status": "implemented",
+    "result": "示意图仅保留技术解释位，重复首屏移除；保留AI图注",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I7 `capabilities-section-20261014/plastic-support-1200.webp`",
+    "approvedOriginalRow": [
+      "I7 `capabilities-section-20261014/plastic-support-1200.webp`",
+      "支撑板、四角夹持概念可见；不能证明实际夹具、材料牌号或挠度。",
+      "保留",
+      "plastic M4，3:2 全 fixture；放在低应力/测量条件说明附近，不当真实 workshop photo"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I8 `capabilities-section-20261014/aluminum-finish-1200.webp`",
+    "approvedOriginalRow": [
+      "I8 `capabilities-section-20261014/aluminum-finish-1200.webp`",
+      "相同 housing 的银/深色概念能解释 masking；不能保证颜色、膜厚或已处理质量。",
+      "保留",
+      "aluminum M4 两物同尺度完整，不拆成“真实before/after”；处理标准由文字给出"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I9 `capabilities-section-20261014/sample-definition-1200.webp`",
+    "approvedOriginalRow": [
+      "I9 `capabilities-section-20261014/sample-definition-1200.webp`",
+      "housing+outline sheets+caliper 是概念；图纸无批准信息，量具刻度不能读作实测。",
+      "保留",
+      "S1 一次使用；H4 可缩略链接；3:2、零件/纸张完整，明确 not approved drawing/reconstruction record"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I10 `gallery/rfq-gallery-v1-1440.webp`、`gallery/prototype-gallery-v1-1440.webp`",
+    "approvedOriginalRow": [
+      "I10 `gallery/rfq-gallery-v1-1440.webp`、`gallery/prototype-gallery-v1-1440.webp`",
+      "单件+图纸、单件+组件两种概念；不证明样件批准/批次数量。",
+      "保留",
+      "A1/L1 小图，3:2；数量/放行由文字定义，不加订单数字与客户标记"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I11 Factory `factory-unified-20261015/inspection-concept-1200.webp`",
+    "approvedOriginalRow": [
+      "I11 Factory `factory-unified-20261015/inspection-concept-1200.webp`",
+      "探球悬在孔内，与孔壁有可见间隙；旁文讲 touch probe checks bore，但画面不能清楚解释接触测量。",
+      "**非证据重生成**",
+      "新概念 3:2，45°俯视；同一简单 block、3 个明确支撑点、夹具不穿透零件；探杆竖直，球接触可见内壁，接触点与球/杆完整；无屏幕读数、证书、品牌、合格印章。参考当前图与 R3/R4 的探头/工装关系；继续 AI 图注，绝不称 LZZ 实际测试"
+    ],
+    "status": "implemented",
+    "result": "ImageGen接触测量概念已采用，探球/孔壁关系和AI身份已查",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I12 Turning/Stainless `turning-reading-20261014/shaft-retouched-1200.webp`",
+    "approvedOriginalRow": [
+      "I12 Turning/Stainless `turning-reading-20261014/shaft-retouched-1200.webp`",
+      "P19来源是带ON/OFF、箭头和散螺钉的法兰组件，当前误绑定P32锁销",
+      "纠正图位/归属",
+      "P19卡恢复原法兰主体与本条链接，标题按法兰；该锁销精修不再绑定P19。P32按上表用自己的来源主体；不再用同一长销推所有stainless形态"
+    ],
+    "status": "implemented",
+    "result": "错误/未核生成主体退出；同步原产品或原工序来源，修正身份并去重",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I13 铜 `brass-threaded-plugs-retouched-v1-1536.webp` / `gallery/brass-gallery-v2-1200.webp`",
+    "approvedOriginalRow": [
+      "I13 铜 `brass-threaded-plugs-retouched-v1-1536.webp` / `gallery/brass-gallery-v2-1200.webp`",
+      "具体P27图存在三件重构与原密集批次的差别；材料/线程/压力不能看色判断。",
+      "同步原主体并去重",
+      "P27示例改第5.3节真实批次；铜用途照片用R13原brass-plugs，不保留上述精修作为P27例外。M3一次图，M5用文字/方法条件；主体完整、白底contain，不重画线程。"
+    ],
+    "status": "implemented",
+    "result": "错误/未核生成主体退出；同步原产品或原工序来源，修正身份并去重",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I14 plastic `polymer-shafts-retouched-v1-1536.webp`",
+    "approvedOriginalRow": [
+      "I14 plastic `polymer-shafts-retouched-v1-1536.webp`",
+      "精修与PTFE collection有关，但未经可靠几何/材料确认。",
+      "改用对应原片",
+      "复用R14 `source-details/plastic-ptfe-shafts-1200.webp`真实细长件，完整原比contain，caption归于源集合命名而非材质鉴定；不再让精修承担特定结构展示。"
+    ],
+    "status": "implemented",
+    "result": "错误/未核生成主体退出；同步原产品或原工序来源，修正身份并去重",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I15 当前能力页studio零件示例",
+    "approvedOriginalRow": [
+      "I15 当前能力页studio零件示例",
+      "各产品的几何重建与来源冲突见35行原图表",
+      "同步产品原图表",
+      "P3/M3/A3/L4/S2具体条目全部按P-ID恢复对应来源主体；不另作“能力页可保留生成产品”的例外。默认4:3完整contain；P15保持CAD身份，P29保持原圆件"
+    ],
+    "status": "implemented",
+    "result": "错误/未核生成主体退出；同步原产品或原工序来源，修正身份并去重",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "I16 `gallery/fittings-gallery-v2-1200.webp` / `gallery/casting-gallery-v1-1200.webp` / `gallery/locking-pin-gallery-v1-1200.webp` / `gallery/plastic-gallery-v1-1200.webp`",
+    "approvedOriginalRow": [
+      "I16 `gallery/fittings-gallery-v2-1200.webp` / `gallery/casting-gallery-v1-1200.webp` / `gallery/locking-pin-gallery-v1-1200.webp` / `gallery/plastic-gallery-v1-1200.webp`",
+      "具体条目身份和未可靠核对细节分别见P07/P22/P32/P26，透明底不等于结构已验证。",
+      "同步原主体和容器",
+      "关联卡和示例分别用P07/P22/P32/P26原主体，当前gallery留档；完整轮廓、统一白色图框、每页单次。Plastic按原多孔条组命名，不写复杂多方向几何已证实。"
+    ],
+    "status": "implemented",
+    "result": "错误/未核生成主体退出；同步原产品或原工序来源，修正身份并去重",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R1 `evidence/workshop-wide-1600.webp`",
+    "approvedOriginalRow": [
+      "R1 `evidence/workshop-wide-1600.webp`",
+      "`10，Producing Department-生产车间/1 (7).jpg`；机器行与通道，屋顶/地面占比较大",
+      "裁切布局",
+      "F1 桌面可 16:7–16:9，重心机器行，保留近端整机与后方纵深；手机 4:3/自然比例，不强裁成极窄 banner。只证明照片中的场地和设备行"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R2 `evidence/workshop-operators-2025-1600.webp`",
+    "approvedOriginalRow": [
+      "R2 `evidence/workshop-operators-2025-1600.webp`",
+      "`10，Producing Department-生产车间/微信图片_20251104221718_145_246.jpg`；两位操作者与两侧机器可见",
+      "保留",
+      "F2 4:3 自然比例，人物/机床上下文完整；source archive November 2025 不是重新核实的拍摄日/当前人数"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R3 `evidence/cmm-room-1600.webp`",
+    "approvedOriginalRow": [
+      "R3 `evidence/cmm-room-1600.webp`",
+      "`10，Producing Department-生产车间/1 (84).jpg`；完整 CMM/测台/环境",
+      "保留",
+      "F4 竖幅 3:4/自然比例，宽 270–340px；测头、测台不裁；只证明设备可见，不证明当前校准/量程/精度"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R4 `evidence/cmm-detail-1600.webp`",
+    "approvedOriginalRow": [
+      "R4 `evidence/cmm-detail-1600.webp`",
+      "`10，Producing Department-生产车间/1 (85).jpg`；探头、校准球、工件/夹具同场，不等于当时在量该工件",
+      "裁切布局",
+      "只在 Factory 方法补充可选查看；从所有能力页通用 note 的重复小图移除，保留质量链接。不得裁成虚假接触点/合格结果"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R5 `evidence/milling-enclosure-operation-1600.webp`",
+    "approvedOriginalRow": [
+      "R5 `evidence/milling-enclosure-operation-1600.webp`",
+      "`20251203力智造产品加工过程中图片/产品4-铣加工/0a5402c99ab04d0826457ec57f22fbc8.jpg`；刀具/工件/虎钳与切屑可见",
+      "保留",
+      "F3 或 aluminum M4，4:3 全 setup；手机不把夹持点裁掉；不证明合金、±0.01 或验收结果"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R6 `evidence/turning-operation-1600.webp`",
+    "approvedOriginalRow": [
+      "R6 `evidence/turning-operation-1600.webp`",
+      "`20251203力智造产品加工过程中图片/产品2-车加工/6c06c0a46e0bf5eae2d41d80616b236e.jpg`；卡盘工件、刀塔/冷却液，真实竖幅",
+      "裁切布局",
+      "竖幅图不要压成横向卡片或放大裁切；F3 竖图容器高度 280–360px、P5 可较大，完整工件与刀具关系；不去除机床标志伪成别的型号"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R7 `evidence/five-axis-machine-wide-1600.webp`",
+    "approvedOriginalRow": [
+      "R7 `evidence/five-axis-machine-wide-1600.webp`",
+      "`20251203力智造产品加工过程中图片/产品1-五轴加工/d3928b0409cc533dffd9561fedbb4b63.jpg`；主轴/转台/工件的较完整关系，真实竖幅",
+      "裁切布局",
+      "F3/P5 原比例 contain；不要与 R8 近似图同页并列放大；不能凭单帧证明 simultaneous path/行程/负载"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R8 `evidence/five-axis-operation-1600.webp`",
+    "approvedOriginalRow": [
+      "R8 `evidence/five-axis-operation-1600.webp`",
+      "同目录 `db22827e75937add7eb7e1636af6ab94.jpg`；同 setup 较近视角",
+      "裁切布局",
+      "移为 matching machining study 的操作细节，P5 选 R7+R9 已足够；移动不是删除原证据"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R9 `evidence/five-axis-parts-1600.webp`",
+    "approvedOriginalRow": [
+      "R9 `evidence/five-axis-parts-1600.webp`",
+      "同目录 `f743ece664101831b1f642aad280916f.jpg`；同组多面孔件，实际竖幅",
+      "保留",
+      "P5 原比例；可以相邻文案标 common datums/feature relationships，不能写订单数量、grade、合格率或客户结果"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R10 `evidence/two-stage-first-1600.webp` / `two-stage-second-1600.webp`",
+    "approvedOriginalRow": [
+      "R10 `evidence/two-stage-first-1600.webp` / `two-stage-second-1600.webp`",
+      "`20251203力智造产品加工过程中图片/产品6-同一个产品-2个不同工序的铣加工/15af15bf59dadc3a3daf31888ada46b6.jpg` / `d31c871835ad1c575272ad874ebe3f55.jpg`；同一个件在两 setup 中",
+      "保留",
+      "P5 两幅 4:3，保持相近视野与尺度；只标 source setup 1/2，不画不存在的 datum 数值；详细解释转至 study"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R11 `evidence/turn-mill-operation-1600.webp` / `turning-parts-1600.webp`",
+    "approvedOriginalRow": [
+      "R11 `evidence/turn-mill-operation-1600.webp` / `turning-parts-1600.webp`",
+      "前者来源`20251203力智造产品加工过程中图片/产品3-车加工完成后的铣加工/44a8d35e74bf5e21513fcef0db0caf80.jpg`；后者为产品2组圆盘形态记录，不是同件追踪。",
+      "裁切布局及去重",
+      "CAP-P5使用R6车削＋本行turn-mill-operation原图：R6竖幅完整、二次铣4:3完整，caption分别注明setup参考。turning-parts退出本工艺页、保留来源档案；不再规定setup＋forms组合，也不暗示两照片是同一受控订单。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R12 `evidence/milling-enclosure-parts-1600.webp` / `aluminum-housings-1600.webp`",
+    "approvedOriginalRow": [
+      "R12 `evidence/milling-enclosure-parts-1600.webp` / `aluminum-housings-1600.webp`",
+      "`20251203力智造产品加工过程中图片/产品4-铣加工/cad544d5f3f868d241fb876c7708b7b0.jpg`；`20251201/铝制零件/b9a2df3748dfeb55c9360a118a465f5d.jpg`；前者 circular recess 同组件，后者矩形 housing 群",
+      "裁切布局",
+      "Aluminum M4 选一个 finished form；另一个留 matching study；原比例，不等高裁掉接口；材料名称归于 source collection，不视为已化验"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R13 `evidence/brass-plugs-1200.webp` / `source-details/metal-brass-batch-1200.webp`",
+    "approvedOriginalRow": [
+      "R13 `evidence/brass-plugs-1200.webp` / `source-details/metal-brass-batch-1200.webp`",
+      "`20251201/黄铜零件/7db93e137da06879e3824ff60569d9f1.jpg` / `592b2ac3c185c3d92dcc0c3899fc296e.jpg`；塞头与通孔 fittings 群",
+      "保留",
+      "Copper M4 可一图一行比较 plug/fitting，1:1 原比例；不按颜色识别 C36000/材料限制或做压力合格证明"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R14 `source-details/plastic-ptfe-intermediate-1200.webp` / `plastic-ptfe-shafts-1200.webp` / `plastic-ptfe-batch-1200.webp`",
+    "approvedOriginalRow": [
+      "R14 `source-details/plastic-ptfe-intermediate-1200.webp` / `plastic-ptfe-shafts-1200.webp` / `plastic-ptfe-batch-1200.webp`",
+      "`20251201塑料制品零件/特氟龙制品/半成品.jpg` / `特氟龙轴类.jpg` / `23f01cbcd25c7ad18df7e57adffaee9f.jpg`；未分离毛坯、台阶细长件、小孔板",
+      "裁切布局",
+      "Plastic M4 选两张原比例 9:16/3:4，手机不连续铺三张长图；第三张移 plastic study；图注材料“identified as PTFE in collection”，不推断 food/medical/electrical qualification"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R15 `source-details/peek-parts.mp4` / `peek-parts-poster.webp`",
+    "approvedOriginalRow": [
+      "R15 `source-details/peek-parts.mp4` / `peek-parts-poster.webp`",
+      "`20250108PEEK材质加工好的零件成品视频/95d6e9b27a297bf639638377fb028662.mp4`；source record 3.367s、544×960，poster 可见孔/平行槽",
+      "保留",
+      "Plastic M4 原比例 9:16、controls、preload none；caption 原片且 grade 来自 collection，不能称已验证 PEEK性能。本轮只看 poster"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R16 `evidence/shipping-example-1600.webp` / `shipment-2022-order-packing-1600.webp`",
+    "approvedOriginalRow": [
+      "R16 `evidence/shipping-example-1600.webp` / `shipment-2022-order-packing-1600.webp`",
+      "`17，发货资料/IMG_20221121_091701.jpg` / `IMG_20221120_161920.jpg`；大黄色支架、大型机械/环件与木箱，并非 sealing face/thread 的小件包装细节",
+      "**补拍**",
+      "F7/L5 当前证据角色以真实小件包装补拍替换：4:3、俯视+45°两张；同一公开许可零件的独立分隔、接触面保护、标签/料号/版本/数量字段及封箱关系；机密字段实物先遮挡，不生成记录。旧图保留档案且只称历史发货准备，不能推断目的国/运输条款/到货"
+    ],
+    "status": "missing-real-media",
+    "result": "小件包装实拍未取得；Factory/批次不再以大件照片作证明，保护与责任HTML常显；旧照片只留历史档案",
+    "finalMedia": []
+  },
+  {
+    "group": "5.5 Capabilities与Factory图位",
+    "key": "R17 `source-details/metal-turned-shaft-1200.webp` / `metal-turned-batch-1200.webp`",
+    "approvedOriginalRow": [
+      "R17 `source-details/metal-turned-shaft-1200.webp` / `metal-turned-batch-1200.webp`",
+      "`20251201/车加工零件/4b304ef1caca084caa8746bee45f21f2.jpg` / `7b0404487a3d7d289456cd0496839726.jpg`；前者与现 locking form 同形，后者细长台阶件行",
+      "保留",
+      "用来核对 I12 来源/形态，而非源图鉴材；需要真实 shaft 形态时优先 batch 记录，3:4 原比例、说明 source grouping"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I1 公司/地址车间",
+    "approvedOriginalRow": [
+      "I1 公司/地址车间",
+      "`/media/evidence/workshop-wide-1600.webp`，1600×1108",
+      "清楚显示设备列与生产环境；不证明当前台数或在产排程。已看像素。",
+      "保留原图，完整自然比例；桌面配文图宽约540–620px，手机可用宽；不作cover背景、不压成横幅。overview/profile/contact每页最多1次。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I2 来访零件讨论",
+    "approvedOriginalRow": [
+      "I2 来访零件讨论",
+      "`/media/company-news/australian-visit-03-1600.webp`，1279×1706",
+      "实际可见双方手持壳体，确实支持“looking at a component”；不证明验收通过/客户成果。已看像素。",
+      "用03替代overview/profile/news index及文章01承担的“零件讨论”图位；完整竖幅，桌面宽320–390px，手机最大可用宽，人物手部与零件全部保留；图注不写实测/批准。"
+    ],
+    "status": "implemented",
+    "result": "03手持零件原照用于讨论，01仅中性交谈；日期冲突待真实资料核对",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I3 Profile车间纵深",
+    "approvedOriginalRow": [
+      "I3 Profile车间纵深",
+      "`/media/evidence/workshop-aisle-1200.webp`，1200×1601",
+      "原始生产走道；不是公司规模数据证明。像素未单独打开，引用/比例已核。",
+      "保留，仅放工程范围模块。桌面高约460px、宽由比例求，手机不超过整栏、不强行满宽拉成长屏；不裁掉走道来制造新场景。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I4 峰会纪实",
+    "approvedOriginalRow": [
+      "I4 峰会纪实",
+      "`/media/company-news/china-africa-summit-01-1600.webp`，1600×1088",
+      "代表与活动背景，支持attendance/backdrop；不支持合作/签约。已看像素。",
+      "保留自然比例；新闻封面/纪实条目进入内容页，正文图片静态。保留人物全身、活动背景，不截取活动Logo伪作客户徽章。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I5 高新技术证书",
+    "approvedOriginalRow": [
+      "I5 高新技术证书",
+      "`/media/High-tech-Enterprise-Certificate-1764396986484--69861fe474.webp`，650×456",
+      "可见企业名、日期、printed three-year validity/印章；非ISO。已看像素。",
+      "保留完整静态原件，不超原像素放大、不裁边；连续资料行桌面宽约400–520px、手机整栏。English summary/issued date/printed validity直接在图旁或下方显示；不把证号用于推断当前状态。"
+    ],
+    "status": "implemented",
+    "result": "三份完整原件＋类型/日期/范围摘要常显，不作ISO替代",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I6 科技型中小企业",
+    "approvedOriginalRow": [
+      "I6 科技型中小企业",
+      "`/media/Zhejiang-1764397018975--75b9eb4d46.webp`，549×776",
+      "省级企业认可；原件无明确issue date。已看像素。",
+      "保留完整竖幅，桌面宽约300–340px、手机可用宽；不按横证书固定同高裁切。可见summary写无明确日期，不从证号年份补日期。"
+    ],
+    "status": "implemented",
+    "result": "三份完整原件＋类型/日期/范围摘要常显，不作ISO替代",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I7 教学基地牌",
+    "approvedOriginalRow": [
+      "I7 教学基地牌",
+      "`/media/Artificial-1764396998946--413c4183ea.webp`，1127×815",
+      "原件确为“人工智能精密制造实践教学基地”，落款2023年11月；不是AI生成图，也不是ISO。已看像素。",
+      "保留静态原件完整边框/学校/公司/日期，桌面400–520px、手机整栏；英语标题可保持Precision manufacturing teaching base，说明保留教学合作属性。不能因文件名Artificial判为生成素材。"
+    ],
+    "status": "implemented",
+    "result": "三份完整原件＋类型/日期/范围摘要常显，不作ISO替代",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I8 团队纪实",
+    "approvedOriginalRow": [
+      "I8 团队纪实",
+      "`/media/evidence/team-2025-evening-group-1600.webp`；同源 `/media/company-news/team-may-2025-01-1600.webp`，1600×1200",
+      "团建合影，支持团队活动。已看像素。",
+      "保留1次/页面，自然4:3，全体人物与环境保留；桌面约500–560px宽，手机整栏；不裁成个人“客户证言”头像。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I9 CMM设备",
+    "approvedOriginalRow": [
+      "I9 CMM设备",
+      "`/media/evidence/cmm-detail-1600.webp`，1600×2133",
+      "可见探头/工作台/设备；不能证明校准、当前量程、被测结果。已看像素。",
+      "保留于How we work inspection；桌面最大高480px，宽由3:4求，手机最大高400px且完整contain；图注紧邻“methods/reports agreed”。不复制为每篇采购指南的通用装饰。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I10 历史保护包装",
+    "approvedOriginalRow": [
+      "I10 历史保护包装",
+      "`/media/evidence/shipping-example-1600.webp`，1600×1200",
+      "2022年准备包装的零件/木箱语境；不等于当前标准或交付证明。已看像素。",
+      "How we work与shipping各保留一次，自然4:3，桌面宽≤540px，手机完整显示；November2022紧邻。不得换成带新订单/目的国的生成货物图。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I11 五篇新闻封面",
+    "approvedOriginalRow": [
+      "I11 五篇新闻封面",
+      "N表指定03、summit01、May01、November01、2024-01",
+      "每图对应本篇事件；全组引用共25张，来源路径与SHA在news registries。封面均已看像素。",
+      "index统一“事件行”，保留源比例；桌面图列按各图比例取得相近高度220–280px，手机图在标题/日期后、自然比例。卡片可进入文章，文章内图静态；不把横封面和竖封面硬裁同一3:2。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I12 关键特征零件",
+    "approvedOriginalRow": [
+      "I12 关键特征零件",
+      "`/media/evidence/multi-feature-milling-parts-1600.webp`，1600×2133",
+      "可见孔列、凹腔、零件形态；不证明批数量、合金或公差。已看像素。",
+      "保留于geometry/route模块，完整竖幅，桌面最大高440px，手机最大高380px；caption明确geometry reference。不能标注虚构datums/数值成工程图。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I13 工艺现场三图",
+    "approvedOriginalRow": [
+      "I13 工艺现场三图",
+      "`/media/evidence/turning-operation-1600.webp` 1600×2133；`milling-enclosure-operation`、`five-axis-operation`均1600×1200",
+      "原始车/铣/多轴setup；照片不给制造能力数值。引用/实际文件尺寸已核，本轮未逐张放大像素。",
+      "保留一组，桌面图列按原ratio约0.75:1.33:1.33、最大同高300px，非cover；手机改单列完整图，最大高340px，字幕与对应study紧随；不保留旧“手机3列120px小图”要求。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I14 处理面/接口示意",
+    "approvedOriginalRow": [
+      "I14 处理面/接口示意",
+      "`/media/resources/finish-interfaces-v1-800.webp`，800×600，现有AI",
+      "红外表面/中性孔能解释coat/mask与接口，是用途明确的示意。已看像素。",
+      "保留现图与生成来源；桌面宽约360px、手机最大320px/自然4:3；可见caption解释红色＋AI-generated illustration。不得称实际LZZ表面处理结果。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I15 涂层原照",
+    "approvedOriginalRow": [
+      "I15 涂层原照",
+      "`/media/source-details/finish-coated-round-1200.webp`、`finish-coated-bars-1200.webp`，均1200×675",
+      "源组标为Teflon，图像显示圆件/长孔条；不能凭外观验证化学成分/工艺合格。两图已看像素。",
+      "两图原16:9静态完整显示，桌面并排、手机单列；caption保留source collection attribution，不去生成修复手机水印。与实心PTFE区别放在图组前。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I16 保护包装示意",
+    "approvedOriginalRow": [
+      "I16 保护包装示意",
+      "`/media/content-guides/packing-review-v1-1200.webp`，1200×800，现有AI",
+      "隔离保护/孔口保护示意；与2022真实照片角色不同。已看像素。",
+      "保留于Protection唯一图位，完整3:2，桌面约480–540px、手机整栏；AI标签可见。不能宣称标准包装、全部客户订单或运输验证。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I17 历史订单包装",
+    "approvedOriginalRow": [
+      "I17 历史订单包装",
+      "`/media/evidence/shipment-2022-order-packing-1600.webp`，1600×2133",
+      "历史包装准备，源文件2022-11；无目的国/承运人依据。引用和尺寸已核，未单独放大像素。",
+      "与I10/I18同一archive，完整竖幅；桌面高约340–380px、手机自然单列且不裁字。保留历史caption。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I18 历史待运货物",
+    "approvedOriginalRow": [
+      "I18 历史待运货物",
+      "`/media/evidence/shipment-2022-prepared-load-1600.webp`，1600×2133",
+      "历史shipment preparation；不能改写completed delivery。引用和尺寸已核，未单独放大像素。",
+      "同I17；不新增客户/货值/国家标签；不放在新闻作为新交付。"
+    ],
+    "status": "implemented",
+    "result": "按方案保留/移位/裁切自然比例及来源标签，相关原图未重绘",
+    "finalMedia": []
+  },
+  {
+    "group": "5.6 Company与Resources图位（CO-I）",
+    "key": "I19 退出主阅读的概念图",
+    "approvedOriginalRow": [
+      "I19 退出主阅读的概念图",
+      "`/media/about-redesign-20261014/drawing-review-1200.webp`、`inquiry-parts-1200.webp`，均1200×800",
+      "两张确为有AI标签的通用概念；不回答“谁做什么”或“如何联系”。两图已看像素。",
+      "从How we work/Contact图位删除，保留原资产/来源档案；How we work改HTML责任/阶段，Contact让真实联系方式和地址居前。**不生成替补**。"
+    ],
+    "status": "implemented",
+    "result": "概念图退出流程/联系主阅读，原资产留档，没有生成替补",
+    "finalMedia": []
+  }
+]

@@ -1,0 +1,157 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+  - button "Open navigation"
+- main:
+  - article "Ordering custom machined parts from LZZ":
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / How We Work
+    - heading "How We Work" [level=1]
+    - paragraph: OEM/ODM machining from your drawings or samples. Review the quotation, approve the sample and agree the records to receive with your parts.
+    - link "Prepare RFQ email":
+      - /url: /quote/
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - generic "On this page"
+    - region "Key facts and preparation":
+      - heading "Key facts and preparation" [level=2]
+      - term: Orders from
+      - definition: 1 piece
+      - term: Production time
+      - definition: 7–14 business days
+      - paragraph: After drawing and order confirmation, including surface finishing.
+      - term: Transit time
+      - definition: Separate
+      - paragraph: Confirm shipping time for your destination and method.
+      - term: Changes after approval
+      - definition: A drawing or quantity change requires an updated scope and schedule.
+      - paragraph: We can agree confidentiality terms before you send sensitive files. Use the checklist to prepare your requirements.
+      - link "View RFQ checklist":
+        - /url: /resources/rfq-checklist/
+    - region "Define the work":
+      - heading "Define the work" [level=2]
+      - heading "1. Define part requirements" [level=3]
+      - paragraph: Send your drawing or model and revision, material grade, quantity, required delivery date and part function.
+      - paragraph: Working from a sample? Explain the fit and function to retain or change, including any material changes. Agree the measurement and drawing work needed to define the part specification.
+      - heading "2. Review the quotation" [level=3]
+      - paragraph: Check the drawing revision against the quotation. Discuss tool access, workholding, mating features and critical requirements before agreeing to proposed geometry changes.
+      - heading "What your quotation covers" [level=4]
+      - term: Machining & material
+      - definition: Drawing revision, grade, quantity, price and any agreed alternative.
+      - term: Surface finishing
+      - definition: Included treatments and the surfaces to be controlled.
+      - term: Inspection
+      - definition: Report scope, sampling and required records.
+      - term: Separate charges
+      - definition: Tooling, special documentation, freight and duties where applicable.
+      - term: Delivery terms
+      - definition: Production timing, shipping arrangements and responsibilities.
+      - link "Machining capabilities":
+        - /url: /capabilities/
+    - region "Approve before production":
+      - heading "Approve before production" [level=2]
+      - heading "3. Check and approve the sample" [level=3]
+      - paragraph: "Agree sample checks in advance: fit and appearance, critical interfaces and any defined functional tests."
+      - paragraph: Set the first-article review stage and release criteria. Record the drawing revision and approval criteria before moving to production.
+      - heading "4. Agree on batch inspection" [level=3]
+      - paragraph: Confirm the approved revision and checks for repeat production. Identify the features that need recorded results.
+      - paragraph: Agree material traceability requirements and the treatment of nonconforming parts. Our quality planning guide covers the records to request.
+      - link "View quality planning guide":
+        - /url: /quality/
+    - region "Prepare for handover":
+      - heading "Prepare for handover" [level=2]
+      - figure "November 2022 LZZ packing archive. Customer, destination, carrier and export terms are not identified. These photographs do not define the packing for your order.":
+        - 'link "Open original archive image: Protected yellow and white machined components in a wooden packing case"':
+          - /url: /media/evidence/shipping-example-1600.webp
+          - img "Protected yellow and white machined components in a wooden packing case"
+        - 'link "Open original archive image: Historical order with protected components arranged in wooden cases"':
+          - /url: /media/evidence/shipment-2022-order-packing-1600.webp
+          - img "Historical order with protected components arranged in wooden cases"
+        - 'link "Open original archive image: Packed components prepared in a loading area"':
+          - /url: /media/evidence/shipment-2022-prepared-load-1600.webp
+          - img "Packed components prepared in a loading area"
+        - generic: November 2022 LZZ packing archive. Customer, destination, carrier and export terms are not identified. These photographs do not define the packing for your order.
+      - heading "5. Arrange packing and shipment" [level=3]
+      - paragraph: Cartons or wooden cases depend on the parts and shipment requirements. Identify polished faces, sealing surfaces and vulnerable threads that need protection.
+      - paragraph: Specify labels, part numbers, drawing revision and quantity per pack where required. Provide the delivery address and receiving contact.
+      - paragraph: Distinguish the required arrival date from the planned dispatch date. Confirm the shipping method, Incoterm and responsibility for customs, duties and taxes.
+      - paragraph: Packing protection, transport costs and any arrival-date commitment must be agreed in your quotation.
+      - heading "6. Confirm documents for delivery" [level=3]
+      - paragraph: Use the approved drawing revision and order reference consistently for packing, shipment and inspection documents.
+      - paragraph: Specify the records needed with delivery, such as an agreed dimensional report or material documentation.
+      - link "View factory workflow":
+        - /url: /factory/#workflow
+    - region "If there is an issue":
+      - heading "If there is an issue" [level=2]
+      - paragraph: Send the drawing revision, part or batch reference, affected quantity, photographs and measurement details. We review the discrepancy against the agreed acceptance criteria and agree corrective action with you.
+      - link "View available order documentation":
+        - /url: /quality/#order-documentation
+    - region "Part examples from our work":
+      - heading "Part examples from our work" [level=2]
+      - paragraph: Use these examples to see typical shapes and drawing questions. Each custom part needs its own drawing and quote.
+      - link "Turned fittings, connectors & flanges":
+        - /url: /products/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/
+      - link "Milled instrument blocks & brackets":
+        - /url: /products/custom-oem-high-precision-cnc-milling-manufacturer/
+    - region "Have a part in mind?":
+      - heading "Have a part in mind?" [level=2]
+      - paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+      - link "Back to Resources":
+        - /url: /resources/
+      - link "Prepare RFQ email":
+        - /url: /quote/
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

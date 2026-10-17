@@ -1,0 +1,9 @@
+---
+import EvidenceImage from './EvidenceImage.astro';
+import {photo} from '../data/evidence';
+import {photoFrame} from '../lib/photoFrame';
+interface Props {id:string;caption:string;class?:string;sizes?:string}
+const {id,caption,class:className,sizes='(max-width:760px) calc(100vw - 44px), 400px'}=Astro.props;
+const p=photo(id),frame=await photoFrame(p.src,p.width,p.height);
+---
+<figure class:list={['cd-photo',className]} style={'--cd-photo-ratio:'+frame.width/frame.height} data-photo-id={id}><div class="cd-photo-frame"><EvidenceImage id={id} sizes={sizes}/></div><figcaption>{caption}</figcaption></figure>

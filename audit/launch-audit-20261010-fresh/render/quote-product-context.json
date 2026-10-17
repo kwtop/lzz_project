@@ -1,0 +1,61 @@
+{
+  "canonical": "https://www.lzz-cnc.com/quote/",
+  "description": "Start from 1 custom CNC part. Production takes 7–14 business days after drawing and order confirmation, including surface finishing; prepare and send your inquiry by email.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Tell us aboutyour part"
+    },
+    {
+      "tag": "H2",
+      "text": "Prefer to talk first?"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "Email LZZ"
+    },
+    {
+      "href": "https://wa.me/8613858102479",
+      "text": "WhatsApp"
+    },
+    {
+      "href": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "text": "Stainless steel turned parts"
+    },
+    {
+      "href": "mailto:roger@lzz-cnc.com",
+      "text": "roger@lzz-cnc.com"
+    },
+    {
+      "href": "https://wa.me/8613858102479",
+      "text": "WhatsApp +86 138 5810 2479"
+    },
+    {
+      "href": "/quality/#quality-management",
+      "text": ""
+    },
+    {
+      "href": "/resources/rfq-checklist/",
+      "text": "RFQ checklist"
+    },
+    {
+      "href": "/quality/",
+      "text": "Inspection requirements"
+    }
+  ],
+  "main": "Tell us about\nyour part\n\nDescribe your part to prepare a quote request. You’ll review the draft before sending it from your email app.\n\nPart example\nStainless steel turned parts\n\nUse this as a reference, then describe your own part below.\n\n1\nProject details\n2\nReview draft\n3\nSend in email\nYour name *\nWork email *\nMaterial, if known\nTo be confirmed\nAluminum\nStainless steel\nBrass / copper\nEngineering plastic\nOther / need advice\nQuantity, if known\nTell us about your part *\nInclude any known size, critical dimensions or fit, finish, and drawing revision. You can attach CAD or drawings in your email app.\nContact and delivery details\nOptional\n\nYou send the final email.\nAfter reviewing your draft, attach your drawings in your email app. Nothing is uploaded or sent here.\n\nPrepare email draft\n\nDraft saved in this tab.\n\nClear saved input\nPrefer to talk first?\nroger@lzz-cnc.com\nWhatsApp +86 138 5810 2479\nDrawing package checklist\nBefore you order\nRFQ checklist\nInspection requirements",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/quote/#webpage\",\"url\":\"https://www.lzz-cnc.com/quote/\",\"name\":\"Request a CNC machining quote\",\"description\":\"Start from 1 custom CNC part. Production takes 7–14 business days after drawing and order confirmation, including surface finishing; prepare and send your inquiry by email.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/quote/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/quote/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Request a CNC machining quote\",\"item\":\"https://www.lzz-cnc.com/quote/\"}]}]}"
+  ],
+  "scrollWidth": 1905,
+  "title": "Request a CNC machining quote | LZZ Precision",
+  "url": "http://127.0.0.1:4323/quote/?part=Stainless+steel+turned+parts&product=precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier&source=%2Fproducts%2Fprecision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier%2F",
+  "viewport": {
+    "height": 911,
+    "width": 1920
+  },
+  "name": "quote-product-context"
+}

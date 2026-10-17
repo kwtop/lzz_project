@@ -1,0 +1,134 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - navigation "Main navigation":
+    - generic "Capabilities"
+    - generic "Custom Parts"
+    - generic "Factory & Quality"
+    - generic "Resources"
+    - generic "About LZZ"
+  - link "Request a Quote":
+    - /url: /quote/
+- main:
+  - heading "Resources" [level=1]
+  - paragraph: Buying custom machined parts? Start with the drawing checklist, compare machining options, or check the ordering and delivery details before requesting a quote.
+  - navigation "Resources topics":
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+    - link "How We Work":
+      - /url: /resources/how-we-work/
+    - link "Machining Guides":
+      - /url: /resources/processes-materials-finishes/
+    - link "Production & Shipping":
+      - /url: /resources/production-and-shipping/
+    - link "FAQ":
+      - /url: /resources/faq/
+  - region "RFQ Checklist":
+    - link "Start with your RFQ RFQ Checklist Send a consistent drawing package with the material and quantity required. Identify critical features and the inspection records you need. Read the guide Illustrative machined housing beside a drawing and caliper AI-generated illustrative image · Not an LZZ order, inspection or measurement record.":
+      - /url: /resources/rfq-checklist/
+      - generic: Start with your RFQ
+      - heading "RFQ Checklist" [level=2]
+      - paragraph: Send a consistent drawing package with the material and quantity required. Identify critical features and the inspection records you need.
+      - generic: Read the guide
+      - img "Illustrative machined housing beside a drawing and caliper"
+      - generic: AI-generated illustrative image · Not an LZZ order, inspection or measurement record.
+  - heading "Drawings & Ordering" [level=2]
+  - paragraph: Prepare your drawing and order requirements so you can compare quotations on the same basis.
+  - link "Packed machining order photographed before dispatch. How We Work Follow the LZZ order process, starting with your drawing and quotation. Agree on sample checks and production requirements before arranging shipment. Read the guide":
+    - /url: /resources/how-we-work/
+    - img "Packed machining order photographed before dispatch."
+    - heading "How We Work" [level=3]
+    - paragraph: Follow the LZZ order process, starting with your drawing and quotation. Agree on sample checks and production requirements before arranging shipment.
+    - generic: Read the guide
+  - link "Batch of machined aluminum enclosures Planning CNC parts for prototypes and repeat orders Define the interfaces and acceptance requirements for your CNC part, then agree on material and finish before prototype machining or repeat orders. Read the guide":
+    - /url: /resources/custom-cnc-machined-components-for-prototypes-and-production/
+    - img "Batch of machined aluminum enclosures"
+    - heading "Planning CNC parts for prototypes and repeat orders" [level=3]
+    - paragraph: Define the interfaces and acceptance requirements for your CNC part, then agree on material and finish before prototype machining or repeat orders.
+    - generic: Read the guide
+  - heading "Machining Guides" [level=2]
+  - paragraph: Compare machining processes and material options. Check which finishing details need to be on your drawing.
+  - 'link "A metal component held in a CNC milling setup beneath the spindle. CNC milling vs turning vs 5-axis machining: how to choose Compare CNC turning, milling and multi-axis setups by part geometry, drawing requirements and the questions to confirm before requesting a quote. Read the guide"':
+    - /url: /resources/cnc-process-selection/
+    - img "A metal component held in a CNC milling setup beneath the spindle."
+    - 'heading "CNC milling vs turning vs 5-axis machining: how to choose" [level=3]'
+    - paragraph: Compare CNC turning, milling and multi-axis setups by part geometry, drawing requirements and the questions to confirm before requesting a quote.
+    - generic: Read the guide
+  - link "AI-generated illustrative arrangement of generic machined components in varied appearances Specifying material and finish for a machined part Specify the material grade and finish for your CNC part, including mating surfaces, dimensions after coating and the documentation required. AI-generated illustrative image · It does not identify alloy grades, stock availability or finish specifications. Read the guide":
+    - /url: /resources/material-and-finish-checklist/
+    - img "AI-generated illustrative arrangement of generic machined components in varied appearances"
+    - heading "Specifying material and finish for a machined part" [level=3]
+    - paragraph: Specify the material grade and finish for your CNC part, including mating surfaces, dimensions after coating and the documentation required.
+    - generic: AI-generated illustrative image · It does not identify alloy grades, stock availability or finish specifications.
+    - generic: Read the guide
+  - heading "Production & Shipping" [level=2]
+  - paragraph: Plan the steps from prototype approval to repeat orders. Check production lead times and prepare for international shipping.
+  - 'link "AI-generated illustration of one machined enclosure prototype beside four matching repeat-batch parts CNC prototype vs small-batch production: what changes? See what changes between prototype machining and repeat batches: drawing revision, setup, inspection, material, finish and the details to confirm before scaling. AI-generated illustrative image · It is not an LZZ order, delivered quantity or production record. Read the guide"':
+    - /url: /resources/prototype-vs-small-batch-cnc/
+    - img "AI-generated illustration of one machined enclosure prototype beside four matching repeat-batch parts"
+    - 'heading "CNC prototype vs small-batch production: what changes?" [level=3]'
+    - paragraph: "See what changes between prototype machining and repeat batches: drawing revision, setup, inspection, material, finish and the details to confirm before scaling."
+    - generic: AI-generated illustrative image · It is not an LZZ order, delivered quantity or production record.
+    - generic: Read the guide
+  - 'link "Packed machining order photographed before dispatch. Shipping CNC machined parts internationally: a quote checklist Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case. Read the guide"':
+    - /url: /resources/custom-cnc-parts-shipping-checklist/
+    - img "Packed machining order photographed before dispatch."
+    - 'heading "Shipping CNC machined parts internationally: a quote checklist" [level=3]'
+    - paragraph: Plan protective packing, delivery terms, document needs and timing for an international CNC parts order. Original LZZ archive photos show historical shipment preparation, not a named export case.
+    - generic: Read the guide
+- heading "Have a part in mind?" [level=2]
+- paragraph: Send your drawing, material and quantity so we can review the part and prepare a quote.
+- link "Prepare RFQ email":
+  - /url: /quote/
+- link "roger@lzz-cnc.com":
+  - /url: mailto:roger@lzz-cnc.com
+  - generic: roger@lzz-cnc.com
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - link "Capabilities":
+      - /url: /capabilities/
+    - link "Custom Parts":
+      - /url: /products/
+    - link "Our factory":
+      - /url: /factory/
+    - link "Quality control":
+      - /url: /quality/
+    - link "Machining studies":
+      - /url: /cases/
+    - link "Resources":
+      - /url: /resources/
+    - link "Company Profile":
+      - /url: /about/
+    - link "Contact Us":
+      - /url: /contact/
+    - link "Company News":
+      - /url: /about/company-news/
+    - link "RFQ Checklist":
+      - /url: /resources/rfq-checklist/
+  - region "Let’s talk":
+    - heading "Let’s talk" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy & site information":
+    - /url: /privacy/

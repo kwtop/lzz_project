@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AboutPhoto from './AboutPhoto.astro';
+import type {Resource} from '../data/resources';
+import {companyNews} from '../data/companyNews';
+import {newsPlans,photoById} from '../data/aboutEditorial';
+import DisclosureAnchors from './DisclosureAnchors.astro';
+import '../styles/about-redesign.css';
+interface Props {article:Resource}
+const {article}=Astro.props;const plan=newsPlans[article.slug];const cover=photoById(plan.cover);
+const related=companyNews.filter(item=>item.slug!==article.slug).sort((a,b)=>Number(newsPlans[b.slug].category===plan.category)-Number(newsPlans[a.slug].category===plan.category)).slice(0,2);
+---
+<Layout title={article.title} description={article.description} article articleImage={cover.src} cta={false}>
+ <article class="al-page al-news-story"><DisclosureAnchors/><div class="al-wrap">
+  <div class:list={['al-hero','al-news-hero',plan.hero==='portrait'?'al-portrait-hero':'al-wide-hero']}><header><p class="al-news-meta"><time datetime={article.eventDate}>{article.eventDateLabel}</time><span>{plan.category}</span></p><h1>{article.title}</h1><p class="al-lead">{plan.intro}</p></header><AboutPhoto src={cover.src} srcset={cover.srcset} width={cover.width} height={cover.height} alt={cover.caption} caption={article.slug==='china-africa-west-lake-summit-2025'?'LZZ representatives at the China-Africa West Lake Summit backdrop.':cover.caption} eager link sizes="(max-width:760px) calc(100vw - 44px), 1080px"/></div>
+  {plan.sections.map((section,index)=><section class="al-section al-photo-essay" id={index===0?'news-photographs':'news-moments'}><span id={'section-'+(index+1)}/><div class="al-essay-copy"><h2>{section.title}</h2><p>{section.text}</p></div><div class:list={['al-essay-photos','al-'+section.layout]} style={'--al-photo-columns:'+Math.min(section.photos.length,3)}>{section.photos.map(id=>{const image=photoById(id);return <AboutPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption} caption={image.caption} link/>;})}</div></section>)}
+  {plan.extra&&<details class="al-more-photos"><summary>More photographs from the day</summary>{plan.extra.map(id=>{const image=photoById(id);return <AboutPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption} caption={image.caption} link/>;})}</details>}
+  <section class="al-section" aria-labelledby="al-more-news"><div class="al-section-head"><h2 id="al-more-news">More from LZZ</h2><p>Continue through the company records, or learn about the team and its working environment.</p></div><nav class="al-related-news" aria-label="Related company news">{related.map(item=><a href={'/about/company-news/'+item.slug+'/'}><time datetime={item.eventDate}>{item.eventDateLabel}</time><span>{item.title}</span></a>)}</nav><nav class="al-actions" aria-label="Company information"><a class="al-secondary" href="/about/company-news/">Back to company news</a><a class="al-inline-link" href="/about/company-profile/">Meet LZZ Precision</a><a class="al-inline-link" href="/about/contact/">Arrange a workshop visit</a></nav></section>
+ </div></article>
+</Layout>

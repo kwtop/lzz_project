@@ -1,0 +1,13 @@
+Current checkout: D:\lzz\lzz\_react
+Audit date: 2026-10-10 (Asia/Shanghai)
+No .codegraph directory; no AGENTS.md at D:\, D:\lzz, D:\lzz\lzz, D:\lzz\lzz\_react.
+Current package scripts executed, not historical results.
+
+npm run build
+Exit code: 0
+Astro output: static
+Configured site origin: https://www.lzz-cnc.com
+Build completed: 87 generated routes.
+Postbuild SEO summary: {"products":35,"discoveredURLs":91,"redirects":93,"sitemapURLs":81,"excludedOrInvalidCanonical":17}
+
+This is a local production build, not a deployment or live indexing/delivery verification.

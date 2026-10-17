@@ -1,0 +1,6 @@
+---
+import CapabilitiesOverview from '../../components/CapabilitiesOverview.astro';
+import CapabilitiesDirectory from '../../components/CapabilitiesDirectory.astro';
+import {isRedesigned} from '../../data/redesignRollout';
+---
+{isRedesigned(Astro.url.pathname)?<CapabilitiesDirectory/>:<CapabilitiesOverview/>}

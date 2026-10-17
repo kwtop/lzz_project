@@ -1,0 +1,48 @@
+/* Case reading follows the approved service rhythm; source photos stay complete. */
+.cr-page [id]{scroll-margin-top:112px}
+.cr-hero{display:grid;grid-template-columns:1fr 1.05fr;gap:60px;align-items:center;padding:20px 0 60px}
+.cr-hero h1{margin:0 0 24px}.cr-hero .cr-eyebrow{font-size:14px;color:#707a81;margin:0 0 18px}
+.cr-lead{margin:0;color:#555f65}.cr-hero-media{min-width:0}
+.cr-hero .cr-photo{margin-inline:auto}
+.cr-facts{margin:28px 0 24px;border-block:1px solid #dfe2e4;padding-block:18px}
+.cr-facts>div+div{margin-top:16px}.cr-facts dt{font-size:14px;color:#6b747b;margin-bottom:5px}.cr-facts dd{margin:0;font-size:16px;color:#343c42}
+.cr-hero-links,.cr-guidance{display:flex;gap:12px;flex-wrap:wrap}
+.cr-points{display:grid;grid-template-columns:1fr 1fr;gap:60px}.cr-points p,.cr-sequence p{margin:0;color:#555f65}
+.cr-photo{margin:0;width:min(100%,var(--cr-photo-width,100%));min-width:0}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cr-page .cr-photo img{display:block;width:100%!important;height:auto!important;max-height:460px!important;max-width:100%!important;aspect-ratio:auto!important;object-fit:contain!important;border-radius:0;box-shadow:none}
+.cr-display-pair{margin:32px auto 0;max-width:950px}
+.cr-sequence{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;padding:0;margin:0;list-style:none}
+.cr-sequence li{border-top:1px solid #dfe2e4;padding-top:24px;min-width:0}
+.cr-process-photos{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:36px;align-items:start}
+.cr-process-photos .cr-photo{justify-self:center}
+.cr-process-single{display:flex;justify-content:center}
+.cr-process-single .cr-photo{max-width:800px}
+.cr-note{max-width:900px;margin:26px 0 0;color:#647078}
+.cr-page .cr-technical{margin-bottom:0}
+.cr-technical-point+.cr-technical-point{margin-top:26px}
+.cr-acceptance{display:grid;grid-template-columns:1fr 160px;gap:40px;max-width:1000px;margin-top:36px;align-items:start}
+.cr-acceptance ul{padding-left:20px;margin:0 0 16px;color:#555f65}.cr-acceptance li+li{margin-top:8px}
+.cr-acceptance p{font-size:14px;color:#6b747b;margin:0;max-width:72ch}
+.cr-guidance{margin-top:28px}
+.cr-family{padding-block:32px;border-top:1px solid #dfe2e4}.cr-family:first-child{padding-top:0;border-top:0}.cr-family:last-child{padding-bottom:0}
+.cr-family>header{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;margin-bottom:28px}.cr-family p{margin:0;color:#555f65}.cr-family .cr-material-note{font-size:14px;margin-top:14px;color:#6b747b}
+.cr-family-photos{display:grid;grid-template-columns:repeat(var(--cr-columns),minmax(0,1fr));gap:32px;align-items:start}
+.cr-family-photos .cr-photo{justify-self:center}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cr-page .cr-family-photos img{max-height:340px!important}
+.cr-video{margin-top:36px;max-width:960px}
+.cr-page .workshop-video{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:center;margin:0;padding:0;border:0}
+.cr-page .workshop-video>div{min-width:0}.cr-page .workshop-video figure{margin:0;min-width:0}
+.cr-page .workshop-video p{margin:12px 0 0;color:#5b646b}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cr-page .workshop-video video{width:100%!important;height:auto!important;max-height:380px!important;object-fit:contain;aspect-ratio:auto!important;background:#111}
+.cr-page .workshop-video h4{font-size:20px;line-height:1.35;margin:0}
+.cr-anchor{display:block;position:relative;top:-1px}
+@media(min-width:761px) and (max-width:1050px){.cr-hero{gap:36px}.cr-points{gap:32px}.cr-family>header{gap:32px}}
+@media(max-width:760px){
+ .cr-hero{grid-template-columns:1fr;gap:30px;padding-top:0;padding-bottom:38px}.cr-hero h1{margin-bottom:18px}
+ .cr-facts{margin-top:24px}.cr-hero-media{width:100%}.cr-hero .cr-photo{max-width:400px}
+ .cr-points{grid-template-columns:1fr;gap:24px}.cr-sequence{grid-template-columns:1fr;gap:26px}.cr-sequence li{padding-top:20px}
+ .cr-process-photos{grid-template-columns:1fr;gap:30px}.cr-process-single{display:grid}.cr-process-photos .cr-photo{justify-self:start}
+ .cr-acceptance{grid-template-columns:1fr;gap:24px}.cr-acceptance .cr-photo{width:140px}
+ .cr-family>header{grid-template-columns:1fr;gap:10px}.cr-family-photos{grid-template-columns:1fr;gap:28px}.cr-family-photos .cr-photo{justify-self:start;max-width:440px}
+ .cr-page .workshop-video{grid-template-columns:1fr;gap:22px}.cr-video{margin-top:28px}.cr-guidance{display:grid;grid-template-columns:1fr}.cr-guidance a{justify-content:flex-start}
+}

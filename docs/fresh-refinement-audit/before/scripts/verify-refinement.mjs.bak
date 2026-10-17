@@ -1,0 +1,170 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {chromium} from 'playwright';
+
+const base=process.env.TEST_URL||'http://127.0.0.1:4321';
+const output=fs.mkdtempSync(path.join(os.tmpdir(),'lzz-refinement-qa-'));
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const context=await browser.newContext({viewport:{width:1440,height:1000}});
+const page=await context.newPage();
+const errors=[];
+page.on('pageerror',error=>errors.push(error.message));
+const ready=async()=>page.waitForFunction(()=>![...document.querySelectorAll('astro-island[client="load"]')].some(i=>i.hasAttribute('ssr')));
+const go=async route=>{await page.goto(base+route);try{await ready();}catch(error){throw new Error('Hydration failed on '+route+'; browser errors: '+JSON.stringify(errors),{cause:error});}};
+const field=name=>page.locator('[name="'+name+'"]');
+const prepare=async()=>{await page.getByRole('button',{name:'Prepare email draft'}).click();await page.locator('.draft-result').waitFor();};
+const fill=async()=>{
+ const optional=page.locator('.quote-optional');
+ if(await optional.count() && !(await optional.getAttribute('open')))await optional.locator('summary').click();
+ for(const [name,value] of Object.entries({name:'QA Preview',phone:'+1 202 555 0123',destination:'United States',email:'preview@example.com',company:'Local QA',quantity:'42',project:'Drawing review\nFinish and fit requirements'}))await field(name).fill(value);
+ await field('material').selectOption('Stainless steel');
+};
+try {
+ await go('/products/');
+ const search=page.getByPlaceholder('Search parts, materials, processes…');
+ await search.fill('  PRECISION   MACHINING FOR COMPLEX GEOMETRY  ');
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===1);
+ assert.match(await page.locator('.product-card').innerText(),/Precision machining for complex geometry/);
+ const productPath=await page.locator('.product-card').getAttribute('href');
+ const catalog=JSON.parse(fs.readFileSync('src/data/catalog.json','utf8'));
+ await search.fill(catalog.products.find(p=>productPath.includes('/'+p.slug+'/')).name);
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===1);
+ await search.fill('');
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===12);
+ assert.equal(await page.getByRole('button',{name:'All parts',exact:true}).count(),0,'collection and capability filters have distinct labels');
+ await page.getByRole('button',{name:'View all 35 parts',exact:true}).first().focus();await page.keyboard.press('Enter');
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===35);
+ await page.getByRole('button',{name:'Show selected parts',exact:true}).click();
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===12);
+ await search.fill('brass');
+ assert.ok(await page.locator('.product-card').count()>0,'search covers non-featured catalog products');
+ await search.fill('');
+ await page.getByRole('combobox',{name:'Process',exact:true}).selectOption('Casting-Machining');
+ assert.equal(await page.getByRole('combobox',{name:'Process',exact:true}).inputValue(),'Casting-Machining');
+ await page.getByRole('button',{name:'Clear filters',exact:true}).click();
+ await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===35);
+ await go('/capabilities/casting-machining/');
+ assert.equal(await page.getByRole('combobox').count(),2,'scoped catalog keeps other dimensions, not its pinned process');
+ assert.equal(await page.getByRole('combobox',{name:'Process',exact:true}).count(),0);
+ const scopedCount=await page.locator('.product-card').count();
+ assert.equal(await page.locator('.capability-shortcuts').count(),0);
+ assert.equal(await page.locator('.closing').count(),1);
+ assert.ok((await page.locator('.closing .button').getAttribute('href')).includes('part=Casting'));
+ await page.getByPlaceholder('Search parts, materials, processes…').fill('no-such-part');
+ await page.getByRole('button',{name:'Reset filters'}).click();
+ await page.waitForFunction(n=>document.querySelectorAll('.product-card').length===n,scopedCount);
+ await go(productPath);
+ const original=await page.locator('.gallery-main img').getAttribute('src');
+ assert.equal(await page.locator('.thumbnails').count(),0);
+ const trigger=page.locator('.gallery-main');
+ await trigger.click();
+ assert.equal(await page.locator('dialog').count(),0,'product image remains static without a zoom dialog');
+ assert.equal(await page.locator('.gallery-main img').getAttribute('src'),original,'clicking the product image does not open a separate viewer');
+
+ await go('/quote/?part=QA-Part-A');await fill();await prepare();
+ const mail=await page.getByRole('link',{name:'Open email app'}).getAttribute('href');
+ const body=new URL(mail).searchParams.get('body');
+ assert.ok(body.includes('Hello LZZ team,\n\n'));
+ assert.ok(!body.includes('\\n'));
+ await page.reload();await ready();
+ for(const [name,value] of Object.entries({name:'QA Preview',phone:'+1 202 555 0123',destination:'United States',email:'preview@example.com',company:'Local QA',quantity:'42',material:'Stainless steel',project:'Drawing review\nFinish and fit requirements'}))assert.equal(await field(name).inputValue(),value);
+ assert.equal(await page.locator('.draft-result').count(),1);
+ await go('/quote/?part=QA-Part-B');
+ assert.equal(await field('name').inputValue(),'');assert.equal(await field('project').inputValue(),'QA-Part-B');
+ await field('name').fill('Second part');
+ await go('/quote/?part=QA-Part-A');assert.equal(await field('name').inputValue(),'QA Preview');
+ await page.evaluate(()=>Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async()=>{throw new Error('QA denied');}}}));
+ await page.getByRole('button',{name:'Copy draft',exact:true}).click();await page.getByRole('alert').waitFor();
+ const downloadEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Save draft',exact:true}).click();
+ const download=await downloadEvent;
+ assert.equal(download.suggestedFilename(),'lzz-project-inquiry.txt');
+ assert.match(fs.readFileSync(await download.path(),'utf8'),/Quantity: 42\n/);
+ await page.getByRole('button',{name:'Clear saved input'}).click();
+ assert.equal(await page.evaluate(()=>sessionStorage.getItem('lzz:inquiry:v1:QA-Part-A')),null);
+ assert.equal(await field('project').inputValue(),'QA-Part-A');
+ await page.reload();await ready();assert.equal(await field('name').inputValue(),'');assert.equal(await page.locator('.draft-result').count(),0);
+ await go('/quote/?part=QA-Part-B');assert.equal(await field('name').inputValue(),'Second part');
+ await page.evaluate(()=>sessionStorage.setItem('lzz:inquiry:v1:QA-Part-B','{bad-json'));
+ await page.reload();await ready();assert.equal(await field('name').inputValue(),'');
+ await context.addInitScript(()=>{if(location.search.includes('QA-Blocked'))for(const method of ['getItem','setItem','removeItem'])Storage.prototype[method]=()=>{throw new DOMException('QA blocked','SecurityError');};});
+ await go('/quote/?part=QA-Blocked');await fill();await prepare();
+ assert.match(await page.locator('.draft-storage').innerText(),/Your browser cannot save this draft/);
+ await page.getByRole('button',{name:'Clear saved input'}).click();assert.equal(await field('name').inputValue(),'');
+
+ await page.setViewportSize({width:390,height:844});await go('/quote/');
+ const first=await field('name').boundingBox();assert.ok(first.y+first.height<844,'first input visible in mobile first screen');
+ assert.ok(first.width>300,'mobile input full width');
+ await fill();await prepare();
+ for(const locator of [page.locator('.menu-toggle'),page.getByRole('button',{name:'Copy draft',exact:true}),page.getByRole('button',{name:'Save draft',exact:true}),page.getByRole('button',{name:'Clear saved input'})]){
+  const box=await locator.boundingBox();assert.ok(box.width>=44&&box.height>=44,'touch target '+await locator.innerText());
+ }
+ await go('/products/');
+ const firstCard=await page.locator('.product-card').first().boundingBox();
+ assert.ok(firstCard.y+Math.min(firstCard.height,100)<844,'mobile catalog exposes first part in first screen');
+ await page.getByRole('button',{name:/^Filters/}).click();
+ assert.equal(await page.getByRole('combobox').count(),3);
+ assert.equal(await page.locator('.product-card-summary').count(),0,'catalog cards should not repeat small summary copy');
+ await go(productPath);
+ const discuss=await page.getByRole('link',{name:'Discuss this part',exact:true}).boundingBox();
+ assert.ok(discuss.y+discuss.height<844,'mobile product discussion action in first screen');
+ const partHeading=await page.locator('.product-heading').boundingBox();
+ const partImage=await page.locator('.gallery-main').boundingBox();
+ assert.ok(discuss.y>=partHeading.y+partHeading.height,'mobile inquiry action follows product title and categories');
+ assert.ok(partImage.y>=partHeading.y+partHeading.height&&partImage.y+partImage.height<=discuss.y,'mobile order is title, complete product image, then inquiry');
+ await go('/insights/rfq-checklist/');
+ const contents=page.locator('.contents-disclosure');
+ assert.equal(await contents.evaluate(el=>el.open),false,'mobile contents starts compact');
+ await contents.locator('summary').focus();await page.keyboard.press('Enter');
+ assert.equal(await contents.evaluate(el=>el.open),true,'keyboard expands contents');
+ await contents.getByRole('link').first().click();assert.ok(new URL(page.url()).hash,'contents navigates to article section');
+ await go('/about/');await page.locator('.application-item summary').first().click();
+ assert.equal(await page.locator('.application-item[open] .text-link').first().isVisible(),true,'application links remain available');
+ await page.locator('.document-detail summary').first().click();
+ assert.equal(await page.locator('.document-detail[open] p').first().isVisible(),true,'document details remain available');
+ await go('/factory/');
+ assert.equal(await page.locator('.equipment-scene img').count(),4,'all factory equipment images retained');
+ await go('/quality/#quality-management');
+ for(const record of await page.locator('.document-needs details').all()){
+  if(!(await record.evaluate(el=>el.open))){await record.locator('summary').focus();await page.keyboard.press('Enter');}
+  assert.equal(await record.locator('p').isVisible(),true,'inspection record requirements remain keyboard accessible');
+ }
+ assert.equal(await page.locator('.qualification-note').isVisible(),true,'certification limitation remains visible');
+ for(const disclosure of await page.locator('.qualification-details details').all()){
+  await disclosure.locator('summary').focus();await page.keyboard.press('Enter');
+  assert.equal(await disclosure.evaluate(el=>el.open),true,'qualification details keyboard accessible');
+ }
+ await go('/products/');await page.getByPlaceholder('Search parts, materials, processes…').fill('brass');
+ const clear=page.getByRole('button',{name:'Clear search'});const clearBox=await clear.boundingBox();assert.ok(clearBox.width>=44&&clearBox.height>=44);
+ await go('/');
+ const materials=page.getByRole('navigation',{name:'Materials',exact:true});
+ assert.equal(await materials.getByRole('link').count(),4,'material routes remain directly available');
+ const plastics=materials.getByRole('link',{name:'Engineering plastics',exact:true});
+ await plastics.focus();await page.keyboard.press('Enter');
+ await page.waitForURL('**/capabilities/plastic-machined-parts/');
+ assert.equal(await page.locator('h1').count(),1,'material link opens its dedicated page');
+ const routes=fs.readdirSync('dist',{recursive:true}).filter(f=>f.endsWith('.html')&&f!=='404.html').map(f=>'/'+f.replaceAll('\\','/').replace(/index\.html$/,''));
+ await page.setViewportSize({width:768,height:1024});
+ for(const route of routes){await go(route);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,route+' tablet overflow');assert.equal(await page.locator('h1').count(),1);}
+ await go('/capabilities/');assert.match(await page.locator('.route-example figcaption').innerText(),/AI-generated geometry illustration/,'generated geometry visual is labeled');
+ const shots={'home':'/','products':'/products/','product':productPath,'factory':'/factory/','about':'/about/','capabilities':'/capabilities/','quote':'/quote/'};
+ for(const width of [1440,768,390]){
+  await page.setViewportSize({width,height:width===390?844:1000});
+  for(const [name,route] of Object.entries(shots)){
+   await go(route);
+   await page.evaluate(async()=>{document.querySelectorAll('img').forEach(i=>i.loading='eager');await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
+   assert.deepEqual(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.naturalWidth).map(i=>i.src)),[],name+' images');
+   await page.screenshot({path:path.join(output,name+'-'+width+'.png'),fullPage:true});
+   if(width===390){
+    await page.screenshot({path:path.join(output,name+'-390-first.png')});
+    if(name==='about')await page.locator('.certificate-document').first().screenshot({path:path.join(output,'document-390.png')});
+    if(name==='products')await page.locator('.product-grid').screenshot({path:path.join(output,'product-grid-390.png')});
+   }
+  }
+ }
+ assert.equal(createHash('sha256').update(fs.readFileSync('src/data/catalog.json')).digest('hex'),'eb9b272d9fd4e9c9bf9eda78012d2dd37ab22337301a88d2e7b19f2505f48cff');
+ assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({status:'passed',tabletRoutes:routes.length,mobileFirstInput:first,screenshots:output,checks:['display/original title search','static product image without a zoom dialog','refresh including prepared draft','part isolation','clear and corrupt storage','unavailable storage fallback','clipboard failure','text download and email newlines','44px controls','mobile form first screen','mobile catalog first part and discussion action','product discussion action and image in mobile first screen','three filter groups and concise catalog cards','selected material visible','catalog unchanged'],errors},null,2));
+} finally {await context.close();await browser.close();}

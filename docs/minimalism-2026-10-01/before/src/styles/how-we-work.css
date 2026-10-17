@@ -1,0 +1,123 @@
+/* Scoped ordering guide: selected Product Design direction 2. */
+body.brand-site .ww-page{color:#202629;background:#fff;font-size:16px;line-height:1.7}
+.ww-page *{min-width:0}
+.ww-page .ww-wrap{width:min(1280px,calc(100% - 112px));margin-inline:auto}
+.ww-page figure,.ww-page dl,.ww-page dd,.ww-page p{margin:0}
+.ww-page img{display:block;width:100%;border-radius:0}
+body.brand-site .ww-page h1,body.brand-site .ww-page h2,body.brand-site .ww-page h3{margin:0;color:inherit;font-family:inherit;text-wrap:pretty}
+body.brand-site .ww-page h2{font-size:clamp(32px,3.25vw,48px);font-weight:680;line-height:1.12;letter-spacing:-.04em}
+body.brand-site .ww-page h3{font-size:22px;font-weight:650;line-height:1.35;letter-spacing:-.025em;margin-bottom:18px}
+.ww-page p+p{margin-top:16px}
+.ww-page section[id]{scroll-margin-top:110px}
+.ww-page .ww-eyebrow{display:flex;align-items:center;gap:18px;margin:0 0 22px;color:#bf1118;text-transform:uppercase;font-size:12px;font-weight:750;letter-spacing:.09em;line-height:1.4}
+.ww-page .ww-eyebrow::before{content:'';width:42px;border-top:3px solid currentColor;flex:none}
+.ww-page .ww-subtitle{font-size:clamp(19px,1.75vw,25px);line-height:1.4;letter-spacing:-.02em;margin-top:12px}
+.ww-page .ww-button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 26px;background:#cb1217;color:#fff;font-size:15px;font-weight:650;line-height:1.5;border:1px solid #cb1217;border-radius:2px;text-decoration:none;transition:background .18s}
+.ww-page .ww-button:hover{background:#a40d12;border-color:#a40d12}
+.ww-page .ww-secondary{display:inline-flex;align-items:center;justify-content:space-between;min-height:44px;padding:9px 14px;border:1px solid #d6dadd;background:transparent;border-radius:2px;color:#b51218;font-size:14px;line-height:1.45;font-weight:650;text-decoration:none;width:fit-content;max-width:100%;margin-top:16px;transition:background .18s,border-color .18s}
+.ww-page .ww-secondary:hover{background:#f6f1f1;border-color:#b51218}
+.ww-page a:focus-visible{outline:3px solid #b51218;outline-offset:5px}
+.ww-page .ww-hero a:focus-visible,.ww-page .ww-chapter-band a:focus-visible{outline-color:#fff}
+.ww-page .ww-link-group{display:flex;flex-wrap:wrap;gap:8px 12px;margin-top:12px;align-content:start}
+.ww-page .ww-link-group .ww-secondary{margin-top:0}
+.ww-page figcaption{font-size:12px;line-height:1.6;color:#596168;margin-top:10px}
+.ww-page .ww-hero{position:relative;isolation:isolate;color:#fff;background:#151a1e;overflow:hidden}
+.ww-page .ww-hero-image{position:absolute;inset:0;height:100%;object-fit:cover;object-position:center;z-index:-1}
+.ww-page .ww-hero-inner{position:relative;min-height:580px;padding-block:28px 62px}
+.ww-page .ww-breadcrumb{display:flex;gap:12px;align-items:center;font-size:12px;color:#d5dadd;margin-bottom:55px}
+.ww-page .ww-breadcrumb a{padding-block:7px;color:inherit}
+.ww-page .ww-hero-copy{max-width:620px;width:51%}
+body.brand-site .ww-page h1{font-size:clamp(43px,4.7vw,70px);line-height:1.04;letter-spacing:-.045em;font-weight:730}
+.ww-page .ww-hero-copy .ww-subtitle{font-size:22px;font-weight:550;margin-top:25px;max-width:none;color:#fff}
+.ww-page .ww-hero-copy>p:not(.ww-subtitle){font-size:17px;color:#e1e5e8;max-width:43ch;margin-top:16px}
+.ww-page .ww-hero-copy .ww-button{margin-top:27px}
+.ww-page .ww-hero-email{display:block;width:fit-content;min-height:44px;padding-top:12px;font-size:14px;color:#f0f2f3}
+.ww-page .ww-hero-caption{position:absolute;right:0;bottom:16px;max-width:35%;font-size:11px;text-align:right;color:#fff;background:#171b1ecc;padding:4px 8px}
+.ww-page .ww-before{display:grid;grid-template-columns:.7fr 1.5fr;gap:40px 60px;padding-block:65px}
+.ww-page .ww-before-content>p{max-width:80ch;color:#454d55}
+.ww-page .ww-facts{display:grid;grid-template-columns:.7fr 1.35fr .9fr 1.1fr;gap:20px;margin-top:30px}
+.ww-page .ww-facts>div+div{border-left:1px solid #d8dcde;padding-left:20px}
+.ww-page .ww-facts dt{font-size:12px;font-weight:550;margin-bottom:7px;line-height:1.5}
+.ww-page .ww-facts dd{font-size:22px;line-height:1.2;letter-spacing:-.03em;font-weight:650}
+.ww-page .ww-facts p{font-size:13px;line-height:1.6;color:#454d55;margin-top:10px}
+.ww-page .ww-facts .ww-fact-detail{font-size:14px;line-height:1.65;letter-spacing:0;font-weight:400;color:#454d55}
+.ww-page .ww-preparation{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:40px;padding:24px 28px;background:#f4f5f5}
+.ww-page .ww-preparation p{max-width:72ch;font-size:15px}
+.ww-page .ww-preparation .ww-secondary{flex-shrink:0;margin:0}
+.ww-page .ww-chapter-band{background:#1b2125;color:#fff;padding-block:42px}
+.ww-page .ww-chapter-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+.ww-page .ww-chapter-band .ww-eyebrow{color:#ff6268}
+.ww-page .ww-chapter-copy>p:not(.ww-eyebrow):not(.ww-subtitle){margin-top:25px;max-width:44ch;color:#d5dadd}
+.ww-page .ww-chapter-copy .ww-subtitle{color:#e1e5e8}
+.ww-page .ww-chapter-copy .ww-button{margin-top:24px}
+.ww-page .ww-review-photo img{height:330px;object-fit:cover;object-position:center 46%}
+.ww-page .ww-review-photo figcaption{color:#d0d6d9}
+.ww-page .ww-definition-details{display:grid;grid-template-columns:1fr 1fr .62fr;gap:38px;padding-block:52px 64px}
+.ww-page .ww-definition-details>section+section{border-left:1px solid #e1e4e5;padding-left:34px}
+.ww-page .ww-definition-details p,.ww-page .ww-two-col p{color:#454d55}
+body.brand-site .ww-page .ww-scope h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:#b51218;line-height:1.5;margin-bottom:8px}
+.ww-page .ww-scope dl>div{padding:9px 0;border-bottom:1px solid #e1e4e5}
+.ww-page .ww-scope dt{font-size:13px;line-height:1.5;font-weight:650}
+.ww-page .ww-scope dd{font-size:13px;line-height:1.6;color:#596168;margin-top:4px}
+.ww-page .ww-approval{padding-block:60px;background:#f5f6f6}
+.ww-page .ww-section-heading>p:last-child:not(.ww-eyebrow){max-width:70ch;margin-top:20px;color:#454d55}
+.ww-page .ww-two-col{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.ww-page .ww-two-col>section+section{padding-left:48px;border-left:1px solid #d8dcde}
+.ww-page .ww-approval-details{margin-block:36px 32px}
+.ww-page .ww-inspection-photo img{height:280px;object-fit:cover;object-position:center}
+.ww-page .ww-handover{padding-block:66px}
+.ww-page .ww-handover-top{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:start}
+.ww-page .ww-handover-top h2{max-width:15ch}
+.ww-page .ww-archive-grid{display:grid;grid-template-columns:1.1fr 1fr;grid-template-rows:140px 140px;gap:8px}
+.ww-page .ww-archive-grid a{display:block;overflow:hidden}
+.ww-page .ww-archive-grid a:first-child{grid-row:1/3}
+.ww-page .ww-archive-grid img{width:100%;height:100%;object-fit:cover;transition:opacity .2s}
+.ww-page .ww-archive-grid a:hover img{opacity:.88}
+.ww-page .ww-handover-details{margin-top:48px}
+.ww-page .ww-issue{padding-block:34px;background:#f3f4f4}
+.ww-page .ww-issue-grid{display:grid;grid-template-columns:.85fr 1.3fr .7fr;gap:36px;align-items:center}
+.ww-page .ww-issue .ww-eyebrow,.ww-page .ww-related .ww-eyebrow{margin-bottom:12px}
+body.brand-site .ww-page .ww-issue h2,body.brand-site .ww-page .ww-related h2{font-size:28px;line-height:1.2}
+.ww-page .ww-issue-grid>p,.ww-page .ww-related>p{font-size:14px;color:#454d55;line-height:1.7}
+.ww-page .ww-issue-grid>.ww-secondary{margin:0}
+.ww-page .ww-related{display:grid;grid-template-columns:.85fr 1.1fr 1fr;gap:36px;align-items:center;padding-block:38px;border-bottom:1px solid #d8dcde}
+.ww-page .ww-related .ww-link-group{margin-top:0}
+.ww-page .ww-closing{display:flex;justify-content:space-between;align-items:center;gap:64px;padding-block:42px 48px}
+body.brand-site .ww-page .ww-closing h2{font-size:36px}
+.ww-page .ww-closing p{max-width:68ch;margin-top:13px;color:#454d55}
+.ww-page .ww-closing-actions{display:flex;flex-direction:column;gap:10px;align-items:center;flex-shrink:0;width:270px}
+.ww-page .ww-closing-actions .ww-button{width:100%}
+.ww-page .ww-closing-actions>a:last-child{font-size:14px;min-height:44px;padding-block:9px}
+.ww-page .ww-back{display:inline-flex;min-height:44px;align-items:center;font-size:13px;text-decoration:underline;text-underline-offset:4px;margin-top:12px}
+@media(min-width:1600px){.ww-page .ww-hero-inner{min-height:640px}.ww-page .ww-hero-copy{padding-top:25px}}
+@media(max-width:1100px){
+ .ww-page .ww-wrap{width:calc(100% - 64px)}
+ .ww-page .ww-hero-inner{min-height:550px}.ww-page .ww-hero-copy{width:56%}.ww-page .ww-hero-image{object-position:58% center}
+ .ww-page .ww-before{grid-template-columns:1fr;gap:28px}.ww-page .ww-before-heading h2 br{display:none}
+ .ww-page .ww-chapter-grid,.ww-page .ww-handover-top{gap:35px}.ww-page .ww-review-photo img{height:320px}
+ .ww-page .ww-definition-details{grid-template-columns:1fr 1fr;gap:30px}.ww-page .ww-definition-details .ww-scope{grid-column:1/-1;border-left:0;padding-left:0;border-top:1px solid #d8dcde;padding-top:25px}.ww-page .ww-scope dl{display:grid;grid-template-columns:repeat(5,1fr);gap:22px}
+ .ww-page .ww-two-col{gap:32px}.ww-page .ww-two-col>section+section{padding-left:32px}
+ .ww-page .ww-issue-grid,.ww-page .ww-related{grid-template-columns:1fr 1.5fr;gap:24px}.ww-page .ww-issue-grid>.ww-secondary,.ww-page .ww-related .ww-link-group{grid-column:2}
+}
+@media(max-width:760px){
+ .ww-page .ww-wrap{width:calc(100% - 40px)}
+ body.brand-site .ww-page h2{font-size:34px}body.brand-site .ww-page h3{font-size:22px}
+ .ww-page .ww-hero{display:flex;flex-direction:column}.ww-page .ww-hero-image{position:relative;order:2;height:250px;z-index:auto;object-position:76% center;width:100%;object-fit:cover}
+ .ww-page .ww-hero-inner{min-height:0;padding-block:17px 30px}.ww-page .ww-hero-copy{width:100%;max-width:560px}
+ .ww-page .ww-breadcrumb{margin-bottom:29px;font-size:11px}body.brand-site .ww-page h1{font-size:clamp(36px,9.5vw,56px);line-height:1.05;letter-spacing:-.045em}
+ .ww-page .ww-hero-copy .ww-subtitle{font-size:20px;max-width:30ch;margin-top:22px}.ww-page .ww-hero-copy>p:not(.ww-subtitle){font-size:16px;max-width:39ch}
+ .ww-page .ww-hero-copy .ww-button{margin-top:24px}.ww-page .ww-hero-caption{position:static;max-width:none;text-align:left;margin-top:15px;padding:0;color:#bfc7cb;background:none;font-size:11px}
+ .ww-page .ww-before,.ww-page .ww-handover{padding-block:42px}.ww-page .ww-before{gap:24px}
+ .ww-page .ww-eyebrow{font-size:11px;gap:13px;margin-bottom:17px}.ww-page .ww-eyebrow::before{width:30px}
+ .ww-page .ww-facts{grid-template-columns:1fr 1fr;gap:24px 20px;margin-top:26px}.ww-page .ww-facts>div+div{padding-left:0;border:0}.ww-page .ww-facts>div:nth-child(even){padding-left:20px;border-left:1px solid #d8dcde}.ww-page .ww-facts dd{font-size:22px}.ww-page .ww-facts dt{font-size:12px}
+ .ww-page .ww-preparation{display:block;padding:21px}.ww-page .ww-preparation .ww-secondary{margin-top:17px}
+ .ww-page .ww-chapter-band{padding-block:38px}.ww-page .ww-chapter-grid{grid-template-columns:1fr;gap:28px}.ww-page .ww-review-photo img{height:auto;aspect-ratio:1.5}
+ .ww-page .ww-subtitle{font-size:21px}.ww-page .ww-definition-details{display:block;padding-block:35px 40px}.ww-page .ww-definition-details>section+section{border-left:0;padding-left:0;border-top:1px solid #d8dcde;margin-top:30px;padding-top:28px}
+ .ww-page .ww-scope dl{display:block}.ww-page .ww-scope dl>div{display:grid;grid-template-columns:115px 1fr;gap:18px;padding-block:12px}.ww-page .ww-scope dd{margin:0;font-size:14px}.ww-page .ww-scope dt{font-size:14px}
+ .ww-page .ww-approval{padding-block:40px}.ww-page .ww-two-col{display:block}.ww-page .ww-two-col>section+section{padding-left:0;border-left:0;border-top:1px solid #d8dcde;padding-top:28px;margin-top:28px}
+ .ww-page .ww-approval-details{margin-block:30px}.ww-page .ww-inspection-photo img{height:215px;object-position:50% center}
+ .ww-page .ww-handover-top{grid-template-columns:1fr;gap:28px}.ww-page .ww-handover-top h2{max-width:14ch}.ww-page .ww-archive-grid{grid-template-rows:118px 118px}.ww-page .ww-handover-details{margin-top:32px}
+ .ww-page .ww-issue-grid,.ww-page .ww-related{display:block}.ww-page .ww-issue-grid>p,.ww-page .ww-related>p{margin-top:20px;font-size:16px}.ww-page .ww-issue-grid>.ww-secondary,.ww-page .ww-related .ww-link-group{margin-top:20px}
+ .ww-page .ww-closing{display:block;padding-block:35px}.ww-page .ww-closing-actions{width:100%;align-items:flex-start;margin-top:20px}.ww-page .ww-closing-actions .ww-button{width:100%}.ww-page .ww-closing h2{font-size:32px}
+}
+@media(prefers-reduced-motion:reduce){.ww-page a,.ww-page img{transition:none!important}}

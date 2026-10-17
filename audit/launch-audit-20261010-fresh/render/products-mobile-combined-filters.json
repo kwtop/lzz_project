@@ -1,0 +1,121 @@
+{
+  "canonical": "https://www.lzz-cnc.com/products/",
+  "description": "Browse custom CNC machined part examples by process and material, including housings, shafts, fittings and complex components.",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Custom machined parts"
+    },
+    {
+      "tag": "H3",
+      "text": "Stainless steel turned shafts"
+    },
+    {
+      "tag": "H3",
+      "text": "Stainless steel turned parts"
+    },
+    {
+      "tag": "H3",
+      "text": "Locking pins"
+    },
+    {
+      "tag": "H2",
+      "text": "From the workshop"
+    },
+    {
+      "tag": "H2",
+      "text": "Covered components & gear forms"
+    },
+    {
+      "tag": "H2",
+      "text": "Covered wheels, rollers and shaped components"
+    },
+    {
+      "tag": "H2",
+      "text": "Gear forms"
+    }
+  ],
+  "lang": "en",
+  "links": [
+    {
+      "href": "/capabilities/cnc-milling-service/",
+      "text": "CNC milling\n↗"
+    },
+    {
+      "href": "/capabilities/cnc-turning-service/",
+      "text": "CNC turning\n↗"
+    },
+    {
+      "href": "/capabilities/5-axis-cnc-machining/",
+      "text": "5-axis machining\n↗"
+    },
+    {
+      "href": "/capabilities/plastic-machined-parts/",
+      "text": "Engineering plastics\n↗"
+    },
+    {
+      "href": "/capabilities/casting-machining/",
+      "text": "Casting machining\n↗"
+    },
+    {
+      "href": "/products/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "text": "Stainless steel turned shafts\n\nStainless steel shafts · turning & live tooling"
+    },
+    {
+      "href": "/products/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "text": "Stainless steel turned parts\n\nStainless steel · shafts, valves & threaded fittings"
+    },
+    {
+      "href": "/products/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "text": "Locking pins\n\nStainless locking hardware · shafts & flanges"
+    },
+    {
+      "href": "/cases/",
+      "text": "From the workshop\n\nSetups, machining sequences and finished parts.\n\nExplore Machining Studies\n↗"
+    },
+    {
+      "href": "/media/source-details/covered-wheels-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/source-details/covered-rollers-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/source-details/covered-shaped-parts-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/source-details/gear-bevel-examples-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/media/source-details/gear-cylindrical-examples-1200.webp",
+      "text": ""
+    },
+    {
+      "href": "/cases/custom-plastic-parts-ptfe-pom-pe-acrylic/#pom",
+      "text": ""
+    },
+    {
+      "href": "/resources/processes-materials-finishes/#coated-parts",
+      "text": ""
+    },
+    {
+      "href": "/quote/",
+      "text": ""
+    }
+  ],
+  "main": "Custom machined parts\n\nExplore parts by shape, process and material. Each example is made to drawing, not sold from stock.\n\nStart with a machining route\n\nCNC milling\n↗\nCNC turning\n↗\n5-axis machining\n↗\nEngineering plastics\n↗\nCasting machining\n↗\nSearch parts\nFilters · 2 active\n−\nProcess\nAll processes\nCNC milling\n5-axis machining\nCNC turning\nCasting machining\nMaterial\nAll materials\nStainless steel\nEngineering plastics\nCopper & brass\nAluminum\nOrder type\nAny order type\nPrototype\nSmall batch\n3 parts found\nClear filters\nShow featured examples\nStainless steel turned shafts\n\nStainless steel shafts · turning & live tooling\n\nStainless steel turned parts\n\nStainless steel · shafts, valves & threaded fittings\n\nLocking pins\n\nStainless locking hardware · shafts & flanges\n\nFrom the workshop\n\nSetups, machining sequences and finished parts.\n\nExplore Machining Studies\n↗\nCovered components & gear forms\n+",
+  "schema": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/products/#webpage\",\"url\":\"https://www.lzz-cnc.com/products/\",\"name\":\"Custom Parts\",\"description\":\"Browse custom CNC machined part examples by process and material, including housings, shafts, fittings and complex components.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\",\"breadcrumb\":{\"@id\":\"https://www.lzz-cnc.com/products/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.lzz-cnc.com/products/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.lzz-cnc.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Custom Parts\",\"item\":\"https://www.lzz-cnc.com/products/\"}]}]}"
+  ],
+  "scrollWidth": 375,
+  "title": "Custom Parts | LZZ Precision",
+  "url": "http://127.0.0.1:4323/products/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "name": "products-mobile-combined-filters"
+}

@@ -1,0 +1,300 @@
+{
+  "baseline": "D:/lzz/visual-rebuild-baseline-20261015",
+  "notes": "Source/config differences against the session-start snapshot, not git HEAD. New media and delivery documents are listed separately. No automatic rollback script; do not overwrite later user work.",
+  "changedSourceFiles": [
+    {
+      "path": "src/components/AboutContactRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "21bb2db00f218e7f4ac4456a69cc2ca91ce565c9ab948e1ae885eb857aef17d9",
+      "afterSha256": "8b3b19c9ac8c8fb01a9adca18af3ce069bdaf55c045fc3fb75606cf97c8cda73"
+    },
+    {
+      "path": "src/components/AboutNewsIndexRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "85d34a94177725ce7a03104b79cd4dfbe134b5c3c05b1534c887b37935e351eb",
+      "afterSha256": "1f83d2c2e7cded8adafd634c707a45cdc86318f5f7cab497574d2654128e5511"
+    },
+    {
+      "path": "src/components/AboutOverviewRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "4d5f2dee345f873022c7194ecc4caa2b0bb135b98231b9f2c8491a82aabd79fa",
+      "afterSha256": "18975e522711bb8bcaeb19a08d8d351b742b4880b83f683f3726890c8793ed01"
+    },
+    {
+      "path": "src/components/AboutProfileRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "b8926eb5637aee8eb340e3f0fe1dd642171cdc7b63487400fa591af30ae54b95",
+      "afterSha256": "a16da54aabe1b317a4262e4676f6dfe556bdf011cea419d58aad4e116db826b9"
+    },
+    {
+      "path": "src/components/AboutWorkflowRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "c7d1c3c6d06b2a3de8d4c435b8cb98e5c2d36b6b240291724321a0b037bb538e",
+      "afterSha256": "b926b9af55b92b484f2363ef2ec51b609eff6ff3357031f613148421f501f419"
+    },
+    {
+      "path": "src/components/CapabilitiesDirectory.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "f465ad3de0370bb2ed1533f6162386de3f51e48b8c88239dd42ca61d19015d91",
+      "afterSha256": "12ae0a14650255522818974daee8e278bc99766fc48cde579753fa9c7b73f14e"
+    },
+    {
+      "path": "src/components/CapabilityAcceptance.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "b0d196e1430981dbdcb49ce4e52a9b624ec33e7fa7ec90935e227feef06505a8",
+      "afterSha256": "c1b3ca69b84bccc863f461fe2a026a0c5c7d81a90ffad9ef41c1d90252161dde"
+    },
+    {
+      "path": "src/components/CapabilityApplications.astro",
+      "status": "new since session baseline",
+      "beforeSha256": null,
+      "afterSha256": "957ba81342ef2c33c89fbfe4c6a2dba2a7d8a1ba0fe2eb762f147f7d1867e996"
+    },
+    {
+      "path": "src/components/CapabilityBatchPage.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "96fb07791d0688e77532d4aba0af4e5f2a1d2b828ca4256990fe14df1a3fde86",
+      "afterSha256": "adec3f09c2f1f414bdcbc391b2a22646b473d295f2b75b21b4177658c1ebfd63"
+    },
+    {
+      "path": "src/components/CapabilityConcept.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "f7057dd42cc22dba6e1b65fa1aaecbbc6c5bbe341e7147ea061e70ea3481922a",
+      "afterSha256": "e817662f977eea14ec9f1dcf0a83bdca002f97bc88fdf1e28ce067c137ed4d49"
+    },
+    {
+      "path": "src/components/CapabilityExamples.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "2fa9a60fd34dce8b5f005e1489dc26ed5d4fa937a79ba1cc0641b97498c3f5e0",
+      "afterSha256": "176e7b20548f516058151d708dee8ab73f48429ccb1b1e012f307470d0793b3e"
+    },
+    {
+      "path": "src/components/CapabilityInquiry.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "248edf771416b87473c7b51e5b15389e4f27e7a2ba1e04597cd68d4f2565cdbe",
+      "afterSha256": "596959922fe05133266529a6bf4ab64f0f833c4f0daac54079094ede3511f288"
+    },
+    {
+      "path": "src/components/CapabilityIntro.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "7531499f20fc62bd99f032810d167f10b153122775f0850dad5cf9596d6b9da4",
+      "afterSha256": "17431965b275603f54d37957d05a184a782eaaa435ab2655cb975945a20d602f"
+    },
+    {
+      "path": "src/components/CapabilityMaterialPage.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "e74721b244ad7ab5653b2ff0175b133e50a0588c662500dd11176158fe6514f0",
+      "afterSha256": "0d1201a7356379d7b5842a0dd60b99c18663bd8adb648919ec426f24b377e3ca"
+    },
+    {
+      "path": "src/components/CapabilityMaterialTable.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "9411599f67b85ea15c6cf6e6956da25f081873566e67802e75b81fa201fb6909",
+      "afterSha256": "ce2315ab5aa05b17466b8b5579d4120bfd137b1c8abe95f7b8f1a98606e296c4"
+    },
+    {
+      "path": "src/components/CapabilityPartFigure.astro",
+      "status": "new since session baseline",
+      "beforeSha256": null,
+      "afterSha256": "cc3a112c5a8ae387f6b450d40cbe6e93ab97af3228fa08cf5623213a94e21f49"
+    },
+    {
+      "path": "src/components/CapabilityProcessPage.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "047f978150d345b1765413ac8fd1941b55368aca2e47954f2a81c877fa8826ed",
+      "afterSha256": "b833a816529454b6241c51cdbce0cb82f71787a4a5ae69429136d32fe389cee8"
+    },
+    {
+      "path": "src/components/CapabilityPrototypePage.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "753a8dc47d2d39a120517b62d170be4912c1c673cdab51874e9d628b4257c384",
+      "afterSha256": "84f1f38e535168b1c25358b95d8224b2d3b8f04536cb321a01aebc09a0002920"
+    },
+    {
+      "path": "src/components/CapabilitySamplePage.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "4a8bacc7f49e4d8af4a5434ce3a5d370516a77f2db36dd29c87bbee80848269f",
+      "afterSha256": "f197de163de2c27cc81a5b575d02b7be97b58bdb2783afce085c9e7d0e23c6f1"
+    },
+    {
+      "path": "src/components/FactoryRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "013a4849ccc986da268597818f4be4dc7b65420a4a1a06b207ec12c01fc3609c",
+      "afterSha256": "805760ae8a003410ea6cd3cc04545448db6c73f8501aa44971e388ba29f19ca7"
+    },
+    {
+      "path": "src/components/HomeApproved.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "f529ccdc677b3a2d2c6e19c4a5ab3f506729df61859cc504b104fda48b5de0bf",
+      "afterSha256": "0f5cc135fed89df4413884d2c3f43b875deb56dbe18687b2e4f94c5e7b7e301b"
+    },
+    {
+      "path": "src/components/PartsCatalogueExplorerRedesigned.tsx",
+      "status": "modified since session baseline",
+      "beforeSha256": "46ecbf72a9148ee0f3aecceca7394bf6e6980fb48b4c4fa90c772025d0eb9a2b",
+      "afterSha256": "67cba3c8d718e8e7db3947a7e02f34b8cb109450693f6feaa442342b1a31b601"
+    },
+    {
+      "path": "src/components/ProductsCatalogueRedesigned.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "7eb392422ce405c728a6df49c64a8bf67eb5923d99b8d2020deb3cdf7e8614bb",
+      "afterSha256": "63b3b5c1a6ce4746b4ba639b2f180169b738e2920acdcc7aa4c6ab08c8dca030"
+    },
+    {
+      "path": "src/components/ProductsOverviewRedesigned.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "aa1f3eb6d5dd08211fbe34a838da26ae65885a5afa23c3a7da3eb610708a5a82",
+      "afterSha256": "877449ba142b7289353c6d504b8fd1f82dc9b493a4837fb230cd2c0e2c3745b4"
+    },
+    {
+      "path": "src/components/ProductsPartRedesigned.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "ea01d5c9d59402aa1e3a227eb84ce1922ed58d6665c8c1c159d9810e79e63dcc",
+      "afterSha256": "1871d3256988b79ed817d2ab5e9daa5da72c57a70463fa78ce56fa8695acca41"
+    },
+    {
+      "path": "src/components/ProductsStudiesIndexRedesigned.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "2f316670e939ab4870efe9475a80712955e812b00631e0147c12995b6a047ef6",
+      "afterSha256": "48b1a80a882fbd5d9b7f5e2980f6e57da9dc4fb8e720757a38fe5ec573572079"
+    },
+    {
+      "path": "src/components/ProductsStudyRedesigned.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "bbdea08632172cba140ce107aa5d63d55f0551b27ab5c3768fbc683f6d492448",
+      "afterSha256": "d926c2786c65ef02ac9f65d3f0fec57e9666694fd7fad08b8fe0e4ed3afcc2e4"
+    },
+    {
+      "path": "src/components/QuoteForm.tsx",
+      "status": "modified since session baseline",
+      "beforeSha256": "732f8bf280bbf266e5eb427a7553d30440ed2766e5441ad918bf3705dbd226cb",
+      "afterSha256": "1ccb3fb83c6b1904bdd4d4a81df0119782aef168f2f880578c57ac79ee1f70b4"
+    },
+    {
+      "path": "src/components/ResourceApprovedModule.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "e92cf41d692edb2bfe3a267aa9c5516e2a8d242a5f7f047afc5868de11c27146",
+      "afterSha256": "2a6d72c679d7af56f15fc3db718027f1aafc37ae04d92b13afa3ad0f09c5ee86"
+    },
+    {
+      "path": "src/components/ResourceDirectoryRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "c5b2d0a1f7c59b9bd5bbf4b671823539366caba5babbbd5d81818ae5c849520f",
+      "afterSha256": "f87f457c62620fe0d86130642b98f1ac42913da7b0e32d7d52e9724f2ebaa76e"
+    },
+    {
+      "path": "src/components/ResourceFaqRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "92ee6285bbaa7edcfc61af1f000900313c527583415be43407dbb8f00743145e",
+      "afterSha256": "a5a0e86834aa917fa87edb2155ffae756bc58146c1cff9589abe6f2b8dc3ac79"
+    },
+    {
+      "path": "src/components/ResourceGuideRedesign.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "db0650b0d33e66f8f724cdedbf5c8f1b1c87a524d65be0175c58460e05c238af",
+      "afterSha256": "3a23be2aba3369896c0a03acbe707f29122dd1e70f15026469a186b5b318aa99"
+    },
+    {
+      "path": "src/data/capabilityRebuild.ts",
+      "status": "new since session baseline",
+      "beforeSha256": null,
+      "afterSha256": "c5e1a1e3bc6fced7226a9bdfc0da5a14838df20221bcc532d77ff63885d3adf6"
+    },
+    {
+      "path": "src/data/productsRebuild.ts",
+      "status": "new since session baseline",
+      "beforeSha256": null,
+      "afterSha256": "65f4c303d137cc78ac5dbfa7c3fb0c6f971296d81a19949483a870258e11bf8f"
+    },
+    {
+      "path": "src/data/resourceApproved.ts",
+      "status": "modified since session baseline",
+      "beforeSha256": "2ccd10f6cf118823edc9240adb5ab470c1087ebcf04e63718bf60df491161885",
+      "afterSha256": "df959c961cd6784777d4ed8078b277aa2f3ca59104ea64eeb6221930ac5ad006"
+    },
+    {
+      "path": "src/pages/capabilities/starting-with-a-sample.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "a6da48d136ceaea928adb838079d7e3b5fe9ec3e9164046347efda58d38af794",
+      "afterSha256": "dc8793215f1973840fbf20b9b1bb59040195c81ce42728efaef8b97f4bc095d9"
+    },
+    {
+      "path": "src/pages/capabilities/[slug].astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "5c71db77a89bbfd86ced2e0e7f9df43a94618fe98e9bdff1201bb15313edbf50",
+      "afterSha256": "407edc6e927fa7cf77db12ecf84d4efce1ac38ee6de53b019bc3b9af790aa338"
+    },
+    {
+      "path": "src/pages/privacy.astro",
+      "status": "modified since session baseline",
+      "beforeSha256": "0594570abf04e0f742bf2ef968e96aadff4107d89e9fab54fe9209df893e9381",
+      "afterSha256": "bde4be965acfc743a5827def935ad8ad95cd440d88c8e773b5dc8694e841a3ba"
+    },
+    {
+      "path": "src/styles/about-approved.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "2ddaa4a87bc951bded0e24ca803938aba9326d6ac73e7bd0e7bd276237c43c55",
+      "afterSha256": "3009f2019d52e631fa525c7ab3cc92381202d2ac3143f86e098773ccf46470ca"
+    },
+    {
+      "path": "src/styles/capability-redesign.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "63e564241c732f57a692956c58f7890eb8b064a8b2c047fe53c1ef5cd0802a28",
+      "afterSha256": "4c115bd3c86f9eac3c9f33117bca98321d588d8ca73e92be92f7d275cd4f0b33"
+    },
+    {
+      "path": "src/styles/factory-redesign.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "b3f842fe22275d654909e622a2dc78456a79723e40427410027c9a776a7ce3ce",
+      "afterSha256": "63f5391b6a481b5c4d17a65873375b80ef4aa2e93227fd439d7ea5438603d476"
+    },
+    {
+      "path": "src/styles/home-approved.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "bf51e97b62e395afcda728f05b871592007f20b521be9c6c18629c77dc86f414",
+      "afterSha256": "dc474363bfdd292b73efdbedd8f32444c1a6bdef3fd90212e1162f52566f2f67"
+    },
+    {
+      "path": "src/styles/products-20261015.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "458733a6e402dd35012329b77a2b2d2715018113b1a9795cb8873276ed606f80",
+      "afterSha256": "0d3b97852d192e61b8261fa7e0e627ba54e2946b1824db1d47112f2ed965ba8a"
+    },
+    {
+      "path": "src/styles/quote-approved.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "93e3da37cfadafcc5588e2257cd861b08362098555d38bd11e2dad80e5d4fb05",
+      "afterSha256": "5588143821567d8bfd12797125d93c90f150e4d609d2900b36682ea192b50a1a"
+    },
+    {
+      "path": "src/styles/redesign-system.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "b36c2c303069297bcfd64f6d2d5f3779b13443f6273d4b6cf517cec241141ade",
+      "afterSha256": "0c9e3b7ccc8ffa64a74b5aac6f7d7fa0d36dee66fecfa09e000a9522f25c9f57"
+    },
+    {
+      "path": "src/styles/resources-approved.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "e1defd38f273b6846305f86e8ff40eaeb78e02d42f0c532b23543f5f836a4261",
+      "afterSha256": "3299d88f9d567077a57f511fae59c7bc811a690dcf0614179dba0c6271f3d265"
+    },
+    {
+      "path": "src/styles/utility-approved.css",
+      "status": "modified since session baseline",
+      "beforeSha256": "27d2d08c9ea8e263d72badee65d3f01add11df8fd127e3e0847be8fc45592b2a",
+      "afterSha256": "e6a78ab4672254efdbaac2e79ce08f1e54069a733845ebad460b855b26a4fd3f"
+    },
+    {
+      "path": "DESIGN.md",
+      "status": "modified since session baseline",
+      "beforeSha256": "158ca7cebb85914629c9c3846438b8b42075cda96acfc5a5d4e36410299b2937",
+      "afterSha256": "89a8eb2f46e6104dcaab4f56e2239a633faaeda83b56013e97b836febe231c92"
+    }
+  ],
+  "newMediaDirectories": [
+    "public/media/editorial-rebuild-20261015",
+    "public/media/products-real-details-20261015"
+  ],
+  "deliveryDirectory": "docs/visual-rebuild-20261015",
+  "deliveryDocument": "docs/WEBSITE-REDESIGN-DELIVERY.md"
+}

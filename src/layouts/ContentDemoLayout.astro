@@ -1,0 +1,26 @@
+---
+import Layout from './Layout.astro';
+import '../styles/content-layout-demo.css';
+const {title,original}=Astro.props;
+---
+<Layout title={title+' — layout preview'} description="Independent content and layout sample for local review. The current public site is unchanged." cta={false} noindex={true}>
+ <div class="cl-demo">
+  <div class="cl-preview"><span>CONTENT &amp; LAYOUT PREVIEW</span><nav aria-label="Preview controls"><a href={original} target="_blank">Original page ↗</a><a href="/content-layout-demo-20261010/" target="_top">Compare layouts ↗</a></nav></div>
+  <slot/>
+ </div>
+</Layout>
+<script>
+ const previewRoutes:Record<string,string>={
+  '/':'/content-layout-demo-20261010/home/',
+  '/capabilities/plastic-machined-parts/':'/content-layout-demo-20261010/category/',
+  '/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/':'/content-layout-demo-20261010/detail/',
+ };
+ document.addEventListener('click',event=>{
+  if(!(event instanceof MouseEvent)||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||event.button!==0)return;
+  const anchor=(event.target as Element)?.closest('a');
+  if(!anchor||anchor.closest('.cl-preview')||anchor.target||anchor.hasAttribute('download'))return;
+  const destination=new URL(anchor.href,location.href);
+  const sample=destination.origin===location.origin&&previewRoutes[destination.pathname];
+  if(sample){event.preventDefault();location.href=sample+destination.search+destination.hash;}
+ });
+</script>

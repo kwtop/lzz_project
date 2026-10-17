@@ -1,0 +1,61 @@
+---
+import RfqPanel from './RfqPanel.astro';
+import EvidenceImage from './EvidenceImage.astro';
+import {primaryServices} from '../data/services';
+import {engineeringCases} from '../data/cases';
+import {productImage,productSrcset} from '../data/refinedImages';
+import catalog from '../data/catalog.json';
+import '../styles/home-gallery.css';
+import '../styles/home-factory-editorial.css';
+import '../styles/home-studies-editorial.css';
+import {responsiveImage} from '../data/responsiveImages';
+import ImpellerDetailImage from './ImpellerDetailImage.astro';
+import '../styles/image-audit-pilot.css';
+const heroImage=responsiveImage('/media/machining-hero-v2.webp')!;
+const parts=[
+ {slug:'ultra-high-precision-machining-services',name:'Machined impeller',focus:'Blade contours and hub interfaces'},
+ {slug:'oem-precision-cnc-machined-casting-housing-structural-enclosures',name:'Machined casting housing',focus:'Bores, ribs and mounting faces'},
+ {slug:'precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier',name:'Turned locking pin',focus:'Engagement, threads and mating fit'},
+ {slug:'precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances',name:'Complex plastic components',focus:'Pockets, walls and mating surfaces'},
+].map(item=>({...item,product:catalog.products.find(p=>p.slug===item.slug)!}));
+const featuredCases=['29-inch-display-housing-cnc-machining','turning-then-milling-cylindrical-parts'].map(slug=>engineeringCases.find(item=>item.slug===slug)!);
+const materials=[['Aluminum','aluminum-cnc-parts'],['Stainless steel','stainless-steel-cnc-parts'],['Brass & copper','copper-brass-cnc-parts'],['Engineering plastics','plastic-machined-parts']];
+---
+ <section class="precision-hero restored-hero" data-image-pilot="home-hero">
+  <picture><source media="(max-width:760px)" srcset={heroImage.srcset} sizes="178dvh"/><img class="precision-scene" src={heroImage.src} srcset={heroImage.srcset} sizes="100vw" alt="CNC spindle machining an aluminum workpiece" width="1672" height="941" fetchpriority="high" data-image-origin="AI-generated"/></picture>
+  <div class="container precision-message"><h1><span data-motion-line>Custom CNC parts</span><br/><span data-motion-line>Made to your drawing</span></h1><div class="home-hero-actions"><a class="button" href="/quote/">Prepare RFQ email </a><a class="home-hero-browse" href="/machined-parts/gallery/">Browse parts gallery </a></div></div>
+  <div class="container hero-baseline"><div><p>CNC milling · Turning · 5-axis machining</p></div></div>
+ </section>
+ <div class="editorial-home" data-image-pilot="home">
+  <section class="container ed-parts" id="selected-parts">
+   <header class="ed-heading"><h2>Parts gallery</h2></header>
+   <div class="ed-product-grid">{parts.map(part=><a class="ed-product" href={'/machined-parts/gallery/'+part.slug+'/'}><div class="ed-product-image"><img src={productImage(part.product)} srcset={productSrcset(part.product)} sizes="(max-width:760px) calc((100vw - 52px)/2), (max-width:1200px) 23vw, 270px" alt={part.name} width="800" height="800" loading="lazy" data-image-origin="ai-refined-source-photo"/></div><h3>{part.name}</h3></a>)}</div>
+  </section>
+  <section class="container home-capability-review" id="capabilities" aria-labelledby="home-capability-title">
+   <h2 id="home-capability-title">Machining capabilities &amp; materials</h2>
+   <figure class="home-capability-photo"><ImpellerDetailImage sizes="(max-width:760px) 90vw, 50vw"/></figure>
+   <div class="home-capability-copy">
+    
+    <div class="home-capability-lists">
+     <nav aria-labelledby="home-process-list-title"><h3 id="home-process-list-title">Machining capabilities</h3>{primaryServices.map(service=><a href={'/capabilities/'+service.slug+'/'}>{service.name}</a>)}</nav>
+     <nav aria-labelledby="home-material-list-title"><h3 id="home-material-list-title">Materials</h3>{materials.map(([label,slug])=><a href={'/capabilities/'+slug+'/'}>{label}</a>)}</nav>
+    </div>
+    
+    
+   </div>
+  </section>
+  <section class="container ed-factory home-evidence factory-editorial" aria-labelledby="ed-factory-title">
+   <header class="ed-heading"><h2 id="ed-factory-title">Factory &amp; quality</h2></header>
+   <div class="factory-story-pair">
+    <article class="factory-story-item"><figure><img src="/media/factory-refined/workshop-1440.webp" srcset="/media/factory-refined/workshop-480.webp 480w, /media/factory-refined/workshop-800.webp 800w, /media/factory-refined/workshop-1440.webp 1440w" sizes="(max-width:760px) 90vw, 56vw" width="1448" height="1086" alt="LZZ workshop, retouched with AI from the original photograph" loading="lazy" decoding="async" data-image-origin="ai-retouched-source-photo"/></figure><h3>Our workshop in Hangzhou</h3><dl class="factory-story-facts"><div><dt>Established</dt><dd>2017</dd></div><div><dt>Facility</dt><dd>1,500 m²</dd></div><div><dt>Machining &amp; supporting equipment</dt><dd>40+</dd></div></dl></article>
+    <article class="factory-story-item factory-story-quality"><figure><img src="/media/factory-refined/inspection-1440.webp" srcset="/media/factory-refined/inspection-480.webp 480w, /media/factory-refined/inspection-800.webp 800w, /media/factory-refined/inspection-1440.webp 1145w" sizes="(max-width:760px) 90vw, 35vw" width="1145" height="1374" alt="Coordinate measuring machine, retouched with AI from the original photograph" loading="lazy" decoding="async" data-image-origin="ai-retouched-source-photo"/></figure><h3>Dimensional inspection</h3><div class="factory-story-description"><p>LZZ is ISO 9001 certified.</p></div></article>
+   </div>
+  </section>
+  <section class="container ed-cases studies-editorial" aria-labelledby="home-studies-title"><header class="ed-heading"><h2 id="home-studies-title">Machining examples</h2></header><div class="studies-editorial-list">{featuredCases.map((item,index)=><article class:list={['studies-editorial-row',{'studies-editorial-reverse':index===1}]}><a class="studies-editorial-photo" href={'/machined-parts/machining-examples/'+item.slug+'/'} aria-label={'View study: '+item.title}><EvidenceImage id={item.hero} sizes="(max-width:760px) 90vw, 46vw"/></a><div class="studies-editorial-copy"><h3><a href={'/machined-parts/machining-examples/'+item.slug+'/'}>{item.title}</a></h3><p>{index===0?'Large-panel setup and mounting features.':'Turned features and a secondary milling setup.'}</p></div></article>)}</div></section>
+
+  <RfqPanel id="home-rfq" titleId="home-rfq-title">
+   <div slot="details"><dl><div><dt>Minimum order</dt><dd>From 1 piece</dd></div><div><dt>Production time</dt><dd>7-14 business days</dd></div></dl><p>Production starts after drawing and order confirmation. Surface finishing is included; shipping time is additional.</p></div>
+  </RfqPanel>
+ </div>
+
+

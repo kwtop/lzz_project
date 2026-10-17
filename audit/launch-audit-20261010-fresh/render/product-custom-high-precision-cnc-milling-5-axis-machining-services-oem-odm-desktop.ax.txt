@@ -1,0 +1,62 @@
+Browser tab: 506354184, Title: "Multi-bore circular milled component | LZZ Precision", URL: "http://127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 93-95, 97-123
+~1 AXWebArea Multi-bore circular milled component | LZZ Precision, URL: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/
+~		3 link Description: Skip to content, Value: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/#main
+~				24 text Multi-bore circular milled component
+~			25 heading Multi-bore circular milled component, Value: 1
+~				26 text Multi-bore circular milled component
+~			27 text Circular milling · stepped bores & face holes
+~			28 link Description: View full-size image: Multi-bore circular milled component, Value: 127.0.0.1:4323/media/responsive/catalog-00-cutout-v1-1200.webp
+~				30 link Description: 01 Part requirements, Value: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/#fit-review
+~				31 link Description: 02 Material & finish, Value: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/#part-information
+~				32 link Description: 03 Drawing review, Value: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/#drawing-review
+~				34 heading Bore sizes and face-hole positions, Value: 2
+~					35 text Bore sizes and face-hole positions
+~				36 text A circular component with a central opening, stepped bores and a pattern of smaller holes.
+~					40 text Central opening, stepped bores, face holes and machined circular surfaces.
+~					43 text aluminum, stainless and carbon steel, copper, brass, titanium and engineering plastics.
+~					46 text Bore sizes and face-hole positions need a common reference to the circular faces.
+~				47 link Description: Request a quote, Value: 127.0.0.1:4323/quote/?part=Multi-bore+circular+milled+component&product=custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm&source=%2Fproducts%2Fcustom-high-precision-cnc-milling-5-axis-machining-services-oem-odm%2F
+~					55 text Material options: aluminum, stainless and carbon steel, copper, brass, titanium and engineering plastics.
+~					58 text 3-axis, 4-axis and 5-axis CNC milling.
+~					61 text As-machined, polishing, bead blasting, Type II or Type III anodizing, and plating; select a treatment compatible with the material.
+~					72 text Specify bore diameters, step depths and fits. Locate the face-hole pattern from drawing datums, including pitch-circle diameter or hole-center coordinates and the relationship to the central bore.
+~					81 text Agree diameter and depth checks for each bore step, hole-position checks and the flatness or orientation of functional circular faces. Define the inspection setup from the drawing datums.
+~				82 link Description: Prepare an RFQ email, Value: 127.0.0.1:4323/quote/?part=Multi-bore+circular+milled+component&product=custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm&source=%2Fproducts%2Fcustom-high-precision-cnc-milling-5-axis-machining-services-oem-odm%2F
+~					91 link Description: Milled instrument blocks & brackets Mounting faces and intersecting passages in blocks or brackets., Value: 127.0.0.1:4323/products/custom-oem-high-precision-cnc-milling-manufacturer/
+~					92 link Description: Multi-face components Ports and bolt patterns sharing datums across several faces., Value: 127.0.0.1:4323/products/global-manufacturer-of-multi-sided-precision-machined-components/
++					93 link Description: Machined impellers Blade profiles and root transitions defined by a controlling surface model., Value: 127.0.0.1:4323/products/ultra-high-precision-machining-services/
++				94 button (collapsed) Related machining processes, Secondary Actions: Expand
++					95 text Related machining processes
+~		96 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
++		97 container
++			98 text Custom CNC machining
++			99 text in Hangzhou, China.
++		100 container Footer navigation
++			101 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
++			102 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
++			103 link Description: Our factory, Value: 127.0.0.1:4323/factory/
++			104 link Description: Quality control, Value: 127.0.0.1:4323/quality/
++			105 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
++			106 link Description: Resources, Value: 127.0.0.1:4323/resources/
++			107 link Description: Company Profile, Value: 127.0.0.1:4323/about/
++			108 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
++			109 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
++			110 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
++		111 container Let’s talk, ID: contact
++			112 heading Let’s talk, Value: 2, ID: footer-talk-title
++				113 text Let’s talk
++			114 text Hangzhou, China · UTC+8
++			115 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
++			116 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
++		117 container Find us
++			118 heading Find us, Value: 2, ID: footer-find-title
++				119 text Find us
++			120 container
++				121 text No. 4 Fengcheng Road
++				122 text Pingyao, Yuhang District
++				123 text Hangzhou, Zhejiang, China
+~		124 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
++		125 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+The focused UI element is 1 AXWebArea Multi-bore circular milled component | LZZ Precision, URL: 127.0.0.1:4323/products/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/

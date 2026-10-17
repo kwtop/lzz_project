@@ -1,0 +1,50 @@
+---
+import EvidenceImage from './EvidenceImage.astro';
+---
+<section class="inside-lzz container" aria-labelledby="inside-lzz-heading">
+ <header class="inside-heading">
+  <h2 id="inside-lzz-heading">Inside LZZ</h2>
+  <a class="inside-overview-link" href="/factory/">Explore the factory</a>
+ </header>
+ <div class="inside-layout">
+  <figure class="inside-photo">
+   <EvidenceImage id="workshop-wide" sizes="(max-width:760px) 100vw, 55vw"/>
+  </figure>
+  <div class="inside-process">
+   <ol>
+    <li><span class="step-number" aria-hidden="true">01</span><h3>Start with the drawing</h3></li>
+    <li><span class="step-number" aria-hidden="true">02</span><a class="process-link" href="/cases/"><h3>Machine the agreed geometry</h3><span>Process studies</span></a></li>
+    <li><span class="step-number" aria-hidden="true">03</span><a class="process-link" href="/quality/#quality-management"><h3>Check before shipment</h3><span>Quality control</span></a></li>
+   </ol>
+  </div>
+ </div>
+</section>
+<style>
+ .inside-lzz{padding-block:84px 56px}
+ .inside-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:36px}
+ .inside-heading h2{font-size:clamp(48px,5vw,70px);line-height:1;letter-spacing:-.035em}
+ .inside-overview-link{display:inline-flex;align-items:center;min-height:44px;flex-shrink:0;padding:8px 0;border-bottom:1px solid #8b9296;font-size:14px;font-weight:600;line-height:1.4}
+ .inside-overview-link:hover{color:var(--red);border-color:var(--red)}
+ .inside-layout{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:start}
+ .inside-photo{margin:0;min-width:0}
+ .inside-photo :global(img){display:block;width:100%;height:440px;object-fit:cover;object-position:center}
+ .inside-process ol{list-style:none;margin:0;padding:0}
+ .inside-process li{display:grid;grid-template-columns:28px 1fr;gap:20px;padding:24px 0;border-top:1px solid var(--border)}
+ .step-number{color:var(--red);font-size:12px;line-height:28px;font-variant-numeric:tabular-nums}
+ .inside-process h3{font-size:28px;line-height:1.15;letter-spacing:-.02em}
+ .process-link{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px}
+ .process-link span{flex-shrink:0;color:var(--muted);font-size:12px;line-height:1.4;border-bottom:1px solid #aeb4b7;padding-bottom:2px;white-space:nowrap}
+ .process-link:hover h3,.process-link:focus-visible h3{color:var(--red)}
+ .process-link:hover span,.process-link:focus-visible span{color:var(--red);border-color:var(--red)}
+ @media(max-width:1100px){.inside-layout{gap:36px}.inside-photo :global(img){height:420px}.inside-process h3{font-size:25px}}
+ @media(max-width:760px){
+  .inside-lzz{padding-block:48px 28px}
+  .inside-heading{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:26px}
+  .inside-heading h2{font-size:48px}
+  .inside-layout{grid-template-columns:1fr;gap:28px}
+  .inside-photo :global(img){height:auto;aspect-ratio:1.35;object-fit:cover}
+  .inside-process li{padding:20px 0;gap:16px;grid-template-columns:24px 1fr}
+  .inside-process h3{font-size:25px}
+  .process-link{align-items:flex-start;flex-direction:column;gap:8px}
+ }
+</style>

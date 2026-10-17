@@ -1,0 +1,43 @@
+[
+  {
+    "path": "src/components/EvidenceImage.astro",
+    "change": "modified",
+    "beforeHash": "39e0f153b733f7afdc9ece0922346bc8e67a244e75fc79362cd283a62aa084aa",
+    "afterHash": "7ed1f15ec596ac798f90958495afe6fe150d0eec53604cbb6aaa45b05964edb0"
+  },
+  {
+    "path": "src/components/KnowledgeCategory.astro",
+    "change": "modified",
+    "beforeHash": "875d4b64ac49ca33ad080335c02e01ae8cbdab0eef683694b484c79e477195a1",
+    "afterHash": "9d996154df498b59aeb5b5cda98c6426125f7a7fa1afbc638fc92b1256c3f641"
+  },
+  {
+    "path": "src/components/ReferenceGallery.astro",
+    "change": "modified",
+    "beforeHash": "54c3960e6a69ca47bcbe5266f3e8ab364977a08ea08747c87993a575d8b8c279",
+    "afterHash": "d7cc1a8455b00e4afea3fcf0f3871f797d20eed75e8132f4189d58781d2366c3"
+  },
+  {
+    "path": "src/pages/insights/[slug].astro",
+    "change": "modified",
+    "beforeHash": "c77288291fa046c1659be575aeed7ac8d9261685e244b4606a98454a31352666",
+    "afterHash": "30a1fdd309b5d734a9cdd8b191c5d696f0df04e1124050e417f49ab75fd62f01"
+  },
+  {
+    "path": "src/pages/insights/index.astro",
+    "change": "modified",
+    "beforeHash": "1ba2019c142ee2d7a10cbc21c89b7b05903c4734f347c99c6295de85f45d4afa",
+    "afterHash": "affc682adaa3127c1fe4f61563f406c7372bf4e5af3e755db5ef3f6a8f0541e8"
+  },
+  {
+    "path": "src/styles/finesse-redesign.css",
+    "change": "modified",
+    "beforeHash": "23f43f90e05298464f9b87136e409bfa76fbf3a844f1b357880c9862f3a514d8",
+    "afterHash": "5d4905032bd6e3900511e73eb0aa2f39e1918547cb252c9a7717b93d8b384809"
+  },
+  {
+    "path": "src/lib/photoFrame.ts",
+    "change": "added",
+    "afterHash": "6ee9b4cb2cac76aab2c108aa4d85f09d7354f221707edbb1b9793469f8905bbb"
+  }
+]

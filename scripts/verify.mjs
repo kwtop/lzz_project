@@ -1,0 +1,41 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import assert from 'node:assert/strict';
+import {load} from 'cheerio';
+import {chromium} from 'playwright';
+import {companyRedirects} from './build-seo.mjs';
+const base=process.env.TEST_URL||'http://127.0.0.1:4321';
+const output=fs.mkdtempSync(path.join(os.tmpdir(),'lzz-site-qa-'));
+const pages=fs.readdirSync('dist',{recursive:true}).filter(f=>f.endsWith('.html'));
+const failures=[];
+for(const file of pages){const $=load(fs.readFileSync(path.join('dist',file),'utf8'));const route='/'+file.replaceAll('\\','/').replace(/index\.html$/,'');const redirect=companyRedirects[route];if(redirect){if(!$('meta[http-equiv="refresh" i]').attr('content')?.includes(redirect))failures.push(`${file}: missing redirect to ${redirect}`);}else if($('h1').length!==1)failures.push(`${file}: ${$('h1').length} h1s`);$('a[href],img[src],script[src],link[href]').each((_,el)=>{const ref=$(el).attr('href')||$(el).attr('src');if(!ref?.startsWith('/')||ref.startsWith('//'))return;const pathname=decodeURIComponent(ref.split(/[?#]/)[0]);const local=path.join('dist',pathname);if(!fs.existsSync(local)&&!fs.existsSync(path.join(local,'index.html')))failures.push(`${file}: missing ${pathname}`);});}
+assert.deepEqual(failures,[],'Static links, assets, and headings');
+if(process.argv.includes('--static')){fs.rmdirSync(output);console.log(`Static links, assets, headings and redirect shells verified: ${pages.length} HTML files.`);process.exit(0);}
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(base);await page.evaluate(async()=>{document.querySelectorAll('img').forEach(i=>i.loading='eager');await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});await page.screenshot({path:path.join(output,'home-desktop.png'),fullPage:true});
+const materialNav=page.getByRole('navigation',{name:'Materials',exact:true});
+assert.equal(await materialNav.getByRole('link').count(),4);
+await materialNav.getByRole('link',{name:'Stainless steel',exact:true}).click();
+await page.waitForURL('**/capabilities/stainless-steel-cnc-parts/');
+assert.equal(await page.locator('h1').count(),1);
+await page.goto(base+'/machined-parts/');await page.locator('.product-card').first().waitFor();await page.locator('astro-island[ssr]').first().waitFor({state:'detached'}).catch(()=>{});
+assert.equal(await page.locator('.product-card').count(),12);
+await page.getByRole('button',{name:'View all 35 parts',exact:true}).first().click();
+await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===35);
+await page.getByPlaceholder('Search parts, materials, processes…').fill('brass');await page.waitForFunction(()=>document.querySelectorAll('.product-card').length<35);assert.ok(await page.locator('.product-card').count()>0);
+await page.getByPlaceholder('Search parts, materials, processes…').fill('xyz-no-match');await page.getByText('No matching parts').waitFor();await page.getByRole('button',{name:'Reset filters'}).click();await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===35);
+await page.getByRole('combobox',{name:'Process',exact:true}).selectOption('CNC-Turning-Service');await page.waitForFunction(()=>document.querySelectorAll('.product-card').length<35);assert.ok(await page.locator('.product-card').count()>0);
+await page.getByRole('combobox',{name:'Process',exact:true}).selectOption('');await page.screenshot({path:path.join(output,'products-desktop.png'),fullPage:false});
+await page.locator('.product-card').first().click();await page.getByRole('link',{name:'Discuss this part'}).click();await page.locator('textarea').waitFor();await page.waitForFunction(()=>document.querySelector('textarea').value.length>0);
+await page.getByRole('button',{name:'Prepare email draft'}).click();assert.equal(await page.locator('.draft-result').count(),0);
+await page.locator('.quote-optional summary').click();await page.locator('input[name=name]').fill('QA Preview');await page.locator('input[name=phone]').fill('+1 202 555 0123');await page.locator('input[name=destination]').fill('United States');await page.locator('input[name=email]').fill('preview@example.com');await page.locator('input[name=company]').fill('Local QA');await page.locator('select[name=material]').selectOption('Aluminum');await page.locator('input[name=quantity]').fill('100');await page.getByRole('button',{name:'Prepare email draft'}).click();await page.getByText('Your draft is ready').waitFor();assert.ok((await page.getByRole('link',{name:'Open email app'}).getAttribute('href')).startsWith('mailto:roger@lzz-cnc.com?'));
+await page.screenshot({path:path.join(output,'quote-desktop.png'),fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.goto(base);await page.getByRole('button',{name:'Open navigation'}).click();await page.getByRole('navigation',{name:'Main navigation'}).waitFor({state:'visible'});await page.keyboard.press('Escape');assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'false');await page.evaluate(async()=>{document.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});await page.screenshot({path:path.join(output,'home-mobile.png'),fullPage:true});
+const routes=pages.filter(f=>f!=='404.html').map(f=>'/'+f.replaceAll('\\','/').replace(/index\.html$/,''));
+for(const route of routes){await page.goto(base+route);const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);if(overflow)failures.push(route+': mobile overflow');const broken=await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>i.complete&&!i.naturalWidth).map(i=>i.src));if(broken.length)failures.push(route+': broken image '+broken.join(','));}
+await page.goto(base+'/quote/');await page.screenshot({path:path.join(output,'quote-mobile.png'),fullPage:true});
+await page.setViewportSize({width:972,height:1619});await page.goto(base);await page.screenshot({path:path.join(output,'home-concept-width.png'),fullPage:true});
+await browser.close();assert.deepEqual(errors,[],'Browser errors');assert.deepEqual(failures,[],'Responsive and image checks');console.log(JSON.stringify({staticPages:pages.length,mobileRoutes:routes.length,desktop:'1440x1000',mobile:'390x844',conceptWidth:'972',interactions:['material tabs','search','empty state/reset','category filter','product to RFQ prefill','form validation','email draft','mobile menu'],errors,failures,screenshots:output},null,2));

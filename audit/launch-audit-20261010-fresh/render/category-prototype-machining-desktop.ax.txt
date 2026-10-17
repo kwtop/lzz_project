@@ -1,0 +1,121 @@
+Browser tab: 506354184, Title: "Prototype Machining | LZZ Precision", URL: "http://127.0.0.1:4323/capabilities/prototype-machining/".
+1 AXWebArea Prototype Machining | LZZ Precision, URL: 127.0.0.1:4323/capabilities/prototype-machining/
+	2 container
+		3 link Description: Skip to content, Value: 127.0.0.1:4323/capabilities/prototype-machining/#main
+		4 container
+			5 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+			6 container Description: Main navigation, ID: main-nav
+				7 button (collapsed) Capabilities, Secondary Actions: Expand
+					8 text Capabilities
+				9 button (collapsed) Custom Parts, Secondary Actions: Expand
+					10 text Custom Parts
+				11 button (collapsed) Factory & Quality, Secondary Actions: Expand
+					12 text Factory & Quality
+				13 button (collapsed) Resources, Secondary Actions: Expand
+					14 text Resources
+				15 button (collapsed) About LZZ, Secondary Actions: Expand
+					16 text About LZZ
+			17 link Description: Request a Quote, Value: 127.0.0.1:4323/quote/
+		18 container
+			19 container Breadcrumb
+				20 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+				21 text Prototype machining
+			22 heading Machined prototypes for your next revision, Value: 1
+				23 text Machined prototypes for your next revision
+			24 text Machined prototypes for design development. Browse examples and discuss the next revision of your part.
+			25 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F
+			26 container
+				27 link Description: View Ring housings & angled components, Value: 127.0.0.1:4323/products/global-oem-precision-machining-solutions/
+				28 text Ring housings & angled components
+			29 container engineering-fit
+				30 heading What should your prototype verify?, Value: 2
+					31 text What should your prototype verify?
+				32 text Prototype examples focus on automotive housings and intake or cooling components. State the goal: packaging, assembly, appearance or a specific functional test. A prototype does not automatically validate a production design.
+				33 definition list
+					34 container Geometry & process
+						35 text Geometry & process
+					36 text For checking fit, assembly and design details before repeat production. STEP or IGES review helps identify tool access, fitment and manufacturability issues before machining. Automotive development examples include intercoolers, billet engine covers, intake manifolds, plenums and electronic throttle bodies.
+					37 container Size & workholding
+						38 text Size & workholding
+					39 text Send the current model revision, overall dimensions and stock size. Separate fixed interfaces from geometry still open to change so tool access and clamping space can be reviewed for the prototype.
+					40 container Material & finish
+						41 text Material & finish
+					42 text Specify the material grade, condition and required finish. State whether production material and finish are essential to the evaluation, or whether alternatives may be proposed for your approval. Separate fit-check dimensions from appearance finishes.
+				43 button (collapsed) Make the sample answer a design question, Secondary Actions: Expand
+					44 text Make the sample answer a design question
+			45 container part-examples
+				46 heading More part examples, Value: 2
+					47 text More part examples
+				48 link Description: Browse all parts, Value: 127.0.0.1:4323/products/
+				49 link Description: Intercooler prototypes Aluminum intercooler prototypes, Value: 127.0.0.1:4323/products/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/
+				50 link Description: Billet engine covers Billet aluminum engine covers, Value: 127.0.0.1:4323/products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/
+			51 container capability-scope
+				52 heading Drawing & acceptance, Value: 2
+					53 text Drawing & acceptance
+				54 heading Drawing requirements, Value: 3
+					55 text Drawing requirements
+				56 text Identify the current revision and dimensions needed for the prototype evaluation. Separate fixed interfaces from geometry still open to change.
+				57 text State whether production material and finish are essential to the evaluation, or whether alternatives may be proposed for your approval.
+				58 container inspection
+					59 heading Inspection and acceptance, Value: 3
+						60 text Inspection and acceptance
+					61 text Agree the measurements and evidence needed to judge the prototype against its objective. Document the acceptance criteria for each critical interface.
+					62 text If testing is required, identify who supplies the fixture and test procedure and who evaluates the result. No test completion is implied by the example.
+					63 text Agree the measurement method and required records before production.
+				64 container
+					65 text 7–14 business days — Production, from 1 piece.  Production starts after drawing and order confirmation. The period includes surface finishing; shipping time is additional.
+				66 container Inspection and order information
+					67 link Description: Quality & inspection, Value: 127.0.0.1:4323/quality/
+					68 button (collapsed) Equipment and order records, Secondary Actions: Expand
+						69 text Equipment and order records
+			70 container enquiry
+				71 heading Prepare your prototype machining enquiry, Value: 2
+					72 text Prepare your prototype machining enquiry
+				73 text Provide the model, key drawing dimensions, prototype quantity, revision status and intended evaluation.
+				74 text Explain any planned next revision or later batch. Give your requested date so it can be assessed; delivery still needs confirmation.
+				75 link Description: Prepare RFQ email, Value: 127.0.0.1:4323/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F
+				76 text Add your requirements to the email draft, then attach drawings in your email app before sending.
+				77 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			78 container Description: Useful engineering resources, ID: related-resources
+				79 heading Related resources, Value: 3
+					80 text Related resources
+				81 link Description: Drawing & RFQ checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+				82 link Description: Prototype vs small batch, Value: 127.0.0.1:4323/resources/prototype-vs-small-batch-cnc/
+				83 button (collapsed) More engineering resources, Secondary Actions: Expand
+					84 text More engineering resources
+			85 container Related capabilities
+				86 heading Related production stages, Value: 2
+					87 text Related production stages
+				88 link Description: Low-volume production, Value: 127.0.0.1:4323/capabilities/low-volume-production/
+		89 link Description: LZZ Precision home, Value: 127.0.0.1:4323/
+		90 container
+			91 text Custom CNC machining
+			92 text in Hangzhou, China.
+		93 container Footer navigation
+			94 link Description: Capabilities, Value: 127.0.0.1:4323/capabilities/
+			95 link Description: Custom Parts, Value: 127.0.0.1:4323/products/
+			96 link Description: Our factory, Value: 127.0.0.1:4323/factory/
+			97 link Description: Quality control, Value: 127.0.0.1:4323/quality/
+			98 link Description: Machining studies, Value: 127.0.0.1:4323/cases/
+			99 link Description: Resources, Value: 127.0.0.1:4323/resources/
+			100 link Description: Company Profile, Value: 127.0.0.1:4323/about/
+			101 link Description: Contact Us, Value: 127.0.0.1:4323/contact/
+			102 link Description: Company News, Value: 127.0.0.1:4323/about/company-news/
+			103 link Description: RFQ Checklist, Value: 127.0.0.1:4323/resources/rfq-checklist/
+		104 container Let’s talk, ID: contact
+			105 heading Let’s talk, Value: 2, ID: footer-talk-title
+				106 text Let’s talk
+			107 text Hangzhou, China · UTC+8
+			108 link Description: roger@lzz-cnc.com, Value: mailto:roger@lzz-cnc.com
+			109 link Description: WhatsApp +86 138 5810 2479, Value: wa.me/8613858102479
+		110 container Find us
+			111 heading Find us, Value: 2, ID: footer-find-title
+				112 text Find us
+			113 container
+				114 text No. 4 Fengcheng Road
+				115 text Pingyao, Yuhang District
+				116 text Hangzhou, Zhejiang, China
+		117 text © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+		118 link Description: Privacy & site information, Value: 127.0.0.1:4323/privacy/
+
+The focused UI element is 1 AXWebArea Prototype Machining | LZZ Precision, URL: 127.0.0.1:4323/capabilities/prototype-machining/

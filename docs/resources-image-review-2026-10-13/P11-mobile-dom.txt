@@ -1,0 +1,146 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - link "Prepare RFQ email":
+    - /url: /quote/
+  - button "Open navigation"
+- main:
+  - article:
+    - navigation "Breadcrumb":
+      - link "Resources":
+        - /url: /resources/
+      - generic: / Production planning
+    - heading "CNC prototypes and small-batch production" [level=1]
+    - figure:
+      - img "Single housing beside four matching parts"
+    - heading "Validate the first sample" [level=2]
+    - paragraph: Define the sample checks before machining. Assembly fit and critical interfaces may be the main concerns; appearance or operation may also need approval. Record the acceptance criteria before releasing a repeat order.
+    - term: Drawing questions
+    - definition: Use the sample to identify design questions related to fit, function or appearance.
+    - term: Workholding and access
+    - definition: Review workholding and tool access while confirming the design.
+    - term: Material, finish and acceptance
+    - definition: Check the specified grade, condition and final appearance. Define fit, function and sample acceptance checks. Confirm the prototype price and schedule for the specific part.
+    - link "Prototype machining":
+      - /url: /capabilities/prototype-machining/
+    - heading "Approve the repeat-order specification" [level=2]
+    - paragraph: For a repeat order, release one controlled drawing revision and carry the approved material and finish into the quotation. Agree the acceptance plan and the documents to accompany delivery.
+    - heading "Specification to carry forward" [level=3]
+    - list:
+      - listitem: Agree revision approval and how changed features are identified.
+      - listitem: Confirm material documents and the finish standard, including masking and dimensions after treatment.
+      - listitem: Retain the approved specification unless a change is agreed.
+    - heading "Inspection records to agree" [level=3]
+    - list:
+      - listitem: Define batch sampling and critical-feature records.
+      - listitem: Confirm the measurement method, instrument evidence and available report format.
+      - listitem: Agree the acceptance plan and delivery documents.
+    - paragraph: A drawing change may affect the approved sample. Confirm the changes before releasing the revised part.
+    - navigation "Approved specification":
+      - link "Agree inspection records":
+        - /url: /quality/#order-documentation
+      - link "Prepare the controlled drawing package":
+        - /url: /resources/rfq-checklist/
+    - heading "Plan the repeat order" [level=2]
+    - paragraph: Confirm the setup and machining sequence for the released revision, including critical datums, and whether the route changes with quantity. Request a new quote for the batch quantity and price, and confirm the production slot.
+    - paragraph:
+      - strong: The economical batch size depends on the part and its setup.
+      - text: Quantities are assessed for each drawing.
+    - term: Minimum order
+    - definition: 1 piece
+    - term: Production lead time
+    - definition: 7-14 business days
+    - paragraph: After drawing and order confirmation, including surface finishing. Shipping time is additional.
+    - paragraph: Share the part, quantity and required arrival date so we can quote price and delivery arrangements.
+    - link "Low-volume production":
+      - /url: /capabilities/low-volume-production/
+    - heading "Compare suppliers before committing" [level=2]
+    - paragraph: Compare the scope of each quote alongside its unit price.
+    - heading "Same specification" [level=3]
+    - paragraph: Make sure each quote uses the same drawing revision, material and finish.
+    - heading "Quoted scope" [level=3]
+    - paragraph: Check setup, inspection records, packaging and delivery basis are stated.
+    - heading "Exclusions or substitutions" [level=3]
+    - paragraph: Confirm that any exclusions or substitutions are clear.
+    - heading "Changes and repeat orders" [level=3]
+    - paragraph: Ask how changes, nonconforming parts and repeat orders will be handled.
+    - region "Related part examples":
+      - heading "Related part examples" [level=2]
+      - paragraph: The engine-cover example covers prototype clearances; the enclosure example covers thin walls and batch inspection.
+      - link "Billet aluminum engine covers":
+        - /url: /products/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/
+      - link "Small-batch aluminum enclosures":
+        - /url: /products/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/
+    - navigation "Resources and order preparation":
+      - link "All resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Quality control":
+        - /url: /quality/
+    - region "Prepare an inquiry":
+      - heading "Request a quote for the next batch" [level=2]
+      - paragraph: Send the approved drawing with quantities for the first order and expected repeat releases. Include the required arrival date and inspection records. The quotation confirms pricing and production timing, with finishing and shipping terms for that order.
+      - link "roger@lzz-cnc.com":
+        - /url: mailto:roger@lzz-cnc.com
+      - link "Prepare RFQ email":
+        - /url: /quote/
+- contentinfo:
+  - link "LZZ Precision home":
+    - /url: /
+    - img "LZZ"
+  - paragraph:
+    - text: Custom CNC machining
+    - text: in Hangzhou, China.
+  - navigation "Footer navigation":
+    - heading "Parts & machining" [level=2]
+    - list:
+      - link "Capabilities":
+        - /url: /capabilities/
+      - link "Part examples":
+        - /url: /products/
+      - link "Machining studies":
+        - /url: /cases/
+    - heading "Ordering" [level=2]
+    - list:
+      - link "Resources":
+        - /url: /resources/
+      - link "RFQ checklist":
+        - /url: /resources/rfq-checklist/
+      - link "How we work":
+        - /url: /resources/how-we-work/
+      - link "Contact us":
+        - /url: /contact/
+    - heading "Company" [level=2]
+    - list:
+      - link "About LZZ":
+        - /url: /about/
+      - link "Our factory":
+        - /url: /factory/
+      - link "Quality control":
+        - /url: /quality/
+      - link "Company news":
+        - /url: /about/company-news/
+  - region "Contact LZZ":
+    - heading "Contact LZZ" [level=2]
+    - paragraph: Hangzhou, China · UTC+8
+    - link "roger@lzz-cnc.com":
+      - /url: mailto:roger@lzz-cnc.com
+    - link "WhatsApp +86 138 5810 2479":
+      - /url: https://wa.me/8613858102479
+      - text: WhatsApp
+      - text: +86 138 5810 2479
+  - region "Find us":
+    - heading "Find us" [level=2]
+    - paragraph:
+      - text: No. 4 Fengcheng Road
+      - text: Pingyao, Yuhang District
+      - text: Hangzhou, Zhejiang, China
+  - generic: © 2026 Hangzhou Lizhizao Precision Machinery Co., Ltd.
+  - link "Privacy and site information":
+    - /url: /privacy/

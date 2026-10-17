@@ -1,0 +1,7 @@
+---
+import {applicationRequirements} from '../data/capabilityRebuild';
+interface Props {slug:string;textOverrides?:Record<string,string>}
+const items=applicationRequirements[Astro.props.slug]||[];
+const overrides=Astro.props.textOverrides||{};
+---
+{items.length>0&&<div class="cx-application-review"><h3>Requirements for the application</h3><dl>{items.map(item=><div><dt>{item.title}</dt><dd>{overrides[item.title]||item.text}</dd></div>)}</dl><p class="rd-note">These are component review requirements, not sector approvals or customer-project claims.</p></div>}
