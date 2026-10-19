@@ -1,0 +1,42 @@
+{
+  "/media/image-refresh-20261017/impeller-1200.webp": {
+    "id": "impeller-cutout",
+    "src": "/media/image-refresh-20261017/impeller-cutout-1200.webp",
+    "srcset": "/media/image-refresh-20261017/impeller-cutout-480.webp 480w, /media/image-refresh-20261017/impeller-cutout-800.webp 800w, /media/image-refresh-20261017/impeller-cutout-1200.webp 1200w",
+    "width": 1254,
+    "height": 1254,
+    "nativeWidth": 1254,
+    "origin": "source-retouch",
+    "sourceHref": "/media/product-sources-20261015/p02-1200.webp"
+  },
+  "/media/image-refresh-20261017/casting-housing-1200.webp": {
+    "id": "casting-cutout",
+    "src": "/media/image-refresh-20261017/casting-cutout-1200.webp",
+    "srcset": "/media/image-refresh-20261017/casting-cutout-480.webp 480w, /media/image-refresh-20261017/casting-cutout-800.webp 800w, /media/image-refresh-20261017/casting-cutout-1200.webp 1200w",
+    "width": 1254,
+    "height": 1254,
+    "nativeWidth": 1254,
+    "origin": "source-retouch",
+    "sourceHref": "/media/product-sources-20261015/p22-framed-1200.webp"
+  },
+  "/media/image-refresh-20261017/locking-pin-1200.webp": {
+    "id": "pin-cutout",
+    "src": "/media/image-refresh-20261017/pin-cutout-1200.webp",
+    "srcset": "/media/image-refresh-20261017/pin-cutout-480.webp 480w, /media/image-refresh-20261017/pin-cutout-800.webp 800w, /media/image-refresh-20261017/pin-cutout-1200.webp 1200w",
+    "width": 1254,
+    "height": 1254,
+    "nativeWidth": 1254,
+    "origin": "source-retouch",
+    "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+  },
+  "/media/image-refresh-20261017/plastic-strips-1200.webp": {
+    "id": "plastic-cutout",
+    "src": "/media/image-refresh-20261017/plastic-cutout-1200.webp",
+    "srcset": "/media/image-refresh-20261017/plastic-cutout-480.webp 480w, /media/image-refresh-20261017/plastic-cutout-800.webp 800w, /media/image-refresh-20261017/plastic-cutout-1200.webp 1200w",
+    "width": 1254,
+    "height": 1254,
+    "nativeWidth": 1254,
+    "origin": "source-retouch",
+    "sourceHref": "/media/product-sources-20261015/p26-1200.webp"
+  }
+}

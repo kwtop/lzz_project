@@ -1,6 +1,7 @@
 ---
 import {contentVisuals, type ContentVisual} from '../data/contentVisuals';
 import {resourceIllustrations} from '../data/resourceIllustrations';
+import {refreshedImage} from '../data/imageRefresh';
 interface Props {visual:ContentVisual|'procurement'|keyof typeof resourceIllustrations;eager?:boolean;compact?:boolean}
 const {visual,eager=false,compact=false}=Astro.props;
 const teaching=visual in resourceIllustrations ? resourceIllustrations[visual as keyof typeof resourceIllustrations] : undefined;
@@ -9,10 +10,9 @@ const stem=teaching?.stem||existing?.name||'procurement-review-v1';
 const folder=teaching?'resources':existing?'content-guides':'resources-reading-20261014';
 const widths=teaching?[480,800,1200]:[480,800,1200,1536];
 const alt=teaching?.alt||existing?.alt||'Generic machined housing and stepped shaft beside outline drawings on an engineering review desk';
-const teachingCaptions={turning:'Rotational geometry · AI-generated illustration',milling:'Pocketed geometry · AI-generated illustration',multiAxis:'Angled-face geometry · AI-generated illustration',finish:'Red: example treatment surface; bore: interface to specify. AI-generated illustration.'};
-const caption=teaching?teachingCaptions[visual as keyof typeof teachingCaptions]:existing?.caption||'Drawing preparation · AI-generated illustration';
+const source='/media/'+folder+'/'+stem+'-'+(teaching?800:1200)+'.webp';
+const refreshed=refreshedImage(source);
 ---
-<figure class:list={['res-visual',{'res-visual-compact':compact,'res-visual-teaching':Boolean(teaching)}]} data-image-origin="AI-generated">
- <img src={'/media/'+folder+'/'+stem+'-'+(teaching?800:1200)+'.webp'} srcset={widths.map(w=>`/media/${folder}/${stem}-${w}.webp ${w}w`).join(', ')} sizes="(max-width:760px) calc(100vw - 40px), (max-width:1100px) 46vw, 620px" width={teaching?1200:1536} height={teaching?900:1024} alt={alt} loading={eager?'eager':'lazy'} decoding="async"/>
- <figcaption>{caption}</figcaption>
+<figure class:list={['res-visual',{'res-visual-compact':compact,'res-visual-teaching':Boolean(teaching)}]} data-image-origin="image-reference" data-image-background={refreshed?.background}>
+ <img src={refreshed?.src||source} srcset={refreshed?.srcset||widths.map(w=>`/media/${folder}/${stem}-${w}.webp ${w}w`).join(', ')} sizes="(max-width:760px) calc(100vw - 40px), (max-width:1100px) 46vw, 620px" width={refreshed?.width||(teaching?1200:1536)} height={refreshed?.height||(teaching?900:1024)} alt={alt} loading={eager?'eager':'lazy'} decoding="async"/>
 </figure>

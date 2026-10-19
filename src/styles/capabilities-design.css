@@ -1,5 +1,5 @@
 /* Layout system confined to the Capabilities navigation. */
-.capabilities-design{--cd-ink:#202427;--cd-muted:#586269;--cd-line:#dce1e4;--cd-soft:#f5f6f5;--cd-space:80px;--cd-photo-height:290px;color:var(--cd-ink)}
+.capabilities-design{--cd-ink:#242724;--cd-muted:#656660;--cd-line:#EEE9E2;--cd-soft:#f5f6f5;--cd-space:80px;--cd-photo-height:290px;color:var(--cd-ink)}
 .capabilities-design .cd-wrap{width:calc(100% - 88px);max-width:1280px;margin-inline:auto}
 body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design :is(article,section,header,figure,div,aside,nav){min-width:0;box-sizing:border-box}
 body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design :is(h1,h2,h3,p,dl,ol,ul,figure){margin:0}
@@ -16,15 +16,15 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap
 .capabilities-design .cd-heading{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start;margin-bottom:34px!important}
 .capabilities-design .cd-heading>p{margin:0!important}
 .capabilities-design .cd-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
-body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design a.cd-link{display:inline-flex;align-items:center;min-height:44px;max-width:100%;padding:9px 15px;font-size:14px!important;line-height:1.5!important;font-weight:500;color:var(--cd-ink);background:transparent;border:1px solid #b9c0c4;border-radius:0;text-decoration:none;overflow-wrap:anywhere;transition:color 180ms,background-color 180ms,border-color 180ms}
-.capabilities-design a:focus-visible{outline:2px solid var(--red,#cf141a);outline-offset:5px}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design a.cd-link{display:inline-flex;align-items:center;min-height:44px;max-width:100%;padding:9px 15px;font-size:14px!important;line-height:1.5!important;font-weight:500;color:var(--cd-ink);background:transparent;border:1px solid #C9C9BE;border-radius:0;text-decoration:none;overflow-wrap:anywhere;transition:color 180ms,background-color 180ms,border-color 180ms}
+.capabilities-design a:focus-visible{outline:2px solid var(--red,#AC4829);outline-offset:5px}
 .capabilities-design .cd-art,.capabilities-design .cd-photo{display:block;min-width:0;max-width:100%}
 body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design :is(.cd-art,.cd-part,.cd-sample-example) img{display:block;width:100%!important;height:auto!important;aspect-ratio:3/2!important;object-fit:contain!important;object-position:center;background:#fff;box-shadow:none;border-radius:0;transform:none!important;padding:0!important}
-body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design figcaption{font-size:12px!important;line-height:1.6!important;max-width:100%!important;color:#626d74;margin:10px 0 0!important;text-align:left}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design figcaption{font-size:12px!important;line-height:1.6!important;max-width:100%!important;color:#656660;margin:10px 0 0!important;text-align:left}
 .capabilities-design .cd-photo{width:min(100%,calc(var(--cd-photo-height)*var(--cd-photo-ratio)))}
 .capabilities-design .cd-photo-frame{width:100%;min-width:0}
 body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-photo img{display:block;width:100%!important;height:auto!important;aspect-ratio:var(--photo-aspect)!important;max-height:var(--cd-photo-height)!important;max-width:100%!important;object-fit:contain!important;border:0;border-radius:0;background:#fff!important;box-shadow:none;transform:none!important}
-body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-note{font-size:14px!important;line-height:1.65!important;margin-top:24px;color:#606c74}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-note{font-size:14px!important;line-height:1.65!important;margin-top:24px;color:#656660}
 
 /* Intro proportions follow each service's subject and visual. */
 .capabilities-design .cd-hero{display:grid;grid-template-columns:1fr 1fr;gap:30px 70px;align-items:center;padding:24px 0 58px}
@@ -79,8 +79,8 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap
 /* Material information changes presentation with the buying decision. */
 .capabilities-design .cd-table{border:0;border-collapse:collapse;table-layout:fixed;width:100%}
 .capabilities-design .cd-table :is(th,td){border:0;border-bottom:1px solid var(--cd-line);padding:19px 20px;text-align:left;vertical-align:top;background:transparent}
-body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table th{font-size:14px!important;line-height:1.6!important;font-weight:550!important;color:#303b42}
-body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table td{font-size:15px!important;line-height:1.7!important;color:#566169}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table th{font-size:14px!important;line-height:1.6!important;font-weight:550!important;color:#656660}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table td{font-size:15px!important;line-height:1.7!important;color:#656660}
 .capabilities-design .cd-table thead{background:var(--cd-soft)}
 .capabilities-design .cd-material-table th:first-child{width:19%}
 .capabilities-design .cd-material-table th:nth-child(2){width:25%}
@@ -130,7 +130,7 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap
 .capabilities-design .cd-photo-story>li{display:grid;grid-template-columns:340px 1fr;gap:64px;align-items:center;padding:28px 0;border-top:1px solid var(--cd-line)}
 .capabilities-design .cd-photo-story>li:first-child{padding-top:0;border-top:0}
 .capabilities-design .cd-photo-story .cd-photo{justify-self:center}
-.capabilities-design .cd-step-index{display:block;font-size:12px;color:#69757d;margin-bottom:12px}
+.capabilities-design .cd-step-index{display:block;font-size:12px;color:#656660;margin-bottom:12px}
 .capabilities-design .cd-photo-story--panels{display:grid;grid-template-columns:1fr 1fr;gap:36px 64px}
 .capabilities-design .cd-photo-story--panels>li{grid-template-columns:1fr;gap:24px;padding:0;border:0;align-items:start}
 .capabilities-design .cd-photo-story--panels>li:last-child{grid-column:1/-1;grid-template-columns:1fr 1fr;align-items:center;padding-top:32px;border-top:1px solid var(--cd-line)}
@@ -182,12 +182,12 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap
 .capabilities-design .cd-stage-comparison>article{padding-top:24px;border-top:1px solid var(--cd-line)}
 .capabilities-design .cd-stage-comparison dl{margin:24px 0}
 .capabilities-design .cd-stage-comparison dl>div{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:16px 0;border-top:1px solid var(--cd-line)}
-body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-stage-comparison dt{font-size:13px!important;font-weight:500!important;line-height:1.5!important;color:#657078}
-.capabilities-design .cd-stage-comparison dd{margin:0;color:#3d484f}
+body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-stage-comparison dt{font-size:13px!important;font-weight:500!important;line-height:1.5!important;color:#656660}
+.capabilities-design .cd-stage-comparison dd{margin:0;color:#656660}
 .capabilities-design .cd-hub-sample{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
 .capabilities-design .cd-hub-sample .cd-link{margin-top:22px}
 
-@media(hover:hover) and (pointer:fine){body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design a.cd-link:hover{background:#202427;color:#fff;border-color:#202427}.capabilities-design .cd-material-directory>a:hover h3{color:var(--red)}}
+@media(hover:hover) and (pointer:fine){body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design a.cd-link:hover{background:#242724;color:#fff;border-color:#242724}.capabilities-design .cd-material-directory>a:hover h3{color:var(--red)}}
 @media(min-width:761px) and (max-width:1100px){
  .capabilities-design{--cd-space:64px;--cd-photo-height:250px}.capabilities-design .cd-wrap{width:calc(100% - 64px)}
  .capabilities-design :is(.cd-hero,.cd-heading,.cd-hero--wide header,.cd-geometry,.cd-material-body--finish,.cd-sample-review,.cd-faq,.cd-hub-hero,.cd-hub-sample,.cd-stage-comparison,.cd-rfq-details){gap:28px 36px}
@@ -239,7 +239,7 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap
  .capabilities-design .cd-table tbody tr:first-child{padding-top:0}
  .capabilities-design .cd-table :is(th,td){padding:0;border:0}
  .capabilities-design .cd-table td{margin-top:14px}
- .capabilities-design .cd-table td::before{content:attr(data-label);display:block;font-size:12px;font-weight:500;line-height:1.6;color:#63717a;margin-bottom:5px}
+ .capabilities-design .cd-table td::before{content:attr(data-label);display:block;font-size:12px;font-weight:500;line-height:1.6;color:#656660;margin-bottom:5px}
  body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .capabilities-design .cd-table th{font-size:16px!important}
  .capabilities-design .cd-geometry{margin-bottom:28px}
  .capabilities-design .cd-geometry--text>div{display:block}
@@ -287,7 +287,7 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main .cap
 .capabilities-design.cd-reading .cd-function-review .cd-function-list{margin-top:24px!important}
 .capabilities-design.cd-reading .cd-material-drawing-notes{margin-top:28px;border-block:1px solid var(--cd-line)}
 .capabilities-design.cd-reading .cd-material-drawing-notes summary{padding:20px 0;min-height:44px;font-size:18px;font-weight:550;cursor:pointer;color:var(--cd-ink)}
-.capabilities-design.cd-reading .cd-material-drawing-notes summary:focus-visible{outline:2px solid var(--red,#cf141a);outline-offset:5px}
+.capabilities-design.cd-reading .cd-material-drawing-notes summary:focus-visible{outline:2px solid var(--red,#AC4829);outline-offset:5px}
 .capabilities-design.cd-reading .cd-material-drawing-notes dl{padding-bottom:24px}
 .capabilities-design.cd-reading .cd-material-drawing-notes dl>div{display:grid;grid-template-columns:230px 1fr;gap:24px;padding:16px 0;border-top:1px solid var(--cd-line)}
 .capabilities-design.cd-reading .cd-material-drawing-notes dt{font-size:16px;line-height:1.7;font-weight:550}

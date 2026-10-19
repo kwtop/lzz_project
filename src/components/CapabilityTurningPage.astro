@@ -9,30 +9,34 @@ import CapabilityEvidence from './CapabilityEvidence.astro';
 import CapabilityPartFigure from './CapabilityPartFigure.astro';
 import CapabilityMaterialTable from './CapabilityMaterialTable.astro';
 import CapabilityApplications from './CapabilityApplications.astro';
+import CapabilityDecisionGuide from './CapabilityDecisionGuide.astro';
+import {capabilityDecisions} from '../data/capabilityDecisions';
 import '../styles/cnc-turning.css';
 interface Props {page:RevisedCapability;quoteHref:string}
 const {page,quoteHref}=Astro.props;
+const guide=capabilityDecisions[page.slug];
 const parts=page.parts.filter(part=>part.product.slug!==heroPartSlugs[page.slug]);
 const inputs=inquiryInputs[page.slug];
 ---
-<div class="turning-page">
+<div class="turning-page pn-capability-rollout" data-penta-capability={page.slug}>
  <div data-core-section="service"><CapabilityIntro page={page} quoteHref={quoteHref}/></div>
  <section class="turning-section turning-geometry" id="geometry-review" data-core-section="features">
-  <div class="turning-feature-layout"><header><h2>{page.plan.geometry.title}</h2><p>{page.plan.geometry.text}</p><h3 id="size-and-setup-review">Size and workholding</h3><p>{page.overview.workholding}</p></header><CapabilityConcept art={capabilityConcepts[page.slug]}/></div>
+  <div class="turning-feature-layout"><header><h2>{page.plan.geometry.title}</h2><p>{guide.featureIntro}</p><h3 id="size-and-setup-review">Size and workholding</h3><p>{page.overview.workholding}</p></header><CapabilityConcept art={{...capabilityConcepts[page.slug],caption:'The bore, shoulders and outer diameters share an axis; side details need another tool direction. Geometry illustration.'}}/></div>
+  <CapabilityDecisionGuide slug={page.slug}/>
   <div class="turning-scope">{page.scopeQuestions.map(item=><div><h3>{item.question}</h3><p>{item.answer}</p></div>)}</div>
  </section>
  <section class="turning-section turning-workshop" id="machining-studies" data-core-section="operations">
-  <header class="turning-heading"><h2>Turning and secondary milling</h2><p>A turning setup and a separate milling setup. These original references are not a complete trace of the same part or order.</p></header>
+  <header class="turning-heading"><h2>Turning and secondary milling</h2><p>Turning establishes the round features; milling reaches flats, holes or pockets from another direction. We review the holding method and datum transfer when a component needs both operations.</p></header>
   <div class="turning-operations">{page.plan.steps.slice(0,2).map(step=><article><CapabilityEvidence id={step.photo!} caption={step.caption}/><h3>{step.title}</h3><p>{step.text}</p></article>)}</div>
   {page.study&&<a class="rd-link" href={page.study.href}>{page.study.title}</a>}
  </section>
- <div class="turning-section turning-materials" data-core-section="parts-and-materials"><CapabilityMaterialTable page={page} intro="Choose the exact grade and condition for the working interface, then define the final treatment state. Suitability and availability are confirmed for your drawing.">
-  <div slot="examples" class="turning-parts" id="part-examples"><header><h3>{page.plan.exampleHeading}</h3><p>{page.plan.exampleIntro}</p></header><div class="turning-parts-pair">{parts.map(part=><article><CapabilityPartFigure part={part} linked={false} showCaption={false}/><h3><a href={part.href}>{part.title}</a></h3><p>{part.text}</p></article>)}</div><p class="rd-note">Source listing photographs. Alloy and condition must be specified for the order.</p></div>
+ <div class="turning-section turning-materials" data-core-section="parts-and-materials"><CapabilityMaterialTable page={page} intro={guide.materialsIntro}>
+  <div slot="examples" class="turning-parts" id="part-examples"><header><h3>{page.plan.exampleHeading}</h3><p>{page.plan.exampleIntro}</p></header><div class="turning-parts-pair">{parts.map(part=><article><CapabilityPartFigure part={part} linked={false} showCaption={false}/><h3><a href={part.href}>{part.title}</a></h3><p>{part.text}</p></article>)}</div><p class="rd-note">Alloy and condition must be specified for the order.</p></div>
  </CapabilityMaterialTable></div>
  <section class="turning-section turning-quality" id="engineering-fit" data-core-section="inspection">
   <header class="turning-heading"><h2>Agree the axis, fits and thread checks</h2><p>{page.overview.inspection}</p></header>
   <table class="rd-table rd-stacked turning-checks" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{page.acceptanceChecks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table>
   <div class="turning-quality-context"><CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Current range, calibration and measurement capability require equipment records." sizes="220px"/><div><CapabilityApplications slug={page.slug}/><a class="rd-link" href="/factory/#quality">Inspection methods, stages and records</a></div></div>
  </section>
- <section class="turning-section turning-rfq" id="enquiry" data-core-section="quotation"><header><h2>{page.plan.rfqTitle}</h2><p id="order-conditions">{orderConditions}</p></header><div class="turning-rfq-body"><ol>{inputs.map(input=><li>{input}</li>)}</ol><div><a class="rd-button" href={quoteHref}>Prepare RFQ email</a><p class="rd-note">The website prepares a draft. Review it, attach drawings in your email application and send it yourself.</p><a class="rd-link" href={libraryGuide('rfq-checklist').href}>RFQ preparation checklist</a></div></div></section>
+ <section class="turning-section turning-rfq" id="enquiry" data-core-section="quotation"><header><h2>{page.plan.rfqTitle}</h2><p id="order-conditions">{orderConditions}</p></header><div class="turning-rfq-body"><ol>{inputs.map(input=><li>{input}</li>)}</ol><div><a class="rd-button" href={quoteHref}>Request a quote</a><p class="rd-note">Review the draft, then add your drawings and send it from your email app.</p><a class="rd-link" href={libraryGuide('rfq-checklist').href}>RFQ preparation checklist</a></div></div></section>
 </div>

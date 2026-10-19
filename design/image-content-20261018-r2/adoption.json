@@ -1,0 +1,535 @@
+[
+  {
+    "id": "factory-aisle",
+    "purpose": "Factory hero / company profile",
+    "master": "D:/lzz/image-content-20261018-r2/masters/factory-aisle.png",
+    "src": "/media/image-content-20261018-r2/factory-aisle-1120.webp",
+    "routes": [
+      "/about/company-profile/",
+      "/about/contact/",
+      "/factory/"
+    ]
+  },
+  {
+    "id": "workshop-craft",
+    "purpose": "Company overview hero",
+    "master": "D:/lzz/image-content-20261018-r2/masters/workshop-craft.png",
+    "src": "/media/image-content-20261018-r2/workshop-craft-1120.webp",
+    "routes": [
+      "/about/",
+      "/factory/"
+    ]
+  },
+  {
+    "id": "cnc-equipment",
+    "purpose": "Capabilities overview hero",
+    "master": "D:/lzz/image-content-20261018-r2/masters/cnc-equipment.png",
+    "src": "/media/image-content-20261018-r2/cnc-equipment-1120.webp",
+    "routes": [
+      "/capabilities/",
+      "/factory/"
+    ]
+  },
+  {
+    "id": "inspection-room",
+    "purpose": "Inspection display / planning illustration",
+    "master": "D:/lzz/image-content-20261018-r2/masters/inspection-room.png",
+    "src": "/media/image-content-20261018-r2/inspection-room-1440.webp",
+    "routes": [
+      "/about/company-profile/",
+      "/capabilities/5-axis-cnc-machining/",
+      "/capabilities/aluminum-cnc-parts/",
+      "/capabilities/casting-machining/",
+      "/capabilities/cnc-milling-service/",
+      "/capabilities/cnc-turning-service/",
+      "/capabilities/copper-brass-cnc-parts/",
+      "/capabilities/low-volume-production/",
+      "/capabilities/plastic-machined-parts/",
+      "/capabilities/prototype-machining/",
+      "/capabilities/stainless-steel-cnc-parts/",
+      "/capabilities/starting-with-a-sample/",
+      "/factory/"
+    ]
+  },
+  {
+    "id": "packing-bench",
+    "purpose": "Factory packing / handover",
+    "master": "D:/lzz/image-content-20261018-r2/masters/packing-bench.png",
+    "src": "/media/image-content-20261018-r2/packing-bench-1440.webp",
+    "routes": [
+      "/capabilities/low-volume-production/",
+      "/factory/",
+      "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "/resources/ordering/rfq-checklist/"
+    ]
+  },
+  {
+    "id": "brass-presentation",
+    "purpose": "Brass component reference display",
+    "master": "D:/lzz/image-content-20261018-r2/masters/brass-presentation.png",
+    "src": "/media/image-content-20261018-r2/brass-presentation-1120.webp",
+    "routes": [
+      "/machined-parts/gallery/",
+      "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/"
+    ]
+  },
+  {
+    "id": "enclosures-presentation",
+    "purpose": "Aluminium housing reference display",
+    "master": "D:/lzz/image-content-20261018-r2/masters/enclosures-presentation.png",
+    "src": "/media/image-content-20261018-r2/enclosures-presentation-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/",
+      "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/"
+    ]
+  },
+  {
+    "id": "turned-presentation",
+    "purpose": "Repeated turned component reference display",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turned-presentation.png",
+    "src": "/media/image-content-20261018-r2/turned-presentation-1120.webp",
+    "routes": [
+      "/machined-parts/gallery/",
+      "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/"
+    ]
+  },
+  {
+    "id": "setup-first",
+    "purpose": "First holding setup",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-first.png",
+    "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+    "routes": [
+      "/",
+      "/capabilities/",
+      "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+      "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+      "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/two-stage-cnc-milling/",
+      "/resources/technical-guides/cnc-process-selection/",
+      "/resources/technical-guides/critical-features-cnc-drawing/",
+      "/resources/ordering/cnc-machining-cost-factors/"
+    ]
+  },
+  {
+    "id": "five-axis-process",
+    "purpose": "Rotary workholding",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-process.png",
+    "src": "/media/image-content-20261018-r2/five-axis-process-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "/machined-parts/gallery/ultra-high-precision-machining-services/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/",
+      "/resources/technical-guides/cnc-process-selection/"
+    ]
+  },
+  {
+    "id": "turning-process",
+    "purpose": "Turning at the chuck",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turning-process.png",
+    "src": "/media/image-content-20261018-r2/turning-process-1440.webp",
+    "routes": [
+      "/capabilities/cnc-turning-service/",
+      "/resources/technical-guides/cnc-process-selection/"
+    ]
+  },
+  {
+    "id": "turn-mill-process",
+    "purpose": "Milling after turning",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turn-mill-process.png",
+    "src": "/media/image-content-20261018-r2/turn-mill-process-1440.webp",
+    "routes": [
+      "/",
+      "/capabilities/cnc-turning-service/",
+      "/machined-parts/",
+      "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+      "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+      "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+      "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/",
+      "/resources/technical-guides/cnc-process-selection/",
+      "/resources/ordering/cnc-machining-cost-factors/"
+    ]
+  },
+  {
+    "id": "setup-second",
+    "purpose": "Second holding setup",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-second.png",
+    "src": "/media/image-content-20261018-r2/setup-second-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/two-stage-cnc-milling/",
+      "/resources/technical-guides/cnc-process-selection/",
+      "/resources/technical-guides/critical-features-cnc-drawing/",
+      "/resources/ordering/cnc-machining-cost-factors/"
+    ]
+  },
+  {
+    "id": "five-axis-wide",
+    "purpose": "Five-axis setup",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-wide.png",
+    "src": "/media/image-content-20261018-r2/five-axis-wide-1440.webp",
+    "routes": [
+      "/capabilities/5-axis-cnc-machining/"
+    ]
+  },
+  {
+    "id": "enclosure-process",
+    "purpose": "Enclosure pocket milling",
+    "master": "D:/lzz/image-content-20261018-r2/masters/enclosure-process.png",
+    "src": "/media/image-content-20261018-r2/enclosure-process-1440.webp",
+    "routes": [
+      "/capabilities/aluminum-cnc-parts/",
+      "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/",
+      "/resources/technical-guides/cnc-process-selection/",
+      "/resources/ordering/cnc-machining-cost-factors/",
+      "/resources/technical-guides/6061-vs-7075-cnc-aluminum/"
+    ]
+  },
+  {
+    "id": "prismatic-process",
+    "purpose": "Prismatic workholding",
+    "master": "D:/lzz/image-content-20261018-r2/masters/prismatic-process.png",
+    "src": "/media/image-content-20261018-r2/prismatic-process-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/milling-prismatic-components/"
+    ]
+  },
+  {
+    "id": "five-axis-components",
+    "purpose": "Multi-face component forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-components.png",
+    "src": "/media/image-content-20261018-r2/five-axis-components-1440.webp",
+    "routes": [
+      "/capabilities/5-axis-cnc-machining/",
+      "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/",
+      "/resources/technical-guides/cnc-process-selection/"
+    ]
+  },
+  {
+    "id": "enclosure-components",
+    "purpose": "Recessed enclosure forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/enclosure-components.png",
+    "src": "/media/image-content-20261018-r2/enclosure-components-1440.webp",
+    "routes": [
+      "/capabilities/aluminum-cnc-parts/",
+      "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/",
+      "/resources/technical-guides/material-and-finish-checklist/",
+      "/resources/ordering/cnc-machining-cost-factors/",
+      "/resources/technical-guides/6061-vs-7075-cnc-aluminum/"
+    ]
+  },
+  {
+    "id": "turn-mill-components",
+    "purpose": "Turned and milled component forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turn-mill-components.png",
+    "src": "/media/image-content-20261018-r2/turn-mill-components-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/",
+      "/resources/technical-guides/cnc-process-selection/"
+    ]
+  },
+  {
+    "id": "prismatic-components",
+    "purpose": "Prismatic component forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/prismatic-components.png",
+    "src": "/media/image-content-20261018-r2/prismatic-components-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/milling-prismatic-components/",
+      "/resources/technical-guides/critical-features-cnc-drawing/"
+    ]
+  },
+  {
+    "id": "display-panel",
+    "purpose": "Display housing panel",
+    "master": "D:/lzz/image-content-20261018-r2/masters/display-panel.png",
+    "src": "/media/image-content-20261018-r2/display-panel-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/"
+    ]
+  },
+  {
+    "id": "display-process",
+    "purpose": "Display panel machining",
+    "master": "D:/lzz/image-content-20261018-r2/masters/display-process.png",
+    "src": "/media/image-content-20261018-r2/display-process-1440.webp",
+    "routes": [
+      "/",
+      "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/"
+    ]
+  },
+  {
+    "id": "display-pair",
+    "purpose": "Display housing faces",
+    "master": "D:/lzz/image-content-20261018-r2/masters/display-pair.png",
+    "src": "/media/image-content-20261018-r2/display-pair-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/"
+    ]
+  },
+  {
+    "id": "metrology-detail",
+    "purpose": "Probe and fixture detail",
+    "master": "D:/lzz/image-content-20261018-r2/masters/metrology-detail.png",
+    "src": "/media/image-content-20261018-r2/metrology-detail-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/",
+      "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/",
+      "/machined-parts/machining-examples/milling-prismatic-components/",
+      "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/",
+      "/machined-parts/machining-examples/two-stage-cnc-milling/"
+    ]
+  },
+  {
+    "id": "acrylic-components",
+    "purpose": "Transparent acrylic forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/acrylic-components.png",
+    "src": "/media/image-content-20261018-r2/acrylic-components-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "ptfe-components",
+    "purpose": "PTFE component forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/ptfe-components.png",
+    "src": "/media/image-content-20261018-r2/ptfe-components-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "ptfe-intermediate",
+    "purpose": "PTFE intermediate forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/ptfe-intermediate.png",
+    "src": "/media/image-content-20261018-r2/ptfe-intermediate-1440.webp",
+    "routes": [
+      "/capabilities/plastic-machined-parts/",
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "ptfe-shafts",
+    "purpose": "Stepped PTFE shafts",
+    "master": "D:/lzz/image-content-20261018-r2/masters/ptfe-shafts.png",
+    "src": "/media/image-content-20261018-r2/ptfe-shafts-1440.webp",
+    "routes": [
+      "/capabilities/plastic-machined-parts/",
+      "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "turned-shaft",
+    "purpose": "Stepped shaft form",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turned-shaft.png",
+    "src": "/media/image-content-20261018-r2/turned-shaft-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-metal-parts-batch-examples/"
+    ]
+  },
+  {
+    "id": "turned-array",
+    "purpose": "Repeated turned forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turned-array.png",
+    "src": "/media/image-content-20261018-r2/turned-array-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-metal-parts-batch-examples/"
+    ]
+  },
+  {
+    "id": "aluminum-housing-detail",
+    "purpose": "Housing mounting features",
+    "master": "D:/lzz/image-content-20261018-r2/masters/aluminum-housing-detail.png",
+    "src": "/media/image-content-20261018-r2/aluminum-housing-detail-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "/machined-parts/machining-examples/",
+      "/machined-parts/machining-examples/custom-metal-parts-batch-examples/"
+    ]
+  },
+  {
+    "id": "coated-round",
+    "purpose": "Coated circular forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/coated-round.png",
+    "src": "/media/image-content-20261018-r2/coated-round-1440.webp",
+    "routes": [
+      "/resources/technical-guides/material-and-finish-checklist/"
+    ]
+  },
+  {
+    "id": "coated-bars",
+    "purpose": "Coated bar forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/coated-bars.png",
+    "src": "/media/image-content-20261018-r2/coated-bars-1440.webp",
+    "routes": [
+      "/resources/technical-guides/material-and-finish-checklist/"
+    ]
+  },
+  {
+    "id": "covered-wheels",
+    "purpose": "Covered wheel forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/covered-wheels.png",
+    "src": "/media/image-content-20261018-r2/covered-wheels-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/"
+    ]
+  },
+  {
+    "id": "covered-rollers",
+    "purpose": "Covered roller forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/covered-rollers.png",
+    "src": "/media/image-content-20261018-r2/covered-rollers-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/"
+    ]
+  },
+  {
+    "id": "covered-shaped-parts",
+    "purpose": "Covered shaped parts",
+    "master": "D:/lzz/image-content-20261018-r2/masters/covered-shaped-parts.png",
+    "src": "/media/image-content-20261018-r2/covered-shaped-parts-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/"
+    ]
+  },
+  {
+    "id": "bevel-gears",
+    "purpose": "Bevel gear forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/bevel-gears.png",
+    "src": "/media/image-content-20261018-r2/bevel-gears-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/"
+    ]
+  },
+  {
+    "id": "cylindrical-gears",
+    "purpose": "Cylindrical gear forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/cylindrical-gears.png",
+    "src": "/media/image-content-20261018-r2/cylindrical-gears-1440.webp",
+    "routes": [
+      "/machined-parts/gallery/"
+    ]
+  },
+  {
+    "id": "aluminum-housing-array-v2",
+    "purpose": "Aluminum housing group",
+    "master": "D:/lzz/image-content-20261018-r2/masters/aluminum-housing-array-v2.png",
+    "src": "/media/image-content-20261018-r2/aluminum-housing-array-v2-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-metal-parts-batch-examples/"
+    ]
+  },
+  {
+    "id": "protective-load",
+    "purpose": "Protective packing reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/protective-load.png",
+    "src": "/media/image-content-20261018-r2/protective-load-1440.webp",
+    "routes": [
+      "/resources/ordering/custom-cnc-parts-shipping-checklist/"
+    ]
+  },
+  {
+    "id": "packing-brackets",
+    "purpose": "Braced components",
+    "master": "D:/lzz/image-content-20261018-r2/masters/packing-brackets.png",
+    "src": "/media/image-content-20261018-r2/packing-brackets-1440.webp",
+    "routes": [
+      "/resources/ordering/custom-cnc-parts-shipping-checklist/"
+    ]
+  },
+  {
+    "id": "prepared-load",
+    "purpose": "Loading arrangement reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/prepared-load.png",
+    "src": "/media/image-content-20261018-r2/prepared-load-1440.webp",
+    "routes": [
+      "/resources/ordering/custom-cnc-parts-shipping-checklist/"
+    ]
+  },
+  {
+    "id": "brass-fitting-array",
+    "purpose": "Brass fitting forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/brass-fitting-array.png",
+    "src": "/media/image-content-20261018-r2/brass-fitting-array-1440.webp",
+    "routes": [
+      "/capabilities/copper-brass-cnc-parts/",
+      "/machined-parts/machining-examples/custom-metal-parts-batch-examples/"
+    ]
+  },
+  {
+    "id": "pom-gear-reference",
+    "purpose": "POM gear form",
+    "master": "D:/lzz/image-content-20261018-r2/masters/pom-gear-reference.png",
+    "src": "/media/image-content-20261018-r2/pom-gear-reference-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "pe-guide-reference",
+    "purpose": "Straight and curved PE guides",
+    "master": "D:/lzz/image-content-20261018-r2/masters/pe-guide-reference.png",
+    "src": "/media/image-content-20261018-r2/pe-guide-reference-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "acrylic-panel-reference",
+    "purpose": "Machined acrylic panel",
+    "master": "D:/lzz/image-content-20261018-r2/masters/acrylic-panel-reference.png",
+    "src": "/media/image-content-20261018-r2/acrylic-panel-reference-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/"
+    ]
+  },
+  {
+    "id": "cleaned-metal-reference",
+    "purpose": "Component handling reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/cleaned-metal-reference.png",
+    "src": "/media/image-content-20261018-r2/cleaned-metal-reference-1440.webp",
+    "routes": [
+      "/machined-parts/machining-examples/custom-metal-parts-batch-examples/"
+    ]
+  },
+  {
+    "id": "peek-components-reference",
+    "purpose": "Slotted PEEK component forms",
+    "master": "D:/lzz/image-content-20261018-r2/masters/peek-components-reference.png",
+    "src": "/media/image-content-20261018-r2/peek-components-reference-1440.webp",
+    "routes": [
+      "/capabilities/plastic-machined-parts/"
+    ]
+  }
+]

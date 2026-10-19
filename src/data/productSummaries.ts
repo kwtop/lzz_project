@@ -6,7 +6,7 @@ export type ProductSummary = {
 };
 type SummaryInput = [purpose:string, material:string, features:string, process:string, inspection:string, card:string];
 const drawingReview='Agree inspection methods and acceptance criteria for the features on your drawing.';
-const gradeReview='Grade not specified for this example. State the material required for your part.';
+const gradeReview='Specify the material grade, condition and required material records for the order.';
 const entries:Record<string,SummaryInput> = {
  'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm': [
   'A circular component with a central opening, stepped bores and a pattern of smaller holes.',
@@ -142,7 +142,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'custom-cnc-machined-castings-transmission-housings-pump-bodies': [
   'Finish machining of transmission housings and pump bodies. The casting condition and available machining allowance are checked before machining.',
-  'Casting alloy unspecified. Confirm the material of the supplied blank.',
+  'Specify the casting alloy and condition of the supplied blank.',
   'Internal splines, gear features, fluid channels and sealing flanges.',
   'CNC finish machining, with sample scanning and reverse engineering support.',
   'The listed checks cover first-article through pre-shipment inspection and CMM verification. Agree the checks for your housing.',
@@ -174,7 +174,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'oem-precision-cnc-machined-casting-housing-structural-enclosures': [
   'Cast structural housings with mating surfaces and internal mechanical interfaces.',
-  'Casting grade must be confirmed; no specific alloy is assigned to this example.',
+  'Specify the casting alloy grade and blank condition.',
   'Internal ribs, deep cavities, bearing bores and mounting points.',
   'Multi-axis milling and boring with casting-specific fixturing.',
   'The listing includes CMM dimensional checks. Agree the datums and required reports.',
@@ -182,7 +182,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'oem-precision-cnc-machined-casting-housings': [
   'Transmission and pump housings requiring machining after casting.',
-  'Casting alloy is not specified; confirm the blank and material condition.',
+  'Specify the casting alloy, blank and material condition.',
   'Internal splines, reinforced ribs, central bores and mating faces.',
   'CNC milling and boring, with sample scanning and reverse engineering support.',
   'The listed inspection stages are first-article, in-process, final and pre-shipment checks.',
@@ -206,7 +206,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances': [
   'Plastic components for instrumentation, automation and fluid-management equipment.',
-  'Engineering plastic; the exact polymer grade is not specified.',
+  'Specify the engineering polymer grade, fillers and stock condition.',
   'Thin walls, deep pockets, multi-axis holes and mating surfaces.',
   'CNC machining with low-stress fixturing and thermal management.',
   'Confirm dimensional, surface and stability criteria for the selected polymer.',
@@ -230,7 +230,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'precision-machining-for-functional-plastic-blocks-structural-components': [
   'A circular plastic form with a central bore, four surrounding holes and repeated curved edge recesses.',
-  'Plastic stock; polymer grade requires confirmation.',
+  'Specify the polymer grade, fillers and stock condition.',
   'Central bore, four-hole pattern, curved working edges and full thickness.',
   'CNC machining with the exact polymer and working geometry reviewed from the drawing.',
   'Confirm bore size, hole positions, thickness and working-edge profile under agreed measurement conditions.',
@@ -238,7 +238,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures': [
   'Aluminum enclosures with compound-angle features for prototypes and small production runs. The starting stock may be billet or a casting.',
-  'Aluminum housings; confirm the stock grade and condition.',
+  'Aluminum; specify the stock grade, temper and condition.',
   'Deep pockets, thin walls, compound angles and mating faces.',
   'CNC milling, turning, 5-axis machining and cast-blank finishing.',
   'The listing includes probing and dimensional checks. Agree flatness limits and batch sampling criteria.',
@@ -262,7 +262,7 @@ const entries:Record<string,SummaryInput> = {
  ],
  'small-batch-cnc-machining-manufacturer-complex-aluminum-housings': [
   'Short-run aluminum housings for industrial and electronic applications, with deep cavities, sealing faces and lid or gasket interfaces.',
-  'Aluminum; the specific grade is not assigned to this example.',
+  'Specify the aluminum alloy, temper and stock form.',
   'Deep internal cavities, thin walls, sealing faces and mounting features.',
   'CNC milling.',
   'The listing describes batch process control. Agree flatness limits and dimensional inspection criteria.',

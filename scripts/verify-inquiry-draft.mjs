@@ -33,7 +33,7 @@ assert.equal(new URL(draft.mail).protocol,'mailto:');
 assert.equal(new URL(draft.mail).searchParams.get('body'),draft.body);
 const $=load(fs.readFileSync('dist/quote/index.html','utf8'));
 assert.equal($('form.inquiry-form').length,1,'form rendered into static HTML');
-assert.equal($('h1').text().replace(/\s+/g,' ').trim(),'Discuss your part');
+assert.equal($('h1').text().replace(/\s+/g,' ').trim(),'Prepare an RFQ email');
 assert.equal($('input[required],textarea[required],select[required]').map((_,e)=>$(e).attr('name')).get().join(','),'name,project');
 assert.equal($('input[name=email][required],input[name=phone][required],select[name=reference][required]').length,0);
 assert.equal($('form').attr('action'),undefined,'draft form has no network submission endpoint');

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "milling-at-work",
+    "pages": [
+      "/"
+    ],
+    "module": "Homepage hero",
+    "ratio": "3:2 landscape; central subject safe for 1:1 responsive crop",
+    "outputStem": "/media/penta-next-20261017/milling-at-work",
+    "origin": "AI-generated concept",
+    "alt": "Illustrative close-up of an end mill cutting a pocket in a clamped aluminum billet",
+    "prompt": "Use case: photorealistic-natural. Create one premium industrial editorial photograph used as a clearly labeled generic CNC machining illustration in an industrial B2B homepage hero. Landscape 3:2. A single vertical carbide end mill machining the near edge of an open pocket in a rectangular aluminum billet, the stock securely held between credible steel vise jaws. Tool, pocket edge and fixture relationship clearly visible and mechanically plausible. Main subject central-right with breathing room around the spindle and vice, safe to crop to square. Fine realistic cutter marks and a small number of naturally curled metal chips. Dim neutral machine interior, cool soft daylight from the upper left, restrained deep blue-green shadows and natural silver metal, precise but not glossy. Medium close photographic composition, shallow depth of field without hiding the contact area. No humans, no factory panorama, no specific manufacturer, no brand, no text, no dimension callouts, no logos, no exaggerated sparks, no futuristic graphics. This is a generic concept, not a documentary photograph of any named company or customer part."
+  },
+  {
+    "id": "material-stock",
+    "pages": [
+      "/capabilities/"
+    ],
+    "module": "Material selection",
+    "ratio": "3:2 landscape",
+    "outputStem": "/media/penta-next-20261017/material-stock",
+    "origin": "AI-generated concept",
+    "alt": "Illustrative aluminum billet, steel rod, brass stock and pale engineering polymer on a dark work surface",
+    "prompt": "Use case: photorealistic-natural. One premium industrial material editorial still life for a CNC machining material-selection section, clearly used as an illustrative concept. Landscape 3:2. Four simple unmachined stock forms placed with an intentional asymmetric composition on a matte charcoal-blue-green workshop surface: a silver aluminum rectangular billet in foreground, one short brushed stainless steel round bar behind, a smaller warm brass hexagonal bar, and an off-white engineering polymer block. Do not represent any specific grade or provide labels. Show distinct real surface texture, subtle saw-cut ends, mild natural handling marks, physically credible scale and contact shadows. Silver billet is dominant, other three objects form a quieter receding diagonal, with clear negative space at upper left. Soft side daylight, no dramatic colored lights, no CGI gloss. No precision customer components, no complex holes or gears, no people, no factory scene, no documents, no logos, no text, no watermark."
+  },
+  {
+    "id": "tool-access",
+    "pages": [
+      "/capabilities/cnc-milling-service/"
+    ],
+    "module": "Drawing and tool access",
+    "ratio": "4:3 landscape",
+    "outputStem": "/media/penta-next-20261017/tool-access",
+    "origin": "AI-generated technical concept",
+    "alt": "Illustrative generic pocket geometry and an end mill showing how depth and internal corner radii affect tool access",
+    "prompt": "Use case: scientific-educational. Create a physically plausible, quiet photorealistic technical concept image for a CNC milling drawing-review section. Landscape 4:3. One generic rectangular aluminum billet, viewed obliquely from above, with a broad shallow open pocket and one narrower deeper pocket; all internal corners have plausible rounded cutter radii and the outside shape is simple. One slender vertical flat end mill is suspended above the deep pocket without touching or intersecting the metal, making reach and clearance easy to understand. This is a generic explanatory concept, not a customer product, inspection evidence or measured manufacturing result. Restrained gray and silver material, dark forest-blue tabletop, soft studio daylight, realistic machining marks, no plastic-looking render. The block is offset slightly right with generous clear space around its silhouette. No dimensions, no text or labels, no arrows, no exploded parts, no machine logos, no fictional data, no extra tools, no strong glow or sparks."
+  }
+]

@@ -1,0 +1,499 @@
+{
+  "canonicalPages": 86,
+  "adoptedMasters": 35,
+  "webDerivatives": 175,
+  "webBytes": 5592272,
+  "maxWebFileBytes": 138200,
+  "galleryPhotos": 35,
+  "productPages": 35,
+  "originalsPreserved": true,
+  "contractPreserved": true,
+  "schemaImageUpdates": [
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/impeller-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p02-1440.webp"
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/engine-cover-1440.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p13-1440.webp"
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/casting-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p22-1440.webp"
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/milled-ring-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p00-1440.webp"
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/flanged-assembly-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p19-1440.webp"
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "before": "https://www.lzz-cnc.com/media/visual-image-alignment-20261017/brass-batch-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p27-1440.webp"
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "before": "https://www.lzz-cnc.com/media/product-sources-20261015/p28-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p28-1440.webp"
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/plastic-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p26-1440.webp"
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/engine-cover-1440.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p13-1440.webp"
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/pin-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p32-1440.webp"
+    },
+    {
+      "route": "/capabilities/starting-with-a-sample/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/flanged-housing-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p23-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "before": "https://www.lzz-cnc.com/media/product-sources-20261015/p12-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p12-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/engine-cover-1440.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p13-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/intake-cad-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p16-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "before": "https://www.lzz-cnc.com/media/product-sources-20261015/p17-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p17-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/engine-assembly-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p14-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/pump-casting-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p18-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/throttle-cad-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p15-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/flanged-assembly-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p19-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/milled-ring-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p00-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/anodized-fixtures-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p09-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/insulating-disc-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p20-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/polymer-collection-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p21-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/fittings-flanges-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p07-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/turned-components-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p05-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/milled-components-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p01-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/rotary-components-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p06-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/dark-finished-parts-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p08-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/multi-face-blue-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p04-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/angled-connector-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p03-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/recessed-impeller-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p11-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/turned-parts-set-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p10-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/casting-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p22-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/flanged-housing-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p23-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/marked-casting-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p24-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/open-casting-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p25-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/plastic-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p26-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "before": "https://www.lzz-cnc.com/media/visual-image-alignment-20261017/brass-batch-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p27-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "before": "https://www.lzz-cnc.com/media/product-sources-20261015/p28-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p28-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/polymer-disc-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p29-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/open-enclosures-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p30-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/rotary-flange-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p31-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/pin-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p32-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "before": "https://www.lzz-cnc.com/media/product-sources-20261015/p33-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p33-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "before": "https://www.lzz-cnc.com/media/background-integration-20261017/turned-batch-alpha-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p34-1440.webp"
+    },
+    {
+      "route": "/machined-parts/gallery/ultra-high-precision-machining-services/",
+      "before": "https://www.lzz-cnc.com/media/image-refresh-20261017/impeller-cutout-1200.webp",
+      "after": "https://www.lzz-cnc.com/media/product-photography-20261018/p02-1440.webp"
+    }
+  ],
+  "newPhotoRoutes": [
+    {
+      "route": "/",
+      "newPhotographs": 6
+    },
+    {
+      "route": "/capabilities/",
+      "newPhotographs": 5
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "newPhotographs": 1
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "newPhotographs": 3
+    },
+    {
+      "route": "/capabilities/starting-with-a-sample/",
+      "newPhotographs": 1
+    },
+    {
+      "route": "/machined-parts/",
+      "newPhotographs": 6
+    },
+    {
+      "route": "/machined-parts/gallery/",
+      "newPhotographs": 35
+    },
+    {
+      "route": "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "newPhotographs": 2
+    },
+    {
+      "route": "/machined-parts/gallery/ultra-high-precision-machining-services/",
+      "newPhotographs": 2
+    }
+  ],
+  "imageFilesChecked": 709,
+  "changed": [
+    {
+      "file": "src/components/CapabilityPartFigure.astro",
+      "before": "af6869950281f9a87a2c6023832bb35729dae963f7215046e3b007f94b706e8b",
+      "after": "5a4b5c8e07c02dd5c0f2916684b271c07bfdbd568487ed79edd2d660f88ce3f7"
+    },
+    {
+      "file": "src/components/PartsCatalogueExplorerRedesigned.tsx",
+      "before": "ba7bf731c03fe4fcde229ed626db0951bdc37515287639b7e28c0b2b88e4a01a",
+      "after": "0537d060821a730e40a857cb1bf5cce9a9510966efbf24471d7e27434a5b2024"
+    },
+    {
+      "file": "src/components/ProductsFigure.astro",
+      "before": "95580f86bbf43f7c429a6fa851db7ed4dcf8c1550d8ff9502e95b5420a432c22",
+      "after": "4b8aded98c988c55beeeaf7f9ae593bc706b1d89cced9d9151d245bf7c27a2f5"
+    },
+    {
+      "file": "src/components/ProductsPartRedesigned.astro",
+      "before": "20a1431d501f5b13d5bc8933c2385bf08447c6cded43fc8317af694c96076dd8",
+      "after": "f3980fb43b2b1f6d403464a533c0d8b117cab82d6bd2d3169be206b3c16161d4"
+    },
+    {
+      "file": "src/data/cataloguePreviews.ts",
+      "before": "a911f486e597f9f6a8470cf8d2e04ccf1189ab3942a2447f7653a5c34b72ae25",
+      "after": "1f412e7eb7d607863e8008293b92c09eb41aa2c7f2cbc77bfb1de6e49f98c839"
+    },
+    {
+      "file": "src/data/productPhotography.generated.json",
+      "before": null,
+      "after": "14647c84682e4ae68fff71a55776c42343b8eb4a80488f3d8749c9966a4d7dec"
+    },
+    {
+      "file": "src/data/productPhotography.ts",
+      "before": null,
+      "after": "6183b9d463b2a42106c2f7f8cefd22f7546ce8a451d0adbbfc0b1fa840edc069"
+    },
+    {
+      "file": "src/data/productsEditorial.ts",
+      "before": "7019b90c3bbf6b7941d6a2e9eb8e38ed58446d1d578185ce62c108929d96a312",
+      "after": "ad72a07a31e5e60f3f4d2cd5d4222a3960894de258f4b0ca2dc45a9e405a1f12"
+    },
+    {
+      "file": "src/styles/penta-interiors.css",
+      "before": "78fd58f630a0e61a713ec153b84ea7225ca891556d8b0906d8b95c8d17ec096d",
+      "after": "830cf46773e654f938a0a8cf1ef5a2133b4dd1bd709e6992136758c42006f429"
+    },
+    {
+      "file": "src/styles/site-composition.css",
+      "before": "0ad93d06e7cea607fe73eb55596253a3267d82fb8f4935eb9b2df258e2db0357",
+      "after": "7ad7f0aa9acd33deba588c8489ef3d07a64c7a37c83acae33e9b0dd2a806c5a7"
+    }
+  ],
+  "issues": []
+}

@@ -11,7 +11,7 @@ const contexts=[
 <section class="container section context-section" aria-labelledby="context-title">
  <div class="section-heading"><h2 id="context-title">Application requirements</h2></div>
  <div class="context-grid">{contexts.map(context=><article>
-  <figure data-image-origin={context.evidenceId?'source-photo':'AI-generated'}>{context.evidenceId?<EvidenceImage id={context.evidenceId} sizes="(max-width:760px) 100vw, 60vw"/>:<img src={`/media/editorial/${context.image}-1200.webp`} srcset={[480,800,1200,1536].map(width=>`/media/editorial/${context.image}-${width}.webp ${width}w`).join(', ')} sizes="(max-width:760px) 100vw, 60vw" width="1536" height="1024" loading="lazy" alt={context.alt}/>} {context.evidenceId&&<figcaption>{context.disclosure}</figcaption>}</figure>
+  <figure data-image-origin={context.evidenceId?'source-photo':'image-reference'}>{context.evidenceId?<EvidenceImage id={context.evidenceId} sizes="(max-width:760px) 100vw, 60vw"/>:<img src={`/media/editorial/${context.image}-1200.webp`} srcset={[480,800,1200,1536].map(width=>`/media/editorial/${context.image}-${width}.webp ${width}w`).join(', ')} sizes="(max-width:760px) 100vw, 60vw" width="1536" height="1024" loading="lazy" alt={context.alt}/>} {context.evidenceId&&<figcaption>{context.disclosure}</figcaption>}</figure>
   <div class="context-copy"><h3>{context.title}</h3><p>{context.description}</p><a class="gallery-link" href={context.href}>See related examples</a></div>
  </article>)}</div>
 </section>

@@ -1,0 +1,1377 @@
+{
+ "url": "http://127.0.0.1:4321/capabilities/cnc-milling-service/",
+ "at": "2026-10-17T01:34:34.260Z",
+ "allow": [
+  "eyebrow",
+  "shadow"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.42,
+    0.68,
+    0.69,
+    0.4,
+    0.27,
+    0.3,
+    0.5,
+    0.64
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 18,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6595,
+     "screens": 7.3,
+     "words": 944,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 12,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "p00-framed-800.webp",
+      "p33-800.webp",
+      "p13-800.webp",
+      "two-stage-first.webp",
+      "two-stage-second.webp",
+      "tool-access-800.webp",
+      "cmm-room-1600-240.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "CNC Milling Services",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Roboto Condensed",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.07,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.39,
+     "top": 270,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CNC Milling Services",
+     "words": 3,
+     "lines": 1,
+     "size": 64,
+     "font": "Roboto Condensed"
+    },
+    "headings": [
+     {
+      "text": "CNC Milling Services",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.07,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 270,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Parts suited to CNC milling",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 731,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "One part, two milling setups",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1549,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pockets, holes and shared datums",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2485,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Materials and finishing",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 3232,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Define the critical features",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 4151,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "±0.01 mm",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 4220,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Request a CNC milling quote",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 5509,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1 piece",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.07,
+      "top": 5633,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "7–14 business days",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.17,
+      "top": 5633,
+      "tag": "dd",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Roboto Condensed",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      17,
+      20,
+      24,
+      26,
+      30,
+      32,
+      44,
+      64
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 17,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Roboto Condensed",
+      "text": "CNC Milling Services"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Minimum order",
+      "above": "1 piece",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 5604
+     },
+     {
+      "text": "Production",
+      "above": "7–14 business days",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 5604
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f6",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#102c2e",
+       "top": 1501,
+       "hsl": {
+        "h": 184,
+        "s": 0.48,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#202729",
+       "share": 0.7
+      },
+      {
+       "color": "#535f61",
+       "share": 0.14
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
+      },
+      {
+       "color": "#f7f8f6",
+       "share": 0.03
+      },
+      {
+       "color": "#e0e7e4",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#12699b",
+      "hsl": {
+       "h": 202,
+       "s": 0.79,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 5,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Prepare RFQ email",
+      "Prepare RFQ email"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 4,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.nav-panel.nav-panel-capabilities → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.cx-application-review 1240px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 22,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.2
+     }
+    ],
+    "nav": {
+     "links": 10,
+     "fixed": true,
+     "height": 90,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter variable",
+     "roboto condensed"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.49,
+    0.72,
+    0.77,
+    1,
+    0.75,
+    0.7,
+    0.36,
+    0.3,
+    0.48,
+    0.43,
+    0.4,
+    0.62
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 18,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11690,
+     "screens": 13.9,
+     "words": 921,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 12,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "p00-framed-480.webp",
+      "p33-480.webp",
+      "p13-480.webp",
+      "two-stage-first.webp",
+      "two-stage-second.webp",
+      "tool-access-480.webp",
+      "cmm-room-1600-240.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "CNC Milling Services",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 42,
+     "vw": 10.8,
+     "font": "Roboto Condensed",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 144,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CNC Milling Services",
+     "words": 3,
+     "lines": 2,
+     "size": 42,
+     "font": "Roboto Condensed"
+    },
+    "headings": [
+     {
+      "text": "CNC Milling Services",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 144,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Parts suited to CNC milling",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 904,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pocketed aluminum housings",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1411,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Billet aluminum engine covers",
+      "words": 4,
+      "chars": 29,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1864,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "One part, two milling setups",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2185,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Establish the first features",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2661,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Locate for the next setup",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3085,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Pockets, holes and shared datums",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3412,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Size and workholding",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3730,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Do all features need five-axis machining?",
+      "words": 6,
+      "chars": 41,
+      "lines": 2,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 4256,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Can you machine sharp internal corners?",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 4469,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Materials and finishing",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4765,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Define the critical features",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6676,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "±0.01 mm",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 6775,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Requirements for the application",
+      "words": 4,
+      "chars": 32,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8182,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Request a CNC milling quote",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9114,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Drawing & material",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9221,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Geometry & setup",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9412,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Acceptance & delivery",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9604,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Order & timing",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 9899,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "1 piece",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 9985,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "7–14 business days",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 10075,
+      "tag": "dd",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 22,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Roboto Condensed",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      21,
+      24,
+      25,
+      30,
+      32,
+      34,
+      42
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 42,
+      "vw": 10.8,
+      "font": "Roboto Condensed",
+      "text": "CNC Milling Services"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Source listing photograph",
+      "above": "Parts suited to CNC milling",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 823
+     },
+     {
+      "text": "Material and finish checklist",
+      "above": "Define the critical features",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 6572
+     },
+     {
+      "text": "Minimum order",
+      "above": "1 piece",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 9955
+     },
+     {
+      "text": "Production",
+      "above": "7–14 business days",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 10046
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f6",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 495,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#102c2e",
+       "top": 2145,
+       "hsl": {
+        "h": 184,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#e9eeeb",
+       "top": 4231,
+       "hsl": {
+        "h": 144,
+        "s": 0.13,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#202729",
+       "share": 0.7
+      },
+      {
+       "color": "#535f61",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
+      },
+      {
+       "color": "#f7f8f6",
+       "share": 0.04
+      },
+      {
+       "color": "#e0e7e4",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#12699b",
+      "hsl": {
+       "h": 202,
+       "s": 0.79,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 5,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Prepare RFQ email",
+      "Prepare RFQ email"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.cx-application-review 350px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 20,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4959
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7027
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.34
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter variable",
+     "roboto condensed"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.cx-application-review 1240px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (14, 15, 16, 17, 20, 24, 26, 30, 32, 44, 64).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 390,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\lzz\\penta-redesign-20261017\\taste-final\\detail\\desktop-fold.jpg",
+   "pages": [
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\detail\\desktop-page-01.jpg",
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\detail\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\lzz\\penta-redesign-20261017\\taste-final\\detail\\mobile-fold.jpg",
+   "pages": [
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\detail\\mobile-page-01.jpg",
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\detail\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

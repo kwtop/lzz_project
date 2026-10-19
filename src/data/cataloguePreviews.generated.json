@@ -1,0 +1,119 @@
+{
+  "custom-oem-high-precision-cnc-milling-manufacturer": {
+    "src": "/media/content-image-completion-20261018/p01-selected-408.webp",
+    "width": 408,
+    "height": 408,
+    "bytes": 29116,
+    "srcset": "/media/content-image-completion-20261018/p01-selected-160.webp 160w, /media/content-image-completion-20261018/p01-selected-320.webp 320w, /media/content-image-completion-20261018/p01-selected-408.webp 408w",
+    "alt": "A selected bored block from the mixed milling reference set",
+    "origin": "source-retouch",
+    "previewNote": "Selected form · full reference set inside",
+    "sourceHref": "/media/product-sources-20261015/p01-1200.webp",
+    "originalDisplay": "/media/background-integration-20261017/milled-components-alpha-1200.webp",
+    "crop": {
+      "left": 0,
+      "top": 0,
+      "width": 408,
+      "height": 408
+    },
+    "operation": "Pixel crop of existing retouched reference. No generation, reconstruction, enlargement or change to the product.",
+    "files": [
+      {
+        "src": "/media/content-image-completion-20261018/p01-selected-160.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 7904
+      },
+      {
+        "src": "/media/content-image-completion-20261018/p01-selected-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 21304
+      },
+      {
+        "src": "/media/content-image-completion-20261018/p01-selected-408.webp",
+        "width": 408,
+        "height": 408,
+        "bytes": 29116
+      }
+    ]
+  },
+  "custom-rotary-cylindrical-components": {
+    "src": "/media/content-image-completion-20261018/p06-selected-408.webp",
+    "width": 408,
+    "height": 600,
+    "bytes": 46168,
+    "srcset": "/media/content-image-completion-20261018/p06-selected-160.webp 160w, /media/content-image-completion-20261018/p06-selected-320.webp 320w, /media/content-image-completion-20261018/p06-selected-408.webp 408w",
+    "alt": "A selected flanged cylindrical component from the rotary reference set",
+    "origin": "source-retouch",
+    "previewNote": "Selected form · full reference set inside",
+    "sourceHref": "/media/product-sources-20261015/p06-1200.webp",
+    "originalDisplay": "/media/background-integration-20261017/rotary-components-alpha-1200.webp",
+    "crop": {
+      "left": 0,
+      "top": 0,
+      "width": 408,
+      "height": 600
+    },
+    "operation": "Pixel crop of existing retouched reference. No generation, reconstruction, enlargement or change to the product.",
+    "files": [
+      {
+        "src": "/media/content-image-completion-20261018/p06-selected-160.webp",
+        "width": 160,
+        "height": 235,
+        "bytes": 11684
+      },
+      {
+        "src": "/media/content-image-completion-20261018/p06-selected-320.webp",
+        "width": 320,
+        "height": 471,
+        "bytes": 32754
+      },
+      {
+        "src": "/media/content-image-completion-20261018/p06-selected-408.webp",
+        "width": 408,
+        "height": 600,
+        "bytes": 46168
+      }
+    ]
+  },
+  "full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing": {
+    "src": "/media/content-image-completion-20261018/p08-selected-348.webp",
+    "width": 348,
+    "height": 312,
+    "bytes": 19402,
+    "srcset": "/media/content-image-completion-20261018/p08-selected-160.webp 160w, /media/content-image-completion-20261018/p08-selected-320.webp 320w, /media/content-image-completion-20261018/p08-selected-348.webp 348w",
+    "alt": "A selected dark finished bracket from the mixed finished-parts reference set",
+    "origin": "source-retouch",
+    "previewNote": "Selected form · full reference set inside",
+    "sourceHref": "/media/product-sources-20261015/p08-1200.webp",
+    "originalDisplay": "/media/background-integration-20261017/dark-finished-parts-alpha-1200.webp",
+    "crop": {
+      "left": 833,
+      "top": 156,
+      "width": 348,
+      "height": 312
+    },
+    "operation": "Pixel crop of existing retouched reference. No generation, reconstruction, enlargement or change to the product.",
+    "files": [
+      {
+        "src": "/media/content-image-completion-20261018/p08-selected-160.webp",
+        "width": 160,
+        "height": 143,
+        "bytes": 6788
+      },
+      {
+        "src": "/media/content-image-completion-20261018/p08-selected-320.webp",
+        "width": 320,
+        "height": 287,
+        "bytes": 17824
+      },
+      {
+        "src": "/media/content-image-completion-20261018/p08-selected-348.webp",
+        "width": 348,
+        "height": 312,
+        "bytes": 19402
+      }
+    ]
+  }
+}

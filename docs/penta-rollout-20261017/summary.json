@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-10-17T02:28:32.773Z",
+  "afterHash": "da40d0264361965c18c1a67f5b14f4aaf5374c89553d480ec652535a519ed697",
+  "scope": "main img[src] plus video[poster] on 84 formal routes. File counts normalize URL pathname; exclude srcset-only variants, global logos/icons, CSS and OG metadata.",
+  "baseline": {
+    "pages": 84,
+    "imgSlots": 382,
+    "videoPosterSlots": 7,
+    "totalSlots": 389,
+    "uniqueImgSrcFiles": 139,
+    "uniquePosterFiles": 7,
+    "uniqueSrcAndPosterFiles": 141,
+    "independentSourceGroups": 124,
+    "effectiveStillSourceGroups": 116,
+    "videoPosterSourceGroups": 7
+  },
+  "final": {
+    "pages": 84,
+    "imgSlots": 383,
+    "videoPosterSlots": 7,
+    "totalSlots": 390,
+    "uniqueImgSrcFiles": 143,
+    "uniquePosterFiles": 7,
+    "uniqueSrcAndPosterFiles": 145,
+    "independentSourceGroups": 128,
+    "effectiveStillSourceGroups": 120,
+    "videoPosterSourceGroups": 7
+  },
+  "retainedFiles": 132,
+  "removedReferenceFiles": [
+    "/media/image-led-20261015/definition-1200.webp",
+    "/media/image-led-20261015/order-records-1200.webp",
+    "/media/capabilities-section-20261014/sample-definition-1200.webp",
+    "/media/site-polish-20261016/packing-concept-1200.webp",
+    "/media/image-led-20261015/privacy-draft.webp",
+    "/media/image-led-20261015/privacy-clear.webp",
+    "/media/image-led-20261015/definition-800.webp",
+    "/media/image-led-20261015/packing-concept-1200.webp",
+    "/media/image-led-20261015/material-samples-1200.webp"
+  ],
+  "newReferencedFiles": [
+    "/media/penta-rollout-20261017/sample-inputs-1440.webp",
+    "/media/penta-rollout-20261017/drawing-review-1440.webp",
+    "/media/penta-rollout-20261017/revision-review-1440.webp",
+    "/media/penta-rollout-20261017/brass-interface-1440.webp",
+    "/media/penta-rollout-20261017/separated-packing-1440.webp",
+    "/media/penta-rollout-20261017/steel-datums-1440.webp",
+    "/media/penta-rollout-20261017/port-review-1440.webp",
+    "/media/penta-rollout-20261017/privacy-draft.webp",
+    "/media/penta-rollout-20261017/privacy-clear.webp",
+    "/media/penta-rollout-20261017/drawing-review-800.webp",
+    "/media/penta-rollout-20261017/protected-interfaces-1440.webp",
+    "/media/penta-rollout-20261017/acceptance-plan-1440.webp",
+    "/media/penta-rollout-20261017/material-finishes-1440.webp"
+  ],
+  "newImagegenIndependentAssets": 10,
+  "newImagegenImgSlots": 29,
+  "allViewportChecks": 336,
+  "screenshotFiles": 222,
+  "overflow": 0,
+  "broken": 0,
+  "pageErrors": 0,
+  "visualCoverage": {
+    "reviewedSheets": 121,
+    "totalSheets": 121,
+    "pages": 84,
+    "renderedImgBoxes": 766,
+    "supplementFigures": 26,
+    "sourceAuditAssetsViewed": 141,
+    "scopeLimit": "Image-position crops and listed full figures; not every body-text paragraph or every intermediate-width screenshot."
+  },
+  "additionalReviewedRawPosterFiles": [
+    "/media/source-details/peek-parts-poster.webp",
+    "/media/source-details/display-housing-poster.webp"
+  ],
+  "unresolved": [
+    {
+      "id": "P04",
+      "type": "real-source-gap",
+      "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "state": "Clearly labelled low-resolution reference retained at300x200; real detailed photograph still required; AI port concept is explicitly generic."
+    }
+  ],
+  "limits": [
+    "All84 endpoints image positions were visually inspected; 1024/768 widths rely on root check/capture and targeted review, not a second full visual pass by this worker.",
+    "No video playback or delivery workflow was exercised by this read-only image review. Native preload=none players p020/p063 showed loading UI before metadata in supplemental headless snapshots; source posters themselves have no spinner.",
+    "Three Resources directory pages intentionally contain no decorative image; functional/resource/news exceptions follow baseline contract.",
+    "Contact-sheet context bounds can cut neighboring text; full-figure follow-ups settled factory packing caption and material-stock composition."
+  ],
+  "galleryQA": {
+    "mode": "file URL; no server started",
+    "checkedAt": "2026-10-17T02:25:29.962Z",
+    "checks": [
+      {
+        "name": "single-h1",
+        "passed": true
+      },
+      {
+        "name": "pages-count",
+        "passed": true
+      },
+      {
+        "name": "noindex",
+        "passed": true
+      },
+      {
+        "name": "generated-plan-count",
+        "passed": true
+      },
+      {
+        "name": "genuine-empty-state",
+        "passed": true
+      },
+      {
+        "name": "empty-reset",
+        "passed": true
+      },
+      {
+        "name": "generated-real-file-count",
+        "passed": true,
+        "detail": {
+          "ready": 10
+        }
+      },
+      {
+        "name": "generated-real-preview-loaded",
+        "passed": true
+      },
+      {
+        "name": "generated-file-links",
+        "passed": true
+      },
+      {
+        "name": "audit-count",
+        "passed": true
+      },
+      {
+        "name": "real-source-gap-filter",
+        "passed": true
+      },
+      {
+        "name": "image-viewer-open",
+        "passed": true
+      },
+      {
+        "name": "escape-closes-viewer",
+        "passed": true
+      },
+      {
+        "name": "mobile-overflow",
+        "passed": true,
+        "detail": 0
+      },
+      {
+        "name": "complete-screenshot-viewer",
+        "passed": true
+      },
+      {
+        "name": "complete-image-loaded",
+        "passed": true
+      },
+      {
+        "name": "mobile-generated-view",
+        "passed": true
+      },
+      {
+        "name": "javascript-errors",
+        "passed": true,
+        "detail": []
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,73 @@
+/* Approved centered homepage concept. Deliberately scoped: inner-page headers are unchanged. */
+body[data-home-hero]{--home-header-height:96px}
+body[data-home-hero] .site-header{height:var(--home-header-height);min-height:var(--home-header-height);margin-bottom:calc(-1 * var(--home-header-height));background:#0c355466;border-bottom:1px solid #ffffff30;color:#fff;backdrop-filter:blur(5px)}
+body[data-home-hero] .header-inner{width:min(1320px,calc(100% - 80px));height:100%;gap:24px}
+body[data-home-hero] .brand{background:#fff;border-radius:4px;padding:6px 16px;flex-shrink:0}
+body[data-home-hero] .brand-logo{width:96px;height:auto}
+body[data-home-hero] .nav-root,body[data-home-hero] .nav-group>summary{color:#fff}
+body[data-home-hero] .nav-root{font-size:15px}
+body[data-home-hero] .header-quote{min-height:52px;padding:14px 20px;font-weight:600}
+body[data-home-hero] .nav-panel{color:var(--pn-ink)}
+body[data-home-hero] .menu-toggle{color:#fff}
+body[data-home-hero] :is(.site-header,.pn-hm-hero) :is(a,button,summary):focus-visible{outline-color:#fff;outline-offset:5px}
+body[data-home-hero] .nav-panel :is(a,summary):focus-visible{outline-color:#114a75}
+body[data-home-hero] .pn-hm-hero{position:relative;isolation:isolate;display:grid;grid-template-columns:1fr;align-content:start;min-height:clamp(760px,56.28vw,980px);padding:clamp(200px,14.65vw,260px) 32px 220px;overflow:hidden;background:#0c3554;color:#fff}
+body[data-home-hero] .pn-hm-hero>.pn-hm-hero-scene{position:absolute;inset:0;width:100%;height:100%;min-height:0;margin:0;z-index:-1;opacity:1;transform:none;animation:none;transition:none}
+body[data-home-hero] .pn-hm-hero-scene picture{display:block;width:100%;height:100%}
+body[data-home-hero] .pn-hm-hero-scene img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:0}
+body[data-home-hero] .pn-hm-hero-scene::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0a2e4d00 70%,#0a2e4d4d 100%);pointer-events:none}
+body[data-home-hero] .pn-hm-hero>.pn-hm-hero-scene figcaption{position:absolute;bottom:24px;right:32px;left:auto;z-index:1;background:#0a2e4db8;border-radius:3px;padding:3px 8px;font:400 14px/1.5 var(--body);color:#fff}
+body[data-home-hero] .pn-hm-hero-copy{position:relative;align-self:start;width:100%;max-width:1150px;margin-inline:auto;padding:0;text-align:center;min-width:0}
+body[data-home-hero] .pn-hm-hero h1{font-family:var(--body);font-weight:700;font-size:clamp(52px,4.8vw,80px);line-height:1.08;letter-spacing:-.035em;max-width:none;text-wrap:balance;margin:0}
+body[data-home-hero] .pn-hm-hero h1 span{display:block}
+body[data-home-hero] .pn-hm-hero-intro{margin-top:28px}
+body[data-home-hero] .pn-hm-hero-intro p{max-width:64ch;margin:0 auto;font-size:21px;line-height:1.6;color:#edf4fa;text-wrap:balance}
+body[data-home-hero] .pn-hm-hero-intro p span{display:block}
+body[data-home-hero] .pn-hm-hero .pn-hm-actions{flex-direction:column;flex-wrap:nowrap;gap:10px;margin-top:28px;align-items:center}
+body[data-home-hero] .pn-hm-hero .rd-button{min-height:56px;padding:14px 32px;font-size:18px;font-weight:600}
+body[data-home-hero] .pn-hm-hero .rd-link{font-size:18px;line-height:1.5;color:#fff;min-height:44px;text-underline-offset:6px}
+@media(min-width:768px) and (max-width:1099px){
+ body[data-home-hero]{--home-header-height:82px}
+ body[data-home-hero] .header-inner{width:calc(100% - 64px)}
+ body[data-home-hero] .pn-hm-hero{min-height:800px;padding:195px 32px 260px}
+ body[data-home-hero] .pn-hm-hero-copy{max-width:690px}
+ body[data-home-hero] .pn-hm-hero h1{font-size:56px}
+ body[data-home-hero] .pn-hm-hero-intro p{font-size:20px}
+ body[data-home-hero] .pn-hm-hero-scene img{position:absolute;bottom:0;width:100%;height:auto;object-fit:contain;object-position:right bottom;mask-image:linear-gradient(180deg,transparent,#000 30%)}
+ body[data-home-hero] .pn-hm-hero-scene::after{background:linear-gradient(180deg,#0c3554 20%,#0c355499 42%,#0c355400 70%)}
+}
+@media(max-width:1099px){
+ body[data-home-hero] .site-header.menu-open #main-nav{background:#114a75}
+ body[data-home-hero] .site-header.menu-open .nav-panel{background:transparent;color:#fff}
+ body[data-home-hero] .site-header.menu-open .nav-panel :is(a,p){color:#fff}
+}
+@media(max-width:767px){
+ body[data-home-hero]{--home-header-height:76px}
+ body[data-home-hero] .site-header{height:auto;background:#0c3554}
+ body[data-home-hero] .header-inner{width:calc(100% - 32px);gap:10px;height:auto;min-height:76px;padding-block:12px}
+ body[data-home-hero] .brand{padding:5px 9px}
+ body[data-home-hero] .brand-logo{width:72px}
+ body[data-home-hero] .header-quote{font-size:13px;padding:9px 12px;min-height:44px;max-width:150px}
+ body[data-home-hero] .pn-hm-hero{min-height:780px;padding:140px 20px 270px}
+ body[data-home-hero] .pn-hm-hero-copy{max-width:540px}
+ body[data-home-hero] .pn-hm-hero h1{font-family:var(--heading);font-size:38px;line-height:1.1;letter-spacing:0}
+ body[data-home-hero] .pn-hm-hero-intro{margin-top:22px}
+ body[data-home-hero] .pn-hm-hero-intro p{font-size:17px;line-height:1.6;max-width:34ch;text-wrap:pretty}
+ body[data-home-hero] .pn-hm-hero-intro p span+span{margin-top:8px}
+ body[data-home-hero] .pn-hm-hero .pn-hm-actions{margin-top:25px;gap:8px}
+ body[data-home-hero] .pn-hm-hero .rd-button{min-height:54px;padding:14px 28px;font-size:17px}
+ body[data-home-hero] .pn-hm-hero .rd-link{font-size:16px}
+ body[data-home-hero] .pn-hm-hero-scene img{position:absolute;bottom:0;height:780px;object-position:right bottom;mask-image:linear-gradient(180deg,transparent,#000 10%)}
+ body[data-home-hero] .pn-hm-hero-scene::after{background:linear-gradient(180deg,#0c355400 34%,#0c355440 56%,#0c355400 76%)}
+ body[data-home-hero] .pn-hm-hero>.pn-hm-hero-scene figcaption{bottom:16px;right:16px;left:auto;font-size:14px;max-width:calc(100% - 32px)}
+}
+@media(max-width:359px){
+ body[data-home-hero] .brand-logo{width:58px}
+ body[data-home-hero] .brand{padding-inline:7px}
+ body[data-home-hero] .header-quote{padding-inline:8px;font-size:12px}
+ body[data-home-hero] .pn-hm-hero{padding-inline:16px}
+ body[data-home-hero] .pn-hm-hero h1{font-size:36px}
+}
+
+
+body[data-home-hero] .site-header.home-header-scrolled{background:#0c3554f2}

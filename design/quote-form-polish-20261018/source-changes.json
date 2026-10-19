@@ -1,0 +1,17 @@
+[
+  {
+    "file": "src/components/QuoteForm.tsx",
+    "before": "eec384dd4cca153ad2991ddb6e12d443ddaa5ea3728dcef07796662d871096b8",
+    "after": "dccb6aa2299d78ab2781e98c54f48a596bc45d1014870693b1b33703967179eb"
+  },
+  {
+    "file": "src/styles/quote-approved.css",
+    "before": "d4cef5c548495cea7924401be338360c3bbf45dd2e008b1d13316370ed65e1d3",
+    "after": "27da1e6e8149e6c951c15d61ad6711172c83bec8a6554e804194bd4f1d279c02"
+  },
+  {
+    "file": "DESIGN.md",
+    "before": "060c61a790c05d86e8adc8c2b1e1d5f16fbde4ac8b6b0a4059a8586b523a934d",
+    "after": "5a2ea71b98a456e8bb106475491a644d4629efa9e2d7cd0622abd00b89c944c9"
+  }
+]

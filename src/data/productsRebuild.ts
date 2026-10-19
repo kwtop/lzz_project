@@ -1,7 +1,12 @@
 import {partUseContexts} from './productBrowse';
-const realCrop=(id:string,width:number,height:number,alt:string)=>({src:'/media/products-real-details-20261015/'+id+'.webp',srcset:undefined,width,height,nativeWidth:width,alt,origin:'original-photo-crop',caption:'Real crop from the original workshop photograph.'});
-export const realProductDetails:Record<string,ReturnType<typeof realCrop>>={P33:realCrop('p33',390,370,'One open aluminum housing, cropped from the original batch photograph with its cavity, rim and mounting ears visible')};
-export const realStudyDetails:Record<string,ReturnType<typeof realCrop>>={
+import {photo} from './evidence';
+import {siteImage} from './siteImages';
+const realCrop=(id:string,width:number,height:number,alt:string)=>({src:'/media/products-real-details-20261015/'+id+'.webp',srcset:undefined as string|undefined,width,height,nativeWidth:width,alt,origin:'original-photo-crop',caption:'Real crop from the original workshop photograph.'});
+export const realProductDetails:Record<string,ReturnType<typeof realCrop>&{sourceHref?:string}>={
+ P27:{...siteImage('brass-presentation'),nativeWidth:1120,sourceHref:photo('brass-plugs').src},
+ P33:{...siteImage('enclosures-presentation'),nativeWidth:1440,sourceHref:photo('aluminum-housings').src},
+ P34:{...siteImage('turned-presentation'),nativeWidth:1120,sourceHref:'/media/product-sources-20261015/p34-1200.webp'},
+};export const realStudyDetails:Record<string,ReturnType<typeof realCrop>>={
  'five-axis-operation':realCrop('five-axis-operation',688,576,'Closer view of the spindle, component and rotary fixture in the original workshop photograph'),
  'turn-mill-operation':realCrop('turn-mill-operation',736,516,'Closer view of cylindrical components held beneath the milling spindle'),
  'two-stage-first':realCrop('two-stage-first',752,540,'The component and fixture in the first original milling setup'),
@@ -16,7 +21,7 @@ export const partTask=(id:string)=>{
  if(['P26','P27','P28','P30','P33','P34'].includes(id))return 'batch';
  return 'part';
 };
-export const orderProduction='7–14 business days after drawing and order confirmation, including finishing. Shipping time is additional; the quotation confirms the schedule. Sample reconstruction and drawing approval are separate.';
+export const orderProduction='7-14 business days after drawing and order confirmation, including finishing. Shipping time is additional; the quotation confirms the schedule. Sample reconstruction and drawing approval are separate.';
 export const taskHeadings:Record<string,string>={part:'Features to define',forms:'Choose the form, then define the interfaces',casting:'Define the blank and the finished part',assembly:'Define the components you need',batch:'Define the part and each release'};
 export const companyApplicationDescriptions:Record<string,string>={
  'custom-oem-high-precision-cnc-milling-manufacturer':'Instrument blocks, brackets and housings with mounting interfaces, bores and internal passages.',
@@ -28,9 +33,9 @@ export const productApplicationContexts=(slug:string)=>(partUseContexts[slug]||[
 export const taskScope=(task:string,kind:string)=>{
  if(task==='assembly')return 'Identify the machined components, purchased or customer-supplied items, joining and fasteners in the assembly drawing. Agree acceptance after assembly. Pressure, leakage, actuation, flow and cooling tests each need a procedure, limits and a responsible party.';
  if(task==='casting')return 'Distinguish the blank model and finished model, machining allowance and datum targets. Agree the blank supplier, incoming acceptance, permitted variation, retained cast surfaces and responsibility for rejected blanks. An incomplete definition requires a separate drawing-approval stage.';
- if(task==='batch')return 'List each part number, approved revision, material condition, finish, release quantity and requested date. Identify shared interfaces and change authority. Agree first-article checks, later sampling, traceability and nonconforming-part handling. Forecast demand is separate from the order.';
- if(kind==='pin')return 'The photograph shows the external pin, threaded body and adjustment hardware. It does not establish the internal spring, travel or force. Define engagement, mounting thread, spring and handle scope; agree actuation-force and cycle testing separately.';
- if(task==='forms')return 'This source contains several part forms. Identify the component you want quoted and supply its controlled drawing; the pictured assortment does not define a supplied set.';
+ if(task==='batch')return 'List each part number, approved revision, material condition, finish, release quantity and requested date. Identify shared interfaces and change authority. Agree first-article checks, later sampling, traceability and nonconforming-part handling. State forecast demand and firm release quantities separately.';
+ if(kind==='pin')return 'Define the engagement pin, mounting thread, adjustment hardware and handle required by the assembly. Include any internal spring, travel and force requirements, with separate actuation and cycle-test criteria.';
+ if(task==='forms')return 'For a quote, identify the component in this group and send its controlled drawing. Identify the material and specification for each part being quoted.';
  return '';
 };
 
@@ -52,7 +57,7 @@ export const partSupplement:Record<string,{drawing:string;check:string}>={
  P12:{drawing:'Define port orientation relative to the core and distinguish CNC machining from TIG joining.',check:'For pressure or leak testing, supply test pressure, medium, procedure and acceptance criteria.'},
  P13:{drawing:'Show wall sections, mounting datums and hood, camshaft and sensor clearances.',check:'Include mounting-pattern checks; assess outer-contour appearance separately from mating-face dimensions.'},
  P14:{drawing:'Supply the full STEP or IGES model and mating-port drawing, including runner transitions, port spacing and flange positions relative to the engine and piping.',check:'Specify prototype-fitment checks; define pressure and flow tests separately.'},
- P15:{drawing:'Include the motor envelope, bearing and actuator fits, and shaft-bore locations relative to the airflow bore and assembly datums.',check:'Agree shaft-alignment and mating-feature checks. Machining a housing does not establish electronic control performance.'},
+ P15:{drawing:'Include the motor envelope, bearing and actuator fits, and shaft-bore locations relative to the airflow bore and assembly datums.',check:'Agree shaft-alignment and mating-feature checks. Define electronic-control tests separately from housing machining.'},
  P16:{drawing:'Provide STEP or IGES and injector/rail interface drawings; relate mounting features to the intake ports.',check:'Agree injector-alignment and position checks. Sealing and functional tests require separate criteria.'},
  P17:{drawing:'Include mating-throttle details, fastener access and any split-line seal.',check:'Specify flange and passage checks. Pressure ratings and sealing tests require defined conditions and limits.'},
  P18:{drawing:'Define the transfer from casting datums to finished-part datums, with the blank alloy and condition.',check:'State required inspection stages and any CMM verification from the finished-part datums.'},

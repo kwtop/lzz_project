@@ -1,0 +1,33 @@
+---
+import type {CollectionSection} from '../data/workshopCollections';
+import type {StudyReadingPolish} from '../data/readingPolish';
+import {collectionReading} from '../data/caseReading';
+import {photo} from '../data/evidence';
+import {siteImage,type SiteImageId} from '../data/siteImages';
+import media from '../data/additionalMedia.generated.json';
+import ProductsFigure from './ProductsFigure.astro';
+import ProductsClip from './ProductsClip.astro';
+interface Props {family:CollectionSection;title:string;polish:StudyReadingPolish;first?:boolean}
+const {family:f,title,polish,first=false}=Astro.props,info=collectionReading[f.id];
+const photos=polish.familyPhotos?.[f.id]||f.photos||[];
+const leadPhotos:Record<string,string>={'ptfe':'plastic-ptfe-batch','turned-parts':'metal-turned-shaft','aluminum-housings':'metal-aluminum-close','brass-fittings':'metal-brass-batch'};
+const clipImages:Record<string,SiteImageId>={pom:'pom-gear-reference',pe:'pe-guide-reference',acrylic:'acrylic-panel-reference','batch-handling':'cleaned-metal-reference'};
+const mainPhoto=leadPhotos[f.id]||photos[0],clipImage=clipImages[f.id];
+const primary=clipImage?siteImage(clipImage):photo(mainPhoto);
+const support=photos.filter(id=>id!==(!clipImage?mainPhoto:undefined));
+const originalClip=f.video?media.videos[f.video.id]:undefined;
+const paired=support.length===1;
+---
+<section class="pc-family" id={f.id} data-core-section={title}>
+ <header><h2>{title}</h2>{!polish.omitFamilyIntros?.includes(f.id)&&<p>{info.form}</p>}</header>
+ <div class:list={['pc-layout',{'pc-layout--paired':paired}]}>
+  <div class="pc-primary"><ProductsFigure {...primary} eager={first} sizes="(max-width:900px) calc(100vw - 40px), (max-width:1200px) 48vw, 570px" sourceHref={clipImage?originalClip?.src:undefined} sourceLabel={clipImage?'View original clip':undefined} showSourceLink={Boolean(clipImage)}/>{paired&&<ProductsFigure {...photo(support[0])} sizes="(max-width:900px) calc(100vw - 40px), 555px"/>}</div>
+  <div class="pc-reading"><dl class="pc-fields">
+   <div><dt>Material specification</dt><dd>{info.material}{f.id==='ptfe'&&' Specify solid PTFE, a coated substrate or a separate covering. For coated or covered parts, define the substrate or core, thickness and bonding requirements.'}</dd></div>
+   <div><dt>Define on the drawing</dt><dd>{info.drawing}</dd></div>
+   <div><dt>Agree for acceptance</dt><dd>{polish.familyAcceptance?.[f.id]||info.inspection}</dd></div>
+   {f.id==='batch-handling'&&!polish.omitClipEvidenceRow&&<div><dt>What the clip establishes</dt><dd>The source labels these as aluminum parts after cleaning. It does not identify the cleaning method, final inspection or shipment.</dd></div>}
+  </dl>{f.video&&<ProductsClip {...f.video} description={polish.familyVideoDescriptions?.[f.id]||f.video.description} showHeading={false}/>}</div>
+ </div>
+ {!paired&&support.length>0&&<div class="pc-support" data-views={support.length}>{support.map(id=><ProductsFigure {...photo(id)} sizes="(max-width:900px) calc(100vw - 40px), 555px"/>)}</div>}
+</section>

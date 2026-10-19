@@ -1,0 +1,350 @@
+[
+  {
+    "file": "src/components/AboutOverviewRedesign.astro",
+    "before": "9049f821365dda40a0a849b268837ae3f1e17863067fa14943686d1f3255e6c1",
+    "after": "b99da41b252c35b32c1b4d07ecb1f1ee7199f268e96f408901cf6ef80d055bf2",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/AboutProfileRedesign.astro",
+    "before": "cb00676062fb56887501060aae5e9f0f512793bacc8734057f8da592f92c3708",
+    "after": "73f6d43439976ba5f4a1e220ff2067577ac903e3a8e207ad38728853e00cf5c5",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/AboutRedesignPhoto.astro",
+    "before": "94b9dca5cb3526a46c4aa8204f8a9ef5b0626bad62b379ab4163aceb337dfc80",
+    "after": "e2ffcbf063dcbe16dc1208b605297d98b25cd16f1e44def6802f3507ec3a08c4",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/CapabilityAluminumPage.astro",
+    "before": "13042797375ad43bfce88a95debb78d62258d59d6aacb1ff0d47ed70aa7d4712",
+    "after": "4c8514ba0fcac2590e0d1319ac928c17bec1b63cf6985812e7080054ffb92513",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityCastingPage.astro",
+    "before": "6e35bbb112147afc6d966839cf95703913ae8fda84c31955c1450b677f37d122",
+    "after": "6e370cb18f4f063bede09317e8bbf34327298dbb465654d6139f5d0ba662a2f5",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityDecisionGuide.astro",
+    "before": null,
+    "after": "35f48b85e050b23e61634e57a65714264227294de512b96a0dc9aef7c3fe112f",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityEvidence.astro",
+    "before": "9ca7168a8ac01872280fb97f0b13394fef306fcad92f2884be4370e62978d70a",
+    "after": "cde1dbb37424d60e0b6cd1b671cfb2ad7e8261a35de248c959154d783712d778",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/CapabilityInspectionReview.astro",
+    "before": "11d892873bc2987e58f0bc8b4c0e22cc00e9cfbc0bc0f824594a03c13a66278e",
+    "after": "7f02f8e1ff8a65d80e1f21c0a67f4307326dc770e746d2276deaeda463ba87be",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/CapabilityIntro.astro",
+    "before": "187df26b9d554c48638850033156996936ac9a4b42aac394080eb1ecc0bc67f1",
+    "after": "60e431cf6b0bd595ab225fa02a71a7e06ed8136a596edd1f7bbb1caa12c78b7c",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityMaterialPage.astro",
+    "before": "acd4e9bbd020de7f93e8c57dc4955ee2ce8b25a94d6a12980baf7f373a9e90e1",
+    "after": "638d6a1b5cf95cbf8c02025a3f66de4f2f88a9eb21c32048a3779c6a89ea1664",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityPlasticPage.astro",
+    "before": "d1256da38398657f3279e510cbf6d599709957f536605685b8b9a76745b22496",
+    "after": "7cdba1a3b56be6ac88ecbd5e40af3a3ed4c8acd13a13db71b6b4140770c5dfec",
+    "scope": "image/layout edit over preserved concurrent content"
+  },
+  {
+    "file": "src/components/CapabilityProcessPage.astro",
+    "before": "527f92af1f0f471ca6284f99bb6659d3cf34637f4c418d8ec4b72efe01bfe424",
+    "after": "5dd43e2c601fddd085cdae8ebedf60d44ea6ebc3362ab949b7d85b3146b0dc92",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityStainlessPage.astro",
+    "before": "67b86a08c2f90f3fc3ba2fe596c764191f1d2d852b787f01188c4aea4e1b3704",
+    "after": "5616015e19518cb1d4717e1494c46af5f4f1d25c14bfeb3cdab18498ed339e9b",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/CapabilityTurningPage.astro",
+    "before": "ead5ebc4b52cec5f6fa3a99a6651e2ea3e7273b0accbd077c393993ca65c8b5f",
+    "after": "539a218acc6110e4994c883625f96c0579422cd9afefdf84ddd640a526470e04",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/EvidenceImage.astro",
+    "before": "7ed1f15ec596ac798f90958495afe6fe150d0eec53604cbb6aaa45b05964edb0",
+    "after": "ce57de91382796520df4f410171ba0a7ec734317bb01be0fa704b703b73c5017",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/FactoryRedesign.astro",
+    "before": "1fd186e86b72c265249153751e63ca8c7ed1ed2eb3e92024713ba1b7eaf88a1c",
+    "after": "0b39380b09aa2cdb5ea0fe53a797a1b68d594e6e5b51f57a4d78a525925114ea",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/PartRequirementsTable.astro",
+    "before": "6a0842ed192fc51602cc8b17b7fbcf0fc9a3d3c399ce2e58382aee82bc0015a6",
+    "after": "56c1a13cb4de9ec5e0d609b5bf9637916e6c6022a64656d5ccbcf7457156fc29",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/PentaCapabilitiesDirectory.astro",
+    "before": "0bbc365228fb2515764525334f39cff28472ecdd9e95142ea51bd9be47c6efb3",
+    "after": "a87fd99ec862d55b1d9097da556dd4ee345267ec9a83e519b89cc219297a6879",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/PentaHome.astro",
+    "before": "22b2e98e77e332c6894e1b80ab3b011c1aefaca3bd6c320973ff672df2be9e96",
+    "after": "6b868c9203e026db053d05661c16d1cbc87147168a81d50b6ef641bfa7e9392a",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/PentaMillingPage.astro",
+    "before": "46fd422102177203ca5eb03e5135bf3fccc8ad503623496402e9c9f9561bbd1e",
+    "after": "6399e8281f42c18796b59207d9ee877f7a17ca98308f04992adcdb5633117ee4",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/PentaVisual.astro",
+    "before": "98a9bb0c555fc89f59b30efb1eeb01a35a006a52e3d7fc2b185e5b82097e5261",
+    "after": "530cebbfe7fd812ce95c29da2990baa04723c712b09822da8643aab3fa48b312",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/ProductsCatalogueRedesigned.astro",
+    "before": "39b92e98691c86d295365bb4d6e6632adbece599b7e60c85cb139f4a6ebff9a4",
+    "after": "4a29cb475d4233f90a45b6f84967d137926ede27523bffd7b93c1c44162d4b26",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/ProductsClip.astro",
+    "before": "073bb6e888d6cd4494227f28b4ff4fd12e227c8ea6a0658cac446e48ab2114cd",
+    "after": "9b405e69835cb3e456f7618e87032d46a5e0a3155e56dfad8045f66df3a64037",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/ProductsFigure.astro",
+    "before": "813e0eadd2c33823adc96147d78531f583ee6e3622946d7d77275ce6df1bf4ce",
+    "after": "95580f86bbf43f7c429a6fa851db7ed4dcf8c1550d8ff9502e95b5420a432c22",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/ProductsPartRedesigned.astro",
+    "before": "b5b3333e1997a653b247026d09cd20cf51a4b99b3e43cb796870de4c3b489e19",
+    "after": "5aa2ccd9108b101185bf9cab91b1f201628f0b58336bb890fa3902369c910159",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/ProductsStudyRedesigned.astro",
+    "before": "17d8d0cecf977eb53900c09bfae350a9535bb9199fddea454b3fa7e771c3c348",
+    "after": "a63101b7a46674b26708499a9077ea7638e11964264178135ba1d3b37060ebaf",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/ReferenceGallery.astro",
+    "before": "3df766a6a1001e4ccfb1551ceb93ea00633133edc559c0ddf5a870c1cef7051b",
+    "after": "1a875f124c2835e1680c003604e71059082f233707a10ebb7d0f2edf283d52eb",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/ResourceDirectoryRedesign.astro",
+    "before": "40c421e798865c3940e8c1294211ece078ea25dd6e21d473aee16d293d528d06",
+    "after": "53f417346ae5409586ece8c3760122208a3a8da0bb7a0b38387e496638b79b6c",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/ResourceGuideRedesign.astro",
+    "before": "31fc3d1c62188af6d453fd67070c5e3d6c7e0e18f0220ba3d3c0c684d3cac7ec",
+    "after": "0178f5362e757d9af8f1bc7dc317119e7ad001112741cde15e1fa3b1e4ea78ce",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/components/StudyCollectionFamily.astro",
+    "before": null,
+    "after": "91b15b6edbc08bdeb09feed887f43780c1dbd6b3132a2422a9d5feb06e112b7d",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/components/TwoStageStudy.astro",
+    "before": "d06c71ad02219cb0ccd1060407f74ea9e5ff97e2ddc318ca1977688d2c6d9715",
+    "after": "c06cd901b827a284cade9d130c72b17c465c7e9b4779b0a005c0b804e3f8db3c",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/aluminumAlloyGuide.ts",
+    "before": null,
+    "after": "a5ee3f281dadb4f301ee4ab4d9b419230362a0d3c7ae1905339e238e3f07646a",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/capabilityDecisions.ts",
+    "before": null,
+    "after": "f989270b3fd3115d70b3d8c5be3b58a6dc7b5ba90c1f8ecce54a9c2fce7130a9",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/cataloguePreviews.generated.json",
+    "before": null,
+    "after": "2140c8807e53bb37ff067bf57090e6ebe023a69fe13d18947cb01bd9b0b0e0c0",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/cataloguePreviews.ts",
+    "before": null,
+    "after": "a911f486e597f9f6a8470cf8d2e04ccf1189ab3942a2447f7653a5c34b72ae25",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/cncCostGuide.ts",
+    "before": null,
+    "after": "0fce1faecb3a26669434d20e5a52015304229fab8dceaa6730a310e83992ad58",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/cncProcessGuide.ts",
+    "before": null,
+    "after": "10d0660f561d05cdc0909f72072f3f7571fdb7b741b1266824b13edeb39d0316",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/contentGuides.ts",
+    "before": "f883a45e13308cf92d360b146e8424e48b02ee067f27f330f6d202ef5a6e500d",
+    "after": "5e2d6fa44cc30b8ad2a50780a3a8ae999d1f97a37b8fb65cb7872e00ba2af0a5",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/drawingFeaturesGuide.ts",
+    "before": null,
+    "after": "3cc31b5519d144ada5bfccfc434f0ca5ac86cd01f91b3b6454649fdd1d4de87e",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/materialFinishGuide.ts",
+    "before": null,
+    "after": "853acd13d3125ac1831733ff3198380014a8a6005f19f31bc29ded7c0fbe8e6a",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/pentaInteriors.ts",
+    "before": "00d10a7bac8b523e50cc196638599411ef6ff8d1044744ffd2983470d2bc47ac",
+    "after": "7b627b5c889b91cd2419fafb8a95ecbff4213ab8e22773718660b5c92b31a021",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/processImageDisplays.generated.json",
+    "before": null,
+    "after": "a9b85b8b0b53371f47842878ad8d2ff44c2626812e1ee9a193b0f3ffb91a68a8",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/processImageDisplays.ts",
+    "before": null,
+    "after": "bea199dfb1d906b652dbcde1967511815a18e5b8a78ded7e1e94652828fcd22c",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/productFocus.ts",
+    "before": null,
+    "after": "c7aee2b0243c5abb102914ae01bd48fe1e1eae16d150ad7fba3249637b92eedf",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/productsEditorial.ts",
+    "before": "8a7f24f5d82ffe1806bf75ed11a31c0e944ca7bd1303ab3e4771c2379391d212",
+    "after": "7019b90c3bbf6b7941d6a2e9eb8e38ed58446d1d578185ce62c108929d96a312",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/productsRebuild.ts",
+    "before": "3107c7a996de319019f835eacf64e56807d2e1a4e910a61916663c41ca674b05",
+    "after": "1de858ad9a87e00c1c28f667ecf3607691500d48fa41bfe4d4f9af8c9b1a4fb6",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/data/resourceApproved.ts",
+    "before": "cf85b48c0043d6c85bc94e0edc90ef2a886649355193b24b46fb2a2b9f3e06bb",
+    "after": "86b9c924edefcbc996d4301641d8ab8171fb02722803fd85e4935293103e94dd",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/resourceLibrary.ts",
+    "before": "075d6ec4602f75eca8ed52f0e37cb135a79d09a2ca42d6972c16d0fabe59d0ca",
+    "after": "a83176f53e6ebde1cef392c0cfbaafa248266f811befcbab66914cc569b2a450",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/resourceReading.ts",
+    "before": "14da5d593623e8d611414857db0d6c5fbcd1732dad253b487f30d1cc90929c27",
+    "after": "7a07c7aa7137c5e91ea7840a0d8c4aafc14901c9b1eda36f26c057af0f48b6c7",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/resourceRoutes.json",
+    "before": "eafd25299d5428ac530bbf5181d9c08900560675235b13860fb7dc9dfd8736d7",
+    "after": "eeb1cd257d7ebe6d6e7c8ac40835401815262367d3777cd6e3e5b215aafe4858",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/resources.ts",
+    "before": "78d9a738b607bf98c585e763625e575121a3cd50dc6d5c25f8ab3097fd1e249c",
+    "after": "ee78f0d9b4ab3256c2927afb0669f11d1e4eddc19ef912a794e0a6879f8d881f",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/seo.ts",
+    "before": "e5d4a7118b81330bf6b74cfb338d2687f020e565ae697efc747b3b155e865ba7",
+    "after": "2c2498d2eaa106c3c0627b3cd5ea0042ae1b7c754a872d31a8992f001d836215",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/data/siteImages.generated.json",
+    "before": "343f442ef3e3d5a0adc5523ed1fc863cd4312a445b7af99bb126f251571ba2aa",
+    "after": "2d89e908048a37f5cf091bc60df1a1507f857aef632d80dfc3496d5522c9ab8f",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/layouts/Layout.astro",
+    "before": "9a728e946257cee1501e8d43ff2c1c2d40dbbf22b9dd661d9f69669544b556c8",
+    "after": "7420a64601ceb011ca07452721e1f689c15663d306ac22aa37a7ddc82df3ae17",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/pages/capabilities/[slug].astro",
+    "before": "94ab39e598a5591ff32b5f61085905a2d04b3171c565509d0d6fd77851d99607",
+    "after": "0350543c8083d5c3a94fff7ecdbad80d6f5534e006f6a1093ebc4ba80e75ef02",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/styles/image-layout-20261018.css",
+    "before": null,
+    "after": "6fdb4f9e94a73c00d7e8f57ead36d19c66a2920db20ef3d7d66410ed3e14c5d7",
+    "scope": "this image and authorized layout task"
+  },
+  {
+    "file": "src/styles/resource-long-guides.css",
+    "before": null,
+    "after": "1528182b7fa0e262f80c2cacac620cf906f33a3b8f0e5035ffa2589efc1348ae",
+    "scope": "preserved parallel/existing content change"
+  },
+  {
+    "file": "src/styles/resources-hierarchy.css",
+    "before": "20677b242281936e856b2cd4b0e7cc8b81f28a4505aabcdc575a6087bd474fe9",
+    "after": "dea01c744cc99e0c47427328bbac9b88ead85c014c1dc82d084e4b40f50d40b6",
+    "scope": "preserved parallel/existing content change"
+  }
+]

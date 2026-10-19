@@ -3,14 +3,14 @@ type CastingReview={heading:string;focus:string;inputs:string;href:string;label:
 export const castingReview:Record<string,CastingReview>={
  'custom-cnc-machined-castings-transmission-housings-pump-bodies':{
   heading:'Incoming blank and machining allowance',
-  focus:'Use the casting and finished-part drawings to agree blank acceptance, machining allowance and datum transfer before machining.',
-  inputs:'Supply both casting and finished-part drawings, blank source and condition, stock allowance, datum targets and responsibility for incoming defects.',
+  focus:'Control blank acceptance, machining allowance and datum transfer with the casting and finished-part drawings.',
+  inputs:'Include the blank supplier, alloy and condition, stock allowance, datum targets and responsibility for incoming defects.',
   href:'/capabilities/casting-machining/#engineering-fit',label:'Review casting allowance and workholding',
  },
  'precision-cnc-machined-castings-manufacturer':{
   heading:'Hidden interfaces and measurement access',
-  focus:'If the design requires inaccessible splines or flow paths, locate them from the flange datums. Confirm blank source and condition, with incoming acceptance agreed before machining.',
-  inputs:'Supply sections or a controlled model, the flange datum scheme, interface limits and the proposed gauge or measurement access. Agree fluid-integrity testing separately.',
+  focus:'Reference internal splines, channels and flow paths to the flange datums in sections or the controlled model. Identify tool and measurement access for each critical feature.',
+  inputs:'Include the blank supplier and condition, incoming acceptance, interface limits and gauge requirements. Specify any fluid-integrity testing separately.',
   href:'/capabilities/casting-machining/#engineering-fit',label:'Review machining access and inspection planning',
  },
  'oem-precision-cnc-machined-casting-housing-structural-enclosures':{

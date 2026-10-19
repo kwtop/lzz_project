@@ -1,0 +1,26 @@
+---
+import EditorialImage from './EditorialImage.astro';
+import {innerHeroScene} from '../data/innerHeroScenes';
+import '../styles/immersive-inner-hero.css';
+
+interface Action {href:string;label:string;primary?:boolean}
+interface Props {
+ title:string;lead:string;id?:string;quoteHref?:string;
+ secondaryHref?:string;secondaryLabel?:string;
+ actions?:Action[];credential?:string|false;
+}
+const {title,lead,id='interior-title',quoteHref='/quote/',secondaryHref,secondaryLabel,credential='Made to your drawing · Hangzhou, China'}=Astro.props;
+const actions=Astro.props.actions||[
+ {href:quoteHref,label:'Request a quote',primary:true},
+ ...(secondaryHref?[{href:secondaryHref,label:secondaryLabel||'Explore this page'}]:[]),
+];
+const image=innerHeroScene(Astro.url.pathname);
+---
+<section class="ii-hero" data-core-section="Page introduction" aria-labelledby={id}>
+ <figure class="ii-media"><EditorialImage image={image} eager mobileMedia="(max-width:767px), (max-width:1099px) and (orientation:portrait)" sizes="(max-width:767px) max(100vw, 56.25svh), (max-width:1099px) and (orientation:portrait) max(100vw, 56.25svh), max(100vw, 177.7svh)"/></figure>
+ <div class="ii-inner"><header class="ii-copy">
+  <h1 id={id}>{title}</h1><p class="ii-lead">{lead}</p><slot/>
+  <nav class="ii-actions" aria-label="Page actions">{actions.map(action=><a class:list={['ii-action',action.primary?'ii-action--primary':'ii-action--secondary']} href={action.href}>{action.label}</a>)}</nav>
+  {credential&&<p class="ii-credential"><a href="/about/company-profile/#quality-system">ISO 9001 certified</a><span>{credential}</span></p>}
+ </header></div>
+</section>

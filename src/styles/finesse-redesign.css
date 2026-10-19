@@ -2,8 +2,8 @@
  * D=CSS-feedback · E=source-industrial-photographs · SOUL=7 SPECTACLE=2 DENSITY=6 */
 html,body{overflow-x:clip}
 body.brand-site.finesse-redesigned {
- --bg:#f6f7f6;--ink:#252b2d;--muted:#49545a;--surface:#ecefed;
- --border:rgba(37,43,45,.16);--red:#cb1217;--gutter:40px;
+ --bg:#f6f7f6;--ink:#242724;--muted:#656660;--surface:#ecefed;
+ --border:rgb(36 39 36 / .16);--red:#cb1217;--gutter:40px;
  --type-display:clamp(2.25rem,4.2vw,3.6rem);
  --type-section:clamp(1.875rem,3vw,2.5rem);
  --section-space:clamp(3rem,5vw,4.5rem);
@@ -35,7 +35,7 @@ body.brand-site.finesse-redesigned .draft-result #draft-heading{position:sticky;
 body.brand-site.finesse-redesigned .restored-hero .precision-message .button{border-radius:3px;min-height:54px;font-size:16px;padding:16px 28px}
 body.brand-site.finesse-redesigned .editorial-home{--ed-space:clamp(3rem,5vw,4.5rem);--ed-rule:var(--border)}
 body.brand-site.finesse-redesigned .editorial-home .ed-process .ed-material-inline nav a{min-height:44px;padding-block:10px}
-body.brand-site.finesse-redesigned .restored-hero .hero-source{font-size:13px;line-height:1.6;color:#e5e9e9}
+body.brand-site.finesse-redesigned .restored-hero .hero-source{font-size:13px;line-height:1.6;color:#EEE9E2}
 body.brand-site.finesse-redesigned .context-section .context-grid figcaption{font-size:13px;line-height:1.6}
 body.brand-site.finesse-redesigned .specification-band .category-links a{min-height:44px;font-size:14px;display:inline-flex;align-items:center;padding-block:10px}
 body.brand-site.finesse-redesigned .ed-product-image{background:var(--bg);aspect-ratio:1.22}
@@ -191,4 +191,4 @@ body.brand-site.finesse-redesigned .er-disclosure summary{min-height:52px;line-h
  body.brand-site.finesse-redesigned *,body.brand-site.finesse-redesigned *::before,body.brand-site.finesse-redesigned *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
  body.brand-site.finesse-redesigned :is(.button,.text-link,.er-button):active{transform:none}
 }
-@media(prefers-contrast:more){body.brand-site.finesse-redesigned{--muted:#252b2d;--border:#737d84}}
+@media(prefers-contrast:more){body.brand-site.finesse-redesigned{--muted:#242724;--border:#737d84}}

@@ -1,7 +1,7 @@
 /* Shared footer: selected direction 1, approved 2026-10-15. */
 :is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer.lzz-footer--directory {
   --footer-gutter: 40px;
-  background: #191b1d;
+  background: #252826;
   color: #fff;
   padding: 0;
   font-family: 'Inter Variable', Arial, sans-serif;
@@ -27,7 +27,7 @@
 }
 :is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-brand { min-width: 0; }
 :is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-brand > a { display: inline-block; }
-:is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-brand img { display: block; width: 112px; height: auto; filter: brightness(0) invert(1); }
+:is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-brand img { display: block; width: 108px; height: auto; filter: brightness(0) invert(1); }
 :is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-brand p { margin: 18px 0 0; color: #d4d5d5; font-size: 15px; line-height: 1.6; }
 :is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-social { display: flex; gap: 4px; margin: 18px 0 0 -12px; }
 :is(body.redesign-site, body.brand-site.finesse-redesigned.precision-gallery) footer.lzz-footer--directory .lzz-footer-social a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; }

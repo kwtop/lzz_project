@@ -20,11 +20,11 @@ body.brand-site.finesse-redesigned {
   --action-radius: 2px;
   --action-padding: 12px 20px;
   --action-gap: 12px;
-  --action-border: #aab3b7;
+  --action-border: #C9C9BE;
 }
 html[data-palette=a] body.brand-site {
   --action-background: var(--action);
-  --action-hover-background: var(--action-hover, #10445e);
+  --action-hover-background: var(--action-hover, #AC4829);
 }
 
 /* One outer content boundary, including the former single-page designs. */
@@ -455,7 +455,7 @@ body.brand-site.finesse-redesigned :is(a, button):focus-visible {
 }
 /* Dark panels and photographic heroes use an inverse secondary/focus role. */
 body.brand-site.finesse-redesigned :is(.precision-hero, .home-rfq-panel) {
-  --action-border: #d7dfe2;
+  --action-border: #EEE9E2;
 }
 body.brand-site.finesse-redesigned :is(.precision-hero, .home-rfq-panel) :is(
   a.text-link, a.ab-secondary, a.ft-hero-action, a.home-rfq-checklist, .hero-baseline > a

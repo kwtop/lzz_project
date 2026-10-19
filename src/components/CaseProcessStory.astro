@@ -27,7 +27,7 @@ const questions=plan.questions;
   
   <section class="cs-hero" aria-labelledby="case-title">
    <header><p class="cs-eyebrow">Machining study · {item.process}</p><h1 id="case-title">{story.title}</h1><p class="cs-lead">{story.summary}</p><nav class="cs-jump" aria-label="Read this study"><a class="tc-secondary" href="#machining-setup">Machining process</a><a class="tc-secondary" href="#inspection-planning">Drawing & inspection</a></nav></header>
-   {story.hero?<CaseStoryImage stem={story.hero} alt={story.heroAlt!} caption="Part-form illustration based on workshop references. AI-generated; not a dimensional reconstruction." eager/>:<figure class="cs-source cs-hero-source" data-image-origin="source-photo"><EvidenceImage id={item.photos[0]} loading="eager" sizes="(max-width:760px) calc(100vw - 44px), 46vw"/><figcaption>{photo(item.photos[0]).caption}</figcaption></figure>}
+   {story.hero?<CaseStoryImage stem={story.hero} alt={story.heroAlt!} caption="Part form and visible features." eager/>:<figure class="cs-source cs-hero-source" data-image-origin="source-photo"><EvidenceImage id={item.photos[0]} loading="eager" sizes="(max-width:760px) calc(100vw - 44px), 46vw"/><figcaption>{photo(item.photos[0]).caption}</figcaption></figure>}
   </section>
   <section class="tc-section" id="component" aria-labelledby="case-part-title">
    <span id="study-0"/><span id="technical-points"/>

@@ -15,7 +15,7 @@ export const illustrativeScenes = {
   factoryOperator: scene(
     'factory-operator-illustrative',
     'Machinist monitoring a CNC machine through its closed safety window.',
-    "The people and equipment are illustrative and are not a photograph of LZZ's staff or facility.",
+    "The people and equipment shown do not depict LZZ's staff or facility.",
   ),
   manualInspection: scene(
     'manual-inspection-illustrative',

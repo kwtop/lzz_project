@@ -14,7 +14,7 @@ body.brand-site .site-header.navigation-polished #main-nav .nav-root:focus-visib
 @media(max-width:1100px){
  body.brand-site .site-header.navigation-polished .menu-toggle {display:block}
  body.brand-site .site-header.navigation-polished .header-quote {margin-left:auto}
- body.brand-site .site-header.navigation-polished #main-nav {display:none;position:absolute;top:100%;left:0;right:0;margin:0;padding:14px 24px 24px;background:#fff;color:#282c2f;max-height:calc(100dvh - 82px);overflow:auto;border-bottom:1px solid #dfe2e4;box-shadow:0 12px 28px #18212a14}
+ body.brand-site .site-header.navigation-polished #main-nav {display:none;position:absolute;top:100%;left:0;right:0;margin:0;padding:14px 24px 24px;background:#fff;color:#242724;max-height:calc(100dvh - 82px);overflow:auto;border-bottom:1px solid #EEE9E2;box-shadow:0 12px 28px #24272414}
  body.brand-site .site-header.navigation-polished.menu-open #main-nav {display:block}
  body.brand-site .site-header.navigation-polished #main-nav>.nav-item {display:grid;grid-template-columns:1fr 44px;border-bottom:1px solid #e6e8e9;position:relative}
  body.brand-site .site-header.navigation-polished #main-nav .nav-root {padding-block:14px;font-size:16px!important;align-self:start;min-height:52px}
@@ -25,9 +25,9 @@ body.brand-site .site-header.navigation-polished #main-nav .nav-root:focus-visib
  body.brand-site .site-header.navigation-polished #main-nav .nav-columns {grid-template-columns:1fr;gap:20px;display:grid}
  body.brand-site .site-header.navigation-polished #main-nav .nav-columns>div+div {border:0;padding:0}
  body.brand-site .site-header.navigation-polished #main-nav .nav-panel a {padding:10px 12px}
- body.brand-site .site-header.navigation-polished.menu-open {background:#fff;color:#282c2f}
+ body.brand-site .site-header.navigation-polished.menu-open {background:#fff;color:#242724}
  body.brand-site.home-refined .site-header.navigation-polished.menu-open .brand-logo {filter:none}
- body.brand-site.home-refined .site-header.navigation-polished.menu-open .menu-toggle span {background:#282c2f}
+ body.brand-site.home-refined .site-header.navigation-polished.menu-open .menu-toggle span {background:#242724}
 }
 @media(min-width:1101px){body.brand-site .site-header.navigation-polished .menu-toggle {display:none}}
 @media(min-width:1101px) and (max-width:1200px){body.brand-site .site-header.navigation-polished #main-nav {gap:18px}}

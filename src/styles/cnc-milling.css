@@ -1,5 +1,5 @@
 /* CNC milling: the object, the real process and the technical decisions have distinct roles. */
-.redesign-site .milling-page{--milling-gap:80px;--milling-process:#20282b}
+.redesign-site .milling-page{--milling-gap:80px;--milling-process:#242724}
 .redesign-site .milling-page h2{font-size:32px;line-height:1.25;font-weight:550;letter-spacing:-.025em}
 .redesign-site .milling-page h3{font-size:21px;line-height:1.35;font-weight:550}
 .redesign-site .milling-hero{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr);gap:64px;align-items:center;min-height:460px}
@@ -25,16 +25,16 @@
 .redesign-site .milling-related{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 32px;margin-top:32px}
 .redesign-site .milling-related nav{display:flex;flex-wrap:wrap;gap:8px 28px}
 .redesign-site .milling-related nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5}
-.redesign-site .milling-practice{padding:40px;background:var(--milling-process);color:#f6f8f8}
-.redesign-site .milling-page .milling-practice :is(h2,h3){color:#f6f8f8}
-.redesign-site .milling-page .milling-practice p{color:#e1e5e6}
+.redesign-site .milling-practice{padding:40px;background:var(--milling-process);color:#F5F3EF}
+.redesign-site .milling-page .milling-practice :is(h2,h3){color:#F5F3EF}
+.redesign-site .milling-page .milling-practice p{color:#EEE9E2}
 .redesign-site .milling-setup-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;align-items:start}
 .redesign-site .milling-page .milling-setup-pair img{width:100%;height:auto;aspect-ratio:752/540;object-fit:contain}
 .redesign-site .milling-page .milling-setup-pair figcaption{margin-top:20px;max-width:none}
 .redesign-site .milling-setup-pair figcaption p{font-size:16px;line-height:1.65;max-width:50ch;margin-top:10px}
 .redesign-site .milling-process-foot{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:16px 32px;margin-top:28px;padding-top:20px;border-top:1px solid #ffffff38}
 .redesign-site .milling-process-foot p{font-size:14px;line-height:1.5;max-width:48ch}
-.redesign-site .milling-process-foot .rd-link{color:#f6f8f8}
+.redesign-site .milling-process-foot .rd-link{color:#F5F3EF}
 .redesign-site .milling-process-foot .rd-link:hover{color:#fff;text-decoration-thickness:2px}
 .redesign-site .milling-drawing-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:80px;align-items:start}
 .redesign-site .milling-drawing-grid h2{max-width:24ch}

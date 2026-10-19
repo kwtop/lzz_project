@@ -1,0 +1,17 @@
+{
+  "mobileMenu": {
+    "label": "Close navigation",
+    "navVisible": "block",
+    "open": "true"
+  },
+  "mobileMenuClosed": "false",
+  "quote": {
+    "draftOnly": true,
+    "h1": "Prepare an RFQ email",
+    "path": "/quote/"
+  },
+  "capabilities": {
+    "h1": "CNC machining capabilities",
+    "path": "/capabilities/"
+  }
+}

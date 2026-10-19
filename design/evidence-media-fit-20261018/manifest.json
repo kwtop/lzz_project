@@ -1,0 +1,237 @@
+[
+  {
+    "id": "setup-first",
+    "previous": {
+      "id": "setup-first",
+      "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+      "srcset": "/media/image-content-20261018-r2/setup-first-480.webp 480w, /media/image-content-20261018-r2/setup-first-800.webp 800w, /media/image-content-20261018-r2/setup-first-1120.webp 1120w, /media/image-content-20261018-r2/setup-first-1440.webp 1440w",
+      "width": 1440,
+      "height": 1080,
+      "alt": "ImageGen-refined reference: first holding setup",
+      "caption": "First holding setup · ImageGen-refined reference",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "50% 50%",
+      "master": "D:/lzz/image-content-20261018-r2/masters/setup-first.png",
+      "generator": "built-in image_gen",
+      "sourceReference": "/media/evidence/two-stage-first-1600.webp",
+      "sourceId": "two-stage-first",
+      "sourceSha256": "aaeb3f688607ff2fba790c6e4a4fdf1a87f590d5cf1d507eeeb9e44e6deb8724",
+      "purpose": "First holding setup",
+      "aspect": "4:3",
+      "files": [
+        {
+          "src": "/media/image-content-20261018-r2/setup-first-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 30534
+        },
+        {
+          "src": "/media/image-content-20261018-r2/setup-first-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 72058
+        },
+        {
+          "src": "/media/image-content-20261018-r2/setup-first-1120.webp",
+          "width": 1120,
+          "height": 840,
+          "bytes": 121006
+        },
+        {
+          "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 173604
+        }
+      ]
+    },
+    "src": "/media/evidence-media-fit-20261018/setup-top-1440.webp",
+    "srcset": "/media/evidence-media-fit-20261018/setup-top-480.webp 480w, /media/evidence-media-fit-20261018/setup-top-800.webp 800w, /media/evidence-media-fit-20261018/setup-top-1120.webp 1120w, /media/evidence-media-fit-20261018/setup-top-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "Setup-planning illustration: D-shaped part lying flat in soft jaws with its top recess facing the milling spindle",
+    "caption": "Top-face access · ImageGen setup illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/evidence-media-fit-20261018/masters/setup-top.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/two-stage-first-1600.webp",
+    "sourceId": "two-stage-first",
+    "sourceSha256": "aaeb3f688607ff2fba790c6e4a4fdf1a87f590d5cf1d507eeeb9e44e6deb8724",
+    "purpose": "Top-face access · ImageGen setup illustration",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-top-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 31904
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-top-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 74086
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-top-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 122780
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-top-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 174164
+      }
+    ],
+    "sourceWebSha256": "428835082cef8b3dca7f685b0d40af092a61a9600a478da24280f85ff0dfd97f",
+    "masterWidth": 1448,
+    "masterHeight": 1086
+  },
+  {
+    "id": "setup-second",
+    "previous": {
+      "id": "setup-second",
+      "src": "/media/image-content-20261018-r2/setup-second-1440.webp",
+      "srcset": "/media/image-content-20261018-r2/setup-second-480.webp 480w, /media/image-content-20261018-r2/setup-second-800.webp 800w, /media/image-content-20261018-r2/setup-second-1120.webp 1120w, /media/image-content-20261018-r2/setup-second-1440.webp 1440w",
+      "width": 1440,
+      "height": 1080,
+      "alt": "ImageGen-refined reference: second holding setup",
+      "caption": "Second holding setup · ImageGen-refined reference",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "50% 50%",
+      "master": "D:/lzz/image-content-20261018-r2/masters/setup-second.png",
+      "generator": "built-in image_gen",
+      "sourceReference": "/media/evidence/two-stage-second-1600.webp",
+      "sourceId": "two-stage-second",
+      "sourceSha256": "6eb8c4149c08fe79ed0a2927055d16ddbf033cb3a1a23f2b5eec4fc0669d9a0f",
+      "purpose": "Second holding setup",
+      "aspect": "4:3",
+      "files": [
+        {
+          "src": "/media/image-content-20261018-r2/setup-second-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 30628
+        },
+        {
+          "src": "/media/image-content-20261018-r2/setup-second-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 64376
+        },
+        {
+          "src": "/media/image-content-20261018-r2/setup-second-1120.webp",
+          "width": 1120,
+          "height": 840,
+          "bytes": 105450
+        },
+        {
+          "src": "/media/image-content-20261018-r2/setup-second-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 148700
+        }
+      ]
+    },
+    "src": "/media/evidence-media-fit-20261018/setup-side-1440.webp",
+    "srcset": "/media/evidence-media-fit-20261018/setup-side-480.webp 480w, /media/evidence-media-fit-20261018/setup-side-800.webp 800w, /media/evidence-media-fit-20261018/setup-side-1120.webp 1120w, /media/evidence-media-fit-20261018/setup-side-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "Setup-planning illustration: the D-shaped part standing upright in soft jaws to expose a perpendicular edge",
+    "caption": "Side-face access · ImageGen setup illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/evidence-media-fit-20261018/masters/setup-side.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/two-stage-second-1600.webp",
+    "sourceId": "two-stage-second",
+    "sourceSha256": "6eb8c4149c08fe79ed0a2927055d16ddbf033cb3a1a23f2b5eec4fc0669d9a0f",
+    "purpose": "Side-face access · ImageGen setup illustration",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-side-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29940
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-side-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 66652
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-side-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 106452
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/setup-side-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 147794
+      }
+    ],
+    "sourceWebSha256": "395aa0c366702b6c765901c5f445b43c181ac2b1a8ce885602b2ad1f10c8fbbd",
+    "masterWidth": 1448,
+    "masterHeight": 1086
+  },
+  {
+    "id": "news-visit-reframed",
+    "previous": null,
+    "src": "/media/evidence-media-fit-20261018/visit-reframe-1440.webp",
+    "srcset": "/media/evidence-media-fit-20261018/visit-reframe-480.webp 480w, /media/evidence-media-fit-20261018/visit-reframe-800.webp 800w, /media/evidence-media-fit-20261018/visit-reframe-1120.webp 1120w, /media/evidence-media-fit-20261018/visit-reframe-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen reframed preview of the original workshop visit photograph, showing the two people examining a machined component",
+    "caption": "ImageGen reframed preview",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/evidence-media-fit-20261018/masters/visit-reframe.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/company-news/australian-visit-03-1600.webp",
+    "sourceId": "australian-visit-03",
+    "sourceSha256": "ffd01588707fe56f8172306889f20a822d432bebae2f4e61a372dbd2595184b7",
+    "sourceWebSha256": "ffd01588707fe56f8172306889f20a822d432bebae2f4e61a372dbd2595184b7",
+    "purpose": "ImageGen reframed preview",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/evidence-media-fit-20261018/visit-reframe-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24604
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/visit-reframe-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 50482
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/visit-reframe-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 80284
+      },
+      {
+        "src": "/media/evidence-media-fit-20261018/visit-reframe-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 108892
+      }
+    ],
+    "masterWidth": 1448,
+    "masterHeight": 1086
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-17",
+  "scope": "Approved A-centered homepage hero implementation",
+  "tool": "host built-in ImageGen",
+  "reference": "User-selected A-centered mockup",
+  "desktopPrompt": "Create a clean photographic BACKGROUND ASSET from this approved homepage mockup. Remove ALL UI: every letter, title, subtitle, navigation item, button, caption, underline, horizontal header divider, and the logo including its white rectangle. Reconstruct seamless photographic content behind all removed areas. Preserve the reference composition as closely as possible: near-black softly blurred machine interior with subtle blue-teal shadows; very large physically plausible silver CNC spindle at far right edge, vertical end mill descending to bottom-right; brushed aluminum pocketed billet across lowest quarter; quiet dark EMPTY middle and upper-middle that will support separately coded centered white text. Same camera angle, metal texture, lighting, and positions. Keep darkness and spaciousness of center, do not invent a different scene. Landscape 16:9 full bleed, high quality realistic industrial editorial photograph. This is a machining concept illustration, not documentary evidence. Absolutely no text, lettering, logo, symbols, UI boxes, watermark, arrow or overlay.",
+  "mobilePrompt": "Adapt this text-free CNC machining concept background into a portrait 9:16 MOBILE WEBSITE HERO BACKGROUND. Keep the same natural steel material, blue-black restrained color, plausible milling tool and aluminum pocket, but recompose for mobile: upper 60 percent must be very dark softly blurred machine interior with no bright machinery, clean safe space for separately rendered centered title and button. Put silver spindle and end mill only at lower-right, descending from around 55% height to 84%, aluminum billet across lowest 18%. Show enough tool to recognize milling, not just a cropped anonymous metal edge. The photo must feel continuous and calm, not pasted separate panels. All content text-free: no logo, no lettering, buttons, interfaces or captions. This is an illustrative generic machining scene, not a real factory proof.",
+  "classification": "Non-documentary machining concept illustration",
+  "originalLogo": "/media/lzz-logo.png — original, not generated",
+  "originals": "D:/lzz/home-hero-implementation-20261017/assets",
+  "imageProcessing": "ImageGen removed UI from approved mockup; ImageGen recomposed mobile; sharp only resized and WebP encoded.",
+  "page": "/",
+  "assets": [
+    "machining-desktop-960.webp",
+    "machining-desktop-1440.webp",
+    "machining-desktop-1672.webp",
+    "machining-mobile-480.webp",
+    "machining-mobile-800.webp"
+  ]
+}

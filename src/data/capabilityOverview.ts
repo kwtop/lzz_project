@@ -21,14 +21,14 @@ export const capabilityOverview:Record<string,CapabilityOverview> = {
   geometry:"Shafts, sleeves, bushings and fittings. Live tooling adds flats and cross-holes; NPT, BSPT and metric threads are available.",
   workholding:"Stock size, overall dimensions, datum axis and access to internal grooves. Maximum size is reviewed per drawing.",
   materialFinish:"Grade, stock condition and finish; identify sealing surfaces and edges to deburr.",
-  inspection:'Give acceptance limits for the diameters and axial relationships that control assembly. Confirm the measurement method and required records before production.'
+  inspection:'The diameters and axial relationships that control assembly need defined acceptance limits. We agree the measurement method and required records before production.'
  },
  '5-axis-cnc-machining':{
   heading:'Angled features and continuous contours',
   geometry:"Angled faces, deep cavities and continuous contours. Indexed or simultaneous machining is selected from the model.",
   workholding:"Tool reach, fixture clearance and protected surfaces in each orientation.",
   materialFinish:"Aluminum, titanium, Inconel and hardened stainless steel; grade, condition and finish to be specified.",
-  inspection:'Define profile and position requirements against usable datums. Identify the features to measure or compare with the model, and confirm the method and required records before production.'
+  inspection:'We review profile and position requirements against usable datums. Before production, we agree which features to measure or compare with the model, the method and the records you need.'
  },
  'casting-machining':{
   heading:'Finish machining for cast blanks',
@@ -40,30 +40,30 @@ export const capabilityOverview:Record<string,CapabilityOverview> = {
  'aluminum-cnc-parts':{
   heading:'Aluminum housings and automotive prototypes',
   geometry:"Housings and automotive prototypes with thin walls, deep pockets and multiple interfaces.",
-  workholding:"Stock dimensions, fixture support and stress relief for thin sections.",
+  workholding:"Thin sections need a review of stock dimensions, fixture support and stress relief.",
   materialFinish:"6061/6061-T6 and 7075 billet; 3003 for intercoolers. Blasting, brushing, polishing, anodizing, conversion coating and powder coating, where suitable.",
-  inspection:'Define flatness and bore relationships for the interfaces that control fit. Agree surface acceptance for the specified finish, along with the measurement method and records needed before production.'
+  inspection:'Flatness and bore relationships control how the interfaces fit. We agree surface acceptance for the specified finish, measurement methods and required records before production.'
  },
  'stainless-steel-cnc-parts':{
   heading:'Stainless steel shafts, fittings and hardware',
   geometry:"Shafts, fittings and locking hardware; turned diameters, grooves and threads, with milled flats, cross-holes or engraving.",
   workholding:"Stock dimensions, datum axis, working diameters and shoulders.",
   materialFinish:"303, 304, 316L and 17-4PH options. Fine turning, polishing, passivation or electropolishing; confirm grade and condition.",
-  inspection:'Define runout, diameter and thread checks against the assembly datums. Mark surfaces where burrs or handling marks are unacceptable, and confirm the measurement method and required records before production.'
+  inspection:'We review runout, diameter and thread checks against the assembly datums. Mark surfaces where burrs or handling marks are unacceptable; the measurement method and required records are agreed before production.'
  },
  'copper-brass-cnc-parts':{
   heading:'Conductive parts and threaded fittings',
   geometry:"Conductive parts, manifolds and threaded fittings made by turning, milling, 5-axis or casting finish machining.",
   workholding:"Stock dimensions, contact areas, fastening details and internal-passage access.",
   materialFinish:"C36000 brass and tellurium copper; polishing or plating with protected contact surfaces.",
-  inspection:'Define thread gauging and burr acceptance, including contact or sealing surfaces. State which dimensions apply after plating. Confirm the measurement method and required records before production.'
+  inspection:'Thread gauging, burr acceptance and contact or sealing surfaces are reviewed with the post-plating dimensions. We agree the measurement method and required records before production.'
  },
  'plastic-machined-parts':{
   heading:'Plastic insulators, wear parts and housings',
   geometry:"Milled and turned insulators, guides, rollers and housings.",
-  workholding:"Low-stress clamping, thin-wall support and temperature control.",
+  workholding:"Plastic machining needs low-stress clamping, thin-wall support and temperature control.",
   materialFinish:"Exact polymer grade, fillers and stock condition; edge quality and cleaning requirements.",
-  inspection:'Define hole position and flatness, including acceptance criteria for mating surfaces. Agree conditioning and measurement requirements where material behavior affects the result. Confirm the method and required records before production.'
+  inspection:'We agree hole-position, flatness and mating-surface acceptance before production. Conditioning and measurement requirements need to account for material behavior, with the method and required records confirmed for the order.'
  },
  'prototype-machining':{
   heading:'Prototypes for fit and design checks',

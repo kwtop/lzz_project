@@ -180,7 +180,7 @@ body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
 body.brand-site.finesse-redesigned.apple-layout.precision-gallery main#main :is(
  .precision-hero,.home-inquiry-band,.ab-closing,.ff-closing,.case-closing,.ps-closing,.cap-page #enquiry:not(.rfq-section)
 ) a[href]:is(.button.secondary,.button-outline,.text-link,.gallery-link,.ab-secondary,.cap-link,.home-rfq-checklist):hover {
- background:#fff!important;border-color:#fff!important;color:#191b1d!important;
+ background:#fff!important;border-color:#fff!important;color:#252826!important;
 }
 
 @media(max-width:760px) {

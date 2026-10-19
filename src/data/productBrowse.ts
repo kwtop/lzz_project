@@ -15,13 +15,11 @@ export const partBrowseGroups=[
  group('automotive','Automotive prototypes',[44,45,46,47,48,49,50]),
  group('batches','Plan a batch',[71,77]),
 ];
-const sampleGrades=new Set([45,46,47,48,50].map(id=>partIds[id]));
 export function partMaterialStatus(product:Part):{label:string;value:string} {
  const material=productSummary(product).material;
- const value=material.replace(/^Material options(?:\s+include|:)\s*/i,'');
+ const value=material.replace(/^Material options(?:\s+include|:)\s*/i,'').replace(/^Stainless steel options include\s*/i,'Stainless steel: ').replace(/\s+options(?=[.;])/gi,'');
  if(/options|alternative/i.test(material))return {label:'Material options',value};
- if(sampleGrades.has(product.slug))return {label:'Listed material',value};
- return {label:'Material to confirm',value};
+ return {label:'Material requirements',value};
 }
 // Include explicitly recorded alternatives in discovery. The status travels with the result.
 const materialPatterns:Record<string,RegExp>={

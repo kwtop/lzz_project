@@ -1,6 +1,8 @@
 ---
 import CapabilityDetail from '../../components/CapabilityDetail.astro';
 import CapabilityRedesign from '../../components/CapabilityRedesign.astro';
+import PentaMillingPage from '../../components/PentaMillingPage.astro';
+import {revisedCapability} from '../../data/capabilityRedesign';
 import {isRedesigned} from '../../data/redesignRollout';
 import Layout from '../../layouts/Layout.astro';
 import catalog from '../../data/catalog.json';
@@ -9,18 +11,20 @@ import {capabilityContent} from '../../data/capabilityContent';
 import {capabilityPage} from '../../data/capabilityDesign';
 import {capabilityHeroPart} from '../../data/capabilityRebuild';
 import {inquiryHref} from '../../lib/inquiryContext';
+import {capabilityDecisions} from '../../data/capabilityDecisions';
 export function getStaticPaths(){return catalog.categories.map(category=>({params:{slug:category.slug},props:{category}}));}
 const {category}=Astro.props;
 const slug=category.slug;
 const detail=categoryDetails[slug];
 const content=capabilityContent[slug];
+const description=capabilityDecisions[slug]?.description||content.description;
 const page=capabilityPage(slug);
 const pageTitle=page.plan.title;
 const heroImage=slug==='prototype-machining'?page.parts[0].src:capabilityHeroPart(slug).src;
 const quoteHref=inquiryHref({id:slug,title:detail.title,legacyName:category.name,path:'/capabilities/'+slug+'/',kind:'capability'});
 ---
-<Layout title={pageTitle} description={content.description} articleImage={heroImage} cta={false} headerQuoteHref={quoteHref} structuredEntity={{type:'Service',name:pageTitle,description:content.description,image:heroImage}}>
- {isRedesigned(Astro.url.pathname)?<CapabilityRedesign slug={slug} quoteHref={quoteHref}/>:<CapabilityDetail slug={slug} quoteHref={quoteHref}/>}
+<Layout pentaSample={slug==='cnc-milling-service'} title={pageTitle} description={description} articleImage={heroImage} cta={false} headerQuoteHref={quoteHref} structuredEntity={{type:'Service',name:pageTitle,description,image:heroImage}}>
+ {slug==='cnc-milling-service'?<PentaMillingPage page={revisedCapability(slug)} quoteHref={quoteHref}/>:isRedesigned(Astro.url.pathname)?<CapabilityRedesign slug={slug} quoteHref={quoteHref}/>:<CapabilityDetail slug={slug} quoteHref={quoteHref}/>}
 </Layout>
 
 

@@ -1,0 +1,703 @@
+[
+  {
+    "id": "drawing-review",
+    "topic": "drawing/model requirements",
+    "pages": [
+      "/about/contact/",
+      "/about/how-we-work/",
+      "/capabilities/starting-with-a-sample/",
+      "/quote/",
+      "/resources/faq/",
+      "/resources/ordering/compare-cnc-machining-quotations/",
+      "/resources/ordering/rfq-checklist/",
+      "/resources/technical-guides/critical-features-cnc-drawing/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of one simple aluminum block beside matching schematic drawing and model views",
+    "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+    "prompt": "Use case: photorealistic-natural. Create one premium industrial editorial still life for an explicitly labeled drawing-review concept on a CNC B2B website. Landscape 3:2. One simple unbranded rectangular aluminum block with exactly one large circular through-bore and two small mounting holes, on a matte blue-green workbench. Beside it, a pale sheet with sparse gray orthographic outlines of that same simple block, and an unbranded tablet showing a quiet neutral CAD silhouette of the same form. The forms should correspond clearly; if exact correspondence is difficult keep the screen and paper minimal and oblique. No dimension strings, no readable text, no title block, no ticks, results, tolerances or fake certificate. Tool-free composition, soft daylight, natural silver surface and subtle machining texture, not glossy CGI. The physical block has the dominant foreground position and all objects remain within the frame. No people, logos, extra intricate parts or fabricated business records. This is a generic educational concept, never documentary customer evidence.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\drawing-review.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-d886158c-24d8-43e7-bae1-ae849deb8f44.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "3a1e039f530969003bbf4ae28553a3b64b4b27c1738e810a55f5c596b4dc65f4",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/drawing-review-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\drawing-review-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 19632,
+        "sha256": "3071686b87716eee3aab6713f64a21c8d1301e81534069d430e4700f6d236634"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/drawing-review-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\drawing-review-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 47770,
+        "sha256": "1580d58859941b6145159945c5216b6d8822a608f4cf9d94765ffa48f21894bf"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\drawing-review-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 124496,
+        "sha256": "3c8c82ea646b00ef31219cdb2b72db98b3cd9359fe63f7a1f34becfa5282fedd"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/",
+      "/quote/",
+      "/about/contact/",
+      "/resources/ordering/rfq-checklist/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/about/contact/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/about/how-we-work/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/capabilities/starting-with-a-sample/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/quote/",
+        "src": "/media/penta-rollout-20261017/drawing-review-800.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/resources/faq/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/resources/ordering/compare-cnc-machining-quotations/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/resources/ordering/rfq-checklist/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      },
+      {
+        "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "src": "/media/penta-rollout-20261017/drawing-review-1440.webp",
+        "caption": "Drawing-review concept · AI illustration, not an approved drawing or customer part.",
+        "alt": "AI concept of a simple aluminum block beside schematic drawing and model views"
+      }
+    ],
+    "auxiliaryPages": [
+      "/404.html"
+    ]
+  },
+  {
+    "id": "sample-inputs",
+    "topic": "physical sample to drawing",
+    "pages": [
+      "/",
+      "/capabilities/",
+      "/capabilities/starting-with-a-sample/",
+      "/resources/technical-guides/cnc-process-selection/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of a simple sample, caliper and blank sketch sheet for defining a new drawing",
+    "caption": "Sample-review concept · AI illustration, not a reconstruction or measurement record.",
+    "prompt": "Use case: photorealistic-natural. A restrained premium industrial tabletop concept illustrating the inputs needed before reconstructing a physical sample. Landscape 3:2. One generic simple L-shaped aluminum bracket with two plain round holes rests next to an open manual caliper lying idle on the table, a graphite pencil and a mostly blank pale sketch sheet with only a few faint orthographic outlines. No caliper jaws touching the part, no readable scale or dimensions, no inspection result, no modeled claims. Offset the sample to the left-center with clear breathing space around its complete silhouette; tools and sheet recede on a diagonal. Matte charcoal-blue-green surface, warm gray paper, natural silver metal, soft window light from upper left. Crisp material texture and contact shadows, quiet real photographic quality. No screen, no brand, no logo, no people, no text, no extra customer components. This is an illustrative generic sample-input concept, not a photograph of any company's part or a completed reverse-engineering record.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\sample-inputs.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-c257f0d9-aa59-44f9-9717-beceab60ddf6.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "a92a04f5b41e77337a9d540305ad1ba2cc8ec06930359fded37faf1e999b2908",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/sample-inputs-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\sample-inputs-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18988,
+        "sha256": "87a086231229ceb95a043cb5fd568ae5faf54af03e00a2d80fc7b826f4136a08"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/sample-inputs-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\sample-inputs-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 45644,
+        "sha256": "bf57f64d3342ee59b700ffd1e80ef2b80cde728a14a948b294fd101fea72e16a"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/sample-inputs-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\sample-inputs-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 118360,
+        "sha256": "ea6d7c12f25dee704123b07943432cbb2af373b943edef032ae02d6ae8b93499"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/capabilities/starting-with-a-sample/",
+      "/capabilities/",
+      "/resources/technical-guides/cnc-process-selection/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/",
+        "src": "/media/penta-rollout-20261017/sample-inputs-1440.webp",
+        "caption": "Sample-review concept · AI illustration, not a reconstruction or measurement record.",
+        "alt": "AI concept of a simple sample, idle caliper and sketch sheet for defining a new drawing"
+      },
+      {
+        "route": "/capabilities/",
+        "src": "/media/penta-rollout-20261017/sample-inputs-1440.webp",
+        "caption": "Sample-review concept · AI illustration, not a reconstruction or measurement record.",
+        "alt": "AI concept of a simple sample, idle caliper and sketch sheet for defining a new drawing"
+      },
+      {
+        "route": "/capabilities/starting-with-a-sample/",
+        "src": "/media/penta-rollout-20261017/sample-inputs-1440.webp",
+        "caption": "Sample-review concept · AI illustration, not a reconstruction or measurement record.",
+        "alt": "AI concept of a simple sample, idle caliper and sketch sheet for defining a new drawing"
+      },
+      {
+        "route": "/resources/technical-guides/cnc-process-selection/",
+        "src": "/media/penta-rollout-20261017/sample-inputs-1440.webp",
+        "caption": "Sample-review concept · AI illustration, not a reconstruction or measurement record.",
+        "alt": "AI concept of a simple sample, idle caliper and sketch sheet for defining a new drawing"
+      }
+    ]
+  },
+  {
+    "id": "revision-review",
+    "topic": "order and revision records",
+    "pages": [
+      "/about/contact/",
+      "/about/how-we-work/",
+      "/resources/ordering/compare-cnc-machining-quotations/",
+      "/resources/ordering/prototype-vs-small-batch-cnc/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of a generic machined form beside blank revision sheets and unprinted identification tabs",
+    "caption": "Revision-planning concept · AI illustration; no approved order or inspection record is shown.",
+    "prompt": "Use case: photorealistic-natural. Premium industrial editorial still life illustrating revision planning, not completed order documentation. Landscape 3:2. Two neatly aligned pale unprinted sheets with small unprinted blue-gray page tabs, one empty kraft identification tag and a single simple silver rectangular machined coupon with a shallow rounded pocket. A restrained dark binder clip keeps the sheets together. Blank paper must remain blank apart from very light abstract line structure; no letters, numbers, signatures, check marks, charts, measurements, certificates or QR codes. Clear asymmetric composition, part in foreground right and papers behind left. Matte dark forest-blue surface, soft natural side lighting, realistic brushed metal and paper fibers. Quiet spacious photography with believable contact shadows, no CGI shine. No people, logos or factory. Clearly a generic planning illustration, not an authentic customer drawing, purchase order or inspection report.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\revision-review.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-70f548f0-352d-4adf-b0e5-6e2a25db1137.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "e4727cf7f376dc4ebff10abc93f5706f8e772115ca86b5e02eb42b0c8f66231e",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/revision-review-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\revision-review-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15016,
+        "sha256": "7db87f650f6a51dc1277a30398f9c10c7b2e492066ec9896c66c4a351520c6d7"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/revision-review-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\revision-review-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 40472,
+        "sha256": "b0d449912c2ccff3481a1165c88e8c271cc564d2c2b10aafa98c544ca97abec5"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/revision-review-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\revision-review-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 115466,
+        "sha256": "6d99ac27ef032698afa90c029a808a59056183483f4d20cc7c502bb3cd1589b2"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/about/how-we-work/",
+      "/about/contact/",
+      "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "/resources/ordering/compare-cnc-machining-quotations/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/about/contact/",
+        "src": "/media/penta-rollout-20261017/revision-review-1440.webp",
+        "caption": "Revision-planning concept · AI illustration; no approved order or inspection record is shown.",
+        "alt": "AI concept of a generic machined form beside blank revision sheets and unprinted identification tabs"
+      },
+      {
+        "route": "/about/how-we-work/",
+        "src": "/media/penta-rollout-20261017/revision-review-1440.webp",
+        "caption": "Revision-planning concept · AI illustration; no approved order or inspection record is shown.",
+        "alt": "AI concept of a generic machined form beside blank revision sheets and unprinted identification tabs"
+      },
+      {
+        "route": "/resources/ordering/compare-cnc-machining-quotations/",
+        "src": "/media/penta-rollout-20261017/revision-review-1440.webp",
+        "caption": "Revision-planning concept · AI illustration; no approved order or inspection record is shown.",
+        "alt": "AI concept of a generic machined form beside blank revision sheets and unprinted identification tabs"
+      },
+      {
+        "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+        "src": "/media/penta-rollout-20261017/revision-review-1440.webp",
+        "caption": "Revision-planning concept · AI illustration; no approved order or inspection record is shown.",
+        "alt": "AI concept of a generic machined form beside blank revision sheets and unprinted identification tabs"
+      }
+    ]
+  },
+  {
+    "id": "acceptance-plan",
+    "topic": "inspection planning",
+    "pages": [
+      "/resources/ordering/machined-prototype-approval-checklist/",
+      "/resources/technical-guides/material-and-finish-checklist/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of blank acceptance-planning sheets with a simple sample and unmarked gauge blocks",
+    "caption": "Acceptance-planning concept · AI illustration, not measured results or a test report.",
+    "prompt": "Use case: scientific-educational. Create a calm photorealistic generic acceptance-planning still life for an industrial B2B guide. Landscape 3:2. A simple small silver cylindrical sample, two plain unmarked rectangular gauge blocks and a pale blank worksheet with a sparse empty table grid. The worksheet is visibly empty: no values, pass marks, signatures, dimensions, logos, report title or certification. Gauge blocks sit naturally beside the sample and do not imply a measurement in progress. High camera angle with strong visual hierarchy: paper lower left, compact metal objects upper right and enough quiet negative space around each. Neutral forest-blue tabletop, soft cool daylight with controlled silver highlights, realistic slight handling texture. No people, no CMM or fictional instrument screen, no extra tools, no recognizable customer part. This is a clearly labeled planning illustration only.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\acceptance-plan.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-9d6284d2-a054-4f62-a1c1-4a84c660067b.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "82bac4fb62e701dfd70438ae054b9c040193c8a2276541642b7534aad8505129",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/acceptance-plan-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\acceptance-plan-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12634,
+        "sha256": "e05b3b2ca491ddf1e08e4514031382e64688c4dd15d0266cfd988df64565f007"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/acceptance-plan-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\acceptance-plan-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 30364,
+        "sha256": "7a91a83cd6b64de9ce8d481e1face35d2cba7dcab12111a04d1a7d0a440160a5"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/acceptance-plan-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\acceptance-plan-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 94008,
+        "sha256": "cd66342410d4d7a9a2f2a6f1f2e13ca05af68b37d596e1409c3ac2812953a0d9"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/resources/ordering/machined-prototype-approval-checklist/",
+      "/resources/technical-guides/material-and-finish-checklist/",
+      "/capabilities/starting-with-a-sample/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/resources/ordering/machined-prototype-approval-checklist/",
+        "src": "/media/penta-rollout-20261017/acceptance-plan-1440.webp",
+        "caption": "Acceptance-planning concept · AI illustration, not measured results or a test report.",
+        "alt": "AI concept of blank acceptance-planning sheets with a simple sample and unmarked gauge blocks"
+      },
+      {
+        "route": "/resources/technical-guides/material-and-finish-checklist/",
+        "src": "/media/penta-rollout-20261017/acceptance-plan-1440.webp",
+        "caption": "Acceptance-planning concept · AI illustration, not measured results or a test report.",
+        "alt": "AI concept of blank acceptance-planning sheets with a simple sample and unmarked gauge blocks"
+      }
+    ]
+  },
+  {
+    "id": "material-finishes",
+    "topic": "materials and surface finish",
+    "pages": [
+      "/resources/ordering/rfq-checklist/",
+      "/resources/technical-guides/critical-features-cnc-drawing/",
+      "/resources/technical-guides/material-and-finish-checklist/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of unmarked metal and polymer stock with different natural surface textures",
+    "caption": "Material and finish concept · AI illustration; exact grade and final condition require confirmation.",
+    "prompt": "Use case: photorealistic-natural. One premium material-selection editorial photograph for a CNC technical guide, landscape 3:2. An intentional asymmetric still life of a brushed aluminum flat coupon, a matte bead-blasted aluminum coupon, a short stainless round bar, a small warm brass hex bar and one off-white polymer block. These are generic unmarked samples, not exact certified grades or an inventory offer. Make the different texture and reflectivity legible: brushed parallel grain, matte diffusion, smooth steel, warm brass, soft opaque polymer. Silver coupons in foreground, smaller forms recede along a diagonal, generous breathing room. Matte dark blue-green background, soft neutral daylight, natural scale and realistic contact shadows, no saturated color lighting. No text, labels, gauge values, logos, complex customer components, people or test results. Clearly a generic illustrative material comparison.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\material-finishes.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-b2394d80-4623-48a0-af72-8326300ec7ea.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "a7d12ef5af1c8dc1bd3ca99de49cf2165cab20cf3cdb7974accb0cf99cacb524",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/material-finishes-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\material-finishes-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13496,
+        "sha256": "ae10454503dad6bc0221201e14948d37f3d8e012cf506ede7f8577ffcba16547"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/material-finishes-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\material-finishes-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 36726,
+        "sha256": "19afbc06dcf747862a091cf7df7b4316d7579b8a0b2256d32eac4b4ad66fe467"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/material-finishes-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\material-finishes-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 110676,
+        "sha256": "15250404a8d00a9b055cadea71b5462c467ea06dd9dbc62d517741cbb6c184ff"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/resources/ordering/rfq-checklist/",
+      "/resources/technical-guides/critical-features-cnc-drawing/",
+      "/resources/technical-guides/material-and-finish-checklist/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/resources/ordering/rfq-checklist/",
+        "src": "/media/penta-rollout-20261017/material-finishes-1440.webp",
+        "caption": "Material and finish concept · AI illustration; exact grade and final condition require confirmation.",
+        "alt": "AI concept of unmarked metal and polymer stock with different natural surface textures"
+      },
+      {
+        "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "src": "/media/penta-rollout-20261017/material-finishes-1440.webp",
+        "caption": "Material and finish concept · AI illustration; exact grade and final condition require confirmation.",
+        "alt": "AI concept of unmarked metal and polymer stock with different natural surface textures"
+      },
+      {
+        "route": "/resources/technical-guides/material-and-finish-checklist/",
+        "src": "/media/penta-rollout-20261017/material-finishes-1440.webp",
+        "caption": "Material and finish concept · AI illustration; exact grade and final condition require confirmation.",
+        "alt": "AI concept of unmarked metal and polymer stock with different natural surface textures"
+      }
+    ]
+  },
+  {
+    "id": "separated-packing",
+    "topic": "part separation",
+    "pages": [
+      "/capabilities/low-volume-production/",
+      "/factory/",
+      "/resources/ordering/rfq-checklist/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of generic metal forms separated in individual protective foam recesses in an unmarked carton",
+    "caption": "Packing concept · AI illustration, not an LZZ shipment or approved packing specification.",
+    "prompt": "Use case: photorealistic-natural. A premium understated generic packing concept for a CNC manufacturing guide, landscape 3:2. An open plain kraft carton viewed at a gentle overhead angle. A fitted dark charcoal foam insert holds exactly three simple generic metal forms in separate correctly fitting recesses: a small rectangular pocketed block, one plain cylindrical sleeve and one simple flat bracket. Show sensible spacing, complete support and no parts touching each other. Metal has natural machining texture, foam has realistic fine-cell texture. The carton remains entirely unbranded and unprinted, with no labels, tape text, shipment paperwork or quantity claim. Soft window daylight on a matte neutral industrial table, quiet forest-blue shadows. No people, customer parts, warehouse panorama, certificate or shipping result. This is explicitly an illustrative proposal for separation, not a documentary shipment photograph.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\separated-packing.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-0bde14d8-bd88-4fbb-8e92-eee225839d69.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "cd25286a8224e8c26c26e71dd52d5490c67cddea150ceaa104797a51c5f30c4a",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/separated-packing-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\separated-packing-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22980,
+        "sha256": "d21d6232222f35b57ffc803ce51c4c5213e42071400d6756c550de98605acfea"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/separated-packing-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\separated-packing-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 68210,
+        "sha256": "486ba5ad0816bd9e7613fd3adfb5e7c61ee061f5779d4f0af884b236e706ce8e"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/separated-packing-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\separated-packing-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 204664,
+        "sha256": "81a357afcd77a63df48b7dece73fe6bbf22fc4599a1920c3febcb56111076381"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/factory/",
+      "/capabilities/low-volume-production/",
+      "/resources/ordering/rfq-checklist/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/capabilities/low-volume-production/",
+        "src": "/media/penta-rollout-20261017/separated-packing-1440.webp",
+        "caption": "Packing concept · AI illustration, not an LZZ shipment or approved packing specification.",
+        "alt": "AI concept of generic metal forms separated in protective foam recesses in an unmarked carton"
+      },
+      {
+        "route": "/factory/",
+        "src": "/media/penta-rollout-20261017/separated-packing-1440.webp",
+        "caption": "Packing concept · AI illustration, not an LZZ shipment or approved packing specification.",
+        "alt": "AI concept of generic metal forms separated in protective foam recesses in an unmarked carton"
+      },
+      {
+        "route": "/resources/ordering/rfq-checklist/",
+        "src": "/media/penta-rollout-20261017/separated-packing-1440.webp",
+        "caption": "Packing concept · AI illustration, not an LZZ shipment or approved packing specification.",
+        "alt": "AI concept of generic metal forms separated in protective foam recesses in an unmarked carton"
+      }
+    ]
+  },
+  {
+    "id": "protected-interfaces",
+    "topic": "surface and interface protection",
+    "pages": [
+      "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+      "/resources/ordering/prototype-vs-small-batch-cnc/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of a generic machined block and turned fitting protected with soft separation and plain end caps",
+    "caption": "Surface-protection concept · AI illustration; packing for the actual part must be agreed.",
+    "prompt": "Use case: photorealistic-natural. Create a close industrial editorial packing detail as a clearly labeled generic surface-protection concept. Landscape 3:2. One simple silver machined rectangular block rests on a clean thin foam sheet, with a second foam layer protecting one flat mating face; beside it is one small plain threaded metal fitting with a simple dark soft end cap, placed in a separate kraft divider compartment. Show the edges, separation and protected interfaces clearly; protection is plausible and understated. No complex exact customer geometry, no contact between unprotected parts. The table and plain carton corner form a quiet diagonal, natural metallic texture, neutral daylight, restrained blue-green gray palette and warm kraft. No text, markings, labels, hands, paperwork, measurements or delivery claims. No excessive bubble wrap or plastic gloss. This is an explanatory concept, not an actual packing standard or shipment record.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\protected-interfaces.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-df161f49-dedd-4b63-b8bc-e9a38cc64032.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "2ac2853dc0a93b9839bee0215e95d54e0824e29b8ffd56990832cdd105e42ffc",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/protected-interfaces-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\protected-interfaces-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24940,
+        "sha256": "74c3ce1037340be4cb1963fea66b75a8b85dd560b0bc095026e14b1dad23c2dd"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/protected-interfaces-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\protected-interfaces-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 67434,
+        "sha256": "82451bcf2064af237aeae4a7d8a0db438998df2dabd62813961a93c9566c98c1"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/protected-interfaces-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\protected-interfaces-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 190044,
+        "sha256": "e33d247fe9438f6a0c29bd42d5aad97947cef062d041c765a539cba0ee7c7018"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+      "/resources/ordering/prototype-vs-small-batch-cnc/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+        "src": "/media/penta-rollout-20261017/protected-interfaces-1440.webp",
+        "caption": "Surface-protection concept · AI illustration; packing for the actual part must be agreed.",
+        "alt": "AI concept of a generic machined block and turned fitting with soft separation and plain end caps"
+      },
+      {
+        "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+        "src": "/media/penta-rollout-20261017/protected-interfaces-1440.webp",
+        "caption": "Surface-protection concept · AI illustration; packing for the actual part must be agreed.",
+        "alt": "AI concept of a generic machined block and turned fitting with soft separation and plain end caps"
+      }
+    ]
+  },
+  {
+    "id": "steel-datums",
+    "topic": "turned axis and locating features",
+    "pages": [
+      "/capabilities/stainless-steel-cnc-parts/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of a generic turned shaft with shoulders and a locating face",
+    "caption": "Turned-feature concept · AI illustration, not a customer part or tolerance result.",
+    "prompt": "Use case: scientific-educational. A photorealistic technical editorial concept showing how a turned axis, shoulders and locating faces relate. Landscape 3:2. One simple unbranded stainless-looking stepped shaft lying diagonally on a matte dark blue-green surface, with a broad cylindrical body, one clearly machined shoulder, a short smaller diameter and one simple flat mounting end face. A small separate plain ring rests nearby as a generic mating-form reference. Keep geometry mechanically plausible and deliberately simple. Entire shaft visible with breathing space, crisp but natural machining texture and soft specular highlights. No dimension annotations, arrows, numbers, engraved identifiers or inspection instrumentation. No long screw threads, complex assembly, logo, people or factory. Soft neutral daylight, quiet educational photography. Clearly a generic illustrative concept, never proof of a specific product, grade or achieved tolerance.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\steel-datums.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-9f99b4f2-6f35-4bc2-9a20-b36494432b0f.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "6e97a5719435101cb768b4d97b34be6ed0bf2c598c35dad60ffe3b121ecfb1e6",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/steel-datums-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\steel-datums-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 10410,
+        "sha256": "a48bd23778311682bfe253910416459b50c1a6fa8d43a930b0a87665648c24da"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/steel-datums-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\steel-datums-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 30968,
+        "sha256": "bf11b518225cf9d109b8db11e95394d69a730e29076feffe11ca616f382fa425"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/steel-datums-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\steel-datums-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 111156,
+        "sha256": "1924275746ac57abbaf231d5787f7363629a3dbdc4c56ca1fe73b073fe0b490b"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/capabilities/stainless-steel-cnc-parts/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/capabilities/stainless-steel-cnc-parts/",
+        "src": "/media/penta-rollout-20261017/steel-datums-1440.webp",
+        "caption": "Turned-feature concept · AI illustration, not a customer part or tolerance result.",
+        "alt": "AI concept of a generic turned shaft with shoulders and a locating face"
+      }
+    ]
+  },
+  {
+    "id": "brass-interface",
+    "topic": "brass fitting interfaces",
+    "pages": [
+      "/capabilities/copper-brass-cnc-parts/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of simple brass and copper connection forms with visible threads and flat contact faces",
+    "caption": "Connection concept · AI illustration; grade, threads and acceptance follow the drawing.",
+    "prompt": "Use case: photorealistic-natural. A premium close industrial concept photograph for discussing brass and copper connection interfaces. Landscape 3:2. One simple warm brass hexagonal fitting with a short conventional external thread and a plain central bore, one copper sleeve with a flat annular end face, and a small dark unmarked sealing ring. Keep all three objects separate, not a claimed assembly. Complete outlines, plausible conventional geometry, naturally machined thread profile and restrained authentic copper/brass tones, no fantasy polish. Objects form an asymmetric triangular composition on a charcoal blue-green matte table with generous negative space. Soft daylight and realistic contact shadows, crisp enough to distinguish thread, bore and face without microscopic exaggeration. No labels, text, dimensions, logos, people, flow arrows or pressure claims. Generic explanatory illustration, not a specific customer part or leak-test evidence.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\brass-interface.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-4844f25e-63e3-45ea-9757-8113c5cb9231.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "4508d77d4cb6bcb902c7d350e4f40e7fd1e4f9ec64aa83653123370c9033f347",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/brass-interface-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\brass-interface-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18958,
+        "sha256": "928dd4f9683fa50fdb9b6c73c6402408d32f5a4c6e7103270d8d402315e151c8"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/brass-interface-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\brass-interface-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 53782,
+        "sha256": "330ef410c5dd6f416919e5cd7d501daba33e3fd6941b54dfeaf62215c698e7a5"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/brass-interface-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\brass-interface-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 154042,
+        "sha256": "2fb90a0338e1d5b861375614ef1546b453956415fec4939dd3ca00e129655df0"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/capabilities/copper-brass-cnc-parts/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/capabilities/copper-brass-cnc-parts/",
+        "src": "/media/penta-rollout-20261017/brass-interface-1440.webp",
+        "caption": "Connection concept · AI illustration; grade, threads and acceptance follow the drawing.",
+        "alt": "AI concept of simple brass and copper connection forms with threads and flat contact faces"
+      }
+    ]
+  },
+  {
+    "id": "port-review",
+    "topic": "port and mating face drawing review",
+    "pages": [
+      "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/"
+    ],
+    "ratio": "3:2",
+    "alt": "AI concept of a simple rectangular block with visible ports on two faces for drawing review",
+    "caption": "Port-review concept · AI illustration of a generic form, not this part or its unseen geometry.",
+    "prompt": "Use case: scientific-educational. Create a physically plausible restrained technical concept used separately from a low-resolution product photograph to explain the need for a controlled drawing. Landscape 3:2. One generic rectangular aluminum block viewed obliquely, with exactly one simple round opening on the front face and one smaller simple round opening on the right face; no cutaway or implication about internal connections. One loose plain threaded plug rests beside it and does not touch the block. Clean machined flat faces, modest edge chamfers, realistic metal texture, simple clear silhouette and generous negative space. No blue circular customer-like part, no recreated customer geometry, no dimensions, arrows, labels, inspection data, brand or text. Matte forest-blue background, soft natural directional light. This image is only a generic drawing-review concept; it must not look like a reconstructed view of any specific company's component.",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\originals\\port-review.png",
+    "cacheOriginal": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-be4b4f69-1654-4e4d-bf7d-0ecfe482d001.png",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "3ae2e8b301ff354fce2b5993100cadce8268a118f5f32a7b2eeb9d2bb1db58e1",
+    "variants": [
+      {
+        "src": "/media/penta-rollout-20261017/port-review-480.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\port-review-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 9146,
+        "sha256": "f2f0530892ceb72f12714bb5d366bc8134b3b2e5db0b9da1974ee7331e1d4a1d"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/port-review-800.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\port-review-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 24456,
+        "sha256": "72b979f2ab891f8d7152c85c8aed3e6f3ca149eee5ce956ccb72224abdc68045"
+      },
+      {
+        "src": "/media/penta-rollout-20261017/port-review-1440.webp",
+        "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\port-review-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 83326,
+        "sha256": "421dbfb4a5312c0d73a358f398e7796f4aa0ec46f15330da542f5f0184898614"
+      }
+    ],
+    "origin": "AI-generated",
+    "visualReview": "Visually inspected; generic concept only. No exact part, measured result or business proof.",
+    "plannedPages": [
+      "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/"
+    ],
+    "actualPlacements": [
+      {
+        "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+        "src": "/media/penta-rollout-20261017/port-review-1440.webp",
+        "caption": "Port-review concept · AI illustration of a generic form, not this part or its unseen geometry.",
+        "alt": "AI concept of a simple rectangular block with visible ports on two faces for drawing review"
+      }
+    ]
+  }
+]

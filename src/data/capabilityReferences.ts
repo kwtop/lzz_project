@@ -7,5 +7,5 @@ export const capabilityReferences:Record<string,{value:string;label:string;text:
  'low-volume-production':[
   {value:'7 to 14 business days',label:'Production, from 1 piece',text:'Production begins after drawing and order confirmation. Surface finishing is included; shipping time is additional.'},
  ],
- 'cnc-milling-service':[{value:'±0.01 mm',label:'Selected critical features',text:'This reference applies only to selected features after reviewing the material, geometry, setup and measurement method. Confirm each critical tolerance on the drawing; ±0.01 mm does not apply to every feature or part.'}],
+ 'cnc-milling-service':[{value:'±0.01 mm',label:'Selected critical features',text:'We review selected critical features at ±0.01 mm. The accepted tolerance for each feature depends on the drawing, material, geometry, setup and measurement method.'}],
 };

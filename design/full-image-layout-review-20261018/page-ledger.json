@@ -1,0 +1,898 @@
+[
+  {
+    "route": "/",
+    "title": "We machine custom CNC components to your drawing, from prototypes to small production runs.",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/about/",
+    "title": "Custom machining in Hangzhou",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/about/company-news/",
+    "title": "Company news",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "News directory/story"
+  },
+  {
+    "route": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+    "title": "An Australian customer visits the LZZ workshop",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "News directory/story"
+  },
+  {
+    "route": "/about/company-news/china-africa-west-lake-summit-2025/",
+    "title": "LZZ at the China-Africa West Lake Summit",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "News directory/story"
+  },
+  {
+    "route": "/about/company-news/lzz-team-outing-2024/",
+    "title": "A rainy day out with the LZZ team",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "News directory/story"
+  },
+  {
+    "route": "/about/company-news/may-2025-lzz-team-outing/",
+    "title": "LZZ team outing in May 2025",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "News directory/story"
+  },
+  {
+    "route": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+    "title": "A November team day outdoors",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "News directory/story"
+  },
+  {
+    "route": "/about/company-profile/",
+    "title": "LZZ Precision in Hangzhou",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/about/contact/",
+    "title": "Contact LZZ",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/about/how-we-work/",
+    "title": "From drawing review to finished parts",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/",
+    "title": "CNC machining capabilities",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/5-axis-cnc-machining/",
+    "title": "5-Axis CNC Machining Services",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/aluminum-cnc-parts/",
+    "title": "Aluminum CNC Machining Services",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/casting-machining/",
+    "title": "Casting Machining Services",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/cnc-milling-service/",
+    "title": "CNC Milling Services",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/cnc-turning-service/",
+    "title": "CNC Turning Services",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/copper-brass-cnc-parts/",
+    "title": "Copper & Brass CNC Machining",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/low-volume-production/",
+    "title": "Low-Volume CNC Production",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/plastic-machined-parts/",
+    "title": "Plastic CNC Machining Services",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/prototype-machining/",
+    "title": "CNC Prototype Machining",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/stainless-steel-cnc-parts/",
+    "title": "Stainless Steel CNC Machining",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/capabilities/starting-with-a-sample/",
+    "title": "Machining from an Existing Sample",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/factory/",
+    "title": "CNC machining in Hangzhou.",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/",
+    "title": "Machined parts, made to your drawing.",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Part-form directory"
+  },
+  {
+    "route": "/machined-parts/gallery/",
+    "title": "Parts gallery",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+    "title": "Aluminum intercooler prototypes",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+    "title": "Billet aluminum engine covers",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+    "title": "Injector & fuel-rail intake manifolds",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+    "title": "Billet aluminum intake plenums",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "title": "Intake-system assembly reference",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+    "title": "Transmission housings & pump bodies",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+    "title": "Throttle-body CAD reference",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+    "title": "Flanged turned component assemblies",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+    "title": "Multi-bore circular milled component",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+    "title": "Structural & aesthetic components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+    "title": "Non-metallic & insulating components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+    "title": "Custom machined plastic parts",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+    "title": "Turned fittings, connectors & flanges",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+    "title": "Custom CNC-turned components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+    "title": "Milled instrument blocks & brackets",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+    "title": "Rotary & cylindrical components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+    "title": "Milled metal brackets & finished housings",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+    "title": "Multi-sided machined components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+    "title": "Angled turned component reference",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+    "title": "Turbine & fluid-system components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+    "title": "Complex internal & external turned features",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+    "title": "Cast housings & structural enclosures",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+    "title": "CNC-machined casting housings",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+    "title": "Machined castings & OEM housings",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+    "title": "Precision-machined castings",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+    "title": "Repeated-hole plastic strip references",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+    "title": "Turned brass & copper components",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+    "title": "Pilot-batch housing references",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+    "title": "Circular plastic component reference",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "title": "Open aluminum enclosure references",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+    "title": "Rotary component & flange reference",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+    "title": "Indexing plungers & locking pins",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+    "title": "Pocketed aluminum housings",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+    "title": "Pilot-run component references",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/gallery/ultra-high-precision-machining-services/",
+    "title": "Custom CNC Impeller Machining",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/machined-parts/machining-examples/",
+    "title": "Machining examples",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/",
+    "title": "CNC machining a 29-inch display housing",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/custom-metal-parts-batch-examples/",
+    "title": "Metal part examples: shafts, fittings & housings",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+    "title": "Plastic part examples: PTFE, POM, PE & acrylic",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/",
+    "title": "Five-axis CNC machining for multi-face parts",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/",
+    "title": "CNC milling a pocketed enclosure: walls, bores and datums",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/milling-prismatic-components/",
+    "title": "CNC milling prismatic parts: faces, bores and pockets",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/",
+    "title": "CNC turning followed by milling for cylindrical parts",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/machined-parts/machining-examples/two-stage-cnc-milling/",
+    "title": "Two CNC milling setups: keeping features aligned",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Machining study/collection"
+  },
+  {
+    "route": "/privacy/",
+    "title": "Privacy and site information",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/quote/",
+    "title": "Prepare an RFQ email",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Shared component and image check"
+  },
+  {
+    "route": "/resources/",
+    "title": "Resources for CNC machining",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/faq/",
+    "title": "Custom CNC machining FAQs",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/",
+    "title": "RFQ & ordering",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/compare-cnc-machining-quotations/",
+    "title": "Compare CNC machining quotations",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+    "title": "Plan the shipment of CNC parts",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/machined-prototype-approval-checklist/",
+    "title": "Machined prototype approval",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+    "title": "From the first sample to repeat production",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/rfq-checklist/",
+    "title": "CNC machining RFQ checklist",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/technical-guides/",
+    "title": "Technical guides",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/technical-guides/cnc-process-selection/",
+    "title": "Choose the CNC machining route",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+    "title": "CNC drawings & critical features",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/technical-guides/material-and-finish-checklist/",
+    "title": "Material & finish for CNC parts",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/ordering/cnc-machining-cost-factors/",
+    "title": "Parallel addition",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  },
+  {
+    "route": "/resources/technical-guides/6061-vs-7075-cnc-aluminum/",
+    "title": "Parallel addition",
+    "viewports": [
+      1440,
+      390
+    ],
+    "status": "checked",
+    "scope": "Resources/guide"
+  }
+]

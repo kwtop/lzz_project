@@ -3,20 +3,20 @@ import {partDisplay} from './capabilityDesign';
 import type {CapabilityArt} from './capabilityDesign';
 
 export const capabilityConcepts:Record<string,CapabilityArt>={
- 'cnc-milling-service':{stem:'/media/editorial-rebuild-20261015/milling-geometry',width:1448,height:1086,alt:'AI illustration of a milled component showing pockets, holes, internal radii and thin sections',caption:'Milled features · AI-generated illustration.'},
- 'cnc-turning-service':{stem:'/media/editorial-rebuild-20261015/turning-geometry',width:1448,height:965,alt:'AI illustration of a turned component with shoulders, a bore, grooves and a threaded section',caption:'Turned features · AI-generated illustration.'},
- finish:{stem:'/media/editorial-rebuild-20261015/finish-comparison',width:1448,height:1086,alt:'AI illustration comparing a bare metal component and a treated component with protected working interfaces',caption:'Material and finish comparison · AI-generated illustration. Specify treatment, masking and final acceptance for the drawing.'},
+ 'cnc-milling-service':{stem:'/media/editorial-rebuild-20261015/milling-geometry',width:1448,height:1086,alt:'a milled component showing pockets, holes, internal radii and thin sections',caption:'Milled features · '},
+ 'cnc-turning-service':{stem:'/media/editorial-rebuild-20261015/turning-geometry',width:1448,height:965,alt:'a turned component with shoulders, a bore, grooves and a threaded section',caption:'Turned features · '},
+ finish:{stem:'/media/editorial-rebuild-20261015/finish-comparison',width:1448,height:1086,alt:'Comparison of a bare metal component and a treated component with protected working interfaces',caption:'Material and finish comparison · Specify treatment, masking and final acceptance for the drawing.'},
 };
 
 export const capabilityIntros:Record<string,string>={
  'cnc-milling-service':'Custom blocks, brackets, housings and circular components with pockets, flat faces and hole patterns. Machined to your drawing for prototypes and small production runs.',
  'cnc-turning-service':'Custom shafts, sleeves and fittings with diameters, bores and threads around a shared axis. Secondary machining adds flats, slots and cross-holes where needed.',
- '5-axis-cnc-machining':'Custom components with angled faces or curved surfaces. We review the model, tool access and fixture clearance to select the machining route.',
+ '5-axis-cnc-machining':'We review angled faces and curved surfaces for custom CNC components, using the model, tool access and fixture clearance to select the route.',
  'casting-machining':'Finish machining for cast housings: bearing bores, sealing faces and mounting points made to the finished-part drawing.',
- 'aluminum-cnc-parts':'Custom aluminum housings, covers and enclosures. Review the shape, alloy and temper together with the final surface treatment.',
+ 'aluminum-cnc-parts':'We machine aluminum housings, covers and enclosures to your drawing, reviewing the shape, alloy, temper and final treatment together.',
  'stainless-steel-cnc-parts':'Stainless steel shafts, fittings and locking hardware made to your drawing, with the grade, condition and final treatment specified for the application.',
  'copper-brass-cnc-parts':'Custom copper and brass contacts, fittings and connectors. The electrical, thermal or sealing function guides the alloy and working surfaces.',
- 'plastic-machined-parts':'Machined plastic insulators, guides and housings. Select the polymer for the working environment, then define the fits and measurement conditions.',
+ 'plastic-machined-parts':'We machine plastic insulators, guides and housings. The working environment guides the polymer choice, mating fits and measurement conditions.',
 };
 export const heroPartSlugs:Record<string,string>={
  'cnc-milling-service':'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm',

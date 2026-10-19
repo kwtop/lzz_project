@@ -1,0 +1,458 @@
+[
+  {
+    "slug": "overview",
+    "kind": "overview",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\overview.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-e3868da8-8292-44a8-96b9-41c94c8ef90c.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "d2ad059f78ce6e51c6dafb34787c446ed340e4f31a91c4d29febf97557bd2e1c",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/overview.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/overview-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18182
+      },
+      {
+        "src": "/media/capability-heroes-20261018/overview-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 40492
+      },
+      {
+        "src": "/media/capability-heroes-20261018/overview-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 68596
+      },
+      {
+        "src": "/media/capability-heroes-20261018/overview-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 110328
+      }
+    ]
+  },
+  {
+    "slug": "cnc-milling-service",
+    "kind": "process",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\cnc-milling-service.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-f4c8adcc-d79a-4307-a646-9a1c33694c64.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "98b75870ab5dbafcd0a5676416b65c54172321c9106059fac33e5a97cb24c0dc",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/cnc-milling-service.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/cnc-milling-service-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17134
+      },
+      {
+        "src": "/media/capability-heroes-20261018/cnc-milling-service-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 38310
+      },
+      {
+        "src": "/media/capability-heroes-20261018/cnc-milling-service-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 64862
+      },
+      {
+        "src": "/media/capability-heroes-20261018/cnc-milling-service-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 103572
+      }
+    ]
+  },
+  {
+    "slug": "cnc-turning-service",
+    "kind": "process",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\cnc-turning-service.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-d35030ab-f9fe-49f9-9ffe-0dc70621feb1.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "15fc806868b587e286c1b63ca831acc936d359c526357b1de95be689e4f0b759",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/cnc-turning-service.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/cnc-turning-service-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 14760
+      },
+      {
+        "src": "/media/capability-heroes-20261018/cnc-turning-service-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 34524
+      },
+      {
+        "src": "/media/capability-heroes-20261018/cnc-turning-service-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 58646
+      },
+      {
+        "src": "/media/capability-heroes-20261018/cnc-turning-service-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 94884
+      }
+    ]
+  },
+  {
+    "slug": "5-axis-cnc-machining",
+    "kind": "process",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\5-axis-cnc-machining.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-f092a359-d165-4fcb-8add-70c784b40610.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "743743f6d7e9e5caa21afa0032d5c9c98ccb0d68e2b62b9ff8e47fe9ae65f676",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/5-axis-cnc-machining.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/5-axis-cnc-machining-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16384
+      },
+      {
+        "src": "/media/capability-heroes-20261018/5-axis-cnc-machining-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 36252
+      },
+      {
+        "src": "/media/capability-heroes-20261018/5-axis-cnc-machining-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 61874
+      },
+      {
+        "src": "/media/capability-heroes-20261018/5-axis-cnc-machining-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 101370
+      }
+    ]
+  },
+  {
+    "slug": "casting-machining",
+    "kind": "process",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\casting-machining.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-8c3002ee-3e7a-413c-a6f8-248b29c7b797.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "db972db9643a4c051722b07c828e5204fb5a9782e2299b8fe6a6beb3032e0014",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/casting-machining.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/casting-machining-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 19336
+      },
+      {
+        "src": "/media/capability-heroes-20261018/casting-machining-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 48382
+      },
+      {
+        "src": "/media/capability-heroes-20261018/casting-machining-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 90046
+      },
+      {
+        "src": "/media/capability-heroes-20261018/casting-machining-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 157458
+      }
+    ]
+  },
+  {
+    "slug": "aluminum-cnc-parts",
+    "kind": "material",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\aluminum-cnc-parts.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-63638f21-a7f9-4f16-aae9-83caec47fd8a.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "c277abb7318fa00856c8cb8a344404ce1edb8119103ed5bca012cbd4c76748ab",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/aluminum-cnc-parts.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/aluminum-cnc-parts-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17810
+      },
+      {
+        "src": "/media/capability-heroes-20261018/aluminum-cnc-parts-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 42002
+      },
+      {
+        "src": "/media/capability-heroes-20261018/aluminum-cnc-parts-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 74636
+      },
+      {
+        "src": "/media/capability-heroes-20261018/aluminum-cnc-parts-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 123898
+      }
+    ]
+  },
+  {
+    "slug": "stainless-steel-cnc-parts",
+    "kind": "material",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\stainless-steel-cnc-parts.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-6c4ae6bc-eca9-417f-9f76-25872e80accd.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "4100b9a3c772c3eabd1625a94f65987f25d17144e4623b05079b8731a259f9a9",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/stainless-steel-cnc-parts.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/stainless-steel-cnc-parts-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21434
+      },
+      {
+        "src": "/media/capability-heroes-20261018/stainless-steel-cnc-parts-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 53314
+      },
+      {
+        "src": "/media/capability-heroes-20261018/stainless-steel-cnc-parts-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 94152
+      },
+      {
+        "src": "/media/capability-heroes-20261018/stainless-steel-cnc-parts-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 154034
+      }
+    ]
+  },
+  {
+    "slug": "copper-brass-cnc-parts",
+    "kind": "material",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\copper-brass-cnc-parts.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-c7be50c8-a94e-44c5-accd-43991aa28887.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "8cc6b7ebf1a54ec3d3148118d0f8e8e4b7b765bfb92667cdcfe76b182096d992",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/copper-brass-cnc-parts.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/copper-brass-cnc-parts-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16784
+      },
+      {
+        "src": "/media/capability-heroes-20261018/copper-brass-cnc-parts-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 41214
+      },
+      {
+        "src": "/media/capability-heroes-20261018/copper-brass-cnc-parts-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 72486
+      },
+      {
+        "src": "/media/capability-heroes-20261018/copper-brass-cnc-parts-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 119348
+      }
+    ]
+  },
+  {
+    "slug": "plastic-machined-parts",
+    "kind": "material",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\plastic-machined-parts.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-5f24788f-c439-4336-9b68-8e9471140c2e.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "3922cd4b9b0368385ec14b5742203ebfb0abf82ba9d8ceda3ffc2657012e8f40",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/plastic-machined-parts.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/plastic-machined-parts-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12044
+      },
+      {
+        "src": "/media/capability-heroes-20261018/plastic-machined-parts-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 28630
+      },
+      {
+        "src": "/media/capability-heroes-20261018/plastic-machined-parts-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 48686
+      },
+      {
+        "src": "/media/capability-heroes-20261018/plastic-machined-parts-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 79644
+      }
+    ]
+  },
+  {
+    "slug": "prototype-machining",
+    "kind": "planning",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\prototype-machining.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-aaa02452-07d6-420f-a2d9-6a4209d3107b.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "793b1cc00f6bf78a7f06354502324294b7a587a099c1d31c75a1bd4a554ddea6",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/prototype-machining.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/prototype-machining-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17030
+      },
+      {
+        "src": "/media/capability-heroes-20261018/prototype-machining-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 38504
+      },
+      {
+        "src": "/media/capability-heroes-20261018/prototype-machining-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 65346
+      },
+      {
+        "src": "/media/capability-heroes-20261018/prototype-machining-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 104704
+      }
+    ]
+  },
+  {
+    "slug": "low-volume-production",
+    "kind": "planning",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\low-volume-production.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-773d3a6c-6428-4a38-b5ae-834bd6fabe79.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "b36cdac85146ef8e1605f6fe698fc03139e44d16a279513c60524bfbbb4fd92f",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/low-volume-production.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/low-volume-production-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17936
+      },
+      {
+        "src": "/media/capability-heroes-20261018/low-volume-production-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 42736
+      },
+      {
+        "src": "/media/capability-heroes-20261018/low-volume-production-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 75550
+      },
+      {
+        "src": "/media/capability-heroes-20261018/low-volume-production-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 124828
+      }
+    ]
+  },
+  {
+    "slug": "starting-with-a-sample",
+    "kind": "planning",
+    "master": "D:\\lzz\\capabilities-scene-hero-20261018\\masters\\starting-with-a-sample.png",
+    "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14ba1-a95e-7de0-8754-6984c0e38093\\exec-15ef19fd-9a69-4622-89f1-49b219a36456.png",
+    "masterWidth": 1536,
+    "masterHeight": 1024,
+    "sha256": "bb66d8cc614297b5cf46e19e0c89f9adc377542146275039782271d3ec9011ea",
+    "generator": "built-in image_gen",
+    "operation": "New generic scene; proportional resizing and WebP encoding only",
+    "prompt": "prompts/starting-with-a-sample.txt",
+    "variants": [
+      {
+        "src": "/media/capability-heroes-20261018/starting-with-a-sample-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15708
+      },
+      {
+        "src": "/media/capability-heroes-20261018/starting-with-a-sample-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 36700
+      },
+      {
+        "src": "/media/capability-heroes-20261018/starting-with-a-sample-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 64574
+      },
+      {
+        "src": "/media/capability-heroes-20261018/starting-with-a-sample-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 105420
+      }
+    ]
+  }
+]

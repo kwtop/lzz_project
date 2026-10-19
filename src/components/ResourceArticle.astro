@@ -56,13 +56,13 @@ if(article.slug==='cnc-process-selection'){
  const keys=['turning','milling','multiAxis'] as const;
  const cards=table.find('tbody tr').map((index,row)=>{
   const cells=$(row).children('th,td').map((_,cell)=>$(cell).html()||'').get();
-  return `<section class="rs-geometry-item"><h3>${cells[0]}</h3><figure data-image-origin="AI-generated">${resourceIllustration(keys[index])}</figure><dl>${cells.slice(1).map((cell,i)=>`<div><dt>${escapeText(labels[i+1])}</dt><dd>${cell}</dd></div>`).join('')}</dl></section>`;
+  return `<section class="rs-geometry-item"><h3>${cells[0]}</h3><figure data-image-origin="image-reference">${resourceIllustration(keys[index])}</figure><dl>${cells.slice(1).map((cell,i)=>`<div><dt>${escapeText(labels[i+1])}</dt><dd>${cell}</dd></div>`).join('')}</dl></section>`;
  }).get().join('');
  table.closest('.decision-table-wrap').replaceWith(`<div class="rs-geometry-grid">${cards}</div>`);
 }
 if(article.slug==='material-and-finish-checklist'){
  const finishHeading=$('#finish-and-acceptance');
- finishHeading.next('p').after(`<figure class="rs-finish-visual" data-image-origin="AI-generated">${resourceIllustration('finish')}<figcaption>Red indicates a treatment surface; the bore is an interface to protect.</figcaption></figure>`);
+ finishHeading.next('p').after(`<figure class="rs-finish-visual" data-image-origin="image-reference">${resourceIllustration('finish')}<figcaption>Blue indicates a treatment surface; the bore is an interface to protect.</figcaption></figure>`);
 }
 $('.decision-table').each((_,table)=>{
  const headings=$(table).find('thead th').map((__,cell)=>$(cell).text().trim()).get();
@@ -190,9 +190,9 @@ const examples=(guidePartExamples[article.slug]||[]).map(slug=>catalog.products.
  :global(.article-reading .prose .shipment-history-gallery figure){margin:0;min-width:0}
  :global(.article-reading .prose .shipment-history-gallery img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
  :global(.article-reading .prose .shipment-history-gallery figcaption){margin:10px 0 0;color:var(--muted);font-size:.9375rem;line-height:1.7}
- :global(.article-reading .prose .workflow-ai-illustration){margin:28px 0}
- :global(.article-reading .prose .workflow-ai-illustration img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:0}
- :global(.article-reading .prose .workflow-ai-illustration figcaption){margin-top:10px;color:var(--muted);font-size:.9375rem;line-height:1.7}
+ :global(.article-reading .prose .workflow-illustration){margin:28px 0}
+ :global(.article-reading .prose .workflow-illustration img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:0}
+ :global(.article-reading .prose .workflow-illustration figcaption){margin-top:10px;color:var(--muted);font-size:.9375rem;line-height:1.7}
  @media(min-width:761px){:global(.article-reading .prose .process-comparison-photos figure:first-child),:global(.article-reading .prose .shipment-photo-grid figure:first-child){grid-column:1/-1}}
  @media(max-width:760px){:global(.article-reading .prose .decision-table-wrap){display:none}:global(.article-reading .prose .decision-mobile){display:block;margin:24px 0 36px;border-top:1px solid var(--border)}:global(.article-reading .prose .decision-mobile-row){padding:22px 0;border-bottom:1px solid var(--border)}:global(.article-reading .prose .decision-mobile-row h3){font-size:19px;line-height:1.3;margin:0 0 16px}:global(.article-reading .prose .decision-mobile-row>div+div){margin-top:16px}:global(.article-reading .prose .decision-mobile-row strong){display:block;font-size:13px;line-height:1.4;color:var(--ink)}:global(.article-reading .prose .decision-mobile-row p){font-size:15px;line-height:1.6;margin:5px 0 0}:global(.article-reading .prose .shipment-photo-grid){grid-template-columns:1fr;gap:22px}:global(.article-reading .prose .shipment-photo-grid img){height:auto;aspect-ratio:1.4}:global(.article-reading .prose .shipment-history-gallery){grid-template-columns:1fr;gap:22px}:global(.article-reading .prose .shipment-history-gallery img){height:auto;aspect-ratio:1.45}:global(.article-reading .prose .process-comparison-photos){grid-template-columns:1fr}:global(.article-reading .prose .process-comparison-photos img){height:auto;aspect-ratio:1.5}}
 </style>

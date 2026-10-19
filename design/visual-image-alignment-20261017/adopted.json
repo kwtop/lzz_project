@@ -1,0 +1,505 @@
+{
+  "workflow": "draw-ui / independent assets / built-in ImageGen",
+  "adopted": [
+    {
+      "record": "P04",
+      "slug": "global-manufacturer-of-multi-sided-precision-machined-components",
+      "sourceKey": "/media/product-sources-20261015/p04-framed-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\5-axis-Machining-3-1764418541931--3aeb6953e6.jpg",
+      "sourceHref": "/media/5-axis-Machining-3-1764418541931--3aeb6953e6.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/multi-face-blue.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-5cc1ac84-90a2-4092-a0f4-8d096ea190fe.png",
+      "prompt": "Edit this exact source product image into a crisp, restrained high-resolution reference image for an industrial machining website. Preserve its blue circular multi-face part, the same camera viewpoint, outer silhouette, raised concentric neck, visible concentric ridges, central opening, front visible radial port positions, hole counts and all visible cutouts. Retain the source's blue material appearance. Improve edge clarity, broad surface lighting, compression noise and white-background cleanliness; do not invent detailed threads, pitch, additional bores, marks, hidden surfaces or unseen interfaces. Treat details that cannot be read from the source conservatively rather than guessing. Entire object visible, centered and occupying about 80 percent of the width on a quiet very pale cool-white #F6F9FC surface with a subtle contact shadow. Horizontal 4:3 composition. No text, UI, tools, stickers, badges or branding. Not a measurement or verified production record.",
+      "id": "multi-face-blue",
+      "src": "/media/visual-image-alignment-20261017/multi-face-blue-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/multi-face-blue-480.webp 480w, /media/visual-image-alignment-20261017/multi-face-blue-800.webp 800w, /media/visual-image-alignment-20261017/multi-face-blue-1200.webp 1200w",
+      "width": 1200,
+      "height": 900,
+      "nativeWidth": 1448,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/multi-face-blue-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 20722
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/multi-face-blue-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 42242
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/multi-face-blue-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 79082
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "New display reference from a low-resolution source; not a recovery of original technical detail. Original remains available; geometry is defined by the drawing."
+    },
+    {
+      "record": "P09",
+      "slug": "custom-high-precision-machining-for-structural-aesthetic-components-oem",
+      "sourceKey": "/media/product-sources-20261015/p09-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Custom-High-Precision-Machining-for-Structural---Aesthetic-Components-OEM-1764555402077--60c319adfb.png",
+      "sourceHref": "/media/Custom-High-Precision-Machining-for-Structural---Aesthetic-Components-OEM-1764555402077--60c319adfb.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/anodized-fixtures.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-6a3d970a-9cdf-4cc0-b6a8-2410244fee2e.png",
+      "prompt": "Create one premium industrial product-display asset for an existing restrained blue-and-white CNC machining website. Edit the attached reference, keeping its product identity, exact major silhouette, configuration and visible arrangement. Quiet neutral very pale blue-white studio background, realistic restrained tonal contrast, crisp edge detail, no theatrical gloss, no gradients/glow, no invented labels/logos, no text, no extra objects. This is a visual reference for product discussion, not a measured technical record. Do not invent unseen openings, parts or mechanisms. Entire subject comfortably inside canvas with 6-8% safe margins. Output a square high-resolution image unless the job specifies landscape or portrait. Keep the foreground purple rectangular clamp and left gold dual ring clamp, right silver ring clamp and background blue, green, gold and purple components. Increase depth of field so the rear components are readable too. Retain realistic machining marks and anodized finish, no exaggerated saturation.",
+      "id": "anodized-fixtures",
+      "src": "/media/visual-image-alignment-20261017/anodized-fixtures-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/anodized-fixtures-480.webp 480w, /media/visual-image-alignment-20261017/anodized-fixtures-800.webp 800w, /media/visual-image-alignment-20261017/anodized-fixtures-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/anodized-fixtures-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 34104
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/anodized-fixtures-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 68208
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/anodized-fixtures-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 118280
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Display reference only; no measurements, material identity, inventory, shipment or customer facts inferred."
+    },
+    {
+      "record": "P10",
+      "slug": "high-volume-cnc-turning-for-complex-internal-external-features",
+      "sourceKey": "/media/product-sources-20261015/p10-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.jpg",
+      "sourceHref": "/media/High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/turned-parts-set.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-f31d01e3-df20-40ae-9eb6-14f1d4399f54.png",
+      "prompt": "Create one premium industrial product-display asset for an existing restrained blue-and-white CNC machining website. Edit the attached reference, keeping its product identity, exact major silhouette, configuration and visible arrangement. Quiet neutral very pale blue-white studio background, realistic restrained tonal contrast, crisp edge detail, no theatrical gloss, no gradients/glow, no invented labels/logos, no text, no extra objects. This is a visual reference for product discussion, not a measured technical record. Do not invent unseen openings, parts or mechanisms. Entire subject comfortably inside canvas with 6-8% safe margins. Output a square high-resolution image unless the job specifies landscape or portrait. Keep the full overhead arrangement of the diverse small turned pieces, including the long threaded studs, springs, bent triangular wire, brass pins and brass bracket plate on the right. Preserve count as faithfully as possible and preserve the position, material and broad shape of each piece; improve edge definition and make the white background clean. Do not turn this into a new generic assortment.",
+      "id": "turned-parts-set",
+      "src": "/media/visual-image-alignment-20261017/turned-parts-set-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/turned-parts-set-480.webp 480w, /media/visual-image-alignment-20261017/turned-parts-set-800.webp 800w, /media/visual-image-alignment-20261017/turned-parts-set-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/turned-parts-set-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 27760
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/turned-parts-set-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 64632
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/turned-parts-set-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 124134
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Display reference only; no measurements, material identity, inventory, shipment or customer facts inferred."
+    },
+    {
+      "record": "P14",
+      "slug": "custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier",
+      "sourceKey": "/media/product-sources-20261015/p14-framed-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.jpg",
+      "sourceHref": "/media/Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/engine-assembly.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-4a2f32ae-4127-4c3f-8aa4-d76e22095b80.png",
+      "prompt": "Refine this exact engine-assembly CAD reference for a premium technical website, preserving CAD-render identity rather than turning it into a factory photograph. Same frontal view, exact overall silhouette and relative component locations. Keep the two dark vertical upper banks, left turbo and its purple internal face, metallic left pipes, right tall gray plenum, right circular opening, lower pulley group and the thin loose lead. Do not add any component, logo, label, fastener pattern or guessed hidden engineering detail. Lift the overly crushed dark areas slightly so the existing broad surfaces and component separations can be read, improve antialiasing and remove JPEG noise while retaining a credible neutral CAD material finish. Use quiet pale cool-white #F6F9FC background, no ground props, no dramatic reflection or glow. Portrait 4:5 frame, complete assembly occupies about 78 percent of height with safe margins. No text or UI. Illegible source marks must remain unclarified.",
+      "id": "engine-assembly",
+      "src": "/media/visual-image-alignment-20261017/engine-assembly-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/engine-assembly-480.webp 480w, /media/visual-image-alignment-20261017/engine-assembly-800.webp 800w, /media/visual-image-alignment-20261017/engine-assembly-1200.webp 1122w",
+      "width": 1122,
+      "height": 1402,
+      "nativeWidth": 1122,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/engine-assembly-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 29872
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/engine-assembly-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 62436
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/engine-assembly-1200.webp",
+          "width": 1122,
+          "height": 1402,
+          "bytes": 97214
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Keep engineering design/assembly identity and original scope; no evidence of complete-unit supply."
+    },
+    {
+      "record": "P15",
+      "slug": "custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier",
+      "sourceKey": "/media/product-sources-20261015/p15-framed-480.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.jpg",
+      "sourceHref": "/media/Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/throttle-cad.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-03cd02c1-8031-4f56-aa6e-573b2f3b87f0.png",
+      "prompt": "Create a clean high-resolution refinement of this exact colorful throttle-body CAD reference. Preserve the same three-quarter viewpoint and visible topology: orange circular open barrel at left with its internal butterfly plate/line, green near rectangular side cover with the same visible circular bosses and ribs, magenta upper/back housing, tiny cyan top connection. Preserve all visible component joins, proportions, cover shape, cutouts and part colors exactly. Keep it visibly a CAD model with fine neutral contour lines and restrained CAD shading, not a fabricated physical product photograph. Improve jagged edges, JPEG blur and feature separation without adding holes, screws, branding, connectors, text or unseen surfaces. Complete object centered on quiet pale cool-white #F6F9FC, occupying 78 percent of frame, square 1:1 composition with safe margins. No UI, annotations or watermark.",
+      "id": "throttle-cad",
+      "src": "/media/visual-image-alignment-20261017/throttle-cad-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/throttle-cad-480.webp 480w, /media/visual-image-alignment-20261017/throttle-cad-800.webp 800w, /media/visual-image-alignment-20261017/throttle-cad-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/throttle-cad-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 27014
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/throttle-cad-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 58126
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/throttle-cad-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 102628
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Keep engineering design/assembly identity and original scope; no evidence of complete-unit supply."
+    },
+    {
+      "record": "P16",
+      "slug": "custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier",
+      "sourceKey": "/media/product-sources-20261015/p16-framed-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.jpg",
+      "sourceHref": "/media/Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/intake-cad.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-25fa669f-3562-4429-99be-2d1b2f248330.png",
+      "prompt": "Create one premium industrial product-display asset for an existing restrained blue-and-white CNC machining website. Edit the attached reference, keeping its product identity, exact major silhouette, configuration and visible arrangement. Quiet neutral very pale blue-white studio background, realistic restrained tonal contrast, crisp edge detail, no theatrical gloss, no gradients/glow, no invented labels/logos, no text, no extra objects. This is a visual reference for product discussion, not a measured technical record. Do not invent unseen openings, parts or mechanisms. Entire subject comfortably inside canvas with 6-8% safe margins. Output a square high-resolution image unless the job specifies landscape or portrait. Output landscape 4:3. Maintain the identity of an engineering CAD assembly, not a photograph. Exactly SIX curved intake runners connect the continuous upper mounting flange to the long horizontal lower cylindrical plenum. Preserve the visible left round plenum opening and the existing mounting details and viewpoint. Use natural grey CAD material with clear soft shading and clean anti-aliased edges; keep all six runners distinguishable.",
+      "id": "intake-cad",
+      "src": "/media/visual-image-alignment-20261017/intake-cad-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/intake-cad-480.webp 480w, /media/visual-image-alignment-20261017/intake-cad-800.webp 800w, /media/visual-image-alignment-20261017/intake-cad-1200.webp 1200w",
+      "width": 1200,
+      "height": 900,
+      "nativeWidth": 1448,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/intake-cad-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16452
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/intake-cad-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 35582
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/intake-cad-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 65612
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Keep engineering design/assembly identity and original scope; no evidence of complete-unit supply."
+    },
+    {
+      "record": "P21",
+      "slug": "custom-oem-cnc-machined-plastic-parts-manufacturer",
+      "sourceKey": "/media/product-sources-20261015/p21-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Plastic-Parts-1764418490181--3049ef7c93.jpg",
+      "sourceHref": "/media/Plastic-Parts-1764418490181--3049ef7c93.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/polymer-collection.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-fa2089ab-e1ab-4b0e-9562-364ae0763f6d.png",
+      "prompt": "Create one premium industrial product-display asset for an existing restrained blue-and-white CNC machining website. Edit the attached reference, keeping its product identity, exact major silhouette, configuration and visible arrangement. Quiet neutral very pale blue-white studio background, realistic restrained tonal contrast, crisp edge detail, no theatrical gloss, no gradients/glow, no invented labels/logos, no text, no extra objects. This is a visual reference for product discussion, not a measured technical record. Do not invent unseen openings, parts or mechanisms. Entire subject comfortably inside canvas with 6-8% safe margins. Output a square high-resolution image unless the job specifies landscape or portrait. Preserve the original 4-row by 3-column grouping of orange and yellow machined polymer parts. Keep every grouping, the slotted stacked panels upper left, hole plates upper right, deep pocketed trays, the toothed wheel and the slotted rectangular blocks. Same color identities and broad hole/slot layout. Improve lighting evenness, sharpness and spacing inside the image without changing the arrangement.",
+      "id": "polymer-collection",
+      "src": "/media/visual-image-alignment-20261017/polymer-collection-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/polymer-collection-480.webp 480w, /media/visual-image-alignment-20261017/polymer-collection-800.webp 800w, /media/visual-image-alignment-20261017/polymer-collection-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/polymer-collection-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 36358
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/polymer-collection-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 70604
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/polymer-collection-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 119322
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Display reference only; no measurements, material identity, inventory, shipment or customer facts inferred."
+    },
+    {
+      "record": "P23",
+      "slug": "oem-precision-cnc-machined-casting-housings",
+      "sourceKey": "/media/product-sources-20261015/p23-framed-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.jpg",
+      "sourceHref": "/media/OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/flanged-housing-clean.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-238473f6-c59f-46d4-84e2-20888eedf9b7.png",
+      "prompt": "Create a high-resolution product-form presentation from the attached grey cast round housing. Keep its exact external shape and viewpoint: round body, six perimeter holes/recesses, long neck vertically across its back, upper and lower matching flanges, same vertical alignment. Portrait 4:5, whole object with 7% margins above and below, background very pale cool white. Clearly distinguish the grey edges from the background, realistic fine cast texture. IMPORTANT deliberate edit: remove all raised letters, numbers and serial symbols on the outer circular rim, leaving those recess surfaces blank; do not invent replacement writing. Preserve only the original upward arrow on the lower central neck. This is a generic form presentation derivative, not a marked-part record. No dimensions, no claims, no unrelated objects or logos.",
+      "id": "flanged-housing-clean",
+      "src": "/media/visual-image-alignment-20261017/flanged-housing-clean-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/flanged-housing-clean-480.webp 480w, /media/visual-image-alignment-20261017/flanged-housing-clean-800.webp 800w, /media/visual-image-alignment-20261017/flanged-housing-clean-1200.webp 1122w",
+      "width": 1122,
+      "height": 1402,
+      "nativeWidth": 1122,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/flanged-housing-clean-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 20924
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/flanged-housing-clean-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 70072
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/flanged-housing-clean-1200.webp",
+          "width": 1122,
+          "height": 1402,
+          "bytes": 142248
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Generic form presentation; raised lettering deliberately omitted. Original marked part remains available. No marking or specification can be read from this derivative."
+    },
+    {
+      "record": "P24",
+      "slug": "precision-cnc-machined-castings-custom-oem-housings",
+      "sourceKey": "/media/product-sources-20261015/p24-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Machined-Castings---Custom-OEM-Housings-1764756207527--bd238e3ac3.jpg",
+      "sourceHref": "/media/Precision-CNC-Machined-Castings---Custom-OEM-Housings-1764756207527--bd238e3ac3.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/marked-casting-clean.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-b94d7e8b-0dd8-45be-93fc-6d00b8075a1d.png",
+      "prompt": "Create a high-resolution studio product-form presentation based on the exact attached cast housing. Retain the same angle, entire exterior silhouette, three major face openings, perimeter mounting holes and ribs and long open projecting channel. Use clean grey cast metal and a very pale cool white background. IMPORTANT deliberate edit: remove the original raised serial lettering and tiny circular stamp on the small triangular side rib; leave that triangular rib as a blank uninterrupted cast surface. No letters, no numbers, no stamps, no logos anywhere. This is a generic product-form presentation derivative, not a documentary record of a marked part. Do not replace the removed marking with any new marking. Entire housing fits within square canvas with at least 7% empty margins on all sides. Calm natural exposure, readable edges, no theatrical gloss.",
+      "id": "marked-casting-clean",
+      "src": "/media/visual-image-alignment-20261017/marked-casting-clean-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/marked-casting-clean-480.webp 480w, /media/visual-image-alignment-20261017/marked-casting-clean-800.webp 800w, /media/visual-image-alignment-20261017/marked-casting-clean-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/marked-casting-clean-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14600
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/marked-casting-clean-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 36432
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/marked-casting-clean-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 79292
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Generic form presentation; raised lettering deliberately omitted. Original marked part remains available. No marking or specification can be read from this derivative."
+    },
+    {
+      "record": "P27",
+      "slug": "precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier",
+      "sourceKey": "/media/product-sources-20261015/p27-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Precision-CNC-Turned-Brass-Components-Manufacturer-and-Copper-Parts-Supplier-1764759544533--731dc8eed7.jpg",
+      "sourceHref": "/media/Precision-CNC-Turned-Brass-Components-Manufacturer-and-Copper-Parts-Supplier-1764759544533--731dc8eed7.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/brass-batch.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-ebfc6abc-88b7-41e0-8de2-1e9286eefc61.png",
+      "prompt": "Edit this exact source reference image for a premium industrial machining website. Preserve the visible object identities, proportions, component count and arrangement, holes, slots, ports and silhouette; keep the same viewpoint. Do not invent hidden features, measurements, logos, labels or manufacturing proof. Improve actual perceived clarity with natural diffuse light and crisp believable edges, without over-polished CGI chrome. Preserve honest machining marks and real material texture. No text, UI, watermark or decorative props. Retain this close-up pile of hex-headed threaded brass plugs, all visible hex heads and threads in their existing positions. Reduce blue/green ambient cast and harsh blown highlights so the natural muted brass faces and thread roots can be read. No re-arrangement into a different product set and no specific thread pitch invented. Square frame, no cropping beyond the existing edges, softly lit neutral workshop-like product photo rather than a synthetic new scene.",
+      "id": "brass-batch",
+      "src": "/media/visual-image-alignment-20261017/brass-batch-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/brass-batch-480.webp 480w, /media/visual-image-alignment-20261017/brass-batch-800.webp 800w, /media/visual-image-alignment-20261017/brass-batch-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/brass-batch-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 99688
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/brass-batch-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 237990
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/brass-batch-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 436846
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Display reference only; no measurements, material identity, inventory, shipment or customer facts inferred."
+    },
+    {
+      "record": "P30",
+      "slug": "precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures",
+      "sourceKey": "/media/product-sources-20261015/p30-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.jpg",
+      "sourceHref": "/media/Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/open-enclosures-fit.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-71759213-5763-4432-b240-fee2d4a463f8.png",
+      "prompt": "Use the attached reference to make a clean high-resolution display photograph of the SAME twelve open aluminum enclosures, exactly 3 rows and 4 columns, same individual viewpoints. Every enclosure must be FULLY inside the frame including all upper mounting tabs and side lugs. Mandatory composition: the entire 12-piece arrangement occupies only the middle 80% of a SQUARE canvas, with an empty light cool-white border of at least 10% on ALL FOUR SIDES; the topmost tab must be visibly separated from the top canvas edge. This is a pulled-back camera view, not a close crop. Keep the machined pockets, circular bores, ribs and mounting holes in their visible source positions. Neutral silver aluminum, crisp natural detail, very soft shadows, pale cool white background replacing the green surface. No new logos or text, no extra pieces, no exaggerated shine. Web product-form display reference, no added technical claims.",
+      "id": "open-enclosures-fit",
+      "src": "/media/visual-image-alignment-20261017/open-enclosures-fit-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/open-enclosures-fit-480.webp 480w, /media/visual-image-alignment-20261017/open-enclosures-fit-800.webp 800w, /media/visual-image-alignment-20261017/open-enclosures-fit-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/open-enclosures-fit-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 33488
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/open-enclosures-fit-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 74008
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/open-enclosures-fit-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 134808
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Display reference only; no measurements, material identity, inventory, shipment or customer facts inferred."
+    },
+    {
+      "record": "P34",
+      "slug": "small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv",
+      "sourceKey": "/media/product-sources-20261015/p34-1200.webp",
+      "originalSource": "D:\\lzz\\raw\\_content\\images\\products\\Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.jpg",
+      "sourceHref": "/media/Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.webp",
+      "master": "D:/lzz/lzz/_react/design/visual-image-alignment-20261017/turned-batch-fit.png",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-98134d0a-887c-4638-83b4-62c7ff6e5c55.png",
+      "prompt": "Fix ONLY the canvas fit of the attached industrial product display image. It shows repeated silver stepped turned components in neat diagonal rows on a pale cool white surface. Several outer components currently touch or cross the TOP, LEFT and RIGHT canvas edges. Reframe with a more distant camera and extend the pale white background so the COMPLETE diagonal array is fully visible and there is at least an 8% EMPTY BACKGROUND MARGIN on EVERY side. Every perimeter component must have both complete ends visible and fully inside the canvas; no cropped shafts, no half parts touching the border. Keep the same silver finish, diagonal row orientation, repeated component design and approximate array density. Do not change the inner parts or add unrelated elements, text, labels or logos. Crisp natural machining detail and soft realistic light, not flashy. Output square. This is a generic component-form arrangement, not a quantity or inventory record. Prioritize complete edges and safe whitespace over making the parts bigger.",
+      "id": "turned-batch-fit",
+      "src": "/media/visual-image-alignment-20261017/turned-batch-fit-1200.webp",
+      "srcset": "/media/visual-image-alignment-20261017/turned-batch-fit-480.webp 480w, /media/visual-image-alignment-20261017/turned-batch-fit-800.webp 800w, /media/visual-image-alignment-20261017/turned-batch-fit-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "exports": [
+        {
+          "src": "/media/visual-image-alignment-20261017/turned-batch-fit-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 42726
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/turned-batch-fit-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 96992
+        },
+        {
+          "src": "/media/visual-image-alignment-20261017/turned-batch-fit-1200.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 174554
+        }
+      ],
+      "decision": "adopt",
+      "boundary": "Display reference only; no measurements, material identity, inventory, shipment or customer facts inferred."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "logo-v2",
+      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-5408d8f7-edd7-4250-abc5-eed61b1f572b.png",
+      "reason": "Original brand outline changed; retain original logo."
+    },
+    {
+      "id": "open-enclosures",
+      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-96ae347a-ea32-4279-ba2e-3b50b5f537ac.png",
+      "reason": "Top mounting tabs clipped."
+    },
+    {
+      "id": "marked-casting",
+      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-f50895a0-f371-4fcb-90a9-cad0aac96669.png",
+      "reason": "Raised text was reconstructed rather than preserved."
+    },
+    {
+      "id": "turned-batch",
+      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-3a775439-4575-4a9b-b056-baca9c59e5fd.png",
+      "reason": "Outer array components crossed the canvas edges."
+    },
+    {
+      "id": "flanged-housing",
+      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-1bd6a842-9ed4-49f5-9f6b-d03eec481973.png",
+      "reason": "Raised text was reconstructed rather than preserved."
+    },
+    {
+      "id": "marked-casting-faithful",
+      "path": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-bdd989b0-34ec-491b-9896-e735c2b9a039.png",
+      "reason": "Raised marking was reconstructed rather than preserved; rejected before adoption."
+    }
+  ]
+}

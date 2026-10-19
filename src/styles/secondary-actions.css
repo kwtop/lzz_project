@@ -11,7 +11,7 @@ body.brand-site :is(.text-link, .selected-action, .inside-links a, .hero-baselin
   border: 1px solid #cdd1d3;
   border-radius: 4px;
   background: #f5f6f6;
-  color: #191c1e;
+  color: #242724;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.5;
@@ -28,8 +28,8 @@ body.brand-site :is(.text-link, .selected-action, .inside-links a, .hero-baselin
 }
 body.brand-site :is(.text-link, .inside-links a):hover,
 body.brand-site a:hover .selected-action {
-  background: #191c1e;
-  border-color: #191c1e;
+  background: #242724;
+  border-color: #242724;
   color: #fff;
 }
 body.brand-site :is(.text-link, .inside-links a, .hero-baseline a):focus-visible,
@@ -40,12 +40,12 @@ body.brand-site a:focus-visible .selected-action {
 body.brand-site :is(.text-link.light, .machining-editorial .text-link, .hero-baseline a) {
   color: #fff;
   border-color: #73797d;
-  background: #24282b;
+  background: #242724;
 }
 body.brand-site :is(.text-link.light, .machining-editorial .text-link, .hero-baseline a):hover {
   background: #fff;
   border-color: #fff;
-  color: #191c1e;
+  color: #242724;
 }
 body.brand-site .text-link:disabled {
   opacity: .5;

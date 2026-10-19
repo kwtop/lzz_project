@@ -1,0 +1,15 @@
+{
+  "purpose": "Machined-parts overview hero; different referenced part forms displayed separately.",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE refined industrial product still-life asset for LZZ Precision's machined-parts overview hero, not a webpage. Use the three attached images as the exact object references: ribbed cast housing, machined circular ring, and threaded indexing pin. Preserve the visible contours, holes, ribs, slots, proportions, and natural material character of each referenced item; do not add interfaces, logos, text, tools, certificates, or other objects. Arrange the large housing upright at back left, the circular ring leaning at back right, and the smaller indexing pin lying fully visible in the foreground, all separate and not intersecting. Their relative display scale may be editorial but never suggest an assembled product. Quiet satin natural metal, subtle honest machining marks, a muted light cool gray-blue seamless studio surface (#EAF2F9 family), large soft directional light, restrained contact shadows, zero chrome glow, zero dramatic spotlight. Camera a credible three-quarter product view, medium perspective, very crisp silhouettes and clean deep edges, avoid waxy CGI smoothness. Horizontal 4:3 composition, objects occupy about 78 percent of the frame, each outline fully visible with generous edge safety for responsive display. No typography, no UI, no decorative pedestal. Purpose is a non-documentary navigation still life showing different part forms, not evidence of actual production, stock, certification or performance.",
+  "references": [
+    "design/image-refresh-20261017/casting-housing.png",
+    "design/image-refresh-20261017/milled-ring.png",
+    "design/image-refresh-20261017/locking-pin.png"
+  ],
+  "output": "design/reading-comfort-20261017/part-forms-hero.png",
+  "output_hint": "Generated images are saved to C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9 as C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-0cc0aba2-9954-4c41-b6a2-5bb3a763d43b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "boundary": "Non-documentary navigation still life. Does not establish stock, actual assembly, material identity, production or inspection. Original five-axis workshop photograph retained in existing evidence usage.",
+  "transparent": false,
+  "adopted": true
+}

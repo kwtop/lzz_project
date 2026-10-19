@@ -6,12 +6,12 @@ interface Props {
 const {collection,sizes='(max-width:760px) calc(100vw - 44px), (max-width:1100px) 50vw, 620px'}=Astro.props;
 const stem=`/media/collection-covers/${collection}-collection-illustrative-v1`;
 const alt=collection==='plastic'
- ? 'Illustration of transparent circular covers, white bushings, a polymer gear and guide strips'
- : 'Illustration of pocketed metal housings, a stepped shaft, a spacer and threaded fittings';
+ ? 'transparent circular covers, white bushings, a polymer gear and guide strips'
+ : 'pocketed metal housings, a stepped shaft, a spacer and threaded fittings';
 ---
-<figure class="collection-cover" data-image-origin="AI-generated">
+<figure class="collection-cover" data-image-origin="image-reference">
  <img src={`${stem}-1200.webp`} srcset={[480,800,1200,1536].map(w=>`${stem}-${w}.webp ${w}w`).join(', ')} sizes={sizes} width="1536" height="1024" alt={alt} loading="lazy" decoding="async" style="--photo-aspect:1536/1024;--photo-ratio:1.5"/>
- <figcaption>AI-generated {collection} part illustration.</figcaption>
+ <figcaption>{collection} parts.</figcaption>
 </figure>
 <style>
  .collection-cover {margin:0;min-width:0}

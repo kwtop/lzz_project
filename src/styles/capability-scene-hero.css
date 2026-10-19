@@ -1,0 +1,73 @@
+/* Selected direction 02. Every rule is confined to Capabilities scene heroes. */
+body.redesign-site[data-penta-sample][data-page-template][data-visual-system][data-inner-layout="penta"][data-inner-hero="scene"][data-reading-path^="/capabilities/"] {
+ main {position:relative}
+ main>.site-breadcrumb {position:absolute;z-index:5;left:50%;top:calc(28px + var(--header-overlay-size,0px));transform:translateX(-50%);width:min(1140px,calc(100% - 80px));margin:0;color:#eee9e2}
+ main>.site-breadcrumb a {color:inherit}
+ .site-crumb-divider {color:#DEA47C}
+ .ch-hero {position:relative;isolation:isolate;width:100cqw;min-height:calc(690px + var(--header-overlay-size,0px));margin:0 0 90px calc((100% - 100cqw)/2);padding:calc(122px + var(--header-overlay-size,0px)) 0 64px;display:flex;align-items:center;overflow:clip;background:#242724;color:#fff;border-bottom:4px solid #AC4829}
+ .ch-media {position:absolute;inset:0;z-index:0;width:100%;height:100%;margin:0;border-radius:0;overflow:hidden}
+ .ch-media .editorial-picture,.ch-media img {display:block;width:100%;height:100%;max-height:none;border-radius:0}
+ .ch-media img {object-fit:cover}
+ .ch-shade {position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#10130fee 0%,#10130fc9 30%,#10130f57 53%,#10130f0a 78%)}
+ .ch-inner {position:relative;z-index:2;width:min(1140px,calc(100% - 80px));margin-inline:auto}
+ .ch-copy {position:relative;width:49%;max-width:550px}
+ main h1.ch-title {font:700 clamp(64px,6.25vw,90px)/1.01 var(--heading);letter-spacing:-.015em;text-wrap:balance;max-width:11.5ch;margin:0 0 26px;color:#fff}
+ .ch-hero .ch-lead {font:400 18px/1.65 var(--body);max-width:54ch;margin:0;color:#F5F3EF}
+ .ch-actions {display:flex;align-items:center;flex-wrap:wrap;gap:16px 28px;margin-top:30px}
+ .ch-actions .rd-button {display:inline-flex;align-items:center;justify-content:center;gap:20px;font-size:15px;min-height:52px;padding:14px 22px}
+ .ch-actions .rd-button:hover {background:#8F3A21;border-color:#8F3A21}
+ .ch-secondary {display:inline-flex;align-items:center;gap:12px;min-height:48px;font:500 14px/1.4 var(--body);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;color:#fff}
+ .ch-secondary:hover,.ch-reference:hover {color:#DEA47C}
+ .ch-hero .ch-credential {display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;margin:28px 0 0;font:400 12px/1.6 var(--body);color:#EEE9E2}
+ .ch-credential a {color:inherit;text-decoration:underline;text-underline-offset:3px}
+ .ch-credential span::before {content:'·';margin-right:16px}
+ .ch-reference {position:absolute;z-index:2;right:max(40px,calc((100% - 1140px)/2));bottom:15px;display:inline-flex;align-items:center;gap:12px;min-height:44px;font:400 12px/1.4 var(--body);color:#EEE9E2;text-decoration:none}
+ .ch-hero--material .ch-copy {margin-left:auto;width:48%;max-width:540px}
+ .ch-hero--material .ch-shade {background:linear-gradient(90deg,#10130f00 0%,#10130f1f 35%,#10130fb8 58%,#10130fed 82%)}
+ .ch-hero--material h1.ch-title {font-size:clamp(62px,5.55vw,80px);max-width:13ch}
+ .ch-hero--material .ch-reference {left:max(40px,calc((100% - 1140px)/2));right:auto}
+ .ch-hero--planning {min-height:calc(720px + var(--header-overlay-size,0px));padding-top:calc(300px + var(--header-overlay-size,0px));align-items:flex-end}
+ .ch-hero--planning .ch-copy {display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:70px;align-items:end;width:100%;max-width:none}
+ .ch-hero--planning h1.ch-title {font-size:clamp(58px,4.72vw,68px);max-width:15ch;margin-bottom:0}
+ .ch-hero--planning .ch-shade {background:linear-gradient(180deg,#2427240a 0%,#24272424 28%,#242724db 57%,#242724 88%)}
+ .ch-hero--planning .ch-lead {font-size:17px;line-height:1.65}
+ .ch-hero--planning .ch-actions {gap:14px 22px;margin-top:25px}
+ .ch-hero--planning .ch-credential {margin-top:24px}
+ @media(min-width:768px) and (max-width:1099px) {
+  main>.site-breadcrumb,.ch-inner {width:calc(100% - 64px)}
+  .ch-hero {min-height:calc(660px + var(--header-overlay-size,0px));padding-top:calc(112px + var(--header-overlay-size,0px));padding-bottom:70px}
+  .ch-copy {width:53%;max-width:540px}
+  main h1.ch-title {font-size:68px}
+  .ch-hero .ch-lead {font-size:16px}
+  .ch-hero--material .ch-copy {width:49%}
+  .ch-hero--material h1.ch-title {font-size:62px}
+  .ch-actions {gap:12px 20px}
+  .ch-actions .rd-button {font-size:14px;padding-inline:18px}
+  .ch-secondary {font-size:13px}
+  .ch-hero--planning {min-height:calc(700px + var(--header-overlay-size,0px));padding-top:calc(285px + var(--header-overlay-size,0px))}
+  .ch-hero--planning .ch-copy {grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:36px}
+  .ch-hero--planning h1.ch-title {font-size:54px}
+  .ch-reference {right:32px}
+  .ch-hero--material .ch-reference {left:32px}
+ }
+ @media(max-width:767px) {
+  main>.site-breadcrumb {top:calc(24px + var(--header-overlay-size,0px));width:calc(100% - 40px);font-size:11px}
+  .ch-hero,.ch-hero--planning {display:block;min-height:0;margin-bottom:58px;padding:calc(236px + var(--header-overlay-size,0px)) 0 30px}
+  .ch-inner {width:calc(100% - 40px)}
+  .ch-media {height:calc(350px + var(--header-overlay-size,0px))}
+  .ch-hero .ch-shade {background:linear-gradient(180deg,#2427241a 0px,#24272414 calc(100px + var(--header-overlay-size,0px)),#24272480 calc(205px + var(--header-overlay-size,0px)),#242724 calc(350px + var(--header-overlay-size,0px)))}
+  .ch-hero .ch-copy,.ch-hero--planning .ch-copy {display:block;width:100%;max-width:none;margin-left:0}
+  .ch-hero h1.ch-title {font-size:44px;line-height:1.04;max-width:17ch;letter-spacing:0;margin:0 0 22px;text-wrap:balance}
+  .ch-hero .ch-lead {font-size:15.5px;line-height:1.65;max-width:none}
+  .ch-hero .ch-actions {gap:12px 20px;margin-top:24px}
+  .ch-actions .rd-button {font-size:13px;min-height:48px;gap:14px;padding:12px 16px}
+  .ch-secondary {font-size:12px;min-height:46px;gap:8px}
+  .ch-hero .ch-credential {font-size:11px;gap:8px 12px;margin-top:24px}
+  .ch-credential span::before {margin-right:12px}
+  .ch-hero .ch-reference {position:relative;left:auto;right:auto;bottom:auto;display:flex;width:calc(100% - 40px);margin:16px auto 0;min-height:40px;font-size:11px}
+ }
+ @media(max-width:359px) {
+  .ch-hero h1.ch-title {font-size:38px}
+  .ch-hero .ch-lead {font-size:15px}
+ }
+}

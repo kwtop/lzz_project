@@ -1,0 +1,194 @@
+{
+  "overview": {
+    "kind": "overview",
+    "label": "Capabilities",
+    "image": {
+      "id": "capability-hero-overview",
+      "src": "/media/capability-heroes-20261018/overview-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/overview-480.webp 480w, /media/capability-heroes-20261018/overview-800.webp 800w, /media/capability-heroes-20261018/overview-1120.webp 1120w, /media/capability-heroes-20261018/overview-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A machined aluminum housing secured inside a generic CNC machining setup",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "74% 50%"
+    }
+  },
+  "cnc-milling-service": {
+    "kind": "process",
+    "label": "Machining",
+    "image": {
+      "id": "capability-hero-cnc-milling-service",
+      "src": "/media/capability-heroes-20261018/cnc-milling-service-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/cnc-milling-service-480.webp 480w, /media/capability-heroes-20261018/cnc-milling-service-800.webp 800w, /media/capability-heroes-20261018/cnc-milling-service-1120.webp 1120w, /media/capability-heroes-20261018/cnc-milling-service-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A short milling cutter above the pocket and mounting holes of a secured aluminum workpiece",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 55%",
+      "mobilePosition": "76% 52%"
+    }
+  },
+  "cnc-turning-service": {
+    "kind": "process",
+    "label": "Machining",
+    "image": {
+      "id": "capability-hero-cnc-turning-service",
+      "src": "/media/capability-heroes-20261018/cnc-turning-service-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/cnc-turning-service-480.webp 480w, /media/capability-heroes-20261018/cnc-turning-service-800.webp 800w, /media/capability-heroes-20261018/cnc-turning-service-1120.webp 1120w, /media/capability-heroes-20261018/cnc-turning-service-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A stepped shaft held by a lathe chuck with an idle turning tool beside its shoulder",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "77% 50%"
+    }
+  },
+  "5-axis-cnc-machining": {
+    "kind": "process",
+    "label": "Machining",
+    "image": {
+      "id": "capability-hero-5-axis-cnc-machining",
+      "src": "/media/capability-heroes-20261018/5-axis-cnc-machining-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/5-axis-cnc-machining-480.webp 480w, /media/capability-heroes-20261018/5-axis-cnc-machining-800.webp 800w, /media/capability-heroes-20261018/5-axis-cnc-machining-1120.webp 1120w, /media/capability-heroes-20261018/5-axis-cnc-machining-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An angled aluminum component held on a rotary fixture beneath an idle milling spindle",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "76% 50%"
+    }
+  },
+  "casting-machining": {
+    "kind": "process",
+    "label": "Machining",
+    "image": {
+      "id": "capability-hero-casting-machining",
+      "src": "/media/capability-heroes-20261018/casting-machining-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/casting-machining-480.webp 480w, /media/capability-heroes-20261018/casting-machining-800.webp 800w, /media/capability-heroes-20261018/casting-machining-1120.webp 1120w, /media/capability-heroes-20261018/casting-machining-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A cast housing with textured walls and a machined flange secured for finish machining",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 52%",
+      "mobilePosition": "76% 50%"
+    }
+  },
+  "aluminum-cnc-parts": {
+    "kind": "material",
+    "label": "Materials",
+    "image": {
+      "id": "capability-hero-aluminum-cnc-parts",
+      "src": "/media/capability-heroes-20261018/aluminum-cnc-parts-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/aluminum-cnc-parts-480.webp 480w, /media/capability-heroes-20261018/aluminum-cnc-parts-800.webp 800w, /media/capability-heroes-20261018/aluminum-cnc-parts-1120.webp 1120w, /media/capability-heroes-20261018/aluminum-cnc-parts-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A satin aluminum housing and a small stock block on a dark workbench",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "0% 50%"
+    }
+  },
+  "stainless-steel-cnc-parts": {
+    "kind": "material",
+    "label": "Materials",
+    "image": {
+      "id": "capability-hero-stainless-steel-cnc-parts",
+      "src": "/media/capability-heroes-20261018/stainless-steel-cnc-parts-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/stainless-steel-cnc-parts-480.webp 480w, /media/capability-heroes-20261018/stainless-steel-cnc-parts-800.webp 800w, /media/capability-heroes-20261018/stainless-steel-cnc-parts-1120.webp 1120w, /media/capability-heroes-20261018/stainless-steel-cnc-parts-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A turned stainless steel shaft and sleeve showing shoulders, a bore and surface finish",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "0% 50%"
+    }
+  },
+  "copper-brass-cnc-parts": {
+    "kind": "material",
+    "label": "Materials",
+    "image": {
+      "id": "capability-hero-copper-brass-cnc-parts",
+      "src": "/media/capability-heroes-20261018/copper-brass-cnc-parts-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/copper-brass-cnc-parts-480.webp 480w, /media/capability-heroes-20261018/copper-brass-cnc-parts-800.webp 800w, /media/capability-heroes-20261018/copper-brass-cnc-parts-1120.webp 1120w, /media/capability-heroes-20261018/copper-brass-cnc-parts-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A reddish copper contact block and golden brass fitting on a charcoal surface",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "0% 50%"
+    }
+  },
+  "plastic-machined-parts": {
+    "kind": "material",
+    "label": "Materials",
+    "image": {
+      "id": "capability-hero-plastic-machined-parts",
+      "src": "/media/capability-heroes-20261018/plastic-machined-parts-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/plastic-machined-parts-480.webp 480w, /media/capability-heroes-20261018/plastic-machined-parts-800.webp 800w, /media/capability-heroes-20261018/plastic-machined-parts-1120.webp 1120w, /media/capability-heroes-20261018/plastic-machined-parts-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "White and black polymer components with a stepped bore, milled pocket and clean edges",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "mobilePosition": "0% 50%"
+    }
+  },
+  "prototype-machining": {
+    "kind": "planning",
+    "label": "Order planning",
+    "image": {
+      "id": "capability-hero-prototype-machining",
+      "src": "/media/capability-heroes-20261018/prototype-machining-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/prototype-machining-480.webp 480w, /media/capability-heroes-20261018/prototype-machining-800.webp 800w, /media/capability-heroes-20261018/prototype-machining-1120.webp 1120w, /media/capability-heroes-20261018/prototype-machining-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Hands comparing a machined prototype housing with an unmarked engineering drawing",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 36%",
+      "mobilePosition": "68% 38%"
+    }
+  },
+  "low-volume-production": {
+    "kind": "planning",
+    "label": "Order planning",
+    "image": {
+      "id": "capability-hero-low-volume-production",
+      "src": "/media/capability-heroes-20261018/low-volume-production-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/low-volume-production-480.webp 480w, /media/capability-heroes-20261018/low-volume-production-800.webp 800w, /media/capability-heroes-20261018/low-volume-production-1120.webp 1120w, /media/capability-heroes-20261018/low-volume-production-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Six separate machined housings arranged on a bench for batch planning",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 35%",
+      "mobilePosition": "67% 38%"
+    }
+  },
+  "starting-with-a-sample": {
+    "kind": "planning",
+    "label": "Order planning",
+    "image": {
+      "id": "capability-hero-starting-with-a-sample",
+      "src": "/media/capability-heroes-20261018/starting-with-a-sample-1536.webp",
+      "srcset": "/media/capability-heroes-20261018/starting-with-a-sample-480.webp 480w, /media/capability-heroes-20261018/starting-with-a-sample-800.webp 800w, /media/capability-heroes-20261018/starting-with-a-sample-1120.webp 1120w, /media/capability-heroes-20261018/starting-with-a-sample-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An existing machined sample being reviewed with a caliper and an unmarked sketch",
+      "caption": "",
+      "origin": "image-reference",
+      "position": "50% 36%",
+      "mobilePosition": "67% 40%"
+    }
+  }
+}

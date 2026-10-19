@@ -1,0 +1,50 @@
+[
+  {
+    "id": "milling",
+    "width": 1440,
+    "images": 7,
+    "missing": []
+  },
+  {
+    "id": "milling",
+    "width": 390,
+    "images": 7,
+    "missing": []
+  },
+  {
+    "id": "part-resources",
+    "width": 1440,
+    "images": 3,
+    "missing": []
+  },
+  {
+    "id": "part-resources",
+    "width": 390,
+    "images": 3,
+    "missing": []
+  },
+  {
+    "id": "turn-mill",
+    "width": 1440,
+    "images": 3,
+    "missing": []
+  },
+  {
+    "id": "turn-mill",
+    "width": 390,
+    "images": 3,
+    "missing": []
+  },
+  {
+    "id": "guide",
+    "width": 1440,
+    "images": 6,
+    "missing": []
+  },
+  {
+    "id": "guide",
+    "width": 390,
+    "images": 6,
+    "missing": []
+  }
+]

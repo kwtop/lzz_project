@@ -1,0 +1,643 @@
+[
+  {
+    "id": "impeller-cutout",
+    "action": "reuse-home-alpha",
+    "src": "/media/image-refresh-20261017/impeller-cutout-1200.webp"
+  },
+  {
+    "id": "casting-cutout",
+    "action": "reuse-home-alpha",
+    "src": "/media/image-refresh-20261017/casting-cutout-1200.webp"
+  },
+  {
+    "id": "pin-cutout",
+    "action": "reuse-home-alpha",
+    "src": "/media/image-refresh-20261017/pin-cutout-1200.webp"
+  },
+  {
+    "id": "plastic-cutout",
+    "action": "reuse-home-alpha",
+    "src": "/media/image-refresh-20261017/plastic-cutout-1200.webp"
+  },
+  {
+    "id": "milled-ring-alpha",
+    "record": "P00",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/milled-ring-1200.webp",
+    "prompt": "Use case: background-extraction. Edit the attached asset only: remove the entire pale backdrop and floor to actual TRANSPARENT alpha. Preserve the exact object geometry, viewpoint, colors, material, lighting on the object, number of pieces, visible holes and arrangement; do not redesign or sharpen new technical detail. Preserve bright metal highlights as opaque object pixels, and remove the original pale matte visible through genuinely open holes. No white/blue rectangle, no white outline/halo, no backdrop, no floor, no extra shadow plane, no text added. Crisp natural anti-aliased contours. Leave comfortable transparent safe margin around the complete subject. The cutout must work unchanged on white #ffffff, pale blue #eaf2f9, paper #f6f9fc and dark brand blue #114a75. Output only the source subject on true transparency. Square canvas. Retain the exact complete round multi-bore ring and all its visible circular openings.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-8d1b3a13-ef46-4e64-bf0d-d0ad93314dfd.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/milled-ring-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p00-framed-1200.webp"
+    ],
+    "display": {
+      "id": "milled-ring-alpha",
+      "src": "/media/background-integration-20261017/milled-ring-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/milled-ring-alpha-480.webp 480w, /media/background-integration-20261017/milled-ring-alpha-800.webp 800w, /media/background-integration-20261017/milled-ring-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p00-framed-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "milled-components-alpha",
+    "record": "P01",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/milled-components-1200.webp",
+    "prompt": "Use case: background-extraction. Edit the attached asset only: remove the entire pale backdrop and floor to actual TRANSPARENT alpha. Preserve the exact object geometry, viewpoint, colors, material, lighting on the object, number of pieces, visible holes and arrangement; do not redesign or sharpen new technical detail. Preserve bright metal highlights as opaque object pixels, and remove the original pale matte visible through genuinely open holes. No white/blue rectangle, no white outline/halo, no backdrop, no floor, no extra shadow plane, no text added. Crisp natural anti-aliased contours. Leave comfortable transparent safe margin around the complete subject. The cutout must work unchanged on white #ffffff, pale blue #eaf2f9, paper #f6f9fc and dark brand blue #114a75. Output only the source subject on true transparency. Square canvas. Exactly the same NINE separate components in the same three by three arrangement; keep all nine intact.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-49e3120e-ca73-4535-8aa8-a4cbc017888a.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/milled-components-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p01-1200.webp"
+    ],
+    "display": {
+      "id": "milled-components-alpha",
+      "src": "/media/background-integration-20261017/milled-components-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/milled-components-alpha-480.webp 480w, /media/background-integration-20261017/milled-components-alpha-800.webp 800w, /media/background-integration-20261017/milled-components-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p01-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "angled-connector-alpha",
+    "record": "P03",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/angled-connector-1200.webp",
+    "prompt": "Use case: background-extraction. Edit the attached asset only: remove the entire pale backdrop and floor to actual TRANSPARENT alpha. Preserve the exact object geometry, viewpoint, colors, material, lighting on the object, number of pieces, visible holes and arrangement; do not redesign or sharpen new technical detail. Preserve bright metal highlights as opaque object pixels, and remove the original pale matte visible through genuinely open holes. No white/blue rectangle, no white outline/halo, no backdrop, no floor, no extra shadow plane, no text added. Crisp natural anti-aliased contours. Leave comfortable transparent safe margin around the complete subject. The cutout must work unchanged on white #ffffff, pale blue #eaf2f9, paper #f6f9fc and dark brand blue #114a75. Output only the source subject on true transparency. Square canvas. Keep the tapered body with its same angled threaded neck, complete and centered.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-bbbc02c7-fcee-4994-b424-8590eafea3f8.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/angled-connector-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p03-framed-1200.webp"
+    ],
+    "display": {
+      "id": "angled-connector-alpha",
+      "src": "/media/background-integration-20261017/angled-connector-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/angled-connector-alpha-480.webp 480w, /media/background-integration-20261017/angled-connector-alpha-800.webp 800w, /media/background-integration-20261017/angled-connector-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p03-framed-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "multi-face-blue-alpha",
+    "record": "P04",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/multi-face-blue-1200.webp",
+    "prompt": "Use case: background-extraction. Edit the attached asset only: remove the entire pale backdrop and floor to actual TRANSPARENT alpha. Preserve the exact object geometry, viewpoint, colors, material, lighting on the object, number of pieces, visible holes and arrangement; do not redesign or sharpen new technical detail. Preserve bright metal highlights as opaque object pixels, and remove the original pale matte visible through genuinely open holes. No white/blue rectangle, no white outline/halo, no backdrop, no floor, no extra shadow plane, no text added. Crisp natural anti-aliased contours. Leave comfortable transparent safe margin around the complete subject. The cutout must work unchanged on white #ffffff, pale blue #eaf2f9, paper #f6f9fc and dark brand blue #114a75. Output only the source subject on true transparency. Landscape 4:3. Preserve the large blue circular component and all three visible front ports; leave at least 6% transparent safety margin on left and right.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-7a8af985-f2b0-4512-a22e-a7ca9058c5ac.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/multi-face-blue-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p04-framed-1200.webp"
+    ],
+    "display": {
+      "id": "multi-face-blue-alpha",
+      "src": "/media/background-integration-20261017/multi-face-blue-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/multi-face-blue-alpha-480.webp 480w, /media/background-integration-20261017/multi-face-blue-alpha-800.webp 800w, /media/background-integration-20261017/multi-face-blue-alpha-1200.webp 1200w",
+      "width": 1448,
+      "height": 1086,
+      "nativeWidth": 1448,
+      "origin": "image-reference",
+      "sourceHref": "/media/5-axis-Machining-3-1764418541931--3aeb6953e6.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "turned-components-alpha",
+    "record": "P05",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/turned-components-1200.webp",
+    "prompt": "Use case: background-extraction. From the attached exact image, create the same product display on REAL transparent alpha. Remove the pale blue-white floor/backdrop completely, including empty gaps between separate parts and genuine through-openings. Keep the same complete objects, shapes, number, arrangement, viewpoints, colors, fine visible details and specular highlights. Opaque metal/colored surfaces remain opaque; no parts made translucent. Do not add or redesign any parts, holes, labels or marks. No floor or matte plane, no outer colored halo, no detached background flecks. Clean natural contours with anti-aliasing. Square canvas, full subjects with safe transparent margins. Must composite naturally over white, #f6f9fc, #eaf2f9 and #114a75. Output only the original subject cutout. Retain the grouped cylindrical housings, small turbine-like centers and small front sleeves in exactly the existing arrangement.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-e79a780f-f880-43a6-a64e-9baf47164cd1.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/turned-components-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p05-1200.webp"
+    ],
+    "display": {
+      "id": "turned-components-alpha",
+      "src": "/media/background-integration-20261017/turned-components-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/turned-components-alpha-480.webp 480w, /media/background-integration-20261017/turned-components-alpha-800.webp 800w, /media/background-integration-20261017/turned-components-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p05-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "rotary-components-alpha",
+    "record": "P06",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/rotary-components-1200.webp",
+    "prompt": "Use case: background-extraction. From the attached exact image, create the same product display on REAL transparent alpha. Remove the pale blue-white floor/backdrop completely, including empty gaps between separate parts and genuine through-openings. Keep the same complete objects, shapes, number, arrangement, viewpoints, colors, fine visible details and specular highlights. Opaque metal/colored surfaces remain opaque; no parts made translucent. Do not add or redesign any parts, holes, labels or marks. No floor or matte plane, no outer colored halo, no detached background flecks. Clean natural contours with anti-aliasing. Square canvas, full subjects with safe transparent margins. Must composite naturally over white, #f6f9fc, #eaf2f9 and #114a75. Output only the original subject cutout. Exactly six pieces in the same 2-row/3-column arrangement; retain their gold, silver and black material colors.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-ea4921a1-faf2-4148-9446-f71399e2f421.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/rotary-components-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p06-1200.webp"
+    ],
+    "display": {
+      "id": "rotary-components-alpha",
+      "src": "/media/background-integration-20261017/rotary-components-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/rotary-components-alpha-480.webp 480w, /media/background-integration-20261017/rotary-components-alpha-800.webp 800w, /media/background-integration-20261017/rotary-components-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p06-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "fittings-flanges-alpha",
+    "record": "P07",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/fittings-flanges-1200.webp",
+    "prompt": "Use case: background-extraction. From the attached exact image, create the same product display on REAL transparent alpha. Remove the pale blue-white floor/backdrop completely, including empty gaps between separate parts and genuine through-openings. Keep the same complete objects, shapes, number, arrangement, viewpoints, colors, fine visible details and specular highlights. Opaque metal/colored surfaces remain opaque; no parts made translucent. Do not add or redesign any parts, holes, labels or marks. No floor or matte plane, no outer colored halo, no detached background flecks. Clean natural contours with anti-aliasing. Square canvas, full subjects with safe transparent margins. Must composite naturally over white, #f6f9fc, #eaf2f9 and #114a75. Output only the original subject cutout. Keep the same set of fittings, sleeves, circular flanges and ball-ended shaft, with every complete part.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-4667424e-26aa-4e3e-84db-ff393118500a.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/fittings-flanges-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p07-1200.webp"
+    ],
+    "display": {
+      "id": "fittings-flanges-alpha",
+      "src": "/media/background-integration-20261017/fittings-flanges-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/fittings-flanges-alpha-480.webp 480w, /media/background-integration-20261017/fittings-flanges-alpha-800.webp 800w, /media/background-integration-20261017/fittings-flanges-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p07-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "dark-finished-parts-alpha",
+    "record": "P08",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/dark-finished-parts-1200.webp",
+    "prompt": "Use case: background-extraction. From the attached exact image, create the same product display on REAL transparent alpha. Remove the pale blue-white floor/backdrop completely, including empty gaps between separate parts and genuine through-openings. Keep the same complete objects, shapes, number, arrangement, viewpoints, colors, fine visible details and specular highlights. Opaque metal/colored surfaces remain opaque; no parts made translucent. Do not add or redesign any parts, holes, labels or marks. No floor or matte plane, no outer colored halo, no detached background flecks. Clean natural contours with anti-aliasing. Square canvas, full subjects with safe transparent margins. Must composite naturally over white, #f6f9fc, #eaf2f9 and #114a75. Output only the original subject cutout. Preserve all black-finished parts and their slots. Retain enough original material highlights for black parts to read on blue, without recoloring them.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-4a81afb1-0925-4ac8-be6e-30cf53f900a2.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/dark-finished-parts-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p08-1200.webp"
+    ],
+    "display": {
+      "id": "dark-finished-parts-alpha",
+      "src": "/media/background-integration-20261017/dark-finished-parts-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/dark-finished-parts-alpha-480.webp 480w, /media/background-integration-20261017/dark-finished-parts-alpha-800.webp 800w, /media/background-integration-20261017/dark-finished-parts-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p08-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "anodized-fixtures-alpha",
+    "record": "P09",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/anodized-fixtures-1200.webp",
+    "prompt": "Use case: background-extraction. From the attached exact image, create the same product display on REAL transparent alpha. Remove the pale blue-white floor/backdrop completely, including empty gaps between separate parts and genuine through-openings. Keep the same complete objects, shapes, number, arrangement, viewpoints, colors, fine visible details and specular highlights. Opaque metal/colored surfaces remain opaque; no parts made translucent. Do not add or redesign any parts, holes, labels or marks. No floor or matte plane, no outer colored halo, no detached background flecks. Clean natural contours with anti-aliasing. Square canvas, full subjects with safe transparent margins. Must composite naturally over white, #f6f9fc, #eaf2f9 and #114a75. Output only the original subject cutout. Keep the same overlapping colorful fixtures, purple front, gold left, silver right and colored rear pieces. Do not separate an assembly into new objects.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-4fd98c08-a56e-436c-bb62-d0d45723784d.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/anodized-fixtures-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p09-1200.webp"
+    ],
+    "display": {
+      "id": "anodized-fixtures-alpha",
+      "src": "/media/background-integration-20261017/anodized-fixtures-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/anodized-fixtures-alpha-480.webp 480w, /media/background-integration-20261017/anodized-fixtures-alpha-800.webp 800w, /media/background-integration-20261017/anodized-fixtures-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/Custom-High-Precision-Machining-for-Structural---Aesthetic-Components-OEM-1764555402077--60c319adfb.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "turned-parts-set-alpha",
+    "record": "P10",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/turned-parts-set-1200.webp",
+    "prompt": "Use case: background-extraction. From the attached exact image, create the same product display on REAL transparent alpha. Remove the pale blue-white floor/backdrop completely, including empty gaps between separate parts and genuine through-openings. Keep the same complete objects, shapes, number, arrangement, viewpoints, colors, fine visible details and specular highlights. Opaque metal/colored surfaces remain opaque; no parts made translucent. Do not add or redesign any parts, holes, labels or marks. No floor or matte plane, no outer colored halo, no detached background flecks. Clean natural contours with anti-aliasing. Square canvas, full subjects with safe transparent margins. Must composite naturally over white, #f6f9fc, #eaf2f9 and #114a75. Output only the original subject cutout. Retain the entire varied assortment of studs, pins, springs, wire form and right brass bracket, in their existing positions.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-0f902fbb-1f09-4536-925c-8efc6a7d2c8d.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/turned-parts-set-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p10-1200.webp"
+    ],
+    "display": {
+      "id": "turned-parts-set-alpha",
+      "src": "/media/background-integration-20261017/turned-parts-set-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/turned-parts-set-alpha-480.webp 480w, /media/background-integration-20261017/turned-parts-set-alpha-800.webp 800w, /media/background-integration-20261017/turned-parts-set-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/High-Volume-CNC-Turning-for-Complex-Internal---External-Features-1764555543979--ac36118db2.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "recessed-impeller-alpha",
+    "record": "P11",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/recessed-impeller-1200.webp",
+    "prompt": "Use case: background extraction only. Edit the attached existing image, preserve its exact subjects, geometry, viewpoint, colors, material, count, relative arrangement and design-reference identity. Remove only the pale backdrop and ground plane into true TRANSPARENT alpha, including backdrop through genuine openings. Preserve opaque bright metal highlights, black details, thin edges and all subject parts. No white or blue rectangular matte, no halo, no replacement scene, no extra pieces or text. Complete subject with 6% transparent safe margin, suitable on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Retain the exact recessed impeller and every blade, including fine blade tips.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-a6a0f41f-ba32-4f44-9fee-dd2baf90489e.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/recessed-impeller-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p11-1200.webp"
+    ],
+    "display": {
+      "id": "recessed-impeller-alpha",
+      "src": "/media/background-integration-20261017/recessed-impeller-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/recessed-impeller-alpha-480.webp 480w, /media/background-integration-20261017/recessed-impeller-alpha-800.webp 800w, /media/background-integration-20261017/recessed-impeller-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p11-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "engine-assembly-alpha",
+    "record": "P14",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/engine-assembly-1200.webp",
+    "prompt": "Use case: background extraction only. Edit the attached existing image, preserve its exact subjects, geometry, viewpoint, colors, material, count, relative arrangement and design-reference identity. Remove only the pale backdrop and ground plane into true TRANSPARENT alpha, including backdrop through genuine openings. Preserve opaque bright metal highlights, black details, thin edges and all subject parts. No white or blue rectangular matte, no halo, no replacement scene, no extra pieces or text. Complete subject with 6% transparent safe margin, suitable on #ffffff, #f6f9fc, #eaf2f9, #114a75. Portrait 4:5. This is an engineering assembly reference: keep its CAD drawing style and all components. Preserve the black engine, purple rotor, metal tubes, hanging thin cable. No photoreal transformation.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-5ace7632-7432-4401-bbf3-f7385a324e15.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/engine-assembly-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p14-framed-1200.webp"
+    ],
+    "display": {
+      "id": "engine-assembly-alpha",
+      "src": "/media/background-integration-20261017/engine-assembly-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/engine-assembly-alpha-480.webp 480w, /media/background-integration-20261017/engine-assembly-alpha-800.webp 800w, /media/background-integration-20261017/engine-assembly-alpha-1200.webp 1122w",
+      "width": 1122,
+      "height": 1402,
+      "nativeWidth": 1122,
+      "origin": "image-reference",
+      "sourceHref": "/media/Custom-Billet-Intake-Manifold-Manufacturer-and-Automotive-Performance-Prototype-Supplier-1764818472101--8eac77ab3f.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "throttle-cad-alpha",
+    "record": "P15",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/throttle-cad-1200.webp",
+    "prompt": "Use case: background extraction only. Edit the attached existing image, preserve its exact subjects, geometry, viewpoint, colors, material, count, relative arrangement and design-reference identity. Remove only the pale backdrop and ground plane into true TRANSPARENT alpha, including backdrop through genuine openings. Preserve opaque bright metal highlights, black details, thin edges and all subject parts. No white or blue rectangular matte, no halo, no replacement scene, no extra pieces or text. Complete subject with 6% transparent safe margin, suitable on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Preserve this multicolored CAD reference exactly, including orange throat, pink body, green cover, cyan top and black CAD outlines. Do not recolor or change to a photo.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-c2df9a08-b422-455a-9a8a-b876cbc1e21b.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/throttle-cad-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p15-framed-480.webp"
+    ],
+    "display": {
+      "id": "throttle-cad-alpha",
+      "src": "/media/background-integration-20261017/throttle-cad-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/throttle-cad-alpha-480.webp 480w, /media/background-integration-20261017/throttle-cad-alpha-800.webp 800w, /media/background-integration-20261017/throttle-cad-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/Custom-CNC-Machined-Electronic-Throttle-Body-Manufacturer-and-Automotive-Prototype-Supplier-1764818699747--08c3a85146.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "intake-cad-alpha",
+    "record": "P16",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/intake-cad-1200.webp",
+    "prompt": "Use case: background extraction only. Edit the attached existing image, preserve its exact subjects, geometry, viewpoint, colors, material, count, relative arrangement and design-reference identity. Remove only the pale backdrop and ground plane into true TRANSPARENT alpha, including backdrop through genuine openings. Preserve opaque bright metal highlights, black details, thin edges and all subject parts. No white or blue rectangular matte, no halo, no replacement scene, no extra pieces or text. Complete subject with 6% transparent safe margin, suitable on #ffffff, #f6f9fc, #eaf2f9, #114a75. Landscape 4:3. Preserve this CAD reference's exact SIX curved intake runners, horizontal bottom plenum, flange outline and openings. No geometry added. Preserve opaque grey faces and engineering edge outlines.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-66dfeee8-a6a9-4652-bb3e-e15d7fae043b.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/intake-cad-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p16-framed-1200.webp"
+    ],
+    "display": {
+      "id": "intake-cad-alpha",
+      "src": "/media/background-integration-20261017/intake-cad-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/intake-cad-alpha-480.webp 480w, /media/background-integration-20261017/intake-cad-alpha-800.webp 800w, /media/background-integration-20261017/intake-cad-alpha-1200.webp 1200w",
+      "width": 1448,
+      "height": 1086,
+      "nativeWidth": 1448,
+      "origin": "image-reference",
+      "sourceHref": "/media/Custom-Billet-Aluminum-Intake-Manifold-Manufacturer-and-Automotive-Prototype-Supplier-1764819347681--17eb362db7.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "pump-casting-alpha",
+    "record": "P18",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/pump-casting-1200.webp",
+    "prompt": "Use case: background extraction only. Edit the attached existing image, preserve its exact subjects, geometry, viewpoint, colors, material, count, relative arrangement and design-reference identity. Remove only the pale backdrop and ground plane into true TRANSPARENT alpha, including backdrop through genuine openings. Preserve opaque bright metal highlights, black details, thin edges and all subject parts. No white or blue rectangular matte, no halo, no replacement scene, no extra pieces or text. Complete subject with 6% transparent safe margin, suitable on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Preserve all the cast housing, its rough exterior, smooth internal ribs, center bore and projecting lugs.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-c4ec329a-a5d2-4ace-b75a-83745f0963c5.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/pump-casting-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p18-framed-1200.webp"
+    ],
+    "display": {
+      "id": "pump-casting-alpha",
+      "src": "/media/background-integration-20261017/pump-casting-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/pump-casting-alpha-480.webp 480w, /media/background-integration-20261017/pump-casting-alpha-800.webp 800w, /media/background-integration-20261017/pump-casting-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p18-framed-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "flanged-assembly-alpha",
+    "record": "P19",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/flanged-assembly-1440.webp",
+    "prompt": "Use case: background extraction only. Edit the attached existing image, preserve its exact subjects, geometry, viewpoint, colors, material, count, relative arrangement and design-reference identity. Remove only the pale backdrop and ground plane into true TRANSPARENT alpha, including backdrop through genuine openings. Preserve opaque bright metal highlights, black details, thin edges and all subject parts. No white or blue rectangular matte, no halo, no replacement scene, no extra pieces or text. Complete subject with 6% transparent safe margin, suitable on #ffffff, #f6f9fc, #eaf2f9, #114a75. Landscape 4:3. Exact background removal: preserve TWO round metal flanges and FOUR loose screws in exactly this arrangement. Preserve the exact existing ON and OFF lettering and arrows with no spelling changes or new letters. Keep the right flange's metal handle. Through holes become transparent; all metal including bright parts remains opaque.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-7e9d09ac-fde2-4bbe-8a4e-4f1959595d23.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/flanged-assembly-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p19-framed-1200.webp"
+    ],
+    "display": {
+      "id": "flanged-assembly-alpha",
+      "src": "/media/background-integration-20261017/flanged-assembly-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/flanged-assembly-alpha-480.webp 480w, /media/background-integration-20261017/flanged-assembly-alpha-800.webp 800w, /media/background-integration-20261017/flanged-assembly-alpha-1200.webp 1200w",
+      "width": 1448,
+      "height": 1086,
+      "nativeWidth": 1448,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p19-framed-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "insulating-disc-alpha",
+    "record": "P20",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/insulating-disc-1200.webp",
+    "prompt": "Use case: background extraction. Edit the attached presentation asset only. Remove the entire pale background and floor into genuine TRANSPARENT alpha, including through open holes. Preserve exact subject geometry, materials, original colors, viewpoints and arrangement; do not improve engineering or invent details. Keep opaque highlights and anti-aliased complete contours. No white/blue rectangular matte, halos, extra objects, text or ground plane. At least 5% transparent safe margin on every outer edge. Work cleanly on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Keep the exact ivory radial disc, all slots, hub and holes.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-9b0f74ee-a192-4dda-96b3-e30f10c4ec84.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/insulating-disc-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p20-1200.webp"
+    ],
+    "display": {
+      "id": "insulating-disc-alpha",
+      "src": "/media/background-integration-20261017/insulating-disc-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/insulating-disc-alpha-480.webp 480w, /media/background-integration-20261017/insulating-disc-alpha-800.webp 800w, /media/background-integration-20261017/insulating-disc-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p20-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "polymer-collection-alpha",
+    "record": "P21",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/polymer-collection-1200.webp",
+    "prompt": "Use case: background extraction. Edit the attached presentation asset only. Remove the entire pale background and floor into genuine TRANSPARENT alpha, including through open holes. Preserve exact subject geometry, materials, original colors, viewpoints and arrangement; do not improve engineering or invent details. Keep opaque highlights and anti-aliased complete contours. No white/blue rectangular matte, halos, extra objects, text or ground plane. At least 5% transparent safe margin on every outer edge. Work cleanly on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Keep exactly all TWELVE existing groups in the same four rows by three columns, including the pile of small pieces. Preserve all orange/yellow colors and all cutouts. Do not remove any group.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-56a02bc2-1e2b-44ef-b2b3-dc73d13563bf.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/polymer-collection-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p21-1200.webp"
+    ],
+    "display": {
+      "id": "polymer-collection-alpha",
+      "src": "/media/background-integration-20261017/polymer-collection-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/polymer-collection-alpha-480.webp 480w, /media/background-integration-20261017/polymer-collection-alpha-800.webp 800w, /media/background-integration-20261017/polymer-collection-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/Plastic-Parts-1764418490181--3049ef7c93.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "flanged-housing-alpha",
+    "record": "P23",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/flanged-housing-clean-1200.webp",
+    "prompt": "Use case: background extraction. Edit the attached presentation asset only. Remove the entire pale background and floor into genuine TRANSPARENT alpha, including through open holes. Preserve exact subject geometry, materials, original colors, viewpoints and arrangement; do not improve engineering or invent details. Keep opaque highlights and anti-aliased complete contours. No white/blue rectangular matte, halos, extra objects, text or ground plane. At least 5% transparent safe margin on every outer edge. Work cleanly on #ffffff, #f6f9fc, #eaf2f9, #114a75. Portrait 4:5. Keep the exact casting, two tubular ports, circular flange and cast arrow. Preserve existing arrow. No lettering, numbers, logos or new casting marks.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-4bd91063-1c4e-49bb-ac5b-869b78ecf999.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/flanged-housing-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p23-framed-1200.webp"
+    ],
+    "display": {
+      "id": "flanged-housing-alpha",
+      "src": "/media/background-integration-20261017/flanged-housing-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/flanged-housing-alpha-480.webp 480w, /media/background-integration-20261017/flanged-housing-alpha-800.webp 800w, /media/background-integration-20261017/flanged-housing-alpha-1200.webp 1122w",
+      "width": 1122,
+      "height": 1402,
+      "nativeWidth": 1122,
+      "origin": "image-reference",
+      "sourceHref": "/media/OEM-Precision-CNC-Machined-Casting-Housings-1764756827055--12d46fe8bb.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "marked-casting-alpha",
+    "record": "P24",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/marked-casting-clean-1200.webp",
+    "prompt": "Use case: background extraction. Edit the attached presentation asset only. Remove the entire pale background and floor into genuine TRANSPARENT alpha, including through open holes. Preserve exact subject geometry, materials, original colors, viewpoints and arrangement; do not improve engineering or invent details. Keep opaque highlights and anti-aliased complete contours. No white/blue rectangular matte, halos, extra objects, text or ground plane. At least 5% transparent safe margin on every outer edge. Work cleanly on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Preserve exact housing outline and openings, ribs and projecting channel. Keep all surfaces unlettered; no text or new casting marks.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-5f32f6e7-e994-4ec1-8213-3a78cff58a25.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/marked-casting-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p24-1200.webp"
+    ],
+    "display": {
+      "id": "marked-casting-alpha",
+      "src": "/media/background-integration-20261017/marked-casting-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/marked-casting-alpha-480.webp 480w, /media/background-integration-20261017/marked-casting-alpha-800.webp 800w, /media/background-integration-20261017/marked-casting-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/Precision-CNC-Machined-Castings---Custom-OEM-Housings-1764756207527--bd238e3ac3.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "open-casting-alpha",
+    "record": "P25",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/open-casting-fit-1200.webp",
+    "prompt": "Use case: background extraction. Edit the attached presentation asset only. Remove the entire pale background and floor into genuine TRANSPARENT alpha, including through open holes. Preserve exact subject geometry, materials, original colors, viewpoints and arrangement; do not improve engineering or invent details. Keep opaque highlights and anti-aliased complete contours. No white/blue rectangular matte, halos, extra objects, text or ground plane. At least 5% transparent safe margin on every outer edge. Work cleanly on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Preserve the whole open casting body with its ribs and lugs. Retain its opaque inner floors and recesses; only actual through openings become transparent.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-0eba4088-b26f-453c-a433-f61ac39fd6af.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/open-casting-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p25-framed-1200.webp"
+    ],
+    "display": {
+      "id": "open-casting-alpha",
+      "src": "/media/background-integration-20261017/open-casting-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/open-casting-alpha-480.webp 480w, /media/background-integration-20261017/open-casting-alpha-800.webp 800w, /media/background-integration-20261017/open-casting-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p25-framed-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "polymer-disc-alpha",
+    "record": "P29",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/polymer-disc-1200.webp",
+    "prompt": "Use case: background extraction. Edit the attached presentation asset only. Remove the entire pale background and floor into genuine TRANSPARENT alpha, including through open holes. Preserve exact subject geometry, materials, original colors, viewpoints and arrangement; do not improve engineering or invent details. Keep opaque highlights and anti-aliased complete contours. No white/blue rectangular matte, halos, extra objects, text or ground plane. At least 5% transparent safe margin on every outer edge. Work cleanly on #ffffff, #f6f9fc, #eaf2f9, #114a75. Square. Preserve the bright GREEN polymer disc, exact cutouts and center bore. Do not recolor it blue: green is the actual existing product color.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-881210cf-5e2b-428c-bc2e-ddfbfe2c95f3.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/polymer-disc-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p29-framed-1200.webp"
+    ],
+    "display": {
+      "id": "polymer-disc-alpha",
+      "src": "/media/background-integration-20261017/polymer-disc-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/polymer-disc-alpha-480.webp 480w, /media/background-integration-20261017/polymer-disc-alpha-800.webp 800w, /media/background-integration-20261017/polymer-disc-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p29-framed-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "open-enclosures-alpha",
+    "record": "P30",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/open-enclosures-fit-1200.webp",
+    "prompt": "Use case: background extraction only. Edit this attached asset by removing the pale backdrop/floor into TRUE TRANSPARENT alpha. Preserve exact objects, materials, original color, geometry, view, existing markings, arrangement and count. Keep bright metal highlights opaque. Transparent genuine through-holes but preserve recess floors. No halo, rectangular matte, added surface, text or new components. Complete objects inside a comfortable 6% transparent outer safe margin. Edges must work on white #ffffff, paper #f6f9fc, pale blue #eaf2f9 and deep blue #114a75. Square. Exactly TWELVE enclosures in THREE ROWS and FOUR COLUMNS, preserve every mounting ear. No crop at any edge. All solid cavity floors stay opaque.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-21d679e7-93a0-4bd3-9a43-5b4cf851582c.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/open-enclosures-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p30-1200.webp"
+    ],
+    "display": {
+      "id": "open-enclosures-alpha",
+      "src": "/media/background-integration-20261017/open-enclosures-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/open-enclosures-alpha-480.webp 480w, /media/background-integration-20261017/open-enclosures-alpha-800.webp 800w, /media/background-integration-20261017/open-enclosures-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/Precision-Small-Batch-CNC-Milling-Manufacturer-for-Complex-Aluminum-Enclosures-1764759147466--836aea071b.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "rotary-flange-alpha",
+    "record": "P31",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/rotary-flange-1200.webp",
+    "prompt": "Use case: background extraction only. Edit this attached asset by removing the pale backdrop/floor into TRUE TRANSPARENT alpha. Preserve exact objects, materials, original color, geometry, view, existing markings, arrangement and count. Keep bright metal highlights opaque. Transparent genuine through-holes but preserve recess floors. No halo, rectangular matte, added surface, text or new components. Complete objects inside a comfortable 6% transparent outer safe margin. Edges must work on white #ffffff, paper #f6f9fc, pale blue #eaf2f9 and deep blue #114a75. Square. Preserve the main rotary handle assembly plus separate flange. Preserve OFF and existing partially visible ON marking and arrow EXACTLY as in the image. Do not change letters or add anything.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-b516fa8e-c5ce-4f6c-94fe-a818c2dfe1c9.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/rotary-flange-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p31-1200.webp"
+    ],
+    "display": {
+      "id": "rotary-flange-alpha",
+      "src": "/media/background-integration-20261017/rotary-flange-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/rotary-flange-alpha-480.webp 480w, /media/background-integration-20261017/rotary-flange-alpha-800.webp 800w, /media/background-integration-20261017/rotary-flange-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p31-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "turned-batch-alpha",
+    "record": "P34",
+    "path": "D:/lzz/lzz/_react/public/media/visual-image-alignment-20261017/turned-batch-fit-1200.webp",
+    "prompt": "Use case: background extraction only. Edit this attached asset by removing the pale backdrop/floor into TRUE TRANSPARENT alpha. Preserve exact objects, materials, original color, geometry, view, existing markings, arrangement and count. Keep bright metal highlights opaque. Transparent genuine through-holes but preserve recess floors. No halo, rectangular matte, added surface, text or new components. Complete objects inside a comfortable 6% transparent outer safe margin. Edges must work on white #ffffff, paper #f6f9fc, pale blue #eaf2f9 and deep blue #114a75. Square. Preserve the exact diagonal array of turned components and every complete outer piece. Maintain arrangement and count; do not imply any order quantity. Do not crop the far left, far right or bottom components.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-cdda9e70-599e-4435-b9a0-b0fb375ec46a.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/turned-batch-alpha.png",
+    "keys": [
+      "/media/product-sources-20261015/p34-1200.webp"
+    ],
+    "display": {
+      "id": "turned-batch-alpha",
+      "src": "/media/background-integration-20261017/turned-batch-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/turned-batch-alpha-480.webp 480w, /media/background-integration-20261017/turned-batch-alpha-800.webp 800w, /media/background-integration-20261017/turned-batch-alpha-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "image-reference",
+      "sourceHref": "/media/Small-Batch-CNC-Machining-Manufacturer-Precision-Aluminum-Components--HMLV--1764758090931--2d5650d334.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "part-forms-hero-alpha",
+    "record": "G086",
+    "path": "D:/lzz/lzz/_react/public/media/reading-comfort-20261017/part-forms-hero-1200.webp",
+    "prompt": "Use case: background extraction only. Edit this attached asset by removing the pale backdrop/floor into TRUE TRANSPARENT alpha. Preserve exact objects, materials, original color, geometry, view, existing markings, arrangement and count. Keep bright metal highlights opaque. Transparent genuine through-holes but preserve recess floors. No halo, rectangular matte, added surface, text or new components. Complete objects inside a comfortable 6% transparent outer safe margin. Edges must work on white #ffffff, paper #f6f9fc, pale blue #eaf2f9 and deep blue #114a75. Landscape 4:3. Preserve exactly THREE separate subjects: ribbed casting housing on left, circular metal ring on right, threaded locking pin below. Remove only their shared pale backdrop. Preserve details and all openings. No overlap changes.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-8f6c7fc7-723b-4f8b-82bd-8473d9ffab71.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/part-forms-hero-alpha.png",
+    "keys": [
+      "/media/reading-comfort-20261017/part-forms-hero-1200.webp"
+    ],
+    "display": {
+      "id": "part-forms-hero-alpha",
+      "src": "/media/background-integration-20261017/part-forms-hero-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/part-forms-hero-alpha-480.webp 480w, /media/background-integration-20261017/part-forms-hero-alpha-800.webp 800w, /media/background-integration-20261017/part-forms-hero-alpha-1200.webp 1200w",
+      "width": 1448,
+      "height": 1086,
+      "nativeWidth": 1448,
+      "origin": "image-reference",
+      "sourceHref": "/media/reading-comfort-20261017/part-forms-hero-1200.webp",
+      "background": "transparent"
+    }
+  },
+  {
+    "id": "finish-interfaces-alpha",
+    "record": "G135",
+    "path": "D:/lzz/lzz/_react/public/media/image-refresh-20261017/finish-interfaces-1440.webp",
+    "prompt": "Use case: background extraction only. Edit this attached asset by removing the pale backdrop/floor into TRUE TRANSPARENT alpha. Preserve exact objects, materials, original color, geometry, view, existing markings, arrangement and count. Keep bright metal highlights opaque. Transparent genuine through-holes but preserve recess floors. No halo, rectangular matte, added surface, text or new components. Complete objects inside a comfortable 6% transparent outer safe margin. Edges must work on white #ffffff, paper #f6f9fc, pale blue #eaf2f9 and deep blue #114a75. Landscape 4:3. Keep the exact pocketed silver block, four top mounting holes and dark blue front treatment surface around a large circular interface bore. Keep the blue treatment opaque and the blind pocket floor solid. Do not remove the block's silver highlights.",
+    "action": "imagegen-background-extraction",
+    "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-2b90b258-68ef-4f3d-a53f-fdcc264c63c7.png",
+    "mother": "D:/lzz/lzz/_react/design/background-integration-20261017/finish-interfaces-alpha.png",
+    "keys": [
+      "/media/resources/finish-interfaces-v1-800.webp"
+    ],
+    "display": {
+      "id": "finish-interfaces-alpha",
+      "src": "/media/background-integration-20261017/finish-interfaces-alpha-1200.webp",
+      "srcset": "/media/background-integration-20261017/finish-interfaces-alpha-480.webp 480w, /media/background-integration-20261017/finish-interfaces-alpha-800.webp 800w, /media/background-integration-20261017/finish-interfaces-alpha-1200.webp 1200w",
+      "width": 1448,
+      "height": 1086,
+      "nativeWidth": 1448,
+      "origin": "image-reference",
+      "sourceHref": "/media/resources/finish-interfaces-v1-800.webp",
+      "background": "transparent"
+    }
+  }
+]

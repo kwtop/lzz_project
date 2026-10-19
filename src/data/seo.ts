@@ -1,11 +1,12 @@
 export const siteOrigin='https://www.lzz-cnc.com';
 // Search titles follow the current canonical page hierarchy.
 export const pageTitles:Record<string,string>={
+ '/resources/ordering/cnc-machining-cost-factors/':'CNC Machining Cost: Setup, Quantity & Design',
  '/capabilities/cnc-turning-service/':'CNC Turning Services for Custom Parts',
  '/':'Custom CNC machining for prototypes & small batches',
- '/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/':'Intake-system assembly reference',
+ '/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/':'CNC machined intake-system components',
  '/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/':'Injector & fuel-rail intake manifolds: billet aluminum',
- '/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/':'Open aluminum enclosure references',
+ '/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/':'Open CNC machined aluminum enclosures',
  '/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/':'Lid & gasket aluminum housings: sealing interfaces',
  '/about/':'About LZZ: CNC machining in Hangzhou',
  '/factory/quality/':'CNC part inspection & quality control',

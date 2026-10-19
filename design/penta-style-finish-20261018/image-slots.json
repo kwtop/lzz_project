@@ -1,0 +1,65 @@
+[
+  {
+    "route": "/factory/",
+    "slot": "Milling equipment explanation",
+    "id": "setup-first",
+    "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-first.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  },
+  {
+    "route": "/factory/",
+    "slot": "Turning equipment explanation",
+    "id": "turning-process",
+    "src": "/media/image-content-20261018-r2/turning-process-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turning-process.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  },
+  {
+    "route": "/factory/",
+    "slot": "Multi-axis equipment explanation",
+    "id": "five-axis-process",
+    "src": "/media/image-content-20261018-r2/five-axis-process-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-process.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  },
+  {
+    "route": "/capabilities/cnc-milling-service/",
+    "slot": "First setup",
+    "id": "setup-first",
+    "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-first.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  },
+  {
+    "route": "/capabilities/cnc-milling-service/",
+    "slot": "Second setup",
+    "id": "setup-second",
+    "src": "/media/image-content-20261018-r2/setup-second-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-second.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  },
+  {
+    "route": "/resources/",
+    "slot": "RFQ and ordering topic cover",
+    "id": "guide-quotations",
+    "src": "/media/brand-photography-20261018/guide-quotations-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-quotations.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  },
+  {
+    "route": "/resources/",
+    "slot": "Technical guides topic cover",
+    "id": "guide-process-selection",
+    "src": "/media/brand-photography-20261018/guide-process-selection-1440.webp",
+    "origin": "image-reference",
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-process-selection.png",
+    "action": "Reuse already generated and registered image; no new generation this turn"
+  }
+]

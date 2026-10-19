@@ -1,0 +1,38 @@
+[
+  {
+    "file": "src/components/CapabilityDecisionGuide.astro",
+    "kind": "modified",
+    "beforeSha256": "5a021f61d57d3d674d90a5b3a8e0b26f63e88af92ecf7f7c40d8ad7b768fa6e8",
+    "afterSha256": "e6e9230cedc5baa4ef9c97f0b7d1eb66363f05d07206b06e74fb651b41cf98bb"
+  },
+  {
+    "file": "src/components/ProductsOverviewRedesigned.astro",
+    "kind": "modified",
+    "beforeSha256": "087af38f74ef7efc5a7c389cd7f7ca756472ce2a9b7b2c6f8da8c9f1e44d5973",
+    "afterSha256": "3572dcdf45d89e36884f258936b4f0170c0db1b96fdb89b0f8e5b1373c91372a"
+  },
+  {
+    "file": "src/layouts/Layout.astro",
+    "kind": "modified",
+    "beforeSha256": "5372a1051bbdc25729cb0b1378a5ae256e447aab20f01fd77757e08a7a8e0376",
+    "afterSha256": "72c0454b92b2bfa35a3b41fc365e520471fff2b8ea52b718c04ab022f02abf04"
+  },
+  {
+    "file": "DESIGN.md",
+    "kind": "modified",
+    "beforeSha256": "61625547de0bec17f575ed6b83ca26bd7f005d30865bf9624a7596152e2bdf98",
+    "afterSha256": "307715c952ac77913b81718648c666c412b9b8e57bbafb075bcbd304f723859e"
+  },
+  {
+    "file": "src/components/RelatedLinks.astro",
+    "kind": "added",
+    "beforeSha256": null,
+    "afterSha256": "d1b20cd83ddff65906dfb5df9bc19ca83ce3944c58069db77af279c18332fd09"
+  },
+  {
+    "file": "src/styles/context-links.css",
+    "kind": "added",
+    "beforeSha256": null,
+    "afterSha256": "c91ebc4322cca12136b6bf362d1c0be70eeb5d03bb06fb16a8dfc51147696549"
+  }
+]

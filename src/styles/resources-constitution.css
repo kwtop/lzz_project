@@ -53,8 +53,8 @@
 .redesign-site .rs-guide-layout .rs-module--brief{padding:28px 32px;background:#f4f4f1;border-top:2px solid var(--ink)}
 .redesign-site .rs-guide-layout .rs-module--brief>h2{font-size:24px}
 .redesign-site .rs-guide-layout .rs-module--brief .ce-request-brief{max-width:none}
-.redesign-site .rs-guide-layout .rs-module--table .rd-table thead th{background:#242728;color:#fff;padding-block:16px}
-.redesign-site .rs-guide-layout .rs-module--table .rd-table tbody th{background:#f2f3f0}
+.redesign-site .rs-guide-layout .rs-module--table .rd-table thead th{background:var(--pn-tint,#242728);color:var(--pn-ink,#fff);padding-block:16px}
+.redesign-site .rs-guide-layout .rs-module--table .rd-table tbody th{background:var(--pn-tint,#f2f3f0)}
 .redesign-site .rs-guide-layout .rs-module--table .rd-table td,.redesign-site .rs-guide-layout .rs-module--table .rd-table th{vertical-align:top;padding-inline:16px}
 .redesign-site .rs-guide-layout .rs-next{max-width:880px}
 .redesign-site .rs-guide-layout .rs-closing{grid-template-columns:1fr;gap:20px;background:transparent;padding:24px 0 0;border-top:1px solid var(--border)}

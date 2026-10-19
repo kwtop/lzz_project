@@ -1,0 +1,98 @@
+[
+  {
+    "path": "src/components/AboutNewsRecord.astro",
+    "beforeSha256": "78454e72ddac00b061d8712da4ccf8413c21974aa11b370d74df609ebeb3fea1",
+    "afterSha256": "7e43fb1fcd15fedff78f7c3775a304b09d9960491c5748ce38b2cedde6deb3b5",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/components/AboutNewsRecord.astro"
+  },
+  {
+    "path": "src/components/AboutProfileRedesign.astro",
+    "beforeSha256": "73f6d43439976ba5f4a1e220ff2067577ac903e3a8e207ad38728853e00cf5c5",
+    "afterSha256": "3da43934a7a2d92b735db17b62fa29e58c877f05a4dfc479dcca62285afefc14",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/components/AboutProfileRedesign.astro"
+  },
+  {
+    "path": "src/components/PentaCapabilitiesDirectory.astro",
+    "beforeSha256": "a87fd99ec862d55b1d9097da556dd4ee345267ec9a83e519b89cc219297a6879",
+    "afterSha256": "1141203e41bfb23c040789994954864f2cf8cd3789cc75e89c8baba5f9dbb2b7",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/components/PentaCapabilitiesDirectory.astro"
+  },
+  {
+    "path": "src/components/PentaMillingPage.astro",
+    "beforeSha256": "28df3b6feaf7a2c841e85c42e7def72159f7f6dd48df695375e969a618fca204",
+    "afterSha256": "b5733ea27bac6c56ec7d09403d3d6b542883f6f16f1a3ccb60cc2a1a4f194647",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/components/PentaMillingPage.astro"
+  },
+  {
+    "path": "src/components/ProductsStudiesIndexRedesigned.astro",
+    "beforeSha256": "e3be9dfa16c4d388308cc53eb7f703538acf3d70cafcdb04ae379db05b4e4ef3",
+    "afterSha256": "836761f7e6d2a9f79fdd10ca0630038ddf7a41fa0e6dd36581bdac4d91374334",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/components/ProductsStudiesIndexRedesigned.astro"
+  },
+  {
+    "path": "src/data/caseReading.ts",
+    "beforeSha256": "27876c260ba477aa6b480d950abb124b09f477df6ae4c80060b96e2224f81815",
+    "afterSha256": "0b340063de0c8688c39f239c45f328b8593728096d08ae3b6651300a45bda089",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/caseReading.ts"
+  },
+  {
+    "path": "src/data/cases.ts",
+    "beforeSha256": "d3a206fcaaf5f4975f5821304302e805d8a6f8189cfeecff44f8cefce1941558",
+    "afterSha256": "925a416f3959e98513d1077dae4295a9937fdb445b37a68fd0ced64c9d478bf2",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/cases.ts"
+  },
+  {
+    "path": "src/data/caseStories.ts",
+    "beforeSha256": "da282c4ebcaea7f4a09d1a0715ed33d307400cab3a428311c211c4e353944eae",
+    "afterSha256": "2cedab289a80e6406ca92f9f2be71c9cd14b8fcd259054aa2ee85a083c93c2b8",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/caseStories.ts"
+  },
+  {
+    "path": "src/data/cncCostGuide.ts",
+    "beforeSha256": "0fce1faecb3a26669434d20e5a52015304229fab8dceaa6730a310e83992ad58",
+    "afterSha256": "276c28d7122029685a74876ddf98d8c433a36e25eef5fa521a352a9016a58886",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/cncCostGuide.ts"
+  },
+  {
+    "path": "src/data/cncProcessGuide.ts",
+    "beforeSha256": "10d0660f561d05cdc0909f72072f3f7571fdb7b741b1266824b13edeb39d0316",
+    "afterSha256": "c1c4578420f2a93df72f27b595b4dee803421ff6fe2a290723302a8473c9665f",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/cncProcessGuide.ts"
+  },
+  {
+    "path": "src/data/drawingFeaturesGuide.ts",
+    "beforeSha256": "3cc31b5519d144ada5bfccfc434f0ca5ac86cd01f91b3b6454649fdd1d4de87e",
+    "afterSha256": "12b03a4c4ba16c48d83972239cc8363a0c22242a635df1f775419a1abda7f272",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/drawingFeaturesGuide.ts"
+  },
+  {
+    "path": "src/data/evidence.ts",
+    "beforeSha256": "a768e69565a8d6345eee6992a6c5c4843221e8c661a8e6399f06556680bd170a",
+    "afterSha256": "2afc2cbabaae0fd738ae41b30feac460063574eb6ef5a8541c63f8e1b54213bc",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/evidence.ts"
+  },
+  {
+    "path": "src/data/siteImages.generated.json",
+    "beforeSha256": "2d89e908048a37f5cf091bc60df1a1507f857aef632d80dfc3496d5522c9ab8f",
+    "afterSha256": "5af5cb05d24de1a2a8b06efba2cfecb936c409b7e3efa50b84e16357e61af36c",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/data/siteImages.generated.json"
+  },
+  {
+    "path": "src/styles/image-layout-20261018.css",
+    "beforeSha256": "d1d37c09a9f52926a2ebd17e922ead96f1149b0cc5652f799a6c1a68d0699415",
+    "afterSha256": "92f808fc1352a8882fb96b162a58242a2ebffc819270e2e4fe34d21f343ffb81",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/styles/image-layout-20261018.css"
+  },
+  {
+    "path": "src/styles/penta-interiors.css",
+    "beforeSha256": "830cf46773e654f938a0a8cf1ef5a2133b4dd1bd709e6992136758c42006f429",
+    "afterSha256": "596932b85eef1a113b33aef887730286afa2c607a5bb192cbe07d95c0d93ba97",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/src/styles/penta-interiors.css"
+  },
+  {
+    "path": "DESIGN.md",
+    "beforeSha256": "f7af1e572f4e5e4c3cd8a1b3a52d609aa367ecced031718bf7ea1d672f49113e",
+    "afterSha256": "b45a4dbc7825a353b2da8639f0ba07a016b46d2cca58302d7a2e2841644229de",
+    "backup": "D:/lzz/evidence-media-fit-20261018/backup/DESIGN.md"
+  }
+]

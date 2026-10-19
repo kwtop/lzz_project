@@ -1,0 +1,9 @@
+---
+import {pentaConcepts,type PentaConceptId} from '../data/pentaConcepts';
+interface Props {id:PentaConceptId;class?:string;sizes?:string;eager?:boolean}
+const {id,class:className,sizes='(max-width:767px) calc(100vw - 40px), 560px',eager=false}=Astro.props;
+const art=pentaConcepts[id];
+---
+<figure class:list={['pn-concept',className]} data-image-origin="image-reference" style={'--pd-native:'+art.width+'px'}>
+ <img src={art.stem+'-1440.webp'} srcset={[480,800,1440].map(w=>`${art.stem}-${w}.webp ${w}w`).join(', ')} sizes={sizes} width={art.width} height={art.height} alt={art.alt} loading={eager?'eager':'lazy'} decoding="async"/>
+</figure>

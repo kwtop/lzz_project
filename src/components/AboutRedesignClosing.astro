@@ -3,6 +3,6 @@ const {title='Discuss your drawing with LZZ',text='Prepare the drawing revision,
 import {qualificationEmail} from '../data/aboutEditorial';
 ---
 <section class="ar-closing rd-section" aria-label="Next step" data-core-section={core}>
- <div><h2>{title}</h2><p>{text}</p><p class="ar-note">The website prepares an email draft. Review it, attach drawings and send it from your email app.</p></div>
- <div class="ar-closing-actions"><a class="rd-button" href="/quote/">Prepare RFQ email</a>{qualification?<a href={qualificationEmail}>Request supplier documents</a>:<a href="/resources/ordering/rfq-checklist/">Check the RFQ inputs</a>}</div>
+ <div><h2>{title}</h2><p>{text}</p><p class="ar-note">Review your email draft here, then attach the drawings and send it from your email app.</p></div>
+ <div class="ar-closing-actions"><a class="rd-button" href="/quote/">Request a quote</a>{qualification?<a href={qualificationEmail}>Request supplier documents</a>:<a href="/resources/ordering/rfq-checklist/">Check the RFQ inputs</a>}</div>
 </section>

@@ -1,7 +1,7 @@
 import {capabilityPage} from './capabilityDesign';
 import type {CheckRow} from './serviceReading';
 
-export const orderConditions='Orders start at 1 piece. Production takes 7–14 business days after drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.';
+export const orderConditions='Orders start at 1 piece. Production takes 7-14 business days after drawing and order confirmation, including finishing. Shipping time is additional. The quotation sets the schedule for your quantity and requirements.';
 export const materialGuide='/resources/technical-guides/material-and-finish-checklist/';
 export const processSlugs=['cnc-milling-service','cnc-turning-service','5-axis-cnc-machining','casting-machining'];
 export const materialSlugs=['aluminum-cnc-parts','stainless-steel-cnc-parts','copper-brass-cnc-parts','plastic-machined-parts'];
@@ -89,6 +89,6 @@ export const sampleReview=[
 ];
 export const sampleOutputs=[
  {stage:'Sample review',input:'Photographs, overall dimensions, mating parts and available drawings; identify wear, damage and intended changes.',output:'A list of retained features, unknowns and measurements needed. Photographs support the initial review.',approval:'Agree the review and measurement scope before reconstruction.'},
- {stage:'Geometry measurement and reconstruction',input:'The sample and measurements or scanning needed for accessible and hidden geometry, including datum relationships.',output:'The agreed model and 2D / 3D drawing deliverables. Geometry alone does not establish tolerances, material, finish or the intended fit.',approval:'Agree which files and formats are included in the quotation and who may approve them.'},
+ {stage:'Geometry measurement and reconstruction',input:'The sample and measurements or scanning needed for accessible and hidden geometry, including datum relationships.',output:'The agreed model and 2D / 3D drawings, with tolerances, material, finish and mating-fit requirements.',approval:'Agree which files and formats are included in the quotation and who may approve them.'},
  {stage:'Approved manufacturing definition',input:'Reviewed geometry, material, condition, finish, tolerances and acceptance requirements.',output:'The released model / drawing revision and a first-part acceptance plan.',approval:'Approve the definition before machining; hold repeat production until the agreed first-part review is complete.'},
 ];

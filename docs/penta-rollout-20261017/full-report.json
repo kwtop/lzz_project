@@ -1,0 +1,1518 @@
+{
+  "generatedAt": "2026-10-17T02:22:54.868Z",
+  "inputs": {
+    "before": "D:\\lzz\\penta-rollout-20261017\\before\\results.json",
+    "after": "D:\\lzz\\penta-rollout-20261017\\after\\results.json",
+    "dist": "D:/lzz/lzz/_react/dist",
+    "baselineDist": "D:\\lzz\\penta-rollout-20261017\\baseline\\dist",
+    "allowances": "D:\\lzz\\penta-rollout-20261017\\verification\\allowed-differences.json"
+  },
+  "scope": {
+    "beforeViews": 168,
+    "afterViews": 336,
+    "beforeRoutes": 84,
+    "afterRoutes": 84,
+    "expectedRoutes": 84,
+    "expectedWidths": [
+      1440,
+      1024,
+      768,
+      390
+    ]
+  },
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    {
+      "kind": "static-scope",
+      "detail": {
+        "htmlFiles": 207,
+        "indexable": 84,
+        "previews": 20,
+        "htmlRedirects": 102,
+        "hostingRedirectRules": 188,
+        "localResourcePaths": 679,
+        "linksAndAnchors": 3025
+      }
+    }
+  ],
+  "allowedDifferences": [
+    {
+      "route": "/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/about/contact/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/about/contact/",
+      "kind": "old-ai-figcaption",
+      "value": "Drawing, acceptance record and part reference · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/about/how-we-work/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/about/how-we-work/",
+      "kind": "old-ai-figcaption",
+      "value": "Drawing, acceptance record and part reference · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/capabilities/",
+      "kind": "old-ai-figcaption",
+      "value": "AI-generated sample-to-drawing concept; not an approved drawing or reconstruction record.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "kind": "old-ai-figcaption",
+      "value": "AI geometry illustration of threads, a bore and shoulders. Appearance does not identify an alloy.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "kind": "old-ai-figcaption",
+      "value": "Packing concept · AI illustration. Confirm protection and packing for the actual order.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "kind": "old-ai-figcaption",
+      "value": "AI geometry illustration. Appearance does not identify a stainless steel grade.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/capabilities/starting-with-a-sample/",
+      "kind": "old-ai-figcaption",
+      "value": "AI-generated sample-to-drawing concept; not an approved drawing or reconstruction record.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/capabilities/starting-with-a-sample/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and first part · AI illustration, not an approved manufacturing definition.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/factory/",
+      "kind": "old-ai-figcaption",
+      "value": "Packing concept · AI illustration, not an LZZ delivery photograph. Confirm protection and packing for the actual order.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/quote/",
+      "kind": "old-ai-figcaption",
+      "value": "Model and drawing · AI illustration.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/faq/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/compare-cnc-machining-quotations/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/compare-cnc-machining-quotations/",
+      "kind": "old-ai-figcaption",
+      "value": "Drawing, acceptance record and part reference · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Separation and surface protection · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/machined-prototype-approval-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Drawing, acceptance record and part reference · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "kind": "old-ai-figcaption",
+      "value": "Drawing, acceptance record and part reference · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "kind": "old-ai-figcaption",
+      "value": "Separation and surface protection · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/rfq-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/rfq-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Material and surface choices · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/ordering/rfq-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Packing concept · AI illustration, not an LZZ shipment record.",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/technical-guides/cnc-process-selection/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+      "kind": "old-ai-figcaption",
+      "value": "Model, drawing and part definition · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+      "kind": "old-ai-figcaption",
+      "value": "Material and surface choices · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/technical-guides/material-and-finish-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Material and surface choices · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    },
+    {
+      "route": "/resources/technical-guides/material-and-finish-checklist/",
+      "kind": "old-ai-figcaption",
+      "value": "Drawing, acceptance record and part reference · AI illustration",
+      "reason": "Exact AI figcaption recorded with a baseline image; replacement illustration captions may differ."
+    }
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-news/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-news/lzz-team-outing-2024/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-news/may-2025-lzz-team-outing/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/company-profile/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/contact/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration",
+        "Drawing, acceptance record and part reference · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/about/how-we-work/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration",
+        "Drawing, acceptance record and part reference · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "AI-generated sample-to-drawing concept; not an approved drawing or reconstruction record."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "AI geometry illustration of threads, a bore and shoulders. Appearance does not identify an alloy."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Packing concept · AI illustration. Confirm protection and packing for the actual order."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "AI geometry illustration. Appearance does not identify a stainless steel grade."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/capabilities/starting-with-a-sample/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "AI-generated sample-to-drawing concept; not an approved drawing or reconstruction record.",
+        "Model, drawing and first part · AI illustration, not an approved manufacturing definition."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/factory/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Packing concept · AI illustration, not an LZZ delivery photograph. Confirm protection and packing for the actual order."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/gallery/ultra-high-precision-machining-services/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/custom-metal-parts-batch-examples/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/milling-prismatic-components/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/two-stage-cnc-milling/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/privacy/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/quote/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model and drawing · AI illustration."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/faq/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/ordering/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/ordering/compare-cnc-machining-quotations/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration",
+        "Drawing, acceptance record and part reference · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Separation and surface protection · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/ordering/machined-prototype-approval-checklist/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Drawing, acceptance record and part reference · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Drawing, acceptance record and part reference · AI illustration",
+        "Separation and surface protection · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/ordering/rfq-checklist/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration",
+        "Material and surface choices · AI illustration",
+        "Packing concept · AI illustration, not an LZZ shipment record."
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/technical-guides/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/technical-guides/cnc-process-selection/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Model, drawing and part definition · AI illustration",
+        "Material and surface choices · AI illustration"
+      ],
+      "issueCount": 0
+    },
+    {
+      "route": "/resources/technical-guides/material-and-finish-checklist/",
+      "widths": [
+        390,
+        768,
+        1024,
+        1440
+      ],
+      "missingHeadings": [],
+      "missingLinks": [],
+      "missingTables": 0,
+      "missingBody": [],
+      "allowedAiCaptions": [
+        "Material and surface choices · AI illustration",
+        "Drawing, acceptance record and part reference · AI illustration"
+      ],
+      "issueCount": 0
+    }
+  ]
+}

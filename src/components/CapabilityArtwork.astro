@@ -3,7 +3,7 @@ import type {CapabilityArt} from '../data/capabilityDesign';
 interface Props {art:CapabilityArt;eager?:boolean;class?:string;sizes?:string}
 const {art,eager=false,class:className,sizes='(max-width:760px) calc(100vw - 44px), 600px'}=Astro.props;
 ---
-<figure class:list={['cd-art',className]} data-image-origin={art.origin||'AI-generated'}>
+<figure class:list={['cd-art',className]} data-image-origin={art.origin||'image-reference'}>
  <img src={art.stem?art.stem+'-1200.webp':art.src} srcset={art.stem?[480,800,1200,1536].map(w=>`${art.stem}-${w}.webp ${w}w`).join(', '):undefined} sizes={sizes} width="1536" height="1024" alt={art.alt} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':'auto'} decoding="async"/>
  <figcaption>{art.caption}</figcaption>
 </figure>

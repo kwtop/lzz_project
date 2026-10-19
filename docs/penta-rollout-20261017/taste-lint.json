@@ -1,0 +1,85 @@
+{
+ "files": 11,
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "default-font",
+   "file": "src/styles/penta-next.css",
+   "line": 2,
+   "match": "font-family:'Roboto",
+   "message": "A default typeface. Use the faces named by the drawn direction."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/styles/penta-next.css",
+   "line": 20,
+   "match": "box-shadow:",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-information-rollout.css",
+   "line": 26,
+   "match": "border-bottom:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-information-rollout.css",
+   "line": 72,
+   "match": "border-bottom:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-information-rollout.css",
+   "line": 251,
+   "match": "border-top:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-products-rollout.css",
+   "line": 116,
+   "match": "border-left:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-products-rollout.css",
+   "line": 151,
+   "match": "border-top:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-products-rollout.css",
+   "line": 208,
+   "match": "border-bottom:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-products-rollout.css",
+   "line": 235,
+   "match": "border-top:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/penta-products-rollout.css",
+   "line": 242,
+   "match": "border-bottom:1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  }
+ ]
+}

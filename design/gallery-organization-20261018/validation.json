@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-18",
+  "status": "local-complete",
+  "productionDeployed": false,
+  "canonicalRoutes": 86,
+  "beforeGeometryChecks": 172,
+  "finalGeometryChecks": 172,
+  "remainingTallTextRailCandidates": 0,
+  "overflow": 0,
+  "brokenImages": 0,
+  "pendingImagesInFinalView": 0,
+  "affectedRoutes": 7,
+  "visualChecks": 28,
+  "visualWidths": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "visualProblems": 0,
+  "localMediaReferencesChecked": 756,
+  "localMediaErrors": [],
+  "contracts": {
+    "changes": [
+      {
+        "route": "/capabilities/aluminum-cnc-parts/",
+        "key": "text"
+      },
+      {
+        "route": "/capabilities/copper-brass-cnc-parts/",
+        "key": "text"
+      },
+      {
+        "route": "/capabilities/plastic-machined-parts/",
+        "key": "text"
+      },
+      {
+        "route": "/capabilities/stainless-steel-cnc-parts/",
+        "key": "text"
+      },
+      {
+        "route": "/capabilities/starting-with-a-sample/",
+        "key": "text"
+      }
+    ],
+    "unchanged": [
+      "title",
+      "description",
+      "canonical",
+      "h1",
+      "ids",
+      "tables",
+      "schema",
+      "images",
+      "links"
+    ],
+    "explanation": "Only the order of existing inspection text changed on five pages."
+  },
+  "sourceChanges": [
+    "src/components/CapabilityInspectionReview.astro",
+    "src/components/ProductsCatalogueRedesigned.astro",
+    "src/styles/image-layout-20261018.css",
+    "DESIGN.md"
+  ],
+  "tests": {
+    "check": "passed: 988 files, 0 errors, 0 warnings, 9 existing hints",
+    "build": "passed: 146 Astro pages; 86 sitemap URLs",
+    "seo": "passed: 215 HTML, 188 redirects, 91 raw URLs",
+    "inquiry": "passed: mail-draft contract"
+  },
+  "newImageGeneration": false,
+  "mediaReplaced": false,
+  "screenshotNote": "Full-page screenshots are a page index; final viewport captures provide direct visual proof. Some full-page captures change scrollbar geometry, so mobile crops are not used to infer clipping."
+}

@@ -1,0 +1,22 @@
+---
+import ProductsFigure from './ProductsFigure.astro';
+import PentaConcept from './PentaConcept.astro';
+import type {PentaConceptId} from '../data/pentaConcepts';
+type Image={src:string;srcset?:string;width?:number;height?:number;alt:string;origin?:string};
+interface Props {conceptId?:PentaConceptId;heading:string;explanation?:string;intro?:string|false;scope?:string;scopeAnchor?:boolean;casting?:{focus:string;inputs:string};detail?:Image;realDetail?:Image;visual:Image;requirements:{title:string;body:string;check:string}[];featureText?:Record<string,string>;featureTitles?:Record<string,string>;question?:{question:string;answer:string};supporting?:Array<Image&{caption:string;note:string}>;sharedNote?:string}
+const {conceptId,heading,explanation,intro,scope,scopeAnchor=true,casting,detail,realDetail,visual,requirements,featureText={},featureTitles={},question,supporting=[],sharedNote}=Astro.props;
+const scopeId=scopeAnchor?(casting?'casting-blank':'supply-scope'):undefined;
+---
+<section class="rd-section pd-drawing-module pd-technical-review" id="fit-review" data-core-section="Feature, drawing and acceptance">
+ <span id="drawing-review" class="pd-anchor"/><span id="drawing-title" class="pd-anchor"/><span id="scope-title" class="pd-anchor"/>
+ <header><h2 id="geometry-title">{heading}</h2>{explanation&&<p class="pd-object-features">{explanation}</p>}{intro?<p id={scopeId}>{intro}</p>:intro!==false&&scope?<p id={scopeId}>{scope}</p>:scopeId&&<span id={scopeId} class="pd-anchor"/>}{casting&&<p>{casting.focus} {casting.inputs}</p>}</header>
+ {(detail||realDetail||conceptId||supporting.length>0)&&<div class="pd-feature-media">
+  {detail&&<ProductsFigure {...detail} caption="Blade roots and hub bore · real source detail."/>}
+  {realDetail&&<ProductsFigure {...visual} caption="Complete source arrangement. Confirm the part number and quantity for your order."/>}
+  {conceptId&&<PentaConcept id={conceptId} class="pd-figure"/>}
+  {supporting.length>0&&<div class="pd-distinct-sources" id="additional-reference-views">{sharedNote&&<p class="pd-small">{sharedNote}</p>}{supporting.map(im=><div><ProductsFigure {...im}/>{!sharedNote&&<p class="pd-small">{im.note}</p>}</div>)}</div>}
+ </div>}
+ <table class="rd-table rd-stacked pd-feature-table"><thead><tr><th scope="col">Feature</th><th scope="col">Define on the drawing</th><th scope="col">Agree for acceptance</th></tr></thead><tbody>{requirements.map(f=><tr><th scope="row">{featureTitles[f.title]||f.title}</th><td data-label="Drawing"><p>{featureText[f.title]||f.body}</p></td><td data-label="Acceptance"><p>{f.check}</p></td></tr>)}</tbody></table>
+ <p class="pd-small pd-table-note">Inspection follows the agreed measurement method, final surface condition, sampling plan and report format.</p>
+ {question&&<aside class="pd-drawing-question"><h3>{question.question}</h3><p>{question.answer}</p></aside>}
+</section>

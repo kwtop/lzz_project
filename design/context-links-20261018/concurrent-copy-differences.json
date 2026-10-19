@@ -1,0 +1,29 @@
+[
+  {
+    "route": "/resources/technical-guides/material-and-finish-checklist/",
+    "field": "table headers",
+    "before": [
+      "Existing brochure examples",
+      "Information to confirm"
+    ],
+    "after": [
+      "Material examples",
+      "Order specification"
+    ],
+    "source": "Untouched guide source; technical table cells identical"
+  },
+  {
+    "route": "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+    "field": "title",
+    "before": "Open aluminum enclosure references | LZZ Precision",
+    "after": "Open CNC machined aluminum enclosures | LZZ Precision",
+    "source": "Untouched page-title data; concurrent copy changes preserved"
+  },
+  {
+    "route": "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+    "field": "title",
+    "before": "Intake-system assembly reference | LZZ Precision",
+    "after": "CNC machined intake-system components | LZZ Precision",
+    "source": "Untouched page-title data; concurrent copy changes preserved"
+  }
+]

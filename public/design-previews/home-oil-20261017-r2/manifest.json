@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "project": "LZZ 首页方向对比",
+  "lang": "zh",
+  "round": "20261017-R2",
+  "brief": "沿用 DESIGN.md 的字体、品牌色与控件规则，以三种首屏骨架比较零件细节、真实车间与加工过程的视觉表现。所有方案共用按图加工、原型到小批量、MOQ 1 piece 与现有 RFQ 入口。",
+  "nativeViewport": "1440x1000",
+  "candidates": [
+    {
+      "id": "baseline",
+      "name": "当前首页",
+      "concept": "当前已实施的居中加工场景，作为本轮比较基线。",
+      "typography": "首屏 Inter 700；正文 Inter。",
+      "palette": [
+        "#09151B",
+        "#F7F8F6",
+        "#12699B"
+      ],
+      "traits": [
+        "全幅加工背景",
+        "居中标题和行动",
+        "当前状态截图"
+      ],
+      "kind": "image",
+      "source": "assets/baseline.png",
+      "baseline": true
+    },
+    {
+      "id": "a",
+      "name": "A · 零件主导",
+      "concept": "用一件可以仔细观察的实物，让工程师先判断形态与细节。",
+      "typography": "Roboto Condensed 700，桌面标题96px；Inter正文18px。",
+      "palette": [
+        "#F7F8F6",
+        "#102C2E",
+        "#12699B",
+        "#E9EEEB"
+      ],
+      "traits": [
+        "Your drawing. Made tangible.",
+        "唯一的左右分栏方案，完整叶轮成为主角",
+        "灰白画布、浅色物件舞台、开放留白"
+      ],
+      "kind": "url",
+      "url": "http://127.0.0.1:4336/design-previews/home-oil-20261017-r2/a.html"
+    },
+    {
+      "id": "b",
+      "name": "B · 车间主导",
+      "concept": "让采购在第一眼看见实际加工现场，再进入具体能力。",
+      "typography": "Roboto Condensed 700，桌面标题102px；Inter正文18px。",
+      "palette": [
+        "#102C2E",
+        "#F7F8F6",
+        "#12699B",
+        "#E4EEEA"
+      ],
+      "traits": [
+        "See the work behind your part.",
+        "真实车间满版摄影、左侧大字、底部三工艺入口",
+        "森林绿压住现场复杂背景，保留人物与设备"
+      ],
+      "kind": "url",
+      "url": "http://127.0.0.1:4336/design-previews/home-oil-20261017-r2/b.html"
+    },
+    {
+      "id": "c",
+      "name": "C · 加工过程主导",
+      "concept": "用同一零件两次装夹的可见变化，建立具体的加工记忆。",
+      "typography": "Roboto Condensed 700，桌面标题81px；Inter正文17px。",
+      "palette": [
+        "#F7F8F6",
+        "#102C2E",
+        "#12699B",
+        "#CDD9D5"
+      ],
+      "traits": [
+        "One part. More than one angle.",
+        "通栏标题在上，两张原始装夹照片在下",
+        "双画幅工艺对照，避免单张氛围图统领首屏"
+      ],
+      "kind": "url",
+      "url": "http://127.0.0.1:4336/design-previews/home-oil-20261017-r2/c.html"
+    }
+  ],
+  "serve": {
+    "command": "node D:/lzz/homepage-oil-round2-20261017/serve.cjs",
+    "cwd": "D:/lzz/lzz/_react",
+    "url": "http://127.0.0.1:4336/"
+  }
+}

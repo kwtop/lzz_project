@@ -13,7 +13,7 @@ const entries:Record<string,DetailInput> = {
   'Instrument blocks, brackets and valve bodies with machined interfaces.',
   'Distinguish mounting interfaces from internal passages and identify any intersecting holes or inaccessible edges.',
   'Specify hole-position and mating-face checks, plus a separate cleanliness or leak requirement where the application needs it.',
-  'Provide passage geometry, thread specifications, assembly references and material grade; do not rely on the exterior photograph.'
+  'Include passage sections, thread specifications, mating-component references and material grade.'
  ],
  'ultra-high-precision-machining-services':[
   'Contoured impellers and housings need a controlling model and feature-specific tolerances. No numerical tolerance is specified for this example.',

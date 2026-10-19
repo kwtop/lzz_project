@@ -1,0 +1,952 @@
+{
+  "/media/evidence/two-stage-first-1600.webp": {
+    "imageId": "setup-first",
+    "sourceId": "two-stage-first",
+    "sourceHref": "/media/evidence/two-stage-first-1600.webp"
+  },
+  "/media/evidence/two-stage-first-480.webp": {
+    "imageId": "setup-first",
+    "sourceId": "two-stage-first",
+    "sourceHref": "/media/evidence/two-stage-first-1600.webp"
+  },
+  "/media/evidence/two-stage-first-800.webp": {
+    "imageId": "setup-first",
+    "sourceId": "two-stage-first",
+    "sourceHref": "/media/evidence/two-stage-first-1600.webp"
+  },
+  "/media/evidence/two-stage-first-1200.webp": {
+    "imageId": "setup-first",
+    "sourceId": "two-stage-first",
+    "sourceHref": "/media/evidence/two-stage-first-1600.webp"
+  },
+  "/media/products-real-details-20261015/two-stage-first.webp": {
+    "imageId": "setup-first",
+    "sourceId": "two-stage-first",
+    "sourceHref": "/media/evidence/two-stage-first-1600.webp"
+  },
+  "/media/evidence/five-axis-operation-1600.webp": {
+    "imageId": "five-axis-process",
+    "sourceId": "five-axis-operation",
+    "sourceHref": "/media/evidence/five-axis-operation-1600.webp"
+  },
+  "/media/evidence/five-axis-operation-480.webp": {
+    "imageId": "five-axis-process",
+    "sourceId": "five-axis-operation",
+    "sourceHref": "/media/evidence/five-axis-operation-1600.webp"
+  },
+  "/media/evidence/five-axis-operation-800.webp": {
+    "imageId": "five-axis-process",
+    "sourceId": "five-axis-operation",
+    "sourceHref": "/media/evidence/five-axis-operation-1600.webp"
+  },
+  "/media/evidence/five-axis-operation-1200.webp": {
+    "imageId": "five-axis-process",
+    "sourceId": "five-axis-operation",
+    "sourceHref": "/media/evidence/five-axis-operation-1600.webp"
+  },
+  "/media/products-real-details-20261015/five-axis-operation.webp": {
+    "imageId": "five-axis-process",
+    "sourceId": "five-axis-operation",
+    "sourceHref": "/media/evidence/five-axis-operation-1600.webp"
+  },
+  "/media/evidence/turning-operation-1600.webp": {
+    "imageId": "turning-process",
+    "sourceId": "turning-operation",
+    "sourceHref": "/media/evidence/turning-operation-1600.webp"
+  },
+  "/media/evidence/turning-operation-480.webp": {
+    "imageId": "turning-process",
+    "sourceId": "turning-operation",
+    "sourceHref": "/media/evidence/turning-operation-1600.webp"
+  },
+  "/media/evidence/turning-operation-800.webp": {
+    "imageId": "turning-process",
+    "sourceId": "turning-operation",
+    "sourceHref": "/media/evidence/turning-operation-1600.webp"
+  },
+  "/media/evidence/turning-operation-1200.webp": {
+    "imageId": "turning-process",
+    "sourceId": "turning-operation",
+    "sourceHref": "/media/evidence/turning-operation-1600.webp"
+  },
+  "/media/products-real-details-20261015/turning-operation.webp": {
+    "imageId": "turning-process",
+    "sourceId": "turning-operation",
+    "sourceHref": "/media/evidence/turning-operation-1600.webp"
+  },
+  "/media/evidence/turn-mill-operation-1600.webp": {
+    "imageId": "turn-mill-process",
+    "sourceId": "turn-mill-operation",
+    "sourceHref": "/media/evidence/turn-mill-operation-1600.webp"
+  },
+  "/media/evidence/turn-mill-operation-480.webp": {
+    "imageId": "turn-mill-process",
+    "sourceId": "turn-mill-operation",
+    "sourceHref": "/media/evidence/turn-mill-operation-1600.webp"
+  },
+  "/media/evidence/turn-mill-operation-800.webp": {
+    "imageId": "turn-mill-process",
+    "sourceId": "turn-mill-operation",
+    "sourceHref": "/media/evidence/turn-mill-operation-1600.webp"
+  },
+  "/media/evidence/turn-mill-operation-1200.webp": {
+    "imageId": "turn-mill-process",
+    "sourceId": "turn-mill-operation",
+    "sourceHref": "/media/evidence/turn-mill-operation-1600.webp"
+  },
+  "/media/products-real-details-20261015/turn-mill-operation.webp": {
+    "imageId": "turn-mill-process",
+    "sourceId": "turn-mill-operation",
+    "sourceHref": "/media/evidence/turn-mill-operation-1600.webp"
+  },
+  "/media/evidence/two-stage-second-1600.webp": {
+    "imageId": "setup-second",
+    "sourceId": "two-stage-second",
+    "sourceHref": "/media/evidence/two-stage-second-1600.webp"
+  },
+  "/media/evidence/two-stage-second-480.webp": {
+    "imageId": "setup-second",
+    "sourceId": "two-stage-second",
+    "sourceHref": "/media/evidence/two-stage-second-1600.webp"
+  },
+  "/media/evidence/two-stage-second-800.webp": {
+    "imageId": "setup-second",
+    "sourceId": "two-stage-second",
+    "sourceHref": "/media/evidence/two-stage-second-1600.webp"
+  },
+  "/media/evidence/two-stage-second-1200.webp": {
+    "imageId": "setup-second",
+    "sourceId": "two-stage-second",
+    "sourceHref": "/media/evidence/two-stage-second-1600.webp"
+  },
+  "/media/products-real-details-20261015/two-stage-second.webp": {
+    "imageId": "setup-second",
+    "sourceId": "two-stage-second",
+    "sourceHref": "/media/evidence/two-stage-second-1600.webp"
+  },
+  "/media/evidence/five-axis-machine-wide-1600.webp": {
+    "imageId": "five-axis-wide",
+    "sourceId": "five-axis-machine-wide",
+    "sourceHref": "/media/evidence/five-axis-machine-wide-1600.webp"
+  },
+  "/media/evidence/five-axis-machine-wide-480.webp": {
+    "imageId": "five-axis-wide",
+    "sourceId": "five-axis-machine-wide",
+    "sourceHref": "/media/evidence/five-axis-machine-wide-1600.webp"
+  },
+  "/media/evidence/five-axis-machine-wide-800.webp": {
+    "imageId": "five-axis-wide",
+    "sourceId": "five-axis-machine-wide",
+    "sourceHref": "/media/evidence/five-axis-machine-wide-1600.webp"
+  },
+  "/media/evidence/five-axis-machine-wide-1200.webp": {
+    "imageId": "five-axis-wide",
+    "sourceId": "five-axis-machine-wide",
+    "sourceHref": "/media/evidence/five-axis-machine-wide-1600.webp"
+  },
+  "/media/products-real-details-20261015/five-axis-machine-wide.webp": {
+    "imageId": "five-axis-wide",
+    "sourceId": "five-axis-machine-wide",
+    "sourceHref": "/media/evidence/five-axis-machine-wide-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-operation-1600.webp": {
+    "imageId": "enclosure-process",
+    "sourceId": "milling-enclosure-operation",
+    "sourceHref": "/media/evidence/milling-enclosure-operation-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-operation-480.webp": {
+    "imageId": "enclosure-process",
+    "sourceId": "milling-enclosure-operation",
+    "sourceHref": "/media/evidence/milling-enclosure-operation-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-operation-800.webp": {
+    "imageId": "enclosure-process",
+    "sourceId": "milling-enclosure-operation",
+    "sourceHref": "/media/evidence/milling-enclosure-operation-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-operation-1200.webp": {
+    "imageId": "enclosure-process",
+    "sourceId": "milling-enclosure-operation",
+    "sourceHref": "/media/evidence/milling-enclosure-operation-1600.webp"
+  },
+  "/media/products-real-details-20261015/milling-enclosure-operation.webp": {
+    "imageId": "enclosure-process",
+    "sourceId": "milling-enclosure-operation",
+    "sourceHref": "/media/evidence/milling-enclosure-operation-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-operation-1600.webp": {
+    "imageId": "prismatic-process",
+    "sourceId": "multi-feature-milling-operation",
+    "sourceHref": "/media/evidence/multi-feature-milling-operation-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-operation-480.webp": {
+    "imageId": "prismatic-process",
+    "sourceId": "multi-feature-milling-operation",
+    "sourceHref": "/media/evidence/multi-feature-milling-operation-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-operation-800.webp": {
+    "imageId": "prismatic-process",
+    "sourceId": "multi-feature-milling-operation",
+    "sourceHref": "/media/evidence/multi-feature-milling-operation-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-operation-1200.webp": {
+    "imageId": "prismatic-process",
+    "sourceId": "multi-feature-milling-operation",
+    "sourceHref": "/media/evidence/multi-feature-milling-operation-1600.webp"
+  },
+  "/media/products-real-details-20261015/multi-feature-milling-operation.webp": {
+    "imageId": "prismatic-process",
+    "sourceId": "multi-feature-milling-operation",
+    "sourceHref": "/media/evidence/multi-feature-milling-operation-1600.webp"
+  },
+  "/media/evidence/five-axis-parts-1600.webp": {
+    "imageId": "five-axis-components",
+    "sourceId": "five-axis-parts",
+    "sourceHref": "/media/evidence/five-axis-parts-1600.webp"
+  },
+  "/media/evidence/five-axis-parts-480.webp": {
+    "imageId": "five-axis-components",
+    "sourceId": "five-axis-parts",
+    "sourceHref": "/media/evidence/five-axis-parts-1600.webp"
+  },
+  "/media/evidence/five-axis-parts-800.webp": {
+    "imageId": "five-axis-components",
+    "sourceId": "five-axis-parts",
+    "sourceHref": "/media/evidence/five-axis-parts-1600.webp"
+  },
+  "/media/evidence/five-axis-parts-1200.webp": {
+    "imageId": "five-axis-components",
+    "sourceId": "five-axis-parts",
+    "sourceHref": "/media/evidence/five-axis-parts-1600.webp"
+  },
+  "/media/products-real-details-20261015/five-axis-parts.webp": {
+    "imageId": "five-axis-components",
+    "sourceId": "five-axis-parts",
+    "sourceHref": "/media/evidence/five-axis-parts-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-parts-1600.webp": {
+    "imageId": "enclosure-components",
+    "sourceId": "milling-enclosure-parts",
+    "sourceHref": "/media/evidence/milling-enclosure-parts-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-parts-480.webp": {
+    "imageId": "enclosure-components",
+    "sourceId": "milling-enclosure-parts",
+    "sourceHref": "/media/evidence/milling-enclosure-parts-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-parts-800.webp": {
+    "imageId": "enclosure-components",
+    "sourceId": "milling-enclosure-parts",
+    "sourceHref": "/media/evidence/milling-enclosure-parts-1600.webp"
+  },
+  "/media/evidence/milling-enclosure-parts-1200.webp": {
+    "imageId": "enclosure-components",
+    "sourceId": "milling-enclosure-parts",
+    "sourceHref": "/media/evidence/milling-enclosure-parts-1600.webp"
+  },
+  "/media/products-real-details-20261015/milling-enclosure-parts.webp": {
+    "imageId": "enclosure-components",
+    "sourceId": "milling-enclosure-parts",
+    "sourceHref": "/media/evidence/milling-enclosure-parts-1600.webp"
+  },
+  "/media/evidence/turn-mill-parts-1200.webp": {
+    "imageId": "turn-mill-components",
+    "sourceId": "turn-mill-parts",
+    "sourceHref": "/media/evidence/turn-mill-parts-1200.webp"
+  },
+  "/media/evidence/turn-mill-parts-480.webp": {
+    "imageId": "turn-mill-components",
+    "sourceId": "turn-mill-parts",
+    "sourceHref": "/media/evidence/turn-mill-parts-1200.webp"
+  },
+  "/media/evidence/turn-mill-parts-800.webp": {
+    "imageId": "turn-mill-components",
+    "sourceId": "turn-mill-parts",
+    "sourceHref": "/media/evidence/turn-mill-parts-1200.webp"
+  },
+  "/media/products-real-details-20261015/turn-mill-parts.webp": {
+    "imageId": "turn-mill-components",
+    "sourceId": "turn-mill-parts",
+    "sourceHref": "/media/evidence/turn-mill-parts-1200.webp"
+  },
+  "/media/evidence/multi-feature-milling-parts-1600.webp": {
+    "imageId": "prismatic-components",
+    "sourceId": "multi-feature-milling-parts",
+    "sourceHref": "/media/evidence/multi-feature-milling-parts-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-parts-480.webp": {
+    "imageId": "prismatic-components",
+    "sourceId": "multi-feature-milling-parts",
+    "sourceHref": "/media/evidence/multi-feature-milling-parts-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-parts-800.webp": {
+    "imageId": "prismatic-components",
+    "sourceId": "multi-feature-milling-parts",
+    "sourceHref": "/media/evidence/multi-feature-milling-parts-1600.webp"
+  },
+  "/media/evidence/multi-feature-milling-parts-1200.webp": {
+    "imageId": "prismatic-components",
+    "sourceId": "multi-feature-milling-parts",
+    "sourceHref": "/media/evidence/multi-feature-milling-parts-1600.webp"
+  },
+  "/media/products-real-details-20261015/multi-feature-milling-parts.webp": {
+    "imageId": "prismatic-components",
+    "sourceId": "multi-feature-milling-parts",
+    "sourceHref": "/media/evidence/multi-feature-milling-parts-1600.webp"
+  },
+  "/media/evidence/display-housing-panel-1600.webp": {
+    "imageId": "display-panel",
+    "sourceId": "display-housing-panel",
+    "sourceHref": "/media/evidence/display-housing-panel-1600.webp"
+  },
+  "/media/evidence/display-housing-panel-480.webp": {
+    "imageId": "display-panel",
+    "sourceId": "display-housing-panel",
+    "sourceHref": "/media/evidence/display-housing-panel-1600.webp"
+  },
+  "/media/evidence/display-housing-panel-800.webp": {
+    "imageId": "display-panel",
+    "sourceId": "display-housing-panel",
+    "sourceHref": "/media/evidence/display-housing-panel-1600.webp"
+  },
+  "/media/evidence/display-housing-panel-1200.webp": {
+    "imageId": "display-panel",
+    "sourceId": "display-housing-panel",
+    "sourceHref": "/media/evidence/display-housing-panel-1600.webp"
+  },
+  "/media/products-real-details-20261015/display-housing-panel.webp": {
+    "imageId": "display-panel",
+    "sourceId": "display-housing-panel",
+    "sourceHref": "/media/evidence/display-housing-panel-1600.webp"
+  },
+  "/media/evidence/display-housing-machining-1600.webp": {
+    "imageId": "display-process",
+    "sourceId": "display-housing-machining",
+    "sourceHref": "/media/evidence/display-housing-machining-1600.webp"
+  },
+  "/media/evidence/display-housing-machining-480.webp": {
+    "imageId": "display-process",
+    "sourceId": "display-housing-machining",
+    "sourceHref": "/media/evidence/display-housing-machining-1600.webp"
+  },
+  "/media/evidence/display-housing-machining-800.webp": {
+    "imageId": "display-process",
+    "sourceId": "display-housing-machining",
+    "sourceHref": "/media/evidence/display-housing-machining-1600.webp"
+  },
+  "/media/evidence/display-housing-machining-1200.webp": {
+    "imageId": "display-process",
+    "sourceId": "display-housing-machining",
+    "sourceHref": "/media/evidence/display-housing-machining-1600.webp"
+  },
+  "/media/products-real-details-20261015/display-housing-machining.webp": {
+    "imageId": "display-process",
+    "sourceId": "display-housing-machining",
+    "sourceHref": "/media/evidence/display-housing-machining-1600.webp"
+  },
+  "/media/source-details/display-housing-pair-1200.webp": {
+    "imageId": "display-pair",
+    "sourceId": "display-housing-pair",
+    "sourceHref": "/media/source-details/display-housing-pair-1200.webp"
+  },
+  "/media/source-details/display-housing-pair-480.webp": {
+    "imageId": "display-pair",
+    "sourceId": "display-housing-pair",
+    "sourceHref": "/media/source-details/display-housing-pair-1200.webp"
+  },
+  "/media/source-details/display-housing-pair-800.webp": {
+    "imageId": "display-pair",
+    "sourceId": "display-housing-pair",
+    "sourceHref": "/media/source-details/display-housing-pair-1200.webp"
+  },
+  "/media/products-real-details-20261015/display-housing-pair.webp": {
+    "imageId": "display-pair",
+    "sourceId": "display-housing-pair",
+    "sourceHref": "/media/source-details/display-housing-pair-1200.webp"
+  },
+  "/media/evidence/cmm-detail-1600.webp": {
+    "imageId": "metrology-detail",
+    "sourceId": "cmm-detail",
+    "sourceHref": "/media/evidence/cmm-detail-1600.webp"
+  },
+  "/media/evidence/cmm-detail-480.webp": {
+    "imageId": "metrology-detail",
+    "sourceId": "cmm-detail",
+    "sourceHref": "/media/evidence/cmm-detail-1600.webp"
+  },
+  "/media/evidence/cmm-detail-800.webp": {
+    "imageId": "metrology-detail",
+    "sourceId": "cmm-detail",
+    "sourceHref": "/media/evidence/cmm-detail-1600.webp"
+  },
+  "/media/evidence/cmm-detail-1200.webp": {
+    "imageId": "metrology-detail",
+    "sourceId": "cmm-detail",
+    "sourceHref": "/media/evidence/cmm-detail-1600.webp"
+  },
+  "/media/products-real-details-20261015/cmm-detail.webp": {
+    "imageId": "metrology-detail",
+    "sourceId": "cmm-detail",
+    "sourceHref": "/media/evidence/cmm-detail-1600.webp"
+  },
+  "/media/source-details/plastic-acrylic-detail-1200.webp": {
+    "imageId": "acrylic-components",
+    "sourceId": "plastic-acrylic-detail",
+    "sourceHref": "/media/source-details/plastic-acrylic-detail-1200.webp"
+  },
+  "/media/source-details/plastic-acrylic-detail-480.webp": {
+    "imageId": "acrylic-components",
+    "sourceId": "plastic-acrylic-detail",
+    "sourceHref": "/media/source-details/plastic-acrylic-detail-1200.webp"
+  },
+  "/media/source-details/plastic-acrylic-detail-800.webp": {
+    "imageId": "acrylic-components",
+    "sourceId": "plastic-acrylic-detail",
+    "sourceHref": "/media/source-details/plastic-acrylic-detail-1200.webp"
+  },
+  "/media/products-real-details-20261015/plastic-acrylic-detail.webp": {
+    "imageId": "acrylic-components",
+    "sourceId": "plastic-acrylic-detail",
+    "sourceHref": "/media/source-details/plastic-acrylic-detail-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-batch-1200.webp": {
+    "imageId": "ptfe-components",
+    "sourceId": "plastic-ptfe-batch",
+    "sourceHref": "/media/source-details/plastic-ptfe-batch-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-batch-480.webp": {
+    "imageId": "ptfe-components",
+    "sourceId": "plastic-ptfe-batch",
+    "sourceHref": "/media/source-details/plastic-ptfe-batch-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-batch-800.webp": {
+    "imageId": "ptfe-components",
+    "sourceId": "plastic-ptfe-batch",
+    "sourceHref": "/media/source-details/plastic-ptfe-batch-1200.webp"
+  },
+  "/media/products-real-details-20261015/plastic-ptfe-batch.webp": {
+    "imageId": "ptfe-components",
+    "sourceId": "plastic-ptfe-batch",
+    "sourceHref": "/media/source-details/plastic-ptfe-batch-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-intermediate-1200.webp": {
+    "imageId": "ptfe-intermediate",
+    "sourceId": "plastic-ptfe-intermediate",
+    "sourceHref": "/media/source-details/plastic-ptfe-intermediate-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-intermediate-480.webp": {
+    "imageId": "ptfe-intermediate",
+    "sourceId": "plastic-ptfe-intermediate",
+    "sourceHref": "/media/source-details/plastic-ptfe-intermediate-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-intermediate-800.webp": {
+    "imageId": "ptfe-intermediate",
+    "sourceId": "plastic-ptfe-intermediate",
+    "sourceHref": "/media/source-details/plastic-ptfe-intermediate-1200.webp"
+  },
+  "/media/products-real-details-20261015/plastic-ptfe-intermediate.webp": {
+    "imageId": "ptfe-intermediate",
+    "sourceId": "plastic-ptfe-intermediate",
+    "sourceHref": "/media/source-details/plastic-ptfe-intermediate-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-shafts-1200.webp": {
+    "imageId": "ptfe-shafts",
+    "sourceId": "plastic-ptfe-shafts",
+    "sourceHref": "/media/source-details/plastic-ptfe-shafts-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-shafts-480.webp": {
+    "imageId": "ptfe-shafts",
+    "sourceId": "plastic-ptfe-shafts",
+    "sourceHref": "/media/source-details/plastic-ptfe-shafts-1200.webp"
+  },
+  "/media/source-details/plastic-ptfe-shafts-800.webp": {
+    "imageId": "ptfe-shafts",
+    "sourceId": "plastic-ptfe-shafts",
+    "sourceHref": "/media/source-details/plastic-ptfe-shafts-1200.webp"
+  },
+  "/media/products-real-details-20261015/plastic-ptfe-shafts.webp": {
+    "imageId": "ptfe-shafts",
+    "sourceId": "plastic-ptfe-shafts",
+    "sourceHref": "/media/source-details/plastic-ptfe-shafts-1200.webp"
+  },
+  "/media/source-details/metal-turned-shaft-1200.webp": {
+    "imageId": "turned-shaft",
+    "sourceId": "metal-turned-shaft",
+    "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+  },
+  "/media/source-details/metal-turned-shaft-480.webp": {
+    "imageId": "turned-shaft",
+    "sourceId": "metal-turned-shaft",
+    "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+  },
+  "/media/source-details/metal-turned-shaft-800.webp": {
+    "imageId": "turned-shaft",
+    "sourceId": "metal-turned-shaft",
+    "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+  },
+  "/media/products-real-details-20261015/metal-turned-shaft.webp": {
+    "imageId": "turned-shaft",
+    "sourceId": "metal-turned-shaft",
+    "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+  },
+  "/media/source-details/metal-turned-batch-1200.webp": {
+    "imageId": "turned-array",
+    "sourceId": "metal-turned-batch",
+    "sourceHref": "/media/source-details/metal-turned-batch-1200.webp"
+  },
+  "/media/source-details/metal-turned-batch-480.webp": {
+    "imageId": "turned-array",
+    "sourceId": "metal-turned-batch",
+    "sourceHref": "/media/source-details/metal-turned-batch-1200.webp"
+  },
+  "/media/source-details/metal-turned-batch-800.webp": {
+    "imageId": "turned-array",
+    "sourceId": "metal-turned-batch",
+    "sourceHref": "/media/source-details/metal-turned-batch-1200.webp"
+  },
+  "/media/products-real-details-20261015/metal-turned-batch.webp": {
+    "imageId": "turned-array",
+    "sourceId": "metal-turned-batch",
+    "sourceHref": "/media/source-details/metal-turned-batch-1200.webp"
+  },
+  "/media/source-details/metal-aluminum-close-1200.webp": {
+    "imageId": "aluminum-housing-detail",
+    "sourceId": "metal-aluminum-close",
+    "sourceHref": "/media/source-details/metal-aluminum-close-1200.webp"
+  },
+  "/media/source-details/metal-aluminum-close-480.webp": {
+    "imageId": "aluminum-housing-detail",
+    "sourceId": "metal-aluminum-close",
+    "sourceHref": "/media/source-details/metal-aluminum-close-1200.webp"
+  },
+  "/media/source-details/metal-aluminum-close-800.webp": {
+    "imageId": "aluminum-housing-detail",
+    "sourceId": "metal-aluminum-close",
+    "sourceHref": "/media/source-details/metal-aluminum-close-1200.webp"
+  },
+  "/media/products-real-details-20261015/metal-aluminum-close.webp": {
+    "imageId": "aluminum-housing-detail",
+    "sourceId": "metal-aluminum-close",
+    "sourceHref": "/media/source-details/metal-aluminum-close-1200.webp"
+  },
+  "/media/source-details/finish-coated-round-1200.webp": {
+    "imageId": "coated-round",
+    "sourceId": "finish-coated-round",
+    "sourceHref": "/media/source-details/finish-coated-round-1200.webp"
+  },
+  "/media/source-details/finish-coated-round-480.webp": {
+    "imageId": "coated-round",
+    "sourceId": "finish-coated-round",
+    "sourceHref": "/media/source-details/finish-coated-round-1200.webp"
+  },
+  "/media/source-details/finish-coated-round-800.webp": {
+    "imageId": "coated-round",
+    "sourceId": "finish-coated-round",
+    "sourceHref": "/media/source-details/finish-coated-round-1200.webp"
+  },
+  "/media/products-real-details-20261015/finish-coated-round.webp": {
+    "imageId": "coated-round",
+    "sourceId": "finish-coated-round",
+    "sourceHref": "/media/source-details/finish-coated-round-1200.webp"
+  },
+  "/media/source-details/finish-coated-bars-1200.webp": {
+    "imageId": "coated-bars",
+    "sourceId": "finish-coated-bars",
+    "sourceHref": "/media/source-details/finish-coated-bars-1200.webp"
+  },
+  "/media/source-details/finish-coated-bars-480.webp": {
+    "imageId": "coated-bars",
+    "sourceId": "finish-coated-bars",
+    "sourceHref": "/media/source-details/finish-coated-bars-1200.webp"
+  },
+  "/media/source-details/finish-coated-bars-800.webp": {
+    "imageId": "coated-bars",
+    "sourceId": "finish-coated-bars",
+    "sourceHref": "/media/source-details/finish-coated-bars-1200.webp"
+  },
+  "/media/products-real-details-20261015/finish-coated-bars.webp": {
+    "imageId": "coated-bars",
+    "sourceId": "finish-coated-bars",
+    "sourceHref": "/media/source-details/finish-coated-bars-1200.webp"
+  },
+  "/media/source-details/covered-wheels-1200.webp": {
+    "imageId": "covered-wheels",
+    "sourceId": "covered-wheels",
+    "sourceHref": "/media/source-details/covered-wheels-1200.webp"
+  },
+  "/media/source-details/covered-wheels-480.webp": {
+    "imageId": "covered-wheels",
+    "sourceId": "covered-wheels",
+    "sourceHref": "/media/source-details/covered-wheels-1200.webp"
+  },
+  "/media/source-details/covered-wheels-800.webp": {
+    "imageId": "covered-wheels",
+    "sourceId": "covered-wheels",
+    "sourceHref": "/media/source-details/covered-wheels-1200.webp"
+  },
+  "/media/products-real-details-20261015/covered-wheels.webp": {
+    "imageId": "covered-wheels",
+    "sourceId": "covered-wheels",
+    "sourceHref": "/media/source-details/covered-wheels-1200.webp"
+  },
+  "/media/source-details/covered-rollers-1200.webp": {
+    "imageId": "covered-rollers",
+    "sourceId": "covered-rollers",
+    "sourceHref": "/media/source-details/covered-rollers-1200.webp"
+  },
+  "/media/source-details/covered-rollers-480.webp": {
+    "imageId": "covered-rollers",
+    "sourceId": "covered-rollers",
+    "sourceHref": "/media/source-details/covered-rollers-1200.webp"
+  },
+  "/media/source-details/covered-rollers-800.webp": {
+    "imageId": "covered-rollers",
+    "sourceId": "covered-rollers",
+    "sourceHref": "/media/source-details/covered-rollers-1200.webp"
+  },
+  "/media/products-real-details-20261015/covered-rollers.webp": {
+    "imageId": "covered-rollers",
+    "sourceId": "covered-rollers",
+    "sourceHref": "/media/source-details/covered-rollers-1200.webp"
+  },
+  "/media/source-details/covered-shaped-parts-1200.webp": {
+    "imageId": "covered-shaped-parts",
+    "sourceId": "covered-shaped-parts",
+    "sourceHref": "/media/source-details/covered-shaped-parts-1200.webp"
+  },
+  "/media/source-details/covered-shaped-parts-480.webp": {
+    "imageId": "covered-shaped-parts",
+    "sourceId": "covered-shaped-parts",
+    "sourceHref": "/media/source-details/covered-shaped-parts-1200.webp"
+  },
+  "/media/source-details/covered-shaped-parts-800.webp": {
+    "imageId": "covered-shaped-parts",
+    "sourceId": "covered-shaped-parts",
+    "sourceHref": "/media/source-details/covered-shaped-parts-1200.webp"
+  },
+  "/media/products-real-details-20261015/covered-shaped-parts.webp": {
+    "imageId": "covered-shaped-parts",
+    "sourceId": "covered-shaped-parts",
+    "sourceHref": "/media/source-details/covered-shaped-parts-1200.webp"
+  },
+  "/media/source-details/gear-bevel-examples-1200.webp": {
+    "imageId": "bevel-gears",
+    "sourceId": "gear-bevel-examples",
+    "sourceHref": "/media/source-details/gear-bevel-examples-1200.webp"
+  },
+  "/media/source-details/gear-bevel-examples-480.webp": {
+    "imageId": "bevel-gears",
+    "sourceId": "gear-bevel-examples",
+    "sourceHref": "/media/source-details/gear-bevel-examples-1200.webp"
+  },
+  "/media/source-details/gear-bevel-examples-800.webp": {
+    "imageId": "bevel-gears",
+    "sourceId": "gear-bevel-examples",
+    "sourceHref": "/media/source-details/gear-bevel-examples-1200.webp"
+  },
+  "/media/products-real-details-20261015/gear-bevel-examples.webp": {
+    "imageId": "bevel-gears",
+    "sourceId": "gear-bevel-examples",
+    "sourceHref": "/media/source-details/gear-bevel-examples-1200.webp"
+  },
+  "/media/source-details/gear-cylindrical-examples-1200.webp": {
+    "imageId": "cylindrical-gears",
+    "sourceId": "gear-cylindrical-examples",
+    "sourceHref": "/media/source-details/gear-cylindrical-examples-1200.webp"
+  },
+  "/media/source-details/gear-cylindrical-examples-480.webp": {
+    "imageId": "cylindrical-gears",
+    "sourceId": "gear-cylindrical-examples",
+    "sourceHref": "/media/source-details/gear-cylindrical-examples-1200.webp"
+  },
+  "/media/source-details/gear-cylindrical-examples-800.webp": {
+    "imageId": "cylindrical-gears",
+    "sourceId": "gear-cylindrical-examples",
+    "sourceHref": "/media/source-details/gear-cylindrical-examples-1200.webp"
+  },
+  "/media/products-real-details-20261015/gear-cylindrical-examples.webp": {
+    "imageId": "cylindrical-gears",
+    "sourceId": "gear-cylindrical-examples",
+    "sourceHref": "/media/source-details/gear-cylindrical-examples-1200.webp"
+  },
+  "/media/source-details/metal-aluminum-housings-1200.webp": {
+    "imageId": "aluminum-housing-array-v2",
+    "sourceId": "metal-aluminum-housings",
+    "sourceHref": "/media/source-details/metal-aluminum-housings-1200.webp"
+  },
+  "/media/source-details/metal-aluminum-housings-480.webp": {
+    "imageId": "aluminum-housing-array-v2",
+    "sourceId": "metal-aluminum-housings",
+    "sourceHref": "/media/source-details/metal-aluminum-housings-1200.webp"
+  },
+  "/media/source-details/metal-aluminum-housings-800.webp": {
+    "imageId": "aluminum-housing-array-v2",
+    "sourceId": "metal-aluminum-housings",
+    "sourceHref": "/media/source-details/metal-aluminum-housings-1200.webp"
+  },
+  "/media/products-real-details-20261015/metal-aluminum-housings.webp": {
+    "imageId": "aluminum-housing-array-v2",
+    "sourceId": "metal-aluminum-housings",
+    "sourceHref": "/media/source-details/metal-aluminum-housings-1200.webp"
+  },
+  "/media/evidence/shipment-2022-order-packing-1600.webp": {
+    "imageId": "protective-load",
+    "sourceId": "shipment-2022-order-packing",
+    "sourceHref": "/media/evidence/shipment-2022-order-packing-1600.webp"
+  },
+  "/media/evidence/shipment-2022-order-packing-480.webp": {
+    "imageId": "protective-load",
+    "sourceId": "shipment-2022-order-packing",
+    "sourceHref": "/media/evidence/shipment-2022-order-packing-1600.webp"
+  },
+  "/media/evidence/shipment-2022-order-packing-800.webp": {
+    "imageId": "protective-load",
+    "sourceId": "shipment-2022-order-packing",
+    "sourceHref": "/media/evidence/shipment-2022-order-packing-1600.webp"
+  },
+  "/media/evidence/shipment-2022-order-packing-1200.webp": {
+    "imageId": "protective-load",
+    "sourceId": "shipment-2022-order-packing",
+    "sourceHref": "/media/evidence/shipment-2022-order-packing-1600.webp"
+  },
+  "/media/products-real-details-20261015/shipment-2022-order-packing.webp": {
+    "imageId": "protective-load",
+    "sourceId": "shipment-2022-order-packing",
+    "sourceHref": "/media/evidence/shipment-2022-order-packing-1600.webp"
+  },
+  "/media/evidence/shipping-example-1600.webp": {
+    "imageId": "packing-brackets",
+    "sourceId": "shipping-example",
+    "sourceHref": "/media/evidence/shipping-example-1600.webp"
+  },
+  "/media/evidence/shipping-example-480.webp": {
+    "imageId": "packing-brackets",
+    "sourceId": "shipping-example",
+    "sourceHref": "/media/evidence/shipping-example-1600.webp"
+  },
+  "/media/evidence/shipping-example-800.webp": {
+    "imageId": "packing-brackets",
+    "sourceId": "shipping-example",
+    "sourceHref": "/media/evidence/shipping-example-1600.webp"
+  },
+  "/media/evidence/shipping-example-1200.webp": {
+    "imageId": "packing-brackets",
+    "sourceId": "shipping-example",
+    "sourceHref": "/media/evidence/shipping-example-1600.webp"
+  },
+  "/media/products-real-details-20261015/shipping-example.webp": {
+    "imageId": "packing-brackets",
+    "sourceId": "shipping-example",
+    "sourceHref": "/media/evidence/shipping-example-1600.webp"
+  },
+  "/media/evidence/shipment-2022-prepared-load-1600.webp": {
+    "imageId": "prepared-load",
+    "sourceId": "shipment-2022-prepared-load",
+    "sourceHref": "/media/evidence/shipment-2022-prepared-load-1600.webp"
+  },
+  "/media/evidence/shipment-2022-prepared-load-480.webp": {
+    "imageId": "prepared-load",
+    "sourceId": "shipment-2022-prepared-load",
+    "sourceHref": "/media/evidence/shipment-2022-prepared-load-1600.webp"
+  },
+  "/media/evidence/shipment-2022-prepared-load-800.webp": {
+    "imageId": "prepared-load",
+    "sourceId": "shipment-2022-prepared-load",
+    "sourceHref": "/media/evidence/shipment-2022-prepared-load-1600.webp"
+  },
+  "/media/evidence/shipment-2022-prepared-load-1200.webp": {
+    "imageId": "prepared-load",
+    "sourceId": "shipment-2022-prepared-load",
+    "sourceHref": "/media/evidence/shipment-2022-prepared-load-1600.webp"
+  },
+  "/media/products-real-details-20261015/shipment-2022-prepared-load.webp": {
+    "imageId": "prepared-load",
+    "sourceId": "shipment-2022-prepared-load",
+    "sourceHref": "/media/evidence/shipment-2022-prepared-load-1600.webp"
+  },
+  "/media/source-details/metal-brass-batch-1200.webp": {
+    "imageId": "brass-fitting-array",
+    "sourceId": "metal-brass-batch",
+    "sourceHref": "/media/source-details/metal-brass-batch-1200.webp"
+  },
+  "/media/source-details/metal-brass-batch-480.webp": {
+    "imageId": "brass-fitting-array",
+    "sourceId": "metal-brass-batch",
+    "sourceHref": "/media/source-details/metal-brass-batch-1200.webp"
+  },
+  "/media/source-details/metal-brass-batch-800.webp": {
+    "imageId": "brass-fitting-array",
+    "sourceId": "metal-brass-batch",
+    "sourceHref": "/media/source-details/metal-brass-batch-1200.webp"
+  },
+  "/media/products-real-details-20261015/metal-brass-batch.webp": {
+    "imageId": "brass-fitting-array",
+    "sourceId": "metal-brass-batch",
+    "sourceHref": "/media/source-details/metal-brass-batch-1200.webp"
+  },
+  "/media/source-details/plastic-pom-gears-poster.webp": {
+    "imageId": "pom-gear-reference",
+    "sourceId": "video-plastic-pom-gears",
+    "sourceHref": "/media/source-details/plastic-pom-gears-poster.webp"
+  },
+  "/media/products-real-details-20261015/video-plastic-pom-gears.webp": {
+    "imageId": "pom-gear-reference",
+    "sourceId": "video-plastic-pom-gears",
+    "sourceHref": "/media/source-details/plastic-pom-gears-poster.webp"
+  },
+  "/media/source-details/plastic-pe-guides-poster.webp": {
+    "imageId": "pe-guide-reference",
+    "sourceId": "video-plastic-pe-guides",
+    "sourceHref": "/media/source-details/plastic-pe-guides-poster.webp"
+  },
+  "/media/products-real-details-20261015/video-plastic-pe-guides.webp": {
+    "imageId": "pe-guide-reference",
+    "sourceId": "video-plastic-pe-guides",
+    "sourceHref": "/media/source-details/plastic-pe-guides-poster.webp"
+  },
+  "/media/source-details/plastic-acrylic-parts-poster.webp": {
+    "imageId": "acrylic-panel-reference",
+    "sourceId": "video-plastic-acrylic-parts",
+    "sourceHref": "/media/source-details/plastic-acrylic-parts-poster.webp"
+  },
+  "/media/products-real-details-20261015/video-plastic-acrylic-parts.webp": {
+    "imageId": "acrylic-panel-reference",
+    "sourceId": "video-plastic-acrylic-parts",
+    "sourceHref": "/media/source-details/plastic-acrylic-parts-poster.webp"
+  },
+  "/media/source-details/metal-cleaned-parts-poster.webp": {
+    "imageId": "cleaned-metal-reference",
+    "sourceId": "video-metal-cleaned-parts",
+    "sourceHref": "/media/source-details/metal-cleaned-parts-poster.webp"
+  },
+  "/media/products-real-details-20261015/video-metal-cleaned-parts.webp": {
+    "imageId": "cleaned-metal-reference",
+    "sourceId": "video-metal-cleaned-parts",
+    "sourceHref": "/media/source-details/metal-cleaned-parts-poster.webp"
+  },
+  "/media/source-details/peek-parts-poster.webp": {
+    "imageId": "peek-components-reference",
+    "sourceId": "video-peek-parts",
+    "sourceHref": "/media/source-details/peek-parts-poster.webp"
+  },
+  "/media/products-real-details-20261015/video-peek-parts.webp": {
+    "imageId": "peek-components-reference",
+    "sourceId": "video-peek-parts",
+    "sourceHref": "/media/source-details/peek-parts-poster.webp"
+  },
+  "/media/evidence/workshop-wide-1600.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-wide",
+    "sourceHref": "/media/evidence/workshop-wide-1600.webp"
+  },
+  "/media/evidence/workshop-wide-480.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-wide",
+    "sourceHref": "/media/evidence/workshop-wide-1600.webp"
+  },
+  "/media/evidence/workshop-wide-800.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-wide",
+    "sourceHref": "/media/evidence/workshop-wide-1600.webp"
+  },
+  "/media/evidence/workshop-wide-1200.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-wide",
+    "sourceHref": "/media/evidence/workshop-wide-1600.webp"
+  },
+  "/media/products-real-details-20261015/workshop-wide.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-wide",
+    "sourceHref": "/media/evidence/workshop-wide-1600.webp"
+  },
+  "/media/evidence/workshop-floor-1200.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-floor",
+    "sourceHref": "/media/evidence/workshop-floor-1200.webp"
+  },
+  "/media/evidence/workshop-floor-480.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-floor",
+    "sourceHref": "/media/evidence/workshop-floor-1200.webp"
+  },
+  "/media/evidence/workshop-floor-800.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-floor",
+    "sourceHref": "/media/evidence/workshop-floor-1200.webp"
+  },
+  "/media/products-real-details-20261015/workshop-floor.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-floor",
+    "sourceHref": "/media/evidence/workshop-floor-1200.webp"
+  },
+  "/media/evidence/workshop-aisle-1200.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-aisle",
+    "sourceHref": "/media/evidence/workshop-aisle-1200.webp"
+  },
+  "/media/evidence/workshop-aisle-480.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-aisle",
+    "sourceHref": "/media/evidence/workshop-aisle-1200.webp"
+  },
+  "/media/evidence/workshop-aisle-800.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-aisle",
+    "sourceHref": "/media/evidence/workshop-aisle-1200.webp"
+  },
+  "/media/products-real-details-20261015/workshop-aisle.webp": {
+    "imageId": "factory-aisle",
+    "sourceId": "workshop-aisle",
+    "sourceHref": "/media/evidence/workshop-aisle-1200.webp"
+  },
+  "/media/evidence/workshop-operators-2025-1600.webp": {
+    "imageId": "workshop-craft",
+    "sourceId": "workshop-operators-2025",
+    "sourceHref": "/media/evidence/workshop-operators-2025-1600.webp"
+  },
+  "/media/evidence/workshop-operators-2025-480.webp": {
+    "imageId": "workshop-craft",
+    "sourceId": "workshop-operators-2025",
+    "sourceHref": "/media/evidence/workshop-operators-2025-1600.webp"
+  },
+  "/media/evidence/workshop-operators-2025-800.webp": {
+    "imageId": "workshop-craft",
+    "sourceId": "workshop-operators-2025",
+    "sourceHref": "/media/evidence/workshop-operators-2025-1600.webp"
+  },
+  "/media/evidence/workshop-operators-2025-1200.webp": {
+    "imageId": "workshop-craft",
+    "sourceId": "workshop-operators-2025",
+    "sourceHref": "/media/evidence/workshop-operators-2025-1600.webp"
+  },
+  "/media/products-real-details-20261015/workshop-operators-2025.webp": {
+    "imageId": "workshop-craft",
+    "sourceId": "workshop-operators-2025",
+    "sourceHref": "/media/evidence/workshop-operators-2025-1600.webp"
+  },
+  "/media/evidence/cmm-room-1600.webp": {
+    "imageId": "inspection-room",
+    "sourceId": "cmm-room",
+    "sourceHref": "/media/evidence/cmm-room-1600.webp"
+  },
+  "/media/evidence/cmm-room-480.webp": {
+    "imageId": "inspection-room",
+    "sourceId": "cmm-room",
+    "sourceHref": "/media/evidence/cmm-room-1600.webp"
+  },
+  "/media/evidence/cmm-room-800.webp": {
+    "imageId": "inspection-room",
+    "sourceId": "cmm-room",
+    "sourceHref": "/media/evidence/cmm-room-1600.webp"
+  },
+  "/media/evidence/cmm-room-1200.webp": {
+    "imageId": "inspection-room",
+    "sourceId": "cmm-room",
+    "sourceHref": "/media/evidence/cmm-room-1600.webp"
+  },
+  "/media/products-real-details-20261015/cmm-room.webp": {
+    "imageId": "inspection-room",
+    "sourceId": "cmm-room",
+    "sourceHref": "/media/evidence/cmm-room-1600.webp"
+  }
+}

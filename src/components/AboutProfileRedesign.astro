@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ImmersiveInnerHero from './ImmersiveInnerHero.astro';
+import {siteImage} from '../data/siteImages';
 import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
 import AboutRedesignClosing from './AboutRedesignClosing.astro';
 import DisclosureAnchors from './DisclosureAnchors.astro';
@@ -7,29 +9,29 @@ import {companyFacts,companyHistory} from '../data/company';
 import {recognitionDocuments,qualificationEmail} from '../data/aboutEditorial';
 import '../styles/about-approved.css';
 import '../styles/about-constitution.css';
+const inspection=siteImage('inspection-room');
 const documents=[recognitionDocuments[1],recognitionDocuments[2],recognitionDocuments[0]];
 ---
 <Layout title="LZZ Precision: CNC machining company in Hangzhou" description="Meet Hangzhou Lizhizao Precision Machinery Co., Ltd. Review its workshop, engineering experience, company recognition documents and supplier qualification requirements." cta={false}>
  <article class="ar-page ar-profile rd-wrap rd-page"><DisclosureAnchors/>
-  <header class="ar-company-opening" data-core-section="Company identity and workshop">
-   <div class="ar-company-intro"><h1>LZZ Precision in Hangzhou</h1><p>Custom CNC machined components, from the first part to repeat production. We review milling, turning and multi-axis work against your drawing, material and acceptance requirements.</p><p class="ar-legal">Hangzhou Lizhizao Precision Machinery Co., Ltd.</p><a class="ar-text-link" href="#documents">Review supplier documents</a></div>
-   <div id="company-factory"><AboutRedesignPhoto id="workshop-wide" caption="LZZ machining workshop · Hangzhou" eager sizes="(max-width:767px) calc(100vw - 44px), 720px"/></div>
-   <dl class="ar-company-facts">{companyFacts.map(fact=><div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
-  </header>
-  <section class="rd-section ar-engineering-story" id="company-overview" data-core-section="Engineering and drawing review"><AboutRedesignPhoto id="cmm-room" caption="Coordinate measuring machine · LZZ workshop archive"/><div><h2>Engineering and workshop</h2><p>Our engineering team has more than 15 years of CNC machining experience. We review functional surfaces, locating datums and tool access before agreeing the machining and inspection scope.</p><p>Parts may combine pockets and mounting features with bores, shoulders or threads. The model and controlled drawing determine the route and dimensions to check.</p><nav class="ar-links" aria-label="Engineering and inspection"><span id="applications"/><span id="part-studies"/><a href="/capabilities/">Machining capabilities</a><a href="/factory/#quality">Inspection planning</a><a href="/machined-parts/gallery/">Find a related part form</a></nav></div></section>
+  <span id="company-factory" class="ar-anchor"/>
+  <ImmersiveInnerHero title="LZZ Precision in Hangzhou" lead="Custom CNC machined components, from the first part to repeat production. We review milling, turning and multi-axis work against your drawing, material and acceptance requirements." secondaryHref="#documents" secondaryLabel="Review supplier documents"><p class="ar-legal">Hangzhou Lizhizao Precision Machinery Co., Ltd.</p></ImmersiveInnerHero>
+  <dl class="ar-company-facts">{companyFacts.map(fact=><div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
+
   <section class="rd-section ar-documents" id="documents" data-core-section="Supplier qualification documents">
-   <header><h2 id="al-credentials-heading">Supplier documents</h2><p>Review the document’s purpose, named holder and current status for your supplier qualification.</p></header>
+   <header><h2 id="al-credentials-heading">Supplier documents</h2><p>Find the company identity and documents your purchasing team needs. Check the named holder, purpose and current status of each document.</p></header>
    <div class="ar-iso" id="quality-system"><div><h3>ISO 9001 quality-system certificate</h3><p>LZZ is ISO 9001 certified. Request the current certificate, holder, scope and validity.</p></div><a class="ar-text-link" href={qualificationEmail}>Request the current ISO 9001 certificate</a></div>
    <p class="ar-document-intro">The three original records below cover enterprise recognition and a teaching partnership. They serve different purposes from the ISO 9001 certificate.</p>
    <div id="al-original-documents">{documents.map(document=><article class:list={['ar-document',{'ar-document--portrait':document.height>document.width}]}>
-    <div class="ar-document-original"><AboutRedesignPhoto src={document.image} width={document.width} height={document.height} alt={document.title+', original Chinese document'} origin="original-company-document"/></div>
-    <div><h3><a href={document.image} target="_blank" rel="noopener">{document.title}<span class="sr-only">: view original document</span></a></h3><p>{document.description}</p><dl><div><dt>Purpose</dt><dd>{document.scope}</dd></div><div><dt>Printed date / validity</dt><dd>{document.date}</dd></div></dl></div>
+    <div class="ar-document-original"><a class="ar-document-preview" href={document.image} target="_blank" rel="noopener" aria-label={'Open document: '+document.title}><AboutRedesignPhoto src={document.image} width={document.width} height={document.height} alt={document.title+', original Chinese document'} origin="original-company-document"/></a><a class="ar-document-open" href={document.image} target="_blank" rel="noopener">Open document <span aria-hidden="true">↗</span></a></div>
+    <div><h3><a href={document.image} target="_blank" rel="noopener">{document.title}<span class="sr-only">: open document</span></a></h3><p>{document.description}</p><dl><div><dt>Purpose</dt><dd>{document.scope}</dd></div><div><dt>Printed date / validity</dt><dd>{document.date}</dd></div></dl></div>
    </article>)}</div>
    <p class="ar-document-note">Dates and validity describe the displayed originals. Request the current status for supplier qualification.</p>
    <p id="al-order-records">For part acceptance, agree material traceability, critical dimensions, sampling, final surface condition and project-specific records in the order. <a href="/factory/#order-documentation">Review order documentation</a>.</p>
   </section>
+  <section class="rd-section ar-engineering-story" id="company-overview" data-core-section="Engineering and drawing review"><AboutRedesignPhoto src={inspection.src} srcset={inspection.srcset} width={inspection.width} height={inspection.height} alt={inspection.alt} caption={inspection.caption} origin={inspection.origin} sourceHref="/media/evidence/cmm-room-1600.webp"/><div><h2>Engineering and workshop</h2><p>Our engineering team has more than 15 years of CNC machining experience. We review functional surfaces, locating datums and tool access before agreeing the machining and inspection scope.</p><p>Parts may combine pockets and mounting features with bores, shoulders or threads. The model and controlled drawing determine the route and dimensions to check.</p><nav class="ar-links" aria-label="Engineering and inspection"><span id="applications"/><span id="part-studies"/><a href="/capabilities/">Machining capabilities</a><a href="/factory/#quality">Inspection planning</a><a href="/machined-parts/gallery/">Find a related part form</a></nav></div></section>
   <section class="rd-section ar-development" id="company-history" data-core-section="Company development and people"><span id="company-network"/><header><h2>Company development</h2></header><div class="ar-development-body"><ol class="ar-history">{companyHistory.map(item=><li><h3>{item.title}</h3><p>{item.text}</p></li>)}</ol><div class="ar-development-record"><AboutRedesignPhoto id="team-2025-evening-group" caption="LZZ colleagues during a team outing · original photograph"/><nav class="ar-links" aria-label="People and company records" id="people-heading"><a href="/about/company-news/australian-customer-workshop-visit-january-2025/">Workshop visit photographs</a><a href="/about/company-news/may-2025-lzz-team-outing/">Team outing photographs</a><a href="/about/company-news/">All company records</a></nav></div></div></section>
-  <AboutRedesignClosing core="Supplier inquiry and documents" title="Continue your supplier review" text="Request the documents your purchasing team needs, or bring your part requirements into an inquiry." qualification/>
+  <AboutRedesignClosing core="Supplier inquiry and documents" title="Continue your supplier review" text="Ask for the documents your purchasing team needs, or send the part requirements you would like us to review." qualification/>
  </article>
 </Layout>
 <script is:inline>const arProfileDestinations={'company-archive':'/about/company-news/',contact:'/about/contact/'};const arFollowProfileHash=()=>{const target=arProfileDestinations[location.hash.slice(1)];if(target)location.replace(target);};arFollowProfileHash();window.addEventListener('hashchange',arFollowProfileHash);</script>

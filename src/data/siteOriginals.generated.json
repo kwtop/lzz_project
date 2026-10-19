@@ -1,0 +1,14 @@
+{
+  "/media/evidence/workshop-wide-1600.webp": {
+    "src": "/media/site-image-polish-20261018/workshop-wide-original-2560.webp",
+    "srcset": "/media/evidence/workshop-wide-480.webp 480w, /media/evidence/workshop-wide-800.webp 800w, /media/evidence/workshop-wide-1200.webp 1200w, /media/evidence/workshop-wide-1600.webp 1600w, /media/site-image-polish-20261018/workshop-wide-original-2048.webp 2048w, /media/site-image-polish-20261018/workshop-wide-original-2560.webp 2560w",
+    "width": 4088,
+    "height": 2832
+  },
+  "/media/evidence/turn-mill-operation-1600.webp": {
+    "src": "/media/site-image-polish-20261018/turn-mill-operation-original-2560.webp",
+    "srcset": "/media/evidence/turn-mill-operation-480.webp 480w, /media/evidence/turn-mill-operation-800.webp 800w, /media/evidence/turn-mill-operation-1200.webp 1200w, /media/evidence/turn-mill-operation-1600.webp 1600w, /media/site-image-polish-20261018/turn-mill-operation-original-2048.webp 2048w, /media/site-image-polish-20261018/turn-mill-operation-original-2560.webp 2560w",
+    "width": 4000,
+    "height": 3000
+  }
+}

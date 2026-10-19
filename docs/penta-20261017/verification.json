@@ -1,0 +1,223 @@
+{
+  "at": "2026-10-17T01:44:20.882Z",
+  "preservation": [
+    {
+      "name": "home",
+      "missingHeadings": [],
+      "missingLinks": [],
+      "changedMeta": [],
+      "missingText": []
+    },
+    {
+      "name": "category",
+      "missingHeadings": [],
+      "missingLinks": [],
+      "changedMeta": [],
+      "missingText": []
+    },
+    {
+      "name": "detail",
+      "missingHeadings": [],
+      "missingLinks": [],
+      "changedMeta": [],
+      "missingText": [
+        "Milled features · AI-generated illustration."
+      ]
+    }
+  ],
+  "protected": [
+    {
+      "file": "DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/HomeApproved.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/CapabilitiesDirectory.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/CapabilityMillingPage.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/MainNavigation.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/SiteFooter.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/siteSections.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/seo.ts",
+      "unchanged": true
+    }
+  ],
+  "interactions": [
+    "Desktop submenu opens; Escape closes and returns focus.",
+    "Mobile navigation opens, exposes all capability groups, follows CNC milling and closes.",
+    "Reduced-motion mode keeps content visible without entrance animation.",
+    "Category task anchor navigates to the existing section.",
+    "Milling RFQ reference preserved; local draft prepared, reviewed, edited and cleared; mailto present; no send/upload/network mutation.",
+    "Factory page remains outside the sample visual scope.",
+    "Service copy and RFQ links remain readable without JavaScript."
+  ],
+  "geometry": [
+    {
+      "name": "home",
+      "headlineLines": 2,
+      "headlineFont": "700 56px / 61.04px \"Roboto Condensed\", Arial, sans-serif",
+      "headlineBox": {
+        "x": 100,
+        "y": 270.28125,
+        "width": 545.015625,
+        "height": 122.0625,
+        "top": 270.28125,
+        "right": 645.015625,
+        "bottom": 392.34375,
+        "left": 100
+      },
+      "cmm": null,
+      "footerLogoFilter": "brightness(0) invert(1)",
+      "footerBg": "rgb(16, 44, 46)",
+      "sample": "20261017"
+    },
+    {
+      "name": "category",
+      "headlineLines": 2,
+      "headlineFont": "700 64px / 68.48px \"Roboto Condensed\", Arial, sans-serif",
+      "headlineBox": {
+        "x": 100,
+        "y": 187.6875,
+        "width": 549.84375,
+        "height": 136.9375,
+        "top": 187.6875,
+        "right": 649.84375,
+        "bottom": 324.625,
+        "left": 100
+      },
+      "cmm": null,
+      "footerLogoFilter": "brightness(0) invert(1)",
+      "footerBg": "rgb(16, 44, 46)",
+      "sample": "20261017"
+    },
+    {
+      "name": "detail",
+      "headlineLines": 1,
+      "headlineFont": "700 64px / 68.48px \"Roboto Condensed\", Arial, sans-serif",
+      "headlineBox": {
+        "x": 100,
+        "y": 270.203125,
+        "width": 555.75,
+        "height": 68.46875,
+        "top": 270.203125,
+        "right": 655.75,
+        "bottom": 338.671875,
+        "left": 100
+      },
+      "cmm": {
+        "box": {
+          "x": 100,
+          "y": 5167.578125,
+          "width": 1240,
+          "height": 253.28125,
+          "top": 5167.578125,
+          "right": 1340,
+          "bottom": 5420.859375,
+          "left": 100
+        },
+        "caption": {
+          "x": 315,
+          "y": 5276.53125,
+          "width": 440,
+          "height": 43.375,
+          "top": 5276.53125,
+          "right": 755,
+          "bottom": 5319.90625,
+          "left": 315
+        }
+      },
+      "footerLogoFilter": "brightness(0) invert(1)",
+      "footerBg": "rgb(16, 44, 46)",
+      "sample": "20261017"
+    },
+    {
+      "name": "detail",
+      "width": 390,
+      "font": "700 42px / 46.2px \"Roboto Condensed\", Arial, sans-serif",
+      "lines": 2
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "font": "700 56px / 61.04px \"Roboto Condensed\", Arial, sans-serif",
+      "boxWidth": 545.015625,
+      "secondLineWidth": 498.2578125,
+      "lines": 2
+    },
+    {
+      "name": "home",
+      "width": 1024,
+      "font": "700 44px / 47.96px \"Roboto Condensed\", Arial, sans-serif",
+      "boxWidth": 425.078125,
+      "secondLineWidth": 391.48828125,
+      "lines": 2
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "font": "700 44px / 47.96px \"Roboto Condensed\", Arial, sans-serif",
+      "boxWidth": 688,
+      "secondLineWidth": 391.48828125,
+      "lines": 2
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "font": "700 36px / 39.6px \"Roboto Condensed\", Arial, sans-serif",
+      "boxWidth": 350,
+      "secondLineWidth": 320.30859375,
+      "lines": 2
+    }
+  ],
+  "images": {
+    "beforeUnique": 18,
+    "afterUnique": 19,
+    "retained": [
+      "/media/product-sources-20261015/p02-1200.webp",
+      "/media/product-sources-20261015/p22-framed-1200.webp",
+      "/media/product-sources-20261015/p32-framed-1200.webp",
+      "/media/product-sources-20261015/p26-1200.webp",
+      "/media/products-real-details-20261015/two-stage-first.webp",
+      "/media/products-real-details-20261015/two-stage-second.webp",
+      "/media/evidence/workshop-wide-1600.webp",
+      "/media/image-led-20261015/definition-1200.webp",
+      "/media/product-sources-20261015/p00-framed-1200.webp",
+      "/media/product-sources-20261015/p19-framed-1200.webp",
+      "/media/product-sources-20261015/p13-1200.webp",
+      "/media/product-sources-20261015/p27-1200.webp",
+      "/media/capabilities-section-20261014/sample-definition-1200.webp",
+      "/media/evidence/two-stage-first-1600.webp",
+      "/media/product-sources-20261015/p33-1200.webp",
+      "/media/evidence/cmm-room-1600.webp"
+    ],
+    "replaced": [
+      "/media/editorial-rebuild-20261015/machining-hero-1200.webp",
+      "/media/editorial-rebuild-20261015/milling-geometry-1200.webp"
+    ],
+    "added": [
+      "/media/penta-next-20261017/milling-at-work-1440.webp",
+      "/media/penta-next-20261017/material-stock-1440.webp",
+      "/media/penta-next-20261017/tool-access-1440.webp"
+    ],
+    "beforeSlots": 26,
+    "afterSlots": 27
+  },
+  "externalMutations": []
+}

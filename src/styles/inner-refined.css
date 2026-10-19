@@ -1,6 +1,6 @@
 /* Task-oriented inner pages only. The approved homepage is excluded. */
 /* Supporting equipment imagery retains its full composition. */
-.brand-site .equipment-feature {width:100%;margin:0;background:#e9ecee;overflow:hidden}
+.brand-site .equipment-feature {width:100%;margin:0;background:#EEE9E2;overflow:hidden}
 .brand-site .equipment-feature img {display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
 .task-pages .factory-intro.equipment-intro .page-banner-inner {grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:60px}
 .task-pages .factory-intro.equipment-intro .page-banner-figure {max-width:none}
@@ -8,7 +8,7 @@
 .brand-site .section.equipment-overview {padding-top:70px}
 .brand-site .equipment-families.equipment-gallery {gap:48px 36px}
 .brand-site .equipment-families.equipment-gallery article {padding-top:0;border-top:0}
-.brand-site .equipment-visual {display:block;margin-bottom:26px;overflow:hidden;background:#e9ecee}
+.brand-site .equipment-visual {display:block;margin-bottom:26px;overflow:hidden;background:#EEE9E2}
 .brand-site .equipment-visual img {display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
 .brand-site .equipment-families.equipment-gallery h3 {font-size:28px}
 .brand-site .workshop-archive {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}

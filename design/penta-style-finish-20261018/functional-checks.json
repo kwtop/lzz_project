@@ -1,0 +1,48 @@
+{
+  "noResults": {
+    "number": 0,
+    "url": "?q=zz-layout-no-match",
+    "visible": "No matching referencesChange the search or filters, or use your own drawing to start a review.Reset filtersPrepare RFQ email",
+    "width": 390
+  },
+  "plasticFilter": {
+    "number": 4,
+    "overflow": false,
+    "selected": "plastics",
+    "url": "?form=plastics"
+  },
+  "restoredFilter": {
+    "number": 4,
+    "selected": "plastics",
+    "url": "?form=plastics"
+  },
+  "menuOpen": {
+    "expanded": "true",
+    "nav": 308
+  },
+  "menuClosed": {
+    "expanded": "false",
+    "overflow": false
+  },
+  "compound": {
+    "count": "13 part references · 0 matching collectionsReset filters",
+    "overflow": false,
+    "url": "?process=CNC-Milling-Service&material=Aluminum-CNC-Parts"
+  },
+  "reset": {
+    "count": "35 part references · 2 matching collections",
+    "url": ""
+  },
+  "videoPlaying": {
+    "duration": 6.87,
+    "error": null,
+    "paused": false,
+    "ready": 4,
+    "time": 0.018183,
+    "w": 334.66668701171875
+  },
+  "videoClosed": {
+    "closed": true,
+    "paused": true
+  }
+}

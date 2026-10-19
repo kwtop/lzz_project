@@ -1,0 +1,8 @@
+---
+interface Props {label:string;items:{title:string;href:string}[];class?:string}
+const {label,items,class:className}=Astro.props;
+---
+<nav class:list={['context-links',className]} aria-label={label}>
+ <p class="context-links-title">{label}</p>
+ <div class="context-links-items">{items.map(item=><a href={item.href}>{item.title}</a>)}</div>
+</nav>

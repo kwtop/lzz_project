@@ -1,0 +1,43 @@
+{
+  "canonicalStaticChecks": 86,
+  "affectedCanonicalRoutes": 50,
+  "adoptedMasters": 35,
+  "derivatives": 175,
+  "webBytes": 5592272,
+  "maxWebFileBytes": 138200,
+  "browser": [
+    {
+      "width": 1440,
+      "pages": 50,
+      "overflow": 0,
+      "broken": 0,
+      "pendingVisible": 0
+    },
+    {
+      "width": 1024,
+      "pages": 5,
+      "overflow": 0,
+      "broken": 0,
+      "pendingVisible": 0
+    },
+    {
+      "width": 768,
+      "pages": 5,
+      "overflow": 0,
+      "broken": 0,
+      "pendingVisible": 0
+    },
+    {
+      "width": 390,
+      "pages": 50,
+      "overflow": 0,
+      "broken": 0,
+      "pendingVisible": 0
+    }
+  ],
+  "originalReferenceTests": 70,
+  "failedOriginalTests": 0,
+  "sourceFiles": 10,
+  "issues": [],
+  "productionDeployed": false
+}

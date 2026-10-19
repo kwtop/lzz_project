@@ -2,7 +2,7 @@
 body.brand-site.finesse-redesigned.precision-gallery {
  --font-text:'Inter Variable',Arial,sans-serif;--font-data:'Inter Variable',Arial,sans-serif;
  --heading:'Inter Variable',Arial,sans-serif;--body:'Inter Variable',Arial,sans-serif;
- --bg:#fff;--ink:#191b1d;--muted:#606266;--surface:#f6f6f5;--border:#dededb;--red:#cf141a;
+ --bg:#fff;--ink:#252826;--muted:#606266;--surface:#f6f6f5;--border:#dededb;--red:#AC4829;
  --layout-width:1280px;--layout-gutter:48px;--layout-gap:64px;
  --layout-section-space:96px;--layout-intro-space:80px;--reading-section-space:64px;
  --type-h1-size:clamp(2.5rem,1.7rem + 3.2vw,4.75rem);
@@ -31,7 +31,7 @@ body.brand-site.finesse-redesigned.precision-gallery #main-nav :is(summary,a){te
 body.brand-site.finesse-redesigned.precision-gallery #main-nav .nav-panel{border-radius:0;box-shadow:none;border:1px solid var(--border)}
 body.brand-site.finesse-redesigned.precision-gallery #main-nav .nav-panel a{border-radius:0}
 body.brand-site.finesse-redesigned.precision-gallery .menu-toggle span{background:var(--ink)}
-body.brand-site.finesse-redesigned.precision-gallery.home-refined .site-header{background:#141719;color:#fff;border-color:#ffffff26}
+body.brand-site.finesse-redesigned.precision-gallery.home-refined .site-header{background:#242724;color:#fff;border-color:#ffffff26}
 body.brand-site.finesse-redesigned.precision-gallery.home-refined .site-header .brand-logo{filter:grayscale(1) brightness(0) invert(1)}
 body.brand-site.finesse-redesigned.precision-gallery.home-refined .menu-toggle span{background:#fff}
 body.brand-site.finesse-redesigned.precision-gallery .site-header.menu-open{background:#fff;color:var(--ink)}
@@ -43,7 +43,7 @@ body.brand-site.finesse-redesigned.precision-gallery .page-banner.has-image .pag
 body.brand-site.finesse-redesigned.precision-gallery .page-banner-copy>p{color:var(--muted);max-width:52ch!important}
 body.brand-site.finesse-redesigned.precision-gallery :is(.page-banner-image,.page-banner-image img){border-radius:0;box-shadow:none}
 body.brand-site.finesse-redesigned.precision-gallery :is(.page-banner-image,.page-banner-image img){background:#fff}
-body.brand-site.finesse-redesigned.precision-gallery :is(.closing,footer){background:#17191b;color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery :is(.closing,footer){background:#242724;color:#fff}
 body.brand-site.finesse-redesigned.precision-gallery .closing{padding-block:80px}
 body.brand-site.finesse-redesigned.precision-gallery .closing h2{max-width:19ch!important}
 body.brand-site.finesse-redesigned.precision-gallery .closing p{color:#c4c5c6}

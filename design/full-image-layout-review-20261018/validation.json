@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-18",
+  "status": "Local implementation and formal-site browser checks complete; not deployed",
+  "formalRoutes": 86,
+  "desktopStates": 86,
+  "phoneStates": 86,
+  "tabletRoutes": 18,
+  "tabletStates": 36,
+  "errorPageStates": 2,
+  "totalStates": 210,
+  "issues": [],
+  "visualAssetReview": {
+    "uniqueDisplayImages": 152,
+    "boards": 8,
+    "method": "Native viewport screenshots, before full-page captures, image atlas and rendered DOM measurements. Geometry is not a subjective quality score."
+  },
+  "newImages": {
+    "masters": 1,
+    "webFiles": 4,
+    "totalBytes": 340810,
+    "maxBytes": 143066,
+    "adoption": [
+      {
+        "route": "/resources/ordering/compare-cnc-machining-quotations/",
+        "src": [
+          "/media/full-image-layout-review-20261018/inspection-workbench-1440.webp"
+        ]
+      },
+      {
+        "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+        "src": [
+          "/media/full-image-layout-review-20261018/inspection-workbench-1440.webp"
+        ]
+      },
+      {
+        "route": "/resources/technical-guides/cnc-process-selection/",
+        "src": [
+          "/media/full-image-layout-review-20261018/inspection-workbench-1440.webp"
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28832,
+        "sha256": "981efd74daf730707b7c5d4ec439ca1acdf91fae6426bd9984af06266d099362",
+        "valid": true
+      },
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 64190,
+        "sha256": "c2ca012a4f9fb9c0ed66013b84b63047b31114d12a7371f394c112f4fc1ce5ce",
+        "valid": true
+      },
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 104722,
+        "sha256": "2edf63345d4f7ef7b61de56d132b65ec29488fb0c0b12b7090a0f17ba79db716",
+        "valid": true
+      },
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 143066,
+        "sha256": "20d3e27a1f1f4c2eb0e6ba493d1e7e4e72164d156ebd452aae52463064ab9a47",
+        "valid": true
+      }
+    ]
+  },
+  "references": {
+    "localFiles": 809,
+    "missing": [],
+    "srcset": {
+      "checked": 683,
+      "mismatches": [],
+      "missing": []
+    }
+  },
+  "contracts": {
+    "unchanged": [
+      "title",
+      "canonical",
+      "h1",
+      "ids",
+      "tables"
+    ],
+    "protectedDiff": [],
+    "schemaOtherChanges": [],
+    "descriptionChanges": [
+      "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+      "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+      "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+      "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+      "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+      "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+      "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "/machined-parts/gallery/ultra-high-precision-machining-services/"
+    ],
+    "descriptionChangeAttribution": "Parallel CSS/meta task changed 35 independent product descriptions; those source changes and schema descriptions were preserved, not rewritten by this image/layout task."
+  },
+  "currentSourceBuildMatch": true,
+  "rollbackPatchCheck": "git apply --reverse --check passed",
+  "commands": {
+    "mainCheck": "990 files, 0 errors, 0 warnings, 9 hints before parallel palette update",
+    "isolatedCurrentCheck": "354 project production/script files, 0 errors, 0 warnings, 7 hints",
+    "isolatedBuild": "146 Astro pages; CSS optimization and SEO generation passed",
+    "seo": "215 HTML, 86 sitemap URLs, 188 redirects, 91 raw URLs passed",
+    "css": "8 tests passed",
+    "inquiry": "Inquiry draft contract passed; no message sent"
+  },
+  "builtBrowserPreview": {
+    "status": "not verified in browser",
+    "reason": "Auxiliary port 4322 was not reachable from the in-app browser. Formal site checks were completed at port 4321. Isolated build, SEO, CSS and inquiry checks passed."
+  },
+  "interactions": {
+    "newsFilters": [
+      {
+        "overflow": false,
+        "selected": "Workshop & events",
+        "status": "2 updates",
+        "visible": 2
+      },
+      {
+        "overflow": false,
+        "selected": "Team life",
+        "status": "3 updates",
+        "visible": 3
+      },
+      {
+        "overflow": false,
+        "selected": "All updates",
+        "status": "5 updates",
+        "visible": 5
+      }
+    ],
+    "videoOpen": {
+      "controls": true,
+      "height": 480,
+      "open": true
+    },
+    "videoClosed": {
+      "open": false,
+      "paused": true
+    }
+  },
+  "palette": "The confirmed A palette in DESIGN.md section 17 was updated in parallel and preserved. Final native screenshots use this palette; this task did not choose or replace the palette.",
+  "performance": "No production Core Web Vitals claim; image byte sizes measured from files."
+}

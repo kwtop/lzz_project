@@ -1,0 +1,12 @@
+{
+  "brand": "LZZ",
+  "location": "Hangzhou, China",
+  "services": ["CNC milling", "CNC turning", "5-axis machining"],
+  "scope": "Custom metal and plastic parts, from a single prototype to a small batch.",
+  "minimumOrder": "From 1 piece",
+  "primaryAction": "Prepare RFQ email",
+  "primaryURL": "http://127.0.0.1:4325/quote/",
+  "partURL": "http://127.0.0.1:4325/machined-parts/gallery/ultra-high-precision-machining-services/",
+  "studyURL": "http://127.0.0.1:4325/machined-parts/machining-examples/",
+  "inquiryBehavior": "The existing quote page prepares an email draft. The visitor attaches drawings and sends it from their own email app."
+}

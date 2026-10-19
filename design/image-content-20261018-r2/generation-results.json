@@ -1,0 +1,76 @@
+{
+  "adopted": [
+    {
+      "id": "factory-aisle",
+      "purpose": "Factory hero / company profile",
+      "aspect": "4:5",
+      "source": "D:/lzz/lzz/_react/public/media/site-image-polish-20261018/workshop-wide-original-2560.webp",
+      "prompt": "Create one premium industrial editorial photograph, portrait 4:5, at least 1600px tall. The supplied workshop photograph is a visual reference for credible CNC machine architecture, enclosure scale and a real modest production workshop, not a claim about a real company's inventory. Recompose into an intimate eye-level view along a tidy machining aisle: one substantial matte white and graphite enclosed machining centre in the right/central foreground, two more softly receding behind. Subject occupies 65% of frame, soft cool daylight from high windows, restrained blue tool carts and service bins, neutral grey floor with subtle honest use, tactile metal, realistic door seals, cable management and control enclosure. Avoid vast empty ceiling, messy loose cables, greasy floors, excessive neon-blue, CGI gloss, futuristic machines, huge fabricated factory, showroom perfection and people. No logos, labels, legible text, certification or numbers. Keep focal machine at x58%, y54%, all major door and enclosure geometry inside central 80% so it works in both tall desktop and 8:7 mobile image crops. This is explicitly a generated presentation illustration for an existing blue/charcoal B2B website, photographic and understated. Output only the photograph.",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-8f7d2391-4d8d-4723-88de-687a2adc0667.png"
+    },
+    {
+      "id": "workshop-craft",
+      "purpose": "Company overview hero",
+      "aspect": "4:5",
+      "source": "D:/lzz/lzz/_react/public/media/evidence/workshop-operators-2025-1600.webp",
+      "prompt": "Generate a portrait 4:5 realistic photograph inspired by the supplied CNC workshop. A single adult operator in a plain navy work shirt seen from the back/three-quarter side at a closed white CNC machining centre's control station, no recognizable face. Frame from waist height upward with the full head and natural hands comfortably inside central 70%, operator x58%, controls x77%, convincing machine enclosures and a softly receding modest workshop. Change the casual snapshot into an art-directed but believable working moment, tidy the loose background and use broad soft side light, not cinematic drama. Preserve credible mechanical architecture; no unsafe reach into a live machine, extra limbs or staged handshake. This is a generic workshop presentation, not an actual employee portrait. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-cf28755c-1a33-4be2-beff-c66358823942.png"
+    },
+    {
+      "id": "cnc-equipment",
+      "purpose": "Capabilities overview hero",
+      "aspect": "4:5",
+      "prompt": "Generate a portrait 4:5 photographic three-quarter view of one enclosed CNC turning centre in a modest, clean precision workshop. Matte off-white housing and graphite lower panels, one sliding safety door open while the machine is idle, a credible three-jaw chuck and short workpiece visible inside, physical tool turret, a conventional unbranded operator control panel, restrained blue trolley softly out of focus. Main machine body and chuck occupy central-right x60%, y53%; leave unobtrusive lower-left foreground for an existing separate product tile. Equipment scale plausible, no giant fictional lights or impossible spindles. A full machine view rather than another cutting-tool macro, manufacturer editorial photography. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-134cd11d-3b7e-450d-8659-6e6a7fc4773a.png"
+    },
+    {
+      "id": "inspection-room",
+      "purpose": "Inspection display / planning illustration",
+      "aspect": "4:3",
+      "source": "D:/lzz/lzz/_react/public/media/evidence/cmm-room-1600.webp",
+      "prompt": "Re-create the provided CMM photograph as a restrained photographic presentation illustration, horizontal 4:3. Preserve the essential bridge coordinate-measuring-machine structure: two columns, horizontal bridge with black bellows, vertical probing quill over a black granite table. Show the complete machine within the frame with 10% breathing space, including the full table edges and lower supporting base. Use off-white housing with small desaturated blue panels, a neutral light-grey metrology room with soft even natural light, one simple satin aluminium component centred safely on the table and no readouts or reported measurements. Eliminate the distracting ceiling void, loose cable clutter and harsh ceiling hotspot. Do not create a new model specification or brand label; this is a generic measurement-planning illustration based on the reference, original archive retained separately. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-8d524bb2-819a-4de9-9c8d-7e8ece782445.png",
+      "revisionPrompt": "Edit this generated metrology photograph. Keep the same credible bridge CMM, granite table, probe, component and calm room, but pull the camera back by about 25 percent so the full top of the vertical quill and the entire base are inside the frame, with clear floor margin below and room margin above. Horizontal 4:3 composition. The equipment should occupy about 72 percent of frame width and 80 percent of frame height, never touch any frame edge. Change the saturated turquoise/teal housing panels to muted slate navy blue, close to #114A75, with off-white columns. Make the lighting softer and the granite texture naturally photographic; avoid CGI-perfect plastic. No logos, labels, text or asserted specifications. This is a generic measurement-planning illustration, not documentary evidence. Single photograph only."
+    },
+    {
+      "id": "packing-bench",
+      "purpose": "Factory packing / handover",
+      "aspect": "3:2",
+      "prompt": "Generate a realistic horizontal 3:2 editorial photograph of a careful industrial packing station in a CNC workshop. A clean grey workbench with an unmarked kraft carton and fitted charcoal foam separating four generic machined aluminium housings, a plain second carton behind and folded protective material at one side. A worker's gloved hands gently fitting the last foam cover, no faces. The parts are generic shapes, not identifiable customer designs. Packing edges, material thickness, separation and natural metal surfaces must look physically plausible. Grey/blue workshop cabinets softly recede; calm natural side light; leave useful breathing space around the complete package. No printed labels, shipping identifiers, confirmed order or documentary claims. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-844e3ff7-7985-46fb-8454-f4efd6ee1ecd.png"
+    },
+    {
+      "id": "brass-presentation",
+      "purpose": "Brass component reference display",
+      "aspect": "1:1",
+      "source": "D:/lzz/lzz/_react/public/media/evidence/brass-plugs-1200.webp",
+      "prompt": "Photographic refinement of the provided square brass-fitting source photograph for presentation. Preserve the actual visible fittings' shapes, their positions and overlapping arrangement, threaded ends, hexagonal heads and overall abundance; do not replace them with smooth round coins or invent different components. Improve muddy lighting and focus so the visible threads and hex edges read naturally, tame strong cyan/green contamination, retain muted tactile brass rather than orange gold, keep subtle wear. Remove only distracting blue cast/background clutter where no part geometry is affected, using a quiet dark neutral tray. Do not add, remove, multiply or rearrange identifiable pieces. No labels or order quantity claims. This is an AI-refined presentation reference, with the unedited photo retained separately. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-171aa936-4d2e-4626-89e2-0698932d207c.png"
+    },
+    {
+      "id": "enclosures-presentation",
+      "purpose": "Aluminium housing reference display",
+      "aspect": "4:3",
+      "source": "D:/lzz/lzz/_react/public/media/evidence/aluminum-housings-1600.webp",
+      "prompt": "Refine this original machined-housings photograph into a high quality horizontal 4:3 presentation image. Preserve every visible enclosure, its position, orientation and key geometry: open rectangular cavities with rounded corners, side windows, flange mounting holes, threaded bottom ports, rib thickness, depth and machining marks. Do not redesign, replace, add or remove housings, and do not flatten the holes or make smooth abstract blocks. Improve natural side light, reduce glare and noisy colour cast, replace only the surrounding green work surface with a subdued neutral blue-grey technical bench, keep the camera angle and arrangement. The right/front housing must remain fully readable. No text, fake parameters or delivery assertions. This is a retouched presentation reference, not a new original production record. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-6a05ad3a-58a5-4f1f-8dbb-6e97529b9dcb.png"
+    },
+    {
+      "id": "turned-presentation",
+      "purpose": "Repeated turned component reference display",
+      "aspect": "1:1",
+      "source": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p34-1200.webp",
+      "prompt": "Refine the supplied square photograph of repeated turned components. Keep exactly the same visible component arrangement and each part's characteristic cylindrical middle, end flanges, stepped ends and small side features. Improve detail, balanced soft diffuse illumination and separation from a neutral charcoal-blue work mat. Preserve real metal texture and moderate use, avoid mirror chrome and pure-white floating product renders. Do not invent missing dimensions, new shapes, logos or batch quantities; do not multiply or remove pieces. Keep the entire repeated arrangement in the frame with natural diagonal perspective and enough surrounding margin for a square website crop. AI-refined reference presentation; original is retained independently. High-end industrial editorial photography for a blue and charcoal CNC supplier website. Soft natural daylight, credible metal, neutral cool grey, quiet navy accents, slight real use, calm composition. No text, brand logos, certification, results, model numbers, customer identities, badges, infographic overlays, artificial glow or glossy CGI. Output a single photograph only. ",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-60f894fb-2cda-444b-8a15-b351d5257505.png"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "inspection-room-v1",
+      "source": "D:/lzz/lzz/_react/public/media/evidence/cmm-room-1600.webp",
+      "generated": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-02955b5c-79ed-4e86-b8d2-1cf591148581.png",
+      "reason": "Top and base cropped; turquoise panels did not match brand blue.",
+      "adopted": false
+    }
+  ]
+}

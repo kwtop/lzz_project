@@ -1,6 +1,6 @@
 import {useEffect,useMemo,useRef,useState} from 'react';
 import type {SyntheticEvent} from 'react';
-import {Mail,Phone,MapPin} from 'lucide-react';
+import {ArrowRight,Mail,Phone,MapPin} from 'lucide-react';
 import {resolveInquiry} from '../lib/inquiryContext';
 import type {InquiryReference} from '../lib/inquiryContext';
 import {buildInquiryDraft,emptyInquiry,inquiryLimits,readInquiryDraft,referenceKey,validateInquiry} from '../lib/inquiryDraft';
@@ -110,8 +110,8 @@ export default function QuoteForm({references,siteOrigin}:{references:InquiryRef
   </header>
   <div className="inquiry-panel" data-core-section={prepared?'Review the inquiry draft':'Contact and part requirements'}>
    {reference&&<div className="inquiry-reference" aria-label="Inquiry reference">
-    <p>{reference.kind==='product'?'Part example':'Machining service'}</p>
-    <h2><a href={reference.path}>{reference.title}</a></h2>
+    <div className="inquiry-reference-copy"><p>{reference.kind==='product'?'Part example':'Machining service'}</p>
+    <h2><a href={reference.path}>{reference.title}</a></h2></div>
     <button className="inquiry-text-action" type="button" onClick={editReference}>Change reference</button>
    </div>}
    {!reference&&topic&&<div className="inquiry-reference" aria-label="Inquiry topic"><p>Inquiry topic</p><h2>{topic}</h2></div>}
@@ -133,9 +133,11 @@ export default function QuoteForm({references,siteOrigin}:{references:InquiryRef
      <div className="inquiry-field">
       <label htmlFor="inquiry-phone">WhatsApp / Phone</label>
       <input id="inquiry-phone" name="phone" type="tel" autoComplete="tel" maxLength={inquiryLimits.phone} value={fields.phone} onChange={e=>update('phone',e.target.value)} placeholder="Include country code" aria-invalid={!!(errors.phone||errors.contact)} aria-describedby={'inquiry-contact-help'+(errors.contact?' inquiry-contact-error':'')+(errors.phone?' inquiry-phone-error':'')}/>
-      <p id="inquiry-contact-help" className="inquiry-field-help">Provide an email address or a WhatsApp / phone number.</p>
-      {errors.contact&&<p id="inquiry-contact-error" className="inquiry-field-error">{errors.contact}</p>}
       {errors.phone&&<p id="inquiry-phone-error" className="inquiry-field-error">{errors.phone}</p>}
+     </div>
+     <div className="inquiry-contact-guidance">
+      <p id="inquiry-contact-help" className="inquiry-field-help">Provide an email address or a WhatsApp / phone number. One is enough.</p>
+      {errors.contact&&<p id="inquiry-contact-error" className="inquiry-field-error">{errors.contact}</p>}
      </div>
      </fieldset>
      <fieldset className="inquiry-field-group"><legend>Part requirements</legend>
@@ -155,11 +157,13 @@ export default function QuoteForm({references,siteOrigin}:{references:InquiryRef
       {errors.project&&<p id="inquiry-message-error" className="inquiry-field-error">{errors.project}</p>}
      </div>
      </fieldset>
-     <button className="inquiry-primary" type="submit" disabled={!ready}>Prepare inquiry draft</button>
+     <div className="inquiry-form-actions">
+     <button className="inquiry-primary" type="submit" disabled={!ready}>Prepare inquiry draft <ArrowRight size={18} aria-hidden="true"/></button>
      <noscript><p className="inquiry-noscript">This form needs JavaScript to prepare a draft. <a href="mailto:roger@lzz-cnc.com">Email LZZ</a> with your name, a contact method and part requirements.</p></noscript>
 
      <div className="inquiry-storage"><p role="status">{ready?storageMessage:'Preparing the form…'}</p><button className="inquiry-text-action" type="button" onClick={clear} disabled={!ready}>Clear saved input</button></div>
      <p className="inquiry-send-note"><a href="/privacy/">Draft storage and privacy</a></p>
+     </div>
     </form>
    </>}
    {prepared&&<section className="inquiry-review" aria-labelledby="draft-heading" aria-live="polite" ref={resultRef} tabIndex={-1}>
@@ -187,9 +191,7 @@ export default function QuoteForm({references,siteOrigin}:{references:InquiryRef
    </address>
    <a className="inquiry-text-action" href="/resources/ordering/rfq-checklist/">RFQ preparation checklist</a>
    <div className="inquiry-preparation-photos" aria-label="Drawing, part and inspection references">
-    <figure data-image-origin="AI-generated"><img src="/media/image-led-20261015/definition-800.webp" width="800" height="533" alt="Illustrative model, drawing and sample showing the information to prepare for an RFQ" loading="lazy"/><figcaption>Model and drawing · <span>AI illustration.</span></figcaption></figure>
-    <figure data-image-origin="original-photo"><img src="/media/evidence/multi-feature-milling-parts-800.webp" width="800" height="600" alt="Original photograph of machined components with different faces and openings" loading="lazy"/><figcaption>Part references · original photograph</figcaption></figure>
-    <figure className="inquiry-inspection-photo" data-image-origin="original-photo"><img src="/media/evidence/cmm-detail-800.webp" width="800" height="1067" alt="Original LZZ coordinate measuring machine photograph, illustrating inspection planning rather than a result" loading="lazy"/><figcaption>Measurement equipment · LZZ photograph. Not a part inspection report.</figcaption></figure>
+    <figure data-image-origin="image-reference"><img src="/media/four-stage-rebuild-20261017/drawing-inputs-800.webp" srcSet="/media/four-stage-rebuild-20261017/drawing-inputs-480.webp 480w, /media/four-stage-rebuild-20261017/drawing-inputs-800.webp 800w, /media/four-stage-rebuild-20261017/drawing-inputs-1448.webp 1448w" sizes="(max-width:767px) calc(100vw - 40px), 420px" width="1448" height="1086" alt="Generic machined housing with drawing sheets and a pencil" loading="lazy"/></figure>
    </div>
   </div>
  </div>;

@@ -1,13 +1,16 @@
 ---
 import {photo} from '../data/evidence';
 import {photoFrame} from '../lib/photoFrame';
-interface Props {id?:string;src?:string;srcset?:string;alt?:string;caption?:string;width?:number;height?:number;eager?:boolean;class?:string;sizes?:string;origin?:string}
+import {processDisplay} from '../data/processImageDisplays';
+import {editorialPhotoCaption,imageDescription} from '../lib/imagePresentation';
+interface Props {id?:string;src?:string;srcset?:string;alt?:string;caption?:string;width?:number;height?:number;eager?:boolean;class?:string;sizes?:string;origin?:string;sourceHref?:string}
 const {id,eager=false,class:className='',sizes='(max-width:767px) calc(100vw - 44px), 560px',origin='original-photo'}=Astro.props;
-const item=id?photo(id):{src:Astro.props.src!,srcset:Astro.props.srcset,width:Astro.props.width!,height:Astro.props.height!,alt:Astro.props.alt!,caption:Astro.props.caption};
+const original=id?photo(id):{src:Astro.props.src!,srcset:Astro.props.srcset,width:Astro.props.width!,height:Astro.props.height!,alt:Astro.props.alt!,caption:Astro.props.caption};
+const replacement=processDisplay(original.src),item=replacement||original;
 const frame=await photoFrame(item.src,item.width,item.height);
-const caption=Astro.props.caption??item.caption;
+const caption=Astro.url.pathname.startsWith('/about/company-news/')?editorialPhotoCaption(replacement?.caption??Astro.props.caption??item.caption):undefined;
 ---
-<figure class:list={['ar-photo',className]} data-image-origin={origin} data-shape={frame.width/frame.height>=1.25?'landscape':'portrait'} style={'--ar-image-ratio:'+frame.width+'/'+frame.height}>
- <img src={item.src} srcset={item.srcset} sizes={sizes} width={frame.width} height={frame.height} alt={Astro.props.alt??item.alt} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async"/>
+<figure class:list={['ar-photo',className]} data-image-origin={replacement?'image-reference':origin} data-shape={frame.width/frame.height>=1.25?'landscape':'portrait'} style={'--ar-image-ratio:'+frame.width+'/'+frame.height}>
+ <img src={item.src} srcset={item.srcset} sizes={sizes} width={frame.width} height={frame.height} alt={imageDescription(replacement?.alt??Astro.props.alt??item.alt)} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async"/>
  {caption&&<figcaption>{caption}</figcaption>}
 </figure>

@@ -1,0 +1,742 @@
+{
+  "pages": 86,
+  "browserStates": 202,
+  "browserIssues": [],
+  "issues": [],
+  "sourceIntegrity": [
+    {
+      "file": "src/data/productSourceMedia.generated.json",
+      "unchanged": true,
+      "sha256": "67fb16398afefc3946f6e08508a5d5d9d70ab7c919456ce92d7d93a41762805f"
+    },
+    {
+      "file": "src/data/productPhotography.generated.json",
+      "unchanged": true,
+      "sha256": "14647c84682e4ae68fff71a55776c42343b8eb4a80488f3d8749c9966a4d7dec"
+    },
+    {
+      "file": "src/data/siteImages.generated.json",
+      "unchanged": true,
+      "sha256": "dc67dda5186b7974d5d5a7a32d8d68d93a13936bf7a447e56aaab1c07b9bf62b"
+    },
+    {
+      "file": "src/data/processImageDisplays.generated.json",
+      "unchanged": true,
+      "sha256": "a9b85b8b0b53371f47842878ad8d2ff44c2626812e1ee9a193b0f3ffb91a68a8"
+    },
+    {
+      "file": "src/data/evidence.ts",
+      "unchanged": true,
+      "sha256": "2afc2cbabaae0fd738ae41b30feac460063574eb6ef5a8541c63f8e1b54213bc"
+    },
+    {
+      "file": "src/data/catalog.json",
+      "unchanged": true,
+      "sha256": "eb9b272d9fd4e9c9bf9eda78012d2dd37ab22337301a88d2e7b19f2505f48cff"
+    }
+  ],
+  "assetCheck": {
+    "imageElements": 431,
+    "distinctImages": 154,
+    "srcsetCandidates": 609,
+    "missing": [],
+    "mismatches": []
+  },
+  "changes": [
+    {
+      "route": "/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/",
+      "removedCaptions": 2,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-news/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 5,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 7,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-news/china-africa-west-lake-summit-2025/",
+      "removedCaptions": 2,
+      "removedSourceLinks": 6,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-news/lzz-team-outing-2024/",
+      "removedCaptions": 2,
+      "removedSourceLinks": 7,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-news/may-2025-lzz-team-outing/",
+      "removedCaptions": 2,
+      "removedSourceLinks": 5,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/",
+      "removedCaptions": 2,
+      "removedSourceLinks": 6,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/company-profile/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 6,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/contact/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/about/how-we-work/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/5-axis-cnc-machining/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/aluminum-cnc-parts/",
+      "removedCaptions": 7,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/casting-machining/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/cnc-milling-service/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/cnc-turning-service/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/copper-brass-cnc-parts/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/low-volume-production/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/plastic-machined-parts/",
+      "removedCaptions": 9,
+      "removedSourceLinks": 4,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/prototype-machining/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/stainless-steel-cnc-parts/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/capabilities/starting-with-a-sample/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 1,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/factory/",
+      "removedCaptions": 7,
+      "removedSourceLinks": 5,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/",
+      "removedCaptions": 2,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/gallery/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 5,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/custom-rotary-cylindrical-components/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/global-oem-precision-machining-solutions/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/gallery/ultra-high-precision-machining-services/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 1,
+      "removedImageElements": 1
+    },
+    {
+      "route": "/machined-parts/machining-examples/",
+      "removedCaptions": 9,
+      "removedSourceLinks": 9,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/custom-metal-parts-batch-examples/",
+      "removedCaptions": 7,
+      "removedSourceLinks": 6,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/",
+      "removedCaptions": 11,
+      "removedSourceLinks": 7,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/milling-prismatic-components/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/machined-parts/machining-examples/two-stage-cnc-milling/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/privacy/",
+      "removedCaptions": 0,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/quote/",
+      "removedCaptions": 1,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/faq/",
+      "removedCaptions": 0,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/",
+      "removedCaptions": 7,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/compare-cnc-machining-quotations/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/machined-prototype-approval-checklist/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/rfq-checklist/",
+      "removedCaptions": 4,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/technical-guides/",
+      "removedCaptions": 5,
+      "removedSourceLinks": 0,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/technical-guides/cnc-process-selection/",
+      "removedCaptions": 11,
+      "removedSourceLinks": 8,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/technical-guides/critical-features-cnc-drawing/",
+      "removedCaptions": 6,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/technical-guides/material-and-finish-checklist/",
+      "removedCaptions": 6,
+      "removedSourceLinks": 3,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/ordering/cnc-machining-cost-factors/",
+      "removedCaptions": 6,
+      "removedSourceLinks": 5,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    },
+    {
+      "route": "/resources/technical-guides/6061-vs-7075-cnc-aluminum/",
+      "removedCaptions": 3,
+      "removedSourceLinks": 2,
+      "renamedDocumentControls": 0,
+      "removedReferenceBlocks": 0,
+      "removedImageElements": 0
+    }
+  ],
+  "totals": {
+    "removedCaptions": 326,
+    "removedSourceLinks": 206,
+    "renamedDocumentControls": 6,
+    "removedReferenceBlocks": 35,
+    "removedImageElements": 35
+  }
+}

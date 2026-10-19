@@ -1,0 +1,1250 @@
+[
+  {
+    "actions": [
+      {
+        "bottom": 711.78125,
+        "height": 52,
+        "href": "/quote/",
+        "right": 333.65625,
+        "width": 191.3125,
+        "x": 142.34375,
+        "y": 659.78125
+      },
+      {
+        "bottom": 709.78125,
+        "height": 48,
+        "href": "#machining-processes",
+        "right": 562.0625,
+        "width": 200.40625,
+        "x": 361.65625,
+        "y": 661.78125
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 514.6875,
+      "height": 272.6875,
+      "right": 665.3958740234375,
+      "text": "CNC machining capabilities",
+      "width": 523.0521240234375,
+      "x": 142.34375,
+      "y": 242
+    },
+    "hero": {
+      "bottom": 826.9791870117188,
+      "height": 826.9791870117188,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 741.4791870117188,
+        "height": 52,
+        "href": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F",
+        "right": 333.65625,
+        "width": 191.3125,
+        "x": 142.34375,
+        "y": 689.4791870117188
+      },
+      {
+        "bottom": 739.4791870117188,
+        "height": 48,
+        "href": "#geometry-review",
+        "right": 588.5,
+        "width": 226.84375,
+        "x": 361.65625,
+        "y": 691.4791870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 514.6875,
+      "height": 272.6875,
+      "right": 665.3958740234375,
+      "text": "5-Axis CNC Machining Services",
+      "width": 523.0521240234375,
+      "x": 142.34375,
+      "y": 242
+    },
+    "hero": {
+      "bottom": 856.6771240234375,
+      "height": 856.6771240234375,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/5-axis-cnc-machining/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 710.9166870117188,
+        "height": 52,
+        "href": "/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F",
+        "right": 933.65625,
+        "width": 191.3125,
+        "x": 742.34375,
+        "y": 658.9166870117188
+      },
+      {
+        "bottom": 708.9166870117188,
+        "height": 48,
+        "href": "#materials-finishes",
+        "right": 1159.09375,
+        "width": 197.4375,
+        "x": 961.65625,
+        "y": 660.9166870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 484.125,
+      "height": 242.125,
+      "right": 1267.3958740234375,
+      "text": "Aluminum CNC Machining Services",
+      "width": 525.0521240234375,
+      "x": 742.34375,
+      "y": 242
+    },
+    "hero": {
+      "bottom": 826.1146240234375,
+      "height": 826.1146240234375,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/aluminum-cnc-parts/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 741.4791870117188,
+        "height": 52,
+        "href": "/quote/?part=Machining+of+castings&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F",
+        "right": 333.65625,
+        "width": 191.3125,
+        "x": 142.34375,
+        "y": 689.4791870117188
+      },
+      {
+        "bottom": 739.4791870117188,
+        "height": 48,
+        "href": "#part-examples",
+        "right": 537.0833435058594,
+        "width": 175.42709350585938,
+        "x": 361.65625,
+        "y": 691.4791870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 514.6875,
+      "height": 272.6875,
+      "right": 665.3958740234375,
+      "text": "Casting Machining Services",
+      "width": 523.0521240234375,
+      "x": 142.34375,
+      "y": 242
+    },
+    "hero": {
+      "bottom": 856.6771240234375,
+      "height": 856.6771240234375,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/casting-machining/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 672.6875,
+        "height": 52,
+        "href": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F",
+        "right": 333.65625,
+        "width": 191.3125,
+        "x": 142.34375,
+        "y": 620.6875
+      },
+      {
+        "bottom": 670.6875,
+        "height": 48,
+        "href": "#part-examples",
+        "right": 491.9583435058594,
+        "width": 130.30209350585938,
+        "x": 361.65625,
+        "y": 622.6875
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 445.8958587646485,
+      "height": 181.7916717529297,
+      "right": 665.3958740234375,
+      "text": "CNC Milling Services",
+      "width": 523.0521240234375,
+      "x": 142.34375,
+      "y": 264.10418701171875
+    },
+    "hero": {
+      "bottom": 810,
+      "height": 810,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/cnc-milling-service/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 657.84375,
+        "height": 52,
+        "href": "/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F",
+        "right": 333.65625,
+        "width": 191.3125,
+        "x": 142.34375,
+        "y": 605.84375
+      },
+      {
+        "bottom": 655.84375,
+        "height": 48,
+        "href": "#geometry-review",
+        "right": 560.2083435058594,
+        "width": 198.55209350585935,
+        "x": 361.65625,
+        "y": 607.84375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 460.75001525878906,
+      "height": 181.7916717529297,
+      "right": 665.3958740234375,
+      "text": "CNC Turning Services",
+      "width": 523.0521240234375,
+      "x": 142.34375,
+      "y": 278.9583435058594
+    },
+    "hero": {
+      "bottom": 810,
+      "height": 810,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/cnc-turning-service/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 662.5,
+        "height": 52,
+        "href": "/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F",
+        "right": 933.65625,
+        "width": 191.3125,
+        "x": 742.34375,
+        "y": 610.5
+      },
+      {
+        "bottom": 660.5,
+        "height": 48,
+        "href": "#part-examples",
+        "right": 1156.8958435058594,
+        "width": 195.23959350585935,
+        "x": 961.65625,
+        "y": 612.5
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 435.7083587646485,
+      "height": 161.4166717529297,
+      "right": 1267.3958740234375,
+      "text": "Copper & Brass CNC Machining",
+      "width": 525.0521240234375,
+      "x": 742.34375,
+      "y": 274.29168701171875
+    },
+    "hero": {
+      "bottom": 810,
+      "height": 810,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/copper-brass-cnc-parts/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 728.8021240234375,
+        "height": 52,
+        "href": "/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F",
+        "right": 911.90625,
+        "width": 191.3125,
+        "x": 720.59375,
+        "y": 676.8021240234375
+      },
+      {
+        "bottom": 726.8021240234375,
+        "height": 48,
+        "href": "#release-definition",
+        "right": 1093.9479217529297,
+        "width": 160.0416717529297,
+        "x": 933.90625,
+        "y": 678.8021240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 772.0000457763672,
+      "height": 137.2916717529297,
+      "right": 650.59375,
+      "text": "Low-Volume CNC Production",
+      "width": 508.25,
+      "x": 142.34375,
+      "y": 634.7083740234375
+    },
+    "hero": {
+      "bottom": 840,
+      "height": 840,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/low-volume-production/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 710.9166870117188,
+        "height": 52,
+        "href": "/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F",
+        "right": 933.65625,
+        "width": 191.3125,
+        "x": 742.34375,
+        "y": 658.9166870117188
+      },
+      {
+        "bottom": 708.9166870117188,
+        "height": 48,
+        "href": "#materials-finishes",
+        "right": 1170.3854217529297,
+        "width": 208.7291717529297,
+        "x": 961.65625,
+        "y": 660.9166870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 484.125,
+      "height": 242.125,
+      "right": 1267.3958740234375,
+      "text": "Plastic CNC Machining Services",
+      "width": 525.0521240234375,
+      "x": 742.34375,
+      "y": 242
+    },
+    "hero": {
+      "bottom": 826.1146240234375,
+      "height": 826.1146240234375,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/plastic-machined-parts/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 728.8021240234375,
+        "height": 52,
+        "href": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F",
+        "right": 911.90625,
+        "width": 191.3125,
+        "x": 720.59375,
+        "y": 676.8021240234375
+      },
+      {
+        "bottom": 726.8021240234375,
+        "height": 48,
+        "href": "#part-examples",
+        "right": 1094.59375,
+        "width": 160.6875,
+        "x": 933.90625,
+        "y": 678.8021240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 772.0000457763672,
+      "height": 137.2916717529297,
+      "right": 650.59375,
+      "text": "CNC Prototype Machining",
+      "width": 508.25,
+      "x": 142.34375,
+      "y": 634.7083740234375
+    },
+    "hero": {
+      "bottom": 840,
+      "height": 840,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/prototype-machining/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 662.5,
+        "height": 52,
+        "href": "/quote/?part=Stainless+steel+machining&capability=stainless-steel-cnc-parts&source=%2Fcapabilities%2Fstainless-steel-cnc-parts%2F",
+        "right": 933.65625,
+        "width": 191.3125,
+        "x": 742.34375,
+        "y": 610.5
+      },
+      {
+        "bottom": 660.5,
+        "height": 48,
+        "href": "#materials-finishes",
+        "right": 1159.09375,
+        "width": 197.4375,
+        "x": 961.65625,
+        "y": 612.5
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 435.7083587646485,
+      "height": 161.4166717529297,
+      "right": 1267.3958740234375,
+      "text": "Stainless Steel CNC Machining",
+      "width": 525.0521240234375,
+      "x": 742.34375,
+      "y": 274.29168701171875
+    },
+    "hero": {
+      "bottom": 810,
+      "height": 810,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/stainless-steel-cnc-parts/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 728.8021240234375,
+        "height": 52,
+        "href": "/quote/?part=Starting+with+a+sample&capability=starting-with-a-sample&source=%2Fcapabilities%2Fstarting-with-a-sample%2F",
+        "right": 911.90625,
+        "width": 191.3125,
+        "x": 720.59375,
+        "y": 676.8021240234375
+      },
+      {
+        "bottom": 726.8021240234375,
+        "height": 48,
+        "href": "#sample-review",
+        "right": 1166.9791717529297,
+        "width": 233.0729217529297,
+        "x": 933.90625,
+        "y": 678.8021240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 168.79166793823242,
+      "height": 20.791667938232425,
+      "right": 1282.3333435058594,
+      "width": 1140,
+      "x": 142.33334350585938,
+      "y": 148
+    },
+    "h1": {
+      "bottom": 772.0000457763672,
+      "height": 137.2916717529297,
+      "right": 650.59375,
+      "text": "Machining from an Existing Sample",
+      "width": 508.25,
+      "x": 142.34375,
+      "y": 634.7083740234375
+    },
+    "hero": {
+      "bottom": 840,
+      "height": 840,
+      "right": 1424.666666666977,
+      "width": 1424.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/starting-with-a-sample/",
+    "width": 1440
+  },
+  {
+    "actions": [
+      {
+        "bottom": 623.7916870117188,
+        "height": 48,
+        "href": "/quote/",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 575.7916870117188
+      },
+      {
+        "bottom": 681.7916870117188,
+        "height": 46,
+        "href": "#machining-processes",
+        "right": 191.9270896911621,
+        "width": 171.9166717529297,
+        "x": 20.010417938232425,
+        "y": 635.7916870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "CNC machining capabilities",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 813.3854370117188,
+      "height": 813.3854370117188,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 695.1146240234375,
+        "height": 48,
+        "href": "/quote/?part=5-axis+machining&capability=5-axis-cnc-machining&source=%2Fcapabilities%2F5-axis-cnc-machining%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 647.1146240234375
+      },
+      {
+        "bottom": 753.1146240234375,
+        "height": 46,
+        "href": "#geometry-review",
+        "right": 214.5937614440918,
+        "width": 194.58334350585935,
+        "x": 20.010417938232425,
+        "y": 707.1146240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 473.25,
+      "height": 137.25,
+      "right": 354.6666679382324,
+      "text": "5-Axis CNC Machining Services",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 884.7083740234375,
+      "height": 884.7083740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/5-axis-cnc-machining/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 695.1146240234375,
+        "height": 48,
+        "href": "/quote/?part=Aluminum+machining&capability=aluminum-cnc-parts&source=%2Fcapabilities%2Faluminum-cnc-parts%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 647.1146240234375
+      },
+      {
+        "bottom": 753.1146240234375,
+        "height": 46,
+        "href": "#materials-finishes",
+        "right": 189.3854179382324,
+        "width": 169.375,
+        "x": 20.010417938232425,
+        "y": 707.1146240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 473.25,
+      "height": 137.25,
+      "right": 354.6666679382324,
+      "text": "Aluminum CNC Machining Services",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 884.7083740234375,
+      "height": 884.7083740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/aluminum-cnc-parts/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 649.3646240234375,
+        "height": 48,
+        "href": "/quote/?part=Machining+of+castings&capability=casting-machining&source=%2Fcapabilities%2Fcasting-machining%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 601.3646240234375
+      },
+      {
+        "bottom": 648.3646240234375,
+        "height": 46,
+        "href": "#part-examples",
+        "right": 349.3020935058594,
+        "width": 150.5104217529297,
+        "x": 198.7916717529297,
+        "y": 602.3646240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "Casting Machining Services",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 780.9583740234375,
+      "height": 780.9583740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/casting-machining/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 649.3646240234375,
+        "height": 48,
+        "href": "/quote/?part=CNC+milling&capability=cnc-milling-service&source=%2Fcapabilities%2Fcnc-milling-service%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 601.3646240234375
+      },
+      {
+        "bottom": 648.3646240234375,
+        "height": 46,
+        "href": "#part-examples",
+        "right": 310.62500762939453,
+        "width": 111.83333587646484,
+        "x": 198.7916717529297,
+        "y": 602.3646240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "CNC Milling Services",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 780.9583740234375,
+      "height": 780.9583740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/cnc-milling-service/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 623.7916870117188,
+        "height": 48,
+        "href": "/quote/?part=CNC+turning&capability=cnc-turning-service&source=%2Fcapabilities%2Fcnc-turning-service%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 575.7916870117188
+      },
+      {
+        "bottom": 681.7916870117188,
+        "height": 46,
+        "href": "#geometry-review",
+        "right": 190.3437614440918,
+        "width": 170.33334350585938,
+        "x": 20.010417938232425,
+        "y": 635.7916870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "CNC Turning Services",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 813.3854370117188,
+      "height": 813.3854370117188,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/cnc-turning-service/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 649.3646240234375,
+        "height": 48,
+        "href": "/quote/?part=Copper+%26+brass+machining&capability=copper-brass-cnc-parts&source=%2Fcapabilities%2Fcopper-brass-cnc-parts%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 601.3646240234375
+      },
+      {
+        "bottom": 707.3646240234375,
+        "height": 46,
+        "href": "#part-examples",
+        "right": 187.5000114440918,
+        "width": 167.48959350585938,
+        "x": 20.010417938232425,
+        "y": 661.3646240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "Copper & Brass CNC Machining",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 838.9583740234375,
+      "height": 838.9583740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/copper-brass-cnc-parts/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 623.7916870117188,
+        "height": 48,
+        "href": "/quote/?part=Low-volume+production&capability=low-volume-production&source=%2Fcapabilities%2Flow-volume-production%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 575.7916870117188
+      },
+      {
+        "bottom": 622.7916870117188,
+        "height": 46,
+        "href": "#release-definition",
+        "right": 336.1145935058594,
+        "width": 137.3229217529297,
+        "x": 198.7916717529297,
+        "y": 576.7916870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "Low-Volume CNC Production",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 755.3854370117188,
+      "height": 755.3854370117188,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/low-volume-production/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 695.1146240234375,
+        "height": 48,
+        "href": "/quote/?part=Plastic+machining&capability=plastic-machined-parts&source=%2Fcapabilities%2Fplastic-machined-parts%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 647.1146240234375
+      },
+      {
+        "bottom": 753.1146240234375,
+        "height": 46,
+        "href": "#materials-finishes",
+        "right": 199.0625114440918,
+        "width": 179.05209350585938,
+        "x": 20.010417938232425,
+        "y": 707.1146240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 473.25,
+      "height": 137.25,
+      "right": 354.6666679382324,
+      "text": "Plastic CNC Machining Services",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 884.7083740234375,
+      "height": 884.7083740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/plastic-machined-parts/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 623.7916870117188,
+        "height": 48,
+        "href": "/quote/?part=Prototype+machining&capability=prototype-machining&source=%2Fcapabilities%2Fprototype-machining%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 575.7916870117188
+      },
+      {
+        "bottom": 622.7916870117188,
+        "height": 46,
+        "href": "#part-examples",
+        "right": 336.6666717529297,
+        "width": 137.875,
+        "x": 198.7916717529297,
+        "y": 576.7916870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "CNC Prototype Machining",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 755.3854370117188,
+      "height": 755.3854370117188,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/prototype-machining/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 649.3646240234375,
+        "height": 48,
+        "href": "/quote/?part=Stainless+steel+machining&capability=stainless-steel-cnc-parts&source=%2Fcapabilities%2Fstainless-steel-cnc-parts%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 601.3646240234375
+      },
+      {
+        "bottom": 707.3646240234375,
+        "height": 46,
+        "href": "#materials-finishes",
+        "right": 189.3854179382324,
+        "width": 169.375,
+        "x": 20.010417938232425,
+        "y": 661.3646240234375
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "Stainless Steel CNC Machining",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 838.9583740234375,
+      "height": 838.9583740234375,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/stainless-steel-cnc-parts/",
+    "width": 390
+  },
+  {
+    "actions": [
+      {
+        "bottom": 623.7916870117188,
+        "height": 48,
+        "href": "/quote/?part=Starting+with+a+sample&capability=starting-with-a-sample&source=%2Fcapabilities%2Fstarting-with-a-sample%2F",
+        "right": 178.79166793823242,
+        "width": 158.78125,
+        "x": 20.010417938232425,
+        "y": 575.7916870117188
+      },
+      {
+        "bottom": 681.7916870117188,
+        "height": 46,
+        "href": "#sample-review",
+        "right": 219.9270896911621,
+        "width": 199.9166717529297,
+        "x": 20.010417938232425,
+        "y": 635.7916870117188
+      }
+    ],
+    "breadcrumb": {
+      "bottom": 141.59375,
+      "height": 17.59375,
+      "right": 354.66668701171875,
+      "width": 334.66668701171875,
+      "x": 20,
+      "y": 124
+    },
+    "h1": {
+      "bottom": 427.5,
+      "height": 91.5,
+      "right": 354.6666679382324,
+      "text": "Machining from an Existing Sample",
+      "width": 334.65625,
+      "x": 20.010417938232425,
+      "y": 336
+    },
+    "hero": {
+      "bottom": 813.3854370117188,
+      "height": 813.3854370117188,
+      "right": 374.6666666669771,
+      "width": 374.65625,
+      "x": 0.010416666977107523,
+      "y": 0
+    },
+    "heroImageLoaded": true,
+    "labels": 0,
+    "overflow": false,
+    "url": "http://127.0.0.1:4321/capabilities/starting-with-a-sample/",
+    "width": 390
+  }
+]

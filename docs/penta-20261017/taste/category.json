@@ -1,0 +1,1069 @@
+{
+ "url": "http://127.0.0.1:4321/capabilities/",
+ "at": "2026-10-17T01:34:32.979Z",
+ "allow": [
+  "eyebrow",
+  "shadow"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.53,
+    0.57,
+    0.45,
+    0.63,
+    0.57
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 12,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4324,
+     "screens": 4.8,
+     "words": 547,
+     "img": 13,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 11,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "p00-framed-800.webp",
+      "p19-framed-800.webp",
+      "p02-800.webp",
+      "p22-framed-800.webp",
+      "material-stock-800.webp",
+      "sample-definition-480.webp",
+      "two-stage-first-1600-640.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "CNC machining capabilities",
+     "words": 3,
+     "chars": 26,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Roboto Condensed",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.07,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.38,
+     "top": 188,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CNC machining capabilities",
+     "words": 3,
+     "lines": 2,
+     "size": 64,
+     "font": "Roboto Condensed"
+    },
+    "headings": [
+     {
+      "text": "CNC machining capabilities",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.07,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 188,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose by part geometry",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 405,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with the material",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 1237,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What information do you have today?",
+      "words": 6,
+      "chars": 35,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 2120,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Review the work behind the part",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 2924,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bring the part requirements together",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 3407,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Roboto Condensed",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      17,
+      20,
+      26,
+      40,
+      44,
+      64
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 17,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Roboto Condensed",
+      "text": "CNC machining capabilities"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f6",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#102c2e",
+       "top": 2774,
+       "hsl": {
+        "h": 184,
+        "s": 0.48,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#202729",
+       "share": 0.66
+      },
+      {
+       "color": "#535f61",
+       "share": 0.12
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.07
+      },
+      {
+       "color": "#f7f8f6",
+       "share": 0.06
+      },
+      {
+       "color": "#e0e7e4",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#12699b",
+      "hsl": {
+       "h": 202,
+       "s": 0.79,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 5,
+     "height": 51,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Prepare RFQ email"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 4,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.nav-panel.nav-panel-capabilities → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 9,
+     "boxRadius": 22,
+     "squareMedia": 4,
+     "roundedMedia": 3,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 10,
+     "fixed": true,
+     "height": 90,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter variable",
+     "roboto condensed"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.57,
+    0.92,
+    0.82,
+    0.61,
+    0.78,
+    0.69,
+    0.59,
+    0.75,
+    0.88
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 12,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7304,
+     "screens": 8.7,
+     "words": 524,
+     "img": 13,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 11,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "p00-framed-480.webp",
+      "p19-framed-480.webp",
+      "p02-480.webp",
+      "p22-framed-480.webp",
+      "material-stock-480.webp",
+      "sample-definition-480.webp",
+      "two-stage-first-1600-400.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "CNC machining capabilities",
+     "words": 3,
+     "chars": 26,
+     "lines": 2,
+     "size": 42,
+     "vw": 10.8,
+     "font": "Roboto Condensed",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 148,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CNC machining capabilities",
+     "words": 3,
+     "lines": 2,
+     "size": 42,
+     "font": "Roboto Condensed"
+    },
+    "headings": [
+     {
+      "text": "CNC machining capabilities",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 148,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose by part geometry",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 454,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "CNC milling",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 875,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "CNC turning",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 1268,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "5-axis machining",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 1686,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Machining of castings",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2105,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with the material",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2369,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aluminum",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 2856,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stainless steel",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 2966,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Copper & brass",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 3096,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering plastics",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 3225,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "What information do you have today?",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3450,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Evaluate a prototype",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3904,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Plan a pilot or repeat batch",
+      "words": 6,
+      "chars": 28,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4087,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with an existing sample",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4269,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Review the work behind the part",
+      "words": 6,
+      "chars": 31,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4567,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bring the part requirements together",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5360,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 17,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Roboto Condensed",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      21,
+      25,
+      32,
+      34,
+      42
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 42,
+      "vw": 10.8,
+      "font": "Roboto Condensed",
+      "text": "CNC machining capabilities"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f6",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 625,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#102c2e",
+       "top": 4541,
+       "hsl": {
+        "h": 184,
+        "s": 0.48,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#202729",
+       "share": 0.63
+      },
+      {
+       "color": "#535f61",
+       "share": 0.12
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
+      },
+      {
+       "color": "#f7f8f6",
+       "share": 0.06
+      },
+      {
+       "color": "#e0e7e4",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#12699b",
+      "hsl": {
+       "h": 202,
+       "s": 0.79,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 5,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Prepare RFQ email"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 20,
+     "squareMedia": 4,
+     "roundedMedia": 3,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter variable",
+     "roboto condensed"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 12 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 390,
+   "message": "10 different font sizes (13, 14, 15, 16, 18, 21, 25, 32, 34, 42).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\lzz\\penta-redesign-20261017\\taste-final\\category\\desktop-fold.jpg",
+   "pages": [
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\category\\desktop-page-01.jpg",
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\category\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\lzz\\penta-redesign-20261017\\taste-final\\category\\mobile-fold.jpg",
+   "pages": [
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\category\\mobile-page-01.jpg",
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\category\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

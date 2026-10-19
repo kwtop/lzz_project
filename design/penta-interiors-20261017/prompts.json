@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "generic explanatory assets for Penta-derived LZZ interior layouts",
+  "prompts": [
+    {
+      "name": "milling",
+      "prompt": "Create one premium industrial editorial photograph-style illustration for the right-hand 40% image column of a CNC machining supplier website. Portrait 4:5 composition. A physically plausible close-up of a vertical CNC milling spindle and a small end mill cutting a simple pocket in a securely clamped rectangular aluminum workpiece. Show the cutter meeting one inside wall, readable machined faces, a few natural chips, understated brushed steel fixture, dark machine enclosure softly out of focus. Main machining contact is centered around the middle third; keep the complete tool and upper workpiece readable when cropped to a tall 570x700 frame, 12% safe margin. Cool neutral steel and silver, subtle industrial blue details, natural workshop light with gentle contrast; credible tactile photography rather than glossy 3D advertising. No people, company marks, screens, readable text, measurement numbers, certificates or watermarks. This is a generic process illustration, not a photograph of any named factory. No sparks, no floating tools, no impossible cutting geometry."
+    },
+    {
+      "name": "turning",
+      "prompt": "Create one premium industrial editorial photograph-style illustration for a CNC turning service webpage, portrait 4:5. Close view inside a modern lathe: a cylindrical stainless steel workpiece clamped securely in a three-jaw chuck at left, a single-point carbide turning tool approaching the outer shoulder at right, a small realistic curled chip at the contact. Mechanical relationships must be physically plausible, uncluttered geometry and clear stepped shaft profile. Frame chuck, workpiece and tool together with comfortable crop margin for a tall 570x700 image column. Cool neutral silver and graphite, restrained deep blue reflected accents, natural machine lighting, fine realistic surface texture, shallow but readable depth of field. High-end documentary photographic appearance, no excessive glossy CGI. Generic explanatory scene only; no people, branding, labels, text, gauges, dramatic sparks, multiple floating tools or watermarks."
+    },
+    {
+      "name": "five-axis",
+      "prompt": "Generate one refined realistic industrial photographic illustration of indexed multi-axis machining for a premium CNC supplier website. Portrait 4:5. A compact aluminum block with angled planes and a bore is securely held in a small vise on an angled rotary trunnion table, with the spindle and end mill above it. Show a coherent physically plausible indexed orientation with ample tool and fixture clearance; the still image must not imply proven simultaneous motion. Clean simple engineering geometry rather than a futuristic turbine. Main setup fills the central 70%, full clamp and tool contact visible with 12% crop-safe margins for a tall 570x700 website image. Neutral metal textures, graphite enclosure, subtle deep blue details, natural soft workshop light, calm high-quality photography. No people, names, brands, text, dimensions, stamps, screens, sparks, floating parts or watermark. Generic process illustration, not evidence of a specific machine or facility."
+    },
+    {
+      "name": "drawing-review",
+      "prompt": "Generate one high-quality editorial still-life photograph-style illustration for manufacturing resource guides and sample-to-drawing planning. Landscape 4:3. A simple unbranded aluminum pocketed enclosure part, one loose matching rectangular plate, a closed digital caliper with no visible reading, a pencil and a small stack of abstract engineering drawing sheets on a light cool-gray engineering desk. Drawing lines should be schematic and non-readable, no dimensions, numbers, company title blocks, test results or claims. Part occupies central-right area, papers enter from lower-left; balanced quiet composition, realistic scale, comfortable 12% margins so it also crops as a square. Silver brushed metal, off-white paper, a tiny restrained dark blue pencil detail. Natural side daylight, nuanced soft shadows and real material texture; polished editorial photography, not a glossy product render. No people, branding, logos, certificates, text, UI, glow, colored gradients or watermark."
+    },
+    {
+      "name": "plastic-milling",
+      "prompt": "One high-end realistic industrial editorial photograph-style process illustration, portrait 4:5, for a CNC engineering-plastics service web hero. A small clean vertical end mill cutting a shallow pocket in a matte white unfilled polymer block secured with broad soft jaws. Show simple pocket, a few short white polymer shavings, complete tool and coherent vise grip, physically plausible scale. Keep main contact and block in the central 65% with 12% safe cropping margin. Neutral graphite machine interior, cool daylight, very subtle dark blue fixture details, tactile non-glossy materials. No sparks, metal chips, people, company brands, logos, text, screen displays, certification, dramatic cinematic beams or watermark. Generic explanatory illustration, not evidence of any named factory or polymer grade."
+    },
+    {
+      "name": "packing",
+      "prompt": "One calm premium editorial still-life photographic illustration for a CNC parts packing and shipping guide, landscape 4:3. An open unmarked sturdy cardboard carton on a clean light gray workbench; inside, four simple machined aluminum blocks in snug separate dark gray foam recesses, clear spacing protects all faces and edges. One fitted foam lid lies beside the box, no loose tools or extra props. Three-quarter overhead angle, entire carton within frame, central composition with 12% crop-safe margins. Natural soft side light, authentic cardboard and foam texture, understated silver and graphite colors with no artificial glow. The scene is a generic packing example, not a real shipment or customer order. No people, names, labels, documents, numbers, seals, text, logos or watermark."
+    }
+  ]
+}

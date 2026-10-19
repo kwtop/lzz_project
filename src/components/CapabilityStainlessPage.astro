@@ -7,18 +7,21 @@ import CapabilityExamples from './CapabilityExamples.astro';
 import CapabilityConcept from './CapabilityConcept.astro';
 import CapabilityInspectionReview from './CapabilityInspectionReview.astro';
 import CapabilityInquiry from './CapabilityInquiry.astro';
+import CapabilityDecisionGuide from './CapabilityDecisionGuide.astro';
+import {capabilityDecisions} from '../data/capabilityDecisions';
 import '../styles/stainless-machining.css';
 interface Props {page:RevisedCapability;quoteHref:string}
 const {page,quoteHref}=Astro.props;
+const guide=capabilityDecisions[page.slug];
 const gradeQuestion=page.scopeQuestions[0];
-const examplesPage={...page,plan:{...page.plan,exampleIntro:'For locking hardware, define pin fits, mating interfaces and any separate functional requirements.'}};
-const geometry={...capabilityConcepts['cnc-turning-service'],caption:'AI geometry illustration. Appearance does not identify a stainless steel grade.'};
+const examplesPage={...page,plan:{...page.plan,exampleIntro:guide.featureIntro+' Locking hardware also needs its pin fits and any separate functional requirements defined.'}};
+const geometry={...capabilityConcepts['cnc-turning-service'],caption:'The bore and shoulders locate the round working features. Geometry illustration; the material grade follows the drawing.'};
 ---
-<div class="steel-page">
+<div class="steel-page pn-capability-rollout" data-penta-capability={page.slug}>
  <div data-core-section="service"><CapabilityIntro page={page} material quoteHref={quoteHref}/></div>
- <div class="steel-section steel-materials" data-core-section="grade-and-treatment"><CapabilityMaterialTable page={page} title="Specify the grade and treatment state" intro="Select the stainless grade for the operating environment, with the condition, finish and required material records. The listed grades are alternatives; suitability and availability are confirmed for your drawing."><aside slot="examples" class="steel-grade-question"><h3>{gradeQuestion.question}</h3><p>{gradeQuestion.answer}</p></aside></CapabilityMaterialTable></div>
  <CapabilityExamples page={examplesPage} skipHero singleEntry coreSection="part-forms"/>
- <section class="steel-section steel-datums" id="geometry-review" data-core-section="machining-sequence"><header><h2>{page.plan.geometry.title}</h2></header><div class="steel-datum-grid" id="machining-studies"><div><p>Mark the datum axis, shoulders, fitted diameters, threads and off-axis features. Locate flats, holes and engraving from the working diameters and shoulders.</p><h3 id="size-and-setup-review">Workholding and final condition</h3><p>Review stock dimensions, clamping access and the working diameters. Specify the surface condition, measurement stage after treatment, burr limits and acceptance records.</p></div><CapabilityConcept art={geometry}/></div></section>
+ <div class="steel-section steel-materials" data-core-section="grade-and-treatment"><CapabilityMaterialTable page={page} title="Choose the grade and treatment state" intro={guide.materialsIntro}><CapabilityDecisionGuide slug={page.slug}/><aside slot="examples" class="steel-grade-question"><h3>{gradeQuestion.question}</h3><p>{gradeQuestion.answer}</p></aside></CapabilityMaterialTable></div>
+ <section class="steel-section steel-datums" id="geometry-review" data-core-section="machining-sequence"><header><h2>{page.plan.geometry.title}</h2></header><div class="steel-datum-grid" id="machining-studies"><div><p>The bore, shoulders and fitted diameters share an axis. Turning establishes these round features; secondary milling adds flats or holes. The locating scheme must preserve their relationship through each operation.</p><h3 id="size-and-setup-review">Workholding and final condition</h3><p>Stock dimensions and clamping access affect how the working diameters can be held. Surface treatment can add another stage before final acceptance, so the drawing identifies the surface condition, measurement stage, burr limits and required records.</p></div><CapabilityConcept art={geometry}/></div></section>
  <CapabilityInspectionReview page={page} title="Verify diameters, threads and treated surfaces" questions={[]} compactEvidence/>
  <CapabilityInquiry page={page} quoteHref={quoteHref} orderFirst coreSection="quotation"/>
 </div>

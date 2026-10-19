@@ -1,0 +1,13 @@
+[
+  {
+    "id": "setup-top",
+    "prompt": "Edit target: the attached ORIGINAL workshop photograph. Make a premium but plausible industrial editorial photograph for a website, 4:3 landscape. This is an explicitly labelled SETUP-PLANNING ILLUSTRATION, not documentary proof. Keep the recognizable aluminium D-shaped flange component with its flat broad face, central rectangular recess and row of narrow slots along the front edge. Show this component lying HORIZONTALLY in one clean soft-jaw machining vise, TOP FACE UP; a vertical end mill is positioned just above the top recess. Remove the two distracting empty vises at the sides. Frame a close three-quarter slightly overhead view: the workpiece and main vise dominate the middle 65% of the image, spindle visible at the top, enough breathing room for the whole workpiece. Preserve the component's recognizable source shape and features; do not add precision specifications, new holes or invented branding. Cool grey enclosure, subtle blue coolant hose, soft natural industrial lighting, real machined metal texture, minimal clean chips, no oil film, no exaggerated spray, no people, no text, no arrows, no diagram labels. Main distinction from the companion image will be a horizontal top-up workpiece. Output only the photograph, no border or collage.",
+    "references": [
+      "/media/evidence/two-stage-first-1600.webp"
+    ],
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-7680e296-828d-4f75-900f-fbb6d9854084.png",
+    "master": "masters/setup-top.png",
+    "status": "generated",
+    "identity": "setup planning illustration"
+  }
+]

@@ -23,3 +23,15 @@ dist/
 !/docs/imagegen-*/**
 !/docs/design/**
 /docs/**/*.zip
+
+# Local visual QA captures and rollback patches; retain image masters and manifests.
+/design/**/screenshots/
+/design/**/before-*
+/design/**/after-*
+/design/**/task.patch
+/design/**/rollback*.json
+/design/**/image-atlas-*.jpg
+/design/**/*-comparison.jpg
+/design/**/*-viewport.png
+/design/product-photography-20261018/all-35-in-browser.jpg
+/design/penta-style-finish-20261018/*.jpg

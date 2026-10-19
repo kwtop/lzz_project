@@ -1,0 +1,24 @@
+{
+  "scope": "Homepage hero only",
+  "issues": [],
+  "metadata": {
+    "title": "Custom CNC machining for prototypes & small batches | LZZ Precision",
+    "description": "Custom CNC machining in Hangzhou for prototypes and small batches. Orders from 1 piece; production in 7-14 business days after drawing and order confirmation. Transit is additional.",
+    "canonical": "https://www.lzz-cnc.com/",
+    "schema": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.lzz-cnc.com/#organization\",\"name\":\"Hangzhou Lizhizao Precision Machinery Co., Ltd.\",\"alternateName\":\"LZZ Precision\",\"url\":\"https://www.lzz-cnc.com/\",\"logo\":\"https://www.lzz-cnc.com/media/lzz-logo.png\",\"email\":\"roger@lzz-cnc.com\",\"telephone\":\"+86 138 5810 2479\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"No. 4 Fengcheng Road\",\"addressLocality\":\"Pingyao, Yuhang District, Hangzhou\",\"addressRegion\":\"Zhejiang\",\"addressCountry\":\"CN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://www.lzz-cnc.com/#website\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"LZZ Precision\",\"publisher\":{\"@id\":\"https://www.lzz-cnc.com/#organization\"},\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://www.lzz-cnc.com/#webpage\",\"url\":\"https://www.lzz-cnc.com/\",\"name\":\"Custom CNC machining in Hangzhou\",\"description\":\"Custom CNC machining in Hangzhou for prototypes and small batches. Orders from 1 piece; production in 7-14 business days after drawing and order confirmation. Transit is additional.\",\"isPartOf\":{\"@id\":\"https://www.lzz-cnc.com/#website\"},\"inLanguage\":\"en\"}]}"
+    ]
+  },
+  "belowHeroSourceUnchanged": true,
+  "existingAssetEntriesUnchanged": true,
+  "masters": 2,
+  "responsiveFiles": 6,
+  "states": 7,
+  "heroHeadline": "Custom CNC machining.Made to your drawing.",
+  "imageLoading": "eager",
+  "imagePriority": "high",
+  "bytes": {
+    "desktopMaximum": 121518,
+    "mobileSelected640": 67580
+  }
+}

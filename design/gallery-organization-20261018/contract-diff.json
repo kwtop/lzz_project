@@ -1,0 +1,22 @@
+[
+  {
+    "route": "/capabilities/aluminum-cnc-parts/",
+    "key": "text"
+  },
+  {
+    "route": "/capabilities/copper-brass-cnc-parts/",
+    "key": "text"
+  },
+  {
+    "route": "/capabilities/plastic-machined-parts/",
+    "key": "text"
+  },
+  {
+    "route": "/capabilities/stainless-steel-cnc-parts/",
+    "key": "text"
+  },
+  {
+    "route": "/capabilities/starting-with-a-sample/",
+    "key": "text"
+  }
+]

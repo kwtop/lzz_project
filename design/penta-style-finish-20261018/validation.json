@@ -1,0 +1,55 @@
+{
+  "canonicalPages": 86,
+  "imageElements": 434,
+  "imageFiles": 556,
+  "metadataPreserved": true,
+  "tablesPreserved": true,
+  "anchorsPreserved": true,
+  "businessLinksPreserved": true,
+  "reorderedHeadings": [
+    "/resources/"
+  ],
+  "changed": [
+    {
+      "file": "src/components/FactoryRedesign.astro",
+      "before": "0b39380b09aa2cdb5ea0fe53a797a1b68d594e6e5b51f57a4d78a525925114ea",
+      "after": "517a79ed0d8a00ed953da8ca66c2ce064fd550458101dc879bb68d7cea316506"
+    },
+    {
+      "file": "src/components/PartsCatalogueExplorerRedesigned.tsx",
+      "before": "7dbe055c81e981c6efddd9fa1d15883216a1cedb0d7f099e36e190e4f586c85d",
+      "after": "ba7bf731c03fe4fcde229ed626db0951bdc37515287639b7e28c0b2b88e4a01a"
+    },
+    {
+      "file": "src/components/PentaInnerHero.astro",
+      "before": "96921b8828379cca3e8d1f8f67ee538a3edba0f6e6d50ac2bbfa5a61d9e76c6f",
+      "after": "58ef7be4ce4c8aac940fc9db4be6cbe1120a34ed17e944a6cdeafe73e6a1c0d8"
+    },
+    {
+      "file": "src/components/PentaMillingPage.astro",
+      "before": "6399e8281f42c18796b59207d9ee877f7a17ca98308f04992adcdb5633117ee4",
+      "after": "28df3b6feaf7a2c841e85c42e7def72159f7f6dd48df695375e969a618fca204"
+    },
+    {
+      "file": "src/components/ProductsPartRedesigned.astro",
+      "before": "5aa2ccd9108b101185bf9cab91b1f201628f0b58336bb890fa3902369c910159",
+      "after": "20a1431d501f5b13d5bc8933c2385bf08447c6cded43fc8317af694c96076dd8"
+    },
+    {
+      "file": "src/components/ResourceDirectoryRedesign.astro",
+      "before": "53f417346ae5409586ece8c3760122208a3a8da0bb7a0b38387e496638b79b6c",
+      "after": "27359aa289805f010623feb4a8ed7b41e8103738974ee1dcadeabad3ce3ffa09"
+    },
+    {
+      "file": "src/styles/penta-interiors.css",
+      "before": "e0389dc18c9e09968608560ff09a6018ed3bb7e59a6588350f79238a8881f06f",
+      "after": "78fd58f630a0e61a713ec153b84ea7225ca891556d8b0906d8b95c8d17ec096d"
+    },
+    {
+      "file": "src/styles/site-composition.css",
+      "before": "b84b3a2ca8784692ba9be394bfb1275052667279be45ac104fe95ae733f53164",
+      "after": "0ad93d06e7cea607fe73eb55596253a3267d82fb8f4935eb9b2df258e2db0357"
+    }
+  ],
+  "issues": []
+}

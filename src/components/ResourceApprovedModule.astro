@@ -8,7 +8,8 @@ import {resourceImagePlan} from '../data/resourceImagePlan';
 import {load} from 'cheerio';
 interface Props {item:ApprovedResourceModule;rfqTools?:boolean;slug:string;core?:boolean}
 const {item,rfqTools=false,slug,core=false}=Astro.props,{section,kind='reading',visual}=item;
-const media=slug==='compare-cnc-machining-quotations'&&section.id==='comparison'?undefined:resourceImagePlan[slug]?.[section.id];
+const coverAlreadyExplains=slug==='custom-cnc-parts-shipping-checklist'&&section.id==='section-2';
+const media=(slug==='compare-cnc-machining-quotations'&&section.id==='comparison')||coverAlreadyExplains?undefined:resourceImagePlan[slug]?.[section.id];
 const imageAfterTable=slug==='cnc-process-selection'&&section.id==='process-comparison';
 const photos=(section.photos||[]).filter(source=>slug!=='custom-cnc-parts-shipping-checklist'||!['shipment-2022-order-packing','shipment-2022-prepared-load'].includes(source.id));
 const $=load(resourceHtml(section.html),null,false);

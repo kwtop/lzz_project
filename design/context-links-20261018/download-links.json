@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/resources/",
+    "href": "/downloads/cnc-rfq-brief.txt",
+    "bytes": 779
+  },
+  {
+    "route": "/resources/",
+    "href": "/downloads/order-acceptance-checklist.txt",
+    "bytes": 1018
+  },
+  {
+    "route": "/resources/ordering/",
+    "href": "/downloads/cnc-rfq-brief.txt",
+    "bytes": 779
+  },
+  {
+    "route": "/resources/ordering/",
+    "href": "/downloads/order-acceptance-checklist.txt",
+    "bytes": 1018
+  },
+  {
+    "route": "/resources/ordering/rfq-checklist/",
+    "href": "/downloads/cnc-rfq-brief.txt",
+    "bytes": 779
+  },
+  {
+    "route": "/resources/ordering/rfq-checklist/",
+    "href": "/downloads/order-acceptance-checklist.txt",
+    "bytes": 1018
+  },
+  {
+    "route": "/factory/",
+    "href": "/downloads/order-acceptance-checklist.txt",
+    "bytes": 1018
+  }
+]

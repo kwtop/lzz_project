@@ -1,0 +1,145 @@
+[
+  {
+    "id": "machining",
+    "file": "exec-32c0f0ec-9c2e-4ac5-a05b-9b1ef2c28f45.png",
+    "kind": "imagegen-edit",
+    "old": "/media/home-hero-20261017/machining-desktop-1672.webp",
+    "slots": [
+      "/ homepage hero"
+    ],
+    "brief": "Recompose the prior AI process illustration to 4:3. Make the pocket and end mill the focal point; soft cool daylight, restrained chips, no labels or factory claims.",
+    "originalOutput": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-32c0f0ec-9c2e-4ac5-a05b-9b1ef2c28f45.png",
+    "master": "D:\\lzz\\lzz\\_react\\design\\four-stage-rebuild-20261017\\machining.png",
+    "width": 1448,
+    "height": 1086,
+    "sha256": "122b62fb196c7533517edb623d57348547924a3b537ab4f5d59e321e22b23f87",
+    "boundary": "Generic illustration, not documentary evidence. Original asset retained.",
+    "variants": [
+      {
+        "src": "/media/four-stage-rebuild-20261017/machining-1448.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 185996,
+        "sha256": "8f282c9782629ffdd2bd4abb49a35768bdd7a89d72b0a47d2ce35ee2a04a8267"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/machining-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 37698,
+        "sha256": "3421e20a637625d75a02f266978d531ea5c82706d0fa720194994ffff229a677"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/machining-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 81114,
+        "sha256": "fda7a0172ca0201d50412f11e2f9996769a5a36a1e9e100cd0e3a2ffca41309f"
+      }
+    ],
+    "adoptedRoutes": [
+      "/"
+    ],
+    "adoptedSlots": 1
+  },
+  {
+    "id": "materials",
+    "file": "exec-425b894f-518e-42bf-8182-ecffc7d68c30.png",
+    "kind": "imagegen-generated",
+    "old": "/media/penta-next-20261017/material-stock-1440.webp",
+    "slots": [
+      "/capabilities/ material selection"
+    ],
+    "brief": "Four generic stock forms: aluminum billet, stainless rod, brass bar, ivory engineering polymer. Pale gray-blue tabletop, quiet natural daylight, complete centered subjects. Not inventory or grade identification.",
+    "originalOutput": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-425b894f-518e-42bf-8182-ecffc7d68c30.png",
+    "master": "D:\\lzz\\lzz\\_react\\design\\four-stage-rebuild-20261017\\materials.png",
+    "width": 1448,
+    "height": 1086,
+    "sha256": "3e48deab424aafd8a17dc6474b44f0806ea50894dc0ddaa3c2a65ac1a78f9919",
+    "boundary": "Generic illustration, not documentary evidence. Original asset retained.",
+    "variants": [
+      {
+        "src": "/media/four-stage-rebuild-20261017/materials-1448.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 81642,
+        "sha256": "d7ee493b18e97f7a3a9578579893b0a6529c2365e65c4ab0e79fc8ff5f9ca4f5"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/materials-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 9720,
+        "sha256": "ff3a67df8fa12230c7a457ff8c80ff95933786a8c308f157232cf00215bea69d"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/materials-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 25354,
+        "sha256": "5e7a71eb463a12e728a57c803b5f6dd0f2ad3717118b77cdc9559beb0d860e05"
+      }
+    ],
+    "adoptedRoutes": [
+      "/capabilities/"
+    ],
+    "adoptedSlots": 1
+  },
+  {
+    "id": "drawing-inputs",
+    "file": "exec-2319feae-aec5-4cbb-ba91-bf657a6714f3.png",
+    "kind": "imagegen-generated",
+    "old": "/media/penta-rollout-20261017/drawing-review-800.webp",
+    "slots": [
+      "/resources/ RFQ preparation",
+      "/quote/ drawing inputs"
+    ],
+    "brief": "Generic aluminum housing next to faint unlabelled geometry views and a mechanical pencil. Calm 4:3 daylight tabletop, full objects, no baked text, inspection results or company claims.",
+    "originalOutput": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-2319feae-aec5-4cbb-ba91-bf657a6714f3.png",
+    "master": "D:\\lzz\\lzz\\_react\\design\\four-stage-rebuild-20261017\\drawing-inputs.png",
+    "width": 1448,
+    "height": 1086,
+    "sha256": "4eb6542a677c3a077438a211b2f5d5baaa36953b83904270f26328c9437dc892",
+    "boundary": "Generic illustration, not documentary evidence. Original asset retained.",
+    "variants": [
+      {
+        "src": "/media/four-stage-rebuild-20261017/drawing-inputs-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 67572,
+        "sha256": "3fbfd8eabca573e286c707230d74741c41ec38bf31aeeea817a95ca87c1a19c5"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/drawing-inputs-1448.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 69226,
+        "sha256": "5a5f6fa1e8f95e94cb7dd680978560d4f349a6785250ac47b53fb2680b82bbd5"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/drawing-inputs-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 11516,
+        "sha256": "76c5cd8de8cd47c14073683e54d6d16217b6a58d519dddffbd7c91802000e665"
+      },
+      {
+        "src": "/media/four-stage-rebuild-20261017/drawing-inputs-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 26428,
+        "sha256": "84d7073314afc545171612f77d5caf5442191cc94f796f711c0b872420390cd5"
+      }
+    ],
+    "adoptedRoutes": [
+      "/about/contact/",
+      "/capabilities/starting-with-a-sample/",
+      "/resources/ordering/compare-cnc-machining-quotations/",
+      "/resources/ordering/rfq-checklist/",
+      "/resources/technical-guides/critical-features-cnc-drawing/",
+      "/quote/",
+      "/resources/"
+    ],
+    "adoptedSlots": 7
+  }
+]

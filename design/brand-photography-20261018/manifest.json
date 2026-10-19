@@ -1,0 +1,1340 @@
+{
+  "home-machining": {
+    "id": "home-machining",
+    "src": "/media/brand-photography-20261018/home-machining-1120.webp",
+    "srcset": "/media/brand-photography-20261018/home-machining-480.webp 480w, /media/brand-photography-20261018/home-machining-800.webp 800w, /media/brand-photography-20261018/home-machining-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic precision milling setup with a short end mill above a satin aluminum workpiece in a vise",
+    "caption": "Machining detail · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/home-machining-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 39306
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-machining-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 86242
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-machining-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 138744
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/home-machining.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "home",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/home-machining-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/home-machining-mobile-480.webp 480w, /media/brand-photography-20261018/home-machining-mobile-800.webp 800w, /media/brand-photography-20261018/home-machining-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/home-machining-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 28646
+        },
+        {
+          "src": "/media/brand-photography-20261018/home-machining-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 65330
+        },
+        {
+          "src": "/media/brand-photography-20261018/home-machining-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 108670
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 42,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "home-drawing-review": {
+    "id": "home-drawing-review",
+    "src": "/media/brand-photography-20261018/home-drawing-review-1440.webp",
+    "srcset": "/media/brand-photography-20261018/home-drawing-review-480.webp 480w, /media/brand-photography-20261018/home-drawing-review-800.webp 800w, /media/brand-photography-20261018/home-drawing-review-1120.webp 1120w, /media/brand-photography-20261018/home-drawing-review-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "A generic machined housing and schematic drawing being reviewed on an engineering bench",
+    "caption": "Drawing review · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/home-drawing-review-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27352
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-drawing-review-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 62082
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-drawing-review-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 103394
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-drawing-review-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 149920
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/home-drawing-review.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "home",
+    "aspect": "4:3"
+  },
+  "home-setup": {
+    "id": "home-setup",
+    "src": "/media/brand-photography-20261018/home-setup-1120.webp",
+    "srcset": "/media/brand-photography-20261018/home-setup-480.webp 480w, /media/brand-photography-20261018/home-setup-800.webp 800w, /media/brand-photography-20261018/home-setup-1120.webp 1120w",
+    "width": 1120,
+    "height": 1120,
+    "alt": "A generic operator adjusting a secured workholding fixture before machining",
+    "caption": "Workholding preparation · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/home-setup-480.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 31950
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-setup-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 67338
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-setup-1120.webp",
+        "width": 1120,
+        "height": 1120,
+        "bytes": 109338
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/home-setup.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "home",
+    "aspect": "1:1"
+  },
+  "home-tooling": {
+    "id": "home-tooling",
+    "src": "/media/brand-photography-20261018/home-tooling-1920.webp",
+    "srcset": "/media/brand-photography-20261018/home-tooling-480.webp 480w, /media/brand-photography-20261018/home-tooling-800.webp 800w, /media/brand-photography-20261018/home-tooling-1120.webp 1120w, /media/brand-photography-20261018/home-tooling-1440.webp 1440w, /media/brand-photography-20261018/home-tooling-1920.webp 1920w",
+    "width": 1920,
+    "height": 640,
+    "alt": "A wide detail of precision tool holders on a charcoal work surface",
+    "caption": "Tools and preparation · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/home-tooling-480.webp",
+        "width": 480,
+        "height": 160,
+        "bytes": 12734
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-tooling-800.webp",
+        "width": 800,
+        "height": 267,
+        "bytes": 26720
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-tooling-1120.webp",
+        "width": 1120,
+        "height": 373,
+        "bytes": 43052
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-tooling-1440.webp",
+        "width": 1440,
+        "height": 480,
+        "bytes": 59958
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-tooling-1920.webp",
+        "width": 1920,
+        "height": 640,
+        "bytes": 88640
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/home-tooling.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "home",
+    "aspect": "3:1",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/home-tooling-mobile-800.webp",
+      "srcset": "/media/brand-photography-20261018/home-tooling-mobile-480.webp 480w, /media/brand-photography-20261018/home-tooling-mobile-800.webp 800w",
+      "width": 800,
+      "height": 600,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/home-tooling-mobile-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 20728
+        },
+        {
+          "src": "/media/brand-photography-20261018/home-tooling-mobile-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 41028
+        }
+      ],
+      "crop": {
+        "left": 604,
+        "top": 0,
+        "width": 965,
+        "height": 724
+      }
+    }
+  },
+  "home-inspection": {
+    "id": "home-inspection",
+    "src": "/media/brand-photography-20261018/home-inspection-1120.webp",
+    "srcset": "/media/brand-photography-20261018/home-inspection-480.webp 480w, /media/brand-photography-20261018/home-inspection-800.webp 800w, /media/brand-photography-20261018/home-inspection-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic coordinate measuring probe positioned above a simple machined component",
+    "caption": "Inspection planning · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/home-inspection-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 26996
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-inspection-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 63124
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-inspection-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 104710
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/home-inspection.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "home",
+    "aspect": "4:5"
+  },
+  "home-project-support": {
+    "id": "home-project-support",
+    "src": "/media/brand-photography-20261018/home-project-support-1440.webp",
+    "srcset": "/media/brand-photography-20261018/home-project-support-480.webp 480w, /media/brand-photography-20261018/home-project-support-800.webp 800w, /media/brand-photography-20261018/home-project-support-1120.webp 1120w, /media/brand-photography-20261018/home-project-support-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "Two generic engineers discussing a machined component at a workbench, showing hands only",
+    "caption": "Project discussion · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/home-project-support-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 25406
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-project-support-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 51672
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-project-support-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 80554
+      },
+      {
+        "src": "/media/brand-photography-20261018/home-project-support-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 113420
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/home-project-support.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "home",
+    "aspect": "4:3"
+  },
+  "service-milling": {
+    "id": "service-milling",
+    "src": "/media/brand-photography-20261018/service-milling-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-milling-480.webp 480w, /media/brand-photography-20261018/service-milling-800.webp 800w, /media/brand-photography-20261018/service-milling-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "An idle milling cutter above a pocketed aluminum block in a secure vise",
+    "caption": "CNC milling · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-milling-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 41820
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-milling-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 95364
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-milling-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 151368
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-milling.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-milling-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-milling-mobile-480.webp 480w, /media/brand-photography-20261018/service-milling-mobile-800.webp 800w, /media/brand-photography-20261018/service-milling-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-milling-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 27714
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-milling-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 65392
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-milling-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 106936
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-turning": {
+    "id": "service-turning",
+    "src": "/media/brand-photography-20261018/service-turning-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-turning-480.webp 480w, /media/brand-photography-20261018/service-turning-800.webp 800w, /media/brand-photography-20261018/service-turning-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A short stepped steel shaft in a lathe chuck beside an idle turning tool",
+    "caption": "CNC turning · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-turning-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 33426
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-turning-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 74650
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-turning-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 123592
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-turning.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-turning-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-turning-mobile-480.webp 480w, /media/brand-photography-20261018/service-turning-mobile-800.webp 800w, /media/brand-photography-20261018/service-turning-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-turning-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 26548
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-turning-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 62818
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-turning-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 102594
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-five-axis": {
+    "id": "service-five-axis",
+    "src": "/media/brand-photography-20261018/service-five-axis-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-five-axis-480.webp 480w, /media/brand-photography-20261018/service-five-axis-800.webp 800w, /media/brand-photography-20261018/service-five-axis-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic indexed rotary machining setup holding an angled component beneath an idle cutter",
+    "caption": "Multi-axis machining · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-five-axis-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 38236
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-five-axis-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 84000
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-five-axis-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 134684
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-five-axis.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-five-axis-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-five-axis-mobile-480.webp 480w, /media/brand-photography-20261018/service-five-axis-mobile-800.webp 800w, /media/brand-photography-20261018/service-five-axis-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-five-axis-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 29116
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-five-axis-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 62974
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-five-axis-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 101396
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-aluminum": {
+    "id": "service-aluminum",
+    "src": "/media/brand-photography-20261018/service-aluminum-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-aluminum-480.webp 480w, /media/brand-photography-20261018/service-aluminum-800.webp 800w, /media/brand-photography-20261018/service-aluminum-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A thin-walled generic aluminum enclosure supported by a dedicated machining fixture",
+    "caption": "Aluminum machining · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-aluminum-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 37388
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-aluminum-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 86588
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-aluminum-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 142522
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-aluminum.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-aluminum-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-aluminum-mobile-480.webp 480w, /media/brand-photography-20261018/service-aluminum-mobile-800.webp 800w, /media/brand-photography-20261018/service-aluminum-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-aluminum-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 28556
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-aluminum-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 69850
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-aluminum-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 115408
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-stainless": {
+    "id": "service-stainless",
+    "src": "/media/brand-photography-20261018/service-stainless-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-stainless-480.webp 480w, /media/brand-photography-20261018/service-stainless-800.webp 800w, /media/brand-photography-20261018/service-stainless-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic stainless steel flanged sleeve on a dark technical work surface",
+    "caption": "Stainless steel machining · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-stainless-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 45806
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-stainless-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 115566
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-stainless-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 188764
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-stainless.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-stainless-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-stainless-mobile-480.webp 480w, /media/brand-photography-20261018/service-stainless-mobile-800.webp 800w, /media/brand-photography-20261018/service-stainless-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-stainless-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 34526
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-stainless-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 89874
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-stainless-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 155396
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-casting": {
+    "id": "service-casting",
+    "src": "/media/brand-photography-20261018/service-casting-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-casting-480.webp 480w, /media/brand-photography-20261018/service-casting-800.webp 800w, /media/brand-photography-20261018/service-casting-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic cast aluminum body with a precisely machined flange in a fixture",
+    "caption": "Casting finish machining · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-casting-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 56306
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-casting-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 143002
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-casting-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 249502
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-casting.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-casting-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-casting-mobile-480.webp 480w, /media/brand-photography-20261018/service-casting-mobile-800.webp 800w, /media/brand-photography-20261018/service-casting-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-casting-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 39290
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-casting-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 103282
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-casting-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 182708
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-brass": {
+    "id": "service-brass",
+    "src": "/media/brand-photography-20261018/service-brass-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-brass-480.webp 480w, /media/brand-photography-20261018/service-brass-800.webp 800w, /media/brand-photography-20261018/service-brass-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A satin brass fitting in a lathe chuck with a nearby stationary cutting insert",
+    "caption": "Brass turning · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-brass-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 42948
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-brass-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 101486
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-brass-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 164478
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-brass.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-brass-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-brass-mobile-480.webp 480w, /media/brand-photography-20261018/service-brass-mobile-800.webp 800w, /media/brand-photography-20261018/service-brass-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-brass-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 29646
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-brass-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 70116
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-brass-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 114096
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-polymer": {
+    "id": "service-polymer",
+    "src": "/media/brand-photography-20261018/service-polymer-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-polymer-480.webp 480w, /media/brand-photography-20261018/service-polymer-800.webp 800w, /media/brand-photography-20261018/service-polymer-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic white polymer component supported in soft jaws inside a milling setup",
+    "caption": "Polymer machining · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-polymer-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 35068
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-polymer-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 76088
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-polymer-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 122244
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-polymer.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-polymer-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-polymer-mobile-480.webp 480w, /media/brand-photography-20261018/service-polymer-mobile-800.webp 800w, /media/brand-photography-20261018/service-polymer-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-polymer-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 24188
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-polymer-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 53674
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-polymer-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 87648
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-prototype": {
+    "id": "service-prototype",
+    "src": "/media/brand-photography-20261018/service-prototype-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-prototype-480.webp 480w, /media/brand-photography-20261018/service-prototype-800.webp 800w, /media/brand-photography-20261018/service-prototype-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic prototype component examined by a gloved hand over a dark workbench",
+    "caption": "Prototype and sample review · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-prototype-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 40954
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-prototype-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 102190
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-prototype-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 166662
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-prototype.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-prototype-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-prototype-mobile-480.webp 480w, /media/brand-photography-20261018/service-prototype-mobile-800.webp 800w, /media/brand-photography-20261018/service-prototype-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-prototype-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 29780
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-prototype-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 71040
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-prototype-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 111970
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "service-small-batch": {
+    "id": "service-small-batch",
+    "src": "/media/brand-photography-20261018/service-small-batch-1120.webp",
+    "srcset": "/media/brand-photography-20261018/service-small-batch-480.webp 480w, /media/brand-photography-20261018/service-small-batch-800.webp 800w, /media/brand-photography-20261018/service-small-batch-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A small orderly group of generic machined components in a reusable workshop tray",
+    "caption": "Small-batch production · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/service-small-batch-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 46730
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-small-batch-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 104702
+      },
+      {
+        "src": "/media/brand-photography-20261018/service-small-batch-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 165956
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/service-small-batch.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "service",
+    "aspect": "4:5",
+    "mobile": {
+      "src": "/media/brand-photography-20261018/service-small-batch-mobile-1120.webp",
+      "srcset": "/media/brand-photography-20261018/service-small-batch-mobile-480.webp 480w, /media/brand-photography-20261018/service-small-batch-mobile-800.webp 800w, /media/brand-photography-20261018/service-small-batch-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 980,
+      "files": [
+        {
+          "src": "/media/brand-photography-20261018/service-small-batch-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 37250
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-small-batch-mobile-800.webp",
+          "width": 800,
+          "height": 700,
+          "bytes": 86550
+        },
+        {
+          "src": "/media/brand-photography-20261018/service-small-batch-mobile-1120.webp",
+          "width": 1120,
+          "height": 980,
+          "bytes": 140840
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1122,
+        "height": 982
+      }
+    }
+  },
+  "guide-rfq": {
+    "id": "guide-rfq",
+    "src": "/media/brand-photography-20261018/guide-rfq-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-rfq-480.webp 480w, /media/brand-photography-20261018/guide-rfq-800.webp 800w, /media/brand-photography-20261018/guide-rfq-1120.webp 1120w, /media/brand-photography-20261018/guide-rfq-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "A generic machined component and engineering model viewed beside schematic drawing sheets",
+    "caption": "RFQ preparation · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-rfq-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23802
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-rfq-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 50844
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-rfq-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 82758
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-rfq-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 119060
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-rfq.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-quotations": {
+    "id": "guide-quotations",
+    "src": "/media/brand-photography-20261018/guide-quotations-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-quotations-480.webp 480w, /media/brand-photography-20261018/guide-quotations-800.webp 800w, /media/brand-photography-20261018/guide-quotations-1120.webp 1120w, /media/brand-photography-20261018/guide-quotations-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "A single generic machined bracket beside two simple scope documents on a neutral desk",
+    "caption": "Quotation scope · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-quotations-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 20024
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-quotations-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 44578
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-quotations-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 77776
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-quotations-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 109332
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-quotations.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-sample-approval": {
+    "id": "guide-sample-approval",
+    "src": "/media/brand-photography-20261018/guide-sample-approval-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-sample-approval-480.webp 480w, /media/brand-photography-20261018/guide-sample-approval-800.webp 800w, /media/brand-photography-20261018/guide-sample-approval-1120.webp 1120w, /media/brand-photography-20261018/guide-sample-approval-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "A generic sample bracket being checked against a simple mating component",
+    "caption": "Sample fit review · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-sample-approval-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 19220
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-sample-approval-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 39734
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-sample-approval-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 65940
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-sample-approval-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 95878
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-sample-approval.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-prototype-batch": {
+    "id": "guide-prototype-batch",
+    "src": "/media/brand-photography-20261018/guide-prototype-batch-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-prototype-batch-480.webp 480w, /media/brand-photography-20261018/guide-prototype-batch-800.webp 800w, /media/brand-photography-20261018/guide-prototype-batch-1120.webp 1120w, /media/brand-photography-20261018/guide-prototype-batch-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "One generic prototype beside an orderly small row of matching machined parts",
+    "caption": "Prototype and repeat production · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-prototype-batch-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23214
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-prototype-batch-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 49430
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-prototype-batch-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 79724
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-prototype-batch-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 113144
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-prototype-batch.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-packing": {
+    "id": "guide-packing",
+    "src": "/media/brand-photography-20261018/guide-packing-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-packing-480.webp 480w, /media/brand-photography-20261018/guide-packing-800.webp 800w, /media/brand-photography-20261018/guide-packing-1120.webp 1120w, /media/brand-photography-20261018/guide-packing-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "Generic machined components separated in fitted protective foam inside an unmarked carton",
+    "caption": "Protective packing · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-packing-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30918
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-packing-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 82526
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-packing-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 154076
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-packing-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 229624
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-packing.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-process-selection": {
+    "id": "guide-process-selection",
+    "src": "/media/brand-photography-20261018/guide-process-selection-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-process-selection-480.webp 480w, /media/brand-photography-20261018/guide-process-selection-800.webp 800w, /media/brand-photography-20261018/guide-process-selection-1120.webp 1120w, /media/brand-photography-20261018/guide-process-selection-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "A turned shaft and pocketed block beside their relevant idle cutting tools",
+    "caption": "Choosing a machining route · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-process-selection-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23512
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-process-selection-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 51214
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-process-selection-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 85566
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-process-selection-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 122498
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-process-selection.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-critical-features": {
+    "id": "guide-critical-features",
+    "src": "/media/brand-photography-20261018/guide-critical-features-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-critical-features-480.webp 480w, /media/brand-photography-20261018/guide-critical-features-800.webp 800w, /media/brand-photography-20261018/guide-critical-features-1120.webp 1120w, /media/brand-photography-20261018/guide-critical-features-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "A close view of a generic machined bore and locating face beside a schematic outline",
+    "caption": "Critical features · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-critical-features-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22354
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-critical-features-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 59978
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-critical-features-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 113006
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-critical-features-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 169072
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-critical-features.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  },
+  "guide-materials": {
+    "id": "guide-materials",
+    "src": "/media/brand-photography-20261018/guide-materials-1440.webp",
+    "srcset": "/media/brand-photography-20261018/guide-materials-480.webp 480w, /media/brand-photography-20261018/guide-materials-800.webp 800w, /media/brand-photography-20261018/guide-materials-1120.webp 1120w, /media/brand-photography-20261018/guide-materials-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "Distinct generic aluminum, steel, brass and white polymer stock forms on a neutral technical surface",
+    "caption": "Materials and finish · illustration",
+    "origin": "image-reference",
+    "position": "50% 45%",
+    "mobilePosition": "50% 45%",
+    "files": [
+      {
+        "src": "/media/brand-photography-20261018/guide-materials-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27402
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-materials-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 63872
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-materials-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 110176
+      },
+      {
+        "src": "/media/brand-photography-20261018/guide-materials-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 158334
+      }
+    ],
+    "master": "D:/lzz/brand-photography-20261018/masters/guide-materials.png",
+    "generator": "built-in image_gen",
+    "operation": "New generic editorial photography; responsive WebP conversion",
+    "group": "guide",
+    "aspect": "3:2"
+  }
+}

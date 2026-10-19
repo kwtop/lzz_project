@@ -10,13 +10,25 @@ const readJSON = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 export const companyRedirects=readJSON(path.join(ROOT,'src/data/siteRouteRedirects.json'));
 export const resourceRoutes=readJSON(path.join(ROOT,'src/data/resourceRoutes.json'));
 
+function sourceURLs() {
+  const raw = path.resolve(ROOT, process.env.LZZ_CONTENT_ROOT || '../../raw/_content');
+  if (process.env.LZZ_CONTENT_ROOT || fs.existsSync(raw)) {
+    const manifest = readJSON(path.join(raw, '_meta/page-manifest.json'));
+    const xml = load(fs.readFileSync(path.join(raw, 'sources/sitemap.xml'), 'utf8'), {xmlMode:true});
+    return [...manifest.map(p => p.url), ...xml('loc').map((_, el) => xml(el).text().trim()).get()];
+  }
+  // A fresh clone uses the public URL inventory, without the local content archive.
+  const evidence = readJSON(path.join(ROOT, 'src/data/legacyUrlEvidence.json'));
+  if (evidence.version !== 1 || evidence.site !== SITE || !Array.isArray(evidence.urls) || !evidence.urls.length) {
+    throw new Error('Invalid legacy URL evidence snapshot.');
+  }
+  return evidence.urls;
+}
+
 // Source data is only read. Unknown URLs fail closed instead of falling back to home.
 export function migration() {
-  const raw = path.resolve(ROOT, process.env.LZZ_CONTENT_ROOT || '../../raw/_content');
   const catalog = readJSON(path.join(ROOT, 'src/data/catalog.json'));
-  const manifest = readJSON(path.join(raw, '_meta/page-manifest.json'));
-  const xml = load(fs.readFileSync(path.join(raw, 'sources/sitemap.xml'), 'utf8'), {xmlMode:true});
-  const discovered = new Set([...manifest.map(p => p.url), ...xml('loc').map((_, el) => xml(el).text().trim()).get()]);
+  const discovered = new Set(sourceURLs());
   const targets = new Map();
   const add = (source, target) => {
     const url = new URL(source);

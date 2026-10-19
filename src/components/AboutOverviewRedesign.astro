@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ImmersiveInnerHero from './ImmersiveInnerHero.astro';
 import AboutRedesignPhoto from './AboutRedesignPhoto.astro';
 import AboutRedesignClosing from './AboutRedesignClosing.astro';
 import {companyNews} from '../data/companyNews';
@@ -8,8 +9,8 @@ import '../styles/about-approved.css';
 import '../styles/about-constitution.css';
 import '../styles/content-image-led.css';
 const paths=[
- {title:'Verify the supplier',href:'/about/company-profile/',text:'Company identity, ISO 9001 certificate request and original recognition documents.'},
- {title:'Review the order process',href:'/about/how-we-work/',text:'Drawing review, quotation, sample approval, production and delivery responsibilities.'},
+ {title:'Company and certificates',href:'/about/company-profile/',text:'Company identity, ISO 9001 certificate request and original recognition documents.'},
+ {title:'How we handle your order',href:'/about/how-we-work/',text:'Drawing review, quotation, sample approval, production and delivery responsibilities.'},
  {title:'Contact LZZ',href:'/about/contact/',text:'Discuss a new part, request documents, follow up an order or arrange a workshop visit.'},
 ];
 const article=companyNews.find(item=>item.slug==='australian-customer-workshop-visit-january-2025')!,image=approvedNewsPhoto('australian-visit-03');
@@ -18,8 +19,8 @@ Object.assign(legacyHashes,{documents:'/about/company-profile/#documents','compa
 ---
 <Layout title="About LZZ: CNC machining in Hangzhou" description="Meet LZZ Precision in Hangzhou. Explore the company, drawing-to-delivery process, supplier documents, workshop visits and contact details." cta={false}>
  <article class="ar-page ar-overview rd-wrap rd-page">
-  <header class="ar-company-opening" data-core-section="Company and workshop"><div class="ar-company-intro"><h1>Custom machining in Hangzhou</h1><p>We make custom CNC machined parts to your drawing.</p><p class="ar-legal">LZZ Precision · Hangzhou Lizhizao Precision Machinery Co., Ltd.</p><a class="ar-text-link" href="/about/company-profile/">Meet LZZ Precision</a></div><AboutRedesignPhoto id="workshop-wide" caption="LZZ machining workshop · Hangzhou, China" eager sizes="(max-width:767px) calc(100vw - 44px), 720px"/></header>
-  <section class="ar-company-paths ar-company-review" id="al-supplier-review" data-core-section="Supplier information and order responsibilities"><AboutRedesignPhoto id="cmm-room" caption="Coordinate measuring machine · LZZ workshop archive"/><nav aria-label="Choose company information" id="al-company-paths">{paths.map(item=><a href={item.href}><h2>{item.title}</h2><p>{item.text}</p></a>)}</nav></section>
+  <ImmersiveInnerHero title="Custom machining in Hangzhou" lead="We machine prototypes and small production runs to your drawing." secondaryHref="/about/company-profile/" secondaryLabel="Meet LZZ Precision"><p class="ar-legal">LZZ Precision · Hangzhou Lizhizao Precision Machinery Co., Ltd.</p></ImmersiveInnerHero>
+  <section class="ar-company-paths ar-company-review" id="al-supplier-review" data-core-section="Supplier information and order responsibilities"><nav aria-label="Choose company information" id="al-company-paths">{paths.map(item=><a href={item.href}><h2>{item.title}</h2><p>{item.text}</p></a>)}</nav></section>
   <section class="rd-section ar-visit-story" aria-labelledby="al-working-people" data-core-section="Workshop visit record"><AboutRedesignPhoto src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={image.caption} caption={image.caption}/><div><time datetime={article.eventDate}>{article.eventDateLabel}</time><h2 id="al-working-people"><a href={'/about/company-news/'+article.slug+'/'}>{article.title}</a></h2><p>{article.description}</p><nav class="ar-links" aria-label="Company records"><a href="/about/company-news/">All company news</a></nav></div></section>
   <AboutRedesignClosing core="Drawing and RFQ draft" title="Have a part to discuss?" text="Include the drawing revision, material, quantity and required arrival date."/>
  </article>

@@ -1,8 +1,11 @@
 import sourceMedia from './productSourceMedia.generated.json';
+import {refreshedImage} from './imageRefresh';
 import {productIdentity,listingSource,primaryReferenceIds} from './productIdentity';
 import additionalMedia from './additionalMedia.generated.json';
 import {productTitle} from './presentation';
 import {readingFor} from './productReading';
+import {productFocus} from './productFocus';
+import {productPhotograph} from './productPhotography';
 
 export type PartRecord={slug:string;name:string;images:string[];categories:string[]};
 export type PartModule='fit'|'options'|'drawing'|'views'|'blank'|'batch'|'related'|'order';
@@ -24,10 +27,10 @@ const entries:[string,string,PartPlan['hero'],PartModule[],string,string][]=[
  ['high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem','impeller','split',['options','fit','drawing','views','related','order'],'Flow surfaces and mounting geometry','Curved-blade metal impeller with a recessed central hub'],
  ['custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier','assembly','portrait',['options','fit','drawing','views','related','order'],'Separate the component and assembly scope','Aluminum intercooler form with cooling fins and curved end-tank surfaces'],
  ['custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier','cover','wide',['options','fit','drawing','views','related','order'],'Clearance, sealing and visible finish','Curved billet aluminum engine-cover form with a visible machined surface texture'],
- ['custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier','assembly','wide',['options','fit','drawing','views','related','order'],'Runners, flanges and installation clearance','Illustrative aluminum intake manifold with curved runners and connection flanges'],
- ['custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier','assembly','split',['options','fit','drawing','views','related','order'],'Housing fits and the supplied actuator scope','Illustrative throttle-body form with a round bore and dark actuator cover'],
- ['custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier','assembly','wide',['options','fit','drawing','views','related','order'],'Runner geometry and injector interfaces','Illustrative aluminum manifold with curved intake runners and mounting bosses'],
- ['custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier','assembly','wide',['options','fit','drawing','views','related','order'],'Internal cavities, ports and mating faces','Illustrative metal intake plenum with curved body and connection ports'],
+ ['custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier','assembly','wide',['options','fit','drawing','views','related','order'],'Runners, flanges and installation clearance','Aluminum intake manifold with curved runners and connection flanges'],
+ ['custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier','assembly','split',['options','fit','drawing','views','related','order'],'Housing fits and the supplied actuator scope','Throttle-body form with a round bore and dark actuator cover'],
+ ['custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier','assembly','wide',['options','fit','drawing','views','related','order'],'Runner geometry and injector interfaces','Aluminum manifold with curved intake runners and mounting bosses'],
+ ['custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier','assembly','wide',['options','fit','drawing','views','related','order'],'Internal cavities, ports and mating faces','Metal intake plenum with curved body and connection ports'],
  ['custom-cnc-machined-castings-transmission-housings-pump-bodies','casting','split',['options','fit','blank','drawing','views','related','order'],'Bearing and sealing interfaces','Ribbed casting housing with a machined central bore and outer mounting faces'],
  ['custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier','turned','split',['options','fit','drawing','views','related','order'],'Working diameters and surface condition','Two turned metal flanged components with central bores and mounting holes'],
  ['custom-oem-cnc-machined-non-metallic-components-insulating-parts','polymer','portrait',['options','fit','drawing','views','related','order'],'Material conditions and assembly loads','Pale non-metallic circular component with raised sections, slots and holes'],
@@ -39,7 +42,7 @@ const entries:[string,string,PartPlan['hero'],PartModule[],string,string][]=[
  ['precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances','polymer','wide',['options','fit','drawing','views','related','order'],'Thin sections and critical mating features','Green machined plastic blocks with repeated bores and recessed faces'],
  ['precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier','connection','split',['options','fit','drawing','views','related','order'],'Contact, sealing and plated interfaces','Small brass hex-head threaded components'],
  ['precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier','batch','wide',['options','batch','drawing','views','related','order'],'Keep each part number under control','Two pocketed machined aluminum housing forms with different mounting interfaces'],
- ['precision-machining-for-functional-plastic-blocks-structural-components','polymer','split',['options','fit','drawing','views','related','order'],'Working faces, inserts and loading points','Illustrative rectangular green polymer support block with a stepped bore, mounting holes and side locating recess'],
+ ['precision-machining-for-functional-plastic-blocks-structural-components','polymer','split',['options','fit','drawing','views','related','order'],'Working faces, inserts and loading points','Rectangular green polymer support block with a stepped bore, mounting holes and side locating recess'],
  ['precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures','enclosure','split',['options','fit','drawing','views','related','order'],'Angled faces and repeated thin-wall setups','Two machined aluminum enclosures with recessed cavities and mounting holes'],
  ['precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier','turned','split',['options','fit','drawing','views','related','order'],'Specify grade, fitted size and final treatment','Turned metal cylindrical component with a side mounting feature and separate flange'],
  ['precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier','pin','portrait',['options','fit','drawing','views','related','order'],'Engagement, mounting and assembly responsibility','Stepped threaded indexing-pin form with flanges and an extended engagement end'],
@@ -49,17 +52,24 @@ const entries:[string,string,PartPlan['hero'],PartModule[],string,string][]=[
 export const partPlans:Record<string,PartPlan>=Object.fromEntries(entries.map(([slug,kind,hero,modules,featureTitle,alt])=>[slug,{kind,hero,modules,featureTitle,alt}]));
 export const partPlan=(slug:string):PartPlan=>{const plan=partPlans[slug];if(!plan)throw new Error('Missing Products editorial plan: '+slug);return plan};
 export const partDisplayTitle=(product:PartRecord)=>productIdentity(product.slug).title||readingFor(product.slug).title||productTitle(product);
-export const partDisplayLead=(product:PartRecord)=>productIdentity(product.slug).lead||readingFor(product.slug).lead;
-export const partDisplayFeature=(product:PartRecord,feature:string)=>productIdentity(product.slug).description||feature;
+export const partDisplayLead=(product:PartRecord)=>productFocus(product.slug).lead;
+export const partMetaDescription=(product:PartRecord)=>productFocus(product.slug).metaDescription;
+export const partDisplayFeature=(product:PartRecord,feature:string)=>productFocus(product.slug).summary||productIdentity(product.slug).description||feature;
 export function partVisual(product:PartRecord){
+ const photograph=productPhotograph(product.slug);
+ if(photograph)return photograph;
  const entry=sourceMedia[product.slug as keyof typeof sourceMedia],identity=productIdentity(product.slug);
  if(!entry)throw new Error('Missing reviewed source image: '+product.slug);
  const primaryId=primaryReferenceIds[product.slug],primary=primaryId?additionalMedia.photos[primaryId]:undefined;
- return {src:entry.src,srcset:entry.srcset,width:entry.width,height:entry.height,alt:primary?.caption||listingSource(product.slug).alt,caption:entry.backgroundEdited?'Original source subject on an AI-generated neutral background.':primary?.caption||identity.label+' · Original form retained; drawing and supplied scope require confirmation.',origin:entry.backgroundEdited?'original-subject-ai-background':primary?.kind||identity.kind,nativeWidth:entry.nativeWidth,quality:entry.id==='P04'?'low-resolution' as const:undefined};
+ const refreshed=refreshedImage(entry.src);
+ const alt=listingSource(product.slug).alt.replace(/^Original reference photograph of /,'').replace(/^Reference photograph of /,'');
+ const displayCaption=alt.charAt(0).toUpperCase()+alt.slice(1)+(entry.id==='P34'?' Component forms, not a confirmed order quantity or capacity record.':'');
+ const source={src:entry.src,srcset:entry.srcset,width:entry.width,height:entry.height,alt:primary?.caption||listingSource(product.slug).alt,caption:entry.backgroundEdited?'Original source subject.':primary?.caption||identity.label+' · Original form retained; drawing and supplied scope require confirmation.',origin:entry.backgroundEdited?'original-subject-background':primary?.kind||identity.kind,nativeWidth:entry.nativeWidth,background:undefined as 'transparent'|undefined,quality:entry.id==='P04'?'low-resolution' as const:undefined};
+ return refreshed?{...source,...refreshed,origin:['cad-reference','assembly-reference','design-reference'].includes(source.origin)?source.origin:refreshed.origin,quality:undefined,alt:alt.charAt(0).toUpperCase()+alt.slice(1),caption:displayCaption}:{...source,sourceHref:undefined};
 }
 export const productIllustrations={
- families:{stem:'/media/products-editorial-20261014/part-families',alt:'Illustrative aluminum housing, stepped metal shaft, brass fitting and white polymer block',caption:'Machined part forms · AI-generated illustration'},
- batch:{stem:'/media/products-editorial-20261014/mixed-part-planning',alt:'Illustrative housing and lid, turned shaft, brass adapter, polymer roller and mounting bracket',caption:'Planning a mixed-part order · AI-generated illustration'},
+ families:{stem:'/media/products-editorial-20261014/part-families',alt:'Aluminum housing, stepped metal shaft, brass fitting and white polymer block',caption:'Machined part forms'},
+ batch:{stem:'/media/products-editorial-20261014/mixed-part-planning',alt:'Housing and lid, turned shaft, brass adapter, polymer roller and mounting bracket',caption:'Planning a mixed-part order'},
 };
 export const studyPlans:Record<string,{hero:'split'|'wide';layout:string;modules:string[]}>={
  'five-axis-machining-multi-face-parts':{hero:'split',layout:'multi-face',modules:['geometry','sequence','inspection','questions','related']},

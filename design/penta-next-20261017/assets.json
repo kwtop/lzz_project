@@ -1,0 +1,89 @@
+[
+  {
+    "id": "milling-at-work",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-next-20261017\\originals\\milling-at-work.png",
+    "input": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-c0098b9d-aadb-4b0c-941e-82a7d085a55b.png",
+    "sha256": "14071d13cafa8a18db63ce40d6b1b42714fe0063ceb57c42eb17894b31292f7f",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/penta-next-20261017/milling-at-work-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25304
+      },
+      {
+        "src": "/media/penta-next-20261017/milling-at-work-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 56574
+      },
+      {
+        "src": "/media/penta-next-20261017/milling-at-work-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 130326
+      }
+    ],
+    "qa": "Visual review passed as clearly labeled illustrative concept; no business evidence claimed."
+  },
+  {
+    "id": "material-stock",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-next-20261017\\originals\\material-stock.png",
+    "input": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-c623de05-04b6-49f1-8b11-ad0026b68e26.png",
+    "sha256": "bde32e5a508feb58ef0e4921ef35a813cabee23503b48dbc8796a0cb5b41e172",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/penta-next-20261017/material-stock-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22526
+      },
+      {
+        "src": "/media/penta-next-20261017/material-stock-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 61336
+      },
+      {
+        "src": "/media/penta-next-20261017/material-stock-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 172848
+      }
+    ],
+    "qa": "Visual review passed as clearly labeled illustrative concept; no business evidence claimed."
+  },
+  {
+    "id": "tool-access",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-next-20261017\\originals\\tool-access.png",
+    "input": "C:\\Users\\Administrator\\.codex\\generated_images\\01a14762-681d-7c33-ac09-4080292c30fc\\exec-03f9cf32-2a00-4182-85bd-cd9103cac17f.png",
+    "sha256": "4a3e06e267ee052100b696b254e8ef72d2dedea9340bfed60c44558b2f693913",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/media/penta-next-20261017/tool-access-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17394
+      },
+      {
+        "src": "/media/penta-next-20261017/tool-access-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 45876
+      },
+      {
+        "src": "/media/penta-next-20261017/tool-access-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 131024
+      }
+    ],
+    "qa": "Visual review passed as clearly labeled illustrative concept; no business evidence claimed."
+  }
+]

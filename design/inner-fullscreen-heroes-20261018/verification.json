@@ -1,0 +1,186 @@
+{
+  "changedRoutes": 8,
+  "viewportChecks": 16,
+  "additionalBreakpointChecks": 6,
+  "newImageThemes": 4,
+  "newMasters": 8,
+  "webDerivatives": 24,
+  "existingImagesPreserved": true,
+  "metadataAndSchemaPreserved": true,
+  "anchorsAndTechnicalTablesPreserved": true,
+  "lazyImagesLoaded": true,
+  "checks": [
+    {
+      "name": "parts",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/parts-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "parts",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/parts-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "factory",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/factory-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "factory",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/factory-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "resources",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "resources",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "ordering",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "ordering",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "technical",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "technical",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "about",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/about-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "about",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/about-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "profile",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/factory-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "profile",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/factory-mobile-640.webp",
+      "passed": true
+    },
+    {
+      "name": "workflow",
+      "width": 1440,
+      "height": 900,
+      "heroHeight": 900,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-desktop-1672.webp",
+      "passed": true
+    },
+    {
+      "name": "workflow",
+      "width": 390,
+      "height": 844,
+      "heroHeight": 844,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-mobile-640.webp",
+      "passed": true
+    }
+  ],
+  "extra": [
+    {
+      "name": "parts",
+      "width": 768,
+      "height": 1024,
+      "passed": true,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/parts-mobile-941.webp"
+    },
+    {
+      "name": "factory",
+      "width": 1024,
+      "height": 768,
+      "passed": true,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/factory-desktop-1672.webp"
+    },
+    {
+      "name": "resources",
+      "width": 768,
+      "height": 1024,
+      "passed": true,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-mobile-941.webp"
+    },
+    {
+      "name": "about",
+      "width": 1920,
+      "height": 1080,
+      "passed": true,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/about-desktop-1672.webp"
+    },
+    {
+      "name": "parts",
+      "width": 320,
+      "height": 740,
+      "passed": true,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/parts-mobile-640.webp"
+    },
+    {
+      "name": "workflow",
+      "width": 320,
+      "height": 740,
+      "passed": true,
+      "source": "http://127.0.0.1:4321/media/inner-fullscreen-20261018/resources-mobile-640.webp"
+    }
+  ]
+}

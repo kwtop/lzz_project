@@ -1,0 +1,1262 @@
+{
+ "url": "http://127.0.0.1:4321/",
+ "at": "2026-10-17T01:34:34.495Z",
+ "allow": [
+  "eyebrow",
+  "shadow"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.82,
+    0.57,
+    0.91,
+    0.56,
+    0.6
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 11,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4394,
+     "screens": 4.9,
+     "words": 440,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "milling-at-work-800.webp",
+      "p02-480.webp",
+      "p22-framed-480.webp",
+      "p32-framed-480.webp",
+      "p26-480.webp",
+      "two-stage-first.webp",
+      "two-stage-second.webp",
+      "workshop-wide-1600-960.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Custom CNC parts. Made to your drawing.",
+     "words": 7,
+     "chars": 39,
+     "lines": 2,
+     "size": 56,
+     "vw": 3.9,
+     "font": "Roboto Condensed",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.38,
+     "top": 270,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Custom CNC parts. Made to your drawing.",
+     "words": 7,
+     "lines": 2,
+     "size": 56,
+     "font": "Roboto Condensed"
+    },
+    "headings": [
+     {
+      "text": "Custom CNC parts. Made to your drawing.",
+      "words": 7,
+      "chars": 39,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 270,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with a familiar part.",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 828,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The setup behind the shape.",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 1847,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet the workshop.",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 2461,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1,500 m²",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 2646,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "40+",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 2667,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Let’s review your part.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 3110,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From 1 piece",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 3252,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "7–14 business days",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.51,
+      "top": 3252,
+      "tag": "dd",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Roboto Condensed",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      25,
+      26,
+      35,
+      44,
+      56
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 17,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 56,
+      "vw": 3.9,
+      "font": "Roboto Condensed",
+      "text": "Custom CNC parts.Made to your drawing."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Production facility",
+      "above": "1,500 m²",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 2616
+     },
+     {
+      "text": "Machining & supporting equipment",
+      "above": "40+",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 2616
+     },
+     {
+      "text": "Minimum order",
+      "above": "From 1 piece",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 3219
+     },
+     {
+      "text": "Reference production window",
+      "above": "7–14 business days",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 3219
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f6",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#102c2e",
+       "top": 90,
+       "hsl": {
+        "h": 184,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#e9eeeb",
+       "top": 1777,
+       "hsl": {
+        "h": 144,
+        "s": 0.13,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#202729",
+       "share": 0.51
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.16
+      },
+      {
+       "color": "#535f61",
+       "share": 0.11
+      },
+      {
+       "color": "#f7f8f6",
+       "share": 0.07
+      },
+      {
+       "color": "#e0e7e4",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#12699b",
+      "hsl": {
+       "h": 202,
+       "s": 0.79,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 5,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Prepare RFQ email",
+      "Prepare RFQ email"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 4,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.nav-panel.nav-panel-capabilities → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px",
+      "div.nav-panel.nav-panel-small → rgba(16, 44, 46, 0.15) 0px 25px 70px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 10,
+     "boxRadius": 20,
+     "squareMedia": 5,
+     "roundedMedia": 4,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.37
+     }
+    ],
+    "nav": {
+     "links": 10,
+     "fixed": true,
+     "height": 90,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter variable",
+     "roboto condensed"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.93,
+    0.83,
+    0.63,
+    0.93,
+    1,
+    0.68,
+    0.7,
+    0.86,
+    0.88
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 11,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6780,
+     "screens": 8,
+     "words": 417,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "milling-at-work-480.webp",
+      "p02-480.webp",
+      "p26-480.webp",
+      "two-stage-first.webp",
+      "two-stage-second.webp",
+      "workshop-wide-1600-400.webp",
+      "definition-480.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Custom CNC parts. Made to your drawing.",
+     "words": 7,
+     "chars": 39,
+     "lines": 2,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Roboto Condensed",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 118,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Custom CNC parts. Made to your drawing.",
+     "words": 7,
+     "lines": 2,
+     "size": 36,
+     "font": "Roboto Condensed"
+    },
+    "headings": [
+     {
+      "text": "Custom CNC parts. Made to your drawing.",
+      "words": 7,
+      "chars": 39,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with a familiar part.",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 875,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Machined impeller",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 1031,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Casting housing",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1409,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Turned locking pin",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 1409,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Plastic components",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 1599,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "By process",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1797,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "By material",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1967,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The setup behind the shape.",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2255,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet the workshop.",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3401,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1,500 m²",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 3573,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "40+",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 3594,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Agree how your part is accepted",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3668,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s review your part.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4330,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From 1 piece",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4459,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "7–14 business days",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4553,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Working from a drawing",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4763,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Starting with a physical part",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Roboto Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5118,
+      "tag": "h3",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Roboto Condensed",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      21,
+      24,
+      25,
+      32,
+      34,
+      35,
+      36
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Roboto Condensed",
+      "text": "Custom CNC parts.Made to your drawing."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Machining concept · AI illustration",
+      "above": "Start with a familiar part.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 767
+     },
+     {
+      "text": "Production facility",
+      "above": "1,500 m²",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 3543
+     },
+     {
+      "text": "Machining & supporting equipment",
+      "above": "40+",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 3543
+     },
+     {
+      "text": "Minimum order",
+      "above": "From 1 piece",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 4425
+     },
+     {
+      "text": "Reference production window",
+      "above": "7–14 business days",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 4519
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f6",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#102c2e",
+       "top": 76,
+       "hsl": {
+        "h": 184,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#e9eeeb",
+       "top": 2213,
+       "hsl": {
+        "h": 144,
+        "s": 0.13,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#202729",
+       "share": 0.45
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.19
+      },
+      {
+       "color": "#535f61",
+       "share": 0.12
+      },
+      {
+       "color": "#f7f8f6",
+       "share": 0.08
+      },
+      {
+       "color": "#e0e7e4",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#12699b",
+      "hsl": {
+       "h": 202,
+       "s": 0.79,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 5,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Prepare RFQ email",
+      "Prepare RFQ email"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 20,
+     "squareMedia": 1,
+     "roundedMedia": 4,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.4
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter variable",
+     "roboto condensed"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (14, 15, 16, 17, 18, 20, 25, 26, 35, 44, 56).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\lzz\\penta-redesign-20261017\\taste-final\\home\\desktop-fold.jpg",
+   "pages": [
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\home\\desktop-page-01.jpg",
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\home\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\lzz\\penta-redesign-20261017\\taste-final\\home\\mobile-fold.jpg",
+   "pages": [
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\home\\mobile-page-01.jpg",
+    "D:\\lzz\\penta-redesign-20261017\\taste-final\\home\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

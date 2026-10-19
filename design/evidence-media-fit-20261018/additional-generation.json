@@ -1,0 +1,36 @@
+[
+  {
+    "id": "setup-side-v1",
+    "prompt": "Precise-object-edit task for a companion industrial SETUP-PLANNING ILLUSTRATION. Reference 1 is the approved top-face setup illustration; reference 2 is the archived original component photograph. Make a distinct companion photo in exactly the same realistic industrial photography style and same 4:3 landscape composition. KEEP the same recognizable aluminium D-shaped flange component, central rectangular recess and edge slots from reference 1, but physically rotate the COMPONENT 90 DEGREES INTO AN UPRIGHT POSITION and clamp it safely in shaped soft jaws. Its broad D-shaped face must be VERTICAL, facing the camera, so the rectangular recess is seen on the front vertical face. The vise stays horizontal. This must not be a camera-angle variation of the first image: the broad component face must clearly stand upright. The vertical milling spindle is above the exposed narrow upper edge of the component, with a short end mill positioned for side/edge-access machining. The upright component is securely supported in the jaws, not balanced on a point; jaw contours can differ to support this orientation. Keep camera distance, light, grey enclosure and subtle blue coolant hoses consistent with reference 1. Workpiece occupies roughly 40% of frame width, with the vise and cutter fully understandable. No extra workpieces, no added fictional dimensions, no brand markings, no text, no arrows, no collage. Realistic metal, moderate clean tool marks, very few chips, no spray. This is an illustrative setup concept, not an assertion of the source part's actual operation sequence.",
+    "references": [
+      "masters/setup-top.png",
+      "/media/evidence/two-stage-second-1600.webp"
+    ],
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-415eb310-6991-44a7-a763-37fda861d1c9.png",
+    "master": "masters/setup-side-v1.png",
+    "status": "superseded",
+    "reason": "Duplicate ventilation row on front face"
+  },
+  {
+    "id": "setup-side",
+    "prompt": "Precise correction of the attached upright-workpiece setup photograph. Keep the camera, light, composition, vise, spindle, workpiece D-outline, central rectangular recess and all other geometry exactly as shown. Correct only this error: remove the extra row of long narrow vertical slots on the LARGE FRONT FACE above the rectangular recess, and replace that row with continuous solid brushed aluminium. The original component's vent slots should appear ONLY on the NARROW TOP EDGE after it is rotated upright, not duplicated on the broad front face. Keep the visible slot openings on the narrow upper edge, the central recess and its mounting holes. Keep the upright orientation clear and the part safely clamped. No text, no other changes. 4:3 landscape photographic setup illustration.",
+    "references": [
+      "masters/setup-side-v1.png"
+    ],
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-84dae533-87c1-46e5-96a8-eebac8e42760.png",
+    "master": "masters/setup-side.png",
+    "status": "selected",
+    "identity": "setup planning illustration"
+  },
+  {
+    "id": "visit-reframe",
+    "prompt": "Identity-preserving photographic reframe for a company-news thumbnail. Edit ONLY the supplied real photograph into a 4:3 LANDSCAPE crop suitable for a website card. Preserve the exact two people, facial identity, expressions, glasses, hair, wardrobe, hands, gestures and the actual machined finned component being held. Do not add or replace any person, machine, product feature, logo, sign or event detail. Crop away the lower legs and excess floor; concentrate on the two existing people from head to hands and the component. The man in the dark jacket on the left, the woman in the pale coat on the right, and the held metal component all remain visible. Source geometry and scene identity have priority over aesthetics. Keep natural realistic photographic light and skin; no retouching into different or younger people, no glamour effect. The output should feel like a carefully framed version of the existing visit photograph, with soft neutral surroundings and no hard side bars. If minimal additional side background is necessary, extend only softly defocused existing pale wall or window edges; do not invent new factory equipment or people. No text, no border, no collage. This derivative will be labelled as ImageGen reframing and accompanied by the unmodified original photo.",
+    "references": [
+      "/media/company-news/australian-visit-03-1600.webp"
+    ],
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-967600ae-e0d1-474c-8bfb-5d91f8823901.png",
+    "master": "masters/visit-reframe.png",
+    "status": "selected",
+    "identity": "ImageGen reframed preview; original news photos retained"
+  }
+]

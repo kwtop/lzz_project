@@ -1,0 +1,80 @@
+[
+  {
+    "file": "src/components/ProductsOverviewRedesigned.astro",
+    "kind": "modified",
+    "beforeSha256": "657c5e63691352dd7a212ba4b8503022ef3458c7dd5726d027a535b20f83cd58",
+    "afterSha256": "087af38f74ef7efc5a7c389cd7f7ca756472ce2a9b7b2c6f8da8c9f1e44d5973"
+  },
+  {
+    "file": "src/components/FactoryRedesign.astro",
+    "kind": "modified",
+    "beforeSha256": "517a79ed0d8a00ed953da8ca66c2ce064fd550458101dc879bb68d7cea316506",
+    "afterSha256": "325168f351ab6b249564106f249fd5273755876dc9e8435f40b23bec769d5736"
+  },
+  {
+    "file": "src/components/AboutOverviewRedesign.astro",
+    "kind": "modified",
+    "beforeSha256": "b99da41b252c35b32c1b4d07ecb1f1ee7199f268e96f408901cf6ef80d055bf2",
+    "afterSha256": "8a8542f6e9996e6392e0114952f044a2a77399edc16c9bb4e47757b36154660c"
+  },
+  {
+    "file": "src/components/AboutProfileRedesign.astro",
+    "kind": "modified",
+    "beforeSha256": "a684802609d12eb22deb1757ecb2064e6435779a7c7fbbaf145d3ae0c2b5e403",
+    "afterSha256": "03fe351bc3194950cc817a92c655d5f0f7eba927c9b48943c80d72704f436995"
+  },
+  {
+    "file": "src/components/AboutWorkflowRedesign.astro",
+    "kind": "modified",
+    "beforeSha256": "bf32a9063328b5898fddd24853700aa7987ec01f3db072765421ce20125f6cd1",
+    "afterSha256": "81ee3f946da58f1fcab8231083d32f80d05f9ae613bd5149b1dca1c097bbf295"
+  },
+  {
+    "file": "src/components/ResourceDirectoryRedesign.astro",
+    "kind": "modified",
+    "beforeSha256": "27359aa289805f010623feb4a8ed7b41e8103738974ee1dcadeabad3ce3ffa09",
+    "afterSha256": "f8591c2582dad8129e6877832896d43f6e1b97555df942059593522d79ba7e41"
+  },
+  {
+    "file": "src/components/EditorialImage.astro",
+    "kind": "modified",
+    "beforeSha256": "ca754d67a9c70a200ca019c96a33421de138a8d1b605630577c0b4cf78a0e3f9",
+    "afterSha256": "896fbe641611a396934c51aa1ed001fdbf3a0fae53789d1f6e736cf7fbd1a23d"
+  },
+  {
+    "file": "src/layouts/Layout.astro",
+    "kind": "modified",
+    "beforeSha256": "3863e11bc008ddedb4f23c1459948178f38ef4808245a7860a8e145f371d6934",
+    "afterSha256": "dee78ea22276cf1e24966b6679cd0d879d58e3581797fb22a2c4775cb853a784"
+  },
+  {
+    "file": "src/data/siteImages.generated.json",
+    "kind": "modified",
+    "beforeSha256": "bbf3710af2a133b1f3a98031fc44a9b153f4bf53f95cac20006df3f2b9fdf24a",
+    "afterSha256": "7d4c6211f6f29de9f4d1be9f0351a288c96e781a69b3a43617017123ccb52715"
+  },
+  {
+    "file": "DESIGN.md",
+    "kind": "modified",
+    "beforeSha256": "4b7c2f5d085fd7b5b335e25c8e5c9ce83a7f4f1b2104f020bb9ac1c792c09818",
+    "afterSha256": "a1bb6fbcf9d222ba95819f755d8891b59f9c50806ba04c15c2fa85a0305f7498"
+  },
+  {
+    "file": "src/components/ImmersiveInnerHero.astro",
+    "kind": "added",
+    "beforeSha256": null,
+    "afterSha256": "d2a16924aaa2e76ce3ee69d75933f74def62de66236bb4ac56d8d270a2ef7695"
+  },
+  {
+    "file": "src/styles/immersive-inner-hero.css",
+    "kind": "added",
+    "beforeSha256": null,
+    "afterSha256": "3280f9d8d3a558b6a6c976032c4e881a666c22b3eb22e85ffa9ec7e62c2bf946"
+  },
+  {
+    "file": "src/data/innerHeroScenes.ts",
+    "kind": "added",
+    "beforeSha256": null,
+    "afterSha256": "8c67dfbde33f5ed2735d820892e691a5fe7c41d88bbc1d12c8a1bec40c96ca84"
+  }
+]

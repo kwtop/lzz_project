@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-18",
+  "status": "local implementation and browser preview verified; not deployed",
+  "sourceChanges": 16,
+  "contracts": {
+    "routes": 86,
+    "unchanged": [
+      "title",
+      "description",
+      "canonical",
+      "h1",
+      "ids",
+      "tables",
+      "schema"
+    ],
+    "protectedDiffs": [],
+    "changedKeys": [
+      "images",
+      "links",
+      "text"
+    ],
+    "changedRoutes": 29,
+    "productPhotographyChanges": []
+  },
+  "globalGeometry": {
+    "routes": 86,
+    "states": 172,
+    "widths": [
+      1440,
+      390
+    ],
+    "overflow": 0,
+    "containLetterboxFlags": [],
+    "unloadedInViewport": [],
+    "limit": "All routes inspected for geometry and images in the current viewport. Offscreen lazy images are not claimed loaded by this scan."
+  },
+  "representativeReviews": {
+    "routes": 14,
+    "states": 38,
+    "widths": [
+      1440,
+      1024,
+      768,
+      390
+    ],
+    "overflow": 0,
+    "containLetterboxFlags": [],
+    "unloaded": [],
+    "limit": "Page scrolling triggers lazy loading. Closed original-reference details are excluded."
+  },
+  "images": {
+    "acceptedMasters": 3,
+    "generationCalls": 4,
+    "rejectedOrSuperseded": 1,
+    "responsiveFiles": 12,
+    "totalBytes": 1018034,
+    "maxFileBytes": 174164,
+    "adoptionRoutes": 24,
+    "assetChecks": [
+      {
+        "id": "setup-first",
+        "sourceReference": "/media/evidence/two-stage-first-1600.webp",
+        "sourceArchiveSha256": "aaeb3f688607ff2fba790c6e4a4fdf1a87f590d5cf1d507eeeb9e44e6deb8724",
+        "sourceWebSha256": "428835082cef8b3dca7f685b0d40af092a61a9600a478da24280f85ff0dfd97f",
+        "sourceHashMatches": true,
+        "hashScope": "WebP source derivative compared with sourceWebSha256; sourceSha256 identifies the archived original JPEG when present.",
+        "files": [
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-top-480.webp",
+            "width": 480,
+            "height": 360,
+            "bytes": 31904,
+            "actualWidth": 480,
+            "actualHeight": 360,
+            "actualBytes": 31904,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-top-800.webp",
+            "width": 800,
+            "height": 600,
+            "bytes": 74086,
+            "actualWidth": 800,
+            "actualHeight": 600,
+            "actualBytes": 74086,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-top-1120.webp",
+            "width": 1120,
+            "height": 840,
+            "bytes": 122780,
+            "actualWidth": 1120,
+            "actualHeight": 840,
+            "actualBytes": 122780,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-top-1440.webp",
+            "width": 1440,
+            "height": 1080,
+            "bytes": 174164,
+            "actualWidth": 1440,
+            "actualHeight": 1080,
+            "actualBytes": 174164,
+            "valid": true
+          }
+        ]
+      },
+      {
+        "id": "setup-second",
+        "sourceReference": "/media/evidence/two-stage-second-1600.webp",
+        "sourceArchiveSha256": "6eb8c4149c08fe79ed0a2927055d16ddbf033cb3a1a23f2b5eec4fc0669d9a0f",
+        "sourceWebSha256": "395aa0c366702b6c765901c5f445b43c181ac2b1a8ce885602b2ad1f10c8fbbd",
+        "sourceHashMatches": true,
+        "hashScope": "WebP source derivative compared with sourceWebSha256; sourceSha256 identifies the archived original JPEG when present.",
+        "files": [
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-side-480.webp",
+            "width": 480,
+            "height": 360,
+            "bytes": 29940,
+            "actualWidth": 480,
+            "actualHeight": 360,
+            "actualBytes": 29940,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-side-800.webp",
+            "width": 800,
+            "height": 600,
+            "bytes": 66652,
+            "actualWidth": 800,
+            "actualHeight": 600,
+            "actualBytes": 66652,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-side-1120.webp",
+            "width": 1120,
+            "height": 840,
+            "bytes": 106452,
+            "actualWidth": 1120,
+            "actualHeight": 840,
+            "actualBytes": 106452,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/setup-side-1440.webp",
+            "width": 1440,
+            "height": 1080,
+            "bytes": 147794,
+            "actualWidth": 1440,
+            "actualHeight": 1080,
+            "actualBytes": 147794,
+            "valid": true
+          }
+        ]
+      },
+      {
+        "id": "news-visit-reframed",
+        "sourceReference": "/media/company-news/australian-visit-03-1600.webp",
+        "sourceArchiveSha256": "ffd01588707fe56f8172306889f20a822d432bebae2f4e61a372dbd2595184b7",
+        "sourceWebSha256": "ffd01588707fe56f8172306889f20a822d432bebae2f4e61a372dbd2595184b7",
+        "sourceHashMatches": true,
+        "hashScope": "WebP source derivative compared with sourceWebSha256; sourceSha256 identifies the archived original JPEG when present.",
+        "files": [
+          {
+            "src": "/media/evidence-media-fit-20261018/visit-reframe-480.webp",
+            "width": 480,
+            "height": 360,
+            "bytes": 24604,
+            "actualWidth": 480,
+            "actualHeight": 360,
+            "actualBytes": 24604,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/visit-reframe-800.webp",
+            "width": 800,
+            "height": 600,
+            "bytes": 50482,
+            "actualWidth": 800,
+            "actualHeight": 600,
+            "actualBytes": 50482,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/visit-reframe-1120.webp",
+            "width": 1120,
+            "height": 840,
+            "bytes": 80284,
+            "actualWidth": 1120,
+            "actualHeight": 840,
+            "actualBytes": 80284,
+            "valid": true
+          },
+          {
+            "src": "/media/evidence-media-fit-20261018/visit-reframe-1440.webp",
+            "width": 1440,
+            "height": 1080,
+            "bytes": 108892,
+            "actualWidth": 1440,
+            "actualHeight": 1080,
+            "actualBytes": 108892,
+            "valid": true
+          }
+        ]
+      }
+    ]
+  },
+  "localMediaReferences": {
+    "unique": 805,
+    "missing": []
+  },
+  "originalSourceClicks": [
+    {
+      "href": "/media/company-news/australian-visit-03-1600.webp",
+      "images": [
+        {
+          "h": 1706,
+          "loaded": true,
+          "w": 1279
+        }
+      ],
+      "url": "http://127.0.0.1:4321/media/company-news/australian-visit-03-1600.webp"
+    },
+    {
+      "href": "/media/Artificial-1764396998946--413c4183ea.webp",
+      "images": [
+        {
+          "h": 815,
+          "loaded": true,
+          "w": 1127
+        }
+      ],
+      "url": "http://127.0.0.1:4321/media/Artificial-1764396998946--413c4183ea.webp"
+    }
+  ],
+  "newsFilterChecks": [
+    {
+      "overflow": false,
+      "selected": "Workshop & events",
+      "status": "2 updates",
+      "visible": 2
+    },
+    {
+      "overflow": false,
+      "selected": "Team life",
+      "status": "3 updates",
+      "visible": 3
+    },
+    {
+      "overflow": false,
+      "selected": "All updates",
+      "status": "5 updates",
+      "visible": 5
+    }
+  ],
+  "commands": {
+    "check": "Passed: 988 files, 0 errors, 0 warnings, 9 existing hints",
+    "build": "Passed: 146 Astro pages",
+    "seo": "Passed: 215 HTML, 86 sitemap URLs, 188 redirects, 91 raw URLs",
+    "inquiry": "Passed: inquiry draft contract; no message sent"
+  },
+  "performance": "No production Core Web Vitals measurement. New responsive file sizes measured from disk; no production performance claim."
+}

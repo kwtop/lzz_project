@@ -35,8 +35,8 @@ body.brand-site.finesse-redesigned.apple-layout .header-inner>.brand {flex:0 0 a
 body.brand-site.finesse-redesigned.apple-layout #main-nav {gap:20px;min-width:0}
 body.brand-site.finesse-redesigned.apple-layout #main-nav>details>summary {font-size:.875rem !important;font-weight:500 !important}
 body.brand-site.finesse-redesigned.apple-layout .site-header .header-quote {font-size:.875rem !important;padding:12px 18px;min-height:44px}
-body.brand-site.finesse-redesigned.apple-layout.home-refined .site-header {background:rgba(15,18,20,.7)}
-body.brand-site.finesse-redesigned.apple-layout #main-nav .nav-panel {border-radius:10px;box-shadow:0 16px 40px #17212a1a}
+body.brand-site.finesse-redesigned.apple-layout.home-refined .site-header {background:rgb(36 39 36 / .7)}
+body.brand-site.finesse-redesigned.apple-layout #main-nav .nav-panel {border-radius:10px;box-shadow:0 16px 40px #2427241a}
 body.brand-site.finesse-redesigned.apple-layout #main-nav .nav-panel a {border-radius:5px}
 body.brand-site.finesse-redesigned.apple-layout :is(.button,.er-button,.cap-button,.ab-button,button.text-link) {touch-action:manipulation;transition:background-color 150ms ease,color 150ms ease,transform 100ms ease-out}
 body.brand-site.finesse-redesigned.apple-layout :is(.button,.er-button,.cap-button,.ab-button):not(:disabled):active {transform:scale(.98)}
@@ -69,7 +69,7 @@ body.brand-site.finesse-redesigned.apple-layout .explorer .search {width:min(100
 body.brand-site.finesse-redesigned.apple-layout .catalog-facets {gap:20px}
 body.brand-site.finesse-redesigned.apple-layout .results-meta {margin-block:24px}
 body.brand-site.finesse-redesigned.apple-layout .product-grid {gap:40px 28px}
-body.brand-site.finesse-redesigned.apple-layout .product-card .product-image {border:0;background:#f0f2f3;border-radius:12px;padding:16px;aspect-ratio:1.12}
+body.brand-site.finesse-redesigned.apple-layout .product-card .product-image {border:0;background:#F5F3EF;border-radius:12px;padding:16px;aspect-ratio:1.12}
 body.brand-site.finesse-redesigned.apple-layout .product-card h3 {border-top:0;padding-top:0;margin-top:18px;font-size:1.125rem !important}
 body.brand-site.finesse-redesigned.apple-layout .product-card .product-card-context {font-size:.875rem !important;margin-top:8px;line-height:1.5 !important}
 
@@ -195,5 +195,5 @@ body.brand-site.finesse-redesigned.apple-layout .form-grid textarea {min-height:
 }
 @media(prefers-reduced-transparency:reduce),(prefers-contrast:more) {
  body.brand-site.finesse-redesigned.apple-layout .site-header {background:#fafafa;backdrop-filter:none;-webkit-backdrop-filter:none}
- body.brand-site.finesse-redesigned.apple-layout.home-refined .site-header {background:#171b1e}
+ body.brand-site.finesse-redesigned.apple-layout.home-refined .site-header {background:#242724}
 }

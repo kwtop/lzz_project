@@ -4,7 +4,7 @@
 .redesign-site .fx-subsection>header>p{margin-top:16px;max-width:72ch}
 .redesign-site .fx-subsection>header>h3{font-size:24px;line-height:1.3}
 .redesign-site .fx-production{background:#f3f4f2;padding:40px}
-.redesign-site .fx-quality{padding:40px;background:#eef1f2}
+.redesign-site .fx-quality{padding:40px;background:#F5F3EF}
 .redesign-site .fx-records-overview{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-bottom:36px}
 .redesign-site .fx-records-overview header p{margin-top:20px}
 .redesign-site .fx-records-overview .cx-concept img{width:100%;height:auto;object-fit:contain}
@@ -15,10 +15,10 @@
 .redesign-site .fx-inspection-review .fx-inspection-stages{grid-template-columns:1fr 1fr}
 .redesign-site .fx-quality .fx-method-layout{display:block}
 .redesign-site .fx-quality .fx-method-list>div{grid-template-columns:3fr 7fr}
-.redesign-site .fx-qualification-panel{background:#20282b;color:#fff;padding:30px}
+.redesign-site .fx-qualification-panel{background:#242724;color:#fff;padding:30px}
 .redesign-site .fx-document-layout .fx-qualification-panel :is(h3,dt){color:#fff}
-.redesign-site .fx-document-layout .fx-qualification-panel :is(p,dd){color:#d8dfe0}
-.redesign-site .fx-document-layout .fx-qualification-panel a{color:#fff;text-decoration-color:#aab9bd}
+.redesign-site .fx-document-layout .fx-qualification-panel :is(p,dd){color:#EEE9E2}
+.redesign-site .fx-document-layout .fx-qualification-panel a{color:#fff;text-decoration-color:#C9C9BE}
 .redesign-site .fx-document-layout>.fx-qualification-panel{border:0;padding:30px}
 .redesign-site .fx-page section{position:relative}
 .redesign-site .fx-intro{display:grid;grid-template-columns:3fr 7fr;gap:28px 48px}

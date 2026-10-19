@@ -1,0 +1,2212 @@
+{
+  "factory-aisle": {
+    "id": "factory-aisle",
+    "src": "/media/image-content-20261018-r2/factory-aisle-1120.webp",
+    "srcset": "/media/image-content-20261018-r2/factory-aisle-480.webp 480w, /media/image-content-20261018-r2/factory-aisle-800.webp 800w, /media/image-content-20261018-r2/factory-aisle-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A realistic illustrative view of enclosed machining centres along a tidy workshop aisle",
+    "caption": "Workshop presentation · illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/factory-aisle.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "D:/lzz/lzz/_react/public/media/site-image-polish-20261018/workshop-wide-original-2560.webp",
+    "purpose": "Factory hero / company profile",
+    "aspect": "4:5",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/factory-aisle-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 41076
+      },
+      {
+        "src": "/media/image-content-20261018-r2/factory-aisle-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 85624
+      },
+      {
+        "src": "/media/image-content-20261018-r2/factory-aisle-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 136592
+      }
+    ],
+    "mobile": {
+      "src": "/media/image-content-20261018-r2/factory-aisle-mobile-1120.webp",
+      "srcset": "/media/image-content-20261018-r2/factory-aisle-mobile-480.webp 480w, /media/image-content-20261018-r2/factory-aisle-mobile-800.webp 800w, /media/image-content-20261018-r2/factory-aisle-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 979,
+      "crop": {
+        "left": 0,
+        "top": 100,
+        "width": 1122,
+        "height": 981
+      },
+      "files": [
+        {
+          "src": "/media/image-content-20261018-r2/factory-aisle-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 28810
+        },
+        {
+          "src": "/media/image-content-20261018-r2/factory-aisle-mobile-800.webp",
+          "width": 800,
+          "height": 699,
+          "bytes": 59896
+        },
+        {
+          "src": "/media/image-content-20261018-r2/factory-aisle-mobile-1120.webp",
+          "width": 1120,
+          "height": 979,
+          "bytes": 92790
+        }
+      ]
+    }
+  },
+  "workshop-craft": {
+    "id": "workshop-craft",
+    "src": "/media/image-content-20261018-r2/workshop-craft-1120.webp",
+    "srcset": "/media/image-content-20261018-r2/workshop-craft-480.webp 480w, /media/image-content-20261018-r2/workshop-craft-800.webp 800w, /media/image-content-20261018-r2/workshop-craft-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "An unidentifiable generic operator at a closed CNC machine control panel",
+    "caption": "Workshop operation · illustration",
+    "origin": "image-reference",
+    "position": "75% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/workshop-craft.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "D:/lzz/lzz/_react/public/media/evidence/workshop-operators-2025-1600.webp",
+    "purpose": "Company overview hero",
+    "aspect": "4:5",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/workshop-craft-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 36872
+      },
+      {
+        "src": "/media/image-content-20261018-r2/workshop-craft-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 73274
+      },
+      {
+        "src": "/media/image-content-20261018-r2/workshop-craft-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 112034
+      }
+    ],
+    "mobile": {
+      "src": "/media/image-content-20261018-r2/workshop-craft-mobile-1120.webp",
+      "srcset": "/media/image-content-20261018-r2/workshop-craft-mobile-480.webp 480w, /media/image-content-20261018-r2/workshop-craft-mobile-800.webp 800w, /media/image-content-20261018-r2/workshop-craft-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 979,
+      "crop": {
+        "left": 0,
+        "top": 150,
+        "width": 1122,
+        "height": 981
+      },
+      "files": [
+        {
+          "src": "/media/image-content-20261018-r2/workshop-craft-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 28254
+        },
+        {
+          "src": "/media/image-content-20261018-r2/workshop-craft-mobile-800.webp",
+          "width": 800,
+          "height": 699,
+          "bytes": 55984
+        },
+        {
+          "src": "/media/image-content-20261018-r2/workshop-craft-mobile-1120.webp",
+          "width": 1120,
+          "height": 979,
+          "bytes": 87812
+        }
+      ]
+    }
+  },
+  "cnc-equipment": {
+    "id": "cnc-equipment",
+    "src": "/media/image-content-20261018-r2/cnc-equipment-1120.webp",
+    "srcset": "/media/image-content-20261018-r2/cnc-equipment-480.webp 480w, /media/image-content-20261018-r2/cnc-equipment-800.webp 800w, /media/image-content-20261018-r2/cnc-equipment-1120.webp 1120w",
+    "width": 1120,
+    "height": 1400,
+    "alt": "A generic enclosed CNC turning centre with a chuck and tool turret visible",
+    "caption": "CNC equipment · illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/cnc-equipment.png",
+    "generator": "built-in image_gen",
+    "sourceReference": null,
+    "purpose": "Capabilities overview hero",
+    "aspect": "4:5",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/cnc-equipment-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 37030
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cnc-equipment-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 78962
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cnc-equipment-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 128624
+      }
+    ],
+    "mobile": {
+      "src": "/media/image-content-20261018-r2/cnc-equipment-mobile-1120.webp",
+      "srcset": "/media/image-content-20261018-r2/cnc-equipment-mobile-480.webp 480w, /media/image-content-20261018-r2/cnc-equipment-mobile-800.webp 800w, /media/image-content-20261018-r2/cnc-equipment-mobile-1120.webp 1120w",
+      "width": 1120,
+      "height": 979,
+      "crop": {
+        "left": 0,
+        "top": 40,
+        "width": 1122,
+        "height": 981
+      },
+      "files": [
+        {
+          "src": "/media/image-content-20261018-r2/cnc-equipment-mobile-480.webp",
+          "width": 480,
+          "height": 420,
+          "bytes": 27326
+        },
+        {
+          "src": "/media/image-content-20261018-r2/cnc-equipment-mobile-800.webp",
+          "width": 800,
+          "height": 699,
+          "bytes": 57342
+        },
+        {
+          "src": "/media/image-content-20261018-r2/cnc-equipment-mobile-1120.webp",
+          "width": 1120,
+          "height": 979,
+          "bytes": 93138
+        }
+      ]
+    }
+  },
+  "inspection-room": {
+    "id": "inspection-room",
+    "src": "/media/image-content-20261018-r2/inspection-room-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/inspection-room-480.webp 480w, /media/image-content-20261018-r2/inspection-room-800.webp 800w, /media/image-content-20261018-r2/inspection-room-1120.webp 1120w, /media/image-content-20261018-r2/inspection-room-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "A bridge coordinate measuring machine and granite table in a generic metrology room",
+    "caption": "Measurement planning · illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/inspection-room.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "D:/lzz/lzz/_react/public/media/evidence/cmm-room-1600.webp",
+    "purpose": "Inspection display / planning illustration",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/inspection-room-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 13970
+      },
+      {
+        "src": "/media/image-content-20261018-r2/inspection-room-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 35936
+      },
+      {
+        "src": "/media/image-content-20261018-r2/inspection-room-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 70196
+      },
+      {
+        "src": "/media/image-content-20261018-r2/inspection-room-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 107120
+      }
+    ]
+  },
+  "packing-bench": {
+    "id": "packing-bench",
+    "src": "/media/image-content-20261018-r2/packing-bench-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/packing-bench-480.webp 480w, /media/image-content-20261018-r2/packing-bench-800.webp 800w, /media/image-content-20261018-r2/packing-bench-1120.webp 1120w, /media/image-content-20261018-r2/packing-bench-1440.webp 1440w",
+    "width": 1440,
+    "height": 960,
+    "alt": "Generic machined components separated by protective foam in an unmarked carton",
+    "caption": "Protective packing · illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/packing-bench.png",
+    "generator": "built-in image_gen",
+    "sourceReference": null,
+    "purpose": "Factory packing / handover",
+    "aspect": "3:2",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/packing-bench-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21748
+      },
+      {
+        "src": "/media/image-content-20261018-r2/packing-bench-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 50676
+      },
+      {
+        "src": "/media/image-content-20261018-r2/packing-bench-1120.webp",
+        "width": 1120,
+        "height": 747,
+        "bytes": 88040
+      },
+      {
+        "src": "/media/image-content-20261018-r2/packing-bench-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 132866
+      }
+    ]
+  },
+  "brass-presentation": {
+    "id": "brass-presentation",
+    "src": "/media/image-content-20261018-r2/brass-presentation-1120.webp",
+    "srcset": "/media/image-content-20261018-r2/brass-presentation-480.webp 480w, /media/image-content-20261018-r2/brass-presentation-800.webp 800w, /media/image-content-20261018-r2/brass-presentation-1120.webp 1120w",
+    "width": 1120,
+    "height": 1120,
+    "alt": "AI-refined reference showing threaded brass-fitting forms in a dark tray",
+    "caption": "Brass fitting forms · AI-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/brass-presentation.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "D:/lzz/lzz/_react/public/media/evidence/brass-plugs-1200.webp",
+    "purpose": "Brass component reference display",
+    "aspect": "1:1",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/brass-presentation-480.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 80572
+      },
+      {
+        "src": "/media/image-content-20261018-r2/brass-presentation-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 190242
+      },
+      {
+        "src": "/media/image-content-20261018-r2/brass-presentation-1120.webp",
+        "width": 1120,
+        "height": 1120,
+        "bytes": 316302
+      }
+    ]
+  },
+  "enclosures-presentation": {
+    "id": "enclosures-presentation",
+    "src": "/media/image-content-20261018-r2/enclosures-presentation-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/enclosures-presentation-480.webp 480w, /media/image-content-20261018-r2/enclosures-presentation-800.webp 800w, /media/image-content-20261018-r2/enclosures-presentation-1120.webp 1120w, /media/image-content-20261018-r2/enclosures-presentation-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "AI-refined reference showing open machined housing forms on a blue grey workbench",
+    "caption": "Enclosure forms · AI-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/enclosures-presentation.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "D:/lzz/lzz/_react/public/media/evidence/aluminum-housings-1600.webp",
+    "purpose": "Aluminium housing reference display",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/enclosures-presentation-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 39876
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosures-presentation-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 95298
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosures-presentation-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 159566
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosures-presentation-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 227050
+      }
+    ]
+  },
+  "turned-presentation": {
+    "id": "turned-presentation",
+    "src": "/media/image-content-20261018-r2/turned-presentation-1120.webp",
+    "srcset": "/media/image-content-20261018-r2/turned-presentation-480.webp 480w, /media/image-content-20261018-r2/turned-presentation-800.webp 800w, /media/image-content-20261018-r2/turned-presentation-1120.webp 1120w",
+    "width": 1120,
+    "height": 1120,
+    "alt": "AI-refined reference showing repeated cylindrical components with end flanges",
+    "caption": "Repeated component forms · AI-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turned-presentation.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p34-1200.webp",
+    "purpose": "Repeated turned component reference display",
+    "aspect": "1:1",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/turned-presentation-480.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 67662
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-presentation-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 166064
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-presentation-1120.webp",
+        "width": 1120,
+        "height": 1120,
+        "bytes": 280506
+      }
+    ]
+  },
+  "setup-first": {
+    "id": "setup-first",
+    "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/setup-first-480.webp 480w, /media/image-content-20261018-r2/setup-first-800.webp 800w, /media/image-content-20261018-r2/setup-first-1120.webp 1120w, /media/image-content-20261018-r2/setup-first-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: first holding setup",
+    "caption": "First holding setup · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-first.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/two-stage-first-1600.webp",
+    "sourceId": "two-stage-first",
+    "sourceSha256": "aaeb3f688607ff2fba790c6e4a4fdf1a87f590d5cf1d507eeeb9e44e6deb8724",
+    "purpose": "First holding setup",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/setup-first-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30534
+      },
+      {
+        "src": "/media/image-content-20261018-r2/setup-first-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 72058
+      },
+      {
+        "src": "/media/image-content-20261018-r2/setup-first-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 121006
+      },
+      {
+        "src": "/media/image-content-20261018-r2/setup-first-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 173604
+      }
+    ]
+  },
+  "five-axis-process": {
+    "id": "five-axis-process",
+    "src": "/media/image-content-20261018-r2/five-axis-process-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/five-axis-process-480.webp 480w, /media/image-content-20261018-r2/five-axis-process-800.webp 800w, /media/image-content-20261018-r2/five-axis-process-1120.webp 1120w, /media/image-content-20261018-r2/five-axis-process-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: rotary workholding",
+    "caption": "Rotary workholding · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-process.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/five-axis-operation-1600.webp",
+    "sourceId": "five-axis-operation",
+    "sourceSha256": "c2accb6b2bfafd76d2f5b4df829fe3a1c750d43ed7b7bdd0483b83105609b65a",
+    "purpose": "Rotary workholding",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-process-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27330
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-process-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 63062
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-process-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 108394
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-process-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 156608
+      }
+    ]
+  },
+  "turning-process": {
+    "id": "turning-process",
+    "src": "/media/image-content-20261018-r2/turning-process-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/turning-process-480.webp 480w, /media/image-content-20261018-r2/turning-process-800.webp 800w, /media/image-content-20261018-r2/turning-process-1120.webp 1120w, /media/image-content-20261018-r2/turning-process-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: turning at the chuck",
+    "caption": "Turning at the chuck · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turning-process.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/turning-operation-1600.webp",
+    "sourceId": "turning-operation",
+    "sourceSha256": "c01f81c7db1170b8ab9bf8b479fb489fd343e3a92544549e75b6db998122eefc",
+    "purpose": "Turning at the chuck",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/turning-process-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27024
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turning-process-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 60896
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turning-process-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 104358
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turning-process-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 148034
+      }
+    ]
+  },
+  "turn-mill-process": {
+    "id": "turn-mill-process",
+    "src": "/media/image-content-20261018-r2/turn-mill-process-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/turn-mill-process-480.webp 480w, /media/image-content-20261018-r2/turn-mill-process-800.webp 800w, /media/image-content-20261018-r2/turn-mill-process-1120.webp 1120w, /media/image-content-20261018-r2/turn-mill-process-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: milling after turning",
+    "caption": "Milling after turning · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turn-mill-process.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/turn-mill-operation-1600.webp",
+    "sourceId": "turn-mill-operation",
+    "sourceSha256": "fd467734648c47243b1573ef19380ee7deede9eb2fee0e284269745e8fd6b4a6",
+    "purpose": "Milling after turning",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-process-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33606
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-process-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 80126
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-process-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 139922
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-process-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 197106
+      }
+    ]
+  },
+  "setup-second": {
+    "id": "setup-second",
+    "src": "/media/image-content-20261018-r2/setup-second-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/setup-second-480.webp 480w, /media/image-content-20261018-r2/setup-second-800.webp 800w, /media/image-content-20261018-r2/setup-second-1120.webp 1120w, /media/image-content-20261018-r2/setup-second-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: second holding setup",
+    "caption": "Second holding setup · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/setup-second.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/two-stage-second-1600.webp",
+    "sourceId": "two-stage-second",
+    "sourceSha256": "6eb8c4149c08fe79ed0a2927055d16ddbf033cb3a1a23f2b5eec4fc0669d9a0f",
+    "purpose": "Second holding setup",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/setup-second-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30628
+      },
+      {
+        "src": "/media/image-content-20261018-r2/setup-second-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 64376
+      },
+      {
+        "src": "/media/image-content-20261018-r2/setup-second-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 105450
+      },
+      {
+        "src": "/media/image-content-20261018-r2/setup-second-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 148700
+      }
+    ]
+  },
+  "five-axis-wide": {
+    "id": "five-axis-wide",
+    "src": "/media/image-content-20261018-r2/five-axis-wide-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/five-axis-wide-480.webp 480w, /media/image-content-20261018-r2/five-axis-wide-800.webp 800w, /media/image-content-20261018-r2/five-axis-wide-1120.webp 1120w, /media/image-content-20261018-r2/five-axis-wide-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: five-axis setup",
+    "caption": "Five-axis setup · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-wide.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/five-axis-machine-wide-1600.webp",
+    "sourceId": "five-axis-machine-wide",
+    "sourceSha256": "2a6d89967fb5a7b8d43c51c453307adb08ba21bf5ceea90f1918517d9c8884e7",
+    "purpose": "Five-axis setup",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-wide-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 25036
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-wide-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 53832
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-wide-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 92042
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-wide-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 129604
+      }
+    ]
+  },
+  "enclosure-process": {
+    "id": "enclosure-process",
+    "src": "/media/image-content-20261018-r2/enclosure-process-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/enclosure-process-480.webp 480w, /media/image-content-20261018-r2/enclosure-process-800.webp 800w, /media/image-content-20261018-r2/enclosure-process-1120.webp 1120w, /media/image-content-20261018-r2/enclosure-process-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: enclosure pocket milling",
+    "caption": "Enclosure pocket milling · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/enclosure-process.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/milling-enclosure-operation-1600.webp",
+    "sourceId": "milling-enclosure-operation",
+    "sourceSha256": "d4413eb5fc89c6a5f5272ceeb7a70e6579d7d213b96f07124cccbe4dea2e6149",
+    "purpose": "Enclosure pocket milling",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-process-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 38198
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-process-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 87046
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-process-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 146272
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-process-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 204156
+      }
+    ]
+  },
+  "prismatic-process": {
+    "id": "prismatic-process",
+    "src": "/media/image-content-20261018-r2/prismatic-process-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/prismatic-process-480.webp 480w, /media/image-content-20261018-r2/prismatic-process-800.webp 800w, /media/image-content-20261018-r2/prismatic-process-1120.webp 1120w, /media/image-content-20261018-r2/prismatic-process-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: prismatic workholding",
+    "caption": "Prismatic workholding · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/prismatic-process.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/multi-feature-milling-operation-1600.webp",
+    "sourceId": "multi-feature-milling-operation",
+    "sourceSha256": "09b7f39b1faea3c5449cb11b8fed0dca3716d797f7b10de16b4f726ec61bdf4c",
+    "purpose": "Prismatic workholding",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-process-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30154
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-process-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 68452
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-process-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 111642
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-process-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 157238
+      }
+    ]
+  },
+  "five-axis-components": {
+    "id": "five-axis-components",
+    "src": "/media/image-content-20261018-r2/five-axis-components-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/five-axis-components-480.webp 480w, /media/image-content-20261018-r2/five-axis-components-800.webp 800w, /media/image-content-20261018-r2/five-axis-components-1120.webp 1120w, /media/image-content-20261018-r2/five-axis-components-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: multi-face component forms",
+    "caption": "Multi-face component forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/five-axis-components.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/five-axis-parts-1600.webp",
+    "sourceId": "five-axis-parts",
+    "sourceSha256": "596513c29ad6d348c42456fe1ad71469e0a84f5bfda5541d6188aa0ed904777e",
+    "purpose": "Multi-face component forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-components-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 35524
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-components-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 84536
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-components-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 147412
+      },
+      {
+        "src": "/media/image-content-20261018-r2/five-axis-components-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 209696
+      }
+    ]
+  },
+  "enclosure-components": {
+    "id": "enclosure-components",
+    "src": "/media/image-content-20261018-r2/enclosure-components-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/enclosure-components-480.webp 480w, /media/image-content-20261018-r2/enclosure-components-800.webp 800w, /media/image-content-20261018-r2/enclosure-components-1120.webp 1120w, /media/image-content-20261018-r2/enclosure-components-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: recessed enclosure forms",
+    "caption": "Recessed enclosure forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/enclosure-components.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/milling-enclosure-parts-1600.webp",
+    "sourceId": "milling-enclosure-parts",
+    "sourceSha256": "26dec4893b1aab2b6b13956610364fda85c6278c596c277eb7942fd8ec5ecf34",
+    "purpose": "Recessed enclosure forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-components-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33012
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-components-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 75504
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-components-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 131078
+      },
+      {
+        "src": "/media/image-content-20261018-r2/enclosure-components-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 187518
+      }
+    ]
+  },
+  "turn-mill-components": {
+    "id": "turn-mill-components",
+    "src": "/media/image-content-20261018-r2/turn-mill-components-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/turn-mill-components-480.webp 480w, /media/image-content-20261018-r2/turn-mill-components-800.webp 800w, /media/image-content-20261018-r2/turn-mill-components-1120.webp 1120w, /media/image-content-20261018-r2/turn-mill-components-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: turned and milled component forms",
+    "caption": "Turned and milled component forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turn-mill-components.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/turn-mill-parts-1200.webp",
+    "sourceId": "turn-mill-parts",
+    "sourceSha256": "36e7760528ac9492f7899b889d14f7e4034609e68dd6f56c05e2341ad20f3afe",
+    "purpose": "Turned and milled component forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-components-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 40782
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-components-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 82934
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-components-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 131826
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turn-mill-components-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 180162
+      }
+    ]
+  },
+  "prismatic-components": {
+    "id": "prismatic-components",
+    "src": "/media/image-content-20261018-r2/prismatic-components-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/prismatic-components-480.webp 480w, /media/image-content-20261018-r2/prismatic-components-800.webp 800w, /media/image-content-20261018-r2/prismatic-components-1120.webp 1120w, /media/image-content-20261018-r2/prismatic-components-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: prismatic component forms",
+    "caption": "Prismatic component forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/prismatic-components.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/multi-feature-milling-parts-1600.webp",
+    "sourceId": "multi-feature-milling-parts",
+    "sourceSha256": "584c21be8899762cbabf24f073dc91821bd1ce712580409544edb40220359e43",
+    "purpose": "Prismatic component forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-components-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 31568
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-components-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 82824
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-components-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 149942
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prismatic-components-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 225190
+      }
+    ]
+  },
+  "display-panel": {
+    "id": "display-panel",
+    "src": "/media/image-content-20261018-r2/display-panel-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/display-panel-480.webp 480w, /media/image-content-20261018-r2/display-panel-800.webp 800w, /media/image-content-20261018-r2/display-panel-1120.webp 1120w, /media/image-content-20261018-r2/display-panel-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: display housing panel",
+    "caption": "Display housing panel · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/display-panel.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/display-housing-panel-1600.webp",
+    "sourceId": "display-housing-panel",
+    "sourceSha256": "99737e78c034a014b68fd03ce27bfb2d424f2410b6d48b915e87659198820f61",
+    "purpose": "Display housing panel",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/display-panel-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 19732
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-panel-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 55084
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-panel-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 104244
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-panel-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 160978
+      }
+    ]
+  },
+  "display-process": {
+    "id": "display-process",
+    "src": "/media/image-content-20261018-r2/display-process-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/display-process-480.webp 480w, /media/image-content-20261018-r2/display-process-800.webp 800w, /media/image-content-20261018-r2/display-process-1120.webp 1120w, /media/image-content-20261018-r2/display-process-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: display panel machining",
+    "caption": "Display panel machining · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/display-process.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/display-housing-machining-1600.webp",
+    "sourceId": "display-housing-machining",
+    "sourceSha256": "707eac81c78ec9eb8d5b0566476ffab658214e0a699cd3b1dad312ebf04b43af",
+    "purpose": "Display panel machining",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/display-process-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 31040
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-process-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 70806
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-process-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 119794
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-process-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 174514
+      }
+    ]
+  },
+  "display-pair": {
+    "id": "display-pair",
+    "src": "/media/image-content-20261018-r2/display-pair-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/display-pair-480.webp 480w, /media/image-content-20261018-r2/display-pair-800.webp 800w, /media/image-content-20261018-r2/display-pair-1120.webp 1120w, /media/image-content-20261018-r2/display-pair-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: display housing faces",
+    "caption": "Display housing faces · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/display-pair.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/display-housing-pair-1200.webp",
+    "sourceId": "display-housing-pair",
+    "sourceSha256": "6e07199d05d8d13b2240d2b4118eea6a2406494862295b4a5dd564399435e980",
+    "purpose": "Display housing faces",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/display-pair-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 36250
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-pair-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 95222
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-pair-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 170716
+      },
+      {
+        "src": "/media/image-content-20261018-r2/display-pair-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 244324
+      }
+    ]
+  },
+  "metrology-detail": {
+    "id": "metrology-detail",
+    "src": "/media/image-content-20261018-r2/metrology-detail-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/metrology-detail-480.webp 480w, /media/image-content-20261018-r2/metrology-detail-800.webp 800w, /media/image-content-20261018-r2/metrology-detail-1120.webp 1120w, /media/image-content-20261018-r2/metrology-detail-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: probe and fixture detail",
+    "caption": "Probe and fixture detail · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/metrology-detail.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/cmm-detail-1600.webp",
+    "sourceId": "cmm-detail",
+    "sourceSha256": "10a5fd5a6adb5c888a83a3bcfc28a1a8b533083fa3c3923869dd59841a215fa7",
+    "purpose": "Probe and fixture detail",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/metrology-detail-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24456
+      },
+      {
+        "src": "/media/image-content-20261018-r2/metrology-detail-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 60270
+      },
+      {
+        "src": "/media/image-content-20261018-r2/metrology-detail-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 105030
+      },
+      {
+        "src": "/media/image-content-20261018-r2/metrology-detail-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 147666
+      }
+    ]
+  },
+  "acrylic-components": {
+    "id": "acrylic-components",
+    "src": "/media/image-content-20261018-r2/acrylic-components-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/acrylic-components-480.webp 480w, /media/image-content-20261018-r2/acrylic-components-800.webp 800w, /media/image-content-20261018-r2/acrylic-components-1120.webp 1120w, /media/image-content-20261018-r2/acrylic-components-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: transparent acrylic forms",
+    "caption": "Transparent acrylic forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/acrylic-components.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-acrylic-detail-1200.webp",
+    "sourceId": "plastic-acrylic-detail",
+    "sourceSha256": "896b46e5873fc1f587fb0bb51401174a25fbcd8671b3c4733b414db9d1f4dec2",
+    "purpose": "Transparent acrylic forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-components-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 20466
+      },
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-components-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 49906
+      },
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-components-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 89248
+      },
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-components-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 130090
+      }
+    ]
+  },
+  "ptfe-components": {
+    "id": "ptfe-components",
+    "src": "/media/image-content-20261018-r2/ptfe-components-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/ptfe-components-480.webp 480w, /media/image-content-20261018-r2/ptfe-components-800.webp 800w, /media/image-content-20261018-r2/ptfe-components-1120.webp 1120w, /media/image-content-20261018-r2/ptfe-components-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: ptfe component forms",
+    "caption": "PTFE component forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/ptfe-components.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-ptfe-batch-1200.webp",
+    "sourceId": "plastic-ptfe-batch",
+    "sourceSha256": "705b9763260d85f4c56987993ebeccaf46aa8a94548b99a1cd5a1ceb1cd0c6d2",
+    "purpose": "PTFE component forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-components-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28506
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-components-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 62532
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-components-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 102748
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-components-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 143906
+      }
+    ]
+  },
+  "ptfe-intermediate": {
+    "id": "ptfe-intermediate",
+    "src": "/media/image-content-20261018-r2/ptfe-intermediate-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/ptfe-intermediate-480.webp 480w, /media/image-content-20261018-r2/ptfe-intermediate-800.webp 800w, /media/image-content-20261018-r2/ptfe-intermediate-1120.webp 1120w, /media/image-content-20261018-r2/ptfe-intermediate-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: ptfe intermediate forms",
+    "caption": "PTFE intermediate forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/ptfe-intermediate.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-ptfe-intermediate-1200.webp",
+    "sourceId": "plastic-ptfe-intermediate",
+    "sourceSha256": "5f2094e5bab07d1dabd6117370f81ada12fa10660871bec259bb8da725344315",
+    "purpose": "PTFE intermediate forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-intermediate-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32260
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-intermediate-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 65342
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-intermediate-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 100018
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-intermediate-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 133468
+      }
+    ]
+  },
+  "ptfe-shafts": {
+    "id": "ptfe-shafts",
+    "src": "/media/image-content-20261018-r2/ptfe-shafts-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/ptfe-shafts-480.webp 480w, /media/image-content-20261018-r2/ptfe-shafts-800.webp 800w, /media/image-content-20261018-r2/ptfe-shafts-1120.webp 1120w, /media/image-content-20261018-r2/ptfe-shafts-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: stepped ptfe shafts",
+    "caption": "Stepped PTFE shafts · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/ptfe-shafts.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-ptfe-shafts-1200.webp",
+    "sourceId": "plastic-ptfe-shafts",
+    "sourceSha256": "58635bbfdabba62c6c0c80d0b23f4fa38093cadca51874bf5c300c28d102e0f9",
+    "purpose": "Stepped PTFE shafts",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-shafts-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33380
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-shafts-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 80444
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-shafts-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 134342
+      },
+      {
+        "src": "/media/image-content-20261018-r2/ptfe-shafts-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 192994
+      }
+    ]
+  },
+  "turned-shaft": {
+    "id": "turned-shaft",
+    "src": "/media/image-content-20261018-r2/turned-shaft-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/turned-shaft-480.webp 480w, /media/image-content-20261018-r2/turned-shaft-800.webp 800w, /media/image-content-20261018-r2/turned-shaft-1120.webp 1120w, /media/image-content-20261018-r2/turned-shaft-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: stepped shaft form",
+    "caption": "Stepped shaft form · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turned-shaft.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/metal-turned-shaft-1200.webp",
+    "sourceId": "metal-turned-shaft",
+    "sourceSha256": "a3ccea1ce087375698d3715220d2817c61ec2cbe6db51e0aae0705ae44d0c431",
+    "purpose": "Stepped shaft form",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/turned-shaft-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 20924
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-shaft-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 50948
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-shaft-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 86768
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-shaft-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 125336
+      }
+    ]
+  },
+  "turned-array": {
+    "id": "turned-array",
+    "src": "/media/image-content-20261018-r2/turned-array-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/turned-array-480.webp 480w, /media/image-content-20261018-r2/turned-array-800.webp 800w, /media/image-content-20261018-r2/turned-array-1120.webp 1120w, /media/image-content-20261018-r2/turned-array-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: repeated turned forms",
+    "caption": "Repeated turned forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/turned-array.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/metal-turned-batch-1200.webp",
+    "sourceId": "metal-turned-batch",
+    "sourceSha256": "3cd1f06ced5e25d901cca077c69ebbdf78ddaad0777a59ce30ce2193d66fb864",
+    "purpose": "Repeated turned forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/turned-array-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 34860
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-array-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 94458
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-array-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 162684
+      },
+      {
+        "src": "/media/image-content-20261018-r2/turned-array-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 234058
+      }
+    ]
+  },
+  "aluminum-housing-detail": {
+    "id": "aluminum-housing-detail",
+    "src": "/media/image-content-20261018-r2/aluminum-housing-detail-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/aluminum-housing-detail-480.webp 480w, /media/image-content-20261018-r2/aluminum-housing-detail-800.webp 800w, /media/image-content-20261018-r2/aluminum-housing-detail-1120.webp 1120w, /media/image-content-20261018-r2/aluminum-housing-detail-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: housing mounting features",
+    "caption": "Housing mounting features · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/aluminum-housing-detail.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/metal-aluminum-close-1200.webp",
+    "sourceId": "metal-aluminum-close",
+    "sourceSha256": "1099033337f851e9f4061807a9271da72b162d1a1c58a27475e349928c1a72b7",
+    "purpose": "Housing mounting features",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-detail-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 34980
+      },
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-detail-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 79830
+      },
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-detail-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 131440
+      },
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-detail-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 186450
+      }
+    ]
+  },
+  "coated-round": {
+    "id": "coated-round",
+    "src": "/media/image-content-20261018-r2/coated-round-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/coated-round-480.webp 480w, /media/image-content-20261018-r2/coated-round-800.webp 800w, /media/image-content-20261018-r2/coated-round-1120.webp 1120w, /media/image-content-20261018-r2/coated-round-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: coated circular forms",
+    "caption": "Coated circular forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/coated-round.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/finish-coated-round-1200.webp",
+    "sourceId": "finish-coated-round",
+    "sourceSha256": "328c562eec0c579803cd947f51da5d07d3c5051feca408c2eef63ae9756b3576",
+    "purpose": "Coated circular forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/coated-round-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29734
+      },
+      {
+        "src": "/media/image-content-20261018-r2/coated-round-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 58956
+      },
+      {
+        "src": "/media/image-content-20261018-r2/coated-round-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 91506
+      },
+      {
+        "src": "/media/image-content-20261018-r2/coated-round-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 127084
+      }
+    ]
+  },
+  "coated-bars": {
+    "id": "coated-bars",
+    "src": "/media/image-content-20261018-r2/coated-bars-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/coated-bars-480.webp 480w, /media/image-content-20261018-r2/coated-bars-800.webp 800w, /media/image-content-20261018-r2/coated-bars-1120.webp 1120w, /media/image-content-20261018-r2/coated-bars-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: coated bar forms",
+    "caption": "Coated bar forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/coated-bars.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/finish-coated-bars-1200.webp",
+    "sourceId": "finish-coated-bars",
+    "sourceSha256": "0fe9f1a3f6c29c5718e4a01599a26ccd4c5654dae645ac40b161968fd8c68456",
+    "purpose": "Coated bar forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/coated-bars-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28542
+      },
+      {
+        "src": "/media/image-content-20261018-r2/coated-bars-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 63600
+      },
+      {
+        "src": "/media/image-content-20261018-r2/coated-bars-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 108630
+      },
+      {
+        "src": "/media/image-content-20261018-r2/coated-bars-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 156060
+      }
+    ]
+  },
+  "covered-wheels": {
+    "id": "covered-wheels",
+    "src": "/media/image-content-20261018-r2/covered-wheels-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/covered-wheels-480.webp 480w, /media/image-content-20261018-r2/covered-wheels-800.webp 800w, /media/image-content-20261018-r2/covered-wheels-1120.webp 1120w, /media/image-content-20261018-r2/covered-wheels-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: covered wheel forms",
+    "caption": "Covered wheel forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/covered-wheels.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/covered-wheels-1200.webp",
+    "sourceId": "covered-wheels",
+    "sourceSha256": "58627709eb5342a5019dae1c7e9266ee6418f588017df06abcb1b23da83f08e4",
+    "purpose": "Covered wheel forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/covered-wheels-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 16350
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-wheels-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 36446
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-wheels-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 62930
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-wheels-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 93042
+      }
+    ]
+  },
+  "covered-rollers": {
+    "id": "covered-rollers",
+    "src": "/media/image-content-20261018-r2/covered-rollers-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/covered-rollers-480.webp 480w, /media/image-content-20261018-r2/covered-rollers-800.webp 800w, /media/image-content-20261018-r2/covered-rollers-1120.webp 1120w, /media/image-content-20261018-r2/covered-rollers-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: covered roller forms",
+    "caption": "Covered roller forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/covered-rollers.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/covered-rollers-1200.webp",
+    "sourceId": "covered-rollers",
+    "sourceSha256": "475bba9ee793d25ed6454b6ca30880c21dd9c7b1a1abba0af72a5897a233296d",
+    "purpose": "Covered roller forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/covered-rollers-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23762
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-rollers-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 58662
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-rollers-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 104116
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-rollers-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 150270
+      }
+    ]
+  },
+  "covered-shaped-parts": {
+    "id": "covered-shaped-parts",
+    "src": "/media/image-content-20261018-r2/covered-shaped-parts-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/covered-shaped-parts-480.webp 480w, /media/image-content-20261018-r2/covered-shaped-parts-800.webp 800w, /media/image-content-20261018-r2/covered-shaped-parts-1120.webp 1120w, /media/image-content-20261018-r2/covered-shaped-parts-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: covered shaped parts",
+    "caption": "Covered shaped parts · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/covered-shaped-parts.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/covered-shaped-parts-1200.webp",
+    "sourceId": "covered-shaped-parts",
+    "sourceSha256": "b9374570ce0357b6920239b2ac80f93122d347cae00f0e863835150b5a1031ff",
+    "purpose": "Covered shaped parts",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/covered-shaped-parts-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15936
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-shaped-parts-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 37460
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-shaped-parts-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 67914
+      },
+      {
+        "src": "/media/image-content-20261018-r2/covered-shaped-parts-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 106088
+      }
+    ]
+  },
+  "bevel-gears": {
+    "id": "bevel-gears",
+    "src": "/media/image-content-20261018-r2/bevel-gears-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/bevel-gears-480.webp 480w, /media/image-content-20261018-r2/bevel-gears-800.webp 800w, /media/image-content-20261018-r2/bevel-gears-1120.webp 1120w, /media/image-content-20261018-r2/bevel-gears-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: bevel gear forms",
+    "caption": "Bevel gear forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/bevel-gears.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/gear-bevel-examples-1200.webp",
+    "sourceId": "gear-bevel-examples",
+    "sourceSha256": "0f4504f04d5bc2ba39daf49f21f9ca3f5871ac0e78f542b31ec896481a91981d",
+    "purpose": "Bevel gear forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/bevel-gears-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 41804
+      },
+      {
+        "src": "/media/image-content-20261018-r2/bevel-gears-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 93894
+      },
+      {
+        "src": "/media/image-content-20261018-r2/bevel-gears-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 150342
+      },
+      {
+        "src": "/media/image-content-20261018-r2/bevel-gears-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 211094
+      }
+    ]
+  },
+  "cylindrical-gears": {
+    "id": "cylindrical-gears",
+    "src": "/media/image-content-20261018-r2/cylindrical-gears-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/cylindrical-gears-480.webp 480w, /media/image-content-20261018-r2/cylindrical-gears-800.webp 800w, /media/image-content-20261018-r2/cylindrical-gears-1120.webp 1120w, /media/image-content-20261018-r2/cylindrical-gears-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: cylindrical gear forms",
+    "caption": "Cylindrical gear forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/cylindrical-gears.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/gear-cylindrical-examples-1200.webp",
+    "sourceId": "gear-cylindrical-examples",
+    "sourceSha256": "bf9927cd0be9e9ff5a8c3b08eef2417bc5b76754d2d231ed2c6e5e1bcf491d99",
+    "purpose": "Cylindrical gear forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/cylindrical-gears-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 37718
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cylindrical-gears-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 80996
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cylindrical-gears-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 131524
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cylindrical-gears-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 184522
+      }
+    ]
+  },
+  "aluminum-housing-array-v2": {
+    "id": "aluminum-housing-array-v2",
+    "src": "/media/image-content-20261018-r2/aluminum-housing-array-v2-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/aluminum-housing-array-v2-480.webp 480w, /media/image-content-20261018-r2/aluminum-housing-array-v2-800.webp 800w, /media/image-content-20261018-r2/aluminum-housing-array-v2-1120.webp 1120w, /media/image-content-20261018-r2/aluminum-housing-array-v2-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: aluminum housing group",
+    "caption": "Aluminum housing group · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/aluminum-housing-array-v2.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/metal-aluminum-housings-1200.webp",
+    "sourceId": "metal-aluminum-housings",
+    "sourceSha256": "b5cbce8b11925dd35c4c01aed37afb248dd8d17e0f84b50b61838c22332a61c7",
+    "purpose": "Aluminum housing group",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-array-v2-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28816
+      },
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-array-v2-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 69024
+      },
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-array-v2-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 145640
+      },
+      {
+        "src": "/media/image-content-20261018-r2/aluminum-housing-array-v2-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 241440
+      }
+    ]
+  },
+  "protective-load": {
+    "id": "protective-load",
+    "src": "/media/image-content-20261018-r2/protective-load-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/protective-load-480.webp 480w, /media/image-content-20261018-r2/protective-load-800.webp 800w, /media/image-content-20261018-r2/protective-load-1120.webp 1120w, /media/image-content-20261018-r2/protective-load-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: protective packing reference",
+    "caption": "Protective packing reference · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/protective-load.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/shipment-2022-order-packing-1600.webp",
+    "sourceId": "shipment-2022-order-packing",
+    "sourceSha256": "c3a7681a5ccef523dc7de7b054614e33f8151ffd2af72f6296955e5631609daf",
+    "purpose": "Protective packing reference",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/protective-load-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 44906
+      },
+      {
+        "src": "/media/image-content-20261018-r2/protective-load-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 109574
+      },
+      {
+        "src": "/media/image-content-20261018-r2/protective-load-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 191570
+      },
+      {
+        "src": "/media/image-content-20261018-r2/protective-load-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 272450
+      }
+    ]
+  },
+  "packing-brackets": {
+    "id": "packing-brackets",
+    "src": "/media/image-content-20261018-r2/packing-brackets-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/packing-brackets-480.webp 480w, /media/image-content-20261018-r2/packing-brackets-800.webp 800w, /media/image-content-20261018-r2/packing-brackets-1120.webp 1120w, /media/image-content-20261018-r2/packing-brackets-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: braced components",
+    "caption": "Braced components · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/packing-brackets.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/shipping-example-1600.webp",
+    "sourceId": "shipping-example",
+    "sourceSha256": "e1ffddf00a79eac6904a3b4ac1aa0a5cc8ea84d247db44215d3d3aff78b66434",
+    "purpose": "Braced components",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/packing-brackets-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32304
+      },
+      {
+        "src": "/media/image-content-20261018-r2/packing-brackets-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 75006
+      },
+      {
+        "src": "/media/image-content-20261018-r2/packing-brackets-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 128052
+      },
+      {
+        "src": "/media/image-content-20261018-r2/packing-brackets-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 179676
+      }
+    ]
+  },
+  "prepared-load": {
+    "id": "prepared-load",
+    "src": "/media/image-content-20261018-r2/prepared-load-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/prepared-load-480.webp 480w, /media/image-content-20261018-r2/prepared-load-800.webp 800w, /media/image-content-20261018-r2/prepared-load-1120.webp 1120w, /media/image-content-20261018-r2/prepared-load-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: loading arrangement reference",
+    "caption": "Loading arrangement reference · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/prepared-load.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/evidence/shipment-2022-prepared-load-1600.webp",
+    "sourceId": "shipment-2022-prepared-load",
+    "sourceSha256": "3fa0ce8fcd11558c7ac759eafb403a894607754cc2025ae41e9810eba4006162",
+    "purpose": "Loading arrangement reference",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/prepared-load-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32256
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prepared-load-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 76960
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prepared-load-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 136996
+      },
+      {
+        "src": "/media/image-content-20261018-r2/prepared-load-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 198260
+      }
+    ]
+  },
+  "brass-fitting-array": {
+    "id": "brass-fitting-array",
+    "src": "/media/image-content-20261018-r2/brass-fitting-array-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/brass-fitting-array-480.webp 480w, /media/image-content-20261018-r2/brass-fitting-array-800.webp 800w, /media/image-content-20261018-r2/brass-fitting-array-1120.webp 1120w, /media/image-content-20261018-r2/brass-fitting-array-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: brass fitting forms",
+    "caption": "Brass fitting forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/brass-fitting-array.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/metal-brass-batch-1200.webp",
+    "sourceId": "metal-brass-batch",
+    "sourceSha256": "891ed724080eced07dc1919a0f07118fb076f74642eda1860cbd32419833b036",
+    "purpose": "Brass fitting forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/brass-fitting-array-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 58350
+      },
+      {
+        "src": "/media/image-content-20261018-r2/brass-fitting-array-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 132684
+      },
+      {
+        "src": "/media/image-content-20261018-r2/brass-fitting-array-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 225504
+      },
+      {
+        "src": "/media/image-content-20261018-r2/brass-fitting-array-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 315268
+      }
+    ]
+  },
+  "pom-gear-reference": {
+    "id": "pom-gear-reference",
+    "src": "/media/image-content-20261018-r2/pom-gear-reference-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/pom-gear-reference-480.webp 480w, /media/image-content-20261018-r2/pom-gear-reference-800.webp 800w, /media/image-content-20261018-r2/pom-gear-reference-1120.webp 1120w, /media/image-content-20261018-r2/pom-gear-reference-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: pom gear form",
+    "caption": "POM gear form · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/pom-gear-reference.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-pom-gears-poster.webp",
+    "sourceId": "video-plastic-pom-gears",
+    "sourceSha256": "5a9ac51da5b464b504d66738676eed4f4a6d5d796a42fae5e9a61ee3247258c8",
+    "purpose": "POM gear form",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/pom-gear-reference-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 13842
+      },
+      {
+        "src": "/media/image-content-20261018-r2/pom-gear-reference-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 32754
+      },
+      {
+        "src": "/media/image-content-20261018-r2/pom-gear-reference-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 55718
+      },
+      {
+        "src": "/media/image-content-20261018-r2/pom-gear-reference-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 80226
+      }
+    ]
+  },
+  "pe-guide-reference": {
+    "id": "pe-guide-reference",
+    "src": "/media/image-content-20261018-r2/pe-guide-reference-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/pe-guide-reference-480.webp 480w, /media/image-content-20261018-r2/pe-guide-reference-800.webp 800w, /media/image-content-20261018-r2/pe-guide-reference-1120.webp 1120w, /media/image-content-20261018-r2/pe-guide-reference-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: straight and curved pe guides",
+    "caption": "Straight and curved PE guides · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/pe-guide-reference.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-pe-guides-poster.webp",
+    "sourceId": "video-plastic-pe-guides",
+    "sourceSha256": "8bb1b8e454fe4f4ffe968fbe9ab3c3a277007aaf1940f10987bdec27d73b7305",
+    "purpose": "Straight and curved PE guides",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/pe-guide-reference-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 31066
+      },
+      {
+        "src": "/media/image-content-20261018-r2/pe-guide-reference-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 68346
+      },
+      {
+        "src": "/media/image-content-20261018-r2/pe-guide-reference-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 117608
+      },
+      {
+        "src": "/media/image-content-20261018-r2/pe-guide-reference-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 162592
+      }
+    ]
+  },
+  "acrylic-panel-reference": {
+    "id": "acrylic-panel-reference",
+    "src": "/media/image-content-20261018-r2/acrylic-panel-reference-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/acrylic-panel-reference-480.webp 480w, /media/image-content-20261018-r2/acrylic-panel-reference-800.webp 800w, /media/image-content-20261018-r2/acrylic-panel-reference-1120.webp 1120w, /media/image-content-20261018-r2/acrylic-panel-reference-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: machined acrylic panel",
+    "caption": "Machined acrylic panel · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/acrylic-panel-reference.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/plastic-acrylic-parts-poster.webp",
+    "sourceId": "video-plastic-acrylic-parts",
+    "sourceSha256": "dc0b69e23a0e243870b25a88e72d00b44e6403090f42963dabbf411ab4f2df1d",
+    "purpose": "Machined acrylic panel",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-panel-reference-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 21294
+      },
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-panel-reference-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 47480
+      },
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-panel-reference-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 77114
+      },
+      {
+        "src": "/media/image-content-20261018-r2/acrylic-panel-reference-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 107840
+      }
+    ]
+  },
+  "cleaned-metal-reference": {
+    "id": "cleaned-metal-reference",
+    "src": "/media/image-content-20261018-r2/cleaned-metal-reference-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/cleaned-metal-reference-480.webp 480w, /media/image-content-20261018-r2/cleaned-metal-reference-800.webp 800w, /media/image-content-20261018-r2/cleaned-metal-reference-1120.webp 1120w, /media/image-content-20261018-r2/cleaned-metal-reference-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: component handling reference",
+    "caption": "Component handling reference · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/cleaned-metal-reference.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/metal-cleaned-parts-poster.webp",
+    "sourceId": "video-metal-cleaned-parts",
+    "sourceSha256": "1cb6602d28c67f7ab7823dc0b1e895dde58b81dd445cf5c00b582f1b9eea84f6",
+    "purpose": "Component handling reference",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/cleaned-metal-reference-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 59640
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cleaned-metal-reference-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 130086
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cleaned-metal-reference-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 213126
+      },
+      {
+        "src": "/media/image-content-20261018-r2/cleaned-metal-reference-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 292670
+      }
+    ]
+  },
+  "peek-components-reference": {
+    "id": "peek-components-reference",
+    "src": "/media/image-content-20261018-r2/peek-components-reference-1440.webp",
+    "srcset": "/media/image-content-20261018-r2/peek-components-reference-480.webp 480w, /media/image-content-20261018-r2/peek-components-reference-800.webp 800w, /media/image-content-20261018-r2/peek-components-reference-1120.webp 1120w, /media/image-content-20261018-r2/peek-components-reference-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "ImageGen-refined reference: slotted peek component forms",
+    "caption": "Slotted PEEK component forms · ImageGen-refined reference",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "master": "D:/lzz/image-content-20261018-r2/masters/peek-components-reference.png",
+    "generator": "built-in image_gen",
+    "sourceReference": "/media/source-details/peek-parts-poster.webp",
+    "sourceId": "video-peek-parts",
+    "sourceSha256": "edf0e0c952e2cbe67552e2c15de28d96b1011ea7ca17006c926c3d1c34de12b0",
+    "purpose": "Slotted PEEK component forms",
+    "aspect": "4:3",
+    "files": [
+      {
+        "src": "/media/image-content-20261018-r2/peek-components-reference-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17526
+      },
+      {
+        "src": "/media/image-content-20261018-r2/peek-components-reference-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 44344
+      },
+      {
+        "src": "/media/image-content-20261018-r2/peek-components-reference-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 77548
+      },
+      {
+        "src": "/media/image-content-20261018-r2/peek-components-reference-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 112942
+      }
+    ]
+  }
+}

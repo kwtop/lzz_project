@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-17",
+  "mode": "built-in image_gen",
+  "promptSet": "prompts.json",
+  "assets": [
+    {
+      "name": "milling",
+      "master": "D:\\lzz\\penta-inner-exact-20261017\\generated\\milling.png",
+      "width": 1122,
+      "height": 1402,
+      "tool": "built-in image_gen",
+      "origin": "image-reference",
+      "variants": [
+        {
+          "path": "public\\media\\penta-interiors-20261017\\milling-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 47148
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\milling-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 103084
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\milling-1120.webp",
+          "width": 1120,
+          "height": 1400,
+          "bytes": 158478
+        }
+      ],
+      "usedOn": [
+        "/capabilities/aluminum-cnc-parts/",
+        "/capabilities/casting-machining/",
+        "/capabilities/cnc-milling-service/",
+        "/resources/technical-guides/",
+        "/resources/technical-guides/cnc-process-selection/"
+      ]
+    },
+    {
+      "name": "turning",
+      "master": "D:\\lzz\\penta-inner-exact-20261017\\generated\\turning.png",
+      "width": 1122,
+      "height": 1402,
+      "tool": "built-in image_gen",
+      "origin": "image-reference",
+      "variants": [
+        {
+          "path": "public\\media\\penta-interiors-20261017\\turning-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 43792
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\turning-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 97680
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\turning-1120.webp",
+          "width": 1120,
+          "height": 1400,
+          "bytes": 155524
+        }
+      ],
+      "usedOn": [
+        "/capabilities/cnc-turning-service/",
+        "/capabilities/copper-brass-cnc-parts/",
+        "/capabilities/stainless-steel-cnc-parts/"
+      ]
+    },
+    {
+      "name": "five-axis",
+      "master": "D:\\lzz\\penta-inner-exact-20261017\\generated\\five-axis.png",
+      "width": 1122,
+      "height": 1402,
+      "tool": "built-in image_gen",
+      "origin": "image-reference",
+      "variants": [
+        {
+          "path": "public\\media\\penta-interiors-20261017\\five-axis-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 38636
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\five-axis-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 89766
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\five-axis-1120.webp",
+          "width": 1120,
+          "height": 1400,
+          "bytes": 150108
+        }
+      ],
+      "usedOn": [
+        "/capabilities/",
+        "/capabilities/5-axis-cnc-machining/"
+      ]
+    },
+    {
+      "name": "drawing-review",
+      "master": "D:\\lzz\\penta-inner-exact-20261017\\generated\\drawing-review.png",
+      "width": 1448,
+      "height": 1086,
+      "tool": "built-in image_gen",
+      "origin": "image-reference",
+      "variants": [
+        {
+          "path": "public\\media\\penta-interiors-20261017\\drawing-review-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 26522
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\drawing-review-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 63046
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\drawing-review-1120.webp",
+          "width": 1120,
+          "height": 840,
+          "bytes": 110454
+        }
+      ],
+      "usedOn": [
+        "/about/contact/",
+        "/capabilities/low-volume-production/",
+        "/capabilities/prototype-machining/",
+        "/capabilities/starting-with-a-sample/",
+        "/resources/",
+        "/resources/ordering/",
+        "/resources/ordering/compare-cnc-machining-quotations/",
+        "/resources/ordering/rfq-checklist/",
+        "/resources/technical-guides/",
+        "/resources/technical-guides/cnc-process-selection/",
+        "/resources/technical-guides/critical-features-cnc-drawing/"
+      ]
+    },
+    {
+      "name": "plastic-milling",
+      "master": "D:\\lzz\\penta-inner-exact-20261017\\generated\\plastic-milling.png",
+      "width": 1122,
+      "height": 1402,
+      "tool": "built-in image_gen",
+      "origin": "image-reference",
+      "variants": [
+        {
+          "path": "public\\media\\penta-interiors-20261017\\plastic-milling-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 31550
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\plastic-milling-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 70524
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\plastic-milling-1120.webp",
+          "width": 1120,
+          "height": 1400,
+          "bytes": 117522
+        }
+      ],
+      "usedOn": [
+        "/capabilities/plastic-machined-parts/"
+      ]
+    },
+    {
+      "name": "packing",
+      "master": "D:\\lzz\\penta-inner-exact-20261017\\generated\\packing.png",
+      "width": 1448,
+      "height": 1086,
+      "tool": "built-in image_gen",
+      "origin": "image-reference",
+      "variants": [
+        {
+          "path": "public\\media\\penta-interiors-20261017\\packing-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 26110
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\packing-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 78076
+        },
+        {
+          "path": "public\\media\\penta-interiors-20261017\\packing-1120.webp",
+          "width": 1120,
+          "height": 840,
+          "bytes": 149766
+        }
+      ],
+      "usedOn": [
+        "/capabilities/low-volume-production/",
+        "/factory/",
+        "/resources/ordering/",
+        "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+        "/resources/ordering/prototype-vs-small-batch-cnc/",
+        "/resources/ordering/rfq-checklist/"
+      ]
+    }
+  ]
+}

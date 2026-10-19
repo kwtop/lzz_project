@@ -1,0 +1,41 @@
+---
+import {capabilityDecisions} from '../data/capabilityDecisions';
+import RelatedLinks from './RelatedLinks.astro';
+interface Props {slug:string}
+const {slug}=Astro.props;
+const guide=capabilityDecisions[slug];
+---
+<div class="capability-decisions" data-decision-guide={slug} aria-labelledby={'decision-title-'+slug}>
+ <h3 id={'decision-title-'+slug}>{guide.heading}</h3>
+ <p class="decision-intro">{guide.intro}</p>
+ <div class="decision-columns" aria-hidden="true"><span>Part feature</span><span>Consider</span><span>Why it matters</span></div>
+ <dl class="decision-list">{guide.decisions.map(item=><div class="decision-row">
+  <dt>{item.feature}</dt>
+  <dd class="decision-choice"><span class="decision-mobile-label" aria-hidden="true">Consider</span>{item.consider}</dd>
+  <dd class="decision-reason"><span class="decision-mobile-label" aria-hidden="true">Why it matters</span>{item.reason}</dd>
+ </div>)}</dl>
+ <RelatedLinks class="decision-links" label="Related machining & materials" items={guide.links}/>
+</div>
+<style>
+ .capability-decisions{margin-block:36px 28px;min-width:0;color:var(--ink,#252826)}
+ .capability-decisions h3{margin:0 0 12px}
+ .capability-decisions .decision-intro{max-width:70ch;margin:0 0 24px}
+ .decision-columns,.decision-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.9fr);column-gap:28px}
+ .decision-columns{padding:0 0 12px;border-bottom:2px solid #C9C9BE;color:#AC4829;font-size:13px;font-weight:700}
+ .decision-list{margin:0;padding:0}
+ .decision-row{padding-block:20px;border-bottom:1px solid #DDDCD5;align-items:start}
+ .decision-row dt,.decision-row dd{margin:0;min-width:0;font-size:15px;line-height:1.65}
+ .decision-row dt{font-weight:700}
+ .decision-row .decision-choice{color:#AC4829}
+ .decision-mobile-label{display:none}
+ @media(max-width:767px){
+  .capability-decisions{margin-block:28px 24px}
+  .capability-decisions .decision-intro{margin-bottom:18px}
+  .decision-columns{display:none}
+  .decision-list{border-top:2px solid #C9C9BE}
+  .decision-row{grid-template-columns:minmax(0,1fr);gap:12px;padding-block:20px}
+  .decision-row dt{font-size:17px;line-height:1.45}
+  .decision-row .decision-choice,.decision-row .decision-reason{font-size:15px;line-height:1.65}
+  .decision-mobile-label{display:block;margin-bottom:3px;font-size:12px;line-height:1.4;color:#677178}
+ }
+</style>

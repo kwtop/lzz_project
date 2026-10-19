@@ -1,0 +1,27 @@
+---
+import {ArrowRight} from 'lucide-react';
+import {capabilityHeroScene} from '../data/capabilityHeroScenes';
+import EditorialImage from './EditorialImage.astro';
+import '../styles/capability-scene-hero.css';
+
+interface Props {
+ title:string;lead:string;quoteHref?:string;slug?:string;id?:string;
+ part?:{href?:string};secondaryHref?:string;secondaryLabel?:string;credential?:string;
+}
+const {title,lead,quoteHref='/quote/',slug='overview',id='interior-title',part,secondaryHref,secondaryLabel,credential='Made to your drawing · Hangzhou, China'}=Astro.props;
+const scene=capabilityHeroScene(slug);
+---
+<section class:list={['ch-hero',`ch-hero--${scene.kind}`]} data-core-section="service" data-capability-hero={slug} data-hero-kind={scene.kind} aria-labelledby={id}>
+ <figure class="ch-media" data-image-origin="image-reference"><EditorialImage image={scene.image} eager sizes="100vw"/></figure>
+ <div class="ch-shade" aria-hidden="true"></div>
+ <div class="ch-inner">
+  <header class="ch-copy">
+   <div class="ch-heading"><h1 class="ch-title" id={id}>{title}</h1></div>
+   <div class="ch-detail"><p class="ch-lead">{lead}</p><slot/>
+    <div class="ch-actions"><a class="rd-button" href={quoteHref}>Request a quote <ArrowRight size={17} aria-hidden="true"/></a>{secondaryHref&&<a class="ch-secondary" href={secondaryHref}>{secondaryLabel}<ArrowRight size={17} aria-hidden="true"/></a>}</div>
+    <p class="ch-credential"><a href="/about/company-profile/#quality-system">ISO 9001 certified</a><span>{credential}</span></p>
+   </div>
+  </header>
+ </div>
+ {part&&<a class="ch-reference" href={part.href||'/machined-parts/gallery/'}>View part reference <ArrowRight size={16} aria-hidden="true"/></a>}
+</section>

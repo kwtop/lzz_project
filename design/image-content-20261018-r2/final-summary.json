@@ -1,0 +1,67 @@
+{
+  "masters": 48,
+  "derivatives": 196,
+  "adoptedSlots": 150,
+  "adoptedRoutes": 71,
+  "derivativeBytes": {
+    "total": 19361124,
+    "median": 85624,
+    "max": 316302
+  },
+  "browser": [
+    {
+      "width": 1440,
+      "pages": 86,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0
+    },
+    {
+      "width": 1024,
+      "pages": 32,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0
+    },
+    {
+      "width": 768,
+      "pages": 32,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0
+    },
+    {
+      "width": 390,
+      "pages": 86,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0
+    }
+  ],
+  "protectedFiles": [
+    {
+      "file": "src/components/QuoteForm.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/evidence.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/companyNews.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/seo.ts",
+      "unchanged": false,
+      "scope": "Preserved parallel additions of guide titles; not edited by the image task",
+      "before": "e5d4a7118b81330bf6b74cfb338d2687f020e565ae697efc747b3b155e865ba7",
+      "after": "2c2498d2eaa106c3c0627b3cd5ea0042ae1b7c754a872d31a8992f001d836215"
+    },
+    {
+      "file": "src/data/catalog.json",
+      "unchanged": true
+    }
+  ],
+  "unresolvedStaticIssues": []
+}

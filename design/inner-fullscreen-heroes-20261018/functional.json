@@ -1,0 +1,68 @@
+[
+  {
+    "background": "rgb(36, 39, 36)",
+    "expanded": "true",
+    "overflow": false,
+    "test": "mobile-menu-open"
+  },
+  {
+    "overflow": false,
+    "test": "about-submenu",
+    "visibleLinks": [
+      "Capabilities",
+      "Parts",
+      "Factory",
+      "Resources",
+      "About",
+      "Company profile",
+      "How we work",
+      "Company news",
+      "Contact us"
+    ]
+  },
+  {
+    "overflow": false,
+    "targetTop": 139.67709350585938,
+    "test": "section-action",
+    "url": "http://127.0.0.1:4321/factory/#equipment"
+  },
+  {
+    "overflow": false,
+    "targetTop": 230,
+    "test": "section-action",
+    "url": "http://127.0.0.1:4321/resources/#rfq-guides"
+  },
+  {
+    "overflow": false,
+    "targetTop": 229.6666717529297,
+    "test": "section-action",
+    "url": "http://127.0.0.1:4321/resources/technical-guides/#technical-guides"
+  },
+  {
+    "overflow": false,
+    "targetTop": 140.125,
+    "test": "section-action",
+    "url": "http://127.0.0.1:4321/about/company-profile/#documents"
+  },
+  {
+    "overflow": false,
+    "targetTop": 145.2916717529297,
+    "test": "section-action",
+    "url": "http://127.0.0.1:4321/about/how-we-work/#quotation-scope"
+  },
+  {
+    "heading": "Parts gallery",
+    "overflow": false,
+    "search": true,
+    "test": "parts-gallery-action",
+    "url": "http://127.0.0.1:4321/machined-parts/gallery/"
+  },
+  {
+    "draftLanguage": true,
+    "form": true,
+    "heading": "Prepare an RFQ email",
+    "overflow": false,
+    "test": "quote-action",
+    "url": "http://127.0.0.1:4321/quote/"
+  }
+]

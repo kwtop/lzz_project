@@ -1,10 +1,15 @@
 ---
 import type {CapabilityArt} from '../data/capabilityDesign';
+import {pentaConceptFor} from '../data/pentaConcepts';
+import PentaVisual from './PentaVisual.astro';
+import {manufacturingImage} from '../data/pentaInteriors';
 interface Props {art:CapabilityArt;eager?:boolean;class?:string;sizes?:string}
-const {art,eager=false,class:className,sizes='(max-width:767px) calc(100vw - 44px), 480px'}=Astro.props;
-const widths=art.stem?.includes('/image-led-20261015/')?[480,800,1200,1600]:art.stem?.includes('/editorial-rebuild-20261015/')||art.stem?.includes('/procurement-layout-20261015/')?[480,800,1200,1448]:[480,800,1200,1536];
+const {art:source,eager=false,class:className,sizes='(max-width:767px) calc(100vw - 44px), 560px'}=Astro.props;
+const packing=source.stem?.endsWith('/packing-concept');
+const art:CapabilityArt=pentaConceptFor(source.stem,Astro.url.pathname)||source;
+const replacement=art.stem?.includes('/penta-rollout-20261017/')||art.stem?.includes('/image-refresh-20261017/')||art.stem?.includes('/four-stage-rebuild-20261017/');
+const widths=replacement?[480,800,1440]:art.stem?.includes('/image-led-20261015/')?[480,800,1200,1600]:art.stem?.includes('/editorial-rebuild-20261015/')||art.stem?.includes('/procurement-layout-20261015/')?[480,800,1200,1448]:[480,800,1200,1536];
 ---
-<figure class:list={['cx-concept',className]} data-image-origin={art.origin||'AI-generated'}>
- <img src={art.stem?art.stem+'-1200.webp':art.src} srcset={art.stem?widths.map(w=>`${art.stem}-${w}.webp ${w===1600?1536:w}w`).join(', '):undefined} sizes={sizes} width={art.width||1536} height={art.height||1024} alt={art.alt} loading={eager?'eager':'lazy'} decoding="async"/>
- <figcaption>{art.caption}</figcaption>
-</figure>
+{packing?<PentaVisual image={{...manufacturingImage('packing',true),caption:source.caption+' · illustration'}} eager={eager} class={'cx-concept '+(className||'')} sizes={sizes}/>:<figure class:list={['cx-concept',className]} data-image-origin={art.origin||'image-reference'}>
+ <img src={art.stem?art.stem+(replacement?'-1440.webp':'-1200.webp'):art.src} srcset={art.stem?widths.map(w=>`${art.stem}-${w}.webp ${w===1600?1536:w}w`).join(', '):undefined} sizes={sizes} width={art.width||1536} height={art.height||1024} alt={art.alt} loading={eager?'eager':'lazy'} decoding="async"/>
+</figure>}

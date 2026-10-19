@@ -1,12 +1,24 @@
 ---
 import RfqPanel from '../components/RfqPanel.astro';
+import {usesImmersiveInnerHero} from '../data/innerHeroScenes';
 import SiteFooter from '../components/SiteFooter.astro';
+import ContactIcon from '../components/ContactIcon.astro';
 import '@fontsource-variable/inter';
 import '@fontsource-variable/inter/wght-italic.css';
 import legacyStyles from '../styles/legacy-site.css?inline';
 import '../styles/redesign-system.css';
 import '../styles/editorial-layout-20261015.css';
 import '../styles/reading-polish.css';
+import '../styles/penta-next.css';
+import '../styles/penta-capabilities-rollout.css';
+import '../styles/penta-information-rollout.css';
+import '../styles/penta-products-rollout.css';
+import '../styles/site-composition.css';
+import '../styles/penta-interiors.css';
+import '../styles/image-layout-20261018.css';
+import '../styles/penta-image-composition.css';
+import '../styles/floating-navigation.css';
+import '../styles/context-links.css';
 import {isRedesigned,usesEditorialLayout} from '../data/redesignRollout';
 import MainNavigation from '../components/MainNavigation.astro';
 import SectionBreadcrumb from '../components/SectionBreadcrumb.astro';
@@ -18,10 +30,10 @@ import {pageTemplateFor} from '../data/pageTemplates';
 const {
  title='Custom CNC machining in Hangzhou',
  description=pageDescriptions[Astro.url.pathname] || categoryDetails[Astro.url.pathname.split('/')[2]]?.description || 'Discuss your custom CNC machining requirements with LZZ Precision in Hangzhou.',
- cta=true, immersive=false,
+ cta=true, immersive=false,breadcrumbWidth='standard',
  closingTitle='Have a part in mind?',
  closingDescription='Prepare an RFQ email, add your drawing in your email app, then send it to LZZ.',
- closingHref='/quote/',closingLabel='Prepare RFQ email',headerQuoteHref='/quote/',
+ closingHref='/quote/',closingLabel='Request a quote',headerQuoteHref='/quote/',
 }=Astro.props;
 const canonical=new URL(Astro.url.pathname,siteOrigin).href;
 const seoTitle=pageTitles[Astro.url.pathname]||title;
@@ -32,6 +44,14 @@ const noindex=Astro.props.noindex || Astro.url.pathname==='/404.html' || Astro.u
 const designPath=Astro.props.designPath || Astro.url.pathname;
 const pageTemplate=pageTemplateFor(designPath);
 const modern=isRedesigned(designPath);
+// Keep the sample prop compatible while the confirmed language covers canonical pages.
+const innerLayout=modern&&designPath!=='/'&&!/^\/(preview|visual-directions|homepage-directions|content-layout-demo)/.test(designPath);
+const splitInnerHero=innerLayout&&(/^\/capabilities(?:\/|$)/.test(designPath)||['/factory/','/about/','/about/company-profile/','/about/how-we-work/','/about/contact/','/machined-parts/'].includes(designPath));
+const immersiveInnerHero=innerLayout&&usesImmersiveInnerHero(designPath);
+const capabilitySceneHero=innerLayout&&/^\/capabilities(?:\/|$)/.test(designPath);
+const pentaSample=Astro.props.pentaSample===true||(modern&&(!noindex||/^\/404(?:\.html|\/)?$/.test(designPath)));
+const floatingNavigation=modern&&pentaSample;
+const headerOverPhoto=designPath==='/'||immersiveInnerHero||capabilitySceneHero||splitInnerHero;
 const socialImage=new URL(Astro.props.articleImage||'/media/evidence/workshop-wide-1600.webp',siteOrigin).href;
 const isInformationPage=/^\/(about|resources|factory)(\/|$)/.test(Astro.url.pathname);
 const section=sectionForPath(designPath);
@@ -44,7 +64,7 @@ const structured={'@context':'https://schema.org','@graph':[
  {'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,isPartOf:{'@id':siteOrigin+'/#website'},inLanguage:'en',...(crumbs.length>1?{breadcrumb:{'@id':canonical+'#breadcrumb'}}:{}),...(entity?{mainEntity:{'@id':entityId}}:{})},
  ...(crumbs.length>1?[{'@type':'BreadcrumbList','@id':canonical+'#breadcrumb',itemListElement:crumbs.map((crumb,index)=>({'@type':'ListItem',position:index+1,...crumb}))}]:[]),
  ...(entity?[{'@type':entity.type,'@id':entityId,url:canonical,name:entity.name,description:entity.description,...(entity.image?{image:new URL(entity.image,siteOrigin).href}:{}),...(entity.type==='Service'?{provider:{'@id':siteOrigin+'/#organization'}}:{manufacturer:{'@id':siteOrigin+'/#organization'}})}]:[]),
- ...(Astro.props.article?[{'@type':'Article',headline:title,description,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':siteOrigin+'/#organization'},...(Astro.props.articleImage?{image:new URL(Astro.props.articleImage,siteOrigin).href}:{})}]:[])
+ ...(Astro.props.article?[{'@type':'Article',headline:title,description,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':siteOrigin+'/#organization'},...(Astro.props.articleAuthor?{author:{'@id':siteOrigin+'/#organization'}}:{}),...(Astro.props.articleModified?{dateModified:Astro.props.articleModified}:{}),...(Astro.props.articleImage?{image:new URL(Astro.props.articleImage,siteOrigin).href}:{})}]:[])
 ]};
 ---
 <!doctype html>
@@ -52,35 +72,58 @@ const structured={'@context':'https://schema.org','@graph':[
  <head>
   {!modern&&<style is:inline set:html={legacyStyles}/>}
   <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  {pentaSample&&<link rel="preload" href="/fonts/roboto-condensed-bold.woff2" as="font" type="font/woff2" crossorigin/>}
   <script is:inline>
    if (['localhost','127.0.0.1'].includes(location.hostname) && (location.pathname==='/' || /^\/machined-parts\/gallery\/[^/]+\/$/.test(location.pathname)) && new URLSearchParams(location.search).get('preview')==='palette-a') document.documentElement.dataset.palette='a';
   </script>
   <title>{seoTitle} | LZZ Precision</title><meta name="description" content={description}/>
   {!noindex&&<link rel="canonical" href={canonical}/>}
   {noindex&&<meta name="robots" content="noindex, follow"/>}
-  <meta name="theme-color" content="#171b1e"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=lzz-blue"/>
+  <meta name="theme-color" content="#242724"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=lzz-graphite-20261018"/>
   <meta property="og:title" content={seoTitle+' | LZZ Precision'}/><meta property="og:description" content={description}/><meta property="og:type" content={Astro.props.article?'article':'website'}/>
   <meta property="og:url" content={canonical}/><meta property="og:image" content={socialImage}/><meta property="og:image:alt" content={Astro.props.articleImage?title:'Original LZZ workshop photograph in Hangzhou'}/>
   <meta name="twitter:card" content="summary_large_image"/>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>
  </head>
- <body data-reading-path={designPath} data-page-template={pageTemplate} data-editorial-layout={modern&&usesEditorialLayout(designPath)?'20261015':undefined} data-design-version={modern?"20261015":undefined} class:list={modern?["redesign-site","rd-"+pageTemplate]:['brand-site','finesse-redesigned','precision-gallery','template-'+pageTemplate,{'apple-layout':!noindex&&!/^\/(preview|content-layout-demo-20261010)\//.test(Astro.url.pathname),'home-refined':immersive,'task-pages':/^\/(machined-parts|capabilities|factory|quote)(\/|$)/.test(Astro.url.pathname)}]}>
+ <body data-inner-layout={innerLayout?'penta':undefined} data-inner-hero={capabilitySceneHero?'scene':immersiveInnerHero?'immersive':splitInnerHero?'split':undefined} data-home-layout={Astro.props.homeLayout==='penta'?'penta':undefined} data-visual-system={pentaSample?'drawing-first':undefined} data-home-hero={Astro.props.homeHero?"centered-20261017":undefined} data-penta-sample={pentaSample?'20261017':undefined} data-reading-path={designPath} data-page-template={pageTemplate} data-editorial-layout={modern&&usesEditorialLayout(designPath)?'20261015':undefined} data-design-version={modern?"20261017":undefined} class:list={modern?["redesign-site","rd-"+pageTemplate]:['brand-site','finesse-redesigned','precision-gallery','template-'+pageTemplate,{'apple-layout':!noindex&&!/^\/(preview|content-layout-demo-20261010)\//.test(Astro.url.pathname),'home-refined':immersive,'task-pages':/^\/(machined-parts|capabilities|factory|quote)(\/|$)/.test(Astro.url.pathname)}]}>
   <a class="skip-link" href="#main">Skip to content</a>
   {(!modern)&&(Astro.url.pathname==='/' || /^\/machined-parts\/gallery\/[^/]+\/$/.test(Astro.url.pathname))&&<PalettePreview/>}
-  <header class="site-header navigation-polished">
+  <header class="site-header navigation-polished" data-navigation={floatingNavigation?'floating':undefined} data-header-tone={headerOverPhoto?'light':'dark'}>
+   {floatingNavigation&&<span class="header-surface" aria-hidden="true"></span>}
    <div class:list={['header-inner',{'header-no-quote':Astro.url.pathname==='/quote/'}]}>
     <a href="/" class="brand" aria-label="LZZ Precision home"><img class="brand-logo" src="/media/lzz-logo.png" alt="LZZ" width="108" height="60"/></a>
     <MainNavigation/>
-    {Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={headerQuoteHref}>Prepare RFQ email</a>}
+    {modern?<div class="header-actions">
+     <a class="header-whatsapp" href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +86 138 5810 2479 (opens in a new tab)">
+      <ContactIcon kind="whatsapp"/>
+     </a>
+     {Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={headerQuoteHref}>Request a quote</a>}
+    </div>:Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={headerQuoteHref}>Request a quote</a>}
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
    </div>
   </header>
-  <main id="main" class:list={{'info-page':isInformationPage}} data-site-section={section?.key}><SectionBreadcrumb items={trail}/><slot/>{cta&&(modern?<section class="rd-closing"><div><h2>{closingTitle}</h2><p>{closingDescription}</p></div><a class="rd-button" href={closingHref}>{closingLabel}</a></section>:<RfqPanel title={closingTitle} note={closingDescription} href={closingHref} label={closingLabel}/>)}</main>
+  {floatingNavigation&&!headerOverPhoto&&<div class="site-header-space" aria-hidden="true"></div>}
+  <main id="main" class:list={{'info-page':isInformationPage}} data-site-section={section?.key}><SectionBreadcrumb items={trail} width={breadcrumbWidth}/><slot/>{cta&&(modern?<section class="rd-closing"><div><h2>{closingTitle}</h2><p>{closingDescription}</p></div><a class="rd-button" href={closingHref}>{closingLabel}</a></section>:<RfqPanel title={closingTitle} note={closingDescription} href={closingHref} label={closingLabel}/>)}</main>
   <SiteFooter/>
   <script>
    if(!document.body.classList.contains('redesign-site')) import('../scripts/site-motion');
+   const pentaContentLayout=document.body.dataset.homeLayout==='penta'||document.body.dataset.innerLayout==='penta';
+   if(document.body.hasAttribute('data-penta-sample')&&!pentaContentLayout&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const entrance=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('pn-in-view');entrance.unobserve(entry.target);}}),{threshold:.12});
+    document.querySelectorAll('main section h2,main section>header,main figure').forEach(element=>{if(!element.closest('astro-island'))entrance.observe(element);});
+   }
    const toggle=document.querySelector<HTMLButtonElement>('.menu-toggle');
-   const header=document.querySelector('.site-header');
+   const header=document.querySelector<HTMLElement>('.site-header');
+   if(header?.dataset.navigation==='floating'){
+    let floating=false;
+    const updateHeader=()=>{
+     const next=window.scrollY>=48||(floating&&window.scrollY>16);
+     if(next!==floating){floating=next;header.classList.toggle('is-floating',floating);}
+    };
+    updateHeader();
+    window.addEventListener('scroll',updateHeader,{passive:true});
+    window.addEventListener('pageshow',updateHeader);
+   }
    const setMenu=(open:boolean)=>{toggle?.setAttribute('aria-expanded',String(open));toggle?.setAttribute('aria-label',open?'Close navigation':'Open navigation');header?.classList.toggle('menu-open',open);if(open)header?.querySelector<HTMLAnchorElement>('.nav-root')?.focus();else header?.querySelectorAll<HTMLDetailsElement>('details[open]').forEach(group=>group.open=false);};
    toggle?.addEventListener('click',()=>setMenu(toggle.getAttribute('aria-expanded')!=='true'));
    document.addEventListener('keydown',event=>{if(event.key==='Escape'&&header?.classList.contains('menu-open')){setMenu(false);toggle?.focus();}});
@@ -105,4 +148,6 @@ const structured={'@context':'https://schema.org','@graph':[
  }
  .company-text p a,.principle-list p a,.section-intro a,.quote-support-note a{text-decoration:underline;text-underline-offset:3px}
 </style>
+
+
 

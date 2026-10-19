@@ -68,7 +68,7 @@ const drawingInputs=[
     <div class="cl-part-review-content">
      <dl class="cl-dl">{drawingInputs.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
      <details class="cl-part-disclosure"><summary>Application, handling &amp; additional drawing notes</summary><div class="cl-part-expanded"><p>{engineering.scope}</p><dl><div><dt>Geometry summary</dt><dd>{overview.features}</dd></div><div><dt>Application scope</dt><dd>{manufacturing.applications}</dd></div><div><dt>Handling &amp; inspection</dt><dd>{overview.inspection}</dd></div><div><dt>With your inquiry</dt><dd>{engineering.rfq}</dd></div></dl>{manufacturing.considerations.map(note=><p>{note}</p>)}{engineering.considerations?.map(note=><div><h3>{note.title}</h3><p>{note.body}</p></div>)}</div></details>
-     <div class="cl-part-order"><strong>From 1 piece · 7–14 business days</strong><p>From drawing and order confirmation, including surface finishing; transit is additional.</p></div>
+     <div class="cl-part-order"><strong>From 1 piece · 7-14 business days</strong><p>From drawing and order confirmation, including surface finishing; transit is additional.</p></div>
     </div>
    </div>
   </section>

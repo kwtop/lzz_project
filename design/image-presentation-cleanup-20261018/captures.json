@@ -1,0 +1,297 @@
+[
+  {
+    "name": "before-capabilities-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/before-capabilities-1440.png"
+  },
+  {
+    "name": "after-capabilities-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 690,
+      "url": "http://127.0.0.1:4321/capabilities/#machining-processes",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-capabilities-1440.png"
+  },
+  {
+    "name": "before-capabilities-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/before-capabilities-390.png"
+  },
+  {
+    "name": "after-capabilities-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 807.3333129882812,
+      "url": "http://127.0.0.1:4321/capabilities/#machining-processes",
+      "width": 390,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-capabilities-390.png"
+  },
+  {
+    "name": "before-product-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/before-product-1440.png"
+  },
+  {
+    "name": "after-product-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 0,
+      "url": "http://127.0.0.1:4321/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-product-1440.png"
+  },
+  {
+    "name": "before-product-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/before-product-390.png"
+  },
+  {
+    "name": "after-product-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 0,
+      "url": "http://127.0.0.1:4321/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+      "width": 390,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-product-390.png"
+  },
+  {
+    "name": "before-home-parts-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/before-home-parts-1440.png"
+  },
+  {
+    "name": "after-home-parts-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 3628,
+      "url": "http://127.0.0.1:4321/#selected-parts",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-home-parts-1440.png"
+  },
+  {
+    "name": "after-home-parts-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 3628,
+      "url": "http://127.0.0.1:4321/#selected-parts",
+      "width": 390,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-home-parts-390.png"
+  },
+  {
+    "name": "before-materials-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/before-materials-1440.png"
+  },
+  {
+    "name": "after-materials-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 2020.6666259765625,
+      "url": "http://127.0.0.1:4321/capabilities/#materials",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-materials-1440.png"
+  },
+  {
+    "name": "after-capabilities-hero-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 0,
+      "url": "http://127.0.0.1:4321/capabilities/",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-capabilities-hero-1440.png"
+  },
+  {
+    "name": "after-cases-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 264.6666564941406,
+      "url": "http://127.0.0.1:4321/machined-parts/machining-examples/#two-setups",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-cases-1440.png"
+  },
+  {
+    "name": "after-cases-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 248,
+      "url": "http://127.0.0.1:4321/machined-parts/machining-examples/#two-setups",
+      "width": 390,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-cases-390.png"
+  },
+  {
+    "name": "after-news-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 0,
+      "url": "http://127.0.0.1:4321/about/company-news/",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-news-1440.png"
+  },
+  {
+    "name": "after-news-story-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 0,
+      "url": "http://127.0.0.1:4321/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-news-story-1440.png"
+  },
+  {
+    "name": "after-news-story-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 0,
+      "url": "http://127.0.0.1:4321/about/company-news/australian-customer-workshop-visit-january-2025/",
+      "width": 390,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-news-story-390.png"
+  },
+  {
+    "name": "after-plastic-case-390",
+    "width": 375,
+    "height": 841,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 3973.333251953125,
+      "url": "http://127.0.0.1:4321/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/#acrylic",
+      "width": 390,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-plastic-case-390.png"
+  },
+  {
+    "name": "after-milling-parts-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-milling-parts-1440.png"
+  },
+  {
+    "name": "after-axis-parts-1440",
+    "width": 1425,
+    "height": 866,
+    "nativeFormat": "jpeg",
+    "viewport": {
+      "dpr": 1.0000000298023224,
+      "height": 900,
+      "scroll": 2253.333251953125,
+      "url": "http://127.0.0.1:4321/capabilities/5-axis-cnc-machining/#part-examples",
+      "width": 1440,
+      "capture": "native viewport"
+    },
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-axis-parts-1440.png"
+  },
+  {
+    "name": "after-capabilities-full-1440",
+    "width": 1424,
+    "height": 5096,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-capabilities-full-1440.png"
+  },
+  {
+    "name": "after-product-full-1440",
+    "width": 1424,
+    "height": 4123,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-product-full-1440.png"
+  },
+  {
+    "name": "after-news-full-1440",
+    "width": 1424,
+    "height": 3210,
+    "nativeFormat": "jpeg",
+    "output": "D:/lzz/lzz/_react/design/image-presentation-cleanup-20261018/after-news-full-1440.png"
+  }
+]

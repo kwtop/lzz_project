@@ -415,7 +415,7 @@
 .redesign-site .pd-related-capability h3{font-size:20px}
 .redesign-site .pd-runner-source-note{margin-top:24px;border-top:1px solid var(--border);padding-top:20px}
 .redesign-site .pd-runner-source-note p{font-size:14px;margin-top:10px}
-.redesign-site .pd-part-page[data-part="global-manufacturer-of-multi-sided-precision-machined-components"] .pd-main-image .pd-figure{max-width:420px;margin-inline:auto}
+.redesign-site .pd-part-page .pd-main-image .pd-figure[data-image-quality="low-resolution"]{max-width:420px;margin-inline:auto}
 .redesign-site .ps-index-list{gap:48px}
 .redesign-site .ps-index-list article,.redesign-site .ps-index-list article:last-child{display:flex;flex-direction:column;gap:24px;padding:0 0 32px}
 .redesign-site .ps-index-list article:last-child{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}

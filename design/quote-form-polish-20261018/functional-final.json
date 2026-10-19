@@ -1,0 +1,26 @@
+{
+  "changeFocus": "inquiry-reference",
+  "restore": {
+    "banner": "CNC milling",
+    "email": "<redacted>",
+    "name": "Visual QA",
+    "reference": "capability:cnc-milling-service",
+    "status": "Saved draft restored."
+  },
+  "phoneOnly": {
+    "draft": "To: roger@lzz-cnc.com\nSubject: CNC machining inquiry: CNC milling\n\nHello LZZ team,\n\nI would like to discuss a CNC machining project.\n\nReference: CNC milling\nReference ID: capability/cnc-milling-service\nSource page: https://www.lzz-cnc.com/capabilities/cnc-milling-service/\n\nName: Visual QA\nPhone / WhatsApp: +1 202 555 0123\n\nMessage:\nVISUAL QA ONLY. Aluminum housing; 5 pieces; drawing revision A. Review bore positions, finished dimensions and inspection records. Do not send this test draft.\n\nI will attach any relevant drawings or CAD files when sending.\nPlease review the requirements and let me know the next steps.\nThank you.",
+    "focused": "inquiry-review",
+    "prepared": true
+  },
+  "mobileReview": {
+    "mailProtocol": "mailto",
+    "overflow": false,
+    "reviewWidth": 293.3333435058594,
+    "width": 390
+  },
+  "cleared": {
+    "empty": true,
+    "reference": "capability:cnc-turning-service",
+    "status": "Saved input cleared."
+  }
+}

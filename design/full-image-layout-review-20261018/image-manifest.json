@@ -1,0 +1,43 @@
+[
+  {
+    "id": "inspection-workbench",
+    "src": "/media/full-image-layout-review-20261018/inspection-workbench-1440.webp",
+    "srcset": "/media/full-image-layout-review-20261018/inspection-workbench-480.webp 480w, /media/full-image-layout-review-20261018/inspection-workbench-800.webp 800w, /media/full-image-layout-review-20261018/inspection-workbench-1120.webp 1120w, /media/full-image-layout-review-20261018/inspection-workbench-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080,
+    "alt": "Generic inspection-planning illustration: a test indicator touching a turned shaft supported on V-blocks",
+    "caption": "Inspection planning · ImageGen illustration",
+    "origin": "image-reference",
+    "position": "50% 50%",
+    "mobilePosition": "50% 50%",
+    "purpose": "Landscape inspection-planning context for technical guides; not an actual inspection record",
+    "master": "D:/lzz/full-image-layout-review-20261018/masters/inspection-workbench.png",
+    "generator": "built-in image_gen",
+    "files": [
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28832
+      },
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 64190
+      },
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 104722
+      },
+      {
+        "src": "/media/full-image-layout-review-20261018/inspection-workbench-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 143066
+      }
+    ]
+  }
+]

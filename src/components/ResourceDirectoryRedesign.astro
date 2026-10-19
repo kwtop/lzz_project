@@ -1,35 +1,44 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import PentaVisual from './PentaVisual.astro';
+import ImmersiveInnerHero from './ImmersiveInnerHero.astro';
+import {resourceCovers} from '../data/pentaInteriors';
 import {resourceGroups,resourceLibrary,libraryGuide,orderingStages} from '../data/resourceLibrary';
 import {siteOrigin} from '../data/seo';
 import '../styles/resources-hierarchy.css';
 interface Props {kind:'hub'|'ordering'|'machining'}
 const {kind}=Astro.props;
 const metadata={
- hub:{title:'Resources for CNC machining',description:'Choose RFQ and ordering guidance, technical guides or frequently asked questions for your custom CNC parts.',heading:'Resources for CNC machining',intro:'Prepare an order, define your part requirements or find a quick answer.'},
- ordering:{title:'RFQ & ordering for CNC machined parts',description:'Use five practical guides to prepare an RFQ, compare quotations, approve a sample, release repeat production and plan packing and shipping.',heading:'RFQ & ordering',intro:'Choose the guide for your next purchasing decision, from the first quotation to delivery.'},
- machining:{title:'CNC machining technical guides',description:'Define critical drawing features, specify material and finish, and choose a machining process for your custom CNC part.',heading:'Technical guides',intro:'Define the drawing, material and machining requirements before requesting a quote.'},
+ hub:{title:'Resources for CNC machining',description:'Choose RFQ and ordering guidance, technical guides or frequently asked questions for your custom CNC parts.',heading:'Resources for CNC machining',intro:'Understand machining costs, choose a process and plan your CNC parts order.'},
+ ordering:{title:'RFQ & ordering for CNC machined parts',description:'Understand machining costs, prepare an RFQ, compare quotations, approve a sample, release repeat production and plan packing and shipping.',heading:'RFQ & ordering',intro:'Understand the work behind a quote and plan the decisions through to delivery.'},
+ machining:{title:'CNC machining technical guides',description:'Choose CNC processes and aluminum alloys, define drawing features, and plan material, surface treatment and inspection for your custom part.',heading:'Technical guides',intro:'Understand how geometry, material and finish affect the machining requirements for your part.'},
 }[kind];
 const groups=[...resourceGroups,{key:'faq',title:'FAQ',href:'/resources/faq/',description:'Quick answers about minimum orders, production timing, specifications, inspection and delivery.'}];
-const scope:Record<string,string>={ordering:'RFQ preparation, quote comparison, sample approval, repeat production, packing and shipping.',machining:'Drawing requirements, material and finish specifications, and machining process selection.',faq:'15 purchasing questions on minimum orders, production timing, specifications, inspection and delivery.'};
-const technical=['critical-features-cnc-drawing','material-and-finish-checklist','cnc-process-selection'].map(libraryGuide);
+const scope:Record<string,string>={ordering:'Machining costs, RFQ preparation, quote comparison, sample approval, repeat production, packing and shipping.',machining:'Drawing requirements, 6061 and 7075 selection, material and finish, and machining routes.',faq:'15 purchasing questions on minimum orders, production timing, specifications, inspection and delivery.'};
+const categoryCovers={ordering:resourceCovers['cnc-machining-cost-factors'],machining:resourceCovers['cnc-process-selection']};
+const technical=['critical-features-cnc-drawing','6061-vs-7075-cnc-aluminum','material-and-finish-checklist','cnc-process-selection'].map(libraryGuide);
 const list=kind==='hub'?groups:kind==='ordering'?resourceLibrary.filter(guide=>guide.group==='ordering'):technical;
 const schema={'@context':'https://schema.org','@type':'ItemList',name:metadata.title,numberOfItems:list.length,itemListElement:list.map((item,i)=>({'@type':'ListItem',position:i+1,name:item.title,url:siteOrigin+item.href}))};
 ---
-<Layout title={metadata.title} description={metadata.description} cta={false}>
+<Layout title={metadata.title} description={metadata.description} cta={false} breadcrumbWidth="directory">
  <article class:list={['rh-page','rd-page','rh-page--'+kind]}>
-  <header class="rh-header" data-resource-module><h1>{metadata.heading}</h1><p>{metadata.intro}</p></header>
-  {kind==='hub'&&<nav class="rh-topics" aria-label="Resource categories" data-resource-module data-core-section="Three resource categories">{groups.map(group=><section class="rh-topic" id={group.key==='ordering'?'rfq-guides':group.key==='machining'?'engineering-guides':'before-rfq-title'}><h2><a href={group.href}>{group.title}</a></h2><p>{scope[group.key]}</p></section>)}</nav>}
+  <ImmersiveInnerHero title={metadata.heading} lead={metadata.intro} id="resource-title" credential={false} actions={kind==='hub'?[
+   {href:'#rfq-guides',label:'RFQ & ordering',primary:true},{href:'#engineering-guides',label:'Technical guides'},{href:'/resources/faq/',label:'FAQ'},
+  ]:kind==='ordering'?[
+   {href:'#ordering-worksheets',label:'Download worksheets',primary:true},{href:'/resources/',label:'All resources'},
+  ]:[{href:'#technical-guides',label:'Explore the guides',primary:true},{href:'/resources/',label:'All resources'}]}/>
+  {kind==='hub'&&<nav class="rh-topics" aria-label="Resource categories" data-resource-module data-core-section="Three resource categories">{groups.map(group=><section class="rh-topic" id={group.key==='ordering'?'rfq-guides':group.key==='machining'?'engineering-guides':'before-rfq-title'}>{group.key!=='faq'&&<a class="rh-topic-image" href={group.href} aria-label={group.title}><PentaVisual image={categoryCovers[group.key as keyof typeof categoryCovers]} class="rh-topic-cover"/></a>}<div class="rh-topic-body"><h2><a href={group.href}>{group.title}</a></h2><p>{scope[group.key]}</p>{group.key!=='faq'&&<ul>{resourceLibrary.filter(guide=>guide.group===group.key).map(guide=><li><a href={guide.href}>{guide.title}</a></li>)}</ul>}</div></section>)}</nav>}
+  {kind==='hub'&&<section class="rh-start rh-start-tools" data-core-section="Prepare a first inquiry"><div><h2>What to include in a quote request</h2><p>Gather the drawing revision, material and finish, quantity and delivery requirements in one brief.</p><a class="rd-link" href="/resources/ordering/rfq-checklist/">Open the RFQ checklist</a></div><div><h3>Blank purchasing worksheets</h3><nav class="rh-start-downloads" aria-label="Blank purchasing worksheets"><a href="/downloads/cnc-rfq-brief.txt" download>Inquiry brief (.txt)</a><a href="/downloads/order-acceptance-checklist.txt" download>Acceptance worksheet (.txt)</a></nav><p class="rd-note">Blank templates to prepare your requirements and acceptance plan.</p></div></section>}
   {kind==='ordering'&&<>
-   <div class="rh-ordering" aria-label="Ordering guides" data-core-section="Five purchasing decisions">{orderingStages.map(stage=><section class="rh-stage rh-stage--direct" id={stage.id} aria-label={stage.title}><span class="rh-anchor" id={stage.id+'-title'}/><ul class="rh-guide-list">{stage.slugs.map(slug=>{const guide=libraryGuide(slug);return <li><h2><a href={guide.href}>{guide.title}</a></h2><p>{guide.summary}</p></li>;})}</ul></section>)}</div>
+   <div class="rh-ordering" aria-label="Ordering guides" data-core-section="Cost and ordering decisions">{orderingStages.map(stage=><section class="rh-stage rh-stage--direct" id={stage.id} aria-label={stage.title}><span class="rh-anchor" id={stage.id+'-title'}/><ul class="rh-guide-list">{stage.slugs.map(slug=>{const guide=libraryGuide(slug);return <li class="pi-guide-entry"><a href={guide.href} aria-label={guide.title}><PentaVisual image={resourceCovers[slug]}/></a><div><h2><a href={guide.href}>{guide.title}</a></h2><p>{guide.summary}</p></div></li>;})}</ul></section>)}</div>
    <section class="rh-worksheets" id="ordering-worksheets" aria-labelledby="worksheets-title" data-resource-module data-core-section="Blank purchasing worksheets"><div><h2 id="worksheets-title">Blank ordering worksheets</h2><p>Prepare an inquiry brief and record the acceptance requirements. These are blank templates, not completed inspection records.</p></div><nav aria-label="Download blank ordering worksheets"><a href="/downloads/cnc-rfq-brief.txt" download>Inquiry brief (.txt)</a><a href="/downloads/order-acceptance-checklist.txt" download>Acceptance worksheet (.txt)</a></nav></section>
    <p class="rh-reference-line">LZZ’s drawing approval, payment, sample and after-sales responsibilities: <a href="/about/how-we-work/">How we work</a>.</p>
   </>}
   {kind==='machining'&&<>
-   <section class="rh-technical" aria-label="Technical guides" data-resource-module data-core-section="Three specification decisions"><ul class="rh-guide-list">{technical.map(guide=><li><h2><a href={guide.href}>{guide.title}</a></h2><p>{guide.summary}</p></li>)}</ul></section>
+   <section class="rh-technical" id="technical-guides" aria-label="Technical guides" data-resource-module data-core-section="Material, drawing and process decisions"><ul class="rh-guide-list">{technical.map(guide=><li class="pi-guide-card"><a href={guide.href} aria-label={guide.title}><PentaVisual image={resourceCovers[guide.slug]}/></a><div><h2><a href={guide.href}>{guide.title}</a></h2><p>{guide.summary}</p></div></li>)}</ul></section>
    <nav class="rh-reference-line rh-technical-next" aria-label="Apply the technical guidance"><a href="/machined-parts/machining-examples/">See real parts and setups</a><a href={resourceGroups[0].href}>RFQ &amp; ordering guides</a></nav>
   </>}
-  <section class="rh-closing" id="prepare-email" aria-labelledby="resource-next-title" data-resource-module data-core-section="Prepare an RFQ draft"><div><h2 id="resource-next-title">Have your requirements ready?</h2><p>Prepare an email draft, review it, attach drawings and send it from your email app.</p></div><a class="rd-button" href="/quote/">Prepare RFQ email</a></section>
+  <section class="rh-closing" id="prepare-email" aria-labelledby="resource-next-title" data-resource-module data-core-section="Prepare an RFQ draft"><div><h2 id="resource-next-title">Have a part to quote?</h2><p>Prepare an email draft, review it, attach drawings and send it from your email app.</p></div><a class="rd-button" href="/quote/">Request a quote</a></section>
  </article>
  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\\u003c')}/>
 </Layout>

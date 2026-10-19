@@ -1,0 +1,408 @@
+{
+  "entries": [
+    {
+      "id": "inner-parts-scene",
+      "theme": "parts",
+      "source": "Host ImageGen",
+      "identity": "Generic display photography; not documentary evidence",
+      "desktopMaster": "masters/parts-desktop.png",
+      "mobileMaster": "masters/parts-mobile.png",
+      "image": {
+        "id": "inner-parts-scene",
+        "src": "/media/inner-fullscreen-20261018/parts-desktop-1672.webp",
+        "srcset": "/media/inner-fullscreen-20261018/parts-desktop-800.webp 800w, /media/inner-fullscreen-20261018/parts-desktop-1280.webp 1280w, /media/inner-fullscreen-20261018/parts-desktop-1672.webp 1672w",
+        "width": 1672,
+        "height": 941,
+        "alt": "Machined aluminum housing, flange and stepped shaft on a dark workshop bench",
+        "caption": "",
+        "origin": "image-reference",
+        "position": "50% 50%",
+        "mobilePosition": "50% 50%",
+        "mobile": {
+          "src": "/media/inner-fullscreen-20261018/parts-mobile-941.webp",
+          "srcset": "/media/inner-fullscreen-20261018/parts-mobile-400.webp 400w, /media/inner-fullscreen-20261018/parts-mobile-640.webp 640w, /media/inner-fullscreen-20261018/parts-mobile-941.webp 941w",
+          "width": 941,
+          "height": 1672
+        }
+      }
+    },
+    {
+      "id": "inner-factory-scene",
+      "theme": "factory",
+      "source": "Host ImageGen",
+      "identity": "Generic display photography; not documentary evidence",
+      "desktopMaster": "masters/factory-desktop.png",
+      "mobileMaster": "masters/factory-mobile.png",
+      "image": {
+        "id": "inner-factory-scene",
+        "src": "/media/inner-fullscreen-20261018/factory-desktop-1672.webp",
+        "srcset": "/media/inner-fullscreen-20261018/factory-desktop-800.webp 800w, /media/inner-fullscreen-20261018/factory-desktop-1280.webp 1280w, /media/inner-fullscreen-20261018/factory-desktop-1672.webp 1672w",
+        "width": 1672,
+        "height": 941,
+        "alt": "Enclosed CNC machining equipment along a naturally lit workshop aisle",
+        "caption": "",
+        "origin": "image-reference",
+        "position": "50% 50%",
+        "mobilePosition": "50% 50%",
+        "mobile": {
+          "src": "/media/inner-fullscreen-20261018/factory-mobile-941.webp",
+          "srcset": "/media/inner-fullscreen-20261018/factory-mobile-400.webp 400w, /media/inner-fullscreen-20261018/factory-mobile-640.webp 640w, /media/inner-fullscreen-20261018/factory-mobile-941.webp 941w",
+          "width": 941,
+          "height": 1672
+        }
+      }
+    },
+    {
+      "id": "inner-resources-scene",
+      "theme": "resources",
+      "source": "Host ImageGen",
+      "identity": "Generic display photography; not documentary evidence",
+      "desktopMaster": "masters/resources-desktop.png",
+      "mobileMaster": "masters/resources-mobile.png",
+      "image": {
+        "id": "inner-resources-scene",
+        "src": "/media/inner-fullscreen-20261018/resources-desktop-1672.webp",
+        "srcset": "/media/inner-fullscreen-20261018/resources-desktop-800.webp 800w, /media/inner-fullscreen-20261018/resources-desktop-1280.webp 1280w, /media/inner-fullscreen-20261018/resources-desktop-1672.webp 1672w",
+        "width": 1672,
+        "height": 941,
+        "alt": "A machined bracket and technical drawing being reviewed on an engineering desk",
+        "caption": "",
+        "origin": "image-reference",
+        "position": "50% 50%",
+        "mobilePosition": "50% 50%",
+        "mobile": {
+          "src": "/media/inner-fullscreen-20261018/resources-mobile-941.webp",
+          "srcset": "/media/inner-fullscreen-20261018/resources-mobile-400.webp 400w, /media/inner-fullscreen-20261018/resources-mobile-640.webp 640w, /media/inner-fullscreen-20261018/resources-mobile-941.webp 941w",
+          "width": 941,
+          "height": 1672
+        }
+      }
+    },
+    {
+      "id": "inner-about-scene",
+      "theme": "about",
+      "source": "Host ImageGen",
+      "identity": "Generic display photography; not documentary evidence",
+      "desktopMaster": "masters/about-desktop.png",
+      "mobileMaster": "masters/about-mobile.png",
+      "image": {
+        "id": "inner-about-scene",
+        "src": "/media/inner-fullscreen-20261018/about-desktop-1672.webp",
+        "srcset": "/media/inner-fullscreen-20261018/about-desktop-800.webp 800w, /media/inner-fullscreen-20261018/about-desktop-1280.webp 1280w, /media/inner-fullscreen-20261018/about-desktop-1672.webp 1672w",
+        "width": 1672,
+        "height": 941,
+        "alt": "Hands positioning an aluminum component in a soft-jaw machining fixture",
+        "caption": "",
+        "origin": "image-reference",
+        "position": "50% 50%",
+        "mobilePosition": "50% 50%",
+        "mobile": {
+          "src": "/media/inner-fullscreen-20261018/about-mobile-941.webp",
+          "srcset": "/media/inner-fullscreen-20261018/about-mobile-400.webp 400w, /media/inner-fullscreen-20261018/about-mobile-640.webp 640w, /media/inner-fullscreen-20261018/about-mobile-941.webp 941w",
+          "width": 941,
+          "height": 1672
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "parts",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/parts-desktop-800.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 47996,
+      "sha256": "6c62ff5855851f314c68a1dfcdb145a83a2eef2928adba09d1c56af68cd1d9a8"
+    },
+    {
+      "id": "parts",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/parts-desktop-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 90452,
+      "sha256": "38d75b12697f92ae12b984a315cca6383d2c0fbad7d40cf9ae61006195b7fc8d"
+    },
+    {
+      "id": "parts",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/parts-desktop-1672.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 128842,
+      "sha256": "32bca9a345f8b521c8691d0c7b8ee88f3c80be31bf079f573bb8b8b92a246068"
+    },
+    {
+      "id": "parts",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/parts-mobile-400.webp",
+      "width": 400,
+      "height": 711,
+      "bytes": 40754,
+      "sha256": "704dcd33fc81ad6a1c62a17bd4317007c22683fb42ca15f9e7ec5dea4579d535"
+    },
+    {
+      "id": "parts",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/parts-mobile-640.webp",
+      "width": 640,
+      "height": 1137,
+      "bytes": 81714,
+      "sha256": "1ab5301e3597b7931dd320ed879a84ae68873d2bf35cb9d1f7b4a3bfa45e6414"
+    },
+    {
+      "id": "parts",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/parts-mobile-941.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 137380,
+      "sha256": "0b378990979dcdc3bfecd3c49487713f8834292c3503de168c37afb294298814"
+    },
+    {
+      "id": "factory",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/factory-desktop-800.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 45324,
+      "sha256": "eb341253e6859be98f8b27264743cb345289ac6c65b26cc04116dad7c38e0a4a"
+    },
+    {
+      "id": "factory",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/factory-desktop-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 90870,
+      "sha256": "2f532de407379a3fb3c8c03ddd548265a4aecc73af246be470b09e02d9660723"
+    },
+    {
+      "id": "factory",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/factory-desktop-1672.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 129082,
+      "sha256": "4a138456f2b52ce6bb2ec85d50071de97921a47a1e496ffa4880e73754d84f01"
+    },
+    {
+      "id": "factory",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/factory-mobile-400.webp",
+      "width": 400,
+      "height": 711,
+      "bytes": 34312,
+      "sha256": "c83c23d4265c84f04b44c48c86991ad5306bc223e5d7e4004a0c452ae4073857"
+    },
+    {
+      "id": "factory",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/factory-mobile-640.webp",
+      "width": 640,
+      "height": 1137,
+      "bytes": 68026,
+      "sha256": "e709025d44b902cbfd55d38562da1d92f1614e0cd0914c4ab70419cf48dc8499"
+    },
+    {
+      "id": "factory",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/factory-mobile-941.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 110348,
+      "sha256": "e8aa2b3215a8961e516ca0a131905e69ea27a2c0ceb6209738e1cc6a6a7c2148"
+    },
+    {
+      "id": "resources",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/resources-desktop-800.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 35086,
+      "sha256": "0721ac1c38557cce29a6d5a06ddd61634d488e4d5d7f531a45f75ce16fdbbd1d"
+    },
+    {
+      "id": "resources",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/resources-desktop-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 68586,
+      "sha256": "497f434c280321a1dc1cf0c4e2ac1e40d2a7867fa6ca74e139b1b177e4d0c0f9"
+    },
+    {
+      "id": "resources",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/resources-desktop-1672.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 97266,
+      "sha256": "0645d9dd7eb73ee6177fb6f5917cf77788d5e3be7ff0587a0ac3e0e70289266a"
+    },
+    {
+      "id": "resources",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/resources-mobile-400.webp",
+      "width": 400,
+      "height": 711,
+      "bytes": 30934,
+      "sha256": "40d5da803653dad41973c32477b67a5ac03796433b1a10fa1ca6b40f08725e5a"
+    },
+    {
+      "id": "resources",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/resources-mobile-640.webp",
+      "width": 640,
+      "height": 1137,
+      "bytes": 62538,
+      "sha256": "441133d7b149ec9634e4498872a645803914f75b6c2146e4904876ba96d90267"
+    },
+    {
+      "id": "resources",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/resources-mobile-941.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 102248,
+      "sha256": "61f4ee1e1c22411b07c617e9f4f2ddf7da243330c90b842d619768efb204c822"
+    },
+    {
+      "id": "about",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/about-desktop-800.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 35386,
+      "sha256": "984ea27a64f5ebc2d6fdbe2c76f889154af83205efd56cdf32718a588f8a5383"
+    },
+    {
+      "id": "about",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/about-desktop-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 66814,
+      "sha256": "01628190955788dc3faaceaf4ec3b00a92c6eb48e0a294d0f15d375f8e983b78"
+    },
+    {
+      "id": "about",
+      "device": "desktop",
+      "src": "/media/inner-fullscreen-20261018/about-desktop-1672.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 93182,
+      "sha256": "0ab26054cc5fa9b4579137e940c381b770aa5caf4e09fb019f1c73ac908cb521"
+    },
+    {
+      "id": "about",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/about-mobile-400.webp",
+      "width": 400,
+      "height": 711,
+      "bytes": 25614,
+      "sha256": "0933aab3b0f06a65c3afaba64784b803b86207e4095424e7ca76f1e51db23a30"
+    },
+    {
+      "id": "about",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/about-mobile-640.webp",
+      "width": 640,
+      "height": 1137,
+      "bytes": 48606,
+      "sha256": "10b4fa14493ea2c2cdfe2c98a1a72aa96bb537306cd0fdb40b7c0f2dca275d73"
+    },
+    {
+      "id": "about",
+      "device": "mobile",
+      "src": "/media/inner-fullscreen-20261018/about-mobile-941.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 79452,
+      "sha256": "31906051ff6d4afcba36b0eec8de6d9151c9fa7524f08d19189f03293cfc68b2"
+    }
+  ],
+  "generation": [
+    {
+      "name": "parts-desktop",
+      "tool": "Host ImageGen",
+      "mode": "generate",
+      "input": null,
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-b7bc5a21-4a97-454d-a2f4-4f320193cac4.png",
+      "workspaceMaster": "masters/parts-desktop.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "name": "factory-desktop",
+      "tool": "Host ImageGen",
+      "mode": "generate",
+      "input": null,
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-5e8a9bb2-7ec9-4b11-b819-8b963e90f687.png",
+      "workspaceMaster": "masters/factory-desktop.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "name": "resources-desktop",
+      "tool": "Host ImageGen",
+      "mode": "generate",
+      "input": null,
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-e996b4ab-8798-4270-8ae0-1c775e51d563.png",
+      "workspaceMaster": "masters/resources-desktop.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "name": "about-desktop",
+      "tool": "Host ImageGen",
+      "mode": "generate",
+      "input": null,
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-3de31907-1554-4319-a0e4-175e52727356.png",
+      "workspaceMaster": "masters/about-desktop.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "name": "parts-mobile",
+      "tool": "Host ImageGen",
+      "mode": "edit/recompose",
+      "input": "masters/parts-desktop.png",
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-1e40d31f-ff13-4def-9a48-210f1a5b4b28.png",
+      "workspaceMaster": "masters/parts-mobile.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "factory-mobile",
+      "tool": "Host ImageGen",
+      "mode": "edit/recompose",
+      "input": "masters/factory-desktop.png",
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-f66e92e3-8179-4b31-998b-6b4aa5044430.png",
+      "workspaceMaster": "masters/factory-mobile.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "resources-mobile",
+      "tool": "Host ImageGen",
+      "mode": "edit/recompose",
+      "input": "masters/resources-desktop.png",
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-20f0073d-3c7c-4116-952b-d20d99f1e119.png",
+      "workspaceMaster": "masters/resources-mobile.png",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "about-mobile",
+      "tool": "Host ImageGen",
+      "mode": "edit/recompose",
+      "input": "masters/about-desktop.png",
+      "originalOutput": "C:/Users/Administrator/.codex/generated_images/01a1485e-e8df-7c43-87d9-71a858027ef9/exec-e572a199-4c0c-4e10-b7d6-cb35e5a0c4a4.png",
+      "workspaceMaster": "masters/about-mobile.png",
+      "width": 941,
+      "height": 1672
+    }
+  ]
+}

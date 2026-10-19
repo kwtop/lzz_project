@@ -1,0 +1,15 @@
+---
+import type {InteriorImage} from '../data/pentaInteriors';
+import {imageDescription} from '../lib/imagePresentation';
+interface Props {image:InteriorImage;eager?:boolean;sizes?:string;mobileMedia?:string}
+const {image,eager=false,sizes='(max-width:767px) calc(100vw - 40px), 570px',mobileMedia='(max-width:767px)'}=Astro.props;
+---
+<picture class="editorial-picture" data-visual-id={image.id} data-image-origin={image.origin}>
+ {image.mobile&&<source media={mobileMedia} srcset={image.mobile.srcset||image.mobile.src} sizes={sizes} width={image.mobile.width} height={image.mobile.height}/>}
+ <img src={image.src} srcset={image.srcset} width={image.width} height={image.height} alt={imageDescription(image.alt)} sizes={sizes} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async" style={`--editorial-position:${image.position||'50% 50%'};--editorial-mobile-position:${image.mobilePosition||image.position||'50% 50%'}`} data-image-origin={image.origin}/>
+</picture>
+<style>
+ .editorial-picture{display:block;min-width:0;width:100%;height:100%}
+ .editorial-picture img{object-position:var(--editorial-position)!important}
+ @media(max-width:767px){.editorial-picture img{object-position:var(--editorial-mobile-position)!important}}
+</style>

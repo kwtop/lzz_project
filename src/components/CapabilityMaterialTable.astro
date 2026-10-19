@@ -8,8 +8,8 @@ interface Props {page:RevisedCapability;title?:string;intro?:string;visual?:bool
 const {page,title,intro,visual=false,visualArt}=Astro.props;
 const reading=capabilityReadingPolish.has(page.slug);
 const materialArt=visualArt||(page.slug==='casting-machining'
- ?{stem:'/media/reading-polish-20261015/casting-condition',width:1536,height:1024,alt:'AI illustration of a generic cast housing with a rough exterior and smooth machined datum land',caption:'Cast-blank condition · AI illustration. Specify the blank, allowance and finished interfaces for your drawing.'}
- :{stem:'/media/procurement-layout-20261015/material-families',width:1448,height:1086,alt:'Four generic stock specimens illustrating metallic and polymer material families',caption:'Material families · AI illustration. Specify the exact grade and condition; these are not inventory records.'});
+ ?{stem:'/media/reading-polish-20261015/casting-condition',width:1536,height:1024,alt:'a generic cast housing with a rough exterior and smooth machined datum land',caption:'Cast-blank condition · Specify the blank, allowance and finished interfaces for your drawing.'}
+ :{stem:'/media/procurement-layout-20261015/material-families',width:1448,height:1086,alt:'Metal and polymer stock specimens',caption:'Material families · Specify the exact grade and condition; these are not inventory records.'});
 ---
 <section class:list={['rd-section','cx-materials',{'cx-materials--visual':visual}]} id="materials-finishes"><div class="cx-material-overview"><header><h2>{title||page.plan.materialHeading||(page.reading?.family==='material'?'Grade, condition and finishing':'Material and finish review')}</h2><p>{intro||'Specify grade, condition, finish and the final acceptance state together. These are discussion options; suitability and availability are confirmed for the drawing.'}</p></header>{visual&&<CapabilityConcept art={materialArt}/>}</div>
  <slot/>

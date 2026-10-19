@@ -11,10 +11,10 @@ export type CapabilityModuleKind='geometry'|'parts'|'materials'|'workshop'|'requ
 type Design={lead:string;hero:'split'|'wide'|'showcase'|'comparison'|'product'|'centered'|'brief'|'batch'|'sample';art?:CapabilityArt;modules:CapabilityModuleKind[];parts:'mosaic'|'rows'|'gallery'|'source'|'sample';material:'table'|'finish'|'grades'|'polymer'|'compact';};
 const art=(stem:string,alt:string,caption:string):CapabilityArt=>({stem,alt,caption});
 export const capabilityArtwork={
- family:art('/media/capabilities-section-20261014/capability-family','AI illustration of a machined housing, stepped shaft, brass fitting and polymer guide','AI-generated part-family illustration.'),
- finish:art('/media/capabilities-section-20261014/aluminum-finish','AI illustration comparing bare aluminum with a dark treated housing and protected silver interfaces','AI-generated finishing concept. Color, masking and acceptance are specified for the order.'),
- plastic:art('/media/capabilities-section-20261014/plastic-support','AI illustration of a thin polymer pocketed plate fully supported on a fixture with edge clamps','AI-generated support concept. Fixturing and material are selected for the drawing.'),
- sample:art('/media/capabilities-section-20261014/sample-definition','AI illustration of a generic housing beside schematic drawing views and a caliper','AI-generated sample-to-drawing concept; not an approved drawing or reconstruction record.'),
+ family:art('/media/capabilities-section-20261014/capability-family','a machined housing, stepped shaft, brass fitting and polymer guide','Part families.'),
+ finish:art('/media/capabilities-section-20261014/aluminum-finish','Comparison of bare aluminum with a dark treated housing and protected silver interfaces','Finishing · specify color, masking and acceptance for the order.'),
+ plastic:art('/media/capabilities-section-20261014/plastic-support','a thin polymer pocketed plate fully supported on a fixture with edge clamps','Part support and clamping · select the fixture and material for the drawing.'),
+ sample:art('/media/capabilities-section-20261014/sample-definition','a generic housing beside schematic drawing views and a caliper','Sample, drawing views and measurement inputs.'),
 };
 const turningPlan:ServicePlan={
  title:'CNC Turning Services',exampleHeading:'Turned forms, different working interfaces',exampleIntro:'Identify the rotational shape, then locate the features that need drilling, threading or milling.',
@@ -24,7 +24,7 @@ const turningPlan:ServicePlan={
   {name:'Copper & brass',grades:'Examples include C11000 copper and C36000 brass.',finish:'Polishing or compatible protective plating.',review:'Define contact or seal areas, material restrictions and final dimensions after plating.'},
   {name:'Engineering plastics',grades:'POM, PTFE or PEEK; specify the exact polymer grade.',finish:'Machined surfaces with specified edge quality and cleaning.',review:'State conditioning or measurement-temperature requirements for fitted dimensions.'},
  ],
- geometry:{title:'One axis, several working features',text:'Relate fitted diameters, shoulders and the bore to a common datum scheme. Show where threads, grooves and secondary holes must sit relative to those datums.',stem:'/media/turning-reading-20261014/turned-features',alt:'AI illustration of a stepped tubular component with an axial bore, groove, external thread and cross-hole',caption:'Typical turned geometry. AI-generated illustration.'},
+ geometry:{title:'One axis, several working features',text:'Relate fitted diameters, shoulders and the bore to a common datum scheme. Show where threads, grooves and secondary holes must sit relative to those datums.',stem:'/media/turning-reading-20261014/turned-features',alt:'a stepped tubular component with an axial bore, groove, external thread and cross-hole',caption:'Typical turned geometry. '},
  checks:[
   {feature:'Diameters & axial lengths',drawing:'Working diameters, bore depths, shoulder positions and mating fits.',inspection:'Dimensional checks against drawing limits and agreed measurement conditions.'},
   {feature:'Datum axis & runout',drawing:'Datum references, surfaces sharing an axis and geometric controls for assembly.',inspection:'Agree how the part is located and which runout or positional results are recorded.'},
@@ -45,7 +45,7 @@ const turningPlan:ServicePlan={
  ],rfqTitle:'Request a CNC turning quote',
 };
 export const capabilityDesigns:Record<string,Design>={
- 'cnc-milling-service':{lead:'Pockets, faces and holes. Planned around the way your part fits.',hero:'split',art:art('/media/capability-directory-20261014/cnc-milling-service','AI illustration of a milling cutter above a pocketed workpiece','AI-generated milling concept.'),modules:['geometry','parts','workshop','materials','faq','inquiry'],parts:'mosaic',material:'table'},
+ 'cnc-milling-service':{lead:'Pockets, faces and holes. Planned around the way your part fits.',hero:'split',art:art('/media/capability-directory-20261014/cnc-milling-service','a milling cutter above a pocketed workpiece','Milling.'),modules:['geometry','parts','workshop','materials','faq','inquiry'],parts:'mosaic',material:'table'},
  'cnc-turning-service':{lead:'A common axis for diameters, shoulders, bores and threads.',hero:'wide',art:turningPlan.geometry,modules:['parts','requirements','materials','workshop','faq','inquiry'],parts:'rows',material:'table'},
  '5-axis-cnc-machining':{lead:'Reach angled faces. Follow complex contours.',hero:'showcase',art:serviceReading['5-axis-cnc-machining'].geometry,modules:['route-choice','parts','workshop','materials','faq','inquiry'],parts:'mosaic',material:'compact'},
  'casting-machining':{lead:'Turn a cast blank into defined working interfaces.',hero:'comparison',art:serviceReading['casting-machining'].geometry,modules:['materials','parts','workflow','faq','inquiry'],parts:'gallery',material:'table'},
@@ -69,7 +69,7 @@ export const capabilityReading:Record<string,ReadingGuide>={
  'copper-brass-cnc-parts':{family:'material',lead:'Copper and brass contacts, fittings and connectors.',description:'Start with what the part needs to do: conduct electricity, transfer heat or form a sealed connection. Then review the alloy, geometry and finish.',examples:'Contacts and fittings serve different purposes. These examples help identify the working surfaces, threads and connections that need to be specified.'},
  'plastic-machined-parts':{family:'material',lead:'Plastic insulators, guides and custom housings.',description:'Explore machined polymer parts and material choices. The working environment, part shape and required fit guide the material and machining review.',examples:'Insulators, guides and polymer housings combine holes, slots and fitted surfaces. Choose the material with its working environment in mind.'},
 };
-export const productionTiming='Production takes 7–14 business days after drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.';
+export const productionTiming='Production takes 7-14 business days after drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.';
 export const shaftSlug='custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier';
 export const partDisplay=(product:(typeof catalog.products)[number])=>({
  ...partVisual(product),product,title:product.slug==='small-batch-cnc-machining-manufacturer-complex-aluminum-housings'?'Pocketed aluminum housings':partDisplayTitle(product),href:'/machined-parts/gallery/'+product.slug+'/',

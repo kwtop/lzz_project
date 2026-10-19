@@ -1,0 +1,477 @@
+{
+  "date": "2026-10-18",
+  "tool": "built-in image_gen",
+  "generated": {
+    "casting-machining": {
+      "id": "casting-machining",
+      "src": "/media/site-image-polish-20261018/casting-machining-1120.webp",
+      "srcset": "/media/site-image-polish-20261018/casting-machining-480.webp 480w, /media/site-image-polish-20261018/casting-machining-800.webp 800w, /media/site-image-polish-20261018/casting-machining-1120.webp 1120w",
+      "width": 1120,
+      "height": 1400,
+      "alt": "A generic cast aluminum housing with a machined flange, secured beneath an idle milling tool",
+      "caption": "Casting finish machining · illustration",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "files": [
+        {
+          "width": 480,
+          "height": 600,
+          "bytes": 59464,
+          "src": "/media/site-image-polish-20261018/casting-machining-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 1000,
+          "bytes": 148450,
+          "src": "/media/site-image-polish-20261018/casting-machining-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 1400,
+          "bytes": 251190,
+          "src": "/media/site-image-polish-20261018/casting-machining-1120.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/casting-machining.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    },
+    "copper-turning": {
+      "id": "copper-turning",
+      "src": "/media/site-image-polish-20261018/copper-turning-1120.webp",
+      "srcset": "/media/site-image-polish-20261018/copper-turning-480.webp 480w, /media/site-image-polish-20261018/copper-turning-800.webp 800w, /media/site-image-polish-20261018/copper-turning-1120.webp 1120w",
+      "width": 1120,
+      "height": 1400,
+      "alt": "A generic brass fitting held in a lathe chuck beside an idle cutting tool",
+      "caption": "Brass turning · process illustration",
+      "origin": "image-reference",
+      "position": "50% 45%",
+      "files": [
+        {
+          "width": 480,
+          "height": 600,
+          "bytes": 54164,
+          "src": "/media/site-image-polish-20261018/copper-turning-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 1000,
+          "bytes": 121468,
+          "src": "/media/site-image-polish-20261018/copper-turning-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 1400,
+          "bytes": 191320,
+          "src": "/media/site-image-polish-20261018/copper-turning-1120.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/copper-turning.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    },
+    "small-batch-planning": {
+      "id": "small-batch-planning",
+      "src": "/media/site-image-polish-20261018/small-batch-planning-1536.webp",
+      "srcset": "/media/site-image-polish-20261018/small-batch-planning-480.webp 480w, /media/site-image-polish-20261018/small-batch-planning-800.webp 800w, /media/site-image-polish-20261018/small-batch-planning-1120.webp 1120w, /media/site-image-polish-20261018/small-batch-planning-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Six generic pocketed aluminum blocks arranged for small-batch planning",
+      "caption": "Small-batch planning · illustration",
+      "origin": "image-reference",
+      "position": "50% 60%",
+      "files": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 13588,
+          "src": "/media/site-image-polish-20261018/small-batch-planning-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 533,
+          "bytes": 30208,
+          "src": "/media/site-image-polish-20261018/small-batch-planning-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 747,
+          "bytes": 54140,
+          "src": "/media/site-image-polish-20261018/small-batch-planning-1120.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "bytes": 92078,
+          "src": "/media/site-image-polish-20261018/small-batch-planning-1536.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/small-batch-planning.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    },
+    "quotation-comparison": {
+      "id": "quotation-comparison",
+      "src": "/media/site-image-polish-20261018/quotation-comparison-1536.webp",
+      "srcset": "/media/site-image-polish-20261018/quotation-comparison-480.webp 480w, /media/site-image-polish-20261018/quotation-comparison-800.webp 800w, /media/site-image-polish-20261018/quotation-comparison-1120.webp 1120w, /media/site-image-polish-20261018/quotation-comparison-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A generic machined bracket beside two blank quotation sheets on blue clipboards",
+      "caption": "Quotation comparison · illustration",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "files": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 13944,
+          "src": "/media/site-image-polish-20261018/quotation-comparison-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 533,
+          "bytes": 29750,
+          "src": "/media/site-image-polish-20261018/quotation-comparison-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 747,
+          "bytes": 48980,
+          "src": "/media/site-image-polish-20261018/quotation-comparison-1120.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "bytes": 79286,
+          "src": "/media/site-image-polish-20261018/quotation-comparison-1536.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/quotation-comparison.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    },
+    "critical-feature-review": {
+      "id": "critical-feature-review",
+      "src": "/media/site-image-polish-20261018/critical-feature-review-1536.webp",
+      "srcset": "/media/site-image-polish-20261018/critical-feature-review-480.webp 480w, /media/site-image-polish-20261018/critical-feature-review-800.webp 800w, /media/site-image-polish-20261018/critical-feature-review-1120.webp 1120w, /media/site-image-polish-20261018/critical-feature-review-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A generic bracket with a bore and mounting holes beside a schematic drawing and idle caliper",
+      "caption": "Drawing features · illustration",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "files": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 12672,
+          "src": "/media/site-image-polish-20261018/critical-feature-review-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 533,
+          "bytes": 28456,
+          "src": "/media/site-image-polish-20261018/critical-feature-review-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 747,
+          "bytes": 47652,
+          "src": "/media/site-image-polish-20261018/critical-feature-review-1120.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "bytes": 77558,
+          "src": "/media/site-image-polish-20261018/critical-feature-review-1536.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/critical-feature-review.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    },
+    "process-selection": {
+      "id": "process-selection",
+      "src": "/media/site-image-polish-20261018/process-selection-1536.webp",
+      "srcset": "/media/site-image-polish-20261018/process-selection-480.webp 480w, /media/site-image-polish-20261018/process-selection-800.webp 800w, /media/site-image-polish-20261018/process-selection-1120.webp 1120w, /media/site-image-polish-20261018/process-selection-1536.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A generic stepped turned shaft beside a pocketed milled block",
+      "caption": "Turning and milling forms · illustration",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "files": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 8946,
+          "src": "/media/site-image-polish-20261018/process-selection-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 533,
+          "bytes": 24306,
+          "src": "/media/site-image-polish-20261018/process-selection-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 747,
+          "bytes": 49508,
+          "src": "/media/site-image-polish-20261018/process-selection-1120.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "bytes": 98836,
+          "src": "/media/site-image-polish-20261018/process-selection-1536.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/process-selection.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    },
+    "sample-definition": {
+      "id": "sample-definition",
+      "src": "/media/site-image-polish-20261018/sample-definition-1120.webp",
+      "srcset": "/media/site-image-polish-20261018/sample-definition-480.webp 480w, /media/site-image-polish-20261018/sample-definition-800.webp 800w, /media/site-image-polish-20261018/sample-definition-1120.webp 1120w",
+      "width": 1120,
+      "height": 1400,
+      "alt": "Generic turned and milled sample forms on schematic sheets beside an idle caliper",
+      "caption": "Sample and drawing review · illustration",
+      "origin": "image-reference",
+      "position": "50% 50%",
+      "files": [
+        {
+          "width": 480,
+          "height": 600,
+          "bytes": 38076,
+          "src": "/media/site-image-polish-20261018/sample-definition-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 1000,
+          "bytes": 87306,
+          "src": "/media/site-image-polish-20261018/sample-definition-800.webp"
+        },
+        {
+          "width": 1120,
+          "height": 1400,
+          "bytes": 146230,
+          "src": "/media/site-image-polish-20261018/sample-definition-1120.webp"
+        }
+      ],
+      "master": "D:/lzz/site-images-20261018/masters/sample-definition.png",
+      "generator": "built-in image_gen",
+      "operation": "New generic educational illustration; responsive WebP conversion only"
+    }
+  },
+  "originals": [
+    {
+      "id": "workshop-wide",
+      "source": "D:\\lzz\\原始资料\\力智造-素材资料照片\\力智造-素材资料照片\\10，Producing Department-生产车间\\1 (7).jpg",
+      "sha256": "1f83184bb7af2b952b65fffc7cf8b01604d0bc392645fc7955068a79b15b4d48",
+      "verified": true,
+      "native": [
+        4088,
+        2832
+      ],
+      "files": [
+        {
+          "src": "/media/site-image-polish-20261018/workshop-wide-original-2048.webp",
+          "width": 2048,
+          "height": 1419,
+          "bytes": 233146
+        },
+        {
+          "src": "/media/site-image-polish-20261018/workshop-wide-original-2560.webp",
+          "width": 2560,
+          "height": 1773,
+          "bytes": 387126
+        }
+      ],
+      "operation": "EXIF orientation and responsive resize only; original pixels, no AI reconstruction"
+    },
+    {
+      "id": "workshop-operators-2025",
+      "native": [
+        1706,
+        1279
+      ],
+      "operation": "Original too small for a larger derivative; retain current"
+    },
+    {
+      "id": "turn-mill-operation",
+      "source": "D:\\lzz\\原始资料\\力智造-素材资料照片\\力智造-素材资料照片\\20251203力智造产品加工过程中图片\\产品3-车加工完成后的铣加工\\44a8d35e74bf5e21513fcef0db0caf80.jpg",
+      "sha256": "fd467734648c47243b1573ef19380ee7deede9eb2fee0e284269745e8fd6b4a6",
+      "verified": true,
+      "native": [
+        4000,
+        3000
+      ],
+      "files": [
+        {
+          "src": "/media/site-image-polish-20261018/turn-mill-operation-original-2048.webp",
+          "width": 2048,
+          "height": 1536,
+          "bytes": 278642
+        },
+        {
+          "src": "/media/site-image-polish-20261018/turn-mill-operation-original-2560.webp",
+          "width": 2560,
+          "height": 1920,
+          "bytes": 395836
+        }
+      ],
+      "operation": "EXIF orientation and responsive resize only; original pixels, no AI reconstruction"
+    }
+  ],
+  "replacements": [
+    {
+      "id": "casting-machining",
+      "before": "Generic milling hero",
+      "after": "Casting flange and idle-tool illustration",
+      "routes": [
+        "/capabilities/casting-machining/"
+      ]
+    },
+    {
+      "id": "copper-turning",
+      "before": "Silver steel turning hero",
+      "after": "Brass turning illustration",
+      "routes": [
+        "/capabilities/copper-brass-cnc-parts/"
+      ]
+    },
+    {
+      "id": "small-batch-planning",
+      "before": "Shared drawing-review hero",
+      "after": "Repeated pocketed forms illustration",
+      "routes": [
+        "/capabilities/low-volume-production/"
+      ]
+    },
+    {
+      "id": "sample-definition",
+      "before": "Wide shared drawing-review hero",
+      "after": "Portrait sample and drawing illustration",
+      "routes": [
+        "/capabilities/prototype-machining/",
+        "/capabilities/starting-with-a-sample/"
+      ]
+    },
+    {
+      "id": "quotation-comparison",
+      "before": "Shared drawing-review guide cover",
+      "after": "A part with two blank quotation sheets",
+      "routes": [
+        "/resources/ordering/compare-cnc-machining-quotations/",
+        "/resources/ordering/"
+      ]
+    },
+    {
+      "id": "critical-feature-review",
+      "before": "Shared drawing-review guide cover",
+      "after": "Bracket, schematic and idle caliper",
+      "routes": [
+        "/resources/technical-guides/critical-features-cnc-drawing/",
+        "/resources/technical-guides/"
+      ]
+    },
+    {
+      "id": "process-selection",
+      "before": "Portrait milling cover and machining card",
+      "after": "Turned and milled forms illustration",
+      "routes": [
+        "/resources/technical-guides/cnc-process-selection/",
+        "/resources/technical-guides/",
+        "/"
+      ]
+    },
+    {
+      "id": "P33-original-photo",
+      "before": "/media/products-real-details-20261015/p33.webp (390 x 370)",
+      "after": "Original aluminum-housing photograph with responsive versions up to 1600 px",
+      "routes": [
+        "/machined-parts/gallery/",
+        "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/"
+      ]
+    }
+  ],
+  "validation": {
+    "pages": 84,
+    "slots": 413,
+    "uniqueBefore": 146,
+    "uniqueAfter": 151,
+    "desktopPages": 43,
+    "mobilePages": 43,
+    "imageSourceCoverage": 151,
+    "unloaded": 0,
+    "overflow": 0,
+    "generatedImages": [
+      {
+        "id": "casting-machining",
+        "master": "D:/lzz/site-images-20261018/masters/casting-machining.png",
+        "origin": "image-reference",
+        "routes": [
+          "/capabilities/casting-machining/"
+        ]
+      },
+      {
+        "id": "copper-turning",
+        "master": "D:/lzz/site-images-20261018/masters/copper-turning.png",
+        "origin": "image-reference",
+        "routes": [
+          "/capabilities/copper-brass-cnc-parts/"
+        ]
+      },
+      {
+        "id": "small-batch-planning",
+        "master": "D:/lzz/site-images-20261018/masters/small-batch-planning.png",
+        "origin": "image-reference",
+        "routes": [
+          "/capabilities/low-volume-production/"
+        ]
+      },
+      {
+        "id": "quotation-comparison",
+        "master": "D:/lzz/site-images-20261018/masters/quotation-comparison.png",
+        "origin": "image-reference",
+        "routes": [
+          "/resources/ordering/",
+          "/resources/ordering/compare-cnc-machining-quotations/"
+        ]
+      },
+      {
+        "id": "critical-feature-review",
+        "master": "D:/lzz/site-images-20261018/masters/critical-feature-review.png",
+        "origin": "image-reference",
+        "routes": [
+          "/resources/technical-guides/",
+          "/resources/technical-guides/critical-features-cnc-drawing/"
+        ]
+      },
+      {
+        "id": "process-selection",
+        "master": "D:/lzz/site-images-20261018/masters/process-selection.png",
+        "origin": "image-reference",
+        "routes": [
+          "/",
+          "/resources/technical-guides/",
+          "/resources/technical-guides/cnc-process-selection/"
+        ]
+      },
+      {
+        "id": "sample-definition",
+        "master": "D:/lzz/site-images-20261018/masters/sample-definition.png",
+        "origin": "image-reference",
+        "routes": [
+          "/capabilities/prototype-machining/",
+          "/capabilities/starting-with-a-sample/"
+        ]
+      }
+    ],
+    "sourceConstraints": [
+      "Original video frames are retained at source quality. No AI reconstruction is used for footage, people, factory evidence or certificates."
+    ]
+  }
+}

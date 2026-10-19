@@ -1,0 +1,46 @@
+[
+  {
+    "id": "privacy-clear",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\ui-originals\\privacy-clear.png",
+    "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\privacy-clear.webp",
+    "source": "Actual locally rendered RFQ interface",
+    "viewport": 1440,
+    "width": 1520,
+    "height": 90,
+    "origin": "original-ui-screenshot",
+    "selection": ".inquiry-storage"
+  },
+  {
+    "id": "privacy-draft",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\ui-originals\\privacy-draft.png",
+    "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\privacy-draft.webp",
+    "source": "Actual locally rendered RFQ interface",
+    "viewport": 1440,
+    "width": 1520,
+    "height": 106,
+    "origin": "original-ui-screenshot",
+    "selection": ".inquiry-review-actions"
+  },
+  {
+    "id": "privacy-clear-mobile",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\ui-originals\\privacy-clear-mobile.png",
+    "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\privacy-clear-mobile.webp",
+    "source": "Actual locally rendered RFQ interface",
+    "viewport": 390,
+    "width": 700,
+    "height": 90,
+    "origin": "original-ui-screenshot",
+    "selection": ".inquiry-storage"
+  },
+  {
+    "id": "privacy-draft-mobile",
+    "original": "D:\\lzz\\lzz\\_react\\design\\penta-rollout-20261017\\ui-originals\\privacy-draft-mobile.png",
+    "file": "D:\\lzz\\lzz\\_react\\public\\media\\penta-rollout-20261017\\privacy-draft-mobile.webp",
+    "source": "Actual locally rendered RFQ interface",
+    "viewport": 390,
+    "width": 700,
+    "height": 214,
+    "origin": "original-ui-screenshot",
+    "selection": ".inquiry-review-actions"
+  }
+]

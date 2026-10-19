@@ -2,10 +2,11 @@
 import {siteSections,sectionForPath} from '../data/siteSections';
 const current=Astro.url.pathname;
 const active=sectionForPath(current);
+const homeLabels:Record<string,string>={capabilities:'Capabilities',parts:'Parts',factory:'Factory',resources:'Resources',about:'About'};
 ---
 <nav id="main-nav" aria-label="Main navigation">
  {siteSections.map(section=><div class="nav-item" data-active={active?.key===section.key||undefined}>
-  <a class="nav-root" href={section.href} aria-current={current===section.href?'page':active?.key===section.key?'location':undefined}>{section.title}</a>
+  <a class="nav-root" href={section.href} aria-current={current===section.href?'page':active?.key===section.key?'location':undefined}>{homeLabels[section.key]||section.title}</a>
   {section.children.length>0&&<details name="main-navigation" class="nav-group">
    <summary aria-label={'Show '+section.title+' pages'}><span class="nav-trigger-label">Show {section.title} pages</span></summary>
    <div class:list={['nav-panel',section.key==='capabilities'?'nav-panel-capabilities':'nav-panel-small']}>

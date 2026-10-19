@@ -17,8 +17,8 @@ const examples=[
  href:index===0?'/machined-parts/machining-examples/custom-metal-parts-batch-examples/':'/machined-parts/gallery/'+item.slug+'/',
  image:index===0?'/media/turning-reading-20261014/shaft-retouched-1200.webp':productImage(product),
  srcset:index===0?[480,800,1200].map(width=>'/media/turning-reading-20261014/shaft-retouched-'+width+'.webp '+width+'w').join(', '):productSrcset(product),
- alt:index===0?'Retouched illustration of a turned shaft with flange, shoulders and thread':productImageAlt(product),
- caption:index===0?'AI-retouched source photograph.':'',
+ alt:index===0?'A turned shaft with flange, shoulders and thread':productImageAlt(product),
+ caption:index===0?'Turned shaft detail.':'',
  label:index===0?'View the shaft example':'View part requirements'};
 });
 // Material examples come from materialGrades.ts and the turning product records.
@@ -42,7 +42,7 @@ const steps=[
 ];
 const questions=[
  {question:'Can I order one turned part?',answer:'Yes. Orders start at 1 piece. Send the drawing, material and finish requirements so we can review the scope and prepare a quotation.'},
- {question:'How long does CNC turning take?',answer:'Production takes 7–14 business days after drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.'},
+ {question:'How long does CNC turning take?',answer:'Production takes 7-14 business days after drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.'},
  {question:'What sizes and tolerances can you machine?',answer:'Send the finished dimensions, stock size, material and critical tolerances. Maximum turning size and achievable limits are reviewed against the drawing, workholding, tool access and inspection method.'},
  {question:'Can turned parts include cross-holes and flats?',answer:'Yes. Depending on the geometry, these features may use live tooling or a secondary milling operation. Locate them relative to the turned datum axis and include any access constraints.'},
  {question:'What should I send for a CNC turning quote?',answer:'Include the current model and dimensioned drawing, material grade and condition, quantity per release, finish and delivery destination. Add mating-part information, thread specifications and any inspection or functional-test requirements.'},
@@ -54,7 +54,7 @@ const questions=[
   <section class="tc-hero" aria-labelledby="turning-title">
    <header class="tc-intro"><h1 id="turning-title">CNC Turning Services</h1><p>Custom CNC turning for shafts, sleeves, bushings and fittings. We review your drawing, material and mating requirements to plan the turning operations, any secondary machining and inspection.</p></header>
    <figure class="tc-hero-image"><img src={productImage(heroProduct)} srcset={productSrcset(heroProduct)} sizes="(max-width:760px) calc(100vw - 44px), 48vw" width="1200" height="1200" alt={productImageAlt(heroProduct)} fetchpriority="high"/></figure>
-   <div class="tc-order"><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7–14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional.</p><a class="tc-primary" href={quoteHref}>Prepare RFQ email</a></div>
+   <div class="tc-order"><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional.</p><a class="tc-primary" href={quoteHref}>Prepare RFQ email</a></div>
   </section>
   <section class="tc-section" id="part-examples" aria-labelledby="turning-parts-title">
    <header class="tc-section-head"><h2 id="turning-parts-title">Parts we turn</h2><p>Start with the rotational shape, then identify the features that need drilling, threading or milling.</p></header>
@@ -67,7 +67,7 @@ const questions=[
   </section>
   <section class="tc-section tc-inspection" id="engineering-fit" aria-labelledby="turning-inspection-title">
    <header class="tc-section-head"><h2 id="turning-inspection-title">Dimensions, tolerances & inspection</h2><p>Define the interfaces that control assembly. We assess dimensions and tolerances for the drawing, material and measurement method.</p></header>
-   <div class="tc-geometry"><figure><img src="/media/turning-reading-20261014/turned-features-1200.webp" srcset={[480,800,1200,1536].map(width=>'/media/turning-reading-20261014/turned-features-'+width+'.webp '+width+'w').join(', ')} sizes="(max-width:760px) calc(100vw - 44px), 52vw" width="1536" height="1024" loading="lazy" alt="Illustration of a stepped tubular turned component with an axial bore, annular groove, external thread and cross-hole"/><figcaption>Typical turned geometry. AI-generated illustration.</figcaption></figure><div><h3>One axis, several working features</h3><p>Relate fitted diameters, shoulders and the bore to a common datum scheme. Show where threads, grooves and secondary holes must sit relative to those datums.</p><h3>Size & workholding review</h3><p>Provide stock size and finished dimensions, with clamping areas and access to internal grooves. Maximum size and achievable tolerances are reviewed per drawing.</p></div></div>
+   <div class="tc-geometry"><figure><img src="/media/turning-reading-20261014/turned-features-1200.webp" srcset={[480,800,1200,1536].map(width=>'/media/turning-reading-20261014/turned-features-'+width+'.webp '+width+'w').join(', ')} sizes="(max-width:760px) calc(100vw - 44px), 52vw" width="1536" height="1024" loading="lazy" alt="a stepped tubular turned component with an axial bore, annular groove, external thread and cross-hole"/><figcaption>Typical turned geometry. </figcaption></figure><div><h3>One axis, several working features</h3><p>Relate fitted diameters, shoulders and the bore to a common datum scheme. Show where threads, grooves and secondary holes must sit relative to those datums.</p><h3>Size & workholding review</h3><p>Provide stock size and finished dimensions, with clamping areas and access to internal grooves. Maximum size and achievable tolerances are reviewed per drawing.</p></div></div>
    <div id="capability-scope"><h3 class="tc-table-title" id="inspection">From drawing requirements to acceptance checks</h3><table class="tc-checks"><thead><tr><th scope="col">Feature</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{checks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Specify on the drawing">{row.drawing}</td><td data-label="Agree before production">{row.inspection}</td></tr>)}</tbody></table></div>
    <div class="tc-quality"><figure><EvidenceImage id="cmm-detail" sizes="(max-width:760px) 140px, 160px"/><figcaption>LZZ coordinate measuring machine.</figcaption></figure><div><h3>Inspection follows the feature</h3><p>Confirm the instruments, measurement setup and report format for the dimensions that matter. Functional or leak tests require their own procedure and acceptance limits.</p><a class="tc-secondary" href="/factory/#quality">Quality control & inspection</a></div></div>
   </section>

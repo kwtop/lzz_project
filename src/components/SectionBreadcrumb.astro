@@ -1,5 +1,5 @@
 ---
-interface Props {items:{name:string;href:string}[]}
-const {items}=Astro.props;
+interface Props {items:{name:string;href:string}[];width?:'standard'|'directory'}
+const {items,width='standard'}=Astro.props;
 ---
-{items.length>0&&<nav class="site-breadcrumb" data-compact={items.length>3||items[items.length-1].name.length>45||undefined} aria-label="Breadcrumb">{items.map((item,index)=><>{index>0&&<span class="site-crumb-divider" aria-hidden="true">/</span>}{index===items.length-1?<span aria-current="page">{item.name}</span>:<a href={item.href}>{item.name}</a>}</>)}</nav>}
+{items.length>0&&<nav class="site-breadcrumb" data-width={width==='directory'?width:undefined} data-compact={items.length>3||items[items.length-1].name.length>45||undefined} aria-label="Breadcrumb">{items.map((item,index)=><>{index>0&&<span class="site-crumb-divider" aria-hidden="true">/</span>}{index===items.length-1?<span aria-current="page">{item.name}</span>:<a href={item.href}>{item.name}</a>}</>)}</nav>}

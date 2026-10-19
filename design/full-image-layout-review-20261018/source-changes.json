@@ -1,0 +1,83 @@
+[
+  {
+    "path": "src/components/AboutNewsStoryRedesign.astro",
+    "currentSha256": "3dda2e83b2d359fcfc2c8e8534bd61301062816f6fddeb538d58256e1a53212e",
+    "revertTargetSha256": "de30dbc98e45dc79757ad4e3d7d6977807ee42e30e9959f0bfcf1cea616e8ba9",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/src/components/AboutNewsStoryRedesign.astro",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/components/AboutNewsStoryRedesign.astro",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/components/ResourceContentImage.astro",
+    "currentSha256": "2c8545b7dfa9b5b18894f3b901e529e81061f11617d1a2f19716f729bb0c1495",
+    "revertTargetSha256": "cde1060a88332c3a61ae90aaa0d216bd2c0446da71083027196ad17ec23c1d9e",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/src/components/ResourceContentImage.astro",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/components/ResourceContentImage.astro",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/components/StudyCollectionFamily.astro",
+    "currentSha256": "1e8547a9ab642379774398cee7ea32e35261f09f80873d86a6f293c8d9beb952",
+    "revertTargetSha256": "91b15b6edbc08bdeb09feed887f43780c1dbd6b3132a2422a9d5feb06e112b7d",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/src/components/StudyCollectionFamily.astro",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/components/StudyCollectionFamily.astro",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/data/siteImages.generated.json",
+    "currentSha256": "dc67dda5186b7974d5d5a7a32d8d68d93a13936bf7a447e56aaab1c07b9bf62b",
+    "revertTargetSha256": "5af5cb05d24de1a2a8b06efba2cfecb936c409b7e3efa50b84e16357e61af36c",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/src/data/siteImages.generated.json",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/data/siteImages.generated.json",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/layouts/Layout.astro",
+    "currentSha256": "8d3322caf5c8eea54c69212f44e3d93797b8ff057de7ec8dfc1fcb451d94a0d7",
+    "revertTargetSha256": "fe24e56272e0243104ba0c6cb30df66199ff121a287acd53aad7cadf280ee106",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/src/layouts/Layout.astro",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/layouts/Layout.astro",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/styles/penta-image-composition.css",
+    "currentSha256": "fc31f7b2383f8a636996624c20cf357574f0f949307d6e978303a5d777977a22",
+    "revertTargetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baselineSnapshot": null,
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/styles/penta-image-composition.css",
+    "rollbackMethod": "Remove the new image-composition stylesheet together with its Layout import.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/styles/reading-polish.css",
+    "currentSha256": "164cd7b9d3a8babf00e32c9256ab19a27012aacea5109df7a08f8c58f1794ae8",
+    "revertTargetSha256": "938b7e70e843e351bb6a70cded4cc562e1bd2b1ff4cd610263393e3115117968",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/src/styles/reading-polish.css",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/styles/reading-polish.css",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "src/styles/image-layout-20261018.css",
+    "currentSha256": "f8b69d371b2b1b65953a8dcaff4b0f51e6483fa7c7dff06d97991a4f2a003914",
+    "revertTargetSha256": "74c9d7f23b154badabb0dccf3c88201aaf8915b703a6ba7931616114c2417d9b",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup-own/image-layout-before-reference-group.css",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/src/styles/image-layout-20261018.css",
+    "rollbackMethod": "Three-way reverse merge preserves later palette/meta changes.",
+    "verifiedSourceMatchesCurrentBuild": true
+  },
+  {
+    "path": "DESIGN.md",
+    "currentSha256": "3b37ac89bf1f4db31db28dba376bcdf31a385678aa6ed75e5a592b183c82e1e8",
+    "revertTargetSha256": "d2a86cab86a69178ab503efe743935803b7c6b9fcbe3bfc306ff58fb2c805a92",
+    "baselineSnapshot": "D:/lzz/full-image-layout-review-20261018/backup/DESIGN.before-image-pass.md",
+    "revertTarget": "D:/lzz/full-image-layout-review-20261018/rollback-context/DESIGN.md",
+    "rollbackMethod": "Remove only section 16; preserve parallel sections 15 and 17.",
+    "verifiedSourceMatchesCurrentBuild": null
+  }
+]

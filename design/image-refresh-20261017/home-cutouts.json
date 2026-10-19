@@ -1,0 +1,102 @@
+[
+  {
+    "id": "impeller-cutout",
+    "source": "impeller",
+    "file": "D:/lzz/lzz/_react/design/image-refresh-20261017/impeller.png",
+    "prompt": "Use case: background-extraction. Extract ONLY the exact existing object from the supplied image onto a GENUINELY TRANSPARENT alpha background. Do not redraw, re-light, rotate or reconstruct the object. Preserve the object's exact visible silhouette, every hole and opening, all original blades/threads/features, the camera angle, existing color and material texture. Remove the entire pale white rectangular backdrop, including the background visible THROUGH the holes and gaps. Keep fine edges clean without white fringing. A very faint natural contact shadow may remain as soft translucent alpha, but no colored floor or rectangular panel. Square canvas with 10 percent breathing room. One independent image, no text, labels, border or added props. The goal is a clean cutout that can sit naturally on the existing website's white or pale blue background.",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-ad3604e6-3410-49a9-9e9d-cd55e00a7a9c.png",
+    "width": 1254,
+    "height": 1254,
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "alphaAverage": 148.92950787146205,
+    "status": "home-only-cutout",
+    "display": {
+      "id": "impeller-cutout",
+      "src": "/media/image-refresh-20261017/impeller-cutout-1200.webp",
+      "srcset": "/media/image-refresh-20261017/impeller-cutout-480.webp 480w, /media/image-refresh-20261017/impeller-cutout-800.webp 800w, /media/image-refresh-20261017/impeller-cutout-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p02-1200.webp"
+    }
+  },
+  {
+    "id": "casting-cutout",
+    "source": "casting-housing",
+    "file": "D:/lzz/lzz/_react/design/image-refresh-20261017/casting-housing.png",
+    "prompt": "Use case: background-extraction. Extract ONLY the exact existing object from the supplied image onto a GENUINELY TRANSPARENT alpha background. Do not redraw, re-light, rotate or reconstruct the object. Preserve the object's exact visible silhouette, every hole and opening, all original blades/threads/features, the camera angle, existing color and material texture. Remove the entire pale white rectangular backdrop, including the background visible THROUGH the holes and gaps. Keep fine edges clean without white fringing. A very faint natural contact shadow may remain as soft translucent alpha, but no colored floor or rectangular panel. Square canvas with 10 percent breathing room. One independent image, no text, labels, border or added props. The goal is a clean cutout that can sit naturally on the existing website's white or pale blue background.",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-36b56228-2be0-427a-917a-03ab30576f2d.png",
+    "width": 1254,
+    "height": 1254,
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "alphaAverage": 139.7724913450801,
+    "status": "home-only-cutout",
+    "display": {
+      "id": "casting-cutout",
+      "src": "/media/image-refresh-20261017/casting-cutout-1200.webp",
+      "srcset": "/media/image-refresh-20261017/casting-cutout-480.webp 480w, /media/image-refresh-20261017/casting-cutout-800.webp 800w, /media/image-refresh-20261017/casting-cutout-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p22-framed-1200.webp"
+    }
+  },
+  {
+    "id": "pin-cutout",
+    "source": "locking-pin",
+    "file": "D:/lzz/lzz/_react/design/image-refresh-20261017/locking-pin.png",
+    "prompt": "Use case: background-extraction. Extract ONLY the exact existing object from the supplied image onto a GENUINELY TRANSPARENT alpha background. Do not redraw, re-light, rotate or reconstruct the object. Preserve the object's exact visible silhouette, every hole and opening, all original blades/threads/features, the camera angle, existing color and material texture. Remove the entire pale white rectangular backdrop, including the background visible THROUGH the holes and gaps. Keep fine edges clean without white fringing. A very faint natural contact shadow may remain as soft translucent alpha, but no colored floor or rectangular panel. Square canvas with 10 percent breathing room. One independent image, no text, labels, border or added props. The goal is a clean cutout that can sit naturally on the existing website's white or pale blue background.",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-d69b63f5-0d88-4aa6-bd79-0683c125e2b0.png",
+    "width": 1254,
+    "height": 1254,
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "alphaAverage": 67.8609158825729,
+    "status": "home-only-cutout",
+    "display": {
+      "id": "pin-cutout",
+      "src": "/media/image-refresh-20261017/pin-cutout-1200.webp",
+      "srcset": "/media/image-refresh-20261017/pin-cutout-480.webp 480w, /media/image-refresh-20261017/pin-cutout-800.webp 800w, /media/image-refresh-20261017/pin-cutout-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+    }
+  },
+  {
+    "id": "plastic-cutout",
+    "source": "plastic-strips",
+    "file": "D:/lzz/lzz/_react/design/image-refresh-20261017/plastic-strips.png",
+    "prompt": "Use case: background-extraction. Extract ONLY the exact existing object from the supplied image onto a GENUINELY TRANSPARENT alpha background. Do not redraw, re-light, rotate or reconstruct the object. Preserve the object's exact visible silhouette, every hole and opening, all original blades/threads/features, the camera angle, existing color and material texture. Remove the entire pale white rectangular backdrop, including the background visible THROUGH the holes and gaps. Keep fine edges clean without white fringing. A very faint natural contact shadow may remain as soft translucent alpha, but no colored floor or rectangular panel. Square canvas with 10 percent breathing room. One independent image, no text, labels, border or added props. The goal is a clean cutout that can sit naturally on the existing website's white or pale blue background.",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-70d1c6e2-c3f5-41bb-894a-7c025697137d.png",
+    "width": 1254,
+    "height": 1254,
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "alphaAverage": 103.4309342480458,
+    "status": "home-only-cutout",
+    "display": {
+      "id": "plastic-cutout",
+      "src": "/media/image-refresh-20261017/plastic-cutout-1200.webp",
+      "srcset": "/media/image-refresh-20261017/plastic-cutout-480.webp 480w, /media/image-refresh-20261017/plastic-cutout-800.webp 800w, /media/image-refresh-20261017/plastic-cutout-1200.webp 1200w",
+      "width": 1254,
+      "height": 1254,
+      "nativeWidth": 1254,
+      "origin": "source-retouch",
+      "sourceHref": "/media/product-sources-20261015/p26-1200.webp"
+    }
+  }
+]

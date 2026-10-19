@@ -5,7 +5,7 @@ body.brand-site .section-heading{margin-bottom:32px}
 body.brand-site .button{border-radius:3px}
 body.brand-site .text-link{border-radius:2px;background:transparent;box-shadow:none}
 body.brand-site .studio-hero{min-height:min(880px,100svh)}
-body.brand-site .studio-hero::after{background:linear-gradient(90deg,#0b0e10 0%,#0b0e10 50%,#0b0e10d9 56%,transparent 69%),linear-gradient(180deg,#0b0e10a0 0%,transparent 25%,transparent 72%,#0b0e10b0 100%)}
+body.brand-site .studio-hero::after{background:linear-gradient(90deg,#242724 0%,#242724 50%,#242724d9 56%,transparent 69%),linear-gradient(180deg,#242724a0 0%,transparent 25%,transparent 72%,#242724b0 100%)}
 body.brand-site .studio-hero .precision-scene{left:53%;width:47%;object-position:52% 54%}
 body.brand-site .studio-hero .precision-message{text-align:left;padding-block:160px 150px}
 body.brand-site .studio-hero h1{max-width:11ch;margin:0;font-size:clamp(3.3rem,6.4vw,6rem);line-height:1.03;font-weight:500;letter-spacing:-.055em;text-wrap:initial}
@@ -79,7 +79,7 @@ body.brand-site .draft-storage .clear-draft svg{width:14px}
 @media(max-width:760px){
  body.brand-site .studio-hero{min-height:720px;min-height:92svh}
  body.brand-site .studio-hero .precision-scene{left:0;width:100%;object-position:50% center}
- body.brand-site .studio-hero::after{background:linear-gradient(180deg,#0b0e10 0%,#0b0e10 57%,#0b0e10d9 68%,#0b0e1055 84%,#0b0e10c9 100%)}
+ body.brand-site .studio-hero::after{background:linear-gradient(180deg,#242724 0%,#242724 57%,#242724d9 68%,#24272455 84%,#242724c9 100%)}
  body.brand-site .studio-hero .precision-message{padding-block:150px 140px}
  body.brand-site .studio-hero h1{font-size:clamp(44px,12vw,64px);max-width:11ch}
  body.brand-site .studio-hero .precision-message p{font-size:17px;margin-block:24px}
@@ -228,7 +228,7 @@ body.brand-site #inspection-equipment>figure figcaption{font-size:12px}
 body.brand-site #inspection-equipment .measurement-list{align-self:start}
 body.brand-site .reference-gallery.single-reference img{height:440px}
 body.brand-site .footer-compact-nav{display:grid;grid-template-columns:1fr 1fr;gap:4px 32px}
-body.brand-site .footer-compact-nav>a{display:flex;align-items:center;min-height:40px;font-size:14px;color:#c5cbcf}
+body.brand-site .footer-compact-nav>a{display:flex;align-items:center;min-height:40px;font-size:14px;color:#C9C9BE}
 body.brand-site .footer-compact-nav>a:hover{color:white;text-decoration:underline;text-underline-offset:5px}
 body.brand-site .quote-terms>summary{font-size:18px;font-weight:550;cursor:pointer;min-height:44px;align-content:center}
 body.brand-site .quote-form>.quote-steps{margin-top:0}
@@ -299,7 +299,7 @@ body.brand-site .quote-review-summary dd{font-size:15px;line-height:1.5;overflow
 body.brand-site .draft-result .actions{margin-bottom:18px}
 body.brand-site .header-inner:not(:has(.header-quote)) .menu-toggle{margin-left:auto}
 body.brand-site .header-inner:not(:has(.header-quote)) #main-nav{margin-left:auto}
-body.brand-site .studio-hero::after{background:linear-gradient(90deg,#080a0ccc 0%,#080a0c65 38%,transparent 78%),linear-gradient(0deg,#080a0c65,transparent 28%)}
+body.brand-site .studio-hero::after{background:linear-gradient(90deg,#242724cc 0%,#24272465 38%,transparent 78%),linear-gradient(0deg,#24272465,transparent 28%)}
 body.brand-site .studio-hero .hero-baseline{border-top:1px solid #ffffff55}
 body.brand-site .studio-hero .hero-baseline a{background:transparent;box-shadow:none;border:0}
 @media(max-width:760px){
@@ -325,6 +325,6 @@ body.brand-site .ed-case-grid .ed-case-pair figcaption{grid-column:1/-1}
  body.brand-site .studio-hero .hero-baseline{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding-top:12px}
  body.brand-site .studio-hero .hero-baseline>span{max-width:none;font-size:11px}
  body.brand-site .studio-hero .hero-baseline a{min-height:36px;padding-block:4px;font-size:13px;gap:18px}
- body.brand-site .studio-hero::after{background:linear-gradient(180deg,#0b0e10 0%,#0b0e10 57%,#0b0e10d9 68%,#0b0e1055 84%,#0b0e10c9 100%)}
+ body.brand-site .studio-hero::after{background:linear-gradient(180deg,#242724 0%,#242724 57%,#242724d9 68%,#24272455 84%,#242724c9 100%)}
  body.brand-site .ed-case-grid .ed-case-pair img{height:220px}
 }

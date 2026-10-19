@@ -75,7 +75,7 @@ body.precision-gallery .case-related-grid{display:grid;grid-template-columns:rep
 body.precision-gallery .case-related-grid nav,body.precision-gallery .case-related-grid>div{display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-width:0}
 body.precision-gallery .case-related-grid .gallery-link{display:block;width:100%}
 body.precision-gallery .case-related-grid p{margin:0}
-body.brand-site.finesse-redesigned.precision-gallery[data-page-template=read] :is(.case-closing,.ps-closing){display:flex;align-items:center;justify-content:space-between;gap:48px;padding:64px 48px!important;margin-block:36px 80px;background:#17191b;color:#fff}
+body.brand-site.finesse-redesigned.precision-gallery[data-page-template=read] :is(.case-closing,.ps-closing){display:flex;align-items:center;justify-content:space-between;gap:48px;padding:64px 48px!important;margin-block:36px 80px;background:#242724;color:#fff}
 body.precision-gallery :is(.case-closing,.ps-closing) h2{max-width:20ch!important;color:#fff}
 body.precision-gallery :is(.case-closing,.ps-closing) p{color:#c4c5c6;max-width:58ch!important}
 body.precision-gallery .case-study .case-closing p,body.precision-gallery .ps-page .ps-closing p{color:#c4c5c6}
@@ -131,7 +131,7 @@ body.precision-gallery .workshop-video{display:grid;grid-template-columns:minmax
 body.precision-gallery .workshop-video p{max-width:60ch;margin-top:20px;color:var(--muted)}
 body.brand-site.finesse-redesigned.precision-gallery .workshop-video .clip-detail{font-size:14px!important}
 body.precision-gallery .workshop-video figure{margin:0;min-width:0}
-body.precision-gallery .workshop-video video{display:block;width:100%;height:auto;max-height:680px;background:#17191b;object-fit:contain}
+body.precision-gallery .workshop-video video{display:block;width:100%;height:auto;max-height:680px;background:#242724;object-fit:contain}
 body.precision-gallery .workshop-video figcaption{margin-top:14px}
 body.precision-gallery .collection-media .workshop-video{display:block;margin-top:32px;padding-bottom:0}
 body.precision-gallery .collection-media .workshop-video h2{font-size:24px!important}

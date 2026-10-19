@@ -1,0 +1,25 @@
+{
+  "empty": {
+    "focus": "inquiry-name",
+    "invalid": [
+      "inquiry-name",
+      "inquiry-email",
+      "inquiry-phone",
+      "inquiry-message"
+    ],
+    "summary": "Check the highlighted fields before preparing your draft."
+  },
+  "invalidEmail": {
+    "focus": "inquiry-email",
+    "message": "Enter a valid email address, or leave it blank and use your phone number."
+  },
+  "prepared": {
+    "draft": "To: roger@lzz-cnc.com\nSubject: CNC machining inquiry: CNC turning\n\nHello LZZ team,\n\nI would like to discuss a CNC machining project.\n\nReference: CNC turning\nReference ID: capability/cnc-turning-service\nSource page: https://www.lzz-cnc.com/capabilities/cnc-turning-service/\n\nName: Visual QA\nEmail: qa@example.test\n\nMessage:\nVISUAL QA ONLY. Aluminum housing; 5 pieces; drawing revision A. Review bore positions, finished dimensions and inspection records. Do not send this test draft.\n\nI will attach any relevant drawings or CAD files when sending.\nPlease review the requirements and let me know the next steps.\nThank you.",
+    "focus": "",
+    "headerBottom": 120,
+    "heading": "Your inquiry draft is ready",
+    "mailto": "mailto:roger@lzz-cnc.com?subject=CNC%20machining%20inquiry%3A%20CNC%20turning&body=Hello%20LZZ%20team%2C%0A%0AI%20would%20like%20to%20discuss%20a%20CNC%20machining%20project.%0A%0AReference%3A%20CNC%20turning%0AReference%20ID%3A%20capability%2Fcnc-turning-service%0ASource%20page%3A%20https%3A%2F%2Fwww.lzz-cnc.com%2Fcapabilities%2Fcnc-turning-service%2F%0A%0AName%3A%20Visual%20QA%0AEmail%3A%20qa%40example.test%0A%0AMessage%3A%0AVISUAL%20QA%20ONLY.%20Aluminum%20housing%3B%205%20pieces%3B%20drawing%20revision%20A.%20Review%20bore%20positions%2C%20finished%20dimensions%20and%20inspection%20records.%20Do%20not%20send%20this%20test%20draft.%0A%0AI%20will%20attach%20any%20relevant%20drawings%20or%20CAD%20files%20when%20sending.%0APlease%20review%20the%20requirements%20and%20let%20me%20know%20the%20next%20steps.%0AThank%20you.",
+    "overflow": false,
+    "reviewTop": 257.69793701171875
+  }
+}

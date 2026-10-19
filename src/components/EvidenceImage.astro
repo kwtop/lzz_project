@@ -1,8 +1,9 @@
 ---
 import {photo} from '../data/evidence';
 import {photoFrame} from '../lib/photoFrame';
+import {processDisplay} from '../data/processImageDisplays';
 const {id,sizes='(max-width: 760px) 100vw, 50vw',loading='lazy',class:className}=Astro.props;
-const item=photo(id);
+const original=photo(id),replacement=processDisplay(original.src),item=replacement||original;
 const frame=await photoFrame(item.src,item.width,item.height);
 ---
-<img class={className} src={item.src} srcset={item.srcset} sizes={sizes} width={item.width} height={item.height} style={frame.style} alt={item.alt} loading={loading} decoding="async"/>
+<img class={className} src={item.src} srcset={item.srcset} sizes={sizes} width={frame.width} height={frame.height} style={frame.style} alt={item.alt} data-image-origin={replacement?'image-reference':'original-photo'} loading={loading} decoding="async"/>

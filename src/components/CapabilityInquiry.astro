@@ -8,6 +8,6 @@ const {page,quoteHref,title,orderFirst=false,coreSection}=Astro.props;
 <section class:list={['rd-section','cx-inquiry',{'cx-inquiry--order-first':orderFirst}]} id="enquiry" data-core-section={coreSection}>
  <header><h2>{title||page.plan.rfqTitle}</h2></header>
  <ul class="cx-rfq-inputs">{(inquiryInputs[page.slug]||page.inputs).map(input=><li>{input}</li>)}</ul>
- <div class="cx-inquiry-action">{orderFirst&&<p class="cx-order-note" id="order-conditions">{orderConditions}{page.sample&&' Reconstruction and drawing-approval timing are agreed separately.'}</p>}<a class="rd-button" href={quoteHref}>Prepare RFQ email</a><p class="rd-note">The website prepares a draft. Review it, attach drawings in your email application and send it yourself.</p>{!materialSlugs.includes(page.slug)&&<a class="rd-link" href="/resources/ordering/rfq-checklist/">RFQ preparation checklist</a>}</div>
+ <div class="cx-inquiry-action">{orderFirst&&<p class="cx-order-note" id="order-conditions">{orderConditions}{page.sample&&' Reconstruction and drawing-approval timing are agreed separately.'}</p>}<a class="rd-button" href={quoteHref}>Request a quote</a><p class="rd-note">Review the draft, then add your drawings and send it from your email app.</p>{!materialSlugs.includes(page.slug)&&<a class="rd-link" href="/resources/ordering/rfq-checklist/">RFQ preparation checklist</a>}</div>
  {!orderFirst&&<p class="cx-order-note" id="order-conditions">{orderConditions}{page.sample&&' Reconstruction and drawing-approval timing are agreed separately.'}</p>}
 </section>

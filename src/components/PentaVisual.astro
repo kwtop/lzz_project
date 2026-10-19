@@ -1,0 +1,9 @@
+---
+import type {InteriorImage} from '../data/pentaInteriors';
+import EditorialImage from './EditorialImage.astro';
+interface Props {image:InteriorImage;eager?:boolean;class?:string;sizes?:string}
+const {image,eager=false,class:className,sizes='(max-width:767px) calc(100vw - 40px), 570px'}=Astro.props;
+---
+<figure class:list={['pi-visual',className]} data-image-origin={image.origin}>
+ <EditorialImage image={image} eager={eager} sizes={sizes}/>
+</figure>

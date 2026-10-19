@@ -1,0 +1,488 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-10-17",
+  "assets": [
+    {
+      "id": "impeller",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p02-1200.webp",
+      "extra": "The subject is the impeller: preserve the complete original alternating curved blade layout and dark central bore. Keep original blade roots and tool marks.",
+      "prompt": "Use case: precise-object-edit. This is a conservative retouch of the supplied real CNC part photograph for the existing LZZ precision manufacturing website. Keep the exact same object identity, viewpoint, orientation, silhouette, every visible hole, blade, rib, edge, thread, seam, inscription, count and relative proportion. Do not invent hidden features or reconstruct uncertain details. Change only photographic presentation: gentle exposure and white balance correction, remove compression noise without inventing machining detail, soft natural contact shadow, clean pale cool-white #F6F9FC seamless backdrop. Restrained premium industrial product photography, natural silver metal, subtle matte reflections, no blue paint, no plastic CGI, no glossy 3D rendering, no text or logos. Square composition. Keep the complete object with 10 percent breathing room on all sides. Source-faithful geometry has priority over looking sharper. Output one independent high resolution image. The subject is the impeller: preserve the complete original alternating curved blade layout and dark central bore. Keep original blade roots and tool marks.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-dd6cd13f-1208-4955-8768-c0f4850e75a3.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\impeller.png",
+      "sha256": "8cfeb173486ea7d0dc01b0a928fc92f0f4918456c02fe63032b65fef4e221eb8",
+      "display": {
+        "id": "impeller",
+        "src": "/media/image-refresh-20261017/impeller-1200.webp",
+        "srcset": "/media/image-refresh-20261017/impeller-480.webp 480w, /media/image-refresh-20261017/impeller-800.webp 800w, /media/image-refresh-20261017/impeller-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p02-1200.webp"
+      }
+    },
+    {
+      "id": "casting-housing",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p22-framed-1200.webp",
+      "extra": "The subject is the single open casting housing. Preserve the original irregular flange perimeter, all flange holes, interior ribs, the toothed central ring and three other visible openings exactly.",
+      "prompt": "Use case: precise-object-edit. This is a conservative retouch of the supplied real CNC part photograph for the existing LZZ precision manufacturing website. Keep the exact same object identity, viewpoint, orientation, silhouette, every visible hole, blade, rib, edge, thread, seam, inscription, count and relative proportion. Do not invent hidden features or reconstruct uncertain details. Change only photographic presentation: gentle exposure and white balance correction, remove compression noise without inventing machining detail, soft natural contact shadow, clean pale cool-white #F6F9FC seamless backdrop. Restrained premium industrial product photography, natural silver metal, subtle matte reflections, no blue paint, no plastic CGI, no glossy 3D rendering, no text or logos. Square composition. Keep the complete object with 10 percent breathing room on all sides. Source-faithful geometry has priority over looking sharper. Output one independent high resolution image. The subject is the single open casting housing. Preserve the original irregular flange perimeter, all flange holes, interior ribs, the toothed central ring and three other visible openings exactly.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-19d28556-9774-4f8c-a2d8-a80fe24c10d7.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\casting-housing.png",
+      "sha256": "3fd3469d27c9965881e9c478191d21a614a0189171eea9163f38ee1e702987c5",
+      "display": {
+        "id": "casting-housing",
+        "src": "/media/image-refresh-20261017/casting-housing-1200.webp",
+        "srcset": "/media/image-refresh-20261017/casting-housing-480.webp 480w, /media/image-refresh-20261017/casting-housing-800.webp 800w, /media/image-refresh-20261017/casting-housing-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p22-framed-1200.webp"
+      }
+    },
+    {
+      "id": "locking-pin",
+      "file": "D:/lzz/lzz/_react/public/media/source-details/metal-turned-shaft-1200.webp",
+      "extra": "The subject is a single turned locking pin lying diagonally. Preserve the left flange, threaded body, hex nut and right projecting pin exactly. Reduce the excessive empty canvas so the subject occupies 78 percent of square width.",
+      "prompt": "Use case: precise-object-edit. This is a conservative retouch of the supplied real CNC part photograph for the existing LZZ precision manufacturing website. Keep the exact same object identity, viewpoint, orientation, silhouette, every visible hole, blade, rib, edge, thread, seam, inscription, count and relative proportion. Do not invent hidden features or reconstruct uncertain details. Change only photographic presentation: gentle exposure and white balance correction, remove compression noise without inventing machining detail, soft natural contact shadow, clean pale cool-white #F6F9FC seamless backdrop. Restrained premium industrial product photography, natural silver metal, subtle matte reflections, no blue paint, no plastic CGI, no glossy 3D rendering, no text or logos. Square composition. Keep the complete object with 10 percent breathing room on all sides. Source-faithful geometry has priority over looking sharper. Output one independent high resolution image. The subject is a single turned locking pin lying diagonally. Preserve the left flange, threaded body, hex nut and right projecting pin exactly. Reduce the excessive empty canvas so the subject occupies 78 percent of square width.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-c0bf343c-9db4-4f2e-962e-d5960c66f1ed.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\locking-pin.png",
+      "sha256": "357368d01625dae3ca9a1ab628960a6b7a1dd1ecc13f180f902d5f4865af827e",
+      "display": {
+        "id": "locking-pin",
+        "src": "/media/image-refresh-20261017/locking-pin-1200.webp",
+        "srcset": "/media/image-refresh-20261017/locking-pin-480.webp 480w, /media/image-refresh-20261017/locking-pin-800.webp 800w, /media/image-refresh-20261017/locking-pin-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/source-details/metal-turned-shaft-1200.webp"
+      }
+    },
+    {
+      "id": "plastic-strips",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p26-1200.webp",
+      "extra": "Preserve ALL the bright green strips in the same stack, their visible rows of holes and notched front ends. Do not recolor the green polymer blue.",
+      "prompt": "Use case: precise-object-edit. Carefully retouch the supplied existing CNC product photograph for LZZ's blue and white industrial website. Keep the SAME physical objects, identical camera angle, silhouette, visible geometry, opening positions and counts, relative arrangement, original material color and markings. Only improve lighting, white balance, edge cleanliness and compression noise; do not invent missing engineering detail. Use a pale cool-white seamless backdrop #F6F9FC and a subtle natural contact shadow. Complete objects with 10 percent padding, square image. Natural source-faithful industrial photography, no CGI gloss, no chrome exaggeration, no text. Highest priority is preserving source identity. The image is a made-to-drawing part reference and must not change its visible features. Preserve ALL the bright green strips in the same stack, their visible rows of holes and notched front ends. Do not recolor the green polymer blue.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-21c65fab-13d3-49b3-9554-6b5ee9818cd5.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\plastic-strips.png",
+      "sha256": "2b819e0d12fed73b7b937aad5c71609065c82879413d80e28fa50814c9851a68",
+      "display": {
+        "id": "plastic-strips",
+        "src": "/media/image-refresh-20261017/plastic-strips-1200.webp",
+        "srcset": "/media/image-refresh-20261017/plastic-strips-480.webp 480w, /media/image-refresh-20261017/plastic-strips-800.webp 800w, /media/image-refresh-20261017/plastic-strips-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p26-1200.webp"
+      }
+    },
+    {
+      "id": "milled-ring",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p00-framed-1200.webp",
+      "extra": "Keep the exact circular silver milled ring, all the large perimeter openings, central bore, small black holes and radial splits. Do not add or remove holes. Preserve topology even where source is soft.",
+      "prompt": "Use case: precise-object-edit. Carefully retouch the supplied existing CNC product photograph for LZZ's blue and white industrial website. Keep the SAME physical objects, identical camera angle, silhouette, visible geometry, opening positions and counts, relative arrangement, original material color and markings. Only improve lighting, white balance, edge cleanliness and compression noise; do not invent missing engineering detail. Use a pale cool-white seamless backdrop #F6F9FC and a subtle natural contact shadow. Complete objects with 10 percent padding, square image. Natural source-faithful industrial photography, no CGI gloss, no chrome exaggeration, no text. Highest priority is preserving source identity. The image is a made-to-drawing part reference and must not change its visible features. Keep the exact circular silver milled ring, all the large perimeter openings, central bore, small black holes and radial splits. Do not add or remove holes. Preserve topology even where source is soft.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-59439826-96e0-45fc-bd8d-ec0d1ce80b78.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\milled-ring.png",
+      "sha256": "5b863af8107585428dda53bf9e17fb51c657570dddbed0fc1190fbf1b8d4bf74",
+      "display": {
+        "id": "milled-ring",
+        "src": "/media/image-refresh-20261017/milled-ring-1200.webp",
+        "srcset": "/media/image-refresh-20261017/milled-ring-480.webp 480w, /media/image-refresh-20261017/milled-ring-800.webp 800w, /media/image-refresh-20261017/milled-ring-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p00-framed-1200.webp"
+      }
+    },
+    {
+      "id": "recessed-impeller",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p11-1200.webp",
+      "extra": "Preserve this short broad impeller, its recessed scalloped inner hub and the exact original curved blades and open center. Keep the same low three-quarter camera angle.",
+      "prompt": "Use case: precise-object-edit. Carefully retouch the supplied existing CNC product photograph for LZZ's blue and white industrial website. Keep the SAME physical objects, identical camera angle, silhouette, visible geometry, opening positions and counts, relative arrangement, original material color and markings. Only improve lighting, white balance, edge cleanliness and compression noise; do not invent missing engineering detail. Use a pale cool-white seamless backdrop #F6F9FC and a subtle natural contact shadow. Complete objects with 10 percent padding, square image. Natural source-faithful industrial photography, no CGI gloss, no chrome exaggeration, no text. Highest priority is preserving source identity. The image is a made-to-drawing part reference and must not change its visible features. Preserve this short broad impeller, its recessed scalloped inner hub and the exact original curved blades and open center. Keep the same low three-quarter camera angle.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-f4df777f-b04d-403b-bfac-1d8c4bf36c81.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\recessed-impeller.png",
+      "sha256": "2831e27808ab83cdb5c5bfe274ea42c9e8b5f6a705146f498a3f1846e7447c33",
+      "display": {
+        "id": "recessed-impeller",
+        "src": "/media/image-refresh-20261017/recessed-impeller-1200.webp",
+        "srcset": "/media/image-refresh-20261017/recessed-impeller-480.webp 480w, /media/image-refresh-20261017/recessed-impeller-800.webp 800w, /media/image-refresh-20261017/recessed-impeller-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p11-1200.webp"
+      }
+    },
+    {
+      "id": "pump-casting",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p18-framed-1200.webp",
+      "extra": "Preserve this casting housing's central circular cavity, rough cast exterior, radial inner ribs and the three projecting supports. Do not polish rough casting into machined mirror metal. Keep original dark brown inner bore surface.",
+      "prompt": "Use case: precise-object-edit. Carefully retouch the supplied existing CNC product photograph for LZZ's blue and white industrial website. Keep the SAME physical objects, identical camera angle, silhouette, visible geometry, opening positions and counts, relative arrangement, original material color and markings. Only improve lighting, white balance, edge cleanliness and compression noise; do not invent missing engineering detail. Use a pale cool-white seamless backdrop #F6F9FC and a subtle natural contact shadow. Complete objects with 10 percent padding, square image. Natural source-faithful industrial photography, no CGI gloss, no chrome exaggeration, no text. Highest priority is preserving source identity. The image is a made-to-drawing part reference and must not change its visible features. Preserve this casting housing's central circular cavity, rough cast exterior, radial inner ribs and the three projecting supports. Do not polish rough casting into machined mirror metal. Keep original dark brown inner bore surface.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-5c071bf4-ad6b-44be-a01b-481d04bf9c5e.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\pump-casting.png",
+      "sha256": "066e6dfbe4ba5f1e7435e6a9c13af82d1a4a6a5de448ffbe35178eefbae9f966",
+      "display": {
+        "id": "pump-casting",
+        "src": "/media/image-refresh-20261017/pump-casting-1200.webp",
+        "srcset": "/media/image-refresh-20261017/pump-casting-480.webp 480w, /media/image-refresh-20261017/pump-casting-800.webp 800w, /media/image-refresh-20261017/pump-casting-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p18-framed-1200.webp"
+      }
+    },
+    {
+      "id": "angled-connector",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p03-framed-1200.webp",
+      "extra": "Preserve the tapered cylindrical base and the angled threaded neck, open bore and machined seams.",
+      "prompt": "Use case: precise-object-edit. Conservative photograph retouch for the current LZZ industrial website. Preserve the input object's exact physical identity, outline, viewpoint, feature and hole count/positions, proportions and existing marks. Do not redesign geometry, add details, erase flaws or guess anything obscured. Improve only exposure, neutral white balance, compression artifacts and background. Pale cool-white #F6F9FC seamless background, restrained natural softbox light and soft contact shadow; no CGI gloss, dramatic lighting, text, extra props or blue recoloring. Square high resolution photo, complete object centered with 10 percent breathing room. Preserve the tapered cylindrical base and the angled threaded neck, open bore and machined seams.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-6e7ea833-3bd8-4d70-9ff9-f453b99baec0.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\angled-connector.png",
+      "sha256": "4d7a374f8c92183c9bf80ac43006c7fc258ff35b738914c4e41115829928b05e",
+      "display": {
+        "id": "angled-connector",
+        "src": "/media/image-refresh-20261017/angled-connector-1200.webp",
+        "srcset": "/media/image-refresh-20261017/angled-connector-480.webp 480w, /media/image-refresh-20261017/angled-connector-800.webp 800w, /media/image-refresh-20261017/angled-connector-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p03-framed-1200.webp"
+      }
+    },
+    {
+      "id": "insulating-disc",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p20-1200.webp",
+      "extra": "Preserve the natural warm ivory polymer color, central projecting hub, all round holes, long slots and outer edge cutouts in the same locations.",
+      "prompt": "Use case: precise-object-edit. Conservative photograph retouch for the current LZZ industrial website. Preserve the input object's exact physical identity, outline, viewpoint, feature and hole count/positions, proportions and existing marks. Do not redesign geometry, add details, erase flaws or guess anything obscured. Improve only exposure, neutral white balance, compression artifacts and background. Pale cool-white #F6F9FC seamless background, restrained natural softbox light and soft contact shadow; no CGI gloss, dramatic lighting, text, extra props or blue recoloring. Square high resolution photo, complete object centered with 10 percent breathing room. Preserve the natural warm ivory polymer color, central projecting hub, all round holes, long slots and outer edge cutouts in the same locations.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-2b31f9e0-06f1-47bb-91be-c26d72a8a940.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\insulating-disc.png",
+      "sha256": "d43d3dec692a340aac920785d71b84f80734ff94af792177716bf8a0359e29d9",
+      "display": {
+        "id": "insulating-disc",
+        "src": "/media/image-refresh-20261017/insulating-disc-1200.webp",
+        "srcset": "/media/image-refresh-20261017/insulating-disc-480.webp 480w, /media/image-refresh-20261017/insulating-disc-800.webp 800w, /media/image-refresh-20261017/insulating-disc-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p20-1200.webp"
+      }
+    },
+    {
+      "id": "flanged-casting",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p24-1200.webp",
+      "extra": "Preserve the irregular large round housing and open elongated projecting channel, all flange holes, openings, ribs and casting markings.",
+      "prompt": "Use case: precise-object-edit. Conservative photograph retouch for the current LZZ industrial website. Preserve the input object's exact physical identity, outline, viewpoint, feature and hole count/positions, proportions and existing marks. Do not redesign geometry, add details, erase flaws or guess anything obscured. Improve only exposure, neutral white balance, compression artifacts and background. Pale cool-white #F6F9FC seamless background, restrained natural softbox light and soft contact shadow; no CGI gloss, dramatic lighting, text, extra props or blue recoloring. Square high resolution photo, complete object centered with 10 percent breathing room. Preserve the irregular large round housing and open elongated projecting channel, all flange holes, openings, ribs and casting markings.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-a00acad0-c2d5-43a2-a8e7-0c6b89400292.png",
+      "status": "rejected",
+      "reason": "Cast-in marking was reinterpreted; retain the original photograph."
+    },
+    {
+      "id": "open-casting",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p25-framed-1200.webp",
+      "extra": "Preserve this single open casting's exact inner steps, bosses, round bores and the rough cast body, same horizontal composition inside square canvas.",
+      "prompt": "Use case: precise-object-edit. Conservative photograph retouch for the current LZZ industrial website. Preserve the input object's exact physical identity, outline, viewpoint, feature and hole count/positions, proportions and existing marks. Do not redesign geometry, add details, erase flaws or guess anything obscured. Improve only exposure, neutral white balance, compression artifacts and background. Pale cool-white #F6F9FC seamless background, restrained natural softbox light and soft contact shadow; no CGI gloss, dramatic lighting, text, extra props or blue recoloring. Square high resolution photo, complete object centered with 10 percent breathing room. Preserve this single open casting's exact inner steps, bosses, round bores and the rough cast body, same horizontal composition inside square canvas.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-5d08c885-c358-4e93-86aa-e6f781e21a69.png",
+      "status": "rejected",
+      "reason": "Insufficient right margin; do not use cropped perimeter."
+    },
+    {
+      "id": "engine-cover",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p13-1200.webp",
+      "prompt": "Use case: precise-object-edit. Retouch the supplied real photograph for LZZ precision parts. Preserve the curved silver machined cover EXACTLY, including its outline, open lower edge and parallel tool-path texture. Preserve the hand and sleeve supporting it, their pose, contact and anatomy; do not remove the hand or fill in hidden cover surfaces. Change only the pavement background to a clean quiet pale cool-gray #F6F9FC environment, neutralize color cast and gently balance the metal highlights. Same view and part orientation; no extra holes or features. 4:3 horizontal photograph with the whole existing visible part and supporting hand, comfortable 10 percent margins. Real documentary product presentation, no glamour chrome, no CGI, no text, no labels.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-d65d942a-d337-4871-a0bc-9267df697bd1.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\engine-cover.png",
+      "sha256": "ba4282b34570a8a907337161ca614dff369450fe424ca567819c993049156bbe",
+      "display": {
+        "id": "engine-cover",
+        "src": "/media/image-refresh-20261017/engine-cover-1440.webp",
+        "srcset": "/media/image-refresh-20261017/engine-cover-480.webp 480w, /media/image-refresh-20261017/engine-cover-800.webp 800w, /media/image-refresh-20261017/engine-cover-1200.webp 1200w, /media/image-refresh-20261017/engine-cover-1440.webp 1440w",
+        "width": 1448,
+        "height": 1086,
+        "nativeWidth": 1448,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p13-1200.webp"
+      }
+    },
+    {
+      "id": "rotary-flange",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p31-1200.webp",
+      "prompt": "Use case: precise-object-edit. Conservative catalog retouch of the supplied real rotary component and separate circular flange. Keep the exact two original components, camera angle and relative layout, their bores and holes, the exact handle shape, screw, stem, existing OFF and direction-arrow markings. Do not add ON text or any new marks. Improve white balance, gentle exposure and edge cleanliness, pale cool-white #F6F9FC seamless background with soft natural contact shadow. Square composition, complete objects centered, 12 percent padding. Real machined stainless appearance and natural tool marks; no CGI gloss or geometry changes. Do not manufacture finer engineering detail.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-7597faa2-16fc-4398-b231-2bfdabb19a19.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\rotary-flange.png",
+      "sha256": "7a6671f5a6c8e4215144c9c242ca19ca3548d495a6eb63afdd2ebbb8e285845f",
+      "display": {
+        "id": "rotary-flange",
+        "src": "/media/image-refresh-20261017/rotary-flange-1200.webp",
+        "srcset": "/media/image-refresh-20261017/rotary-flange-480.webp 480w, /media/image-refresh-20261017/rotary-flange-800.webp 800w, /media/image-refresh-20261017/rotary-flange-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p31-1200.webp"
+      }
+    },
+    {
+      "id": "polymer-disc",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p29-framed-1200.webp",
+      "prompt": "Use case: precise-object-edit. Retouch the supplied real green circular polymer part. Preserve the original disk exactly, the one central bore, EXACTLY FOUR small surrounding holes, its original asymmetric visible curved edge recesses and layered side thickness, the camera view and perspective. Do not turn it into a generic gear or add teeth/holes. Change only its photographic exposure and compression quality and replace the uneven white background with pale cool-white #F6F9FC seamless backdrop. Natural vivid green polymer unchanged, subtle soft contact shadow. Square image with the complete original object and 12 percent breathing room. Source-faithful industrial photo, no text and no CGI gloss.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-6e139112-8ec3-4932-a982-b7bfbeaa3d0c.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\polymer-disc.png",
+      "sha256": "62121e1ac6d762a53a84ec31a79f9fa91b52635f0f66414b882602ab2d91e5b7",
+      "display": {
+        "id": "polymer-disc",
+        "src": "/media/image-refresh-20261017/polymer-disc-1200.webp",
+        "srcset": "/media/image-refresh-20261017/polymer-disc-480.webp 480w, /media/image-refresh-20261017/polymer-disc-800.webp 800w, /media/image-refresh-20261017/polymer-disc-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p29-framed-1200.webp"
+      }
+    },
+    {
+      "id": "finish-interfaces",
+      "file": "D:/lzz/lzz/_react/public/media/resources/finish-interfaces-v1-800.webp",
+      "prompt": "Use case: precise-object-edit. Refine the supplied generic educational machining image for the material and finish guide of a blue industrial website. Preserve the single rectangular aluminum block, top recessed pocket, four top mounting holes and large side bore in exactly the same geometry and view. Replace ONLY the red-coated front flat face with a restrained matte navy-blue coating close to #114A75, leaving the bore inner wall, top pocket and mounting-hole interiors natural machined aluminum. Preserve the coating edge and masked metallic interfaces clearly. Improve natural photography and mild metal texture; pale cool-white #F6F9FC background, soft contact shadow, horizontal 4:3 composition, full part with 12 percent margins. No labels, text, extra holes or props. This is a generic guide visual, never a material certificate or inspection result.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-91b7d7ae-a613-49ac-8054-ba697af4a7e1.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\finish-interfaces.png",
+      "sha256": "4f86ae5400ad2c2ce17ed267a96cbbc13fc059c2bb93796aef14a16e454256b4",
+      "display": {
+        "id": "finish-interfaces",
+        "src": "/media/image-refresh-20261017/finish-interfaces-1440.webp",
+        "srcset": "/media/image-refresh-20261017/finish-interfaces-480.webp 480w, /media/image-refresh-20261017/finish-interfaces-800.webp 800w, /media/image-refresh-20261017/finish-interfaces-1200.webp 1200w, /media/image-refresh-20261017/finish-interfaces-1440.webp 1440w",
+        "width": 1448,
+        "height": 1086,
+        "nativeWidth": 1448,
+        "origin": "image-reference",
+        "sourceHref": "/media/resources/finish-interfaces-v1-800.webp"
+      }
+    },
+    {
+      "id": "milled-components",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p01-1200.webp",
+      "extra": "Keep the existing 3 by 3 arrangement of nine machined forms. Preserve all nine outlines exactly.",
+      "prompt": "Use case: precise-object-edit. Retouch this ONE supplied existing product-group photograph for the LZZ parts catalog. Preserve ALL original parts in their original positions, same object count, exact shapes, hole locations, bores, threads, angular orientation, relative scale, natural material colors and all visible features. No substitutions, added parts or rearrangement. Improve only gentle exposure balance, photographic edge quality and compression noise. Replace uneven white ground with a clean pale cool-white #F6F9FC ground, delicate contact shadow beneath each original object. Square image, 8 percent outer margin with all original objects fully visible. Source-faithful natural industrial product photography, restrained reflections; no CGI gloss, no text or decorations. This remains one complete group image, not multiple output images. Never interpret obscured engineering features. Keep the existing 3 by 3 arrangement of nine machined forms. Preserve all nine outlines exactly.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-80eddf56-ba8c-4609-b76d-ae88e07915dd.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\milled-components.png",
+      "sha256": "30016d57c3bd361976633292649af6a1b5fc1f72f28a6496cb7cb31efbaeaf76",
+      "display": {
+        "id": "milled-components",
+        "src": "/media/image-refresh-20261017/milled-components-1200.webp",
+        "srcset": "/media/image-refresh-20261017/milled-components-480.webp 480w, /media/image-refresh-20261017/milled-components-800.webp 800w, /media/image-refresh-20261017/milled-components-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p01-1200.webp"
+      }
+    },
+    {
+      "id": "turned-components",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p05-1200.webp",
+      "extra": "Keep the original dense group and overlap. The large rear housings, circular turbine-like forms and smaller foreground components must be unchanged.",
+      "prompt": "Use case: precise-object-edit. Retouch this ONE supplied existing product-group photograph for the LZZ parts catalog. Preserve ALL original parts in their original positions, same object count, exact shapes, hole locations, bores, threads, angular orientation, relative scale, natural material colors and all visible features. No substitutions, added parts or rearrangement. Improve only gentle exposure balance, photographic edge quality and compression noise. Replace uneven white ground with a clean pale cool-white #F6F9FC ground, delicate contact shadow beneath each original object. Square image, 8 percent outer margin with all original objects fully visible. Source-faithful natural industrial product photography, restrained reflections; no CGI gloss, no text or decorations. This remains one complete group image, not multiple output images. Never interpret obscured engineering features. Keep the original dense group and overlap. The large rear housings, circular turbine-like forms and smaller foreground components must be unchanged.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-f10942dd-6a8c-4091-9393-80952c573217.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\turned-components.png",
+      "sha256": "15078e7d382825825b3b7ce10a05657c33888b440f9d318b4b24e7912be6901a",
+      "display": {
+        "id": "turned-components",
+        "src": "/media/image-refresh-20261017/turned-components-1200.webp",
+        "srcset": "/media/image-refresh-20261017/turned-components-480.webp 480w, /media/image-refresh-20261017/turned-components-800.webp 800w, /media/image-refresh-20261017/turned-components-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p05-1200.webp"
+      }
+    },
+    {
+      "id": "rotary-components",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p06-1200.webp",
+      "extra": "Keep the exact six parts in two rows, including the two brass-colored objects, the black base and three silver objects. Preserve all holes and inner threads.",
+      "prompt": "Use case: precise-object-edit. Retouch this ONE supplied existing product-group photograph for the LZZ parts catalog. Preserve ALL original parts in their original positions, same object count, exact shapes, hole locations, bores, threads, angular orientation, relative scale, natural material colors and all visible features. No substitutions, added parts or rearrangement. Improve only gentle exposure balance, photographic edge quality and compression noise. Replace uneven white ground with a clean pale cool-white #F6F9FC ground, delicate contact shadow beneath each original object. Square image, 8 percent outer margin with all original objects fully visible. Source-faithful natural industrial product photography, restrained reflections; no CGI gloss, no text or decorations. This remains one complete group image, not multiple output images. Never interpret obscured engineering features. Keep the exact six parts in two rows, including the two brass-colored objects, the black base and three silver objects. Preserve all holes and inner threads.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-b187a4ba-14bd-4214-bec3-60398809c76a.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\rotary-components.png",
+      "sha256": "0bdd1692843008264eeccc3a75254290e6f78a7430abc06f08f21a267e20acb6",
+      "display": {
+        "id": "rotary-components",
+        "src": "/media/image-refresh-20261017/rotary-components-1200.webp",
+        "srcset": "/media/image-refresh-20261017/rotary-components-480.webp 480w, /media/image-refresh-20261017/rotary-components-800.webp 800w, /media/image-refresh-20261017/rotary-components-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p06-1200.webp"
+      }
+    },
+    {
+      "id": "fittings-flanges",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p07-1200.webp",
+      "extra": "Preserve every original shaft, ball-ended threaded part, ring, flange and fitting in exactly the same independent arrangement.",
+      "prompt": "Use case: precise-object-edit. Retouch this ONE supplied existing product-group photograph for the LZZ parts catalog. Preserve ALL original parts in their original positions, same object count, exact shapes, hole locations, bores, threads, angular orientation, relative scale, natural material colors and all visible features. No substitutions, added parts or rearrangement. Improve only gentle exposure balance, photographic edge quality and compression noise. Replace uneven white ground with a clean pale cool-white #F6F9FC ground, delicate contact shadow beneath each original object. Square image, 8 percent outer margin with all original objects fully visible. Source-faithful natural industrial product photography, restrained reflections; no CGI gloss, no text or decorations. This remains one complete group image, not multiple output images. Never interpret obscured engineering features. Preserve every original shaft, ball-ended threaded part, ring, flange and fitting in exactly the same independent arrangement.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-83f8eab3-9071-4715-8133-d742556af723.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\fittings-flanges.png",
+      "sha256": "12a00761ec545e7f65d054baa10dbc8bc7566fce7a5a2b2ee08eaa1eda4bdf14",
+      "display": {
+        "id": "fittings-flanges",
+        "src": "/media/image-refresh-20261017/fittings-flanges-1200.webp",
+        "srcset": "/media/image-refresh-20261017/fittings-flanges-480.webp 480w, /media/image-refresh-20261017/fittings-flanges-800.webp 800w, /media/image-refresh-20261017/fittings-flanges-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p07-1200.webp"
+      }
+    },
+    {
+      "id": "dark-finished-parts",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p08-1200.webp",
+      "prompt": "Use case: precise-object-edit. Conservative retouch of this existing single composite photograph of black finished CNC parts. Preserve every original object, exact outline, bores, cutouts, holes, finish and position. The lower images are additional views of the same collection; do not combine them or invent extra parts. Change only photographic exposure to make dark surfaces legible without turning black metal gray; remove the thin outer frame and uneven white rectangles, using a consistent pale cool-white #F6F9FC backdrop with gentle contact shadows. Same composition and count. Square image, 10 percent outer margin, complete objects. Natural matte black machining finish, no CGI gloss, no text, no decorative lines.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-0946c0e5-6afb-4cc1-a539-5007c90ae3bf.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\dark-finished-parts.png",
+      "sha256": "9be490d5714c55b47618dd79f833ea1948e3f96752e08547ad124956b74b3d14",
+      "display": {
+        "id": "dark-finished-parts",
+        "src": "/media/image-refresh-20261017/dark-finished-parts-1200.webp",
+        "srcset": "/media/image-refresh-20261017/dark-finished-parts-480.webp 480w, /media/image-refresh-20261017/dark-finished-parts-800.webp 800w, /media/image-refresh-20261017/dark-finished-parts-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p08-1200.webp"
+      }
+    },
+    {
+      "id": "flanged-assembly",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p19-framed-1200.webp",
+      "prompt": "Use case: precise-object-edit. Retouch the original real photo. Keep the exact two circular silver components, one rotary handle and FOUR loose screws in their original arrangement. Preserve the exact ON and OFF lettering and the two direction arrows, screw holes and all machined shapes. Only gently adjust exposure, white balance, compression artifacts and the uneven background, making the background pale cool-white #F6F9FC with soft contact shadows. No additional parts, marks, labels or holes. Same original view, horizontal 4:3 composition with comfortable margins and full objects. Source-faithful industrial photography, no CGI gloss and no fine-feature reconstruction.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-7031cb2f-c5a5-4293-9ca8-f2b5f6406b02.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\flanged-assembly.png",
+      "sha256": "7f0eca4837859d4d5578979254e0501957df9373bb1686222d173a0b468bd480",
+      "display": {
+        "id": "flanged-assembly",
+        "src": "/media/image-refresh-20261017/flanged-assembly-1440.webp",
+        "srcset": "/media/image-refresh-20261017/flanged-assembly-480.webp 480w, /media/image-refresh-20261017/flanged-assembly-800.webp 800w, /media/image-refresh-20261017/flanged-assembly-1200.webp 1200w, /media/image-refresh-20261017/flanged-assembly-1440.webp 1440w",
+        "width": 1448,
+        "height": 1086,
+        "nativeWidth": 1448,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p19-framed-1200.webp"
+      }
+    },
+    {
+      "id": "drawing-review",
+      "file": "D:/lzz/lzz/_react/public/media/penta-rollout-20261017/drawing-review-1440.webp",
+      "prompt": "Use case: precise-object-edit. Refine this existing generic industrial guide photograph for LZZ's blue brand system. Keep the same single simple aluminum block, central through-bore and two smaller round holes, the same matching schematic paper views and matching model view on the tablet. Change only the worktable from the mottled greenish surface to a clean matte deep blue-gray surface close to #24465f, with very restrained wear; neutralize the green cast. Natural daylight, actual brushed aluminum detail, unglamorous engineering desk; no shiny CGI, dramatic lighting or fake precision values. Horizontal 3:2 composition, all principal objects visible, paper and tablet comfortable at image edges. Do not add any words, dimensions, badges, checkmarks, people or logos. Keep the paper/model/physical block geometry mutually consistent.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-67330ddc-97f9-46da-b928-fd27c81f4196.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\drawing-review.png",
+      "sha256": "354d8072d20e714c13085e2be0600a588c422c8be273163d41c43c928bf3d8a7",
+      "display": {
+        "id": "drawing-review",
+        "src": "/media/image-refresh-20261017/drawing-review-1440.webp",
+        "srcset": "/media/image-refresh-20261017/drawing-review-480.webp 480w, /media/image-refresh-20261017/drawing-review-800.webp 800w, /media/image-refresh-20261017/drawing-review-1200.webp 1200w, /media/image-refresh-20261017/drawing-review-1440.webp 1440w",
+        "width": 1536,
+        "height": 1024,
+        "nativeWidth": 1536,
+        "origin": "image-reference",
+        "sourceHref": "/media/penta-rollout-20261017/drawing-review-1440.webp"
+      }
+    },
+    {
+      "id": "sample-inputs",
+      "file": "D:/lzz/lzz/_react/public/media/penta-rollout-20261017/sample-inputs-1440.webp",
+      "prompt": "Use case: precise-object-edit. Refine this generic sample-to-drawing planning photograph for a blue industrial website. Keep the simple two-hole L-shaped machined aluminum bracket, idle caliper lying behind it, pencil and minimal paper sketch, and the same natural perspective. Change the green-gray work surface to a clean matte blue-gray close to #35536b with very subtle authentic wear; reduce the heavy mottled texture and green cast. Natural diffuse side light, neutral metal with real tool marks and a quiet blue pencil. Preserve the simple sketch with no invented numbers or words. Horizontal 3:2 composition with the complete bracket and generous context margins. No logos, labels, graphics, people or CGI. It is a planning still life, not measurement proof.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-775c1918-d574-4867-8194-ac3220192d4e.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\sample-inputs.png",
+      "sha256": "dea89189c8351c40f4a71ca2dd3c53ee924b1778d18d4587ab07db05b5865e58",
+      "display": {
+        "id": "sample-inputs",
+        "src": "/media/image-refresh-20261017/sample-inputs-1440.webp",
+        "srcset": "/media/image-refresh-20261017/sample-inputs-480.webp 480w, /media/image-refresh-20261017/sample-inputs-800.webp 800w, /media/image-refresh-20261017/sample-inputs-1200.webp 1200w, /media/image-refresh-20261017/sample-inputs-1440.webp 1440w",
+        "width": 1536,
+        "height": 1024,
+        "nativeWidth": 1536,
+        "origin": "image-reference",
+        "sourceHref": "/media/penta-rollout-20261017/sample-inputs-1440.webp"
+      }
+    },
+    {
+      "id": "open-casting-fit",
+      "file": "D:/lzz/lzz/_react/public/media/product-sources-20261015/p25-framed-1200.webp",
+      "prompt": "Use case: precise-object-edit. Retouch the supplied real casting housing photograph with the complete original object exactly preserved. The important correction is FRAMING: make the ENTIRE housing comfortably smaller on the canvas, with at least 18 percent empty margin on EVERY side including the far-right flange. No part of the housing may touch or cross an image edge. Same camera view, original outline, casting ribs, bosses, mounting-hole pattern, two large circular interior openings, dark lower cavity and natural cast texture. Do not invent holes, inscriptions or hidden features. Only improve mild photographic exposure/white balance and compression noise, and put the existing object on a pale cool-white #F6F9FC seamless background with restrained soft contact shadow. Square image, source-faithful industrial product photo. No text or props, no CGI chrome, no dramatic gloss.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-7b17afdf-5d75-4336-85be-c0b82f1789ca.png",
+      "status": "adopted",
+      "workspaceOriginal": "D:\\lzz\\lzz\\_react\\design\\image-refresh-20261017\\open-casting-fit.png",
+      "sha256": "ac78c034ed71820facb162f3287d6ffa9ee285fa38d14afa5c60b9541d62d35e",
+      "display": {
+        "id": "open-casting-fit",
+        "src": "/media/image-refresh-20261017/open-casting-fit-1200.webp",
+        "srcset": "/media/image-refresh-20261017/open-casting-fit-480.webp 480w, /media/image-refresh-20261017/open-casting-fit-800.webp 800w, /media/image-refresh-20261017/open-casting-fit-1200.webp 1200w",
+        "width": 1254,
+        "height": 1254,
+        "nativeWidth": 1254,
+        "origin": "source-retouch",
+        "sourceHref": "/media/product-sources-20261015/p25-framed-1200.webp"
+      }
+    },
+    {
+      "id": "logo-clean-candidate",
+      "file": "D:/lzz/lzz/_react/public/media/lzz-logo.png",
+      "prompt": "Use case: precise-object-edit. High-fidelity cleanup of the attached EXISTING brand logo only. Reproduce the exact supplied blue cogwheel and the exact existing stylized Lzz letterforms, all their outlines, openings, gear-tooth positions, proportions, alignment and the relative height of the large L and smaller slanted zz. Do not redesign, modernize, change spelling, replace the font or make all the letters equal height. Keep the exact visual silhouette and composition of the original 108 by 60 source. Clean antialiased edges, one perfectly flat solid brand color #114A75 throughout, no texture or gradient. Genuinely transparent background with clean alpha, no white panel, glow, shadow, extraneous margin or added text. Render the same horizontal logo at high resolution. It must still be immediately identical to the original at 108 by 60 display size.",
+      "tool": "built-in imagegen",
+      "generatedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1485e-e8df-7c43-87d9-71a858027ef9\\exec-3ecaccd2-d9d0-4f67-b3b3-af862e12b238.png",
+      "status": "rejected",
+      "reason": "Brand silhouette IoU 0.7253; reconstructed glyph and cog outline differ. Preserve the exact original logo."
+    }
+  ]
+}

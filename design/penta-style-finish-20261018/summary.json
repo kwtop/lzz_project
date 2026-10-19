@@ -1,0 +1,71 @@
+{
+  "canonicalPages": 86,
+  "metrics": [
+    {
+      "width": 1440,
+      "pages": 86,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0,
+      "narrow": 0
+    },
+    {
+      "width": 1024,
+      "pages": 20,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0,
+      "narrow": 0
+    },
+    {
+      "width": 768,
+      "pages": 20,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0,
+      "narrow": 0
+    },
+    {
+      "width": 390,
+      "pages": 86,
+      "overflow": 0,
+      "broken": 0,
+      "pending": 0,
+      "narrow": 0
+    }
+  ],
+  "utility": [
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "overflow": false,
+      "broken": 0
+    }
+  ],
+  "screenshots": {
+    "before": 26,
+    "after": 214
+  },
+  "newImageGenMastersThisTurn": 0,
+  "reusedImageMasters": 6,
+  "reassignedOrAddedImageSlots": 7,
+  "sourceFiles": [
+    "src/components/FactoryRedesign.astro",
+    "src/components/PartsCatalogueExplorerRedesigned.tsx",
+    "src/components/PentaInnerHero.astro",
+    "src/components/PentaMillingPage.astro",
+    "src/components/ProductsPartRedesigned.astro",
+    "src/components/ResourceDirectoryRedesign.astro",
+    "src/styles/penta-interiors.css",
+    "src/styles/site-composition.css"
+  ],
+  "contractIssues": [],
+  "independentAgentReview": false,
+  "productionDeployed": false
+}

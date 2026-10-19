@@ -1,0 +1,62 @@
+{
+  "id": "home-immersive-cnc",
+  "generator": "built-in image_gen",
+  "operation": "Generate desktop; edit mobile composition from desktop reference",
+  "previousImage": "home-machining",
+  "use": "Homepage first-screen background only",
+  "documentary": false,
+  "desktop": {
+    "master": "D:/lzz/home-fullscreen-hero-20261018/masters/desktop.png",
+    "width": 1672,
+    "height": 941,
+    "files": [
+      {
+        "src": "/media/home-fullscreen-20261018/cnc-desktop-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 44420
+      },
+      {
+        "src": "/media/home-fullscreen-20261018/cnc-desktop-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 85524
+      },
+      {
+        "src": "/media/home-fullscreen-20261018/cnc-desktop-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 121518
+      }
+    ],
+    "src": "/media/home-fullscreen-20261018/cnc-desktop-1672.webp",
+    "srcset": "/media/home-fullscreen-20261018/cnc-desktop-800.webp 800w, /media/home-fullscreen-20261018/cnc-desktop-1280.webp 1280w, /media/home-fullscreen-20261018/cnc-desktop-1672.webp 1672w"
+  },
+  "mobile": {
+    "master": "D:/lzz/home-fullscreen-hero-20261018/masters/mobile.png",
+    "width": 940,
+    "height": 1672,
+    "files": [
+      {
+        "src": "/media/home-fullscreen-20261018/cnc-mobile-400.webp",
+        "width": 400,
+        "height": 711,
+        "bytes": 33442
+      },
+      {
+        "src": "/media/home-fullscreen-20261018/cnc-mobile-640.webp",
+        "width": 640,
+        "height": 1138,
+        "bytes": 67580
+      },
+      {
+        "src": "/media/home-fullscreen-20261018/cnc-mobile-940.webp",
+        "width": 940,
+        "height": 1672,
+        "bytes": 113270
+      }
+    ],
+    "src": "/media/home-fullscreen-20261018/cnc-mobile-940.webp",
+    "srcset": "/media/home-fullscreen-20261018/cnc-mobile-400.webp 400w, /media/home-fullscreen-20261018/cnc-mobile-640.webp 640w, /media/home-fullscreen-20261018/cnc-mobile-940.webp 940w"
+  }
+}

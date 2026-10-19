@@ -1,0 +1,50 @@
+[
+  {
+    "name": "penta-home",
+    "width": 1440,
+    "url": "https://www.pentaprecision.co.uk/",
+    "styles": {
+      "h1": "700 48px / 52.8px \"Roboto Condensed\", Arial, sans-serif",
+      "h2": "700 44px / 48.4px \"Roboto Condensed\", Arial, sans-serif",
+      "body": "16px / 26.4px Roboto, Arial, sans-serif",
+      "background": "rgb(247, 247, 247)",
+      "overflow": 0
+    }
+  },
+  {
+    "name": "penta-home",
+    "width": 390,
+    "url": "https://www.pentaprecision.co.uk/",
+    "styles": {
+      "h1": "700 27.3px / 30.03px \"Roboto Condensed\", Arial, sans-serif",
+      "h2": "700 32px / 35.2px \"Roboto Condensed\", Arial, sans-serif",
+      "body": "14px / 23.1px Roboto, Arial, sans-serif",
+      "background": "rgb(247, 247, 247)",
+      "overflow": 0
+    }
+  },
+  {
+    "name": "penta-milling",
+    "width": 1440,
+    "url": "https://www.pentaprecision.co.uk/services/cnc-milling",
+    "styles": {
+      "h1": "700 57.6px / 63.36px \"Roboto Condensed\", Arial, sans-serif",
+      "h2": "700 44px / 48.4px \"Roboto Condensed\", Arial, sans-serif",
+      "body": "16px / 26.4px Roboto, Arial, sans-serif",
+      "background": "rgb(247, 247, 247)",
+      "overflow": 0
+    }
+  },
+  {
+    "name": "penta-milling",
+    "width": 390,
+    "url": "https://www.pentaprecision.co.uk/services/cnc-milling",
+    "styles": {
+      "h1": "700 32px / 35.2px \"Roboto Condensed\", Arial, sans-serif",
+      "h2": "700 32px / 35.2px \"Roboto Condensed\", Arial, sans-serif",
+      "body": "14px / 23.1px Roboto, Arial, sans-serif",
+      "background": "rgb(247, 247, 247)",
+      "overflow": 0
+    }
+  }
+]

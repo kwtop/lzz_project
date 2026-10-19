@@ -1,0 +1,167 @@
+{
+  "at": "2026-10-17T01:45:29.088Z",
+  "basis": "User-selected Penta direction; real inspector output preserved, intentional focal-size exception reviewed below.",
+  "reports": [
+    {
+      "name": "home",
+      "allow": [
+        "eyebrow",
+        "shadow"
+      ],
+      "fail": [],
+      "warn": [
+        {
+          "level": "WARN",
+          "id": "size-count",
+          "width": 1440,
+          "message": "11 different font sizes (14, 15, 16, 17, 18, 20, 25, 26, 35, 44, 56).",
+          "fix": "A page needs about five: display, heading, lead, body, small.",
+          "alsoAt": [
+            390
+          ]
+        },
+        {
+          "level": "WARN",
+          "id": "no-footage",
+          "width": 1440,
+          "message": "No video anywhere on the page.",
+          "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+        },
+        {
+          "level": "WARN",
+          "id": "still-page",
+          "width": 1440,
+          "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
+          "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+        }
+      ],
+      "motion": [
+        {
+          "width": 1440,
+          "elements": 11
+        },
+        {
+          "width": 390,
+          "elements": 11
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "allow": [
+        "eyebrow",
+        "shadow"
+      ],
+      "fail": [
+        {
+          "level": "FAIL",
+          "id": "focal-point",
+          "width": 1440,
+          "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+          "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+        }
+      ],
+      "warn": [
+        {
+          "level": "WARN",
+          "id": "no-footage",
+          "width": 1440,
+          "message": "No video anywhere on the page.",
+          "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+        },
+        {
+          "level": "WARN",
+          "id": "still-page",
+          "width": 1440,
+          "message": "Little motion: 12 element(s) moved while the page loaded and scrolled.",
+          "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+        },
+        {
+          "level": "WARN",
+          "id": "size-count",
+          "width": 390,
+          "message": "10 different font sizes (13, 14, 15, 16, 18, 21, 25, 32, 34, 42).",
+          "fix": "A page needs about five: display, heading, lead, body, small."
+        }
+      ],
+      "motion": [
+        {
+          "width": 1440,
+          "elements": 12
+        },
+        {
+          "width": 390,
+          "elements": 12
+        }
+      ]
+    },
+    {
+      "name": "detail",
+      "allow": [
+        "eyebrow",
+        "shadow"
+      ],
+      "fail": [
+        {
+          "level": "FAIL",
+          "id": "focal-point",
+          "width": 1440,
+          "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+          "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+        }
+      ],
+      "warn": [
+        {
+          "level": "WARN",
+          "id": "hairline",
+          "width": 1440,
+          "message": "1 thin rule(s)/divider line(s): div.cx-application-review 1240px",
+          "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+          "alsoAt": [
+            390
+          ]
+        },
+        {
+          "level": "WARN",
+          "id": "size-count",
+          "width": 1440,
+          "message": "11 different font sizes (14, 15, 16, 17, 20, 24, 26, 30, 32, 44, 64).",
+          "fix": "A page needs about five: display, heading, lead, body, small.",
+          "alsoAt": [
+            390
+          ]
+        },
+        {
+          "level": "WARN",
+          "id": "no-footage",
+          "width": 1440,
+          "message": "No video anywhere on the page.",
+          "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+        },
+        {
+          "level": "WARN",
+          "id": "card-rows",
+          "width": 390,
+          "message": "2 rows of identical boxed cards.",
+          "fix": "Vary the composition; not every section is a card grid."
+        }
+      ],
+      "motion": [
+        {
+          "width": 1440,
+          "elements": 18
+        },
+        {
+          "width": 390,
+          "elements": 18
+        }
+      ]
+    }
+  ],
+  "acceptedForDirectionReview": [
+    "eyebrow: semantic fact dt and mandatory AI provenance labels",
+    "shadow: real floating navigation menu only",
+    "focal-point: Penta-sized 64px technical/directory title with clear task or real part"
+  ],
+  "unresolvedFunctionalFailures": []
+}

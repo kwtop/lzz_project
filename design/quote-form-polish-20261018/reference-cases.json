@@ -1,0 +1,28 @@
+[
+  {
+    "id": "general",
+    "form": true,
+    "overflow": false,
+    "ready": true,
+    "selected": "",
+    "url": "http://127.0.0.1:4321/quote/"
+  },
+  {
+    "id": "part-reference",
+    "form": true,
+    "overflow": false,
+    "ready": true,
+    "reference": "CNC machined plastic strips with repeated holes",
+    "selected": "product:precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances",
+    "url": "http://127.0.0.1:4321/quote/?product=precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances"
+  },
+  {
+    "id": "topic",
+    "form": true,
+    "overflow": false,
+    "ready": true,
+    "reference": "General machining question",
+    "selected": "",
+    "url": "http://127.0.0.1:4321/quote/?part=General+machining+question"
+  }
+]

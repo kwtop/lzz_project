@@ -10,10 +10,6 @@ type Module={section:Section;layout:string;visual?:Visual};
 type Reading={title?:string;intro?:string;hero?:Visual;heroPhoto?:string;pair?:boolean;compact?:boolean;mergeFirst?:boolean;modules:Module[]};
 const section=(slug:string,id:string)=>contentGuides[slug].sections.find(s=>s.id===id)!;
 const module=(slug:string,id:string,layout='reading',visual?:Visual):Module=>({section:section(slug,id),layout,visual});
-const material=section('material-and-finish-checklist','finish-and-acceptance');
-const finish=load(material.html,null,false);
-const finishItems=finish('.ce-facts>div').toArray();
-const finishHtml=(indices:number[])=>'<dl class="ce-facts">'+indices.map(i=>finish.html(finishItems[i])).join('')+'</dl>';
 const working=section('custom-cnc-machined-components-for-prototypes-and-production','working-surfaces');
 const geometry=load(working.html,null,false);
 const paragraphs=geometry('p').toArray();
@@ -26,6 +22,7 @@ const batchComparison={id:'batch-comparison',title:'Prototype and repeat-batch d
 // The shared atoms stop at headings, prose, tables and media. Each page has an
 // explicit reading plan; image count and module shape are not chosen by length.
 export const resourceReading:Record<string,Reading>={
+ 'cnc-machining-cost-factors':{title:contentGuides['cnc-machining-cost-factors'].title,modules:contentGuides['cnc-machining-cost-factors'].sections.map(section=>({section,layout:'reading'}))},
  'rfq-checklist':{intro:'Prepare your files with the checklist, then copy the inquiry brief. Mark any specifications that still need to be agreed.',modules:[
   module('rfq-checklist','drawing-package','facts'),
   module('rfq-checklist','material-finish','facts'),
@@ -37,12 +34,8 @@ export const resourceReading:Record<string,Reading>={
   module('compare-cnc-machining-quotations','unresolved-items','reading'),
   module('compare-cnc-machining-quotations','quote-record','record'),
  ]},
- 'critical-features-cnc-drawing':{title:'Drawing requirements & critical features',intro:'Define how the part fits and works, then make the requirements measurable on the controlled drawing. The model, drawing revision and acceptance checks must describe the same part.',modules:[
-  {...module('critical-features-cnc-drawing','function-first','reading'),section:{...section('critical-features-cnc-drawing','function-first'),aliases:['part-requirements','working-surfaces','working-surfaces-heading','section-1'],html:section('critical-features-cnc-drawing','function-first').html.replace('mounting holes and sealing interfaces','mounting holes, sealing interfaces, sliding surfaces and load-bearing faces')}},
-  module('critical-features-cnc-drawing','feature-checklist','table'),
-  {...module('critical-features-cnc-drawing','study-context','context'),section:{...section('critical-features-cnc-drawing','study-context'),aliases:['section-2','section-2-heading'],photos:[{id:'multi-feature-milling-parts',caption:'Multi-feature machined parts · original LZZ photograph. Geometry reference; acceptance follows the drawing.'}],html:section('critical-features-cnc-drawing','study-context').html+'<p>Achievable tolerances depend on material, geometry, setup and measurement method.</p>'}},
-  {...module('critical-features-cnc-drawing','release-files','record'),section:{...section('critical-features-cnc-drawing','release-files'),aliases:['section-3','section-3-heading','section-4','section-4-heading','section-5'],html:section('critical-features-cnc-drawing','release-files').html+'<p>Include material grade and condition, final finish, required records, applicable standards and revisions, traceability, end use and export requirements. Mark masked surfaces and whether dimensions apply before or after treatment. Agree dimensional, appearance and functional acceptance; confirm the effect of design or material changes before repeat production.</p>'}},
- ]},
+ 'critical-features-cnc-drawing':{title:'Drawing requirements & critical features',modules:contentGuides['critical-features-cnc-drawing'].sections.map(section=>({section,layout:'reading'}))},
+ '6061-vs-7075-cnc-aluminum':{title:contentGuides['6061-vs-7075-cnc-aluminum'].title,modules:contentGuides['6061-vs-7075-cnc-aluminum'].sections.map(section=>({section,layout:'reading'}))},
  'machined-prototype-approval-checklist':{title:'Machined prototype approval',compact:true,modules:[
   module('machined-prototype-approval-checklist','evaluation','reading'),
   module('machined-prototype-approval-checklist','approval-checklist','table'),
@@ -55,19 +48,8 @@ export const resourceReading:Record<string,Reading>={
   {...module('custom-cnc-machined-components-for-prototypes-and-production','section-3','illustrated','materials'),section:{...section('custom-cnc-machined-components-for-prototypes-and-production','section-3'),links:[['Material and finish checklist','/resources/technical-guides/material-and-finish-checklist/']]}},
   {...module('custom-cnc-machined-components-for-prototypes-and-production','section-4','record'),section:{...section('custom-cnc-machined-components-for-prototypes-and-production','section-4'),links:[['Quality and records','/factory/#quality'],['Sample approval process','/about/how-we-work/#section-5'],['Plan repeat production','/resources/ordering/prototype-vs-small-batch-cnc/']]}},
  ]},
- 'cnc-process-selection':{title:'Choose the CNC machining route',modules:[
-  module('cnc-process-selection','process-comparison','table'),
-  module('cnc-process-selection','process-references','workshop'),
-  module('cnc-process-selection','geometry-studies','reading'),
-  {...module('cnc-process-selection','accuracy','record'),section:{...section('cnc-process-selection','accuracy'),links:[['Complete RFQ inputs','/resources/ordering/rfq-checklist/'],['Critical drawing features','/resources/technical-guides/critical-features-cnc-drawing/']]}},
- ]},
- 'material-and-finish-checklist':{compact:true,modules:[
-  {...module('material-and-finish-checklist','material-specification','table'),section:{...section('material-and-finish-checklist','material-specification'),links:[...(section('material-and-finish-checklist','material-specification').links||[]),['Stainless steel machining','/capabilities/stainless-steel-cnc-parts/'],['Copper and brass machining','/capabilities/copper-brass-cnc-parts/']]}},
-  {section:{...material,html:finish('p').first().toString()+finishHtml([0,1]),title:'Treatment and appearance'},layout:'facts'},
-  {section:{id:'interfaces-and-dimensions',title:'Interfaces and dimensions after treatment',html:finishHtml([2,3,4])},layout:'illustrated',visual:'finish'},
-  {section:{id:'part-construction',aliases:['construction-title','coated-parts','coated-title','coating-requirements','requirements-title'],title:'Solid material, coating or covering?',html:'<p>A solid plastic part uses the specified polymer throughout. A coated metal part has a separate surface treatment; a covered wheel or roller has a separate covering as part of the component. Specify the substrate material, treatment, surfaces to coat or mask, and whether critical dimensions apply before or after coating.</p><p>The original photographs below are labeled as Teflon surface coating. They show round components and long pieces with repeated holes; they are distinct from parts machined from PTFE material.</p>',photos:[{id:'finish-coated-round',caption:'Round coated components · original source photograph'},{id:'finish-coated-bars',caption:'Coated long components · original source photograph'}]},layout:'reading'},
-  module('material-and-finish-checklist','material-records','record'),
- ]},
+ 'cnc-process-selection':{title:'Choose the CNC machining route',modules:contentGuides['cnc-process-selection'].sections.map(section=>({section,layout:'reading'}))},
+ 'material-and-finish-checklist':{modules:contentGuides['material-and-finish-checklist'].sections.map(section=>({section,layout:'reading'}))},
  'prototype-vs-small-batch-cnc':{compact:true,modules:[
   module('prototype-vs-small-batch-cnc','section-1','reading'),
   {section:batchComparison,layout:'table'},

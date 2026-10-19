@@ -2,7 +2,7 @@
 interface Props {stem:string;alt:string;caption:string;eager?:boolean;sizes?:string}
 const {stem,alt,caption,eager=false,sizes='(max-width:760px) calc(100vw - 44px), 46vw'}=Astro.props;
 ---
-<figure class="cs-illustration" data-image-origin="ai-generated-illustration">
+<figure class="cs-illustration" data-image-origin="image-reference">
  <img src={stem+'-1200.webp'} srcset={[480,800,1200,1536].map(w=>`${stem}-${w}.webp ${w}w`).join(', ')} sizes={sizes} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async" alt={alt}/>
  <figcaption>{caption}</figcaption>
 </figure>

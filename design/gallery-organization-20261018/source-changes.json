@@ -1,0 +1,26 @@
+[
+  {
+    "path": "src/components/CapabilityInspectionReview.astro",
+    "beforeSha256": "7f02f8e1ff8a65d80e1f21c0a67f4307326dc770e746d2276deaeda463ba87be",
+    "afterSha256": "148d9c427608ee59017b345215e9557546659ee85f1caa424dff0bc0bd7c0c61",
+    "backup": "D:/lzz/gallery-organization-20261018/backup/src/components/CapabilityInspectionReview.astro"
+  },
+  {
+    "path": "src/components/ProductsCatalogueRedesigned.astro",
+    "beforeSha256": "4a29cb475d4233f90a45b6f84967d137926ede27523bffd7b93c1c44162d4b26",
+    "afterSha256": "9aa2db4eba30350cb08a2b00be6d8a66b0f262dd8c042a0b508ff2a186413efa",
+    "backup": "D:/lzz/gallery-organization-20261018/backup/src/components/ProductsCatalogueRedesigned.astro"
+  },
+  {
+    "path": "src/styles/image-layout-20261018.css",
+    "beforeSha256": "6fdb4f9e94a73c00d7e8f57ead36d19c66a2920db20ef3d7d66410ed3e14c5d7",
+    "afterSha256": "d1d37c09a9f52926a2ebd17e922ead96f1149b0cc5652f799a6c1a68d0699415",
+    "backup": "D:/lzz/gallery-organization-20261018/backup/src/styles/image-layout-20261018.css"
+  },
+  {
+    "path": "DESIGN.md",
+    "beforeSha256": "59660edcd8ea21df75f2437ad5f8ab36bd8dfba07efc57328819929460ad7382",
+    "afterSha256": "f7af1e572f4e5e4c3cd8a1b3a52d609aa367ecced031718bf7ea1d672f49113e",
+    "backup": "D:/lzz/gallery-organization-20261018/backup/DESIGN.md"
+  }
+]

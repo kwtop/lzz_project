@@ -1,0 +1,25 @@
+---
+import {ArrowRight} from 'lucide-react';
+import {capabilityScene,type InteriorImage} from '../data/pentaInteriors';
+import PentaVisual from './PentaVisual.astro';
+import CapabilitySceneHero from './CapabilitySceneHero.astro';
+interface Props {
+ title:string;lead:string;quoteHref?:string;slug?:string;image?:InteriorImage;id?:string;
+ part?:{src:string;srcset?:string;width:number;height:number;alt:string;href?:string;origin?:string};
+ secondaryHref?:string;secondaryLabel?:string;credential?:string;
+}
+const {title,lead,quoteHref='/quote/',slug='overview',image=capabilityScene(slug),part,id,secondaryHref,secondaryLabel,credential='Made to your drawing · Hangzhou, China'}=Astro.props;
+// Cover crops need enough source pixels for the full hero height, too.
+const sceneSizes=`(max-width:767px) 100vw, max(40vw, ${Math.round(740*image.width/image.height)}px)`;
+const useCapabilityScene=Astro.url.pathname.startsWith('/capabilities/');
+---
+{useCapabilityScene?<CapabilitySceneHero title={title} lead={lead} quoteHref={quoteHref} slug={slug} id={id} part={part} secondaryHref={secondaryHref} secondaryLabel={secondaryLabel} credential={credential}><slot/></CapabilitySceneHero>:<>
+<section class:list={['pi-hero',{'pi-hero--with-part':Boolean(part)}]} data-core-section="service" aria-labelledby={id||'interior-title'}>
+ <div class="pi-hero-inner"><header class="pi-hero-copy"><h1 id={id||'interior-title'}>{title}</h1><p class="pi-hero-lead">{lead}</p><slot/>
+  <div class="pi-hero-actions"><a class="rd-button" href={quoteHref}>Request a quote</a>{secondaryHref&&<a class="pi-secondary-action" href={secondaryHref}>{secondaryLabel}</a>}</div>
+  <p class="pi-hero-credential"><a href="/about/company-profile/#quality-system">ISO 9001 certified</a><span>{credential}</span></p>
+ </header></div>
+ <PentaVisual image={image} eager class="pi-hero-scene" sizes={sceneSizes}/>
+ {part&&<a class="pi-hero-part" href={part.href||'/machined-parts/gallery/'}><img src={part.src} srcset={part.srcset} width={part.width} height={part.height} alt={part.alt} data-image-origin={part.origin} sizes="(max-width:767px) 136px, 266px" loading="eager" fetchpriority="high" decoding="sync"/><span>View part reference <ArrowRight size={16} aria-hidden="true"/></span></a>}
+</section>
+</>}

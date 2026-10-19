@@ -1,0 +1,21 @@
+{
+  "route": "/quote/",
+  "viewports": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "overflow": false,
+  "formContractPreserved": true,
+  "stateAndEventLogicUnchanged": true,
+  "referenceCases": 3,
+  "browserValidation": true,
+  "mailDraftPreview": true,
+  "phoneAlternative": true,
+  "referenceChangeAndRestore": true,
+  "clearSavedInput": true,
+  "visibleKeyboardFocus": true,
+  "reverseCheck": true
+}

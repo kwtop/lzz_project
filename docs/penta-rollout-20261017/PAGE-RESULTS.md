@@ -1,0 +1,94 @@
+# 84页最终逐页结果
+
+2026-10-17。全部页面已应用确认后的视觉系统。只数正文img，视频海报另计；同源裁片不凑独立照片。有效来源依据初审sourceGroup去重，并排除P04低清主体；新概念按原始输出去重。
+
+| URL | 类型 | 核心模块 | img槽位 | 有效独立图源 | 图文章节 | 状态/例外 |
+| --- | --- | ---: | ---: | ---: | --- | --- |
+| [/](http://127.0.0.1:4321/) | 首页 | 5 | 9 | 9 | 5/5 | 四宽检查通过 |
+| [/about/](http://127.0.0.1:4321/about/) | 公司信息 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/about/company-news/](http://127.0.0.1:4321/about/company-news/) | 新闻目录 | 4 | 5 | 5 | 3/4 | 四宽检查通过 |
+| [/about/company-news/australian-customer-workshop-visit-january-2025/](http://127.0.0.1:4321/about/company-news/australian-customer-workshop-visit-january-2025/) | 新闻记录 | 4 | 7 | 7 | 4/4 | 四宽检查通过 |
+| [/about/company-news/china-africa-west-lake-summit-2025/](http://127.0.0.1:4321/about/company-news/china-africa-west-lake-summit-2025/) | 新闻记录 | 4 | 7 | 7 | 4/4 | 四宽检查通过 |
+| [/about/company-news/lzz-team-outing-2024/](http://127.0.0.1:4321/about/company-news/lzz-team-outing-2024/) | 新闻记录 | 4 | 8 | 8 | 4/4 | 四宽检查通过 |
+| [/about/company-news/may-2025-lzz-team-outing/](http://127.0.0.1:4321/about/company-news/may-2025-lzz-team-outing/) | 新闻记录 | 4 | 6 | 6 | 4/4 | 四宽检查通过 |
+| [/about/company-news/november-2025-hangzhou-lizhizao-group-activity/](http://127.0.0.1:4321/about/company-news/november-2025-hangzhou-lizhizao-group-activity/) | 新闻记录 | 4 | 7 | 7 | 4/4 | 四宽检查通过 |
+| [/about/company-profile/](http://127.0.0.1:4321/about/company-profile/) | 公司信息 | 5 | 6 | 6 | 4/5 | 四宽检查通过 |
+| [/about/contact/](http://127.0.0.1:4321/about/contact/) | 公司信息 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/about/how-we-work/](http://127.0.0.1:4321/about/how-we-work/) | 公司信息 | 6 | 6 | 6 | 4/6 | 四宽检查通过 |
+| [/capabilities/](http://127.0.0.1:4321/capabilities/) | 能力目录 | 6 | 11 | 11 | 4/6 | 四宽检查通过 |
+| [/capabilities/5-axis-cnc-machining/](http://127.0.0.1:4321/capabilities/5-axis-cnc-machining/) | 能力详情 | 6 | 6 | 6 | 4/6 | 四宽检查通过 |
+| [/capabilities/aluminum-cnc-parts/](http://127.0.0.1:4321/capabilities/aluminum-cnc-parts/) | 能力详情 | 6 | 7 | 7 | 5/6 | 四宽检查通过 |
+| [/capabilities/casting-machining/](http://127.0.0.1:4321/capabilities/casting-machining/) | 能力详情 | 6 | 5 | 5 | 4/6 | 四宽检查通过 |
+| [/capabilities/cnc-milling-service/](http://127.0.0.1:4321/capabilities/cnc-milling-service/) | 能力详情 | 7 | 7 | 7 | 5/7 | 四宽检查通过 |
+| [/capabilities/cnc-turning-service/](http://127.0.0.1:4321/capabilities/cnc-turning-service/) | 能力详情 | 6 | 7 | 7 | 5/6 | 四宽检查通过 |
+| [/capabilities/copper-brass-cnc-parts/](http://127.0.0.1:4321/capabilities/copper-brass-cnc-parts/) | 能力详情 | 6 | 4 | 4 | 4/6 | 四宽检查通过 |
+| [/capabilities/low-volume-production/](http://127.0.0.1:4321/capabilities/low-volume-production/) | 能力详情 | 5 | 4 | 4 | 4/5 | 四宽检查通过 |
+| [/capabilities/plastic-machined-parts/](http://127.0.0.1:4321/capabilities/plastic-machined-parts/) | 能力详情 | 7 | 7 | 7 | 5/7 | 四宽检查通过 |
+| [/capabilities/prototype-machining/](http://127.0.0.1:4321/capabilities/prototype-machining/) | 能力详情 | 5 | 4 | 4 | 3/5 | 四宽检查通过 |
+| [/capabilities/stainless-steel-cnc-parts/](http://127.0.0.1:4321/capabilities/stainless-steel-cnc-parts/) | 能力详情 | 6 | 5 | 5 | 4/6 | 四宽检查通过 |
+| [/capabilities/starting-with-a-sample/](http://127.0.0.1:4321/capabilities/starting-with-a-sample/) | 能力详情 | 6 | 4 | 4 | 4/6 | 四宽检查通过 |
+| [/factory/](http://127.0.0.1:4321/factory/) | 工厂与质量 | 7 | 7 | 7 | 5/7 | 四宽检查通过 |
+| [/machined-parts/](http://127.0.0.1:4321/machined-parts/) | 零件总览 | 4 | 8 | 8 | 3/4 | 四宽检查通过 |
+| [/machined-parts/gallery/](http://127.0.0.1:4321/machined-parts/gallery/) | 筛选图库 | 4 | 40 | 39 | 2/4 | 筛选工具：图片集中于真实结果与完整来源集合，导语/下一步不补装饰图。 |
+| [/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-automotive-performance-parts-manufacturer-and-aluminum-intercooler-prototype-supplier/) | 零件详情 | 5 | 4 | 4 | 4/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-billet-aluminum-intake-plenum-manufacturer-and-high-performance-tuning-parts-supplier/) | 零件详情 | 5 | 5 | 5 | 4/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/](http://127.0.0.1:4321/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-cnc-machined-electronic-throttle-body-manufacturer-and-automotive-prototype-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/](http://127.0.0.1:4321/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/](http://127.0.0.1:4321/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/](http://127.0.0.1:4321/machined-parts/gallery/custom-high-precision-machining-for-structural-aesthetic-components-oem/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/](http://127.0.0.1:4321/machined-parts/gallery/custom-oem-cnc-machined-non-metallic-components-insulating-parts/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/](http://127.0.0.1:4321/machined-parts/gallery/custom-oem-cnc-machined-plastic-parts-manufacturer/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/](http://127.0.0.1:4321/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/](http://127.0.0.1:4321/machined-parts/gallery/custom-oem-cnc-turning-manufacturer/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/](http://127.0.0.1:4321/machined-parts/gallery/custom-oem-high-precision-cnc-milling-manufacturer/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/custom-rotary-cylindrical-components/](http://127.0.0.1:4321/machined-parts/gallery/custom-rotary-cylindrical-components/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/](http://127.0.0.1:4321/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/](http://127.0.0.1:4321/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/) | 零件详情 | 5 | 4 | 3 | 4/5 | 四宽检查通过 |
+| [/machined-parts/gallery/global-oem-precision-machining-solutions/](http://127.0.0.1:4321/machined-parts/gallery/global-oem-precision-machining-solutions/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/](http://127.0.0.1:4321/machined-parts/gallery/high-reliability-precision-machining-turbine-fluid-complex-curve-component-oem/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/](http://127.0.0.1:4321/machined-parts/gallery/high-volume-cnc-turning-for-complex-internal-external-features/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/](http://127.0.0.1:4321/machined-parts/gallery/oem-precision-cnc-machined-casting-housing-structural-enclosures/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/](http://127.0.0.1:4321/machined-parts/gallery/oem-precision-cnc-machined-casting-housings/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/](http://127.0.0.1:4321/machined-parts/gallery/precision-cnc-machined-castings-custom-oem-housings/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/](http://127.0.0.1:4321/machined-parts/gallery/precision-cnc-machined-castings-manufacturer/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/](http://127.0.0.1:4321/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/](http://127.0.0.1:4321/machined-parts/gallery/precision-cnc-turned-brass-components-manufacturer-and-copper-parts-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/](http://127.0.0.1:4321/machined-parts/gallery/precision-low-volume-cnc-machining-manufacturer-and-hmlv-components-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/](http://127.0.0.1:4321/machined-parts/gallery/precision-machining-for-functional-plastic-blocks-structural-components/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/](http://127.0.0.1:4321/machined-parts/gallery/precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/](http://127.0.0.1:4321/machined-parts/gallery/precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/](http://127.0.0.1:4321/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/](http://127.0.0.1:4321/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/) | 零件详情 | 5 | 4 | 3 | 4/5 | 四宽检查通过 |
+| [/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/](http://127.0.0.1:4321/machined-parts/gallery/small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv/) | 零件详情 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/machined-parts/gallery/ultra-high-precision-machining-services/](http://127.0.0.1:4321/machined-parts/gallery/ultra-high-precision-machining-services/) | 零件详情 | 5 | 4 | 3 | 4/5 | 四宽检查通过 |
+| [/machined-parts/machining-examples/](http://127.0.0.1:4321/machined-parts/machining-examples/) | 实例目录 | 4 | 9 | 9 | 3/4 | 四宽检查通过 |
+| [/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/](http://127.0.0.1:4321/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/) | 加工实例 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/machined-parts/machining-examples/custom-metal-parts-batch-examples/](http://127.0.0.1:4321/machined-parts/machining-examples/custom-metal-parts-batch-examples/) | 加工实例 | 5 | 6 | 5 | 4/5 | 四宽检查通过 |
+| [/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/](http://127.0.0.1:4321/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/) | 加工实例 | 5 | 8 | 4 | 4/5 | 四宽检查通过 |
+| [/machined-parts/machining-examples/five-axis-machining-multi-face-parts/](http://127.0.0.1:4321/machined-parts/machining-examples/five-axis-machining-multi-face-parts/) | 加工实例 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/](http://127.0.0.1:4321/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/) | 加工实例 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/machined-parts/machining-examples/milling-prismatic-components/](http://127.0.0.1:4321/machined-parts/machining-examples/milling-prismatic-components/) | 加工实例 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/](http://127.0.0.1:4321/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/) | 加工实例 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/machined-parts/machining-examples/two-stage-cnc-milling/](http://127.0.0.1:4321/machined-parts/machining-examples/two-stage-cnc-milling/) | 加工实例 | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/privacy/](http://127.0.0.1:4321/privacy/) | 隐私与站点信息 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/quote/](http://127.0.0.1:4321/quote/) | 询价草稿工具 | 3 | 3 | 3 | 1/3 | 工作工具：说明、填写/审阅、联系与资料，图片不打断表单。 |
+| [/resources/](http://127.0.0.1:4321/resources/) | 资料目录 | 2 | 0 | 0 | 0/2 | 资料目录：直接选择三个分类，不加装饰大图。 |
+| [/resources/faq/](http://127.0.0.1:4321/resources/faq/) | FAQ | 4 | 3 | 3 | 3/4 | 四宽检查通过 |
+| [/resources/ordering/](http://127.0.0.1:4321/resources/ordering/) | 资料目录 | 3 | 0 | 0 | 0/3 | 资料目录：五个采购判断与空白工具下载先行。 |
+| [/resources/ordering/compare-cnc-machining-quotations/](http://127.0.0.1:4321/resources/ordering/compare-cnc-machining-quotations/) | 采购/技术指南 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/resources/ordering/custom-cnc-parts-shipping-checklist/](http://127.0.0.1:4321/resources/ordering/custom-cnc-parts-shipping-checklist/) | 采购/技术指南 | 5 | 4 | 4 | 4/5 | 四宽检查通过 |
+| [/resources/ordering/machined-prototype-approval-checklist/](http://127.0.0.1:4321/resources/ordering/machined-prototype-approval-checklist/) | 采购/技术指南 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/resources/ordering/prototype-vs-small-batch-cnc/](http://127.0.0.1:4321/resources/ordering/prototype-vs-small-batch-cnc/) | 采购/技术指南 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/resources/ordering/rfq-checklist/](http://127.0.0.1:4321/resources/ordering/rfq-checklist/) | 采购/技术指南 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/resources/technical-guides/](http://127.0.0.1:4321/resources/technical-guides/) | 资料目录 | 2 | 0 | 0 | 0/2 | 资料目录：三篇规格指南可直接选择。 |
+| [/resources/technical-guides/cnc-process-selection/](http://127.0.0.1:4321/resources/technical-guides/cnc-process-selection/) | 采购/技术指南 | 4 | 5 | 5 | 3/4 | 四宽检查通过 |
+| [/resources/technical-guides/critical-features-cnc-drawing/](http://127.0.0.1:4321/resources/technical-guides/critical-features-cnc-drawing/) | 采购/技术指南 | 5 | 3 | 3 | 3/5 | 四宽检查通过 |
+| [/resources/technical-guides/material-and-finish-checklist/](http://127.0.0.1:4321/resources/technical-guides/material-and-finish-checklist/) | 采购/技术指南 | 5 | 5 | 5 | 4/5 | 四宽检查通过 |
+
+P04新增通用端口说明图支持图纸评审，不能代替该件清晰实拍。相关工艺/零件不是该产品的额外视角。
+
+四宽为1440/1024/768/390px。336记录无横向溢出、断图、脚本错误。完整截图：D:/lzz/penta-rollout-20261017/after/；画廊：http://127.0.0.1:4340/review/ 。

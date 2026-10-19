@@ -10,8 +10,8 @@ export const recognitionDocuments=[
 ].map((document,i)=>({...document,image:certificateAssets[i].image,source:certificateAssets[i].source}));
 
 export const aboutIllustrations={
- drawing:{stem:'/media/about-redesign-20261014/drawing-review',alt:'Illustrative pocketed metal component beside a drawing and an unbranded caliper',caption:'Drawing review · AI-generated illustration'},
- inquiry:{stem:'/media/about-redesign-20261014/inquiry-parts',alt:'Illustrative machined housing, brass fitting and stepped shaft',caption:'Custom part forms · AI-generated illustration'},
+ drawing:{stem:'/media/about-redesign-20261014/drawing-review',alt:'Pocketed metal component beside a drawing and an unbranded caliper',caption:'Drawing review'},
+ inquiry:{stem:'/media/about-redesign-20261014/inquiry-parts',alt:'Machined housing, brass fitting and stepped shaft',caption:'Custom part forms'},
 };
 export const qualificationEmail='mailto:roger@lzz-cnc.com?subject='+encodeURIComponent('Supplier qualification documents')+'&body='+encodeURIComponent('Please send the current ISO 9001 certificate and scope for Hangzhou Lizhizao Precision Machinery Co., Ltd.\n\nProject / part reference:\nOther documents required:');
 export const visitEmail='mailto:roger@lzz-cnc.com?subject='+encodeURIComponent('Workshop visit enquiry')+'&body='+encodeURIComponent('I would like to arrange a visit to your Hangzhou workshop.\n\nCompany:\nPreferred dates:\nParts or processes to discuss:');
@@ -24,7 +24,7 @@ export const newsPlans:Record<string,NewsPlan>={
   {title:'Around the barbecue and table',text:'Food was prepared at the barbecue and colleagues shared a meal beneath the canopy.',photos:['team-november-2025-03','team-november-2025-05'],layout:'pair'},
  ],extra:['team-november-2025-04']},
  'china-africa-west-lake-summit-2025':{category:'Workshop & events',cover:'china-africa-summit-01',hero:'wide',intro:'LZZ representatives attended the China-Africa West Lake Summit in Hangzhou on 19 November 2025. The company display introduced its custom machining services and examples of machined components.',sections:[
-  {title:'Introducing custom machining',text:'Representatives stood beside the LZZ display, which introduced the company and its machining work. The photographs record attendance and the display.',photos:['china-africa-summit-02','china-africa-summit-03'],layout:'pair'},
+  {title:'Introducing custom machining',text:'Representatives stood beside the LZZ display, which introduced the company and its machining work.',photos:['china-africa-summit-02','china-africa-summit-03'],layout:'pair'},
   {title:'Inside the conference hall',text:'The source collection also includes the conference hall and an event-backdrop photograph.',photos:['china-africa-summit-04','china-africa-summit-05'],layout:'essay'},
  ]},
  'may-2025-lzz-team-outing':{category:'Team life',cover:'team-may-2025-01',hero:'wide',intro:'During the May 2025 outing, colleagues shared an outdoor meal beneath a canopy. In the evening, the team took photographs along lantern-lit streets.',sections:[
