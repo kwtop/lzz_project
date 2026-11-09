@@ -24,7 +24,7 @@ const materials=page.plan.materials.map(row=>row.name==='Blank condition'
 const finishedChecks=page.acceptanceChecks.filter(row=>row.feature!=='Incoming blank');
 const castingIllustration={
  stem:'/media/reading-polish-20261015/casting-condition',width:1536,height:1024,
- alt:'a generic cast housing with a rough exterior and smooth machined bore and flange',
+ alt:'Cast housing with a rough exterior, smooth machined bore and flange',
  caption:'The rough exterior and smooth bore and flange distinguish the cast form from its working interfaces. Geometry illustration.',
 };
 const requestGroups=[
@@ -49,7 +49,7 @@ const requestGroups=[
     <p>{part.text}</p>
    </article>)}
   </div>
-  
+
   <a class="rd-link casting-process-link" href="#geometry-review">Cast blank & finished interfaces</a>
  </section>
 
@@ -88,7 +88,7 @@ const requestGroups=[
 
  <section class="casting-section casting-quality" id="engineering-fit" aria-labelledby="casting-quality-title" data-core-section="inspection">
   <header class="casting-section-heading">
-   <h2 id="casting-quality-title">Agree inspection before machining</h2>
+   <h2 id="casting-quality-title">Inspect the blank and finished interfaces</h2>
    <p>We agree dimensional checks for the finished interfaces before production, including locating methods, measurement methods and the results to record.</p>
   </header>
   <div class="casting-quality-grid">
@@ -98,7 +98,7 @@ const requestGroups=[
    </table>
    <div class="casting-quality-scope">
     {testQuestion&&<aside class="casting-test-note"><h3>{testQuestion.question}</h3><p>{testQuestion.answer}</p></aside>}
-    <a class="rd-link casting-quality-link" href="/factory/#quality">Inspection methods, stages and records</a>
+
    </div>
    <div class="casting-quality-image"><CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from the equipment records." sizes="(max-width:767px) 220px, 260px"/></div>
   </div>
@@ -108,14 +108,14 @@ const requestGroups=[
   <div class="casting-rfq-inputs">
    <h2 id="casting-rfq-title">{page.plan.rfqTitle}</h2>
    <dl class="casting-request-list">{requestGroups.map(group=><div><dt>{group.name}</dt><dd>{group.text}</dd></div>)}</dl>
-   <a class="rd-link" href="/resources/ordering/rfq-checklist/">RFQ preparation checklist</a>
+
   </div>
   <aside class="casting-order" id="order-conditions" aria-labelledby="casting-order-title">
    <h3 id="casting-order-title">Order & timing</h3>
    <dl class="casting-order-facts"><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl>
    <p>After drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.</p>
    <a class="rd-button" href={quoteHref}>Request a quote</a>
-   <p class="rd-note">Review the draft, then add your drawings and send it from your email app.</p>
+   <p class="rd-note">Leave your name, destination country and contact details. You can include the casting and finished-part drawings if available.</p>
   </aside>
  </section>
 </div>

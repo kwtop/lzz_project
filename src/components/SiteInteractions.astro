@@ -1,0 +1,34 @@
+<aside class="site-connection-status" data-connection-status role="status" aria-live="polite" hidden>
+ <p data-connection-message></p>
+ <button type="button" data-connection-dismiss aria-label="Dismiss connection message">Dismiss</button>
+</aside>
+<dialog class="site-image-dialog" id="site-image-dialog" aria-labelledby="site-image-title" aria-describedby="site-image-caption" data-state="idle" data-view="fit">
+ <header class="site-image-toolbar">
+  <h2 id="site-image-title">Image viewer</h2>
+  <div>
+   <button type="button" data-media-zoom aria-pressed="false" disabled>Zoom in</button>
+   <a data-media-open target="_blank" rel="noopener noreferrer">Open image</a>
+   <button type="button" data-media-close autofocus aria-label="Close image viewer">Close <span aria-hidden="true">×</span></button>
+  </div>
+ </header>
+ <div class="site-image-stage" tabindex="0" aria-label="Image, scroll to explore when zoomed">
+  <p class="site-image-loading" data-media-loading role="status"><span class="site-state-spinner" aria-hidden="true"></span>Loading image…</p>
+  <div class="site-image-error" data-media-error hidden>
+   <h3>Image unavailable</h3>
+   <p data-media-error-message>This image could not be loaded. Check your connection and try again.</p>
+   <button type="button" data-media-retry>Try again</button>
+  </div>
+  <img data-media-image alt="" hidden/>
+ </div>
+ <footer class="site-image-footer">
+  <p id="site-image-caption"></p>
+  <div class="site-image-pagination">
+   <button type="button" data-media-previous aria-label="Previous image">← <span>Previous</span></button>
+   <p data-media-count role="status" aria-live="polite" aria-atomic="true"></p>
+   <button type="button" data-media-next aria-label="Next image"><span>Next</span> →</button>
+  </div>
+ </footer>
+</dialog>
+<script>
+ import '../scripts/site-interactions';
+</script>

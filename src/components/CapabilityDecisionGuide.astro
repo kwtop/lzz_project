@@ -1,13 +1,12 @@
 ---
 import {capabilityDecisions} from '../data/capabilityDecisions';
 import RelatedLinks from './RelatedLinks.astro';
-interface Props {slug:string}
-const {slug}=Astro.props;
+interface Props {slug:string;compact?:boolean}
+const {slug,compact=false}=Astro.props;
 const guide=capabilityDecisions[slug];
 ---
-<div class="capability-decisions" data-decision-guide={slug} aria-labelledby={'decision-title-'+slug}>
- <h3 id={'decision-title-'+slug}>{guide.heading}</h3>
- <p class="decision-intro">{guide.intro}</p>
+<div class="capability-decisions" data-decision-guide={slug} aria-labelledby={compact?undefined:'decision-title-'+slug} aria-label={compact?'Part features and machining considerations':undefined}>
+ { !compact&&<><h3 id={'decision-title-'+slug}>{guide.heading}</h3><p class="decision-intro">{guide.intro}</p></> }
  <div class="decision-columns" aria-hidden="true"><span>Part feature</span><span>Consider</span><span>Why it matters</span></div>
  <dl class="decision-list">{guide.decisions.map(item=><div class="decision-row">
   <dt>{item.feature}</dt>

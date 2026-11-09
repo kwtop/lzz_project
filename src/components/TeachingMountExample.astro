@@ -1,0 +1,16 @@
+---
+import {teachingMountExample as example,teachingDownloads,featureRequirement,featureRange,featureSample,featurePasses,teachingRelease,renderTeachingDrawing} from '../data/teachingMountExample';
+import '../styles/teaching-mount-example.css';
+---
+<section class="rs-module teaching-example" id="teaching-example" aria-labelledby="teaching-example-heading" data-resource-module>
+ <header class="rs-module-heading"><div><p class="teaching-kicker">Worked example · {example.id}</p><h2 id="teaching-example-heading">From drawing callout to inspection result</h2></div></header>
+ <p class="teaching-notice">{example.notice}</p>
+ <p>A {example.material} mounting plate, {example.size.length} × {example.size.width} × {example.size.thickness} {example.units}, connects the three feature references below to the same example inspection sheet. The material is assumed for the exercise; a real assembly needs its own load and material assessment.</p>
+ <figure class="teaching-drawing"><a class="teaching-drawing-link" href={teachingDownloads.drawing} aria-label={'Enlarge '+example.id+' teaching drawing'}><div set:html={renderTeachingDrawing()}/></a><figcaption>The A/B/C faces explain a locating scheme. A production drawing would also need the applicable datum reference frame, geometric tolerances and inspection requirements.</figcaption></figure>
+ <nav class="teaching-downloads" aria-label="Teaching example files"><a href={teachingDownloads.drawing}>Enlarge drawing</a><a href={teachingDownloads.drawing} download>Download teaching drawing (.svg)</a><a href={teachingDownloads.report} download>Download example inspection sheet (.csv)</a></nav>
+ <div class="teaching-features" id="teaching-features"><h3>Read the feature references</h3><dl>{example.features.map(feature=><div id={'example-'+feature.id.toLowerCase()}><dt>{feature.id} · {feature.name}</dt><dd><p>{featureRequirement(feature)}. {feature.purpose}</p><p>{feature.check}</p></dd></div>)}</dl></div>
+ <div class="teaching-report" id="teaching-inspection"><h3>Compare the illustrative results with the limits</h3><p>All values are in {example.units}. The illustrative readings compare numerical limits in the final machined condition before surface treatment. The exercise covers these three dimensions only; measurement uncertainty and production acceptance decision rules are outside its scope.</p>
+  <table><caption>{example.id} · teaching measurements</caption><thead><tr><th scope="col">Feature</th><th scope="col">Requirement</th><th scope="col">Allowed range</th><th scope="col">Illustrative reading</th><th scope="col">Result</th></tr></thead><tbody>{example.features.map(feature=><tr><th scope="row">{feature.id}<span>{feature.name}</span></th><td data-label="Requirement">{featureRequirement(feature)}</td><td data-label="Allowed range">{featureRange(feature)}</td><td data-label="Illustrative reading">{featureSample(feature)}</td><td data-label="Result"><span class:list={['teaching-result',{'teaching-result--fail':!featurePasses(feature)}]}>{featurePasses(feature)?'Pass':'Fail'}</span></td></tr>)}</tbody></table>
+  <p class="teaching-hold">{teachingRelease()}. The two passing readings do not override the failed thickness check. In a real order, the affected part would remain on hold while the discrepancy and disposition are resolved.</p>
+ </div>
+</section>

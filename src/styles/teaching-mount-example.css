@@ -1,0 +1,38 @@
+/* The worked example uses the existing warm-white, graphite and copper palette. */
+.redesign-site .teaching-example{min-width:0}
+.redesign-site .teaching-example>p{max-width:68ch;margin-top:18px}
+.redesign-site .teaching-example .teaching-kicker{color:#AC4829;font-size:14px;margin-bottom:10px}
+.redesign-site .teaching-example .teaching-notice{font-size:14px;color:#656660;border-left:3px solid #AC4829;padding-left:16px;margin-top:18px}
+.redesign-site .teaching-drawing{margin-top:28px}
+.redesign-site .teaching-drawing-link{display:block;max-width:820px;cursor:zoom-in}
+.redesign-site .teaching-drawing svg{display:block;width:100%;height:auto;max-width:820px;border:1px solid #DDDCD5;border-radius:5px}
+.redesign-site .teaching-drawing figcaption{max-width:68ch;font-size:14px;line-height:1.6;color:#656660;margin-top:12px}
+.redesign-site .teaching-downloads{display:flex;flex-wrap:wrap;gap:4px 24px;margin-top:12px}
+.redesign-site .teaching-downloads a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;color:#AC4829;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.redesign-site .teaching-features,.redesign-site .teaching-report{margin-top:32px}
+.redesign-site .teaching-example h3{font-size:25px;line-height:1.25;margin-bottom:16px}
+.redesign-site .teaching-features dl>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:24px;border-top:1px solid #DDDCD5;padding-block:18px}
+.redesign-site .teaching-features dt{font-weight:700}
+.redesign-site .teaching-features dd{margin:0;min-width:0}
+.redesign-site .teaching-features dd p+p{margin-top:8px;color:#656660}
+.redesign-site .teaching-report>p{max-width:68ch}
+.redesign-site .teaching-report table{width:100%;table-layout:fixed;border-collapse:collapse;margin-top:20px;font-size:14px;line-height:1.5}
+.redesign-site .teaching-report caption{text-align:left;font-weight:700;margin-bottom:12px}
+.redesign-site .teaching-report th,.redesign-site .teaching-report td{padding:14px 12px;text-align:left;vertical-align:top;border-bottom:1px solid #DDDCD5;overflow-wrap:anywhere}
+.redesign-site .teaching-report thead{background:#242724;color:#fff}
+.redesign-site .teaching-report tbody th{font-weight:700;background:#EEE9E2}
+.redesign-site .teaching-report tbody th span{display:block;font-weight:400;font-size:13px;margin-top:4px}
+.redesign-site .teaching-result{font-weight:700}
+.redesign-site .teaching-result--fail{color:#AC4829}
+.redesign-site .teaching-report .teaching-hold{border-left:3px solid #AC4829;padding:14px 16px;background:#EEE9E2;margin-top:22px}
+@media(max-width:767px){
+ .redesign-site .teaching-features dl>div{grid-template-columns:1fr;gap:8px}
+ .redesign-site .teaching-report table,.redesign-site .teaching-report tbody,.redesign-site .teaching-report tr,.redesign-site .teaching-report td,.redesign-site .teaching-report tbody th{display:block;width:100%}
+ .redesign-site .teaching-report caption{display:block}
+ .redesign-site .teaching-report thead{display:none}
+ .redesign-site .teaching-report tbody tr+tr{margin-top:20px}
+ .redesign-site .teaching-report tbody th{padding:12px 14px}
+ .redesign-site .teaching-report td{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:10px 14px}
+ .redesign-site .teaching-report td:before{content:attr(data-label);font-weight:700}
+ .redesign-site .teaching-report tbody th span{font-size:14px}
+}

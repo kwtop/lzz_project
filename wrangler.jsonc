@@ -1,0 +1,9 @@
+{
+ "name":"lzz-precision",
+ "pages_build_output_dir":"./dist",
+ "compatibility_date":"2026-10-01",
+ "compatibility_flags":["nodejs_compat"],
+ "vars":{"LOCAL_DEVELOPMENT":"true","ADMIN_AUTH_MODE":"password","ADMIN_USERNAME":"admin"},
+ "d1_databases":[{"binding":"DB","database_name":"lzz-site-data-local","database_id":"00000000-0000-0000-0000-000000000001","migrations_dir":"migrations"}],
+ "r2_buckets":[{"binding":"FILES","bucket_name":"lzz-inquiry-files-local"}]
+}

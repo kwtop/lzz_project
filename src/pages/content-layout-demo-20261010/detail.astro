@@ -26,7 +26,7 @@ const related=relatedPartDecisions(product,catalog.products);
 const tags=productTags(product);
 const processCaseSlugs=[...new Set(tags.map(key=>catalog.categories.find(category=>category.key===key)?.slug).filter(Boolean))];
 const processCases=[...new Map(processCaseSlugs.flatMap(key=>caseForCapability(key!)).map(item=>[item.slug,item])).values()].slice(0,2);
-const quoteHref=inquiryHref({id:slug,title,legacyName:product.name,path:original,kind:'product'});
+const quoteHref=inquiryHref({id:slug,title,path:original,kind:'product'});
 const specifications=[
  ['Materials',overview.material],
  ['Machining',overview.process],

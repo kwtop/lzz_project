@@ -13,7 +13,7 @@ export const materialFinishDescription='Specify material and surface treatment f
 
 export const materialFinishGuide:Guide={
  title:'Material and finish requirements',
- intro:'Choose the material and surface treatment around the finished part. A bore, sealing face or electrical contact may need a different treatment from the outside surface. Define those interfaces early so machining, finishing and inspection work to the same requirement.',
+ intro:'A bore, sealing face or electrical contact may need a different treatment from the outside surface. Specify each working interface so material, machining, finishing and inspection all refer to the required finished condition.',
  visual:'materials',
  closing:'Discuss the material and finished interfaces',
  sections:[
@@ -21,7 +21,7 @@ export const materialFinishGuide:Guide={
    id:'material-specification',aliases:['alloy-designation-title','section-1','section-2'],title:'Choose the material specification',
    html:p(
     'Material selection starts with the job the part performs. Loads, temperature, chemical exposure and the mating component help narrow the choice. Electrical contact, thermal transfer and cleanliness can be just as important as mechanical strength.',
-    'Use the material families below to review the exact grade, condition, product standard and availability for your part. Include the required material records and approval requirements for proposed substitutions.'
+    'For each material family, settle the exact grade, condition, product standard and availability. The order also needs material records and an approval process for substitutions.'
    )+guideTable('Material specification questions',['Material family','Material examples','Order specification'],[
     ['Aluminum','6061, 7075, 2024','Alloy and temper; strength, stiffness, weight, environment and finish.'],
     ['Stainless steel','304, 316, 17-4PH','Service environment, strength, condition and heat treatment.'],
@@ -35,7 +35,7 @@ export const materialFinishGuide:Guide={
    links:[['Aluminum machining','/capabilities/aluminum-cnc-parts/']],
   },
   {
-   id:'finish-and-acceptance',title:'What should the surface treatment achieve?',
+   id:'finish-and-acceptance',title:'Choose surface treatments by function',
    html:p(
     'Set each finish requirement by function: appearance, wear, corrosion protection or another specified duty. Define color, coating thickness and sealing-face acceptance separately.',
     'Deburring, polishing, blasting, anodizing, passivation or plating depend on material and order requirements. Confirm the specification before production and inspect at the agreed stage. State any sequence requirements where one treatment follows another.'
@@ -48,7 +48,7 @@ export const materialFinishGuide:Guide={
    ),
   },
   {
-   id:'interfaces-and-dimensions',title:'How does finishing change dimensions and fits?',
+   id:'interfaces-and-dimensions',title:'Dimensional changes and fits after finishing',
    html:p(
     'Acceptance should describe the condition that enters the assembly. A part that meets a dimension before treatment may not meet it afterwards. State whether the limits apply before or after treatment, then agree how the machining allowance and final check will be handled.',
     'For anodizing, oxide forms partly within the original surface and partly beyond it. The '+a('Aluminum Anodizers Council FAQ','https://members.anodizing.org/page/anodized-aluminum-faq')+' explains that the dimensional effect depends on alloy and process. Its nominal relationships differ between Type II and hardcoat conditions, and surface preparation can also affect size.'
@@ -67,7 +67,7 @@ export const materialFinishGuide:Guide={
    ),
   },
   {
-   id:'masking-and-threads',title:'Which bores, threads and contacts should be masked?',
+   id:'masking-and-threads',title:'Masking bores, threads and electrical contacts',
    html:p(
     'Masking is a design choice for a particular surface. It may preserve a fit or contact area, but it also changes where the specified treatment is present. The decision needs the fit, environment and protection requirements together.',
     'Mark the actual boundaries. “Mask critical areas” leaves the finishing supplier to decide which faces are critical, how far the mask extends and what is acceptable at its edge. A section view or a clearly identified surface can resolve a small internal feature more effectively than a general note.'
@@ -77,12 +77,12 @@ export const materialFinishGuide:Guide={
    )+h('Electrical contacts are local working surfaces',
     'Identify current-carrying or grounding faces and their contact-area requirements. State the mating material, permitted protective treatment and assembled condition used for acceptance.',
     'Keep permitted rack or contact-mark locations separate from the electrically functional area. Where marks would affect appearance or fit, agree an acceptable location and inspection reference.'
-   ),
+   )+p('On an aluminum locating bore, the '+a('masking boundary and final anodized condition',guides+'which-aluminum-features-need-masking-before-anodizing/')+' should include the entry chamfer and adjacent shoulder where they affect the fit. This gives machining, finishing and receiving inspection the same surface definition.'),
   },
   {
    id:'texture-and-appearance',title:'Surface roughness and appearance need different checks',
    html:p(
-    'Specify functional roughness using the required parameter and measurement conditions. Define color, gloss and permitted scratches separately for the visible faces.',
+    'Functional roughness needs a parameter and measurement conditions. Form and waviness have their own controls; color, gloss and permitted defects need separate limits where they affect working or visible faces.',
     'For roughness, name the parameter, units, limit and applicable standard. Include the measurement area and conditions where they affect acceptance. The '+a('drawing guide’s roughness section',guides+'critical-features-cnc-drawing/#surface-roughness')+' explains why Ra, Rz and the measurement method need to stay connected.'
    )+h('Surface preparation remains part of the result',
     'Surface preparation affects the texture after anodizing, as described in NASA/JSC\'s process specification. Where a visible face requires blasting or polishing, define the preparation sequence and appearance acceptance before anodizing.',
@@ -90,7 +90,7 @@ export const materialFinishGuide:Guide={
    ),
   },
   {
-   id:'finish-by-material',title:'The material changes what a finish means',
+   id:'finish-by-material',title:'Finishing stainless steel, copper, brass and plastics',
    html:h('Stainless steel: passivation is not decorative plating',
     'Passivation treats the stainless surface and removes contamination such as free iron. '+a('Carpenter Technology’s passivation guidance','https://www.carpentertechnology.com/blog/passivating-stainless-steel-part')+' explains the grade-specific process and testing requirements. Specify any required corrosion verification separately from surface appearance.',
     'Specify the stainless grade, condition, treatment standard and required verification. State the sequence where heat treatment or another operation precedes passivation.'
@@ -99,14 +99,14 @@ export const materialFinishGuide:Guide={
    )+h('Plastics: include the condition in which size matters',
     'Polymer grade, temperature and moisture condition can influence the measured part. '+a('Ensinger’s dimensional-stability guidance','https://www.ensingerplastics.com/en-us/plastic-material-selection/dimensionally-stable')+' distinguishes thermal expansion and moisture uptake, which vary between materials.',
     'For a plastic component fitting into a metal assembly, state the service environment and inspection condition. A dimension checked just after machining may not describe every later condition. Review the exact polymer and any conditioning requirement instead of assigning the same behaviour to all engineering plastics.'
-   ),
+   )+p('The '+a('machined plastic measurement guide',guides+'why-machined-plastic-parts-need-defined-measurement-conditions/')+' explains how to specify temperature, conditioning and support so the supplier and receiving team assess the fit in the same material state.'),
   },
   {
-   id:'part-construction',aliases:['construction-title','coated-parts','coated-title','coating-requirements','requirements-title'],title:'Solid material, coating or covering?',
+   id:'part-construction',aliases:['construction-title','coated-parts','coated-title','coating-requirements','requirements-title'],title:'Solid plastic, surface coatings and separate coverings',
    html:p(
     'A solid plastic part uses the specified polymer throughout. A coated metal part has a separate surface treatment; a covered wheel or roller has a separate covering as part of the component. Those constructions need different material and dimensional definitions.',
     'The Teflon surface-coating collection shows coated round components and long pieces with repeated holes. These use a coated substrate; parts machined from solid PTFE have a different construction.'
-   )+h('Read the visible features as interface questions',
+   )+h('Coated surfaces, holes and mounting faces',
     'On a round coated part, distinguish the outside working surface from the bore and mounting faces. For a long component with repeated holes, specify whether coating enters the holes and identify the mating contact areas. Keep those requirements in the controlled drawing and finishing specification.',
     'Specify the substrate, coating and surfaces to treat or mask. State whether critical dimensions apply before or after coating, with thickness, adhesion and service requirements. For a separate covering component, include its material and retention method.'
    ),
@@ -116,12 +116,12 @@ export const materialFinishGuide:Guide={
    ],
   },
   {
-   id:'enclosure-finish-example',title:'A pocketed enclosure: which surfaces control assembly?',
+   id:'enclosure-finish-example',title:'Finished interfaces on a pocketed enclosure',
    html:p(
     'The '+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+' shows recessed parts and an associated machining setup. For a new design of this form, follow the assembly surfaces through the planned finish.',
-    'A mounting face may locate the housing. A bore may locate another component. A cover interface may need both flatness and a defined texture. The outside surface may mainly need an acceptable appearance. Giving those faces distinct requirements makes the finished condition easier to review.'
+    'A mounting face can locate the housing, while a bore may locate another component. A cover interface can need flatness and a defined texture, whereas the exterior may mainly need an appearance requirement. Specify each face separately so its finished condition can be checked.'
    )+h('Follow one interface through the process',
-    'For a locating bore, first define the finished fit and datum relationship. Next decide whether it is treated or masked. Then agree which machining allowance, final measurement and records support that choice. If an operation after finishing is proposed, review the exposed material and protection before accepting the route.',
+    'For a locating bore, the finished fit and datum relationship come first. The treated or masked condition determines the machining allowance, final measurement and records. If cutting after finishing is proposed, check the resulting exposed material and protection before accepting the route.',
     'Use the machining study to review geometry and setup access. The '+a('process-selection guide',guides+'cnc-process-selection/')+' explains how the required faces determine the machining sequence; specify the finish and acceptance criteria for your part.'
    ),
    photos:[{id:'milling-enclosure-parts',caption:'Recessed component forms · original LZZ source photograph; use the drawing to define treated and working faces'}],
@@ -137,10 +137,10 @@ export const materialFinishGuide:Guide={
    ),
   },
   {
-   id:'material-records',aliases:['section-4'],title:'Which records belong with material and finish?',
+   id:'material-records',aliases:['section-4'],title:'Material, treatment and dimensional records',
    html:p(
     'Include material traceability and treatment records in the quotation, along with dimensional inspection and any other tests. State the test limits and sampling requirements. The documents should identify the part, drawing revision and batch.',
-    'Match certificate scope to the customer or industry requirements. Agree the available report format and traceability chain before production.'
+    'Before production, confirm that certificate scope meets the customer or industry requirements, then agree the available report format and traceability chain.'
    )+guideTable('Material and finish acceptance records',['Record or check','What it should relate to'],[
     ['Material record','Specified grade, condition, applicable product requirements and agreed traceability.'],
     ['Treatment record','Process specification and revision, part or batch reference and required results.'],
@@ -148,29 +148,21 @@ export const materialFinishGuide:Guide={
     ['Appearance approval','Representative reference, identified faces and agreed viewing and acceptance conditions.'],
     ['Release decision','Actual approval, unresolved items and any accepted deviations or rework.'],
    ])+p('Request separate records for material, treatment and dimensional acceptance. Identify the finished bores and coating requirements that each report must cover.'),
-   links:[['Quality and order records','/factory/#quality'],['Sample approval','/resources/ordering/machined-prototype-approval-checklist/'],['Metal part examples',studies+'custom-metal-parts-batch-examples/']],
+   links:[['Sample approval','/resources/ordering/machined-prototype-approval-checklist/'],['Metal part examples',studies+'custom-metal-parts-batch-examples/']],
   },
   {
-   id:'finish-questions',title:'More questions about material and surface treatment',
-   html:q('finish-question-fits','Should dimensions apply before or after anodizing?',
-    'The drawing should state the required stage. Working fits usually need a defined final condition so the delivered parts assemble as intended. Where a pre-treatment dimension is also needed for process control, distinguish it from the finished acceptance limit.'
-   )+q('finish-question-growth','Can I subtract coating thickness to find the machining size?',
+   id:'finish-questions',title:"Material and finishing questions",
+   html:
+    q('finish-question-growth','Can I subtract coating thickness to find the machining size?',
     'Not without reviewing the process. Total coating thickness and outward growth are different quantities for anodizing. Opposing surfaces, preparation and local coverage also matter. Agree the allowance and variation for the actual feature and treatment.'
-   )+q('finish-question-threads','Should all threaded holes be masked?',
-    'Not automatically. Decide from the finished thread requirement, protection and service environment. Identify the treated or masked condition and the final gauging method. If machining after treatment is proposed, review the exposed material as part of the route.'
-   )+q('finish-question-colour','Is a colour reference enough to specify anodizing?',
-    'No. Include the applicable process, material, preparation, treatment requirements and the surfaces being judged. Define colour and gloss against an agreed reference. Dimensional, functional and coating checks remain separate from appearance.'
-   )+q('finish-question-toolmarks','Will anodizing remove milling marks?',
+   )+
+    q('finish-question-toolmarks','Will anodizing remove milling marks?',
     'It should not be specified as a way to erase them. Establish the required preparation and finished texture before treatment. If a face must be blasted or polished, define where that applies and how the final appearance will be accepted.'
-   )+q('finish-question-passivation','Is stainless-steel passivation the same as plating?',
-    'No. They serve different surface functions and need different specifications. For stainless passivation, identify the grade, condition, process and required verification. If a plated finish is required, specify its coating requirements separately.'
-   )+q('finish-question-ptfe','Does a Teflon coating photograph show a solid PTFE part?',
-    'No. A coated substrate and a component machined from solid PTFE have different constructions. Specify the substrate, coating and interfaces for coated parts; specify the PTFE grade for solid machined parts.'
-   )+q('finish-question-roughness','Does Ra define the whole surface finish?',
-    'No. Ra is a roughness parameter measured under specified conditions. Define form, waviness, color, gloss, coating thickness and permitted defects separately where they affect a working or visible face.'
-   )+q('finish-question-documents','Does a coating certificate prove the final fit?',
-    'Only if its agreed scope actually includes the relevant dimensional evidence. Treatment compliance and finished size are different checks. Define which interfaces need measurements after treatment and which records should accompany the order.'
-   )+q('finish-question-open-choice','What if the material or finish is not yet decided?',
+   )+
+    q('finish-question-documents','Does a coating certificate prove the final fit?',
+    'A certificate confirms only the work and results within its agreed scope. It establishes a finished fit only if that scope includes the relevant dimensional evidence. Identify which interfaces need measurements after treatment and which records accompany the order.'
+   )+
+    q('finish-question-open-choice','What if the material or finish is not yet decided?',
     'Send the part function, model and drawing with the known loads, exposure and interfaces. Identify the open choice and any options you would like reviewed. Keep proposed alternatives separate until the material, treatment and acceptance conditions are approved.'
    ),
   },

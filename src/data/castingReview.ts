@@ -3,18 +3,18 @@ type CastingReview={heading:string;focus:string;inputs:string;href:string;label:
 export const castingReview:Record<string,CastingReview>={
  'custom-cnc-machined-castings-transmission-housings-pump-bodies':{
   heading:'Incoming blank and machining allowance',
-  focus:'Control blank acceptance, machining allowance and datum transfer with the casting and finished-part drawings.',
+  focus:'The casting drawing describes the incoming blank; the finished-part drawing locates the bores and faces to machine.',
   inputs:'Include the blank supplier, alloy and condition, stock allowance, datum targets and responsibility for incoming defects.',
   href:'/capabilities/casting-machining/#engineering-fit',label:'Review casting allowance and workholding',
  },
  'precision-cnc-machined-castings-manufacturer':{
   heading:'Hidden interfaces and measurement access',
-  focus:'Reference internal splines, channels and flow paths to the flange datums in sections or the controlled model. Identify tool and measurement access for each critical feature.',
+  focus:'Internal splines, channels and flow paths can restrict both cutter and gauge access. Sections through the flange datums make those interfaces reviewable.',
   inputs:'Include the blank supplier and condition, incoming acceptance, interface limits and gauge requirements. Specify any fluid-integrity testing separately.',
   href:'/capabilities/casting-machining/#engineering-fit',label:'Review machining access and inspection planning',
  },
  'oem-precision-cnc-machined-casting-housing-structural-enclosures':{
-  heading:'Fixture access around ribs and cavities',focus:'Plan fixture support around ribs and deep cavities. Locate bearing bores and mounting features from the agreed datums.',
+  heading:'Fixture access around ribs and cavities',focus:'Ribs and deep cavities limit fixture contact. Bearing bores and mounting features need usable supports and shared locating references.',
   inputs:'Send blank geometry, wall sections, bore relationships and areas that must remain as cast.',
   href:'/capabilities/casting-machining/#engineering-fit',label:'Review fixture access for cast enclosures',
  },
@@ -24,7 +24,7 @@ export const castingReview:Record<string,CastingReview>={
   href:'/capabilities/starting-with-a-sample/',label:'Review the sample-to-part workflow',
  },
  'precision-cnc-machined-castings-custom-oem-housings':{
-  heading:'Sealing faces, fits and mounting holes',focus:'Locate sealing faces and bearing fits from the casting datums. Include tapped mounting points and final wall geometry.',
+  heading:'Sealing faces, fits and mounting holes',focus:'Sealing faces, bearing fits and tapped mounting points must stay related as the irregular casting is repositioned.',
   inputs:'Send the casting specification, sealing-face requirements, fit limits, thread callouts and required inspection records.',
   href:'/capabilities/casting-machining/#engineering-fit',label:'Review sealing faces, fits and mounting holes',
  },

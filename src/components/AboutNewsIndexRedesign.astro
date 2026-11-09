@@ -9,14 +9,55 @@ import '../styles/content-image-led.css';
 ---
 <Layout title="Company news: visits, events and life at LZZ" description="Original photographs and dated records from LZZ workshop visits, company events and team activities in Hangzhou." cta={false}>
  <article class="ar-page ar-news-index rd-wrap rd-page">
-  <header class="ar-news-head" data-core-section="News directory"><div><h1>Company news</h1><p>Workshop visits, industry events and days with the LZZ team. Photographs come from our company records.</p></div></header>
-  <nav class="ar-news-filter" aria-label="Filter company news"><button type="button" data-ar-news-filter="all" aria-pressed="true">All updates</button><button type="button" data-ar-news-filter="Workshop & events" aria-pressed="false">Workshop &amp; events</button><button type="button" data-ar-news-filter="Team life" aria-pressed="false">Team life</button></nav><p class="ar-news-count" role="status" aria-live="polite">5 updates</p>
+  <header class="ar-news-head" data-core-section="News directory"><div><h1>Company news</h1><p>Workshop visits, industry events and outings with the LZZ team.</p></div></header>
+  <form role="search" data-news-search><label class="ar-news-search"><span>Search company news</span><input type="search" name="q" placeholder="Event, date or keyword" maxlength="160" autocomplete="off" disabled/></label></form>
+  <nav class="ar-news-filter" aria-label="Filter company news"><button type="button" data-ar-news-filter="all" aria-pressed="true" disabled>All updates</button><button type="button" data-ar-news-filter="Workshop & events" aria-pressed="false" disabled>Workshop &amp; events</button><button type="button" data-ar-news-filter="Team life" aria-pressed="false" disabled>Team life</button></nav>
+  <div class="ar-news-feedback"><p class="ar-news-count" role="status" aria-live="polite" aria-atomic="true">5 updates</p><button class="ar-news-reset" type="button" data-news-reset hidden>Reset search &amp; filters</button></div>
+  <p class="site-state-note" data-news-notice role="status" hidden></p>
+  <section class="ar-news-empty" data-news-empty hidden><h2>No updates found</h2><p>Try another keyword or select all updates.</p><button class="ar-news-reset" type="button" data-news-reset>Reset search &amp; filters</button></section>
+  <noscript><p class="site-state-note">All company records are shown. Enable JavaScript to search and filter.</p></noscript>
   <section data-core-section="Latest record" class="ar-news-feature" aria-label="Latest dated record"><AboutNewsRecord item={companyNews[0]} featured quiet/></section>
-  <section data-core-section="Workshop and industry visits" class="ar-news-archive ar-news-workshop rd-section" aria-labelledby="earlier-records-title"><h2 id="earlier-records-title">Workshop &amp; industry visits</h2><div class="ar-news-archive-grid">{companyNews.slice(1).filter(item=>approvedNewsPlans[item.slug].category==='Workshop & events').map(item=><AboutNewsRecord item={item} quiet showCategory={false}/>)}</div></section><section data-core-section="Team records" class="ar-news-archive ar-news-team rd-section" aria-labelledby="team-records-title"><h2 id="team-records-title">Team records</h2><div class="ar-news-archive-grid">{companyNews.slice(1).filter(item=>approvedNewsPlans[item.slug].category==='Team life').map(item=><AboutNewsRecord item={item} quiet showCategory={false}/>)}</div></section>
+  <section data-core-section="Workshop and industry visits" class="ar-news-archive ar-news-workshop rd-section" aria-labelledby="earlier-records-title"><h2 id="earlier-records-title">Workshop &amp; industry visits</h2><div class="ar-news-archive-grid">{companyNews.slice(1).filter(item=>approvedNewsPlans[item.slug].category==='Workshop & events').map(item=><AboutNewsRecord item={item} quiet showCategory={false}/>)}</div></section><section data-core-section="Team outings" class="ar-news-archive ar-news-team rd-section" aria-labelledby="team-records-title"><h2 id="team-records-title">Team outings</h2><div class="ar-news-archive-grid">{companyNews.slice(1).filter(item=>approvedNewsPlans[item.slug].category==='Team life').map(item=><AboutNewsRecord item={item} quiet showCategory={false}/>)}</div></section>
   <section class="rd-section ar-news-context"><nav class="ar-links" aria-label="Company information"><a href="/about/company-profile/">Company profile</a><a href="/about/how-we-work/">How we work</a><a href="/about/contact/">Contact LZZ</a></nav></section>
  </article>
 </Layout>
 <script>
  const archive=document.querySelector('.ar-news-index');
- if(archive){const buttons=archive.querySelectorAll<HTMLButtonElement>('[data-ar-news-filter]'),records=archive.querySelectorAll<HTMLElement>('[data-ar-news-category]'),status=archive.querySelector('.ar-news-count');buttons.forEach(button=>button.addEventListener('click',()=>{const selection=button.dataset.arNewsFilter;let count=0;buttons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));records.forEach(item=>{item.hidden=selection!=='all'&&item.dataset.arNewsCategory!==selection;if(!item.hidden)count++;});archive.querySelectorAll<HTMLElement>('.ar-news-feature,.ar-news-archive').forEach(group=>{group.hidden=[...group.querySelectorAll<HTMLElement>('[data-ar-news-category]')].every(item=>item.hidden);});if(status)status.textContent=count+(count===1?' update':' updates');}));}
+ if(archive){
+  const buttons=Array.from(archive.querySelectorAll<HTMLButtonElement>('[data-ar-news-filter]'));
+  const records=Array.from(archive.querySelectorAll<HTMLElement>('[data-ar-news-category]'));
+  const search=archive.querySelector<HTMLInputElement>('[data-news-search] input')!;
+  const status=archive.querySelector<HTMLElement>('.ar-news-count')!,empty=archive.querySelector<HTMLElement>('[data-news-empty]')!;
+  const resets=Array.from(archive.querySelectorAll<HTMLButtonElement>('[data-news-reset]'));
+  const notice=archive.querySelector<HTMLElement>('[data-news-notice]')!;
+  const normalize=(text:string)=>text.toLowerCase().replace(/\s+/g,' ').trim();
+  const searchable=new Map(records.map(record=>[record,normalize(record.textContent||'')]));
+  let category='all';
+  function render(){
+   const words=normalize(search.value).split(' ').filter(Boolean);let count=0;
+   buttons.forEach(button=>{button.disabled=false;button.setAttribute('aria-pressed',String(button.dataset.arNewsFilter===category));});
+   records.forEach(record=>{record.hidden=(category!=='all'&&record.dataset.arNewsCategory!==category)||!words.every(word=>searchable.get(record)!.includes(word));if(!record.hidden)count++;});
+   archive!.querySelectorAll<HTMLElement>('.ar-news-feature,.ar-news-archive').forEach(group=>{group.hidden=Array.from(group.querySelectorAll<HTMLElement>('[data-ar-news-category]')).every(record=>record.hidden);});
+   status.textContent=count+(count===1?' update':' updates')+(search.value?' matching “'+search.value+'”':'');empty.hidden=count!==0;
+   resets[0].hidden=category==='all'&&!search.value;
+  }
+  function save(replace=false){
+   const url=new URL(location.href);url.searchParams.delete('category');url.searchParams.delete('q');
+   if(category!=='all')url.searchParams.set('category',category);if(search.value)url.searchParams.set('q',search.value);
+   try{replace?history.replaceState(null,'',url.pathname+url.search+url.hash):history.pushState(null,'',url.pathname+url.search+url.hash);notice.hidden=true;}
+   catch{notice.hidden=false;notice.textContent='Filters apply on this page. Your browser could not update the link.';}
+  }
+  function restore(){
+   const params=new URLSearchParams(location.search),selected=params.get('category')||'all';
+   category=buttons.some(button=>button.dataset.arNewsFilter===selected)?selected:'all';search.value=(params.get('q')||'').slice(0,160);
+   search.disabled=false;notice.hidden=selected===category;
+   if(!notice.hidden)notice.textContent='The linked category is unavailable. Showing all categories.';
+   render();
+  }
+  buttons.forEach(button=>button.addEventListener('click',()=>{category=button.dataset.arNewsFilter!;render();save();}));
+  search.addEventListener('input',()=>{render();save(true);});
+  archive.querySelector('[data-news-search]')?.addEventListener('submit',event=>event.preventDefault());
+  resets.forEach(button=>button.addEventListener('click',()=>{search.value='';category='all';render();save();search.focus({preventScroll:true});}));
+  window.addEventListener('popstate',restore);restore();
+ }
 </script>

@@ -28,7 +28,7 @@ const groups=[
   {question:'What do the machining examples show?',answer:"Workshop photographs show part features and setups, not customer inspection or performance results.",href:'/machined-parts/machining-examples/',label:'Browse machining examples'},
  ]},
 ];
-const quoteHref='/quote/?'+new URLSearchParams({part:'Custom CNC machining FAQ follow-up'}).toString();
+const quoteHref='/quote/?'+new URLSearchParams({part:'Custom CNC machining FAQ follow-up',source:Astro.url.pathname}).toString();
 ---
 {isRedesigned(Astro.url.pathname)?<ResourceFaqRedesign/>:<Layout title="CNC machining FAQ" description="Quick answers about CNC machining quotes, minimum order, timing, specifications, inspection and delivery, with links to the detailed requirements." cta={false}>
  <article class="res-page res-faq res-faq-slim">

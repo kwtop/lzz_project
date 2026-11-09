@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build && node scripts/optimize-css.mjs && node scripts/build-seo.mjs",
+    "build": "node scripts/generate-backend-catalog.mjs && astro build && node scripts/optimize-css.mjs && node scripts/build-seo.mjs",
     "test:css": "node --test scripts/optimize-css.test.mjs",
     "build:seo": "node scripts/build-seo.mjs",
     "build:images": "node scripts/generate-responsive-images.mjs",
@@ -14,25 +14,42 @@
     "import:content": "node scripts/import-content.mjs",
     "check": "astro check",
     "test:site": "node scripts/verify.mjs",
-    "test:refinement": "node scripts/verify-refinement.mjs"
+    "test:inquiry": "node scripts/verify-inquiry-context.mjs && node scripts/verify-inquiry-submission.mjs",
+    "test:teaching": "node --test scripts/teaching-example.test.mjs",
+    "check:backend": "tsc --noEmit -p server/tsconfig.json",
+    "test:backend": "node --test tests/*.test.mjs",
+    "setup:backend": "node scripts/setup-local-backend.mjs",
+    "db:local": "wrangler d1 migrations apply DB --local --persist-to .wrangler/state",
+    "dev:backend": "wrangler pages dev dist --port 8788 --ip 127.0.0.1 --persist-to .wrangler/state",
+    "test:admin-ui": "node --test tests/admin-ui.test.mjs",
+    "test:quote-ui": "node --test tests/quote-ui.test.mjs",
+    "test:analytics-ui": "node --test tests/analytics-ui.test.mjs",
+    "test:backend-http": "node scripts/verify-backend-http.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^6.0.5",
     "@fontsource-variable/inter": "^5.2.0",
     "astro": "^7.3.1",
     "gsap": "^3.15.0",
+    "jose": "^6.2.13",
     "lucide-react": "^0.468.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
+    "@cloudflare/workers-types": "^5.20261022.1",
+    "@testing-library/react": "^16.3.3",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "cheerio": "^1.1.2",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.3",
+    "miniflare": "^5.20261012.1-beta",
     "playwright": "^1.55.0",
     "postcss": "8.5.28",
     "sharp": "^0.35.4",
-    "typescript": "^5.9.0"
+    "typescript": "^5.9.0",
+    "wrangler": "^4.151.1"
   }
 }

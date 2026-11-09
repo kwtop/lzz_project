@@ -1,4 +1,5 @@
 import catalog from './catalog.json';
+import {productGuideResources} from './productTechnicalGuides';
 import { resourceDeliverySections } from './resourceDeliverySections';
 import {photo} from './evidence';
 import {companyNews} from './companyNews';
@@ -8,6 +9,7 @@ import {cncProcessDescription} from './cncProcessGuide';
 import {aluminumAlloyGuide,aluminumAlloyMetadata} from './aluminumAlloyGuide';
 import {materialFinishGuide,materialFinishDescription} from './materialFinishGuide';
 import {drawingFeaturesGuide,drawingFeaturesDescription} from './drawingFeaturesGuide';
+import {resourceSearchCopy} from './resourceSearchReview';
 import type {Guide} from './contentGuides';
 
 const expandedGuides:Record<string,Guide>={'6061-vs-7075-cnc-aluminum':aluminumAlloyGuide,'material-and-finish-checklist':materialFinishGuide,'critical-features-cnc-drawing':drawingFeaturesGuide};
@@ -105,8 +107,10 @@ export const resources:Resource[]=[
  ${illustrativeFigure('surface-finish-coupons-illustrative-v1','Visual comparison of several generic machined surface-finish coupons')}
  <h2>Record the requirements in your RFQ</h2><p>Record material, finish, inspection and traceability in your <a href="/resources/ordering/rfq-checklist/">RFQ package</a>, using the <a href="/factory/#quality">quality checklist</a> to check the details before you <a href="/quote/">prepare an inquiry</a>.</p>`},
  technical,
- ...companyNews
+ ...companyNews,
+ ...productGuideResources
 ].map(resource => ({ ...resource,
  ...(resource.slug==='cnc-process-selection'?{description:cncProcessDescription}:resource.slug==='material-and-finish-checklist'?{description:materialFinishDescription}:resource.slug==='critical-features-cnc-drawing'?{description:drawingFeaturesDescription}:{}),
  html:expandedGuides[resource.slug]?'<p>'+expandedGuides[resource.slug].intro+'</p>'+expandedGuides[resource.slug].sections.map(section=>'<h2 id="'+section.id+'">'+section.title+'</h2>'+section.html).join(''):(resourceDeliverySections[resource.slug] || '') + resource.html,
+ ...(resourceSearchCopy[resource.slug]?{description:resourceSearchCopy[resource.slug].description}:{}),
 }));

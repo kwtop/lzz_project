@@ -21,8 +21,8 @@ export const partTask=(id:string)=>{
  if(['P26','P27','P28','P30','P33','P34'].includes(id))return 'batch';
  return 'part';
 };
-export const orderProduction='7-14 business days after drawing and order confirmation, including finishing. Shipping time is additional; the quotation confirms the schedule. Sample reconstruction and drawing approval are separate.';
-export const taskHeadings:Record<string,string>={part:'Features to define',forms:'Choose the form, then define the interfaces',casting:'Define the blank and the finished part',assembly:'Define the components you need',batch:'Define the part and each release'};
+export const orderProduction="Production takes 7-14 business days from drawing and order confirmation, including finishing. Allow additional time for shipping. Your quotation confirms the schedule; sample reconstruction and drawing approval are timed separately.";
+export const taskHeadings:Record<string,string>={part:'Features and requirements',forms:'Choose the form and its interfaces',casting:'The blank and finished part',assembly:'Components in the order',batch:'The part and each release'};
 export const companyApplicationDescriptions:Record<string,string>={
  'custom-oem-high-precision-cnc-milling-manufacturer':'Instrument blocks, brackets and housings with mounting interfaces, bores and internal passages.',
  'global-oem-precision-machining-solutions':'Custom valve bodies, fittings and mechanical interfaces for hydraulic tools and equipment assemblies.',
@@ -31,11 +31,11 @@ export const companyApplicationDescriptions:Record<string,string>={
 };
 export const productApplicationContexts=(slug:string)=>(partUseContexts[slug]||[]).map(c=>({...c,description:companyApplicationDescriptions[slug]}));
 export const taskScope=(task:string,kind:string)=>{
- if(task==='assembly')return 'Identify the machined components, purchased or customer-supplied items, joining and fasteners in the assembly drawing. Agree acceptance after assembly. Pressure, leakage, actuation, flow and cooling tests each need a procedure, limits and a responsible party.';
- if(task==='casting')return 'Distinguish the blank model and finished model, machining allowance and datum targets. Agree the blank supplier, incoming acceptance, permitted variation, retained cast surfaces and responsibility for rejected blanks. An incomplete definition requires a separate drawing-approval stage.';
- if(task==='batch')return 'List each part number, approved revision, material condition, finish, release quantity and requested date. Identify shared interfaces and change authority. Agree first-article checks, later sampling, traceability and nonconforming-part handling. State forecast demand and firm release quantities separately.';
- if(kind==='pin')return 'Define the engagement pin, mounting thread, adjustment hardware and handle required by the assembly. Include any internal spring, travel and force requirements, with separate actuation and cycle-test criteria.';
- if(task==='forms')return 'For a quote, identify the component in this group and send its controlled drawing. Identify the material and specification for each part being quoted.';
+ if(task==='assembly')return 'The assembly drawing identifies machined components, purchased or customer-supplied items, joining and fasteners. It also sets acceptance after assembly. Pressure, leakage, actuation, flow and cooling tests each need a procedure, limits and a responsible party.';
+ if(task==='casting')return 'Blank and finished models identify machining allowance and datum targets. The order sets the blank supplier, incoming acceptance, permitted variation, retained cast surfaces and responsibility for rejected blanks. Missing geometry needs a separate drawing-approval stage.';
+ if(task==='batch')return 'Each part number needs an approved revision, material condition, finish, release quantity and requested date, with shared interfaces and change authority identified. The order sets first-article checks, later sampling, traceability and nonconforming-part handling. Forecast demand stays separate from firm release quantities.';
+ if(kind==='pin')return 'The assembly specification identifies the engagement pin, mounting thread, adjustment hardware and handle. It includes any internal spring, travel and force requirements, with separate actuation and cycle-test criteria.';
+ if(task==='forms')return 'Choose the component you need quoted and provide its controlled drawing, material and specification.';
  return '';
 };
 

@@ -1,0 +1,31 @@
+/* Product guides extend the approved Penta reading layout without changing older articles. */
+body.redesign-site[data-penta-sample][data-page-template][data-visual-system][data-inner-layout="penta"] {
+ .rs-product-guide .pi-guide-cover img {width:100%;height:auto;max-height:none;aspect-ratio:4/3;object-fit:contain;background:var(--pn-paper);border-radius:20px}
+ .pg-diagram {margin:36px 0 0;padding:0;width:100%;min-width:0}
+ .pg-diagram>svg {display:block;width:100%;height:auto;border:1px solid var(--border);border-radius:12px;background:#F0EEEA;stroke:#3D494D;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;fill:#F5F3EF}
+ .pg-diagram svg text {stroke:none;fill:#AC4829;font:700 24px var(--heading)}
+ .pg-diagram .pg-face {fill:#E2E6E5}
+ .pg-diagram .pg-side {fill:#CDD5D6}
+ .pg-diagram .pg-recess {fill:#F5F3EF}
+ .pg-diagram .pg-detail {fill:none;stroke:#65777D}
+ .pg-diagram .pg-leader {fill:none;stroke:#AC4829;stroke-width:1.8}
+ .pg-diagram .pg-axis {fill:none;stroke:#65777D;stroke-width:1.5;stroke-dasharray:10 5 2 5}
+ .pg-diagram .pg-accent {fill:none;stroke:#AC4829;stroke-width:3}
+ .pg-diagram .pg-mask {fill:#D7E4EA;stroke:#48738B}
+ .pg-diagram .pg-stock {fill:url(#pg-hatch-casting);stroke:#65777D;stroke-dasharray:7 5}
+ .pg-diagram .pg-hatch {stroke:#C9C8C1;stroke-width:1}
+ .pg-diagram .pg-blade {fill:#D5DFE1;stroke:#536970}
+ .pg-diagram>figcaption {font:400 14px/1.65 var(--body);color:var(--muted);margin:16px 0 0}
+ .pg-scale {display:block;margin-top:6px;font-size:12px}
+ .pg-diagram .pg-diagram-legend {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;margin:22px 0 0;padding:20px 0 0;border-top:1px solid var(--border)}
+ .pg-diagram-legend li {font:400 14px/1.6 var(--body);margin:0;min-width:0}
+ .rh-technical>header {max-width:68ch;margin-bottom:32px}
+ .rh-technical .pi-guide-card h3 {font:700 30px/1.2 var(--heading);margin:0 0 16px}
+ .rh-product-guides .pi-guide-card .pi-visual img {height:auto;aspect-ratio:4/3;object-fit:contain}
+ @media(max-width:767px) {
+  .pg-diagram {margin-top:28px}
+  .pg-diagram .pg-diagram-legend {grid-template-columns:minmax(0,1fr);gap:14px;margin-top:18px;padding-top:18px}
+  .pg-diagram>figcaption,.pg-diagram-legend li {font-size:14px}
+  .rh-technical .pi-guide-card h3 {font-size:27px}
+ }
+}

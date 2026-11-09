@@ -7,15 +7,28 @@ const {id,title,description,headingLevel='h3',showHeading=true}=Astro.props,clip
  {showHeading?<Heading id={'video-title-'+id}>{title}</Heading>:<span id={'video-title-'+id} class="pd-anchor"/>}
  <details class="ps-source-record"><summary>Workshop video <span>{Math.round(clip.duration)} sec</span></summary>
   <p class="pd-small" id={'video-description-'+id}>{description}</p>
-  <figure data-image-origin="original-video"><video controls playsinline muted preload="none" poster={clip.poster} width={clip.width} height={clip.height} aria-label={title} aria-describedby={'video-description-'+id} data-source-video><source src={clip.src} type="video/mp4"/>Your browser does not support this video.</video><p class="pd-small" role="status" hidden data-video-error>Playback is unavailable.</p></figure>
+  <figure data-image-origin="original-video"><video controls playsinline muted preload="none" poster={clip.poster} width={clip.width} height={clip.height} aria-label={title} aria-describedby={'video-description-'+id} data-source-video><source src={clip.src} type="video/mp4"/>Your browser does not support this video.</video>
+   <div class="site-video-feedback" data-video-loading role="status" hidden><span class="site-state-spinner" aria-hidden="true"></span><p>Loading workshop video…</p></div>
+   <div class="site-video-feedback" data-video-error role="status" hidden><p data-video-error-message>The video could not be loaded. Check your connection and try again.</p><button type="button" data-video-retry>Retry video</button><a href={clip.src} target="_blank" rel="noopener noreferrer">Open video file</a></div>
+  </figure>
  </details>
 </section>
 <script>
  for(const video of document.querySelectorAll<HTMLVideoElement>('[data-source-video]')){
-  const details=video.closest('details');
-  details?.addEventListener('toggle',()=>{if(!details.open)video.pause();});
-  const showError=()=>{const error=video.closest('figure')?.querySelector<HTMLElement>('[data-video-error]');if(error)error.hidden=false;};
-  video.addEventListener('error',showError);
-  video.querySelector('source')?.addEventListener('error',showError);
+  const details=video.closest('details'),figure=video.closest('figure')!;
+  const error=figure.querySelector<HTMLElement>('[data-video-error]')!,loading=figure.querySelector<HTMLElement>('[data-video-loading]')!;
+  const message=figure.querySelector<HTMLElement>('[data-video-error-message]')!;
+  let timer:ReturnType<typeof setTimeout>|undefined;
+  const stopLoading=()=>{if(timer)clearTimeout(timer);timer=undefined;loading.hidden=true;video.removeAttribute('aria-busy');};
+  const showError=(text='The video could not be loaded. Check your connection and try again.')=>{stopLoading();message.textContent=text;error.hidden=false;};
+  const startLoading=()=>{error.hidden=true;loading.hidden=false;video.setAttribute('aria-busy','true');if(!timer)timer=setTimeout(()=>showError('The video is taking longer to load. Check your connection and retry.'),20000);};
+  details?.addEventListener('toggle',()=>{if(!details.open){video.pause();stopLoading();}});
+  video.addEventListener('loadstart',startLoading);video.addEventListener('waiting',startLoading);
+  for(const event of ['canplay','playing','pause','ended'])video.addEventListener(event,stopLoading);
+  video.addEventListener('error',()=>showError());video.querySelector('source')?.addEventListener('error',()=>showError());
+  figure.querySelector('[data-video-retry]')?.addEventListener('click',()=>{
+   startLoading();video.load();
+   video.play().catch(reason=>{if(reason?.name!=='AbortError')showError('Playback could not start. Try the Play control or open the video file.');});
+  });
  }
 </script>

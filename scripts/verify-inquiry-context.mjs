@@ -2,26 +2,28 @@ import assert from 'node:assert/strict';
 import {inquiryHref,resolveInquiry} from '../src/lib/inquiryContext.ts';
 
 const references=[
- {id:'example-a',title:'Runner interfaces',legacyName:'Long source product title A',aliases:['Previous runner label'],path:'/products/example-a/',kind:'product'},
- {id:'example-b',title:'Fuel-rail interfaces',legacyName:'Long source product title B',path:'/products/example-b/',kind:'product'},
- {id:'milling',title:'CNC milling',legacyName:'CNC Milling Service',path:'/capabilities/milling/',kind:'capability'},
+ {id:'example-a',title:'Runner interfaces',path:'/machined-parts/gallery/example-a/',kind:'product',partType:'impellers',processes:['multi-axis']},
+ {id:'example-b',title:'Fuel-rail interfaces',path:'/machined-parts/gallery/example-b/',kind:'product'},
+ {id:'milling',title:'CNC milling',path:'/capabilities/milling/',kind:'capability'},
 ];
 const resolve=search=>resolveInquiry(search,references);
 const first=resolve(new URL(inquiryHref(references[0]),'https://example.test').search);
 assert.equal(first.part,'Runner interfaces');
-assert.equal(first.reference.path,'/products/example-a/');
-assert.notEqual(first.storageKey,resolve('?product=example-b').storageKey);
-assert.notEqual(first.storageKey,resolve('?part=product:example-a').storageKey);
-assert.equal(first.storageKey,resolve('?part=Long%20source%20product%20title%20A').storageKey);
-assert.equal(first.storageKey,resolve('?part=Previous%20runner%20label').storageKey);
-assert.equal(resolve('?part=Previous%20runner%20label').part,'Runner interfaces');
+assert.equal(first.reference.id,'example-a');
+assert.equal(first.source,references[0].path);
+assert.equal(first.reference.partType,'impellers');
+assert.deepEqual(first.reference.processes,['multi-axis']);
 assert.equal(resolve('?capability=milling').part,'CNC milling');
-assert.equal(resolve('?product=example-a&part=Incorrect&source=https://untrusted.test/').reference.path,'/products/example-a/');
-assert.equal(resolve('?product=missing&part=Runner%20interfaces&source=javascript:alert(1)').reference,undefined);
-assert.equal(resolve('?product=missing&part=Previous%20runner%20label').reference,undefined);
+assert.equal(resolve('?product=example-a&part=Wrong').part,'Runner interfaces');
+assert.equal(resolve('?product=missing&part=Runner%20interfaces').reference,undefined);
 assert.equal(resolve('?part=General%20question').part,'General question');
-assert.equal(resolve('').part,'');
-assert(first.legacyKeys.includes('lzz:inquiry:v1:'+encodeURIComponent(references[0].legacyName)));
-assert(first.legacyKeys.includes('lzz:inquiry:v1:'+encodeURIComponent(references[0].aliases[0])));
-assert.equal(resolve('?part='+'x'.repeat(1500)).part.length,1200);
-console.log('Inquiry context: identity, legacy links, isolation and untrusted-source checks passed.');
+assert.equal(resolve('?part='+'x'.repeat(500)).part.length,200);
+assert.deepEqual(resolve(''),{reference:undefined,part:'',source:''});
+assert.equal(resolve('?part=Machining%20fit&source='+encodeURIComponent('/factory/#equipment')).source,'/factory/#equipment');
+assert.equal(resolve('?source='+encodeURIComponent('/resources/engineering/6061-vs-7075-machined-parts/')).source,'/resources/engineering/6061-vs-7075-machined-parts/');
+for(const source of ['https://outside.invalid/','//outside.invalid/','javascript:alert(1)','/\\outside.invalid/','/%2f%2foutside.invalid/','/factory/?next=outside','/factory/#<script>','data:text/html,test']) {
+ assert.equal(resolve('?source='+encodeURIComponent(source)).source,'',source);
+ assert.equal(resolve('?product=example-a&source='+encodeURIComponent(source)).source,references[0].path,source);
+}
+assert.equal(resolve('?part=Name%00%0aValue').part,'NameValue');
+console.log('Inquiry context: current IDs, topics, page/section sources and unsafe-source rejection passed.');

@@ -4,8 +4,9 @@ import {capabilityIntros,capabilityHeroPart} from '../data/capabilityRebuild';
 import PentaInnerHero from './PentaInnerHero.astro';
 import {capabilityOpeningCopy,capabilityFeatureLabels} from '../data/readingPolish';
 import {capabilityDecisions} from '../data/capabilityDecisions';
-interface Props {page:RevisedCapability;material?:boolean;quoteHref:string;featureHref?:string}
-const {page,material=false,quoteHref,featureHref}=Astro.props;
+import type {InteriorImage} from '../data/pentaInteriors';
+interface Props {page:RevisedCapability;material?:boolean;quoteHref:string;featureHref?:string;featureLabel?:string;image?:InteriorImage}
+const {page,material=false,quoteHref,featureHref,featureLabel,image}=Astro.props;
 const part=capabilityHeroPart(page.slug);
 ---
-<PentaInnerHero title={page.plan.title} lead={capabilityDecisions[page.slug]?.lead||capabilityOpeningCopy[page.slug]||capabilityIntros[page.slug]} slug={page.slug} part={part} quoteHref={quoteHref} secondaryHref={featureHref||(material?'#materials-finishes':'#geometry-review')} secondaryLabel={capabilityFeatureLabels[page.slug]||(material?'Compare grades & finishes':'Explore the part features')}/>
+<PentaInnerHero title={page.plan.title} lead={capabilityDecisions[page.slug]?.lead||capabilityOpeningCopy[page.slug]||capabilityIntros[page.slug]} slug={page.slug} part={part} quoteHref={quoteHref} image={image} secondaryHref={featureHref||(material?'#materials-finishes':'#geometry-review')} secondaryLabel={featureLabel||capabilityFeatureLabels[page.slug]||(material?'Compare grades & finishes':'Explore the part features')}/>

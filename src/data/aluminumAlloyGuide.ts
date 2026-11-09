@@ -13,150 +13,124 @@ export const aluminumAlloyMetadata={
  slug:'6061-vs-7075-cnc-aluminum',
  title:'6061 vs 7075 aluminum for CNC parts',
  category:'Material selection',
- description:'Choose between 6061 and 7075 aluminum for CNC parts by strength, stiffness, temper, corrosion, finishing and cost, with practical part examples.',
+ description:'Choose 6061 or 7075 for CNC parts by load, stiffness, temper, corrosion and finish. Compare material requirements before preparing the drawing.',
 };
 
 export const aluminumAlloyGuide:Guide={
  title:aluminumAlloyMetadata.title,
- intro:'6061 is a useful starting point for many machined housings and brackets. Consider 7075 when a strength requirement justifies it, then check the temper, environment and finished interfaces. The better choice follows what the part must do.',
+ intro:"6061 is a starting point when its strength and finish suit the part and its environment. 7075 may help where a loaded section needs more strength within limited space. The alloys have similar elastic stiffness, so excessive wall deflection usually needs a geometry review too.",
  visual:'materials',
- closing:'Discuss the alloy and finished condition',
+ closing:'Discuss the alloy for your part',
  sections:[
   {
-   id:'alloy-comparison',title:'When should you choose 6061 or 7075?',
+   id:'alloy-comparison',title:'Strength, deflection and appearance',
    html:p(
-    'Begin with the requirement that is hardest to meet. A housing may need stable mounting faces and an acceptable anodized appearance. A compact loaded bracket may be limited by the stress around a bore. Those are different selection problems, even if both components fit inside the same stock size.',
-    'Select the alloy and temper against the actual load case, stock specification and finished-part requirements.'
+    "A broad housing cover may be limited by deflection or appearance. A compact loaded bracket may be limited by stress around a bore. Both need an alloy, temper and stock form suited to the requirement that governs the design."
    )+guideTable('6061 and 7075 selection questions',['Decision','6061','7075'],[
-    ['Strength','Often a practical starting point where the specified strength is sufficient.','Worth reviewing when higher strength is needed within a restricted section.'],
-    ['Elastic stiffness','Check deflection through geometry as well as material.','Higher strength does not bring a comparable increase in elastic stiffness.'],
-    ['Corrosion environment','Good general corrosion resistance; check the exposure and assembly.','Review protection, sustained stress and the specified temper together.'],
-    ['Joining','A more usual choice for assemblies requiring conventional welding.','Do not assume a conventional fusion-welding route is suitable.'],
-    ['Finished appearance','Often considered for anodized machined parts.','Anodizing is possible, but appearance needs its own acceptance reference.'],
-    ['Procurement','Specify grade, temper, product form and required records.','Use the same controls; a grade number alone leaves important decisions open.'],
+    ['Strength','A practical starting point when the specified condition meets the load.','A candidate when higher strength is needed within a restricted section.'],
+    ['Elastic stiffness','Deflection still depends strongly on the part geometry.','Higher strength brings only a modest change in elastic modulus.'],
+    ['Corrosion exposure','Good general corrosion resistance; assembly and exposure still matter.','Protection, sustained stress and temper need attention together.'],
+    ['Joining','A common choice for conventional welded assemblies.','Conventional fusion welding needs a separate suitability assessment.'],
+    ['Anodized appearance','Often used for anodized machined parts.','Can be anodized; colour needs its own appearance reference.'],
+    ['Purchasing','Alloy, temper, product standard, stock form and required records.','The same information is needed; the alloy number alone is incomplete.'],
    ])+p(
-    'Kaiser Aluminum publishes separate technical data for '+a('6061 sheet, coil and plate',kaiser+'1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf')+' and '+a('7075 rod and bar',kaiser+'1028/Kaiser_Aluminum_7075_Rod_and_Bar.pdf')+'. Their typical properties and comparative ratings help explain the differences, but are not guaranteed design allowables for every size or product form.'
+    'Kaiser Aluminum publishes separate data for '+a('6061 sheet, coil and plate',kaiser+'1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf')+' and '+a('7075 rod and bar',kaiser+'1028/Kaiser_Aluminum_7075_Rod_and_Bar.pdf')+'. Typical properties explain the comparison; they are not guaranteed design allowables for every product form or size.'
    ),
   },
   {
-   id:'strength-and-stiffness',title:'Is 7075 stronger, stiffer or lighter?',
+   id:'strength-and-stiffness',title:'Separate strength from deflection',
    html:p(
-    'Strength describes resistance to yielding or failure under a stated condition. Stiffness describes how much a component deflects while it remains elastic. Changing alloy can help a strength-limited part without solving a deflection problem.',
-    'For context, Kaiser’s rod and bar data list typical elastic moduli of 68.3 GPa for 6061 and 71.0 GPa for 7075. In the same data, typical yield strength for T6/T651 is 276 MPa for 6061 and 503 MPa for 7075. These are published comparison values, not minimum purchase requirements or design allowables for your part. See the '+a('6061 rod and bar data',kaiser+'1025/Kaiser_Aluminum_6061_Rod_and_Bar.pdf')+' alongside the 7075 data linked above.'
-   )+h('Apply that distinction to a thin housing',
-    'When a broad wall bends as the cover is tightened, review its unsupported span, thickness, ribs and fastener arrangement. Check a proposed geometry change against tool access, internal volume and the mating cover. Higher strength alone leaves the stiffness problem unresolved.',
-    'Compare the weight of finished designs that meet the required load and deflection. Material removal must preserve the working sections, joints and assembly interfaces.'
+    'Strength concerns yielding or failure under a stated load. Stiffness concerns elastic deflection. A stronger alloy can help a strength-limited section while leaving a bending problem largely unchanged.',
+    'Kaiser’s '+a('6061 rod and bar data',kaiser+'1025/Kaiser_Aluminum_6061_Rod_and_Bar.pdf')+' list a typical elastic modulus of 68.3 GPa; its 7075 data list 71.0 GPa. The typical T6/T651 yield values are 276 MPa and 503 MPa respectively. These brochure values are comparisons, not minimum purchase requirements or part design allowables.'
+   )+h('When a thin housing bends',
+    'The unsupported span, wall thickness, ribs and fastener arrangement affect how a cover or wall moves. A geometry change also has to fit the internal space, mating cover and available tool access. Compare the weight of finished designs that meet both load and deflection requirements; removing material cannot sacrifice the working section or joint.'
    ),
   },
   {
-   id:'temper-and-stock',title:'Why do T6, T651 and product form matter?',
+   id:'temper-and-stock',title:'Put temper and product form on the specification',
    html:p(
-    'An alloy designation identifies a composition family; the temper describes its processing condition. “6061 aluminum” is therefore less complete than a specification naming the alloy, temper, product standard and stock form. A drawing released for one condition should not silently become an order for another.',
-    'T6 and T651 are not interchangeable labels. T651 includes a '+a('stretching stress-relief treatment','https://www.bikar.com/fileadmin/Unterlagen_BIKAR/Unterlagen_BIKAR_eng/2024-complete-en.pdf#page=4')+' as part of the specified condition. Its relevance must be checked against the applicable product specification. Plate, extruded bar and other forms can have different dimensional ranges and requirements.'
-   )+h('7075-T6 and 7075-T73 answer different questions',
-    'Kaiser’s 7075 data distinguish the higher typical strength of T6/T651 from the improved stress-corrosion resistance of T73/T7351. Choosing between them needs the loading, environment and design requirements. T73 is not an automatic improvement on every property, and a supplier should not substitute it without the required approval.',
-    'Use the manufacturer’s '+a('7075 sheet, coil and plate data',kaiser+'1017/Kaiser_Aluminum_7075_Sheet_Coil_and_Plate.pdf')+' for that product family, then obtain the applicable requirements and records for the material actually being purchased. Typical brochure values and a batch material certificate serve different purposes.'
+    "“6061 aluminum” identifies the alloy. The temper describes its processing condition; the product standard and stock form complete the purchasing requirement. Plate and extruded bar can have different size ranges and property requirements.",
+    'T651 includes '+a('stress relief by stretching','https://www.bikar.com/fileadmin/Unterlagen_BIKAR/Unterlagen_BIKAR_eng/2024-complete-en.pdf#page=4')+'. It is not an interchangeable label for T6: the applicable product specification and approval requirements still govern any substitution.'
+   )+h('7075-T6 and 7075-T73',
+    'Kaiser’s 7075 data distinguish the higher typical strength of T6/T651 from the improved stress-corrosion resistance of T73/T7351. The choice depends on loading and environment. A temper change can improve one property while reducing another, so it needs design approval.',
+    'The '+a("7075 sheet, coil and plate data sheet",kaiser+'1017/Kaiser_Aluminum_7075_Sheet_Coil_and_Plate.pdf')+' covers a different product family from rod and bar. The material actually purchased needs the applicable specification and batch records; a brochure and a material certificate serve different purposes.'
    ),
   },
   {
-   id:'housing-selection-example',title:'A pocketed enclosure: what should decide the alloy?',
+   id:'housing-selection-example',title:'For a pocketed enclosure, start at the working faces',
    html:p(
-    'The '+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+' shows the walls, recesses and mounting features to consider when selecting an alloy. Base the choice between 6061 and 7075 on the required load, deflection, environment and finished interfaces.',
-    'For a new enclosure of this general form, start with the mounting, sealing or cover interfaces. Which faces locate the assembly? Does a wall carry a load, or mainly protect the contents? Is a finished bore a press fit, a sliding fit or clearance for a fastener? Those answers determine which material properties and dimensions need attention.'
-   )+h('Separate the choices that the alloy can influence',
-    'A strength calculation supports alloy selection for a loaded section. For excessive assembly deflection, review the section geometry and support. Where appearance governs the choice, set the treatment and visual acceptance before ordering material.',
-    'The enclosure needs support as its pockets are opened. Review stock condition, workholding and the inspection state alongside the alloy choice.'
-   ),
+    'The '+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+' shows recesses, walls and mounting features. A new enclosure of this form needs a clear distinction between faces that locate or seal, a loaded wall, and a wall that mainly protects the contents.',
+    'A press fit, sliding fit and fastener-clearance bore require different limits. The load calculation supports a strength choice; span and support address wall movement. An appearance-led part needs a treatment and visual reference before material is ordered.',
+    'Opening the pockets changes how the component can be supported. Stock condition, workholding and the inspection state belong beside the alloy decision.'
+   )+p('After choosing the grade and temper, review the '+a('enclosure’s wall support and pocket access',guides+'designing-aluminum-enclosures-for-cnc-machining/')+'. A stronger alloy still leaves the cutter with the same corner and reach constraints. The closure fit and any final surface treatment need to remain connected to the chosen geometry.'),
    photos:[
     {id:'milling-enclosure-operation',caption:'Pocketed component in a holding arrangement · original LZZ workshop photograph; alloy not established by the image'},
     {id:'milling-enclosure-parts',caption:'Associated recessed component forms · original LZZ source photograph'},
    ],
   },
   {
-   id:'loaded-features-example',title:'A compact bracket or bore needs a load path',
+   id:'loaded-features-example',title:'Follow the load through a bracket or bore',
    html:p(
-    'A small loaded part can make a stronger alloy attractive when there is little room to increase the section. The useful question is where the load enters, how it crosses the component and where it leaves. A bore, fastener seat or thin ligament may govern the design more than the outside size.',
-    'The '+a('multi-feature part examples',studies+'custom-metal-parts-batch-examples/')+' show how faces and holes serve different assembly functions. Identify the bearing or pin interface, surrounding section and locating faces, then select the alloy against the required load and fit.'
-   )+h('Joint design and material strength',
-    'A threaded connection also depends on the thread size, engagement, mating material and assembly load. A pin connection may be governed by bearing contact or the fit. The responsible designer needs those conditions before deciding whether 6061 is sufficient or 7075 is justified.',
-    'Record the outcome as measurable requirements. The '+a('drawing and critical-feature guide',guides+'critical-features-cnc-drawing/')+' connects the selected interfaces to datums, tolerances and inspection.'
+    'A stronger alloy becomes useful when the available section cannot meet the load requirement. The governing section may be a bore, fastener seat or thin ligament. Its outside dimensions alone do not establish the load path.',
+    'In the '+a('multi-feature part examples',studies+'custom-metal-parts-batch-examples/')+', faces and holes serve different assembly functions. A threaded joint also depends on thread size, engagement, mating material and assembly load; a pin joint may depend on bearing contact and fit.',
+    'Once the load and fit requirements are established, the '+a('drawing guide',guides+'critical-features-cnc-drawing/#teaching-example')+' shows how to connect a feature callout to an inspection result.'
+   )+p('A '+a('billet intake manifold',guides+'specifying-a-billet-intake-manifold-for-machining/')+' adds another set of interface questions: flange alignment, internal passage access and the construction of any split joint. Material selection belongs with that component and assembly definition, together with any separately specified operating tests.'),
+  },
+  {
+   id:'environment-and-welding',title:'Exposure and joining can settle the choice',
+   html:p(
+    'Moisture, cleaning fluids, trapped liquid and contact with dissimilar metals affect the assembly. A wet, continuously stressed connection needs a different assessment from a dry covered part. Protected and bare surfaces, as well as electrical continuity, can change the finishing requirements.',
+    '6061 is commonly used where corrosion resistance and welding matter. Welding can reduce T6 strength in the weld region, so the joint still needs its own design and qualification. Hydro’s '+a('Alloy 6061 technical sheet','https://www.hydro.com/Document/Index?id=560718&name=Alloy+6061.pdf')+' explains both the welding and corrosion considerations.',
+    'A welded 6061 design cannot simply inherit the same joining assumptions after a change to 7075. Conventional fusion welding requires a separate suitability assessment. Bolted joints instead need their fit, preload and corrosion requirements addressed.'
    ),
   },
   {
-   id:'environment-and-welding',title:'Corrosion exposure and welding can change the choice',
+   id:'anodizing-and-interfaces',title:'Treat colour and final fit as separate requirements',
    html:p(
-    'Describe outdoor exposure, cleaning fluids, trapped moisture and contact with other metals. Include whether a stressed feature stays wet and which surfaces receive protection.',
-    '6061 is commonly selected where corrosion resistance and welding are important. Welding can reduce strength in the heat-affected region of T6 material; the joint needs its own design and qualification. Hydro explains these points in its '+a('Alloy 6061 technical sheet','https://www.hydro.com/Document/Index?id=560718&name=Alloy+6061.pdf')+'.'
-   )+h('For 7075, keep the joining route explicit',
-    'Review a 7075 part\'s joining process before specifying conventional fusion welding. Bolted assemblies require their own fit, preload and corrosion requirements.',
-    'For either alloy, finish and assembly details still matter. Identify protected and unprotected surfaces, contact with dissimilar metals and any electrical continuity requirement. Give the finishing supplier and design engineer the same assembly information.'
+    'Both alloys can be anodized. The alloy, preparation and process affect the result, so an appearance sample should use the specified material and intended treatment. A black colour reference does not establish a bore size or coating requirement.',
+    'Anodizing converts the surface to oxide and changes finished dimensions. The '+a('Aluminum Anodizers Council FAQ','https://members.anodizing.org/page/anodized-aluminum-faq')+' explains that alloy and process affect growth, and gives different nominal relationships for Type II and hardcoat anodizing. The actual finishing process determines the machining allowance.'
+   )+h('Carry the final dimensions through finishing',
+    'For an anodized part, the drawing needs to say whether a bore limit applies before or after treatment. Masked bores, threads and contact faces should be identifiable. The '+a('material and surface-treatment guide',guides+'material-and-finish-checklist/#interfaces-and-dimensions')+' follows the effect on fits.'
    ),
   },
   {
-   id:'anodizing-and-interfaces',title:'Can both alloys be anodized?',
+   id:'machining-and-stability',title:'Distortion also depends on stock and workholding',
    html:p(
-    'For anodizing, specify the alloy, surface preparation, process and appearance standard together. Define the final dimensions of working bores and sealing faces separately from color.',
-    'Use an appearance sample made with the specified alloy and finishing process. Agree the color acceptance limits for the assembly against that sample.'
-   )+h('Keep finished dimensions beside the finish callout',
-    'Anodizing converts the surface to oxide and also changes the finished dimensions. The '+a('Aluminum Anodizers Council FAQ','https://members.anodizing.org/page/anodized-aluminum-faq')+' explains that dimensional change depends on the alloy and process, with different nominal growth relationships for Type II and hardcoat anodizing.',
-    'Mark bores, threads and contact faces that need masking or a controlled finished size. Agree the allowance for the actual finishing process. The '+a('material and surface-treatment guide',guides+'material-and-finish-checklist/#interfaces-and-dimensions')+' explains its effect on fits.'
+    'Thin walls and asymmetric pockets need a sequence suited to the stock condition and material removal. Stress-relieved stock is one part of that assessment; geometry, support and the order of operations still matter.',
+    'The '+a('two-operation milling example',studies+'two-stage-cnc-milling/')+' introduces the locating questions for a part that needs repositioning. Dimensions made in different setups must remain related after release from the fixture.',
+    'Flatness or shape acceptance needs a stated condition: free, under a specified restraint, or after an agreed treatment. The quoted route and any approved change should retain that finished tolerance and measurement condition.'
    ),
   },
   {
-   id:'machining-and-stability',title:'Will a different alloy solve machining distortion?',
+   id:'alloy-and-cost',title:'Compare complete finished parts',
    html:p(
-    'Thin walls and asymmetric pockets need a machining sequence suited to the stock condition and amount of material removed. Review workholding and the measurement state when setting housing flatness requirements.',
-    'The '+a('two-stage milling record',studies+'two-stage-cnc-milling/')+' shows why the holding sequence belongs in that discussion. For a new part, establish which surfaces support the second operation and which dimensions must remain related after the part is released.'
-   )+h('Discuss the finished condition before the quote',
-    'Where shape or flatness is critical, identify the working faces and whether acceptance applies with the part free or under an agreed restraint. If a treatment follows machining, specify the final inspection stage too. This gives the supplier a defined result to review.',
-    'Review stress-relieved stock together with geometry, workholding and the operation sequence. Record any changes in the drawing review and quotation, with the finished tolerance and acceptance method.'
+    'Compare prices for the same finished requirements, quantity and records. Stock form, machining allowance, setups, finishing and inspection can outweigh a small difference in finished weight.',
+    'Where both alloys suit the design, separate quotations against the same drawing show the cost difference. If a material change needs new geometry, compare the complete designs. The '+a('CNC machining cost guide','/resources/ordering/cnc-machining-cost-factors/')+' explains the other work behind the price.',
+    'A proposed substitute remains an alternative until approved. The released material and condition then carry through sample approval and repeat orders.'
    ),
   },
   {
-   id:'alloy-and-cost',title:'How should you compare the total cost?',
-   html:p(
-    'Compare the same finished requirement, quantity and records. The quote includes more than material per kilogram: stock form, machining allowance, setups, finishing and inspection can all change the work. A small weight reduction may have little value if the finished interfaces still require the same operations.',
-    'Where both alloys suit the design, request separate quotations against the same drawing and identify the permitted changes. If one alloy requires a geometry change, compare the complete finished designs.'
-   )+h('Keep an alternative separate from the released part',
-    'A supplier recommendation can explain a possible tradeoff, but the released specification still needs approval. Record the selected alloy and condition before production and carry them into sample approval and repeat orders. Read the '+a('CNC machining cost guide','/resources/ordering/cnc-machining-cost-factors/')+' for the other work behind the price.'
-   ),
-  },
-  {
-   id:'alloy-rfq',title:'What should go into the material decision and RFQ?',
-   html:guideTable('Aluminum alloy decision record',['Record','Why it helps the review'],[
-    ['Function and loads','Identify the loaded section, required strength, permitted deflection and assembly interfaces.'],
-    ['Material definition','Name the alloy, temper, applicable product standard and any required stock condition.'],
-    ['Environment and joining','Describe exposure, operating temperature, mating materials and any joining process.'],
-    ['Finish and final dimensions','Define the treatment, appearance reference, masking and post-treatment acceptance limits.'],
-    ['Files and records','Use the controlled drawing and model revision; list material traceability and inspection records.'],
-    ['Quantity and alternatives','State initial and repeat quantities; keep proposed substitutions clearly identified for approval.'],
+   id:'alloy-rfq',title:'Bring the open material decision to the inquiry',
+   html:guideTable('Aluminum alloy decision record',['Record','Useful information'],[
+    ['Function and loads','Loaded section, required strength, permitted deflection and assembly interfaces.'],
+    ['Material','Alloy, temper, product standard, stock form and required condition.'],
+    ['Environment and joining','Exposure, operating temperature, mating materials and joining process.'],
+    ['Finish','Treatment, appearance reference, masking and dimensions after treatment.'],
+    ['Files and records','Current drawing/model revision, material traceability and inspection records.'],
+    ['Quantity and alternatives','Initial and repeat quantities, with substitutions identified for approval.'],
    ])+p(
-    'When selection is still open, send the requirements you know and identify the unresolved decision. We can review the machining and quotation scope against that information. The alloy and any substitution should then be confirmed through the responsible approval process.',
-    'Aluminum options include 6061, 7075 and 2024. Specify the exact alloy, temper, stock section and required material certificate for the quotation. See '+a('aluminum machining','/capabilities/aluminum-cnc-parts/')+' for the drawing requirements.'
+    'An inquiry can start before every material choice is settled. The known loads, interfaces and environment give us a basis for discussing machining and quotation scope; the responsible designer approves the final alloy or substitution.',
+    'LZZ’s aluminum options include 6061, 7075 and 2024. The '+a('aluminum machining page','/capabilities/aluminum-cnc-parts/')+' covers the material and drawing information for a new part.'
    ),
   },
   {
-   id:'alloy-questions',title:'More questions about 6061 and 7075',
-   html:q('alloy-question-brackets','Is 6061 good enough for a CNC-machined bracket?',
-    'It can be, when the chosen temper and geometry meet the load, deflection, environment and joint requirements. The word “bracket” does not establish a load case. Identify the mounting faces, fastener seats and loaded section before choosing the material.'
-   )+q('alloy-question-upgrade','When is 7075 worth considering?',
-    'Consider it when a strength requirement is difficult to meet in the available space, and the design review supports the selected condition. Include corrosion exposure, joining and final finish. If excessive deflection is the problem, review the geometry as well.'
-   )+q('alloy-question-tolerance','Does 7075 automatically hold tighter tolerances?',
-    'No. A finished tolerance also depends on geometry, stock condition, workholding, machining sequence, treatment and measurement. State the feature and inspection condition. Compare proposed routes against that requirement rather than assigning a tolerance to an alloy name.'
-   )+q('alloy-question-thin-wall','Which alloy should I choose for a thin-walled enclosure?',
-    'Start with what limits the enclosure: wall movement, strength, sealing, mounting accuracy or appearance. Review the span and support of each wall. The pocketed-enclosure example above helps identify those questions, but does not select an alloy for a new design.'
-   )+q('alloy-question-t6-t651','Can T651 replace T6 on the purchase order?',
-    'Do not change the condition silently. Check the drawing, product standard, stock form and approval requirements. Even where a proposed product can meet the needed properties, the substitution must be resolved before procurement and production.'
-   )+q('alloy-question-colour','Will 6061 and 7075 look identical after black anodizing?',
-    'Review representative material from each alloy with the intended preparation and treatment. Define colour acceptance against an approved appearance sample, separately from the dimensional and coating requirements.'
-   )+q('alloy-question-outdoors','Is 7075 suitable for an outdoor part?',
-    'Outdoor exposure alone is too broad to answer. Review moisture, contaminants, sustained loading, the selected temper and protection of joints and bare surfaces. A material intended for a dry covered assembly may need a different review from a wet, highly stressed connection.'
-   )+q('alloy-question-welding','Can a welded 6061 design simply be changed to 7075?',
-    'No. The joining route is part of the design. Review the material, welding or other joining method and required joint performance before proposing that change. Do not carry the earlier welding assumptions into a different alloy.'
-   )+q('alloy-question-certificate','Does a material certificate approve the part design?',
-    'No. The agreed material record identifies the supplied material and its stated results or compliance scope. It does not establish the strength of the finished geometry, suitability of the assembly or dimensional acceptance of the machined component.'
-   )+q('alloy-question-price','Can you compare both alloys before I release the drawing?',
-    'Send the model, current drawing, quantities and the requirement driving the comparison. Identify which material decision is open and which dimensions or functions must stay fixed. Any quotation alternative and its assumptions should remain separate until the specification is approved.'
+   id:'alloy-questions',title:"Questions about choosing an alloy",
+   html:q('alloy-question-tolerance','Does choosing 7075 buy a tighter tolerance?',
+    'No. A tolerance must be specified for the feature; the alloy name alone does not establish it. Geometry, stock condition, workholding, machining sequence, treatment and measurement determine how that requirement can be met.'
+   )+q('alloy-question-certificate','What does a material certificate establish?',
+    'It identifies the supplied material and the stated results or compliance scope. It does not approve the part geometry, establish assembly strength or replace dimensional acceptance.'
+   )+q('alloy-question-price','Can I compare alloys before releasing the drawing?',
+    'Yes. A current model and drawing, the quantities under consideration, and the requirement driving the comparison are a useful starting point. Any quotation assumptions remain separate from the production specification until approved.'
    ),
   },
  ],

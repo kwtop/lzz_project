@@ -65,9 +65,9 @@ body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-pa
 body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .pd-catalogue-page .pd-archive-media[data-views="2"]{grid-template-columns:repeat(2,minmax(0,1fr))}
 body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .pd-catalogue-page .pd-archive-media>.pd-figure{grid-column:auto;grid-row:auto;width:100%;max-width:none;margin:0;padding:0;background:transparent;border-radius:0}
 body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .pd-catalogue-page .pd-archive-media>.pd-figure>img{width:100%;height:auto;max-width:none;max-height:none;aspect-ratio:4/3;object-fit:contain}
-/* A closed video disclosure is a secondary action below its photograph. */
-body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .ps-page .ps-setup-media:has(>.ps-source-clip){display:block;width:100%;max-width:800px;margin-inline:auto}
-body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .ps-page .ps-setup-media:has(>.ps-source-clip)>.pd-figure{width:100%;max-width:none;margin:0}
+/* Keep the broad display-panel photograph centered independently of video records. */
+body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .ps-page[data-case="29-inch-display-housing-cnc-machining"] .ps-setup-media{display:block;width:100%;max-width:800px;margin-inline:auto}
+body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .ps-page[data-case="29-inch-display-housing-cnc-machining"] .ps-setup-media>.pd-figure{width:100%;max-width:none;margin:0}
 body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-path] .ps-page .ps-setup-media>.ps-source-clip{width:100%;max-width:none;margin:22px 0 0}
 .redesign-site[data-inner-layout="penta"] .pc-family{padding-top:48px;margin-top:52px;border-top:1px solid var(--border)}
 .redesign-site[data-inner-layout="penta"] .pc-family:first-of-type{margin-top:0}

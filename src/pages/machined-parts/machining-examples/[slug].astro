@@ -9,7 +9,7 @@ export function getStaticPaths(){return engineeringCases.map(item=>({params:{slu
 const {item}=Astro.props,story=caseStories[item.slug];
 const title=story?.title||caseReading[item.slug].title;
 const topic=item.slug==='milling-prismatic-components'?'Prismatic multi-feature part drawing review':item.title+' drawing review';
-const quoteHref='/quote/?'+new URLSearchParams({part:topic}).toString();
+const quoteHref='/quote/?'+new URLSearchParams({part:topic,source:Astro.url.pathname}).toString();
 const image=item.collection?'/media/collection-covers/'+item.collection+'-collection-illustrative-v1-1200.webp':photo(item.video?'display-housing-panel':item.hero).src;
 ---
 <Layout title={title} description={story?.summary||item.lead} article articleImage={image} cta={false} headerQuoteHref={quoteHref}><ProductsStudy item={item} quoteHref={quoteHref}/></Layout>

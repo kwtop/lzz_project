@@ -1,3 +1,4 @@
+import {manufacturingCapacity} from './factoryCapabilities';
 /**
  * Buying guidance for the eight process/material pages, separate from the
  * source-backed grade, acceptance and order records. General selection advice
@@ -13,12 +14,12 @@ export type CapabilityDecisionGuide = {
 
 export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
  'cnc-milling-service':{
-  lead:'CNC milling creates pockets, flat faces and hole patterns in housings, brackets and other custom parts. Feature direction, internal corners and wall thickness guide the tooling and number of setups.',
+  lead:"We mill housings, brackets and other custom parts with pockets, flat faces and hole patterns. Internal corners, wall thickness and the direction of each feature determine the tools and setups needed.",
   description:'CNC milling for housings, brackets and pocketed parts. Understand tool access, internal radii and multiple setups, with material and inspection requirements.',
   heading:'How your part shape guides milling',
-  intro:'Start with the surfaces that must fit together. Their direction and accessibility help determine how the part can be held and reached.',
-  featureIntro:'A cutter needs a clear path into a pocket and around its corners. Deep recesses and small internal radii can require a more slender tool; thin walls also need support while material is removed. Faces reached from another direction may need a second setup, with locating surfaces that carry the same dimensional references.',
-  materialsIntro:'Material choice affects cutting, workholding and the finished surface. Aluminum can suit weight-sensitive housings; steel, stainless steel, copper alloys and polymers bring different service requirements. The grade and treatment below are selected for the part, with fitted dimensions checked in their final specified condition.',
+  intro:"The surfaces that fit together establish the machining references. Their orientation and accessibility determine where we can hold the part and approach it with a cutter.",
+  featureIntro:"Deep pockets and small internal corners restrict the cutter and can require a more slender tool. Thin walls need support during cutting. To reach another face, we may reposition the part using locating surfaces that preserve the dimensional references.",
+  materialsIntro:"Aluminum can suit housings where weight matters. Steel, stainless steel, copper alloys and polymers suit different service conditions and need different cutting and workholding plans. We review the exact grade and treatment for the part, including fitted dimensions in their final specified condition.",
   decisions:[
    {feature:'Pockets, slots and internal corners',consider:'Tool access and a usable corner radius',reason:'A rotating cutter leaves a radius at an internal corner. Where the design allows it, a more generous radius can give a larger tool room to work; deep, narrow features need a separate access review.'},
    {feature:'Thin walls or broad mounting faces',consider:'Support during cutting and measurement',reason:'Cutting and clamping forces can move a thin section. The machining sequence and support need to suit the part, especially where flatness or a mating face controls assembly.'},
@@ -27,12 +28,12 @@ export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
   links:[{title:'Aluminum machining',href:'/capabilities/aluminum-cnc-parts/'},{title:'Stainless steel machining',href:'/capabilities/stainless-steel-cnc-parts/'},{title:'Compare multi-axis access',href:'/capabilities/5-axis-cnc-machining/'}],
  },
  'aluminum-cnc-parts':{
-  lead:'Aluminum machining suits housings, covers and structural parts where weight and geometry matter. Alloy, temper and surface treatment need to work together with the loads, environment and final fit.',
+  lead:"We machine aluminum housings, covers and structural parts. The alloy and temper need to suit the loads and environment; surface treatment must preserve the finished fit.",
   description:'Aluminum CNC machining for housings, covers and structural parts. Compare alloy, temper, thin-wall support and finishing requirements for your drawing.',
   heading:'Choose aluminum around the working part',
   intro:'The useful choice is an alloy and condition suited to the job, followed by a finish that preserves its working interfaces.',
-  featureIntro:'A recessed housing removes weight while retaining mounting and mating features. As the remaining walls become thinner, support during cutting and the order of material removal become more important. The housing references below show different cavity and interface arrangements.',
-  materialsIntro:'6061 is a useful starting point where corrosion resistance, welding or anodized appearance matter. 7075 is worth reviewing when higher strength governs the design, with its temper, corrosion exposure and finish considered together. Neither grade replaces the load and environment review, and fitted dimensions need to refer to the final treatment state.',
+  featureIntro:"Machining a cavity removes weight while retaining mounting and mating features. Thinner walls need closer attention to support and the order of material removal. These housings show how cavity shape and interface layout change that work.",
+  materialsIntro:"6061 is often a starting point for corrosion resistance, welding or anodized appearance. Where strength governs the design, 7075 may be worth considering. We review either grade with its temper, loads, environment and finish, with fitted dimensions specified after the intended treatment.",
   decisions:[
    {feature:'A housing or bracket with a weight target',consider:'6061 as a starting point; 7075 for strength-led review',reason:'Select the alloy from the loads, section geometry and permitted deflection. Review its temper, corrosion exposure and finishing route alongside the weight target.'},
    {feature:'Deep pockets and thin remaining walls',consider:'Stock removal, support and flatness',reason:'Removing much of the stock can leave a part sensitive to clamping and material movement. Support and machining sequence need review before a tight flatness requirement is accepted.'},
@@ -41,12 +42,12 @@ export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
   links:[{title:'CNC milling for pockets and faces',href:'/capabilities/cnc-milling-service/'},{title:'CNC turning for round interfaces',href:'/capabilities/cnc-turning-service/'}],
  },
  'cnc-turning-service':{
-  lead:'CNC turning suits shafts, sleeves and fittings built around a common axis. Flats, slots and cross-holes may add a milling operation, so the complete feature layout guides the route.',
+  lead:"We turn shafts, sleeves and fittings around a common axis. Flats, slots or cross-holes may need milling as well, so we review the complete part before choosing the machining sequence.",
   description:'CNC turning for shafts, sleeves and fittings. Understand shared-axis geometry, deep bores, slender parts and secondary milling before preparing your drawing.',
   heading:'Choose the route around the axis',
-  intro:'Turning establishes round features. The length, internal access and off-axis details determine what support and additional work the part needs.',
-  featureIntro:'Diameters, shoulders and an axial bore can be produced around a shared axis. A flat, slot or cross-hole introduces another tool direction. Relating those features to the turned surfaces helps keep the finished assembly relationships clear when the part moves to another operation.',
-  materialsIntro:'The grade affects chip formation, tool wear and the working surface. Stainless parts need the service environment and treatment considered; copper and brass fittings may instead be governed by contact or sealing requirements. Each option below still needs a defined grade and final condition.',
+  intro:'Turning establishes the round features. Part length and internal access determine the support and tool reach needed; off-axis details may require another operation.',
+  featureIntro:"Turning produces diameters, shoulders and bores around one axis. Flats, slots and cross-holes need a different tool approach. We use the turned surfaces as references when locating those features in a later operation.",
+  materialsIntro:"Material grade affects chip formation, tool wear and surface condition. For stainless parts, we review the service environment and treatment. Copper or brass fittings may be governed by contact or sealing requirements. Each needs an exact grade and finished condition.",
   decisions:[
    {feature:'Stepped diameters, shoulders and threads',consider:'Turning as the starting operation',reason:'These features share a rotational axis. Keeping their fitted relationships tied to that axis helps define the machining and measurement sequence.'},
    {feature:'A round body with flats or cross-holes',consider:'Turning followed by secondary machining',reason:'The body can be turned while non-rotational details need another tool direction. Available tooling and access determine whether that work shares a setup or moves to a separate one.'},
@@ -55,12 +56,12 @@ export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
   links:[{title:'Stainless shafts and fittings',href:'/capabilities/stainless-steel-cnc-parts/'},{title:'Copper and brass components',href:'/capabilities/copper-brass-cnc-parts/'},{title:'Secondary CNC milling',href:'/capabilities/cnc-milling-service/'}],
  },
  '5-axis-cnc-machining':{
-  lead:'Multi-axis machining gives tools access to angled faces and curved surfaces on custom parts. The geometry determines whether indexed positioning, simultaneous motion or a sequence of simpler setups is appropriate.',
-  description:'5-axis CNC machining for angled faces and curved components. Compare indexed positioning, continuous motion and setup choices, with drawing-based acceptance.',
+  lead:`LZZ operates ${manufacturingCapacity.fiveAxisMachines} five-axis machines in Hangzhou for multi-face components, angled features and curved geometries, from prototypes to small production runs.`,
+  description:`5-axis CNC machining at LZZ in Hangzhou: ${manufacturingCapacity.fiveAxisMachines} machines, workshop and finished-part records, and ${manufacturingCapacity.criticalFeatureTolerance} on reviewed critical features, subject to part evaluation.`,
   heading:'When changing the tool direction helps',
-  intro:'Separate access to a face from the motion needed to cut its surface. Those are different reasons to consider multi-axis work.',
+  intro:"Some features need a different fixed tool approach. Others need the tool direction to change during cutting. The surface geometry determines which type of multi-axis work is appropriate.",
   featureIntro:'An angled hole or face may be reached with the part held at a fixed orientation. A continuous curved surface may require the tool direction to change along its path. Both routes depend on cutter reach and clearance around the workpiece and fixture.',
-  materialsIntro:'Tool access is only part of the route decision. Alloy, hardness or treatment condition and the amount of stock to remove also affect the machining plan. The listed families below are reviewed for the exact grade and final surface requirements.',
+  materialsIntro:"Alongside tool access, we review the exact alloy, hardness or treatment condition, stock removal and required final surface. These details determine the machining sequence.",
   decisions:[
    {feature:'A few accessible faces in different directions',consider:'Several setups or indexed positioning',reason:'If each feature can be cut at a fixed orientation, continuous five-axis motion may add little. Compare access and datum transfer before choosing the route.'},
    {feature:'Several angled faces or difficult side access',consider:'A multi-axis positioning review',reason:'Reorienting the part can improve access around it. Fixture, tool and spindle clearance still limit what can be reached in each position.'},
@@ -69,11 +70,11 @@ export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
   links:[{title:'CNC milling and additional setups',href:'/capabilities/cnc-milling-service/'},{title:'Aluminum parts and finishing',href:'/capabilities/aluminum-cnc-parts/'},{title:'Stainless material requirements',href:'/capabilities/stainless-steel-cnc-parts/'}],
  },
  'casting-machining':{
-  lead:'Casting machining finishes the bores, seal lands and mounting faces of cast housings and pump bodies. The cast blank supplies the overall shape, while its condition and available allowance govern the machining plan.',
+  lead:"We finish-machine bores, seal lands and mounting faces on cast housings and pump bodies. The casting provides the overall shape; its condition and machining allowance determine how we can locate and cut the working surfaces.",
   description:'Finish machining for cast housings and pump bodies. Understand cast surfaces, machining allowance, locating datums and finished interfaces before quotation.',
   heading:'Decide which surfaces need machining',
-  intro:'Begin with the connection between the supplied casting and the finished part. Each needs its own definition and acceptance requirements.',
-  featureIntro:'A cast housing can retain its ribs and outer form while selected bores, seal lands and mounting faces are machined. The finished drawing distinguishes those working interfaces from surfaces that may remain as-cast.',
+  intro:'The supplied casting and finished part need separate specifications and acceptance requirements.',
+  featureIntro:'We machine the bores, seal lands and mounting faces while retaining the ribs and outer form of the casting. The finished drawing identifies these working interfaces and the surfaces that can remain as-cast.',
   materialsIntro:'Casting alloy and blank condition influence how the part can be located, cut and finished. Machining allowance is the material available to reach the final surfaces; coating, heat treatment or incoming variation must be considered before those surfaces are accepted.',
   decisions:[
    {feature:'Ribs and an outer shape that can stay as-cast',consider:'Machining only the working interfaces',reason:'A casting can provide the overall form while cutting establishes the required fit at bores and faces. The drawing must identify which surfaces may retain the cast finish.'},
@@ -83,11 +84,11 @@ export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
   links:[{title:'CNC milling of finished interfaces',href:'/capabilities/cnc-milling-service/'},{title:'Aluminum alloy and finish review',href:'/capabilities/aluminum-cnc-parts/'}],
  },
  'stainless-steel-cnc-parts':{
-  lead:'Stainless steel machining suits shafts, fittings and locking components where the service environment matters. Grade, condition and finish balance corrosion requirements, mechanical demands and machinability.',
+  lead:"We machine stainless steel shafts, fittings and locking components. We review the grade and finished condition against the service environment and mechanical loads, then plan the cutting process for that material.",
   description:'Stainless steel CNC machining for shafts, fittings and locking parts. Review grade selection, service environment, machining sequence and final treatment.',
   heading:'Match the stainless grade to its use',
   intro:'Choose the grade from the service environment and working interfaces, then specify its condition and treatment.',
-  featureIntro:'A stepped shaft, flange or locking pin relies on its working diameters and mating surfaces. The stainless grade and condition affect how those features are cut, while corrosion, wear and assembly requirements determine the final surface specification.',
+  featureIntro:"Working diameters and mating surfaces control the fit of a shaft, flange or locking pin. Grade and condition affect how we machine them. Corrosion exposure, wear and assembly requirements determine the final surface specification.",
   materialsIntro:'304 is a starting point for many general corrosion requirements; 316 and 316L are candidates when the exposure calls for a more corrosion-resistant grade. The actual medium and temperature still determine suitability. Machinability, hardness and any heat treatment, passivation, electropolishing or cosmetic finish are reviewed alongside that choice.',
   decisions:[
    {feature:'A fitting exposed to moisture or chemicals',consider:'Compare 304 with 316 / 316L for the exposure',reason:'316-family grades are candidates for more demanding corrosion requirements. Medium, concentration, temperature and surface condition still set the limits; the grade name alone is not an approval for the environment.'},
@@ -97,26 +98,26 @@ export const capabilityDecisions:Record<string,CapabilityDecisionGuide>={
   links:[{title:'CNC turning of shafts and fittings',href:'/capabilities/cnc-turning-service/'},{title:'CNC milling of secondary features',href:'/capabilities/cnc-milling-service/'}],
  },
  'copper-brass-cnc-parts':{
-  lead:'Copper and brass machining produces contacts, connectors and fluid fittings with defined working surfaces. Electrical, thermal and sealing requirements lead to different alloy, geometry and finishing choices.',
+  lead:"We machine copper and brass contacts, connectors and fluid fittings. The electrical path, heat transfer or sealing duty determines the alloy, geometry and finish needed at each working surface.",
   description:'Copper and brass CNC machining for contacts, connectors and fittings. Compare functional needs, alloy selection, burr control and dimensions after plating.',
   heading:'Let the working surface guide the alloy',
   intro:'Copper and brass are separate material choices. The part function determines which grade, interface and treatment need the closest review.',
-  featureIntro:'A contact needs a usable current path, a heat-transfer part needs suitable contact with the adjoining component, and a fitting needs its threads and sealing faces to work together. The material specification and the geometry support those different functions.',
-  materialsIntro:'Conductivity, machinability, corrosion exposure and material restrictions may lead to different copper or brass grades. The listed options identify starting points for review. Plating or polishing must also preserve the contact, seal and dimensional requirements of the finished component.',
+  featureIntro:"Electrical contacts need a usable current path. Heat-transfer components depend on contact with adjoining parts; fluid fittings depend on their threads and seals. The alloy and geometry need to suit the specific connection.",
+  materialsIntro:"Conductivity, machinability, corrosion exposure and material restrictions guide the copper or brass grade we review for your part. Plating or polishing must also preserve the contact, seal and dimensional requirements of the finished component.",
   decisions:[
    {feature:'An electrical contact or current-carrying part',consider:'A high-conductivity copper grade, such as C11000',reason:'Alloy, contact area, material condition and plating affect the electrical path. Specify the current requirement and assembled test conditions for the component.'},
    {feature:'A heat-transfer part or mating thermal surface',consider:'Material properties and the contacting faces',reason:'Heat passes through both the part and its interfaces. Fit, contact area and any coating need to suit the assembly; thermal performance is confirmed by the agreed design and tests.'},
-   {feature:'A threaded connector or fluid fitting',consider:'A machinable brass grade, where the application permits',reason:'C36000 is a machining-oriented option in the listed grades. Fluid compatibility and material restrictions may rule it out; the thread, burr limits and any plating must also suit the finished connection.'},
+   {feature:'A threaded connector or fluid fitting',consider:'A machinable brass grade, where the application permits',reason:"C36000 is a machining-oriented option. Fluid compatibility and material restrictions may rule it out; the thread, burr limits and any plating must also suit the finished connection."},
   ],
   links:[{title:'CNC turning for connectors and fittings',href:'/capabilities/cnc-turning-service/'},{title:'CNC milling for blocks and passages',href:'/capabilities/cnc-milling-service/'}],
  },
  'plastic-machined-parts':{
-  lead:'Plastic machining produces guides, insulators and housings without committing the design to a molded tool. Polymer grade, load, temperature and moisture exposure guide the choice and the final fit.',
+  lead:"We machine plastic guides, insulators and housings without a molding tool. The polymer grade must suit the loads, temperature and moisture exposure while maintaining the required fit.",
   description:'CNC machining for plastic guides, insulators and housings. Review polymer selection, loads, temperature, moisture and dimensional acceptance for your part.',
   heading:'Choose the polymer for the working conditions',
   intro:'The shape may be machinable in several polymers, but their behavior in the assembly can be different. Begin with the job the part must do.',
-  featureIntro:'A guide needs a stable working surface, an insulator needs the right material properties, and a housing needs its fits to remain usable in service. Polymer, stock condition and assembly loads therefore belong in the same material decision.',
-  materialsIntro:'Wear, chemical exposure, insulation and temperature requirements narrow the polymer choice. Temperature change and moisture uptake can also change dimensions, with the effect depending on the grade and conditions. The listed options are reviewed against those needs, including fillers and the state in which the part is measured.',
+  featureIntro:"For a plastic guide, insulator or housing, we review the working surfaces and fit under service conditions. The polymer choice must also account for the stock condition, required properties and assembly loads.",
+  materialsIntro:"Wear, chemical exposure, insulation and temperature requirements narrow the polymer choice. Temperature change and moisture uptake can also change dimensions, with the effect depending on the grade and conditions. We review the grade, fillers and measurement state against those service requirements.",
   decisions:[
    {feature:'A guide, bushing or sliding interface',consider:'Compare POM and nylon grades against the load and fit',reason:'Contact pressure, motion and temperature affect wear and deformation. For moisture-sensitive nylon, specify conditioning and review the fit under the intended service load and environment.'},
    {feature:'An insulator or chemically exposed component',consider:'The specific medium and material requirements',reason:'Electrical behavior, chemical resistance and temperature limits depend on the polymer and grade. Fillers can change properties, so a general plastic name is not a sufficient specification.'},

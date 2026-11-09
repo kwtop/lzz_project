@@ -5,13 +5,13 @@ import CapabilityApplications from './CapabilityApplications.astro';
 import {applicationRequirements} from '../data/capabilityRebuild';
 import '../styles/capability-inspection-review.css';
 interface Props {page:RevisedCapability;title?:string;intro?:string;questions?:RevisedCapability['scopeQuestions'];checks?:RevisedCapability['acceptanceChecks'];compactEvidence?:boolean}
-const {page,title='Agree inspection before production',intro=page.overview.inspection,questions=page.scopeQuestions,checks=page.acceptanceChecks,compactEvidence=false}=Astro.props;
+const {page,title='Inspection for the finished part',intro=page.overview.inspection,questions=page.scopeQuestions,checks=page.acceptanceChecks,compactEvidence=false}=Astro.props;
 const hasContext=questions.length>0||Boolean(applicationRequirements[page.slug]?.length);
 ---
 <section class:list={['inspection-review rd-section',{'inspection-review--compact':compactEvidence}]} id="engineering-fit" data-core-section="inspection">
  <header class="inspection-review-heading">
-  <div class="inspection-review-intro"><h2>{title}</h2><p>{intro}</p><div class="inspection-review-links"><a class="rd-link" href="/factory/#quality">Inspection methods, stages and records</a><slot name="links"/></div></div>
-  <CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from equipment records." sizes="(max-width:767px) calc(100vw - 40px), (max-width:900px) calc(100vw - 80px), 420px"/>
+  <div class="inspection-review-intro"><h2>{title}</h2><p>{intro}</p>{Astro.slots.has("links")&&<div class="inspection-review-links"><slot name="links"/></div>}</div>
+  <CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from equipment records." sizes="(max-width:767px) calc(100vw - 40px), (max-width:960px) calc(100vw - 64px), (max-width:1220px) calc((100vw - 144px) / 2), 538px"/>
  </header>
  <table class="rd-table rd-stacked" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{checks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table>
  <slot/>

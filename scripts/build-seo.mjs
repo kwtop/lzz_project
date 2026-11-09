@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {load} from 'cheerio';
+import {verifiedLastmodDates,xmlSitemap,llmsText} from './discovery-files.mjs';
 
 export const ROOT = fileURLToPath(new URL('../', import.meta.url));
 export const SITE = 'https://www.lzz-cnc.com';
@@ -9,6 +10,7 @@ export const DIST = path.join(ROOT, 'dist');
 const readJSON = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 export const companyRedirects=readJSON(path.join(ROOT,'src/data/siteRouteRedirects.json'));
 export const resourceRoutes=readJSON(path.join(ROOT,'src/data/resourceRoutes.json'));
+export const pageLastModified=readJSON(path.join(ROOT,'src/data/pageLastModified.json'));
 
 function sourceURLs() {
   const raw = path.resolve(ROOT, process.env.LZZ_CONTENT_ROOT || '../../raw/_content');
@@ -104,7 +106,6 @@ export function redirectText(rules) {
     [...rules].map(([from, to]) => `${from} ${to} 301`).join('\n') + '\n';
 }
 export const robotsText = `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`;
-const escapeXML = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
 export function buildSEO() {
   const {rules, targets, catalog} = migration();
@@ -117,11 +118,13 @@ export function buildSEO() {
   const eligible = eligiblePages(pages);
   const invalid = [...pages].filter(([route, p]) => !p.excluded && !eligible.includes(route));
   if (!eligible.length || invalid.length) throw new Error(`Sitemap build blocked: missing/invalid canonical on ${invalid.map(([r]) => r).join(', ') || 'all pages'}`);
-  const sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    eligible.map(route => `  <url><loc>${escapeXML(SITE + route)}</loc></url>`).join('\n') + '\n</urlset>\n';
+  const dates=verifiedLastmodDates(pages,eligible,pageLastModified);
+  const sitemap=xmlSitemap(SITE,eligible,dates);
   fs.writeFileSync(path.join(DIST, '_redirects'), redirectText(rules));
   fs.writeFileSync(path.join(DIST, 'robots.txt'), robotsText);
   fs.writeFileSync(path.join(DIST, 'sitemap.xml'), sitemap);
-  console.log(JSON.stringify({products:catalog.products.length, discoveredURLs:targets.size, redirects:rules.size, sitemapURLs:eligible.length, excludedOrInvalidCanonical:pages.size-eligible.length}));
+  fs.writeFileSync(path.join(DIST,'llms.txt'),llmsText(SITE,pages,eligible));
+  fs.writeFileSync(path.join(ROOT, 'server/public-pages.generated.json'), JSON.stringify(eligible, null, 2) + '\n');
+  console.log(JSON.stringify({products:catalog.products.length, discoveredURLs:targets.size, redirects:rules.size, sitemapURLs:eligible.length, verifiedLastmodDates:dates.size, llmsLinks:eligible.length, excludedOrInvalidCanonical:pages.size-eligible.length}));
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) buildSEO();

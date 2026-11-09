@@ -1,5 +1,6 @@
 import type {Guide} from './contentGuides';
 import {guideTable} from './procurementGuides';
+import {teachingMountExample as example,featureRange,featureSample} from './teachingMountExample';
 
 const p=(...text:string[])=>text.map(value=>'<p>'+value+'</p>').join('');
 const a=(label:string,href:string)=>'<a href="'+href+'">'+label+'</a>';
@@ -8,164 +9,125 @@ const q=(id:string,title:string,...text:string[])=>'<div class="guide-question" 
 const facts=(rows:string[][])=>'<dl class="ce-facts">'+rows.map(([label,text])=>'<div><dt>'+label+'</dt><dd>'+text+'</dd></div>').join('')+'</dl>';
 const guides='/resources/technical-guides/';
 const studies='/machined-parts/machining-examples/';
+const thickness=example.features[2];
 
-export const drawingFeaturesDescription='Define critical CNC drawing features through datums, fits, tolerances, surface roughness and inspection, with two-setup, turned-part and enclosure examples.';
+export const drawingFeaturesDescription='Prepare CNC drawings around working interfaces, datums, tolerances and inspection. Follow a teaching mounting plate from annotated drawing to example results.';
 
 export const drawingFeaturesGuide:Guide={
  title:'Drawing requirements & critical features',
- intro:'A useful CNC drawing connects the part’s function to requirements that can be measured. Start with the locating and mating features, then define the size, relationships and surface conditions they need. Keep the inspection plan tied to the same drawing revision.',
+ intro:"Faces and holes that locate, mate, seal or carry load need measurable requirements, references and a specified inspection condition. The worked plate follows three drawing callouts through example readings, including a failed dimension that prevents release.",
  visual:'drawing',
- closing:'Review the drawing and acceptance requirements',
+ closing:'Discuss your drawing requirements',
  sections:[
   {
-   id:'function-first',aliases:['part-requirements','working-surfaces','working-surfaces-heading','section-1'],title:'Start with how the part fits and works',
+   id:'function-first',aliases:['part-requirements','working-surfaces','working-surfaces-heading','section-1'],title:'Connect the drawing to the working interfaces',
    html:p(
-    'Identify locating faces, mating bores, shaft seats, mounting holes, sealing interfaces, sliding surfaces and load-bearing faces that matter to the assembly. A locating bore may need a controlled fit and relationship to a mounting face. An outer clearance surface may need a much less demanding limit. Explain the function when it helps distinguish them.',
-    'Give each critical feature a measurable requirement and an inspection reference. The responsible design engineer selects the datum scheme, tolerances and applicable drawing standard.'
-   )+h('Use one drawing language consistently',
-    a('ASME Y14.5','https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing')+' defines the language for stating and interpreting geometric dimensioning and tolerancing on drawings and digital models. Identify the applicable standard and revision, then use its rules consistently across the controlled drawing and model.',
-    'Identify the drawing system and revision used by the design. Resolve mixed conventions, ambiguous symbols and conflicting defaults before quotation or release.'
+    'A locating bore and an outer clearance face do different jobs. Their limits should reflect that difference. Mounting faces, shaft seats, sealing lands and sliding surfaces often need both a size requirement and a relationship to the features around them.',
+    'The responsible design engineer selects the datum scheme, tolerances and drawing standard. '+a('ASME Y14.5','https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing')+' provides a language for geometric dimensioning and tolerancing on drawings and digital models. Naming the applicable system and revision avoids mixed symbols and conflicting defaults.',
+    'In '+a(example.id+' below','#teaching-example')+', the underside A supports the plate and side faces B and C locate it. F1 identifies a bore size, F2 a centre distance and F3 a thickness. These references connect the sketch to its teaching inspection sheet; they do not make it a complete production drawing.'
    ),
   },
   {
-   id:'feature-checklist',title:'Make the requirement measurable',
-   html:p(
-    'Use this checklist to connect each functional feature to a drawing requirement and an acceptance check. Set the limits from assembly needs.'
-   )+guideTable('Critical feature drawing checklist',['Feature or requirement','Specify','Acceptance'],[
-    ['Locating faces and axes','The datums and feature relationships needed by the assembly.','How the part will be located for measurement.'],
-    ['Mating bores and shafts','Required sizes and limits, with applicable fit requirements.','Which dimensions need recorded measurements.'],
-    ['Hole patterns and slots','Locations and orientation relative to the selected references.','The method and records for the specified relationships.'],
-    ['Sealing and cosmetic faces','Surface requirements and clearly identified faces.','The checks and any agreed appearance reference.'],
-    ['Threads and edges','Thread designation and requirements for burrs or edge breaks.','The agreed checks for these features.'],
-    ['Treated surfaces','Coated or masked areas and whether limits apply before or after treatment.','The inspection stage and treatment records required.'],
-   ])+h('Give “critical” a practical meaning',
-    'State any recorded result, special check or release hold against the feature reference. Balloon numbers link the drawing to the inspection report; specify the measurement method and inspection frequency separately.',
-    'Separate the feature’s acceptance limit from the inspection frequency. A sampled report and a requirement to check every part are different scopes, even when the same dimension appears on both documents.'
+   id:'feature-checklist',title:'Turn each working feature into a checkable requirement',
+   html:guideTable('Critical feature drawing checklist',['Feature','Drawing requirement','Inspection consequence'],[
+    ['Locating faces and axes','The references and relationships needed by the assembly.','The part must be located consistently for the stated check.'],
+    ['Bores and shafts','Sizes, limits and any applicable fit requirement.','Recorded dimensions or a specified functional-gauge result.'],
+    ['Hole patterns and slots','Location and orientation relative to the selected references.','A method that evaluates the required relationship.'],
+    ['Sealing and cosmetic faces','Surface requirements on identified faces.','Texture checks or the specified appearance reference.'],
+    ['Threads and edges','Thread designation, usable depth and local burr or edge limits.','Checks that can reach the actual feature.'],
+    ['Treated surfaces','Coated or masked areas and the stage at which limits apply.','Pre-treatment and final checks kept distinct.'],
+   ])+p(
+    'Use a balloon or feature number to link each drawing callout to a report row. '+a('The example uses F1/F2/F3','#teaching-inspection')+'. Inspection frequency is a separate requirement: one example reading, a sampled batch report and a check on every part cover different scopes.'
    ),
   },
   {
-   id:'datums-and-setups',title:'Datums connect the assembly to different setups',
+   id:'datums-and-setups',title:'Datums across setup changes',
    html:p(
-    'A datum scheme gives the specified relationships a common reference. Think about how the part is located in service, then review how the drawing communicates those references for manufacture and inspection. The holding arrangement may use process references, but the finished acceptance must still follow the drawing.',
-    'The '+a('two-stage milling study',studies+'two-stage-cnc-milling/')+' pairs the original two-operation record with illustrations of top-face and side-face access. For a new part that needs repositioning, the key question is how features made in those orientations must remain related.'
-   )+h('Follow a feature across the setup change',
-    'If a mounting face is machined in one orientation and a locating bore in another, define their required relationship on the drawing. The supplier uses that relationship to plan locating, support and inspection across both operations.',
-    'Where a thin component moves when released, also identify the acceptance condition. A part clamped against a fixture and the same part free on a measuring surface can present different questions. Agree any restrained inspection condition through the drawing and order review.'
-   ),
+    'Assembly function establishes the drawing references. A fixture may use its own process references, but finished acceptance still follows the drawing. A bore and mounting face made in different orientations need their required relationship carried across both operations.',
+    'The '+a('two-stage milling study',studies+'two-stage-cnc-milling/')+' pairs an original operation record with top-face and side-face access illustrations. The setup sequence explains access; it does not itself prove a positional result.',
+    'For the teaching plate, A/B/C identify the locating faces. F2 checks the illustrated centre distance only. A real hole pattern may also require position, orientation or form controls that this sketch does not specify. Thin parts may also need an explicit free-state or restrained inspection condition.'
+   )+p('On a '+a('circular flange',guides+'datums-and-hole-position-on-circular-machined-parts/')+', the seating face, locating bore and angular reference determine how the hole pattern is evaluated. A '+a('turned shaft or sleeve',guides+'how-to-specify-fits-and-runout-on-turned-parts/')+' uses the same functional reasoning to connect fitted diameters, shoulders and runout to the specified datum axis.'),
    photos:[
     {id:'two-stage-first',caption:'First holding orientation · original LZZ two-stage milling record'},
     {id:'two-stage-second',caption:'Second holding orientation · original LZZ record of the same source part'},
    ],
   },
   {
-   id:'size-form-and-position',title:'Control size, form and position separately',
+   id:'size-form-and-position',title:'A size result does not establish form or position',
    html:p(
-    'A bore diameter, the form of its surface and the location of its axis describe different requirements. A component can meet a size limit while another relationship still needs control. Select the controls needed by the assembly under the applicable drawing standard.',
-    'For a locating hole pattern, ask what must align with the mating component and which surfaces establish that alignment. For a sealing face, ask whether size, form, texture or their combination governs contact. Avoid relying on a single general tolerance to communicate every function.'
-   )+h('Fits need both sides of the interface',
-    'A shaft and bore work as a pair. Identify the required clearance, transition or interference through the chosen limits and fit system, taking account of material, temperature and finished treatment. Do not select a familiar fit designation without reviewing the actual assembly.',
-    'For a mating part supplied separately, include its controlled interface drawing or specification. Use the same fit requirements when reviewing both components.'
-   )+h('General tolerances still have a role',
-    'Use the drawing’s general tolerance for features where it is appropriate, and define local exceptions where function requires them. If an unmarked dimension is governed by a general note, that note should be clear and applicable to the document. Ask about ambiguous or conflicting limits before release.'
+    'Diameter, surface form and axis location describe different characteristics. F1 can fall inside its size limits while an unexamined relationship still prevents assembly. The drawing standard and function determine which controls are needed.',
+    'A bore and shaft also work as a pair. Their clearance, transition or interference depends on both limits, with material, temperature and final treatment taken into account. A controlled mating-interface drawing helps keep separately supplied components consistent.',
+    'General tolerances are useful where they suit the function. Local exceptions carry the requirements that need them. Conflicting defaults or an ambiguous general note need resolution before release.'
    ),
   },
   {
-   id:'surface-roughness',title:'How should roughness, tolerance and inspection work together?',
+   id:'surface-roughness',title:'Give surface texture its own requirement',
    html:p(
-    'Dimensional limits and surface texture answer different questions. A shaft can have the correct diameter but an unsuitable working texture. A polished-looking face can still need form or position control. Identify the functional surface before selecting its requirements.',
-    'For roughness, state the parameter, units and limit on the intended face. Ra averages the absolute profile-height deviations from the mean line. Rz describes profile height using the definition in the specified standard; older and newer conventions can differ. They should not be substituted using one universal conversion. The applicable measurement and evaluation conditions belong with the requirement.'
-   )+h('Make the measurement reproducible',
-    a('Mitutoyo’s surface-roughness quick guide','https://www2.mitutoyo.co.jp/eng/products/menu/QuickGuide_Surftest.pdf')+' explains profile parameters and measurement conditions. Relevant details can include the measurement direction, filtering and evaluation length. Check them against the standard and revision specified for the part rather than copying a setting from an unrelated surface.',
-    'A small sealing land or interrupted surface restricts the available measurement path. Identify the working area and review instrument access, measurement direction and interpretation before production.'
-   )+h('Specify texture where it earns its place',
-    'A working seal, sliding face and cosmetic outer panel may need different controls. Adding the same low roughness limit everywhere can change machining and inspection without clarifying the function. Keep the required functional limits, and define appearance separately where colour, gloss or permitted marks matter.',
-    'If treatment follows machining, say whether the texture requirement applies to the machined substrate or the final surface. The '+a('material and finish guide',guides+'material-and-finish-checklist/#texture-and-appearance')+' follows that distinction through surface preparation and finishing.'
+    'A correct shaft diameter can still have an unsuitable working texture. A polished-looking face may still fail a form requirement. The surface’s function determines which characteristics belong on the drawing.',
+    'A roughness callout needs a parameter, units and limit on the intended face. Ra is the arithmetic mean of absolute profile deviations from the mean line. Rz describes profile height under the specified standard; older and newer conventions can differ. There is no universal conversion multiplier suitable for acceptance.'
+   )+h('Include the measurement conditions that change the result',
+    a('Mitutoyo’s surface-roughness guide','https://www2.mitutoyo.co.jp/eng/products/menu/QuickGuide_Surftest.pdf')+' covers profile parameters, filtering, sampling/evaluation lengths and measurement conditions under the standard editions it cites. The applicable drawing standard and revision govern the part. Direction and available stylus access also matter on a small land or interrupted face.',
+    'Texture limits need a measurement stage when treatment follows machining. The '+a('material and finish guide',guides+'material-and-finish-checklist/#texture-and-appearance')+' follows preparation and treatment. Appearance limits for colour, gloss or permitted marks remain separate. A low roughness limit on every surface can add work without clarifying how a clearance face functions.'
    ),
   },
   {
-   id:'threads-and-edges',title:'Threads, intersecting holes and edges need local detail',
+   id:'threads-and-edges',title:'Add the local detail a model can leave unclear',
    html:p(
-    'A thread callout should identify the intended thread system and size, with the class and other requirements needed by the design. Distinguish usable thread depth from a drilled-hole depth. Where an insert is involved, identify its requirements and the condition to be accepted.',
-    'For a blind or intersecting hole, explain any functional constraint on the end or intersection. A passage that carries fluid or a hole that receives a fastener may need different checks. Mark burr-sensitive intersections so their acceptance is not inferred from an outside view.'
-   )+h('Use edge notes that preserve the working geometry',
-    'Specify a radius or chamfer where edge size matters, and identify edges that must remain sharp. Include restrictions around sealing lands, locating shoulders and internal intersections.',
-    'For internal corners in a pocket, show the permitted radius or relief and review the mating part. A sharp model corner can leave an unresolved tool-access question. The '+a('machining process guide',guides+'cnc-process-selection/#tool-access-and-support')+' explains why the depth, radius and support need to be considered together.'
-   ),
+    'Thread system, size and class belong with the usable thread depth. Drill depth is a different value. An insert needs its own requirement and acceptance condition.',
+    'Blind or intersecting holes may need controls that an external view cannot show. A fluid passage and a fastener hole can have different requirements at the intersection, including burr removal and verification.',
+    'An edge note should preserve the working geometry: a specified chamfer or radius where size matters, sharp edges where needed, and restrictions around seals or locating shoulders. Internal pocket corners need an allowed radius or relief that suits the mating part and tool access. The '+a('machining process guide',guides+'cnc-process-selection/#tool-access-and-support')+' connects radius, depth and support.'
+   )+p('For a '+a('threaded fitting',guides+'choosing-thread-and-seal-requirements-for-machined-fittings/')+', the connection designation and seal geometry need to appear together. Thread gauging checks the specified thread; any leakage requirement needs its own defined test configuration and acceptance criterion.'),
   },
   {
-   id:'study-context',aliases:['section-2','section-2-heading'],title:'Read critical features in existing part forms',
-   html:p(
-    'The component examples below connect machined features to drawing requirements. Review each critical tolerance with the material, setup, finishing and measurement method.'
-   )+h('A turned part with secondary milling',
-    'In the '+a('turning-then-milling study',studies+'turning-then-milling-cylindrical-parts/')+', the cylindrical form receives a secondary milling operation. For a new part with a side feature, define its location and orientation relative to the required turned references. A side hole can have the right diameter while still needing its relationship to the axis controlled.',
-    'Identify the working diameter, locating shoulder and any orientation feature that matters in assembly. The drawing can then distinguish the requirement from the supplier’s choice of holding sequence.'
+   id:'study-context',aliases:['section-2','section-2-heading'],title:'Apply the same reasoning to other part forms',
+   html:h('A turned part with secondary milling',
+    'The '+a('turning-then-milling study',studies+'turning-then-milling-cylindrical-parts/')+' shows a cylindrical form receiving another operation. A side hole needs the correct diameter and, where function requires it, a controlled relationship to the axis, locating shoulder or orientation feature. The drawing communicates that relationship while the supplier plans the holding sequence.'
    )+h('A pocketed housing',
-    'The '+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+' suggests another set of questions: which face locates the housing, which holes mount it, and which recesses provide only clearance? Define the cover or sealing interface separately from the outer appearance.',
-    'Show the final fit and positional relationship of the bore and mounting pattern after finishing. Include the acceptance limits in the controlled drawing.'
+    'In the '+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+', the cover or sealing face, locating bore and mounting pattern need attention separately from clearance recesses and outer appearance. The final fit and positional limits must survive any finishing operation.'
    ),
    photos:[{id:'multi-feature-milling-parts',caption:'Multi-feature machined parts · original LZZ photograph. Geometry reference; acceptance follows the drawing.'}],
    links:[['CNC milling capabilities','/capabilities/cnc-milling-service/'],['Turning capabilities','/capabilities/cnc-turning-service/']],
   },
   {
-   id:'inspection-planning',title:'Choose checks that answer the drawing requirement',
-   html:p(
-    'An inspection method needs to evaluate the feature being controlled. A diameter reading, a relationship to datums and a surface-texture result are different tasks. Identify the required evidence and discuss access, range and method with the supplier.',
-    'For checks using a coordinate measuring machine, agree the feature references, method, measurement uncertainty and report scope for the part. Use separate methods for characteristics that require them.'
-   )+guideTable('Drawing requirements and inspection questions',['Requirement','Question for the inspection plan','Record to agree'],[
-    ['Size or fit','How will the specified limits and final condition be checked?','Feature reference, result or agreed functional-gauge outcome, and inspection stage.'],
-    ['Form, orientation or location','How is the part located and evaluated against the specified references?','Relevant datum references, method and reported characteristic.'],
-    ['Surface texture','Can the specified area be measured using the applicable settings?','Parameter, units, result and relevant measurement conditions.'],
-    ['Appearance or treatment','What reference or test defines acceptance on the identified surfaces?','Agreed appearance approval or process-specific verification.'],
-   ])+h('Agree sampling and report detail separately',
-    'State whether the order needs a first-article report, sampled batch report or checks on every part. Identify the characteristics, inspection frequency and report format for repeat production.',
-    'Where calibration evidence, traceability or a particular test is required, include it in the RFQ. Agree the method and available documentation before production. The '+a('quality and order-records page','/factory/#quality')+' provides the place to discuss those requirements.'
-   ),
-  },
-  {
-   id:'finished-state',title:'Define the state in which the part is accepted',
-   html:p(
-    'A requirement needs an inspection stage as well as a limit. State whether dimensions and texture apply before or after treatment. Mark coated or masked areas and identify any operation that changes a working face after finishing.',
-    'For thin or flexible parts, review whether the measurement is made free or in an agreed restraint. For plastics or a temperature-sensitive fit, the material and environmental condition may also matter. Keep those conditions with the requirement so results from different stages are not compared as if they were identical.'
-   )+h('Carry the finished condition into sample approval',
-    'A sample should be evaluated in the configuration that its approval actually covers. If a first sample is uncoated, record that limit rather than implying approval of the treated fit or appearance. The '+a('sample approval checklist','/resources/ordering/machined-prototype-approval-checklist/')+' connects the configuration, checks, open items and release decision.'
-   ),
-  },
-  {
-   id:'release-files',aliases:['section-3','section-3-heading','section-4','section-4-heading','section-5','material-and-project-scope','material-and-project-scope-heading'],title:'Check the files and requirements before release',
-   html:facts([
-    ['Material and final surface','Specify grade and condition, finish and required records. Mark masked surfaces and whether dimensions apply before or after treatment.'],
-    ['Project requirements','Include applicable standards and revisions, traceability, end use and export requirements.'],
+   id:'inspection-planning',title:'Choose a method that answers the callout',
+   html:guideTable('Drawing requirements and inspection questions',['Characteristic','Method question','Useful report information'],[
+    ['Size or fit','Can the method check the specified limits in the final condition?','Feature number, result or functional-gauge outcome, and stage.'],
+    ['Form, orientation or location','How is the feature evaluated against the stated references?','Datum references, method and reported characteristic.'],
+    ['Surface texture','Can the instrument reach the working area with the required settings?','Parameter, units, result and measurement conditions.'],
+    ['Appearance or treatment','Which reference or test establishes the requirement?','Appearance approval or process-specific verification.'],
    ])+p(
-    'Use consistent part numbers, units and revisions across the model and drawing. State which document controls if they differ, and resolve conflicts before production. Where model-based requirements are used, identify the controlled dataset and the information that carries authority.',
-    'Mark changed features and revisions, then review their effect on the quotation, sample approval and repeat-production process. A revised bore can change the fit, machining sequence and inspection requirement.',
-    'Send the required inspection format with the inquiry. Agree measurement methods, available records and dimensional, appearance and functional acceptance before machining.'
-   )+h('Resolve ambiguity while a change is still a drawing decision',
-    'Resolve conflicting notes and dimensions, then update the controlled drawing package. Keep accepted deviations and their approval records linked to the released revision.'
+    'A CMM can suit some feature relationships; a bore-size check or texture measurement answers a different question. Access, range, measurement uncertainty and the required evidence affect the method. First-article, batch sampling and checks on every part should be specified separately, together with any calibration, traceability or test records.',
+    'In the '+a('illustrative inspection sheet','#teaching-inspection')+', F3 reads '+featureSample(thickness)+' mm against '+featureRange(thickness)+' mm. That failed thickness check holds release even though F1 and F2 pass their numerical comparisons. The teaching sheet does not demonstrate a complete inspection or an instrument’s suitability. Inspection methods and required records are agreed for the actual order.'
    ),
-   links:[['Prepare the RFQ package','/resources/ordering/rfq-checklist/'],['Material and finish requirements',guides+'material-and-finish-checklist/'],['Inspection and available records','/factory/#quality']],
   },
   {
-   id:'drawing-questions',title:'More questions about CNC drawings and critical features',
-   html:q('drawing-question-model','Is a STEP file enough to quote and inspect a CNC part?',
-    'A model helps communicate geometry, but the complete requirement must also define the material, tolerances, finish and acceptance information that the model does not carry. Send the controlled drawing and identify which file governs any conflict. If the project uses model-based definition, identify its controlled requirements explicitly.'
-   )+q('drawing-question-critical','How do I identify a critical dimension?',
-    'Identify how a nonconforming feature affects assembly or function, then specify its limits, datum relationships and surface condition. State any special inspection or release control against that feature.'
-   )+q('drawing-question-tight','Should I put the same tight tolerance on every dimension?',
-    'Use limits justified by function and the applicable drawing rules. A clearance feature and a locating interface may need different controls. Review the resulting machining and inspection scope without relaxing a necessary requirement simply to lower the price.'
-   )+q('drawing-question-datum','Can the supplier choose the assembly datums?',
-    'The responsible design engineer defines the datum scheme from the assembly function. The supplier reviews machining and inspection access against it. Record and approve any change before releasing the drawing.'
-   )+q('drawing-question-roughness','Does a tight diameter tolerance also control surface roughness?',
-    'No. Define the needed texture on the working surface using the applicable parameter and measurement conditions. Diameter, form and texture can each affect the interface, and a result for one does not automatically establish the others.'
-   )+q('drawing-question-ra-rz','Can Ra and Rz be converted with one multiplier?',
-    'Do not use a universal multiplier for acceptance. They describe different profile characteristics, and their relationship depends on the surface. Keep the specified parameter, units, standard and relevant measurement conditions with the drawing requirement.'
-   )+q('drawing-question-cmm','Does every critical feature need a CMM report?',
-    'No. Choose a method that can evaluate the specified characteristic and provide the required evidence. A CMM may suit some relationships; a size check, functional gauge or texture measurement answers a different question. Agree the method and report scope for the actual part.'
-   )+q('drawing-question-after-finish','Should the inspection happen before or after surface treatment?',
-    'Define the stage for each requirement. Process checks before treatment can be useful, while a finished fit needs acceptance in the specified final condition. Where both stages are required, identify them separately in the drawing and inspection plan.'
-   )+q('drawing-question-sample','Does one approved sample release every later batch?',
-    'It approves only the recorded configuration and scope. Repeat production still needs the released revision, material, finish and batch inspection requirements. Review changes and unresolved conditions before carrying an earlier approval forward.'
-   )+q('drawing-question-conflict','What happens when the model and PDF disagree?',
-    'Identify the governing document, resolve the conflicting requirement and release a traceable approved revision before production.'
+   id:'finished-state',title:'State when and how the part is measured',
+   html:p(
+    'A limit needs a measurement stage. Coated or masked areas and operations that alter a working face affect whether acceptance belongs before treatment, after treatment or at both stages. The teaching plate uses the final machined condition with no treatment allowance.',
+    'A flexible part measured free can differ from the same part held against a fixture. Plastics and temperature-sensitive fits may also need material and environmental conditions with the requirement.',
+    'Sample approval covers the configuration and checks recorded. An uncoated sample cannot establish the finished coating’s fit or appearance. The '+a('sample approval checklist','/resources/ordering/machined-prototype-approval-checklist/')+' keeps that scope and any open items with the release decision.'
+   ),
+  },
+  {
+   id:'release-files',aliases:['section-3','section-3-heading','section-4','section-4-heading','section-5','material-and-project-scope','material-and-project-scope-heading'],title:'Release one consistent drawing package',
+   html:facts([
+    ['Files','Part number, units and revision match across the model and drawing. A named governing document or controlled model-based dataset resolves authority.'],
+    ['Material and surface','Grade, condition, finish, masks and the applicable acceptance stage. Required material and treatment records belong here too.'],
+    ['Project requirements','Applicable standards and revisions, traceability, end use and export requirements.'],
+    ['Inspection scope','Dimensional, appearance and functional checks, with frequency, methods and available report format settled before machining.'],
+   ])+p(
+    'Identify changed features in each revision, including their effect on price, machining, sample approval and repeat production. Correct conflicting notes in the controlled files and link any accepted deviation to its approval record.'
+   ),
+   links:[['Prepare the RFQ package','/resources/ordering/rfq-checklist/'],['Material and finish requirements',guides+'material-and-finish-checklist/']],
+  },
+  {
+   id:'drawing-questions',title:"Questions before sending the files",
+   html:q('drawing-question-model','Can I start with a STEP file?',
+    'Yes, it is useful for discussing geometry. The quotation and inspection still need any material, tolerance, finish and acceptance information missing from the model. A model-based project needs an identifiable controlled requirements dataset.'
+   )+q('drawing-question-datum','Can the supplier propose a different datum scheme?',
+    'The supplier can raise access or measurement concerns and propose a change. The responsible designer decides whether it suits the assembly, then approves the revised requirement before production.'
+   )+q('drawing-question-sample','Does an approved sample release every later batch?',
+    'No. Approval covers the sample configuration and checks recorded. Later batches still follow the released revision, material, finish and inspection requirements. A change or an unresolved condition can require further approval.'
    ),
   },
  ],

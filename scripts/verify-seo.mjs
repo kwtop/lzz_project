@@ -1,13 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {load} from 'cheerio';
-import {SITE, DIST, migration, htmlPages, eligiblePages, redirectText, robotsText, companyRedirects} from './build-seo.mjs';
+import {SITE, DIST, migration, htmlPages, eligiblePages, redirectText, robotsText, companyRedirects,pageLastModified} from './build-seo.mjs';
+import {verifiedLastmodDates,llmsText} from './discovery-files.mjs';
 
 const errors = [];
 const check = (condition, message) => { if (!condition) errors.push(message); };
 const pages = htmlPages();
 const {rules, targets, discovered, catalog} = migration();
 const seen = {title:new Map(), description:new Map()};
+const imageProductionWording=/\b(?:ImageGen|ChatGPT|Midjourney|DALL[· -]?E|generic|realistic illustrative|Setup-planning illustration|inspection-planning illustration)\b/i;
+const vagueImageDescriptions=new Set(['Another moment from the workshop tour.','five-axis setup','rotary workholding','covered wheel forms','covered roller forms','covered shaped parts','prismatic workholding','component handling reference']);
 for (const [route, {$, excluded}] of pages) {
   if(companyRedirects[route]) {
     check($('meta[http-equiv="refresh" i]').attr('content')?.includes(companyRedirects[route]), `${route}: missing redirect refresh destination`);
@@ -19,6 +22,28 @@ for (const [route, {$, excluded}] of pages) {
   const canonical = $('link[rel="canonical"]');
   check(title.length === 1 && title.text().trim(), `${route}: expected one nonempty title`);
   check(description.length === 1 && description.attr('content')?.trim(), `${route}: expected one nonempty description`);
+  if(!excluded){
+    const shareImage=$('meta[property="og:image"]');
+    const shareAlt=$('meta[property="og:image:alt"]');
+    const alt=shareAlt.attr('content')?.trim()||'';
+    const headings=[$('h1').first().text().trim(),title.text().trim().replace(/\s*\|\s*LZZ Precision$/,''),$('meta[property="og:title"]').attr('content')?.replace(/\s*\|\s*LZZ Precision$/,'')];
+    check(shareImage.length===1&&shareAlt.length===1&&Boolean(alt),`${route}: share image needs one content description`);
+    check(!headings.includes(alt),`${route}: share image alt must describe the image instead of repeating the page title`);
+    check(!imageProductionWording.test(alt),`${route}: production wording in share image alt`);
+    const src=shareImage.attr('content');
+    if(src){
+      const imagePath=new URL(src,SITE).pathname;
+      check(fs.existsSync(path.join(DIST,decodeURIComponent(imagePath))),`${route}: missing share image file ${imagePath}`);
+      check(imagePath!=='/media/source-details/finish-coated-round-1200.webp',`${route}: use the adopted image without the camera watermark for sharing`);
+    }
+    $('img[src]').each((_,element)=>{
+      const image=$(element),description=image.attr('alt')?.trim();
+      const decorative=image.attr('aria-hidden')==='true'||image.attr('role')==='presentation';
+      check(description!==undefined&&(Boolean(description)||decorative),`${route}: content image is missing alt: ${image.attr('src')}`);
+      check(!imageProductionWording.test(description||''),`${route}: production wording in image alt: ${description}`);
+      check(!vagueImageDescriptions.has(description),`${route}: replace the vague image alt: ${description}`);
+    });
+  }
   check((excluded && canonical.length === 0) || (canonical.length === 1 && canonical.attr('href') === SITE + route), `${route}: canonical must be unique and self-referencing on production origin`);
   if (/^\/404(?:\.html|\/)$/.test(route)) check(/(?:noindex|none)/i.test($('meta[name="robots" i]').attr('content') || ''), `${route}: 404 needs explicit noindex`);
   for (const [key, value] of [['title', title.text().trim()], ['description', description.attr('content')?.trim()]]) {
@@ -70,6 +95,19 @@ check(xml('urlset').attr('xmlns') === 'http://www.sitemaps.org/schemas/sitemap/0
 check(new Set(urls).size === urls.length, 'Duplicate sitemap URLs');
 check(JSON.stringify([...urls].sort()) === JSON.stringify(expected), 'Sitemap differs from canonical/indexable dist HTML');
 check(urls.length > 0, 'Empty sitemap');
+const verifiedDates=verifiedLastmodDates(pages,eligiblePages(pages),pageLastModified);
+xml('urlset>url').each((_,element)=>{
+ const row=xml(element),url=row.find('loc').text(),route=new URL(url).pathname;
+ const dates=row.find('lastmod');
+ check(dates.length===(verifiedDates.has(route)?1:0),url+': missing or unsupported lastmod');
+ if(verifiedDates.has(route))check(dates.text()===verifiedDates.get(route),url+': lastmod differs from content evidence');
+});
+const llms=fs.readFileSync(path.join(DIST,'llms.txt'),'utf8');
+check(llms===llmsText(SITE,pages,eligiblePages(pages)),'llms.txt differs from canonical public content');
+const llmsLinks=[...llms.matchAll(/^- \[.+\]\((https:\/\/[^)]+)\): /gm)].map(m=>m[1]);
+check(llms.startsWith('# LZZ Precision\n\n> '),'llms.txt needs a site name and summary');
+check(new Set(llmsLinks).size===llmsLinks.length,'llms.txt contains duplicate links');
+check(JSON.stringify([...llmsLinks].sort())===JSON.stringify(expected),'llms.txt links differ from canonical public pages');
 check(fs.readFileSync(path.join(DIST, 'robots.txt'), 'utf8') === robotsText, 'robots.txt differs from production crawl intent');
 console.log(`Checked ${pages.size} HTML, ${rules.size} evidence-derived redirect rules, ${discovered.size} discovered URLs (${catalog.products.length} products / 53 aliases, 10 categories / 20 routes, 2 articles).`);
 if (errors.length) { console.error(errors.join('\n')); console.error(`SEO verification failed: ${errors.length} issues`); process.exitCode = 1; }

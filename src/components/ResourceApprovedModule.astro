@@ -6,8 +6,11 @@ import ResourceVisual from './ResourceVisual.astro';
 import ResourceContentImage from './ResourceContentImage.astro';
 import {resourceImagePlan} from '../data/resourceImagePlan';
 import {load} from 'cheerio';
+import {productGuideBySlug} from '../data/productTechnicalGuides';
+import ProductGuideDiagram from './ProductGuideDiagram.astro';
 interface Props {item:ApprovedResourceModule;rfqTools?:boolean;slug:string;core?:boolean}
 const {item,rfqTools=false,slug,core=false}=Astro.props,{section,kind='reading',visual}=item;
+const productGuide=productGuideBySlug[slug];
 const coverAlreadyExplains=slug==='custom-cnc-parts-shipping-checklist'&&section.id==='section-2';
 const media=(slug==='compare-cnc-machining-quotations'&&section.id==='comparison')||coverAlreadyExplains?undefined:resourceImagePlan[slug]?.[section.id];
 const imageAfterTable=slug==='cnc-process-selection'&&section.id==='process-comparison';
@@ -36,6 +39,7 @@ if(splitFinish){const split=html.indexOf('<span id="interfaces-and-dimensions-he
   {visual&&<div class="rs-illustration"><ResourceVisual visual={visual}/></div>}
   {photos.length>0&&<div class:list={['rs-photos',{'rs-photos--workshop':kind==='workshop','rs-photos--archive':kind==='archive','rs-photos--context':kind==='context'}]}>{photos.map((source,index)=>{const asset=photo(source.id),link=item.photoLinks?.[index];return <div><AboutRedesignPhoto src={asset.src} srcset={asset.srcset} width={asset.width} height={asset.height} alt={source.caption} caption={source.caption} sizes="(max-width:767px) calc(100vw - 44px), 480px"/>{link&&<a class="rs-photo-study" href={link[1]}>{link[0]}</a>}</div>;})}</div>}
  </div>
+ {productGuide?.diagramAfter===section.id&&<ProductGuideDiagram kind={productGuide.diagram} caption={productGuide.diagramCaption} legend={productGuide.legend}/>}
  {finishInterfaces&&<div class="rs-finish-interfaces rs-prose" set:html={finishInterfaces}/>}
  <slot/>
 </section>

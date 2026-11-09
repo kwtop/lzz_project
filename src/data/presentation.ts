@@ -37,13 +37,6 @@ const titles: Record<string, string> = {
  'small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv': 'Mixed-material pilot-run components',
 };
 export const productTitle = (product: {slug: string; name: string}) => titles[product.slug] || product.name;
-// Previous display names remain valid for saved drafts and shared inquiry links.
-export const productInquiryAliases: Record<string, readonly string[]> = {
- 'custom-billet-intake-manifold-manufacturer-and-automotive-performance-prototype-supplier': ['Billet intake manifold prototypes'],
- 'custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier': ['Billet aluminum intake manifolds'],
- 'precision-small-batch-cnc-milling-manufacturer-for-complex-aluminum-enclosures': ['Small-batch aluminum enclosures'],
- 'small-batch-cnc-machining-manufacturer-complex-aluminum-housings': ['Complex aluminum housings'],
-};
 export const categoryDetails: Record<string, {title: string; description: string}> = {
  'cnc-milling-service': {title: 'CNC milling', description: 'Custom housings and components with milled pockets, bores and profiles. Send your drawing to review tool access and the features that control fit.'},
  'cnc-turning-service': {title: 'CNC turning', description: 'Turned shafts, fittings and flanges with internal and external features. Specify the fits, threads and concentricity your assembly needs.'},

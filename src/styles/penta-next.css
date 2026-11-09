@@ -21,11 +21,6 @@ body[data-penta-sample]{--pn-forest:#AC4829;--pn-tint:#F5F3EF;--pn-paper:#F5F3EF
 [data-penta-sample] .nav-panel{border:0;border-radius:var(--pn-radius-object);padding:30px;box-shadow:0 25px 70px #AC482926}
 [data-penta-sample] .nav-panel a{font-size:15px}
 [data-penta-sample] .site-breadcrumb{padding-top:28px;font-size:14px}
-body:is(.redesign-site,.brand-site.finesse-redesigned.precision-gallery)[data-penta-sample] footer.lzz-footer.lzz-footer--directory{background:var(--pn-forest);border:0;color:#F5F3EF;margin-top:90px}
-body:is(.redesign-site,.brand-site.finesse-redesigned.precision-gallery)[data-penta-sample] footer.lzz-footer--directory :is(.lzz-footer-contacts,.lzz-footer-base){border:0}
-[data-penta-sample] .lzz-footer p,[data-penta-sample] .lzz-footer address,[data-penta-sample] .lzz-footer-legal{color:#EEE9E2}
-[data-penta-sample] .lzz-footer h2{font-family:var(--body);font-size:17px;font-weight:600;line-height:1.45}
-[data-penta-sample] .lzz-footer a:hover{color:#fff}
 [data-penta-sample] :is(.pn-hm-page,.pn-catalog,.pn-milling-page) :is(img,figure){min-width:0}
 [data-penta-sample] :is(.pn-hm-page,.pn-catalog,.pn-milling-page) img{border-radius:var(--pn-radius-photo)}
 [data-penta-sample] :is(.pn-hm-page,.pn-catalog,.pn-milling-page)>section{scroll-margin-top:120px}
@@ -298,7 +293,7 @@ body.redesign-site[data-penta-sample] :is(nav,ol).pn-link-index a:is(:hover,:foc
  [data-penta-sample] .pn-hm-rfq-tasks{grid-template-columns:1fr;gap:38px;margin-top:32px}
  [data-penta-sample] .pn-hm-rfq-visual{max-width:350px}
  [data-penta-sample] .pn-catalog{padding-top:32px}
- [data-penta-sample] .pn-catalog>section{width:calc(100% - 40px)}
+ [data-penta-sample] .pn-catalog>section{width:100%}
  [data-penta-sample] .pn-cx-directory-intro{grid-template-columns:1fr;gap:20px}
  [data-penta-sample] .pn-cx-lead{font-size:18px}
  [data-penta-sample] .pn-cx-entry-links{gap:10px 18px}
@@ -340,7 +335,6 @@ body.redesign-site[data-penta-sample] :is(nav,ol).pn-link-index a:is(:hover,:foc
  [data-penta-sample] .pn-milling-cmm img{width:190px;margin-inline:auto}
  [data-penta-sample] .pn-milling-rfq{grid-template-columns:1fr;gap:32px}
  [data-penta-sample] .pn-milling-order{padding:26px}
- body:is(.redesign-site,.brand-site.finesse-redesigned.precision-gallery)[data-penta-sample] footer.lzz-footer.lzz-footer--directory{margin-top:var(--pn-section-space)}
 }
 [data-penta-sample] .pn-concept{margin:0;min-width:0}
 [data-penta-sample] .pn-concept img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:var(--pn-radius-photo)}

@@ -16,15 +16,15 @@ export const cncCostMetadata={
 
 export const cncCostGuide:Guide={
  title:cncCostMetadata.title,
- intro:'A small part can take more work to make than a larger, simpler one. To understand a CNC machining quote, follow the work behind the part: preparing the process, cutting the features, checking them and delivering the agreed finished condition.',
+ intro:"A small part can cost more to machine than a larger, simpler one because it needs more setup, cutting or inspection work. Compare quotes with finishing and delivery included in the scope.",
  visual:'drawing',
  closing:'Discuss the cost drivers in your part',
  sections:[
   {
-   id:'cost-breakdown',title:'What goes into a CNC machining quote?',
+   id:'cost-breakdown',title:'What a CNC machining quote includes',
    html:p(
-    "The price covers the work needed to make the specified part at the requested quantity. Some preparation is shared by a batch; other work repeats for each component. That distinction helps explain a high prototype price and why a larger order may have a lower unit price.",
-    "A useful way to read the quote is to separate preparation, production and delivery. The supplier may combine them into a unit price or list some items separately. Either format can work if the scope is clear."
+    "The price covers the specified part at the requested quantity. Programming and some preparation can be shared across a batch, while cutting and checking repeat on each component. This is one reason a prototype can cost more per piece than a larger order.",
+    "Preparation, production and delivery may appear in one unit price or as separate charges. Check the scope in either format."
    )+guideTable('Work behind a CNC machining quotation',['Cost element','What the work involves','What to check'],[
     ['Process preparation','Reviewing the files, planning operations, programming, selecting tools and preparing workholding.','Which charges apply to this order, and what would need review for a repeat?'],
     ['Stock and material','Obtaining the specified grade, condition and stock form, with machining allowance.','Are material records and any approved alternatives included?'],
@@ -32,14 +32,14 @@ export const cncCostGuide:Guide={
     ['Inspection and finish','Checking specified features, preparing records and completing the surface treatment.','What is checked, at which stage, and against which acceptance limits?'],
     ['Packing and transport','Protecting the parts and arranging the agreed shipment and documents.','What is included in the delivery basis, and which costs remain with the buyer?'],
    ])+p(
-    "Check the complete quotation scope, including preparation, finishing and delivery costs alongside machining time. "+a('Penta Precision’s machining cost guide','https://www.pentaprecision.co.uk/resources/how-much-does-cnc-machining-cost')+" also explains the relationship between setup, quantity and price."
+    a('Penta Precision’s machining cost guide','https://www.pentaprecision.co.uk/resources/how-much-does-cnc-machining-cost')+" also explains the relationship between setup, quantity and price."
    ),
   },
   {
-   id:'prototype-and-batch',title:'Why does one CNC prototype cost more per part?',
+   id:'prototype-and-batch',title:'Setup costs on a prototype and a batch',
    html:p(
-    "The first component still needs a workable program, suitable tools, a holding arrangement and an inspection plan. A buyer ordering one housing pays for that preparation within a single-piece order. A batch gives the supplier more pieces over which to spread suitable shared work.",
-    "The relationship is not a straight-line discount. Increasing quantity can change the fixture, stock purchase, loading method, sampling plan or machining route. Those changes have their own preparation costs and only make sense at a suitable volume."
+    "Even one component needs a program, cutting tools, workholding and an inspection plan. A single-piece order carries that preparation cost on its own. In a batch, suitable shared preparation can be spread across more pieces.",
+    "More pieces do not produce a uniform discount. A larger quantity may justify a different fixture, stock purchase, loading method, sampling plan or machining route. Each change has a preparation cost that needs to suit the volume."
    )+h('Request prices for the quantities you plan to order',
     "If you are considering 1, 10 and 50 pieces, ask for those quantities against the same released design. They are comparison quantities, not price estimates. Keep material, final finish and inspection scope consistent so the difference tells you something about production volume.",
     "State the prototype quantity and any forecast batch separately. Request a price for each release, with its approval requirements and schedule. The "+a('prototype and repeat-production guide','/resources/ordering/prototype-vs-small-batch-cnc/')+" explains what carries forward after sample approval."
@@ -50,33 +50,33 @@ export const cncCostGuide:Guide={
   {
    id:'geometry-and-setups',title:'How geometry and setups change the work',
    html:p(
-    "The outside dimensions are only the beginning. A compact block with a deep recess and features on several faces can demand more preparation than a larger plate with accessible holes. The useful question is which surfaces the cutter must reach and how the component can be held while it gets there."
+    "A compact block with a deep recess and features on several faces can need more preparation than a larger plate with accessible holes. Cutter reach and the surfaces available for clamping matter alongside outside dimensions."
    )+h('Depth, corners and the material left behind',
     "A pocket needs a cutter that can reach its floor and corners. Restricted access may require a smaller or longer tool, additional passes or a different sequence. Thin remaining walls also need support during machining and a defined condition for inspection.",
     "Review the depth and radius together. If a mating component only needs clearance at a corner, a permitted relief may be worth discussing. Its effect on strength, sealing and assembly still belongs in the design review. "+a('Protolabs’ cost-reduction guidance','https://www.protolabs.com/resources/design-tips/how-to-reduce-cnc-machining-costs/')+" explains the connection between small tools, thin walls and difficult pockets."
    )+h('Repositioning is a machining operation too',
     "A face hidden by the first holding arrangement may need a second setup. The part must be located again, supported and checked against the features already made. Where a bore or hole pattern connects the two orientations, the datum scheme becomes part of that work.",
-    "Removing a setup can be useful, but its value depends on the full route. A more elaborate fixture or machine strategy may take longer to prepare. Compare the proposed sequence, especially for a single prototype, before assuming fewer setups must produce a lower total price."
+    "Fewer setups can reduce handling, but a more elaborate fixture or machining strategy may take longer to prepare. Compare the complete sequence, especially for a single prototype, to see whether the change lowers the total price."
    ),
   },
   {
-   id:'cost-in-existing-parts',title:'Two milling setups: what adds work?',
+   id:'cost-in-existing-parts',title:'Locating and inspection costs across two milling setups',
    html:p(
-    "The "+a('two-stage milling study',studies+'two-stage-cnc-milling/')+" explains access from the top and side of a component. Repositioning adds locating, clamping and inspection work. Identify the cross-setup dimensions and how the second operation locates from the first.",
+    "The "+a('two-stage milling study',studies+'two-stage-cnc-milling/')+" records two operations on one component. On a new part, repositioning can add locating, clamping and inspection work. Mark the dimensions that connect features across faces so the supplier can assess that work.",
     'Ask whether an allowed design change improves access or removes a setup, and identify the cross-setup dimensions that still need inspection. Request a revised quotation against the changed drawing to compare the cost.'
    ),
    photos:[
-    {id:'two-stage-first',caption:'First holding orientation · original LZZ two-stage milling record'},
-    {id:'two-stage-second',caption:'Second holding orientation of the same source part · original LZZ record'},
+    {id:'two-stage-first',caption:'First milling operation · original LZZ workshop record'},
+    {id:'two-stage-second',caption:'Second milling operation on the same source part · original LZZ record'},
    ],
-   links:[['Read the original two-setup study',studies+'two-stage-cnc-milling/']],
+   links:[['Read the two-operation workshop record',studies+'two-stage-cnc-milling/']],
   },
   {
-   id:'pocketed-enclosure-cost',title:'A pocketed enclosure: where is precision needed?',
+   id:'pocketed-enclosure-cost',title:'Apply precision where the enclosure needs it',
    html:p(
-    "The "+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+" brings together a recess, remaining walls and mounting features. A buyer can use that form to explain where a mating component fits and which faces need a controlled finish.",
-    "That distinction helps separate functional requirements from appearance. A sealing interface, a clearance pocket and a visible outside face can need different acceptance criteria. A design review can examine each one without applying the most demanding finish or tolerance to every surface."
-   ),
+    "In the "+a('pocketed enclosure study',studies+'milling-a-pocketed-enclosure-form/')+", the recess leaves walls and mounting features around it. For a new part of this form, identify where the mating component fits and which faces need a controlled finish.",
+    "A sealing interface, a clearance pocket and a visible outside face can need different acceptance criteria. The design review should separate functional requirements from appearance so the most demanding finish or tolerance is applied only where needed."
+   )+p('For a '+a('CNC aluminum enclosure','/resources/technical-guides/designing-aluminum-enclosures-for-cnc-machining/')+', useful cost alternatives identify a particular corner, wall or access restriction. A revised quote can then price the approved geometry change while preserving the lid, mounting and sealing requirements that must stay fixed.'),
    photos:[
     {id:'milling-enclosure-operation',caption:'Pocketed component held beneath the spindle · original LZZ workshop photograph'},
     {id:'milling-enclosure-parts',caption:'Associated recessed component forms · original LZZ source photograph'},
@@ -105,7 +105,7 @@ export const cncCostGuide:Guide={
    ),
   },
   {
-   id:'tolerances-and-inspection',title:'Where do tolerances and inspection add cost?',
+   id:'tolerances-and-inspection',title:'The cost of tolerances and inspection',
    html:p(
     "A tolerance defines an acceptable result. The supplier then needs a process and measurement method suited to that requirement. A close-fitting bore, a hole pattern located from another face and a cosmetic surface can require different checks.",
     "Start with the function. Identify the dimensions and relationships that control fit, sealing, location or movement. The responsible design engineer can then review requirements on the remaining features. Relaxing a nonfunctional limit is a design decision that needs approval before the files change."
@@ -129,7 +129,7 @@ export const cncCostGuide:Guide={
   {
    id:'reduce-cost',title:'How to reduce CNC machining cost while keeping the function',
    html:p(
-    "A useful cost review begins with the features driving work. Explain what the part must do and which details can be discussed. Ask for an alternative with a stated change, then compare it with the original requirements."
+    "Ask which features add work and which design details could change without affecting function. Any separately quoted alternative should identify the change so you can compare it with the original requirements."
    )+guideTable('Design discussions for a CNC cost review',['Review area','Question worth asking','Requirement to retain'],[
     ['Access and setups','Would a permitted design or orientation change simplify tool access?','The required relationships between features and the assembly interfaces.'],
     ['Pocket and corner geometry','Can a radius, relief or depth be adjusted where function allows?','Clearance, remaining section, sealing and any defined load requirements.'],
@@ -142,22 +142,10 @@ export const cncCostGuide:Guide={
    ),
   },
   {
-   id:'cost-questions',title:'More questions about CNC machining prices',
+   id:'cost-questions',title:"CNC machining price questions",
    html:
     q('cost-per-hour','Can I estimate a part price from a CNC hourly rate?',
      "An hourly rate helps only when you also know the relevant machining time and what the rate includes. Programming, fixtures, inspection, treatment and delivery may be priced separately. A drawing-based quotation gives those assumptions a part-specific scope."
-    )+
-    q('small-part-cost','Why can a small machined part still be expensive?',
-     'A small part still needs preparation, and difficult access or several operations add work. Compare the complete geometry and acceptance requirements, including when ordering one piece.'
-    )+
-    q('quantity-price','Will ordering more pieces always reduce the unit price?',
-     'Shared preparation reduces repeat work, while the machining route and batch requirements depend on quantity. Request the quantities you plan to order against one specification and compare the quoted price breaks.'
-    )+
-    q('five-axis-price','Does five-axis machining always cost more?',
-     "Compare complete routes. A multi-axis approach may change the number of manual setups and the access available to the tool, while also changing programming and fixture preparation. The "+a('process-selection guide','/resources/technical-guides/cnc-process-selection/')+" explains what to compare before choosing the route."
-    )+
-    q('drawing-price','Is a 3D model enough for an accurate quote?',
-     "The model communicates shape. A controlled drawing and accompanying specification define requirements such as fits, datums, surface texture, treatment and inspection records. If a requirement is still open, identify it so the quotation states the assumption or question clearly."
     )+
     q('different-quote-price','Why do two suppliers quote different prices for the same part?',
      "They may propose different routes or include different work. Compare the revision, material condition, quantity, finish, inspection, setup charges and delivery basis first. Ask for exceptions in writing so the price difference can be understood."
@@ -166,7 +154,7 @@ export const cncCostGuide:Guide={
      "It needs its own quotation. Quantity and reusable preparation can change, as can material, finish, inspection and delivery requirements. Refer to the approved revision and ask which earlier preparation remains applicable."
     )+
     q('budget-without-drawing','Can I request a budget before the design is finished?',
-     "Explain the part function, approximate geometry, material options and likely quantities, and identify the unresolved decisions. Ask whether the available information supports a preliminary estimate. Agree its assumptions and revisit the price once the drawing and order scope are confirmed."
+     "A preliminary estimate may be possible from the part function, approximate geometry, material options and likely quantities. Identify unresolved decisions and record the estimate’s assumptions. The price needs another check once the drawing and order scope are confirmed."
     ),
   },
  ],

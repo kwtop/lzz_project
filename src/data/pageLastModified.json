@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "policy": "Record significant content updates with review evidence. Omit unknown dates; never substitute build time, file mtime or event dates.",
+  "pages": {
+    "/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
+      "reason": "Published resource-card titles and summaries changed."
+    },
+    "/resources/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
+      "reason": "Published directory, introduction or FAQ copy changed."
+    },
+    "/resources/faq/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
+      "reason": "Published directory, introduction or FAQ copy changed."
+    },
+    "/resources/ordering/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
+      "reason": "Published directory, introduction or FAQ copy changed."
+    },
+    "/resources/technical-guides/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
+      "reason": "Published directory, introduction or FAQ copy changed."
+    },
+    "/resources/ordering/cnc-machining-cost-factors/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/ordering/rfq-checklist/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/ordering/compare-cnc-machining-quotations/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/ordering/machined-prototype-approval-checklist/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/ordering/prototype-vs-small-batch-cnc/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/ordering/custom-cnc-parts-shipping-checklist/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/critical-features-cnc-drawing/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/6061-vs-7075-cnc-aluminum/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/material-and-finish-checklist/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/cnc-process-selection/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/designing-aluminum-enclosures-for-cnc-machining/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/what-to-check-before-machining-a-cast-housing/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/why-machined-plastic-parts-need-defined-measurement-conditions/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/which-aluminum-features-need-masking-before-anodizing/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/datums-and-hole-position-on-circular-machined-parts/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/choosing-thread-and-seal-requirements-for-machined-fittings/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/preparing-an-impeller-model-for-5-axis-machining/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/specifying-a-billet-intake-manifold-for-machining/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/what-matters-when-ordering-a-custom-indexing-plunger/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    },
+    "/resources/technical-guides/how-to-specify-fits-and-runout-on-turned-parts/": {
+      "lastmod": "2026-11-08",
+      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
+      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+    }
+  }
+}

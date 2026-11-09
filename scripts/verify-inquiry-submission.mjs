@@ -1,0 +1,86 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {load} from 'cheerio';
+import {attachmentPolicy,attachmentAccept,emptyInquiryFields,parseContact,toggleInquiryProcess,validateInquiry,validateAttachments} from '../src/lib/inquiryForm.ts';
+import {build} from 'esbuild';
+const bundled=await build({entryPoints:['src/lib/inquirySubmission.ts'],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022'});
+const {submitInquiry}=await import('data:text/javascript;base64,'+Buffer.from(bundled.outputFiles[0].text).toString('base64'));
+
+const fields=overrides=>({...emptyInquiryFields(),name:'Local QA',country:'United Kingdom',...overrides});
+assert.equal(emptyInquiryFields().method,'phone');
+for(const phone of ['+44 7700 900123','+1 (202) 555-0123'])assert.deepEqual(validateInquiry(fields({phone})),{});
+assert.deepEqual(validateInquiry(fields({method:'email',email:'buyer@example.invalid',phone:'unused invalid phone'})),{});
+assert.deepEqual(validateInquiry(fields({phone:'+44 7700 900123',email:'unused invalid email'})),{});
+for(const phone of ['','plain text','buyer@example.invalid','+0 1234567890','1234567890','+12','+1234567890123456'])assert.ok(validateInquiry(fields({phone})).phone,phone);
+for(const email of ['','plain text','bad@@example.com','buyer@example','+44 7700 900123'])assert.ok(validateInquiry(fields({method:'email',email})).email,email);
+assert.ok(validateInquiry(fields({name:' ',phone:'+44 7700 900123'})).name);
+assert.ok(validateInquiry(fields({country:' ',phone:'+44 7700 900123'})).country);
+assert.ok(validateInquiry(fields({country:'https://example.invalid',phone:'+44 7700 900123'})).country);
+for(const country of ['Iceland','Côte d’Ivoire','中国'])assert.deepEqual(validateInquiry(fields({country,phone:'+44 7700 900123'})),{});
+assert.deepEqual(parseContact('phone',' +44 7700 900123 '),{kind:'phone',value:'+447700900123'});
+assert.deepEqual(parseContact('email',' buyer@example.invalid '),{kind:'email',value:'buyer@example.invalid'});
+assert.equal(parseContact('phone','buyer@example.invalid'),undefined);
+assert.equal(parseContact('email','+44 7700 900123'),undefined);
+assert.ok(validateInquiry(fields({phone:'+44 7700 900123',message:'x'.repeat(4001)})).message);
+assert.deepEqual(toggleInquiryProcess(['milling'],'turning'),['milling','turning']);
+assert.deepEqual(toggleInquiryProcess(['milling','turning'],'not-sure'),['not-sure']);
+assert.deepEqual(toggleInquiryProcess(['not-sure'],'milling'),['milling']);
+assert.deepEqual(toggleInquiryProcess(['milling'],'milling'),[]);
+assert.ok(validateInquiry(fields({phone:'+44 7700 900123',processes:['not-sure','milling']})).processes);
+assert.ok(validateInquiry(fields({phone:'+44 7700 900123',partType:'invalid'})).partType);
+assert.deepEqual(emptyInquiryFields({partType:'impellers',processes:['multi-axis']}).processes,['multi-axis']);
+
+const file=(name,size=100)=>({name,size});
+for(const extension of attachmentPolicy.extensions)assert.deepEqual(validateAttachments([file('part.'+extension.toUpperCase())]),[]);
+assert.deepEqual(validateAttachments([]),[]);
+assert.deepEqual(validateAttachments([file('part.zip',20*1024*1024)]),[]);
+assert.deepEqual(validateAttachments(Array.from({length:5},(_,i)=>file(i+'.pdf'))),[]);
+assert.match(validateAttachments(Array.from({length:6},(_,i)=>file(i+'.pdf'))).join(' '),/up to 5/);
+assert.match(validateAttachments([file('a.zip',11*1024*1024),file('b.zip',10*1024*1024)]).join(' '),/20 MB/);
+assert.match(validateAttachments([file('malware.exe')]).join(' '),/use PDF/);
+assert.match(validateAttachments([file('empty.pdf',0)]).join(' '),/empty/);
+
+const payload={name:'Local QA',destinationCountry:'United Kingdom',contact:parseContact('email','buyer@example.invalid'),partType:'blocks',processes:['milling','turning'],message:'',attachments:[],context:{part:'Teaching plate',source:'/factory/#equipment'}};
+let networkCalls=0;
+const originalFetch=globalThis.fetch,originalLocation=globalThis.location,originalDocument=globalThis.document;
+globalThis.location=new URL('https://fixture.example/quote/');globalThis.document={documentElement:{lang:'en'},referrer:'https://search.example/'};
+globalThis.fetch=async(url,options)=>{networkCalls++;assert.equal(url,'/api/inquiries');assert.ok(options.body instanceof FormData);assert.ok(options.headers['Idempotency-Key']);const body=JSON.parse(options.body.get('payload'));assert.equal(body.fields.email,'buyer@example.invalid');assert.equal(body.fields.phone,'');return new Response(JSON.stringify({status:'sent',reference:'SAVED-REFERENCE'}),{status:200,headers:{'Content-Type':'application/json'}});};
+try{assert.deepEqual(await submitInquiry(payload),{status:'sent',reference:'SAVED-REFERENCE'});assert.equal(networkCalls,1);
+globalThis.fetch=async()=>new Response(JSON.stringify({error:'not_configured'}),{status:503});assert.deepEqual(await submitInquiry(payload),{status:'unavailable'});
+globalThis.fetch=async()=>{throw Error('Network response lost');};assert.deepEqual(await submitInquiry(payload),{status:'failed',code:'network'});
+globalThis.fetch=async()=>new Response(JSON.stringify({status:'sent'}),{status:200});assert.deepEqual(await submitInquiry(payload),{status:'failed',code:'server'});
+}finally{globalThis.fetch=originalFetch;if(originalLocation===undefined)delete globalThis.location;else globalThis.location=originalLocation;if(originalDocument===undefined)delete globalThis.document;else globalThis.document=originalDocument;}
+let received;
+assert.deepEqual(await submitInquiry(payload,async request=>{received=request;return {status:'sent',reference:'TEST-ONLY-001'};}),{status:'sent',reference:'TEST-ONLY-001'});
+assert.equal(received,payload);
+assert.equal(received.name,'Local QA');
+assert.equal(received.destinationCountry,'United Kingdom');
+assert.deepEqual(received.processes,['milling','turning']);
+assert.deepEqual(await submitInquiry(payload,async()=>({status:'failed'})),{status:'failed'});
+assert.deepEqual(await submitInquiry(payload,async()=>{throw new Error('Offline');}),{status:'failed'});
+assert.deepEqual(await submitInquiry(payload,async()=>({status:'unexpected'})),{status:'failed'});
+let finish;
+let completed=false;
+const pending=submitInquiry(payload,()=>new Promise(resolve=>{finish=resolve;})).then(result=>{completed=true;return result;});
+await Promise.resolve();assert.equal(completed,false);
+finish({status:'sent'});assert.deepEqual(await pending,{status:'sent'});
+const selected=new File(['teaching data'],'EX-MOUNT-01.pdf',{type:'application/pdf'});
+const withFile={...payload,attachments:[selected]};
+await submitInquiry(withFile,async request=>{assert.equal(request.attachments[0],selected);assert.equal(request.context.source,'/factory/#equipment');return {status:'failed'};});
+assert.equal(withFile.attachments[0],selected);
+
+if(!process.argv.includes('--unit')&&fs.existsSync('dist/quote/index.html')) {
+ const $=load(fs.readFileSync('dist/quote/index.html','utf8'));
+ const form=$('.inquiry-form');
+ assert.deepEqual(form.find('[required]').map((_,element)=>$(element).attr('name')).get(),['name','country','phone']);
+ assert.equal(form.find('input[name="method"][checked]').attr('value'),'phone');
+ assert.equal(form.find('select[name="partType"]').length,1);
+ assert.equal(form.find('input[name="processes"]').length,6);
+ assert.equal(form.find('textarea').attr('required'),undefined);
+ assert.equal(form.find('input[type="file"]').attr('accept'),attachmentAccept);
+ assert.equal(form.find('[name="contact"],[name="project"]').length,0);
+ assert.equal(form.find('button[type="submit"]').text().trim(),'Send inquiry');
+ assert.match($('.inquiry-reply').text(),/We reply within 12 hours\./);
+ assert.doesNotMatch($('main').text(),/Prepare.*draft|Copy draft|Save draft|Clear saved input/i);
+}
+console.log('Inquiry: required buyer details, selected contact channel, process selection, attachment limits, transport results and built form passed.');

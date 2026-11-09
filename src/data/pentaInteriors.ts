@@ -1,4 +1,5 @@
 import {photo} from './evidence';
+import {productGuideCovers} from './productTechnicalGuides';
 import {siteImage,type SiteImageId} from './siteImages';
 import {processDisplay} from './processImageDisplays';
 
@@ -12,12 +13,12 @@ export function manufacturingImage(name:string,landscape=false):InteriorImage {
  if(upgraded[name])return siteImage(upgraded[name]);
  const stem='/media/penta-interiors-20261017/'+name;
  const descriptions:Record<string,string>={
-  milling:'A generic end mill cutting a pocket in a clamped aluminum block',
-  turning:'A generic stepped shaft held in a lathe with a single-point turning tool',
-  'five-axis':'A generic indexed rotary setup holding an angled aluminum component',
-  'plastic-milling':'A generic polymer block held in soft jaws during pocket milling',
-  'drawing-review':'A generic housing, cover, schematic drawings and measuring tool on a desk',
-  packing:'Generic machined blocks separated in protective foam inside an unmarked carton',
+  milling:'An end mill cutting a pocket in a clamped aluminum block',
+  turning:'A stepped shaft held in a lathe with a single-point turning tool',
+  'five-axis':'An indexed rotary setup holding an angled aluminum component',
+  'plastic-milling':'A polymer block held in soft jaws during pocket milling',
+  'drawing-review':'A housing, cover, schematic drawings and measuring tool on a desk',
+  packing:'Machined blocks separated in protective foam inside an unmarked carton',
  };
  return {src:stem+'-1120.webp',srcset:[480,800,1120].map(w=>`${stem}-${w}.webp ${w}w`).join(', '),width:1120,height:landscape?840:1400,alt:descriptions[name],caption:name==='drawing-review'?'Drawing preparation · illustration':name==='packing'?'Packing example · illustration':'Process illustration',origin:'image-reference'};
 }
@@ -40,6 +41,7 @@ export function capabilityScene(slug:string):InteriorImage {
 }
 
 export const resourceCovers:Record<string,InteriorImage>={
+ ...productGuideCovers,
  'cnc-machining-cost-factors':{...siteImage('guide-quotations'),caption:'Machining cost review · illustration'},
  'rfq-checklist':siteImage('guide-rfq'),
  'critical-features-cnc-drawing':siteImage('guide-critical-features'),

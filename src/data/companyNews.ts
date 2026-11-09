@@ -47,7 +47,7 @@ export const companyNews:Resource[]=[
   slug:'australian-customer-workshop-visit-january-2025',
   title:'An Australian customer visits the LZZ workshop',category:'Company news',
   eventDate:'2025-01-07',eventDateLabel:'7 January 2025',
-  description:'An Australian customer visited LZZ in Hangzhou for a look around the CNC workshop and a conversation about machined parts.',
+  description:"An Australian customer toured our Hangzhou CNC workshop and discussed machined components with the team.",
   html:`<p>An Australian customer visited our Hangzhou workshop on 7 January 2025. The customer toured the CNC machines and discussed machined components with the LZZ team.</p>
   <h2>From the machines to the parts</h2><p>The customer and team examined a component on the workshop floor and also discussed a part at a table. The photographs below record the tour and part review.</p>
   <h2>Photographs from the visit</h2>${gallery('australian-visit')}

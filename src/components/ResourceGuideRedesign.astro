@@ -1,10 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ReadingIndex from './ReadingIndex.astro';
+import {siteImage} from '../data/siteImages';
 import PentaVisual from './PentaVisual.astro';
 import {resourceCovers} from '../data/pentaInteriors';
 import DisclosureAnchors from './DisclosureAnchors.astro';
 import ResourceApprovedModule from './ResourceApprovedModule.astro';
-import {approvedResourceGuides} from '../data/resourceApproved';
+import TeachingMountExample from './TeachingMountExample.astro';
+import {teachingMountExample as teachingExample} from '../data/teachingMountExample';
+import {approvedResourceGuides,resourceSources} from '../data/resourceApproved';
+import {productGuideBySlug,productGuidePlans,productGuidePublished} from '../data/productTechnicalGuides';
+import {buyerReviewedGuide} from '../data/guideBuyerReview';
+import {resourceSearchCopy,searchReviewedGuide} from '../data/resourceSearchReview';
 import {libraryGuide} from '../data/resourceLibrary';
 import type {Resource} from '../data/resources';
 import '../styles/resources-approved.css';
@@ -13,9 +20,11 @@ import '../styles/resources-constitution.css';
 import '../styles/content-image-led.css';
 import '../styles/resource-long-guides.css';
 interface Props {article:Resource}
-const {article}=Astro.props,plan=approvedResourceGuides[article.slug],rfq=article.slug==='rfq-checklist';
-const title=plan.title||article.title,quoteHref='/quote/?'+new URLSearchParams({part:article.title}).toString();
-const articleImages:Record<string,string>={'6061-vs-7075-cnc-aluminum':resourceCovers['6061-vs-7075-cnc-aluminum'].src,'cnc-machining-cost-factors':resourceCovers['cnc-machining-cost-factors'].src,'critical-features-cnc-drawing':'/media/evidence/multi-feature-milling-parts-1600.webp','cnc-process-selection':'/media/evidence/turning-operation-1600.webp','material-and-finish-checklist':'/media/source-details/finish-coated-round-1200.webp','custom-cnc-parts-shipping-checklist':'/media/evidence/shipping-example-1600.webp'};
+const {article}=Astro.props,productGuide=productGuideBySlug[article.slug],plan=searchReviewedGuide(article.slug,buyerReviewedGuide(article.slug,productGuidePlans[article.slug]||approvedResourceGuides[article.slug])),rfq=article.slug==='rfq-checklist';
+const title=plan.title||article.title,quoteHref='/quote/?'+new URLSearchParams({part:article.title,source:Astro.url.pathname}).toString();
+const hasTeachingExample=article.slug==='critical-features-cnc-drawing';
+const alloyExample=article.slug==='6061-vs-7075-cnc-aluminum';
+const articleImages:Record<string,string>={'6061-vs-7075-cnc-aluminum':resourceCovers['6061-vs-7075-cnc-aluminum'].src,'cnc-machining-cost-factors':resourceCovers['cnc-machining-cost-factors'].src,'critical-features-cnc-drawing':'/media/evidence/multi-feature-milling-parts-1600.webp','cnc-process-selection':'/media/evidence/turning-operation-1600.webp','material-and-finish-checklist':siteImage('coated-round').src,'custom-cnc-parts-shipping-checklist':'/media/evidence/shipping-example-1600.webp'};
 const related=plan.related.map(libraryGuide);
 const modules=rfq?[...plan.modules.filter(item=>item.kind==='brief'),...plan.modules.filter(item=>item.kind!=='brief')]:plan.modules;
 const rfqNav:Record<string,string>={'rfq-template':'Inquiry template','drawing-package':'Drawings & inspection','material-finish':'Material & finish','commercial-brief':'Quantity & delivery'};
@@ -23,19 +32,32 @@ const compare=article.slug==='compare-cnc-machining-quotations';
 const mainTables:Record<string,string>={'critical-features-cnc-drawing':'feature-checklist','cnc-process-selection':'process-comparison','material-and-finish-checklist':'material-specification','compare-cnc-machining-quotations':'comparison'};
 const mainTable=mainTables[article.slug];
 const orderedModules=!plan.editorial&&mainTable&&modules.some(item=>item.section.id===mainTable)?[...modules.filter(item=>item.section.id===mainTable),...modules.filter(item=>item.section.id!==mainTable)]:modules;
+const guideSources=resourceSources(orderedModules);
+const articleSection=libraryGuide(article.slug).group==='machining'?'Technical guides':'RFQ & ordering';
 ---
-<Layout title={title} description={article.description} article articleImage={articleImages[article.slug]} articleAuthor={Boolean(plan.editorial)} articleModified={plan.editorial?.updated} cta={false}>
- <article class:list={['rs-page','rs-guide','rs-guide-layout','rd-page','rs-guide--'+article.slug,{'rs-long-guide':Boolean(plan.editorial)}]}><DisclosureAnchors/>
+<Layout title={resourceSearchCopy[article.slug]?.seoTitle||productGuide?.seoTitle||title} description={article.description} article articleHeadline={plan.heading||title} articlePublished={productGuide?productGuidePublished:undefined} articleImage={resourceCovers[article.slug]?.src||articleImages[article.slug]} articleAuthor={Boolean(plan.editorial)} articleModified={plan.editorial?.updated} articleSection={articleSection} articleSources={guideSources} cta={false}>
+ <article class:list={['rs-page','rs-guide','rs-guide-layout','rd-page','rs-guide--'+article.slug,{'rs-long-guide':Boolean(plan.editorial),'rs-product-guide':Boolean(productGuide)}]}><DisclosureAnchors/>
   <header class="rs-guide-head" data-resource-module data-core-section={compare?'Set one comparison basis':undefined}>{plan.leadAliases?.map(id=><span class="rs-anchor" id={id}/>)}<div class="rs-head-copy"><h1>{plan.heading||title}</h1><p>{plan.intro}</p>{plan.editorial&&<p class="rs-editorial-meta"><a href="/about/company-profile/">LZZ Precision</a><span>Updated <time datetime={plan.editorial.updated}>{plan.editorial.dateLabel}</time></span></p>}</div><PentaVisual image={resourceCovers[article.slug]} eager class="pi-guide-cover"/></header>
   <div class="rs-reading-layout">
-  <nav class="rs-reading-nav" aria-label="Guide sections"><p>In this guide</p><ol class="pn-link-index pn-link-index--sections">{orderedModules.map(item=><li><a href={'#'+item.section.id}>{rfq?rfqNav[item.section.id]:plan.sectionLabels?.[item.section.id]||item.section.title}</a></li>)}</ol></nav>
+  <ReadingIndex><nav class="rs-reading-nav" aria-label="Guide sections"><p>In this guide</p><ol class="pn-link-index pn-link-index--sections">{orderedModules.map((item,index)=><><li><a href={'#'+item.section.id}>{rfq?rfqNav[item.section.id]:plan.sectionLabels?.[item.section.id]||item.section.title}</a></li>{hasTeachingExample&&index===0&&<li><a href="#teaching-example">Drawing to inspection example</a></li>}</>)}{alloyExample&&<li><a href="#teaching-example">Worked drawing example</a></li>}</ol></nav></ReadingIndex>
   <div class="rs-reading-content">
-  <div class="rs-guide-body" id={rfq?'rfq-detail-fields':undefined}>{orderedModules.map(item=><ResourceApprovedModule item={item} core={plan.polished} slug={article.slug} rfqTools={rfq&&item.kind==='brief'}/>)}</div>
-  <section class="rs-next" id="article-examples-title" data-core-section={rfq||plan.polished?'Enquiry and next reading':undefined}>{['prototype-vs-small-batch-cnc','custom-cnc-parts-shipping-checklist'].includes(article.slug)&&<span class="rs-anchor" id="section-5"/>}<div class="rs-next-intro" id="prepare-email"><span class="rs-anchor" id="manual-rfq-title"/><h2>{plan.closing}</h2><p>{plan.nextText||'Send the drawing revision and the requirements you would like us to quote.'}</p><p class="rs-note">Review your email draft here, then attach the drawings and send it from your email app.</p><a class="rd-button" href={quoteHref}>Request a quote</a></div><nav class="rs-related" aria-label="Related practical guides">{related.map(guide=><div><a href={guide.href}>{guide.title}</a><p>{guide.summary}</p></div>)}</nav></section>
+  <div class="rs-guide-body" id={rfq?'rfq-detail-fields':undefined}>{orderedModules.map((item,index)=><><ResourceApprovedModule item={item} core={plan.polished} slug={article.slug} rfqTools={rfq&&item.kind==='brief'}/>{hasTeachingExample&&index===0&&<TeachingMountExample/>}</>)}{alloyExample&&<section class="rs-module" id="teaching-example" data-resource-module><h2>Carry the material choice onto the drawing</h2><p>The {teachingExample.id} teaching plate uses {teachingExample.material} as an example specification. Its bore, hole spacing and thickness connect drawing callouts to an illustrative inspection sheet. This is a teaching example, not a load-verified material selection or production record.</p><p><a href="/resources/technical-guides/critical-features-cnc-drawing/#teaching-example">See the annotated drawing, feature checks and inspection results</a>, including the thickness result that pauses release. The SVG drawing and CSV sheet are available with the full example.</p></section>}</div>
+  <section class="rs-next" id="article-examples-title" data-core-section={rfq||plan.polished?'Enquiry and next reading':undefined}>{['prototype-vs-small-batch-cnc','custom-cnc-parts-shipping-checklist'].includes(article.slug)&&<span class="rs-anchor" id="section-5"/>}<div class="rs-next-intro" id="prepare-email"><span class="rs-anchor" id="manual-rfq-title"/><h2>{plan.closing}</h2><p>{plan.nextText||'Share the drawing revision and the requirements you would like us to quote.'}</p><p class="rs-note">Add your name, destination country and preferred contact details. A message and drawing files are optional. We reply within 12 hours.</p><a class="rd-button" href={quoteHref}>Request a quote</a></div><nav class="rs-related" aria-label="Related practical guides">{related.map(guide=><div><a href={guide.href}>{guide.title}</a><p>{guide.summary}</p></div>)}</nav></section>
   </div></div>
  </article>
 </Layout>
 <script>
+ import {copyPlainText} from '../lib/browserActions';
  const button=document.querySelector<HTMLButtonElement>('[data-rs-copy-rfq]');
- if(button){button.disabled=false;button.addEventListener('click',async()=>{const text=document.querySelector('.rs-guide .ce-request-brief')?.textContent||'',status=document.querySelector('.rs-copy-status');if(!text||!status)return;try{await navigator.clipboard.writeText(text);status.textContent='Inquiry brief copied.';}catch{status.textContent='Copy failed. Select the brief manually, or use Save blank brief (.txt).';}});}
+ if(button){
+  button.disabled=false;
+  button.addEventListener('click',async()=>{
+   const text=document.querySelector('.rs-guide .ce-request-brief')?.textContent||'',status=document.querySelector('.rs-copy-status');
+   if(!status)return;
+   button.disabled=true;button.setAttribute('aria-busy','true');button.textContent='Copying…';status.textContent='';
+   try{await copyPlainText(text);status.textContent='Inquiry brief copied.';button.textContent='Copy again';}
+   catch{status.textContent='Copy failed. Select the brief manually, or use Save blank brief (.txt).';button.textContent='Try copying again';}
+   finally{button.disabled=false;button.removeAttribute('aria-busy');}
+  });
+ }
 </script>

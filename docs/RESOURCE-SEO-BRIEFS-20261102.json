@@ -1,0 +1,3418 @@
+{
+  "reviewed": "2026-11-02",
+  "scope": "20 English resource guides; current Penta presentation retained",
+  "dataBoundary": {
+    "checked": "2026-11-02",
+    "gsc": {
+      "property": "sc-domain:lzz-cnc.com",
+      "status": "access_denied",
+      "evidence": "Search Console displayed no access to this property; the visible property selector contained no LZZ property.",
+      "queries": null,
+      "clicks": null,
+      "impressions": null,
+      "position": null
+    },
+    "keywordMetrics": {
+      "status": "unavailable",
+      "reason": "No connected keyword-data provider or keyword metrics export was available in the project.",
+      "monthlySearchVolume": null,
+      "seoDifficulty": null,
+      "trend": null,
+      "cpc": null
+    },
+    "preview": {
+      "indexing": "intentionally noindex",
+      "performanceAttribution": "New preview content cannot be credited with production search results."
+    }
+  },
+  "keywordMarket": "English overseas B2B procurement. Google gl=us is a result hint, not a verified search-volume market.",
+  "priorVersion": "docs/RESOURCE-SEARCH-INTENT-20261101.json",
+  "clusters": {
+    "ordering-and-release": "/resources/ordering/rfq-checklist/",
+    "drawing-and-measurement": "/resources/technical-guides/critical-features-cnc-drawing/",
+    "materials-and-finish": "/resources/technical-guides/material-and-finish-checklist/",
+    "manufacturing-routes": "/resources/technical-guides/cnc-process-selection/"
+  },
+  "guides": [
+    {
+      "slug": "cnc-machining-cost-factors",
+      "url": "/resources/ordering/cnc-machining-cost-factors/",
+      "primaryKeyword": {
+        "text": "CNC machining cost factors",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC machining setup cost",
+        "CNC machining order cost"
+      ],
+      "longTailKeywords": [
+        "how to compare CNC setup cost and unit price",
+        "why CNC prototypes cost more per piece",
+        "CNC machining quote total with finishing"
+      ],
+      "searchIntent": {
+        "type": "commercial investigation",
+        "buyerTask": "Prepare a scoped price comparison without a fabricated price list."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Prepare a scoped price comparison without a fabricated price list."
+      },
+      "entities": [
+        "setup",
+        "programming",
+        "workholding",
+        "quantity",
+        "inspection scope"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "how to compare CNC setup cost and unit price",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "why CNC prototypes cost more per piece",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "CNC machining quote total with finishing",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC machining cost factors",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "8 Factors That Influence The Cost Of CNC Machining",
+            "url": "https://www.gilbertengineering.co.uk/blog/factors-influence-cost-cnc-machining"
+          },
+          {
+            "title": "What Drives CNC Machining Cost? 6 Key Factors Explained",
+            "url": "https://www.linkedin.com/pulse/what-actually-drives-cnc-machining-cost-breaking-down-6-key-nraic"
+          },
+          {
+            "title": "The true cost of CNC machining services what are the main ...",
+            "url": "https://jlccnc.com/blog/cnc-machining-cost-factors"
+          },
+          {
+            "title": "Understanding CNC Manufacturing Costs",
+            "url": "https://www.protolabs.com/en-gb/resources/blog/understanding-cnc-manufacturing-costs/"
+          },
+          {
+            "title": "CNC Machine Costs & Pricing",
+            "url": "https://sendcutsend.com/blog/cnc-machine-costs/?srsltid=AYCX9vIy72CDXYMtujI6a_4ddpmodbG1xPSoLGxPmq4j3XmZXeNm3Zc8"
+          },
+          {
+            "title": "Reduce CNC Machining Cost Without Compromising Quality",
+            "url": "https://resoluteprecision.com/blog/how-much-does-cnc-machining-cost-7-factors-that-affect-your-part-price/"
+          },
+          {
+            "title": "The Cost of CNC Machining",
+            "url": "https://xometry.pro/en/articles/cnc-machining-cost/"
+          },
+          {
+            "title": "CNC Machining Cost Guide: What Factors Affect Pricing?",
+            "url": "https://www.aivon.com/blog/cnc-machining/cnc-machining-cost-guide-what-factors-affect-pricing/"
+          },
+          {
+            "title": "Key Factors That Affect CNC Machining Costs",
+            "url": "https://www.modelcraft.net/copy-of-what-are-the-most-common-cnc-machining-techniques-their-applications"
+          },
+          {
+            "title": "CNC cost breakdown?",
+            "url": "https://www.reddit.com/r/CNC/comments/1can6pj/cnc_cost_breakdown/"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.gilbertengineering.co.uk/blog/factors-influence-cost-cnc-machining",
+          "https://jlccnc.com/blog/cnc-machining-cost-factors"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.gilbertengineering.co.uk/blog/factors-influence-cost-cnc-machining",
+            "status": 200,
+            "headingCount": 16
+          },
+          {
+            "url": "https://jlccnc.com/blog/cnc-machining-cost-factors",
+            "status": 200,
+            "headingCount": 0
+          }
+        ],
+        "gap": "Most sampled titles explain general cost drivers; the addition makes quoted order-total arithmetic usable without invented prices."
+      },
+      "topicCluster": {
+        "name": "ordering-and-release",
+        "pillar": "/resources/ordering/rfq-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.pentaprecision.co.uk/resources/how-much-does-cnc-machining-cost",
+          "https://www.protolabs.com/resources/design-tips/how-to-reduce-cnc-machining-costs/"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "cost-breakdown",
+        "change": "Most sampled titles explain general cost drivers; the addition makes quoted order-total arithmetic usable without invented prices.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/ordering/cnc-machining-cost-factors/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "rfq-checklist",
+      "url": "/resources/ordering/rfq-checklist/",
+      "primaryKeyword": {
+        "text": "CNC machining RFQ checklist",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC quote request",
+        "machining drawing package"
+      ],
+      "longTailKeywords": [
+        "what files to send for a CNC machining quote",
+        "STEP file without a 2D machining drawing",
+        "RFQ for customer-supplied castings"
+      ],
+      "searchIntent": {
+        "type": "transaction preparation",
+        "buyerTask": "Help a buyer send a usable inquiry, including unresolved decisions."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Help a buyer send a usable inquiry, including unresolved decisions."
+      },
+      "entities": [
+        "STEP",
+        "drawing revision",
+        "material condition",
+        "inspection records"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "what files to send for a CNC machining quote",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "STEP file without a 2D machining drawing",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "RFQ for customer-supplied castings",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC machining RFQ checklist",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "CNC Machining RFQ Requirements: Complete Checklist",
+            "url": "https://resoluteprecision.com/blog/cnc-machining-rfq-requirements-complete-checklist/"
+          },
+          {
+            "title": "CNC Machining RFQ Checklist: Get Faster, Accurate Quotes",
+            "url": "https://machiningconceptserie.com/cnc-machining-rfq-checklist/"
+          },
+          {
+            "title": "High-Volume Machining RFQ Checklist for OEMs",
+            "url": "https://avantiengineering.com/high-volume-machining-rfq-checklist/"
+          },
+          {
+            "title": "What Should You Include in a CNC Machining Center RFQ? A ...",
+            "url": "https://www.chansincnc.com/cnc-machining-center-rfq-checklist/"
+          },
+          {
+            "title": "CNC Machining RFQ: 6 Steps to Avoid Costly Quote Delays",
+            "url": "https://www.rapiddirect.com/blog/cnc-machining-rfq-guide/"
+          },
+          {
+            "title": "CNC Machining Quoting Checklist",
+            "url": "https://www.borgdesign.com/resources/cnc-machining-quoting-checklist/"
+          },
+          {
+            "title": "CNC Machining RFQ Checklist: What to Send for an ...",
+            "url": "https://www.aluprototype.com/News/NewsInfo?NewsId=1501"
+          },
+          {
+            "title": "CNC Machining Drawing Package: RFQ Checklist",
+            "url": "https://www.jxd-machining.com/cnc-machining-drawing-package-rfq-checklist/"
+          },
+          {
+            "title": "CNC Machining RFQ Checklist for Prototype and Low-Volume ...",
+            "url": "https://jrproto.com/2026/10/09/cnc-machining-rfq-checklist-prototype-low-volume-parts/"
+          },
+          {
+            "title": "RFQ Checklist for CNC Machining and Sheet Metal Parts",
+            "url": "https://www.linkedin.com/posts/jane-z-6a8469233_cncmachining-sheetmetalfabrication-customparts-activity-7507855232048132097-xVUB"
+          }
+        ],
+        "outlineSelection": [
+          "https://resoluteprecision.com/blog/cnc-machining-rfq-requirements-complete-checklist/",
+          "https://machiningconceptserie.com/cnc-machining-rfq-checklist/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://resoluteprecision.com/blog/cnc-machining-rfq-requirements-complete-checklist/",
+            "status": 200,
+            "headingCount": 6
+          },
+          {
+            "url": "https://machiningconceptserie.com/cnc-machining-rfq-checklist/",
+            "status": 202,
+            "headingCount": 0
+          }
+        ],
+        "gap": "Generic RFQ checklists repeat file lists; the new part-specific view table identifies what changes the manufacturing decision."
+      },
+      "topicCluster": {
+        "name": "ordering-and-release",
+        "pillar": "/resources/ordering/rfq-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "drawing-package",
+        "change": "Generic RFQ checklists repeat file lists; the new part-specific view table identifies what changes the manufacturing decision.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/ordering/rfq-checklist/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "compare-cnc-machining-quotations",
+      "url": "/resources/ordering/compare-cnc-machining-quotations/",
+      "primaryKeyword": {
+        "text": "compare CNC machining quotes",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC quote comparison",
+        "machining quotation scope"
+      ],
+      "longTailKeywords": [
+        "compare CNC setup charges and repeat prices",
+        "CNC quote including anodizing and inspection",
+        "machined components versus assembled mechanism quote"
+      ],
+      "searchIntent": {
+        "type": "comparison",
+        "buyerTask": "Resolve differences in deliverables before comparing the quoted numbers."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Resolve differences in deliverables before comparing the quoted numbers."
+      },
+      "entities": [
+        "unit price",
+        "one-time charge",
+        "supplied configuration",
+        "assembly scope"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "compare CNC setup charges and repeat prices",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "CNC quote including anodizing and inspection",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "machined components versus assembled mechanism quote",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "compare CNC machining quotes",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "How to Compare CNC Machining Quotes: 12 Factors ...",
+            "url": "https://www.ruiyi-cncmachining.com/how-to-compare-cnc-machining-quotes-12-factors-buyers-should-check/"
+          },
+          {
+            "title": "CNC Machining Quote Comparison: 7 Factors Beyond Price",
+            "url": "https://www.brightrapid.com/article/cnc-machining-quotes-comparison-guide.html"
+          },
+          {
+            "title": "CNC Machining Quotes: Why They Differ and How to Choose",
+            "url": "https://www.justway.com/blog/CNC_Machining/CNC_Machining_Quotes_Why_They_Differ_and_How_to_Choose_45513e4a.html"
+          },
+          {
+            "title": "CNC Instant Quote Comparison 2026: 6 Platforms Tested",
+            "url": "https://www.makerverse.com/resources/cnc-instant-quote-comparison-2026/"
+          },
+          {
+            "title": "How to Compare CNC Machining Quotes: Price, Quality ...",
+            "url": "https://www.machining-custom.com/blog/cnc-machining-factory-price-competitiveness-compare-with-other-factories.html"
+          },
+          {
+            "title": "Comparing CNC Quotes: Tolerances & Finishing Line ...",
+            "url": "https://www.emachineshop.com/comparing-cnc-quotes-tolerances-finishing/"
+          },
+          {
+            "title": "CNC Milling Service Recommendations?",
+            "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1kivdfr/cnc_milling_service_recommendations/"
+          },
+          {
+            "title": "How to Compare CNC Machine Quotes From Different Suppliers",
+            "url": "https://tenolycnc.com/compare-cnc-machine-quotes/"
+          },
+          {
+            "title": "CNC Quote Comparison: 5 RFQ Fields That Cause Price ...",
+            "url": "https://augmino.com/blog/comparing-cnc-machining-quotes-rfq-fields-price-spread"
+          },
+          {
+            "title": "Low-Volume CNC Machining: Compare Small-Batch Quotes",
+            "url": "https://mxymachining.com/low-volume-cnc-machining-quotes/"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.ruiyi-cncmachining.com/how-to-compare-cnc-machining-quotes-12-factors-buyers-should-check/",
+          "https://www.brightrapid.com/article/cnc-machining-quotes-comparison-guide.html"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.ruiyi-cncmachining.com/how-to-compare-cnc-machining-quotes-12-factors-buyers-should-check/",
+            "status": 200,
+            "headingCount": 22
+          },
+          {
+            "url": "https://www.brightrapid.com/article/cnc-machining-quotes-comparison-guide.html",
+            "status": 200,
+            "headingCount": 0
+          }
+        ],
+        "gap": "Top results use factor lists; the addition compares component-only and complete-plunger scope with the required functional checks."
+      },
+      "topicCluster": {
+        "name": "ordering-and-release",
+        "pillar": "/resources/ordering/rfq-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "unresolved-items",
+        "change": "Top results use factor lists; the addition compares component-only and complete-plunger scope with the required functional checks.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/ordering/compare-cnc-machining-quotations/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "machined-prototype-approval-checklist",
+      "url": "/resources/ordering/machined-prototype-approval-checklist/",
+      "primaryKeyword": {
+        "text": "CNC machined prototype approval checklist",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "first article acceptance",
+        "machined sample approval"
+      ],
+      "longTailKeywords": [
+        "approve a CNC prototype before anodizing",
+        "assembly fit trial versus dimensional inspection",
+        "conditional approval of machined samples"
+      ],
+      "searchIntent": {
+        "type": "acceptance and release",
+        "buyerTask": "Define what an actual sample approval covers before authorizing later work."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Define what an actual sample approval covers before authorizing later work."
+      },
+      "entities": [
+        "sample identity",
+        "mating component",
+        "approved configuration",
+        "release decision"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "approve a CNC prototype before anodizing",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "assembly fit trial versus dimensional inspection",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "conditional approval of machined samples",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC machined prototype approval checklist",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Prototype CNC Machining Checklist Before Requesting a ...",
+            "url": "https://parts-badger.com/article/prototype-cnc-machining-checklist/"
+          },
+          {
+            "title": "A Practical DFM Checklist for CNC Machined Parts - Dynamics Group",
+            "url": "https://dynamics-group.com/blog/dfm-checklist-cnc-machining"
+          },
+          {
+            "title": "CNC Machining Supplier Audit Checklist: Prototype To ...",
+            "url": "https://www.zenatc.com/cnc-machining-supplier-audit-checklist-prototype-to-production"
+          },
+          {
+            "title": "How to Inspect CNC Prototypes Before Approving a Design",
+            "url": "https://www.dadesin.com/news/how-to-inspect-cnc-prototypes-before-approving-a-design.html"
+          },
+          {
+            "title": "DFM Checklist for 3D Printed & CNC Machined Parts",
+            "url": "https://www.unionfab.com/de/blog/2026/05/dfm-checklist-for-3d-printed-and-cnc-machined-parts"
+          },
+          {
+            "title": "CNC Machining Design for Manufacturing Checklist",
+            "url": "https://www.fastradius.com/wp-content/uploads/2021/04/CNC-Machining-DFM-Checklist.pdf"
+          },
+          {
+            "title": "CNC Machining RFQ Requirements: Complete Checklist",
+            "url": "https://resoluteprecision.com/blog/cnc-machining-rfq-requirements-complete-checklist/"
+          },
+          {
+            "title": "How to Get a Prototype Made: A Step-by-Step Guide",
+            "url": "https://www.firstarcnc.com/how-to-get-a-prototype-made/"
+          },
+          {
+            "title": "CNC Machining RFQ Checklist for Prototype and Low-Volume ...",
+            "url": "https://jrproto.com/2026/10/09/cnc-machining-rfq-checklist-prototype-low-volume-parts/"
+          },
+          {
+            "title": "Save this checklist for your next CNC project. 📌 These ...",
+            "url": "https://www.facebook.com/partsbadgerllc/posts/save-this-checklist-for-your-next-cnc-project-these-details-give-your-manufactur/122335727048221507/"
+          }
+        ],
+        "outlineSelection": [
+          "https://parts-badger.com/article/prototype-cnc-machining-checklist/",
+          "https://dynamics-group.com/blog/dfm-checklist-cnc-machining"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://parts-badger.com/article/prototype-cnc-machining-checklist/",
+            "status": 403,
+            "headingCount": 0
+          },
+          {
+            "url": "https://dynamics-group.com/blog/dfm-checklist-cnc-machining",
+            "status": 200,
+            "headingCount": 14
+          }
+        ],
+        "gap": "Several sampled results focus on DFM or preparing a prototype; this article stays on the acceptance boundary and the actual mating trial."
+      },
+      "topicCluster": {
+        "name": "ordering-and-release",
+        "pillar": "/resources/ordering/rfq-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "evaluation",
+        "change": "Several sampled results focus on DFM or preparing a prototype; this article stays on the acceptance boundary and the actual mating trial.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/ordering/machined-prototype-approval-checklist/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "prototype-vs-small-batch-cnc",
+      "url": "/resources/ordering/prototype-vs-small-batch-cnc/",
+      "primaryKeyword": {
+        "text": "CNC prototype to small batch production",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "repeat CNC production",
+        "low-volume machining release"
+      ],
+      "longTailKeywords": [
+        "carry prototype approval into a CNC production batch",
+        "repeat order after an enclosure drawing revision",
+        "CNC prototype fixture versus batch fixture"
+      ],
+      "searchIntent": {
+        "type": "comparison and release",
+        "buyerTask": "Separate sample acceptance from a separately specified batch order."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Separate sample acceptance from a separately specified batch order."
+      },
+      "entities": [
+        "revision",
+        "first-part record",
+        "route change",
+        "release quantity"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "carry prototype approval into a CNC production batch",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "repeat order after an enclosure drawing revision",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "CNC prototype fixture versus batch fixture",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC prototype to small batch production",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "CNC Prototypes to Small-Batch Production: Guide | 6CNC",
+            "url": "https://6-cnc.com/low-volume-cnc-machining-explained/"
+          },
+          {
+            "title": "How Small Batch Production Helps you Scale on Demand",
+            "url": "https://www.protolabs.com/resources/blog/how-small-batch-production-helps-you-scale-on-demand/"
+          },
+          {
+            "title": "CNC machining lessons learned when moving from ...",
+            "url": "https://www.reddit.com/r/CNC/comments/1q0894p/cnc_machining_lessons_learned_when_moving_from/"
+          },
+          {
+            "title": "Low Volume CNC Machining: Small Batch Production Guide",
+            "url": "https://jlccnc.com/blog/low-volume-cnc-machining"
+          },
+          {
+            "title": "Small Batch CNC Prototyping: Avoid Costly CNC Sampling ...",
+            "url": "https://www.cnctal.com/small-batch-cnc-prototyping/"
+          },
+          {
+            "title": "CNC Small Batch Production: Cost-Effective Manufacturing",
+            "url": "https://pathmachining.com/resources/articles/cnc-small-batch-production-low-volume-manufacturing/"
+          },
+          {
+            "title": "From Prototype to Production: Scaling CNC Without Risk",
+            "url": "https://www.linkedin.com/pulse/from-prototype-production-scaling-cnc-without-risk-vfbxf"
+          },
+          {
+            "title": "CNC Turning For Prototypes And Small Batch Production",
+            "url": "https://www.sansmachining.com/cnc-turning-for-prototypes-and-small-batch-production-efficiency-and-precision/"
+          },
+          {
+            "title": "Advice Needed- First CNC Mill for prototyping and small ...",
+            "url": "https://www.practicalmachinist.com/forum/threads/advice-needed-first-cnc-mill-for-prototyping-and-small-batch-mfg-in-home-shop.408703/"
+          },
+          {
+            "title": "Small Batch Manufacturing: Overcoming MOQ and ...",
+            "url": "https://www.rapiddirect.com/blog/small-batch-manufacturing-overcoming-moq-and-sourcing-challenges/"
+          }
+        ],
+        "outlineSelection": [
+          "https://6-cnc.com/low-volume-cnc-machining-explained/",
+          "https://www.protolabs.com/resources/blog/how-small-batch-production-helps-you-scale-on-demand/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://6-cnc.com/low-volume-cnc-machining-explained/",
+            "status": 200,
+            "headingCount": 48
+          },
+          {
+            "url": "https://www.protolabs.com/resources/blog/how-small-batch-production-helps-you-scale-on-demand/",
+            "status": 200,
+            "headingCount": 7
+          }
+        ],
+        "gap": "Many results define low volume by broad quantity bands; the addition addresses a changed mating feature without inventing a universal batch threshold."
+      },
+      "topicCluster": {
+        "name": "ordering-and-release",
+        "pillar": "/resources/ordering/rfq-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "section-2",
+        "change": "Many results define low volume by broad quantity bands; the addition addresses a changed mating feature without inventing a universal batch threshold.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/ordering/prototype-vs-small-batch-cnc/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "custom-cnc-parts-shipping-checklist",
+      "url": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+      "primaryKeyword": {
+        "text": "CNC parts international shipping checklist",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "packaging machined parts",
+        "machined part delivery documents"
+      ],
+      "longTailKeywords": [
+        "protect CNC sealing faces during shipping",
+        "CNC parts packing list revision and batch labels",
+        "plastic part measurement discrepancy after unpacking"
+      ],
+      "searchIntent": {
+        "type": "delivery preparation",
+        "buyerTask": "Connect protection and identification to the quoted delivered condition."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Connect protection and identification to the quoted delivered condition."
+      },
+      "entities": [
+        "Incoterms",
+        "named place",
+        "packing list",
+        "revision",
+        "conditioning"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "protect CNC sealing faces during shipping",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "CNC parts packing list revision and batch labels",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "plastic part measurement discrepancy after unpacking",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC parts international shipping checklist",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Shipping CNC Parts: Guide for Buyers | CNX Precision",
+            "url": "https://www.cnc-nice.com/shipping-cnc-parts/"
+          },
+          {
+            "title": "International Shipping for Machined Parts",
+            "url": "https://great-material.com/cnc-machining-design-guide/international-shipping-machined-parts/"
+          },
+          {
+            "title": "Custom Parts Shipping: Methods, Documents & Tracking",
+            "url": "https://super-ingenuity.cn/faq/shipping/"
+          },
+          {
+            "title": "Exporting CNC Parts: Complete Guide for Global Buyers",
+            "url": "https://lebometal.com/exporting-cnc-parts-guide/"
+          },
+          {
+            "title": "How to ship CNC parts: 7 Steps",
+            "url": "https://www.dnc-electronics.co.uk/how-to-ship-cnc-parts/?srsltid=AYCX9vKNLwFxT4MjC3Tr9xyjezBiEss_Qec-RJRzrtiQMsdH56GXuTul"
+          },
+          {
+            "title": "China CNC Machine Import Compliance, FAT & Shipping ...",
+            "url": "https://horistartech.com/china-cnc-machine-import-compliance-fat-shipping-checklist/"
+          },
+          {
+            "title": "Step-by-Step Guide to Ordering CNC Parts from China",
+            "url": "https://www.davantech.com/step-by-step-guide-to-ordering-cnc-machined-parts-from-china/"
+          },
+          {
+            "title": "Packaging Precision CNC Parts for International Shipping",
+            "url": "https://jlgprecision.com/blog/packaging-precision-cnc-parts-international-shipping/"
+          },
+          {
+            "title": "Import CNC Machines from China 2026 Guide",
+            "url": "https://www.gerudologistics.com/machines-equipments/cnc-machines-from-china"
+          },
+          {
+            "title": "How To Ship A CNC Machine | Premier Equipment",
+            "url": "https://premierequipment.com/cnc-blog/cnc-delivery/"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.cnc-nice.com/shipping-cnc-parts/",
+          "https://great-material.com/cnc-machining-design-guide/international-shipping-machined-parts/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.cnc-nice.com/shipping-cnc-parts/",
+            "status": 200,
+            "headingCount": 12
+          },
+          {
+            "url": "https://great-material.com/cnc-machining-design-guide/international-shipping-machined-parts/",
+            "status": 200,
+            "headingCount": 9
+          }
+        ],
+        "gap": "Sampled guides emphasize freight methods and trade terms; the addition helps distinguish physical damage, identity and measurement conditions at receiving."
+      },
+      "topicCluster": {
+        "name": "ordering-and-release",
+        "pillar": "/resources/ordering/rfq-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://library.iccwbo.org/content/clp/Others/incoterms_2020_checklist_2024-update.pdf"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "delivery-package",
+        "change": "Sampled guides emphasize freight methods and trade terms; the addition helps distinguish physical damage, identity and measurement conditions at receiving.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/ordering/custom-cnc-parts-shipping-checklist/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "critical-features-cnc-drawing",
+      "url": "/resources/technical-guides/critical-features-cnc-drawing/",
+      "primaryKeyword": {
+        "text": "CNC drawing requirements",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC drawing datums and tolerances",
+        "inspection drawing features"
+      ],
+      "longTailKeywords": [
+        "show final dimensions after surface treatment",
+        "identify critical features on a CNC drawing",
+        "link drawing balloons to inspection report rows"
+      ],
+      "searchIntent": {
+        "type": "technical preparation",
+        "buyerTask": "Produce drawing requirements that machining and receiving inspection can both use."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Produce drawing requirements that machining and receiving inspection can both use."
+      },
+      "entities": [
+        "datums",
+        "GD&T",
+        "Ra",
+        "Rz",
+        "feature ID",
+        "measurement stage"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "show final dimensions after surface treatment",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "identify critical features on a CNC drawing",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "link drawing balloons to inspection report rows",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC drawing requirements",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "CNC Machining Design Guideline",
+            "url": "https://jlccnc.com/help/article/cnc-machining-design-guideline"
+          },
+          {
+            "title": "DFM Guidelines for CNC Machining",
+            "url": "https://www.protolabs.com/resources/design-for-machining-toolkit/"
+          },
+          {
+            "title": "CNC Machinists, what information do you actually need?",
+            "url": "https://www.reddit.com/r/CNC/comments/1iar9gn/cnc_machinists_what_information_do_you_actually/"
+          },
+          {
+            "title": "How to prepare a technical drawing for CNC machining",
+            "url": "https://www.hubs.com/knowledge-base/how-prepare-technical-drawing-cnc-machining/"
+          },
+          {
+            "title": "What is an Engineering Drawing? - Hirsh Precision Products",
+            "url": "https://hppi.com/knowledge-base/engineering-drawings"
+          },
+          {
+            "title": "How To Prepare CAD Drawings for CNC Fabrication",
+            "url": "https://caddrafter.us/how-to-prepare-cad-drawings-for-cnc-fabrication/"
+          },
+          {
+            "title": "CNC Machining Design Rules: A Practical Guide to Designing…",
+            "url": "https://simutecra.com/blogs/cnc-machining-design-rules-engineers"
+          },
+          {
+            "title": "How to Create a Manufacturing Drawing for CNC Machining",
+            "url": "https://www.linkedin.com/posts/yogesh-sahu-6a138b123_mechanicalengineering-cnc-engineeringdrawing-activity-7385731886100328448-ibIN"
+          },
+          {
+            "title": "CNC Machining Design Guidelines",
+            "url": "https://sendcutsend.com/guidelines/cnc-machining/?srsltid=AYCX9vJtuGDzF4QDKsCoaqYy7qPW_Ky4X2XDCwHY0UovwI3VVlt_I8N0"
+          },
+          {
+            "title": "Understanding CNC Drawings and Related Concepts",
+            "url": "https://www.tuofa-cncmachining.com/tuofa-blog/cnc-drawings.html"
+          }
+        ],
+        "outlineSelection": [
+          "https://jlccnc.com/help/article/cnc-machining-design-guideline",
+          "https://www.protolabs.com/resources/design-for-machining-toolkit/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://jlccnc.com/help/article/cnc-machining-design-guideline",
+            "status": 200,
+            "headingCount": 6
+          },
+          {
+            "url": "https://www.protolabs.com/resources/design-for-machining-toolkit/",
+            "status": 200,
+            "headingCount": 25
+          }
+        ],
+        "gap": "Broad design-for-machining results often focus on geometry and cost; LZZ retains its explicit teaching example and adds stage-specific report interpretation."
+      },
+      "topicCluster": {
+        "name": "drawing-and-measurement",
+        "pillar": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing",
+          "https://www2.mitutoyo.co.jp/eng/products/menu/QuickGuide_Surftest.pdf"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "finished-state",
+        "change": "Broad design-for-machining results often focus on geometry and cost; LZZ retains its explicit teaching example and adds stage-specific report interpretation.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "6061-vs-7075-cnc-aluminum",
+      "url": "/resources/technical-guides/6061-vs-7075-cnc-aluminum/",
+      "primaryKeyword": {
+        "text": "6061 vs 7075 aluminum CNC machining",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "6061-T6 versus 7075-T6",
+        "aluminum strength versus stiffness"
+      ],
+      "longTailKeywords": [
+        "how much stronger is 7075 than 6061 aluminum",
+        "7075 versus 6061 for a thin enclosure wall",
+        "T6 T651 typical yield strength and elastic modulus"
+      ],
+      "searchIntent": {
+        "type": "material comparison",
+        "buyerTask": "Compare the relevant material property and condition without treating a brochure as a part approval."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Compare the relevant material property and condition without treating a brochure as a part approval."
+      },
+      "entities": [
+        "T6",
+        "T651",
+        "T73",
+        "yield strength",
+        "elastic modulus",
+        "product form"
+      ],
+      "questions": {
+        "googlePaa": [
+          {
+            "question": "Is 6061 or 7075 easier to machine?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          },
+          {
+            "question": "How much stronger is 7075 vs 6061 aluminum?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": true,
+            "decision": "Relevant scope addressed in existing or expanded content"
+          },
+          {
+            "question": "Which aluminum is best for machining?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          },
+          {
+            "question": "Can you CNC 6061 aluminum?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": true,
+            "decision": "Relevant scope addressed in existing or expanded content"
+          }
+        ],
+        "buyerQuestions": [
+          {
+            "question": "how much stronger is 7075 than 6061 aluminum",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "7075 versus 6061 for a thin enclosure wall",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "T6 T651 typical yield strength and elastic modulus",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "6061 vs 7075 aluminum CNC machining",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "7075-T6 versus 6061-T6 - CNC Machining",
+            "url": "https://www.practicalmachinist.com/forum/threads/7075-t6-versus-6061-t6.160864/"
+          },
+          {
+            "title": "7075-T6 vs 6061 Aluminum: When is the extra cost actually ...",
+            "url": "https://www.reddit.com/r/CNC/comments/1ruyfly/7075t6_vs_6061_aluminum_when_is_the_extra_cost/"
+          },
+          {
+            "title": "What is the difference between 6061 and 7075 aluminum ...",
+            "url": "https://www.zp-aluminium.com/blog/what-is-the-difference-between-6061-and-7075-aluminum-in-cnc-machining-4470592.html"
+          },
+          {
+            "title": "6061 vs 7075 Aluminum: Differences, Strength & Applications",
+            "url": "https://www.in3dtec.com/blog/6061-vs-7075-aluminum-what-s-the-difference-and-which-one-should-you-choose"
+          },
+          {
+            "title": "6061 Vs. 7075 Aluminum: Which one is better for CNC ...",
+            "url": "https://www.premiumparts.com/blog/6061-vs-7075-aluminum-which-one-is-better-for-cnc-machining"
+          },
+          {
+            "title": "Best Aluminum Alloys for CNC Machining: 6061 vs 7075 vs ...",
+            "url": "https://www.techsteel.net/best-aluminum-alloys-for-cnc-machining-6061-vs-7075-vs-2024-explained/"
+          },
+          {
+            "title": "7075 Aluminium vs 6061 Aluminium",
+            "url": "https://www.thyssenkrupp-materials.co.uk/technical-knowledge-hub/7075-aluminium-vs-6061-aluminium"
+          },
+          {
+            "title": "What are the Main Differences between 6061 and 7075",
+            "url": "https://jlccnc.com/blog/aluminum-6061-vs-7075"
+          },
+          {
+            "title": "6061 vs 7075 Aluminum for CNC Machining: Choosing the ...",
+            "url": "https://www.linkedin.com/posts/belinker-inc_6061-vs-7075-aluminum-which-should-you-activity-7516067825959014400-m9bi"
+          },
+          {
+            "title": "Aluminum 6061 vs 7075 CNC Machining Material Guide",
+            "url": "https://www.janeemachining.com/article/aluminum-6061-vs-7075-cnc-machining-material-guide.html"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.zp-aluminium.com/blog/what-is-the-difference-between-6061-and-7075-aluminum-in-cnc-machining-4470592.html",
+          "https://www.in3dtec.com/blog/6061-vs-7075-aluminum-what-s-the-difference-and-which-one-should-you-choose"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.zp-aluminium.com/blog/what-is-the-difference-between-6061-and-7075-aluminum-in-cnc-machining-4470592.html",
+            "status": 200,
+            "headingCount": 8
+          },
+          {
+            "url": "https://www.in3dtec.com/blog/6061-vs-7075-aluminum-what-s-the-difference-and-which-one-should-you-choose",
+            "status": 200,
+            "headingCount": 2
+          }
+        ],
+        "gap": "The result mix contains machining discussions and broad alloy claims; a transparent calculation using cited rod-and-bar values separates yield from stiffness."
+      },
+      "topicCluster": {
+        "name": "materials-and-finish",
+        "pillar": "/resources/technical-guides/material-and-finish-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf",
+          "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1028/Kaiser_Aluminum_7075_Rod_and_Bar.pdf",
+          "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1025/Kaiser_Aluminum_6061_Rod_and_Bar.pdf",
+          "https://www.bikar.com/fileadmin/Unterlagen_BIKAR/Unterlagen_BIKAR_eng/2024-complete-en.pdf#page=4",
+          "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1017/Kaiser_Aluminum_7075_Sheet_Coil_and_Plate.pdf",
+          "https://www.hydro.com/Document/Index?id=560718&name=Alloy+6061.pdf",
+          "https://members.anodizing.org/page/anodized-aluminum-faq"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "strength-and-stiffness",
+        "change": "The result mix contains machining discussions and broad alloy claims; a transparent calculation using cited rod-and-bar values separates yield from stiffness.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/6061-vs-7075-cnc-aluminum/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "cnc-process-selection",
+      "url": "/resources/technical-guides/cnc-process-selection/",
+      "primaryKeyword": {
+        "text": "CNC milling vs turning vs 5 axis",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC machining process selection",
+        "3+2 versus simultaneous five-axis"
+      ],
+      "longTailKeywords": [
+        "compare separate turning and milling with a combined machine",
+        "tool holder clearance for five-axis machining",
+        "choose CNC route from datum relationships"
+      ],
+      "searchIntent": {
+        "type": "process comparison",
+        "buyerTask": "Assess a complete route against the features, quantity and final condition."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Assess a complete route against the features, quantity and final condition."
+      },
+      "entities": [
+        "turning",
+        "milling",
+        "indexed positioning",
+        "simultaneous motion",
+        "fixture"
+      ],
+      "questions": {
+        "googlePaa": [
+          {
+            "question": "What are the downsides of CNC milling?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": true,
+            "decision": "Relevant scope addressed in existing or expanded content"
+          },
+          {
+            "question": "Is there a 6 axis milling machine?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          },
+          {
+            "question": "Is CNC a dying trade?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          },
+          {
+            "question": "Is milling harder than lathe?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          }
+        ],
+        "buyerQuestions": [
+          {
+            "question": "compare separate turning and milling with a combined machine",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "tool holder clearance for five-axis machining",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "choose CNC route from datum relationships",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC milling vs turning vs 5 axis",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "5-Axis CNC Turning and Milling Center vs. 5-Axis Machining ...",
+            "url": "https://tenolycnc.com/5-axis-cnc-turning-and-milling-center-vs-5-axis-machining-center/"
+          },
+          {
+            "title": "Mill turn center or 5 axis mill - CNC Machining",
+            "url": "https://www.practicalmachinist.com/forum/threads/mill-turn-center-or-5-axis-mill.266459/"
+          },
+          {
+            "title": "CNC Turning vs Milling vs 5-Axis: Choose Right Process",
+            "url": "https://www.raycoolgroup.com/blog/how-to-choose-between-cnc-turning-milling-and-5-axis-for-your-part"
+          },
+          {
+            "title": "Comparing CNC Milling vs. CNC Turning: Which Is Best?",
+            "url": "https://precisioncncmachining.com/comparing-cnc-milling-vs-cnc-turning/"
+          },
+          {
+            "title": "Choosing Between Milling, Turning & 5-Axis Machining",
+            "url": "https://middleeastcnc.com/cnc-machining/cnc-milling-vs-turning-vs-5-axis-whats-best-for-your-project/"
+          },
+          {
+            "title": "Milling Vs Turning. which ones the hardest to master?",
+            "url": "https://www.reddit.com/r/Machinists/comments/wc8zkj/milling_vs_turning_which_ones_the_hardest_to/"
+          },
+          {
+            "title": "CNC Turning vs. CNC Milling - Fusion Blog",
+            "url": "https://www.autodesk.com/products/fusion-360/blog/cnc-miling-or-cnc-turning/"
+          },
+          {
+            "title": "the types of CNC machines explained (3 and 5 axis)",
+            "url": "https://www.hubs.com/videos/cnc-machines-types-cnc-machines/"
+          },
+          {
+            "title": "Milling Turning and 5-Axis - CNC Machining",
+            "url": "https://www.huaruimachining.com/cnc-machining-processes-comparison.html"
+          },
+          {
+            "title": "3-Axis vs. 5-Axis CNC: Advantages and Disadvantages",
+            "url": "https://www.xometry.com/resources/machining/3-axis-vs-5-axis-cnc/"
+          }
+        ],
+        "outlineSelection": [
+          "https://tenolycnc.com/5-axis-cnc-turning-and-milling-center-vs-5-axis-machining-center/",
+          "https://www.raycoolgroup.com/blog/how-to-choose-between-cnc-turning-milling-and-5-axis-for-your-part"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://tenolycnc.com/5-axis-cnc-turning-and-milling-center-vs-5-axis-machining-center/",
+            "status": 202,
+            "headingCount": 0
+          },
+          {
+            "url": "https://www.raycoolgroup.com/blog/how-to-choose-between-cnc-turning-milling-and-5-axis-for-your-part",
+            "status": 200,
+            "headingCount": 29
+          }
+        ],
+        "gap": "Some results compare machine platforms or axis counts; the new text compares how two route proposals preserve the same controlled relationships."
+      },
+      "topicCluster": {
+        "name": "manufacturing-routes",
+        "pillar": "/resources/technical-guides/cnc-process-selection/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://rapidaxis.com/blog/the-differences-between-simultaneous-5-axis-and-32-axis-machining/",
+          "https://www.sandvik.coromant.com/en-gb/knowledge/milling/milling-holes-cavities-pockets/closed-pockets-or-angles"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "accuracy",
+        "change": "Some results compare machine platforms or axis counts; the new text compares how two route proposals preserve the same controlled relationships.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/cnc-process-selection/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "material-and-finish-checklist",
+      "url": "/resources/technical-guides/material-and-finish-checklist/",
+      "primaryKeyword": {
+        "text": "CNC material and surface finish specification",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "machining material and finish checklist",
+        "CNC dimensions after coating"
+      ],
+      "longTailKeywords": [
+        "specify aluminum housing rim finish and fitted bore",
+        "material certificate versus final dimensional report",
+        "masking boundaries on machined aluminum housings"
+      ],
+      "searchIntent": {
+        "type": "specification preparation",
+        "buyerTask": "Specify materials and final surfaces at their actual working regions."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Specify materials and final surfaces at their actual working regions."
+      },
+      "entities": [
+        "material grade",
+        "surface treatment",
+        "masking",
+        "roughness",
+        "final size"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "specify aluminum housing rim finish and fitted bore",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "material certificate versus final dimensional report",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "masking boundaries on machined aluminum housings",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC material and surface finish specification",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "The Ultimate Guide to CNC Machining Surface Finish",
+            "url": "https://www.rapiddirect.com/blog/surface-finishes-for-cnc-machining/"
+          },
+          {
+            "title": "What are the types of surface finishes for CNC machining?",
+            "url": "https://www.hubs.com/knowledge-base/surface-finishes-cnc-machinings/"
+          },
+          {
+            "title": "CNC Surface Finish Guide: Roughness, Ra Values & Tool Marks",
+            "url": "https://www.cnctal.com/blog-cnc-surface-finish-guide/"
+          },
+          {
+            "title": "Surface Finish Machining Chart: Ra Values for CNC Parts",
+            "url": "https://www.aerovacalloyforge.com/feeds/blog/surface-finish-machining"
+          },
+          {
+            "title": "Surface Roughness Guide for CNC Machining (Ra, Rz)",
+            "url": "https://geomiq.com/blog/cnc-machining-surface-roughness-guide/"
+          },
+          {
+            "title": "Surface Finishes for CNC Machined Parts: Ultimate Guide",
+            "url": "https://www.norck.com/blogs/news/complete-guide-cnc-part-finishes?srsltid=AYCX9vK2TW82CzaJ5c84oi-XUiIqO5PqWbotIOGEld4Jm-nsAZzr4BqD"
+          },
+          {
+            "title": "Surface Roughness Explained | Ra Roughness Chart",
+            "url": "https://get-it-made.co.uk/resources/surface-roughness-explained"
+          },
+          {
+            "title": "Machining Surface Finish Chart & Specifications",
+            "url": "https://moseys.com/machining-surface-finish"
+          },
+          {
+            "title": "The Basics of Surface Finish",
+            "url": "https://www.gdandtbasics.com/basics-of-surface-finish/"
+          },
+          {
+            "title": "The Complete Guide to Surface Finish Measurement",
+            "url": "https://sarkinencalibrating.com/feeds/blog/how-do-measure-surface-finish"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.rapiddirect.com/blog/surface-finishes-for-cnc-machining/",
+          "https://www.hubs.com/knowledge-base/surface-finishes-cnc-machinings/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.rapiddirect.com/blog/surface-finishes-for-cnc-machining/",
+            "status": 200,
+            "headingCount": 32
+          },
+          {
+            "url": "https://www.hubs.com/knowledge-base/surface-finishes-cnc-machinings/",
+            "status": 200,
+            "headingCount": 18
+          }
+        ],
+        "gap": "Finish charts and treatment menus dominate many results; the addition uses the pocketed-housing form to distinguish a closure rim from a clearance cavity."
+      },
+      "topicCluster": {
+        "name": "materials-and-finish",
+        "pillar": "/resources/technical-guides/material-and-finish-checklist/",
+        "product": null,
+        "capability": null,
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://members.anodizing.org/page/anodized-aluminum-faq",
+          "https://www.nasa.gov/wp-content/uploads/2023/03/prc-5006-current.pdf",
+          "https://www.carpentertechnology.com/blog/passivating-stainless-steel-part",
+          "https://www.ensingerplastics.com/en-us/plastic-material-selection/dimensionally-stable"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "enclosure-finish-example",
+        "change": "Finish charts and treatment menus dominate many results; the addition uses the pocketed-housing form to distinguish a closure rim from a clearance cavity.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/material-and-finish-checklist/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "designing-aluminum-enclosures-for-cnc-machining",
+      "url": "/resources/technical-guides/designing-aluminum-enclosures-for-cnc-machining/",
+      "primaryKeyword": {
+        "text": "CNC machined aluminum enclosure design",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC-milled aluminum housing",
+        "machined enclosure wall thickness"
+      ],
+      "longTailKeywords": [
+        "wall thickness for a deep CNC aluminum enclosure pocket",
+        "internal corner radius and lid fit on an aluminum housing",
+        "CNC-milled enclosure versus machined extrusion quote"
+      ],
+      "searchIntent": {
+        "type": "product design and quotation preparation",
+        "buyerTask": "Prepare a solid-stock enclosure design for manufacturability and quote review."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Prepare a solid-stock enclosure design for manufacturability and quote review."
+      },
+      "entities": [
+        "cavity",
+        "wall support",
+        "closure rim",
+        "corner radius",
+        "end panel"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "wall thickness for a deep CNC aluminum enclosure pocket",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "internal corner radius and lid fit on an aluminum housing",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "CNC-milled enclosure versus machined extrusion quote",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "CNC aluminum enclosure design",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "CNC Enclosure Guide: Materials, Cost & Design Tips",
+            "url": "https://jlccnc.com/blog/cnc-enclosure-guide"
+          },
+          {
+            "title": "Aluminum Extrusion Enclosure : 7 Steps",
+            "url": "https://www.instructables.com/Aluminum-Extrusion-Enclosure/"
+          },
+          {
+            "title": "Custom CNC Aluminum Enclosures: A Complete Design Guide",
+            "url": "https://www.precisemaker.com/blog/custom-aluminum-enclosure-guide.html"
+          },
+          {
+            "title": "CNC Machined Aluminum Enclosures: Design, Fit & Cost",
+            "url": "https://www.sincere-machining.com/cnc-machined-aluminum-enclosures/"
+          },
+          {
+            "title": "CNC Machined Enclosures: Materials, Tolerances and Cost",
+            "url": "https://www.rapiddirect.com/blog/cnc-machined-enclosures-manufacturing-guide/"
+          },
+          {
+            "title": "JLCMC Custom Aluminum Enclosure",
+            "url": "https://jlcmc.com/campaign/aluminum-enclosures?srsltid=AYCX9vLmvR7ZBEqtekQf2FdFHD1Ze8UFEXtxODaAIohoB-3n4IKUQaPg"
+          },
+          {
+            "title": "Extruded Aluminum Enclosures",
+            "url": "https://www.protocase.com/products/electronic-enclosures/extruded-aluminum-enclosures/"
+          },
+          {
+            "title": "Designing CNC-Milled Enclosures for Electronics",
+            "url": "https://promwad.com/news/milled-enclosure-design-guide"
+          },
+          {
+            "title": "CNC Engraving alumimum powder coated enclosure",
+            "url": "https://www.reddit.com/r/hobbycnc/comments/1kmbhe3/cnc_engraving_alumimum_powder_coated_enclosure/"
+          },
+          {
+            "title": "Choosing Custom CNC Aluminum Enclosures: A Guide",
+            "url": "https://www.rallyprecision.com/how-to-choose-the-right-cnc-aluminum-enclosure-for-electronics/"
+          }
+        ],
+        "outlineSelection": [
+          "https://jlccnc.com/blog/cnc-enclosure-guide",
+          "https://www.instructables.com/Aluminum-Extrusion-Enclosure/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://jlccnc.com/blog/cnc-enclosure-guide",
+            "status": 200,
+            "headingCount": 31
+          },
+          {
+            "url": "https://www.instructables.com/Aluminum-Extrusion-Enclosure/",
+            "status": 200,
+            "headingCount": 0
+          }
+        ],
+        "gap": "The observed results mix machine guards, extrusions and solid-stock housings. The introduction and new section explicitly define the intended construction."
+      },
+      "topicCluster": {
+        "name": "manufacturing-routes",
+        "pillar": "/resources/technical-guides/cnc-process-selection/",
+        "product": "/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/",
+        "capability": "/capabilities/aluminum-cnc-parts/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.sandvik.coromant.com/en-gb/knowledge/milling/milling-inside-corners"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "working-surfaces",
+        "change": "The observed results mix machine guards, extrusions and solid-stock housings. The introduction and new section explicitly define the intended construction.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/designing-aluminum-enclosures-for-cnc-machining/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "datums-and-hole-position-on-circular-machined-parts",
+      "url": "/resources/technical-guides/datums-and-hole-position-on-circular-machined-parts/",
+      "primaryKeyword": {
+        "text": "circular part hole position tolerance",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "flange hole pattern",
+        "PCD datum alignment"
+      ],
+      "longTailKeywords": [
+        "correct PCD but flange holes do not assemble",
+        "clocking a bolt circle to a side port",
+        "inspection alignment for circular machined parts"
+      ],
+      "searchIntent": {
+        "type": "technical problem solving",
+        "buyerTask": "Connect a specific flange assembly symptom to the relationship that needs checking."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Connect a specific flange assembly symptom to the relationship that needs checking."
+      },
+      "entities": [
+        "PCD",
+        "datum axis",
+        "seating face",
+        "angular orientation",
+        "hole position"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "correct PCD but flange holes do not assemble",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "clocking a bolt circle to a side port",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "inspection alignment for circular machined parts",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "circular part hole position tolerance",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "True Position - Position Tolerance",
+            "url": "https://www.gdandtbasics.com/true-position"
+          },
+          {
+            "title": "Position tolerance of circular pattern - some questions",
+            "url": "https://www.eng-tips.com/threads/position-tolerance-of-circular-pattern-some-questions.475355/"
+          },
+          {
+            "title": "True Position GD&T-Position Tolerance",
+            "url": "https://ecoreprap.com/blog/true-position-gdt-position-tolerance/"
+          },
+          {
+            "title": "True Position Calculator and GD&T Guide",
+            "url": "https://www.cnccookbook.com/gdt-true-position-calculator/"
+          },
+          {
+            "title": "True Position Tolerance: Definition, Calculation, and GD&T ...",
+            "url": "https://www.xometry.com/resources/machining/true-position-tolerance/"
+          },
+          {
+            "title": "how would you want this hole-pattern tolerance called out?",
+            "url": "https://www.reddit.com/r/Machinists/comments/1ulzslp/machinists_how_would_you_want_this_holepattern/"
+          },
+          {
+            "title": "Radial True Position with Composite Tolerance",
+            "url": "https://www.gdandtbasics.com/radial-true-position-with-composite-tolerance/"
+          },
+          {
+            "title": "Positional Tolerance - an overview",
+            "url": "https://www.sciencedirect.com/topics/engineering/positional-tolerance"
+          },
+          {
+            "title": "Positional Tolerance GD&T: Hole Location, MMC, and Fit",
+            "url": "https://rapidefficient.com/gpositional-tolerance-gdt/"
+          },
+          {
+            "title": "Position Tolerance (True Position) in GD&T",
+            "url": "https://www.interfaic.com/position?srsltid=AYCX9vL77W7GoG1v0QZW7XKfxhKLzvHqL2A-U9HRvpsEJMNj3g_-Vcxc"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.gdandtbasics.com/true-position",
+          "https://ecoreprap.com/blog/true-position-gdt-position-tolerance/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.gdandtbasics.com/true-position",
+            "status": 200,
+            "headingCount": 14
+          },
+          {
+            "url": "https://ecoreprap.com/blog/true-position-gdt-position-tolerance/",
+            "status": 200,
+            "headingCount": 22
+          }
+        ],
+        "gap": "General true-position tutorials explain the symbol; the addition connects a flange symptom to alignment, size and clocking without inventing a tolerance."
+      },
+      "topicCluster": {
+        "name": "drawing-and-measurement",
+        "pillar": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "product": "/machined-parts/gallery/custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm/",
+        "capability": "/capabilities/cnc-milling-service/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://hexagon.com/resources/resource-library/intro-coordinate-metrology"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "pattern-clocking",
+        "change": "General true-position tutorials explain the symbol; the addition connects a flange symptom to alignment, size and clocking without inventing a tolerance.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/datums-and-hole-position-on-circular-machined-parts/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "how-to-specify-fits-and-runout-on-turned-parts",
+      "url": "/resources/technical-guides/how-to-specify-fits-and-runout-on-turned-parts/",
+      "primaryKeyword": {
+        "text": "shaft fit and runout tolerance",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "turned part fitted diameters",
+        "circular runout and total runout"
+      ],
+      "longTailKeywords": [
+        "shaft diameter passes but runout fails",
+        "bearing seat working length and shoulder clearance",
+        "final coated journal size and runout inspection"
+      ],
+      "searchIntent": {
+        "type": "technical specification",
+        "buyerTask": "Keep diameter fit and datum-based runout as separate acceptance results."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Keep diameter fit and datum-based runout as separate acceptance results."
+      },
+      "entities": [
+        "bearing seat",
+        "working length",
+        "shoulder",
+        "circular runout",
+        "datum axis"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "shaft diameter passes but runout fails",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "bearing seat working length and shoulder clearance",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "final coated journal size and runout inspection",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "shaft fit and runout tolerance",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Shaft Runout: Definition, Measurement, and Correction",
+            "url": "https://www.fluke.com/en-us/learn/blog/alignment/shaft-runout-measure-correct-maintain-tolerance-standards?srsltid=AYCX9vIggHsOyWSm9NwWFPXtVZdNJod_AcTY5lzwKM0q_58KHmQ5KvzI"
+          },
+          {
+            "title": "Runout Tolerance for Motor Shafts: What It Means, How to ...",
+            "url": "https://www.motor-shaft.com/news/runout-tolerance-for-motor-shafts-what-it-means-how-to-measure-it-and-why-it-matters/"
+          },
+          {
+            "title": "Limits and Fits: Hole and Shaft Fit Guide",
+            "url": "https://jlccnc.com/blog/limits-and-fits-guide"
+          },
+          {
+            "title": "Tolerance Tables",
+            "url": "https://ntnamericas.com/technical-resources/tolerance-tables/"
+          },
+          {
+            "title": "Tolerances for bearing seats and abutments",
+            "url": "https://www.skf.com/us/products/rolling-bearings/principles-of-rolling-bearing-selection/bearing-selection-process/bearing-interfaces/tolerances-for-bearing-seats-and-abutments"
+          },
+          {
+            "title": "r/MechanicalEngineering - GD&T on Shaft Question",
+            "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1oqu1i0/gdt_on_shaft_question/"
+          },
+          {
+            "title": "Precision Lathe Work Tolerances: Runout on Turned Shafts ...",
+            "url": "https://hotean.com/blogs/hotean-blog/precision-lathe-work-tolerances-runout-guide"
+          },
+          {
+            "title": "Shaft runout control",
+            "url": "https://www.practicalmachinist.com/forum/threads/shaft-runout-control.192887/"
+          },
+          {
+            "title": "Shaft Runout: How to Measure TIR with a Dial Indicator",
+            "url": "https://www.fabrico.io/blog/shaft-runout-tir-measurement/"
+          },
+          {
+            "title": "Shaft Runout Tolerance: Measurement & Drawing Guide",
+            "url": "https://www.shprecisionshaft.com/news/shaft-runout-straightness-guide.html"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.fluke.com/en-us/learn/blog/alignment/shaft-runout-measure-correct-maintain-tolerance-standards",
+          "https://www.motor-shaft.com/news/runout-tolerance-for-motor-shafts-what-it-means-how-to-measure-it-and-why-it-matters/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.fluke.com/en-us/learn/blog/alignment/shaft-runout-measure-correct-maintain-tolerance-standards",
+            "status": 403,
+            "headingCount": 0
+          },
+          {
+            "url": "https://www.motor-shaft.com/news/runout-tolerance-for-motor-shafts-what-it-means-how-to-measure-it-and-why-it-matters/",
+            "status": 200,
+            "headingCount": 36
+          }
+        ],
+        "gap": "Motor-shaft maintenance content is common in the sample; LZZ focuses on procurement drawings, the accepted surface and the mating component."
+      },
+      "topicCluster": {
+        "name": "drawing-and-measurement",
+        "pillar": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "product": "/machined-parts/gallery/custom-cnc-turned-stainless-steel-components-manufacturer-and-precision-shaft-supplier/",
+        "capability": "/capabilities/cnc-turning-service/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://nexus.hexagon.com/documentationcenter/en-US/bundle/pcdmis-2026.1-core/page/geometric_tolerances/Circular_Runout.htm",
+          "https://cdn.skfmediahub.skf.com/api/public/0901d196802809de/pdf_preview_medium/Rolling_bearings_-_17000_1_EN_pdf_preview_medium.pdf"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "measurement-and-finish",
+        "change": "Motor-shaft maintenance content is common in the sample; LZZ focuses on procurement drawings, the accepted surface and the mating component.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/how-to-specify-fits-and-runout-on-turned-parts/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "choosing-thread-and-seal-requirements-for-machined-fittings",
+      "url": "/resources/technical-guides/choosing-thread-and-seal-requirements-for-machined-fittings/",
+      "primaryKeyword": {
+        "text": "machined fitting thread and seal requirements",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "CNC fitting connection specification",
+        "thread gauge and leakage test"
+      ],
+      "longTailKeywords": [
+        "NPT BSPT BSPP connection identification for a replacement fitting",
+        "does thread gauging establish a leak-tight fitting",
+        "leak test boundary for a machined fitting body"
+      ],
+      "searchIntent": {
+        "type": "technical and supplier-scope comparison",
+        "buyerTask": "Define the connection and distinguish a machined body from an assembled and tested item."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Define the connection and distinguish a machined body from an assembled and tested item."
+      },
+      "entities": [
+        "NPT",
+        "BSPT",
+        "BSPP",
+        "seal interface",
+        "test configuration"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "NPT BSPT BSPP connection identification for a replacement fitting",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "does thread gauging establish a leak-tight fitting",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "leak test boundary for a machined fitting body",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "machined fitting thread and seal requirements",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "How to Machine and Seal Metric Cooling Line Threads",
+            "url": "https://www.moldmakingtechnology.com/articles/how-to-machine-and-seal-metric-cooling-line-threads"
+          },
+          {
+            "title": "Precision Machined Fittings: Threads, Seals, Leak Tests",
+            "url": "https://www.goscpm.com/post/precision-machined-fittings-threads-seals-leak-tests"
+          },
+          {
+            "title": "Blog | Understanding U.S. and International Threaded ...",
+            "url": "https://www.dwyeromega.com/en-us/resources/us-and-international-threaded-connection-standards?srsltid=AYCX9vKt9R8QJ2o0QtOoKPZTe38hQi1-GRTzyBy0f3dnuWnqK-Ybh3-2"
+          },
+          {
+            "title": "METAL SEAL DESIGN GUIDE",
+            "url": "https://www.parker.com/content/dam/Parker-com/Literature/Composite-Sealing-Systems-Division/CSS5129-Metal-Seal-Design-Guide.pdf"
+          },
+          {
+            "title": "Understanding NPT and Other Pipe Thread Types",
+            "url": "https://www.cpcworldwide.com/Knowledge-Center/Technical-Toolbox/Understanding-NPT-Pipe-Thread-Types"
+          },
+          {
+            "title": "Cosmetic thread standard? : r/Machinists",
+            "url": "https://www.reddit.com/r/Machinists/comments/90ga8h/cosmetic_thread_standard/"
+          },
+          {
+            "title": "The Ultimate Guide to Machining Thread",
+            "url": "https://www.rapiddirect.com/blog/machining-thread/"
+          },
+          {
+            "title": "Best CNC Machining Practices For Achieving Consistent ...",
+            "url": "https://frigate.ai/cnc-machining/best-cnc-machining-practices-for-achieving-consistent-thread-tolerances/"
+          },
+          {
+            "title": "Threads in Machined Parts: Tapping, Thread Milling & Inserts",
+            "url": "https://www.arptech.com.au/blog/threads-in-machined-parts-tapped-holes-thread-milling-inserts.htm"
+          },
+          {
+            "title": "NPTF - National Pipe Thread Fuel (Dryseal) Threads",
+            "url": "https://www.machiningdoctor.com/charts/nptf/"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.moldmakingtechnology.com/articles/how-to-machine-and-seal-metric-cooling-line-threads",
+          "https://www.goscpm.com/post/precision-machined-fittings-threads-seals-leak-tests"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.moldmakingtechnology.com/articles/how-to-machine-and-seal-metric-cooling-line-threads",
+            "status": 403,
+            "headingCount": 0
+          },
+          {
+            "url": "https://www.goscpm.com/post/precision-machined-fittings-threads-seals-leak-tests",
+            "status": 200,
+            "headingCount": 30
+          }
+        ],
+        "gap": "Identification articles and broad leak-test claims leave configuration unclear; the addition explains why the actual seal must be inside the agreed test boundary."
+      },
+      "topicCluster": {
+        "name": "drawing-and-measurement",
+        "pillar": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "product": "/machined-parts/gallery/custom-oem-cnc-turned-fittings-connectors-and-flanges-manufacturer/",
+        "capability": "/capabilities/cnc-turning-service/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://socal.swagelok.com/en/resources/downloads/guides/swagelok-thread-and-end-connection-identification-guide",
+          "https://www.swagelok.com/en/blog/small-bore-tube-fittings-key-differences"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "separate-checks",
+        "change": "Identification articles and broad leak-test claims leave configuration unclear; the addition explains why the actual seal must be inside the agreed test boundary.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/choosing-thread-and-seal-requirements-for-machined-fittings/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "what-to-check-before-machining-a-cast-housing",
+      "url": "/resources/technical-guides/what-to-check-before-machining-a-cast-housing/",
+      "primaryKeyword": {
+        "text": "cast housing machining allowance",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "casting stock check",
+        "cast-to-machined datum transfer"
+      ],
+      "longTailKeywords": [
+        "core shift leaves insufficient machining stock around a bore",
+        "customer-supplied casting incoming inspection responsibility",
+        "hold or reject a casting before finish machining"
+      ],
+      "searchIntent": {
+        "type": "manufacturing preparation",
+        "buyerTask": "Decide whether the located blank can produce the released part before committing machining work."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Decide whether the located blank can produce the released part before committing machining work."
+      },
+      "entities": [
+        "machining allowance",
+        "core shift",
+        "retained wall",
+        "datum transfer",
+        "disposition"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "core shift leaves insufficient machining stock around a bore",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "customer-supplied casting incoming inspection responsibility",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "hold or reject a casting before finish machining",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "cast housing machining allowance",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "What Is Machining Allowance in Casting - Kurt Foundry",
+            "url": "https://kurtfoundry.com/blog/what-is-machining-allowance-sand-casting/"
+          },
+          {
+            "title": "Machining Allowance in Casting: How to Specify It Right (With ...",
+            "url": "https://www.bessercast.com/machining-allowance/"
+          },
+          {
+            "title": "Understanding Machining Allowance: A Key Factor in Precision ...",
+            "url": "https://www.youtube.com/shorts/8zxpQhJA5Ro"
+          },
+          {
+            "title": "Machining allowance of cast parts : r/AskEngineers",
+            "url": "https://www.reddit.com/r/AskEngineers/comments/1s61b2/machining_allowance_of_cast_parts/"
+          },
+          {
+            "title": "Machining Allowance for Die Cast Parts: How Much Is ...",
+            "url": "https://casting-yz.com/machining-allowance-for-die-cast-parts/"
+          },
+          {
+            "title": "3D Inspect Cast Gearbox Housing For Machining ...",
+            "url": "https://www.3d-scantech.com/3d-inspect-cast-gearbox-housing-for-machining-allowance-analysis/"
+          },
+          {
+            "title": "Machining Allowance",
+            "url": "https://www.3erp.com/blog/machining-allowance/"
+          },
+          {
+            "title": "Machining Castings: Techniques, Tools & Best Practices",
+            "url": "https://www.parkwaykew.com/feeds/blog/machining-castings"
+          },
+          {
+            "title": "DIN 1684 - General tolerances and machining allowances ...",
+            "url": "https://www.iron-foundry.com/din-1684-malleable-cast-iron.html"
+          },
+          {
+            "title": "Casting Shrinkage: Allowance, Porosity, and Machining ...",
+            "url": "https://rapidefficient.com/casting-shrinkage/"
+          }
+        ],
+        "outlineSelection": [
+          "https://kurtfoundry.com/blog/what-is-machining-allowance-sand-casting/",
+          "https://www.bessercast.com/machining-allowance/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://kurtfoundry.com/blog/what-is-machining-allowance-sand-casting/",
+            "status": 200,
+            "headingCount": 4
+          },
+          {
+            "url": "https://www.bessercast.com/machining-allowance/",
+            "status": 200,
+            "headingCount": 10
+          }
+        ],
+        "gap": "Sampled allowance guides often supply general ranges; LZZ keeps process-specific conditions and adds an incoming decision and responsibility table."
+      },
+      "topicCluster": {
+        "name": "manufacturing-routes",
+        "pillar": "/resources/technical-guides/cnc-process-selection/",
+        "product": "/machined-parts/gallery/custom-cnc-machined-castings-transmission-housings-pump-bodies/",
+        "capability": "/capabilities/casting-machining/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.sfsa.org/subject-areas/education/ordering-steel-castings/"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "incoming-blank",
+        "change": "Sampled allowance guides often supply general ranges; LZZ keeps process-specific conditions and adds an incoming decision and responsibility table.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/what-to-check-before-machining-a-cast-housing/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "why-machined-plastic-parts-need-defined-measurement-conditions",
+      "url": "/resources/technical-guides/why-machined-plastic-parts-need-defined-measurement-conditions/",
+      "primaryKeyword": {
+        "text": "CNC plastic machining tolerances",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "machined plastic dimensional inspection",
+        "plastic part measurement conditions"
+      ],
+      "longTailKeywords": [
+        "plastic bore dimensions differ at receiving inspection",
+        "support and contact force when measuring a plastic sleeve",
+        "CNC plastic tolerance versus injection molding tolerance table"
+      ],
+      "searchIntent": {
+        "type": "measurement problem solving",
+        "buyerTask": "Compare the same machined feature in the same material and measurement state."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Compare the same machined feature in the same material and measurement state."
+      },
+      "entities": [
+        "polymer grade",
+        "temperature",
+        "conditioning",
+        "contact force",
+        "support"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "plastic bore dimensions differ at receiving inspection",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "support and contact force when measuring a plastic sleeve",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "CNC plastic tolerance versus injection molding tolerance table",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "machined plastic part tolerances",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Understanding Injection Molding Tolerances",
+            "url": "https://www.protolabs.com/resources/blog/injection-molding-tolerances/"
+          },
+          {
+            "title": "Tolerances in Injection Molding",
+            "url": "https://xometry.pro/en/articles/injection-molding-tolerances/"
+          },
+          {
+            "title": "Plastic Fabrication & Machining Guidelines",
+            "url": "https://www.boedeker.com/Technical-Resources/Plastic-Machining-Guidelines?srsltid=AYCX9vIMvZaTtgip1OtQOvu3Dz0QEZN2w28vXAPYt_KXQMwz88fYVsbz"
+          },
+          {
+            "title": "Engineering Tolerance Guide for Plastic Parts",
+            "url": "https://nylonplastic.com/engineering-tolerance-guide-plastic-parts/?srsltid=AYCX9vKqeBbA-Yp1ifvTlRpaYcoulnDqCxeAcZJxwx1v8C6B5ezeMgLR"
+          },
+          {
+            "title": "Achievable Tolerances in Plastic Materials",
+            "url": "https://eagle-plastics.com/2023/05/achievable-tolerances-in-plastic-materials/"
+          },
+          {
+            "title": "Tight Tolerance Ranges for Machined Plastic Parts Aren't ...",
+            "url": "https://www.slideways.com/blogs/articles/machined-plastic-parts-tighter-tolerance-ranges?srsltid=AYCX9vKefK7CkIbgPO0kOuGULI1RG-rMZMKEgzrFxU4xGmVb4itFVz22"
+          },
+          {
+            "title": "Design Practices for CNC Machined Parts with Tight ...",
+            "url": "https://blog.epectec.com/design-practices-for-cnc-machined-parts-with-tight-tolerances"
+          },
+          {
+            "title": "How to Set Appropriate Tolerances for Plastic Components",
+            "url": "https://www.geminiplasticsinc.com/post/how-to-set-appropriate-tolerances-for-plastic-components"
+          },
+          {
+            "title": "Plastics Manufacturing Tolerances: A Complete Guide",
+            "url": "https://polymerlavorazioni.com/en/plastics-processing/tolerances-in-plastic-manufacturing/"
+          },
+          {
+            "title": "How to go about defining tolerances on plastic injection ...",
+            "url": "https://www.reddit.com/r/AskEngineers/comments/7hizxc/how_to_go_about_defining_tolerances_on_plastic/"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.protolabs.com/resources/blog/injection-molding-tolerances/",
+          "https://xometry.pro/en/articles/injection-molding-tolerances/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.protolabs.com/resources/blog/injection-molding-tolerances/",
+            "status": 200,
+            "headingCount": 4
+          },
+          {
+            "url": "https://xometry.pro/en/articles/injection-molding-tolerances/",
+            "status": 403,
+            "headingCount": 0
+          }
+        ],
+        "gap": "The old primary query returned injection-molding tolerance pages at the top. The revised title and introduction explicitly address CNC-machined parts and recorded measurement conditions."
+      },
+      "topicCluster": {
+        "name": "drawing-and-measurement",
+        "pillar": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "product": "/machined-parts/gallery/precision-cnc-machining-for-complex-plastic-geometries-and-tight-tolerances/",
+        "capability": "/capabilities/plastic-machined-parts/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.mcam.com/en/support/material-properties/dimensional-stability",
+          "https://www.ensinger-pc.com/wp-content/uploads/2022/04/Ensinger-Manual.pdf"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "receiving-checklist",
+        "change": "The old primary query returned injection-molding tolerance pages at the top. The revised title and introduction explicitly address CNC-machined parts and recorded measurement conditions.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/why-machined-plastic-parts-need-defined-measurement-conditions/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "preparing-an-impeller-model-for-5-axis-machining",
+      "url": "/resources/technical-guides/preparing-an-impeller-model-for-5-axis-machining/",
+      "primaryKeyword": {
+        "text": "5 axis impeller machining",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "impeller CAD preparation",
+        "blade root tool access"
+      ],
+      "longTailKeywords": [
+        "repair an impeller CAD blade-root surface before programming",
+        "indexed versus simultaneous impeller machining",
+        "agree impeller blade and hub inspection regions"
+      ],
+      "searchIntent": {
+        "type": "technical preparation",
+        "buyerTask": "Release an adequate manufacturing definition and separate route simulation from finished acceptance."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Release an adequate manufacturing definition and separate route simulation from finished acceptance."
+      },
+      "entities": [
+        "blade root",
+        "hub bore",
+        "tool holder",
+        "model revision",
+        "geometry comparison"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "repair an impeller CAD blade-root surface before programming",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "indexed versus simultaneous impeller machining",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "agree impeller blade and hub inspection regions",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "5 axis impeller machining",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "5-Axis Aerospace Impeller Machining — Re-tuned by Ai",
+            "url": "https://www.methodsmachine.com/blog/5-axis-aerospace-impeller-machining-re-tuned-by-ai/"
+          },
+          {
+            "title": "5 Axis Machining - Blade/Impeller",
+            "url": "https://camworks.com/blog/5-axis-machining-blade-impeller/"
+          },
+          {
+            "title": "Want to learn more about impeller machining. : r/CNC",
+            "url": "https://www.reddit.com/r/CNC/comments/1spka5u/want_to_learn_more_about_impeller_machining/"
+          },
+          {
+            "title": "A review of 5-axis milling techniques for centrifugal impellers",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1526612524008818"
+          },
+          {
+            "title": "Machining an Impeller on a 5-Axis CNC: Faster and Easier ...",
+            "url": "https://dynamicmachine.com/machining-an-impeller-on-a-5-axis-cnc-faster-and-easier-than-you-think/"
+          },
+          {
+            "title": "5-Axis Impeller Machining: Balancing Cost, Quality & Lead ...",
+            "url": "https://www.lsrpf.com/blog/5-axis-impeller-machining-balancing-cost-quality-lead-time-for-custom-blades"
+          },
+          {
+            "title": "5 Axis Machining | Ph. 905.625.5941",
+            "url": "https://www.absmachining.com/machining-usa/machining/5-axis-machining.html"
+          },
+          {
+            "title": "3+2, 4+1, or 5 axis impeller machining?",
+            "url": "https://www.practicalmachinist.com/forum/threads/3-2-4-1-or-5-axis-impeller-machining.412615/"
+          },
+          {
+            "title": "Impeller blisk | 5-axis CAM software | OPEN MIND",
+            "url": "https://www.openmind-tech.com/en-us/cam/5-axis-milling/impeller-blisk/"
+          },
+          {
+            "title": "5-Axis CNC Router Machining: The Perfect Solution for ...",
+            "url": "https://www.omni-cnc.com/5-axis-machine-impeller/"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.methodsmachine.com/blog/5-axis-aerospace-impeller-machining-re-tuned-by-ai/",
+          "https://camworks.com/blog/5-axis-machining-blade-impeller/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.methodsmachine.com/blog/5-axis-aerospace-impeller-machining-re-tuned-by-ai/",
+            "status": 200,
+            "headingCount": 14
+          },
+          {
+            "url": "https://camworks.com/blog/5-axis-machining-blade-impeller/",
+            "status": 200,
+            "headingCount": 2
+          }
+        ],
+        "gap": "The sample includes CAM workflows, videos and vendor case results. LZZ adds model-repair approval and report regions without borrowing cycle-time or performance claims."
+      },
+      "topicCluster": {
+        "name": "manufacturing-routes",
+        "pillar": "/resources/technical-guides/cnc-process-selection/",
+        "product": "/machined-parts/gallery/ultra-high-precision-machining-services/",
+        "capability": "/capabilities/5-axis-cnc-machining/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.sandvik.coromant.com/en-gb/knowledge/milling/milling-holes-cavities-pockets/closed-pockets-or-angles"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "controlled-model",
+        "change": "The sample includes CAM workflows, videos and vendor case results. LZZ adds model-repair approval and report regions without borrowing cycle-time or performance claims.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/preparing-an-impeller-model-for-5-axis-machining/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "which-aluminum-features-need-masking-before-anodizing",
+      "url": "/resources/technical-guides/which-aluminum-features-need-masking-before-anodizing/",
+      "primaryKeyword": {
+        "text": "anodizing masking bores and threads",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "anodized fitted bore",
+        "masking drawing note"
+      ],
+      "longTailKeywords": [
+        "mask a bore or ream after anodizing",
+        "anodizing boundary at a bore chamfer and shoulder",
+        "final bore inspection after anodizing or masking"
+      ],
+      "searchIntent": {
+        "type": "process trade-off",
+        "buyerTask": "Compare treatment routes against final fit, coverage and protection."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Compare treatment routes against final fit, coverage and protection."
+      },
+      "entities": [
+        "mask boundary",
+        "coating coverage",
+        "machining allowance",
+        "exposed material"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "mask a bore or ream after anodizing",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "anodizing boundary at a bore chamfer and shoulder",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "final bore inspection after anodizing or masking",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "anodizing masking bores and threads",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Masking Bores and Threads for Anodizing: Callouts",
+            "url": "https://saolamfg.com/guides/masking-for-anodizing"
+          },
+          {
+            "title": "A Guide on Masking for Anodizing",
+            "url": "https://www.lightmetalscoloring.com/guide-on-masking-for-anodzing"
+          },
+          {
+            "title": "Should I mask the bore of a bearing housing for anodizing",
+            "url": "https://www.eng-tips.com/threads/should-i-mask-the-bore-of-a-bearing-housing-for-anodizing.431193/"
+          },
+          {
+            "title": "Keeping Threads Bare Through Anodizing | Three Options",
+            "url": "https://www.anopro.org/blog/how-to-keep-threads-bare-through-anodizing/"
+          },
+          {
+            "title": "Top 16 Questions about Masking Anodized Aluminum",
+            "url": "https://www.precisioncoating.com/news-and-blog/top-16-questions-about-masking-anodized-aluminum/1000/"
+          },
+          {
+            "title": "Masking Services for Metal Finishing | Anodizing & Coating ...",
+            "url": "https://www.delsplating.com/masking.html"
+          },
+          {
+            "title": "Masking Guide for Plating and Anodizing | EPSI",
+            "url": "https://www.linkedin.com/pulse/masking-guide-plating-anodizing-why-process-changes-strategy-63njc"
+          },
+          {
+            "title": "Anodizing Solutions | Caps, Plugs, Tapes, Hooks & Racking",
+            "url": "https://www.epsi.com/epsi-anodizing-solutions"
+          },
+          {
+            "title": "Light-Curable Peelable Masks for Precision Aluminum ...",
+            "url": "https://incurelab.com/wp/light-curable-peelable-masks-for-precision-aluminum-anodizing-type-ii-iii?srsltid=AYCX9vKpr0IwEM0HJ7qtdWStQE-snQ-ppmPzCBqcw7N-giCelV4UxkBw"
+          },
+          {
+            "title": "Masking Thread Holes: Best Plug Method for Black Anodizing",
+            "url": "https://www.finishing.com/552/38.shtml"
+          }
+        ],
+        "outlineSelection": [
+          "https://saolamfg.com/guides/masking-for-anodizing",
+          "https://www.lightmetalscoloring.com/guide-on-masking-for-anodzing"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://saolamfg.com/guides/masking-for-anodizing",
+            "status": 200,
+            "headingCount": 10
+          },
+          {
+            "url": "https://www.lightmetalscoloring.com/guide-on-masking-for-anodzing",
+            "status": 200,
+            "headingCount": 18
+          }
+        ],
+        "gap": "Callout and masking-FAQ results are useful, but the new route table makes the final acceptance consequences directly comparable."
+      },
+      "topicCluster": {
+        "name": "materials-and-finish",
+        "pillar": "/resources/technical-guides/material-and-finish-checklist/",
+        "product": "/machined-parts/gallery/full-service-cnc-milling-solutions-custom-metal-parts-manufacturer-with-finishing/",
+        "capability": "/capabilities/aluminum-cnc-parts/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.nasa.gov/wp-content/uploads/2023/03/prc-5006-current.pdf"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "masking-and-alternatives",
+        "change": "Callout and masking-FAQ results are useful, but the new route table makes the final acceptance consequences directly comparable.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/which-aluminum-features-need-masking-before-anodizing/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "specifying-a-billet-intake-manifold-for-machining",
+      "url": "/resources/technical-guides/specifying-a-billet-intake-manifold-for-machining/",
+      "primaryKeyword": {
+        "text": "billet intake manifold machining",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "custom manifold manufacturing",
+        "split manifold interfaces"
+      ],
+      "longTailKeywords": [
+        "drawings needed to quote a billet intake manifold",
+        "vehicle name versus cylinder-head port drawing for fitment",
+        "machined manifold components versus ready-to-install assembly"
+      ],
+      "searchIntent": {
+        "type": "custom component sourcing",
+        "buyerTask": "Define the actual mating components and supplied configuration without claiming engine compatibility."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Define the actual mating components and supplied configuration without claiming engine compatibility."
+      },
+      "entities": [
+        "billet stock",
+        "runner",
+        "flange",
+        "throttle interface",
+        "seal",
+        "assembly scope"
+      ],
+      "questions": {
+        "googlePaa": [
+          {
+            "question": "What does a billet intake manifold do?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          },
+          {
+            "question": "How to fabricate an intake manifold?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          },
+          {
+            "question": "What is a CNC billet?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": true,
+            "decision": "Relevant scope addressed in existing or expanded content"
+          },
+          {
+            "question": "What material are intake manifolds made of?",
+            "source": "Observed Google People also ask",
+            "usedForThisGuide": false,
+            "decision": "Not expanded: too broad, outside the buyer task or would require an unsupported general answer"
+          }
+        ],
+        "buyerQuestions": [
+          {
+            "question": "drawings needed to quote a billet intake manifold",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "vehicle name versus cylinder-head port drawing for fitment",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "machined manifold components versus ready-to-install assembly",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "billet intake manifold machining",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Learn to Build a PROFESSIONAL Billet Intake Manifold",
+            "url": "https://www.youtube.com/watch?v=quHhH12M4QQ"
+          },
+          {
+            "title": "Learn to Build a PROFESSIONAL Billet Intake Manifold",
+            "url": "https://www.youtube.com/watch?v=2Epnd9hAihs"
+          },
+          {
+            "title": "Modular Billet Intake Manifolds",
+            "url": "https://www.williamsenginedesign.com/intake-manifolds/"
+          },
+          {
+            "title": "CPC Manufacturing: Billet Intake Manifold - Performance ...",
+            "url": "https://cpc.store/?srsltid=AYCX9vIzCWbeix7c8zzxMn1XyBwrPLC5zkBkQfBmX6NW1dNQYt-8zBer"
+          },
+          {
+            "title": "Billet Manifold machining-HAAS VF6TR. ...",
+            "url": "https://www.reddit.com/r/Machinists/comments/ipj19w/billet_manifold_machininghaas_vf6tr/"
+          },
+          {
+            "title": "CSF B58 & S58 Billet Intake Manifolds CNC Machining & ...",
+            "url": "https://www.facebook.com/cpcmanufacturing/videos/as-you-can-see-and-hear-the-csf_radiators-b58-and-s58-billet-intake-manifolds-ha/949186598024346/"
+          },
+          {
+            "title": "Volumetric Machining Lightens Intake Manifolds",
+            "url": "https://www.gibbscam.com/en/customer-stories/gibbscam-lightens-intake-manifolds-volumetric-machining"
+          },
+          {
+            "title": "From Billet to Finished Intake Manifold | 5-Axis CNC Machining",
+            "url": "https://www.youtube.com/shorts/mzMDMU1VPmk"
+          },
+          {
+            "title": "Billet manifold lids in the cut. CNC machining in Texas for ...",
+            "url": "https://www.facebook.com/james.goertz/videos/billet-manifold-lids-in-the-cut-cnc-machining-in-texas-for-coyote-ltx-and-vk56-b/1069835349135354/"
+          },
+          {
+            "title": "Performance Car Parts, Precision Metal Manufacturer | CNC ...",
+            "url": "https://www.cncinnovationsmy.com/?srsltid=AYCX9vIZiEHYwrkhqohiCRfPG5do_luC1yM6Ikvt8U-YX2FBGyWW20Ey"
+          }
+        ],
+        "outlineSelection": [
+          "https://www.williamsenginedesign.com/intake-manifolds/",
+          "https://cpc.store/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://www.williamsenginedesign.com/intake-manifolds/",
+            "status": 200,
+            "headingCount": 1
+          },
+          {
+            "url": "https://cpc.store/",
+            "status": 200,
+            "headingCount": 12
+          }
+        ],
+        "gap": "Videos and vehicle-specific product pages dominate the result mix. LZZ defines the billet component, controlled interfaces and the limits of a fitment trial."
+      },
+      "topicCluster": {
+        "name": "manufacturing-routes",
+        "pillar": "/resources/technical-guides/cnc-process-selection/",
+        "product": "/machined-parts/gallery/custom-billet-aluminum-intake-manifold-manufacturer-and-automotive-prototype-supplier/",
+        "capability": "/capabilities/aluminum-cnc-parts/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.holley.com/support/intake_manifold/"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "mating-components",
+        "change": "Videos and vehicle-specific product pages dominate the result mix. LZZ defines the billet component, controlled interfaces and the limits of a fitment trial.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/specifying-a-billet-intake-manifold-for-machining/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    },
+    {
+      "slug": "what-matters-when-ordering-a-custom-indexing-plunger",
+      "url": "/resources/technical-guides/what-matters-when-ordering-a-custom-indexing-plunger/",
+      "primaryKeyword": {
+        "text": "custom indexing plunger specification",
+        "selection": "Editorial refinement from observed search intent; not validated by search-volume data"
+      },
+      "secondaryKeywords": [
+        "indexing pin engagement",
+        "plunger projection and stroke"
+      ],
+      "longTailKeywords": [
+        "indexing plunger nose enters but full engagement is unclear",
+        "check plunger travel in the installed position",
+        "spring return force versus plunger load capacity"
+      ],
+      "searchIntent": {
+        "type": "custom mechanism sourcing",
+        "buyerTask": "Specify installed engagement and reproducible movement checks alongside component dimensions."
+      },
+      "keywordData": {
+        "status": "not_available",
+        "market": null,
+        "language": "English",
+        "period": null,
+        "averageMonthlySearches": null,
+        "organicKeywordDifficulty": null,
+        "monthlyTrend": null,
+        "cpc": null,
+        "source": null,
+        "adCompetitionIsNotOrganicDifficulty": true
+      },
+      "commercialRelevance": {
+        "basis": "Qualitative buyer task and route to a scoped inquiry; not estimated revenue, CPC or conversion rate",
+        "description": "Specify installed engagement and reproducible movement checks alongside component dimensions."
+      },
+      "entities": [
+        "pin working length",
+        "projection",
+        "stroke",
+        "rest position",
+        "spring force"
+      ],
+      "questions": {
+        "googlePaa": [],
+        "buyerQuestions": [
+          {
+            "question": "indexing plunger nose enters but full engagement is unclear",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "check plunger travel in the installed position",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          },
+          {
+            "question": "spring return force versus plunger load capacity",
+            "source": "Editorial buyer question; not labeled Google PAA"
+          }
+        ]
+      },
+      "serp": {
+        "query": "custom indexing plunger specification",
+        "retrieved": "2026-11-02",
+        "googleCountryHint": "us",
+        "actualLocation": "Unknown or not established",
+        "personalization": "pws=0; Google not-personalized notice recorded when visible",
+        "method": "First ten titled non-ad results observed in document order, using a second result page where needed. Video/forum formats remain identifiable. This is not a universal ranking guarantee.",
+        "results": [
+          {
+            "title": "Custom Indexing Plungers: Specifications & OEM Sourcing ...",
+            "url": "https://mocayo.net/custom-indexing-plungers/"
+          },
+          {
+            "title": "How To Choose an Indexing Plunger: An Engineer's Selection ...",
+            "url": "https://rochemetal.com/blog/how-to-choose-an-indexing-plunger/"
+          },
+          {
+            "title": "Index Plungers Technical Specifications",
+            "url": "https://www.wixroyd.com/wx/pageid/wixroyd-index-plungers-technical-page"
+          },
+          {
+            "title": "GN 722.4 Indexing Plungers",
+            "url": "https://www.jwwinco.com/en-us/products/3.1-Indexing-locking-blocking-with-pins-and-ball-shaped-elements/Indexing-plungers/GN-722.4-Stainless-Steel-Indexing-Plungers-Weldable?srsltid=AYCX9vIPLK-7sZnhfkaIvh7kQPeC_T0HqYnO79FCOUNVMXezWrmYaORM"
+          },
+          {
+            "title": "Index Plungers – A Design Engineer's Guide",
+            "url": "https://www.rencol.com/news/index-plungers-a-design-engineers-guide/"
+          },
+          {
+            "title": "Indexing Plungers | OneMonroe",
+            "url": "https://monroeengineering.com/resources/attributes-indexing-plungers.php"
+          },
+          {
+            "title": "MISUMI product Indexing Plungers configure & order",
+            "url": "https://my.misumi-ec.com/vona2/maker/misumi/mech/M0300000000/M0302000000/M0302020000/?srsltid=AYCX9vKFlHv_0paAnYhtfKrkRjoHRYz9gkWv8iBAH8suBeE_tyhK-U8j"
+          },
+          {
+            "title": "Tapered Index Plungers (Rotary Cam, Standard Mount)",
+            "url": "https://www.carrlane.com/product/spring-loaded-devices/index-plungers/tapered-index-plungers-rotary-cam-standard-mount?srsltid=AYCX9vI4bHCrysNjOgvdeUUlLpoZAoNxT0WlxNYgIP_SkQIwiZ9QkkZ2"
+          },
+          {
+            "title": "Indexing Plungers: With Or Without Lock-Out",
+            "url": "https://www.ruland.com/indexing-plungers.html?srsltid=AYCX9vJBOZuOmYVKx3OHV3FoxnrVLmujh4c8pFwh44zVL66EkBwzAoiw"
+          },
+          {
+            "title": "KIPP - 3/8-16, 20mm Thread Length, Straight Cam Action ...",
+            "url": "https://www.mscdirect.com/product/details/52223575"
+          }
+        ],
+        "outlineSelection": [
+          "https://mocayo.net/custom-indexing-plungers/",
+          "https://rochemetal.com/blog/how-to-choose-an-indexing-plunger/"
+        ],
+        "outlineStatus": [
+          {
+            "url": "https://mocayo.net/custom-indexing-plungers/",
+            "status": 202,
+            "headingCount": 0
+          },
+          {
+            "url": "https://rochemetal.com/blog/how-to-choose-an-indexing-plunger/",
+            "status": 200,
+            "headingCount": 9
+          }
+        ],
+        "gap": "Selection guides often compare standard mechanisms and sizes. LZZ adds a section-based engagement check without transferring a standard product rating to a custom assembly."
+      },
+      "topicCluster": {
+        "name": "drawing-and-measurement",
+        "pillar": "/resources/technical-guides/critical-features-cnc-drawing/",
+        "product": "/machined-parts/gallery/precision-stainless-steel-indexing-plunger-manufacturer-and-spring-loaded-locking-pin-supplier/",
+        "capability": "/capabilities/cnc-turning-service/",
+        "relationship": "Guide explains the requirement; product reference shows the form; service page reviews the proposed manufacturing route. Product reference pages return to the relevant guide using an existing sentence."
+      },
+      "evidence": {
+        "author": "LZZ Precision organization; no invented individual reviewer",
+        "numericClaims": "Retain existing conditions; new alloy ratios are arithmetic from cited Kaiser typical T6/T651 rod-and-bar values",
+        "sources": [
+          "https://www.ganternorm.com/en/products/3.1-Indexing-locking-blocking-with-pins-and-ball-shaped-elements/Indexing-plungers/GN-413-Indexing-plungers-Steel"
+        ],
+        "firstHandResults": "No new customer case, test result, certification, fitment or capability claim"
+      },
+      "implementation": {
+        "section": "projection-stroke-engagement",
+        "change": "Selection guides often compare standard mechanisms and sizes. LZZ adds a section-based engagement check without transferring a standard product rating to a custom assembly.",
+        "existingUrlAndH1Preserved": true,
+        "visibleModified": "2026-11-02"
+      },
+      "conversion": {
+        "quotePath": "/quote/",
+        "sourcePath": "/resources/technical-guides/what-matters-when-ordering-a-custom-indexing-plunger/",
+        "eventsInExistingCode": [
+          "page_view",
+          "quote_click",
+          "form_start",
+          "form_error",
+          "email_click",
+          "whatsapp_click"
+        ],
+        "liveRecording": "Not verified in this content review. The last verified Preview backend was not configured; this local content revision has not been deployed.",
+        "gsc": "No access to LZZ in the current account; do not assign production results to preview content",
+        "serverEventInExistingCode": "inquiry_success",
+        "successBoundary": "Recorded by server/analytics.ts only through the saved-inquiry flow; existing privacy and visit-association conditions apply. Not a client-side button-click success."
+      }
+    }
+  ]
+}

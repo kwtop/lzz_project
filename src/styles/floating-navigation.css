@@ -79,3 +79,4 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
 }
 
 @media(max-width:1099.98px) {html:has(.site-header[data-navigation="floating"]) {scroll-padding-top:108px}}
+@media(max-width:767px) {html:has(.site-header[data-navigation="floating"]) {scroll-padding-top:96px}}

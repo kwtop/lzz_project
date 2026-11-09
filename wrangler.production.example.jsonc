@@ -1,0 +1,22 @@
+{
+ "name":"lzz-precision",
+ "pages_build_output_dir":"./dist",
+ "compatibility_date":"2026-10-01",
+ "compatibility_flags":["nodejs_compat"],
+ "vars":{
+  "ANALYTICS_MODE":"detailed",
+  "ADMIN_AUTH_MODE":"access",
+  "ACCESS_TEAM_DOMAIN":"YOUR-TEAM.cloudflareaccess.com",
+  "ACCESS_AUD":"YOUR-ACCESS-APPLICATION-AUD",
+  "ADMIN_EMAILS":"YOUR-ADMIN-EMAIL",
+  "TURNSTILE_SITE_KEY":"YOUR-TURNSTILE-SITE-KEY",
+  "INTERNAL_IPS":""
+ },
+ "d1_databases":[{"binding":"DB","database_name":"lzz-site-data","database_id":"REPLACE-WITH-REAL-D1-ID","migrations_dir":"migrations"}],
+ "r2_buckets":[{"binding":"FILES","bucket_name":"lzz-inquiry-files"}],
+ "env":{"preview":{
+  "vars":{"ANALYTICS_MODE":"detailed","ADMIN_AUTH_MODE":"access","ACCESS_TEAM_DOMAIN":"YOUR-TEAM.cloudflareaccess.com","ACCESS_AUD":"YOUR-ACCESS-APPLICATION-AUD","ADMIN_EMAILS":"YOUR-ADMIN-EMAIL","TURNSTILE_SITE_KEY":"YOUR-TURNSTILE-SITE-KEY","INTERNAL_IPS":""},
+  "d1_databases":[{"binding":"DB","database_name":"lzz-site-data-preview","database_id":"REPLACE-WITH-PREVIEW-D1-ID","migrations_dir":"migrations"}],
+  "r2_buckets":[{"binding":"FILES","bucket_name":"lzz-inquiry-files-preview"}]
+ }}
+}

@@ -19,22 +19,36 @@ import '../styles/image-layout-20261018.css';
 import '../styles/penta-image-composition.css';
 import '../styles/floating-navigation.css';
 import '../styles/context-links.css';
+import '../styles/navigation-centered.css';
+import '../styles/interaction-states.css';
 import {isRedesigned,usesEditorialLayout} from '../data/redesignRollout';
 import MainNavigation from '../components/MainNavigation.astro';
 import SectionBreadcrumb from '../components/SectionBreadcrumb.astro';
-import {sectionForPath,breadcrumbTrail} from '../data/siteSections';
+import {siteSections,sectionForPath,breadcrumbTrail} from '../data/siteSections';
+import SiteInteractions from '../components/SiteInteractions.astro';
 import PalettePreview from '../components/PalettePreview.astro';
 import {siteOrigin,pageDescriptions,pageTitles} from '../data/seo';
 import {categoryDetails} from '../data/presentation';
 import {pageTemplateFor} from '../data/pageTemplates';
+import {socialImageFor} from '../data/socialImages';
+import AnalyticsConsent from '../components/AnalyticsConsent.astro';
 const {
  title='Custom CNC machining in Hangzhou',
  description=pageDescriptions[Astro.url.pathname] || categoryDetails[Astro.url.pathname.split('/')[2]]?.description || 'Discuss your custom CNC machining requirements with LZZ Precision in Hangzhou.',
  cta=true, immersive=false,breadcrumbWidth='standard',
  closingTitle='Have a part in mind?',
- closingDescription='Prepare an RFQ email, add your drawing in your email app, then send it to LZZ.',
+ closingDescription='Leave your email or WhatsApp number. Add a drawing or message if you have one. We reply within 12 hours.',
  closingHref='/quote/',closingLabel='Request a quote',headerQuoteHref='/quote/',
 }=Astro.props;
+function contextualQuote(href:string) {
+ if(!href.startsWith('/quote/'))return href;
+ const link=new URL(href,siteOrigin);
+ if(!link.searchParams.has('source'))link.searchParams.set('source',Astro.url.pathname);
+ if(!link.searchParams.has('part')&&Astro.url.pathname!=='/')link.searchParams.set('part',title);
+ return link.pathname+link.search;
+}
+const contextualHeaderQuote=contextualQuote(headerQuoteHref);
+const contextualClosingQuote=contextualQuote(closingHref);
 const canonical=new URL(Astro.url.pathname,siteOrigin).href;
 const seoTitle=pageTitles[Astro.url.pathname]||title;
 const entity=Astro.props.structuredEntity;
@@ -52,7 +66,8 @@ const capabilitySceneHero=innerLayout&&/^\/capabilities(?:\/|$)/.test(designPath
 const pentaSample=Astro.props.pentaSample===true||(modern&&(!noindex||/^\/404(?:\.html|\/)?$/.test(designPath)));
 const floatingNavigation=modern&&pentaSample;
 const headerOverPhoto=designPath==='/'||immersiveInnerHero||capabilitySceneHero||splitInnerHero;
-const socialImage=new URL(Astro.props.articleImage||'/media/evidence/workshop-wide-1600.webp',siteOrigin).href;
+const sharingImage=socialImageFor(Astro.props.articleImage);
+const socialImage=new URL(sharingImage.src,siteOrigin).href;
 const isInformationPage=/^\/(about|resources|factory)(\/|$)/.test(Astro.url.pathname);
 const section=sectionForPath(designPath);
 const trail=breadcrumbTrail(designPath,title);
@@ -61,10 +76,10 @@ if(!trail.length&&Astro.url.pathname!=='/')crumbs.push({name:title,item:canonica
 const structured={'@context':'https://schema.org','@graph':[
  {'@type':'Organization','@id':siteOrigin+'/#organization',name:'Hangzhou Lizhizao Precision Machinery Co., Ltd.',alternateName:'LZZ Precision',url:siteOrigin+'/',logo:new URL('/media/lzz-logo.png',siteOrigin).href,email:'roger@lzz-cnc.com',telephone:'+86 138 5810 2479',address:{'@type':'PostalAddress',streetAddress:'No. 4 Fengcheng Road',addressLocality:'Pingyao, Yuhang District, Hangzhou',addressRegion:'Zhejiang',addressCountry:'CN'}},
  {'@type':'WebSite','@id':siteOrigin+'/#website',url:siteOrigin+'/',name:'LZZ Precision',publisher:{'@id':siteOrigin+'/#organization'},inLanguage:'en'},
- {'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,isPartOf:{'@id':siteOrigin+'/#website'},inLanguage:'en',...(crumbs.length>1?{breadcrumb:{'@id':canonical+'#breadcrumb'}}:{}),...(entity?{mainEntity:{'@id':entityId}}:{})},
+ {'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,isPartOf:{'@id':siteOrigin+'/#website'},inLanguage:'en',...(crumbs.length>1?{breadcrumb:{'@id':canonical+'#breadcrumb'}}:{}),...(entity?{mainEntity:{'@id':entityId}}:Astro.props.article?{mainEntity:{'@id':canonical+'#article'}}:{})},
  ...(crumbs.length>1?[{'@type':'BreadcrumbList','@id':canonical+'#breadcrumb',itemListElement:crumbs.map((crumb,index)=>({'@type':'ListItem',position:index+1,...crumb}))}]:[]),
  ...(entity?[{'@type':entity.type,'@id':entityId,url:canonical,name:entity.name,description:entity.description,...(entity.image?{image:new URL(entity.image,siteOrigin).href}:{}),...(entity.type==='Service'?{provider:{'@id':siteOrigin+'/#organization'}}:{manufacturer:{'@id':siteOrigin+'/#organization'}})}]:[]),
- ...(Astro.props.article?[{'@type':'Article',headline:title,description,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':siteOrigin+'/#organization'},...(Astro.props.articleAuthor?{author:{'@id':siteOrigin+'/#organization'}}:{}),...(Astro.props.articleModified?{dateModified:Astro.props.articleModified}:{}),...(Astro.props.articleImage?{image:new URL(Astro.props.articleImage,siteOrigin).href}:{})}]:[])
+ ...(Astro.props.article?[{'@type':'Article','@id':canonical+'#article',url:canonical,inLanguage:'en',headline:Astro.props.articleHeadline||title,description,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':siteOrigin+'/#organization'},...(Astro.props.articleAuthor?{author:{'@id':siteOrigin+'/#organization'}}:{}),...(Astro.props.articlePublished?{datePublished:Astro.props.articlePublished}:{}),...(Astro.props.articleModified?{dateModified:Astro.props.articleModified}:{}),...(Astro.props.articleImage?{image:new URL(Astro.props.articleImage,siteOrigin).href}:{}),...(Astro.props.articleSection?{articleSection:Astro.props.articleSection}:{}),...(Astro.props.articleSources?.length?{citation:Astro.props.articleSources}:{})}]:[])
 ]};
 ---
 <!doctype html>
@@ -81,30 +96,36 @@ const structured={'@context':'https://schema.org','@graph':[
   {noindex&&<meta name="robots" content="noindex, follow"/>}
   <meta name="theme-color" content="#242724"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=lzz-graphite-20261018"/>
   <meta property="og:title" content={seoTitle+' | LZZ Precision'}/><meta property="og:description" content={description}/><meta property="og:type" content={Astro.props.article?'article':'website'}/>
-  <meta property="og:url" content={canonical}/><meta property="og:image" content={socialImage}/><meta property="og:image:alt" content={Astro.props.articleImage?title:'Original LZZ workshop photograph in Hangzhou'}/>
+  <meta property="og:url" content={canonical}/><meta property="og:image" content={socialImage}/><meta property="og:image:alt" content={sharingImage.alt}/>
   <meta name="twitter:card" content="summary_large_image"/>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>
  </head>
  <body data-inner-layout={innerLayout?'penta':undefined} data-inner-hero={capabilitySceneHero?'scene':immersiveInnerHero?'immersive':splitInnerHero?'split':undefined} data-home-layout={Astro.props.homeLayout==='penta'?'penta':undefined} data-visual-system={pentaSample?'drawing-first':undefined} data-home-hero={Astro.props.homeHero?"centered-20261017":undefined} data-penta-sample={pentaSample?'20261017':undefined} data-reading-path={designPath} data-page-template={pageTemplate} data-editorial-layout={modern&&usesEditorialLayout(designPath)?'20261015':undefined} data-design-version={modern?"20261017":undefined} class:list={modern?["redesign-site","rd-"+pageTemplate]:['brand-site','finesse-redesigned','precision-gallery','template-'+pageTemplate,{'apple-layout':!noindex&&!/^\/(preview|content-layout-demo-20261010)\//.test(Astro.url.pathname),'home-refined':immersive,'task-pages':/^\/(machined-parts|capabilities|factory|quote)(\/|$)/.test(Astro.url.pathname)}]}>
   <a class="skip-link" href="#main">Skip to content</a>
+  <AnalyticsConsent/>
   {(!modern)&&(Astro.url.pathname==='/' || /^\/machined-parts\/gallery\/[^/]+\/$/.test(Astro.url.pathname))&&<PalettePreview/>}
   <header class="site-header navigation-polished" data-navigation={floatingNavigation?'floating':undefined} data-header-tone={headerOverPhoto?'light':'dark'}>
    {floatingNavigation&&<span class="header-surface" aria-hidden="true"></span>}
    <div class:list={['header-inner',{'header-no-quote':Astro.url.pathname==='/quote/'}]}>
     <a href="/" class="brand" aria-label="LZZ Precision home"><img class="brand-logo" src="/media/lzz-logo.png" alt="LZZ" width="108" height="60"/></a>
-    <MainNavigation/>
+    <MainNavigation centered={floatingNavigation}/>
     {modern?<div class="header-actions">
      <a class="header-whatsapp" href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +86 138 5810 2479 (opens in a new tab)">
       <ContactIcon kind="whatsapp"/>
      </a>
-     {Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={headerQuoteHref}>Request a quote</a>}
-    </div>:Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={headerQuoteHref}>Request a quote</a>}
+     {Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={contextualHeaderQuote}>Request a quote</a>}
+    </div>:Astro.url.pathname!=='/quote/'&&<a class="button header-quote" href={contextualHeaderQuote}>Request a quote</a>}
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
    </div>
   </header>
+  <noscript>
+   <style is:inline>body.redesign-site>.site-header{position:relative!important;inset:auto!important;background:#242724!important;color:#fff!important}body.redesign-site>.site-header .brand-logo{filter:none!important}body.redesign-site>.site-header #main-nav,body.redesign-site>.site-header .menu-toggle,body.redesign-site>.site-header-space{display:none!important}body.redesign-site>.site-header .header-inner{grid-template-columns:1fr auto!important}body.redesign-site>.site-header .header-actions{margin-left:auto!important}</style>
+   <nav class="site-nojs-navigation" aria-label="Site sections">{siteSections.map(item=><a href={item.href}>{item.title}</a>)}</nav>
+  </noscript>
   {floatingNavigation&&!headerOverPhoto&&<div class="site-header-space" aria-hidden="true"></div>}
-  <main id="main" class:list={{'info-page':isInformationPage}} data-site-section={section?.key}><SectionBreadcrumb items={trail} width={breadcrumbWidth}/><slot/>{cta&&(modern?<section class="rd-closing"><div><h2>{closingTitle}</h2><p>{closingDescription}</p></div><a class="rd-button" href={closingHref}>{closingLabel}</a></section>:<RfqPanel title={closingTitle} note={closingDescription} href={closingHref} label={closingLabel}/>)}</main>
-  <SiteFooter/>
+  <main id="main" tabindex="-1" class:list={{'info-page':isInformationPage}} data-site-section={section?.key}><SectionBreadcrumb items={trail} width={breadcrumbWidth}/><slot/>{cta&&!modern&&<RfqPanel title={closingTitle} note={closingDescription} href={contextualClosingQuote} label={closingLabel}/>}</main>
+  <SiteFooter quoteHref={headerQuoteHref==='/quote/'?contextualClosingQuote:contextualHeaderQuote}/>
+  {modern&&pentaSample&&<SiteInteractions/>}
   <script>
    if(!document.body.classList.contains('redesign-site')) import('../scripts/site-motion');
    const pentaContentLayout=document.body.dataset.homeLayout==='penta'||document.body.dataset.innerLayout==='penta';
@@ -124,12 +145,34 @@ const structured={'@context':'https://schema.org','@graph':[
     window.addEventListener('scroll',updateHeader,{passive:true});
     window.addEventListener('pageshow',updateHeader);
    }
-   const setMenu=(open:boolean)=>{toggle?.setAttribute('aria-expanded',String(open));toggle?.setAttribute('aria-label',open?'Close navigation':'Open navigation');header?.classList.toggle('menu-open',open);if(open)header?.querySelector<HTMLAnchorElement>('.nav-root')?.focus();else header?.querySelectorAll<HTMLDetailsElement>('details[open]').forEach(group=>group.open=false);};
+   const mobileMenu=matchMedia('(max-width:1099.98px)');
+   const background=Array.from(document.querySelectorAll<HTMLElement>('main,.lzz-footer'));
+   const originalInert=new Map<HTMLElement,boolean>();
+   let menuOpen=false;
+   const setMenu=(requested:boolean)=>{
+    const open=requested&&mobileMenu.matches;
+    toggle?.setAttribute('aria-expanded',String(open));toggle?.setAttribute('aria-label',open?'Close navigation':'Open navigation');
+    header?.classList.toggle('menu-open',open);document.documentElement.classList.toggle('site-nav-open',open);
+    if(open&&!menuOpen){background.forEach(element=>{originalInert.set(element,element.inert);element.inert=true;});}
+    if(!open&&menuOpen){background.forEach(element=>{element.inert=originalInert.get(element)||false;});originalInert.clear();}
+    menuOpen=open;
+    if(open)header?.querySelector<HTMLElement>('.nav-root')?.focus();
+    else header?.querySelectorAll<HTMLDetailsElement>('details[open]').forEach(group=>group.open=false);
+   };
    toggle?.addEventListener('click',()=>setMenu(toggle.getAttribute('aria-expanded')!=='true'));
+   header?.addEventListener('navigation:close',()=>setMenu(false));
+   header?.addEventListener('keydown',event=>{
+    if(event.key!=='Tab'||!menuOpen)return;
+    const targets=Array.from(header.querySelectorAll<HTMLElement>('a[href],button,summary')).filter(element=>element.getClientRects().length>0&&!element.hasAttribute('disabled'));
+    const first=targets[0],last=targets.at(-1);
+    if(event.shiftKey&&document.activeElement===first){event.preventDefault();last?.focus();}
+    else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus();}
+   });
    document.addEventListener('keydown',event=>{if(event.key==='Escape'&&header?.classList.contains('menu-open')){setMenu(false);toggle?.focus();}});
    document.addEventListener('click',event=>{if(event.target instanceof Node&&!header?.contains(event.target))setMenu(false);});
    header?.addEventListener('focusout',()=>requestAnimationFrame(()=>{if(header.classList.contains('menu-open')&&!header.contains(document.activeElement))setMenu(false);}));
-   matchMedia('(min-width: 1100px)').addEventListener('change',event=>{if(event.matches)setMenu(false);});
+   mobileMenu.addEventListener('change',()=>setMenu(false));
+   window.addEventListener('pageshow',()=>setMenu(false));
   </script>
  </body>
 </html>

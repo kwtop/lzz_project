@@ -10,7 +10,7 @@ import catalog from '../../../data/catalog.json';
 export function getStaticPaths(){return catalog.products.map(product=>({params:{slug:product.slug},props:{product}}));}
 const {product}=Astro.props;
 const title=partDisplayTitle(product),description=partMetaDescription(product);
-const quoteHref=inquiryHref({id:product.slug,title,legacyName:product.name,path:'/machined-parts/gallery/'+product.slug+'/',kind:'product'});
+const quoteHref=inquiryHref({id:product.slug,title,path:'/machined-parts/gallery/'+product.slug+'/',kind:'product'});
 const image=partVisual(product).src;
 ---
 <Layout title={title} description={description} articleImage={image} cta={false} headerQuoteHref={quoteHref} structuredEntity={{type:partSchemaType(product.slug),name:title,description,image}}><ProductsPart product={product} quoteHref={quoteHref}/></Layout>

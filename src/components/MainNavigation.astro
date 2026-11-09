@@ -3,30 +3,74 @@ import {siteSections,sectionForPath} from '../data/siteSections';
 const current=Astro.url.pathname;
 const active=sectionForPath(current);
 const homeLabels:Record<string,string>={capabilities:'Capabilities',parts:'Parts',factory:'Factory',resources:'Resources',about:'About'};
+const overviewLabels:Record<string,string>={capabilities:'All capabilities',parts:'All machined parts',resources:'All resources',about:'About LZZ overview'};
+const centered=Astro.props.centered===true;
 ---
-<nav id="main-nav" aria-label="Main navigation">
+<nav id="main-nav" aria-label="Main navigation" data-navigation-layout={centered?'centered':undefined}>
+ {current!=='/'&&<div class="nav-item"><a class="nav-root" href="/">Home</a></div>}
  {siteSections.map(section=><div class="nav-item" data-active={active?.key===section.key||undefined}>
-  <a class="nav-root" href={section.href} aria-current={current===section.href?'page':active?.key===section.key?'location':undefined}>{homeLabels[section.key]||section.title}</a>
+  <a class="nav-root" href={section.href} aria-controls={section.children.length?'nav-panel-'+section.key:undefined} aria-expanded={section.children.length?'false':undefined} aria-current={current===section.href?'page':active?.key===section.key?'location':undefined}>{homeLabels[section.key]||section.title}</a>
   {section.children.length>0&&<details name="main-navigation" class="nav-group">
-   <summary aria-label={'Show '+section.title+' pages'}><span class="nav-trigger-label">Show {section.title} pages</span></summary>
-   <div class:list={['nav-panel',section.key==='capabilities'?'nav-panel-capabilities':'nav-panel-small']}>
-    {section.key==='capabilities'?<div class="nav-columns">{['Machining','Materials','Order planning'].map(group=><div><p class="nav-group-label">{group}</p>{section.children.filter(page=>page.group===group).map(page=><a href={page.href} aria-current={current===page.href?'page':undefined}>{page.title}</a>)}</div>)}</div>:section.children.map(page=><a href={page.href} aria-current={current===page.href?'page':current.startsWith(page.href)?'location':undefined}>{page.title}</a>)}
+   <summary class:list={{'nav-disclosure':centered}} aria-label={'Show '+section.title+' pages'} aria-controls={'nav-panel-'+section.key} aria-expanded="false">
+    {centered?<span class="nav-disclosure-mark" aria-hidden="true">+</span>:<span class="nav-trigger-label">Show {section.title} pages</span>}
+   </summary>
+   <div id={'nav-panel-'+section.key} class:list={['nav-panel',section.key==='capabilities'?'nav-panel-capabilities':'nav-panel-small',section.key!=='capabilities'?'nav-panel-'+section.key:undefined]}>
+    {centered&&<div class="nav-panel-heading">
+     <p class="nav-panel-title">{section.title}</p>
+     <a class="nav-overview" href={section.href} aria-current={current===section.href?'page':undefined}>{overviewLabels[section.key]}</a>
+    </div>}
+    {section.key==='capabilities'?<div class="nav-columns">{['Machining','Materials','Order planning'].map(group=><div><p class="nav-group-label">{group}</p>{section.children.filter(page=>page.group===group).map(page=><a class="nav-panel-link" href={page.href} aria-current={current===page.href?'page':undefined}><span>{page.title}</span></a>)}</div>)}</div>:<div class="nav-shortcuts" style={centered?{'--nav-shortcut-columns':Math.min(section.children.length,4)}:undefined}>{section.children.map(page=><a class="nav-panel-link" href={page.href} aria-current={current===page.href?'page':current.startsWith(page.href)?'location':undefined}><span>{page.title}</span></a>)}</div>}
    </div>
   </details>}
  </div>)}
 </nav>
 <script>
- const nav=document.querySelector('#main-nav')!;
+ const nav=document.querySelector<HTMLElement>('#main-nav')!;
  const groups=Array.from(nav.querySelectorAll<HTMLDetailsElement>('.nav-group'));
- const closeGroups=()=>groups.forEach(group=>group.open=false);
+ const desktopHover=matchMedia('(min-width:1100px) and (hover:hover) and (pointer:fine)');
+ const hoverEnabled=()=>nav.dataset.navigationLayout==='centered'&&desktopHover.matches;
+ let openTimer:number|undefined,closeTimer:number|undefined;
+ const clearHoverTimers=()=>{window.clearTimeout(openTimer);window.clearTimeout(closeTimer);};
+ const rootLink=(group:HTMLDetailsElement)=>group.parentElement?.querySelector<HTMLAnchorElement>(':scope > a.nav-root');
+ const syncExpanded=(group:HTMLDetailsElement)=>{group.querySelector('summary')?.setAttribute('aria-expanded',String(group.open));rootLink(group)?.setAttribute('aria-expanded',String(group.open));};
+ const closeGroup=(group:HTMLDetailsElement)=>{group.open=false;syncExpanded(group);};
+ const closeGroups=()=>{clearHoverTimers();groups.forEach(closeGroup);};
+ const openGroup=(group:HTMLDetailsElement)=>{clearHoverTimers();groups.filter(other=>other!==group).forEach(closeGroup);group.open=true;syncExpanded(group);};
  groups.forEach(group=>{
-  group.addEventListener('toggle',()=>{if(group.open)groups.filter(other=>other!==group).forEach(other=>other.open=false);});
-  group.addEventListener('focusout',()=>{requestAnimationFrame(()=>{if(!group.contains(document.activeElement))group.open=false;});});
-  group.addEventListener('keydown',event=>{if(event.key==='Escape'&&group.open){event.stopPropagation();group.open=false;group.querySelector('summary')?.focus();}});
+  const item=group.parentElement!;
+  syncExpanded(group);
+  item.addEventListener('pointerenter',()=>{
+   if(!hoverEnabled())return;
+   clearHoverTimers();
+   openTimer=window.setTimeout(()=>openGroup(group),groups.some(item=>item.open)?60:110);
+  });
+  item.addEventListener('pointerleave',()=>{
+   if(!hoverEnabled())return;
+   clearHoverTimers();
+   closeTimer=window.setTimeout(()=>{
+    const focused=document.activeElement;
+    if(!item.matches(':hover')&&!(focused instanceof Element&&item.contains(focused)&&focused.matches(':focus-visible')))closeGroup(group);
+   },180);
+  });
+  group.addEventListener('toggle',()=>{syncExpanded(group);if(group.open)groups.filter(other=>other!==group).forEach(closeGroup);});
+  item.addEventListener('focusout',()=>{requestAnimationFrame(()=>{if(!item.contains(document.activeElement))closeGroup(group);});});
+  item.addEventListener('keydown',event=>{clearHoverTimers();if(event.key==='Escape'&&group.open){event.stopPropagation();closeGroup(group);rootLink(group)?.focus();}});
+  group.querySelector('summary')?.addEventListener('click',clearHoverTimers);
+  const openFromKeyboard=(event:KeyboardEvent)=>{
+   if(event.key!=='ArrowDown'&&event.key!=='ArrowUp')return;
+   event.preventDefault();openGroup(group);
+   const links=Array.from(group.querySelectorAll<HTMLAnchorElement>('.nav-panel a[href]'));
+   (event.key==='ArrowUp'?links.at(-1):links[0])?.focus();
+  };
+  group.querySelector('summary')?.addEventListener('keydown',openFromKeyboard);
+  rootLink(group)?.addEventListener('keydown',openFromKeyboard);
  });
  document.addEventListener('click',event=>{if(event.target instanceof Node&&!nav.contains(event.target))closeGroups();});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&hoverEnabled())closeGroups();});
+ window.addEventListener('blur',closeGroups);
  nav.addEventListener('focusout',()=>{requestAnimationFrame(()=>{if(!nav.contains(document.activeElement))closeGroups();});});
- nav.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('a')){closeGroups();document.querySelector('.site-header')?.classList.remove('menu-open');const toggle=document.querySelector('.menu-toggle');toggle?.setAttribute('aria-expanded','false');toggle?.setAttribute('aria-label','Open navigation');}});
+ nav.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('a')){closeGroups();const header=document.querySelector('.site-header');header?.dispatchEvent(new Event('navigation:close'));header?.classList.remove('menu-open');const toggle=document.querySelector('.menu-toggle');toggle?.setAttribute('aria-expanded','false');toggle?.setAttribute('aria-label','Open navigation');}});
  matchMedia('(min-width:1100px)').addEventListener('change',closeGroups);
+ desktopHover.addEventListener('change',closeGroups);
 </script>
 

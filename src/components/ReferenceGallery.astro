@@ -43,10 +43,10 @@ const photographs=await Promise.all(ids.map(async id=>{
  return {image,caption:fullCaption,label,detail:replacement?fullCaption:!captions?.[id]&&label!==fullCaption?fullCaption:undefined,sourceHref:replacement?.sourceHref,frameStyle:frame.style};
 }));
 ---
-<section class:list={["reference-gallery","reference-catalogue",{'single-reference':ids.length===1}]} style={`--reference-columns:${columns};--reference-field-columns:${fields.length===4?2:3}`}>
+<section class:list={["reference-gallery","reference-catalogue",{'single-reference':ids.length===1}]} data-gallery-scope={title} style={`--reference-columns:${columns};--reference-field-columns:${fields.length===4?2:3}`}>
  <header><h2 id={titleId}>{title}</h2></header>
  <div class="reference-grid">{photographs.map(({image,caption,label,detail,sourceHref,frameStyle})=>{
-  return <figure style={frameStyle} data-reference-id={image.id} data-image-origin={sourceHref?'image-reference':image.kind} data-reference-fit={ids.length===1||image.kind==='cad-reference'||fullFormIds.has(image.id as PhotoId)?'contain':'cover'}><a class="reference-photo static-photo"><img src={image.src} srcset={image.srcset} sizes={imageSizes} width={image.width} height={image.height} alt={caption} loading="lazy" decoding="async"/></a><figcaption><strong class="reference-caption-label">{label}</strong>{detail&&<span class="reference-caption-detail">{detail}</span>}</figcaption></figure>;
+  return <figure style={frameStyle} data-reference-id={image.id} data-image-origin={sourceHref?'image-reference':image.kind} data-reference-fit={ids.length===1||image.kind==='cad-reference'||fullFormIds.has(image.id as PhotoId)?'contain':'cover'}><a class="reference-photo" href={image.src} data-media-viewer aria-label={'View image: '+label}><img src={image.src} srcset={image.srcset} sizes={imageSizes} width={image.width} height={image.height} alt={caption} loading="lazy" decoding="async"/></a><figcaption><strong class="reference-caption-label">{label}</strong>{detail&&<span class="reference-caption-detail">{detail}</span>}</figcaption></figure>;
  })}</div>
  {description&&<p class="reference-description">{description}</p>}
  {fields.length>0&&<dl class="reference-fields">{fields.map(field=><div><dt>{field.label}</dt><dd>{field.value}</dd></div>)}</dl>}

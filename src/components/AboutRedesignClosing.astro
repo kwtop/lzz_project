@@ -1,8 +1,8 @@
 ---
-const {title='Discuss your drawing with LZZ',text='Prepare the drawing revision, material and quantity, with the features and records needed for acceptance.',qualification=false,core=undefined}=Astro.props;
+const {title='Discuss your drawing with LZZ',text='Share the drawing revision, material and quantity if available, with any features or records needed for acceptance.',qualification=false,core=undefined}=Astro.props;
 import {qualificationEmail} from '../data/aboutEditorial';
 ---
 <section class="ar-closing rd-section" aria-label="Next step" data-core-section={core}>
- <div><h2>{title}</h2><p>{text}</p><p class="ar-note">Review your email draft here, then attach the drawings and send it from your email app.</p></div>
- <div class="ar-closing-actions"><a class="rd-button" href="/quote/">Request a quote</a>{qualification?<a href={qualificationEmail}>Request supplier documents</a>:<a href="/resources/ordering/rfq-checklist/">Check the RFQ inputs</a>}</div>
+ <div><h2>{title}</h2><p>{text}</p><p class="ar-note">Tell us your name, destination country and how to reach you. We reply within 12 hours.</p></div>
+ <div class="ar-closing-actions"><a class="rd-button" href={'/quote/?'+new URLSearchParams({source:Astro.url.pathname}).toString()}>Request a quote</a>{qualification&&<a href={qualificationEmail}>Request supplier documents</a>}</div>
 </section>
