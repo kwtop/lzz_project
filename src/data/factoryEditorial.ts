@@ -21,10 +21,10 @@ export const workshopQuestions=[
  {question:'How are packing and shipping arranged?',answer:'Specify vulnerable surfaces, threads, part identification and your delivery destination. Packing protection, transport arrangements and delivery responsibilities are agreed in the quotation. Past shipment photographs do not define the packing for your order.'},
 ];
 export const inspectionStages=[
- {title:'Drawing review',text:'We use the drawing revision to identify critical features and inspection datums.',agreement:'We record the limits, measurement methods and reporting requirements in the inspection plan.'},
- {title:'First article',text:'The initial part is checked before the production run.',agreement:'The order states whether your sample approval is a production hold point.'},
- {title:'In-process checks',text:'Specified features are checked during machining.',agreement:'The inspection plan sets check points, sampling and the handling of deviations.'},
- {title:'Final inspection',text:'Finished parts are checked against the agreed drawing and order.',agreement:'The inspection plan identifies checks before or after finishing and the final release records.'},
+ {title:'Drawing review',text:'We identify critical features and datums on the drawing revision.',agreement:'The inspection plan sets limits, methods and reports.'},
+ {title:'First article',text:'We check the first part before the run.',agreement:'Production waits for your approval if the order requires it.'},
+ {title:'In-process checks',text:'We check specified features during machining.',agreement:'The plan sets check points, sampling and how to handle deviations.'},
+ {title:'Final inspection',text:'We check finished parts against the drawing and order.',agreement:'The plan sets checks before or after finishing and records for release.'},
 ];
 export const measurementMethods=[
  ['Positions & geometric features','Coordinate measuring machine (CMM)','Drawing datums, feature limits, support and measurement strategy.'],

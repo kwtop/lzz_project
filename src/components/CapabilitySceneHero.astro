@@ -5,6 +5,7 @@ import EditorialImage from './EditorialImage.astro';
 import type {InteriorImage} from '../data/pentaInteriors';
 import {heroImageSizes} from '../lib/heroImageSizing';
 import '../styles/capability-scene-hero.css';
+import AdvantageStrip from './AdvantageStrip.astro';
 
 interface Props {
  title:string;lead:string;quoteHref?:string;slug?:string;id?:string;
@@ -28,3 +29,4 @@ const image=Astro.props.image||scene.image;
  </div>
  {part&&<a class="ch-reference" href={part.href||'/machined-parts/gallery/'}>View part reference <ArrowRight size={16} aria-hidden="true"/></a>}
 </section>
+<AdvantageStrip/>

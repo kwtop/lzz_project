@@ -27,32 +27,31 @@ const axisHero={...operation,width:operationFrame.width,height:operationFrame.he
 <div class="axis-page pn-capability-rollout" data-penta-capability={page.slug}>
  <div data-core-section="service"><CapabilityIntro page={page} quoteHref={quoteHref} image={axisHero} featureHref="#five-axis-workshop" featureLabel="See our machines & parts"/></div>
  <section class="axis-section axis-workshop" id="five-axis-workshop" data-core-section="workshop-evidence">
-  <header class="axis-heading"><h2>Five-axis machining<br/>at LZZ</h2><p>Our five-axis machines reach angled faces, pockets and curved surfaces on multi-face components. Rotary workholding positions the part beneath the spindle in our workshop.</p></header>
+  <header class="axis-heading"><h2>Five-axis machining<br/>at LZZ</h2><p>Rotary workholding gives the cutter access to several faces of a clamped part.</p></header>
   <dl class="axis-capacity-facts"><div><dt>Five-axis machines</dt><dd>{manufacturingCapacity.fiveAxisMachines}</dd></div><div><dt>Critical dimensions</dt><dd>{manufacturingCapacity.criticalFeatureTolerance}<span>On reviewed features, subject to part evaluation</span></dd></div><div><dt>Dimensional inspection</dt><dd>CMM<span>Feature and datum checks to the drawing</span></dd></div></dl>
   <div class="axis-workshop-photos"><CapabilityEvidence id="five-axis-machine-wide" showCaption caption="Five-axis machine and rotary workholding" sizes="(max-width:767px) calc(100vw - 40px), 420px"/><CapabilityEvidence id="five-axis-operation" originalOnly showCaption caption="The workpiece secured beneath the spindle during machining." sizes="(max-width:767px) calc(100vw - 40px), 680px"/></div>
  </section>
  <section class="axis-section axis-forms" id="part-examples" data-core-section="forms-and-features">
-  <header class="axis-heading"><h2>Machined parts &amp;<br/>complex geometries</h2><p>Finished components from our workshop and related part shapes for discussing your design.</p></header>
+  <header class="axis-heading"><h2>Machined parts &amp;<br/>complex geometries</h2></header>
   <div class="axis-form-layout" id="machining-studies">
    <div class="axis-source-group"><CapabilityEvidence id="five-axis-parts" originalOnly showCaption caption="Finished multi-face components from the five-axis machining record." sizes="(max-width:767px) calc(100vw - 88px), (max-width:1099px) 34vw, 390px"/></div>
    <div class="axis-reference-content">
-    <p>Bores, holes and working faces reached from different directions need a common datum scheme. The drawing sets their positional and profile requirements.</p>
     <h3 class="axis-reference-label">Related part references</h3>
     <div class="axis-example-list">{parts.map(part=><article><CapabilityPartFigure part={part} linked={false} showCaption={false}/><div><h3><a href={part.href}>{part.title}</a></h3><p>{part.text}</p></div></article>)}</div>
    </div>
   </div>
-  <div class="axis-related"><p class="rd-note">Specify surface roughness, permitted tool marks and the required inspection records.</p><p>Related parts: <a href="/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/">contoured billet covers for assembly checks</a> and <a href="/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/">multi-face components</a>.</p></div>
+  <div class="axis-related"><p>Related parts: <a href="/machined-parts/gallery/custom-billet-aluminum-engine-cover-manufacturer-and-automotive-prototype-supplier/">contoured billet covers for assembly checks</a> and <a href="/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/">multi-face components</a>.</p></div>
  </section>
  <section class="axis-section axis-routing" id="geometry-review" data-core-section="route-and-setup">
   <header class="axis-heading"><h2>{page.plan.geometry.title}</h2><p>{guide.featureIntro}</p></header>
   <div class="axis-routing-grid">
    <dl class="axis-route-list">
-    <div><dt>Indexed positioning</dt><dd>The rotary axes hold a selected orientation while the tool cuts an angled face. A shared datum scheme relates features on different faces.</dd></div>
-    <div><dt>Simultaneous motion</dt><dd>The tool orientation changes along a continuous contour. We review the model, tool reach and fixture clearance to determine whether the part needs this motion.</dd></div>
+    <div><dt>Indexed positioning</dt><dd>The rotary axes hold a fixed angle during each cut; shared datums relate features across faces.</dd></div>
+    <div><dt>Simultaneous motion</dt><dd>The tool angle changes during cutting to follow a continuous contour.</dd></div>
    </dl>
    <div class="axis-routing-notes">
-    <div class="axis-envelope"><h3 id="size-and-setup-review">Size and workholding</h3><p>{page.overview.workholding}</p><p>We assess machine travel, load and fixture clearance from the finished and blank dimensions, weight and any surfaces that cannot be clamped.</p></div>
-    <aside class="axis-envelope"><h3>Reviewing a multi-axis part with LZZ</h3><p>We use your model to check tool access and workholding, then confirm the machining route and its limits in the quotation. If the part needs simultaneous five-axis cutting, we confirm that process before you order.</p></aside>
+    <div class="axis-envelope"><h3 id="size-and-setup-review">Size and workholding</h3><p>We check machine travel, load and cutter clearance against part and blank dimensions, weight, fixtures and protected surfaces.</p></div>
+    <aside class="axis-envelope"><h3>Reviewing a multi-axis part with LZZ</h3><p>From your model, we confirm the route and its limits in the quotation, including whether simultaneous cutting is needed.</p></aside>
    </div>
   </div>
   <CapabilityDecisionGuide slug={page.slug}/>
@@ -61,9 +60,9 @@ const axisHero={...operation,width:operationFrame.width,height:operationFrame.he
  <div class="axis-section axis-materials" data-core-section="materials"><CapabilityMaterialTable page={page} intro={guide.materialsIntro}/></div>
  <section class="axis-section axis-quality" id="engineering-fit" data-core-section="inspection">
   <div class="axis-inspection-opening">
-   <header><h2>Measure against the model and datums</h2><p>{page.overview.inspection}</p></header>
+   <header><h2>Measure against the model and datums</h2><p>We check profiles and positions from the drawing datums, with surface roughness and reporting set in the inspection plan.</p></header>
    <CapabilityEvidence id="cmm-room" showCaption caption="Coordinate measuring machine" class="axis-inspection-photo" sizes="(max-width:767px) calc(100vw - 40px), 500px"/>
-   <aside class="axis-tests"><h3>{page.scopeQuestions[0].question}</h3><p>Balance, leak, rotor validation and other functional tests need separate procedures and acceptance limits. Include final end use and applicable export requirements with the request.</p></aside>
+   <aside class="axis-tests"><h3>{page.scopeQuestions[0].question}</h3><p>Balance, leak and rotor validation need separate procedures and acceptance limits.</p></aside>
   </div>
   <table class="rd-table rd-stacked axis-checks" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Specify on the drawing</th><th scope="col">Agree before production</th></tr></thead><tbody>{checks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table>
   <div class="axis-quality-context"><CapabilityApplications slug={page.slug} textOverrides={{'Industrial fans & impellers':'Blade hubs and rotating forms need space for the cutter and fixtures, with material and inspection suited to the drawing.'}}/></div>

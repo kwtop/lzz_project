@@ -86,9 +86,6 @@ body.redesign-site[data-reading-path="/quote/"] {
  main#main .inquiry-contact-row strong {font:500 15px/1.45 var(--body)}
  main#main .inquiry-contact-row span span {color:var(--muted);font:400 14px/1.5 var(--body)}
  main#main .inquiry-contact-row:hover span span {color:#AC4829}
- main#main .inquiry-help-note {margin:26px 0 0}
- main#main .inquiry-help-note h3 {margin:0 0 10px;font:700 23px/1.2 var(--heading)}
- main#main .inquiry-help-note p {margin:0;color:var(--muted);font:400 var(--text-detail)/1.7 var(--body)}
  main#main .inquiry-noscript {margin:20px 0 0;padding:16px;border:1px solid #DDDCD5;font-size:var(--text-detail)}
 }
 @media(max-width:1099px) {
@@ -100,7 +97,6 @@ body.redesign-site[data-reading-path="/quote/"] {
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-workspace {grid-template-columns:minmax(0,1fr)}
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-help {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-help>h2,body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-help>p {grid-column:1/-1}
- body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-help-note {margin:18px 0 0}
 }
 @media(max-width:767px) {
  body.redesign-site[data-reading-path="/quote/"] main#main .qt-page {padding-top:32px;padding-bottom:56px}
@@ -117,7 +113,6 @@ body.redesign-site[data-reading-path="/quote/"] {
 @media(max-width:639px) {
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-person-row {grid-template-columns:minmax(0,1fr);gap:22px}
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-help {display:block}
- body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-help-note {margin-top:26px}
 }
 @media(max-width:359px) {
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-panel {padding:18px}
@@ -127,3 +122,10 @@ body.redesign-site[data-reading-path="/quote/"] {
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-method-options label {padding:10px 8px;gap:7px;font-size:1rem}
  body.redesign-site[data-reading-path="/quote/"] main#main .inquiry-process-options label {padding:10px 8px;gap:7px;font-size:1rem}
 }
+
+/* Quote sidebar: what the buyer can expect after sending the form. */
+main#main .inquiry-next-steps {margin:26px 0 0;padding:22px 22px 6px;border-radius:12px;background:#fff;box-shadow:0 8px 25px #24272408}
+main#main .inquiry-next-steps h3 {margin:0 0 14px;font:700 21px/1.2 var(--heading)}
+main#main .inquiry-next-steps ol {list-style:none;counter-reset:step;margin:0;padding:0}
+main#main .inquiry-next-steps li {counter-increment:step;display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start;margin:0 0 16px;font:400 var(--text-detail)/1.6 var(--body)}
+main#main .inquiry-next-steps li::before {content:counter(step);display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:#AC4829;color:#fff;font:600 13px/1 var(--body)}

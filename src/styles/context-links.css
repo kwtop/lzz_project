@@ -76,3 +76,8 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system] {
   main#main .pd-part-index a+a {border-top:1px solid var(--related-border)}
  }
 }
+
+/* Part page jump links read as clear navigation chips rather than a small text row. */
+body.redesign-site[data-penta-sample][data-page-template][data-visual-system] main#main .pd-part-actions .pd-part-index {gap:10px;padding:16px 0;border-block:1px solid var(--related-border)}
+body.redesign-site[data-penta-sample][data-page-template][data-visual-system] main#main .pd-part-actions .pd-part-index a {min-height:44px;padding:9px 16px;border:1px solid #d9d3ca;border-radius:999px;background:#fff;font-size:15px;transition:border-color .2s,background .2s}
+body.redesign-site[data-penta-sample][data-page-template][data-visual-system] main#main .pd-part-actions .pd-part-index a:hover {border-color:var(--related-accent);background:#fbf6f2;text-decoration:none}

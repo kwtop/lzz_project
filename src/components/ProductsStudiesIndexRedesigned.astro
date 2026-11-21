@@ -11,7 +11,7 @@ const otherProcesses=processes.filter(p=>p!==featured);
 const anchors:Record<string,string>={'five-axis-machining-multi-face-parts':'multi-face-access','turning-then-milling-cylindrical-parts':'turning-milling','two-stage-cnc-milling':'two-setups','milling-a-pocketed-enclosure-form':'pockets-and-bores','milling-prismatic-components':'prismatic-parts','29-inch-display-housing-cnc-machining':'display-housing'};
 const schema={'@context':'https://schema.org','@type':'ItemList',name:'Six machining examples and two workshop collections',numberOfItems:engineeringCases.length,itemListElement:[...processes,...collections].map((p,i)=>({'@type':'ListItem',position:i+1,name:caseReading[p.slug].title,url:siteOrigin+link(p.slug)}))};
 ---
-<article class="rd-page pd-page"><div class="rd-wrap"><header class="pd-studies-head"><h1>Machining examples</h1><p class="pd-lead">Explore workholding and cutter access in six machining studies, plus separate metal and plastic part collections.</p></header>
+<article class="rd-page pd-page"><div class="rd-wrap"><header class="pd-studies-head"><h1>Machining examples</h1></header>
  <section id="geometry" aria-label="Six machining examples"><span id="processes-title" class="pd-anchor"/>
   <article class="ps-index-feature ps-index-setup-story" id="two-setups" data-core-section="Two recorded milling operations">
    <header class="ps-index-setup-heading"><h2>One component, two milling operations</h2><div><p>Two operations on one component show the locating references to consider when a part needs repositioning.</p><a class="rd-link" href={link(featured.slug)}>Explore the two-operation study</a></div></header>

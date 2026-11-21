@@ -345,3 +345,12 @@ body.redesign-site[data-penta-sample] :is(nav,ol).pn-link-index a:is(:hover,:foc
 @media(max-width:359px){
  body.redesign-site[data-penta-sample] .pn-link-index{--pn-index-columns:1fr}
 }
+
+/* Capability specification summary, moved from the homepage. */
+.pn-cx-spec-summary{margin-top:48px;border-top:1px solid #c7cbce}
+.pn-cx-spec-summary dl{margin:0}
+.pn-cx-spec-summary dl>div{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:14px 0;border-bottom:1px solid #dcdfe1}
+.pn-cx-spec-summary dt{font-size:14px;color:#62676b}
+.pn-cx-spec-summary dd{margin:0;color:#222}
+.pn-cx-spec-summary>p{margin-top:12px;font-size:13px;color:#62676b}
+@media(max-width:767px){.pn-cx-spec-summary dl>div{grid-template-columns:1fr;gap:4px}}

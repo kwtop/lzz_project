@@ -24,7 +24,7 @@ export const factoryCapabilityRows=[
 ];
 
 export const factoryWorkshopRecords=[
- {title:'5-axis machining',photo:'five-axis-operation',text:'Eight machines for angled features, pockets and geometry reached from several directions.',href:'/machined-parts/machining-examples/five-axis-machining-multi-face-parts/',link:'View the multi-face machining record'},
- {title:'CNC turning and milling',photo:'turn-mill-operation',text:'Ten CNC lathes support rotational parts. Secondary milling adds holes, slots and off-axis features.',href:'/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/',link:'View the turning and milling record'},
- {title:'Aluminum housings',photo:'aluminum-housings',text:'Machined cavities, bores and mounting features in a group of aluminum housings.',href:'/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/',link:'View a display-housing machining record'},
+ {title:'5-axis machining',photo:'five-axis-operation',text:'Cutter access to angled faces and pockets from several directions.',href:'/machined-parts/machining-examples/five-axis-machining-multi-face-parts/',link:'View the multi-face machining record'},
+ {title:'CNC turning and milling',photo:'turn-mill-operation',text:'Turned bodies with holes, slots and other features added by milling.',href:'/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/',link:'View the turning and milling record'},
+ {title:'Aluminum housings',photo:'aluminum-housings',text:'Housings with machined cavities, bores and mounting faces.',href:'/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/',link:'View a display-housing machining record'},
 ];

@@ -884,11 +884,13 @@ export default function QuoteForm({ references, adapter, locale="en" }: Props) {
             </span>
           </a>
         </address>
-        <div className="inquiry-help-note">
-          <h3>{t("Have a drawing?")}</h3>
-          <p>
-            {t("A drawing, material and quantity help us assess the machining route. If you are starting with a sample or an idea, tell us what you have.")}
-          </p>
+        <div className="inquiry-next-steps">
+          <h3>{t("What happens next")}</h3>
+          <ol>
+            <li>{t("We review your drawing, material and quantity.")}</li>
+            <li>{t("Within 12 hours, we reply with questions or a quotation.")}</li>
+            <li>{t("Production starts only after you confirm the order.")}</li>
+          </ol>
         </div>
       </aside>
     </div>

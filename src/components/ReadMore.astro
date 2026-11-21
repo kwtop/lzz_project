@@ -1,0 +1,26 @@
+---
+// Folds supporting detail behind "Read more" so each section leads with its key points.
+// The text stays in the HTML for search engines; DisclosureAnchors opens it for anchor links.
+import DisclosureAnchors from './DisclosureAnchors.astro';
+interface Props {preview?:string[]}
+const {preview=[]}=Astro.props;
+---
+{preview.length>0&&<ul class="rm-preview">{preview.map(item=><li>{item}</li>)}</ul>}
+<details class="rm"><summary><span class="rm-more">Read more</span><span class="rm-less">Show less</span></summary><div class="rm-body"><slot/></div></details>
+<DisclosureAnchors/>
+<style is:global>
+ body .rm-preview{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0}
+ body .rm-preview>li{margin:0;padding:7px 13px;border:1px solid #dcd8d1;border-radius:999px;background:#fff;color:#252826;font-size:14px;font-weight:500;line-height:1.35}
+ body .rm-preview>li::before{content:none}
+ body .rm{margin-top:12px}
+ body .rm>summary{display:inline-flex;align-items:center;gap:10px;min-height:44px;cursor:pointer;list-style:none;color:#AC4829;font-weight:600;font-size:15px}
+ body .rm>summary::-webkit-details-marker{display:none}
+ body .rm>summary::after{content:'';width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s}
+ body .rm[open]>summary::after{transform:translateY(2px) rotate(225deg)}
+ body .rm>summary:hover{text-decoration:underline;text-underline-offset:5px}
+ body .rm>summary:focus-visible{outline:2px solid #AC4829;outline-offset:4px}
+ body .rm .rm-less,body .rm[open] .rm-more{display:none}
+ body .rm[open] .rm-less{display:inline}
+ body .rm-body{padding-top:8px}
+ @media(prefers-reduced-motion:reduce){body .rm>summary::after{transition:none}}
+</style>

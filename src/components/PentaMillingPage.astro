@@ -8,6 +8,7 @@ import catalog from '../data/catalog.json';
 import CapabilityPartFigure from './CapabilityPartFigure.astro';
 import PentaInnerHero from './PentaInnerHero.astro';
 import CapabilityEvidence from './CapabilityEvidence.astro';
+import ReadMore from './ReadMore.astro';
 import CapabilityApplications from './CapabilityApplications.astro';
 import CapabilityDecisionGuide from './CapabilityDecisionGuide.astro';
 import {capabilityDecisions} from '../data/capabilityDecisions';
@@ -41,30 +42,30 @@ const requests=[
 
 
  <section class="pn-milling-section pn-milling-practice" id="machining-studies" data-core-section="setups" aria-labelledby="milling-setups-title">
-  <header class="pn-milling-heading"><h2 id="milling-setups-title">One part, two milling setups</h2><p>Top-face and side-face features can need different holding positions. When a drawing requires repositioning, we locate the next setup from the first machined surfaces to preserve the dimensional relationships.</p></header>
+  <header class="pn-milling-heading"><h2 id="milling-setups-title">One part, two milling setups</h2><p>We locate the side cuts from the first machined faces to keep features aligned across setups.</p></header>
   <div class="pn-milling-setup-pair">{page.plan.steps.slice(0,2).map((step,index)=><figure data-image-origin="image-reference"><img src={setupPhotos[index].src} srcset={setupPhotos[index].srcset} sizes="(max-width:900px) calc(100vw - 80px), 510px" width={setupPhotos[index].width} height={setupPhotos[index].height} alt={setupPhotos[index].alt} loading="lazy" decoding="async"/><figcaption><h3>{step.title}</h3><p>{step.text}</p></figcaption></figure>)}</div>
   <div class="pn-milling-process-foot">{page.study&&<a class="rd-link" href={page.study.href}>See the two-operation workshop record</a>}</div>
  </section>
 
  <section class="pn-milling-section pn-milling-technical" data-core-section="Drawing, materials and acceptance"> <div class="pn-milling-materials" id="materials-finishes" data-technical-section="materials" aria-labelledby="milling-materials-title"><header class="pn-milling-heading"><h2 id="milling-materials-title">{page.plan.materialHeading||'Materials and finishing'}</h2><p>{guide.materialsIntro}</p></header>
-  <table class="rd-table rd-stacked pn-milling-material-table"><thead><tr><th scope="col">Material &amp; specification</th><th scope="col">Finish / treatment</th><th scope="col">Part-specific requirements</th></tr></thead><tbody>{page.plan.materials.map(row=><tr><th scope="row"><strong>{row.name}</strong><p>{row.grades}</p></th><td data-label="Finish / treatment">{row.finish}</td><td data-label="Drawing check">{row.review}</td></tr>)}</tbody></table>
+  <ReadMore preview={page.plan.materials.map(row=>row.name)}><table class="rd-table rd-stacked pn-milling-material-table"><thead><tr><th scope="col">Material &amp; specification</th><th scope="col">Finish / treatment</th><th scope="col">Part-specific requirements</th></tr></thead><tbody>{page.plan.materials.map(row=><tr><th scope="row"><strong>{row.name}</strong><p>{row.grades}</p></th><td data-label="Finish / treatment">{row.finish}</td><td data-label="Drawing check">{row.review}</td></tr>)}</tbody></table></ReadMore>
   <div class="pn-milling-material-foot">{page.plan.materialNote&&<p>{page.plan.materialNote}</p>}<a class="rd-link" href={materialGuide}>Material and finish checklist</a></div>
  </div>
 
  <div class="pn-milling-quality" id="engineering-fit" data-technical-section="inspection" aria-labelledby="milling-quality-title">
   <header class="pn-milling-quality-heading"><h2 id="milling-quality-title">Tolerances and inspection requirements</h2><p class="pn-milling-tolerance-value"><span>{reference.label}</span><strong>{reference.value}</strong></p><p>{reference.text}</p></header>
-  <table class="rd-table rd-stacked pn-milling-inspection" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Drawing requirements</th><th scope="col">Inspection plan before production</th></tr></thead><tbody>{page.acceptanceChecks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table>
-  <div class="pi-inspection-pair"><CapabilityEvidence id="cmm-room" class="pn-milling-cmm" caption="Original LZZ CMM photograph. Current range, calibration and measurement capability need to be checked against equipment records." sizes="(max-width:767px) calc(100vw - 90px), 400px"/><div class="pn-milling-inspection-context"><CapabilityApplications slug={page.slug}/></div></div>
+  <ReadMore preview={page.acceptanceChecks.map(row=>row.feature)}><table class="rd-table rd-stacked pn-milling-inspection" id="capability-scope"><thead><tr><th scope="col">Feature</th><th scope="col">Drawing requirements</th><th scope="col">Inspection plan before production</th></tr></thead><tbody>{page.acceptanceChecks.map(row=><tr><th scope="row">{row.feature}</th><td data-label="Drawing">{row.drawing}</td><td data-label="Before production">{row.inspection}</td></tr>)}</tbody></table></ReadMore>
+  <div class="pi-inspection-pair"><CapabilityEvidence id="cmm-room" class="pn-milling-cmm" caption="LZZ CMM. Check measurement range and current calibration for your features." sizes="(max-width:767px) calc(100vw - 90px), 400px"/><div class="pn-milling-inspection-context"><CapabilityApplications slug={page.slug}/></div></div>
  </div></section>
 
  <section class="pn-milling-section pn-milling-parts" id="part-examples" data-core-section="parts" aria-labelledby="milling-parts-title">
-  <header class="pn-milling-heading"><h2 id="milling-parts-title">{page.plan.exampleHeading}</h2><p>{page.plan.exampleIntro}</p></header>
+  <header class="pn-milling-heading"><h2 id="milling-parts-title">{page.plan.exampleHeading}</h2></header>
   <div class="pn-milling-part-pair">{[housing,cover].map(part=><article><CapabilityPartFigure part={part} linked={false} showCaption={false}/><h3><a href={part.href}>{part.title}</a></h3><p>{part.text}</p></article>)}</div>
   <div class="pn-milling-related"><nav aria-label="Other milled forms"><a href={instrument.href}>{instrument.title}</a><a href="/machined-parts/gallery/global-manufacturer-of-multi-sided-precision-machined-components/">Multi-face components · limited photo detail</a></nav></div>
  </section>
 
  <section class="pn-milling-section pn-milling-rfq" id="enquiry" data-core-section="quotation" aria-labelledby="milling-rfq-title">
-  <div><h2 id="milling-rfq-title">{page.plan.rfqTitle}</h2><p>If your specification is ready, include the details below. You can also start with a question.</p><dl class="pn-milling-request-list">{requests.map(group=><div><dt>{group.name}</dt><dd>{group.items.map(text=><p>{text}</p>)}</dd></div>)}</dl></div>
-  <aside class="pn-milling-order" id="order-conditions"><h3>Order & timing</h3><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional; the quotation sets the schedule for your quantity and requirements.</p><a class="rd-button" href={quoteHref}>Request a quote</a></aside>
+  <div><h2 id="milling-rfq-title">{page.plan.rfqTitle}</h2><p>Start with a drawing or a question.</p><dl class="pn-milling-request-list">{requests.map(group=><div><dt>{group.name}</dt><dd>{group.items.map(text=><p>{text}</p>)}</dd></div>)}</dl></div>
+  <aside class="pn-milling-order" id="order-conditions"><h3>Order & timing</h3><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional. Your quotation confirms the schedule.</p><a class="rd-button" href={quoteHref}>Request a quote</a></aside>
  </section>
 </div>

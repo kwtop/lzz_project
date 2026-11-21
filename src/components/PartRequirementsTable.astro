@@ -3,15 +3,15 @@ import ProductsFigure from './ProductsFigure.astro';
 import PentaConcept from './PentaConcept.astro';
 import type {PentaConceptId} from '../data/pentaConcepts';
 type Image={src:string;srcset?:string;width?:number;height?:number;alt:string;origin?:string};
-interface Props {conceptId?:PentaConceptId;heading:string;explanation?:string;guideId?:string;intro?:string|false;scope?:string;scopeAnchor?:boolean;casting?:{focus:string;inputs:string};detail?:Image;realDetail?:Image;visual:Image;requirements:{title:string;body:string;check:string}[];featureText?:Record<string,string>;featureTitles?:Record<string,string>;question?:{question:string;answer:string};supporting?:Array<Image&{caption:string;note:string}>;sharedNote?:string}
+interface Props {conceptId?:PentaConceptId;heading:string;explanation?:string;guideId?:string;intro?:string|false;scope?:string;scopeAnchor?:boolean;detail?:Image;realDetail?:Image;visual:Image;requirements:{title:string;body:string;check:string}[];featureText?:Record<string,string>;featureTitles?:Record<string,string>;question?:{question:string;answer:string};supporting?:Array<Image&{caption:string;note:string}>;sharedNote?:string}
 import {productGuideText} from '../data/productGuideLinks';
-const {conceptId,heading,explanation,guideId,intro,scope,scopeAnchor=true,casting,detail,realDetail,visual,requirements,featureText={},featureTitles={},question,supporting=[],sharedNote}=Astro.props;
+const {conceptId,heading,explanation,guideId,intro,scope,scopeAnchor=true,detail,realDetail,visual,requirements,featureText={},featureTitles={},question,supporting=[],sharedNote}=Astro.props;
 const guidance=explanation&&guideId?productGuideText(guideId,explanation):undefined;
-const scopeId=scopeAnchor?(casting?'casting-blank':'supply-scope'):undefined;
+const scopeId=scopeAnchor?'supply-scope':undefined;
 ---
 <section class="rd-section pd-drawing-module pd-technical-review" id="fit-review" data-core-section="Feature, drawing and acceptance">
  <span id="drawing-review" class="pd-anchor"/><span id="drawing-title" class="pd-anchor"/><span id="scope-title" class="pd-anchor"/>
- <header><h2 id="geometry-title">{heading}</h2>{explanation&&<p class="pd-object-features">{guidance?<>{guidance.before}<a href={guidance.href}>{guidance.label}</a>{guidance.after}</>:explanation}</p>}{intro?<p id={scopeId}>{intro}</p>:intro!==false&&scope?<p id={scopeId}>{scope}</p>:scopeId&&<span id={scopeId} class="pd-anchor"/>}{casting&&<p>{casting.focus}</p>}</header>
+ <header><h2 id="geometry-title">{heading}</h2>{explanation&&<p class="pd-object-features">{guidance?<>{guidance.before}<a href={guidance.href}>{guidance.label}</a>{guidance.after}</>:explanation}</p>}{intro?<p id={scopeId}>{intro}</p>:intro!==false&&scope?<p id={scopeId}>{scope}</p>:scopeId&&<span id={scopeId} class="pd-anchor"/>}</header>
  {(detail||realDetail||conceptId||supporting.length>0)&&<div class="pd-feature-media">
   {detail&&<ProductsFigure {...detail} caption="Blade roots and hub bore · real source detail."/>}
   {realDetail&&<ProductsFigure {...visual} caption="Complete source arrangement. Confirm the part number and quantity for your order."/>}

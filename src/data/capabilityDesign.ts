@@ -17,7 +17,7 @@ export const capabilityArtwork={
  sample:art('/media/capabilities-section-20261014/sample-definition','a generic housing beside schematic drawing views and a caliper','Sample, drawing views and measurement inputs.'),
 };
 const turningPlan:ServicePlan={
- title:'CNC Turning Services',exampleHeading:'Turned forms, different working interfaces',exampleIntro:'Identify the rotational shape, then locate the features that need drilling, threading or milling.',
+ title:'CNC Turning Services',exampleHeading:'Turned forms, different working interfaces',exampleIntro:'Compare off-axis holes with threaded connections on turned bodies.',
  materials:[
   {name:'Aluminum',grades:'6061, 7075; specify the temper.',finish:'As-machined, polishing or anodizing.',review:'Identify fitted areas to protect and dimensions to check after anodizing.'},
   {name:'Stainless steel',grades:'303, 304 or 316L; specify the standard and condition.',finish:'Fine-turned surfaces, polishing, passivation or electropolishing.',review:'Mark bearing and sealing surfaces; request any material or treatment records.'},

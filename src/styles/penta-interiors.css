@@ -45,7 +45,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  .menu-toggle {color:#fff;width:44px;min-width:44px;height:44px;padding:10px}
  .menu-toggle span {background:#fff;width:24px}
  .site-breadcrumb {width:min(1140px,calc(100% - 80px));max-width:1140px;margin:34px auto 44px;padding:0;font:400 var(--text-meta)/1.6 var(--body);color:var(--muted)}
- .site-breadcrumb a {color:#677178}
+ .site-breadcrumb a {color:#525c63}
  .pi-hero {position:relative;isolation:isolate;width:100cqw;margin:0 0 90px calc((100% - 100cqw)/2);padding:270px 0 70px;min-height:740px;background:#242724;border-bottom:10px solid #AC4829;overflow:clip;color:#fff}
  .pi-hero-inner {position:relative;width:min(1140px,calc(100% - 80px));margin:auto;z-index:2}
  .pi-hero-copy {max-width:55%;position:relative}

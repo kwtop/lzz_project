@@ -22,8 +22,8 @@ const generalMaterials=[
 ];
 export const serviceReading:Record<string,ServicePlan>={
  'cnc-milling-service':{
-  title:'CNC Milling Services',exampleHeading:'Examples of milled parts',exampleIntro:'Blocks, brackets and housings combine flat faces, pockets and holes. Their datums and tool access determine the setup sequence.',materials:generalMaterials,
-  materialNote:"For titanium parts, include the grade and condition so we can review tooling, finishing and availability.",
+  title:'CNC Milling Services',exampleHeading:'Examples of milled parts',exampleIntro:'Compare cavity access in a housing with the contours and mounting faces on a cover.',materials:generalMaterials,
+  materialNote:"For titanium, specify the grade and condition to check tooling, finish and availability.",
   geometry:{title:'Pockets, holes and shared datums',text:'Show pocket depths, internal radii, hole positions and the faces used to locate the part. Identify geometry that can change if a longer tool or an additional setup would otherwise be needed.',stem:'/media/services-reading-20261014/milling-features',alt:'Milled block with pockets, corner radii, mounting holes and a side bore',caption:'Typical milled features. '},
   checks:[check('Faces & mounting holes','Datums, hole patterns, bore fits and relationships between faces.','Agree which dimensions and positions need recorded measurements.'),check('Pockets & thin walls','Depths, minimum walls, internal radii and permitted tool access.','Review distortion, tool marks and the limits required at critical sections.'),check('Finish & protected areas','Coating, masking, cosmetic faces and post-finish dimensions.','Agree the inspection stage and any separate cleanliness, chemical-contact or ESD requirements.')],
   workflowTitle:'CNC milling in practice',workflowIntro:'This part is machined in two setups. The drawing connects the features made in each orientation so their final relationships can be checked.',

@@ -1,7 +1,7 @@
 import {capabilityPage} from './capabilityDesign';
 import type {CheckRow} from './serviceReading';
 
-export const orderConditions="You can order from 1 piece. Production takes 7-14 business days after drawing and order confirmation, including finishing. Shipping takes additional time. Your quotation confirms the schedule for the quantity and requirements agreed.";
+export const orderConditions="Order from 1 piece. Allow 7-14 business days for production and finishing after drawing and order confirmation, plus shipping time. Your quotation confirms the schedule.";
 export const materialGuide='/resources/technical-guides/material-and-finish-checklist/';
 export const processSlugs=['cnc-milling-service','cnc-turning-service','5-axis-cnc-machining','casting-machining'];
 export const materialSlugs=['aluminum-cnc-parts','stainless-steel-cnc-parts','copper-brass-cnc-parts','plastic-machined-parts'];

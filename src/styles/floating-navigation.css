@@ -80,3 +80,13 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
 
 @media(max-width:1099.98px) {html:has(.site-header[data-navigation="floating"]) {scroll-padding-top:108px}}
 @media(max-width:767px) {html:has(.site-header[data-navigation="floating"]) {scroll-padding-top:96px}}
+
+/* Narrow phones: the logo, language, WhatsApp, quote and menu controls must all fit in the header row.
+   Older page-specific header rules fix the quote button width, so this query overrides them. */
+@media(max-width:420px) {
+ .site-header.navigation-polished .header-inner {gap:8px!important}
+ .site-header.navigation-polished .brand-logo {width:72px!important;height:auto!important}
+ .site-header.navigation-polished .header-actions {gap:4px!important;min-width:0}
+ .site-header.navigation-polished .header-quote {flex:0 1 auto!important;min-width:0!important;min-height:44px!important;padding:6px 10px!important;font-size:12px!important;line-height:1.2!important;white-space:normal!important;text-align:center}
+ .site-header.navigation-polished .menu-toggle {flex:0 0 auto}
+}

@@ -56,7 +56,7 @@ const requestGroups=[
  <section class="casting-section casting-process" id="geometry-review" aria-labelledby="casting-process-title" data-core-section="process">
   <header class="casting-section-heading">
    <h2 id="casting-process-title">From cast blank to finished interfaces</h2>
-   <p>The blank and finished drawing describe different stages. We check that the casting can be located and has sufficient allowance to machine the working faces, then agree blank supply, acceptance and the finished datum scheme before releasing the machining plan.</p>
+   <p>We check locating points and stock allowance before planning cuts on the working faces.</p>
   </header>
   <div class="casting-process-grid" id="machining-studies">
    <CapabilityConcept art={castingIllustration} class="casting-process-image" sizes="(max-width:767px) calc(100vw - 40px), 560px"/>
@@ -89,7 +89,7 @@ const requestGroups=[
  <section class="casting-section casting-quality" id="engineering-fit" aria-labelledby="casting-quality-title" data-core-section="inspection">
   <header class="casting-section-heading">
    <h2 id="casting-quality-title">Inspect the blank and finished interfaces</h2>
-   <p>We agree dimensional checks for the finished interfaces before production, including locating methods, measurement methods and the results to record.</p>
+   <p>Check the blank for usable stock, then measure the machined fits from the finished-part datums.</p>
   </header>
   <div class="casting-quality-grid">
    <table class="rd-table rd-stacked casting-inspection-table" id="capability-scope">
@@ -100,7 +100,7 @@ const requestGroups=[
     {testQuestion&&<aside class="casting-test-note"><h3>{testQuestion.question}</h3><p>{testQuestion.answer}</p></aside>}
 
    </div>
-   <div class="casting-quality-image"><CapabilityEvidence id="cmm-room" caption="Original LZZ CMM photograph. Confirm current range, calibration and measurement capability from the equipment records." sizes="(max-width:767px) 220px, 260px"/></div>
+   <div class="casting-quality-image"><CapabilityEvidence id="cmm-room" caption="LZZ CMM. Check measurement range and current calibration for your features." sizes="(max-width:767px) 220px, 260px"/></div>
   </div>
  </section>
 
@@ -113,7 +113,7 @@ const requestGroups=[
   <aside class="casting-order" id="order-conditions" aria-labelledby="casting-order-title">
    <h3 id="casting-order-title">Order & timing</h3>
    <dl class="casting-order-facts"><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl>
-   <p>After drawing and order confirmation, including finishing. Shipping time is additional. Confirm the schedule for your quantity and requirements in the quotation.</p>
+   <p>After drawing and order confirmation, including finishing. Shipping time is additional. Your quotation confirms the schedule.</p>
    <a class="rd-button" href={quoteHref}>Request a quote</a>
   </aside>
  </section>

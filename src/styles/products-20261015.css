@@ -79,7 +79,6 @@
 .redesign-site .pd-route-list strong{display:block;font-weight:550}
 .redesign-site .pd-route-list span{display:block;font-size:16px;color:var(--muted);margin-top:6px}
 .redesign-site .pd-catalogue-head{margin-bottom:24px}
-.redesign-site .pd-catalogue-head .pd-lead{margin-top:16px}
 .redesign-site .pd-archive-group{margin-top:36px;padding-top:28px;border-top:1px solid var(--border)}
 .redesign-site .pd-archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:start;margin-top:28px}
 .redesign-site .px-forms{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
@@ -202,7 +201,6 @@
  .redesign-site .pd-form p{font-size:16px}
  .redesign-site .pd-catalogue-head{margin-bottom:20px}
  .redesign-site .pd-catalogue-head h1{font-size:30px}
- .redesign-site .pd-catalogue-head .pd-lead{margin-top:12px}
  .redesign-site .px-forms{display:none}
  .redesign-site .px-tools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px}
  .redesign-site .px-search{grid-column:1/-1;width:100%}
