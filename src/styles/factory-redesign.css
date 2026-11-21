@@ -3,10 +3,10 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  .fx-capacity-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:start}
  .fx-capacity-table{width:100%;border-collapse:collapse;text-align:left;font-size:16px}
  .fx-capacity-table :is(th,td){padding:16px 18px;vertical-align:top;border-bottom:1px solid var(--border)}
- .fx-capacity-table thead th{background:var(--pn-tint);font-size:14px;font-weight:600}
- .fx-capacity-table tbody th{width:38%;font-size:15px;font-weight:500;color:var(--muted)}
+ .fx-capacity-table thead th{background:var(--pn-tint);font-size:var(--text-detail, 15px);font-weight:600}
+ .fx-capacity-table tbody th{width:38%;font-size:var(--text-detail, 15px);font-weight:500;color:var(--muted)}
  .fx-capacity-table td strong{display:block;font:700 23px/1.25 var(--heading);color:var(--ink)}
- .fx-capacity-table td span{display:block;margin-top:5px;font-size:14px;line-height:1.5;color:var(--muted)}
+ .fx-capacity-table td span{display:block;margin-top:5px;font-size:var(--text-detail, 15px);line-height:1.5;color:var(--muted)}
  .fx-workshop-view .cx-evidence{width:100%;max-width:none}
  .fx-workshop-view .cx-evidence img{width:100%;height:auto;max-height:none;object-fit:contain;border-radius:20px}
  .fx-workshop-view figcaption{margin-top:12px;font-size:14px;line-height:1.5;color:var(--muted)}
@@ -36,9 +36,9 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  @media(max-width:767px){
   .fx-capacity-layout{grid-template-columns:1fr;gap:32px}
   .fx-capacity-table :is(th,td){padding:14px 10px}
-  .fx-capacity-table tbody th{width:36%;font-size:14px}
+  .fx-capacity-table tbody th{width:36%;font-size:var(--text-detail, 15px)}
   .fx-capacity-table td strong{font-size:21px}
-  .fx-capacity-table td span{font-size:14px}
+  .fx-capacity-table td span{font-size:var(--text-detail, 15px)}
   .fx-workshop-records{margin-top:40px}
   .fx-workshop-records>header h3{font-size:28px}
   .fx-proof-grid{grid-template-columns:1fr;gap:34px}

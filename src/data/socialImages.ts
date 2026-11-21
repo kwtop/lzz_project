@@ -2,6 +2,7 @@ import siteImages from './siteImages.generated.json';
 import productImages from './productPhotography.generated.json';
 import evidenceImages from './evidence.generated.json';
 import newsImages from './companyNewsMedia.json';
+import additionalMedia from './additionalMedia.generated.json';
 import {imageDescription} from '../lib/imagePresentation';
 
 type DescribedImage={src:string;alt:string;srcset?:string;files?:{src:string}[]};
@@ -16,6 +17,7 @@ const editorialCovers:DescribedImage[]=[
 const descriptions=new Map<string,string>();
 const images:DescribedImage[]=[
  ...Object.values(siteImages),...Object.values(productImages),...Object.values(evidenceImages),
+ ...Object.values(additionalMedia.photos).filter(photo=>photo.kind==='original-photo').map(photo=>({...photo,alt:photo.caption})),
  ...newsImages.map(image=>({...image,alt:image.caption})),...editorialCovers,
 ];
 for(const image of images){

@@ -3,107 +3,21 @@ import {
   HttpError,
   json,
   readJson,
-  setCookie,
   text,
   uuid,
-  withCookies,
 } from "./http";
 import { audit } from "./auth";
-import { makeCookie, random } from "./security";
+import { random } from "./security";
 import catalog from "./catalog.generated.json";
+import {productTitle} from "../src/data/presentation";
+import { DAY, OFFSET, eventDayStartSQL, pagination, reportPeriod, reportFilter } from "./reporting";
+import {detailedOverview,visitorJourney} from "./insights";
+import type { DailyVisitor } from "../src/lib/insightTypes";
 
 export const statuses = ["new", "following", "completed", "spam"];
-const day = 86400000,
-  offset = 8 * 3600000;
-function dateStart(value: string) {
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return NaN;
-  const parsed = Date.parse(value + "T00:00:00+08:00");
-  return Number.isFinite(parsed) &&
-    new Date(parsed + offset).toISOString().slice(0, 10) === value
-    ? parsed
-    : NaN;
-}
-export function period(url: URL) {
-  const now = Date.now(),
-    today = Math.floor((now + offset) / day) * day - offset;
-  const start = url.searchParams.get("start")
-    ? dateStart(url.searchParams.get("start")!)
-    : today - 6 * day;
-  const end = url.searchParams.get("end")
-    ? Math.min(dateStart(url.searchParams.get("end")!) + day, now)
-    : now;
-  if (
-    !Number.isFinite(start) ||
-    !Number.isFinite(end) ||
-    start >= end ||
-    end - start > 366 * day
-  )
-    throw new HttpError(
-      400,
-      "date_range",
-      "请选择不超过 366 天的有效日期范围。",
-    );
-  return {
-    start,
-    end,
-    previousStart: start - (end - start),
-    previousEnd: start,
-    timezone: "Asia/Shanghai",
-  };
-}
-function conditions(
-  url: URL,
-  alias: string,
-  bounds?: { start: number; end: number },
-  inquiry = false,
-) {
-  const terms: string[] = [],
-    args: (string | number)[] = [];
-  if (bounds) {
-    terms.push(`${alias}.created_at>=? AND ${alias}.created_at<?`);
-    args.push(bounds.start, bounds.end);
-  }
-  if (url.searchParams.get("internal") !== "1")
-    terms.push(`${alias}.internal=0`);
-  for (const field of [
-    "source",
-    "country",
-    "product",
-    "language",
-    "device",
-    "channel",
-  ]) {
-    const value = url.searchParams.get(field);
-    if (value) {
-      terms.push(`COALESCE(NULLIF(${alias}.${field},''),'unknown')=?`);
-      args.push(text(value, 200));
-    }
-  }
-  if (inquiry) {
-    const status = url.searchParams.get("status");
-    if (status) {
-      if (!statuses.includes(status))
-        throw new HttpError(400, "status", "状态不正确。");
-      terms.push(`${alias}.status=?`);
-      args.push(status);
-    }
-    const unread = url.searchParams.get("unread");
-    if (unread === "1") terms.push(`${alias}.unread=1`);
-    const destination = url.searchParams.get("destination");
-    if (destination) {
-      terms.push(`${alias}.destination_country=?`);
-      args.push(text(destination, 100));
-    }
-    const q = text(url.searchParams.get("q"), 100);
-    if (q) {
-      terms.push(
-        `(${["name", "company", "email", "phone", "interest", "requirements", "id"].map((field) => `${alias}.${field} LIKE ? ESCAPE '\\'`).join(" OR ")})`,
-      );
-      args.push(...Array(7).fill("%" + q.replace(/[\\%_]/g, "\\$&") + "%"));
-    }
-  }
-  return { sql: terms.length ? terms.join(" AND ") : "1=1", args };
-}
+const day=DAY,offset=OFFSET;
+export const period=reportPeriod;
+const conditions=reportFilter;
 const rows = async <T = Record<string, unknown>>(
   env: Env,
   sql: string,
@@ -123,27 +37,6 @@ const count = async (env: Env, sql: string, args: unknown[] = []) =>
     )?.total || 0,
   );
 
-async function metrics(
-  env: Env,
-  url: URL,
-  bounds: { start: number; end: number },
-) {
-  const e = conditions(url, "e", bounds),
-    i = conditions(url, "i", bounds, true);
-  const data = await env.DB.prepare(
-    `SELECT COUNT(DISTINCT visitor_id) visitors,COUNT(DISTINCT visit_id) visits,COALESCE(SUM(type='page_view'),0) pageViews,COUNT(DISTINCT CASE WHEN is_returning=1 THEN visitor_id END) returningVisitors,COALESCE(SUM(type IN ('quote_click','whatsapp_click','email_click')),0) contactClicks,COALESCE(SUM(type='whatsapp_click'),0) whatsappClicks,COALESCE(SUM(type='email_click'),0) emailClicks,COALESCE(SUM(type='quote_click'),0) quoteClicks,COUNT(DISTINCT CASE WHEN type='form_start' THEN visitor_id END) formStarters,COALESCE(SUM(type='form_error'),0) formErrors FROM events e WHERE ${e.sql}`,
-  )
-    .bind(...e.args)
-    .first<Record<string, number>>();
-  return {
-    ...data,
-    inquiries: await count(
-      env,
-      `SELECT COUNT(*) total FROM inquiries i WHERE ${i.sql}`,
-      i.args,
-    ),
-  };
-}
 async function aggregateOverview(env: Env, url: URL) {
   const range = period(url);
   const a = conditions(url, "a", range);
@@ -163,7 +56,7 @@ async function aggregateOverview(env: Env, url: URL) {
       `SELECT COALESCE(NULLIF(${field},''),'unknown') name,SUM(count) views FROM analytics_totals a WHERE ${a.sql} AND type='page_view' GROUP BY name ORDER BY views DESC LIMIT 30`, a.args);
   return json({
     mode: "aggregate",
-    range,
+    range: {...range,granularity:"day"},
     current: { ...current, inquiries: await count(env, `SELECT COUNT(*) total FROM inquiries i WHERE ${i.sql}`, i.args) },
     previous: {},
     trend: Array.from({ length: Math.ceil((range.end-range.start)/day) }, (_, bucket) => ({
@@ -179,103 +72,30 @@ async function aggregateOverview(env: Env, url: URL) {
       pageViewsByCountry: await count(env, `SELECT COALESCE(SUM(count),0) total FROM analytics_totals a WHERE ${a.sql} AND type='page_view'`, a.args),
       inquiriesByStatus: await rows(env, `SELECT status,COUNT(*) total FROM inquiries i WHERE ${i.sql} GROUP BY status`, i.args),
     },
-    scope: "默认汇总页面与点击次数，按小时合并保存；不识别独立访客、回访者或个人浏览轨迹。开始填写为触发次数，联系点击不等于询盘。询盘按服务端保存记录统计；默认排除内部测试及已识别机器人。",
+    scope: "汇总模式按小时保存页面和点击次数。访客明细展示此前已记录的浏览器访问。开始填写按触发次数统计，询盘按服务端保存记录统计。",
   });
 }
-export async function overview(env: Env, url: URL) {
-  if (env.ANALYTICS_MODE === "aggregate") return aggregateOverview(env, url);
-  const range = period(url),
-    current = await metrics(env, url, range),
-    previous = await metrics(env, url, {
-      start: range.previousStart,
-      end: range.previousEnd,
-    });
-  const trend = async (start: number, end: number) => {
-    const e = conditions(url, "e", { start, end }),
-      i = conditions(url, "i", { start, end }, true);
-    const events = await rows<{
-      bucket: number;
-      visitors: number;
-      pageViews: number;
-    }>(
-      env,
-      `SELECT CAST((created_at-?)/86400000 AS INTEGER) bucket,COUNT(DISTINCT visitor_id) visitors,SUM(type='page_view') pageViews FROM events e WHERE ${e.sql} GROUP BY bucket`,
-      [start, ...e.args],
-    );
-    const inquiries = await rows<{ bucket: number; inquiries: number }>(
-      env,
-      `SELECT CAST((created_at-?)/86400000 AS INTEGER) bucket,COUNT(*) inquiries FROM inquiries i WHERE ${i.sql} GROUP BY bucket`,
-      [start, ...i.args],
-    );
-    return Array.from(
-      { length: Math.ceil((end - start) / day) },
-      (_, bucket) => ({
-        bucket,
-        date: new Date(start + bucket * day + offset)
-          .toISOString()
-          .slice(0, 10),
-        visitors: events.find((v) => v.bucket === bucket)?.visitors || 0,
-        pageViews: events.find((v) => v.bucket === bucket)?.pageViews || 0,
-        inquiries: inquiries.find((v) => v.bucket === bucket)?.inquiries || 0,
-      }),
-    );
-  };
-  const e = conditions(url, "e", range),
-    i = conditions(url, "i", range, true);
-  const breakdowns: Record<string, unknown[]> = {};
-  for (const field of ["country", "source", "channel", "device", "language"])
-    breakdowns[field] = await rows(
-      env,
-      `SELECT COALESCE(NULLIF(${field},''),'unknown') name,COUNT(*) views,COUNT(DISTINCT visitor_id) visitors FROM events e WHERE ${e.sql} AND type='page_view' GROUP BY name ORDER BY views DESC LIMIT 30`,
-      e.args,
-    );
-  const pages = await rows(
-    env,
-    `SELECT page name,COUNT(*) views,COUNT(DISTINCT visitor_id) visitors FROM events e WHERE ${e.sql} AND type='page_view' GROUP BY page ORDER BY views DESC LIMIT 30`,
-    e.args,
-  );
-  const products = await rows(
-    env,
-    `SELECT product name,COUNT(*) views,COUNT(DISTINCT visitor_id) visitors FROM events e WHERE ${e.sql} AND type='product_view' AND product<>'' GROUP BY product ORDER BY views DESC LIMIT 30`,
-    e.args,
-  );
-  const checks = {
-    pageViewsByCountry: await count(
-      env,
-      `SELECT COUNT(*) total FROM events e WHERE ${e.sql} AND type='page_view'`,
-      e.args,
-    ),
-    inquiriesByStatus: await rows(
-      env,
-      `SELECT status,COUNT(*) total FROM inquiries i WHERE ${i.sql} GROUP BY status`,
-      i.args,
-    ),
-  };
-  return json({
-    mode: "detailed",
-    range,
-    current,
-    previous,
-    trend: await trend(range.start, range.end),
-    previousTrend: await trend(range.previousStart, range.previousEnd),
-    breakdowns,
-    pages,
-    products,
-    checks,
-    scope:
-      "默认记录同一浏览器的页面与点击过程；访客数是浏览器编号数，不是精确人数。关闭统计或启用 DNT/GPC 的访问不采集。询盘按服务端保存记录统计；默认排除内部测试及已识别机器人。",
-  });
-}
+export async function overview(env:Env,url:URL){return env.ANALYTICS_MODE==="aggregate"?aggregateOverview(env,url):detailedOverview(env,url);}
 export async function options(env: Env) {
-  const data: Record<string, unknown> = { products: catalog };
+  const data: Record<string, unknown> = {
+    products: catalog.map(({id,name}) => ({id,name:productTitle({slug:id,name})})),
+  };
   for (const field of ["source", "country", "language", "channel", "device"])
     data[field] = await rows(
       env,
-      `SELECT DISTINCT value FROM (SELECT COALESCE(NULLIF(${field},''),'unknown') value FROM events WHERE internal=0 UNION SELECT COALESCE(NULLIF(${field},''),'unknown') value FROM inquiries WHERE internal=0 UNION SELECT COALESCE(NULLIF(${field},''),'unknown') value FROM analytics_totals WHERE internal=0) ORDER BY value LIMIT 300`,
+      `SELECT DISTINCT value FROM (
+         SELECT COALESCE(NULLIF(${field},''),'unknown') value FROM events
+         UNION SELECT COALESCE(NULLIF(${field},''),'unknown') FROM inquiries
+         UNION SELECT COALESCE(NULLIF(${field},''),'unknown') FROM analytics_totals
+       ) ORDER BY value LIMIT 300`,
     );
   data.destinations = await rows(
     env,
     "SELECT DISTINCT destination_country value FROM inquiries ORDER BY value LIMIT 300",
+  );
+  data.campaigns = env.ANALYTICS_MODE === "aggregate" ? [] : await rows(
+    env,
+    "SELECT utm_campaign value FROM visits WHERE utm_campaign<>'' GROUP BY utm_campaign ORDER BY MAX(started_at) DESC, value LIMIT 300",
   );
   return json(data);
 }
@@ -503,22 +323,46 @@ export async function exportInquiries(context: Context, url: URL, user: Actor) {
   });
 }
 export async function visitors(env: Env, url: URL) {
-  const filter = conditions(url, "e", period(url)),
-    page = Math.max(1, Number(url.searchParams.get("p")) || 1),
-    limit = 20;
+  const filter = conditions(url, "e", period(url));
+  const { page, pageSize } = pagination(url);
   const total = await count(
     env,
-    `SELECT COUNT(DISTINCT visitor_id) total FROM events e WHERE ${filter.sql}`,
+    `SELECT COUNT(*) total FROM (
+       SELECT 1 FROM events e WHERE ${filter.sql}
+       GROUP BY e.visitor_id, ${eventDayStartSQL}
+     )`,
     filter.args,
   );
-  const items = await rows(
+  const items = await rows<DailyVisitor>(
     env,
-    `WITH eligible AS (SELECT e.*,ROW_NUMBER() OVER(PARTITION BY visitor_id ORDER BY created_at DESC,id DESC) recency FROM events e WHERE ${filter.sql}) SELECT visitor_id id,MIN(created_at) first_seen,MAX(created_at) last_seen,COUNT(DISTINCT visit_id) visits,SUM(type='page_view') views,MAX(is_returning) is_returning,MAX(CASE WHEN recency=1 THEN country END) country,MAX(CASE WHEN recency=1 THEN source END) source,MAX(CASE WHEN recency=1 THEN device END) device,(SELECT COUNT(*) FROM inquiries i WHERE i.visitor_id=e.visitor_id) inquiries FROM eligible e GROUP BY visitor_id ORDER BY last_seen DESC,id DESC LIMIT ? OFFSET ?`,
-    [...filter.args, limit, (page - 1) * limit],
+    `WITH eligible AS (
+       SELECT e.visitor_id,e.visit_id,e.type,e.created_at,e.country,e.source,e.device,
+         ${eventDayStartSQL} day_start,
+         ROW_NUMBER() OVER (
+           PARTITION BY e.visitor_id, ${eventDayStartSQL}
+           ORDER BY e.created_at DESC,e.sequence DESC,e.id DESC
+         ) recency
+       FROM events e WHERE ${filter.sql}
+     ), daily AS (
+       SELECT visitor_id id,day_start,MIN(created_at) first_seen,MAX(created_at) last_seen,
+         COUNT(DISTINCT visit_id) visits,SUM(type='page_view') views,
+         MAX(CASE WHEN recency=1 THEN country END) country,
+         MAX(CASE WHEN recency=1 THEN source END) source,
+         MAX(CASE WHEN recency=1 THEN device END) device
+       FROM eligible GROUP BY visitor_id,day_start
+       ORDER BY day_start DESC,last_seen DESC,id DESC LIMIT ? OFFSET ?
+     )
+     SELECT daily.*,CASE WHEN browser.first_seen < daily.day_start THEN 1 ELSE 0 END is_returning,
+       (SELECT COUNT(*) FROM inquiries i WHERE i.visitor_id=daily.id
+         AND i.created_at>=daily.day_start AND i.created_at<daily.day_start+${DAY}) inquiries
+     FROM daily LEFT JOIN visitors browser ON browser.id=daily.id
+     ORDER BY daily.day_start DESC,daily.last_seen DESC,daily.id DESC`,
+    [...filter.args, pageSize, (page - 1) * pageSize],
   );
-  return json({ items, total, page, pageSize: limit });
+  return json({ items, total, page, pageSize });
 }
 export async function journey(env: Env, id: string, url: URL) {
+  if(url.searchParams.get("v2")==="1")return visitorJourney(env,id,url);
   if (!uuid(id)) throw new HttpError(404, "not_found", "访客不存在。");
   const visitor = await env.DB.prepare("SELECT * FROM visitors WHERE id=?")
     .bind(id)
@@ -549,23 +393,4 @@ export async function journey(env: Env, id: string, url: URL) {
       [id],
     ),
   });
-}
-export async function internalBrowser(context: Context, user: Actor) {
-  const body = await readJson(context.request, 1000);
-  if (typeof body.excluded !== "boolean")
-    throw new HttpError(400, "internal", "设置不正确。");
-  await audit(context.env, user, "internal_browser", String(body.excluded));
-  return withCookies(json({ excluded: body.excluded }), [
-    body.excluded
-      ? await makeCookie(
-          context.request,
-          context.env,
-          "lzz_internal",
-          "yes",
-          30 * 86400,
-        )
-      : setCookie(context.request, "lzz_internal", "", 0),
-    setCookie(context.request, "lzz_visitor", "", 0),
-    setCookie(context.request, "lzz_visit", "", 0),
-  ]);
 }

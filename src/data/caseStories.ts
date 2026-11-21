@@ -1,42 +1,94 @@
 // Public explanations distinguish source photographs from generated geometry.
 // No photo or illustration establishes an alloy, tolerance or acceptance result.
 type Story = {title:string;summary:string;hero?:string;heroAlt?:string;featureHeading:string;question:string;answer:string;diagram?:{stem:string;alt:string;caption:string};processContext:string};
-const base='/media/case-stories-20261014/';
 export const caseStories:Record<string,Story>={
- 'turning-then-milling-cylindrical-parts':{
-  title:'CNC turning followed by milling for cylindrical parts',
-  summary:'Turning establishes the round body and bore; subsequent milling adds flats, holes or other features away from the axis. Their positions need references to the turned axis, locating face and angular orientation.',
-  hero:base+'turn-mill-form',heroAlt:'Circular flange with a stepped central bore, mounting holes and milled perimeter cutouts',
-  featureHeading:'The turned references for milling',question:'Why does a turned part need milling?',
-  answer:'Turning produces rotational features such as diameters, bores and shoulders. Features such as flats, slots or off-axis holes may need milling or another secondary operation. The drawing and available tool access determine the route.',
-  diagram:{stem:base+'turn-mill-datums',alt:'Flange with a blue bore, dashed center axis and amber locating face',caption:'Blue: bore and axis. Amber: axial face. The drawing supplies the actual datum scheme.'},
-  processContext:'The original workshop photograph shows a subsequent milling setup. It gives context for tool access and workholding; the sequence above describes what to review for a new drawing.'
- },
- 'five-axis-machining-multi-face-parts':{
-  title:'Five-axis CNC machining for multi-face parts',summary:'Features on different faces need both tool access and a shared datum scheme. This study connects the visible rotary setup with the model, clearance and inspection questions to resolve for a similar part.',
-  hero:base+'multi-face-form',heroAlt:'Multi-face machined block with top holes and curved side openings',featureHeading:'Features on different faces',question:'When is multi-axis access useful?',answer:'Features on angled or obstructed faces may require additional tool orientations. Review the complete model and fixture clearance before choosing indexed positions, simultaneous motion or separate setups.',
-  processContext:'The workshop image shows access around a rotary assembly. It does not establish whether every feature used simultaneous five-axis motion.'
- },
- 'two-stage-cnc-milling':{
-  title:'Two CNC milling operations: planning the locating surfaces',summary:'Two recorded milling operations on one component, with planning guidance on locating, clamping and checking features when a new part needs repositioning.',
-  hero:base+'two-setup-form',heroAlt:'Compact machined block with a top recess and features on a perpendicular face',featureHeading:'Keep the feature relationships through repositioning',question:'Why use a second milling setup?',answer:'Clamps or the machine orientation may block a face in the first setup. Repositioning gives access, but the locating surfaces must preserve the dimensional relationships required by the drawing.',
-  diagram:{stem:'/media/cases-reading-20261014/setup-orientations',alt:'Machining block held in two orientations to expose perpendicular faces',caption:'Two holding orientations; the actual fixture follows the drawing.'},
-  processContext:'For a similar part, mark the functional datums, critical relationships and any surfaces that must not be clamped. We review locating surfaces and tool access for the proposed machining sequence.'
- },
- 'milling-a-pocketed-enclosure-form':{
-  title:'CNC milling a pocketed enclosure: walls, bores and datums',summary:'Pocket depth, internal radii and mating interfaces determine how a recessed component can be held, reached by the cutter and measured.',
-  hero:base+'pocket-form',heroAlt:'Square component with a stepped circular pocket, central bore and corner mounting holes',featureHeading:'Pocket geometry and mounting interfaces',question:'What makes a pocket more difficult to machine?',answer:'Depth, narrow corners and thin remaining walls can restrict tool access or support. Identify the required geometry and any permitted radius changes so the machining route can be reviewed against the model.',
-  processContext:'The original photograph shows the component under the spindle. Use it to understand the machining context; the wall thickness, pocket depth and exact material come from the new drawing.'
- },
- 'milling-prismatic-components':{
-  title:'CNC milling prismatic parts: faces, bores and pockets',summary:'Mounting faces provide the references for a prismatic part’s hole pattern, bores and pockets. The drawing and inspection plan keep those relationships and the finished condition consistent across the requested quantity.',
-  hero:base+'prismatic-form',heroAlt:'Elongated prismatic component with a row of bores and a recessed end pocket',featureHeading:'Bores and pockets located from mounting faces',question:'Where should the drawing datum scheme begin?',answer:'Start with the functional surfaces that locate the component in its assembly. Relate the bores, pockets and hole pattern to those surfaces, including any dimensions that must be checked after finishing.',
-  processContext:'The workshop photograph records the part held for milling. The separate batch photograph helps identify the form; sampling and dimensional consistency require order-specific measurement records.'
- },
- '29-inch-display-housing-cnc-machining':{
-  title:'CNC machining a 29-inch display housing',summary:'Broad display panels need support for machining and a defined condition for flatness inspection. This study follows the housing faces, mounting features and workshop setup to explain what to specify for a similar enclosure.',
-  featureHeading:'Support and access across the panel',question:'What does the 29-inch designation describe?',answer:'It identifies the intended display size in the source materials. The enclosure dimensions, wall sections and machining envelope must be defined separately on the drawing.',
-  diagram:{stem:'/media/cases-reading-20261014/panel-support',alt:'Shallow enclosure panel with support pads and clamps on its outer flange',caption:'Panel support and clamping areas.'},
-  processContext:'The original workshop image shows the broad panel supported across the machine table. The video and paired face photograph provide additional views of the form.'
- }
+  "turning-then-milling-cylindrical-parts": {
+    "title": "Turning Then Milling: Locating Off-Axis CNC Features",
+    "summary": "A turned bore and shoulder can locate later milled features. See how flats, slots and cross-holes relate to the axis, axial face and angular reference.",
+    "hero": "/media/case-stories-20261014/turn-mill-form",
+    "heroAlt": "Circular flange with a stepped central bore, mounting holes and milled perimeter cutouts",
+    "featureHeading": "The bore locates radially; a face locates axially",
+    "question": "Why does a cylindrical part need milling after turning?",
+    "answer": "Turning forms rotational surfaces such as bores and shoulders. A flat, slot or cross-hole adds geometry away from that axis. A subsequent milling setup can provide access, provided its locating scheme retains the required relationship to the turned features.",
+    "diagram": {
+      "stem": "/media/case-stories-20261014/turn-mill-datums",
+      "alt": "Flange with a blue bore, dashed center axis and amber locating face",
+      "caption": "Blue: bore and axis. Amber: axial face. The drawing supplies the actual datum scheme."
+    },
+    "processContext": "The original workshop photograph shows a subsequent milling setup. It gives context for tool access and workholding; the sequence above describes what to review for a new drawing."
+  },
+  "five-axis-machining-multi-face-parts": {
+    "title": "Five-Axis Machining for Multi-Face CNC Parts",
+    "summary": "When do holes and contours on several faces need five-axis access? See how common datums, cutter clearance and workholding influence the route for a new part.",
+    "hero": "/media/case-stories-20261014/multi-face-form",
+    "heroAlt": "Multi-face machined block with top holes and curved side openings",
+    "featureHeading": "Reach the faces without losing their relationship",
+    "question": "Do features on several faces require simultaneous five-axis machining?",
+    "answer": "Often, an indexed orientation gives a straight cutter approach to an angled face. Simultaneous movement becomes relevant when the surface or access path requires changing tool orientation during the cut. The model and fixture clearance determine the choice.",
+    "processContext": "The workshop image shows access around a rotary assembly. It does not establish whether every feature used simultaneous five-axis motion."
+  },
+  "two-stage-cnc-milling": {
+    "title": "Two CNC Milling Setups: Datum Transfer and Inspection",
+    "summary": "When a part needs repositioning, the next setup must retain its feature relationships. Explore locating surfaces, clamp access and inspection across two operations.",
+    "hero": "/media/case-stories-20261014/two-setup-form",
+    "heroAlt": "Compact machined block with a top recess and features on a perpendicular face",
+    "featureHeading": "Locating a second operation from the first",
+    "question": "When is a second milling setup a sensible choice?",
+    "answer": "A second setup is useful when a clamp or machine orientation blocks a required face. Suitable locating surfaces let the new orientation retain the drawing relationships. A critical feature spanning both setups needs evaluation against the same functional references.",
+    "diagram": {
+      "stem": "/media/cases-reading-20261014/setup-orientations",
+      "alt": "Machining block held in two orientations to expose perpendicular faces",
+      "caption": "Two holding orientations; the actual fixture follows the drawing."
+    },
+    "processContext": "For a similar part, mark the functional datums, critical relationships and any surfaces that must not be clamped. We review locating surfaces and tool access for the proposed machining sequence."
+  },
+  "milling-a-pocketed-enclosure-form": {
+    "title": "Milling a Pocketed Enclosure: Depth, Walls and Fit",
+    "summary": "How do pocket depth, corner radii and remaining walls affect enclosure machining? Relate cutter access and support to the lid, bore and mounting interfaces.",
+    "hero": "/media/case-stories-20261014/pocket-form",
+    "heroAlt": "Square component with a stepped circular pocket, central bore and corner mounting holes",
+    "featureHeading": "The cavity must leave a usable enclosure",
+    "question": "Which pocket details make an enclosure difficult to machine?",
+    "answer": "Deep narrow regions restrict the available cutter and holder, while thin remaining walls need support. A larger internal radius can improve access when the mating component permits it. The cavity outline alone does not establish a practical route.",
+    "processContext": "The original photograph shows the component under the spindle. Use it to understand the machining context; the wall thickness, pocket depth and exact material come from the new drawing."
+  },
+  "milling-prismatic-components": {
+    "title": "CNC Milling Prismatic Parts: Faces, Bores and Pockets",
+    "summary": "Choose functional datums for a block-shaped CNC part. Connect bores, pockets and mounting faces across machining setups and final inspection.",
+    "hero": "/media/case-stories-20261014/prismatic-form",
+    "heroAlt": "Elongated prismatic component with a row of bores and a recessed end pocket",
+    "featureHeading": "Start with the surfaces that locate the block",
+    "question": "Which references should control a block-shaped part with several bores?",
+    "answer": "The surfaces that locate the part in its assembly provide the starting point. A bore spacing that looks correct in isolation may still put the whole pattern in the wrong place relative to the mounting face.",
+    "processContext": "The workshop photograph records the part held for milling. The separate batch photograph helps identify the form; sampling and dimensional consistency require order-specific measurement records."
+  },
+  "29-inch-display-housing-cnc-machining": {
+    "title": "29-Inch Display Housing: CNC Support and Flatness",
+    "summary": "A display housing’s broad faces need support during cutting and measurement. Explore mounting datums, clamp contact and final flatness requirements.",
+    "featureHeading": "Support matters across the whole panel",
+    "question": "Does a 29-inch display designation define the enclosure machining size?",
+    "answer": "It describes the intended display size in the source materials. The housing dimensions, wall sections and machining envelope need their own drawing definition. They cannot be calculated from the display designation alone.",
+    "diagram": {
+      "stem": "/media/cases-reading-20261014/panel-support",
+      "alt": "Shallow enclosure panel with support pads and clamps on its outer flange",
+      "caption": "Panel support and clamping areas."
+    },
+    "processContext": "The original workshop image shows the broad panel supported across the machine table. The video and paired face photograph provide additional views of the form."
+  },
+  "custom-plastic-parts-ptfe-pom-pe-acrylic": {
+    "title": "Machined Plastic Parts: PTFE, POM, PE and Acrylic",
+    "summary": "Explore separate PTFE, POM, PE and acrylic part examples. Connect the material grade, fit, support and measurement condition to a new plastic-part order.",
+    "featureHeading": "Explore the original part families",
+    "question": "Can I choose a machined polymer from the appearance of a sample?",
+    "answer": "Appearance can help identify the form you mean, but it cannot establish a polymer grade, filler or application suitability. The order needs a material designation and the conditions relevant to its fit and function.",
+    "processContext": "Plan the route and acceptance requirements for each part number and polymer grade."
+  },
+  "custom-metal-parts-batch-examples": {
+    "title": "Machined Metal Parts: Shafts, Fittings and Housings",
+    "summary": "Compare shaft, fitting and housing examples by their working interfaces. See how grade, threads, finish and part identity shape a mixed CNC-parts order.",
+    "featureHeading": "Explore the original metal part families",
+    "question": "What changes when I order several different machined metal parts?",
+    "answer": "Each part number needs its own revision, quantity, material and acceptance definition. Shared packaging or a single purchase order does not make different components interchangeable or give them the same inspection scope.",
+    "processContext": "Plan machining, finishing and inspection for each part number in a mixed order."
+  }
 };

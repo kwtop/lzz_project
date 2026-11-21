@@ -1,0 +1,15 @@
+/* The regular, medium and bold body weights share one variable-font download. */
+@font-face {
+ font-family:'Roboto';
+ src:url('../assets/fonts/roboto-latin-wght-normal.woff2') format('woff2');
+ font-weight:100 900;
+ font-style:normal;
+ font-display:swap;
+}
+@font-face {
+ font-family:'Roboto Condensed';
+ src:url('../assets/fonts/roboto-condensed-bold.woff2') format('woff2');
+ font-weight:700;
+ font-style:normal;
+ font-display:swap;
+}

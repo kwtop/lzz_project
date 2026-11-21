@@ -14,13 +14,11 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  main h1.ch-title {font:700 clamp(64px,6.25vw,90px)/1.01 var(--heading);letter-spacing:-.015em;text-wrap:balance;max-width:11.5ch;margin:0 0 26px;color:#fff}
  .ch-hero .ch-lead {font:400 18px/1.65 var(--body);max-width:54ch;margin:0;color:#F5F3EF}
  .ch-actions {display:flex;align-items:center;flex-wrap:wrap;gap:16px 28px;margin-top:30px}
- .ch-actions .rd-button {display:inline-flex;align-items:center;justify-content:center;gap:20px;font-size:15px;min-height:52px;padding:14px 22px}
+ .ch-actions .rd-button {display:inline-flex;align-items:center;justify-content:center;gap:20px;font-size:var(--text-action);min-height:52px;padding:14px 22px}
  .ch-actions .rd-button:hover {background:#8F3A21;border-color:#8F3A21}
- .ch-secondary {display:inline-flex;align-items:center;gap:12px;min-height:48px;font:500 14px/1.4 var(--body);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;color:#fff}
+ .ch-secondary {display:inline-flex;align-items:center;gap:12px;min-height:48px;font:500 var(--text-action)/1.4 var(--body);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;color:#fff}
  .ch-secondary:hover,.ch-reference:hover {color:#DEA47C}
- .ch-hero .ch-credential {display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;margin:28px 0 0;font:400 12px/1.6 var(--body);color:#EEE9E2}
- .ch-credential span+span::before {content:'·';margin-right:16px}
- .ch-reference {position:absolute;z-index:2;right:max(40px,calc((100% - 1140px)/2));bottom:15px;display:inline-flex;align-items:center;gap:12px;min-height:44px;font:400 12px/1.4 var(--body);color:#EEE9E2;text-decoration:none}
+ .ch-reference {position:absolute;z-index:2;right:max(40px,calc((100% - 1140px)/2));bottom:15px;display:inline-flex;align-items:center;gap:12px;min-height:44px;font:400 var(--text-meta)/1.4 var(--body);color:#EEE9E2;text-decoration:none}
  .ch-hero--material .ch-copy {margin-left:auto;width:48%;max-width:540px}
  .ch-hero--material .ch-shade {background:linear-gradient(90deg,#10130f00 0%,#10130f1f 35%,#10130fb8 58%,#10130fed 82%)}
  .ch-hero--material h1.ch-title {font-size:clamp(62px,5.55vw,80px);max-width:13ch}
@@ -31,18 +29,17 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  .ch-hero--planning .ch-shade {background:linear-gradient(180deg,#2427240a 0%,#24272424 28%,#242724db 57%,#242724 88%)}
  .ch-hero--planning .ch-lead {font-size:17px;line-height:1.65}
  .ch-hero--planning .ch-actions {gap:14px 22px;margin-top:25px}
- .ch-hero--planning .ch-credential {margin-top:24px}
  @media(min-width:768px) and (max-width:1099px) {
   main>.site-breadcrumb,.ch-inner {width:calc(100% - 64px)}
   .ch-hero {min-height:min(800px,100svh);padding-top:calc(88px + var(--header-overlay-size,0px));padding-bottom:64px}
   .ch-copy {width:53%;max-width:540px}
   main h1.ch-title {font-size:68px}
-  .ch-hero .ch-lead {font-size:16px}
+  .ch-hero .ch-lead {font-size:var(--text-body)}
   .ch-hero--material .ch-copy {width:49%}
   .ch-hero--material h1.ch-title {font-size:62px}
   .ch-actions {gap:12px 20px}
-  .ch-actions .rd-button {font-size:14px;padding-inline:18px}
-  .ch-secondary {font-size:13px}
+  .ch-actions .rd-button {font-size:var(--text-action);padding-inline:18px}
+  .ch-secondary {font-size:var(--text-action)}
   .ch-hero--planning {min-height:min(800px,100svh);padding-top:calc(180px + var(--header-overlay-size,0px))}
   .ch-hero--planning .ch-copy {grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:36px}
   .ch-hero--planning h1.ch-title {font-size:54px}
@@ -50,40 +47,36 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
   .ch-hero--material .ch-reference {left:32px}
  }
  @media(max-width:767px) {
-  main>.site-breadcrumb {top:calc(24px + var(--header-overlay-size,0px));width:calc(100% - 40px);font-size:11px}
+  main>.site-breadcrumb {top:calc(24px + var(--header-overlay-size,0px));width:calc(100% - 40px);font-size:var(--text-meta)}
   .ch-hero,.ch-hero--planning {--ch-mobile-image-height:clamp(300px,48svh,420px);display:block;min-height:0;margin-bottom:58px;padding:clamp(170px,28svh,236px) 0 28px}
   .ch-inner {width:calc(100% - 40px)}
   .ch-media {height:var(--ch-mobile-image-height)}
   .ch-hero .ch-shade {background:linear-gradient(180deg,#2427241a 0px,#24272414 100px,#24272480 calc(var(--ch-mobile-image-height) * .68),#242724 var(--ch-mobile-image-height))}
   .ch-hero .ch-copy,.ch-hero--planning .ch-copy {display:block;width:100%;max-width:none;margin-left:0}
   .ch-hero h1.ch-title {font-size:44px;line-height:1.04;max-width:17ch;letter-spacing:0;margin:0 0 22px;text-wrap:balance}
-  .ch-hero .ch-lead {font-size:15.5px;line-height:1.65;max-width:none}
+  .ch-hero .ch-lead {font-size:var(--text-body);line-height:1.65;max-width:none}
   .ch-hero .ch-actions {gap:12px 20px;margin-top:24px}
-  .ch-actions .rd-button {font-size:13px;min-height:48px;gap:14px;padding:12px 16px}
-  .ch-secondary {font-size:12px;min-height:46px;gap:8px}
-  .ch-hero .ch-credential {font-size:11px;gap:8px 12px;margin-top:24px}
-  .ch-credential span+span::before {margin-right:12px}
-  .ch-hero .ch-reference {position:relative;left:auto;right:auto;bottom:auto;display:flex;width:calc(100% - 40px);margin:16px auto 0;min-height:40px;font-size:11px}
+  .ch-actions .rd-button {font-size:var(--text-action);min-height:48px;gap:14px;padding:12px 16px}
+  .ch-secondary {font-size:var(--text-action);min-height:46px;gap:8px}
+  .ch-hero .ch-reference {position:relative;left:auto;right:auto;bottom:auto;display:flex;width:calc(100% - 40px);margin:16px auto 0;min-height:44px;font-size:var(--text-meta)}
  }
  @media(max-width:359px) {
   .ch-hero h1.ch-title {font-size:38px}
-  .ch-hero .ch-lead {font-size:15px}
+  .ch-hero .ch-lead {font-size:var(--text-body)}
  }
  @media(min-width:768px) and (max-height:820px) {
   .ch-hero,.ch-hero--planning {min-height:min(760px,100svh);padding-top:calc(64px + var(--header-overlay-size,0px));padding-bottom:72px}
   .ch-hero h1.ch-title {font-size:clamp(42px,8.5svh,64px);margin-bottom:20px}
-  .ch-hero .ch-lead {font-size:16px}
+  .ch-hero .ch-lead {font-size:var(--text-body)}
   .ch-hero .ch-actions {margin-top:24px}
-  .ch-hero .ch-credential {margin-top:22px}
  }
  @media(max-width:767px) and (max-height:720px) {
   .ch-hero,.ch-hero--planning {padding-top:164px;padding-bottom:24px}
   .ch-hero h1.ch-title {font-size:32px;margin-bottom:18px}
-  .ch-hero .ch-lead {font-size:15px;line-height:1.5}
+  .ch-hero .ch-lead {font-size:var(--text-body);line-height:1.5}
   .ch-hero .ch-actions {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:10px;margin-top:20px}
-  .ch-hero .ch-actions .rd-button {font-size:12px;min-height:46px;padding-inline:10px;gap:8px}
-  .ch-hero .ch-secondary {justify-content:center;text-align:center;font-size:11.5px;gap:6px}
-  .ch-hero .ch-credential {margin-top:18px}
+  .ch-hero .ch-actions .rd-button {font-size:var(--text-action);min-height:46px;padding-inline:10px;gap:8px}
+  .ch-hero .ch-secondary {justify-content:center;text-align:center;font-size:var(--text-action);gap:6px}
   .ch-hero .ch-reference {margin-top:8px}
  }
 }

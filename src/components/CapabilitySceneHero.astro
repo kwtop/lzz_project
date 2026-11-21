@@ -8,10 +8,10 @@ import '../styles/capability-scene-hero.css';
 
 interface Props {
  title:string;lead:string;quoteHref?:string;slug?:string;id?:string;
- part?:{href?:string};secondaryHref?:string;secondaryLabel?:string;credential?:string;
+ part?:{href?:string};secondaryHref?:string;secondaryLabel?:string;
  image?:InteriorImage;
 }
-const {title,lead,quoteHref='/quote/',slug='overview',id='interior-title',part,secondaryHref,secondaryLabel,credential='Made to your drawing · Hangzhou, China'}=Astro.props;
+const {title,lead,quoteHref='/quote/',slug='overview',id='interior-title',part,secondaryHref,secondaryLabel}=Astro.props;
 const scene=capabilityHeroScene(slug);
 const image=Astro.props.image||scene.image;
 ---
@@ -23,7 +23,6 @@ const image=Astro.props.image||scene.image;
    <div class="ch-heading"><h1 class="ch-title" id={id}>{title}</h1></div>
    <div class="ch-detail"><p class="ch-lead">{lead}</p><slot/>
     <div class="ch-actions"><a class="rd-button" href={quoteHref}>Request a quote <ArrowRight size={17} aria-hidden="true"/></a>{secondaryHref&&<a class="ch-secondary" href={secondaryHref}>{secondaryLabel}<ArrowRight size={17} aria-hidden="true"/></a>}</div>
-    <p class="ch-credential"><span>ISO 9001 certified</span><span>{credential}</span></p>
    </div>
   </header>
  </div>

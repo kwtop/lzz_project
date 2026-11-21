@@ -1,7 +1,7 @@
 # Cloudflare Pages preview deployment — 2026-09-16
 
 - User requested upload to Cloudflare after local visual refinements.
-- Account: c3243c843894c12a89207ee67bf60e8e; existing Pages project: lzz-precision; branch: preview.
+- Account: CLOUDFLARE_ACCOUNT_ID; existing Pages project: lzz-precision; branch: preview.
 - Wrangler 4.132.0 direct upload of dist; 73 files uploaded and 177 reused, plus _redirects.
 - Deployment: https://ab4b03f9.lzz-precision.pages.dev
 - Existing alias updated: https://preview.lzz-precision.pages.dev

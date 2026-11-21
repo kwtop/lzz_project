@@ -69,16 +69,6 @@ export async function makeCookie(
 export function ip(request: Request) {
   return request.headers.get("cf-connecting-ip") || "unknown";
 }
-export async function internal(request: Request, env: Env) {
-  return (
-    (env.INTERNAL_IPS || "")
-      .split(",")
-      .map((v) => v.trim())
-      .filter(Boolean)
-      .includes(ip(request)) ||
-    (await signedCookie(request, env, "lzz_internal")) === "yes"
-  );
-}
 export function knownBot(request: Request) {
   const cf = (
     request as Request & {

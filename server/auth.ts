@@ -11,12 +11,10 @@ import {
 } from "./http";
 import {
   equal,
-  makeCookie,
   random,
   rateLimit,
   sha256,
   sign,
-  signedCookie,
   verifyPassword,
 } from "./security";
 const keySets = new Map<string, ReturnType<typeof createRemoteJWKSet>>();
@@ -98,17 +96,6 @@ export async function audit(
     .bind(random(), user.username, action, target, Date.now())
     .run();
 }
-export async function markInternalVisitor(request: Request, env: Env) {
-  const visitor = await signedCookie(request, env, "lzz_visitor");
-  if (visitor)
-    await env.DB.batch(
-      ["visitors", "visits", "events", "inquiries"].map((table) =>
-        env.DB.prepare(
-          `UPDATE ${table} SET internal=1 WHERE ${table === "visitors" ? "id" : "visitor_id"}=?`,
-        ).bind(visitor),
-      ),
-    );
-}
 export async function login({ request, env }: Context) {
   assertOrigin(request);
   if (env.ADMIN_AUTH_MODE === "access")
@@ -132,14 +119,12 @@ export async function login({ request, env }: Context) {
   )
     .bind(await sha256(token), username, csrf, Date.now() + 8 * 3600000)
     .run();
-  await markInternalVisitor(request, env);
   const adminCookie = setCookie(request, "lzz_admin", token, 8 * 3600).replace(
     "SameSite=Lax",
     "SameSite=Strict",
   );
   return withCookies(json({ authenticated: true, username, csrf }), [
     adminCookie,
-    await makeCookie(request, env, "lzz_internal", "yes", 30 * 86400),
   ]);
 }
 export async function logout(request: Request, env: Env, user: Actor) {

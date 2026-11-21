@@ -12,7 +12,7 @@ import '../styles/about-constitution.css';
 const inspection=siteImage('inspection-room');
 const documents=[recognitionDocuments[1],recognitionDocuments[2],recognitionDocuments[0]];
 ---
-<Layout title="LZZ Precision: CNC machining company in Hangzhou" description="Meet Hangzhou Lizhizao Precision Machinery Co., Ltd. Find workshop information, engineering experience, company recognition documents and supplier qualification contacts." cta={false}>
+<Layout title="CNC Machining Company in Hangzhou" description="Meet Hangzhou Lizhizao Precision Machinery Co., Ltd. Find workshop information, engineering experience, company recognition documents and supplier qualification contacts." cta={false}>
  <article class="ar-page ar-profile rd-wrap rd-page"><DisclosureAnchors/>
   <span id="company-factory" class="ar-anchor"/>
   <ImmersiveInnerHero title="LZZ Precision in Hangzhou" lead="We make custom CNC components, from the first part to repeat orders. Your drawing, material and acceptance requirements guide our milling, turning and multi-axis work." secondaryHref="#documents" secondaryLabel="Supplier documents"><p class="ar-legal">Hangzhou Lizhizao Precision Machinery Co., Ltd.</p></ImmersiveInnerHero>
@@ -21,9 +21,8 @@ const documents=[recognitionDocuments[1],recognitionDocuments[2],recognitionDocu
   <section class="rd-section ar-documents" id="documents" data-core-section="Supplier qualification documents">
    <header><h2 id="al-credentials-heading">Supplier documents</h2><p>For supplier qualification, you can review our enterprise-recognition and teaching-partnership documents, including the holder, purpose and printed date.</p></header>
    <div class="ar-iso" id="quality-system"><div><h3>ISO 9001 quality-system certificate</h3><p>LZZ is ISO 9001 certified. Contact us for the current certificate, including its holder, scope and validity.</p></div><a class="ar-text-link" href={qualificationEmail}>Request the current ISO 9001 certificate</a></div>
-   <p class="ar-document-intro">Enterprise recognition and teaching partnerships are documented separately from our ISO 9001 certification.</p>
    <div id="al-original-documents">{documents.map(document=><article class:list={['ar-document',{'ar-document--portrait':document.height>document.width}]}>
-    <div class="ar-document-original"><a class="ar-document-preview" href={document.image} target="_blank" rel="noopener" aria-label={'Open document: '+document.title}><AboutRedesignPhoto src={document.image} width={document.width} height={document.height} alt={document.title+', original Chinese document'} origin="original-company-document"/></a><a class="ar-document-open" href={document.image} target="_blank" rel="noopener">Open document <span aria-hidden="true">↗</span></a></div>
+    <div class="ar-document-original"><a class="ar-document-preview" href={document.image} target="_blank" rel="noopener" aria-label={'Open document: '+document.title}><AboutRedesignPhoto src={document.image} width={document.width} height={document.height} alt={document.title+', original Chinese document'} origin="original-company-document"/></a></div>
     <div><h3><a href={document.image} target="_blank" rel="noopener">{document.title}<span class="sr-only">: open document</span></a></h3><p>{document.description}</p><dl><div><dt>Purpose</dt><dd>{document.scope}</dd></div><div><dt>Printed date / validity</dt><dd>{document.date}</dd></div></dl></div>
    </article>)}</div>
    <p class="ar-document-note">Dates and validity describe the displayed originals. Request the current status for supplier qualification.</p>

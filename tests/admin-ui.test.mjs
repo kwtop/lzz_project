@@ -20,7 +20,7 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
     bundle: true,
     format: "esm",
     platform: "node",
-    external: ["react", "react/jsx-runtime"],
+    external: ["react", "react/jsx-runtime", "lucide-react"],
     jsx: "automatic",
   });
   const worker = await build({
@@ -130,6 +130,7 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
           language: "en",
           utmSource: "newsletter",
           utmMedium: "email",
+          utmCampaign: "workshop-qa",
         }),
       },
       customerCookies,
@@ -148,6 +149,8 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
               language: "en",
               position: "main",
             },
+            {id:randomUUID(),type:"whatsapp_click",page:"/factory/",language:"en",position:"hero",sectionId:"factory-introduction",sectionLabel:"CNC factory",elementId:"factory-hero-whatsapp",elementLabel:"WhatsApp",target:"https://wa.me/8613858102479"},
+            {id:randomUUID(),type:"product_view",page:"/machined-parts/gallery/"+product.id+"/",product:product.id,language:"en"},
           ],
           source: "newsletter",
           channel: "email",
@@ -187,6 +190,12 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
     );
     assert.equal(result.status, 200);
     const inquiryId = (await result.json()).reference;
+    const { visitor_id: buyerId } = await db.prepare("SELECT visitor_id FROM inquiries WHERE id=?")
+      .bind(inquiryId).first();
+    await db.batch([
+      db.prepare("UPDATE events SET internal=1 WHERE visitor_id=?").bind(buyerId),
+      db.prepare("UPDATE inquiries SET internal=1 WHERE id=?").bind(inquiryId),
+    ]);
     for (const name of [
       "window",
       "document",
@@ -218,6 +227,7 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
     const { createElement } = await import("react");
     const testing = await import("@testing-library/react");
     cleanup = testing.cleanup;
+    testing.configure({getElementError:(message)=>new Error(message)});
     const { render, screen, fireEvent, waitFor, within } = testing;
     const { default: AdminApp } = await import(pathToFileURL(compiled).href);
     render(createElement(AdminApp));
@@ -230,23 +240,93 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
       target: { value: password },
     });
     fireEvent.click(screen.getByRole("button", { name: "登录", exact: true }));
-    await screen.findByRole("heading", { name: "网站访问洞察" });
-    await screen.findByRole("heading", { name: "成功询盘" });
+    await screen.findByRole("heading", { name: "访问洞察" });
+    await screen.findByRole("heading", { name: "询盘入库" });
     assert.match(
-      screen.getByRole("heading", { name: "成功询盘" }).parentElement
+      screen.getByRole("heading", { name: "询盘入库" }).parentElement
         .textContent,
       /1/,
     );
     assert.ok(screen.getByRole("heading", { name: "访客数" }));
-    assert.ok(screen.getByRole("heading", { name: "回访访客" }));
-    assert.ok(screen.getByRole("heading", { name: "开始填写人数" }));
+    const definitions=screen.getByText('统计口径与数据说明').closest('details');
+    assert.equal(definitions.open,false,'Detailed definitions should not obscure the primary metrics');
+    assert.match(definitions.textContent,/询盘入库只统计服务端保存成功/);
+    assert.match(screen.getByRole('heading',{name:'访客数'}).parentElement.textContent,/昨日同时段/);
+    assert.match(screen.getByRole('heading',{name:/国家 \/ 地区/}).textContent,/页面浏览量/);
+    assert.ok(screen.getByText(/回访访客：/));
+    assert.ok(screen.getByText(/开始填写人数：/));
     assert.match(screen.getByRole("heading", { name: "页面浏览量" }).parentElement.textContent, /1/);
     assert.ok((await db.prepare("SELECT visitor_id FROM inquiries WHERE id=?").bind(inquiryId).first()).visitor_id);
+    assert.equal(screen.getByRole('button',{name:'今日',exact:true}).getAttribute('aria-pressed'),'true');
+    assert.ok(screen.getByRole('button',{name:'昨日',exact:true}));
+    fireEvent.click(await screen.findByRole('button',{name:/点击 WhatsApp \/factory\/，查看轨迹/}));
+    const latestDialog=await screen.findByRole('dialog');
+    await within(latestDialog).findByText(/点击 WhatsApp · 当前定位/);
+    await within(latestDialog).findByRole('heading',{name:'本次访问来源'});
+    await within(latestDialog).findByText('workshop-qa');
+    await within(latestDialog).findByRole('heading',{name:'本次浏览的产品'});
+    fireEvent.click(within(latestDialog).getByRole('button',{name:'关闭详情',exact:true}));
+    fireEvent.click(screen.getByRole('button',{name:/查看高意图记录/}));
+    const intentDialog=await screen.findByRole('dialog');
+    await within(intentDialog).findAllByRole('button',{name:'查看轨迹',exact:true});
+    assert.equal(within(intentDialog).getByRole('button',{name:'仅高意图'}).getAttribute('aria-pressed'),'true');
+    fireEvent.click(within(intentDialog).getByRole('button',{name:'全部行为'}));
+    assert.equal(within(intentDialog).getByRole('button',{name:'全部行为'}).getAttribute('aria-pressed'),'true');
+    fireEvent.click(within(intentDialog).getByRole('button',{name:'关闭详情',exact:true}));
+    t.diagnostic('Opening contact records');
+    fireEvent.click(screen.getByRole('button',{name:'查看WhatsApp 点击明细',exact:true}));
+    let contactDialog=await screen.findByRole('dialog');
+    await within(contactDialog).findByText('CNC factory');
+    fireEvent.click(within(contactDialog).getByRole('button',{name:'查看轨迹',exact:true}));
+    contactDialog=await screen.findByRole('dialog');
+    await within(contactDialog).findByText(/点击 WhatsApp · 当前定位/);
+    assert.equal(within(contactDialog).getByRole('button',{name:'全部行为'}).getAttribute('aria-pressed'),'true');
+    t.diagnostic('Returning from focused event');
+    fireEvent.click(within(contactDialog).getByRole('button',{name:'← 返回上一层',exact:true}));
+    await within(contactDialog).findByRole('button',{name:'查看轨迹',exact:true});
+    t.diagnostic('Closing contact records');
+    fireEvent.click(within(contactDialog).getByRole('button',{name:'关闭详情',exact:true}));
+    await waitFor(()=>assert.equal(Boolean(screen.queryByRole('dialog')),false));
+    assert.equal(screen.queryByLabelText('包含内部测试'),null);
+    assert.equal(screen.queryByRole('button',{name:'将当前浏览器排除统计'}),null);
+    await waitFor(()=>assert.equal(screen.queryAllByRole('status').length,0));
+    await screen.findByRole('button',{name:'查看WhatsApp 点击明细',exact:true});
+    const sourceSection=screen.getByRole('heading',{name:'访问来源',exact:true}).closest('section');
+    fireEvent.click(within(sourceSection).getByRole('button',{name:'查看落地页',exact:true}));
+    await within(sourceSection).findByRole('heading',{name:'该来源的落地页'});
+    await waitFor(()=>assert.ok(new URLSearchParams(window.location.search).get('se')));
+    fireEvent.click(await within(sourceSection).findByRole('button',{name:'/',exact:true}));
+    let sourceDialog=await screen.findByRole('dialog');await within(sourceDialog).findByRole('button',{name:'查看轨迹',exact:true});
+    assert.ok(new URLSearchParams(window.location.search).get('details').includes('entryPage'));
+    fireEvent.click(within(sourceDialog).getByRole('button',{name:'关闭详情',exact:true}));await waitFor(()=>assert.equal(Boolean(screen.queryByRole('dialog')),false));
+    assert.equal(within(sourceSection).getByRole('button',{name:'收起落地页',exact:true}).getAttribute('aria-expanded'),'true');
+    fireEvent.click(within(sourceSection).getByRole('button',{name:'关注产品',exact:true}));
+    await within(sourceSection).findByRole('heading',{name:'该来源关注的产品'});
+    await within(sourceSection).findByText('1 位访客 · 1 次浏览');
+    assert.equal(new URLSearchParams(window.location.search).get('sv'),'products');
+    fireEvent.click(screen.getByRole('button',{name:'最近7天',exact:true}));
+    await waitFor(()=>assert.equal(screen.getByRole('button',{name:'最近7天',exact:true}).getAttribute('aria-pressed'),'true'));
+    await screen.findByRole('button',{name:'查看WhatsApp 点击明细',exact:true});
+    fireEvent.click(screen.getByText('查看趋势数据',{exact:true}));
+    const days=await screen.findAllByRole('button',{name:'小时趋势',exact:true});
+    fireEvent.click(days.at(-1));
+    await waitFor(()=>assert.equal(document.activeElement?.id,'admin-trend-heading'));
+    assert.equal(new URLSearchParams(window.location.search).get('a_preset'),'custom');
+    fireEvent.click(screen.getByRole('button',{name:/← 返回 .* 至 .* 趋势/}));
+    await waitFor(()=>assert.equal(screen.getByRole('button',{name:'最近7天',exact:true}).getAttribute('aria-pressed'),'true'));
+    fireEvent.click(screen.getByRole('button',{name:'今日',exact:true}));
+    await waitFor(()=>assert.equal(screen.getByRole('button',{name:'今日',exact:true}).getAttribute('aria-pressed'),'true'));
     fireEvent.click(screen.getByRole("button", { name: /询盘管理/ }));
     await screen.findByText("LOCAL UI QA BUYER");
+    assert.equal(screen.getByLabelText("全部询盘日期").checked,true);
     await screen.findByText("UI QA COMPANY");
     fireEvent.click(screen.getByRole("button", { name: "查看", exact: true }));
     let dialog = await screen.findByRole("dialog");
+    await within(dialog).findByRole("heading", { name: "LOCAL UI QA BUYER" });
+    fireEvent.click(within(dialog).getByRole("button", { name: "查看此访客的访问过程" }));
+    await within(dialog).findByText("询盘已入库 · 当前定位");
+    await within(dialog).findByText("点击 WhatsApp", { selector: ".admin-timeline strong" });
+    fireEvent.click(within(dialog).getByRole("button", { name: "← 返回上一层" }));
     await within(dialog).findByRole("heading", { name: "LOCAL UI QA BUYER" });
     fireEvent.change(within(dialog).getByLabelText("处理状态"), {
       target: { value: "following" },
@@ -289,7 +369,7 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
       ),
     );
     fireEvent.click(within(dialog).getByRole("button", { name: "关闭详情" }));
-    await waitFor(() => assert.equal(screen.queryByRole("dialog"), null));
+    await waitFor(() => assert.equal(Boolean(screen.queryByRole("dialog")), false));
     fireEvent.change(
       screen.getByPlaceholderText("姓名、公司、联系方式或需求"),
       { target: { value: "nothing-matches-local-qa" } },
@@ -329,6 +409,8 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
       dom.window.HTMLAnchorElement.prototype.click = originalClick;
     }
     fireEvent.click(screen.getByRole("button", { name: /访客与行为/ }));
+    await screen.findByRole("heading", { name: "每日访客记录" });
+    assert.ok(await screen.findByText("首次来访", { exact: true }));
     await screen.findByRole("button", { name: "访问过程" });
     fireEvent.click(screen.getByRole("button", { name: "访问过程" }));
     dialog = await screen.findByRole("dialog");
@@ -339,15 +421,18 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
     await screen.findByRole("heading", { name: "登录工作台" });
     assert.equal(screen.queryByText("LOCAL UI QA BUYER"), null);
     assert.equal((await request("/api/admin/inquiries/export")).status, 401);
+  } catch(error) {
+    t.diagnostic('UI failure: '+error.message.slice(0,800));throw error;
   } finally {
     cleanup?.();
+    await mf.dispose();
+    await new Promise(resolve=>setImmediate(resolve));
     globalThis.fetch = nativeFetch;
     for (const [name, descriptor] of saved) {
       if (descriptor) Object.defineProperty(globalThis, name, descriptor);
       else delete globalThis[name];
     }
     dom.window.close();
-    await mf.dispose();
     if (fs.existsSync(compiled)) fs.unlinkSync(compiled);
   }
 });

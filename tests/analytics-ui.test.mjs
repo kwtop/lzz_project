@@ -41,6 +41,8 @@ for (const testMode of ["detailed", "aggregate"]) test(`frontend ${testMode} mod
       <header class="site-header"><a id="quote" href="/quote/?product=${product.id}">Quote</a></header>
       <main><a id="email" href="mailto:qa@example.invalid">Email</a><a id="whatsapp" href="https://wa.me/1234567890">WhatsApp</a>
       <a id="download" href="/downloads/test.txt" download>Download</a><details id="equipment-review"><summary>Equipment</summary></details>
+      <a id="factory-link" href="/factory/?query=PRIVATE_LINK#quality">Factory</a><a id="phone" href="tel:+86-138-5810-2479">Phone</a>
+      <button id="show-filters">Show filters</button><select id="part-filter" aria-label="Part type"><option value="PRIVATE_FILTER">Filter</option></select>
       <details id="faq"><summary>FAQ</summary></details><form class="inquiry-form"><input id="customer-name" name="name"></form></main></body></html>`, {
       url: "http://localhost" + (options.page || page) + "?utm_source=google&utm_medium=cpc&utm_term=PRIVATE_SEARCH_TERM",
       referrer: "https://www.google.com/search?q=PRIVATE_REFERRER_QUERY", pretendToBeVisual: true,
@@ -50,7 +52,7 @@ for (const testMode of ["detailed", "aggregate"]) test(`frontend ${testMode} mod
     if (options.gpc) Object.defineProperty(dom.window.navigator, "globalPrivacyControl", { value: true });
     const saved = new Map(), requests = [], cookies = new Map();
     let loseNextEventResponse = false;
-    for (const name of ["window", "document", "location", "navigator", "localStorage", "Element", "HTMLDetailsElement"]) {
+    for (const name of ["window", "document", "location", "navigator", "localStorage", "sessionStorage", "Element", "HTMLDetailsElement"]) {
       saved.set(name, Object.getOwnPropertyDescriptor(globalThis, name));
       Object.defineProperty(globalThis, name, { value: dom.window[name], configurable: true, writable: true });
     }
@@ -100,6 +102,7 @@ for (const testMode of ["detailed", "aggregate"]) test(`frontend ${testMode} mod
         assert.equal(localStorage.length, 0);
         assert.equal(cookies.size, testMode === "detailed" ? 2 : 0);
         assert.equal(inquiryAttribution().analyticsEnabled, testMode === "detailed");
+        assert.equal(Boolean(sessionStorage.getItem('lzz.analytics.visit')),testMode === 'detailed');
         assert.ok(!requests.some(row => row.route === "/api/analytics/consent"));
         assert.ok(!requests.some(row => row.body.includes('"granted":true')));
         const input = document.querySelector("#customer-name"); input.value = "PRIVATE_TYPED_TEXT";
@@ -135,7 +138,8 @@ for (const testMode of ["detailed", "aggregate"]) test(`frontend ${testMode} mod
         let expected = 10;
         if (testMode === "detailed") {
           const visits = (await db.prepare("SELECT * FROM visits ORDER BY started_at").all()).results;
-          assert.equal(visits.length,2); assert.equal(visits[1].is_returning,1);
+          assert.equal(visits.length,2);
+          assert.equal(visits[1].is_returning,0);
           assert.equal(new Set(visits.map(row=>row.visitor_id)).size,1);
           const firstVisitor = rows[0].visitor_id;
           const formError = await db.prepare("SELECT * FROM events WHERE type='form_error'").first();
@@ -153,12 +157,46 @@ for (const testMode of ["detailed", "aggregate"]) test(`frontend ${testMode} mod
         trackEvent("email_click"); await pause(220);
         assert.equal(await total(),expected);
         assert.equal(localStorage.getItem("lzz.analytics.consent"),"no");
+        assert.equal(sessionStorage.getItem('lzz.analytics.visit'),null);
         assert.match(document.querySelector("[role=status]").textContent,/off/);
         document.querySelector("[data-analytics-allow]").click();
         await until(async () => await total() === expected+1);
         assert.equal(cookies.size,testMode === "detailed" ? 2 : 0);
         window.dispatchEvent(new dom.window.StorageEvent("storage", { key: "lzz.analytics.consent", newValue: "no" }));
         trackEvent("email_click"); await pause(220); assert.equal(await total(),expected+1);
+      });
+    });
+    if(testMode==='detailed') await t.test('leaving the page flushes exact contact metadata once and respects opt-out',async()=>{
+      await browser({},async({dom,initSiteAnalytics,trackEvent})=>{
+        const before=await total();initSiteAnalytics();await until(async()=>await total()===before+2);
+        let sent=[],deliveries=[];
+        Object.defineProperty(navigator,'sendBeacon',{value:(route,blob)=>{sent.push(route);deliveries.push(blob.text().then(body=>fetch(route,{method:'POST',headers:{'Content-Type':'application/json'},body})));return true;},configurable:true});
+        trackEvent('whatsapp_click',{position:'hero',sectionId:'factory-intro',sectionLabel:'Factory introduction',elementId:'factory-hero-whatsapp',elementLabel:'WhatsApp',target:'https://wa.me/8613858102479?text=PRIVATE_MESSAGE'});
+        window.dispatchEvent(new dom.window.Event('pagehide'));await Promise.all(deliveries);
+        await until(async()=>await total()===before+3);assert.deepEqual(sent,['/api/events']);
+        const event=await db.prepare('SELECT * FROM events WHERE element_id=?').bind('factory-hero-whatsapp').first();
+        assert.equal(event.section_label,'Factory introduction');assert.equal(event.target,'https://wa.me/8613858102479');assert.equal(event.position,'hero');assert.ok(event.page_view_id);assert.ok(event.sequence>0);
+        document.querySelector('[data-analytics-deny]').click();trackEvent('email_click');window.dispatchEvent(new dom.window.Event('pagehide'));await pause(150);assert.equal(sent.length,1);
+      });
+    });
+    if (testMode === "detailed") await t.test("ordinary actions and intent events are recorded without private input", async () => {
+      await browser({}, async ({ dom, requests, initSiteAnalytics, trackEvent }) => {
+        const before = await total();
+        initSiteAnalytics();
+        await until(async () => await total() === before + 2);
+        const filter = document.getElementById("part-filter");
+        for (const id of ["factory-link", "show-filters", "phone"]) document.getElementById(id).click();
+        filter.dispatchEvent(new dom.window.Event("change", { bubbles: true }));
+        trackEvent("attachment_select", { position: "quote-form" });
+        trackEvent("form_submit", { position: "quote-form" });
+        const types = ["link_click", "button_click", "phone_click", "filter_change", "attachment_select", "form_submit"];
+        await until(async () => await total() === before + types.length + 2);
+        const rows = (await db.prepare("SELECT type,target,element_label FROM events WHERE type IN (?,?,?,?,?,?)").bind(...types).all()).results;
+        assert.deepEqual(new Set(rows.map(row => row.type)), new Set(types));
+        assert.equal(rows.find(row => row.type === "link_click").target, "/factory/#quality");
+        assert.equal(rows.find(row => row.type === "phone_click").target, "tel:+8613858102479");
+        assert.equal(rows.find(row => row.type === "filter_change").element_label, "Part type");
+        assert.doesNotMatch(JSON.stringify(requests), /PRIVATE_/);
       });
     });
     for (const options of [{ preference:"no" }, { dnt:true }, { gpc:true }, { page:"/admin/" }, { noindex:true }])

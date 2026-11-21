@@ -112,5 +112,5 @@ export const resources:Resource[]=[
 ].map(resource => ({ ...resource,
  ...(resource.slug==='cnc-process-selection'?{description:cncProcessDescription}:resource.slug==='material-and-finish-checklist'?{description:materialFinishDescription}:resource.slug==='critical-features-cnc-drawing'?{description:drawingFeaturesDescription}:{}),
  html:expandedGuides[resource.slug]?'<p>'+expandedGuides[resource.slug].intro+'</p>'+expandedGuides[resource.slug].sections.map(section=>'<h2 id="'+section.id+'">'+section.title+'</h2>'+section.html).join(''):(resourceDeliverySections[resource.slug] || '') + resource.html,
- ...(resourceSearchCopy[resource.slug]?{description:resourceSearchCopy[resource.slug].description}:{}),
+ ...(resourceSearchCopy[resource.slug]?{title:resourceSearchCopy[resource.slug].heading,description:resourceSearchCopy[resource.slug].description,html:resourceSearchCopy[resource.slug].html}:{}),
 }));

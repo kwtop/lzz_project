@@ -8,6 +8,6 @@ const {page,quoteHref,title,orderFirst=false,coreSection}=Astro.props;
 <section class:list={['rd-section','cx-inquiry',{'cx-inquiry--order-first':orderFirst}]} id="enquiry" data-core-section={coreSection}>
  <header><h2>{title||page.plan.rfqTitle}</h2></header>
  <ul class="cx-rfq-inputs">{(inquiryInputs[page.slug]||page.inputs).map(input=><li>{input}</li>)}</ul>
- <div class="cx-inquiry-action">{orderFirst&&<p class="cx-order-note" id="order-conditions">{orderConditions}{page.sample&&' Reconstruction and drawing-approval timing are agreed separately.'}</p>}<a class="rd-button" href={quoteHref}>Request a quote</a><p class="rd-note">Add your name, destination country and preferred contact details. Drawings and a message are optional.</p></div>
+ <div class="cx-inquiry-action">{orderFirst&&<p class="cx-order-note" id="order-conditions">{orderConditions}{page.sample&&' Reconstruction and drawing-approval timing are agreed separately.'}</p>}<a class="rd-button" href={quoteHref}>Request a quote</a></div>
  {!orderFirst&&<p class="cx-order-note" id="order-conditions">{orderConditions}{page.sample&&' Reconstruction and drawing-approval timing are agreed separately.'}</p>}
 </section>

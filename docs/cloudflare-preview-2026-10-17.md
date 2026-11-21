@@ -1,6 +1,6 @@
 # Cloudflare preview upload — 2026-10-17
 - User authorized uploading the current site to Cloudflare.
-- Verified existing account c3243c843894c12a89207ee67bf60e8e, Pages project lzz-precision, branch preview. No custom domain or DNS changes.
+- Verified existing account CLOUDFLARE_ACCOUNT_ID, Pages project lzz-precision, branch preview. No custom domain or DNS changes.
 - Deployment: https://1dc2ea8c.lzz-precision.pages.dev/
 - Updated alias: https://preview.lzz-precision.pages.dev/
 - Wrangler 4.151.1: 2,587 files uploaded, 169 reused, plus _headers and _redirects.

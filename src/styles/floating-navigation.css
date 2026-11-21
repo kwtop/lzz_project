@@ -60,7 +60,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
   .header-surface {inset-inline:10px}
   .site-header.navigation-polished .header-inner {width:calc(100% - 40px);gap:12px}
   .site-header .brand-logo {width:84px;height:46px}
-  .site-header .header-quote {min-height:44px;padding:10px 14px;font-size:12px}
+  .site-header .header-quote {min-height:44px;padding:10px 14px;font-size:var(--text-meta)}
   .site-header .header-actions {gap:8px}
   .site-header .header-whatsapp {flex-basis:44px;width:44px;height:44px;min-height:44px;padding:7px}
   .site-header #main-nav {left:-10px;right:-10px;padding-inline:18px}
@@ -72,7 +72,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
   .site-header.navigation-polished .header-inner {gap:6px}
   .site-header .brand-logo {width:64px}
   .site-header .header-actions {gap:6px}
-  .site-header .header-actions .header-quote {padding-inline:9px;font-size:11px}
+  .site-header .header-actions .header-quote {padding-inline:9px;font-size:var(--text-meta)}
   .site-header #main-nav {left:-6px;right:-6px}
  }
  @media(prefers-reduced-motion:reduce) {.header-surface {transition:none;transform:none}.site-header .menu-toggle span {transition:none}}

@@ -10,7 +10,11 @@ export const DIST = path.join(ROOT, 'dist');
 const readJSON = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 export const companyRedirects=readJSON(path.join(ROOT,'src/data/siteRouteRedirects.json'));
 export const resourceRoutes=readJSON(path.join(ROOT,'src/data/resourceRoutes.json'));
-export const pageLastModified=readJSON(path.join(ROOT,'src/data/pageLastModified.json'));
+const baseLastModified=readJSON(path.join(ROOT,'src/data/pageLastModified.json'));
+const spanishRelease=readJSON(path.join(ROOT,'src/data/spanishRelease.json'));
+export const pageLastModified={...baseLastModified,pages:{...baseLastModified.pages,
+ ...Object.fromEntries(spanishRelease.routes.map(route=>[route,{lastmod:spanishRelease.date,evidence:spanishRelease.evidence,reason:'Full Spanish localisation of the matching English page layout and content'}])),
+}};
 
 function sourceURLs() {
   const raw = path.resolve(ROOT, process.env.LZZ_CONTENT_ROOT || '../../raw/_content');

@@ -1,0 +1,31 @@
+{
+  "source": "public/media/site-image-polish-20261018/workshop-wide-original-2560.webp",
+  "sha256": "aaa760eda483b16c2663fa5c3c34922984eed79b315bc0b81c92f098146b090a",
+  "crop": {
+    "left": 1004,
+    "top": 0,
+    "width": 887,
+    "height": 1773
+  },
+  "quality": 82,
+  "variants": [
+    {
+      "filename": "workshop-mobile-400.webp",
+      "width": 400,
+      "height": 800,
+      "bytes": 27640
+    },
+    {
+      "filename": "workshop-mobile-640.webp",
+      "width": 640,
+      "height": 1279,
+      "bytes": 58998
+    },
+    {
+      "filename": "workshop-mobile-887.webp",
+      "width": 887,
+      "height": 1773,
+      "bytes": 117884
+    }
+  ]
+}

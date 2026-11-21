@@ -4,7 +4,7 @@ import ProductsPart from '../../../components/ProductsPart.astro';
 import {partVisual,partDisplayTitle,partMetaDescription} from '../../../data/productsEditorial';
 
 
-import {partSchemaType} from '../../../data/partSchema';
+import {describesMachiningService} from '../../../data/partSchema';
 import {inquiryHref} from '../../../lib/inquiryContext';
 import catalog from '../../../data/catalog.json';
 export function getStaticPaths(){return catalog.products.map(product=>({params:{slug:product.slug},props:{product}}));}
@@ -12,6 +12,9 @@ const {product}=Astro.props;
 const title=partDisplayTitle(product),description=partMetaDescription(product);
 const quoteHref=inquiryHref({id:product.slug,title,path:'/machined-parts/gallery/'+product.slug+'/',kind:'product'});
 const image=partVisual(product).src;
+const structuredEntity = describesMachiningService(product.slug)
+  ? {type: 'Service', name: title, description, image}
+  : undefined;
 ---
-<Layout title={title} description={description} articleImage={image} cta={false} headerQuoteHref={quoteHref} structuredEntity={{type:partSchemaType(product.slug),name:title,description,image}}><ProductsPart product={product} quoteHref={quoteHref}/></Layout>
+<Layout title={title} description={description} articleImage={image} cta={false} headerQuoteHref={quoteHref} structuredEntity={structuredEntity}><ProductsPart product={product} quoteHref={quoteHref}/></Layout>
 

@@ -89,22 +89,24 @@ test("aggregate API stores counters only and the admin reconciles them", async (
       }
       assert.equal(await sum(),before);
     });
-    await t.test("admin totals, trend, rankings and filters agree; internal counters stay separate", async () => {
+    await t.test("reports include both legacy internal counters and new traffic from former internal IPs", async () => {
       assert.equal((await send("/api/admin/stats")).status,401);
       assert.equal((await send("/api/admin/login",{username:"admin",password},{},true)).status,200);
+      await db.prepare("UPDATE analytics_totals SET internal=1 WHERE type='page_view'").run();
       assert.equal((await send("/api/analytics/aggregate",{events:[event("page_view")],source:"google",channel:"paid_search"},{"Cf-Connecting-IP":"203.0.113.9"})).status,200);
+      assert.equal((await db.prepare("SELECT SUM(count) total FROM analytics_totals WHERE type='page_view' AND internal=0").first()).total,1);
       const normal = await (await send("/api/admin/stats",undefined,{},true)).json();
-      assert.equal(normal.mode,"aggregate"); assert.equal(normal.current.pageViews,4); assert.equal(normal.current.productViews,2);
+      assert.equal(normal.mode,"aggregate"); assert.equal(normal.current.pageViews,5); assert.equal(normal.current.productViews,2);
       assert.equal(normal.current.contactClicks,3); assert.equal(normal.current.quoteClicks,2); assert.equal(normal.current.emailClicks,1);
       assert.equal(normal.current.visitors,undefined); assert.equal(normal.current.returningVisitors,undefined);
       assert.equal(normal.pages.reduce((sum,row)=>sum+row.views,0),normal.current.pageViews);
       assert.equal(normal.trend.reduce((sum,row)=>sum+row.pageViews,0),normal.current.pageViews);
       assert.equal(normal.breakdowns.country.reduce((sum,row)=>sum+row.views,0),normal.checks.pageViewsByCountry);
       const included = await (await send("/api/admin/stats?internal=1",undefined,{},true)).json();
-      assert.equal(included.current.pageViews,5);
+      assert.deepEqual(included.current,normal.current);
       const query = new URLSearchParams({source:"google",product:product.id,language:"en",device:"desktop",channel:"paid_search",country:"unknown"});
       const filtered = await (await send("/api/admin/stats?"+query,undefined,{},true)).json();
-      assert.equal(filtered.current.pageViews,4); assert.equal(filtered.current.emailClicks,0);
+      assert.equal(filtered.current.pageViews,5); assert.equal(filtered.current.emailClicks,0);
       const options = await (await send("/api/admin/options",undefined,{},true)).json();
       assert.ok(options.source.some(row=>row.value==="google"));
       const historical = await (await send("/api/admin/visitors",undefined,{},true)).json();

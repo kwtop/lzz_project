@@ -11,7 +11,6 @@ export interface Env {
   ADMIN_EMAILS?: string;
   TURNSTILE_SITE_KEY?: string;
   TURNSTILE_SECRET_KEY?: string;
-  INTERNAL_IPS?: string;
   LOCAL_DEVELOPMENT?: string;
   ANALYTICS_MODE?: "aggregate" | "detailed";
 }
@@ -29,30 +28,11 @@ export type Visit = {
   country: string;
   device: string;
   language: string;
-  is_returning: number;
-  internal: number;
+  first_seen: number;
+  referrer_host?: string;
+  utm_source?: string;
+  utm_medium?: string;
+  utm_campaign?: string;
 };
-export type EventType =
-  | "page_view"
-  | "product_view"
-  | "parameters_expand"
-  | "image_view"
-  | "download_click"
-  | "quote_click"
-  | "whatsapp_click"
-  | "email_click"
-  | "form_start"
-  | "form_error"
-  | "inquiry_success";
-export const publicEventTypes: readonly string[] = [
-  "page_view",
-  "product_view",
-  "parameters_expand",
-  "image_view",
-  "download_click",
-  "quote_click",
-  "whatsapp_click",
-  "email_click",
-  "form_start",
-  "form_error",
-];
+export { publicEventTypes } from "../src/lib/visitEvents";
+export type { VisitEventType as EventType } from "../src/lib/visitEvents";

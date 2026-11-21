@@ -1,27 +1,45 @@
 # LZZ Precision 独立站
 
-## 当前版本（2026-10-19）
+仓库包含英文和西语前台、询盘表单及中文管理后台。Astro 和 React 构建公开页面，目前有 192 个主站地图网址，覆盖 96 对英西语页面，以及 35 个零件参考详情的两种语言版本。
 
-Astro 7 + React 19 静态网站，包含 86 个正式 URL、35 个零件参考详情和 188 条重定向。首页、能力、零件、工厂、资源、公司与询价页面已按确认的 Penta 参考方向统一；当前视觉规范见 `DESIGN.md`，正式页面结构见 `docs/CURRENT-SITE-STRUCTURE.md`。
+厂区、零件、技术指南和采购资源的内容与媒体随源码提供。Cloudflare Pages Functions 处理询盘、访问记录和管理接口，D1 保存数据，私有 R2 保存询盘附件。管理后台使用 Cloudflare Access。
 
-当前预览：<https://preview.lzz-precision.pages.dev/>。预览设为 `noindex`；生产 canonical 仍为 `https://www.lzz-cnc.com`。推送 GitHub 与部署 Cloudflare 是独立操作，本次仓库同步不改变生产域名、DNS 或发布状态。
+## 开发与验证
 
-克隆仓库后，在项目目录执行：
+需要 Node.js 22.12 或更新版本。以下命令从项目目录启动前台开发服务。
 
-```powershell
+```shell
 npm ci
-npm run check
-npm run test:css
-npm run build
-npm run test:seo
 npm run dev -- --port 4321
 ```
 
-页面内容与响应式图片已包含在 `src/` 和 `public/`，构建不需要本地原始内容归档。旧站 URL 的可追溯快照为 `src/data/legacyUrlEvidence.json`；若默认归档存在，或显式设置 `LZZ_CONTENT_ROOT`，SEO 构建仍严格读取归档并校验映射。只有重新导入原始内容的 `npm run import:content` 需要另行提供原始归档。
+以下命令构建页面、初始化本地数据库并启动带后台的开发服务。
 
-询价仍仅准备邮件草稿，可复制、下载或打开邮件客户端；图纸附件由客户在邮件客户端添加并手动发送。没有后台上传、提交或送达功能。
+```shell
+npm run build
+npm run setup:backend
+npm run db:local
+npm run dev:backend
+```
 
-图片原始素材、提示词和采用映射按用途保存在 `design/`、`src/data/` 与 `docs/`。缓存、构建产物、本地验收截图和回退备份不纳入本次仓库同步，继续保留在本机。
+本地管理后台位于 `http://127.0.0.1:8788/admin/`，登录信息由本地初始化脚本生成。生产接入使用独立的服务绑定和密钥，部署示例见 [生产配置模板](wrangler.production.example.jsonc)。
+
+```shell
+npm run check
+npm run check:backend
+npm run test:backend
+npm run test:site
+npm run test:seo
+npm run test:tracking
+node scripts/verify-spanish.mjs
+```
+
+构建所需的内容和图片位于 `src/` 和 `public/`。旧站 URL 的证据快照位于 `src/data/legacyUrlEvidence.json`。重新导入原始内容时可用 `LZZ_CONTENT_ROOT` 指定本地归档。
+
+GitHub 保存完整项目源代码，正式域名通过独立的 Cloudflare 发布流程更新。线上入口为 [LZZ 官网](https://www.lzz-cnc.com/) 和 [正式后台](https://www.lzz-cnc.com/admin/)。
+
+<details>
+<summary>查看早期实施记录</summary>
 
 ## 早期实施记录
 
@@ -104,3 +122,5 @@ npm run test:seo
 填写内容仅在当前标签页的 `sessionStorage` 保存，按产品上下文隔离；可刷新恢复或主动清除。存储不可用不阻止生成草稿。`test:refinement` 验证这些状态、图片键盘交互及 1024px 全路由布局，也会输出临时截图路径。
 
 尚未部署。生产 origin 已设为 `https://www.lzz-cnc.com`，页面输出 canonical、独特摘要和基础 JSON-LD；构建后在 dist 生成 sitemap、robots 与 86 条精确重定向规则，覆盖归档发现的 91 个旧网址。构建需要原始归档（可通过 LZZ_CONTENT_ROOT 指定）。托管方式、真实 HTTP 重定向、HTTPS/www 统一和预览 noindex 仍需部署阶段配置并验收；无需为了上线强行增加询价后端，可保留当前真实邮件草稿流程。
+
+</details>

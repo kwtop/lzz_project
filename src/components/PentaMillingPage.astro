@@ -65,6 +65,6 @@ const requests=[
 
  <section class="pn-milling-section pn-milling-rfq" id="enquiry" data-core-section="quotation" aria-labelledby="milling-rfq-title">
   <div><h2 id="milling-rfq-title">{page.plan.rfqTitle}</h2><p>If your specification is ready, include the details below. You can also start with a question.</p><dl class="pn-milling-request-list">{requests.map(group=><div><dt>{group.name}</dt><dd>{group.items.map(text=><p>{text}</p>)}</dd></div>)}</dl></div>
-  <aside class="pn-milling-order" id="order-conditions"><h3>Order & timing</h3><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional; the quotation sets the schedule for your quantity and requirements.</p><a class="rd-button" href={quoteHref}>Request a quote</a><p class="rd-note">Add your name, destination country and preferred contact details. Drawings and a message are optional. We reply within 12 hours.</p></aside>
+  <aside class="pn-milling-order" id="order-conditions"><h3>Order & timing</h3><dl><div><dt>Minimum order</dt><dd>1 piece</dd></div><div><dt>Production</dt><dd>7-14 business days</dd></div></dl><p>After drawing and order confirmation, including finishing. Shipping time is additional; the quotation sets the schedule for your quantity and requirements.</p><a class="rd-button" href={quoteHref}>Request a quote</a></aside>
  </section>
 </div>

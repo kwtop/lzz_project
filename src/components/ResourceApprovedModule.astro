@@ -17,7 +17,7 @@ const imageAfterTable=slug==='cnc-process-selection'&&section.id==='process-comp
 const photos=(section.photos||[]).filter(source=>slug!=='custom-cnc-parts-shipping-checklist'||!['shipment-2022-order-packing','shipment-2022-prepared-load'].includes(source.id));
 const $=load(resourceHtml(section.html),null,false);
 let mediaNote='';
-if(slug==='rfq-checklist'&&section.id==='drawing-package'){const sample=$('.ce-facts>div').last();mediaNote='<h3>'+sample.find('dt').text()+'</h3><p>'+sample.find('dd').text()+'</p>';sample.remove();}
+if(slug==='rfq-checklist'&&section.id==='drawing-package'){const sample=$('.ce-facts>div').last();if(sample.length){mediaNote='<h3>'+sample.find('dt').text()+'</h3><p>'+sample.find('dd').text()+'</p>';sample.remove();}}
 if(slug==='custom-cnc-parts-shipping-checklist'&&section.id==='transport-title'){
  const paragraphs=$.root().children('p').toArray();const labels=['Production and arrival','Trade term and costs','Transport mode'];
  if(paragraphs.length===3) $.root().html('<dl class="ce-facts">'+paragraphs.map((p,i)=>'<div><dt>'+labels[i]+'</dt><dd>'+$(p).html()+'</dd></div>').join('')+'</dl>');

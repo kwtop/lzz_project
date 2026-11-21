@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
 import {load} from 'cheerio';
-import {createSelectorMatcher,pruneStylesheet} from './optimize-css.mjs';
+import {createSelectorMatcher,pruneStylesheet,shareStylesheets} from './optimize-css.mjs';
 
 const html='<html><body class="redesign-site" data-reading-path="/"><nav><details class="nav-group"><summary>Menu</summary><a href="/quote/">Quote</a></details></nav><main><h1>Part</h1><p>Details</p></main></body></html>';
 const prune=(css,classes=new Set())=>pruneStylesheet(css,createSelectorMatcher(load(html),classes)).css;
@@ -42,4 +42,27 @@ test('preserves nesting when its parent matches and removes an impossible parent
 test('preserves specificity from an unmatched parent branch in nested selectors',()=>{
  const css='#absent,main{& h1{color:red}@media(max-width:767px){& p{color:blue}}}';
  assert.equal(prune(css),css);
+});
+
+test('shares whole rules without changing cascade order, conditions or relative font URLs',()=>{
+ const shared='@font-face{font-family:X;src:url(./x.woff2)}@layer navigation{a:hover{color:red}}@media(max-width:767px){a{padding:20px}}';
+ const styles=['a{color:blue}'+shared+'a{color:green}','a{color:black}'+shared+'a{color:orange}'];
+ const chunks=shareStylesheets(styles,{minSharedBytes:1,maxGzipGrowth:Infinity});
+ for(const css of styles){
+  assert.deepEqual(chunks.get(css),[css.slice(0,css.indexOf(shared)),shared,css.slice(css.indexOf(shared)+shared.length)]);
+  assert.equal(chunks.get(css).join(''),css);
+ }
+});
+
+test('does not regroup common rules that have page-specific declarations between them',()=>{
+ const styles=['.a{color:red}.b{color:blue}.c{color:green}','.a{color:red}.other{display:grid}.b{color:blue}.c{color:green}'];
+ for(const [css,chunks] of shareStylesheets(styles,{minSharedBytes:1,maxGzipGrowth:Infinity}))assert.equal(chunks.join(''),css);
+});
+
+test('leaves small files, namespaces and costly cold-load splits intact',()=>{
+ const styles=['.a{color:red}.nav{color:green}.b{color:blue}','.a{color:black}.nav{color:green}.b{color:orange}'];
+ for(const [css,chunks] of shareStylesheets(styles))assert.deepEqual(chunks,[css]);
+ for(const [css,chunks] of shareStylesheets(styles,{minSharedBytes:1,maxGzipGrowth:0}))assert.deepEqual(chunks,[css]);
+ const namespaced=styles.map(css=>'@namespace svg url(http://www.w3.org/2000/svg);'+css);
+ for(const [css,chunks] of shareStylesheets(namespaced,{minSharedBytes:1,maxGzipGrowth:Infinity}))assert.deepEqual(chunks,[css]);
 });

@@ -5,19 +5,18 @@ import {
   HttpError,
   isLocal,
   json,
-  withCookies,
 } from "./http";
-import { login, logout, markInternalVisitor, requireAdmin } from "./auth";
-import { makeCookie, rateLimit } from "./security";
+import { login, logout, requireAdmin } from "./auth";
+import { rateLimit } from "./security";
 import { analyticsConsent, analyticsSession, forgetVisitor, recordEvents } from "./analytics";
 import { recordAggregate } from "./aggregateAnalytics";
+import {sourceDetails,eventDetails,visitDetails} from './insights';
 import { receiveInquiry } from "./inquiries";
 import {
   addNote,
   downloadFile,
   exportInquiries,
   inquiryDetail,
-  internalBrowser,
   journey,
   listInquiries,
   options,
@@ -60,24 +59,20 @@ export async function handleApi(context: Context): Promise<Response> {
       return await login(context);
     if (path.startsWith("/api/admin/")) {
       const user = await requireAdmin(request, env);
-      if (path === "/api/admin/session" && request.method === "GET") {
-        await markInternalVisitor(request, env);
-        return withCookies(
-          json({
-            authenticated: true,
-            username: user.username,
-            csrf: user.csrf,
-            authMode: env.ADMIN_AUTH_MODE || "password",
-          }),
-          [await makeCookie(request, env, "lzz_internal", "yes", 30 * 86400)],
-        );
-      }
+      if (path === "/api/admin/session" && request.method === "GET")
+        return json({
+          authenticated: true,
+          username: user.username,
+          csrf: user.csrf,
+          authMode: env.ADMIN_AUTH_MODE || "password",
+        });
       if (path === "/api/admin/logout" && request.method === "POST")
         return await logout(request, env, user);
-      if (path === "/api/admin/internal" && request.method === "POST")
-        return await internalBrowser(context, user);
       await rateLimit(request, env, "admin-read", 240, 60, user.username);
       if (request.method === "GET") {
+        if(path==='/api/admin/sources')return await sourceDetails(env,url);
+        if(path==='/api/admin/visits')return await visitDetails(env,url);
+        if(path==='/api/admin/events')return await eventDetails(env,url);
         if (path === "/api/admin/stats") return await overview(env, url);
         if (path === "/api/admin/options") return await options(env);
         if (path === "/api/admin/inquiries")

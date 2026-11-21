@@ -6,7 +6,7 @@ export type ProductSummary = {
 };
 type SummaryInput = [purpose:string, material:string, features:string, process:string, inspection:string, card:string];
 const drawingReview='Agree inspection methods and acceptance criteria for the features on your drawing.';
-const gradeReview='Specify the material grade, condition and required material records for the order.';
+export const gradeReview='Specify the material grade, condition and required material records for the order.';
 const entries:Record<string,SummaryInput> = {
  'custom-high-precision-cnc-milling-5-axis-machining-services-oem-odm': [
   'A circular component with a central opening, stepped bores and a pattern of smaller holes.',

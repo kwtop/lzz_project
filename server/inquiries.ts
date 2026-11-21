@@ -18,7 +18,6 @@ import {
   uuid,
 } from "./http";
 import {
-  internal,
   knownBot,
   random,
   rateLimit,
@@ -189,12 +188,11 @@ export async function receiveInquiry(context: Context) {
     visit =
       (payload.analyticsEnabled === true ||
         (payload.analyticsEnabled === undefined && payload.analyticsConsent === true))
-        ? await currentVisit(request, env)
+        ? await currentVisit(request, env, payload.visitId)
         : null;
   } catch {
     /* Inquiry storage works without analytics. */
   }
-  const excluded = Number((await internal(request, env)) || !!visit?.internal);
   const tracking = attribution(request, payload),
     now = Date.now();
   const uploads: string[] = [];
@@ -212,7 +210,7 @@ export async function receiveInquiry(context: Context) {
         "INSERT INTO inquiry_dedupes(payload_hash,inquiry_id,expires_at) SELECT ?,?,? WHERE NOT EXISTS(SELECT 1 FROM inquiries WHERE request_key=?) ON CONFLICT(payload_hash) DO UPDATE SET inquiry_id=excluded.inquiry_id,expires_at=excluded.expires_at WHERE inquiry_dedupes.expires_at<=?",
       ).bind(fingerprint, id, now + 15 * 60000, key, now),
       env.DB.prepare(
-        "INSERT INTO inquiries(id,request_key,payload_hash,created_at,updated_at,name,company,email,phone,contact_method,destination_country,interest,product,part_type,processes,requirements,page,source_page,language,visitor_id,visit_id,source,channel,country,device,internal) SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM inquiry_dedupes WHERE payload_hash=? AND inquiry_id=?) ON CONFLICT(request_key) DO NOTHING",
+        "INSERT INTO inquiries(id,request_key,payload_hash,created_at,updated_at,name,company,email,phone,contact_method,destination_country,interest,product,part_type,processes,requirements,page,source_page,language,visitor_id,visit_id,source,channel,country,device) SELECT ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM inquiry_dedupes WHERE payload_hash=? AND inquiry_id=?) ON CONFLICT(request_key) DO NOTHING",
       ).bind(
         id,
         key,
@@ -239,7 +237,6 @@ export async function receiveInquiry(context: Context) {
         visit?.channel || tracking.channel,
         country(request),
         device(request),
-        excluded,
         fingerprint,
         id,
       ),
@@ -264,7 +261,7 @@ export async function receiveInquiry(context: Context) {
       throw new HttpError(503, "save_failed", "询盘未能保存，请重试。");
     }
     context.waitUntil(
-      inquirySuccess(env, visit, id, page, product, lang, excluded).catch(
+      inquirySuccess(env, visit, id, page, product, lang, now).catch(
         () => {},
       ),
     );

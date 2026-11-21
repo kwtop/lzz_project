@@ -2,40 +2,43 @@
 import {footerNavigation} from '../data/footerNavigation.ts';
 import {Facebook, Linkedin, MapPin} from 'lucide-react';
 import ContactIcon from './ContactIcon.astro';
+import {englishPageFor,localHref,spanishLabel} from '../data/spanish';
 import '../styles/site-footer.css';
-interface Props {quoteHref?:string}
-const {quoteHref='/quote/?'+new URLSearchParams({source:Astro.url.pathname}).toString()}=Astro.props;
-const isQuotePage=Astro.url.pathname==='/quote/';
+interface Props {quoteHref?:string;locale?:'en'|'es'}
+const {quoteHref='/quote/?'+new URLSearchParams({source:Astro.url.pathname}).toString(),locale='en'}=Astro.props;
+const es=locale==='es';
+const isQuotePage=(es?englishPageFor(Astro.url.pathname):Astro.url.pathname)==='/quote/';
+const href=(path:string)=>es?localHref(path):path;
+const esGroups:Record<string,string>={machining:'Mecanizado',materials:'Materiales',planning:'Pedidos',parts:'Piezas CNC',resources:'Recursos',company:'Empresa y taller'};
 ---
 <footer class="lzz-footer lzz-footer--directory" id="contact" data-footer-version="directory-a">
  <div class="lzz-footer-inner">
   <div class:list={['lzz-footer-head',{'lzz-footer-head--contact-only':isQuotePage}]}>
    <div class="lzz-footer-brand">
-    <a href="/" aria-label="LZZ Precision home"><img src="/media/lzz-logo.png" alt="LZZ" width="124" height="69" loading="lazy" /></a>
-    <p>Custom CNC machining<br />in Hangzhou, China</p>
+    <a href={href('/')} aria-label={es?'Inicio de LZZ Precision':'LZZ Precision home'}><img src="/media/lzz-logo.png" alt="LZZ" width="124" height="69" loading="lazy" /></a>
    </div>
    <div class="lzz-footer-connect">
-    <h2>Tell us about your next part</h2>
+    <h2>{es?'Cuéntanos qué pieza necesitas':'Tell us about your next part'}</h2>
     <div class="lzz-footer-contacts">
-     <a class="lzz-footer-contact" href="mailto:roger@lzz-cnc.com" aria-label="Email roger@lzz-cnc.com"><ContactIcon kind="email"/><span>roger@lzz-cnc.com</span></a>
-     <a class="lzz-footer-contact lzz-footer-whatsapp" href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +86 138 5810 2479 (opens in a new tab)"><ContactIcon kind="whatsapp"/><span>+86 138 5810 2479</span></a>
+     <a class="lzz-footer-contact" href="mailto:roger@lzz-cnc.com" aria-label={es?'Correo electrónico roger@lzz-cnc.com':'Email roger@lzz-cnc.com'}><ContactIcon kind="email"/><span>roger@lzz-cnc.com</span></a>
+     <a class="lzz-footer-contact lzz-footer-whatsapp" href="https://wa.me/8613858102479" target="_blank" rel="noopener noreferrer" aria-label={es?'WhatsApp +86 138 5810 2479 (se abre en otra pestaña)':'WhatsApp +86 138 5810 2479 (opens in a new tab)'}><ContactIcon kind="whatsapp"/><span>+86 138 5810 2479</span></a>
     </div>
    </div>
-   {!isQuotePage&&<a class="lzz-footer-quote" href={quoteHref}>Request a quote</a>}
+   {!isQuotePage&&<a class="lzz-footer-quote" href={quoteHref}>{es?'Solicitar cotización':'Request a quote'}</a>}
   </div>
-  <nav class="lzz-footer-nav" aria-label="Footer navigation">
-   {footerNavigation.map(group=><section class="lzz-footer-group" data-footer-group={group.title}>
-    <h2><a href={group.href}>{group.title}</a><button class="lzz-footer-toggle" type="button" aria-label={'Show '+group.title+' links'} aria-expanded="true" aria-controls={'footer-'+group.key} hidden></button></h2>
-    <ul id={'footer-'+group.key}>{group.links.map(link=><li><a href={link.href}>{link.title}</a></li>)}</ul>
-   </section>)}
+  <nav class="lzz-footer-nav" aria-label={es?'Enlaces del pie de página':'Footer navigation'}>
+   {footerNavigation.map(group=>{const title=es?esGroups[group.key]:group.title;return <section class="lzz-footer-group" data-footer-group={title}>
+    <h2><a href={href(group.href)}>{title}</a><button class="lzz-footer-toggle" type="button" aria-label={es?'Ver enlaces de '+title:'Show '+title+' links'} aria-expanded="true" aria-controls={'footer-'+group.key} hidden></button></h2>
+    <ul id={'footer-'+group.key}>{group.links.map(link=><li><a href={href(link.href)}>{es?spanishLabel(link.href):link.title}</a></li>)}</ul>
+   </section>;})}
   </nav>
   <div class="lzz-footer-base">
-   <address class="lzz-footer-address"><MapPin size={24} aria-hidden="true"/><div>No. 4 Fengcheng Road, Pingyao, Yuhang District<br/><span>Hangzhou, Zhejiang, China · UTC+8</span></div></address>
-   <nav class="lzz-footer-social" aria-label="Follow LZZ Precision">
-    <a href="https://www.facebook.com/lzzcncmachining/" target="_blank" rel="noopener noreferrer" aria-label="LZZ Precision on Facebook (opens in a new tab)"><Facebook size={22} aria-hidden="true"/></a>
-    <a href="https://www.linkedin.com/company/lzz-cnc-machining/" target="_blank" rel="noopener noreferrer" aria-label="LZZ Precision on LinkedIn (opens in a new tab)"><Linkedin size={22} aria-hidden="true"/></a>
+   <address class="lzz-footer-address"><MapPin size={24} aria-hidden="true"/><div>{es?'No. 4 Fengcheng Road, Pingyao, distrito de Yuhang':'No. 4 Fengcheng Road, Pingyao, Yuhang District'}<br/><span>Hangzhou, Zhejiang, China · UTC+8</span></div></address>
+   <nav class="lzz-footer-social" aria-label={es?'Sigue a LZZ Precision':'Follow LZZ Precision'}>
+    <a href="https://www.facebook.com/lzzcncmachining/" target="_blank" rel="noopener noreferrer" aria-label={es?'LZZ Precision en Facebook':'LZZ Precision on Facebook (opens in a new tab)'}><Facebook size={22} aria-hidden="true"/></a>
+    <a href="https://www.linkedin.com/company/lzz-cnc-machining/" target="_blank" rel="noopener noreferrer" aria-label={es?'LZZ Precision en LinkedIn':'LZZ Precision on LinkedIn (opens in a new tab)'}><Linkedin size={22} aria-hidden="true"/></a>
    </nav>
-   <div class="lzz-footer-legal"><span>© {new Date().getFullYear()} Hangzhou Lizhizao Precision Machinery Co., Ltd.</span><a href="/privacy/">Privacy and site information</a></div>
+   <div class="lzz-footer-legal"><span>© {new Date().getFullYear()} Hangzhou Lizhizao Precision Machinery Co., Ltd.</span><a href={href('/privacy/')}>{es?'Privacidad e información del sitio':'Privacy and site information'}</a></div>
   </div>
  </div>
 </footer>
@@ -49,7 +52,7 @@ const isQuotePage=Astro.url.pathname==='/quote/';
   const setExpanded=(group:typeof groups[number],expanded:boolean)=>{
    group.list.hidden=!expanded;
    group.button.setAttribute('aria-expanded',String(expanded));
-   group.button.setAttribute('aria-label',(expanded?'Hide ':'Show ')+group.title+' links');
+   group.button.setAttribute('aria-label',document.documentElement.lang==='es'?(expanded?'Ocultar enlaces de ':'Ver enlaces de ')+group.title:(expanded?'Hide ':'Show ')+group.title+' links');
   };
   const adapt=()=>groups.forEach(group=>{group.button.hidden=!mobile.matches;setExpanded(group,!mobile.matches);});
   groups.forEach(group=>group.button.addEventListener('click',()=>setExpanded(group,group.button.getAttribute('aria-expanded')!=='true')));

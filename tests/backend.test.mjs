@@ -582,7 +582,7 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
       assert.ok(journey.inquiries.some((inquiry) => inquiry.id === inquiryId));
     });
     await t.test(
-      "return visits, filters, equal-period comparison and totals reconcile",
+      "multiple same-day visits count as one new visitor and totals reconcile",
       async () => {
         await db
           .prepare("UPDATE visits SET last_seen=? WHERE visitor_id=?")
@@ -614,7 +614,8 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
           await send("GET", "/api/admin/stats", undefined, admin)
         ).json();
         assert.equal(stats.current.visits, 2);
-        assert.equal(stats.current.returningVisitors, 1);
+        assert.equal(stats.current.visitors, 1);
+        assert.equal(stats.current.returningVisitors, 0);
         assert.equal(
           stats.range.end - stats.range.start,
           stats.range.previousEnd - stats.range.previousStart,
@@ -629,7 +630,7 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
         );
         const independent = await db
           .prepare(
-            "SELECT COUNT(*) total FROM inquiries WHERE internal=0 AND created_at>=? AND created_at<?",
+            "SELECT COUNT(*) total FROM inquiries WHERE created_at>=? AND created_at<?",
           )
           .bind(stats.range.start, stats.range.end)
           .first();
@@ -1012,7 +1013,7 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
       },
     );
     await t.test(
-      "internal visits and their inquiries are excluded by default",
+      "admin sign-in keeps the browser identity and its inquiries count by default",
       async () => {
         const staff = new Jar();
         const consent = await (
@@ -1043,18 +1044,8 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
           },
           staff,
         );
-        assert.equal(
-          (
-            await send(
-              "POST",
-              "/api/inquiries",
-              form(payload("-internal")),
-              staff,
-              { "Idempotency-Key": randomUUID() },
-            )
-          ).status,
-          200,
-        );
+        const visitorCookie = staff.values.get("lzz_visitor");
+        assert.ok(visitorCookie);
         const logged = await send(
           "POST",
           "/api/admin/login",
@@ -1063,48 +1054,37 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
         );
         assert.equal(logged.status, 200);
         const staffCsrf = (await logged.json()).csrf;
-        const normal = await (
-            await send(
-              "GET",
-              "/api/admin/stats?source=internal-qa",
-              undefined,
-              admin,
-            )
-          ).json(),
-          included = await (
-            await send(
-              "GET",
-              "/api/admin/stats?source=internal-qa&internal=1",
-              undefined,
-              admin,
-            )
-          ).json();
-        assert.equal(normal.current.visitors, 0);
-        assert.equal(normal.current.inquiries, 0);
-        assert.equal(included.current.visitors, 1);
-        assert.equal(included.current.inquiries, 1);
-        assert.equal(
-          (
-            await db
-              .prepare("SELECT internal FROM visitors WHERE id=?")
-              .bind(consent.visitorId)
-              .first()
-          ).internal,
-          1,
+        assert.equal((await send("GET", "/api/admin/session", undefined, staff)).status, 200);
+        const submitted = await send(
+          "POST",
+          "/api/inquiries",
+          form(payload("-internal")),
+          staff,
+          { "Idempotency-Key": randomUUID() },
         );
+        assert.equal(submitted.status, 200);
+        const { reference } = await submitted.json();
+        const normal = await (
+          await send("GET", "/api/admin/stats?source=internal-qa", undefined, admin)
+        ).json();
+        assert.equal(normal.current.visitors, 1);
+        assert.equal(normal.current.inquiries, 1);
+        const saved = await db.prepare("SELECT visitor_id,internal FROM inquiries WHERE id=?")
+          .bind(reference).first();
+        assert.deepEqual(saved, { visitor_id: consent.visitorId, internal: 0 });
         assert.equal(
           (
             await send(
               "POST",
               "/api/admin/internal",
-              { excluded: false },
+              { excluded: true },
               staff,
               { "X-LZZ-CSRF": staffCsrf },
             )
           ).status,
-          200,
+          404,
         );
-        assert.ok(!staff.values.has("lzz_visitor"));
+        assert.equal(staff.values.get("lzz_visitor"), visitorCookie);
         assert.ok(!staff.values.has("lzz_internal"));
         assert.equal(
           (
@@ -1113,7 +1093,7 @@ test("Cloudflare runtime: persisted inquiries, R2, auth, deduplication and analy
               .bind(consent.visitorId)
               .first()
           ).internal,
-          1,
+          0,
         );
       },
     );

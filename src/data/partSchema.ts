@@ -1,5 +1,5 @@
-// Use Service for machining scopes and mixed part collections. Concrete part
-// families use Product without offers, stock status, ratings or inferred specs.
+// Mark up pages that describe a machining service. Quote-only part references
+// use the WebPage and BreadcrumbList supplied by the shared layout.
 const serviceSubjects=new Set([
  'ultra-high-precision-machining-services',
  'global-oem-precision-machining-solutions',
@@ -18,4 +18,4 @@ const serviceSubjects=new Set([
  'precision-stainless-steel-cnc-turned-parts-manufacturer-and-316l-components-supplier',
  'small-batch-cnc-machining-manufacturer-precision-aluminum-components-hmlv',
 ]);
-export const partSchemaType=(slug:string):'Product'|'Service'=>serviceSubjects.has(slug)?'Service':'Product';
+export const describesMachiningService = (slug: string): boolean => serviceSubjects.has(slug);

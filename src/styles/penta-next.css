@@ -1,5 +1,4 @@
 /* Confirmed Penta visual language for canonical pages; archived previews stay isolated. */
-@font-face{font-family:'Roboto Condensed';src:url('/fonts/roboto-condensed-bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
 body[data-penta-sample]{--pn-forest:#AC4829;--pn-tint:#F5F3EF;--pn-paper:#F5F3EF;--pn-ink:#242724;--pn-action:#AC4829;--heading:'Roboto Condensed',Arial,sans-serif;--body:'Inter Variable',Arial,sans-serif;--ink:var(--pn-ink);--muted:#656660;--red:var(--pn-action);--surface:#F5F3EF;--border:#EEE9E2;--rd-space:var(--pn-section-space);background:var(--pn-paper);color:var(--ink);font:400 17px/1.7 var(--body);--pn-radius-object:14px;--pn-radius-photo:14px;--pn-radius-section:16px;--pn-section-space:72px;--pn-entry-size:23px;--pn-entry-large-size:26px}
 [data-penta-sample] :is(h1,h2,h3,h4){font-family:var(--heading);font-weight:700;letter-spacing:0;color:inherit;text-wrap:balance}
 [data-penta-sample] h1{font-size:clamp(44px,4.5vw,64px);line-height:1.07;max-width:23ch}

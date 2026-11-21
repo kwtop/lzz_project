@@ -125,7 +125,7 @@ body.redesign-site:has(>.site-header #main-nav[data-navigation-layout="centered"
   .site-header #main-nav .nav-panel-heading .nav-overview {justify-content:flex-start;min-height:44px;color:#AC4829;font-size:15px}
   .site-header #main-nav .nav-columns {grid-template-columns:minmax(0,1fr);gap:20px}
   .site-header #main-nav .nav-columns>div+div {border:0;padding:0}
-  .site-header #main-nav .nav-group-label {font-size:14px}
+  .site-header #main-nav .nav-group-label {font-size:var(--text-detail, .9375rem)}
   .site-header #main-nav .nav-panel-link {min-height:44px;padding:10px 8px;font-size:16px;color:#252826}
   .site-header #main-nav .nav-shortcuts {grid-template-columns:minmax(0,1fr);gap:4px}
  }

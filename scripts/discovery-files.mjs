@@ -45,6 +45,7 @@ export function llmsText(site,pages,routes){
  };
  const start=new Set(['/','/capabilities/','/machined-parts/','/factory/','/resources/','/resources/faq/','/about/contact/','/quote/']);
  add('Start here',route=>start.has(route));
+ add('Sitio en español',route=>route.startsWith('/es/'));
  add('Machining services and materials',route=>route.startsWith('/capabilities/'));
  add('Technical guides',route=>route.startsWith('/resources/technical-guides/'));
  add('RFQ and ordering',route=>route.startsWith('/resources/ordering/'));
@@ -52,7 +53,7 @@ export function llmsText(site,pages,routes){
  add('Company information',route=>['/about/','/about/company-profile/','/about/how-we-work/','/about/company-news/'].includes(route));
  add('Optional',()=>true);
  return '# LZZ Precision\n\n> Custom CNC machining in Hangzhou, China, from prototypes to small production runs.\n\n'+
-  'This English-language website covers machining services, custom-part references, technical drawing requirements and purchasing guidance for buyers and product engineers.\n\n'+
+  'The English and Spanish editions cover machining services, custom-part references, technical drawing requirements and purchasing guidance for buyers and product engineers.\n\n'+
   'The parts gallery contains reference forms. The released drawing, material specification and agreed quotation define the component and supply scope for an order. Technical guides explain design and inspection decisions; project-specific acceptance and testing requirements must be agreed for the actual part.\n\n'+
   sections.join('\n\n')+'\n';
 }

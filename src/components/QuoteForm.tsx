@@ -1,3 +1,5 @@
+import {attachmentMessage,quoteText} from "../lib/quoteSpanish";
+import {contactAttributes} from "../lib/contactTracking";
 import { useEffect, useRef, useState } from "react";
 import type { ChangeEvent, SyntheticEvent } from "react";
 import {
@@ -38,9 +40,11 @@ import { trackEvent } from "../lib/siteAnalytics";
 import type { InquiryAdapter, InquiryResult } from "../lib/inquirySubmission";
 
 type SubmissionState = "idle" | "submitting" | InquiryResult["status"];
-type Props = { references: InquiryReference[]; adapter?: InquiryAdapter };
+type Props = { references: InquiryReference[]; adapter?: InquiryAdapter; locale?: "en"|"es" };
 
-export default function QuoteForm({ references, adapter }: Props) {
+export default function QuoteForm({ references, adapter, locale="en" }: Props) {
+  const es=locale==="es";
+  const t=(message:string)=>quoteText(locale,message);
   const [context, setContext] = useState<InquiryContext>({
     part: "",
     source: "",
@@ -126,7 +130,10 @@ export default function QuoteForm({ references, adapter }: Props) {
     const combined = [...files, ...incoming];
     const nextErrors = validateAttachments(combined);
     setFileErrors(nextErrors);
-    if (!nextErrors.length) setFiles(combined);
+    if (!nextErrors.length) {
+      setFiles(combined);
+      trackEvent('attachment_select', { position: 'quote-form', product: fields.product });
+    }
     if (state !== "idle") setState("idle");
   }
 
@@ -197,6 +204,7 @@ export default function QuoteForm({ references, adapter }: Props) {
     }
     const form = event.currentTarget;
     sending.current = true;
+    trackEvent('form_submit', { position: 'quote-form', product: fields.product });
     setState("submitting");
     requestKey.current ||= crypto.randomUUID();
     const selected = references.find(
@@ -265,58 +273,49 @@ export default function QuoteForm({ references, adapter }: Props) {
   const totalBytes = files.reduce((total, file) => total + file.size, 0);
   return (
     <div className="inquiry-layout inquiry-workspace">
-      <header className="inquiry-context" data-core-section="Send an inquiry">
-        <h1>Tell us about your part</h1>
-        <p className="inquiry-lead">
-          Start with your name, destination country and contact details.
-          You can add part details or a drawing when they are available.
-        </p>
+      <header className="inquiry-context" data-core-section={t("Send an inquiry")}>
+        <h1>{t("Tell us about your part")}</h1>
         <p className="inquiry-reply">
-          <strong>We reply within 12 hours.</strong> This is the first human reply
-          after we receive your inquiry. We may need more drawing or machining
-          details before preparing a complete quote.
+          {t("You’ll hear from our team within 12 hours.")}
         </p>
         {!adapter && configuration && !configuration.connected && (
           <p className="inquiry-availability">
-            <strong>Online submission is currently unavailable.</strong> Please
-            use <a href="mailto:roger@lzz-cnc.com">email</a> or{" "}
+            <strong>{t("Online submission is currently unavailable.")}</strong>{" "}{t("Please use")}{" "}<a href="mailto:roger@lzz-cnc.com" {...contactAttributes("quote-availability-email","email_click","mailto:roger@lzz-cnc.com","Email","quote-contact","Contact LZZ")}>{t("email")}</a>{" "}{t("or")}{" "}
             <a
-              href="https://wa.me/8613858102479"
+              href="https://wa.me/8613858102479" {...contactAttributes("quote-availability-whatsapp","whatsapp_click","https://wa.me/8613858102479","WhatsApp","quote-contact","Contact LZZ")}
               target="_blank"
               rel="noopener noreferrer"
             >
               WhatsApp
             </a>{" "}
-            if you need to send an inquiry now. Your entries remain on this page
-            until you submit.
+            {t("if you need to send an inquiry now. Your entries remain on this page until you submit.")}
           </p>
         )}
       </header>
 
       <div
         className="inquiry-panel"
-        data-core-section="Contact and optional part information"
+        data-core-section={t("Contact and optional part information")}
       >
         {(context.part || context.source) && (
-          <div className="inquiry-reference" aria-label="Inquiry context">
+          <div className="inquiry-reference" aria-label={t("Inquiry context")}>
             <p>
               {context.reference?.kind === "product"
-                ? "About this part example"
+                ? t("About this part example")
                 : context.reference?.kind === "capability"
-                  ? "Machining service"
-                  : "About your inquiry"}
+                  ? t("Machining service")
+                  : t("About your inquiry")}
             </p>
             {context.part && <h2>{context.part}</h2>}
             {context.source && (
               <a href={context.source}>
-                View source page <ArrowRight size={16} aria-hidden="true" />
+                {t("View source page")}{" "}<ArrowRight size={16} aria-hidden="true" />
               </a>
             )}
-            <span>Included with your inquiry.</span>
           </div>
         )}
         <h2 id="inquiry-heading" className="sr-only">
-          Your inquiry
+          {t("Your inquiry")}
         </h2>
         <form
           className="inquiry-form"
@@ -327,12 +326,12 @@ export default function QuoteForm({ references, adapter }: Props) {
         >
           <fieldset disabled={!ready || busy || state === "sent"}>
             <legend className="sr-only">
-              Contact details, part requirements and files
+              {t("Contact details, part requirements and files")}
             </legend>
             <div className="inquiry-person-row">
               <div className="inquiry-field">
                 <label htmlFor="inquiry-name">
-                  Your name <span className="inquiry-required">(required)</span>
+                  {t("Your name")}{" "}<span className="inquiry-required">{t("(required)")}</span>
                 </label>
                 <input
                   ref={nameInput}
@@ -350,7 +349,6 @@ export default function QuoteForm({ references, adapter }: Props) {
                       name: validateInquiry(fields).name,
                     }))
                   }
-                  placeholder="Your full name"
                   aria-invalid={!!errors.name}
                   aria-describedby={
                     errors.name ? "inquiry-name-error" : undefined
@@ -362,14 +360,14 @@ export default function QuoteForm({ references, adapter }: Props) {
                     className="inquiry-field-error"
                     role="alert"
                   >
-                    {errors.name}
+                    {t(errors.name!)}
                   </p>
                 )}
               </div>
               <div className="inquiry-field">
                 <label htmlFor="inquiry-country">
-                  Destination country{" "}
-                  <span className="inquiry-required">(required)</span>
+                  {t("Destination country")}{" "}
+                  <span className="inquiry-required">{t("(required)")}</span>
                 </label>
                 <input
                   id="inquiry-country"
@@ -386,7 +384,6 @@ export default function QuoteForm({ references, adapter }: Props) {
                       country: validateInquiry(fields).country,
                     }))
                   }
-                  placeholder="Enter destination country"
                   aria-invalid={!!errors.country}
                   aria-describedby={
                     errors.country ? "inquiry-country-error" : undefined
@@ -398,14 +395,14 @@ export default function QuoteForm({ references, adapter }: Props) {
                     className="inquiry-field-error"
                     role="alert"
                   >
-                    {errors.country}
+                    {t(errors.country!)}
                   </p>
                 )}
               </div>
             </div>
             <div className="inquiry-field">
               <label htmlFor="inquiry-company">
-                Company <span className="inquiry-optional">(optional)</span>
+                {t("Company")}{" "}<span className="inquiry-optional">{t("(optional)")}</span>
               </label>
               <input
                 id="inquiry-company"
@@ -415,17 +412,16 @@ export default function QuoteForm({ references, adapter }: Props) {
                 maxLength={inquiryLimits.company}
                 value={fields.company}
                 onChange={(event) => update("company", event.target.value)}
-                placeholder="Your company name"
                 aria-invalid={!!errors.company}
               />
               {errors.company && (
                 <p className="inquiry-field-error" role="alert">
-                  {errors.company}
+                  {t(errors.company!)}
                 </p>
               )}
             </div>
             <fieldset className="inquiry-contact-method">
-              <legend>How should we reply?</legend>
+              <legend>{t("How should we reply?")}</legend>
               <div className="inquiry-method-options">
                 <label
                   className={fields.method === "phone" ? "is-selected" : ""}
@@ -439,7 +435,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                     onChange={() => chooseMethod("phone")}
                   />
                   <MessageCircle size={18} aria-hidden="true" />
-                  <span>WhatsApp / Phone</span>
+                  <span>{t("WhatsApp / Phone")}</span>
                 </label>
                 <label
                   className={fields.method === "email" ? "is-selected" : ""}
@@ -453,15 +449,15 @@ export default function QuoteForm({ references, adapter }: Props) {
                     onChange={() => chooseMethod("email")}
                   />
                   <Mail size={18} aria-hidden="true" />
-                  <span>Email</span>
+                  <span>{t("Email")}</span>
                 </label>
               </div>
               <div className="inquiry-field inquiry-contact-value">
                 <label htmlFor="inquiry-contact">
                   {fields.method === "phone"
-                    ? "WhatsApp / Phone number"
-                    : "Email address"}{" "}
-                  <span className="inquiry-required">(required)</span>
+                    ? t("WhatsApp / Phone number")
+                    : t("Email address")}{" "}
+                  <span className="inquiry-required">{t("(required)")}</span>
                 </label>
                 <input
                   ref={contactInput}
@@ -490,41 +486,41 @@ export default function QuoteForm({ references, adapter }: Props) {
                       : "you@company.com"
                   }
                   aria-invalid={!!errors[fields.method]}
-                  aria-describedby={
-                    "inquiry-contact-help" +
-                    (errors[fields.method] ? " inquiry-contact-error" : "")
-                  }
+                  aria-describedby={[
+                    fields.method === "phone" && "inquiry-contact-help",
+                    errors[fields.method] && "inquiry-contact-error",
+                  ].filter(Boolean).join(" ") || undefined}
                 />
-                <p id="inquiry-contact-help" className="inquiry-field-help">
-                  {fields.method === "phone"
-                    ? "Include your country code. We can reply by WhatsApp or phone."
-                    : "We will reply to this email address."}
-                </p>
+                {fields.method === "phone" && (
+                  <p id="inquiry-contact-help" className="inquiry-field-help">
+                    {t("Include your country code.")}
+                  </p>
+                )}
                 {errors[fields.method] && (
                   <p
                     id="inquiry-contact-error"
                     className="inquiry-field-error"
                     role="alert"
                   >
-                    {errors[fields.method]}
+                    {t(errors[fields.method]!)}
                   </p>
                 )}
               </div>
             </fieldset>
             <fieldset className="inquiry-part-fields">
               <legend>
-                About your part{" "}
-                <span className="inquiry-optional">(optional)</span>
+                {t("About your part")}{" "}
+                <span className="inquiry-optional">{t("(optional)")}</span>
               </legend>
               <div className="inquiry-field">
-                <label htmlFor="inquiry-product">Product or part example</label>
+                <label htmlFor="inquiry-product">{t("Product or part example")}</label>
                 <select
                   id="inquiry-product"
                   name="product"
                   value={fields.product}
                   onChange={(event) => update("product", event.target.value)}
                 >
-                  <option value="">Not sure / a different custom part</option>
+                  <option value="">{t("Not sure / a different custom part")}</option>
                   {references
                     .filter((item) => item.kind === "product")
                     .map((item) => (
@@ -535,7 +531,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                 </select>
               </div>
               <div className="inquiry-field">
-                <label htmlFor="inquiry-part-type">Part type</label>
+                <label htmlFor="inquiry-part-type">{t("Part type")}</label>
                 <select
                   id="inquiry-part-type"
                   name="partType"
@@ -551,10 +547,10 @@ export default function QuoteForm({ references, adapter }: Props) {
                     errors.partType ? "inquiry-part-type-error" : undefined
                   }
                 >
-                  <option value="">Select a part type</option>
+                  <option value="">{t("Select a part type")}</option>
                   {inquiryPartTypes.map((option) => (
                     <option key={option.value} value={option.value}>
-                      {option.label}
+                      {t(option.label)}
                     </option>
                   ))}
                 </select>
@@ -564,14 +560,14 @@ export default function QuoteForm({ references, adapter }: Props) {
                     className="inquiry-field-error"
                     role="alert"
                   >
-                    {errors.partType}
+                    {t(errors.partType!)}
                   </p>
                 )}
               </div>
               <fieldset className="inquiry-process-field">
-                <legend>Machining process</legend>
+                <legend>{t("Machining process")}</legend>
                 <p className="inquiry-field-help" id="inquiry-process-help">
-                  Choose all that apply. You can also select “Not sure yet”.
+                  {t("Choose all that apply. You can also select “Not sure yet”.")}
                 </p>
                 <div
                   className="inquiry-process-options"
@@ -593,20 +589,20 @@ export default function QuoteForm({ references, adapter }: Props) {
                         checked={fields.processes.includes(process.value)}
                         onChange={() => chooseProcess(process.value)}
                       />
-                      <span>{process.label}</span>
+                      <span>{t(process.label)}</span>
                     </label>
                   ))}
                 </div>
                 {errors.processes && (
                   <p className="inquiry-field-error" role="alert">
-                    {errors.processes}
+                    {t(errors.processes!)}
                   </p>
                 )}
               </fieldset>
             </fieldset>
             <div className="inquiry-field">
               <label htmlFor="inquiry-message">
-                Message <span className="inquiry-optional">(optional)</span>
+                {t("Message")}{" "}<span className="inquiry-optional">{t("(optional)")}</span>
               </label>
               <textarea
                 id="inquiry-message"
@@ -615,7 +611,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                 maxLength={inquiryLimits.message}
                 value={fields.message}
                 onChange={(event) => update("message", event.target.value)}
-                placeholder="What would you like us to make? Material, quantity and any critical features are helpful."
+                placeholder={t("What would you like us to make? Material, quantity and any critical features are helpful.")}
                 aria-invalid={!!errors.message}
                 aria-describedby={
                   errors.message ? "inquiry-message-error" : undefined
@@ -627,14 +623,14 @@ export default function QuoteForm({ references, adapter }: Props) {
                   className="inquiry-field-error"
                   role="alert"
                 >
-                  {errors.message}
+                  {t(errors.message!)}
                 </p>
               )}
             </div>
             <div className="inquiry-field inquiry-attachments">
               <label htmlFor="inquiry-choose-files">
-                Drawings or files{" "}
-                <span className="inquiry-optional">(optional)</span>
+                {t("Drawings or files")}{" "}
+                <span className="inquiry-optional">{t("(optional)")}</span>
               </label>
               <div className="inquiry-file-picker">
                 <Paperclip size={21} aria-hidden="true" />
@@ -650,7 +646,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                   }
                   aria-invalid={fileErrors.length > 0}
                 >
-                  Choose files
+                  {t("Choose files")}
                 </button>
                 <span
                   id="inquiry-files-status"
@@ -658,8 +654,8 @@ export default function QuoteForm({ references, adapter }: Props) {
                   role="status"
                 >
                   {files.length
-                    ? `${files.length} ${files.length === 1 ? "file" : "files"} selected`
-                    : "No files selected"}
+                    ? `${files.length} ${files.length === 1 ? (es?"archivo adjunto":"file selected") : (es?"archivos adjuntos":"files selected")}`
+                    : t("No files selected")}
                 </span>
                 <input
                   ref={fileInput}
@@ -670,16 +666,15 @@ export default function QuoteForm({ references, adapter }: Props) {
                   multiple
                   accept={attachmentAccept}
                   onChange={chooseFiles}
-                  aria-label="Drawings or files"
+                  aria-label={t("Drawings or files")}
                 />
               </div>
               <p id="inquiry-files-help" className="inquiry-field-help">
-                Up to {attachmentPolicy.maxFiles} files,{" "}
-                {attachmentTotalLimitLabel} total. {attachmentFormatsLabel}.
+                {es? `Hasta ${attachmentPolicy.maxFiles} archivos, ${attachmentTotalLimitLabel} en total. ${attachmentFormatsLabel.replace(" or "," o ")}.` : `Up to ${attachmentPolicy.maxFiles} files, ${attachmentTotalLimitLabel} total. ${attachmentFormatsLabel}.`}
               </p>
               {files.length > 0 && (
                 <>
-                  <ul className="inquiry-file-list" aria-label="Selected files">
+                  <ul className="inquiry-file-list" aria-label={t("Selected files")}>
                     {files.map((file, index) => (
                       <li key={file.name + file.size + index}>
                         <span>
@@ -689,7 +684,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                         <button
                           type="button"
                           onClick={() => removeFile(index)}
-                          aria-label={"Remove " + file.name}
+                          aria-label={t("Remove ") + file.name}
                         >
                           <X size={18} aria-hidden="true" />
                         </button>
@@ -697,9 +692,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                     ))}
                   </ul>
                   <p className="inquiry-file-total" aria-live="polite">
-                    {files.length} of {attachmentPolicy.maxFiles} files ·{" "}
-                    {formatFileSize(totalBytes)} of {attachmentTotalLimitLabel}{" "}
-                    selected
+                    {es? `${files.length} de ${attachmentPolicy.maxFiles} archivos · ${formatFileSize(totalBytes)} de ${attachmentTotalLimitLabel}` : `${files.length} of ${attachmentPolicy.maxFiles} files · ${formatFileSize(totalBytes)} of ${attachmentTotalLimitLabel} selected`}
                   </p>
                 </>
               )}
@@ -710,12 +703,11 @@ export default function QuoteForm({ references, adapter }: Props) {
                   role="alert"
                 >
                   <p>
-                    Those files were not added. Your earlier selection is
-                    unchanged.
+                    {t("Those files were not added. Your earlier selection is unchanged.")}
                   </p>
                   <ul>
                     {fileErrors.map((message, index) => (
-                      <li key={index}>{message}</li>
+                      <li key={index}>{attachmentMessage(locale,message)}</li>
                     ))}
                   </ul>
                 </div>
@@ -727,6 +719,7 @@ export default function QuoteForm({ references, adapter }: Props) {
                   siteKey={configuration.captchaSiteKey}
                   attempt={captchaAttempt}
                   onToken={setCaptcha}
+                  locale={locale}
                 />
               )}
               <button
@@ -742,23 +735,22 @@ export default function QuoteForm({ references, adapter }: Props) {
                 {busy ? (
                   <>
                     <span className="site-state-spinner" aria-hidden="true" />
-                    Sending inquiry…
+                    {t("Sending inquiry…")}
                   </>
                 ) : (
                   <>
-                    Send inquiry <ArrowRight size={18} aria-hidden="true" />
+                    {t("Send inquiry")}{" "}<ArrowRight size={18} aria-hidden="true" />
                   </>
                 )}
               </button>
               <p className="inquiry-send-note">
-                Submitting sends your details and selected files to LZZ for
-                follow-up.{" "}
-                <a href="/privacy/#your-inquiry">Privacy and file handling</a>
+                {t("Submitting sends your details and selected files to LZZ for follow-up.")}{" "}
+                <a href={es?"/es/privacidad/#your-inquiry":"/privacy/#your-inquiry"}>{t("Privacy and file handling")}</a>
               </p>
             </div>
           </fieldset>
           <div className="inquiry-honeypot" aria-hidden="true">
-            <label htmlFor="inquiry-website">Website</label>
+            <label htmlFor="inquiry-website">{t("Website")}</label>
             <input
               id="inquiry-website"
               name="website"
@@ -768,7 +760,7 @@ export default function QuoteForm({ references, adapter }: Props) {
           </div>
           {!ready && (
             <p className="inquiry-field-help" role="status">
-              Loading the form…
+              {t("Loading the form…")}
             </p>
           )}
           <div
@@ -785,42 +777,41 @@ export default function QuoteForm({ references, adapter }: Props) {
           >
             {busy && (
               <p>
-                Your inquiry is being submitted. Please keep this page open.
+                {t("Your inquiry is being submitted. Please keep this page open.")}
               </p>
             )}
             {state === "unavailable" && (
               <>
-                <h3>Online submission is currently unavailable</h3>
+                <h3>{t("Online submission is currently unavailable")}</h3>
                 <p>
-                  We could not submit your inquiry. Your details and selected
-                  files are still here.
+                  {t("We could not submit your inquiry. Your details and selected files are still here.")}
                 </p>
                 <p>
-                  Please <a href="mailto:roger@lzz-cnc.com">email us</a> or{" "}
+                  {t("Please")}{" "}<a href="mailto:roger@lzz-cnc.com" {...contactAttributes("quote-receipt-email","email_click","mailto:roger@lzz-cnc.com","Email","quote-contact","Contact LZZ")}>{t("email us")}</a>{" "}{t("or")}{" "}
                   <a
-                    href="https://wa.me/8613858102479"
+                    href="https://wa.me/8613858102479" {...contactAttributes("quote-receipt-whatsapp","whatsapp_click","https://wa.me/8613858102479","WhatsApp","quote-contact","Contact LZZ")}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    contact us on WhatsApp
+                    {t("contact us on WhatsApp")}
                   </a>{" "}
-                  to send your inquiry and files.
+                  {t("to send your inquiry and files.")}
                 </p>
               </>
             )}
             {state === "failed" && (
               <>
-                <h3>We could not confirm your inquiry</h3>
+                <h3>{t("We could not confirm your inquiry")}</h3>
                 <p>
                   {failureCode === "captcha"
-                    ? "Complete the verification, then send your inquiry again."
+                    ? t("Complete the verification, then send your inquiry again.")
                     : failureCode === "rate_limit"
-                      ? "Please wait before trying again. Your entries and files are still here."
-                      : "We could not confirm your inquiry was saved. Your entries and files are still here. Retrying will not create a duplicate."}{" "}
-                  You can also contact us by{" "}
-                  <a href="mailto:roger@lzz-cnc.com">email</a> or{" "}
+                      ? t("Please wait before trying again. Your entries and files are still here.")
+                      : t("We could not confirm your inquiry was saved. Your entries and files are still here. Retrying will not create a duplicate.")}{" "}
+                  {t("You can also contact us by")}{" "}
+                  <a href="mailto:roger@lzz-cnc.com" {...contactAttributes("quote-error-email","email_click","mailto:roger@lzz-cnc.com","Email","quote-contact","Contact LZZ")}>{t("email")}</a>{" "}{t("or")}{" "}
                   <a
-                    href="https://wa.me/8613858102479"
+                    href="https://wa.me/8613858102479" {...contactAttributes("quote-error-whatsapp","whatsapp_click","https://wa.me/8613858102479","WhatsApp","quote-contact","Contact LZZ")}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -832,11 +823,11 @@ export default function QuoteForm({ references, adapter }: Props) {
             )}
             {state === "sent" && (
               <>
-                <h3>Inquiry sent</h3>
-                <p>Thank you. We reply within 12 hours.</p>
+                <h3>{t("Inquiry sent")}</h3>
+                <p>{t("Thank you. We reply within 12 hours.")}</p>
                 {receipt && (
                   <p>
-                    Inquiry reference: <strong>{receipt}</strong>
+                    {t("Inquiry reference:")}{" "}<strong>{receipt}</strong>
                   </p>
                 )}
                 <button
@@ -844,17 +835,17 @@ export default function QuoteForm({ references, adapter }: Props) {
                   type="button"
                   onClick={startAgain}
                 >
-                  Send another inquiry
+                  {t("Send another inquiry")}
                 </button>
               </>
             )}
           </div>
           <noscript>
             <p className="inquiry-noscript">
-              To use this form, enable JavaScript. You can also{" "}
-              <a href="mailto:roger@lzz-cnc.com">email LZZ</a> or{" "}
-              <a href="https://wa.me/8613858102479">contact us on WhatsApp</a>{" "}
-              directly.
+              {t("To use this form, enable JavaScript. You can also")}{" "}
+              <a href="mailto:roger@lzz-cnc.com" {...contactAttributes("quote-noscript-email","email_click","mailto:roger@lzz-cnc.com","Email","quote-contact","Contact LZZ")}>{t("email LZZ")}</a>{" "}{t("or")}{" "}
+              <a href="https://wa.me/8613858102479" {...contactAttributes("quote-noscript-whatsapp","whatsapp_click","https://wa.me/8613858102479","WhatsApp","quote-contact","Contact LZZ")}>{t("contact us on WhatsApp")}</a>{" "}
+              {t("directly.")}
             </p>
           </noscript>
         </form>
@@ -862,23 +853,20 @@ export default function QuoteForm({ references, adapter }: Props) {
 
       <aside
         className="inquiry-help"
-        data-core-section="Direct contact and inquiry help"
+        data-core-section={t("Direct contact and inquiry help")}
       >
-        <h2>Contact LZZ directly</h2>
-        <p>
-          Send drawings or discuss a sample using the contact details below.
-        </p>
-        <address className="inquiry-contacts" aria-label="Contact LZZ">
-          <a className="inquiry-contact-row" href="mailto:roger@lzz-cnc.com">
+        <h2>{t("Contact LZZ directly")}</h2>
+        <address className="inquiry-contacts" aria-label={t("Contact LZZ")}>
+          <a className="inquiry-contact-row" href="mailto:roger@lzz-cnc.com" {...contactAttributes("quote-contact-email","email_click","mailto:roger@lzz-cnc.com","Email","quote-contact","Contact LZZ")}>
             <Mail size={22} strokeWidth={1.6} aria-hidden="true" />
             <span>
-              <strong>Email</strong>
+              <strong>{t("Email")}</strong>
               <span>roger@lzz-cnc.com</span>
             </span>
           </a>
           <a
             className="inquiry-contact-row"
-            href="https://wa.me/8613858102479"
+            href="https://wa.me/8613858102479" {...contactAttributes("quote-contact-whatsapp","whatsapp_click","https://wa.me/8613858102479","WhatsApp","quote-contact","Contact LZZ")}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -888,19 +876,18 @@ export default function QuoteForm({ references, adapter }: Props) {
               <span>+86 138 5810 2479</span>
             </span>
           </a>
-          <a className="inquiry-contact-row" href="/about/contact/">
+          <a className="inquiry-contact-row" href={es?"/es/empresa/contacto/":"/about/contact/"}>
             <MapPin size={22} strokeWidth={1.6} aria-hidden="true" />
             <span>
               <strong>Hangzhou, China</strong>
-              <span>Contact details &amp; workshop visits</span>
+              <span>{t("Contact details & workshop visits")}</span>
             </span>
           </a>
         </address>
         <div className="inquiry-help-note">
-          <h3>Have a drawing?</h3>
+          <h3>{t("Have a drawing?")}</h3>
           <p>
-            A drawing, material and quantity help us assess the machining route.
-            If you are starting with a sample or an idea, tell us what you have.
+            {t("A drawing, material and quantity help us assess the machining route. If you are starting with a sample or an idea, tell us what you have.")}
           </p>
         </div>
       </aside>

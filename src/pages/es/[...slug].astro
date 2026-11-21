@@ -1,0 +1,159 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import QuoteForm from '../../components/QuoteForm';
+import {siteImage,type SiteImageId} from '../../data/siteImages';
+import {evidence} from '../../data/evidence';
+import {companyNews} from '../../data/companyNews';
+import catalog from '../../data/catalog.json';
+import {partVisual} from '../../data/productsEditorial';
+import {partBrowseGroups} from '../../data/productBrowse';
+import {inquiryPartTypes,type InquiryProcess,type InquiryPartType} from '../../lib/inquiryForm';
+import {breadcrumbTrail} from '../../data/siteSections';
+import {esHref,localHref,spanishLabel,spanishPageFor,spanishPages} from '../../data/spanish';
+import spanishRelease from '../../data/spanishRelease.json';
+import type {SpanishPage} from '../../data/es/types';
+import type {InquiryReference} from '../../lib/inquiryContext';
+import '../../styles/quote-approved.css';
+import '../../styles/spanish-pages.css';
+
+export function getStaticPaths() {
+ return spanishPages.map(page=>({
+  params:{slug:page.path==='/'?undefined:page.path.slice(1,-1)},
+  props:{page},
+ }));
+}
+const {page}=Astro.props as {page:SpanishPage};
+const home=page.en==='/';
+const service=page.kind==='service';
+const quote=page.kind==='quote';
+const isPrivacy=page.en==='/privacy/';
+const imageFor=(item:SpanishPage)=>{
+ if(item.product){
+  const product=catalog.products.find(record=>record.slug===item.product);
+  if(!product)throw new Error('Unknown gallery reference '+item.product);
+  return {...partVisual(product),alt:'Vista de la pieza de referencia: '+item.title};
+ }
+ if(item.media){
+  const photo=companyNews.find(record=>record.slug===item.media);
+  if(photo?.image)return {src:photo.image,srcset:photo.imageSrcset,width:photo.imageWidth,height:photo.imageHeight,alt:'Foto del archivo de LZZ: '+item.title};
+ }
+ if(item.cover){
+  const image=evidence[item.cover]||siteImage(item.cover as SiteImageId);
+  return {...image,alt:item.alt||item.title};
+ }
+ return undefined;
+};
+const image=home?{...siteImage('home-immersive-cnc'),alt:page.alt}:imageFor(page);
+const introLinks=home?['/machined-parts/machining-examples/']:page.product?['/machined-parts/gallery/']:[];
+const parentPrefixes={parts:'/machined-parts/gallery/',examples:'/machined-parts/machining-examples/',ordering:'/resources/ordering/',guides:'/resources/technical-guides/',news:'/about/company-news/'};
+const parentPrefix=page.listing?parentPrefixes[page.listing]:undefined;
+const catalogItems=parentPrefix?spanishPages.filter(item=>item.en.startsWith(parentPrefix)&&item.en!==parentPrefix):[];
+const partGroups:Record<string,string>={housings:'Carcasas y tapas',shafts:'Ejes, racores y pasadores',blocks:'Bloques y soportes',impellers:'Impulsores',plastics:'Piezas de plástico',automotive:'Piezas para automoción',batches:'Lotes de piezas'};
+const processCategories:Record<string,InquiryProcess>={'CNC-Milling-Service':'milling','CNC-Turning-Service':'turning','5-Axis-CNC-Machining':'multi-axis','Plastic-Machined-Parts':'plastic','Casting-Machining':'castings'};
+const processCapabilities:Record<string,InquiryProcess>={'cnc-milling-service':'milling','cnc-turning-service':'turning','5-axis-cnc-machining':'multi-axis','plastic-machined-parts':'plastic','casting-machining':'castings'};
+const references:InquiryReference[]=quote?[
+ ...catalog.products.map(product=>{
+  const localized=spanishPageFor('/machined-parts/gallery/'+product.slug+'/')!;
+  const group=partBrowseGroups.find(item=>item.slugs.includes(product.slug))?.key;
+  const partType=inquiryPartTypes.some(item=>item.value===group)?group as InquiryPartType:undefined;
+  const processes=[...new Set(product.categories.map(category=>processCategories[category]).filter(Boolean))];
+  return {id:product.slug,title:localized.title,path:esHref(localized.path),kind:'product' as const,partType,processes};
+ }),
+ ...spanishPages.filter(item=>item.kind==='service').map(item=>{
+  const id=item.en.split('/')[2];
+  return {id,title:item.title,path:esHref(item.path),kind:'capability' as const,processes:processCapabilities[id]?[processCapabilities[id]]:[]};
+ }),
+]:[];
+const isNews=Boolean(page.media);
+const date=page.published&&page.published.length>4?new Intl.DateTimeFormat('es',{year:'numeric',month:'long',...(page.published.length===10?{day:'numeric'}:{}),timeZone:'UTC'}).format(new Date(page.published.length===7?page.published+'-01':page.published)):page.published;
+const trails=breadcrumbTrail(page.en,page.title);
+const localizedTrail=home?[]:trails.length?trails.map(item=>({name:spanishLabel(item.href),href:localHref(item.href)})):[{name:'Inicio',href:'/es/'},{name:page.title,href:esHref(page.path)}];
+const query=new URLSearchParams({source:esHref(page.path)});
+if(page.product)query.set('product',page.product);
+else if(service)query.set('capability',page.en.split('/')[2]);
+const quoteHref='/es/cotizacion/?'+query;
+---
+<Layout title={page.title} description={page.lead} locale="es" englishPath={page.en} localizedTrail={localizedTrail} cta={false} homeLayout={home?'penta':undefined} designPath={quote?'/quote/':undefined}
+ article={page.kind==='article'} articleAuthor={page.kind==='article'} articleImage={image?.src}
+ articleModified={page.kind==='article'&&spanishRelease.routes.includes(esHref(page.path))?spanishRelease.date:undefined}
+ socialAlt={image?.alt||'Taller de mecanizado CNC de LZZ Precision en Hangzhou'} headerQuoteHref={quoteHref}
+ structuredEntity={service?{type:'Service',name:page.title,description:page.lead,image:image?.src}:undefined}>
+ {quote?<section class="qt-page rd-wrap rd-page es-quote"><QuoteForm client:load references={references} locale="es"/></section>:<article class="es-page" data-localized-product={page.product}>
+  <header class:list={['es-intro',{'es-home':home,'es-intro--photo':image&&!home,'es-intro--part':Boolean(page.product)}]}>
+   {home&&image&&<img class="es-home-image" src={image.src} srcset={image.srcset} sizes="100vw" alt={image.alt} width={image.width} height={image.height} fetchpriority="high"/>}
+   <div class:list={['rd-wrap','es-intro-grid',{'es-intro-grid--photo':image&&!home}]}>
+    <div class="es-intro-copy">
+     {date&&<time datetime={page.published}>{date}</time>}
+     <h1>{page.title}</h1>
+     <p>{page.lead}</p>
+     {(home||page.product||service)&&<div class="es-actions">
+      <a class="rd-button" href={quoteHref}>Solicitar cotización</a>
+      {introLinks.map(link=><a class="es-quiet-link" href={localHref(link)}>{spanishLabel(link)} <span aria-hidden="true">→</span></a>)}
+     </div>}
+     {home&&<p class="es-quick-facts">ISO 9001 <span>·</span> Desde una unidad <span>·</span> Hangzhou, China</p>}
+    </div>
+    {image&&!home&&<figure class="es-feature-photo">
+     <img src={image.src} srcset={image.srcset} sizes="(max-width: 780px) 100vw, 46vw" alt={image.alt} width={image.width} height={image.height} fetchpriority="high"/>
+    </figure>}
+   </div>
+  </header>
+  {(page.sections||catalogItems.length>0)&&<div class="rd-wrap es-content">
+   {page.sections?.map(section=><section class="es-section" id={section.id}>
+    <h2>{section.title}</h2>
+    <div>
+     {section.body.map(paragraph=><p>{paragraph}</p>)}
+     {section.bullets&&<ul class="es-checklist">{section.bullets.map(point=><li>{point}</li>)}</ul>}
+     {section.links&&<ul class="es-related">{section.links.map(link=><li><a href={localHref(link)}>{spanishLabel(link)}<span aria-hidden="true"> →</span></a></li>)}</ul>}
+     {isPrivacy&&section.id==='visit-analytics'&&<div class="es-privacy-controls">
+      <button class="rd-button" type="button" data-analytics-allow>Activar el historial de visitas</button>
+      <button class="rd-button" type="button" data-analytics-deny>Desactivar la medición</button>
+      <p data-analytics-privacy-status role="status" aria-live="polite"></p>
+      <details><summary>Borrar el historial de este navegador</summary><p>Las solicitudes ya enviadas se conservan para poder responderte.</p><button class="rd-button" type="button" data-analytics-forget>Borrar historial</button></details>
+     </div>}
+    </div>
+   </section>)}
+   {page.listing==='parts'&&<form class="es-gallery-filters" aria-label="Filtros de piezas" data-es-gallery-filters hidden>
+    <label>Buscar una pieza <input type="search" name="search" placeholder="P. ej., carcasa o pasador"/></label>
+    <label>Tipo de pieza <select name="type"><option value="">Todos</option>{Object.entries(partGroups).filter(([key])=>partBrowseGroups.some(group=>group.key===key)).map(([key,label])=><option value={key}>{label}</option>)}</select></label>
+    <p role="status" aria-live="polite" data-es-gallery-count></p>
+   </form>}
+   {page.listing&&<div class:list={['es-listing',{'es-listing--visual':['parts','examples','news'].includes(page.listing)}]}>
+    {catalogItems.map(item=>{
+     const cover=imageFor(item);
+     const partTypes=item.product?partBrowseGroups.filter(group=>group.slugs.includes(item.product!)).map(group=>group.key).join(' '):undefined;
+     return <article class="es-card" data-es-part-type={partTypes}>
+      {cover&&<a href={esHref(item.path)} tabindex="-1" aria-hidden="true"><img src={cover.src} srcset={cover.srcset} alt="" role="presentation" width={cover.width} height={cover.height} sizes="(max-width: 680px) 100vw, (max-width: 990px) 50vw, 33vw" loading="lazy"/></a>}
+      <div><h2><a href={esHref(item.path)}>{item.title}</a></h2><p>{item.lead}</p></div>
+     </article>;
+    })}
+   </div>}
+   {isNews&&<p class="es-source-note"><a href={page.en} hreflang="en">Ver el reportaje y la galería completa en inglés</a></p>}
+   {page.en.startsWith('/resources/')&&page.kind==='article'&&<p class="es-source-note"><a href={page.en} hreflang="en">Consultar la guía completa en inglés</a></p>}
+   {page.en==='/about/company-profile/'&&<p class="es-source-note"><a href={page.en+'#documents'} hreflang="en">Consultar copias de los documentos de la empresa</a></p>}
+  </div>}
+ </article>}
+</Layout>
+<script>
+ const filters=document.querySelector<HTMLFormElement>('[data-es-gallery-filters]');
+ if(filters){
+  const cards=[...document.querySelectorAll<HTMLElement>('[data-es-part-type]')];
+  const count=filters.querySelector<HTMLElement>('[data-es-gallery-count]')!;
+  const normalize=(value:string)=>value.toLowerCase().normalize('NFD').replace(/\p{M}/gu,'');
+  const update=()=>{
+   const values=new FormData(filters);
+   const terms=normalize(String(values.get('search')||'')).trim().split(/\s+/).filter(Boolean);
+   const type=String(values.get('type')||'');
+   const visible=cards.filter(card=>{
+    const content=normalize(card.textContent||'');
+    const match=(!type||card.dataset.esPartType?.split(' ').includes(type))&&terms.every(term=>content.includes(term));
+    card.hidden=!match;
+    return match;
+   }).length;
+   count.textContent=visible===1?'1 referencia':visible?visible+' referencias':'No hay piezas que coincidan con esos filtros.';
+  };
+  filters.hidden=false;
+  filters.addEventListener('input',update);
+  filters.addEventListener('submit',event=>event.preventDefault());
+  update();
+ }
+</script>

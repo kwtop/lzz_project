@@ -1,25 +1,29 @@
 ---
 import {siteSections,sectionForPath} from '../data/siteSections';
-const current=Astro.url.pathname;
+import {localHref,spanishLabel} from '../data/spanish';
+const {locale='en',current=Astro.url.pathname}=Astro.props;
+const spanish=locale==='es';
+const href=(path:string)=>spanish?localHref(path):path;
+const label=(path:string,en:string)=>spanish?spanishLabel(path):en;
 const active=sectionForPath(current);
 const homeLabels:Record<string,string>={capabilities:'Capabilities',parts:'Parts',factory:'Factory',resources:'Resources',about:'About'};
 const overviewLabels:Record<string,string>={capabilities:'All capabilities',parts:'All machined parts',resources:'All resources',about:'About LZZ overview'};
 const centered=Astro.props.centered===true;
 ---
-<nav id="main-nav" aria-label="Main navigation" data-navigation-layout={centered?'centered':undefined}>
- {current!=='/'&&<div class="nav-item"><a class="nav-root" href="/">Home</a></div>}
+<nav id="main-nav" aria-label={spanish?'Menú principal':'Main navigation'} data-navigation-layout={centered?'centered':undefined}>
+ {current!=='/'&&<div class="nav-item"><a class="nav-root" href={href('/')}>{label('/','Home')}</a></div>}
  {siteSections.map(section=><div class="nav-item" data-active={active?.key===section.key||undefined}>
-  <a class="nav-root" href={section.href} aria-controls={section.children.length?'nav-panel-'+section.key:undefined} aria-expanded={section.children.length?'false':undefined} aria-current={current===section.href?'page':active?.key===section.key?'location':undefined}>{homeLabels[section.key]||section.title}</a>
+  <a class="nav-root" href={href(section.href)} aria-controls={section.children.length?'nav-panel-'+section.key:undefined} aria-expanded={section.children.length?'false':undefined} aria-current={current===section.href?'page':active?.key===section.key?'location':undefined}>{label(section.href,homeLabels[section.key]||section.title)}</a>
   {section.children.length>0&&<details name="main-navigation" class="nav-group">
-   <summary class:list={{'nav-disclosure':centered}} aria-label={'Show '+section.title+' pages'} aria-controls={'nav-panel-'+section.key} aria-expanded="false">
-    {centered?<span class="nav-disclosure-mark" aria-hidden="true">+</span>:<span class="nav-trigger-label">Show {section.title} pages</span>}
+   <summary class:list={{'nav-disclosure':centered}} aria-label={spanish?'Abrir el menú de '+label(section.href,section.title):'Show '+section.title+' pages'} aria-controls={'nav-panel-'+section.key} aria-expanded="false">
+    {centered?<span class="nav-disclosure-mark" aria-hidden="true">+</span>:<span class="nav-trigger-label">{spanish?'Ver '+label(section.href,section.title):'Show '+section.title+' pages'}</span>}
    </summary>
    <div id={'nav-panel-'+section.key} class:list={['nav-panel',section.key==='capabilities'?'nav-panel-capabilities':'nav-panel-small',section.key!=='capabilities'?'nav-panel-'+section.key:undefined]}>
     {centered&&<div class="nav-panel-heading">
-     <p class="nav-panel-title">{section.title}</p>
-     <a class="nav-overview" href={section.href} aria-current={current===section.href?'page':undefined}>{overviewLabels[section.key]}</a>
+     <p class="nav-panel-title">{label(section.href,section.title)}</p>
+     <a class="nav-overview" href={href(section.href)} aria-current={current===section.href?'page':undefined}>{spanish?'Ver la sección':overviewLabels[section.key]}</a>
     </div>}
-    {section.key==='capabilities'?<div class="nav-columns">{['Machining','Materials','Order planning'].map(group=><div><p class="nav-group-label">{group}</p>{section.children.filter(page=>page.group===group).map(page=><a class="nav-panel-link" href={page.href} aria-current={current===page.href?'page':undefined}><span>{page.title}</span></a>)}</div>)}</div>:<div class="nav-shortcuts" style={centered?{'--nav-shortcut-columns':Math.min(section.children.length,4)}:undefined}>{section.children.map(page=><a class="nav-panel-link" href={page.href} aria-current={current===page.href?'page':current.startsWith(page.href)?'location':undefined}><span>{page.title}</span></a>)}</div>}
+    {section.key==='capabilities'?<div class="nav-columns">{['Machining','Materials','Order planning'].map((group,index)=><div><p class="nav-group-label">{spanish?['Mecanizado','Materiales','Pedidos'][index]:group}</p>{section.children.filter(page=>page.group===group).map(page=><a class="nav-panel-link" href={href(page.href)} aria-current={current===page.href?'page':undefined}><span>{label(page.href,page.title)}</span></a>)}</div>)}</div>:<div class="nav-shortcuts" style={centered?{'--nav-shortcut-columns':Math.min(section.children.length,4)}:undefined}>{section.children.map(page=><a class="nav-panel-link" href={href(page.href)} aria-current={current===page.href?'page':current.startsWith(page.href)?'location':undefined}><span>{label(page.href,page.title)}</span></a>)}</div>}
    </div>
   </details>}
  </div>)}
@@ -69,7 +73,7 @@ const centered=Astro.props.centered===true;
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&hoverEnabled())closeGroups();});
  window.addEventListener('blur',closeGroups);
  nav.addEventListener('focusout',()=>{requestAnimationFrame(()=>{if(!nav.contains(document.activeElement))closeGroups();});});
- nav.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('a')){closeGroups();const header=document.querySelector('.site-header');header?.dispatchEvent(new Event('navigation:close'));header?.classList.remove('menu-open');const toggle=document.querySelector('.menu-toggle');toggle?.setAttribute('aria-expanded','false');toggle?.setAttribute('aria-label','Open navigation');}});
+ nav.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('a')){closeGroups();const header=document.querySelector('.site-header');header?.dispatchEvent(new Event('navigation:close'));header?.classList.remove('menu-open');const toggle=document.querySelector('.menu-toggle');toggle?.setAttribute('aria-expanded','false');toggle?.setAttribute('aria-label',document.documentElement.lang==='es'?'Abrir el menú':'Open navigation');}});
  matchMedia('(min-width:1100px)').addEventListener('change',closeGroups);
  desktopHover.addEventListener('change',closeGroups);
 </script>

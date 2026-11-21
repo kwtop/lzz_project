@@ -25,10 +25,12 @@ export default function InquiryCaptcha({
   siteKey,
   attempt,
   onToken,
+  locale="en",
 }: {
   siteKey: string;
   attempt: number;
   onToken: (value: string) => void;
+  locale?: "en"|"es";
 }) {
   const container = useRef<HTMLDivElement>(null),
     callback = useRef(onToken);
@@ -48,6 +50,7 @@ export default function InquiryCaptcha({
         id = widget.render(container.current, {
           sitekey: siteKey,
           action: "inquiry",
+          language: locale,
           size: container.current.clientWidth < 320 ? "compact" : "flexible",
           callback: (token: string) => callback.current(token),
           "expired-callback": () => callback.current(""),
@@ -65,15 +68,15 @@ export default function InquiryCaptcha({
       if (id)
         (window as Window & { turnstile?: Turnstile }).turnstile?.remove(id);
     };
-  }, [siteKey, attempt, retry]);
+  }, [siteKey, attempt, retry, locale]);
   return (
     <div className="inquiry-captcha">
       <div ref={container} />
       {failed && (
         <p role="alert">
-          Verification could not load.{" "}
+          {locale==="es"?"No se pudo cargar la verificación.":"Verification could not load."}{" "}
           <button type="button" onClick={() => setRetry((value) => value + 1)}>
-            Try again
+            {locale==="es"?"Volver a intentar":"Try again"}
           </button>
         </p>
       )}

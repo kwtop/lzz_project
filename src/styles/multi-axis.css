@@ -21,7 +21,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  .axis-page .axis-workshop-photos {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;align-items:start}
  .axis-page .axis-workshop-photos>.cx-evidence {width:100%;max-width:none;margin:0}
  .axis-page .axis-workshop-photos>.cx-evidence img {display:block;width:100%;height:auto;max-height:none;aspect-ratio:4/3;object-fit:contain;background:transparent;border-radius:var(--pn-radius-photo)}
- .axis-page :is(.axis-workshop-photos,.axis-source-group,.axis-inspection-opening) figcaption {font:400 13px/1.6 var(--body);color:var(--muted);margin-top:12px}
+ .axis-page :is(.axis-workshop-photos,.axis-source-group,.axis-inspection-opening) figcaption {font:400 var(--text-meta, 13px)/1.6 var(--body);color:var(--muted);margin-top:12px}
 
  .axis-page .axis-forms {background:var(--pn-tint);border-radius:var(--pn-radius-section);padding:var(--axis-panel-space);margin-inline:0}
  .axis-page :is(.axis-forms>.axis-heading,.axis-form-layout) {grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px var(--axis-column-gap)}
@@ -41,7 +41,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  .axis-page .axis-example-list h3 a:is(:hover,:focus-visible) {text-decoration:underline;text-underline-offset:4px}
  .axis-page .axis-example-list p {font-size:15px;line-height:1.7;margin:14px 0 0;max-width:35ch}
  .axis-page .axis-related {border-top:1px solid #d5d0c8;margin-top:40px;padding-top:28px;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:16px var(--axis-column-gap)}
- .axis-page .axis-related>p {margin:0;max-width:52ch;font-size:14px;line-height:1.7}
+ .axis-page .axis-related>p {margin:0;max-width:52ch;font-size:var(--text-body, 16px);line-height:1.7}
 
  .axis-page .axis-routing {border:0;padding:0;border-radius:0;background:transparent}
  .axis-page .axis-routing-grid {display:block;background:#fff;border-radius:var(--pn-radius-section);padding:48px;max-width:none}
@@ -136,7 +136,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
   .axis-page .rd-table :is(th,td) {width:auto;padding:0;border:0}
   .axis-page .rd-table tbody th {font-size:23px;line-height:1.3}
   .axis-page .rd-table td {margin-top:20px;font-size:16px;line-height:1.72;max-width:72ch}
-  .axis-page .rd-stacked td[data-label]::before {content:attr(data-label);display:block;font:400 13px/1.4 var(--body);color:var(--muted);margin-bottom:8px}
+  .axis-page .rd-stacked td[data-label]::before {content:attr(data-label);display:block;font:500 var(--text-detail, 15px)/1.5 var(--body);color:var(--muted);margin-bottom:8px}
  }
  @media(max-width:767px) {
   .axis-page {--axis-section-gap:64px;--axis-column-gap:28px;--axis-panel-space:24px}

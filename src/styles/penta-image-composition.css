@@ -14,7 +14,7 @@ body.redesign-site[data-penta-sample][data-inner-layout="penta"][data-reading-pa
  .ar-story--gallery .ar-photo-chapter .ar-chapter-photos[data-views="1"]{max-width:800px;grid-template-columns:minmax(0,1fr)}
  .ar-story--gallery .ar-chapter-photos>.ar-photo{grid-column:auto;grid-row:auto;max-width:none;width:100%;margin:0}
  .ar-story--gallery .ar-chapter-photos>.ar-photo img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:var(--ar-image-ratio);object-fit:contain;object-position:center}
- .ar-story--gallery .ar-photo figcaption{font-size:12px;line-height:1.5;margin-top:12px}
+ .ar-story--gallery .ar-photo figcaption{font-size:var(--text-meta);line-height:1.5;margin-top:12px}
  .ar-story--gallery .ar-news-context .ar-news-record{display:block;grid-template-columns:none;padding:0;background:transparent;border-radius:0}
  .ar-story--gallery .ar-news-context .ar-record-image{margin:0;width:100%;max-width:none}
  .ar-story--gallery .ar-news-context .ar-record-image .ar-photo{width:100%;max-width:none;margin:0}

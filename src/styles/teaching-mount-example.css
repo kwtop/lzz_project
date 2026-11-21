@@ -21,7 +21,7 @@
 .redesign-site .teaching-report th,.redesign-site .teaching-report td{padding:14px 12px;text-align:left;vertical-align:top;border-bottom:1px solid #DDDCD5;overflow-wrap:anywhere}
 .redesign-site .teaching-report thead{background:#242724;color:#fff}
 .redesign-site .teaching-report tbody th{font-weight:700;background:#EEE9E2}
-.redesign-site .teaching-report tbody th span{display:block;font-weight:400;font-size:13px;margin-top:4px}
+.redesign-site .teaching-report tbody th span{display:block;font-weight:400;font-size:var(--text-detail, 15px);margin-top:4px}
 .redesign-site .teaching-result{font-weight:700}
 .redesign-site .teaching-result--fail{color:#AC4829}
 .redesign-site .teaching-report .teaching-hold{border-left:3px solid #AC4829;padding:14px 16px;background:#EEE9E2;margin-top:22px}

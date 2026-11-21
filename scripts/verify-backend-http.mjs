@@ -1,4 +1,4 @@
-// Local-only smoke test. Creates one explicitly marked internal QA inquiry.
+// Local-only smoke test. Creates one inquiry with a QA name.
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -73,15 +73,13 @@ const catalog = JSON.parse(
   page = "/machined-parts/gallery/" + product.id + "/",
   run = randomUUID(),
   name = "LOCAL QA HTTP " + run.slice(0, 8);
-// Mark this synthetic browser internal before it sends totals or an inquiry.
 const login = await send("/api/admin/login", {
   method: "POST",
   body: { username, password },
 });
 assert.equal(login.status, 200);
 const session = await login.json();
-const beforeExcluded = await (await send("/api/admin/stats?source=" + analysisSource)).json();
-const beforeIncluded = await (await send("/api/admin/stats?source=" + analysisSource + "&internal=1")).json();
+const before = await (await send("/api/admin/stats?source=" + analysisSource)).json();
 const browserSession = await (
   await send("/api/analytics/session", {
     method: "POST",
@@ -163,11 +161,10 @@ const duplicate = await (
 assert.equal(duplicate.reference, receipt.reference);
 assert.equal(duplicate.duplicate, true);
 const authHeaders = { "X-LZZ-CSRF": session.csrf },
-  query = new URLSearchParams({ q: name, internal: "1" });
+  query = new URLSearchParams({ q: name });
 const list = await (await send("/api/admin/inquiries?" + query)).json();
 assert.equal(list.total, 1);
 assert.equal(list.items[0].id, receipt.reference);
-assert.equal(list.items[0].internal, 1);
 const detail = await (
   await send("/api/admin/inquiries/" + receipt.reference)
 ).json();
@@ -228,14 +225,9 @@ assert.equal(
   1,
 );
 }
-const excluded = await (await send("/api/admin/stats?source=" + analysisSource)).json(),
-  included = await (
-    await send("/api/admin/stats?source=" + analysisSource + "&internal=1")
-  ).json();
-assert.equal(excluded.current.inquiries, beforeExcluded.current.inquiries);
-assert.equal(excluded.current.pageViews, beforeExcluded.current.pageViews);
-assert.ok(included.current.inquiries >= beforeIncluded.current.inquiries + 1);
-assert.ok(included.current.pageViews >= beforeIncluded.current.pageViews + 1);
+const after = await (await send("/api/admin/stats?source=" + analysisSource)).json();
+assert.equal(after.current.inquiries, before.current.inquiries + 1);
+assert.equal(after.current.pageViews, before.current.pageViews + (aggregate ? 2 : 1));
 const html = await send("/admin/");
 assert.equal(html.status, 200);
 const text = await html.text();
@@ -269,7 +261,6 @@ const report = {
   inquiryReference: receipt.reference,
   analyticsMode: config.analyticsMode,
   anonymousVisitor: browserSession.visitorId || null,
-  internal: true,
   duplicateReference: duplicate.reference,
   fileSha256: createHash("sha256").update(bytes).digest("hex"),
   events: { accepted: first.accepted, duplicateAccepted: repeated.accepted },
@@ -278,7 +269,7 @@ const report = {
     "same request key deduplicated",
     "authenticated list/detail/notes/status/export",
     aggregate ? "aggregate totals without visitor or inquiry association" : "anonymous journey linked",
-    "internal QA excluded",
+    "QA activity included in standard reporting",
     "unauthenticated data/export/file denied",
     "logout revoked",
     "admin noindex + no-store + anti-framing",

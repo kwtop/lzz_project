@@ -3,14 +3,14 @@
   "policy": "Record significant content updates with review evidence. Omit unknown dates; never substitute build time, file mtime or event dates.",
   "pages": {
     "/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
-      "reason": "Published resource-card titles and summaries changed."
+      "lastmod": "2026-11-21",
+      "evidence": "docs/SPANISH-PAGE-PARITY-20261121.md",
+      "reason": "Published the confirmed production lead time of 7–14 business days on the English homepage."
     },
     "/resources/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
-      "reason": "Published directory, introduction or FAQ copy changed."
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Article titles or summaries updated through the shared reviewed article data in the local candidate."
     },
     "/resources/faq/": {
       "lastmod": "2026-11-08",
@@ -18,114 +18,189 @@
       "reason": "Published directory, introduction or FAQ copy changed."
     },
     "/resources/ordering/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
-      "reason": "Published directory, introduction or FAQ copy changed."
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Article titles or summaries updated through the shared reviewed article data in the local candidate."
     },
     "/resources/technical-guides/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/cloudflare-resources-release-2026-11-08.md",
-      "reason": "Published directory, introduction or FAQ copy changed."
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Article titles or summaries updated through the shared reviewed article data in the local candidate."
     },
     "/resources/ordering/cnc-machining-cost-factors/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/ordering/rfq-checklist/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/ordering/compare-cnc-machining-quotations/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/ordering/machined-prototype-approval-checklist/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/ordering/prototype-vs-small-batch-cnc/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/ordering/custom-cnc-parts-shipping-checklist/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/critical-features-cnc-drawing/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/6061-vs-7075-cnc-aluminum/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/material-and-finish-checklist/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/cnc-process-selection/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/designing-aluminum-enclosures-for-cnc-machining/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/what-to-check-before-machining-a-cast-housing/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-final-review-20261116.md",
+      "reason": "Second paragraph-level language and intent review; redundant phrasing clarified while preserving explicit core long-tail terms, conditions and examples."
     },
     "/resources/technical-guides/why-machined-plastic-parts-need-defined-measurement-conditions/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/which-aluminum-features-need-masking-before-anodizing/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/datums-and-hole-position-on-circular-machined-parts/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/choosing-thread-and-seal-requirements-for-machined-fittings/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/preparing-an-impeller-model-for-5-axis-machining/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-final-review-20261116.md",
+      "reason": "Second paragraph-level language and intent review; redundant phrasing clarified while preserving explicit core long-tail terms, conditions and examples."
     },
     "/resources/technical-guides/specifying-a-billet-intake-manifold-for-machining/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/what-matters-when-ordering-a-custom-indexing-plunger/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-language-cleanup-20261116.md",
+      "reason": "Removed audited repetition and awkward phrasing while preserving core long-tail terms, intent and prior links; fitting guide gained two contextual internal links."
     },
     "/resources/technical-guides/how-to-specify-fits-and-runout-on-turned-parts/": {
-      "lastmod": "2026-11-08",
-      "evidence": "docs/RESOURCE-HUMANIZER-20261108.md",
-      "reason": "Article wording reviewed and edited; matches its visible update date and Article.dateModified."
+      "lastmod": "2026-11-16",
+      "evidence": "docs/resource-final-review-20261116.md",
+      "reason": "Second paragraph-level language and intent review; redundant phrasing clarified while preserving explicit core long-tail terms, conditions and examples."
+    },
+    "/machined-parts/machining-examples/turning-then-milling-cylindrical-parts/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/five-axis-machining-multi-face-parts/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/two-stage-cnc-milling/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/milling-a-pocketed-enclosure-form/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/milling-prismatic-components/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/29-inch-display-housing-cnc-machining/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/custom-metal-parts-batch-examples/": {
+      "lastmod": "2026-11-20",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Corrected the description of the tray image and clarified which records to request for cleanliness, inspection and dispatch."
+    },
+    "/about/company-news/november-2025-hangzhou-lizhizao-group-activity/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/about/company-news/china-africa-west-lake-summit-2025/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/about/company-news/may-2025-lzz-team-outing/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/about/company-news/australian-customer-workshop-visit-january-2025/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/about/company-news/lzz-team-outing-2024/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Reader-question editorial revision; metadata, source limits and search intent reviewed in the local candidate."
+    },
+    "/machined-parts/machining-examples/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Article titles or summaries updated through the shared reviewed article data in the local candidate."
+    },
+    "/about/company-news/": {
+      "lastmod": "2026-11-12",
+      "evidence": "docs/article-editorial-review.md",
+      "reason": "Article titles or summaries updated through the shared reviewed article data in the local candidate."
     }
   }
 }

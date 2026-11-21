@@ -1,5 +1,7 @@
 import resourceRoutes from './resourceRoutes.json';
 import {resourceSearchCopy} from './resourceSearchReview';
+import {caseStories} from './caseStories';
+import {companyNews} from './companyNews';
 export const siteOrigin='https://www.lzz-cnc.com';
 // Search titles follow the current canonical page hierarchy.
 export const pageTitles:Record<string,string>={
@@ -11,13 +13,10 @@ export const pageTitles:Record<string,string>={
  '/machined-parts/gallery/small-batch-cnc-machining-manufacturer-complex-aluminum-housings/':'Lid & gasket aluminum housings: sealing interfaces',
  '/about/':'About LZZ: CNC machining in Hangzhou',
  '/factory/quality/':'CNC part inspection & quality control',
- '/machined-parts/machining-examples/custom-metal-parts-batch-examples/':'Metal part batches: shafts, fittings & housings',
- '/machined-parts/machining-examples/custom-plastic-parts-ptfe-pom-pe-acrylic/':'Plastic parts: PTFE, POM, PE & acrylic',
- '/machined-parts/machining-examples/five-axis-machining-multi-face-parts/':'5-axis machining for multi-face parts',
- '/machined-parts/machining-examples/milling-prismatic-components/':'CNC milling for prismatic parts',
- '/about/company-news/australian-customer-workshop-visit-january-2025/':'Australian customer workshop visit',
  '/resources/ordering/':'CNC Machining RFQ, Quotation and Ordering Guides',
  '/resources/technical-guides/':'CNC Machining Technical Guides: Parts, Fits and Materials',
+ ...Object.fromEntries(Object.entries(caseStories).map(([slug,story])=>['/machined-parts/machining-examples/'+slug+'/',story.title])),
+ ...Object.fromEntries(companyNews.map(article=>['/about/company-news/'+article.slug+'/',article.title])),
  ...Object.fromEntries(Object.entries(resourceSearchCopy).map(([slug,copy])=>[resourceRoutes.guides[slug as keyof typeof resourceRoutes.guides],copy.seoTitle])),
 };
 export const pageDescriptions:Record<string,string>={

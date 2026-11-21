@@ -14,51 +14,51 @@ const news=(group:string,article:Resource):Resource=>{
 export const companyNews:Resource[]=[
  news('team-november-2025',{
   slug:'november-2025-hangzhou-lizhizao-group-activity',
-  title:'A November team day outdoors',category:'Company news',
+  title:"LZZ Team Barbecue and Outing, November 2025",category:'Company news',
   eventDate:'2025-11-30',eventDateLabel:'30 November 2025',
-  description:'The LZZ team gathered outdoors on 30 November 2025 for a barbecue and shared meal, with group photographs beside the water.',
+  description:"Photographs from the LZZ team outing on 30 November 2025: a barbecue, a shared meal and group portraits beside the water.",
   source:'https://www.lzz-cnc.com/article/November-2025:-Hangzhou-Lizhizao-Group-Activity',
-  html:`<p>On 30 November 2025, the LZZ team gathered for a barbecue and meal beneath an outdoor canopy. Colleagues posed for group photographs beside the water and under the company activity banner.</p>
+  html:`<p>A barbecue, a shared meal and time beside the water brought the LZZ team together on 30 November 2025. The photographs include the meal beneath a canopy and group portraits by the water and company activity banner.</p>
   <h2>A shared meal outdoors</h2><p>The day included food prepared at the barbecue and a meal beneath a canopy.</p>
   <h2>Photographs from the team day</h2>${gallery('team-november-2025')}
   <p>Learn more about the company on our <a href="/about/">About LZZ</a> page, or see the <a href="/factory/">workshop where the team works</a>.</p>`,
  }),
  news('china-africa-summit',{
   slug:'china-africa-west-lake-summit-2025',
-  title:'LZZ at the China-Africa West Lake Summit',category:'Company news',
+  title:"LZZ at the China-Africa West Lake Summit 2025",category:'Company news',
   eventDate:'2025-11-19',eventDateLabel:'19 November 2025',
-  description:'LZZ representatives attended the China-Africa West Lake Summit in Hangzhou, with a company display introducing its custom machining services.',
-  html:`<p>LZZ representatives attended the China-Africa West Lake Summit in Hangzhou on 19 November 2025. The company display introduced our custom machining services and examples of machined components.</p>
+  description:"LZZ representatives attended the China-Africa West Lake Summit in Hangzhou on 19 November 2025, displaying custom machining services and part examples.",
+  html:`<p>LZZ representatives attended the China-Africa West Lake Summit in Hangzhou on 19 November 2025. A company display introduced our custom machining services alongside examples of machined components.</p>
   <h2>Introducing LZZ’s machining services</h2><p>The gallery shows LZZ representatives beside the company display and event backdrop, with views of the conference hall.</p><p>For a closer look at the work introduced at the event, explore our <a href="/capabilities/">machining capabilities</a> and <a href="/machined-parts/">part examples</a>.</p>
   <h2>Photographs from the event</h2>${gallery('china-africa-summit')}
   <p>Read more about <a href="/about/">LZZ and its Hangzhou workshop</a>.</p>`,
  }),
  news('team-may-2025',{
   slug:'may-2025-lzz-team-outing',
-  title:'LZZ team outing in May 2025',category:'Company news',
+  title:"LZZ Team Outing in May 2025",category:'Company news',
   eventDate:'2025-05',eventDateLabel:'May 2025',
-  description:'The LZZ team shared an outdoor meal during the May 2025 outing, then gathered for photographs along lantern-lit streets.',
-  html:`<p>During the May 2025 outing, colleagues shared an outdoor meal beneath a canopy. In the evening, the team posed for photographs along lantern-lit streets.</p>
+  description:"An outdoor meal and an evening along lantern-lit streets: photographs from the LZZ team outing in May 2025.",
+  html:`<p>The May 2025 team outing began with an outdoor meal beneath a canopy. Later photographs follow the group into lantern-lit streets, with a portrait together and a stop for food.</p>
   <h2>A meal and evening photographs</h2><p>The photographs include food stops and evening group portraits, with the team beside a stone railing and outside a building.</p>
   <h2>Photographs from the outing</h2>${gallery('team-may-2025')}
   <p>For more about the team’s working environment, visit <a href="/factory/">the LZZ workshop</a>.</p>`,
  }),
  news('australian-visit',{
   slug:'australian-customer-workshop-visit-january-2025',
-  title:'An Australian customer visits the LZZ workshop',category:'Company news',
+  title:"Australian Customer Visits LZZ’s CNC Workshop",category:'Company news',
   eventDate:'2025-01-07',eventDateLabel:'7 January 2025',
-  description:"An Australian customer toured our Hangzhou CNC workshop and discussed machined components with the team.",
-  html:`<p>An Australian customer visited our Hangzhou workshop on 7 January 2025. The customer toured the CNC machines and discussed machined components with the LZZ team.</p>
+  description:"An Australian customer visited the LZZ CNC workshop in Hangzhou on 7 January 2025 to tour the machines and discuss machined components.",
+  html:`<p>An Australian customer visited our Hangzhou workshop on 7 January 2025. The visit included a tour of the CNC machines and a discussion of machined components with the LZZ team.</p>
   <h2>From the machines to the parts</h2><p>The customer and team examined a component on the workshop floor and also discussed a part at a table. The photographs below record the tour and part review.</p>
   <h2>Photographs from the visit</h2>${gallery('australian-visit')}
   <p>See more of <a href="/factory/">our machining workshop</a> and the <a href="/machined-parts/machining-examples/">process studies photographed on the production floor</a>.</p>`,
  }),
  news('team-2024',{
   slug:'lzz-team-outing-2024',
-  title:'A rainy day out with the LZZ team',category:'Company news',
+  title:"LZZ Team Outing in 2024: A Rainy Day Together",category:'Company news',
   eventDate:'2024',eventDateLabel:'2024',
-  description:'The LZZ team travelled by coach for a rainy day out in 2024, sharing a meal and taking group photographs beside the water.',
-  html:`<p>Rain accompanied the 2024 team outing. Colleagues gathered with umbrellas beneath the company banner, travelled by coach and shared a meal during a day out beside the water.</p>
+  description:"The LZZ team travelled by coach for an outing in 2024, sharing a meal and gathering with umbrellas for photographs beside the water.",
+  html:`<p>Umbrellas feature in the photographs from our 2024 team outing. The team travelled by coach, shared a meal and gathered beside the water for a portrait beneath the company banner.</p>
   <h2>A day away from the machines</h2><p>The gallery follows the coach trip and meal, with a group portrait on a bridge. Later photographs show the team walking through the visitor area and stopping at the bumper cars.</p>
   <h2>Photographs from the outing</h2>${gallery('team-2024')}
   <p>Learn more <a href="/about/">about LZZ</a>, including the company’s history and workshop.</p>`,

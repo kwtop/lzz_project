@@ -80,7 +80,7 @@ if(!process.argv.includes('--unit')&&fs.existsSync('dist/quote/index.html')) {
  assert.equal(form.find('input[type="file"]').attr('accept'),attachmentAccept);
  assert.equal(form.find('[name="contact"],[name="project"]').length,0);
  assert.equal(form.find('button[type="submit"]').text().trim(),'Send inquiry');
- assert.match($('.inquiry-reply').text(),/We reply within 12 hours\./);
+ assert.match($('.inquiry-reply').text(),/\bwithin 12 hours\./);
  assert.doesNotMatch($('main').text(),/Prepare.*draft|Copy draft|Save draft|Clear saved input/i);
 }
 console.log('Inquiry: required buyer details, selected contact channel, process selection, attachment limits, transport results and built form passed.');

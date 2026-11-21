@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "node scripts/generate-backend-catalog.mjs && astro build && node scripts/optimize-css.mjs && node scripts/build-seo.mjs",
+    "build": "node scripts/generate-backend-catalog.mjs && astro build && node scripts/spanish-pages.mjs && node scripts/annotate-analytics.mjs && node scripts/optimize-css.mjs && node scripts/build-seo.mjs",
     "test:css": "node --test scripts/optimize-css.test.mjs",
     "build:seo": "node scripts/build-seo.mjs",
     "build:images": "node scripts/generate-responsive-images.mjs",
@@ -24,7 +24,8 @@
     "test:admin-ui": "node --test tests/admin-ui.test.mjs",
     "test:quote-ui": "node --test tests/quote-ui.test.mjs",
     "test:analytics-ui": "node --test tests/analytics-ui.test.mjs",
-    "test:backend-http": "node scripts/verify-backend-http.mjs"
+    "test:backend-http": "node scripts/verify-backend-http.mjs",
+    "test:tracking": "node scripts/verify-analytics.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^6.0.5",

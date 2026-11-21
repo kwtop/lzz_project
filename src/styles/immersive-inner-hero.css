@@ -14,15 +14,13 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  .ii-copy {width:50%;max-width:560px}
  main .ii-hero h1 {font:700 clamp(56px,5.3vw,80px)/1.04 var(--heading);letter-spacing:-.02em;max-width:18ch;margin:0 0 28px;color:#fff;text-wrap:balance}
  .ii-hero .ii-lead {font:400 18px/1.65 var(--body);max-width:55ch;margin:0;color:#F5F3EF}
- .ii-hero .ar-legal {font:400 13px/1.65 var(--body);max-width:57ch;margin:18px 0 0;color:#DDDCD5}
+ .ii-hero .ar-legal {font:400 var(--text-meta)/1.65 var(--body);max-width:57ch;margin:18px 0 0;color:#DDDCD5}
  .ii-actions {display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:32px}
- .ii-hero .ii-action {display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 20px;border:1px solid;border-radius:5px;color:#fff;font:500 14px/1.4 var(--body);text-decoration:none}
+ .ii-hero .ii-action {display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 20px;border:1px solid;border-radius:5px;color:#fff;font:500 var(--text-action)/1.4 var(--body);text-decoration:none}
  .ii-hero .ii-action--primary {background:#AC4829;border-color:#AC4829}
  .ii-hero .ii-action--primary:hover {background:#8F3A21;border-color:#8F3A21;color:#fff}
  .ii-hero .ii-action--secondary {background:#0b101459;border-color:#ffffff8c}
  .ii-hero .ii-action--secondary:hover {background:#ffffff1f;border-color:#fff;color:#fff}
- .ii-hero .ii-credential {display:flex;flex-wrap:wrap;gap:10px 16px;margin:35px 0 0;color:#E0DED8;font:400 12px/1.6 var(--body)}
- .ii-credential span+span::before {content:'·';margin-right:16px}
  .rh-page {margin-top:0}
  .ar-workflow .ii-hero {margin-bottom:0}
  .ar-workflow .ar-process-journey {padding-top:58px}
@@ -40,25 +38,21 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
   .ii-hero::before {background:linear-gradient(180deg,#080d128c 0%,#080d1280 19%,#080d1226 28%,#080d1200 36%,#080d12ad 45%,#080d12ed 68%,#080d12f5 100%)}
  }
  @media(max-width:767px) {
-  main#main>.site-breadcrumb {top:calc(var(--site-nav-height,100px) + 24px);width:calc(100% - 40px);font-size:11px;line-height:1.6}
+  main#main>.site-breadcrumb {top:calc(var(--site-nav-height,100px) + 24px);width:calc(100% - 40px);font-size:var(--text-meta);line-height:1.6}
   .ii-hero {align-items:flex-end;min-height:min(760px,100svh);margin-bottom:58px;padding:clamp(160px,28svh,260px) 0 clamp(22px,4svh,34px)}
   .ii-inner {width:calc(100% - 40px)}
   .ii-copy {width:100%;max-width:none}
   .ii-hero::before {background:linear-gradient(180deg,#080d128c 0%,#080d1280 19%,#080d1226 28%,#080d1200 36%,#080d12ad 45%,#080d12ed 68%,#080d12f5 100%)}
   main .ii-hero h1 {font-size:42px;line-height:1.04;max-width:19ch;letter-spacing:-.015em;margin-bottom:21px}
-  .ii-hero .ii-lead {font-size:15.5px;line-height:1.65;max-width:none}
-  .ii-hero .ar-legal {font-size:12px;line-height:1.6;margin-top:16px}
+  .ii-hero .ii-lead {font-size:var(--text-body);line-height:1.65;max-width:none}
+  .ii-hero .ar-legal {font-size:var(--text-meta);line-height:1.6;margin-top:16px}
   .ii-actions {gap:10px;margin-top:25px}
-  .ii-hero .ii-action {min-height:46px;font-size:12px;padding:12px 14px}
-  .ii-hero .ii-credential {font-size:11px;gap:8px 10px;margin-top:27px}
-  .ii-credential span+span::before {margin-right:10px}
+  .ii-hero .ii-action {min-height:46px;font-size:var(--text-action);padding:12px 14px}
   .ar-workflow .ar-process-journey {padding-top:35px}
  }
  @media(max-width:359px) {
   main .ii-hero h1 {font-size:38px}
-  .ii-hero .ii-action {font-size:11px;padding-inline:11px}
-  .ii-hero .ii-credential {gap:7px}
-  .ii-credential span+span::before {margin-right:7px}
+  .ii-hero .ii-action {font-size:var(--text-action);padding-inline:11px}
  }
  @media(min-width:768px) and (max-height:820px) {
   main .ii-hero h1 {font-size:clamp(42px,8svh,64px)}
@@ -66,8 +60,7 @@ body.redesign-site[data-penta-sample][data-page-template][data-visual-system][da
  @media(max-width:767px) and (max-height:720px) {
   .ii-hero {padding-top:160px}
   main .ii-hero h1 {font-size:32px;margin-bottom:16px}
-  .ii-hero .ii-lead {font-size:15px;line-height:1.55}
+  .ii-hero .ii-lead {font-size:var(--text-body);line-height:1.55}
   .ii-actions {margin-top:20px}
-  .ii-hero .ii-credential {margin-top:16px}
  }
 }

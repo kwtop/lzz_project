@@ -1,14 +1,187 @@
 /** Enabled one URL at a time after an individual reading and image review. */
 export type StudyReadingPolish={familyVideoDescriptions?:Record<string,string>;familyMediaTogether?:boolean;familyPhotos?:Record<string,string[]>;posterFirst?:boolean;videoWithSetup?:boolean;heroImage?:{id:string;alt:string;caption:string;crop?:boolean};setupImage?:{id:string;alt:string;caption:string};questionInSetup?:boolean;setupCaption?:string;acceptanceLayout?:'table';acceptanceTitles?:string[];sequenceNote?:string|false;acceptanceHeading?:string;omitVisible?:boolean;compactResources?:boolean;heroIntro?:string;setupIntro?:string;stepText?:string[];acceptanceText?:string[];conditionsFirst?:boolean;quietClips?:boolean;omitFamilyIntros?:string[];omitClipEvidenceRow?:boolean;familyAcceptance?:Record<string,string>};
 export const studyReadingPolish:Record<string,StudyReadingPolish>={
- "custom-metal-parts-batch-examples":{"conditionsFirst":true,"quietClips":true,"omitFamilyIntros":["batch-handling"],"omitClipEvidenceRow":true,"familyAcceptance":{"batch-handling":'Specify the cleanliness limits, cleaning method and dimensional records required before packing and shipment.'},"posterFirst":true,"familyVideoDescriptions":{"batch-handling":"Small metal components handled in a blue tray."}},
- "custom-plastic-parts-ptfe-pom-pe-acrylic":{"conditionsFirst":true,"quietClips":true,"omitFamilyIntros":["pe"],"familyMediaTogether":true,"familyPhotos":{"acrylic":["plastic-acrylic-detail"]},"posterFirst":true},
- "29-inch-display-housing-cnc-machining":{"heroIntro":"The broad display housing has recessed faces, slots and mounting features. Support beneath the panel matters during both cutting and measurement.","setupIntro":"The panel rests across the machine table with its internal face accessible beneath the spindle. We use the actual enclosure dimensions, support points and permitted clamp contact to plan tool reach and operation order.","stepText":["Broad or thin sections need support beneath the stock. Fixture contact must protect the visible surfaces and fitted interfaces.","The cutter needs access to recesses, slots and edges across the supported panel. Flatness is checked under the specified measurement condition and support arrangement.","We plan checks for flatness, hole positions, mating edges and appearance. Mounting datums locate narrow edge details; the drawing identifies visible faces, finish, measurement support and dimensions after treatment."],"acceptanceText":["Specify overall dimensions, wall thickness and support areas, with agreed flatness and measurement support for the panel.","Define slot positions, profiles and common datums. Agree methods for checking position and contour.","Specify hole patterns, face relationships, finish and masked interfaces, with final dimensions after treatment and cosmetic acceptance."],"videoWithSetup":true,"omitVisible":true,"compactResources":true,"sequenceNote":false,"setupCaption":"Original workshop photograph · the panel is supported across the machine table. Confirm the support and clamping arrangement for your drawing.","acceptanceHeading":"Check the panel in its agreed support condition"},
- "milling-prismatic-components":{"heroIntro":"Mounting faces provide the references for bores, pockets and openings. These datums and the accessible holding orientations determine the milling route.","setupIntro":"Locating faces provide the references for the bores and pockets. We review the model to establish the holding orientations and any repositioning included in the quote.","stepText":["The drawing locates bores and pockets from the mounting datums, with sizes and fits specified. We use these relationships, stock details and clamping restrictions to plan the setup.","Each orientation must leave a clear cutter approach. We review repositioning against the drawing’s flatness, pocket depths and mating surfaces, including dimensions affected by treatment.","Each part number has its own drawing revision and quantity. Its inspection plan covers critical dimensions and positions, sampling and report format."],"acceptanceText":["Define critical dimensions and common datums for bores and hole patterns, with the positional measurement method and records.","Define locating faces, pocket depths and mounting interfaces. Agree flatness and dimensional checks.","Define feature relationships across setups, with datum-transfer checks and a sampling plan."],"heroImage":{"id":"multi-feature-milling-operation","crop":true,"alt":"Prismatic components held in vises beneath a milling spindle.","caption":"Real crop from the original workshop photograph · the visible holding and tool access."},"setupImage":{"id":"multi-feature-milling-parts","alt":"Separate block-shaped component forms with machined faces, holes and openings.","caption":"Independent component-form reference. Sampling and dimensional consistency require order-specific measurement records."},"sequenceNote":false,"omitVisible":true,"acceptanceHeading":"Checking bores and mounting faces across setups","compactResources":true},
- "milling-a-pocketed-enclosure-form":{"heroIntro":"A pocketed part needs enough material around its recesses to support cutting and retain the mounting features. Wall thickness, cutter access and mating interfaces determine the machining approach.","setupIntro":"Cavity depth, wall thickness, corner radii and mounting datums belong in the same model. Cutter access and protected clamping surfaces determine the proposed route.","stepText":["We check the model for tool reach, internal geometry and corner radii, including any permitted radius changes. Pocket depth, minimum walls and available clamping faces determine access and support.","Shared datums relate the pockets, bores and mounting features. The setup needs room for tools and clamps, with support for minimum walls and protection for specified areas.","Mounting datums locate the holes and bores for depth, wall-thickness, position and mating-surface checks. Seal lands, cosmetic faces and dimensions after finishing have their own acceptance requirements."],"acceptanceText":["Specify pocket depth, corner radius, wall thickness and machining allowance. Agree depth and remaining-wall checks from the drawing.","Define datum faces, hole positions and mating interfaces, with position, flatness and sealing-face acceptance.","Define treatment and protected dimensions, with final-dimensional and cosmetic acceptance."],"heroImage":{"id":"milling-enclosure-parts","alt":"Separate pocketed component forms with circular recesses, flat faces and mounting holes.","caption":"Independent component-form reference · a common part or machining sequence with the workshop setup is not established."},"setupCaption":"Real crop from the original workshop photograph. Exact material, cavity depth and wall thickness come from your drawing.","sequenceNote":false,"omitVisible":true,"acceptanceLayout":"table","acceptanceHeading":"Checking the cavity, interfaces and final finish","compactResources":true},
- "turning-then-milling-cylindrical-parts":{"heroIntro":"After turning, a component may need milling for flats, slots or holes away from the axis. The turned axis and locating face provide references for that work.","setupIntro":"Off-axis holes, slots and flats are located from the turned datum axis and a shoulder or face.","stepText":["The drawing defines working diameters, the bore, shoulders and axial dimensions. Where assembly depends on them, the datum axis sets radial relationships and a shoulder or face sets axial location.","We locate the milling setup from the turned features while leaving the off-axis geometry accessible. An angular datum fixes the orientation of holes, slots and flats around the axis.","The inspection plan sets diameter, runout and position checks and where to measure them. The drawing defines edge and final-surface acceptance at burr-sensitive intersections, threads and sealing or sliding surfaces."],"acceptanceText":["Define the datum axis, mating diameters, shoulders and axial dimensions, with diameter and runout requirements.","Locate holes and slots relative to the turned axis. Agree position checks using the secondary locating datums.","Define deburring, surface finish and final acceptance state, with thread, edge and final-surface checks."],"heroImage":{"id":"turn-mill-operation","crop":true,"alt":"Cylindrical components held beneath the milling spindle after turning.","caption":"Real crop from the original subsequent-milling photograph. The steps below are planning inputs for a new drawing."},"setupImage":{"id":"turn-mill-parts","alt":"Separate circular components with central bores, flange holes and machined details.","caption":"Independent component-form reference · a shared part, order or machining sequence is not established."},"questionInSetup":true,"sequenceNote":false,"omitVisible":true,"compactResources":true,"acceptanceHeading":"Check the axis, off-axis features and final surfaces"},
- "five-axis-machining-multi-face-parts":{"heroIntro":"Rotary workholding gives access to holes, side openings and contours on several faces. For a similar part, we review the common datums, cutter clearance and measurement access together.","setupIntro":"Front-face holes and the curved side opening require access from different directions. Their common datums must remain usable around the rotary fixture.","stepText":["We identify the faces and openings to reach, then check blank size, tool reach and fixture clearance. Protected surfaces and common datums determine how to hold the part while preserving its assembly relationships.","Your complete model and mating envelope let us check locating methods and tool directions around the rotary assembly. Side openings and contours must remain accessible in every planned orientation.","Positions and profiles are measured from shared datums using the agreed methods and reports. Indexed positioning reaches angled faces at fixed orientations. Continuous contours need a separate review of simultaneous motion and tool paths."],"acceptanceText":["Define common datums and positional relationships for angled holes and side openings. Agree position checks against that datum system.","Supply the model revision, tool-clearance and protected-surface requirements. Agree profile comparison and permitted tool marks.","Specify exact material and requirements for your own part, with order-specific records."],"heroImage":{"id":"five-axis-parts","alt":"Separate machined component forms with pockets, holes and contoured edges.","caption":"Independent component-form reference · a common part or machining sequence with the rotary setup is not established."},"acceptanceLayout":"table","acceptanceHeading":"Position, profile and inspection records","omitVisible":true,"compactResources":true,"acceptanceTitles":["Angled holes & side openings","Contours & restricted access","Material & order-specific records"],"sequenceNote":false},
- "two-stage-cnc-milling":{"setupIntro":"A second holding orientation gives the cutter access to another face. Locating it from surfaces made in the first operation preserves feature relationships while leaving room for clamping.","stepText":["For a new part, we start with the dimensions linking opposite or adjacent faces. Those relationships, stock dimensions and support needs determine the first operation.","The drawing identifies functional datums, critical relationships and surfaces that cannot be clamped. With stock dimensions and known clamping restrictions, we can review locating surfaces, tool reach and jaw contact for each setup.","After both setups, we check the dimensions connecting them. The inspection plan identifies which features to measure together, critical measurement points, sampling and report format."],"acceptanceText":["Define locating faces and initial datum features, with the first-stage dimensions to record.","Define datum transfer and dimensions linking both faces. Agree relative-position checks after repositioning.","Specify material, finish and critical dimensions, with agreed measurement points, sampling and report format."]},};
+  "custom-metal-parts-batch-examples": {
+    "conditionsFirst": true,
+    "quietClips": true,
+    "omitFamilyIntros": [
+      "batch-handling"
+    ],
+    "omitClipEvidenceRow": true,
+    "familyAcceptance": {
+      "batch-handling": "Specify how cleanliness will be checked and which dimensional inspection records are required for release."
+    },
+    "posterFirst": true,
+    "familyVideoDescriptions": {
+      "batch-handling": "Small machined metal components in a blue tray."
+    },
+    "heroIntro": "A shaft is ordered around its fits and axis; a housing around its cavity and mounting surfaces. These separate metal-part examples show forms to discuss, with each part number retaining its own grade, finish and acceptance requirements."
+  },
+  "custom-plastic-parts-ptfe-pom-pe-acrylic": {
+    "conditionsFirst": true,
+    "quietClips": true,
+    "omitFamilyIntros": [
+      "pe"
+    ],
+    "familyMediaTogether": true,
+    "familyPhotos": {
+      "acrylic": [
+        "plastic-acrylic-detail"
+      ]
+    },
+    "posterFirst": true,
+    "heroIntro": "A guide strip, gear and transparent cover have different jobs, even when all are machined plastics. These separate PTFE, POM, PE and acrylic examples help describe the form; the exact grade and working conditions determine what a new part must do."
+  },
+  "29-inch-display-housing-cnc-machining": {
+    "heroIntro": "A broad display housing can move under clamp or probe force even when its edges look substantial. Support and the specified measurement condition matter alongside recess depth, mounting holes and cosmetic surfaces.",
+    "setupIntro": "The original workshop image shows the panel across the machine table with its internal face accessible from above. A new enclosure needs its actual dimensions, supported regions and permitted clamp contacts defined before the route can be assessed.",
+    "stepText": [
+      "Support beneath a broad section reduces unsupported spans during cutting. Clamp contact also has to protect the visible face and fitted edges. A contact area that is convenient for holding may be unsuitable for the finished appearance.",
+      "Recesses and edge details need cutter access across the supported panel. Removing material changes the section left to resist movement, so operation order and support need to be considered together for the actual housing.",
+      "Flatness needs a stated condition: a free panel and one restrained at its mounting points answer different questions. The required condition, support and mating-edge relationships belong beside the mounting-hole and slot requirements."
+    ],
+    "acceptanceText": [
+      "The enclosure drawing supplies the actual length, width, depths and mounting pattern. The 29-inch label describes the display and is not a machining-envelope claim.",
+      "Flatness and mating-edge results need the specified support condition. A photograph of a panel lying on a table does not establish those results.",
+      "Visible faces can have cosmetic limits separate from the functional fits. Dimensions affected by finishing need evaluation in the completed surface condition."
+    ],
+    "videoWithSetup": true,
+    "omitVisible": true,
+    "compactResources": true,
+    "sequenceNote": false,
+    "setupCaption": "Original workshop photograph · the panel is supported across the machine table. Confirm the support and clamping arrangement for your drawing.",
+    "acceptanceHeading": "Flatness, mounting and appearance"
+  },
+  "milling-prismatic-components": {
+    "heroIntro": "On a block-shaped component, a row of bores may be evenly spaced yet sit too far from the mounting face. Functional datums connect that pattern to the assembly instead of treating each machined opening as an isolated size.",
+    "setupIntro": "The workshop photograph records a component held for milling. For a similar drawing, the mounting contacts, bore relationships and accessible orientations determine where the setup can locate and support the part.",
+    "stepText": [
+      "If the block seats on a base and locates against a side, those contacts explain why the bore pattern needs a relationship to those faces. A different assembly locator calls for a different scheme, even when the outside shape looks similar.",
+      "Features on the opposite face may require another orientation. An accessible locating face helps transfer the references; a clamp across a thin pocket wall can change the supported shape. The full model exposes those access and support decisions.",
+      "Repeated parts need the same released definition, but a batch photograph cannot establish dimensional consistency. The order’s inspection plan defines critical relationships, sampling and the records that will demonstrate acceptance."
+    ],
+    "acceptanceText": [
+      "Bore sizes establish the individual fits. Their positions from the mounting references establish where those fits will sit in the assembly.",
+      "Flatness, pocket depth and seating relationships need the specified measurement condition. A part supported differently from its intended condition may give a different result.",
+      "Final inspection follows any treatment that affects the accepted dimensions. Records identify the part number and revision so a mixed shipment does not lose the link to its requirements."
+    ],
+    "heroImage": {
+      "id": "multi-feature-milling-operation",
+      "crop": true,
+      "alt": "Prismatic components held in vises beneath a milling spindle.",
+      "caption": "Real crop from the original workshop photograph · the visible holding and tool access."
+    },
+    "setupImage": {
+      "id": "multi-feature-milling-parts",
+      "alt": "Separate block-shaped component forms with machined faces, holes and openings.",
+      "caption": "Independent component-form reference. Sampling and dimensional consistency require order-specific measurement records."
+    },
+    "sequenceNote": false,
+    "omitVisible": true,
+    "acceptanceHeading": "Relate the bores to the mounted part",
+    "compactResources": true
+  },
+  "milling-a-pocketed-enclosure-form": {
+    "heroIntro": "Removing the cavity is only part of making an enclosure. Enough material must remain to support its lid, bores and mounting holes, and the cutter still needs room to reach the deepest corners.",
+    "setupIntro": "The original photograph shows a recessed component beneath the spindle. Enlarging the cavity provides more room for the contents, but leaves less material in the walls. Pocket depth and the surrounding features also limit the available cutter approach.",
+    "stepText": [
+      "A round cutter leaves a radius in an internal corner. A mating insert that requires a sharp corner can therefore change the manufacturing route. Where the assembly allows it, a larger radius or local relief may give a shorter, more stable tool access to the pocket.",
+      "The cavity, central bore and mounting pattern need references to the faces that locate the enclosure in use. Holding the part must leave those features reachable while supporting the walls that remain after material removal.",
+      "A lid fit depends on the completed mating land and mounting relationships. If a seal is required, its surface and acceptance criteria need definition; the visible recess does not establish sealing performance. Surface treatment also needs to be reflected in the final dimensions."
+    ],
+    "acceptanceText": [
+      "Depth and remaining-wall results address the space and section left by the pocket. The minimum wall is a drawing requirement, not a value inferred from the example photograph.",
+      "Hole position, bore fit and seating-face requirements establish assembly. Each is evaluated from the selected references; a cavity-depth result cannot establish them.",
+      "Cosmetic faces and working interfaces can require different treatment or masking. Their accepted final condition needs to match the finish route in the quotation."
+    ],
+    "heroImage": {
+      "id": "milling-enclosure-parts",
+      "alt": "Separate pocketed component forms with circular recesses, flat faces and mounting holes.",
+      "caption": "Independent component-form reference · a common part or machining sequence with the workshop setup is not established."
+    },
+    "setupCaption": "Real crop from the original workshop photograph. Exact material, cavity depth and wall thickness come from your drawing.",
+    "sequenceNote": false,
+    "omitVisible": true,
+    "acceptanceLayout": "table",
+    "acceptanceHeading": "The cavity and the interfaces do different jobs",
+    "compactResources": true
+  },
+  "turning-then-milling-cylindrical-parts": {
+    "heroIntro": "A cross-hole can be the right size and still sit at the wrong height or angle on a turned body. After turning, the milling setup needs references for all three relationships: the axis, the axial position and any required clocking.",
+    "setupIntro": "The original workshop photograph records a subsequent milling setup. For a new component, its turned bore or diameter and shoulder may provide practical references, while the drawing defines which features actually control assembly.",
+    "stepText": [
+      "A bore or outside diameter establishes radial location only when it is the selected locating feature. A shoulder or face establishes the axial reference. Their role in the assembly determines which relationships the later milling operation must retain.",
+      "A flat or cross-hole may also need an angular relationship to another feature. A cylindrical surface alone cannot establish that clocking. A key, existing flat or another defined feature can provide the missing reference where the design requires one.",
+      "The final result includes the intersections between operations. A cross-hole can leave a burr inside a bore, while a later coating can change a sliding fit. Acceptance therefore covers the specified edges and completed surface condition as well as feature size and position."
+    ],
+    "acceptanceText": [
+      "Diameter and shoulder results describe the rotational interfaces. Runout requires its own specified datum and evaluation; it is not inferred from a list of size readings.",
+      "An off-axis feature needs position results referenced to the turned axis, axial locator and any required angular locator. Those references connect the machining stages.",
+      "Thread, sealing and sliding surfaces are accepted in their defined final state. Burr-sensitive intersections may need a separate edge inspection that an outside photograph cannot provide."
+    ],
+    "heroImage": {
+      "id": "turn-mill-operation",
+      "crop": true,
+      "alt": "Cylindrical components held beneath the milling spindle after turning.",
+      "caption": "Real crop from the original subsequent-milling photograph. The steps below are planning inputs for a new drawing."
+    },
+    "setupImage": {
+      "id": "turn-mill-parts",
+      "alt": "Separate circular components with central bores, flange holes and machined details.",
+      "caption": "Independent component-form reference · a shared part, order or machining sequence is not established."
+    },
+    "questionInSetup": true,
+    "sequenceNote": false,
+    "omitVisible": true,
+    "compactResources": true,
+    "acceptanceHeading": "Size, location and the completed interface"
+  },
+  "five-axis-machining-multi-face-parts": {
+    "heroIntro": "A side opening may be easy to see in a model and difficult to reach once the part is clamped. Multi-axis access is useful when a new orientation opens a practical cutter approach while retaining the required relationships between faces.",
+    "setupIntro": "The workshop photograph shows access around a rotary assembly. For a similar component, holes and contours on different faces need both a usable tool direction and references that remain meaningful after rotation.",
+    "stepText": [
+      "An angled face with straight holes may be reached at a fixed indexed orientation. A curved feature can need a changing tool direction. Distinguishing the two avoids choosing simultaneous motion merely because a part has several faces.",
+      "A clear cutter line is only part of the approach: the holder, spindle and fixture also need room. A narrow side opening can become inaccessible at a particular tilt even when the tool tip reaches its surface. The complete model and holding envelope make that conflict visible.",
+      "The common datum scheme relates the features made in different orientations. Measurement access matters alongside cutting access: a reachable machined surface still needs an agreed way to evaluate its position or profile."
+    ],
+    "acceptanceText": [
+      "Hole positions need the specified datum alignment. Measuring every diameter would leave the relationship between holes on different faces unresolved.",
+      "A profile result needs the controlled model revision and an evaluation method suited to the accessible surfaces. A photograph of the contour cannot supply that evidence.",
+      "Material and final surface requirements belong to the new drawing. The workshop views do not establish a grade, achieved tolerance or application qualification."
+    ],
+    "heroImage": {
+      "id": "five-axis-parts",
+      "alt": "Separate machined component forms with pockets, holes and contoured edges.",
+      "caption": "Independent component-form reference · a common part or machining sequence with the rotary setup is not established."
+    },
+    "acceptanceLayout": "table",
+    "acceptanceHeading": "What would establish the feature relationships?",
+    "omitVisible": true,
+    "compactResources": true,
+    "acceptanceTitles": [
+      "Angled holes & side openings",
+      "Contours & restricted access",
+      "Material & order-specific records"
+    ],
+    "sequenceNote": false
+  },
+  "two-stage-cnc-milling": {
+    "setupIntro": "A second orientation opens cutter access to another face. The locating surfaces must still represent the drawing references and leave enough room for support and clamping.",
+    "stepText": [
+      "A useful first operation creates accessible locating surfaces as well as finished features. For a block with holes on adjacent faces, a stable seating face and an appropriate side locator can give the next orientation a repeatable basis. The actual scheme follows the assembly datums and available stock.",
+      "The second setup needs contact on those locating surfaces without obstructing the next cut. Thin walls, cosmetic faces or a freshly finished pocket may be poor clamp contacts. A different holding method can be sensible when it preserves the references and supports the remaining material.",
+      "Two individually correct feature sizes do not prove that the faces or holes line up after repositioning. The final inspection needs the dimensions and geometric relationships that connect the operations, using the released datums and specified support condition."
+    ],
+    "acceptanceText": [
+      "The first locating features need enough definition to support the next operation. In-process results can help control that transfer, but they do not replace final acceptance.",
+      "A hole made in the second setup may need position relative to a bore or mounting face made first. Its own diameter alone leaves that relationship unanswered.",
+      "The released drawing, final finish and measurement support define the acceptance state. Sampling and report scope belong to the order, rather than being inferred from two workshop photographs."
+    ],
+    "heroIntro": "The workshop photographs record two milling operations on the same component. For a new part that needs repositioning, the key question is how the next setup will retain the relationship between the features made in each operation.",
+    "acceptanceHeading": "Evaluate the relationship across both setups"
+  }
+};
+
 export const capabilityReadingPolish = new Set(['cnc-milling-service','cnc-turning-service','5-axis-cnc-machining','plastic-machined-parts','casting-machining','aluminum-cnc-parts','stainless-steel-cnc-parts','copper-brass-cnc-parts','starting-with-a-sample']);
 export const capabilityFeatureLabels:Record<string,string> = {'cnc-turning-service':'Diameters, bores & threads','5-axis-cnc-machining':'Compare the two motion routes','plastic-machined-parts':'Polymer grades & conditions','casting-machining':'Cast blank & finished interfaces','copper-brass-cnc-parts':'Choose by function & alloy'};
 export const capabilityOpeningCopy: Record<string,string> = {
