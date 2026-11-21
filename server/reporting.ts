@@ -44,6 +44,14 @@ export function attributionFields(alias:string,aggregate=false){
   utmSource:field('utm_source'),utmMedium:field('utm_medium'),utmCampaign:field('utm_campaign'),
  };
 }
+export function firstKnownVisitSQL(visitorId: string, asOf?: string) {
+ const cutoff = asOf ? `AND known.started_at<=${asOf}` : '';
+ return `SELECT known.id FROM visits known
+  WHERE known.visitor_id=${visitorId} ${cutoff}
+    AND (known.source NOT IN ('','unknown') OR known.source_platform NOT IN ('','unknown')
+      OR known.channel NOT IN ('','unknown') OR known.referrer_host<>'')
+  ORDER BY known.started_at,known.id LIMIT 1`;
+}
 export function reportFilter(url:URL,alias:string,bounds?:{start:number;end:number},inquiry=false,detail=false){
  const terms:string[]=[],args:(string|number)[]=[];
  if(bounds){terms.push(`${alias}.created_at>=? AND ${alias}.created_at<?`);args.push(bounds.start,bounds.end);}
@@ -65,4 +73,4 @@ export function reportFilter(url:URL,alias:string,bounds?:{start:number;end:numb
  }
  return {sql:terms.length?terms.join(' AND '):'1=1',args};
 }
-export function pagination(url:URL){const value=Number(url.searchParams.get('p')||1);if(!Number.isSafeInteger(value)||value<1||value>100000)throw new HttpError(400,'page','页码不正确。');return{page:value,pageSize:20};}
+export function pagination(url:URL,pageSize=20){const value=Number(url.searchParams.get('p')||1);if(!Number.isSafeInteger(value)||value<1||value>100000)throw new HttpError(400,'page','页码不正确。');return{page:value,pageSize};}

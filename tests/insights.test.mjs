@@ -70,6 +70,82 @@ test('insights D1 APIs reconcile sources, exact click records and anchored long 
    const mailRow=await db.prepare('SELECT target,received_at,created_at FROM events WHERE id=?').bind(mail).first();assert.equal(mailRow.target,'mailto:roger@lzz-cnc.com');assert.ok(mailRow.received_at>=mailRow.created_at);
    assert.equal(JSON.stringify(await db.prepare('SELECT * FROM visits').all()).includes('PRIVATE_QUERY'),false);
   });
+  await t.test('acquisition counts each visit once and paginates the source table by ten', async () => {
+   const visitor = randomUUID(), at = Date.parse('2026-02-02T09:00:00+08:00');
+   const channels = [
+    ['google', 'organic_search', 'google.com'],
+    ['google', 'paid_search', 'google.com'],
+    ['bing', 'organic_search', 'bing.com'],
+    ...Array.from({length: 9}, (_, index) => ['qa-campaign-' + index, 'campaign', '']),
+   ];
+   await db.prepare('INSERT INTO visitors(id,first_seen,last_seen) VALUES(?,?,?)').bind(visitor, at, at).run();
+   const seed = channels.flatMap(([platform, channel, host], index) => {
+    const visit = randomUUID();
+    return [
+     db.prepare(`INSERT INTO visits(id,visitor_id,started_at,last_seen,source,channel,entry_page,source_platform,referrer_host)
+       VALUES(?,?,?,?,?,?,'/factory/',?,?)`).bind(visit, visitor, at, at, platform, channel, platform, host),
+     ...['page_view', index === 0 ? 'whatsapp_click' : 'page_view'].map(type =>
+      db.prepare(`INSERT INTO events(id,visitor_id,visit_id,type,created_at,page,source,channel)
+       VALUES(?,?,?,?,?,'/factory/',?,?)`).bind(randomUUID(), visitor, visit, type, at, platform, channel)),
+    ];
+   });
+   await db.batch(seed);
+   const range = '?start=2026-02-02&end=2026-02-02';
+   const stats = await get('/api/admin/stats' + range);
+   assert.equal(stats.current.visitors, 1);
+   assert.equal(stats.current.visits, 12);
+   assert.equal(stats.acquisition.total, stats.current.visits);
+   assert.equal(stats.acquisition.items.length, 5);
+   assert.equal(stats.acquisition.other, 7);
+   assert.equal(stats.trend[9].visits, 12);
+   assert.equal(stats.trend[9].whatsappClicks, 1);
+   assert.equal(stats.trend[9].emailClicks, 0);
+   const google = await get('/api/admin/stats' + range + '&platform=google');
+   assert.deepEqual(google.acquisition.items.map(({channel, visits}) => [channel, visits]),
+    [['organic_search', 1], ['paid_search', 1]]);
+   const firstPage = await get('/api/admin/sources' + range + '&pageSize=10');
+   const secondPage = await get('/api/admin/sources' + range + '&pageSize=10&p=2');
+   const all = await get('/api/admin/sources' + range);
+   assert.equal(firstPage.pageSize, 10);
+   assert.equal(firstPage.items.length, 10);
+   assert.equal(secondPage.items.length, 2);
+   assert.equal(all.pageSize, 20);
+   assert.deepEqual([...firstPage.items, ...secondPage.items], all.items);
+  });
+  await t.test('visitors retain the first known source separately from later visits', async () => {
+   const visitor = randomUUID(), day = Date.parse('2026-02-04T00:00:00+08:00');
+   const visits = [
+    ['unknown', 'unknown', ''],
+    ['google', 'organic_search', 'google.com'],
+    ['unknown', 'unknown', ''],
+    ['bing', 'paid_search', 'bing.com'],
+   ].map(([source, channel, host], offset) => ({id: randomUUID(), source, channel, host, at: day + offset * 86400000 + 60000}));
+   await db.prepare('INSERT INTO visitors(id,first_seen,last_seen) VALUES(?,?,?)').bind(visitor, visits[0].at, visits[3].at).run();
+   await db.batch(visits.flatMap(({id, source, channel, host, at}) => [
+    db.prepare(`INSERT INTO visits(id,visitor_id,started_at,last_seen,source,channel,entry_page,source_platform,referrer_host)
+      VALUES(?,?,?,?,?,?,'/factory/',?,?)`).bind(id, visitor, at, at, source, channel, source, host),
+    db.prepare(`INSERT INTO events(id,visitor_id,visit_id,type,created_at,page,source,channel)
+      VALUES(?,?,?,'page_view',?,'/factory/',?,?)`).bind(randomUUID(), visitor, id, at - 500, source, channel),
+   ]));
+   const direct = await get('/api/admin/visitors?start=2026-02-04&end=2026-02-07&source=unknown');
+   const entries = direct.items.filter(row => row.id === visitor);
+   assert.equal(entries.length, 2);
+   assert.equal(entries[0].is_returning, 1);
+   assert.equal(entries[0].source_platform, 'unknown');
+   assert.equal(entries[0].first_source_platform, 'google');
+   assert.equal(entries[0].first_source_channel, 'organic_search');
+   assert.equal(entries[1].first_source_platform, null);
+   const firstKnownDay = await get('/api/admin/visitors?start=2026-02-05&end=2026-02-05&source=google');
+   assert.equal(firstKnownDay.items.find(row => row.id === visitor).first_source_platform, 'google');
+   const detail = '/api/admin/visitors/' + visitor + '?v2=1&all=1&visitId=';
+   const directDetail = await get(detail + visits[2].id);
+   assert.equal(directDetail.selectedVisit.platform, 'unknown');
+   assert.equal(directDetail.firstSource.referrer_host, 'google.com');
+   const campaign = await get(detail + visits[3].id);
+   assert.equal(campaign.selectedVisit.platform, 'bing');
+   assert.equal(campaign.firstSource.platform, 'google');
+   assert.equal(campaign.firstSource.started_at, visits[1].at);
+  });
   await t.test('all actions are visible by default and intent filters keep ordinary context in the full journey',async()=>{
    const link=randomUUID(),submit=randomUUID();
    assert.equal((await send('/api/events',{events:[event(link,'link_click',5,'/factory/#quality'),event(submit,'form_submit',6,'')]},customer)).status,200);

@@ -10,8 +10,9 @@ import { audit } from "./auth";
 import { random } from "./security";
 import catalog from "./catalog.generated.json";
 import {productTitle} from "../src/data/presentation";
-import { DAY, OFFSET, eventDayStartSQL, pagination, reportPeriod, reportFilter } from "./reporting";
+import { DAY, OFFSET, eventDayStartSQL, firstKnownVisitSQL, pagination, reportPeriod, reportFilter } from "./reporting";
 import {detailedOverview,visitorJourney} from "./insights";
+import {platformSQL} from "./attribution";
 import type { DailyVisitor } from "../src/lib/insightTypes";
 
 export const statuses = ["new", "following", "completed", "spam"];
@@ -44,8 +45,10 @@ async function aggregateOverview(env: Env, url: URL) {
   const current = await env.DB.prepare(
     `SELECT COALESCE(SUM(count*(type='page_view')),0) pageViews,COALESCE(SUM(count*(type='product_view')),0) productViews,COALESCE(SUM(count*(type IN ('quote_click','whatsapp_click','email_click'))),0) contactClicks,COALESCE(SUM(count*(type='whatsapp_click')),0) whatsappClicks,COALESCE(SUM(count*(type='email_click')),0) emailClicks,COALESCE(SUM(count*(type='quote_click')),0) quoteClicks,COALESCE(SUM(count*(type='form_start')),0) formStarters,COALESCE(SUM(count*(type='form_error')),0) formErrors FROM analytics_totals a WHERE ${a.sql}`,
   ).bind(...a.args).first<Record<string, number>>();
-  const daily = await rows<{ bucket: number; pageViews: number }>(env,
-    `SELECT CAST((created_at-?)/86400000 AS INTEGER) bucket,SUM(count*(type='page_view')) pageViews FROM analytics_totals a WHERE ${a.sql} GROUP BY bucket`,
+  const daily = await rows<{bucket: number; pageViews: number; whatsappClicks: number; emailClicks: number}>(env,
+    `SELECT CAST((created_at-?)/86400000 AS INTEGER) bucket,
+      SUM(count*(type='page_view')) pageViews,SUM(count*(type='whatsapp_click')) whatsappClicks,
+      SUM(count*(type='email_click')) emailClicks FROM analytics_totals a WHERE ${a.sql} GROUP BY bucket`,
     [range.start, ...a.args]);
   const inquiries = await rows<{ bucket: number; inquiries: number }>(env,
     `SELECT CAST((created_at-?)/86400000 AS INTEGER) bucket,COUNT(*) inquiries FROM inquiries i WHERE ${i.sql} GROUP BY bucket`,
@@ -62,6 +65,8 @@ async function aggregateOverview(env: Env, url: URL) {
     trend: Array.from({ length: Math.ceil((range.end-range.start)/day) }, (_, bucket) => ({
       bucket, date: new Date(range.start+bucket*day+offset).toISOString().slice(0,10),
       pageViews: daily.find(row=>row.bucket===bucket)?.pageViews || 0,
+      whatsappClicks: daily.find(row=>row.bucket===bucket)?.whatsappClicks || 0,
+      emailClicks: daily.find(row=>row.bucket===bucket)?.emailClicks || 0,
       inquiries: inquiries.find(row=>row.bucket===bucket)?.inquiries || 0,
     })),
     previousTrend: [],
@@ -336,7 +341,7 @@ export async function visitors(env: Env, url: URL) {
   const items = await rows<DailyVisitor>(
     env,
     `WITH eligible AS (
-       SELECT e.visitor_id,e.visit_id,e.type,e.created_at,e.country,e.source,e.device,
+       SELECT e.visitor_id,e.visit_id,e.type,e.created_at,e.country,e.source,e.channel,e.device,
          ${eventDayStartSQL} day_start,
          ROW_NUMBER() OVER (
            PARTITION BY e.visitor_id, ${eventDayStartSQL}
@@ -346,16 +351,29 @@ export async function visitors(env: Env, url: URL) {
      ), daily AS (
        SELECT visitor_id id,day_start,MIN(created_at) first_seen,MAX(created_at) last_seen,
          COUNT(DISTINCT visit_id) visits,SUM(type='page_view') views,
+         MAX(CASE WHEN recency=1 THEN visit_id END) latest_visit,
          MAX(CASE WHEN recency=1 THEN country END) country,
          MAX(CASE WHEN recency=1 THEN source END) source,
+         MAX(CASE WHEN recency=1 THEN channel END) source_channel,
          MAX(CASE WHEN recency=1 THEN device END) device
        FROM eligible GROUP BY visitor_id,day_start
        ORDER BY day_start DESC,last_seen DESC,id DESC LIMIT ? OFFSET ?
      )
-     SELECT daily.*,CASE WHEN browser.first_seen < daily.day_start THEN 1 ELSE 0 END is_returning,
+     SELECT daily.id,daily.day_start,daily.first_seen,daily.last_seen,daily.visits,daily.views,
+       daily.country,daily.source,daily.source_channel,daily.device,
+       COALESCE(NULLIF(latest.source_platform,''),${platformSQL('daily.source')}) source_platform,
+       COALESCE(latest.referrer_host,'') referrer_host,
+       CASE WHEN initial.id IS NOT NULL
+         THEN COALESCE(NULLIF(initial.source_platform,''),${platformSQL('initial.source')}) END first_source_platform,
+       initial.channel first_source_channel,
+       CASE WHEN browser.first_seen < daily.day_start THEN 1 ELSE 0 END is_returning,
        (SELECT COUNT(*) FROM inquiries i WHERE i.visitor_id=daily.id
          AND i.created_at>=daily.day_start AND i.created_at<daily.day_start+${DAY}) inquiries
      FROM daily LEFT JOIN visitors browser ON browser.id=daily.id
+     LEFT JOIN visits latest ON latest.id=daily.latest_visit
+     LEFT JOIN visits initial ON initial.id=(${firstKnownVisitSQL(
+       'daily.id', 'MAX(daily.last_seen,COALESCE(latest.started_at,daily.last_seen))',
+     )})
      ORDER BY daily.day_start DESC,daily.last_seen DESC,daily.id DESC`,
     [...filter.args, pageSize, (page - 1) * pageSize],
   );

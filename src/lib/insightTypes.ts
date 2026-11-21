@@ -1,5 +1,11 @@
 export type InsightRange={start:number;end:number;calendarEnd:number;days:number;previousStart:number;previousEnd:number;previousChartEnd:number;timezone:string;granularity:"hour"|"day";now:number};
-export type TrendBucket={bucket:number;date:string;label:string;from:number;to:number;partial:boolean;future:boolean;visitors:number|null;pageViews:number|null;inquiries:number|null};
+export type TrendBucket={
+  bucket:number;date:string;label:string;from:number;to:number;partial:boolean;future:boolean;
+  visitors:number|null;pageViews:number|null;inquiries:number|null;
+  visits?:number|null;whatsappClicks?:number|null;emailClicks?:number|null;
+};
+export type AcquisitionSource={platform:string;channel:string;visits:number};
+export type Acquisition={total:number;items:AcquisitionSource[];other:number};
 export type SourceRow={platform:string;channel:string;referrerHost:string;entryPage:string;basis:string;visitors:number;visits:number;views:number;whatsappClicks:number;emailClicks:number;inquiries:number;intentActions:number};
 export type ProductInterest={product:string;views:number;visitors:number;intentActions:number};
 export type Paged<T>={items:T[];total:number;page:number;pageSize:number};
@@ -13,11 +19,17 @@ export type DailyVisitor = {
   is_returning: number;
   country: string;
   source: string;
+  source_platform?: string;
+  source_channel?: string;
+  referrer_host?: string;
+  first_source_platform?: string | null;
+  first_source_channel?: string | null;
   device: string;
   inquiries: number;
 };
-export type StatsV2={mode:'detailed'|'aggregate';range:InsightRange;current:Record<string,number>;previous:Record<string,number>;trend:TrendBucket[];previousTrend:TrendBucket[];breakdowns:Record<string,{name:string;views:number;visitors?:number}[]>;pages:{name:string;views:number;visitors?:number}[];products:{name:string;views:number;visitors?:number}[];scope:string;updatedAt:number};
+export type StatsV2={mode:'detailed'|'aggregate';range:InsightRange;current:Record<string,number>;previous:Record<string,number>;trend:TrendBucket[];previousTrend:TrendBucket[];acquisition?:Acquisition;breakdowns:Record<string,{name:string;views:number;visitors?:number}[]>;pages:{name:string;views:number;visitors?:number}[];products:{name:string;views:number;visitors?:number}[];scope:string;updatedAt:number};
 export type VisitAttribution={platform:string;channel:string;referrer_host:string;entry_page:string;attribution_basis:string;utm_source:string;utm_medium:string;utm_campaign:string};
 export type EventRecord=VisitAttribution&{id:string;visitor_id:string;visit_id:string;type:string;created_at:number;received_at:number|null;time_basis:string;sequence:number;page:string;page_title:string;section_id:string;section_label:string;element_id:string;element_label:string;target:string;position:string;resource:string;error_code:string;product:string;language:string;source:string;country:string;device:string};
 export type VisitRecord=VisitAttribution&{id:string;visitor_id:string;started_at:number;last_seen:number;active_from:number;active_to:number;source:string;country:string;device:string;language:string;views:number;whatsappClicks:number;emailClicks:number;quoteClicks:number;downloads:number;inquiries:number};
-export type JourneyV2={visitor:{id:string;first_seen:number;last_seen:number};visits:VisitRecord[];visitsTotal:number;visitPage:number;selectedVisit:VisitRecord|null;products:ProductInterest[];events:EventRecord[];before:string|null;after:string|null;focusEventId:string;inquiries:{id:string;name:string;company:string;status:string;created_at:number;interest:string}[]};
+export type VisitOrigin=VisitAttribution&{source:string;started_at:number};
+export type JourneyV2={visitor:{id:string;first_seen:number;last_seen:number};firstSource?:VisitOrigin|null;visits:VisitRecord[];visitsTotal:number;visitPage:number;selectedVisit:VisitRecord|null;products:ProductInterest[];events:EventRecord[];before:string|null;after:string|null;focusEventId:string;inquiries:{id:string;name:string;company:string;status:string;created_at:number;interest:string}[]};

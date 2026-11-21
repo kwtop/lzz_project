@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { SyntheticEvent, ReactNode } from "react";
-import { ChartNoAxesCombined, ChevronDown, ExternalLink, History, Inbox, ListFilter, RefreshCw } from "lucide-react";
-import {InsightsOverview,DateShortcuts,RecordPanel,JourneyPanel} from "./AdminInsights";
+import { ChartNoAxesCombined, ChevronDown, ExternalLink, History, Inbox, ListFilter, LogOut, RefreshCw, X } from "lucide-react";
+import {InsightsOverview,DateShortcuts,RecordPanel,JourneyPanel,sourceName} from "./AdminInsights";
 import {adminDate as date,defaultAdminFilters,presetDates,readAdminView,adminViewQuery} from "../lib/adminInsightsState";
 import type {AdminFilters,AdminDetail,Drill,JourneyContext,ReturnPeriod,Preset} from "../lib/adminInsightsState";
 import type {DailyVisitor,StatsV2} from "../lib/insightTypes";
@@ -299,7 +299,8 @@ function Drawer({
     <div className="admin-overlay">
       <button
         className="admin-backdrop"
-        aria-label="关闭详情"
+        aria-hidden="true"
+        tabIndex={-1}
         onClick={close}
       />
       <section
@@ -312,8 +313,8 @@ function Drawer({
       >
         <header>
           <h2 id="admin-drawer-title">{title}</h2>
-          <button onClick={close} aria-label="关闭详情">
-            关闭 ×
+          <button className="admin-icon-button" onClick={close} aria-label="关闭详情">
+            <X size={19} aria-hidden="true" />
           </button>
         </header>
         {children}
@@ -454,7 +455,22 @@ export default function AdminApp() {
   function openDay(value:string){dayTrendFocus.current=true;setReturnPeriod(previous=>previous||{start:analyticsFilters.start,end:analyticsFilters.end,preset:analyticsFilters.preset});const next={...analyticsFilters,start:value,end:value,preset:'custom' as const};setAnalyticsFilters(next);setDraft(next);setPage(1);setSourcePage(1);setSourceDisclosure({key:'',page:1});}
   function openPeriodInquiries(extra:Record<string,string>={}){const value={...defaultAdminFilters(),...analyticsFilters,...extra,allTime:false,q:'',status:'',unread:false};setInquiryFilters(value);setDraft(value);setTab('inquiries');setPage(1);setDetails([]);}
   const detailLabel=(item:AdminDetail)=>item.kind==='records'?item.drill.title:item.kind==='journey'?'访客轨迹':'询盘详情';
-  const detailBreadcrumb=<nav className="admin-detail-breadcrumb" aria-label="详情路径"><button onClick={closeDetails}>返回工作台</button>{details.map((item,index)=><span key={index}><span aria-hidden="true"> / </span>{index===details.length-1?<strong>{detailLabel(item)}</strong>:<button onClick={()=>backDetails(index)}>{detailLabel(item)}</button>}</span>)}{details.length>1&&<button className="admin-back-detail" onClick={()=>backDetails()}>← 返回上一层</button>}</nav>;
+  const detailBreadcrumb = (
+    <nav className="admin-detail-breadcrumb" aria-label="详情路径">
+      <button className="admin-text-button" onClick={closeDetails}>返回工作台</button>
+      {details.map((item, index) => (
+        <span key={index}>
+          <span aria-hidden="true"> / </span>
+          {index === details.length - 1
+            ? <strong>{detailLabel(item)}</strong>
+            : <button className="admin-text-button" onClick={() => backDetails(index)}>{detailLabel(item)}</button>}
+        </span>
+      ))}
+      {details.length > 1 && (
+        <button className="admin-text-button admin-back-detail" onClick={() => backDetails()}>← 返回上一层</button>
+      )}
+    </nav>
+  );
   useEffect(()=>{if(customDateFocus.current&&draft.preset==='custom'&&tab!=='inquiries'){customDateFocus.current=false;filterDrawer.current?.querySelector<HTMLInputElement>('input[type="date"]')?.focus();}},[draft.preset,tab]);
   useEffect(()=>{if(dayTrendFocus.current&&!stats.loading&&stats.data?.range.start===Date.parse(analyticsFilters.start+'T00:00:00+08:00')){const heading=document.getElementById('admin-trend-heading');if(heading){dayTrendFocus.current=false;heading.focus({preventScroll:true});heading.scrollIntoView?.({block:'start'});}}},[stats.loading,stats.data,analyticsFilters.start]);
   async function login(event: SyntheticEvent<HTMLFormElement>) {
@@ -506,7 +522,7 @@ export default function AdminApp() {
     setFilters(next);
     setSourcePage(1);setSourceDisclosure({key:'',page:1});
     setPage(1);
-    if(tab==="overview"&&filterDrawer.current){
+    if (filterDrawer.current) {
       filterDrawer.current.open=false;
       filterDrawer.current.querySelector("summary")?.focus({preventScroll:true});
     }
@@ -562,7 +578,6 @@ export default function AdminApp() {
             LZZ <span>网站后台</span>
           </p>
           <h1>登录工作台</h1>
-          <p>查看询盘、跟进客户和了解网站访问。</p>
           {authMode === "access" ? (
             <>
               <p>
@@ -635,6 +650,53 @@ export default function AdminApp() {
       </select>
     </label>
   );
+  const dateFields = (disabled: boolean) => (
+    <>
+      <label>
+        开始日期
+        <input
+          type="date"
+          value={draft.start}
+          max={draft.end}
+          disabled={disabled}
+          onChange={(event) => setDraft({ ...draft, preset: "custom", start: event.target.value })}
+        />
+      </label>
+      <label>
+        结束日期
+        <input
+          type="date"
+          value={draft.end}
+          min={draft.start}
+          max={date(Date.now())}
+          disabled={disabled}
+          onChange={(event) => setDraft({ ...draft, preset: "custom", end: event.target.value })}
+        />
+      </label>
+    </>
+  );
+  const productField = (
+    <label>
+      产品
+      <select value={draft.product} onChange={(event) => setDraft({ ...draft, product: event.target.value })}>
+        <option value="">全部产品</option>
+        {optionData.data?.products.map((product) => (
+          <option key={product.id} value={product.id}>{product.name}</option>
+        ))}
+      </select>
+    </label>
+  );
+  const filterActions = (
+    <div className="admin-filter-actions">
+      <button className="admin-primary">应用筛选</button>
+      <button type="button" onClick={() => {
+        const fresh = initialFilters();
+        setDraft(fresh);
+        setFilters(fresh);
+        setPage(1);
+      }}>重置</button>
+    </div>
+  );
   return (
     <div className={tab==="overview"?"admin-shell admin-shell--overview":"admin-shell"}>
       <aside className="admin-sidebar">
@@ -661,9 +723,9 @@ export default function AdminApp() {
           ))}
         </nav>
         <div className="admin-sidebar-bottom">
-          <p>{session.username}</p>
+          <p title={session.username}>{session.username}</p>
           <a href="/" target="_blank" rel="noopener noreferrer">
-            打开网站 <ExternalLink size={13} aria-hidden="true"/>
+            <ExternalLink size={15} aria-hidden="true" /> 打开网站
           </a>
           <button
             onClick={() =>
@@ -676,7 +738,7 @@ export default function AdminApp() {
               })
             }
           >
-            退出登录
+            <LogOut size={15} aria-hidden="true" /> 退出登录
           </button>
         </div>
       </aside>
@@ -684,7 +746,6 @@ export default function AdminApp() {
         {typeof window !== "undefined" && window.location.hostname.endsWith(".lzz-precision.pages.dev") && (
           <aside className="admin-preview-note" aria-label="预览数据说明">
             <strong>预览环境 · 独立测试数据</strong>
-            <p>这里使用独立数据。查看示例时，请选择覆盖示例日期的范围。</p>
           </aside>
         )}
         <header className="admin-header">
@@ -714,162 +775,98 @@ export default function AdminApp() {
             )}
           </div>}
         </header>
-        <div className={tab==="overview"?"admin-overview-toolbar":undefined}>
-        {tab!=='inquiries'&&<div className="admin-toolbar-dates"><DateShortcuts preset={draft.preset} select={selectPreset}/>{tab==='overview'&&<p className="admin-toolbar-period" title="北京时间 UTC+8">{analyticsFilters.start===analyticsFilters.end?analyticsFilters.start:analyticsFilters.start+' 至 '+analyticsFilters.end}</p>}</div>}
-        <div className="admin-active-filters">{(['platform','referrerHost','entryPage','pagePath','utmCampaign'] as const).filter(key=>filters[key]).map(key=><span key={key}>{({platform:'来源平台',referrerHost:'引荐域名',entryPage:'落地页',pagePath:'页面',utmCampaign:'推广活动'}[key])}：{filters[key]==='__unrecorded'?'未记录':filters[key]}<button aria-label={'清除'+key+'筛选'} onClick={()=>{const next={...filters,[key]:''};setFilters(next);setDraft(next);setPage(1);setSourcePage(1);setSourceDisclosure({key:'',page:1});}}>×</button></span>)}</div>
-        <details ref={filterDrawer} className="admin-filter-drawer" open={tab==="inquiries"}>
-        <summary><ListFilter size={16} aria-hidden="true"/> 筛选条件 <ChevronDown size={14} aria-hidden="true"/></summary>
-        <form className="admin-filters" onSubmit={apply}>
-          {(tab==='inquiries'||draft.preset==='custom')&&<>
-          <label>
-            开始日期
-            <input
-              type="date"
-              value={draft.start}
-              max={draft.end}
-              disabled={tab === "inquiries" && draft.allTime}
-              onChange={(event) =>
-                setDraft({ ...draft, preset: 'custom', start: event.target.value })
-              }
-            />
-          </label>
-          <label>
-            结束日期
-            <input
-              type="date"
-              value={draft.end}
-              min={draft.start}
-              max={date(Date.now())}
-              disabled={tab === "inquiries" && draft.allTime}
-              onChange={(event) =>
-                setDraft({ ...draft, preset: 'custom', end: event.target.value })
-              }
-            />
-          </label>
-          </>}
-          {select("source")}
-          {select("country")}
-          {tab!=='inquiries'&&<label>渠道<select value={draft.channel} onChange={e=>setDraft({...draft,channel:e.target.value})}><option value="">全部渠道</option>{Object.entries(channelLabels).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label>}
-          {tab==='inquiries'?<>          <label>
-            产品
-            <select
-              value={draft.product}
-              onChange={(event) =>
-                setDraft({ ...draft, product: event.target.value })
-              }
-            >
-              <option value="">全部产品</option>
-              {optionData.data?.products.map((product) => (
-                <option key={product.id} value={product.id}>
-                  {product.name}
-                </option>
-              ))}
-            </select>
-          </label>
-          {select("language")}
-</>:<details className="admin-more-filters"><summary>更多筛选</summary><div>          <label>
-            产品
-            <select
-              value={draft.product}
-              onChange={(event) =>
-                setDraft({ ...draft, product: event.target.value })
-              }
-            >
-              <option value="">全部产品</option>
-              {optionData.data?.products.map((product) => (
-                <option key={product.id} value={product.id}>
-                  {product.name}
-                </option>
-              ))}
-            </select>
-          </label>
-          {select("language")}
-<label>设备<select value={draft.device} onChange={e=>setDraft({...draft,device:e.target.value})}><option value="">全部设备</option>{Object.entries(deviceLabels).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label>
-<label>推广活动<input value={draft.utmCampaign} placeholder="选择或输入活动名称" list="analytics-campaigns" maxLength={80} onChange={e=>setDraft({...draft,utmCampaign:e.target.value})}/><datalist id="analytics-campaigns">{optionData.data?.campaigns.map(({value})=><option key={value} value={value}/>)}</datalist></label></div></details>}
-          {tab === "inquiries" && (
-            <>
-              <label>
-                目的地国家
-                <select
-                  value={draft.destination}
-                  onChange={(event) =>
-                    setDraft({ ...draft, destination: event.target.value })
-                  }
-                >
-                  <option value="">全部目的地</option>
-                  {optionData.data?.destinations?.map((item) => (
-                    <option key={item.value} value={item.value}>
-                      {value(item.value)}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="admin-search">
-                搜索询盘
-                <input
-                  type="search"
-                  value={draft.q}
-                  maxLength={100}
-                  placeholder="姓名、公司、联系方式或需求"
-                  onChange={(event) =>
-                    setDraft({ ...draft, q: event.target.value })
-                  }
-                />
-              </label>
-              <label>
-                处理状态
-                <select
-                  value={draft.status}
-                  onChange={(event) =>
-                    setDraft({ ...draft, status: event.target.value })
-                  }
-                >
-                  <option value="">全部状态</option>
-                  {Object.entries(stateLabels).map(([key, label]) => (
-                    <option key={key} value={key}>
-                      {label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="admin-check">
-                <input
-                  type="checkbox"
-                  checked={draft.unread}
-                  onChange={(event) =>
-                    setDraft({ ...draft, unread: event.target.checked })
-                  }
-                />
-                仅未读
-              </label>
-              <label className="admin-check">
-                <input
-                  type="checkbox"
-                  checked={draft.allTime}
-                  onChange={(event) =>
-                    setDraft({ ...draft, allTime: event.target.checked })
-                  }
-                />
-                全部询盘日期
-              </label>
-            </>
-          )}
-          <div className="admin-filter-actions">
-            <button className="admin-primary">应用筛选</button>
-            <button
-              type="button"
-              onClick={() => {
-                const fresh = initialFilters();
-                setDraft(fresh);
-                setFilters(fresh);
-                setPage(1);
-              }}
-            >
-              重置
-            </button>
+        <div className={tab === "inquiries" ? "admin-toolbar admin-toolbar--list" : "admin-toolbar"}>
+        {tab !== "inquiries" && (
+          <div className="admin-toolbar-dates">
+            <DateShortcuts preset={draft.preset} select={selectPreset} />
+            <p className="admin-toolbar-period">
+              {analyticsFilters.start === analyticsFilters.end
+                ? analyticsFilters.start
+                : analyticsFilters.start + " 至 " + analyticsFilters.end}
+              <span title="北京时间 UTC+8">UTC+8</span>
+            </p>
           </div>
-        </form>
-        </details>
+        )}
+        <div className="admin-active-filters">{(['platform','referrerHost','entryPage','pagePath','utmCampaign'] as const).filter(key=>filters[key]).map(key=><span key={key}>{({platform:'来源平台',referrerHost:'引荐域名',entryPage:'落地页',pagePath:'页面',utmCampaign:'推广活动'}[key])}：{filters[key]==='__unrecorded'?'未记录':filters[key]}<button aria-label={'清除'+key+'筛选'} onClick={()=>{const next={...filters,[key]:''};setFilters(next);setDraft(next);setPage(1);setSourcePage(1);setSourceDisclosure({key:'',page:1});}}>×</button></span>)}</div>
+        {tab === "inquiries" ? (
+          <form className="admin-inquiry-filters" onSubmit={apply}>
+            <label className="admin-search">
+              搜索询盘
+              <input type="search" value={draft.q} maxLength={100} placeholder="姓名、公司、联系方式或需求"
+                onChange={(event) => setDraft({ ...draft, q: event.target.value })} />
+            </label>
+            <label>
+              处理状态
+              <select value={draft.status} onChange={(event) => setDraft({ ...draft, status: event.target.value })}>
+                <option value="">全部状态</option>
+                {Object.entries(stateLabels).map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+              </select>
+            </label>
+            <label className="admin-check">
+              <input type="checkbox" checked={draft.unread} onChange={(event) => setDraft({ ...draft, unread: event.target.checked })} />
+              仅未读
+            </label>
+            {filterActions}
+            <details className="admin-more-filters">
+              <summary>更多筛选</summary>
+              <div className="admin-filters">
+                <label className="admin-check">
+                  <input type="checkbox" checked={draft.allTime} onChange={(event) => setDraft({ ...draft, allTime: event.target.checked })} />
+                  全部询盘日期
+                </label>
+                {dateFields(draft.allTime)}
+                <label>
+                  目的地国家
+                  <select value={draft.destination} onChange={(event) => setDraft({ ...draft, destination: event.target.value })}>
+                    <option value="">全部目的地</option>
+                    {optionData.data?.destinations?.map((item) => <option key={item.value} value={item.value}>{value(item.value)}</option>)}
+                  </select>
+                </label>
+                {select("source")}
+                {select("country")}
+                {productField}
+                {select("language")}
+              </div>
+            </details>
+          </form>
+        ) : (
+          <details ref={filterDrawer} className="admin-filter-drawer">
+            <summary><ListFilter size={16} aria-hidden="true" />筛选条件<ChevronDown size={14} aria-hidden="true" /></summary>
+            <form className="admin-filters" onSubmit={apply}>
+              {draft.preset === 'custom' && dateFields(false)}
+              {select("source")}
+              {select("country")}
+              <label>
+                渠道
+                <select value={draft.channel} onChange={(event) => setDraft({ ...draft, channel: event.target.value })}>
+                  <option value="">全部渠道</option>
+                  {Object.entries(channelLabels).map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+                </select>
+              </label>
+              <details className="admin-more-filters">
+                <summary>更多筛选</summary>
+                <div className="admin-filters">
+                  {productField}
+                  {select("language")}
+                  <label>
+                    设备
+                    <select value={draft.device} onChange={(event) => setDraft({ ...draft, device: event.target.value })}>
+                      <option value="">全部设备</option>
+                      {Object.entries(deviceLabels).map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+                    </select>
+                  </label>
+                  <label>
+                    推广活动
+                    <input value={draft.utmCampaign} placeholder="选择或输入活动名称" list="analytics-campaigns" maxLength={80}
+                      onChange={(event) => setDraft({ ...draft, utmCampaign: event.target.value })} />
+                    <datalist id="analytics-campaigns">{optionData.data?.campaigns.map(({value}) => <option key={value} value={value} />)}</datalist>
+                  </label>
+                </div>
+              </details>
+              {filterActions}
+            </form>
+          </details>
+        )}
         {tab==="overview"&&<button className="admin-refresh" disabled={busy} onClick={reload}><RefreshCw size={15} aria-hidden="true"/> 刷新数据</button>}
         </div>
         {tab!=='inquiries'&&returnPeriod&&<button className="admin-return-period" onClick={()=>{const value={...analyticsFilters,...returnPeriod};setAnalyticsFilters(value);setDraft(value);setReturnPeriod(null);}}>← 返回 {returnPeriod.start} 至 {returnPeriod.end} 趋势</button>}
@@ -896,6 +893,9 @@ export default function AdminApp() {
             <div className="admin-section-head">
               <h2>收到的询盘</h2>
               <span>
+                {!inquiryFilters.allTime && (
+                  <>{inquiryFilters.start}{inquiryFilters.start !== inquiryFilters.end && " 至 " + inquiryFilters.end} · </>
+                )}
                 {list.data?.total ?? "—"} 条 · 未读 {list.data?.unread ?? "—"}
               </span>
             </div>
@@ -904,13 +904,11 @@ export default function AdminApp() {
             ) : list.error ? (
               <Problem message={list.error} retry={reload} />
             ) : !list.data?.items.length ? (
-              <Empty>
-                暂无符合条件的询盘。只有服务端保存成功的表单会出现在这里。
-              </Empty>
+              <Empty>暂无符合条件的询盘。</Empty>
             ) : (
               <>
                 <div className="admin-table-scroll">
-                  <table className="admin-inquiry-table">
+                  <table className="admin-data-table admin-inquiry-table" role="table">
                     <thead>
                       <tr>
                         <th>客户</th>
@@ -928,7 +926,7 @@ export default function AdminApp() {
                           key={item.id}
                           className={item.unread ? "admin-unread" : ""}
                         >
-                          <td>
+                          <td data-column="客户">
                             <strong>
                               {item.unread === 1 && (
                                 <span
@@ -940,15 +938,16 @@ export default function AdminApp() {
                             </strong>
                             <span>{value(item.company)}</span>
                           </td>
-                          <td>
-                            <span>{value(item.email)}</span>
-                            <span>{value(item.phone)}</span>
+                          <td data-column="联系方式">
+                            {item.email && <span>{item.email}</span>}
+                            {item.phone && <span>{item.phone}</span>}
+                            {!item.email && !item.phone && <span>未记录</span>}
                           </td>
-                          <td>
+                          <td data-column="目的地 / 主题">
                             <span>{item.destination_country}</span>
                             <small>{value(item.interest)}</small>
                           </td>
-                          <td>
+                          <td data-column="状态">
                             <span
                               className={
                                 "admin-state admin-state-" + item.status
@@ -957,13 +956,13 @@ export default function AdminApp() {
                               {stateLabels[item.status]}
                             </span>
                           </td>
-                          <td>{time(item.created_at)}</td>
-                          <td>
+                          <td data-column="提交时间">{time(item.created_at)}</td>
+                          <td data-column="来源">
                             <span>{value(item.source)}</span>
                             <small>{value(item.language)}</small>
                           </td>
                           <td>
-                            <button onClick={() => openInquiry(item.id)}>
+                            <button className="admin-text-button" onClick={() => openInquiry(item.id)}>
                               查看
                             </button>
                           </td>
@@ -986,7 +985,9 @@ export default function AdminApp() {
           <section className="admin-section">
             <div className="admin-section-head">
               <h2>每日访客记录</h2>
-              <span>{analyticsMode === "aggregate" ? "此处展示此前已记录的浏览器访问。" : "同一浏览器每天一条，点开查看当天的访问。"}</span>
+              <span title="同一浏览器每天一条">
+                {analyticsMode === "aggregate" ? "历史记录" : "共 " + (visitorList.data?.total ?? "—") + " 条"}
+              </span>
             </div>
             {visitorList.loading ? (
               <Loading />
@@ -999,13 +1000,13 @@ export default function AdminApp() {
             ) : (
               <>
                 <div className="admin-table-scroll">
-                  <table>
+                  <table className="admin-data-table admin-visitor-table" role="table">
                     <thead>
                       <tr>
                         <th>浏览器编号</th>
                         <th>日期 / 最后活动</th>
                         <th>访问 / 浏览</th>
-                        <th>来源 / 国家</th>
+                        <th>最近来源 / 国家</th>
                         <th>设备</th>
                         <th>当日询盘</th>
                         <th>操作</th>
@@ -1016,20 +1017,27 @@ export default function AdminApp() {
                         const day = date(item.day_start);
                         return (
                           <tr key={item.id + ":" + day}>
-                            <td>
+                            <td data-column="浏览器编号">
                               <code title={item.id}>{item.id.slice(0, 12)}…</code>
                               <small>{item.is_returning === 1 ? "回访访客" : "首次来访"}</small>
                             </td>
-                            <td>{time(item.last_seen)}</td>
-                            <td>{item.visits} / {item.views}</td>
-                            <td>
-                              <span>{value(item.source)}</span>
-                              <small>{countryLabel(item.country)}</small>
+                            <td data-column="最后活动">{time(item.last_seen)}</td>
+                            <td data-column="访问 / 浏览">{item.visits} / {item.views}</td>
+                            <td data-column="最近来源 / 国家">
+                              <span>{item.source_platform
+                                ? sourceName({platform: item.source_platform, channel: item.source_channel || "unknown"})
+                                : value(item.source)}</span>
+                              <small>{[item.referrer_host, countryLabel(item.country)].filter(Boolean).join(" · ")}</small>
+                              {item.first_source_platform && (
+                                <small className="admin-visitor-origin">
+                                  首次已知 {sourceName({platform: item.first_source_platform, channel: item.first_source_channel || "unknown"})}
+                                </small>
+                              )}
                             </td>
-                            <td>{deviceLabels[item.device] || "未知"}</td>
-                            <td>{item.inquiries}</td>
+                            <td data-column="设备">{deviceLabels[item.device] || "未知"}</td>
+                            <td data-column="当日询盘">{item.inquiries}</td>
                             <td>
-                              <button onClick={() => {
+                              <button className="admin-text-button" onClick={() => {
                                 const dayFilters = { ...analyticsFilters, start: day, end: day };
                                 const params = new URLSearchParams(query(dayFilters, "visitors"));
                                 openJourney(item.id, { params: Object.fromEntries(params) });
@@ -1053,11 +1061,6 @@ export default function AdminApp() {
             )}
           </section>
         )}
-        <footer className="admin-footnote">
-          <p>
-            WhatsApp、邮箱和询价按钮点击属于联系行为，不代表收到询盘。无法识别的信息显示“未知”。本后台不记录键盘输入或表单填写内容。
-          </p>
-        </footer>
       </main>
       {activeDetail&&<Drawer title={activeDetail.kind==='records'?activeDetail.drill.title:activeDetail.kind==='journey'?'访客访问过程':'询盘详情'} close={closeDetails} wide={activeDetail.kind!=='inquiry'}>{detailBreadcrumb}
       {selectedInquiry&&<>

@@ -1,9 +1,9 @@
 import type {Env} from './types';
 import {HttpError,json,uuid} from './http';
-import {attributionFields,beijingDate,contactEventSQL,detailPeriod,eventDayStartSQL,HOUR,DAY,intentEventSQL,pagination,records,reportFilter,reportPeriod,total} from './reporting';
+import {attributionFields,beijingDate,contactEventSQL,detailPeriod,eventDayStartSQL,firstKnownVisitSQL,HOUR,DAY,intentEventSQL,pagination,records,reportFilter,reportPeriod,total} from './reporting';
 import {platformSQL,sourcePlatform} from './attribution';
 
-import type {StatsV2,TrendBucket,SourceRow,ProductInterest,EventRecord,VisitRecord,JourneyV2} from "../src/lib/insightTypes";
+import type {Acquisition,AcquisitionSource,StatsV2,TrendBucket,SourceRow,ProductInterest,EventRecord,VisitOrigin,VisitRecord,JourneyV2} from "../src/lib/insightTypes";
 export type {StatsV2,TrendBucket,SourceRow,Paged,EventRecord,VisitRecord,JourneyV2} from "../src/lib/insightTypes";
 
 async function metrics(env:Env,url:URL,bounds:{start:number;end:number}):Promise<Record<string,number>>{
@@ -28,12 +28,53 @@ async function metrics(env:Env,url:URL,bounds:{start:number;end:number}):Promise
  `).bind(...e.args).first<Record<string,number>>();
  return {...data,inquiries:await total(env,`SELECT COUNT(*) total FROM inquiries i WHERE ${i.sql}`,i.args)};
 }
-async function trend(env:Env,url:URL,start:number,calendarEnd:number,dataEnd:number,granularity:'hour'|'day'){
- const step=granularity==='hour'?HOUR:DAY,count=Math.round((calendarEnd-start)/step);
- const e=reportFilter(url,'e',{start,end:dataEnd}),i=reportFilter(url,'i',{start,end:dataEnd},true);
- const ev=await records<{bucket:number;visitors:number;pageViews:number}>(env,`SELECT CAST((created_at-?)/? AS INTEGER) bucket,COUNT(DISTINCT visitor_id) visitors,SUM(type='page_view') pageViews FROM events e WHERE ${e.sql} GROUP BY bucket`,[start,step,...e.args]);
- const iq=await records<{bucket:number;inquiries:number}>(env,`SELECT CAST((created_at-?)/? AS INTEGER) bucket,COUNT(*) inquiries FROM inquiries i WHERE ${i.sql} GROUP BY bucket`,[start,step,...i.args]);
- return Array.from({length:count},(_,bucket)=>{const from=start+bucket*step,to=from+step,future=from>=dataEnd,event=ev.find(r=>r.bucket===bucket),inquiry=iq.find(r=>r.bucket===bucket);return {bucket,date:beijingDate(from),label:granularity==='hour'?String(bucket).padStart(2,'0')+':00':beijingDate(from),from,to:Math.min(to,dataEnd),future,partial:!future&&to>dataEnd,visitors:future?null:event?.visitors||0,pageViews:future?null:event?.pageViews||0,inquiries:future?null:inquiry?.inquiries||0};});
+async function trend(env: Env, url: URL, start: number, calendarEnd: number, dataEnd: number, granularity: 'hour' | 'day'): Promise<TrendBucket[]> {
+ const hourly = granularity === 'hour';
+ const step = hourly ? HOUR : DAY;
+ const count = Math.round((calendarEnd - start) / step);
+ const e = reportFilter(url, 'e', {start, end: dataEnd});
+ const i = reportFilter(url, 'i', {start, end: dataEnd}, true);
+ type EventBucket = {bucket: number; visitors: number; visits: number; pageViews: number; whatsappClicks: number; emailClicks: number};
+ const [eventRows, inquiryRows] = await Promise.all([
+  records<EventBucket>(env, `SELECT CAST((e.created_at-?)/? AS INTEGER) bucket,
+    COUNT(DISTINCT e.visitor_id) visitors, COUNT(DISTINCT e.visit_id) visits,
+    SUM(e.type='page_view') pageViews, SUM(e.type='whatsapp_click') whatsappClicks, SUM(e.type='email_click') emailClicks
+    FROM events e WHERE ${e.sql} GROUP BY bucket`, [start, step, ...e.args]),
+  records<{bucket: number; inquiries: number}>(env, `SELECT CAST((i.created_at-?)/? AS INTEGER) bucket,
+    COUNT(*) inquiries FROM inquiries i WHERE ${i.sql} GROUP BY bucket`, [start, step, ...i.args]),
+ ]);
+ const events = new Map(eventRows.map(row => [row.bucket, row]));
+ const inquiries = new Map(inquiryRows.map(row => [row.bucket, row.inquiries]));
+ return Array.from({length: count}, (_, bucket) => {
+  const from = start + bucket * step, to = from + step;
+  const date = beijingDate(from), future = from >= dataEnd;
+  const event = events.get(bucket);
+  return {
+   bucket, date, label: hourly ? String(bucket).padStart(2, '0') + ':00' : date,
+   from, to: Math.min(to, dataEnd), future, partial: !future && to > dataEnd,
+   visitors: future ? null : event?.visitors ?? 0,
+   visits: future ? null : event?.visits ?? 0,
+   pageViews: future ? null : event?.pageViews ?? 0,
+   whatsappClicks: future ? null : event?.whatsappClicks ?? 0,
+   emailClicks: future ? null : event?.emailClicks ?? 0,
+   inquiries: future ? null : inquiries.get(bucket) ?? 0,
+  };
+ });
+}
+
+async function acquisitionSources(env: Env, filter: ReturnType<typeof reportFilter>): Promise<Acquisition> {
+ const fields = attributionFields('e');
+ // Count each matching visit once while retaining the linked event's filter dimensions.
+ const rows = await records<AcquisitionSource & {allVisits: number}>(env, `WITH matched AS (
+   SELECT MIN(e.id) eventId FROM events e WHERE ${filter.sql} GROUP BY e.visit_id
+  ), grouped AS (
+   SELECT ${fields.platform} platform, COALESCE(NULLIF(e.channel,''),'unknown') channel, COUNT(*) visits
+   FROM matched JOIN events e ON e.id=matched.eventId GROUP BY platform,channel
+  )
+  SELECT *,SUM(visits) OVER () allVisits FROM grouped ORDER BY visits DESC,platform,channel LIMIT 5`, filter.args);
+ const count = rows[0]?.allVisits ?? 0;
+ const items = rows.map(({platform, channel, visits}) => ({platform, channel, visits}));
+ return {total: count, items, other: count - items.reduce((sum, source) => sum + source.visits, 0)};
 }
 export async function detailedOverview(env:Env,url:URL){
  const range=reportPeriod(url),e=reportFilter(url,'e',range),breakdowns:StatsV2['breakdowns']={};
@@ -41,7 +82,12 @@ export async function detailedOverview(env:Env,url:URL){
  for(const field of ['source','channel','country','device','language'])breakdowns[field]=await records(env,`SELECT COALESCE(NULLIF(${field},''),'unknown') name,COUNT(*) views,COUNT(DISTINCT visitor_id) visitors FROM events e WHERE ${e.sql} AND type='page_view' GROUP BY name ORDER BY views DESC LIMIT 30`,e.args);
  const pages=await records<{name:string;views:number;visitors:number}>(env,`SELECT page name,COUNT(*) views,COUNT(DISTINCT visitor_id) visitors FROM events e WHERE ${e.sql} AND type='page_view' GROUP BY page ORDER BY views DESC LIMIT 30`,e.args);
  const products=await records<{name:string;views:number;visitors:number}>(env,`SELECT product name,COUNT(*) views,COUNT(DISTINCT visitor_id) visitors FROM events e WHERE ${e.sql} AND type='product_view' AND product<>'' GROUP BY product ORDER BY views DESC LIMIT 30`,e.args);
- return json({mode:'detailed',range,current,previous,trend:await trend(env,url,range.start,range.calendarEnd,range.end,range.granularity),previousTrend:await trend(env,url,range.previousStart,range.previousChartEnd,range.previousChartEnd,range.granularity),breakdowns,pages,products,updatedAt:Date.now(),checks:{pageViewsByCountry:current.pageViews,inquiriesByStatus:await records(env,`SELECT status,COUNT(*) total FROM inquiries i WHERE ${reportFilter(url,'i',range,true).sql} GROUP BY status`,reportFilter(url,'i',range,true).args)},scope:'每天每个浏览器计一位访客，首次记录日期早于当日即标记为回访。多天总览按所选范围内的浏览器去重，小时数据按小时去重。一次访问可以包含多次浏览或点击，连续30分钟无活动或入口来源改变时会开启新访问。'});
+ const [currentTrend, previousTrend, acquisition] = await Promise.all([
+  trend(env, url, range.start, range.calendarEnd, range.end, range.granularity),
+  trend(env, url, range.previousStart, range.previousChartEnd, range.previousChartEnd, range.granularity),
+  acquisitionSources(env, e),
+ ]);
+ return json({mode:'detailed',range,current,previous,trend:currentTrend,previousTrend,acquisition,breakdowns,pages,products,updatedAt:Date.now(),checks:{pageViewsByCountry:current.pageViews,inquiriesByStatus:await records(env,`SELECT status,COUNT(*) total FROM inquiries i WHERE ${reportFilter(url,'i',range,true).sql} GROUP BY status`,reportFilter(url,'i',range,true).args)},scope:'每天每个浏览器计一位访客，首次记录日期早于当日即标记为回访。多天总览按所选范围内的浏览器去重，小时数据按小时去重。一次访问可以包含多次浏览或点击，连续30分钟无活动或入口来源改变时会开启新访问。'});
 }
 
 function sourceData(url:URL,bounds:{start:number;end:number}){
@@ -58,7 +104,9 @@ function productInterestQuery(filter:string){
 }
 export async function sourceDetails(env:Env,url:URL){
  if(env.ANALYTICS_MODE==='aggregate')return json({items:[],total:0,page:1,pageSize:20,unavailable:'汇总模式没有个人来源与访问明细。'});
- const range=detailPeriod(url),{page,pageSize}=pagination(url),by=url.searchParams.get('by');
+ const by = url.searchParams.get('by');
+ const range = detailPeriod(url);
+ const {page, pageSize} = pagination(url, !by && url.searchParams.get('pageSize') === '10' ? 10 : 20);
  if(by==='products'){
   const filter=reportFilter(url,'e',range),query=productInterestQuery(filter.sql);
   const [items,count]=await Promise.all([
@@ -106,7 +154,12 @@ export async function visitorJourney(env:Env,id:string,url:URL){
  const all=url.searchParams.get('all')==='1',page=pagination(url).page;
  const bounds=all?undefined:detailPeriod(url);
  const visitURL=new URL(url);for(const key of ['visitId','eventId','cursor','direction'])visitURL.searchParams.delete(key);
- const visits=await visitRows(env,visitURL,bounds,id,page);
+ const [visits, firstSource] = await Promise.all([
+  visitRows(env,visitURL,bounds,id,page),
+  env.DB.prepare(`SELECT v.source,COALESCE(NULLIF(v.source_platform,''),${platformSQL('v.source')}) platform,
+   v.channel,v.referrer_host,v.entry_page,v.attribution_basis,v.utm_source,v.utm_medium,v.utm_campaign,v.started_at
+   FROM visits v WHERE v.id=(${firstKnownVisitSQL('?')})`).bind(id).first<VisitOrigin>(),
+ ]);
  let visitId=url.searchParams.get('visitId')||'',focusId=url.searchParams.get('eventId')||'';
  if(focusId){const focus=await env.DB.prepare("SELECT visit_id FROM events WHERE id=? AND visitor_id=? UNION ALL SELECT visit_id FROM inquiries WHERE 'inquiry:'||id=? AND visitor_id=?").bind(focusId,id,focusId,id).first<{visit_id:string}>();if(!focus||visitId&&visitId!==focus.visit_id)throw new HttpError(404,'not_found','找不到该访客的目标记录。');visitId=focus.visit_id;}
  visitId=visitId||visits.items[0]?.id||'';
@@ -126,5 +179,5 @@ export async function visitorJourney(env:Env,id:string,url:URL){
   if(events.length){const first=events[0],last=events.at(-1)!;if(await total(env,`${cte} SELECT COUNT(*) total FROM eligible WHERE ${compare('<')}`,[...base,...cursorArgs({time:first.created_at,sequence:first.sequence||0,id:first.id})]))before=pack(first);if(await total(env,`${cte} SELECT COUNT(*) total FROM eligible WHERE ${compare('>')}`,[...base,...cursorArgs({time:last.created_at,sequence:last.sequence||0,id:last.id})]))after=pack(last);}
  }
  const products=selectedVisit?await records<ProductInterest>(env,productInterestQuery('e.visitor_id=? AND e.visit_id=?')+' ORDER BY views DESC,product',[id,selectedVisit.id]):[];
- return json({visitor,visits:visits.items,visitsTotal:visits.total,visitPage:page,selectedVisit,products,events,before,after,focusEventId:focusId,inquiries:await records(env,'SELECT id,name,company,status,created_at,interest FROM inquiries WHERE visitor_id=? ORDER BY created_at DESC,id DESC',[id])});
+ return json({visitor,firstSource,visits:visits.items,visitsTotal:visits.total,visitPage:page,selectedVisit,products,events,before,after,focusEventId:focusId,inquiries:await records(env,'SELECT id,name,company,status,created_at,interest FROM inquiries WHERE visitor_id=? ORDER BY created_at DESC,id DESC',[id])});
 }

@@ -248,10 +248,19 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
       /1/,
     );
     assert.ok(screen.getByRole("heading", { name: "访客数" }));
+    const acquisition = screen.getByRole('region', {name: '访问来源构成'});
+    assert.ok(within(acquisition).getByRole('img', {name: '1 次访问按来源构成'}));
+    const segment = acquisition.querySelector('.admin-acquisition-segment');
+    assert.ok(segment);
+    fireEvent.click(segment);
+    const acquisitionDetails = await screen.findByRole('dialog');
+    await within(acquisitionDetails).findByRole('button', {name: '查看轨迹', exact: true});
+    fireEvent.click(within(acquisitionDetails).getByRole('button', {name: '关闭详情', exact: true}));
+    await waitFor(() => assert.equal(Boolean(screen.queryByRole('dialog')), false));
     const definitions=screen.getByText('统计口径与数据说明').closest('details');
     assert.equal(definitions.open,false,'Detailed definitions should not obscure the primary metrics');
     assert.match(definitions.textContent,/询盘入库只统计服务端保存成功/);
-    assert.match(screen.getByRole('heading',{name:'访客数'}).parentElement.textContent,/昨日同时段/);
+    assert.ok(screen.getByText('对比昨日同时段', {exact: true}));
     assert.match(screen.getByRole('heading',{name:/国家 \/ 地区/}).textContent,/页面浏览量/);
     assert.ok(screen.getByText(/回访访客：/));
     assert.ok(screen.getByText(/开始填写人数：/));
@@ -262,8 +271,10 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
     fireEvent.click(await screen.findByRole('button',{name:/点击 WhatsApp \/factory\/，查看轨迹/}));
     const latestDialog=await screen.findByRole('dialog');
     await within(latestDialog).findByText(/点击 WhatsApp · 当前定位/);
-    await within(latestDialog).findByRole('heading',{name:'本次访问来源'});
-    await within(latestDialog).findByText('workshop-qa');
+    const currentSource = await within(latestDialog).findByRole('region', {name: '本次访问来源'});
+    const firstSource = await within(latestDialog).findByRole('region', {name: '首次已知来源'});
+    assert.ok(within(currentSource).getByText('workshop-qa'));
+    assert.ok(within(firstSource).getByText('workshop-qa'));
     await within(latestDialog).findByRole('heading',{name:'本次浏览的产品'});
     fireEvent.click(within(latestDialog).getByRole('button',{name:'关闭详情',exact:true}));
     fireEvent.click(screen.getByRole('button',{name:/查看高意图记录/}));
@@ -376,7 +387,7 @@ test("Chinese admin operates against real local D1 and R2 APIs", async (t) => {
     );
     fireEvent.click(screen.getByRole("button", { name: "应用筛选" }));
     await screen.findByText(
-      "暂无符合条件的询盘。只有服务端保存成功的表单会出现在这里。",
+      "暂无符合条件的询盘。",
     );
     fireEvent.click(screen.getByRole("button", { name: "重置", exact: true }));
     try {
