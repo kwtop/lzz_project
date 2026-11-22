@@ -75,6 +75,14 @@ async function verifyPair([en,es]) {
  verify(en,a('link[hreflang=es]').attr('href')===site+es,'missing reverse hreflang');
  verify(es,b('.lzz-language-switch').attr('href')===en && a('.lzz-language-switch').attr('href')===es,'broken language selector');
  verify(es,b('main h1').length===1 && Boolean(b('meta[name=description]').attr('content')),'missing page content or metadata');
+ if (en === '/') {
+  const viewer = b('script[src*="/_astro/SiteInteractions."]').attr('src');
+  verify(es,b('[data-media-zoom]').text().trim()==='Ampliar imagen','incorrect image viewer label before opening');
+  const script = viewer ? fs.readFileSync(path.join(root,viewer.slice(1)),'utf8') : '';
+  verify(es,script.includes('Ampliar imagen') && script.includes('Ajustar imagen') && script.includes('Estás sin conexión'),
+   'missing Spanish image viewer or connection text');
+  verify(es,!script.includes('Zoom in') && !script.includes('Fit image'),'English image viewer labels after interaction');
+ }
  const expectedLabels = mobileLabels(a).map(label => {
   const key = label.replaceAll('&','&amp;');
   return Object.hasOwn(translations,key) ? load(translations[key],null,false).text() : label;

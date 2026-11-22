@@ -8,7 +8,7 @@ export const corePages: SpanishPage[] = [
   sections:[
    {title:'Fresado, torneado y mecanizado de cinco ejes', body:['Una cavidad profunda limita el alcance de la fresa. Un agujero inclinado obliga a orientar la pieza o la herramienta. Revisamos el plano para decidir cómo sujetar la pieza y qué operaciones conviene hacer en cada montaje.'], links:['/capabilities/cnc-milling-service/','/capabilities/cnc-turning-service/','/capabilities/5-axis-cnc-machining/']},
    {title:'Piezas y montajes de referencia', body:['En la galería puedes buscar una carcasa, un impulsor, un bloque o un racor parecido al tuyo. Los casos de mecanizado muestran cómo se sujeta cada pieza y desde qué cara entra la herramienta.'], links:['/machined-parts/gallery/','/machined-parts/machining-examples/']},
-   {title:'Inspección dimensional según plano', body:['En nuestro taller de Hangzhou disponemos de equipos de medición por coordenadas (CMM), altímetros de precisión y equipos de medición óptica. Antes de fabricar, acordamos las cotas críticas, el método de control y el informe necesario.'], links:['/factory/']},
+   {title:'Inspección dimensional según plano', body:['En nuestro taller de Hangzhou disponemos de máquinas de medición por coordenadas (CMM), medidores de altura de precisión y equipos de medición óptica. Antes de fabricar, acordamos las cotas críticas, el método de control y el informe necesario.'], links:['/factory/']},
   ],
  },
  {
@@ -27,7 +27,7 @@ export const corePages: SpanishPage[] = [
   cover:'workshop-wide',alt:'Vista general del taller de mecanizado CNC de LZZ en Hangzhou',
   sections:[
    {title:'Preparación del trabajo',body:['Disponemos de centros de fresado CNC y tornos. Cuando hay que trabajar varias caras, valoramos si un centro de cinco ejes mejora el acceso y ayuda a conservar la posición relativa de los elementos mecanizados.'],links:['/capabilities/','/machined-parts/machining-examples/']},
-   {title:'Qué medimos y cómo',body:['La máquina de medición por coordenadas permite comprobar la posición de los agujeros y otras relaciones geométricas. Según la cota y el acceso, utilizamos altímetros de precisión o medición óptica. Para roscas, rugosidad y espesor de recubrimiento, confirma el método y el informe en la cotización.']},
+   {title:'Qué medimos y cómo',body:['La máquina de medición por coordenadas permite comprobar la posición de los agujeros y otras relaciones geométricas. Según la cota y el acceso, utilizamos medidores de altura de precisión o equipos de medición óptica. Para roscas, rugosidad y espesor de recubrimiento, confirma el método y el informe en la cotización.']},
    {title:'Documentos para homologar al proveedor',body:['Consulta la información de la empresa y las copias de los documentos disponibles. Para un pedido nuevo, especifica si necesitas certificado del material, identificación por lote o informe de primera pieza.'],links:['/about/company-profile/','/resources/ordering/rfq-checklist/']},
   ],
  },
@@ -106,7 +106,7 @@ export const corePages: SpanishPage[] = [
   ],
  },
  {en:'/about/company-news/',path:'/empresa/noticias/',title:'Noticias de LZZ Precision',lead:'Visitas al taller, encuentros del sector y actividades del equipo de LZZ en Hangzhou.',listing:'news'},
- {en:'/quote/',path:'/cotizacion/',title:'Solicita una cotización de mecanizado CNC',lead:'Solicita una cotización para tu pieza CNC. Envía el material, la cantidad y el destino. Si tienes un plano, puedes adjuntarlo al formulario.',kind:'quote'},
+ {en:'/quote/',path:'/cotizacion/',title:'Solicita una cotización de mecanizado CNC',lead:'Pide una cotización para fabricar tu pieza por CNC. Indica el material, la cantidad y el país de destino. Si tienes un plano, puedes adjuntarlo al formulario.',kind:'quote'},
  {
   en:'/privacy/',path:'/privacidad/',title:'Privacidad e información del sitio',
   lead:'Cómo tratamos tus datos de contacto, los archivos del proyecto y los datos de navegación.',

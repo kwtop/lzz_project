@@ -7,6 +7,7 @@ import {load} from 'cheerio';
 import {buildSync} from 'esbuild';
 import {createElement} from 'react';
 import {renderToString} from 'react-dom/server';
+import ts from 'typescript';
 import {annotateAnalytics} from './annotate-analytics.mjs';
 import {gallerySpanish} from '../src/lib/gallerySpanish.ts';
 
@@ -26,7 +27,7 @@ const localizedScripts = {
  'Next part references':'Ver las piezas siguientes',
  "You're offline. Loaded content is still available. Reconnect to open new pages or media.":'Estás sin conexión. Puedes seguir viendo el contenido ya cargado. Vuelve a conectarte para abrir otras páginas o imágenes.',
  'Connection restored. You can try loading the page or media again.':'Se restableció la conexión. Puedes volver a cargar la página o el archivo.',
- 'Zoom in':'Ampliar',
+ 'Zoom in':'Ampliar imagen',
  'Fit image':'Ajustar imagen',
  'This image could not be loaded. Check your connection and try again.':'No se pudo cargar la imagen. Revisa la conexión e inténtalo de nuevo.',
  'The image is taking longer to load. Try again or open the image directly.':'La imagen está tardando en cargar. Reintenta o abre el archivo directamente.',
@@ -46,10 +47,25 @@ const localizedScripts = {
  'The video is taking longer to load. Check your connection and retry.':'El video está tardando en cargar. Revisa la conexión y vuelve a intentarlo.',
  'Playback could not start. Try the Play control or open the video file.':'No se pudo reproducir el video. Prueba con el botón de reproducción o abre el archivo.',
 };
-const scriptCopy = value => value.replace(/(['\"\x60])([^'\"\x60\n]*)\1/g,(match,quote,source) => {
- const translated = localizedScripts[source];
- return translated ? quote+translated+quote : match;
-});
+function scriptCopy(value) {
+ const source = ts.createSourceFile('localized.js',value,ts.ScriptTarget.Latest,false,ts.ScriptKind.JS);
+ const replacements = [];
+ function visit(node) {
+  if ((ts.isStringLiteral(node) || ts.isNoSubstitutionTemplateLiteral(node)) && Object.hasOwn(localizedScripts,node.text)) {
+   const text = JSON.stringify(localizedScripts[node.text]).replaceAll('<','\\u003c');
+   replacements.push({start:node.getStart(source),end:node.end,text});
+  }
+  ts.forEachChild(node,visit);
+ }
+ visit(source);
+ let translated = '';
+ let position = 0;
+ for (const {start,end,text} of replacements) {
+  translated += value.slice(position,start) + text;
+  position = end;
+ }
+ return translated + value.slice(position);
+}
 
 function galleryRenderer() {
  const {text} = buildSync({
