@@ -44,7 +44,12 @@ if(dialog&&typeof dialog.showModal==='function') {
  const zoom=dialog.querySelector<HTMLButtonElement>('[data-media-zoom]')!;
  const previous=dialog.querySelector<HTMLButtonElement>('[data-media-previous]')!;
  const next=dialog.querySelector<HTMLButtonElement>('[data-media-next]')!;
- const openImage=dialog.querySelector<HTMLAnchorElement>('[data-media-open]')!;
+ const openImageLabel=dialog.querySelector<HTMLSpanElement>('[data-media-open-label]')!;
+ const openImage=document.createElement('a');
+ openImage.dataset.mediaOpen='';
+ openImage.target='_blank';
+ openImage.rel='noopener noreferrer';
+ openImage.textContent=openImageLabel.textContent;
  let items:HTMLAnchorElement[]=[],index=0,trigger:HTMLElement|null=null;
  let loadTimer:ReturnType<typeof setTimeout>|undefined;
  const isImage=(link:HTMLAnchorElement)=>{
@@ -78,7 +83,9 @@ if(dialog&&typeof dialog.showModal==='function') {
   caption.textContent=text;image.alt=thumbnail?.alt||text;
   count.textContent=`${index+1} / ${items.length}`;
   previous.disabled=index===0;next.disabled=index===items.length-1;zoom.disabled=true;
-  openImage.href=item.href;loading.hidden=false;failure.hidden=true;image.hidden=true;
+  openImage.href=item.href;
+  if(!openImage.isConnected)openImageLabel.after(openImage);
+  loading.hidden=false;failure.hidden=true;image.hidden=true;
   const url=new URL(item.href);if(retry)url.searchParams.set('retry',Date.now().toString());
   loadTimer=setTimeout(()=>showError('The image is taking longer to load. Try again or open the image directly.'),15000);
   image.src=url.href;
@@ -107,6 +114,7 @@ if(dialog&&typeof dialog.showModal==='function') {
  dialog.querySelector('[data-media-close]')?.addEventListener('click',()=>dialog.close());
  dialog.addEventListener('close',()=>{
   if(loadTimer)clearTimeout(loadTimer);
+  openImage.remove();
   image.removeAttribute('src');resetZoom();dialog.dataset.state='idle';
   trigger?.focus({preventScroll:true});
  });
